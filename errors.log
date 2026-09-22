@@ -1,0 +1,156 @@
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[aac @ 0xc9d025180] decode_pce: Input buffer exhausted before END element found
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[h264 @ 0xc9d024380] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0xc9d024380] no frame!
+[aac @ 0xc9d271500] Number of bands (43) exceeds limit (34).
+[aist#0:1/aac @ 0xc9d014900] [dec:aac @ 0xc9d0183c0] Error submitting packet to decoder: Invalid data found when processing input
+[h264 @ 0xc9d026d80] co located POCs unavailable
+[h264 @ 0xc9d027480] co located POCs unavailable
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 1: 6144 >= 6144
+frame= 1336 fps=0.0 q=-0.0 size=N/A time=00:00:55.01 bitrate=N/A speed= 109x elapsed=0:00:00.50    frame= 2667 fps=2640 q=-0.0 size=N/A time=00:01:48.26 bitrate=N/A speed= 107x elapsed=0:00:01.01    frame= 4008 fps=2645 q=-0.0 size=N/A time=00:02:41.64 bitrate=N/A speed= 107x elapsed=0:00:01.51    frame= 5377 fps=2661 q=-0.0 size=N/A time=00:03:36.42 bitrate=N/A speed= 107x elapsed=0:00:02.02    frame= 6709 fps=2657 q=-0.0 size=N/A time=00:04:29.80 bitrate=N/A speed= 107x elapsed=0:00:02.52    frame= 8155 fps=2691 q=-0.0 size=N/A time=00:05:27.65 bitrate=N/A speed= 108x elapsed=0:00:03.03    frame= 9510 fps=2690 q=-0.0 size=N/A time=00:06:21.80 bitrate=N/A speed= 108x elapsed=0:00:03.53    [null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 9861 >= 9860
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 9861 >= 9861
+[aac @ 0xc9d271500] Number of bands (65) exceeds limit (40).
+[aist#0:1/aac @ 0xc9d014900] [dec:aac @ 0xc9d0183c0] Error submitting packet to decoder: Invalid data found when processing input
+[aac @ 0xc9d271500] decode_band_types: Input buffer exhausted before END element found
+[aist#0:1/aac @ 0xc9d014900] [dec:aac @ 0xc9d0183c0] Error submitting packet to decoder: Invalid data found when processing input
+[aac @ 0xc9d271500] invalid band type
+[aist#0:1/aac @ 0xc9d014900] [dec:aac @ 0xc9d0183c0] Error submitting packet to decoder: Invalid data found when processing input
+[aac @ 0xc9d271500] channel element 3.12 is not allocated
+[aist#0:1/aac @ 0xc9d014900] [dec:aac @ 0xc9d0183c0] Error submitting packet to decoder: Invalid data found when processing input
+[h264 @ 0xc9d027800] Reference 3 >= 3
+[h264 @ 0xc9d027800] error while decoding MB 12 10, bytestream 7447
+[h264 @ 0xc9d027b80] cabac decode of qscale diff failed at 36 13
+[h264 @ 0xc9d027b80] error while decoding MB 36 12, bytestream 2389
+frame=10958 fps=2712 q=-0.0 size=N/A time=00:07:19.91 bitrate=N/A speed= 109x elapsed=0:00:04.04    frame=12329 fps=2712 q=-0.0 size=N/A time=00:08:14.57 bitrate=N/A speed= 109x elapsed=0:00:04.54    frame=13735 fps=2719 q=-0.0 size=N/A time=00:09:10.89 bitrate=N/A speed= 109x elapsed=0:00:05.05    [null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 14256 >= 14252
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 14256 >= 14253
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 14256 >= 14254
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 14256 >= 14255
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 14256 >= 14256
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 14263 >= 14262
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 14263 >= 14263
+frame=14888 fps=2680 q=-0.0 size=N/A time=00:09:56.97 bitrate=N/A speed= 107x elapsed=0:00:05.55    [null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 15613 >= 15613
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 15910 >= 15906
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 15910 >= 15907
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 15910 >= 15908
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 15910 >= 15909
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 15910 >= 15910
+frame=16008 fps=2641 q=-0.0 size=N/A time=00:10:41.64 bitrate=N/A speed= 106x elapsed=0:00:06.06    [null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 16078 >= 16078
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 16094 >= 16094
+frame=17257 fps=2628 q=-0.0 size=N/A time=00:11:31.69 bitrate=N/A speed= 105x elapsed=0:00:06.56    frame=18695 fps=2644 q=-0.0 size=N/A time=00:12:29.16 bitrate=N/A speed= 106x elapsed=0:00:07.07    frame=20092 fps=2652 q=-0.0 size=N/A time=00:13:25.22 bitrate=N/A speed= 106x elapsed=0:00:07.57    [null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 20503 >= 20503
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 20507 >= 20507
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 20512 >= 20512
+frame=21624 fps=2676 q=-0.0 size=N/A time=00:14:26.28 bitrate=N/A speed= 107x elapsed=0:00:08.08    frame=23081 fps=2688 q=-0.0 size=N/A time=00:15:24.65 bitrate=N/A speed= 108x elapsed=0:00:08.58    [null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 23415 >= 23415
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 23515 >= 23511
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 23515 >= 23512
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 23515 >= 23513
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 23515 >= 23514
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 23515 >= 23515
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 23651 >= 23651
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 23680 >= 23680
+frame=24633 fps=2709 q=-0.0 size=N/A time=00:16:26.73 bitrate=N/A speed= 109x elapsed=0:00:09.09    [null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 24732 >= 24728
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 24732 >= 24729
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 24732 >= 24730
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 24732 >= 24731
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 24732 >= 24732
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 24746 >= 24746
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 24770 >= 24770
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 1: 47671293 >= 47671293
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 1: 48408573 >= 48408573
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 25774 >= 25774
+frame=26119 fps=2722 q=-0.0 size=N/A time=00:17:26.12 bitrate=N/A speed= 109x elapsed=0:00:09.59    [null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 27574 >= 27574
+frame=27642 fps=2736 q=-0.0 size=N/A time=00:18:27.05 bitrate=N/A speed= 110x elapsed=0:00:10.10    [null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 27684 >= 27684
+frame=29245 fps=2757 q=-0.0 size=N/A time=00:19:31.17 bitrate=N/A speed= 110x elapsed=0:00:10.60    [null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 29420 >= 29416
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 29420 >= 29417
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 29420 >= 29418
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 29420 >= 29419
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 29420 >= 29420
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 29431 >= 29431
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 29445 >= 29445
+frame=30587 fps=2753 q=-0.0 size=N/A time=00:20:24.93 bitrate=N/A speed= 110x elapsed=0:00:11.11    frame=31847 fps=2742 q=-0.0 size=N/A time=00:21:15.75 bitrate=N/A speed= 110x elapsed=0:00:11.61    frame=33077 fps=2729 q=-0.0 size=N/A time=00:22:04.36 bitrate=N/A speed= 109x elapsed=0:00:12.11    frame=34370 fps=2723 q=-0.0 size=N/A time=00:22:56.10 bitrate=N/A speed= 109x elapsed=0:00:12.62    frame=35744 fps=2723 q=-0.0 size=N/A time=00:23:51.14 bitrate=N/A speed= 109x elapsed=0:00:13.12    [null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35780 >= 35780
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35789 >= 35788
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35789 >= 35789
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35852 >= 35848
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35852 >= 35850
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35852 >= 35851
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35856 >= 35852
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35856 >= 35853
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35856 >= 35854
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35856 >= 35855
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35856 >= 35856
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35882 >= 35879
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35882 >= 35880
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35882 >= 35881
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35882 >= 35882
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35939 >= 35935
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35939 >= 35936
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35939 >= 35937
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35939 >= 35938
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35939 >= 35939
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35973 >= 35970
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35973 >= 35971
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35973 >= 35972
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35977 >= 35973
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35977 >= 35974
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35977 >= 35975
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35977 >= 35976
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 35977 >= 35977
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 36015 >= 36011
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 36015 >= 36012
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 36015 >= 36013
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 36015 >= 36014
+[null @ 0xc9cc17980] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 36015 >= 36015
+frame=37013 fps=2715 q=-0.0 size=N/A time=00:24:41.96 bitrate=N/A speed= 109x elapsed=0:00:13.63    frame=38402 fps=2716 q=-0.0 size=N/A time=00:25:37.51 bitrate=N/A speed= 109x elapsed=0:00:14.13    frame=39703 fps=2711 q=-0.0 size=N/A time=00:26:29.65 bitrate=N/A speed= 109x elapsed=0:00:14.64    frame=41088 fps=2712 q=-0.0 size=N/A time=00:27:24.90 bitrate=N/A speed= 109x elapsed=0:00:15.14    frame=42482 fps=2714 q=-0.0 size=N/A time=00:28:20.71 bitrate=N/A speed= 109x elapsed=0:00:15.65    frame=43940 fps=2719 q=-0.0 size=N/A time=00:29:18.95 bitrate=N/A speed= 109x elapsed=0:00:16.15    frame=45347 fps=2721 q=-0.0 size=N/A time=00:30:15.27 bitrate=N/A speed= 109x elapsed=0:00:16.66    frame=46690 fps=2719 q=-0.0 size=N/A time=00:31:09.05 bitrate=N/A speed= 109x elapsed=0:00:17.16    frame=48170 fps=2725 q=-0.0 size=N/A time=00:32:08.42 bitrate=N/A speed= 109x elapsed=0:00:17.67    frame=49386 fps=2717 q=-0.0 size=N/A time=00:32:56.93 bitrate=N/A speed= 109x elapsed=0:00:18.17    frame=50693 fps=2713 q=-0.0 size=N/A time=00:33:49.41 bitrate=N/A speed= 109x elapsed=0:00:18.68    frame=52007 fps=2712 q=-0.0 Lsize=N/A time=00:34:41.68 bitrate=N/A speed= 109x elapsed=0:00:19.17    
