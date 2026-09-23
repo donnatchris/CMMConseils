@@ -1,2143 +1,493 @@
-# Fiche mémo – Réseau, Box et analyse forensic
+# Analyse de la Freebox Révolution
 
-## 1. LAN
+- **Auteur** : Christophe Donnat - DonnatDev - christophe@donnat.dev
+- **Client** : Mme Sadedine Malika - DMM Conseils - dmmconseils@hotmail.com
+- **Matériel examiné** : Freebox Révolution du domicile de Mme Sadedine
+- **Début de l'analyse** : 16 septembre 2026 à 07:38:38
+- **Remarques** : L'analyse a été réalisée à distance via l'interface **Freebox OS**. Les informations présentées ci-dessous reflètent l'état de la Freebox et de la connexion Internet au moment du constat.
 
-**LAN = Local Area Network**
+## Accès à distance
 
-C’est le réseau local situé derrière la box.
+L'accès à distance à l'interface **Freebox OS** a été activé par Mme Sadedine à ma demande le **15 septembre 2026 à 12h27** pour me permettre d'explorer l'interface. Cette activation a été confirmée par un message affiché sur l'écran de la Freebox, indiquant que l'accès à distance était désormais disponible.
 
-Exemple :
+### État antérieur
+
+Au moment du constat, l'option « Activer l'authentification par mot de passe » permettant l'accès distant à l'interface Freebox OS n'était pas activée. Les ports d'accès distant HTTP et HTTPS étaient néanmoins configurés. L'interface indique par ailleurs que l'accès distant demeure possible pour les applications autorisées et les liens de partage.
+
+![État antérieur de la Freebox avant l'activation de l'accès à distance - photo transmise par Mme Sadedine](images/freebox-1.jpeg){ width=50% }
+
+### Activation de l'accès à distance
+
+Mme Sadedine m'a remis l'**adresse de connexion à distance**, ainsi que le **mot de passe** associé, afin que je puisse accéder à l'interface **Freebox OS** pour effectuer l'analyse.
+
+**Il faudra désactiver l'accès à distance et modifier le mot de passe après la fin de l'analyse**, afin de sécuriser l'accès à la Freebox et de protéger les informations personnelles de Mme Sadedine.
+
+![Activation de l'accès à distance sur la Freebox - photo transmise par Mme Sadedine](images/freebox-2.jpeg){ width=50% }
+
+## État de la Freebox et de la connexion Internet
+
+Lors du contrôle de l'interface **Freebox OS**, la Freebox apparaît connectée à Internet au moyen d'une liaison **FTTH (Fiber To The Home)**.
+
+### État de la connexion Internet
+
+L'écran d'état de la connexion Internet indique les informations suivantes au moment du constat :
+
+- connexion Internet : **active** ;
+- type de connexion : **FTTH** ;
+- adresse IPv4 publique affichée : **88.178.32.36** ;
+- plage de ports IPv4 attribuée : **0 à 16383** ;
+- adresse IPv6 affichée : **2a01:e0a:c88:900::1** ;
+- volume de données reçu : **4,2 Go** ;
+- volume de données émis : **927,2 Mo** ;
+- débit maximal indiqué : **1 Gb/s descendant** et **900 Mb/s montant**.
+
+La mention d'une plage de ports IPv4 limitée à **0-16383** indique que l'adresse IPv4 affichée est utilisée avec une attribution partielle de ports.
+
+> En conséquence, dans le cadre de l'analyse de journaux de connexion, une adresse IPv4 seule peut ne pas être suffisante pour attribuer une connexion à cette Freebox : l'**horodatage** et, lorsqu'il est disponible, le **numéro de port source** constituent également des éléments importants.
+
+### État de la liaison fibre
+
+Concernant la liaison fibre, Freebox OS indique :
+
+- état du lien : **Up** ;
+- module fibre présent : **Oui** ;
+- signal optique : **Présent** ;
+- alimentation : **OK** ;
+- fabricant du module SFP : **TLE TUNG-LI** ;
+- modèle : **OF001-003C** ;
+- numéro de série : **2107071255**.
+
+Ces informations décrivent **l'état de la Freebox au moment du constat**. Elles ne permettent pas, à elles seules, de déterminer l'état de la connexion, l'adresse IP attribuée ou la plage de ports utilisée à une date antérieure, notamment en octobre 2024. Toute conclusion concernant cette période devra donc être fondée sur des journaux historiques ou d'autres éléments techniques permettant une corrélation temporelle.
+
+### Historique de connexion
+
+L'historique de connexion consulté fait apparaître, pour le **16 septembre 2026**, deux événements successifs :
+
+- à **09:48:05**, établissement du **lien FTTH**, avec un état « Connecté » et un débit de liaison indiqué de **1 Gb/s en réception** et **900 Mb/s en émission** ;
+- à **09:48:26**, établissement de la **connexion Internet FTTH publique**, également indiquée comme « Connectée ».
+
+## Gestion des accès
+
+### Applications
+
+3 applications sont actuellement autorisées à accéder à la Freebox via l'interface **Freebox OS** :
+
+1. Freebox Connect (iPhone de dmm conseils) : dernier accès le 21/02/2022 à 00:23:12 ;
+2. Freebox Connect (iPhone) : dernier accès le 21/09/2026 à 12:17:20 ;
+3. Free (iPhone) : dernier accès le 08/04/2026 à 01:31:09.
+
+![Gestion des accès : Applications](images/freebox-3.png){ width=50% }
+
+#### Droits d'accès des applications
+
+**Au moment du constat, les droits d'accès des applications autorisées étaient nuls**, ce qui signifie qu'aucune application n'avait la possibilité de modifier la configuration de la Freebox ou d'accéder à des informations sensibles.
+
+**Cela ne préjuge pas de l'état des droits d'accès à une date antérieure, notamment en octobre 2024.** Il est donc nécessaire de vérifier les journaux historiques pour déterminer si des applications avaient des droits d'accès à cette période.
+
+![Droits d'accès des applications](images/freebox-4.png){ width=50% }
+
+### Sessions
+
+Lors du constat, l'onglet « Sessions » de la gestion des accès faisait apparaître **une seule session active** à l'interface Freebox OS. Cette session, ouverte le 22 septembre 2026 à 07:38:38, était associée à l'adresse IPv6 2001:861:51c4:5820:4034:8cbe:15e9:b1be.
+
+Cette session correspond à l'accès à distance que j'avais ouvert pour effectuer l'analyse. Elle était toujours active au moment du constat, ce qui indique que l'accès à distance n'avait pas été désactivé depuis mon intervention. Cette ligne de session est donc parfaitement cohérente et normale.
+
+Cet écran décrit les sessions actives au moment du constat et ne constitue pas, à lui seul, un historique des connexions antérieures.
+
+![Sessions actives](images/freebox-5.png){ width=50% }
+
+### Notifications
+
+L'onglet « Notifications » fait apparaître un iPhone enregistré auprès du service de notification de Freebox Connect. Cet appareil est abonné aux catégories « Périphériques réseaux » et « Mot de passe ». La dernière utilisation enregistrée est datée du 21 septembre 2026 à 12:17:18. Cet horaire est cohérent avec le dernier accès relevé à 12:17:20 pour une application Freebox Connect associée à un iPhone.
+
+- Appareil : iPhone
+- Identifiant technique de notification : `6FE961F4-05AF-478D-9640-E57C7B9F3D80-notification`
+- URL du serveur : <https://api.scw.iliad.fr/notifications/freebox/connect>
+- Type de notification : firebase
+- Type de message : notification
+- Abonnements :
+  - Périphériques réseaux
+  - Mot de passe
+- Dernière utilisation : hier à 12:17:18
+
+> Le 21 septembre 2026 vers 12:17, l'application Freebox Connect associée à un iPhone a enregistré un accès à 12:17:20. Le service de notifications associé au même type d'appareil a enregistré une dernière utilisation à 12:17:18. Ces horaires sont cohérents avec les opérations de configuration réalisées par Mme Sadedine à cette période, notamment l'accès aux paramètres de la Freebox. Cette corrélation temporelle ne permet toutefois pas, à elle seule, d'attribuer précisément ces événements à une action déterminée.
+
+![Notifications](images/freebox-6.png){ width=50% }
+
+## Connexion internet
+
+### Configuration
+
+La configuration au moment de l'analyse correspond bien à celle affichée dans la capture d'écran envoyée par Mme Sadedine après l'activation de l'accès à distance. On retrouve notamment :
+
+- Port accès distant (HTTP) : 3591
+- Port accès distant (HTTPS) : 9717
+
+![Configuration de l'accès à distance](images/freebox-9.png){ width=50% }
+
+### Configuration IPv6
+
+La configuration IPv6 de la Freebox fait apparaître un préfixe principal `2a01:e0a:c88:900::/64` ainsi que plusieurs préfixes secondaires successifs. Aucun « Next Hop » n'était configuré pour ces sous-réseaux au moment du constat. Le pare-feu IPv6 intégré à la Freebox apparaissait désactivé.
+
+Le pare-feu IPv6 intégré à la Freebox était désactivé au moment du constat. En conséquence, la Freebox n'appliquait pas de filtrage IPv6 entrant via cette fonction. La seule désactivation de ce pare-feu ne permet toutefois pas d'établir qu'un équipement du réseau était effectivement accessible depuis Internet, cette accessibilité dépendant également de la configuration IPv6, des services exposés et des mécanismes de filtrage propres à chaque appareil.
+
+![Configuration IPv6](images/freebox-10.png){ width=50% }
+
+### DNS dynamique
+
+Le service de DNS dynamique intégré à la Freebox n'était pas configuré au moment du constat. Les trois fournisseurs proposés par l'interface - DynDNS, No-IP et OVH - apparaissaient désactivés.
+
+### Serveur VPN et client VPN
+
+La Freebox dispose de fonctions de serveur VPN prenant en charge plusieurs protocoles, notamment PPTP, OpenVPN, IPsec IKEv2 et WireGuard. Lors du constat, l'ensemble de ces services apparaissait désactivé. Aucun accès au réseau local via le serveur VPN intégré de la Freebox n'était donc actif au moment de l'examen.
+
+![Configuration serveur VPN](images/freebox-11.png){ width=50% }
+
+Lors du constat, le client VPN intégré à la Freebox était indiqué comme inactif. Le journal de connexion associé ne contenait aucune entrée visible. Aucun tunnel VPN sortant actif ni aucune trace de connexion antérieure n'a donc été relevé dans cette section de Freebox OS au moment de l'examen.
+
+![Configuration client VPN](images/freebox-12.png){ width=50% }
+
+### Redirection de ports et gestion de ports
+
+La configuration de gestion des ports ne faisait apparaître aucune redirection de port active ou configurée. La fonction DMZ était également désactivée. Aucun équipement du réseau local n'était donc exposé via ces mécanismes IPv4 au moment du constat.
+
+L'examen de la gestion des ports fait apparaître plusieurs services entrants gérés automatiquement par Freebox OS. Au moment du constat, les accès distants à Freebox OS étaient indiqués comme actifs sur les ports 3591 et 9717. Les ports associés au client BitTorrent intégré de la Freebox étaient également actifs (9830 pour le mécanisme DHT et 13035 pour le port principal).
+
+Les services FTP ainsi que l'ensemble des protocoles de serveur VPN proposés par la Freebox (PPTP, OpenVPN, IPsec/IKEv2 et WireGuard) apparaissaient inactifs.
+
+Par ailleurs, aucune redirection de port manuelle et aucune DMZ n'étaient configurées. Ces constatations décrivent l'état de la configuration au moment de l'examen et ne permettent pas de déterminer si des services différents avaient été activés antérieurement.
+
+![Redirection de ports](images/freebox-13.png){ width=50% }
+
+![Gestion des ports](images/freebox-14.png){ width=50% }
+
+![Gestion des ports](images/freebox-15.png){ width=50% }
+
+## Réseau local
+
+### Liste des équipements connectés fournie par Mme Sadedine
+
+Mme Sadedine m'a fourni la liste des équipements connectés chez elle.
+
+Voici la liste propre des équipements que Mme Sadedine m'a signalés comme étant les siens ou présents régulièrement chez elle :
+
+- Caméra terrasse - caméra Action
+- Caméra salon - caméra Action
+- Caméra chambre - caméra Action, utilisée surtout lors des absences/voyages
+- Caméra entrée - système Xiaomi Home
+- iPhone 13 vert - encore utilisé, avec numéro anglais
+- iPhone 13 mini - téléphone courant, acheté en 2025
+- iPhone 11 Pro - utilisé ponctuellement, environ une fois par mois, avec numéro étranger
+- Ordinateur portable HP
+- Ordinateur Asus - anciennement saisi, rallumé récemment
+- Imprimante Samsung connectée
+- Imprimante HP - non utilisée depuis plusieurs semaines
+
+Appareils de tiers pouvant apparaître ponctuellement sur le réseau :
+
+- Samsung de Cherifa
+- iPhone « doudou » / Daklia
+
+Noms d'iPhone mentionnés par Mme Sadedine :
+
+- iPhone de Malika
+- iPhone de dmm conseils
+
+### Mode réseau
+
+La Freebox était configurée en mode routeur. Son adresse IPv4 sur le réseau local était `192.168.1.254` et le domaine local configuré était `home`. Le serveur Freebox était annoncé sous différents noms selon les mécanismes de résolution utilisés : `freebox-server` pour DNS, `Freebox-Server` pour mDNS et `Freebox_Server` pour NetBIOS.
+
+### Wi-Fi
+
+La Freebox disposait de deux interfaces Wi-Fi actives, en 2,4 GHz et 5 GHz. L'interface 2,4 GHz observée utilisait le canal 6 avec une largeur de bande de 20 MHz et une authentification WPA2. Plusieurs stations étaient associées ou récemment actives, notamment deux iPhone ainsi que plusieurs équipements identifiés par Freebox OS comme provenant de fabricants de modules ou objets connectés, dont Tuya Smart Inc. et Shenzhen Bilian Electronic Co., Ltd. Les adresses MAC, niveaux de signal, durées de connexion et volumes de données associés ont été relevés.
+
+6 appareils / stations Wi-Fi ont été identifiés au moment du constat :
+
+- wlan0 - MAC `1C:90:FF:9D:B8:4A`
+- iPhone - MAC `6A:92:E3:54:E4:62`
+- 192-168-1-195 - MAC `70:70:AA:0D:EC:11`
+- Shenzhen Bilian Electronic Co., Ltd - MAC `C4:3C:B0:23:34:46`
+- Tuya Smart Inc. - MAC `CC:8C:BF:8E:33:8A`
+- iPhone - MAC `D2:0E:25:1B:5B:B8`
+
+![Wi-Fi](images/freebox-16.png){ width=50% }
+
+### WPS
+
+L'historique des sessions WPS de la Freebox était vide au moment du constat. Aucune association d'appareil via WPS n'était donc visible dans l'historique disponible. Cette absence d'entrée ne permet toutefois pas d'exclure un usage antérieur du WPS qui ne serait plus conservé par la Freebox.
+
+![Historique WPS](images/freebox-17.png){ width=50% }
+
+### DHCP
+
+L'examen des baux DHCP actifs a permis d'établir une correspondance entre plusieurs adresses MAC et adresses IPv4 locales. Deux iPhone disposaient respectivement des adresses `192.168.1.18` et `192.168.1.73`. Une caméra identifiée par la Freebox sous le nom `mxiang-camera-mwc10_miap06DE` disposait de l'adresse `192.168.1.135`. Trois autres équipements, identifiés sous les noms `wlan0`, `STARVOX-98AAFC131893` et `192-168-1-195`, disposaient respectivement des adresses `192.168.1.159`, `192.168.1.169` et `192.168.1.195`.
+
+Cela permet d'établir des correspondances pour identifier les équipements connectés au réseau local de la Freebox. Les informations relevées sont les suivantes :
+
+- wlan0 - MAC `1C:90:FF:9D:B8:4A` - IP `192.168.1.159` - appareil encore non identifié précisément ; peut être l'imprimante
+- iPhone - MAC `6A:92:E3:54:E4:62` - IP `192.168.1.73` - téléphone
+- 192-168-1-195 - MAC `70:70:AA:0D:EC:11` - IP `192.168.1.195`
+- Shenzhen Bilian Electronic Co., Ltd - MAC `C4:3C:B0:23:34:46` - fabricant de module Wi-Fi, Bluetooth ou carte réseau ; probablement une caméra ou l'imprimante ; appareil encore non identifié précisément
+- Tuya Smart Inc. - MAC `CC:8C:BF:8E:33:8A` - plateforme/écosystème IoT utilisé par de nombreux fabricants d'objets connectés ; probablement une caméra ; appareil encore non identifié précisément
+- iPhone - MAC `D2:0E:25:1B:5B:B8` - IP `192.168.1.18` - téléphone
+
+J'ai aussi identifié un autre équipement qui n'était pas dans la liste initiale :
+
+- `mxiang-camera-mwc10_miap06DE` - MAC `E0:A2:5A:0D:06:DF` - IP `192.168.1.135` - probablement la caméra Xiaomi Home de l'entrée (le morceau `camera` indique clairement un équipement caméra, et le préfixe `mxiang` / `mi...` est compatible avec l'écosystème Xiaomi/Mijia)
+
+> Les équipements connectés semblent correspondre à ceux signalés par Mme Sadedine, mais il faudrait avoir la liste des adresses MAC de tous les appareils pour confirmer l'identité de chacun. Les correspondances établies sont basées sur les informations disponibles au moment du constat.
+
+![Baux DHCP actifs](images/freebox-18.png){ width=50% }
+
+### Switch
+
+L'examen du switch intégré à la Freebox fait apparaître trois ports disposant d'une liaison physique active. Le port Ethernet 1 dessert l'équipement `mxiang-camera-mwc10_miap06DE`, identifié par l'adresse MAC `E0:A2:5A:0D:06:DF` et précédemment associé à l'adresse IPv4 `192.168.1.135`. Le port Ethernet 2 dessert l'équipement `STARVOX-98AAFC131893`, adresse MAC `98:AA:FC:13:18:93`, associé à l'adresse IPv4 `192.168.1.169`. Le port Ethernet 3 était inactif. Le port Ethernet 4 présentait une liaison active, sans adresse MAC affichée dans cette vue au moment du constat.
+
+- `mxiang-camera-mwc10_miap06DE` - MAC `E0:A2:5A:0D:06:DF` - IP `192.168.1.135` - Ethernet 1
+- `STARVOX-98AAFC131893` - MAC `98:AA:FC:13:18:93` - IP `192.168.1.169` - Ethernet 2 - équipement très probablement lié à un système d'alarme/télésurveillance Surtec Starvox
+- équipement non identifié - MAC non affichée - IP non déterminée - Ethernet 4
+- Ethernet 3 inactif
+
+> Le préfixe MAC `98:AA:FC:1...` correspond à une plage attribuée à Surtec. Starvox est le nom d'un système d'alarme/télésurveillance commercialisé par Surtec : une centrale sans fil destinée à la protection anti-intrusion, avec transmission téléphonique/GSM et fonctions de télésurveillance.
+
+![Switch](images/freebox-19.png){ width=50% }
+
+### UPnP IGD
+
+Le service UPnP IGD était activé sur la Freebox, permettant théoriquement aux équipements du réseau local de demander automatiquement l'ouverture de ports entrants. Toutefois, aucune redirection UPnP active n'était présente au moment du constat.
+
+Cela ne permet pas de dire qu'aucune redirection UPnP n'a jamais existé auparavant, seulement qu'il n'y en avait aucune d'active à cet instant.
+
+![UPnP IGD](images/freebox-20.png){ width=50% }
+
+### Cartographie des équipements actuels trouvés à ce stade
+
+- **mxiang-camera-mwc10_miap06DE**
+  - Adresse MAC : `E0:A2:5A:0D:06:DF`
+  - IPv4 : `192.168.1.135`
+  - Connexion : Ethernet 1
+  - Identité probable : caméra IP, probablement la caméra Xiaomi Home de l'entrée - à confirmer.
+- **STARVOX-98AAFC131893**
+  - Adresse MAC : `98:AA:FC:13:18:93`
+  - IPv4 : `192.168.1.169`
+  - Connexion : Ethernet 2
+  - Identité probable : très probablement centrale / équipement d'alarme Starvox.
+- **wlan0**
+  - Adresse MAC : `1C:90:FF:9D:B8:4A`
+  - IPv4 : `192.168.1.159`
+  - Connexion : Wi-Fi 2,4 GHz
+  - Identité probable : appareil embarqué non identifié ; imprimante ou objet connecté possible.
+- **iPhone**
+  - Adresse MAC : `6A:92:E3:54:E4:62`
+  - IPv4 : `192.168.1.73`
+  - Connexion : Wi-Fi 2,4 GHz
+  - Identité probable : un des iPhone de Mme Sadedine - modèle à déterminer.
+- **iPhone**
+  - Adresse MAC : `D2:0E:25:1B:5B:B8`
+  - IPv4 : `192.168.1.18`
+  - Connexion : Wi-Fi 2,4 GHz
+  - Identité probable : un des iPhone de Mme Sadedine - modèle à déterminer.
+- **192-168-1-195**
+  - Adresse MAC : `70:70:AA:0D:EC:11`
+  - IPv4 : `192.168.1.195`
+  - Connexion : Wi-Fi 2,4 GHz
+  - Identité probable : appareil non identifié ; activité réseau importante, possiblement caméra ou autre équipement.
+- **Shenzhen Bilian Electronic Co., Ltd**
+  - Adresse MAC : `C4:3C:B0:23:34:46`
+  - IPv4 : non déterminée à ce stade
+  - Connexion : Wi-Fi 2,4 GHz
+  - Identité probable : objet connecté utilisant un module Wi-Fi Bilian ; caméra possible.
+- **Tuya Smart Inc.**
+  - Adresse MAC : `CC:8C:BF:8E:33:8A`
+  - IPv4 : non déterminée à ce stade
+  - Connexion : Wi-Fi 2,4 GHz
+  - Identité probable : objet connecté Tuya ; caméra possible.
+- **Équipement non identifié**
+  - Adresse MAC : non affichée
+  - IPv4 : non déterminée
+  - Connexion : Ethernet 4
+  - Identité probable : équipement physiquement connecté, mais non identifié dans cette vue.
+
+### Précisions sur STARVOX-98AAFC131893
+
+Après vérification auprès de Mme Sadedine, l'équipement identifié par la Freebox sous le nom `STARVOX-98AAFC131893` correspond bien à la centrale d'alarme Starvox aujourd'hui inutilisée, mais qui était installée dans le logement.
+
+## Disque dur
+
+La Freebox comporte un disque dur interne HGST modèle HCC545050A7E630 d'une capacité nominale de 500,1 Go, utilisant une table de partitions de type MBR. Au moment du constat, le disque était indiqué comme actif, avec une température de 49 °C. Freebox OS faisait état de 2 801 220 opérations de lecture et 160 336 opérations d'écriture, sans erreur de lecture ni d'écriture signalée. Une partition nommée « Disque dur », formatée en ext4, d'une capacité de 244,9 Go était visible, dont 10,5 Go utilisés et 221,9 Go disponibles.
+
+- Disque physique : Disque interne 0 de 500,1 Go
+- Modèle : HGST HCC545050A7E630
+- Numéro de série : 21GBJZ6T
+- Firmware : GR2OA310
+- Table de partitions : MBR
+- Température : 49 °C
+- État : Actif
+- Compteur de lectures : 2 801 220
+- Erreurs de lecture : 0
+- Compteur d'écritures : 160 336
+- Erreurs d'écriture : 0
+
+L'interface distante Freebox OS permet l'observation des volumes logiques exposés par la Freebox, mais ne permet pas à elle seule d'établir la table de partitions physique complète du disque interne ni l'affectation de l'intégralité de sa capacité. Une analyse physique du support serait nécessaire pour caractériser précisément les zones non visibles depuis l'interface.
+
+![Disque dur](images/freebox-7.png){ width=50% }
+
+### Explorateur de fichiers
+
+L'explorateur de fichiers intégré à Freebox OS permet d'accéder aux fichiers stockés sur le disque dur interne. Au moment du constat, il contenait uniquement des fichiers liés à des enregistrements TV. Aucun autre fichier n'était visible dans l'explorateur de fichiers.
+
+Les enregistrements identifiés sont :
+
+- quatre épisodes de « Rénovation XXL - Bienvenue au château », diffusés sur Chérie 25 le 10 juillet 2022 ;
+- un épisode de « Les reportages de Martin Weill - Mexique : avoir 20 ans sous les Narcos (n°2) », diffusé sur TMC le 4 avril 2023.
+
+Il y a donc **5 enregistrements TV**, chacun accompagné de son fichier d'index `.m2ts.idx`.
+
+Les fichiers vidéo ont été examinés et présentent des caractéristiques compatibles avec des enregistrements de programmes télévisés. Aucun élément particulier en lien avec l'objet de la mission n'a été relevé dans ces fichiers. Les fichiers `.m2ts.idx` associés correspondent à des fichiers d'index techniques utilisés pour la gestion et la lecture des enregistrements.
 
 ```text
-Internet
-   |
-Freebox
-   |
-   +-- PC
-   +-- iPhone
-   +-- Caméra
-   +-- Alarme
-```
-
-Dans le cas d’une Freebox, les appareils utilisant des adresses comme :
-
-```text
-192.168.1.18
-192.168.1.135
-192.168.1.169
-```
-
-font partie du **LAN**.
-
-Une adresse `192.168.x.x` est une adresse IP privée : elle n’est normalement pas directement accessible depuis Internet.
-
-### Commandes utiles
-
-Voir les interfaces réseau et leurs adresses :
-
-**Linux :**
-
-```bash
-ip addr
-```
-
-Version courte :
-
-```bash
-ip -br addr
-```
-
-**macOS :**
-
-```bash
-ifconfig
-```
-
-Afficher uniquement les adresses IPv4 :
-
-```bash
-ifconfig | grep "inet "
-```
-
-Voir la table des voisins connus sur le LAN :
-
-```bash
-arp -a
-```
-
-Sous Linux :
-
-```bash
-ip neigh
-```
-
----
-
-## 2. WAN
-
-**WAN = Wide Area Network**
-
-Dans ce contexte, le WAN correspond essentiellement à la connexion entre la Freebox et Internet.
-
-La Freebox possède donc :
-
-* une adresse côté LAN ;
-* une adresse IP publique côté WAN.
-
-L’adresse publique permet à la box de communiquer avec Internet.
-
-### Commandes utiles
-
-Voir son IP publique :
-
-```bash
-curl ifconfig.me
-```
-
-ou :
-
-```bash
-curl https://api.ipify.org
-```
-
-Ajouter un retour à la ligne :
-
-```bash
-curl -s https://api.ipify.org ; echo
-```
-
-Attention : cette commande indique l’adresse IP publique vue depuis Internet, pas l’adresse IP locale de la machine.
-
----
-
-## 3. Adresse IP
-
-Une adresse IP identifie un équipement sur un réseau.
-
-Exemple :
-
-```text
-192.168.1.135
-```
-
-Sur un réseau domestique, les équipements utilisent généralement des adresses privées.
-
-Une adresse IP locale peut changer au cours du temps selon la configuration DHCP.
-
-Il ne faut donc pas considérer une adresse IP seule comme une identité permanente de l’appareil.
-
-### Commandes utiles
-
-Afficher les IP locales sous Linux :
-
-```bash
-ip addr
-```
-
-ou :
-
-```bash
-hostname -I
-```
-
-Sous macOS :
-
-```bash
-ipconfig getifaddr en0
-```
-
-`en0` correspond souvent au Wi-Fi, mais cela dépend de la machine.
-
-Lister les interfaces :
-
-```bash
-networksetup -listallhardwareports
-```
-
-Tester si une adresse répond :
-
-```bash
-ping 192.168.1.135
-```
-
-Limiter à quelques paquets :
-
-```bash
-ping -c 4 192.168.1.135
-```
-
----
-
-## 4. Adresse MAC
-
-Une **adresse MAC** identifie l’interface réseau d’un appareil.
-
-Exemple :
-
-```text
-E0:A2:5A:0D:06:DF
-```
-
-Elle est particulièrement utile pour suivre un appareil sur un réseau local.
-
-Une adresse MAC peut parfois permettre d’identifier le constructeur grâce à son préfixe.
-
-Attention : les smartphones modernes peuvent utiliser des **adresses MAC aléatoires ou privées**, notamment en Wi-Fi.
-
-### Commandes utiles
-
-Voir sa propre adresse MAC sous Linux :
-
-```bash
-ip link
-```
-
-Sous macOS :
-
-```bash
-ifconfig en0
-```
-
-Chercher la ligne :
-
-```text
-ether aa:bb:cc:dd:ee:ff
-```
-
-Afficher les MAC connues sur le LAN :
-
-```bash
-arp -a
-```
-
-ou sous Linux :
-
-```bash
-ip neigh
-```
-
----
-
-## 5. DHCP
-
-**DHCP = Dynamic Host Configuration Protocol**
-
-Le DHCP permet à la Freebox d’attribuer automatiquement une adresse IP aux appareils.
-
-Exemple :
-
-```text
-iPhone
-MAC : D2:0E:25:1B:5B:B8
-
-↓ DHCP
-
-IP : 192.168.1.18
-```
-
-La box peut conserver des informations sur les anciens appareils auxquels elle a attribué une adresse.
-
-### Commandes utiles
-
-Sous Linux, voir les informations DHCP via NetworkManager :
-
-```bash
-nmcli device show
-```
-
-Filtrer :
-
-```bash
-nmcli device show | grep -i dhcp
-```
-
-Sous macOS :
-
-```bash
-ipconfig getpacket en0
-```
-
-Cette commande peut montrer notamment :
-
-* serveur DHCP ;
-* adresse attribuée ;
-* routeur ;
-* durée du bail ;
-* DNS.
-
----
-
-## 6. Bail DHCP
-
-Un **bail DHCP** correspond à l’attribution temporaire d’une adresse IP à un appareil.
-
-Exemple :
-
-```text
-MAC : AA:BB:CC:DD:EE:FF
-IP : 192.168.1.42
-```
-
-Le bail a généralement une durée limitée et peut être renouvelé.
-
-### Commandes utiles
-
-Sous macOS :
-
-```bash
-ipconfig getpacket en0
-```
-
-Chercher notamment :
-
-```text
-lease_time
-server_identifier
-yiaddr
-```
-
-Sous Linux avec NetworkManager :
-
-```bash
-nmcli device show
-```
-
-Les anciens baux des autres appareils sont surtout à chercher dans l’interface de la box ou ses journaux.
-
----
-
-## 7. Nom d’hôte / hostname
-
-Un appareil peut transmettre un nom à la box.
-
-Exemples :
-
-```text
-iPhone
-wlan0
-STARVOX-98AAFC131893
-mxiang-camera-mwc10_miap06DE
-```
-
-Ce nom peut aider à identifier l’équipement, mais il ne constitue pas une preuve absolue.
-
-### Commandes utiles
-
-Voir le nom de sa machine :
-
-```bash
-hostname
-```
-
-Sous macOS :
-
-```bash
-scutil --get ComputerName
-```
-
-et :
-
-```bash
-scutil --get LocalHostName
-```
-
-Faire une résolution inverse d’une IP :
-
-```bash
-nslookup 192.168.1.135
-```
-
-ou :
-
-```bash
-host 192.168.1.135
-```
-
-Cela ne fonctionnera que si un nom est disponible.
-
----
-
-## 8. Ethernet
-
-Ethernet désigne la connexion réseau filaire.
-
-Un appareil connecté par câble à la Freebox peut apparaître sous :
-
-```text
-Ethernet 1
-Ethernet 2
-Ethernet 3
-Ethernet 4
-```
-
-### Commandes utiles
-
-Sous Linux :
-
-```bash
-ip link
-```
-
-Voir l’état d’une interface :
-
-```bash
-ethtool eth0
-```
-
-Par exemple :
-
-```text
-Speed: 100Mb/s
-Duplex: Full
-Link detected: yes
-```
-
-Sous macOS :
-
-```bash
-ifconfig
-```
-
-Pour connaître les ports matériels :
-
-```bash
-networksetup -listallhardwareports
-```
-
----
-
-## 9. 100Base-TX
-
-`100Base-TX` est une norme Ethernet.
-
-Elle signifie que la liaison fonctionne à :
-
-```text
-100 Mbit/s
-```
-
-Par exemple :
-
-```text
-100BaseTxFd
-```
-
-signifie :
-
-```text
-100Base-TX
-Full Duplex
-```
-
-Ce n’est **pas le nom de l’appareil**.
-
-### Commandes utiles
-
-Sous Linux :
-
-```bash
-ethtool eth0
-```
-
-Filtrer :
-
-```bash
-ethtool eth0 | grep -E "Speed|Duplex|Link"
-```
-
----
-
-## 10. Full Duplex
-
-**Full Duplex** signifie que l’appareil peut envoyer et recevoir des données simultanément.
-
-Exemple :
-
-```text
-100BaseTxFd
-```
-
-correspond à :
-
-```text
-100 Mbit/s – Full Duplex
-```
-
-### Commande utile
-
-```bash
-ethtool eth0
-```
-
-Chercher :
-
-```text
-Duplex: Full
-```
-
----
-
-## 11. Wi-Fi 2,4 GHz
-
-Le Wi-Fi 2,4 GHz est une bande de fréquence très utilisée par :
-
-* smartphones ;
-* imprimantes ;
-* caméras ;
-* alarmes ;
-* objets connectés ;
-* équipements domotiques.
-
-### Commandes utiles
-
-Sur macOS, informations sur le Wi-Fi :
-
-```bash
-system_profiler SPAirPortDataType
-```
-
-Voir l’interface Wi-Fi :
-
-```bash
-networksetup -getairportnetwork en0
-```
-
-Selon les versions de macOS, les outils disponibles peuvent varier.
-
-Sous Linux :
-
-```bash
-iw dev
-```
-
-ou :
-
-```bash
-nmcli dev wifi
-```
-
----
-
-## 12. Wi-Fi 5 GHz
-
-Le Wi-Fi 5 GHz permet généralement :
-
-* de meilleurs débits ;
-* moins d’interférences ;
-* une portée plus courte.
-
-### Commandes utiles
-
-Sous Linux :
-
-```bash
-nmcli dev wifi
-```
-
-La fréquence ou le canal permet de déterminer la bande utilisée.
-
-Exemples approximatifs :
-
-```text
-2412 MHz → 2,4 GHz
-5180 MHz → 5 GHz
-```
-
----
-
-## 13. SSID
-
-Le **SSID** est le nom du réseau Wi-Fi.
-
-Exemple :
-
-```text
-FREEBOX_SADEDINE
-```
-
-### Commandes utiles
-
-Sous macOS :
-
-```bash
-networksetup -getairportnetwork en0
-```
-
-Sous Linux :
-
-```bash
-iwgetid
-```
-
-ou :
-
-```bash
-nmcli -t -f active,ssid dev wifi
-```
-
----
-
-## 14. Clé Wi-Fi
-
-La clé Wi-Fi est le mot de passe permettant de rejoindre le réseau.
-
-Elle protège normalement l’accès au LAN.
-
-La sécurité dépend notamment du protocole utilisé :
-
-```text
-WPA2
-WPA3
-```
-
-### Commandes utiles
-
-Il n’est généralement pas utile d’afficher le mot de passe en clair lors d’une analyse.
-
-En revanche, on peut inspecter la configuration de l’interface Wi-Fi :
-
-```bash
-nmcli connection show
-```
-
-Sous macOS, les mots de passe enregistrés peuvent être stockés dans le Trousseau d’accès.
-
----
-
-## 15. WPA / WPA2 / WPA3
-
-Ce sont des protocoles de sécurité Wi-Fi.
-
-Du plus ancien au plus récent :
-
-```text
-WPA
-WPA2
-WPA3
-```
-
-WEP est obsolète.
-
-### Commandes utiles
-
-Sous Linux :
-
-```bash
-nmcli -f SSID,SECURITY dev wifi
-```
-
-Exemple :
-
-```text
-SSID             SECURITY
-MonWifi          WPA2
-AutreWifi        WPA2 WPA3
-```
-
----
-
-## 16. WPS
-
-**WPS = Wi-Fi Protected Setup**
-
-Le WPS permet de connecter facilement un appareil au Wi-Fi sans saisir manuellement le mot de passe.
-
-Selon la configuration, le WPS peut représenter une surface d’attaque supplémentaire.
-
-### Commandes utiles
-
-Sur une Freebox, la vérification du WPS se fait surtout dans l’interface d’administration.
-
-On peut toutefois rechercher les informations Wi-Fi disponibles sous Linux :
-
-```bash
-nmcli dev wifi list
-```
-
-Pour une analyse générale des capacités Wi-Fi :
-
-```bash
-iw list
-```
-
-La présence du WPS sur un point d’accès nécessite généralement des outils d’analyse Wi-Fi spécialisés.
-
----
-
-## 17. Routeur
-
-La Freebox agit notamment comme **routeur**.
-
-Elle assure :
-
-* le routage ;
-* le NAT ;
-* le DHCP ;
-* certaines fonctions de pare-feu.
-
-### Commandes utiles
-
-Voir la table de routage :
-
-**Linux :**
-
-```bash
-ip route
-```
-
-**macOS :**
-
-```bash
-netstat -rn
-```
-
-ou :
-
-```bash
-route -n get default
-```
-
----
-
-## 18. NAT
-
-**NAT = Network Address Translation**
-
-Le NAT permet à plusieurs appareils privés d’utiliser une seule adresse IP publique.
-
-```text
-PC 192.168.1.10 ─┐
-iPhone .1.20     ├── Freebox ── IP publique ── Internet
-Caméra .1.30     ┘
-```
-
-### Commandes utiles
-
-Comparer l’IP locale :
-
-```bash
-ipconfig getifaddr en0
-```
-
-avec l’IP publique :
-
-```bash
-curl -s https://api.ipify.org ; echo
-```
-
-Si les deux sont différentes, la machine est derrière une forme de NAT ou de routage intermédiaire.
-
----
-
-## 19. Port réseau
-
-Un port permet d’identifier un service réseau particulier.
-
-Exemples :
-
-```text
-21     FTP
-22     SSH
-53     DNS
-80     HTTP
-443    HTTPS
-3389   RDP
-```
-
-### Commandes utiles
-
-Voir les ports ouverts localement :
-
-**Linux :**
-
-```bash
-ss -lntup
-```
-
-Sous macOS :
-
-```bash
-lsof -i -P -n
-```
-
-Voir uniquement les services en écoute :
-
-```bash
-lsof -i -P -n | grep LISTEN
-```
-
-Tester un port sur une machine :
-
-```bash
-nc -vz 192.168.1.135 80
-```
-
-Exemple :
-
-```bash
-nc -vz 192.168.1.135 443
-```
-
----
-
-## 20. Redirection de port
-
-Une **redirection de port** permet de rendre un service du LAN accessible depuis Internet.
-
-Exemple :
-
-```text
-IP publique:8080
-        ↓
-192.168.1.135:80
-```
-
-### Commandes utiles
-
-Les redirections de ports sont surtout à vérifier dans Freebox OS.
-
-Pour vérifier localement qu’un service écoute :
-
-```bash
-lsof -i -P -n | grep LISTEN
-```
-
-ou :
-
-```bash
-ss -lnt
-```
-
-Une écoute locale ne signifie pas automatiquement que le service est exposé sur Internet.
-
----
-
-## 21. UPnP
-
-**UPnP = Universal Plug and Play**
-
-UPnP permet à certains logiciels et appareils de demander automatiquement des ouvertures de ports.
-
-### Commandes utiles
-
-Sous Linux, si `miniupnpc` est installé :
-
-```bash
-upnpc -l
-```
-
-Sur macOS avec Homebrew :
-
-```bash
-brew install miniupnpc
-```
-
-Puis :
-
-```bash
-upnpc -l
-```
-
-Cela permet de lister certaines redirections UPnP visibles sur le routeur.
-
----
-
-## 22. FTP
-
-**FTP = File Transfer Protocol**
-
-FTP permet de transférer des fichiers.
-
-Port classique :
-
-```text
-21
-```
-
-### Commandes utiles
-
-Tester si un serveur FTP répond :
-
-```bash
-nc -vz 192.168.1.254 21
-```
-
-Utiliser le client FTP si installé :
-
-```bash
-ftp 192.168.1.254
-```
-
-Scanner spécifiquement le port :
-
-```bash
-nmap -p 21 192.168.1.254
-```
-
----
-
-## 23. FTPS / SFTP
-
-### FTPS
-
-FTP protégé par TLS.
-
-### SFTP
-
-Transfert de fichiers via SSH.
-
-SFTP n’est pas du FTP.
-
-### Commandes utiles
-
-Connexion SFTP :
-
-```bash
-sftp utilisateur@192.168.1.10
-```
-
-Tester SSH :
-
-```bash
-ssh utilisateur@192.168.1.10
-```
-
-Tester le port :
-
-```bash
-nc -vz 192.168.1.10 22
-```
-
----
-
-## 24. Accès distant
-
-L’accès distant permet d’administrer un équipement depuis Internet.
-
-Lors d’une analyse, il faut vérifier :
-
-* activation ;
-* port ;
-* authentification ;
-* services exposés ;
-* restrictions éventuelles.
-
-### Commandes utiles
-
-Voir les services écoutant localement :
-
-```bash
-lsof -i -P -n | grep LISTEN
-```
-
-Sous Linux :
-
-```bash
-ss -lntup
-```
-
-Vérifier l’IP publique :
-
-```bash
-curl -s https://api.ipify.org ; echo
-```
-
----
-
-## 25. Freebox OS
-
-Freebox OS est l’interface d’administration de la Freebox.
-
-Elle permet notamment de consulter :
-
-* les équipements ;
-* DHCP ;
-* Wi-Fi ;
-* redirections ;
-* disques ;
-* téléchargements ;
-* historique ;
-* accès distant.
-
-### Commandes utiles
-
-Tester la présence d’une interface Web :
-
-```bash
-curl -I http://mafreebox.freebox.fr
-```
-
-ou :
-
-```bash
-curl -I http://192.168.1.254
-```
-
-Tester HTTPS :
-
-```bash
-curl -k -I https://mafreebox.freebox.fr
-```
-
-Afficher la résolution du nom :
-
-```bash
-ping mafreebox.freebox.fr
-```
-
----
-
-## 26. DNS
-
-**DNS = Domain Name System**
-
-Le DNS traduit un nom :
-
-```text
-example.com
-```
-
-en adresse IP.
-
-### Commandes utiles
-
-Résoudre un domaine :
-
-```bash
-dig example.com
-```
-
-ou :
-
-```bash
-nslookup example.com
-```
-
-Afficher uniquement l’IP :
-
-```bash
-dig +short example.com
-```
-
-Voir quels DNS sont utilisés sous macOS :
-
-```bash
-scutil --dns
-```
-
-Sous Linux :
-
-```bash
-resolvectl status
-```
-
----
-
-## 27. Passerelle / Gateway
-
-La passerelle est l’équipement utilisé pour sortir du réseau local.
-
-Dans un réseau domestique, il s’agit généralement de la box.
-
-### Commandes utiles
-
-Sous macOS :
-
-```bash
-route -n get default
-```
-
-Chercher :
-
-```text
-gateway: 192.168.1.254
-```
-
-Sous Linux :
-
-```bash
-ip route
-```
-
-Exemple :
-
-```text
-default via 192.168.1.254 dev eth0
-```
-
----
-
-## 28. Masque de sous-réseau
-
-Le masque permet de déterminer quelles adresses appartiennent au même réseau.
-
-Exemple :
-
-```text
-192.168.1.0/24
-```
-
-### Commandes utiles
-
-Sous Linux :
-
-```bash
-ip addr
-```
-
-Exemple :
-
-```text
-inet 192.168.1.20/24
-```
-
-Sous macOS :
-
-```bash
-ifconfig
-```
-
-On peut voir par exemple :
-
-```text
-netmask 0xffffff00
-```
-
-qui correspond à :
-
-```text
-255.255.255.0
-```
-
----
-
-## 29. Switch
-
-Un switch permet de relier plusieurs équipements Ethernet entre eux.
-
-Un seul port de la Freebox peut donc éventuellement desservir plusieurs appareils si un switch est branché derrière.
-
-### Commandes utiles
-
-Il n’existe pas de commande universelle permettant de détecter automatiquement un switch non administrable.
-
-On peut cependant inspecter les voisins :
-
-```bash
-arp -a
-```
-
-ou :
-
-```bash
-ip neigh
-```
-
-et comparer avec les ports physiques connus.
-
----
-
-## 30. Caméra IP
-
-Une caméra IP est une caméra connectée au réseau.
-
-Elle peut être :
-
-* Wi-Fi ;
-* Ethernet ;
-* locale ;
-* cloud.
-
-### Commandes utiles
-
-Tester si la caméra répond :
-
-```bash
-ping 192.168.1.135
-```
-
-Voir quelques ports classiques :
-
-```bash
-nmap -p 80,443,554,8000,8080 192.168.1.135
-```
-
-Le port `554` est souvent associé à RTSP, mais sa présence ne prouve pas forcément qu’il s’agit d’une caméra.
-
-Voir les services détectés :
-
-```bash
-nmap -sV 192.168.1.135
-```
-
----
-
-## 31. IoT
-
-**IoT = Internet of Things**
-
-Objets connectés :
-
-* caméras ;
-* alarmes ;
-* ampoules ;
-* prises ;
-* thermostats ;
-* etc.
-
-Un appareil peut être commercialisé sous une marque mais utiliser un module Wi-Fi d’un autre constructeur.
-
-### Commandes utiles
-
-Lister les voisins réseau :
-
-```bash
-arp -a
-```
-
-Scanner les hôtes actifs du LAN avec `nmap` :
-
-```bash
-nmap -sn 192.168.1.0/24
-```
-
-Cela effectue une découverte des machines actives sans scanner tous leurs ports.
-
----
-
-## 32. Tuya
-
-Tuya est une plateforme utilisée par de nombreux objets connectés.
-
-Un équipement détecté comme :
-
-```text
-Tuya Smart Inc.
-```
-
-ne permet pas de savoir s’il s’agit exactement :
-
-* d’une caméra ;
-* d’une prise ;
-* d’un capteur ;
-* d’une alarme.
-
-### Commandes utiles
-
-Rechercher l’appareil dans la table ARP :
-
-```bash
-arp -a
-```
-
-Puis tester son adresse :
-
-```bash
-ping IP_DE_L_APPAREIL
-```
-
-Et éventuellement :
-
-```bash
-nmap -sV IP_DE_L_APPAREIL
-```
-
----
-
-## 33. OUI / constructeur MAC
-
-Les premiers octets d’une adresse MAC correspondent souvent à un fabricant enregistré.
-
-Exemple :
-
-```text
-CC:8C:BF
-```
-
-### Commandes utiles
-
-Avec `nmap`, lorsqu’il dispose d’une base de fabricants :
-
-```bash
-sudo nmap -sn 192.168.1.0/24
-```
-
-Sur un réseau Ethernet local, `nmap` peut parfois afficher :
-
-```text
-MAC Address: AA:BB:CC:DD:EE:FF (Manufacturer)
-```
-
-Sous Linux, on peut également chercher dans la base IEEE si elle est installée.
-
----
-
-## 34. RDP
-
-**RDP = Remote Desktop Protocol**
-
-Protocole Microsoft de contrôle à distance.
-
-Port classique :
-
-```text
-3389
-```
-
-### Commandes utiles
-
-Tester si le port RDP répond :
-
-```bash
-nc -vz 192.168.1.20 3389
-```
-
-ou :
-
-```bash
-nmap -p 3389 192.168.1.20
-```
-
-Sous Windows, la recherche forensic des connexions RDP passe surtout par les journaux d’événements Windows.
-
----
-
-## 35. SSH
-
-**SSH = Secure Shell**
-
-SSH permet d’administrer une machine distante de manière chiffrée.
-
-Port classique :
-
-```text
-22
-```
-
-### Commandes utiles
-
-Tester le port :
-
-```bash
-nc -vz 192.168.1.20 22
-```
-
-Identifier le service :
-
-```bash
-nmap -sV -p 22 192.168.1.20
-```
-
-Connexion :
-
-```bash
-ssh utilisateur@192.168.1.20
-```
-
----
-
-## 36. HTTP / HTTPS
-
-HTTP et HTTPS sont utilisés pour les interfaces Web.
-
-Ports courants :
-
-```text
-HTTP  : 80
-HTTPS : 443
-```
-
-### Commandes utiles
-
-Tester HTTP :
-
-```bash
-curl -I http://192.168.1.135
-```
-
-Tester HTTPS :
-
-```bash
-curl -k -I https://192.168.1.135
-```
-
-Voir les en-têtes complets :
-
-```bash
-curl -v http://192.168.1.135
-```
-
-Identifier les ports :
-
-```bash
-nmap -p 80,443 192.168.1.135
-```
-
----
-
-## 37. Pare-feu / Firewall
-
-Un pare-feu contrôle les communications autorisées ou interdites.
-
-### Commandes utiles
-
-Sous Linux avec `ufw` :
-
-```bash
-sudo ufw status verbose
-```
-
-Avec nftables :
-
-```bash
-sudo nft list ruleset
-```
-
-Avec iptables :
-
-```bash
-sudo iptables -L -n -v
-```
-
-Sous macOS, voir les règles PF :
-
-```bash
-sudo pfctl -sr
-```
-
-Voir si PF est actif :
-
-```bash
-sudo pfctl -s info
-```
-
----
-
-## 38. Équipement actif / inactif
-
-Il faut distinguer :
-
-* actuellement connecté ;
-* connu mais absent ;
-* historique.
-
-### Commandes utiles
-
-Voir les voisins récemment connus :
-
-```bash
-arp -a
-```
-
-ou :
-
-```bash
-ip neigh
-```
-
-Tester directement :
-
-```bash
-ping -c 2 192.168.1.135
-```
-
-Attention : un appareil peut être actif sans répondre au ping.
-
----
-
-## 39. Historique réseau
-
-Les historiques de box sont généralement limités.
-
-Ils peuvent néanmoins contenir :
-
-* MAC ;
-* IP ;
-* nom ;
-* première apparition ;
-* dernière apparition ;
-* trafic.
-
-### Commandes utiles
-
-Lorsqu’on exporte des fichiers texte ou logs, rechercher une IP :
-
-```bash
-grep -R "192.168.1.135" .
-```
-
-Chercher une adresse MAC :
-
-```bash
-grep -Ri "e0:a2:5a:0d:06:df" .
-```
-
-Chercher plusieurs variantes :
-
-```bash
-grep -REi "E0:A2:5A:0D:06:DF|E0-A2-5A-0D-06-DF" .
-```
-
-Afficher les fichiers contenant la chaîne :
-
-```bash
-grep -Ril "192.168.1.135" .
-```
-
----
-
-## 40. Trafic réseau
-
-Le trafic réseau correspond aux données envoyées et reçues.
-
-### Commandes utiles
-
-Sous Linux :
-
-```bash
-ip -s link
-```
-
-Voir les connexions réseau ouvertes :
-
-```bash
-ss -tunap
-```
-
-Sous macOS :
-
-```bash
-netstat -an
-```
-
-Voir les connexions par processus :
-
-```bash
-lsof -i
-```
-
-Capture réseau avec tcpdump :
-
-```bash
-sudo tcpdump -i en0
-```
-
-Limiter à une IP :
-
-```bash
-sudo tcpdump -i en0 host 192.168.1.135
-```
-
----
-
-## 41. Upload et download
-
-**Download** :
-
-```text
-Internet → appareil
-```
-
-**Upload** :
-
-```text
-appareil → Internet
-```
-
-### Commandes utiles
-
-Sous Linux :
-
-```bash
-ip -s link
-```
-
-Donne notamment les compteurs :
-
-```text
-RX
-TX
-```
-
-* RX = données reçues ;
-* TX = données envoyées.
-
-Avec `iftop` :
-
-```bash
-sudo iftop
-```
-
-Avec `nload` :
-
-```bash
-nload
-```
-
----
-
-## 42. Connexion locale vs connexion Internet
-
-Deux appareils du LAN peuvent communiquer directement :
-
-```text
-PC → caméra
-```
+# Échantillon d'examen de fichier vidéo avec mediainfo
+General
+ID                                       : 45770 (0xB2CA)
+Format                                   : BDAV
+Format/Info                              : Blu-ray Video
+File size                                : 695 MiB
+Duration                                 : 49 min 44 s
+Overall bit rate mode                    : Variable
+Overall bit rate                         : 1 953 kb/s
+Frame rate                               : 25.000 FPS
+
+Video
+ID                                       : 120 (0x78)
+Menu ID                                  : 45770 (0xB2CA)
+Format                                   : AVC
+Format/Info                              : Advanced Video Codec
+Format profile                           : High@L4
+Format settings                          : CABAC / 4 Ref Frames
+Codec ID                                 : 27
+Duration                                 : 49 min 43 s
+Width                                    : 720 pixels
+Height                                   : 576 pixels
+Display aspect ratio                     : 16:9
+Frame rate                               : 25.000 FPS
+Standard                                 : PAL
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 8 bits
+Scan type                                : MBAFF
+Scan order                               : Top Field First
+
+Audio #1
+ID                                       : 130 (0x82)
+Format                                   : AAC LC
+Format/Info                              : Advanced Audio Codec Low Complexity
+Format version                           : Version 2
+Muxing mode                              : ADTS
+Codec ID                                 : 15-2
+Duration                                 : 49 min 44 s
+Bit rate mode                            : Variable
+Channel(s)                               : 2 channels
+Channel layout                           : L R
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 46.875 FPS (1024 SPF)
+Compression mode                         : Lossy
+Delay relative to video                  : -507 ms
+Language                                 : French
+
+Audio #2
+ID                                       : 131 (0x83)
+Format                                   : AAC LC SBR
+Commercial name                          : HE-AAC
+Format version                           : Version 2
+Format settings                          : Implicit
+Muxing mode                              : ADTS
+Codec ID                                 : 15-2
+Duration                                 : 49 min 44 s
+Bit rate mode                            : Variable
+Channel(s)                               : 2 channels
+Channel layout                           : L R
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 23.438 FPS (2048 SPF)
+Compression mode                         : Lossy
+Delay relative to video                  : -195 ms
+Language                                 : qaa
+
+Audio #3
+ID                                       : 132 (0x84)
+Format                                   : AAC LC SBR
+Commercial name                          : HE-AAC
+Format version                           : Version 2
+Format settings                          : Implicit
+Muxing mode                              : ADTS
+Codec ID                                 : 15-2
+Duration                                 : 49 min 43 s
+Bit rate mode                            : Variable
+Channel(s)                               : 2 channels
+Channel layout                           : L R
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 23.438 FPS (2048 SPF)
+Compression mode                         : Lossy
+Delay relative to video                  : -299 ms
+Language                                 : qad
+
+Text #1
+ID                                       : 140 (0x8C)-888
+Format                                   : Teletext Subtitle
+Language                                 : French
+Language, more info                      : For hearing impaired people
+
+Text #2
+ID                                       : 140 (0x8C)-889
+Format                                   : Teletext Subtitle
+Language                                 : French
+```
+
+![Explorateur de fichiers](images/freebox-8.png){ width=50% }
+
+### FTP
+
+**Serveur FTP** - Le serveur FTP intégré à la Freebox était désactivé au moment du constat. L'accès FTP distant était également désactivé. Une configuration d'identification existait néanmoins avec l'utilisateur `freebox`, le mot de passe associé étant signalé par Freebox OS comme insuffisamment robuste. Les ports FTP configurés (477 pour le contrôle et 12448 pour les données en mode passif) étaient précédemment constatés comme inactifs. Aucun démarrage réseau par TFTP n'était configuré, les champs relatifs au serveur TFTP et au fichier de démarrage étant vides.
 
-sans passer par Internet.
+Cela ne permet pas d'exclure qu'un accès FTP ait été actif à une date antérieure, mais aucun accès FTP n'était visible dans les journaux au moment du constat.
 
-Une communication cloud passe en revanche par la box :
+![FTP](images/freebox-21.png){ width=50% }
 
-```text
-caméra → serveur cloud
-```
-
-### Commandes utiles
-
-Voir par où passerait un paquet :
-
-```bash
-route -n get 192.168.1.135
-```
-
-Sous Linux :
-
-```bash
-ip route get 192.168.1.135
-```
-
-Vers Internet :
-
-```bash
-traceroute 8.8.8.8
-```
-
-ou sous Linux :
-
-```bash
-tracepath 8.8.8.8
-```
-
----
-
-## 43. Adresse MAC privée sur iPhone
-
-Les iPhone utilisent généralement une fonction appelée **Adresse Wi-Fi privée**.
-
-Un même téléphone peut donc apparaître avec une adresse MAC qui ne ressemble pas à une MAC Apple classique.
-
-### Commandes utiles
-
-Depuis un ordinateur du LAN :
-
-```bash
-arp -a
-```
-
-permet de voir l’adresse MAC actuellement associée à l’adresse IP de l’iPhone.
-
-Exemple :
-
-```text
-? (192.168.1.73) at 6a:92:e3:54:e4:62
-```
-
----
-
-## 44. Déconnexion physique
-
-Débrancher un appareil est une bonne méthode d’identification empirique.
-
-Exemple :
-
-```text
-avant : Ethernet 2 actif
-débrancher appareil
-après : Ethernet 2 inactif
-```
-
-### Commandes utiles
-
-Sur une machine Linux directement concernée :
-
-```bash
-ethtool eth0
-```
-
-Chercher :
-
-```text
-Link detected: yes
-```
-
-puis après déconnexion :
-
-```text
-Link detected: no
-```
-
-Sur la Freebox, cette vérification se fait surtout dans l’interface réseau.
-
----
-
-# Outils Bash particulièrement utiles
-
-## `ping`
-
-Tester rapidement si un équipement répond :
-
-```bash
-ping 192.168.1.135
-```
-
-Version limitée :
-
-```bash
-ping -c 4 192.168.1.135
-```
-
----
-
-## `arp`
-
-Afficher les associations IP / MAC connues :
-
-```bash
-arp -a
-```
-
-Exemple :
-
-```text
-? (192.168.1.135) at e0:a2:5a:0d:06:df on en0
-```
-
----
-
-## `ip neigh`
-
-Équivalent moderne de `arp` sous Linux :
-
-```bash
-ip neigh
-```
-
----
-
-## `nmap`
-
-`nmap` est extrêmement utile pour cartographier un réseau.
-
-Sur macOS :
-
-```bash
-brew install nmap
-```
-
-Découverte des appareils actifs :
-
-```bash
-nmap -sn 192.168.1.0/24
-```
-
-Scanner une machine :
-
-```bash
-nmap 192.168.1.135
-```
-
-Détecter les services :
-
-```bash
-nmap -sV 192.168.1.135
-```
-
-Scanner certains ports seulement :
-
-```bash
-nmap -p 21,22,80,443,554,3389 192.168.1.135
-```
-
----
-
-## `nc` / netcat
-
-Tester rapidement si un port répond :
-
-```bash
-nc -vz 192.168.1.135 80
-```
-
-Exemple SSH :
-
-```bash
-nc -vz 192.168.1.135 22
-```
-
-Exemple FTP :
-
-```bash
-nc -vz 192.168.1.254 21
-```
-
----
-
-## `curl`
-
-Tester des services Web :
-
-```bash
-curl http://192.168.1.135
-```
-
-Afficher seulement les en-têtes :
-
-```bash
-curl -I http://192.168.1.135
-```
-
-Pour HTTPS avec certificat non reconnu :
-
-```bash
-curl -k https://192.168.1.135
-```
-
----
-
-## `dig`
-
-Tester le DNS :
-
-```bash
-dig google.com
-```
-
-Réponse courte :
-
-```bash
-dig +short google.com
-```
-
----
-
-## `traceroute`
-
-Voir le chemin suivi vers une destination :
-
-```bash
-traceroute google.com
-```
-
----
-
-## `tcpdump`
-
-Capturer du trafic réseau :
-
-```bash
-sudo tcpdump -i en0
-```
-
-Seulement une machine :
-
-```bash
-sudo tcpdump -i en0 host 192.168.1.135
-```
-
-Seulement le DNS :
-
-```bash
-sudo tcpdump -i en0 port 53
-```
-
-Seulement HTTP/HTTPS :
-
-```bash
-sudo tcpdump -i en0 'port 80 or port 443'
-```
-
-Écrire la capture dans un fichier :
-
-```bash
-sudo tcpdump -i en0 -w capture.pcap
-```
-
-Ce fichier peut ensuite être ouvert dans Wireshark.
-
----
-
-## `lsof`
-
-Voir les connexions réseau et les processus associés sous macOS :
-
-```bash
-lsof -i
-```
-
-Afficher les ports sans résolution de noms :
-
-```bash
-lsof -i -P -n
-```
-
-Uniquement les ports en écoute :
-
-```bash
-lsof -i -P -n | grep LISTEN
-```
-
----
-
-## `netstat`
-
-Afficher les connexions réseau :
-
-```bash
-netstat -an
-```
-
-Afficher la table de routage :
-
-```bash
-netstat -rn
-```
-
----
-
-## `grep`
-
-Très utile pour analyser des exports et journaux.
-
-Chercher une IP :
-
-```bash
-grep -R "192.168.1.135" .
-```
-
-Chercher une MAC :
-
-```bash
-grep -Ri "E0:A2:5A:0D:06:DF" .
-```
-
-Avec numéro de ligne :
-
-```bash
-grep -Rni "STARVOX" .
-```
-
----
-
-## `find`
-
-Chercher des fichiers :
-
-```bash
-find . -type f
-```
-
-Chercher des logs :
-
-```bash
-find . -type f -name "*.log"
-```
-
-Chercher par date de modification :
-
-```bash
-find . -type f -newermt "2024-10-15" ! -newermt "2024-10-29"
-```
-
-Très utile lors d’une analyse forensic.
-
----
-
-## `stat`
-
-Afficher les métadonnées d’un fichier :
-
-```bash
-stat fichier.log
-```
-
-Sous macOS :
-
-```bash
-stat -x fichier.log
-```
-
----
-
-## `shasum`
-
-Calculer un hash :
-
-```bash
-shasum -a 256 fichier.img
-```
+### Partage de fichiers
 
-Exemple :
+#### Partage SMB
 
-```text
-SHA-256
-```
-
-Très utile pour garantir l’intégrité d’un fichier ou d’une image forensic.
-
----
-
-# Mini boîte à outils réseau pour macOS
-
-Installer les outils principaux :
-
-```bash
-brew install nmap
-brew install miniupnpc
-```
-
-Les outils suivants sont déjà présents sur macOS dans la plupart des cas :
-
-```text
-ping
-arp
-ifconfig
-netstat
-route
-curl
-nc
-dig
-traceroute
-tcpdump
-lsof
-grep
-find
-shasum
-```
-
----
-
-# Commandes pratiques pour ton analyse Freebox
-
-## Voir ton interface réseau
-
-```bash
-ifconfig
-```
-
-## Voir ton IP locale
-
-```bash
-ipconfig getifaddr en0
-```
-
-## Voir ta passerelle
-
-```bash
-route -n get default
-```
-
-## Voir les équipements récemment connus
-
-```bash
-arp -a
-```
-
-## Découvrir les équipements du réseau
-
-```bash
-nmap -sn 192.168.1.0/24
-```
-
-## Scanner un équipement inconnu
-
-```bash
-nmap -sV 192.168.1.195
-```
-
-## Tester un port
-
-```bash
-nc -vz 192.168.1.195 80
-```
-
-## Vérifier les ports courants d’une caméra
-
-```bash
-nmap -p 80,443,554,8000,8080 192.168.1.195
-```
-
-## Capturer les communications avec un appareil
-
-```bash
-sudo tcpdump -i en0 host 192.168.1.195
-```
-
-## Sauvegarder la capture
-
-```bash
-sudo tcpdump -i en0 host 192.168.1.195 -w appareil-192-168-1-195.pcap
-```
-
-## Rechercher une IP dans des exports
-
-```bash
-grep -Rni "192.168.1.195" .
-```
-
-## Rechercher une MAC dans des exports
-
-```bash
-grep -Rni "70:70:AA:0D:EC:11" .
-```
+Les protocoles SMB2/SMB3 ainsi que le partage de fichiers étaient activés sur la Freebox. L'accès authentifié était désactivé au moment du constat, permettant un accès au partage depuis le réseau local sans identification supplémentaire au niveau de la Freebox. Le partage d'imprimantes était désactivé.
 
----
+Le partage SMB n'était pas exposé directement à Internet dans la configuration observée. En revanche, un équipement ayant accès au réseau local, notamment par Wi-Fi ou Ethernet, pouvait potentiellement accéder aux fichiers partagés sans authentification supplémentaire au niveau de la Freebox.
 
-# Point important en forensic
+Au moment du constat, le disque dur interne de la Freebox ne contenait que des fichiers liés aux enregistrements TV, et aucun autre fichier n'était visible dans l'explorateur de fichiers.
 
-Une commande réseau montre généralement **l’état observable au moment où elle est exécutée**.
-
-Par exemple :
-
-```bash
-arp -a
-```
-
-ne constitue pas un historique exhaustif des appareils ayant été connectés au réseau.
-
-De même :
-
-```bash
-nmap -sn 192.168.1.0/24
-```
-
-permet surtout de découvrir les équipements actuellement joignables.
-
-Il faut donc toujours distinguer :
-
-```text
-Observation actuelle
-```
-
-de :
-
-```text
-Trace historique
-```
-
-et :
-
-```text
-Déduction
-```
+![Partage SMB](images/freebox-22.png){ width=50% }
 
-Dans un rapport forensic, cette distinction est essentielle.
+#### Partage de fichiers Mac OS
 
-Une bonne formulation est par exemple :
+Le service de partage de fichiers spécifique à macOS était désactivé au moment du constat. Aucun accès via ce protocole n'était donc actif. Cette désactivation n'empêche toutefois pas un Mac d'accéder aux fichiers partagés de la Freebox via SMB, qui était pour sa part activé.
 
-> Au moment de l’analyse, l’équipement n’était pas détecté sur le réseau.
+![Partage de fichiers Mac OS](images/freebox-23.png){ width=50% }
 
-plutôt que :
+## Synthèse intermédiaire
 
-> Cet équipement n’a jamais été connecté au réseau.
+- pas de redirection de port manuelle ;
+- pas de DMZ ;
+- aucune redirection UPnP active ;
+- aucun serveur VPN actif ;
+- client VPN inactif et journal vide ;
+- aucune session Freebox OS inconnue actuellement ouverte ;
+- pas d'application associée avec des droits d'accès anormaux visibles ;
+- pas de DNS dynamique configuré ;
+- serveur FTP désactivé et accès FTP distant désactivé ;
+- aucun démarrage réseau TFTP configuré ;
+- partage de fichiers Mac OS désactivé ;
+- partage SMB2/SMB3 activé sur le réseau local, sans authentification supplémentaire au niveau de la Freebox ;
+- le partage SMB observé concerne le stockage exposé par la Freebox et n'apparaît pas directement accessible depuis Internet ;
+- le pare-feu IPv6 de la Freebox était désactivé au moment du constat ; cet état mérite d'être relevé, sans permettre à lui seul de conclure qu'un équipement était effectivement exposé depuis Internet ;
+- aucun fichier inhabituel relevé sur le disque ; les fichiers examinés correspondent à des enregistrements télévisés et à leurs fichiers d'index ;
+- équipements réseau visibles globalement compatibles avec ceux déclarés par la cliente, sous réserve de l'identification définitive de certains appareils ;
+- aucun historique WPS visible au moment du constat.
 
-La seconde affirmation nécessiterait des traces historiques suffisamment complètes pour pouvoir l’établir.
+> **À ce stade de l'analyse, l'examen de la configuration actuelle de la Freebox n'a mis en évidence aucun élément caractérisant une intrusion active, un accès distant non autorisé ou une exposition manifestement anormale du réseau local.** Certains réglages, notamment le partage SMB sans authentification supplémentaire sur le réseau local et la désactivation du pare-feu IPv6, constituent néanmoins des paramètres permissifs qui doivent être distingués d'une preuve d'intrusion. Cette constatation porte sur l'état observable au moment de l'examen et ne permet pas, à elle seule, d'exclure un accès antérieur ou une activité qui ne serait plus conservée dans les journaux disponibles.
