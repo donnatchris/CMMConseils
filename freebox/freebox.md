@@ -491,3 +491,312 @@ Le service de partage de fichiers spécifique à macOS était désactivé au mom
 - aucun historique WPS visible au moment du constat.
 
 > **À ce stade de l'analyse, l'examen de la configuration actuelle de la Freebox n'a mis en évidence aucun élément caractérisant une intrusion active, un accès distant non autorisé ou une exposition manifestement anormale du réseau local.** Certains réglages, notamment le partage SMB sans authentification supplémentaire sur le réseau local et la désactivation du pare-feu IPv6, constituent néanmoins des paramètres permissifs qui doivent être distingués d'une preuve d'intrusion. Cette constatation porte sur l'état observable au moment de l'examen et ne permet pas, à elle seule, d'exclure un accès antérieur ou une activité qui ne serait plus conservée dans les journaux disponibles.
+
+---
+
+## Périphériques réseau
+
+L'analyse porte sur les périphériques non identifiés par Mme Sadedine susceptibles de s'être connectés à la Freebox et d'avoir accédé au réseau local en 2021 ou 2022 — période correspondant au début de son contrôle fiscal — ainsi qu'en octobre 2024, au moment de la perquisition. L'objectif est de déterminer si des périphériques inconnus ont pu se connecter à la Freebox et, dans la mesure du possible, de les identifier.
+
+![Liste des périphériques réseau](images/freebox-24.png){ width=50% }
+
+### Périphériques non identifiés
+
+Pour chaque équipement, les informations ci-dessous reprennent les données affichées par Freebox OS. Les adresses IPv6 suivies de points de suspension sont tronquées dans les captures et ne peuvent pas être reconstituées de manière fiable.
+
+#### E0:A2:5A:0A:A3:F7
+
+**Informations générales**
+
+- Adresse MAC : `E0:A2:5A:0A:A3:F7`
+- Constructeur : Shanghai Mo xiang Network Technology CO.,ltd
+- Type indiqué par Freebox OS : Ordinateur fixe
+- Nom principal : aucun
+- Nom de domaine local : aucun nom renseigné (`.home`)
+- Première connexion : 19/07/2024 à 21:02:47
+- Dernière joignabilité : jamais
+
+**Connectivités observées**
+
+- Aucune connexion disponible.
+
+> **Analyse.** La Freebox a enregistré l'existence de cette adresse MAC le 19 juillet 2024 à 21:02:47. En l'absence d'adresse IPv4 ou IPv6 associée et de période de joignabilité, cette fiche atteste une détection par la Freebox, mais ne suffit pas à établir que l'équipement a obtenu une connectivité IP effective sur le réseau local.
+
+#### LAPTOP-RMC0B2VU
+
+**Informations générales**
+
+- Adresse MAC : `50:E0:85:63:41:5B`
+- Constructeur : Intel Corporate
+- Type indiqué par Freebox OS : Ordinateur portable
+- Nom principal : `LAPTOP-RMC0B2VU`
+- Nom de domaine local : `laptop-rmc0b2vu.home`
+- Première connexion : 23/07/2024 à 15:37:02
+- Dernière joignabilité : jeudi 03 septembre à 15:48:25
+
+**Noms observés**
+
+- `LAPTOP-RMC0B2VU` — source DHCP
+- `LAPTOP-RMC0B2VU` — source mDNS
+- Une troisième occurrence du même nom apparaît, mais sa source n'est pas renseignée sur la capture.
+
+**Connectivités observées**
+
+- `192.168.1.194` — IPv4 privée locale ; injoignable depuis 03/09 à 15:48:20 ; inactive depuis 15:48:20.
+- `fe80::a1b7:11f0:16bd:b6d` — IPv6 link-local ; injoignable depuis 13/01/2023 à 11:15:08 ; inactive depuis 11:15:23.
+- `fe80::7517:2b03:9301:5e7e` — IPv6 link-local ; injoignable depuis 03/09 à 15:47:57 ; inactive depuis 15:48:02.
+- `2a01:e0a:c88:900:1779:93d3:…` — IPv6 publique ; injoignable et inactive depuis 03/09 à 15:43:57.
+- `2a0d:e487:15ef:3ee4:356c:a…` — IPv6 publique ; injoignable et inactive depuis 03/09 à 13:28:19.
+- `2a0d:e487:15ef:3ee4:9481:2…` — IPv6 publique ; injoignable et inactive depuis 03/09 à 13:28:19.
+- `2a01:e0a:c88:900:71a2:a4f5:…` — IPv6 publique ; injoignable et inactive depuis 03/09 à 15:48:25.
+
+> **Analyse.** Les adresses IPv4 et IPv6 conservées établissent que cet équipement a disposé d'une connectivité IP effective sur le réseau local. Une incohérence chronologique est toutefois visible : une activité est datée du 13 janvier 2023, alors que le champ « Première connexion » indique le 23 juillet 2024. Ce champ ne peut donc pas être interprété comme la première apparition historique certaine de la machine. Il peut notamment correspondre à la création ou à la recréation de la fiche, à la fusion d'identités, à la conservation d'une ancienne connectivité ou à une évolution de la manière dont Freebox OS rattache les adresses au périphérique.
+
+#### 158742fd-de6e-43df-98be-e440d29c2673
+
+**Informations générales**
+
+- Adresse MAC : `A6:14:3E:8A:34:ED`
+- Constructeur : inconnu
+- Type indiqué par Freebox OS : Ordinateur fixe
+- Nom principal : `158742fd-de6e-43df-98be-e440d29c2673`
+- Nom de domaine local : non précisé dans les éléments retranscrits
+- Source du nom : mDNS
+- Première connexion : 04/03/2024 à 00:14:41
+- Dernière joignabilité : 14/09/2025 à 18:46:05
+- Adresse MAC localement administrée : oui
+
+**Connectivités observées**
+
+- `192.168.1.100` — IPv4 privée locale ; dernière joignabilité : 02/05/2024 à 13:00:02 ; dernière activité : 02/05/2024 à 13:00:02.
+- `192.168.1.57` — IPv4 privée locale ; dernière joignabilité : 05/11/2024 à 16:02:17 ; dernière activité : 05/11/2024 à 16:02:17.
+- `fe80::10ea:4e7a:ce79:822b` — IPv6 link-local ; dernière joignabilité : 05/11/2024 à 16:02:23 ; dernière activité : 05/11/2024 à 16:02:23.
+- `fe80::4c1:c65d:8305:6df8` — IPv6 link-local ; dernière joignabilité : 26/11/2024 à 21:34:07 ; dernière activité : 26/11/2024 à 21:34:07.
+- `fe80::14f6:a597:4a04:4c05` — IPv6 link-local ; dernière joignabilité : 13/09/2025 à 20:47:39 ; dernière activité : 13/09/2025 à 20:47:39.
+- `fe80::85b:917f:f9f1:10ad` — IPv6 link-local ; dernière joignabilité : 14/09/2025 vers 18:46 ; dernière activité : 14/09/2025 à 18:46:49.
+- `2a01:e0a:c88:900:60a8:90c1:…` — IPv6 publique ; dernière joignabilité : 04/11/2024 à 19:23:41 ; dernière activité : 04/11/2024 à 19:23:41.
+- `2a01:e0a:c88:900:a8fa:a40c:…` — IPv6 publique ; dernière joignabilité : 26/11/2024 à 21:34:01 ; dernière activité : 26/11/2024 à 21:34:01.
+- `2a01:e0a:c88:900:909b:ec16:…` — IPv6 publique ; dernière joignabilité : 09/12/2024 à 09:12:26 ; dernière activité : 09/12/2024 à 09:12:26.
+
+Une autre ligne de connectivité est visible, mais ses données ne sont pas retranscrites dans les éléments disponibles.
+
+> **Analyse.** Les adresses IPv4 et IPv6 conservées établissent que cet équipement a disposé à plusieurs reprises d'une connectivité IP effective sur le réseau local. Son adresse MAC est localement administrée, ce qui est compatible avec l'emploi d'une adresse privée ou aléatoire et explique l'absence d'attribution fiable à un constructeur. Son nom mDNS présente la forme atypique d'un UUID et ne permet pas d'identifier la nature du terminal. Des activités sont visibles les 2 mai, 4, 5 et 26 novembre et 9 décembre 2024, puis les 13 et 14 septembre 2025. Freebox OS affichant principalement la dernière activité connue de chaque adresse, ces données ne constituent pas un journal exhaustif : l'absence d'une entrée datée entre le 15 et le 28 octobre 2024 ne suffit donc pas, à elle seule, à exclure la présence de cet équipement durant cette période.
+
+#### CE:04:84:BC:D2:4D
+
+**Informations générales**
+
+- Adresse MAC : `CE:04:84:BC:D2:4D`
+- Constructeur : inconnu
+- Type indiqué par Freebox OS : Ordinateur fixe
+- Nom principal : aucun
+- Nom de domaine local : non précisé dans les éléments retranscrits
+- Première connexion : 11/06/2024 à 14:00:54
+- Dernière joignabilité : 11/06/2024 à 14:25:49
+- Adresse MAC localement administrée : oui
+- Adressage relevé : une adresse IPv4 privée, une adresse IPv6 link-local et au moins trois adresses IPv6 publiques commençant par `2a01:e0a:c88:900:…`
+
+**Connectivités observées**
+
+- `192.168.1.98` — IPv4 privée locale ; dernière activité : 11/06/2024 à 14:25:35.
+- `fe80::148e:7f35:4ff7:c240` — IPv6 link-local ; dernière activité : 11/06/2024 à 14:25:35.
+- `2a01:e0a:c88:900:4c20:2070...` — IPv6 publique ; dernière activité : 11/06/2024 à 14:24:56.
+- `2a01:e0a:c88:900:1d53:85bc...` — IPv6 publique ; dernière activité : 11/06/2024 à 14:25:18.
+- `2a01:e0a:c88:900:4815:28ed...` — IPv6 publique ; dernière activité : 11/06/2024 à 14:25:49.
+
+> **Analyse.** Les adresses IPv4 et IPv6 conservées établissent que cet équipement a disposé d'une connectivité IP effective sur le réseau local le 11 juin 2024. La première connexion est enregistrée à 14:00:54 et la dernière joignabilité à 14:25:49, soit une présence visible d'environ vingt-cinq minutes. L'adresse MAC est localement administrée, donc compatible avec un mécanisme de randomisation et inexploitable pour attribuer avec certitude un constructeur, une nature ou un propriétaire au périphérique.
+
+#### 16:E8:85:01:02:FD
+
+**Informations générales**
+
+- Adresse MAC : `16:E8:85:01:02:FD`
+- Constructeur : inconnu
+- Type indiqué par Freebox OS : Ordinateur fixe
+- Nom principal : aucun
+- Nom de domaine local : aucun
+- Première connexion : 02/05/2024 à 12:50:13
+- Dernière joignabilité : jamais
+- Adresse MAC localement administrée : oui
+
+**Connectivités observées**
+
+- Aucune connexion disponible.
+
+> **Analyse.** La Freebox a créé une fiche pour cette adresse MAC avec une première connexion enregistrée le 2 mai 2024 à 12:50:13. Toutefois, aucun nom d'hôte, aucune adresse IPv4 ou IPv6 et aucune période de joignabilité ne sont conservés. Cette entrée atteste une détection par la Freebox, mais ne suffit pas à démontrer que l'équipement a obtenu une adresse IP ou établi une communication réseau complète. L'adresse MAC localement administrée ne permet pas d'identifier fiablement son constructeur.
+
+#### 4E:B5:4A:B0:3F:04
+
+**Informations générales**
+
+- Adresse MAC : `4E:B5:4A:B0:3F:04`
+- Constructeur : inconnu
+- Type indiqué par Freebox OS : Ordinateur fixe
+- Nom principal : aucun
+- Nom de domaine local : aucun
+- Première connexion : 21/01/2024 à 14:20:29
+- Dernière joignabilité : jamais
+- Adresse MAC localement administrée : oui
+
+**Connectivités observées**
+
+- Aucune connexion disponible.
+
+> **Analyse.** La Freebox a créé une fiche pour cette adresse MAC avec une première connexion enregistrée le 21 janvier 2024 à 14:20:29. Toutefois, aucun nom d'hôte, aucune adresse IPv4 ou IPv6 et aucune période de joignabilité ne sont conservés. Cette entrée atteste une détection par la Freebox, mais ne suffit pas à démontrer qu'une communication IP effective a été réalisée. L'adresse MAC localement administrée ne permet pas d'identifier fiablement son constructeur.
+
+#### DE:98:33:8D:2C:A2
+
+**Informations générales**
+
+- Adresse MAC : `DE:98:33:8D:2C:A2`
+- Constructeur : inconnu
+- Type indiqué par Freebox OS : Ordinateur fixe
+- Nom principal : aucun
+- Nom de domaine local : aucun
+- Première connexion : 16/08/2023 à 17:05:18
+- Dernière joignabilité : 11/12/2023 à 11:19:39
+- Périodes d'activité visibles : septembre, octobre et décembre 2023
+- Adresse MAC localement administrée : oui
+
+**Connectivités observées**
+
+- `192.168.1.75` — IPv4 privée locale ; dernière activité : 11/12/2023 à 11:19:21.
+- `fe80::9b:5038:2324:abcd` — IPv6 link-local ; dernière activité : 21/09/2023 à 18:15:30.
+- `fe80::2c:c0ba:2091:321e` — IPv6 link-local ; dernière activité : 25/09/2023 à 11:48:16.
+- `fe80::1003:fff:5a99:f7a2` — IPv6 link-local ; dernière activité : 18/10/2023 à 18:03:58.
+- `fe80::1ca7:f17b:771e:ca2a` — IPv6 link-local ; dernière activité : 11/12/2023 à 11:19:25.
+- `2a01:e0a:c88:900:fcf5:d136:…` — IPv6 publique ; dernière activité : 21/09/2023 à 18:19:17.
+- `2a01:e0a:c88:900:2010:28d6:…` — IPv6 publique ; dernière activité : 25/09/2023 à 11:41:37.
+- `2a01:e0a:c88:900:50f3:73af:…` — IPv6 publique ; dernière activité : 18/10/2023 à 18:03:58.
+- `2a01:e0a:c88:900:5488:f574:…` — IPv6 publique ; dernière activité : 11/12/2023 à 11:19:39.
+
+> **Analyse.** Les adresses IPv4 et IPv6 conservées établissent que cet équipement a disposé d'une connectivité IP effective sur le réseau local à plusieurs reprises, les 21 et 25 septembre, le 18 octobre et le 11 décembre 2023. Sa dernière joignabilité est enregistrée le 11 décembre 2023 à 11:19:39. L'adresse MAC localement administrée est compatible avec une adresse privée ou aléatoire et ne permet pas d'identifier fiablement le constructeur, la nature exacte ou le propriétaire de l'équipement.
+
+#### E6:E1:90:ED:E4:94
+
+**Informations générales**
+
+- Adresse MAC : `E6:E1:90:ED:E4:94`
+- Constructeur : inconnu
+- Type indiqué par Freebox OS : Ordinateur fixe
+- Nom principal : aucun
+- Nom de domaine local : aucun
+- Première connexion : 11/10/2022 à 16:24:30
+- Dernière joignabilité : jamais
+- Adresse MAC localement administrée : oui
+
+**Connectivités observées**
+
+- Aucune connexion disponible.
+
+> **Analyse.** La Freebox a créé une fiche pour cette adresse MAC avec une première connexion enregistrée le 11 octobre 2022 à 16:24:30. Toutefois, aucun nom d'hôte, aucune adresse IPv4 ou IPv6 et aucune période de joignabilité ne sont conservés. Cette entrée atteste une détection par la Freebox, mais ne suffit pas à démontrer qu'une connectivité IP effective a été établie. L'adresse MAC localement administrée ne permet pas d'identifier fiablement son constructeur.
+
+#### 56:96:03:FB:28:58
+
+**Informations générales**
+
+- Adresse MAC : `56:96:03:FB:28:58`
+- Constructeur : inconnu
+- Type indiqué par Freebox OS : Ordinateur fixe
+- Nom principal : aucun
+- Nom de domaine local : aucun
+- Première connexion : 07/07/2022 à 19:00:35
+- Dernière joignabilité : 07/07/2022 à 19:20:58
+- Adresse MAC localement administrée : oui
+
+**Connectivités observées**
+
+- `fe80::47:d6f:9c8:cab6` — IPv6 link-local ; dernière activité : 07/07/2022 à 19:21:38.
+- `2a01:e0a:2ac:31c0:51c:d253:…` — IPv6 publique ; dernière activité : 07/07/2022 à 19:20:56.
+
+> **Analyse.** Les deux adresses IPv6 conservées établissent qu'une connectivité IP effective a été observée sur le réseau local le 7 juillet 2022. La première connexion est enregistrée à 19:00:35, la dernière joignabilité à 19:20:58 et la dernière activité visible à 19:21:38, soit une présence visible d'environ vingt minutes. L'adresse MAC localement administrée est compatible avec une adresse privée ou aléatoire et ne permet pas d'identifier fiablement le constructeur ou le propriétaire du périphérique.
+
+#### F2:D1:B4:69:51:D8
+
+**Informations générales**
+
+- Adresse MAC : `F2:D1:B4:69:51:D8`
+- Constructeur : inconnu
+- Type indiqué par Freebox OS : Ordinateur fixe
+- Nom principal : aucun
+- Nom de domaine local : aucun
+- Première connexion : jamais
+- Dernière joignabilité : 01/02/2023 à 05:30:41
+- Adresse MAC localement administrée : oui
+
+**Connectivités observées**
+
+- `192.168.1.131` — IPv4 privée locale ; dernière activité : 01/02/2023 à 05:30:42.
+- `fe80::871:7789:4e19:8cb9` — IPv6 link-local ; dernière activité : 15/10/2022 à 05:52:22.
+- `fe80::89a:aedd:644d:a1a7` — IPv6 link-local ; dernière activité : 17/11/2022 à 20:55:01.
+- `fe80::18b5:f541:cfb3:4366` — IPv6 link-local ; dernière activité : 30/12/2022 à 00:49:11.
+- `fe80::ef:40d2:49e3:8851` — IPv6 link-local ; dernière activité : 01/02/2023 à 05:30:42.
+- `2a01:e0a:2ac:31c0:19cf:319d:…` — IPv6 publique ; dernière activité : 30/12/2022 à 09:24:46.
+- `2a01:e0a:2ac:31c0:480a:a36…` — IPv6 publique ; dernière activité : 30/12/2022 à 00:49:11.
+- `2a01:e0a:2ac:31c0:e82e:221…` — IPv6 publique ; dernière activité : 24/01/2023 à 14:25:16.
+- `2a01:e0a:2ac:31c0:61cb:f875…` — IPv6 publique ; dernière activité : 01/02/2023 à 05:18:45.
+
+> **Analyse.** Les adresses IPv4 et IPv6 conservées établissent qu'une connectivité IP effective a été observée entre le 15 octobre 2022 et le 1er février 2023. Le champ « Première connexion » indique pourtant « Jamais » : cette contradiction montre que ce champ ne constitue pas un historique exhaustif et ne doit pas être interprété isolément. La dernière activité visible est datée du 1er février 2023 à 05:30:42. L'adresse MAC localement administrée ne permet pas d'identifier fiablement le constructeur ou le propriétaire du périphérique.
+
+#### B6:BD:59:D2:25:62
+
+**Informations générales**
+
+- Adresse MAC : `B6:BD:59:D2:25:62`
+- Constructeur : inconnu
+- Type indiqué par Freebox OS : Ordinateur fixe
+- Nom principal : aucun
+- Nom de domaine local : aucun
+- Première connexion : jamais
+- Dernière joignabilité : 02/05/2022 à 21:19:52
+- Adresse MAC localement administrée : oui
+
+**Connectivités observées**
+
+- `fe80::8a7:990a:8f9:7d7c` — IPv6 link-local ; dernière activité : 05/04/2022 à 21:37:27.
+- `fe80::1c6f:7df7:4086:ea17` — IPv6 link-local ; dernière activité : 24/04/2022 à 20:07:18.
+- `fe80::85b:6e97:8d8a:69af` — IPv6 link-local ; dernière activité : 01/05/2022 à 18:40:59.
+- `fe80::862:b6c9:857c:cc5c` — IPv6 link-local ; dernière activité : 02/05/2022 à 21:19:52.
+- `2a01:e0a:2ac:31c0:5c5b:510…` — IPv6 publique ; dernière activité : 02/05/2022 à 21:11:12.
+- `2a01:e0a:2ac:31c0:25fa:1d5…` — IPv6 publique ; dernière activité : 02/05/2022 à 21:11:50.
+- `2a01:e0a:2ac:31c0:e4a5:185…` — IPv6 publique ; dernière activité : 02/05/2022 à 21:15:31.
+- `2a01:e0a:2ac:31c0:d87f:9e7…` — IPv6 publique ; dernière activité : 02/05/2022 à 21:19:26.
+
+> **Analyse.** Les adresses IPv6 conservées établissent qu'une connectivité IP effective a été observée entre le 5 avril et le 2 mai 2022, bien qu'aucune adresse IPv4 ne soit visible. Le champ « Première connexion » indique pourtant « Jamais » : cette contradiction montre que ce champ ne constitue pas un historique exhaustif et ne doit pas être interprété isolément. La dernière activité et la dernière joignabilité visibles sont datées du 2 mai 2022 vers 21:19. L'adresse MAC localement administrée ne permet pas d'identifier fiablement le constructeur ou le propriétaire du périphérique.
+
+### Synthèse des périphériques non identifiés
+
+- Une connectivité IP effective est établie pour sept équipements : `LAPTOP-RMC0B2VU`, `158742fd-de6e-43df-98be-e440d29c2673`, `CE:04:84:BC:D2:4D`, `DE:98:33:8D:2C:A2`, `56:96:03:FB:28:58`, `F2:D1:B4:69:51:D8` et `B6:BD:59:D2:25:62`.
+- Pour `E0:A2:5A:0A:A3:F7`, `16:E8:85:01:02:FD`, `4E:B5:4A:B0:3F:04` et `E6:E1:90:ED:E4:94`, les fiches conservées attestent une détection par la Freebox, mais aucune adresse IP ni période de joignabilité ne permet d'établir une connectivité IP effective.
+- Neuf des onze équipements utilisent une adresse MAC localement administrée. Ce mécanisme, courant pour les adresses privées ou aléatoires, empêche généralement d'attribuer fiablement le terminal à un constructeur et ne constitue pas, en lui-même, un indice d'activité malveillante.
+- Les incohérences relevées dans les champs « Première connexion » montrent que l'inventaire Freebox OS ne doit pas être assimilé à un journal chronologique exhaustif. Il permet d'établir certaines présences, mais pas d'exclure une présence à une date pour laquelle aucune ligne n'est affichée.
+- Parmi les données retranscrites, une activité est explicitement datée du 18 octobre 2023, mais aucune ne l'est d'octobre 2024. Cette absence ne permet toutefois pas, à elle seule, d'exclure une connexion durant la période de la perquisition.
+
+> **Conclusion.** Les données disponibles confirment la présence historique de plusieurs périphériques non identifiés sur le réseau local, sans permettre d'en déterminer le propriétaire ni d'en déduire une activité malveillante. Les traces les plus probantes sont les connectivités IPv4 ou IPv6 associées à sept équipements. Pour les quatre autres, seule l'existence d'une fiche est établie. En raison du caractère partiel de l'inventaire et des incohérences de certains champs, aucune conclusion définitive sur la présence ou l'absence d'un équipement à une date précise ne peut être tirée de ces seuls éléments.
+
+![Périphériques non identifiés](images/freebox-25.png){ width=25% }
+![Périphériques non identifiés](images/freebox-26.png){ width=25% }
+![Périphériques non identifiés](images/freebox-27.png){ width=25% }
+![Périphériques non identifiés](images/freebox-28.png){ width=25% }
+![Périphériques non identifiés](images/freebox-29.png){ width=25% }
+![Périphériques non identifiés](images/freebox-30.png){ width=25% }
+![Périphériques non identifiés](images/freebox-31.png){ width=25% }
+![Périphériques non identifiés](images/freebox-32.png){ width=25% }
+![Périphériques non identifiés](images/freebox-33.png){ width=25% }
+![Périphériques non identifiés](images/freebox-34.png){ width=25% }
+![Périphériques non identifiés](images/freebox-35.png){ width=25% }
+![Périphériques non identifiés](images/freebox-36.png){ width=25% }
+![Périphériques non identifiés](images/freebox-37.png){ width=25% }
+![Périphériques non identifiés](images/freebox-38.png){ width=25% }
+![Périphériques non identifiés](images/freebox-39.png){ width=25% }
+![Périphériques non identifiés](images/freebox-40.png){ width=25% }
+![Périphériques non identifiés](images/freebox-41.png){ width=25% }
+![Périphériques non identifiés](images/freebox-42.png){ width=25% }
+![Périphériques non identifiés](images/freebox-43.png){ width=25% }
+![Périphériques non identifiés](images/freebox-44.png){ width=25% }
+![Périphériques non identifiés](images/freebox-45.png){ width=25% }
+![Périphériques non identifiés](images/freebox-46.png){ width=25% }
+![Périphériques non identifiés](images/freebox-47.png){ width=25% }
+![Périphériques non identifiés](images/freebox-48.png){ width=25% }
+![Périphériques non identifiés](images/freebox-49.png){ width=25% }
+![Périphériques non identifiés](images/freebox-50.png){ width=25% }
