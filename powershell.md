@@ -19,7 +19,7 @@ On doit obtenir: `"status": "granted"`
 Remplacer la valeur de APP_TOKEN par la valeur obtenue:
 
 ```bash
-APP_TOKEN='{APP_TOKEN}'
+APP_TOKEN='Ocs6IU76SZgJTjGw2dGjpqzOe15y4TQrdICciCdB+AB8qc60gERrflVb6sde/Gki'
 APP_ID='fr.donnat.freebox.forensic'
 BASE_URL='https://v28vy0w8.fbxos.fr:9717/api/v16'
 
