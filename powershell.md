@@ -1,3 +1,78 @@
+# Obtenir un track_id
+
+## Sur la machine en local
+
+```powershell
+$body=@{app_id="fr.donnat.freebox.forensic";app_name="Analyse Freebox - Christophe Donnat";app_version="1.0";device_name="PC Mme Sadedine"}|ConvertTo-Json;$response=Invoke-RestMethod -Method POST -Uri "http://mafreebox.freebox.fr/api/v16/login/authorize/" -ContentType "application/json" -Body $body;$response.result
+```
+
+Vérifier
+
+```powershell
+curl.exe "http://mafreebox.freebox.fr/api/v16/login/authorize/2{track_id"
+```
+
+On doit obtenir: `"status": "granted"`
+
+## Sur la machine distante
+
+Remplacer la valeur de APP_TOKEN par la valeur obtenue:
+
+```bash
+APP_TOKEN='{APP_TOKEN}'
+APP_ID='fr.donnat.freebox.forensic'
+BASE_URL='https://v28vy0w8.fbxos.fr:9717/api/v16'
+
+CHALLENGE=$(curl -sk "$BASE_URL/login/" | jq -r '.result.challenge')
+
+PASSWORD=$(printf '%s' "$CHALLENGE" | openssl dgst -sha1 -hmac "$APP_TOKEN" | awk '{print $NF}')
+
+SESSION_JSON=$(curl -sk -X POST "$BASE_URL/login/session/" \
+  -H 'Content-Type: application/json' \
+  -d "{\"app_id\":\"$APP_ID\",\"app_version\":\"1.0\",\"password\":\"$PASSWORD\"}")
+
+echo "$SESSION_JSON" | jq
+
+SESSION_TOKEN=$(printf '%s' "$SESSION_JSON" | jq -r '.result.session_token')
+
+curl -sk "$BASE_URL/system/" \
+  -H "X-Fbx-App-Auth: $SESSION_TOKEN" | jq
+```
+
+On doit obtenir: `"success": "true"`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```powershell
 curl.exe http://mafreebox.freebox.fr/api_version
 
