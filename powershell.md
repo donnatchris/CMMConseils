@@ -9,7 +9,7 @@ $body=@{app_id="fr.donnat.freebox.forensic";app_name="Analyse Freebox - Christop
 Vérifier
 
 ```powershell
-curl.exe "http://mafreebox.freebox.fr/api/v16/login/authorize/2{track_id"
+curl.exe "http://mafreebox.freebox.fr/api/v16/login/authorize/2{track_id}"
 ```
 
 On doit obtenir: `"status": "granted"`
