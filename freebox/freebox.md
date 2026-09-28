@@ -800,3 +800,573 @@ Une autre ligne de connectivité est visible, mais ses données ne sont pas retr
 ![Périphériques non identifiés](images/freebox-48.png){ width=25% }
 ![Périphériques non identifiés](images/freebox-49.png){ width=25% }
 ![Périphériques non identifiés](images/freebox-50.png){ width=25% }
+
+---
+
+## Accès à l'api de la Freebox
+
+L’accès à l’API de la Freebox a été réalisé au moyen du mécanisme d’authentification prévu par Freebox OS. Une demande d’association a d’abord été initiée depuis un ordinateur connecté au réseau local de la cliente, ce qui a généré un identifiant d’application (app_id) et un jeton applicatif (app_token). Cette demande a ensuite été validée physiquement sur le Freebox Server, permettant l’autorisation de l’application.
+
+Depuis le poste d’analyse distant, l’API publique de la Freebox a ensuite été interrogée via son nom de domaine d’accès distant et son port HTTPS. L’ouverture de session a reposé sur un mécanisme de challenge-réponse: la Freebox fournit une valeur temporaire (challenge), à partir de laquelle une réponse HMAC-SHA1 est calculée en utilisant l’app_token comme clé secrète. Cette réponse est transmise à l’endpoint de connexion de l’API, qui retourne alors un session_token. Ce jeton de session a ensuite été utilisé dans l’en-tête X-Fbx-App-Auth pour effectuer des requêtes en lecture sur les différents endpoints de l’API, notamment ceux relatifs au réseau local, au Wi-Fi, au DHCP, au NAT et aux services VPN.
+
+```bash
+APP_TOKEN='Ocs6IU76SZgJTjGw2dGjpqzOe15y4TQrdICciCdB+AB8qc60gERrflVb6sde/Gki'
+APP_ID='fr.donnat.freebox.forensic'
+BASE_URL='https://v28vy0w8.fbxos.fr:9717/api/v16'
+```
+
+Pour obtention du session_token, la requête POST suivante a été effectuée sur l’endpoint `/login/session` :
+
+```bash
+CHALLENGE=$(curl -sk "$BASE_URL/login/" | jq -r '.result.challenge')
+
+PASSWORD=$(printf '%s' "$CHALLENGE" | openssl dgst -sha1 -hmac "$APP_TOKEN" | awk '{print $NF}')
+
+SESSION_JSON=$(curl -sk -X POST "$BASE_URL/login/session/" \
+  -H 'Content-Type: application/json' \
+  -d "{\"app_id\":\"$APP_ID\",\"app_version\":\"1.0\",\"password\":\"$PASSWORD\"}")
+
+echo "$SESSION_JSON" | jq
+
+SESSION_TOKEN=$(printf '%s' "$SESSION_JSON" | jq -r '.result.session_token')
+```
+
+Pour vérifier:
+
+```bash
+curl -sk "$BASE_URL/system/" \
+  -H "X-Fbx-App-Auth: $SESSION_TOKEN" | jq
+```
+
+On doit obtenir: `"success": "true"`
+
+---
+
+# Analyse de l'historique des appareils par l'API Freebox
+
+- Date de collecte : 28 septembre 2026
+- Source : API Freebox OS v16, interface LAN `pub`
+- Date limite demandée : avant le 29 octobre 2024 à 00:00:00, heure de Paris
+- Seuil Unix correspondant : `1730156400`
+- Document comparé : `freebox/freebox.md`
+
+---
+
+## Objet et méthode
+
+L'objectif est de recenser les appareils pour lesquels l'API conserve au moins une trace antérieure au 29 octobre 2024, puis de comparer cet inventaire avec les onze appareils qualifiés de « suspects » dans `freebox/freebox.md`.
+
+Les appels à l'API ont été effectués séquentiellement. Aucun appel parallèle ni boucle de requêtes n'a été utilisé. Une seule requête a servi à récupérer l'inventaire complet de l'interface `pub`, puis une requête distincte a été effectuée pour chacun des onze appareils suspects. Les filtrages, tris et conversions de dates ont ensuite été réalisés localement sur les réponses enregistrées.
+
+Pour chaque fiche, les champs suivants ont été examinés : `first_activity`, `last_activity`, `last_time_reachable`, ainsi que `last_activity` et `last_time_reachable` de chaque entrée `l3connectivities`.
+
+Deux niveaux de preuve sont distingués :
+
+- **IP effective** : au moins une connectivité IPv4 ou IPv6 conserve un horodatage antérieur à la date limite ;
+- **détection seulement** : la fiche contient une trace générale antérieure à la date limite, mais aucune connectivité IP antérieure n'est encore conservée dans `l3connectivities`.
+
+Cette seconde catégorie ne signifie pas que l'appareil n'a jamais eu d'adresse IP. L'API conserve essentiellement le dernier état ou le dernier horodatage associé à chaque adresse, et non un journal exhaustif de toutes les connexions.
+
+Les horodatages Unix ont été convertis avec le fuseau historique `Europe/Paris`, donc avec CET en hiver et CEST en été.
+
+---
+
+## Commandes exécutées
+
+### Authentification et vérification
+
+Les variables `APP_TOKEN`, `APP_ID` et `BASE_URL` ont été chargées depuis `freebox/api.md`. Les valeurs sensibles du jeton applicatif et du jeton de session ne sont pas reproduites dans ce rapport.
+
+```bash
+curl -sk "$BASE_URL/login/" -o /tmp/freebox_login.json -w '%{http_code}\n'
+
+CHALLENGE=$(jq -r '.result.challenge' /tmp/freebox_login.json)
+PASSWORD=$(printf '%s' "$CHALLENGE" | openssl dgst -sha1 -hmac "$APP_TOKEN" | awk '{print $NF}')
+
+curl -sk -X POST "$BASE_URL/login/session/" \
+  -H 'Content-Type: application/json' \
+  -d "{\"app_id\":\"$APP_ID\",\"app_version\":\"1.0\",\"password\":\"$PASSWORD\"}" \
+  -o /tmp/freebox_session.json -w '%{http_code}\n'
+
+SESSION_TOKEN=$(jq -r '.result.session_token' /tmp/freebox_session.json)
+
+curl -sk "$BASE_URL/system/" \
+  -H "X-Fbx-App-Auth: $SESSION_TOKEN" \
+  -o /tmp/freebox_system.json -w '%{http_code}\n'
+```
+
+Résultats : les trois requêtes HTTP ont retourné `200`; les réponses d'ouverture de session et de vérification contenaient `"success": true`.
+
+### Inventaire LAN
+
+```bash
+curl -sk "$BASE_URL/lan/browser/interfaces/" \
+  -H "X-Fbx-App-Auth: $SESSION_TOKEN" \
+  -o /tmp/freebox_lan_interfaces.json -w '%{http_code}\n'
+
+curl -sk "$BASE_URL/lan/browser/pub/" \
+  -H "X-Fbx-App-Auth: $SESSION_TOKEN" \
+  -o freebox/preuves-json/lan-browser-pub-raw.json -w '%{http_code}\n'
+```
+
+Résultats : les deux requêtes ont retourné `200` et `"success": true`. La première réponse annonçait `75` hôtes sur `pub`; la seconde a retourné `74` fiches. Cet écart d'une fiche peut correspondre à un compteur non rafraîchi ou à une modification de l'inventaire entre les deux appels. Le présent rapport repose sur les 74 fiches effectivement retournées et conservées dans `freebox/preuves-json/lan-browser-pub-raw.json`.
+
+### Requêtes détaillées des onze appareils suspects
+
+Toutes les commandes suivantes ont été exécutées séparément, dans l'ordre, et ont retourné HTTP `200` avec `"success": true` :
+
+```bash
+curl -sk "$BASE_URL/lan/browser/pub/ether-e0%3Aa2%3A5a%3A0a%3Aa3%3Af7" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/suspect-e0-a2-5a-0a-a3-f7.json -w '%{http_code}\n'
+curl -sk "$BASE_URL/lan/browser/pub/ether-50%3Ae0%3A85%3A63%3A41%3A5b" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/suspect-50-e0-85-63-41-5b.json -w '%{http_code}\n'
+curl -sk "$BASE_URL/lan/browser/pub/ether-a6%3A14%3A3e%3A8a%3A34%3Aed" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/suspect-a6-14-3e-8a-34-ed.json -w '%{http_code}\n'
+curl -sk "$BASE_URL/lan/browser/pub/ether-ce%3A04%3A84%3Abc%3Ad2%3A4d" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/suspect-ce-04-84-bc-d2-4d.json -w '%{http_code}\n'
+curl -sk "$BASE_URL/lan/browser/pub/ether-16%3Ae8%3A85%3A01%3A02%3Afd" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/suspect-16-e8-85-01-02-fd.json -w '%{http_code}\n'
+curl -sk "$BASE_URL/lan/browser/pub/ether-4e%3Ab5%3A4a%3Ab0%3A3f%3A04" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/suspect-4e-b5-4a-b0-3f-04.json -w '%{http_code}\n'
+curl -sk "$BASE_URL/lan/browser/pub/ether-de%3A98%3A33%3A8d%3A2c%3Aa2" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/suspect-de-98-33-8d-2c-a2.json -w '%{http_code}\n'
+curl -sk "$BASE_URL/lan/browser/pub/ether-e6%3Ae1%3A90%3Aed%3Ae4%3A94" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/suspect-e6-e1-90-ed-e4-94.json -w '%{http_code}\n'
+curl -sk "$BASE_URL/lan/browser/pub/ether-56%3A96%3A03%3Afb%3A28%3A58" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/suspect-56-96-03-fb-28-58.json -w '%{http_code}\n'
+curl -sk "$BASE_URL/lan/browser/pub/ether-f2%3Ad1%3Ab4%3A69%3A51%3Ad8" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/suspect-f2-d1-b4-69-51-d8.json -w '%{http_code}\n'
+curl -sk "$BASE_URL/lan/browser/pub/ether-b6%3Abd%3A59%3Ad2%3A25%3A62" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/suspect-b6-bd-59-d2-25-62.json -w '%{http_code}\n'
+```
+
+---
+
+## Appareils présentant une trace avant le 29 octobre 2024
+
+L'API contient 56 fiches ayant au moins un horodatage positif antérieur au seuil : 40 avec une connectivité IP historique conservée et 16 avec uniquement une trace de détection ou de fiche antérieure au seuil.
+
+Les colonnes « première » et « dernière trace retenue » désignent les horodatages minimum et maximum encore présents dans la fiche avant la date limite. Elles ne constituent pas nécessairement les véritables première et dernière connexions historiques.
+
+| Adresse MAC | Nom principal API | Première trace retenue | Dernière trace retenue avant la limite | Nature de la preuve | Dans la liste suspecte |
+|---|---|---:|---:|---|---|
+| `A0:9D:C1:D1:B9:73` | android-d7cace0bd4fdd799 | 26/03/2022 23:56:24 | 29/03/2022 19:52:21 | IP effective | non |
+| `B6:BD:59:D2:25:62` | — | 05/04/2022 21:37:27 | 02/05/2022 21:19:52 | IP effective | oui |
+| `10:8E:E0:58:1E:04` | Galaxy-Tab-A-8 | 06/04/2022 10:58:11 | 08/04/2022 13:47:48 | IP effective | non |
+| `A6:0D:19:D5:05:58` | Galaxy-S20 | 06/04/2022 11:39:23 | 09/04/2022 19:58:53 | IP effective | non |
+| `14:94:6C:65:5B:E8` | iPhone | 07/07/2022 18:54:10 | 07/07/2022 19:01:18 | IP effective | non |
+| `56:96:03:FB:28:58` | — | 07/07/2022 19:00:35 | 07/07/2022 19:21:38 | IP effective | oui |
+| `3E:2B:7F:22:80:52` | 84b3bd87-59c0-4279-9cc4-643bbb2a7b6a | 07/07/2022 19:21:39 | 07/07/2022 19:21:44 | IP effective | non |
+| `B0:22:7A:5F:5C:A9` | HPB0227A5F5CA8 | 13/08/2022 06:45:51 | 19/07/2024 22:16:55 | IP effective | non |
+| `D6:58:E4:04:CA:0D` | S22-de-Cherifa | 18/08/2022 19:33:19 | 09/09/2023 23:37:57 | IP effective | non |
+| `E6:E1:90:ED:E4:94` | — | 11/10/2022 16:24:30 | 11/10/2022 16:24:30 | détection seulement | oui |
+| `F2:D1:B4:69:51:D8` | — | 15/10/2022 05:52:22 | 01/02/2023 04:30:42 | IP effective | oui |
+| `36:6E:8E:DF:A3:3D` | ecb906e6-22e3-4cd1-996b-f1e9df24eedb | 01/12/2022 13:32:21 | 07/12/2022 11:38:55 | IP effective | non |
+| `DA:10:04:69:3E:56` | iPhonedeDoudou | 03/12/2022 23:46:45 | 14/12/2023 23:42:25 | IP effective | non |
+| `26:30:27:16:9F:92` | iPhone-2 | 08/12/2022 19:56:56 | 04/03/2024 14:04:23 | IP effective | non |
+| `C0:D0:12:70:F6:F8` | iPhonedconseils | 10/12/2022 19:32:21 | 10/12/2022 21:55:21 | IP effective | non |
+| `50:E0:85:63:41:5B` | LAPTOP-RMCOB2VU | 13/01/2023 10:15:08 | 23/07/2024 15:37:02 | IP effective | oui |
+| `54:EF:33:08:86:DF` | Android | 27/01/2023 22:29:56 | 19/02/2024 17:48:31 | IP effective | non |
+| `F4:CA:E5:6A:25:89` | Freebox Player | 24/02/2023 00:41:50 | 19/07/2024 22:46:42 | IP effective | non |
+| `52:60:FA:6C:6A:8C` | — | 24/03/2023 15:11:22 | 24/03/2023 15:11:22 | détection seulement | non |
+| `3C:91:80:72:50:55` | LAPTOP-9UHPONKK | 29/03/2023 10:09:50 | 11/03/2024 15:17:29 | IP effective | non |
+| `F8:28:19:77:42:71` | LAPTOP-205Q5H9C | 20/05/2023 19:02:43 | 26/03/2024 15:48:20 | IP effective | non |
+| `7E:3D:31:A2:03:8C` | iPhone-33 | 17/06/2023 22:29:21 | 20/06/2023 00:40:17 | IP effective | non |
+| `CC:8C:BF:8E:33:8A` | — | 20/06/2023 16:36:00 | 20/06/2023 16:36:00 | détection seulement | non |
+| `C4:3C:B0:23:34:46` | — | 10/07/2023 16:13:21 | 10/07/2023 16:13:21 | détection seulement | non |
+| `04:BA:8D:74:86:3A` | SM-J260F | 31/07/2023 14:49:10 | 31/07/2023 18:01:53 | IP effective | non |
+| `72:4E:33:8A:6E:D5` | iPad-de-Gregory | 10/08/2023 00:39:31 | 10/08/2023 00:44:31 | IP effective | non |
+| `86:D5:17:EE:D8:70` | Apple-Watch | 10/08/2023 01:02:02 | 10/08/2023 01:08:56 | IP effective | non |
+| `E0:5F:45:73:03:3C` | iPhone | 14/08/2023 12:13:41 | 25/06/2024 02:36:34 | IP effective | non |
+| `7C:A1:AE:B3:34:F9` | iPhonedeMalika | 16/08/2023 01:21:40 | 16/08/2023 13:17:10 | IP effective | non |
+| `DE:98:33:8D:2C:A2` | — | 16/08/2023 17:05:18 | 11/12/2023 10:19:39 | IP effective | oui |
+| `84:AB:1A:E4:7A:BD` | iPhone | 21/09/2023 18:47:38 | 11/06/2024 13:57:02 | IP effective | non |
+| `82:B1:82:5C:17:AC` | 57bfdd94-60cf-4bf0-87b0-0624b3f3f22d | 21/09/2023 20:09:53 | 11/12/2023 10:17:35 | IP effective | non |
+| `1C:90:FF:9D:B8:4A` | wlan0 | 15/11/2023 13:51:18 | 15/11/2023 13:51:18 | détection seulement | non |
+| `CC:8C:BF:08:23:84` | wlan0 | 15/11/2023 14:19:31 | 15/11/2023 14:19:31 | détection seulement | non |
+| `2C:C3:E6:98:A4:2F` | — | 02/12/2023 18:07:47 | 02/12/2023 18:07:47 | détection seulement | non |
+| `36:D0:F6:73:99:C7` | Apple-Watch | 12/12/2023 01:31:31 | 14/12/2023 21:12:08 | IP effective | non |
+| `1E:A6:37:ED:10:7D` | Apple-Watch | 14/12/2023 21:15:26 | 19/12/2023 17:24:27 | IP effective | non |
+| `D2:2E:29:52:CB:BD` | 2d4183c8-3c55-4589-85e2-805498ce616e | 18/01/2024 19:15:56 | 11/06/2024 13:51:21 | IP effective | non |
+| `4E:B5:4A:B0:3F:04` | — | 21/01/2024 13:20:29 | 21/01/2024 13:20:29 | détection seulement | oui |
+| `70:70:AA:0D:EC:11` | android2-home | 21/01/2024 18:54:04 | 19/02/2024 17:49:14 | IP effective | non |
+| `0E:A1:33:FB:02:46` | iPhone | 26/01/2024 19:48:37 | 26/01/2024 19:48:37 | détection seulement | non |
+| `A6:14:3E:8A:34:ED` | 158742fd-de6e-43df-98be-e440d29c2673 | 04/03/2024 23:14:41 | 02/05/2024 13:00:02 | IP effective | oui |
+| `16:E8:85:01:02:FD` | — | 02/05/2024 12:50:13 | 02/05/2024 12:50:13 | détection seulement | oui |
+| `B2:D2:80:8B:78:FD` | 3f194c23-a33b-407a-b571-27f9475d7f83 | 25/05/2024 20:53:04 | 18/08/2024 14:44:12 | IP effective | non |
+| `08:87:C7:76:C4:10` | iPhone | 11/06/2024 13:12:32 | 11/06/2024 14:00:33 | IP effective | non |
+| `1A:4E:FD:7E:44:35` | 1f159da5-72f3-4ea3-995c-e2b6c48a7966 | 11/06/2024 13:33:43 | 11/06/2024 13:38:29 | IP effective | non |
+| `CE:04:84:BC:D2:4D` | — | 11/06/2024 14:00:54 | 11/06/2024 14:25:49 | IP effective | oui |
+| `0E:41:84:EF:66:27` | iPhone | 11/06/2024 14:27:30 | 11/06/2024 14:27:30 | détection seulement | non |
+| `E0:A2:5A:0D:06:DF` | mxiang-camera-mwc10_miap06DE | 19/07/2024 21:02:44 | 19/07/2024 21:02:44 | détection seulement | non |
+| `E0:A2:5A:0A:A3:F7` | — | 19/07/2024 21:02:47 | 19/07/2024 21:02:47 | détection seulement | oui |
+| `98:AA:FC:13:18:93` | STARVOX-98AAFC131893 | 19/07/2024 22:16:11 | 19/07/2024 22:16:11 | détection seulement | non |
+| `96:8F:D6:BB:47:D7` | iPhone | 12/10/2024 23:15:06 | 12/10/2024 23:15:06 | détection seulement avant la limite | non |
+| `EA:21:6C:F7:47:E7` | iPhone | 16/10/2024 00:20:00 | 17/10/2024 00:57:02 | IP effective | non |
+| `AC:ED:5C:DA:47:74` | DESKTOP-ICPNCMD | 16/10/2024 21:27:48 | 16/10/2024 23:25:55 | IP effective | non |
+| `9C:64:8B:0A:BD:0C` | iPhone | 17/10/2024 01:00:57 | 17/10/2024 03:43:56 | IP effective | non |
+| `FE:AA:76:95:AC:29` | iPhone | 17/10/2024 03:45:44 | 17/10/2024 03:45:44 | détection seulement avant la limite | non |
+
+---
+
+## Résultats détaillés concernant les appareils définis précédemment comme "suspects"
+
+### `E0:A2:5A:0A:A3:F7`
+
+- `first_activity` : 19/07/2024 à 21:02:47 CEST ;
+- constructeur : Shanghai Mo xiang Network Technology CO.,ltd ;
+- aucune entrée `l3connectivities` ;
+- conclusion : détection par la Freebox confirmée, sans preuve IP conservée. Cela concorde avec `freebox.md`.
+
+### `50:E0:85:63:41:5B` — `LAPTOP-RMCOB2VU`
+
+- nom exact renvoyé par l'API : `LAPTOP-RMCOB2VU`, alors que `freebox.md` écrit `LAPTOP-RMC0B2VU` ;
+- constructeur : Intel Corporate ;
+- `first_activity` de la fiche : 23/07/2024 à 15:37:02 CEST ;
+- sept connectivités conservées ;
+- trace antérieure incohérente avec `first_activity` : `fe80::a1b7:11f0:16bd:b6d`, dernière activité le 13/01/2023 à 10:15:23 CET ;
+- les six autres adresses conservées ont leur dernière activité le 03/09/2026 : IPv4 `192.168.1.194`, IPv6 link-local `fe80::7517:2b03:9301:5e7e`, IPv6 publiques `2a01:e0a:c88:900:1779:93d3:f657:a8e6`, `2a0d:e487:15ef:3ee4:356c:a2a7:2623:3fe9`, `2a0d:e487:15ef:3ee4:9481:22e2:6cb5:46ec` et `2a01:e0a:c88:900:71a2:a4f5:4a6b:622f` ;
+- conclusion : la connexion IP historique antérieure à juillet 2024 est confirmée. Le champ `first_activity` n'est pas une première apparition historique fiable. Cela confirme l'analyse de `freebox.md`.
+
+### `A6:14:3E:8A:34:ED` — `158742fd-de6e-43df-98be-e440d29c2673`
+
+- adresse MAC localement administrée ;
+- `first_activity` : 04/03/2024 à 23:14:41 CET ;
+- dix connectivités conservées ;
+- avant la date limite : IPv4 `192.168.1.100`, dernière activité le 02/05/2024 à 13:00:02 CEST ;
+- après la date limite : IPv4 `192.168.1.57`, deux IPv6 publiques et deux link-local en novembre 2024, une IPv6 publique en décembre 2024, puis trois IPv6 en septembre 2025 ;
+- l'adresse supplémentaire non retranscrite dans `freebox.md` est `2a01:e0a:c88:900:506:d96e:b844:b892`, dernière activité le 14/09/2025 à 18:46:05 CEST ;
+- conclusion : présence IP certaine le 2 mai 2024, puis à partir du 4 novembre 2024. Aucune entrée conservée n'est datée du 15 au 28 octobre 2024, mais l'API n'étant pas un journal exhaustif, cette absence ne permet pas d'exclure une présence durant cet intervalle. L'analyse de fond de `freebox.md` est confirmée.
+
+### `CE:04:84:BC:D2:4D`
+
+- adresse MAC localement administrée ;
+- `first_activity` : 11/06/2024 à 14:00:54 CEST ;
+- cinq connectivités conservées : IPv4 `192.168.1.98`, IPv6 link-local `fe80::148e:7f35:4ff7:c240` et IPv6 publiques `2a01:e0a:c88:900:4c20:2070:917:73b2`, `2a01:e0a:c88:900:1d53:85bc:6259:483c`, `2a01:e0a:c88:900:4815:28ed:effd:6392` ;
+- dernière activité : 11/06/2024 à 14:25:49 CEST ;
+- conclusion : connectivité IP effective pendant environ vingt-cinq minutes, comme indiqué dans `freebox.md`.
+
+### `16:E8:85:01:02:FD`
+
+- adresse MAC localement administrée ;
+- `first_activity` : 02/05/2024 à 12:50:13 CEST ;
+- aucune entrée `l3connectivities` ;
+- conclusion : détection confirmée, sans preuve IP conservée. Cela concorde avec `freebox.md`.
+
+### `4E:B5:4A:B0:3F:04`
+
+- adresse MAC localement administrée ;
+- `first_activity` : 21/01/2024 à 13:20:29 CET ;
+- aucune entrée `l3connectivities` ;
+- conclusion : détection confirmée, sans preuve IP conservée. Cela concorde avec `freebox.md` sur le fond.
+
+### `DE:98:33:8D:2C:A2`
+
+- adresse MAC localement administrée ;
+- `first_activity` : 16/08/2023 à 17:05:18 CEST ;
+- neuf connectivités conservées : IPv4 `192.168.1.75`, quatre IPv6 link-local et quatre IPv6 publiques ;
+- activités conservées les 21 et 25 septembre 2023, le 18 octobre 2023 et le 11 décembre 2023 ;
+- dernière activité : 11/12/2023 à 10:19:39 CET ;
+- conclusion : connexions IP historiques répétées confirmées. Aucune trace de 2024 n'est conservée pour cette fiche. L'analyse de `freebox.md` est confirmée.
+
+### `E6:E1:90:ED:E4:94`
+
+- adresse MAC localement administrée ;
+- `first_activity` : 11/10/2022 à 16:24:30 CEST ;
+- aucune entrée `l3connectivities` ;
+- conclusion : détection confirmée, sans preuve IP conservée. Cela concorde avec `freebox.md`.
+
+### `56:96:03:FB:28:58`
+
+- adresse MAC localement administrée ;
+- `first_activity` : 07/07/2022 à 19:00:35 CEST ;
+- deux connectivités IPv6 : `2a01:e0a:2ac:31c0:51c:d253:9380:753e` et `fe80::47:d6f:9c8:cab6` ;
+- dernière activité : 07/07/2022 à 19:21:38 CEST ;
+- conclusion : connectivité IP effective pendant environ vingt et une minutes, comme indiqué dans `freebox.md`.
+
+### `F2:D1:B4:69:51:D8`
+
+- adresse MAC localement administrée ;
+- `first_activity` vaut `0`, malgré neuf connectivités conservées ;
+- IPv4 `192.168.1.131`, quatre IPv6 link-local et quatre IPv6 publiques ;
+- activités conservées entre le 15/10/2022 à 05:52:22 CEST et le 01/02/2023 à 04:30:42 CET ;
+- conclusion : la connectivité IP effective est confirmée et démontre que `first_activity = 0` ne signifie pas une absence de connexion. L'analyse de `freebox.md` est confirmée.
+
+### `B6:BD:59:D2:25:62`
+
+- adresse MAC localement administrée ;
+- `first_activity` vaut `0`, malgré huit connectivités conservées ;
+- quatre IPv6 link-local et quatre IPv6 publiques ;
+- activités conservées entre le 05/04/2022 à 21:37:27 CEST et le 02/05/2022 à 21:19:52 CEST ;
+- conclusion : la connectivité IP effective est confirmée. L'analyse de `freebox.md` est confirmée.
+
+---
+
+## Écarts d'horodatage avec `freebox.md`
+
+Les horodatages API bruts sont des secondes Unix. Leur conversion avec `Europe/Paris` concorde avec `freebox.md` pour les dates en heure d'été. Pour plusieurs dates d'hiver, `freebox.md` affiche une heure de plus que la conversion historique correcte, comme si UTC+2 avait été appliqué toute l'année. Exemples :
+
+| Événement | API convertie Europe/Paris | `freebox.md` |
+|---|---:|---:|
+| `50:E0:85:63:41:5B`, IPv6 link-local | 13/01/2023 10:15:23 CET | 13/01/2023 11:15:23 |
+| `4E:B5:4A:B0:3F:04`, `first_activity` | 21/01/2024 13:20:29 CET | 21/01/2024 14:20:29 |
+| `F2:D1:B4:69:51:D8`, dernière activité | 01/02/2023 04:30:42 CET | 01/02/2023 05:30:42 |
+| `DE:98:33:8D:2C:A2`, dernière activité | 11/12/2023 10:19:39 CET | 11/12/2023 11:19:39 |
+
+Une autre divergence concerne `A6:14:3E:8A:34:ED` : l'API donne le 04/03/2024 à 23:14:41 CET pour `first_activity`, tandis que `freebox.md` indique le 04/03/2024 à 00:14:41. Cette différence ne peut pas être expliquée par le seul passage CET/CEST et doit être traitée comme une divergence de retranscription ou d'affichage à vérifier sur la capture source.
+
+Ces écarts n'affectent pas la conclusion sur l'antériorité au 29 octobre 2024, mais les horodatages Unix bruts conservés dans les fichiers JSON doivent être privilégiés pour toute corrélation précise.
+
+---
+
+## Appareils d'octobre 2024 absents de la liste suspecte
+
+Cinq fiches non incluses dans les onze appareils suspects ont une première trace entre le 12 et le 17 octobre 2024. Trois possèdent une connectivité IP explicitement datée avant la limite ; pour deux autres, la première détection est antérieure à la limite mais les connectivités actuellement conservées ont des dates ultérieures.
+
+| Adresse MAC | Nom | Première trace | Résultat utile | Appréciation |
+|---|---|---:|---|---|
+| `96:8F:D6:BB:47:D7` | iPhone | 12/10/2024 23:15:06 CEST | MAC locale ; les huit IPv6 conservées ont leurs dernières activités en novembre/décembre 2024 | Détection certaine avant la limite, mais pas d'horodatage IP d'octobre encore conservé |
+| `EA:21:6C:F7:47:E7` | iPhone | 16/10/2024 00:20:00 CEST | IPv4 `192.168.1.3` et cinq IPv6 ; dernière activité le 17/10/2024 à 00:57:02 CEST | Connexion IP effective pendant la période |
+| `AC:ED:5C:DA:47:74` | DESKTOP-ICPNCMD | 16/10/2024 21:27:48 CEST | Intel Corporate ; IPv6 datées du 16/10/2024 ; la fiche est encore utilisée en 2026 avec IPv4 `192.168.1.41` | Connexion IP effective pendant la période ; pourrait correspondre à un ordinateur connu, à confirmer par son adresse MAC |
+| `9C:64:8B:0A:BD:0C` | iPhone | 17/10/2024 01:00:57 CEST | Apple, Inc. ; IPv4 `192.168.1.55` et cinq IPv6 ; dernière activité le 17/10/2024 à 03:43:56 CEST | Connexion IP effective pendant la période |
+| `FE:AA:76:95:AC:29` | iPhone | 17/10/2024 03:45:44 CEST | MAC locale ; les huit IPv6 conservées ont leurs dernières activités en novembre/décembre 2024 | Détection certaine avant la limite, mais pas d'horodatage IP d'octobre encore conservé |
+
+Ces cinq fiches sont plus directement proches de la période d'octobre 2024 que les onze fiches initialement qualifiées de suspectes. Elles ne constituent pas pour autant une preuve d'intrusion : plusieurs peuvent correspondre aux iPhone de Mme Sadedine ou de visiteurs, et `DESKTOP-ICPNCMD` peut correspondre à l'un des ordinateurs connus. Leur identification devrait être prioritaire par comparaison avec les adresses MAC des appareils physiques et, si disponible, avec tout inventaire ou sauvegarde datant de 2024.
+
+---
+
+## Comparaison et conclusions
+
+1. **Les onze appareils précédemment identifiés comme "suspects" figurent tous dans l'inventaire antérieur au 29 octobre 2024.** Sept disposent d'une connectivité IP historique conservée : `50:E0:85:63:41:5B`, `A6:14:3E:8A:34:ED`, `CE:04:84:BC:D2:4D`, `DE:98:33:8D:2C:A2`, `56:96:03:FB:28:58`, `F2:D1:B4:69:51:D8` et `B6:BD:59:D2:25:62`. Quatre ne disposent que d'une trace de détection : `E0:A2:5A:0A:A3:F7`, `16:E8:85:01:02:FD`, `4E:B5:4A:B0:3F:04` et `E6:E1:90:ED:E4:94`.
+
+2. **L'API confirme l'essentiel des conclusions déjà rédigées**, notamment le caractère non exhaustif de `first_activity`, la présence de traces IP malgré `first_activity = 0`, et l'impossibilité d'attribuer un propriétaire à partir d'une adresse MAC localement administrée.
+
+3. **Aucun des onze appareils suspects ne possède une entrée conservée explicitement datée du 15 au 28 octobre 2024.** Pour `A6:14:3E:8A:34:ED`, une activité est conservée le 2 mai 2024 puis à partir du 4 novembre 2024. Cette absence d'entrée dans l'intervalle ne permet pas d'exclure une connexion, car l'API ne fournit pas un journal exhaustif de chaque association.
+
+4. **Cinq autres appareils, non classés suspects dans `freebox.md`, apparaissent entre le 12 et le 17 octobre 2024.** Trois ont une preuve IP conservée pendant cette période. Ils doivent être rapprochés en priorité de l'inventaire matériel connu de Mme Sadedine.
+
+5. **Aucune donnée collectée ne permet, à elle seule, de caractériser une intrusion ou une activité malveillante.** Les traces établissent des présences ou détections réseau, mais pas l'identité de l'utilisateur, l'action effectuée ni l'autorisation ou non de la connexion.
+
+6. **La précision temporelle doit reposer sur les valeurs Unix brutes.** Les divergences d'une heure observées sur les dates d'hiver et la divergence plus importante du 4 mars 2024 justifient de ne pas reprendre sans contrôle les heures affichées ou retranscrites dans l'interface.
+
+---
+
+## Fichiers de preuve conservés
+
+- `freebox/preuves-json/lan-browser-pub-raw.json` : réponse brute de l'inventaire des 74 fiches ;
+- `freebox/preuves-json/suspect-*.json` : onze réponses brutes individuelles, une par appareil suspect.
+
+Ces fichiers ne contiennent pas le jeton de session utilisé pour les requêtes.
+
+---
+
+## Analyse complémentaire de l'activité potentiellement suspecte
+
+### Objet de l'analyse
+
+Cette analyse complémentaire cherche à déterminer si l'un des onze appareils initialement qualifiés de suspects, ou l'un des cinq appareils apparus entre le 12 et le 17 octobre 2024, a laissé une trace compatible avec :
+
+- un accès non autorisé à l'administration de la Freebox ;
+- une modification de sa configuration ;
+- l'ouverture d'un accès entrant, d'une redirection de port, d'une DMZ ou d'un tunnel VPN ;
+- l'utilisation du gestionnaire de téléchargements ou du mécanisme d'envoi de fichiers de la Freebox ;
+- un transfert de données anormal ou une exfiltration de données ;
+- toute autre activité pouvant évoquer un piratage.
+
+Les seize appareils examinés sont :
+
+- les onze appareils suspects déjà étudiés : `E0:A2:5A:0A:A3:F7`, `50:E0:85:63:41:5B`, `A6:14:3E:8A:34:ED`, `CE:04:84:BC:D2:4D`, `16:E8:85:01:02:FD`, `4E:B5:4A:B0:3F:04`, `DE:98:33:8D:2C:A2`, `E6:E1:90:ED:E4:94`, `56:96:03:FB:28:58`, `F2:D1:B4:69:51:D8` et `B6:BD:59:D2:25:62` ;
+- les cinq appareils apparus en octobre 2024 : `96:8F:D6:BB:47:D7`, `EA:21:6C:F7:47:E7`, `AC:ED:5C:DA:47:74`, `9C:64:8B:0A:BD:0C` et `FE:AA:76:95:AC:29`.
+
+### Limites techniques déterminantes
+
+La [documentation officielle de l'API LAN Freebox](https://dev.freebox.fr/sdk/os/lan/) montre que la fiche d'un appareil contient essentiellement son identité réseau, ses noms, ses adresses IP, son état courant et les derniers horodatages d'activité ou de joignabilité. Elle ne contient pas :
+
+- la liste des sites ou services contactés ;
+- les ports TCP ou UDP utilisés par l'appareil ;
+- les flux entrants ou sortants ;
+- le volume historique transmis par appareil ;
+- les fichiers consultés sur un partage SMB ;
+- les commandes d'administration exécutées ;
+- l'identité de la personne utilisant l'appareil.
+
+La [documentation Wi-Fi officielle](https://dev.freebox.fr/sdk/os/wifi/) expose des compteurs `rx_bytes` et `tx_bytes` pour les stations actuellement conservées par un point d'accès. Ces compteurs décrivent une association Wi-Fi courante et ne constituent pas un historique par appareil remontant à 2022, 2023 ou 2024.
+
+Les statistiques [RRD](https://dev.freebox.fr/sdk/os/rrd/) sont agrégées au niveau de la connexion, du switch ou de la Freebox. Même lorsqu'elles sont disponibles, elles ne permettent pas d'attribuer un volume à une adresse MAC déterminée. La tentative de lecture de la période du 12 au 29 octobre 2024 a en outre échoué avec `error_code: "db_error"`, ce qui indique que les données demandées ne sont plus lisibles dans la base RRD actuelle.
+
+Enfin, l'API exposée ne fournit pas de journal d'audit historique reliant une modification de configuration à une adresse IP ou MAC locale. Il est donc possible de rechercher des traces positives conservées, mais pas de démontrer l'absence absolue d'une action ancienne qui n'aurait laissé aucune trace persistante.
+
+### Requêtes complémentaires exécutées
+
+Toutes les requêtes ont été effectuées séparément, en lecture seule, avec le même mécanisme d'authentification que celui décrit précédemment.
+
+```bash
+curl -sk "$BASE_URL/connection/logs/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-connection-logs.json
+curl -sk "$BASE_URL/downloads/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-downloads.json
+curl -sk "$BASE_URL/downloads/feeds/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-download-feeds.json
+curl -sk "$BASE_URL/upload/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-uploads.json
+curl -sk "$BASE_URL/fw/redir/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-port-forwarding.json
+curl -sk "$BASE_URL/upnpigd/redir/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-upnp-redirections.json
+curl -sk "$BASE_URL/fw/dmz/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-dmz.json
+curl -sk "$BASE_URL/wifi/ap/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-wifi-aps.json
+curl -sk "$BASE_URL/wifi/ap/0/stations/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-wifi-ap-0-stations.json
+curl -sk "$BASE_URL/wifi/ap/10/stations/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-wifi-ap-10-stations.json
+curl -sk "$BASE_URL/vpn_client/status" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-vpn-client-status.json
+curl -sk "$BASE_URL/vpn_client/log" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-vpn-client-log.json
+curl -sk "$BASE_URL/vpn_client/config/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-vpn-client-config.json
+curl -sk "$BASE_URL/dhcp/static_lease/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-dhcp-static-leases-v2.json
+curl -sk "$BASE_URL/dhcp/dynamic_lease/" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-dhcp-dynamic-leases.json
+curl -sk "$BASE_URL/rrd/?db=net&date_start=1728684000&date_end=1730156400&precision=1" -H "X-Fbx-App-Auth: $SESSION_TOKEN" -o freebox/preuves-json/activity-rrd-net-2024-10-12_29-get.json
+```
+
+Deux routes essayées pour obtenir un historique des autorisations et sessions d'administration, `GET /login/authorize/` et `GET /login/session/`, ont retourné HTTP `404` avec `error_code: "invalid_request"`. Elles ne fournissent donc pas, sur cette version de la Freebox, une liste exploitable des anciennes sessions ou des modifications réalisées.
+
+### Résultats par catégorie d'activité
+
+#### Administration de la Freebox et modification de paramètres
+
+Aucune réponse de l'API LAN ne relie l'un des seize appareils à une session Freebox OS, à une application autorisée ou à une modification de configuration.
+
+L'ouverture d'une application API Freebox repose sur un jeton applicatif et, lors de la première association, sur une validation physique depuis le Freebox Server. Les fiches LAN des appareils ne contiennent toutefois aucun identifiant permettant de les relier à une application autorisée. Les constats antérieurs consignés dans `freebox.md` montraient trois applications autorisées, sans droit d'accès actif anormal au moment de l'examen. Ils ne permettent pas de reconstituer leurs droits en 2024.
+
+**Conclusion limitée :** aucune trace positive ne montre qu'un des seize appareils a administré ou modifié la Freebox. En l'absence de journal d'audit historique, il n'est pas possible de démontrer qu'aucune modification ancienne n'a eu lieu, ni d'attribuer une éventuelle modification à une adresse MAC.
+
+#### Redirections de ports, UPnP et DMZ
+
+- `GET /fw/redir/` : aucune redirection manuelle retournée ;
+- `GET /upnpigd/redir/` : aucune redirection UPnP retournée ;
+- `GET /fw/dmz/` : `enabled: false` et aucune adresse IP de DMZ ;
+- aucune des seize fiches ne porte de nom provenant d'une source `upnp` ; les seuls noms conservés proviennent de DHCP, mDNS ou WSD.
+
+**Conclusion limitée :** aucun appareil suspect n'est actuellement ciblé par une redirection ou une DMZ, et aucune redirection UPnP active ne lui est attribuée. Ces endpoints décrivent l'état actuel et ne conservent pas l'historique des redirections supprimées ; ils ne permettent donc pas d'exclure une ouverture de port ancienne et temporaire.
+
+#### VPN
+
+- état du client VPN : `enabled: false` ;
+- aucune configuration de client VPN retournée ;
+- journal du client VPN vide ;
+- le constat antérieur de `freebox.md` indiquait également que les serveurs VPN intégrés étaient désactivés.
+
+**Conclusion limitée :** aucune trace conservée ne montre l'utilisation du client VPN intégré de la Freebox ou un tunnel VPN configuré par l'un des appareils. Cela n'exclut pas qu'un appareil ait utilisé son propre logiciel VPN, trafic qui ne serait pas détaillé dans l'inventaire LAN.
+
+#### Téléchargements et envois de fichiers gérés par la Freebox
+
+- `GET /downloads/` : réponse positive ne contenant aucune tâche ;
+- `GET /downloads/feeds/` : aucun abonnement ou flux de téléchargement automatique ;
+- `GET /upload/` : liste vide ;
+- l'examen antérieur du disque de la Freebox n'avait trouvé que cinq enregistrements télévisés et leurs fichiers d'index.
+
+**Conclusion limitée :** aucune tâche conservée n'indique qu'un appareil a utilisé le gestionnaire de téléchargements ou le mécanisme d'envoi de fichiers de la Freebox pour déposer ou récupérer des données. Ces résultats ne couvrent pas les téléchargements réalisés directement par un ordinateur ou un téléphone sur Internet, ni la lecture de fichiers via SMB.
+
+#### Partage SMB et accès aux fichiers
+
+Le partage SMB était activé sans authentification supplémentaire sur le réseau local au moment du constat décrit dans `freebox.md`. Un appareil déjà connecté au réseau local pouvait donc techniquement parcourir les fichiers partagés par la Freebox sans compte SMB distinct.
+
+La Freebox ne fournit pas, dans les données collectées, de journal historique indiquant quelle adresse MAC ou IP a ouvert, lu ou copié un fichier par SMB. Aucun des fichiers disponibles ne peut donc établir ou exclure une consultation par l'un des seize appareils. Le contenu visible du disque était limité aux enregistrements TV déjà décrits ; aucun document personnel ou professionnel n'avait été relevé dans l'explorateur de la Freebox.
+
+**Conclusion limitée :** la possibilité technique d'un accès local au partage existait, mais aucune trace ne montre qu'un appareil suspect a effectivement lu ou copié un fichier. Aucun élément conservé ne caractérise un siphonnage des fichiers de la Freebox.
+
+#### Volumes réseau et exfiltration de données
+
+La lecture RRD visant la période du 12 au 29 octobre 2024 a retourné :
+
+```json
+{
+  "success": false,
+  "error_code": "db_error",
+  "msg": "Erreur lors de la récupération des statistiques : Erreur lors de la lecture de la base RRD"
+}
+```
+
+Les deux points d'accès Wi-Fi actuels sont `0` — 2,4 GHz — et `10` — 5 GHz. Six stations étaient conservées sur le point d'accès 2,4 GHz et aucune sur le 5 GHz. Aucune des seize adresses MAC examinées ne figurait parmi ces stations. Les compteurs actuels ne peuvent donc pas être utilisés pour estimer leur trafic historique.
+
+Les cinq baux DHCP dynamiques actuels et l'absence de bail statique ont également été vérifiés. Aucun des seize appareils ne possède actuellement de bail DHCP actif ou réservé.
+
+**Conclusion limitée :** aucun volume anormal ne peut être attribué à l'un des seize appareils. Les données nécessaires pour quantifier leur trafic de 2022 à 2024 ne sont plus disponibles. Il est donc impossible de prouver un siphonnage de données, mais également impossible de l'exclure uniquement à partir de la Freebox.
+
+#### Journal de la connexion Internet
+
+Le journal `/connection/logs/` ne contient que deux événements : l'établissement du lien FTTH le 16 septembre 2026 à 09:48:05 et l'établissement de la connexion Internet publique le même jour à 09:48:26. Il ne contient aucun événement de 2024 et n'est de toute façon pas attribué aux appareils du réseau local.
+
+### Situation actuelle des seize appareils
+
+Au moment de la collecte de l'inventaire :
+
+- les seize fiches avaient `active: false` ;
+- les seize fiches avaient `reachable: false` ;
+- aucune n'avait de bail DHCP dynamique actif ;
+- aucune n'était présente dans les listes de stations Wi-Fi actuelles ;
+- aucune ne possédait de réservation DHCP statique ;
+- aucun nom principal n'avait été défini manuellement dans la fiche Freebox (`primary_name_manual: false`).
+
+Il n'existe donc aucun signe d'activité actuelle de ces appareils sur le réseau au moment de cette analyse.
+
+### Analyse individuelle des onze appareils initialement suspects
+
+| Appareil | Activité conservée | Recherche d'activité suspecte | Appréciation |
+|---|---|---|---|
+| `E0:A2:5A:0A:A3:F7` | Détection le 19/07/2024 ; aucune IP | Aucun flux, volume, service ou accès d'administration conservé | Aucun indice positif ; l'absence de connectivité IP conservée empêche toute analyse d'usage |
+| `50:E0:85:63:41:5B` — LAPTOP-RMCOB2VU | Une IPv6 en janvier 2023 ; nouvelles adresses en septembre 2026 | Aucun événement attribué entre ces périodes ; aucune redirection, tâche ou session reliée | Profil compatible avec un ordinateur revenant sur le réseau ; aucune activité malveillante démontrée |
+| `A6:14:3E:8A:34:ED` — UUID mDNS | IPv4 le 02/05/2024, puis activités à partir du 04/11/2024 et en 2025 | Aucun événement conservé du 15 au 28/10/2024 ; aucun volume ou service détaillé | Appareil non identifié et récurrent, à identifier physiquement ; aucune trace technique de piratage |
+| `CE:04:84:BC:D2:4D` | Connexion IP d'environ vingt-cinq minutes le 11/06/2024 | Aucune activité ultérieure, redirection ou tâche attribuée | Visite brève compatible avec un appareil de passage ; aucune action suspecte démontrée |
+| `16:E8:85:01:02:FD` | Détection le 02/05/2024 ; aucune IP | Aucun usage réseau observable | Aucun indice positif ; analyse d'activité impossible faute de connectivité conservée |
+| `4E:B5:4A:B0:3F:04` | Détection le 21/01/2024 ; aucune IP | Aucun usage réseau observable | Aucun indice positif ; analyse d'activité impossible faute de connectivité conservée |
+| `DE:98:33:8D:2C:A2` | Connexions répétées de septembre à décembre 2023 | Aucun événement conservé en 2024 ; aucun service, volume ou transfert attribué | Présence répétée mais ancienne ; aucune trace de piratage ou d'administration de la Freebox |
+| `E6:E1:90:ED:E4:94` | Détection le 11/10/2022 ; aucune IP | Aucun usage réseau observable | Aucun indice positif ; analyse d'activité impossible faute de connectivité conservée |
+| `56:96:03:FB:28:58` | Deux IPv6 pendant environ vingt et une minutes le 07/07/2022 | Aucun autre événement attribué | Connexion brève ; aucune activité suspecte démontrée |
+| `F2:D1:B4:69:51:D8` | Connexions IPv4/IPv6 d'octobre 2022 à février 2023 | Aucun événement conservé après février 2023 | Présence récurrente ancienne ; aucune trace d'accès sensible, de modification ou d'exfiltration |
+| `B6:BD:59:D2:25:62` | Connexions IPv6 d'avril à mai 2022 | Aucun événement conservé après mai 2022 | Présence récurrente ancienne ; aucune trace d'accès sensible, de modification ou d'exfiltration |
+
+### Analyse individuelle des cinq appareils d'octobre 2024
+
+| Appareil | Activité conservée | Recherche d'activité suspecte | Appréciation |
+|---|---|---|---|
+| `96:8F:D6:BB:47:D7` — iPhone | Première détection le 12/10/2024 ; dernières activités IP conservées en novembre et décembre 2024 | Pas de connectivité IP d'octobre encore datée ; aucune tâche ou ouverture attribuée | Présence avant la période confirmée, usage précis indéterminable ; aucune action malveillante démontrée |
+| `EA:21:6C:F7:47:E7` — iPhone | Du 16/10/2024 à 00:20:00 au 17/10/2024 à 00:57:02 ; IPv4 `192.168.1.3` et cinq IPv6 | Connexion IP effective, mais aucun port, volume, fichier ou accès d'administration journalisé | Présence réseau certaine pendant environ 24 h 37 ; aucune preuve d'activité sensible ou de piratage |
+| `AC:ED:5C:DA:47:74` — DESKTOP-ICPNCMD | Du 16/10/2024 à 21:27:48 à 23:25:55 ; plusieurs IPv6 ; nouvelle activité en 2026 | Connexion IP effective ; aucune redirection, tâche, VPN ou session d'administration attribuée | Appareil à identifier en priorité, possiblement l'un des ordinateurs connus ; aucune activité malveillante démontrée |
+| `9C:64:8B:0A:BD:0C` — iPhone Apple | Du 17/10/2024 à 01:00:57 à 03:43:56 ; IPv4 `192.168.1.55` et cinq IPv6 | Connexion IP effective, sans détail des flux ou services utilisés | Présence réseau certaine pendant environ 2 h 43 ; aucune preuve d'accès sensible ou d'exfiltration |
+| `FE:AA:76:95:AC:29` — iPhone | Première détection le 17/10/2024 à 03:45:44 ; activités IP conservées en novembre/décembre 2024 | Pas de connectivité IP d'octobre encore datée ; aucune tâche ou ouverture attribuée | Usage précis indéterminable ; aucune action malveillante démontrée |
+
+### Succession des identités iPhone dans la nuit du 16 au 17 octobre 2024
+
+Une séquence temporelle mérite d'être signalée :
+
+1. `EA:21:6C:F7:47:E7` cesse d'être actif le 17/10/2024 à 00:57:02 ;
+2. `9C:64:8B:0A:BD:0C` apparaît à 01:00:57, soit 3 minutes et 55 secondes plus tard ;
+3. `9C:64:8B:0A:BD:0C` cesse d'être actif à 03:43:56 ;
+4. `FE:AA:76:95:AC:29` apparaît à 03:45:44, soit 1 minute et 48 secondes plus tard.
+
+Les trois fiches portent le nom `iPhone`. `EA:21:6C:F7:47:E7` et `FE:AA:76:95:AC:29` sont des adresses MAC localement administrées, compatibles avec des adresses Wi-Fi privées. `9C:64:8B:0A:BD:0C` est attribuée à Apple et n'est pas localement administrée.
+
+Cette succession peut correspondre à plusieurs iPhone distincts, ou éventuellement à un changement de mode d'adresse privée d'un même appareil. Les données Freebox ne permettent pas de fusionner ces identités ni d'établir qu'elles appartiennent à la même personne. La proximité temporelle constitue un point à rapprocher des appareils physiques et des témoignages, mais **elle ne constitue pas une preuve de piratage**.
+
+---
+
+# Conclusion générale sur une éventuelle activité de piratage
+
+**Aucune trace positive conservée dans la Freebox ne démontre qu'un des seize appareils a :**
+
+- ouvert une session d'administration Freebox OS ;
+- modifié un paramètre de la Freebox ;
+- créé une redirection de port ou une DMZ ;
+- utilisé le client VPN intégré ;
+- lancé une tâche de téléchargement ou d'envoi de fichier via la Freebox ;
+- accédé à un fichier précis du partage SMB ;
+- transmis un volume de données anormal ;
+- exfiltré ou « siphonné » des données.
+
+**Il n'est donc pas possible, sur la base des données disponibles, de qualifier l'activité de l'un de ces appareils de piratage.**
+
+**Cette conclusion ne signifie toutefois pas qu'une activité ancienne non autorisée est techniquement exclue. Les données manquantes sont précisément celles qui seraient nécessaires pour l'établir: journal d'audit des modifications, historique des sessions d'administration, journal des accès SMB, historique des flux par appareil et compteurs de trafic par adresse MAC. La Freebox n'a pas conservé ou n'expose pas ces informations pour la période examinée.**
+
+> Les démarches les plus utiles pour poursuivre l'attribution seraient :
+> 
+> 1. relever les adresses MAC matérielles et privées des iPhone, ordinateurs et appareils connus de Mme Sadedine ;
+> 2. identifier en priorité `DESKTOP-ICPNCMD` et les trois identités iPhone successives de la nuit du 16 au 17 octobre 2024 ;
+> 3. rechercher sur les ordinateurs concernés les journaux Windows, historiques Wi-Fi, historiques de navigateur, traces SMB et événements de connexion de la période ;
+> 4. rechercher, si elles existent, des sauvegardes de configuration Freebox ou des captures d'écran contemporaines d'octobre 2024 ;
+> 5. corréler les horaires avec les présences physiques connues au domicile.
+
+### Fichiers bruts complémentaires
+
+Les réponses complémentaires sont conservées dans les fichiers `freebox/preuves-json/activity-*.json`. Elles ne contiennent pas le jeton de session. Les fichiers les plus directement utiles sont :
+
+- `freebox/preuves-json/activity-connection-logs.json` ;
+- `freebox/preuves-json/activity-downloads.json` et `freebox/preuves-json/activity-download-feeds.json` ;
+- `freebox/preuves-json/activity-uploads.json` ;
+- `freebox/preuves-json/activity-port-forwarding.json` ;
+- `freebox/preuves-json/activity-upnp-redirections.json` ;
+- `freebox/preuves-json/activity-dmz.json` ;
+- `freebox/preuves-json/activity-wifi-ap-0-stations.json` et `freebox/preuves-json/activity-wifi-ap-10-stations.json` ;
+- `freebox/preuves-json/activity-vpn-client-status.json`, `freebox/preuves-json/activity-vpn-client-config.json` et `freebox/preuves-json/activity-vpn-client-log.json` ;
+- `freebox/preuves-json/activity-dhcp-static-leases-v2.json` et `freebox/preuves-json/activity-dhcp-dynamic-leases.json` ;
+- `freebox/preuves-json/activity-rrd-net-2024-10-12_29-get.json`.
