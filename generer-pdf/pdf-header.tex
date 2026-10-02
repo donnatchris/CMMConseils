@@ -1,0 +1,36 @@
+\usepackage{etoolbox}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstset{
+  basicstyle=\ttfamily\scriptsize,
+  breaklines=true,
+  breakatwhitespace=false,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false
+}
+
+\AtBeginEnvironment{longtable}{\small\setlength{\tabcolsep}{2pt}}
+\setlength{\emergencystretch}{3em}
+\sloppy
+
+% Fond gris des blockquotes Markdown >
+\definecolor{quotebg}{gray}{0.94}
+
+\newsavebox{\quotebox}
+
+\renewenvironment{quote}
+{%
+  \begin{center}
+  \begin{lrbox}{\quotebox}%
+  \begin{minipage}{0.92\linewidth}
+  \small
+}
+{%
+  \end{minipage}%
+  \end{lrbox}%
+  \setlength{\fboxsep}{8pt}%
+  \colorbox{quotebg}{\usebox{\quotebox}}%
+  \end{center}
+}
