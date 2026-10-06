@@ -57,7 +57,7 @@ Le présent document comporte 5 pages, y compris les annexes. Ces annexes font p
 **La présente attestation constate la remise effective au Prestataire des matériels et supports décrits en Annexe 1.**
 
 Fait à Perpignan,  
-le 02 / 10 / 2026
+le 06 / 10 / 2026
 
 ### Pour le Prestataire
 
@@ -71,7 +71,7 @@ le 02 / 10 / 2026
 >  
 >  
 >  
-> le 02/10/2026
+> le 06/10/2026
 
 ### Pour la Cliente
 
@@ -85,7 +85,7 @@ le 02 / 10 / 2026
 >  
 >  
 >  
-> le 02/10/2026
+> le 06/10/2026
 
 
 
@@ -154,27 +154,27 @@ le 02 / 10 / 2026
 ## Ordinateur portable OP-01
 
 ![Ordinateur portable OP-01](remise-documents/photos/OP-01-1.jpg){ width=20% }
-![Ordinateur portable OP-01](remise-documents/photos/OP-01-1.jpg){ width=20% }
-![Ordinateur portable OP-01](remise-documents/photos/OP-01-1.jpg){ width=20% }
-![Ordinateur portable OP-01](remise-documents/photos/OP-01-1.jpg){ width=20% }
-![Ordinateur portable OP-01](remise-documents/photos/OP-01-1.jpg){ width=20% }
 
 ## Téléphone portable TP-01
 
-![Ordinateur portable OP-01](remise-documents/photos/OP-01-1.jpg){ width=20% }
-![Ordinateur portable OP-01](remise-documents/photos/OP-01-1.jpg){ width=20% }
-![Ordinateur portable OP-01](remise-documents/photos/OP-01-1.jpg){ width=20% }
-![Ordinateur portable OP-01](remise-documents/photos/OP-01-1.jpg){ width=20% }
-![Ordinateur portable OP-01](remise-documents/photos/OP-01-1.jpg){ width=20% }
+![Téléphone portable TP-01](remise-documents/photos/TP-01-1.jpg){ width=20% }
 
 ## Téléphone portable TP-02
 
+![Téléphone portable TP-02](remise-documents/photos/TP-02-1.jpg){ width=20% }
+
 ## Téléphone portable TP-03
+
+![Téléphone portable TP-03](remise-documents/photos/TP-03-1.jpg){ width=20% }
 
 ## Carte sd SD-01
 
+![Carte sd SD-01](remise-documents/photos/SD-01-1.jpg){ width=20% }
+
 ## Carte sd SD-02
+
+![Carte sd SD-02](remise-documents/photos/SD-02-1.jpg){ width=20% }
 
 ## Carte sd SD-03
 
-
+![Carte sd SD-03](remise-documents/photos/SD-03-1.jpg){ width=20% }

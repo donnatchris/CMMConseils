@@ -14,6 +14,7 @@ remise-pdf: remise-photos
 	  -V geometry:margin=0.7in
 	@echo "PDF généré : $(REMISE_PDF_OUTPUT)"
 	@echo "Pensez à vérifier le nombre de pages."
+	@echo "Pensez à récupérer les mots de passe."
 
 remise-photos:
 	@echo "Conversion des fichiers HEIC en JPG"
