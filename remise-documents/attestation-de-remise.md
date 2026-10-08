@@ -14,10 +14,10 @@ Entrepreneur individuel – Prestations informatiques
 
 ## 2. Cliente
 
-**CMM Conseils**. 
+**DMM Conseils**. 
 Mme Malika Sadedine
 
-10 avenue Voltaire, 93290 Tremblay-en-France
+111 avenue Victor Hugo, 93300 Aubervilliers
 
 0782865592
 
@@ -75,7 +75,7 @@ le 06 / 10 / 2026
 
 ### Pour la Cliente
 
-**Mme Malika Sadedine** - CMM Conseils
+**Mme Malika Sadedine** - DMM Conseils
 
 > Je confirme avoir remis à Donnat Dev les matériels et supports mentionnés ci-dessus. 
 > 
@@ -101,6 +101,8 @@ le 06 / 10 / 2026
 - **Système d'exploitation :** WINDOWS 11 VERSION 23H2 X64
 - **Quelques logiciels installés :** SAGE 50, ADOBE READER, ADOBE ACROBAT, CIEL PAYE EVOLUTION, WORD, EXCEL, OODRIVE_SIGN, OUTLOOK ,OPEN OFFICE 4.1.11, MICROSOFT TEAMS, PAPERCUT MF CLIENT, NORTON 360
 
+Orinateur remis au Prestataire.
+
 ## Téléphone portable TP-01
 
 - **Marque :** APPLE
@@ -108,6 +110,8 @@ le 06 / 10 / 2026
 - **Numéro de série :** Q13QT4F164
 - **Numéro du modèle :** MNGK3ZD/A
 - **IMEI :** 35 876346 861150 5
+
+Portable remis au Prestataire.
 
 ## Téléphone portable TP-02
 
@@ -118,6 +122,8 @@ le 06 / 10 / 2026
 - **IMEI 1:** 35292959671648 4
 - **IMEI 2:** 35292959 723940 3
 
+Portable remis au Prestataire.
+
 ## Téléphone portable TP-03
 
 - **Marque :** APPLE
@@ -126,26 +132,22 @@ le 06 / 10 / 2026
 - **Numéro du modèle :** MLK83F/A
 - **IMEI :** 8933130002078820373
 
+Portable non remis ce jour, à envoyer par recommandé par la suite.
+
 ## Cartes sd SD-01
 
-- **Marque :** ...
-- **Capacité :** ...
-- **Référence / inscriptions visibles :** ...
-- **Aspect / observations :** ...
+- **Marque :** ScanDisk 
+- **Capacité :** 32 Gigas
 
 ## Cartes sd SD-02
 
-- **Marque :** ...
-- **Capacité :** ...
-- **Référence / inscriptions visibles :** ...
-- **Aspect / observations :** ...
+- **Marque :** ScanDisk 
+- **Capacité :** 32 Gigas
 
 ## Cartes sd SD-03
 
-- **Marque :** ...
-- **Capacité :** ...
-- **Référence / inscriptions visibles :** ...
-- **Aspect / observations :** ...
+- **Marque :** ScanDisk 
+- **Capacité :** 32 Gigas
 
 \newpage
 
@@ -163,18 +165,9 @@ le 06 / 10 / 2026
 
 ![Téléphone portable TP-02](remise-documents/photos/TP-02-1.jpg){ width=20% }
 
-## Téléphone portable TP-03
+\newpage
 
-![Téléphone portable TP-03](remise-documents/photos/TP-03-1.jpg){ width=20% }
-
-## Carte sd SD-01
+## Cartes sd
 
 ![Carte sd SD-01](remise-documents/photos/SD-01-1.jpg){ width=20% }
 
-## Carte sd SD-02
-
-![Carte sd SD-02](remise-documents/photos/SD-02-1.jpg){ width=20% }
-
-## Carte sd SD-03
-
-![Carte sd SD-03](remise-documents/photos/SD-03-1.jpg){ width=20% }
