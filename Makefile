@@ -3,6 +3,9 @@ REMISE_PDF_SOURCE := $(REMISE_DIRECTORY)/attestation-de-remise.md
 REMISE_PDF_OUTPUT := $(REMISE_DIRECTORY)/attestation-de-remise.pdf
 REMISE_PHOTOS := $(REMISE_DIRECTORY)/photos
 
+clean-all:
+	@git status
+
 remise-pdf: remise-photos
 	@echo "Génération du PDF de remise des documents"
 	@pandoc $(REMISE_PDF_SOURCE) \
