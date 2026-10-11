@@ -4,7 +4,14 @@ REMISE_PDF_OUTPUT := $(REMISE_DIRECTORY)/attestation-de-remise.pdf
 REMISE_PHOTOS := $(REMISE_DIRECTORY)/photos
 
 clean-all:
-	@git status
+	@GIT_STATUS=$$(git status --porcelain); \
+	if [ -z "$$GIT_STATUS" ]; then \
+		echo "Dépôt propre"; \
+	else \
+		echo "❌ Modifications détectées"; \
+		exit 1; \
+	fi
+
 
 remise-pdf: remise-photos
 	@echo "Génération du PDF de remise des documents"
