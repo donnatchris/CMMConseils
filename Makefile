@@ -3,14 +3,43 @@ REMISE_PDF_SOURCE := $(REMISE_DIRECTORY)/attestation-de-remise.md
 REMISE_PDF_OUTPUT := $(REMISE_DIRECTORY)/attestation-de-remise.pdf
 REMISE_PHOTOS := $(REMISE_DIRECTORY)/photos
 
-clean-all:
+GREEN := \033[0;32m
+YELLOW := \033[0;33m
+RED := \033[1;31m
+RESET := \033[0;0m
+
+.PHONY: clean-all
+
+git-status:
+	@printf "$(YELLOW)Vérification de l'état du dépôt\n$(RESET)"
+	@git fetch --quiet
 	@GIT_STATUS=$$(git status --porcelain); \
-	if [ -z "$$GIT_STATUS" ]; then \
-		echo "Dépôt propre"; \
-	else \
-		echo "❌ Modifications détectées"; \
+	if [ -n "$$GIT_STATUS" ]; then \
+		printf "$(RED)ABORTED: Repository is not clean.\n$(RESET)"; \
 		exit 1; \
 	fi
+	@if ! git rev-parse --verify '@{upstream}' >/dev/null 2>&1; then \
+		printf "$(RED)ABORTED: No upstream branch configured.\n$(RESET)"; \
+		exit 1; \
+	fi
+	@if [ "$$(git rev-parse HEAD)" != "$$(git rev-parse '@{upstream}')" ]; then \
+		printf "$(RED)ABORTED: Repository is not synchronized with remote.\n$(RESET)"; \
+		exit 1; \
+	fi
+	@printf "$(GREEN)Repository clean and synchronized.\n$(RESET)"
+
+clean-tracked:
+	@printf "$(YELLOW)Suppression of tracked files\n$(RESET)"
+	@git ls-files -z | xargs -0 rm -f --
+	@printf "$(GREEN)Tracked files removed.\n$(RESET)"
+
+clean-all: git-status clean-tracked
+	@printf "$(GREEN)All tracked files have been removed. Restore with 'git restore .'\n$(RESET)"
+
+git-restore:
+	@printf "$(YELLOW)Restoring tracked files\n$(RESET)"
+	@git restore .
+	@printf "$(GREEN)Tracked files restored.\n$(RESET)"
 
 
 remise-pdf: remise-photos
