@@ -10,6 +10,10 @@ RESET := \033[0;0m
 
 .PHONY: clean-all
 
+###################################################################################################
+# Clean commands
+###################################################################################################
+
 git-status:
 	@printf "$(YELLOW)Vérification de l'état du dépôt\n$(RESET)"
 	@git fetch --quiet
@@ -28,12 +32,12 @@ git-status:
 	fi
 	@printf "$(GREEN)Repository clean and synchronized.\n$(RESET)"
 
-clean-tracked:
+clean-tracked: git-status
 	@printf "$(YELLOW)Suppression of tracked files\n$(RESET)"
-	@git ls-files -z | xargs -0 rm -f --
+	@git ls-files -z -- ':!Makefile' | xargs -0 rm -f --
 	@printf "$(GREEN)Tracked files removed.\n$(RESET)"
 
-clean-all: git-status clean-tracked
+clean-all: clean-tracked
 	@printf "$(GREEN)All tracked files have been removed. Restore with 'git restore .'\n$(RESET)"
 
 git-restore:
@@ -41,6 +45,9 @@ git-restore:
 	@git restore .
 	@printf "$(GREEN)Tracked files restored.\n$(RESET)"
 
+###################################################################################################
+# PDF generation commands
+###################################################################################################
 
 remise-pdf: remise-photos
 	@echo "Génération du PDF de remise des documents"
@@ -62,4 +69,4 @@ remise-photos:
 	done
 	@echo "Conversion terminée."
 
-.PHONY: remise-pdf remise-photos
+.PHONY: remise-pdf remise-photos git-status clean-tracked clean-all git-restore
