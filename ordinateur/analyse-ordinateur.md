@@ -301,4 +301,153 @@ Le 12/10/2026 à 11h20 environ, l'ordinateur a été remis en état de fonctionn
 
 - le Secure Boot a été réactivé dans le BIOS
 - l'ordinateur a été redémarré et la clé BitLocker a été réactivée
+
+---
+
+## Analyse de l'image dans Swift
+
+```bash
+sansforensics@siftworkstation: ~
+$ ewfinfo /media/shared/forensic/SADEDINE-2026/OP-01/OP01.E01
+ewfinfo 20140816
+
+Acquiry information
+	Case number:		SADEDINE-2026
+	Description:		Image disque du PC de Mme Sadedine
+	Examiner name:		Christophe Donnat
+	Evidence number:	OP-01
+	Notes:			BTNH93120FL8512A
+	Acquisition date:	Mon Oct 12 09:21:57 2026
+	System date:		Mon Oct 12 09:21:57 2026
+	Operating system used:	6.8.0-52-generic
+	Software version used:	guymager 0.8.13-1
+	Password:		N/A
+	Model:			INTEL SSDPEKNW512G8
+	Serial number:		BTNH93120FL8512A
+
+EWF information
+	File format:		EnCase 6
+	Sectors per chunk:	64
+	Error granularity:	1
+	Compression method:	deflate
+	Compression level:	good (fast) compression
+
+Media information
+	Media type:		fixed disk
+	Is physical:		yes
+	Bytes per sector:	512
+	Number of sectors:	1000215216
+	Media size:		476 GiB (512110190592 bytes)
+
+Digest hash information
+	MD5:			10c9f3df1ecd999567a05beaa4056ace
+```
+
+```bash
+sansforensics@siftworkstation: ~
+$ sudo mmls /mnt/ewf/ewf1
+GUID Partition Table (EFI)
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Safety Table
+001:  -------   0000000000   0000002047   0000002048   Unallocated
+002:  Meta      0000000001   0000000001   0000000001   GPT Header
+003:  Meta      0000000002   0000000033   0000000032   Partition Table
+004:  000       0000002048   0000534527   0000532480   EFI system partition
+005:  001       0000534528   0000567295   0000032768   Microsoft reserved partition
+006:  002       0000567296   0998472334   0997905039   Basic data partition
+007:  -------   0998472335   0998473727   0000001393   Unallocated
+008:  003       0998473728   1000210431   0001736704   
+009:  -------   1000210432   1000215215   0000004784   Unallocated
+```
+
+```bash
+sansforensics@siftworkstation: ~
+$ sudo blkid -p -O $((567296 * 512)) /mnt/ewf/ewf1
+/mnt/ewf/ewf1: VERSION="2" TYPE="BitLocker" USAGE="crypto"
+```
+
+```bash
+sansforensics@siftworkstation: ~
+$ sudo losetup -fP --read-only --show /mnt/ewf/ewf1
+/dev/loop14
+```
+
+```bash
+sansforensics@siftworkstation: ~
+$ sudo lsblk -o NAME,SIZE,FSTYPE,TYPE,MOUNTPOINT /dev/loop14
+NAME         SIZE FSTYPE    TYPE MOUNTPOINT
+loop14     476.9G           loop 
+├─loop14p1   260M vfat      part 
+├─loop14p2    16M           part 
+├─loop14p3 475.8G BitLocker part 
+└─loop14p4   848M ntfs      part 
+
+```
+
+```bash
+sansforensics@siftworkstation: ~
+$ command -v dislocker
+/usr/bin/dislocker
+sansforensics@siftworkstation: ~
+$ sudo dislocker -r \
+  -V /dev/loop14p3 \
+  -p \
+  -- /mnt/dislocker
+Enter the recovery password: XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX
+Valid password format, continuing.
+sansforensics@siftworkstation: ~
+$ echo $?
 0
+sansforensics@siftworkstation: ~
+$ sudo ls -lh /mnt/dislocker/
+total 0
+-r--r--r-- 1 root root 477G Jan  1  1970 dislocker-file
+```
+
+```bash
+sansforensics@siftworkstation: ~
+$ sudo mount -t ntfs-3g \
+  -o ro,norecover \
+  /mnt/dislocker/dislocker-file \
+  /mnt/windows
+sansforensics@siftworkstation: ~
+$ sudo ls -lah /mnt/windows/
+total 14G
+drwxrwxrwx  1 root root 4.0K Mar 16  2021 '$Recycle.Bin'
+drwxrwxrwx  1 root root 8.0K Oct  2 16:47  .
+drwxr-xr-x 22 root root 4.0K Oct 13 11:48  ..
+drwxrwxrwx  1 root root    0 Apr  3  2024  CIEL
+drwxrwxrwx  1 root root    0 Jul  7  2020  Cache
+drwxrwxrwx  1 root root    0 Apr  3  2024  CommonData
+lrwxrwxrwx  2 root root   18 Oct 23  2019 'Documents and Settings' -> /mnt/windows/Users
+-rwxrwxrwx  2 root root  12K May 22  2023  DumpStack.log
+-rwxrwxrwx  2 root root  12K Oct 12 06:49  DumpStack.log.tmp
+-rwxrwxrwx  1 root root    9 Oct 23  2019  Finish.log
+drwxrwxrwx  1 root root    0 Oct  5  2022  HP
+drwxrwxrwx  1 root root    0 Oct 12 06:49  Intel
+drwxrwxrwx  1 root root 4.0K Jul 27 17:07  L16B
+drwxrwxrwx  1 root root    0 Dec 19  2019  OneDriveTemp
+drwxrwxrwx  1 root root    0 May  7  2022  PerfLogs
+drwxrwxrwx  1 root root  12K Oct  2 15:23 'Program Files'
+drwxrwxrwx  1 root root 8.0K Apr  3  2024 'Program Files (x86)'
+drwxrwxrwx  1 root root 8.0K Oct  2 16:12  ProgramData
+drwxrwxrwx  1 root root 4.0K Oct  2 15:23  Recovery
+drwxrwxrwx  1 root root  20K Oct  2 16:19 'System Volume Information'
+drwxrwxrwx  1 root root 4.0K Sep 28  2023  Users
+drwxrwxrwx  1 root root  20K Dec  2  2024  Windows
+drwxrwxrwx  1 root root 4.0K Oct 10  2024  adobeTemp
+-rwxrwxrwx  1 root root  15K Oct 23  2019  devlist.txt
+drwxrwxrwx  1 root root    0 Oct 23  2019  eSupport
+-rwxrwxrwx  1 root root 7.9G Oct 12 06:51  hiberfil.sys
+-rwxrwxrwx  1 root root 5.3G Oct 12 06:49  pagefile.sys
+-rwxrwxrwx  1 root root  16M Oct 12 06:49  swapfile.sys
+-rwxrwxrwx  2 root root    0 Oct  2 15:23  wal362836C5
+```
+
+```bash
+
+```
+
