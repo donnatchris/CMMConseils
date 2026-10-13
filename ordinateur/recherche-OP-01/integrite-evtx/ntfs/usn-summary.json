@@ -1,0 +1,489 @@
+{
+  "mft_index": 155201,
+  "logical_size": 24453277672,
+  "extents": [
+    {
+      "index": 0,
+      "physical_offset": 0,
+      "logical_offset": 0,
+      "size": 24419237888,
+      "flags": 1
+    },
+    {
+      "index": 1,
+      "physical_offset": 12984811520,
+      "logical_offset": 24419237888,
+      "size": 475136,
+      "flags": 0
+    },
+    {
+      "index": 2,
+      "physical_offset": 14768242688,
+      "logical_offset": 24419713024,
+      "size": 507904,
+      "flags": 0
+    },
+    {
+      "index": 3,
+      "physical_offset": 14354661376,
+      "logical_offset": 24420220928,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 4,
+      "physical_offset": 86944088064,
+      "logical_offset": 24420745216,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 5,
+      "physical_offset": 91859173376,
+      "logical_offset": 24421269504,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 6,
+      "physical_offset": 95249448960,
+      "logical_offset": 24421793792,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 7,
+      "physical_offset": 86410330112,
+      "logical_offset": 24422318080,
+      "size": 540672,
+      "flags": 0
+    },
+    {
+      "index": 8,
+      "physical_offset": 82763628544,
+      "logical_offset": 24422858752,
+      "size": 507904,
+      "flags": 0
+    },
+    {
+      "index": 9,
+      "physical_offset": 101938843648,
+      "logical_offset": 24423366656,
+      "size": 540672,
+      "flags": 0
+    },
+    {
+      "index": 10,
+      "physical_offset": 94577590272,
+      "logical_offset": 24423907328,
+      "size": 520192,
+      "flags": 0
+    },
+    {
+      "index": 11,
+      "physical_offset": 92215214080,
+      "logical_offset": 24424427520,
+      "size": 540672,
+      "flags": 0
+    },
+    {
+      "index": 12,
+      "physical_offset": 93732192256,
+      "logical_offset": 24424968192,
+      "size": 495616,
+      "flags": 0
+    },
+    {
+      "index": 13,
+      "physical_offset": 354439102464,
+      "logical_offset": 24425463808,
+      "size": 557056,
+      "flags": 0
+    },
+    {
+      "index": 14,
+      "physical_offset": 429048987648,
+      "logical_offset": 24426020864,
+      "size": 507904,
+      "flags": 0
+    },
+    {
+      "index": 15,
+      "physical_offset": 28137406464,
+      "logical_offset": 24426528768,
+      "size": 520192,
+      "flags": 0
+    },
+    {
+      "index": 16,
+      "physical_offset": 28108333056,
+      "logical_offset": 24427048960,
+      "size": 512000,
+      "flags": 0
+    },
+    {
+      "index": 17,
+      "physical_offset": 91891957760,
+      "logical_offset": 24427560960,
+      "size": 573440,
+      "flags": 0
+    },
+    {
+      "index": 18,
+      "physical_offset": 87942807552,
+      "logical_offset": 24428134400,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 19,
+      "physical_offset": 87691116544,
+      "logical_offset": 24428658688,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 20,
+      "physical_offset": 85843787776,
+      "logical_offset": 24429182976,
+      "size": 487424,
+      "flags": 0
+    },
+    {
+      "index": 21,
+      "physical_offset": 76197158912,
+      "logical_offset": 24429670400,
+      "size": 512000,
+      "flags": 0
+    },
+    {
+      "index": 22,
+      "physical_offset": 71568179200,
+      "logical_offset": 24430182400,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 23,
+      "physical_offset": 67983785984,
+      "logical_offset": 24430706688,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 24,
+      "physical_offset": 67215441920,
+      "logical_offset": 24431230976,
+      "size": 536576,
+      "flags": 0
+    },
+    {
+      "index": 25,
+      "physical_offset": 57417433088,
+      "logical_offset": 24431767552,
+      "size": 512000,
+      "flags": 0
+    },
+    {
+      "index": 26,
+      "physical_offset": 18611781632,
+      "logical_offset": 24432279552,
+      "size": 626688,
+      "flags": 0
+    },
+    {
+      "index": 27,
+      "physical_offset": 17808674816,
+      "logical_offset": 24432906240,
+      "size": 421888,
+      "flags": 0
+    },
+    {
+      "index": 28,
+      "physical_offset": 21511307264,
+      "logical_offset": 24433328128,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 29,
+      "physical_offset": 24602198016,
+      "logical_offset": 24433852416,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 30,
+      "physical_offset": 83159908352,
+      "logical_offset": 24434376704,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 31,
+      "physical_offset": 117341519872,
+      "logical_offset": 24434900992,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 32,
+      "physical_offset": 102049538048,
+      "logical_offset": 24435425280,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 33,
+      "physical_offset": 57253003264,
+      "logical_offset": 24435949568,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 34,
+      "physical_offset": 53011644416,
+      "logical_offset": 24436473856,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 35,
+      "physical_offset": 57192136704,
+      "logical_offset": 24436998144,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 36,
+      "physical_offset": 24180703232,
+      "logical_offset": 24437522432,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 37,
+      "physical_offset": 65313505280,
+      "logical_offset": 24438046720,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 38,
+      "physical_offset": 344752324608,
+      "logical_offset": 24438571008,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 39,
+      "physical_offset": 44466954240,
+      "logical_offset": 24439095296,
+      "size": 532480,
+      "flags": 0
+    },
+    {
+      "index": 40,
+      "physical_offset": 49434304512,
+      "logical_offset": 24439627776,
+      "size": 532480,
+      "flags": 0
+    },
+    {
+      "index": 41,
+      "physical_offset": 46654472192,
+      "logical_offset": 24440160256,
+      "size": 520192,
+      "flags": 0
+    },
+    {
+      "index": 42,
+      "physical_offset": 61001216000,
+      "logical_offset": 24440680448,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 43,
+      "physical_offset": 101337214976,
+      "logical_offset": 24441204736,
+      "size": 512000,
+      "flags": 0
+    },
+    {
+      "index": 44,
+      "physical_offset": 39026548736,
+      "logical_offset": 24441716736,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 45,
+      "physical_offset": 97925545984,
+      "logical_offset": 24442241024,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 46,
+      "physical_offset": 21279178752,
+      "logical_offset": 24442765312,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 47,
+      "physical_offset": 27531657216,
+      "logical_offset": 24443289600,
+      "size": 536576,
+      "flags": 0
+    },
+    {
+      "index": 48,
+      "physical_offset": 24789385216,
+      "logical_offset": 24443826176,
+      "size": 512000,
+      "flags": 0
+    },
+    {
+      "index": 49,
+      "physical_offset": 17706565632,
+      "logical_offset": 24444338176,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 50,
+      "physical_offset": 14763147264,
+      "logical_offset": 24444862464,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 51,
+      "physical_offset": 70448791552,
+      "logical_offset": 24445386752,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 52,
+      "physical_offset": 69551783936,
+      "logical_offset": 24445911040,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 53,
+      "physical_offset": 100376412160,
+      "logical_offset": 24446435328,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 54,
+      "physical_offset": 29053140992,
+      "logical_offset": 24446959616,
+      "size": 540672,
+      "flags": 0
+    },
+    {
+      "index": 55,
+      "physical_offset": 25374769152,
+      "logical_offset": 24447500288,
+      "size": 520192,
+      "flags": 0
+    },
+    {
+      "index": 56,
+      "physical_offset": 54567198720,
+      "logical_offset": 24448020480,
+      "size": 512000,
+      "flags": 0
+    },
+    {
+      "index": 57,
+      "physical_offset": 27343273984,
+      "logical_offset": 24448532480,
+      "size": 540672,
+      "flags": 0
+    },
+    {
+      "index": 58,
+      "physical_offset": 17781587968,
+      "logical_offset": 24449073152,
+      "size": 507904,
+      "flags": 0
+    },
+    {
+      "index": 59,
+      "physical_offset": 35207450624,
+      "logical_offset": 24449581056,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 60,
+      "physical_offset": 50404687872,
+      "logical_offset": 24450105344,
+      "size": 540672,
+      "flags": 0
+    },
+    {
+      "index": 61,
+      "physical_offset": 56919818240,
+      "logical_offset": 24450646016,
+      "size": 507904,
+      "flags": 0
+    },
+    {
+      "index": 62,
+      "physical_offset": 54375137280,
+      "logical_offset": 24451153920,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 63,
+      "physical_offset": 76390498304,
+      "logical_offset": 24451678208,
+      "size": 540672,
+      "flags": 0
+    },
+    {
+      "index": 64,
+      "physical_offset": 80266313728,
+      "logical_offset": 24452218880,
+      "size": 524288,
+      "flags": 0
+    },
+    {
+      "index": 65,
+      "physical_offset": 84317487104,
+      "logical_offset": 24452743168,
+      "size": 245760,
+      "flags": 0
+    },
+    {
+      "index": 66,
+      "physical_offset": 86346186752,
+      "logical_offset": 24452988928,
+      "size": 524288,
+      "flags": 0
+    }
+  ],
+  "pyfsntfs": "20251028",
+  "max_hex": "000000020000000000008000000000008d08699f3889d5010000000000000000",
+  "allocated_bytes": 34275328,
+  "extent_total_logical_size": 24453513216,
+  "extracted_logical_start": 24419237888,
+  "extracted_size": 34039784,
+  "sha256": "da035a69b64d916258414601f435a5e651e2263c31a4ca648beac271a4bf8f16",
+  "counts": {
+    "records": 325252,
+    "log_files": 489
+  },
+  "first_utc": "2026-10-02T18:42:39.367257+00:00",
+  "last_utc": "2026-10-12T06:51:00.398932+00:00",
+  "invalid_candidates": 0
+}

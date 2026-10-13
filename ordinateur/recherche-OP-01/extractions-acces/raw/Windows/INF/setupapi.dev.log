@@ -1,0 +1,2212 @@
+[Device Install Log]
+     OS Version = 10.0.22631
+     Service Pack = 0.0
+     Suite = 0x0300
+     ProductType = 1
+     Architecture = amd64
+
+[BeginLog]
+   . set: Device HID\VID_046D&PID_C52B&MI_01&COL03\8&135B8A0E&0&0002 was removed.
+   . set: Device USB\VID_04E8&PID_6860\R58RB2ETQER will be removed.
+
+>>>  [Delete Device - USB\VID_04E8&PID_6860\R58RB2ETQER]
+>>>  Section start 2024/12/03 22:38:35.685
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:36.070
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_04E8&PID_6860\R58RB2ETQER was removed.
+   . set: Device HID\VID_046D&PID_C52B&MI_02&COL03\8&3732C7D0&0&0002 will be removed.
+
+>>>  [Delete Device - HID\VID_046D&PID_C52B&MI_02&COL03\8&3732C7D0&0&0002]
+>>>  Section start 2024/12/03 22:38:36.101
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:36.273
+<<<  [Exit status: SUCCESS]
+
+   . set: Device HID\VID_046D&PID_C52B&MI_02&COL03\8&3732C7D0&0&0002 was removed.
+   . set: Device USB\VID_046D&PID_C52B&MI_01\7&2C353A95&0&0001 will be removed.
+
+>>>  [Delete Device - USB\VID_046D&PID_C52B&MI_01\7&2C353A95&0&0001]
+>>>  Section start 2024/12/03 22:38:36.320
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:36.493
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_046D&PID_C52B&MI_01\7&2C353A95&0&0001 was removed.
+   . set: Device USB\VID_0951&PID_1666\E0D55EA493C4F3A178B11467 will be removed.
+
+>>>  [Delete Device - USB\VID_0951&PID_1666\E0D55EA493C4F3A178B11467]
+>>>  Section start 2024/12/03 22:38:36.509
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:36.713
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_0951&PID_1666\E0D55EA493C4F3A178B11467 was removed.
+   . set: Device USBSTOR\DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_\0026188879D7F250D72E0E88&0 will be removed.
+
+>>>  [Delete Device - USBSTOR\DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_\0026188879D7F250D72E0E88&0]
+>>>  Section start 2024/12/03 22:38:36.745
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:36.871
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USBSTOR\DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_\0026188879D7F250D72E0E88&0 was removed.
+   . set: Device USB\VID_0951&PID_1666\E0D55EA49333E49089B402AD will be removed.
+
+>>>  [Delete Device - USB\VID_0951&PID_1666\E0D55EA49333E49089B402AD]
+>>>  Section start 2024/12/03 22:38:36.902
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:37.141
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_0951&PID_1666\E0D55EA49333E49089B402AD was removed.
+   . set: Device HID\VID_046D&PID_C52B&MI_01&COL04\8&135B8A0E&0&0003 will be removed.
+
+>>>  [Delete Device - HID\VID_046D&PID_C52B&MI_01&COL04\8&135B8A0E&0&0003]
+>>>  Section start 2024/12/03 22:38:37.169
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:37.324
+<<<  [Exit status: SUCCESS]
+
+   . set: Device HID\VID_046D&PID_C52B&MI_01&COL04\8&135B8A0E&0&0003 was removed.
+   . set: Device STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT4 will be removed.
+
+>>>  [Delete Device - STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT4]
+>>>  Section start 2024/12/03 22:38:37.352
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:37.507
+<<<  [Exit status: SUCCESS]
+
+   . set: Device STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT4 was removed.
+   . set: Device STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT5 will be removed.
+
+>>>  [Delete Device - STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT5]
+>>>  Section start 2024/12/03 22:38:37.556
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:37.737
+<<<  [Exit status: SUCCESS]
+
+   . set: Device STORAGE\VOLUMESNAPSHOT\HARDDISKVOLUMESNAPSHOT5 was removed.
+   . set: Device USB\VID_046D&PID_C52B&MI_02\7&2C353A95&0&0002 will be removed.
+
+>>>  [Delete Device - USB\VID_046D&PID_C52B&MI_02\7&2C353A95&0&0002]
+>>>  Section start 2024/12/03 22:38:37.749
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:38.085
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_046D&PID_C52B&MI_02\7&2C353A95&0&0002 was removed.
+   . set: Device USB\VID_04E8&PID_6863&RNDIS\7&95C02D9&0&0000 will be removed.
+
+>>>  [Delete Device - USB\VID_04E8&PID_6863&RNDIS\7&95C02D9&0&0000]
+>>>  Section start 2024/12/03 22:38:38.116
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:38.288
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_04E8&PID_6863&RNDIS\7&95C02D9&0&0000 was removed.
+   . set: Device USB\VID_04E8&PID_6860&MS_COMP_MTP&SAMSUNG_ANDROID\7&CE3BC01&0&0000 will be removed.
+
+>>>  [Delete Device - USB\VID_04E8&PID_6860&MS_COMP_MTP&SAMSUNG_ANDROID\7&CE3BC01&0&0000]
+>>>  Section start 2024/12/03 22:38:38.319
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:38.413
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_04E8&PID_6860&MS_COMP_MTP&SAMSUNG_ANDROID\7&CE3BC01&0&0000 was removed.
+   . set: Device USB\VID_04E8&PID_6860&MODEM\7&CE3BC01&0&0001 will be removed.
+
+>>>  [Delete Device - USB\VID_04E8&PID_6860&MODEM\7&CE3BC01&0&0001]
+>>>  Section start 2024/12/03 22:38:38.429
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:38.570
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_04E8&PID_6860&MODEM\7&CE3BC01&0&0001 was removed.
+   . set: Device USB\VID_04E8&PID_6863&MI_00\7&95C02D9&0&0000 will be removed.
+
+>>>  [Delete Device - USB\VID_04E8&PID_6863&MI_00\7&95C02D9&0&0000]
+>>>  Section start 2024/12/03 22:38:38.617
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:38.790
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_04E8&PID_6863&MI_00\7&95C02D9&0&0000 was removed.
+   . set: Device USB\VID_1058&PID_264F\MSFT30323233353034343031353139 will be removed.
+
+>>>  [Delete Device - USB\VID_1058&PID_264F\MSFT30323233353034343031353139]
+>>>  Section start 2024/12/03 22:38:38.805
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:39.114
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_1058&PID_264F\MSFT30323233353034343031353139 was removed.
+   . set: Device USB\VID_2109&PID_2815\5&13260716&0&2 will be removed.
+
+>>>  [Delete Device - USB\VID_2109&PID_2815\5&13260716&0&2]
+>>>  Section start 2024/12/03 22:38:39.262
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:39.456
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_2109&PID_2815\5&13260716&0&2 was removed.
+   . set: Device USB\VID_04E8&PID_6863\R58RB2ETQER will be removed.
+
+>>>  [Delete Device - USB\VID_04E8&PID_6863\R58RB2ETQER]
+>>>  Section start 2024/12/03 22:38:39.472
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:39.630
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_04E8&PID_6863\R58RB2ETQER was removed.
+   . set: Device STORAGE\VOLUME\{DC028451-F52B-11E9-8D55-806E6F6E6963}#000000770B200000 will be removed.
+
+>>>  [Delete Device - STORAGE\VOLUME\{DC028451-F52B-11E9-8D55-806E6F6E6963}#000000770B200000]
+>>>  Section start 2024/12/03 22:38:39.693
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:39.850
+<<<  [Exit status: SUCCESS]
+
+   . set: Device STORAGE\VOLUME\{DC028451-F52B-11E9-8D55-806E6F6E6963}#000000770B200000 was removed.
+   . set: Device SCSI\DISK&VEN_WD&PROD_MY_PASSPORT_264F\6&14B1473&0&000000 will be removed.
+
+>>>  [Delete Device - SCSI\DISK&VEN_WD&PROD_MY_PASSPORT_264F\6&14B1473&0&000000]
+>>>  Section start 2024/12/03 22:38:39.866
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:39.991
+<<<  [Exit status: SUCCESS]
+
+   . set: Device SCSI\DISK&VEN_WD&PROD_MY_PASSPORT_264F\6&14B1473&0&000000 was removed.
+   . set: Device USBSTOR\DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_PMAP\E0D55EA49333E49089B402AD&0 will be removed.
+
+>>>  [Delete Device - USBSTOR\DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_PMAP\E0D55EA49333E49089B402AD&0]
+>>>  Section start 2024/12/03 22:38:40.006
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:40.163
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USBSTOR\DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_PMAP\E0D55EA49333E49089B402AD&0 was removed.
+   . set: Device DISPLAY\ACR0331\4&D71A21B&0&UID198147 will be removed.
+
+>>>  [Delete Device - DISPLAY\ACR0331\4&D71A21B&0&UID198147]
+>>>  Section start 2024/12/03 22:38:40.226
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:40.404
+<<<  [Exit status: SUCCESS]
+
+   . set: Device DISPLAY\ACR0331\4&D71A21B&0&UID198147 was removed.
+   . set: Device SWD\WPDBUSENUM\{B06440D2-9537-11EF-8DC8-50E08563415F}#0000000000100000 will be removed.
+
+>>>  [Delete Device - SWD\WPDBUSENUM\{B06440D2-9537-11EF-8DC8-50E08563415F}#0000000000100000]
+>>>  Section start 2024/12/03 22:38:40.437
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:40.547
+<<<  [Exit status: SUCCESS]
+
+   . set: Device SWD\WPDBUSENUM\{B06440D2-9537-11EF-8DC8-50E08563415F}#0000000000100000 was removed.
+   . set: Device USBSTOR\DISK&VEN_GENERIC&PROD_USB_FLASH_DISK&REV_7.76\6&21C63D99&0 will be removed.
+
+>>>  [Delete Device - USBSTOR\DISK&VEN_GENERIC&PROD_USB_FLASH_DISK&REV_7.76\6&21C63D99&0]
+>>>  Section start 2024/12/03 22:38:40.579
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:40.673
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USBSTOR\DISK&VEN_GENERIC&PROD_USB_FLASH_DISK&REV_7.76\6&21C63D99&0 was removed.
+   . set: Device STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#0026188879D7F250D72E0E88&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} will be removed.
+
+>>>  [Delete Device - STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#0026188879D7F250D72E0E88&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}]
+>>>  Section start 2024/12/03 22:38:40.704
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:40.925
+<<<  [Exit status: SUCCESS]
+
+   . set: Device STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#0026188879D7F250D72E0E88&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} was removed.
+   . set: Device HID\VID_046D&PID_C52B&MI_01&COL01\8&135B8A0E&0&0000 will be removed.
+
+>>>  [Delete Device - HID\VID_046D&PID_C52B&MI_01&COL01\8&135B8A0E&0&0000]
+>>>  Section start 2024/12/03 22:38:40.957
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:41.131
+<<<  [Exit status: SUCCESS]
+
+   . set: Device HID\VID_046D&PID_C52B&MI_01&COL01\8&135B8A0E&0&0000 was removed.
+   . set: Device HID\VID_046D&PID_C52B&MI_02&COL01\8&3732C7D0&0&0000 will be removed.
+
+>>>  [Delete Device - HID\VID_046D&PID_C52B&MI_02&COL01\8&3732C7D0&0&0000]
+>>>  Section start 2024/12/03 22:38:41.147
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:41.273
+<<<  [Exit status: SUCCESS]
+
+   . set: Device HID\VID_046D&PID_C52B&MI_02&COL01\8&3732C7D0&0&0000 was removed.
+   . set: Device SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#0026188879D7F250D72E0E88&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} will be removed.
+
+>>>  [Delete Device - SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#0026188879D7F250D72E0E88&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}]
+>>>  Section start 2024/12/03 22:38:41.289
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:41.447
+<<<  [Exit status: SUCCESS]
+
+   . set: Device SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#0026188879D7F250D72E0E88&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} was removed.
+   . set: Device USB\VID_046D&PID_C52B\6&36EEC1C6&0&4 will be removed.
+
+>>>  [Delete Device - USB\VID_046D&PID_C52B\6&36EEC1C6&0&4]
+>>>  Section start 2024/12/03 22:38:41.474
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:41.611
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_046D&PID_C52B\6&36EEC1C6&0&4 was removed.
+   . set: Device USBSTOR\DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_\E0D55EA493C4F3A178B11467&0 will be removed.
+
+>>>  [Delete Device - USBSTOR\DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_\E0D55EA493C4F3A178B11467&0]
+>>>  Section start 2024/12/03 22:38:41.648
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:41.777
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USBSTOR\DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_\E0D55EA493C4F3A178B11467&0 was removed.
+   . set: Device STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#E0D55EA493C4F3A178B11467&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} will be removed.
+
+>>>  [Delete Device - STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#E0D55EA493C4F3A178B11467&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}]
+>>>  Section start 2024/12/03 22:38:41.810
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:41.998
+<<<  [Exit status: SUCCESS]
+
+   . set: Device STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#E0D55EA493C4F3A178B11467&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} was removed.
+   . set: Device STORAGE\VOLUME\{B06440D2-9537-11EF-8DC8-50E08563415F}#0000000000100000 will be removed.
+
+>>>  [Delete Device - STORAGE\VOLUME\{B06440D2-9537-11EF-8DC8-50E08563415F}#0000000000100000]
+>>>  Section start 2024/12/03 22:38:42.006
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:42.164
+<<<  [Exit status: SUCCESS]
+
+   . set: Device STORAGE\VOLUME\{B06440D2-9537-11EF-8DC8-50E08563415F}#0000000000100000 was removed.
+   . set: Device USB\VID_058F&PID_1234\5&13260716&0&1 will be removed.
+
+>>>  [Delete Device - USB\VID_058F&PID_1234\5&13260716&0&1]
+>>>  Section start 2024/12/03 22:38:42.179
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:42.314
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_058F&PID_1234\5&13260716&0&1 was removed.
+   . set: Device SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#E0D55EA493C4F3A178B11467&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} will be removed.
+
+>>>  [Delete Device - SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#E0D55EA493C4F3A178B11467&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}]
+>>>  Section start 2024/12/03 22:38:42.331
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:42.474
+<<<  [Exit status: SUCCESS]
+
+   . set: Device SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_#E0D55EA493C4F3A178B11467&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} was removed.
+   . set: Device STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_GENERIC&PROD_USB_FLASH_DISK&REV_7.76#6&21C63D99&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} will be removed.
+
+>>>  [Delete Device - STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_GENERIC&PROD_USB_FLASH_DISK&REV_7.76#6&21C63D99&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}]
+>>>  Section start 2024/12/03 22:38:42.490
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:42.662
+<<<  [Exit status: SUCCESS]
+
+   . set: Device STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_GENERIC&PROD_USB_FLASH_DISK&REV_7.76#6&21C63D99&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} was removed.
+   . set: Device SCSI\CDROM&VEN_WD&PROD_VIRTUAL_CD_264F\6&14B1473&0&000001 will be removed.
+
+>>>  [Delete Device - SCSI\CDROM&VEN_WD&PROD_VIRTUAL_CD_264F\6&14B1473&0&000001]
+>>>  Section start 2024/12/03 22:38:42.694
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:42.820
+<<<  [Exit status: SUCCESS]
+
+   . set: Device SCSI\CDROM&VEN_WD&PROD_VIRTUAL_CD_264F\6&14B1473&0&000001 was removed.
+   . set: Device HID\VID_046D&PID_C52B&MI_01&COL02\8&135B8A0E&0&0001 will be removed.
+
+>>>  [Delete Device - HID\VID_046D&PID_C52B&MI_01&COL02\8&135B8A0E&0&0001]
+>>>  Section start 2024/12/03 22:38:42.868
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:42.963
+<<<  [Exit status: SUCCESS]
+
+   . set: Device HID\VID_046D&PID_C52B&MI_01&COL02\8&135B8A0E&0&0001 was removed.
+   . set: Device HID\VID_046D&PID_C52B&MI_02&COL02\8&3732C7D0&0&0001 will be removed.
+
+>>>  [Delete Device - HID\VID_046D&PID_C52B&MI_02&COL02\8&3732C7D0&0&0001]
+>>>  Section start 2024/12/03 22:38:42.994
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:43.089
+<<<  [Exit status: SUCCESS]
+
+   . set: Device HID\VID_046D&PID_C52B&MI_02&COL02\8&3732C7D0&0&0001 was removed.
+   . set: Device USB\VID_046D&PID_C52B&MI_00\7&2C353A95&0&0000 will be removed.
+
+>>>  [Delete Device - USB\VID_046D&PID_C52B&MI_00\7&2C353A95&0&0000]
+>>>  Section start 2024/12/03 22:38:43.309
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:43.439
+<<<  [Exit status: SUCCESS]
+
+   . set: Device USB\VID_046D&PID_C52B&MI_00\7&2C353A95&0&0000 was removed.
+   . set: Device STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_PMAP#E0D55EA49333E49089B402AD&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} will be removed.
+
+>>>  [Delete Device - STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_PMAP#E0D55EA49333E49089B402AD&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}]
+>>>  Section start 2024/12/03 22:38:43.455
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:43.628
+<<<  [Exit status: SUCCESS]
+
+   . set: Device STORAGE\VOLUME\_??_USBSTOR#DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_PMAP#E0D55EA49333E49089B402AD&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} was removed.
+   . set: Device SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_GENERIC&PROD_USB_FLASH_DISK&REV_7.76#6&21C63D99&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} will be removed.
+
+>>>  [Delete Device - SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_GENERIC&PROD_USB_FLASH_DISK&REV_7.76#6&21C63D99&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}]
+>>>  Section start 2024/12/03 22:38:43.644
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+<<<  Section end 2024/12/03 22:38:43.770
+<<<  [Exit status: SUCCESS]
+
+   . set: Device SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_GENERIC&PROD_USB_FLASH_DISK&REV_7.76#6&21C63D99&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B} was removed.
+   . set: Devices removed: 45 22:38:43.802
+   . set: Searching for unused drivers that may be removed from the system. 22:38:43.802
+   . set: Drivers will be removed during this pass.
+   . set: INF oem120.inf (ntprint.inf_x86_b51896fb6cf04317) will be removed.
+   . set:      Import Date: 2023/09/28 18:45:28:704.
+   . set:      Class GUID:  {4d36e979-e325-11ce-bfc1-08002be10318}
+
+[Boot Session: 2024/12/02 14:59:20.500]
+
+>>>  [SetupUninstallOEMInf - oem120.inf]
+>>>  Section start 2024/12/03 22:39:22.869
+      cmd: "C:\WINDOWS\system32\cleanmgr.exe" /autocleanstoragesense /d C:
+     inf: Flags: 0x00000000
+!    inf: Cannot find INF 'oem120.inf' under driver store. Error = 0x00000003
+!!!  inf: Error uninstalling OEM INF 'C:\WINDOWS\INF\oem120.inf'
+!!!  inf: Error 3: The system cannot find the path specified.
+<<<  Section end 2024/12/03 22:39:22.885
+<<<  [Exit status: FAILURE(0x00000003)]
+
+!!!  set: Failed to remove INF oem120.inf, Err = 0x3
+   . set: Driver packages removed: 0 22:39:22.901
+   . set: Total size on disk: 0
+   . set: Searching for files/directories that may be removed from the system. 22:39:22.901
+   . set: Files will be removed during this pass.
+   . set: Processing device directories 22:39:22.916
+
+>>>  [Device Install (Install Windows Update driver) - acpi\asus1000]
+>>>  Section start 2026/07/27 18:32:33.224
+      cmd: "C:\WINDOWS\uus\packages\preview\AMD64\wuaucltcore.exe" /DeploymentHandlerFullPath \\?\C:\Windows\UUS\Packages\Preview\AMD64\UpdateDeploy.dll /ClassId 391fbfff-dfbc-488d-acae-2c4464860b9a /RunHandlerComServer
+     dvs: INF path: C:\WINDOWS\SoftwareDistribution\Download\Install
+     dvs: {Driver Setup Import Driver Package: C:\WINDOWS\SoftwareDistribution\Download\Install\asussci.inf} 18:32:33.298
+     ump:      Import flags: 0x00000001
+     pol:      {Driver package policy check} 18:32:33.609
+     pol:      {Driver package policy check - exit(0x00000000)} 18:32:33.628
+     sto:      {Stage Driver Package: C:\WINDOWS\SoftwareDistribution\Download\Install\asussci.inf} 18:32:33.660
+     inf:           Provider       = ASUSTeK COMPUTER INC.
+     inf:           Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:           Driver Version = 06/01/2026,1.1.40.0
+     inf:           Catalog File   = asussci.cat
+     inf:           Version Flags  = 0x00000003
+     inf:           {Query Configurability: C:\WINDOWS\SoftwareDistribution\Download\Install\asussci.inf} 18:32:33.740
+     inf:                Driver package is fully isolated.
+     inf:                Driver package 'asussci.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 18:32:33.778
+     flq:           {FILE_QUEUE_COMMIT} 18:32:33.788
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\SQLitePCLRaw.provider.dynamic_cdecl.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\SQLitePCLRaw.provider.dynamic_cdecl.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\bsitf.sys' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\bsitf.sys'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusBusinessIntelligenceCollection.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusBusinessIntelligenceCollection.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusAD.Core.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusAD.Core.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusInstallerBI.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusInstallerBI.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\Microsoft.Data.Sqlite.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\Microsoft.Data.Sqlite.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\vcruntime140.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\vcruntime140.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\SQLitePCLRaw.provider.e_sqlite3.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\SQLitePCLRaw.provider.e_sqlite3.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\Dapper.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\Dapper.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusBusinessIntelligenceCPPLib.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusBusinessIntelligenceCPPLib.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\msvcp140.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\msvcp140.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusToolkit.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusToolkit.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusSetupEx.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusSetupEx.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\protobuf-net.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\protobuf-net.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\SQLitePCLRaw.core.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\SQLitePCLRaw.core.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusLiveUpdate_RPCClientRT.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusLiveUpdate_RPCClientRT.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\vcruntime140_1.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\vcruntime140_1.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusUpdateChecker.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusUpdateChecker.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusAD.Common.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusAD.Common.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\WinFlash.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\WinFlash.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusSignCheck.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusSignCheck.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\System.Memory.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\System.Memory.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\System.Runtime.CompilerServices.Unsafe.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\System.Runtime.CompilerServices.Unsafe.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusADServiceAgent.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusADServiceAgent.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\e_sqlite3.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\e_sqlite3.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusBusinessIntelligenceTransfer.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusBusinessIntelligenceTransfer.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\NUCUpdateType2ProductNameCPP.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\NUCUpdateType2ProductNameCPP.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusSupportService.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusSupportService.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusLiveUpdate.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusLiveUpdate.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusSetup.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusSetup.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusLiveUpdate.ini' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusLiveUpdate.ini'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusSoftwareManager.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusSoftwareManager.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\bsitf.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\bsitf.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\SQLitePCLRaw.batteries_v2.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\SQLitePCLRaw.batteries_v2.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSoftwareManager\AsusSoftwareManagerAgent.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager\AsusSoftwareManagerAgent.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSystemDiagnosis\AsusSystemDiagnosis.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSystemDiagnosis\AsusSystemDiagnosis.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusOptimization\VideoEnhance_v406_20180511_x64.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusOptimization\VideoEnhance_v406_20180511_x64.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusOptimization\CCTAdjust.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusOptimization\CCTAdjust.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusOptimization\AsusOptimization.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusOptimization\AsusOptimization.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusOptimization\AsusSplendid.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusOptimization\AsusSplendid.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\asussci.cat' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\asussci.cat'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\asussci.inf' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\asussci.inf'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSwitch\AsusSwitch.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSwitch\AsusSwitch.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSwitch\AsusSwitchAgent.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSwitch\AsusSwitchAgent.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSwitch\AsusSwitchHelper.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSwitch\AsusSwitchHelper.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSwitch\AsusSwitchNetMDNS.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSwitch\AsusSwitchNetMDNS.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSwitch\AsusSwitchExe.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSwitch\AsusSwitchExe.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSwitch\AsusSwitchNet.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSwitch\AsusSwitchNet.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusSoftwareManagerLicense\LICENSE_SWMGR_RapidJSON.txt' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusSoftwareManagerLicense\LICENSE_SWMGR_RapidJSON.txt'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusSoftwareManagerLicense\LICENSE_Newtonsoft_Json.txt' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusSoftwareManagerLicense\LICENSE_Newtonsoft_Json.txt'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusSoftwareManagerLicense\LICENSE_Dapper.txt' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusSoftwareManagerLicense\LICENSE_Dapper.txt'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusSoftwareManagerLicense\LICENSE_libzip.txt' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusSoftwareManagerLicense\LICENSE_libzip.txt'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusSoftwareManagerLicense\LICENSE_protobuf-net.Core.txt' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusSoftwareManagerLicense\LICENSE_protobuf-net.Core.txt'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusSoftwareManagerLicense\LICENSE_protobuf-net.txt' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusSoftwareManagerLicense\LICENSE_protobuf-net.txt'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusSoftwareManagerLicense\LICENSE_libzippp.txt' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusSoftwareManagerLicense\LICENSE_libzippp.txt'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSystemAnalysis\AsusSAIO.sys' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSystemAnalysis\AsusSAIO.sys'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSystemAnalysis\AsusVerifyJWT.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSystemAnalysis\AsusVerifyJWT.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSystemAnalysis\AsusSystemAnalysis.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSystemAnalysis\AsusSystemAnalysis.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSystemAnalysis\wlanCliDLL.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSystemAnalysis\wlanCliDLL.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSystemAnalysis\AsusWinIO64.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSystemAnalysis\AsusWinIO64.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSwitchLicense\LICENSE_Switch_RapidJSON.txt' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSwitchLicense\LICENSE_Switch_RapidJSON.txt'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\ASUSSystemAnalysisLicense\LICENSE_nlohmann-json.txt' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSystemAnalysisLicense\LICENSE_nlohmann-json.txt'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusAppService\AsusVirtualKeyboardLauncher.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusAppService\AsusVirtualKeyboardLauncher.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusAppService\AsusWebFlowLib.dll' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusAppService\AsusWebFlowLib.dll'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusAppService\AsusJWTDecoder.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusAppService\AsusJWTDecoder.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusAppService\AsusAppService.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusAppService\AsusAppService.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusAppServiceLicense\LICENSE_JSON_for_Modern_C++.txt' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusAppServiceLicense\LICENSE_JSON_for_Modern_C++.txt'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\AsusOptimizationLicense\LICENSE_Optimization_ICC.txt' to 'C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusOptimizationLicense\LICENSE_Optimization_ICC.txt'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:32:34.799
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 18:32:34.815
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 18:32:34.932
+     sig:                     Key      = asussci.inf
+     sig:                     FilePath = C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\asussci.inf
+     sig:                     Catalog  = C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\asussci.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 18:32:34.980
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 18:32:36.193
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 29989330_13623047045227959_1152921505701143974
+     sto:           {Core Driver Package Import: asussci.inf_amd64_6c48987ce7188d60} 18:32:36.210
+     sto:                {DRIVERSTORE IMPORT BEGIN} 18:32:36.210
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 18:32:36.210
+     cpy:                {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}} 18:32:36.210
+     cpy:                     Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60
+     cpy:                     {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusAppService} 18:32:36.210
+     cpy:                          Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\AsusAppService
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:32:36.219
+     cpy:                     {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusAppServiceLicense} 18:32:36.219
+     cpy:                          Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\AsusAppServiceLicense
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:32:36.227
+     cpy:                     {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusOptimization} 18:32:36.227
+     cpy:                          Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\AsusOptimization
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:32:36.334
+     cpy:                     {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusOptimizationLicense} 18:32:36.334
+     cpy:                          Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\AsusOptimizationLicense
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:32:36.335
+     cpy:                     {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSoftwareManager} 18:32:36.341
+     cpy:                          Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\ASUSSoftwareManager
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:32:36.386
+     cpy:                     {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\AsusSoftwareManagerLicense} 18:32:36.386
+     cpy:                          Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\AsusSoftwareManagerLicense
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:32:36.404
+     cpy:                     {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSwitch} 18:32:36.406
+     cpy:                          Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\ASUSSwitch
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:32:36.414
+     cpy:                     {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSwitchLicense} 18:32:36.414
+     cpy:                          Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\ASUSSwitchLicense
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:32:36.422
+     cpy:                     {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSystemAnalysis} 18:32:36.422
+     cpy:                          Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\ASUSSystemAnalysis
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:32:36.430
+     cpy:                     {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSystemAnalysisLicense} 18:32:36.430
+     cpy:                          Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\ASUSSystemAnalysisLicense
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:32:36.438
+     cpy:                     {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{3e1e963f-acd1-3341-8c3d-6ee0b5530a31}\ASUSSystemDiagnosis} 18:32:36.438
+     cpy:                          Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\ASUSSystemDiagnosis
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:32:36.449
+     cpy:                {Copy Directory: exit(0x00000000)} 18:32:36.451
+     idb:                {Register Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\asussci.inf} 18:32:36.465
+     idb:                     Created driver package object 'asussci.inf_amd64_6c48987ce7188d60' in SYSTEM database node.
+     idb:                     Created driver INF file object 'oem163.inf' in SYSTEM database node.
+     idb:                     Registered driver package 'asussci.inf_amd64_6c48987ce7188d60' with 'oem163.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 18:32:36.477
+     idb:                {Publish Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\asussci.inf} 18:32:36.480
+     idb:                     Activating driver package 'asussci.inf_amd64_6c48987ce7188d60'.
+     cpy:                     Published 'asussci.inf_amd64_6c48987ce7188d60\asussci.inf' to 'oem163.inf'.
+     idb:                     Indexed 2 device IDs for 'asussci.inf_amd64_6c48987ce7188d60'.
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 15 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 18:32:36.523
+     sto:                {DRIVERSTORE IMPORT END} 18:32:36.562
+     dvi:                     Flushed all driver package files to disk. Time = 898 ms
+     sig:                     Installed catalog 'asussci.cat' as 'oem163.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 18:32:43.960
+     sto:           {Core Driver Package Import: exit(0x00000000)} 18:32:43.961
+     sto:      {Stage Driver Package: exit(0x00000000)} 18:32:44.035
+     dvs:      Driver Package:
+     dvs:           Outcome        - Imported
+     dvs:           Driver INF     - asussci.inf (oem163.inf)
+     dvs:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     dvs:           Driver Version - 06/01/2026,1.1.40.0
+     dvi:      Flushed SOFTWARE registry hive. 18:32:44.158
+     dvi:      Flushed SYSTEM registry hive. 18:32:44.195
+     dvi:      Flushed DRIVERS registry hive. 18:32:44.198
+     dvs: {Driver Setup Import Driver Package - exit (0x00000000)} 18:32:44.199
+     dvs: {Driver Setup Update Device: ACPI\ASUS1000\2&daba3ff&1} 18:32:44.225
+     utl:      {Select Drivers - ACPI\ASUS1000\2&daba3ff&1} 18:32:44.225
+     utl:           Driver Node:
+     utl:                Status         - Selected
+     utl:                Driver INF     - oem163.inf (C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\asussci.inf)
+     utl:                Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 06/01/2026,1.1.40.0
+     utl:                Configuration  - ACPI\ASUS1000
+     utl:                Driver Rank    - 00FF0001
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 29989330_13623047045227959_1152921505701143974
+     utl:                Flight IDs     - RD:130060
+     utl:           Driver Node:
+     utl:                Status         - Outranked
+     utl:                Driver INF     - oem19.inf (C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_849e87ae3fdc7b21\asussci.inf)
+     utl:                Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 08/12/2024,1.1.25.0
+     utl:                Configuration  - ACPI\ASUS1000
+     utl:                Driver Rank    - 00FF0001
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 29989330_14406539711217325_1152921505698127059
+     utl:                Flight IDs     - RD:DF5B3
+     utl:           Driver Node:
+     utl:                Status         - Outranked | Installed
+     utl:                Driver INF     - oem72.inf (C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_2d98bd355755f20a\asussci.inf)
+     utl:                Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 09/18/2024,1.1.27.0
+     utl:                Configuration  - ACPI\ASUS1000 [NO_DRV64]
+     utl:                Driver Rank    - 00FF0001
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 29989330_13599209677573379_1152921505698290509
+     utl:                Flight IDs     - RD:E30A4
+     utl:      {Select Drivers - exit(0x00000000} 18:32:44.262
+     dvs:      Installing best driver (oem163.inf) on device 'ACPI\ASUS1000\2&daba3ff&1'.
+     ump:      {Plug and Play Service: Device Install for ACPI\ASUS1000\2&DABA3FF&1}
+     dvi:           {Core Device Install} 18:32:44.316
+     dvi:                {Configure Device - ACPI\ASUS1000\2&DABA3FF&1} 18:32:44.321
+     dvi:                     Device Status: 0x01802000
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: ACPI_HAL\PNP0C08\0
+     sto:                     {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\asussci.inf}
+     sto:                          Source Filter  = ACPI\ASUS1000
+     inf:                          Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:                          Class Options  = Configurable BootCritical
+     inf:                          {Configure Driver: ASUS System Control Interface}
+     inf:                               Section Name = NO_DRV64
+     inf:                               {Add Service: ASUSSystemAnalysis}
+     inf:                                    Start Type    = 2
+     inf:                                    Service Type  = 16
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = %SystemRoot%\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\ASUSSystemAnalysis\AsusSystemAnalysis.exe
+     inf:                                    Display Name  = ASUS System Analysis
+     inf:                                    Updated service 'ASUSSystemAnalysis'.
+     inf:                                    Service image path changed. Restart required for any devices using this service.
+!    idb:                                    Last driver package 'asussci.inf_amd64_2d98bd355755f20a' using service 'ASUSSystemAnalysis' needs reconfiguration.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: ASUSSystemDiagnosis}
+     inf:                                    Start Type    = 2
+     inf:                                    Service Type  = 16
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = %SystemRoot%\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\ASUSSystemDiagnosis\AsusSystemDiagnosis.exe
+     inf:                                    Display Name  = ASUS System Diagnosis
+     inf:                                    Updated service 'ASUSSystemDiagnosis'.
+     inf:                                    Service image path changed. Restart required for any devices using this service.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: ASUSOptimization}
+     inf:                                    Start Type    = 2
+     inf:                                    Service Type  = 16
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = %SystemRoot%\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\AsusOptimization\AsusOptimization.exe
+     inf:                                    Display Name  = ASUS Optimization
+     inf:                                    Updated service 'ASUSOptimization'.
+     inf:                                    Service image path changed. Restart required for any devices using this service.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: ASUSLiveUpdateAgent}
+     inf:                                    Start Type    = 2
+     inf:                                    Service Type  = 16
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = %SystemRoot%\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\ASUSSoftwareManager\AsusSoftwareManager.exe
+     inf:                                    Display Name  = ASUS Software Manager
+     inf:                                    Updated service 'ASUSLiveUpdateAgent'.
+     inf:                                    Service image path changed. Restart required for any devices using this service.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: AsusAppService}
+     inf:                                    Start Type    = 2
+     inf:                                    Service Type  = 16
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = %SystemRoot%\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\AsusAppService\AsusAppService.exe
+     inf:                                    Display Name  = ASUS App Service
+     inf:                                    Updated service 'AsusAppService'.
+     inf:                                    Service image path changed. Restart required for any devices using this service.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: ASUSSwitch}
+     inf:                                    Start Type    = 2
+     inf:                                    Service Type  = 16
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = %SystemRoot%\System32\DriverStore\FileRepository\asussci.inf_amd64_6c48987ce7188d60\ASUSSwitch\AsusSwitch.exe
+     inf:                                    Display Name  = ASUS Switch
+     inf:                                    Updated service 'ASUSSwitch'.
+     inf:                                    Service image path changed. Restart required for any devices using this service.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               Hardware Id  = ACPI\ASUS1000
+     inf:                               {Configure Driver Configuration: NO_DRV64}
+     inf:                                    Service Name  = <none>
+     inf:                                    Included INFs = machine.inf
+     inf:                                    Config Flags  = 0x00000000
+     inf:                               {Configure Driver Configuration: exit(0x00000000)}
+     inf:                          {Configure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 18:32:44.501
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:32:44.502
+     inf:                          Restarted service 'ASUSSystemAnalysis'.
+     inf:                          Restarted service 'ASUSSystemDiagnosis'.
+     inf:                          Restarted service 'ASUSOptimization'.
+     inf:                          Restarted service 'ASUSLiveUpdateAgent'.
+     inf:                          Restarted service 'AsusAppService'.
+     inf:                          Stopping service 'ASUSSwitch'. Current State = 3 18:32:54.196
+     inf:                          Stopped service 'ASUSSwitch'. 18:32:54.491
+     inf:                          Restarted service 'ASUSSwitch'.
+     dvi:                          Existing files modified, may need to restart related services.
+     sto:                     {Configure Driver Package: exit(0x00000bc3)}
+     dvi:                     Restart required for any devices using this driver.
+     dvi:                     Install Device: Configuring device. 18:32:54.697
+     dvi:                          Configuration: oem163.inf:ACPI\ASUS1000,*
+     dvi:                     Install Device: Configuring device completed. 18:32:54.701
+     dvi:                     Device Status: 0x01802000
+     dvi:                     {Restarting Devices} 18:32:54.704
+     dvi:                          Start: ACPI\ASUS1000\2&DABA3FF&1
+!    dvi:                          Device 'ACPI\ASUS1000\2&DABA3FF&1' not started (unknown reason): Device has no problem.
+     dvi:                     {Restarting Devices exit} 18:32:54.728
+     dvi:                {Configure Device - exit(0x00000000)} 18:32:54.728
+     dvi:           {Core Device Install - exit(0x00000000)} 18:32:54.737
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     dvs:      {Install Related Drivers} 18:32:54.754
+     dvs:      {Install Related Drivers: exit(0x00000000)} 18:32:54.755
+     dvs: {Driver Setup Update Device - exit(0x00000000)} 18:32:54.757
+     dvs: Created driver update {8f8cde7d-df7e-508b-9421-a8bc4a700d06}. HardwareId = acpi\asus1000
+<<<  Section end 2026/07/27 18:32:54.769
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Driver Install (DrvSetupInstallDriver) - C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping4784_1055323890\app\262.4.3183\driver_amd64\dbx.inf]
+>>>  Section start 2026/07/27 18:40:31.822
+      cmd: "C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping4784_1055323890\app\Dropbox.exe" /install /InstallType:MACHINE /InstallDir:"C:\Program Files (x86)\Dropbox\Client" /KillEveryone:YES /IsAutoUpdate:YES  /Omaha4 /InstallerData:"" /ChannelId:stable
+     dvs: Flags: 0x00000000
+     dvs: {Driver Setup Import Driver Package: C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping4784_1055323890\app\262.4.3183\driver_amd64\dbx.inf} 18:40:31.848
+     sto:      {Copy Driver Package: C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping4784_1055323890\app\262.4.3183\driver_amd64\dbx.inf} 18:40:31.878
+     sto:           Driver Package = C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping4784_1055323890\app\262.4.3183\driver_amd64\dbx.inf
+     sto:           Flags          = 0x00000007
+     sto:           Destination    = C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}
+     sto:           Copying driver package files to 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}'.
+     flq:           {FILE_QUEUE_COMMIT} 18:40:31.940
+     flq:                Copying 'C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping4784_1055323890\app\262.4.3183\driver_amd64\DbxSvc.exe' to 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\DbxSvc.exe'.
+     flq:                Copying 'C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping4784_1055323890\app\262.4.3183\driver_amd64\dbx-dev.sys' to 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\dbx-dev.sys'.
+     flq:                Copying 'C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping4784_1055323890\app\262.4.3183\driver_amd64\Dropbox.cat' to 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\Dropbox.cat'.
+     flq:                Copying 'C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping4784_1055323890\app\262.4.3183\driver_amd64\dbx.inf' to 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\dbx.inf'.
+     flq:                Copying 'C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping4784_1055323890\app\262.4.3183\driver_amd64\dbx-stable.sys' to 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\dbx-stable.sys'.
+     flq:                Copying 'C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping4784_1055323890\app\262.4.3183\driver_amd64\dbx-canary.sys' to 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\dbx-canary.sys'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:40:32.228
+     sto:      {Copy Driver Package: exit(0x00000000)} 18:40:32.228
+     ump:      Import flags: 0x00000000
+     pol:      {Driver package policy check} 18:40:32.510
+     pol:      {Driver package policy check - exit(0x00000000)} 18:40:32.511
+     sto:      {Stage Driver Package: C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\dbx.inf} 18:40:32.560
+     inf:           Provider       = Dropbox Inc.
+     inf:           Class GUID     = {d546500a-2aeb-45f6-9482-f4b1799c3177}
+     inf:           Driver Version = 09/14/2023,1.0.19.0
+     inf:           Catalog File   = Dropbox.cat
+     inf:           Version Flags  = 0x00000102
+     inf:           {Query Configurability: C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\dbx.inf} 18:40:32.626
+     inf:                Driver package 'dbx.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 18:40:32.626
+     flq:           {FILE_QUEUE_COMMIT} 18:40:32.661
+     flq:                Copying 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\DbxSvc.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{55309bb3-7ac7-ea48-b2a0-55c90b2b6a94}\DbxSvc.exe'.
+     flq:                Copying 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\dbx-dev.sys' to 'C:\WINDOWS\System32\DriverStore\Temp\{55309bb3-7ac7-ea48-b2a0-55c90b2b6a94}\dbx-dev.sys'.
+     flq:                Copying 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\Dropbox.cat' to 'C:\WINDOWS\System32\DriverStore\Temp\{55309bb3-7ac7-ea48-b2a0-55c90b2b6a94}\Dropbox.cat'.
+     flq:                Copying 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\dbx.inf' to 'C:\WINDOWS\System32\DriverStore\Temp\{55309bb3-7ac7-ea48-b2a0-55c90b2b6a94}\dbx.inf'.
+     flq:                Copying 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\dbx-stable.sys' to 'C:\WINDOWS\System32\DriverStore\Temp\{55309bb3-7ac7-ea48-b2a0-55c90b2b6a94}\dbx-stable.sys'.
+     flq:                Copying 'C:\WINDOWS\TEMP\{cc81ddce-5e6d-1942-bfff-0e26c751d59c}\dbx-canary.sys' to 'C:\WINDOWS\System32\DriverStore\Temp\{55309bb3-7ac7-ea48-b2a0-55c90b2b6a94}\dbx-canary.sys'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:40:32.734
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 18:40:32.738
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 18:40:32.874
+     sig:                     Key      = dbx.inf
+     sig:                     FilePath = C:\WINDOWS\System32\DriverStore\Temp\{55309bb3-7ac7-ea48-b2a0-55c90b2b6a94}\dbx.inf
+     sig:                     Catalog  = C:\WINDOWS\System32\DriverStore\Temp\{55309bb3-7ac7-ea48-b2a0-55c90b2b6a94}\Dropbox.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 18:40:32.892
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 18:40:32.905
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 30896360_13733411070148857_1152921505700480313
+     sto:           {Core Driver Package Import: dbx.inf_amd64_2758e227d1ac3410} 18:40:32.922
+     sto:                {DRIVERSTORE IMPORT BEGIN} 18:40:32.923
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 18:40:32.925
+     cpy:                {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{55309bb3-7ac7-ea48-b2a0-55c90b2b6a94}} 18:40:32.925
+     cpy:                     Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410
+     cpy:                {Copy Directory: exit(0x00000000)} 18:40:32.941
+     idb:                {Register Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx.inf} 18:40:32.960
+     idb:                     Created driver package object 'dbx.inf_amd64_2758e227d1ac3410' in DRIVERS database node.
+     idb:                     Created driver INF file object 'oem164.inf' in DRIVERS database node.
+     idb:                     Registered driver package 'dbx.inf_amd64_2758e227d1ac3410' with 'oem164.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 18:40:32.973
+     idb:                {Publish Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx.inf} 18:40:32.975
+     idb:                     Activating driver package 'dbx.inf_amd64_2758e227d1ac3410'.
+     cpy:                     Published 'dbx.inf_amd64_2758e227d1ac3410\dbx.inf' to 'oem164.inf'.
+     idb:                     Indexed 1 device ID for 'dbx.inf_amd64_2758e227d1ac3410'.
+     sto:                     Flushed driver database node 'DRIVERS'. Time = 375 ms
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 18:40:33.442
+     sto:                {DRIVERSTORE IMPORT END} 18:40:33.456
+     dvi:                     Flushed all driver package files to disk. Time = 146 ms
+     sig:                     Installed catalog 'Dropbox.cat' as 'oem164.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 18:40:33.681
+     sto:           {Core Driver Package Import: exit(0x00000000)} 18:40:33.681
+     sto:      {Stage Driver Package: exit(0x00000000)} 18:40:33.681
+     dvs:      Driver Package:
+     dvs:           Outcome        - Imported
+     dvs:           Driver INF     - dbx.inf (oem164.inf)
+     dvs:           Class GUID     - {d546500a-2aeb-45f6-9482-f4b1799c3177}
+     dvs:           Driver Version - 09/14/2023,1.0.19.0
+     dvs: {Driver Setup Import Driver Package - exit (0x00000000)} 18:40:34.238
+     ump: {Plug and Play Service: Driver Install for C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx.inf}
+     pol:      {Driver package policy check} 18:40:34.411
+     pol:      {Driver package policy check - exit(0x00000000)} 18:40:34.411
+     sto:      {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx.inf}
+     inf:           Class GUID     = {d546500a-2aeb-45f6-9482-f4b1799c3177}
+     inf:           Class Options  = Configurable
+     inf:           {Configure Driver: Dropbox Service}
+     inf:                Section Name = DefaultInstall.NTamd64
+     inf:                Driver Type  = Primitive
+     sto:                Finding all published driver package versions
+     sto:                     dbx.inf_amd64_2758e227d1ac3410 [oem164.inf] - 09/14/2023,1.0.19.0
+     sto:                Selected driver package 'dbx.inf_amd64_2758e227d1ac3410'.
+     inf:                {Add Service: DbxSvc}
+     inf:                     Start Type    = 2
+     inf:                     Service Type  = 16
+     inf:                     Error Control = 1
+     inf:                     Image Path    = %SystemRoot%\System32\DbxSvc.exe
+     inf:                     Display Name  = DbxSvc
+     inf:                     Description   = Dropbox Service
+     inf:                     Privileges    = SeLoadDriverPrivilege
+     inf:                     Updated service 'DbxSvc'.
+     inf:                {Add Service: exit(0x00000000)}
+     inf:           {Configure Driver: exit(0x00000000)}
+     flq:           {FILE_QUEUE_COMMIT} 18:40:34.620
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx-stable.sys' to 'C:\WINDOWS\System32\drivers\dbx-stable.sys'.
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx-dev.sys' to 'C:\WINDOWS\System32\drivers\dbx-dev.sys'.
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx-canary.sys' to 'C:\WINDOWS\System32\drivers\dbx-canary.sys'.
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\DbxSvc.exe' to 'C:\WINDOWS\System32\DbxSvc.exe'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:40:34.858
+     inf:           Started service 'DbxSvc'.
+     sto:      {Configure Driver Package: exit(0x00000000)}
+     ump: {Plug and Play Service: Driver Install exit(00000000)}
+<<<  Section end 2026/07/27 18:40:35.140
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (Hardware initiated) - SWD\WPDBUSENUM\_??_USBSTOR#Disk&Ven_General&Prod_USB_Flash_Disk&Rev_1100#040B79CK2A0S9JZT&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}]
+>>>  Section start 2026/07/27 18:43:08.264
+     ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+     utl: {Select Drivers - SWD\WPDBUSENUM\_??_USBSTOR#Disk&Ven_General&Prod_USB_Flash_Disk&Rev_1100#040B79CK2A0S9JZT&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}} 18:43:08.360
+     utl:      Driver Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - wpdfs.inf (C:\WINDOWS\System32\DriverStore\FileRepository\wpdfs.inf_amd64_c3bf01033d09bf92\wpdfs.inf)
+     utl:           Class GUID     - {eec5ad98-8080-425f-922a-dabf3de3f69a}
+     utl:           Driver Version - 06/21/2006,10.0.22621.1
+     utl:           Configuration  - wpdbusenum\fs
+     utl:           Driver Rank    - 00FF2000
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 18:43:08.383
+!    dvi: Device class {eec5ad98-8080-425f-922a-dabf3de3f69a} is not configurable.
+     dvi: Searching for compatible ID(s):
+     dvi:      wpdbusenum\fs
+     dvi:      swd\generic
+     dvi: Class GUID of device changed to: {eec5ad98-8080-425f-922a-dabf3de3f69a}.
+     ndv: {Core Device Install} 18:43:08.421
+     dvi:      {Install Device - SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_GENERAL&PROD_USB_FLASH_DISK&REV_1100#040B79CK2A0S9JZT&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}} 18:43:08.425
+     dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:           Config Flags: 0x00000000
+     dvi:           Parent Device: STORAGE\Volume\_??_USBSTOR#Disk&Ven_General&Prod_USB_Flash_Disk&Rev_1100#040B79CK2A0S9JZT&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+     dvi:           {DIF_ALLOW_INSTALL} 18:43:08.432
+     dvi:                Using exported function 'WpdClassInstaller' in module 'C:\WINDOWS\system32\wpd_ci.dll'.
+     dvi:                Class installer == wpd_ci.dll,WpdClassInstaller
+     dvi:                Using exported function 'CoDeviceInstall' in module 'C:\WINDOWS\system32\WUDFCoinstaller.dll'.
+     dvi:                CoInstaller 1 == WUDFCoinstaller.dll
+     dvi:                CoInstaller 1: Enter 18:43:08.531
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 18:43:08.535
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 18:43:08.542
+     dvi:                Default installer: Exit
+     dvi:           {DIF_ALLOW_INSTALL - exit(0xe000020e)} 18:43:08.544
+     dvi:           {DIF_INSTALLDEVICEFILES} 18:43:08.570
+     dvi:                CoInstaller 1: Enter 18:43:08.572
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 18:43:08.575
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 18:43:08.578
+     dvi:                Default installer: Exit
+     dvi:           {DIF_INSTALLDEVICEFILES - exit(0x00000000)} 18:43:08.602
+     dvi:           {_SCAN_FILE_QUEUE} 18:43:08.604
+     flq:                File 'C:\WINDOWS\system32\DRIVERS\UMDF\WpdFs.dll' pruned from copy.
+     dvi:           {_SCAN_FILE_QUEUE - exit(0x00000000)} 18:43:08.847
+     flq:           {FILE_QUEUE_COMMIT} 18:43:08.875
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:43:08.876
+     dvi:           {DIF_REGISTER_COINSTALLERS} 18:43:08.877
+     dvi:                Reset Device: Resetting device configuration. 18:43:08.879
+     dvi:                Reset Device: Resetting device configuration completed. 18:43:08.885
+     dvi:                CoInstaller 1: Enter 18:43:08.887
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 18:43:08.890
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 18:43:08.893
+     inf:                     {Install from INF Section - Basic_Install.CoInstallers} 18:43:08.899
+     inf:                          Flags         - 0x001001ee
+     inf:                     {Install from INF Section - exit(0x00000000)} 18:43:08.903
+     dvi:                     {DIF_DESTROYPRIVATEDATA} 18:43:08.903
+     dvi:                          CoInstaller 1: Enter 18:43:08.903
+     dvi:                          CoInstaller 1: Exit
+     dvi:                          Class installer: Enter 18:43:08.909
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 18:43:08.911
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 18:43:08.914
+     dvi:                Default installer: Exit
+     dvi:           {DIF_REGISTER_COINSTALLERS - exit(0x00000000)} 18:43:08.917
+     dvi:           {DIF_INSTALLINTERFACES} 18:43:08.917
+     dvi:                Using exported function 'CoDeviceInstall' in module 'C:\WINDOWS\system32\WUDFCoInstaller.dll'.
+     dvi:                CoInstaller 1 == WUDFCoInstaller.dll
+     dvi:                CoInstaller 1: Enter 18:43:08.924
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 18:43:08.927
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 18:43:08.930
+     dvi:                Default installer: Exit
+     dvi:           {DIF_INSTALLINTERFACES - exit(0x00000000)} 18:43:08.934
+     dvi:           {DIF_INSTALLDEVICE} 18:43:08.934
+     dvi:                CoInstaller 1: Enter 18:43:08.934
+     inf:                     {Install from INF Section - WpdFs_Install} 18:43:09.018
+     inf:                          Flags         - 0x00000004
+     inf:                     {Install from INF Section - exit(0x00000000)} 18:43:09.020
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 18:43:09.077
+     dvi:                     {Install DEVICE}
+     inf:                          {Install from INF Section - Basic_Install} 18:43:09.106
+     inf:                               Flags         - 0x001005ee
+     inf:                          {Install from INF Section - exit(0x00000000)} 18:43:09.106
+     inf:                          {Install from INF Section - Basic_Install.Hw} 18:43:09.110
+     inf:                               Flags         - 0x00100004
+     inf:                          {Install from INF Section - exit(0x00000000)} 18:43:09.123
+     dvi:                          {Writing Device Properties}
+     dvi:                               Strong Name=wpdfs.inf:0c0663c081fd6f5b:Basic_Install:10.0.22621.1:wpdbusenum\fs
+     dvi:                          {Writing Device Properties - Complete}
+     inf:                          AddService=WUDFWpdFs,0x000001fa,WUDFWpdFs_ServiceInstall  (wpdfs.inf line 38)
+     dvi:                          Add Service: Modified existing service 'WUDFWpdFs'.
+     inf:                          {Install from INF Section - WUDFWpdFs_ServiceInstall} 18:43:09.167
+     inf:                               Flags         - 0x00100004
+     inf:                          {Install from INF Section - exit(0x00000000)} 18:43:09.167
+     dvi:                     {Install DEVICE exit (0x00000000)}
+     dvi:                     Install Device: Configuring device class. 18:43:09.181
+     dvi:                     Install Device: Configuring device class completed. 18:43:09.181
+     dvi:                     Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:                     Install Device: Starting device 'SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_GENERAL&PROD_USB_FLASH_DISK&REV_1100#040B79CK2A0S9JZT&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}'. 18:43:09.181
+     dvi:                     Install Device: Starting device completed. 18:43:09.982
+     dvi:                Class installer: Exit
+     dvi:                CoInstaller 1: Enter (Post Processing) 18:43:10.020
+     dvi:                CoInstaller 1: Exit (Post Processing)
+     dvi:           {DIF_INSTALLDEVICE - exit(0x00000000)} 18:43:10.032
+     dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL} 18:43:10.035
+     dvi:                CoInstaller 1: Enter 18:43:10.039
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 18:43:10.039
+     dvi:                Class installer: Exit
+     dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL - exit(0x00000000)} 18:43:10.483
+     dvi:      {Install Device - exit(0x00000000)} 18:43:10.512
+     dvi: {Core Device Install - exit(0x00000000)} 18:43:10.512
+     dvi: {DIF_DESTROYPRIVATEDATA} 18:43:10.512
+     dvi:      CoInstaller 1: Enter 18:43:10.512
+     dvi:      CoInstaller 1: Exit
+     dvi:      Class installer: Enter 18:43:10.522
+     dvi:      Class installer: Exit
+     dvi:      Default installer: Enter 18:43:10.523
+     dvi:      Default installer: Exit
+     dvi: {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 18:43:10.526
+<<<  Section end 2026/07/27 18:43:10.548
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Driver Install (DrvSetupInstallDriver) - C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping16988_109104722\app\269.4.4231\driver_amd64\dbx.inf]
+>>>  Section start 2026/09/03 14:00:05.818
+      cmd: "C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping16988_109104722\app\Dropbox.exe" /install /InstallType:MACHINE /InstallDir:"C:\Program Files (x86)\Dropbox\Client" /KillEveryone:YES /IsAutoUpdate:YES  /Omaha4 /InstallerData:"" /ChannelId:stable-weekly
+     dvs: Flags: 0x00000000
+     dvs: {Driver Setup Import Driver Package: C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping16988_109104722\app\269.4.4231\driver_amd64\dbx.inf} 14:00:05.874
+     dvs:      Driver Package:
+     dvs:           Outcome        - Already Imported
+     dvs:           Driver INF     - dbx.inf (oem164.inf)
+     dvs:           Class GUID     - {d546500a-2aeb-45f6-9482-f4b1799c3177}
+     dvs:           Driver Version - 09/14/2023,1.0.19.0
+     dvs: {Driver Setup Import Driver Package - exit (0x00000000)} 14:00:06.010
+     ump: {Plug and Play Service: Driver Install for C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx.inf}
+     pol:      {Driver package policy check} 14:00:06.183
+     pol:      {Driver package policy check - exit(0x00000000)} 14:00:06.185
+     sto:      {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx.inf}
+     inf:           Class GUID     = {d546500a-2aeb-45f6-9482-f4b1799c3177}
+     inf:           Class Options  = Configurable
+     inf:           {Configure Driver: Dropbox Service}
+     inf:                Section Name = DefaultInstall.NTamd64
+     inf:                Driver Type  = Primitive
+     sto:                Finding all published driver package versions
+     sto:                     dbx.inf_amd64_2758e227d1ac3410 [oem164.inf] - 09/14/2023,1.0.19.0 (Active)
+     sto:                Selected driver package 'dbx.inf_amd64_2758e227d1ac3410'.
+     inf:                {Add Service: DbxSvc}
+     inf:                     Start Type    = 2
+     inf:                     Service Type  = 16
+     inf:                     Error Control = 1
+     inf:                     Image Path    = %SystemRoot%\System32\DbxSvc.exe
+     inf:                     Display Name  = DbxSvc
+     inf:                     Description   = Dropbox Service
+     inf:                     Privileges    = SeLoadDriverPrivilege
+     inf:                     Updated service 'DbxSvc'.
+     inf:                {Add Service: exit(0x00000000)}
+     inf:           {Configure Driver: exit(0x00000000)}
+     flq:           {FILE_QUEUE_COMMIT} 14:00:06.288
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx-stable.sys' to 'C:\WINDOWS\System32\drivers\dbx-stable.sys'.
+     cpy:                Existing file 'C:\WINDOWS\System32\drivers\dbx-stable.sys' remains unchanged.
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx-dev.sys' to 'C:\WINDOWS\System32\drivers\dbx-dev.sys'.
+     cpy:                Existing file 'C:\WINDOWS\System32\drivers\dbx-dev.sys' remains unchanged.
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx-canary.sys' to 'C:\WINDOWS\System32\drivers\dbx-canary.sys'.
+     cpy:                Existing file 'C:\WINDOWS\System32\drivers\dbx-canary.sys' remains unchanged.
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\DbxSvc.exe' to 'C:\WINDOWS\System32\DbxSvc.exe'.
+     cpy:                Existing file 'C:\WINDOWS\System32\DbxSvc.exe' remains unchanged.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 14:00:06.356
+     inf:           Started service 'DbxSvc'.
+     sto:      {Configure Driver Package: exit(0x00000000)}
+     ump: {Plug and Play Service: Driver Install exit(00000000)}
+<<<  Section end 2026/09/03 14:00:06.409
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (Install Windows Update driver) - wsdprint\hphp_officejet_pro_95a6b]
+>>>  Section start 2026/09/03 14:44:02.209
+      cmd: "C:\WINDOWS\uus\packages\preview\AMD64\wuaucltcore.exe" /DeploymentHandlerFullPath \\?\C:\Windows\UUS\Packages\Preview\AMD64\UpdateDeploy.dll /ClassId 801eec0e-2440-44ed-9494-1563e47fb87a /RunHandlerComServer
+     dvs: INF path: C:\WINDOWS\SoftwareDistribution\Download\Install
+     dvs: Found 1 driver updates under 'C:\WINDOWS\SoftwareDistribution\Download\Install'. 14:44:02.225
+     dvs: {Driver Setup Import Driver Package: C:\WINDOWS\SoftwareDistribution\Download\Install\Dxp_Metadata_Universal_Driver_x64_Extension.inf} 14:44:02.326
+     ump:      Import flags: 0x00000001
+     pol:      {Driver package policy check} 14:44:02.592
+     pol:      {Driver package policy check - exit(0x00000000)} 14:44:02.602
+     sto:      {Stage Driver Package: C:\WINDOWS\SoftwareDistribution\Download\Install\Dxp_Metadata_Universal_Driver_x64_Extension.inf} 14:44:02.613
+     inf:           Provider       = HP Inc.
+     inf:           Class GUID     = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     inf:           Driver Version = 09/04/2024,1.0.0.5
+     inf:           Catalog File   = Dxp_Metadata_Universal_Driver_x64_Extension.cat
+     inf:           Version Flags  = 0x00000003
+     inf:           {Query Configurability: C:\WINDOWS\SoftwareDistribution\Download\Install\Dxp_Metadata_Universal_Driver_x64_Extension.inf} 14:44:02.659
+     inf:                Driver package is fully isolated.
+     inf:                Driver package 'Dxp_Metadata_Universal_Driver_x64_Extension.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 14:44:02.659
+     flq:           {FILE_QUEUE_COMMIT} 14:44:02.659
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\faf0aaa9-161c-4a37-a6cd-ea7291081e63.devicemetadata-ms' to 'C:\WINDOWS\System32\DriverStore\Temp\{79c718e0-32c2-7c40-8e02-4e900d4aa794}\faf0aaa9-161c-4a37-a6cd-ea7291081e63.devicemetadata-ms'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\DeviceMetadataInstaller_amd64.exe' to 'C:\WINDOWS\System32\DriverStore\Temp\{79c718e0-32c2-7c40-8e02-4e900d4aa794}\DeviceMetadataInstaller_amd64.exe'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\Dxp_Metadata_Universal_Driver_x64_Extension.cat' to 'C:\WINDOWS\System32\DriverStore\Temp\{79c718e0-32c2-7c40-8e02-4e900d4aa794}\Dxp_Metadata_Universal_Driver_x64_Extension.cat'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\Dxp_Metadata_Universal_Driver_x64_Extension.inf' to 'C:\WINDOWS\System32\DriverStore\Temp\{79c718e0-32c2-7c40-8e02-4e900d4aa794}\Dxp_Metadata_Universal_Driver_x64_Extension.inf'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\81dfbb88-507b-48af-82ac-4efc18fe78cb.devicemetadata-ms' to 'C:\WINDOWS\System32\DriverStore\Temp\{79c718e0-32c2-7c40-8e02-4e900d4aa794}\81dfbb88-507b-48af-82ac-4efc18fe78cb.devicemetadata-ms'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 14:44:02.792
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 14:44:02.792
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 14:44:02.871
+     sig:                     Key      = Dxp_Metadata_Universal_Driver_x64_Extension.inf
+     sig:                     FilePath = C:\WINDOWS\System32\DriverStore\Temp\{79c718e0-32c2-7c40-8e02-4e900d4aa794}\Dxp_Metadata_Universal_Driver_x64_Extension.inf
+     sig:                     Catalog  = C:\WINDOWS\System32\DriverStore\Temp\{79c718e0-32c2-7c40-8e02-4e900d4aa794}\Dxp_Metadata_Universal_Driver_x64_Extension.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 14:44:02.918
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 14:44:02.949
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 30089880_14161818064820179_1152921505699536055
+     sto:           {Core Driver Package Import: dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89} 14:44:02.949
+     sto:                {DRIVERSTORE IMPORT BEGIN} 14:44:02.949
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 14:44:02.949
+     cpy:                {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{79c718e0-32c2-7c40-8e02-4e900d4aa794}} 14:44:02.949
+     cpy:                     Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89
+     cpy:                {Copy Directory: exit(0x00000000)} 14:44:02.985
+     idb:                {Register Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89\Dxp_Metadata_Universal_Driver_x64_Extension.inf} 14:44:02.985
+     idb:                     Created driver package object 'dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89' in SYSTEM database node.
+     idb:                     Created driver INF file object 'oem165.inf' in SYSTEM database node.
+     idb:                     Registered driver package 'dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89' with 'oem165.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 14:44:03.001
+     idb:                {Publish Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89\Dxp_Metadata_Universal_Driver_x64_Extension.inf} 14:44:03.002
+     idb:                     Activating driver package 'dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89'.
+     cpy:                     Published 'dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89\dxp_metadata_universal_driver_x64_extension.inf' to 'oem165.inf'.
+     idb:                     Indexed 37 device IDs for 'dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89'.
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 16 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 14:44:03.044
+     sto:                {DRIVERSTORE IMPORT END} 14:44:03.044
+     dvi:                     Flushed all driver package files to disk. Time = 16 ms
+     sig:                     Installed catalog 'Dxp_Metadata_Universal_Driver_x64_Extension.cat' as 'oem165.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 14:44:03.123
+     sto:           {Core Driver Package Import: exit(0x00000000)} 14:44:03.123
+     sto:      {Stage Driver Package: exit(0x00000000)} 14:44:03.123
+     dvs:      Driver Package:
+     dvs:           Outcome        - Imported
+     dvs:           Driver INF     - dxp_metadata_universal_driver_x64_extension.inf (oem165.inf)
+     dvs:           Class GUID     - {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     dvs:           Driver Version - 09/04/2024,1.0.0.5
+     dvi:      Flushed SOFTWARE registry hive. 14:44:03.232
+     dvi:      Flushed SYSTEM registry hive. 14:44:03.232
+     dvi:      Flushed DRIVERS registry hive. 14:44:03.248
+     dvs: {Driver Setup Import Driver Package - exit (0x00000000)} 14:44:03.248
+     dvs: {Driver Setup Update Device: SWD\PRINTENUM\WSD-1da32924-0150-4a3f-a196-d86a995556b5} 14:44:03.358
+     utl:      {Select Drivers - SWD\PRINTENUM\WSD-1da32924-0150-4a3f-a196-d86a995556b5} 14:44:03.358
+     utl:           Driver Node:
+     utl:                Status         - Selected | Installed
+     utl:                Driver INF     - oem28.inf (C:\WINDOWS\System32\DriverStore\FileRepository\hpygid29_v4.inf_amd64_b1e298b1f9cc098e\hpygid29_v4.inf)
+     utl:                Class GUID     - {4d36e979-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 06/17/2019,29.117.2.7675
+     utl:                Configuration  - WSDPRINT\HPHP_OfficeJet_Pro_95A6B
+     utl:                Driver Rank    - 00FF0000
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 30089880_13783476699330895_1152921504628116490
+     utl:                Flight IDs     - RD:428C8
+     utl:           Driver Extension Node:
+     utl:                Status         - Selected
+     utl:                Driver INF     - oem165.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89\dxp_metadata_universal_driver_x64_extension.inf)
+     utl:                Class GUID     - {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     utl:                Extension ID   - {1c453bf3-3cbf-45ca-9a06-a255b4290af9}
+     utl:                Driver Version - 09/04/2024,1.0.0.5
+     utl:                Configuration  - WSDPRINT\HPHP_OfficeJet_Pro_95A6B
+     utl:                Driver Rank    - 00FF0000
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 30089880_14161818064820179_1152921505699536055
+     utl:                Flight IDs     - RD:10C29C
+     utl:           Driver Node:
+     utl:                Status         - Outranked | Installed
+     utl:                Driver INF     - oem28.inf (C:\WINDOWS\System32\DriverStore\FileRepository\hpygid29_v4.inf_amd64_b1e298b1f9cc098e\hpygid29_v4.inf)
+     utl:                Class GUID     - {4d36e979-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 06/17/2019,29.117.2.7675
+     utl:                Configuration  - HPHP_OfficeJet_Pro_95A6B
+     utl:                Driver Rank    - 00FF0001
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 30089880_13783476699330895_1152921504628116490
+     utl:                Flight IDs     - RD:428C8
+     utl:           Driver Node:
+     utl:                Status         - Outranked
+     utl:                Driver INF     - prnms012.inf (C:\WINDOWS\System32\DriverStore\FileRepository\prnms012.inf_amd64_6be366b41bdf5913\prnms012.inf)
+     utl:                Class GUID     - {4d36e979-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 06/21/2006,10.0.22621.2506
+     utl:                Configuration  - 1284_CID_MS_IPP
+     utl:                Driver Rank    - 00FF2000
+     utl:                Signer Score   - Inbox (0D000003)
+     utl:           Driver Node:
+     utl:                Status         - Outranked
+     utl:                Driver INF     - prnms007.inf (C:\WINDOWS\System32\DriverStore\FileRepository\prnms007.inf_amd64_615cbb069285e601\prnms007.inf)
+     utl:                Class GUID     - {4d36e979-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 06/21/2006,10.0.22621.2506
+     utl:                Configuration  - 1284_CID_MS_PWGR
+     utl:                Driver Rank    - 00FF3003
+     utl:                Signer Score   - Inbox (0D000003)
+     utl:           Driver Node:
+     utl:                Status         - Outranked
+     utl:                Driver INF     - prnms013.inf (C:\WINDOWS\System32\DriverStore\FileRepository\prnms013.inf_amd64_ed6d9ed7abff7cdf\prnms013.inf)
+     utl:                Class GUID     - {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+     utl:                Driver Version - 06/21/2006,10.0.22621.1
+     utl:                Configuration  - CID_MS_GENERICPRINT [MS_GENERICPRINT]
+     utl:                Driver Rank    - 00FF3004
+     utl:                Signer Score   - Inbox (0D000003)
+     utl:           Driver Node:
+     utl:                Status         - Outranked
+     utl:                Driver INF     - c_swdevice.inf (C:\WINDOWS\System32\DriverStore\FileRepository\c_swdevice.inf_amd64_609b103dd850cfc6\c_swdevice.inf)
+     utl:                Class GUID     - {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+     utl:                Driver Version - 06/21/2006,10.0.22621.1
+     utl:                Configuration  - SWD\GenericRaw [SoftwareDevice]
+     utl:                Driver Rank    - 00FF3005
+     utl:                Signer Score   - Inbox (0D000003)
+     utl:           Driver Extension Node:
+     utl:                Status         - Outranked
+     utl:                Driver INF     - oem165.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89\dxp_metadata_universal_driver_x64_extension.inf)
+     utl:                Class GUID     - {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     utl:                Extension ID   - {1c453bf3-3cbf-45ca-9a06-a255b4290af9}
+     utl:                Driver Version - 09/04/2024,1.0.0.5
+     utl:                Configuration  - HPHP_OfficeJet_Pro_95A6B
+     utl:                Driver Rank    - 00FF0001
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 30089880_14161818064820179_1152921505699536055
+     utl:                Flight IDs     - RD:10C29C
+     utl:      {Select Drivers - exit(0x00000000} 14:44:03.437
+     dvs:      Installing best driver (oem28.inf) on device 'SWD\PRINTENUM\WSD-1da32924-0150-4a3f-a196-d86a995556b5'.
+     ump:      {Plug and Play Service: Device Install for SWD\PRINTENUM\WSD-1DA32924-0150-4A3F-A196-D86A995556B5}
+!    dvi:           Device class {4d36e979-e325-11ce-bfc1-08002be10318} is not configurable.
+     dvi:           Searching for hardware ID(s):
+     dvi:                wsdprint\hphp_officejet_pro_95a6b
+     dvi:                hphp_officejet_pro_95a6b
+     dvi:                psa_hphp_officejet_pro_95a6b
+     dvi:           Searching for compatible ID(s):
+     dvi:                1284_cid_ms_ipp
+     dvi:                wsdprint\1284_cid_hpijvipav9
+     dvi:                1284_cid_hpijvipav9
+     dvi:                1284_cid_ms_pwgr
+     dvi:                cid_ms_genericprint
+     dvi:                swd\genericraw
+     dvi:                swd\generic
+     dvi:           Class GUID of device changed to: {4d36e979-e325-11ce-bfc1-08002be10318}.
+     ndv:           {Core Device Install} 14:44:03.657
+     dvi:                {Install Device - SWD\PRINTENUM\WSD-1DA32924-0150-4A3F-A196-D86A995556B5} 14:44:03.661
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: SWD\IPP\2397f698-87e2-58c5-82e4-e5481b04d53b
+     dvi:                     {DIF_ALLOW_INSTALL} 14:44:03.676
+     dvi:                          Using exported function 'ClassInstall32' in module 'C:\WINDOWS\system32\ntprint.dll'.
+     dvi:                          Class installer == ntprint.dll,ClassInstall32
+     dvi:                          Class installer: Enter 14:44:03.708
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 14:44:03.724
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_ALLOW_INSTALL - exit(0xe000020e)} 14:44:03.724
+     dvi:                     {DIF_INSTALLDEVICEFILES} 14:44:03.724
+     dvi:                          Class installer: Enter 14:44:03.724
+     dvi:                          Class installer: Exit
+     dvi:                     {DIF_INSTALLDEVICEFILES - exit(0x00000000)} 14:44:03.866
+     dvi:                     {DIF_REGISTER_COINSTALLERS} 14:44:03.867
+     dvi:                          Reset Device: Resetting device configuration. 14:44:03.886
+     dvi:                          Reset Device: Resetting device configuration completed. 14:44:03.887
+     dvi:                          Class installer: Enter 14:44:03.888
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 14:44:03.891
+     inf:                               {Install from INF Section - INSTALL_OJP9010.CoInstallers} 14:44:03.893
+     inf:                                    Flags         - 0x001001ee
+     inf:                               {Install from INF Section - exit(0x00000000)} 14:44:03.894
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_REGISTER_COINSTALLERS - exit(0x00000000)} 14:44:03.894
+     dvi:                     {DIF_INSTALLINTERFACES} 14:44:03.894
+     dvi:                          Class installer: Enter 14:44:03.894
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 14:44:03.894
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_INSTALLINTERFACES - exit(0x00000000)} 14:44:03.894
+     dvi:                     {DIF_INSTALLDEVICE} 14:44:03.894
+     dvi:                          Class installer: Enter 14:44:03.894
+     inf:                               {Install from INF Section - INSTALL_OJP9010.ProcessPerPnpInstance} 14:44:03.909
+     inf:                                    Flags         - 0x00000004
+     inf:                               {Install from INF Section - exit(0x00000000)} 14:44:03.925
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 14:44:03.941
+     dvi:                               {Install DEVICE}
+     inf:                                    {Install from INF Section - INSTALL_OJP9010} 14:44:03.941
+     inf:                                         Flags         - 0x001005ee
+     inf:                                    {Install from INF Section - exit(0x00000000)} 14:44:03.941
+     dvi:                                    {Writing Device Properties}
+     dvi:                                         Strong Name=oem28.inf:4f0b66f31867d372:INSTALL_OJP9010:29.117.2.7675:wsdprint\hphp_officejet_pro_95a6b
+     dvi:                                    {Writing Device Properties - Complete}
+     dvi:                               {Install DEVICE exit (0x00000000)}
+     sto:                               {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89\dxp_metadata_universal_driver_x64_extension.inf}
+     sto:                                    Source Filter  = wsdprint\hphp_officejet_pro_95a6b
+     inf:                                    Class GUID     = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     inf:                                    Class Options  = Configurable
+     inf:                                    {Configure Driver: METADATA}
+     inf:                                         Section Name = KarnakExtension_Install.NTamd64
+     inf:                                         Hardware Id  = WSDPRINT\HPHP_OfficeJet_Pro_95A6B
+     inf:                                         {Configure Driver Configuration: KarnakExtension_Install.NTamd64}
+     inf:                                              No associated service.
+     inf:                                              Driver has software pending install.
+     inf:                                              Config Flags  = 0x00000000
+     inf:                                         {Configure Driver Configuration: exit(0x00000000)}
+     inf:                                    {Configure Driver: exit(0x00000000)}
+     flq:                                    {FILE_QUEUE_COMMIT} 14:44:04.003
+     flq:                                    {FILE_QUEUE_COMMIT - exit(0x00000000)} 14:44:04.003
+     sto:                               {Configure Driver Package: exit(0x00000000)}
+     dvi:                               Install Device: Configuring device extensions. 14:44:04.003
+     dvi:                               Install Device: Configuring device extensions completed. 14:44:04.019
+     dvi:                               Install Device: Configuring device class. 14:44:04.019
+     dvi:                               Install Device: Configuring device class completed. 14:44:04.019
+     dvi:                               Device Status: 0x0180200a
+     dvi:                               {Restarting Devices} 14:44:04.050
+     dvi:                                    Query-remove: SWD\PRINTENUM\WSD-1DA32924-0150-4A3F-A196-D86A995556B5
+     dvi:                                    Start: SWD\PRINTENUM\WSD-1DA32924-0150-4A3F-A196-D86A995556B5
+     dvi:                                    Restart verified: SWD\PRINTENUM\WSD-1DA32924-0150-4A3F-A196-D86A995556B5
+     dvi:                               {Restarting Devices exit} 14:44:04.066
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_INSTALLDEVICE - exit(0x00000000)} 14:44:04.066
+     dvi:                     {DIF_NEWDEVICEWIZARD_FINISHINSTALL} 14:44:04.066
+     dvi:                          Class installer: Enter 14:44:04.066
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 14:44:04.066
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_NEWDEVICEWIZARD_FINISHINSTALL - exit(0xe000020e)} 14:44:04.066
+     dvi:                {Install Device - exit(0x00000000)} 14:44:04.081
+     dvi:           {Core Device Install - exit(0x00000000)} 14:44:04.081
+     dvi:           {DIF_DESTROYPRIVATEDATA} 14:44:04.081
+     dvi:                Class installer: Enter 14:44:04.081
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 14:44:04.081
+     dvi:                Default installer: Exit
+     dvi:           {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 14:44:04.081
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     dvs:      {Install Related Drivers} 14:44:04.097
+     dvs:      {Install Related Drivers: exit(0x00000000)} 14:44:04.097
+     dvs: {Driver Setup Update Device - exit(0x00000000)} 14:44:04.097
+     dvs: Created driver update {3d449b15-28b7-5e6f-8524-9c22c85ea442}. HardwareId = wsdprint\hphp_officejet_pro_95a6b
+<<<  Section end 2026/09/03 14:44:04.128
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (Install Windows Update driver) - psa_hphp_officejet_pro_95a6b]
+>>>  Section start 2026/09/03 14:44:06.141
+      cmd: "C:\WINDOWS\uus\packages\preview\AMD64\wuaucltcore.exe" /DeploymentHandlerFullPath \\?\C:\Windows\UUS\Packages\Preview\AMD64\UpdateDeploy.dll /ClassId f1baa336-6a27-408d-8433-809efdf375ef /RunHandlerComServer
+     dvs: INF path: C:\WINDOWS\SoftwareDistribution\Download\Install
+     dvs: Found 1 driver updates under 'C:\WINDOWS\SoftwareDistribution\Download\Install'. 14:44:06.141
+     dvs: {Driver Setup Import Driver Package: C:\WINDOWS\SoftwareDistribution\Download\Install\HP_OJ_8010_9020.inf} 14:44:06.157
+     ump:      Import flags: 0x00000001
+     pol:      {Driver package policy check} 14:44:06.189
+     pol:      {Driver package policy check - exit(0x00000000)} 14:44:06.205
+     sto:      {Stage Driver Package: C:\WINDOWS\SoftwareDistribution\Download\Install\HP_OJ_8010_9020.inf} 14:44:06.205
+     inf:           Provider       = HP Inc.
+     inf:           Class GUID     = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     inf:           Driver Version = 11/10/2025,2602.0.1.0
+     inf:           Catalog File   = HP_OJ_8010_9020.cat
+     inf:           Version Flags  = 0x00000003
+     inf:           {Query Configurability: C:\WINDOWS\SoftwareDistribution\Download\Install\HP_OJ_8010_9020.inf} 14:44:06.220
+     inf:                Driver package is fully isolated.
+     inf:                Driver package 'HP_OJ_8010_9020.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 14:44:06.227
+     flq:           {FILE_QUEUE_COMMIT} 14:44:06.238
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\HP_OJ_8010_9020.cat' to 'C:\WINDOWS\System32\DriverStore\Temp\{6356aadc-3dc3-f049-b22a-036eabb1de8f}\HP_OJ_8010_9020.cat'.
+     flq:                Copying 'C:\WINDOWS\SoftwareDistribution\Download\Install\HP_OJ_8010_9020.inf' to 'C:\WINDOWS\System32\DriverStore\Temp\{6356aadc-3dc3-f049-b22a-036eabb1de8f}\HP_OJ_8010_9020.inf'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 14:44:06.323
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 14:44:06.323
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 14:44:06.371
+     sig:                     Key      = HP_OJ_8010_9020.inf
+     sig:                     FilePath = C:\WINDOWS\System32\DriverStore\Temp\{6356aadc-3dc3-f049-b22a-036eabb1de8f}\HP_OJ_8010_9020.inf
+     sig:                     Catalog  = C:\WINDOWS\System32\DriverStore\Temp\{6356aadc-3dc3-f049-b22a-036eabb1de8f}\HP_OJ_8010_9020.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 14:44:06.386
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 14:44:06.386
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 30089880_13623103548892052_1152921505700887606
+     sto:           {Core Driver Package Import: hp_oj_8010_9020.inf_amd64_563914672cacb49d} 14:44:06.386
+     sto:                {DRIVERSTORE IMPORT BEGIN} 14:44:06.386
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 14:44:06.386
+     cpy:                {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{6356aadc-3dc3-f049-b22a-036eabb1de8f}} 14:44:06.403
+     cpy:                     Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\hp_oj_8010_9020.inf_amd64_563914672cacb49d
+     cpy:                {Copy Directory: exit(0x00000000)} 14:44:06.403
+     idb:                {Register Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\hp_oj_8010_9020.inf_amd64_563914672cacb49d\HP_OJ_8010_9020.inf} 14:44:06.403
+     idb:                     Created driver package object 'hp_oj_8010_9020.inf_amd64_563914672cacb49d' in SYSTEM database node.
+     idb:                     Created driver INF file object 'oem166.inf' in SYSTEM database node.
+     idb:                     Registered driver package 'hp_oj_8010_9020.inf_amd64_563914672cacb49d' with 'oem166.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 14:44:06.434
+     idb:                {Publish Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\hp_oj_8010_9020.inf_amd64_563914672cacb49d\HP_OJ_8010_9020.inf} 14:44:06.434
+     idb:                     Activating driver package 'hp_oj_8010_9020.inf_amd64_563914672cacb49d'.
+     cpy:                     Published 'hp_oj_8010_9020.inf_amd64_563914672cacb49d\hp_oj_8010_9020.inf' to 'oem166.inf'.
+     idb:                     Indexed 8 device IDs for 'hp_oj_8010_9020.inf_amd64_563914672cacb49d'.
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 16 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 14:44:06.465
+     sto:                {DRIVERSTORE IMPORT END} 14:44:06.465
+     dvi:                     Flushed all driver package files to disk. Time = 47 ms
+     sig:                     Installed catalog 'HP_OJ_8010_9020.cat' as 'oem166.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 14:44:06.544
+     sto:           {Core Driver Package Import: exit(0x00000000)} 14:44:06.544
+     sto:      {Stage Driver Package: exit(0x00000000)} 14:44:06.544
+     dvs:      Driver Package:
+     dvs:           Outcome        - Imported
+     dvs:           Driver INF     - hp_oj_8010_9020.inf (oem166.inf)
+     dvs:           Class GUID     - {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     dvs:           Driver Version - 11/10/2025,2602.0.1.0
+     dvi:      Flushed SOFTWARE registry hive. 14:44:07.761
+     dvi:      Flushed SYSTEM registry hive. 14:44:09.351
+     dvi:      Flushed DRIVERS registry hive. 14:44:09.351
+     dvs: {Driver Setup Import Driver Package - exit (0x00000000)} 14:44:09.351
+     dvs: {Driver Setup Update Device: SWD\PRINTENUM\WSD-1da32924-0150-4a3f-a196-d86a995556b5} 14:44:09.618
+     utl:      {Select Drivers - SWD\PRINTENUM\WSD-1da32924-0150-4a3f-a196-d86a995556b5} 14:44:09.618
+     utl:           Driver Node:
+     utl:                Status         - Selected | Installed
+     utl:                Driver INF     - oem28.inf (C:\WINDOWS\System32\DriverStore\FileRepository\hpygid29_v4.inf_amd64_b1e298b1f9cc098e\hpygid29_v4.inf)
+     utl:                Class GUID     - {4d36e979-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 06/17/2019,29.117.2.7675
+     utl:                Configuration  - WSDPRINT\HPHP_OfficeJet_Pro_95A6B
+     utl:                Driver Rank    - 00FF0000
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 30089880_13783476699330895_1152921504628116490
+     utl:                Flight IDs     - RD:428C8
+     utl:           Driver Extension Node:
+     utl:                Status         - Selected | Installed
+     utl:                Driver INF     - oem165.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89\dxp_metadata_universal_driver_x64_extension.inf)
+     utl:                Class GUID     - {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     utl:                Extension ID   - {1c453bf3-3cbf-45ca-9a06-a255b4290af9}
+     utl:                Driver Version - 09/04/2024,1.0.0.5
+     utl:                Configuration  - WSDPRINT\HPHP_OfficeJet_Pro_95A6B [KarnakExtension_Install.NTamd64]
+     utl:                Driver Rank    - 00FF0000
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 30089880_14161818064820179_1152921505699536055
+     utl:                Flight IDs     - RD:10C29C
+     utl:           Driver Extension Node:
+     utl:                Status         - Selected
+     utl:                Driver INF     - oem166.inf (C:\WINDOWS\System32\DriverStore\FileRepository\hp_oj_8010_9020.inf_amd64_563914672cacb49d\hp_oj_8010_9020.inf)
+     utl:                Class GUID     - {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     utl:                Extension ID   - {fe9c4bf1-f6c4-4698-853a-8f506d1b1454}
+     utl:                Driver Version - 11/10/2025,2602.0.1.0
+     utl:                Configuration  - PSA_HPHP_OfficeJet_Pro_95A6B
+     utl:                Driver Rank    - 00FF0002
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 30089880_13623103548892052_1152921505700887606
+     utl:                Flight IDs     - RD:12A03A
+     utl:           Driver Node:
+     utl:                Status         - Outranked | Installed
+     utl:                Driver INF     - oem28.inf (C:\WINDOWS\System32\DriverStore\FileRepository\hpygid29_v4.inf_amd64_b1e298b1f9cc098e\hpygid29_v4.inf)
+     utl:                Class GUID     - {4d36e979-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 06/17/2019,29.117.2.7675
+     utl:                Configuration  - HPHP_OfficeJet_Pro_95A6B
+     utl:                Driver Rank    - 00FF0001
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 30089880_13783476699330895_1152921504628116490
+     utl:                Flight IDs     - RD:428C8
+     utl:           Driver Node:
+     utl:                Status         - Outranked
+     utl:                Driver INF     - prnms012.inf (C:\WINDOWS\System32\DriverStore\FileRepository\prnms012.inf_amd64_6be366b41bdf5913\prnms012.inf)
+     utl:                Class GUID     - {4d36e979-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 06/21/2006,10.0.22621.2506
+     utl:                Configuration  - 1284_CID_MS_IPP
+     utl:                Driver Rank    - 00FF2000
+     utl:                Signer Score   - Inbox (0D000003)
+     utl:           Driver Node:
+     utl:                Status         - Outranked
+     utl:                Driver INF     - prnms007.inf (C:\WINDOWS\System32\DriverStore\FileRepository\prnms007.inf_amd64_615cbb069285e601\prnms007.inf)
+     utl:                Class GUID     - {4d36e979-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 06/21/2006,10.0.22621.2506
+     utl:                Configuration  - 1284_CID_MS_PWGR
+     utl:                Driver Rank    - 00FF3003
+     utl:                Signer Score   - Inbox (0D000003)
+     utl:           Driver Node:
+     utl:                Status         - Outranked
+     utl:                Driver INF     - prnms013.inf (C:\WINDOWS\System32\DriverStore\FileRepository\prnms013.inf_amd64_ed6d9ed7abff7cdf\prnms013.inf)
+     utl:                Class GUID     - {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+     utl:                Driver Version - 06/21/2006,10.0.22621.1
+     utl:                Configuration  - CID_MS_GENERICPRINT [MS_GENERICPRINT]
+     utl:                Driver Rank    - 00FF3004
+     utl:                Signer Score   - Inbox (0D000003)
+     utl:           Driver Node:
+     utl:                Status         - Outranked
+     utl:                Driver INF     - c_swdevice.inf (C:\WINDOWS\System32\DriverStore\FileRepository\c_swdevice.inf_amd64_609b103dd850cfc6\c_swdevice.inf)
+     utl:                Class GUID     - {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+     utl:                Driver Version - 06/21/2006,10.0.22621.1
+     utl:                Configuration  - SWD\GenericRaw [SoftwareDevice]
+     utl:                Driver Rank    - 00FF3005
+     utl:                Signer Score   - Inbox (0D000003)
+     utl:           Driver Extension Node:
+     utl:                Status         - Outranked | Installed
+     utl:                Driver INF     - oem165.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89\dxp_metadata_universal_driver_x64_extension.inf)
+     utl:                Class GUID     - {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     utl:                Extension ID   - {1c453bf3-3cbf-45ca-9a06-a255b4290af9}
+     utl:                Driver Version - 09/04/2024,1.0.0.5
+     utl:                Configuration  - HPHP_OfficeJet_Pro_95A6B
+     utl:                Driver Rank    - 00FF0001
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:                Submission ID  - 30089880_14161818064820179_1152921505699536055
+     utl:                Flight IDs     - RD:10C29C
+     utl:      {Select Drivers - exit(0x00000000} 14:44:09.664
+     dvs:      Installing best driver (oem28.inf) on device 'SWD\PRINTENUM\WSD-1da32924-0150-4a3f-a196-d86a995556b5'.
+     ump:      {Plug and Play Service: Device Install for SWD\PRINTENUM\WSD-1DA32924-0150-4A3F-A196-D86A995556B5}
+!    dvi:           Device class {4d36e979-e325-11ce-bfc1-08002be10318} is not configurable.
+     dvi:           Searching for hardware ID(s):
+     dvi:                wsdprint\hphp_officejet_pro_95a6b
+     dvi:                hphp_officejet_pro_95a6b
+     dvi:                psa_hphp_officejet_pro_95a6b
+     dvi:           Searching for compatible ID(s):
+     dvi:                1284_cid_ms_ipp
+     dvi:                wsdprint\1284_cid_hpijvipav9
+     dvi:                1284_cid_hpijvipav9
+     dvi:                1284_cid_ms_pwgr
+     dvi:                cid_ms_genericprint
+     dvi:                swd\genericraw
+     dvi:                swd\generic
+     dvi:           Class GUID of device changed to: {4d36e979-e325-11ce-bfc1-08002be10318}.
+     ndv:           {Core Device Install} 14:44:09.753
+     dvi:                {Install Device - SWD\PRINTENUM\WSD-1DA32924-0150-4A3F-A196-D86A995556B5} 14:44:09.753
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: SWD\IPP\2397f698-87e2-58c5-82e4-e5481b04d53b
+     dvi:                     {DIF_ALLOW_INSTALL} 14:44:09.769
+     dvi:                          Using exported function 'ClassInstall32' in module 'C:\WINDOWS\system32\ntprint.dll'.
+     dvi:                          Class installer == ntprint.dll,ClassInstall32
+     dvi:                          Class installer: Enter 14:44:09.769
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 14:44:09.769
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_ALLOW_INSTALL - exit(0xe000020e)} 14:44:09.769
+     dvi:                     {DIF_INSTALLDEVICEFILES} 14:44:09.784
+     dvi:                          Class installer: Enter 14:44:09.784
+     dvi:                          Class installer: Exit
+     dvi:                     {DIF_INSTALLDEVICEFILES - exit(0x00000000)} 14:44:09.816
+     dvi:                     {DIF_REGISTER_COINSTALLERS} 14:44:09.816
+     dvi:                          Reset Device: Resetting device configuration. 14:44:09.816
+     dvi:                          Reset Device: Resetting device configuration completed. 14:44:09.816
+     dvi:                          Class installer: Enter 14:44:09.816
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 14:44:09.816
+     inf:                               {Install from INF Section - INSTALL_OJP9010.CoInstallers} 14:44:09.816
+     inf:                                    Flags         - 0x001001ee
+     inf:                               {Install from INF Section - exit(0x00000000)} 14:44:09.816
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_REGISTER_COINSTALLERS - exit(0x00000000)} 14:44:09.816
+     dvi:                     {DIF_INSTALLINTERFACES} 14:44:09.816
+     dvi:                          Class installer: Enter 14:44:09.816
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 14:44:09.816
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_INSTALLINTERFACES - exit(0x00000000)} 14:44:09.816
+     dvi:                     {DIF_INSTALLDEVICE} 14:44:09.816
+     dvi:                          Class installer: Enter 14:44:09.816
+     inf:                               {Install from INF Section - INSTALL_OJP9010.ProcessPerPnpInstance} 14:44:09.831
+     inf:                                    Flags         - 0x00000004
+     inf:                               {Install from INF Section - exit(0x00000000)} 14:44:09.831
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 14:44:09.847
+     dvi:                               {Install DEVICE}
+     inf:                                    {Install from INF Section - INSTALL_OJP9010} 14:44:09.847
+     inf:                                         Flags         - 0x001005ee
+     inf:                                    {Install from INF Section - exit(0x00000000)} 14:44:09.847
+     dvi:                                    {Writing Device Properties}
+     dvi:                                         Strong Name=oem28.inf:4f0b66f31867d372:INSTALL_OJP9010:29.117.2.7675:wsdprint\hphp_officejet_pro_95a6b
+     dvi:                                    {Writing Device Properties - Complete}
+     dvi:                               {Install DEVICE exit (0x00000000)}
+     sto:                               {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\hp_oj_8010_9020.inf_amd64_563914672cacb49d\hp_oj_8010_9020.inf}
+     sto:                                    Source Filter  = psa_hphp_officejet_pro_95a6b
+     inf:                                    Class GUID     = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     inf:                                    Class Options  = Configurable
+     inf:                                    {Configure Driver: HP Print Support App Extension}
+     inf:                                         Section Name = PSA-Install.NT
+     inf:                                         Hardware Id  = PSA_HPHP_OfficeJet_Pro_95A6B
+     inf:                                         {Configure Driver Configuration: PSA-Install.NT}
+     inf:                                              No associated service.
+     inf:                                              Driver has software pending install.
+     inf:                                              Config Flags  = 0x00000000
+     inf:                                         {Configure Driver Configuration: exit(0x00000000)}
+     inf:                                    {Configure Driver: exit(0x00000000)}
+     flq:                                    {FILE_QUEUE_COMMIT} 14:44:09.878
+     flq:                                    {FILE_QUEUE_COMMIT - exit(0x00000000)} 14:44:09.878
+     sto:                               {Configure Driver Package: exit(0x00000000)}
+     sto:                               {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dxp_metadata_universal_driver_x64_extension.inf_amd64_b4b806e883251b89\dxp_metadata_universal_driver_x64_extension.inf}
+     sto:                                    Source Filter  = wsdprint\hphp_officejet_pro_95a6b
+     inf:                                    Class GUID     = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     inf:                                    Class Options  = Configurable
+     inf:                                    {Configure Driver: METADATA}
+     inf:                                         Section Name = KarnakExtension_Install.NTamd64
+     inf:                                         Hardware Id  = WSDPRINT\HPHP_OfficeJet_Pro_95A6B
+     inf:                                         {Configure Driver Configuration: KarnakExtension_Install.NTamd64}
+     inf:                                              No associated service.
+     inf:                                              Driver has software pending install.
+     inf:                                              Config Flags  = 0x00000000
+     inf:                                         {Configure Driver Configuration: exit(0x00000000)}
+     inf:                                    {Configure Driver: exit(0x00000000)}
+     flq:                                    {FILE_QUEUE_COMMIT} 14:44:09.910
+     flq:                                    {FILE_QUEUE_COMMIT - exit(0x00000000)} 14:44:09.910
+     sto:                               {Configure Driver Package: exit(0x00000000)}
+     dvi:                               Install Device: Configuring device extensions. 14:44:09.910
+     dvi:                               Install Device: Configuring device extensions completed. 14:44:09.910
+     dvi:                               Install Device: Configuring device class. 14:44:09.925
+     dvi:                               Install Device: Configuring device class completed. 14:44:09.925
+     dvi:                               Device Status: 0x0180200a
+     dvi:                               {Restarting Devices} 14:44:09.925
+     dvi:                                    Query-remove: SWD\PRINTENUM\WSD-1DA32924-0150-4A3F-A196-D86A995556B5
+     dvi:                                    Start: SWD\PRINTENUM\WSD-1DA32924-0150-4A3F-A196-D86A995556B5
+     dvi:                                    Restart verified: SWD\PRINTENUM\WSD-1DA32924-0150-4A3F-A196-D86A995556B5
+     dvi:                               {Restarting Devices exit} 14:44:09.941
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_INSTALLDEVICE - exit(0x00000000)} 14:44:09.941
+     dvi:                     {DIF_NEWDEVICEWIZARD_FINISHINSTALL} 14:44:09.941
+     dvi:                          Class installer: Enter 14:44:09.941
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 14:44:09.941
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_NEWDEVICEWIZARD_FINISHINSTALL - exit(0xe000020e)} 14:44:09.941
+     dvi:                {Install Device - exit(0x00000000)} 14:44:09.941
+     dvi:           {Core Device Install - exit(0x00000000)} 14:44:09.941
+     dvi:           {DIF_DESTROYPRIVATEDATA} 14:44:09.941
+     dvi:                Class installer: Enter 14:44:09.941
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 14:44:09.941
+     dvi:                Default installer: Exit
+     dvi:           {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 14:44:09.941
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     dvs:      {Install Related Drivers} 14:44:09.957
+     dvs:      {Install Related Drivers: exit(0x00000000)} 14:44:09.957
+     dvs: {Driver Setup Update Device - exit(0x00000000)} 14:44:09.957
+     dvs: Created driver update {e5f7f37c-1b52-5451-919c-13582632756e}. HardwareId = psa_hphp_officejet_pro_95a6b
+<<<  Section end 2026/09/03 14:44:10.090
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (Hardware initiated) - SWD\WPDBUSENUM\_??_USBSTOR#Disk&Ven_&Prod_PHILIPS&Rev_3.20#FC0342E016222&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}]
+>>>  Section start 2026/09/07 17:42:13.506
+     ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+     utl: {Select Drivers - SWD\WPDBUSENUM\_??_USBSTOR#Disk&Ven_&Prod_PHILIPS&Rev_3.20#FC0342E016222&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}} 17:42:13.589
+     utl:      Driver Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - wpdfs.inf (C:\WINDOWS\System32\DriverStore\FileRepository\wpdfs.inf_amd64_c3bf01033d09bf92\wpdfs.inf)
+     utl:           Class GUID     - {eec5ad98-8080-425f-922a-dabf3de3f69a}
+     utl:           Driver Version - 06/21/2006,10.0.22621.1
+     utl:           Configuration  - wpdbusenum\fs
+     utl:           Driver Rank    - 00FF2000
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 17:42:13.634
+!    dvi: Device class {eec5ad98-8080-425f-922a-dabf3de3f69a} is not configurable.
+     dvi: Searching for compatible ID(s):
+     dvi:      wpdbusenum\fs
+     dvi:      swd\generic
+     dvi: Class GUID of device changed to: {eec5ad98-8080-425f-922a-dabf3de3f69a}.
+     ndv: {Core Device Install} 17:42:13.672
+     dvi:      {Install Device - SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_&PROD_PHILIPS&REV_3.20#FC0342E016222&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}} 17:42:13.678
+     dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:           Config Flags: 0x00000000
+     dvi:           Parent Device: STORAGE\Volume\_??_USBSTOR#Disk&Ven_&Prod_PHILIPS&Rev_3.20#FC0342E016222&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+     dvi:           {DIF_ALLOW_INSTALL} 17:42:13.683
+     dvi:                Using exported function 'WpdClassInstaller' in module 'C:\WINDOWS\system32\wpd_ci.dll'.
+     dvi:                Class installer == wpd_ci.dll,WpdClassInstaller
+     dvi:                Using exported function 'CoDeviceInstall' in module 'C:\WINDOWS\system32\WUDFCoinstaller.dll'.
+     dvi:                CoInstaller 1 == WUDFCoinstaller.dll
+     dvi:                CoInstaller 1: Enter 17:42:13.703
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 17:42:13.709
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 17:42:13.715
+     dvi:                Default installer: Exit
+     dvi:           {DIF_ALLOW_INSTALL - exit(0xe000020e)} 17:42:13.716
+     dvi:           {DIF_INSTALLDEVICEFILES} 17:42:13.719
+     dvi:                CoInstaller 1: Enter 17:42:13.720
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 17:42:13.722
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 17:42:13.723
+     dvi:                Default installer: Exit
+     dvi:           {DIF_INSTALLDEVICEFILES - exit(0x00000000)} 17:42:13.731
+     dvi:           {_SCAN_FILE_QUEUE} 17:42:13.731
+     flq:                File 'C:\WINDOWS\system32\DRIVERS\UMDF\WpdFs.dll' pruned from copy.
+     dvi:           {_SCAN_FILE_QUEUE - exit(0x00000000)} 17:42:13.814
+     flq:           {FILE_QUEUE_COMMIT} 17:42:13.818
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 17:42:13.819
+     dvi:           {DIF_REGISTER_COINSTALLERS} 17:42:13.819
+     dvi:                Reset Device: Resetting device configuration. 17:42:13.822
+     dvi:                Reset Device: Resetting device configuration completed. 17:42:13.824
+     dvi:                CoInstaller 1: Enter 17:42:13.826
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 17:42:13.827
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 17:42:13.828
+     inf:                     {Install from INF Section - Basic_Install.CoInstallers} 17:42:13.830
+     inf:                          Flags         - 0x001001ee
+     inf:                     {Install from INF Section - exit(0x00000000)} 17:42:13.834
+     dvi:                     {DIF_DESTROYPRIVATEDATA} 17:42:13.834
+     dvi:                          CoInstaller 1: Enter 17:42:13.837
+     dvi:                          CoInstaller 1: Exit
+     dvi:                          Class installer: Enter 17:42:13.837
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 17:42:13.840
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 17:42:13.840
+     dvi:                Default installer: Exit
+     dvi:           {DIF_REGISTER_COINSTALLERS - exit(0x00000000)} 17:42:13.842
+     dvi:           {DIF_INSTALLINTERFACES} 17:42:13.842
+     dvi:                Using exported function 'CoDeviceInstall' in module 'C:\WINDOWS\system32\WUDFCoInstaller.dll'.
+     dvi:                CoInstaller 1 == WUDFCoInstaller.dll
+     dvi:                CoInstaller 1: Enter 17:42:13.847
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 17:42:13.849
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 17:42:13.850
+     dvi:                Default installer: Exit
+     dvi:           {DIF_INSTALLINTERFACES - exit(0x00000000)} 17:42:13.854
+     dvi:           {DIF_INSTALLDEVICE} 17:42:13.854
+     dvi:                CoInstaller 1: Enter 17:42:13.855
+     inf:                     {Install from INF Section - WpdFs_Install} 17:42:13.872
+     inf:                          Flags         - 0x00000004
+     inf:                     {Install from INF Section - exit(0x00000000)} 17:42:13.874
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 17:42:13.882
+     dvi:                     {Install DEVICE}
+     inf:                          {Install from INF Section - Basic_Install} 17:42:13.892
+     inf:                               Flags         - 0x001005ee
+     inf:                          {Install from INF Section - exit(0x00000000)} 17:42:13.894
+     inf:                          {Install from INF Section - Basic_Install.Hw} 17:42:13.894
+     inf:                               Flags         - 0x00100004
+     inf:                          {Install from INF Section - exit(0x00000000)} 17:42:13.897
+     dvi:                          {Writing Device Properties}
+     dvi:                               Strong Name=wpdfs.inf:0c0663c081fd6f5b:Basic_Install:10.0.22621.1:wpdbusenum\fs
+     dvi:                          {Writing Device Properties - Complete}
+     inf:                          AddService=WUDFWpdFs,0x000001fa,WUDFWpdFs_ServiceInstall  (wpdfs.inf line 38)
+     dvi:                          Add Service: Modified existing service 'WUDFWpdFs'.
+     inf:                          {Install from INF Section - WUDFWpdFs_ServiceInstall} 17:42:13.932
+     inf:                               Flags         - 0x00100004
+     inf:                          {Install from INF Section - exit(0x00000000)} 17:42:13.937
+     dvi:                     {Install DEVICE exit (0x00000000)}
+     dvi:                     Install Device: Configuring device class. 17:42:13.956
+     dvi:                     Install Device: Configuring device class completed. 17:42:13.956
+     dvi:                     Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:                     Install Device: Starting device 'SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_&PROD_PHILIPS&REV_3.20#FC0342E016222&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}'. 17:42:13.963
+     dvi:                     Install Device: Starting device completed. 17:42:14.133
+     dvi:                Class installer: Exit
+     dvi:                CoInstaller 1: Enter (Post Processing) 17:42:14.133
+     dvi:                CoInstaller 1: Exit (Post Processing)
+     dvi:           {DIF_INSTALLDEVICE - exit(0x00000000)} 17:42:14.141
+     dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL} 17:42:14.141
+     dvi:                CoInstaller 1: Enter 17:42:14.147
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 17:42:14.148
+     dvi:                Class installer: Exit
+     dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL - exit(0x00000000)} 17:42:14.227
+     dvi:      {Install Device - exit(0x00000000)} 17:42:14.232
+     dvi: {Core Device Install - exit(0x00000000)} 17:42:14.232
+     dvi: {DIF_DESTROYPRIVATEDATA} 17:42:14.232
+     dvi:      CoInstaller 1: Enter 17:42:14.236
+     dvi:      CoInstaller 1: Exit
+     dvi:      Class installer: Enter 17:42:14.237
+     dvi:      Class installer: Exit
+     dvi:      Default installer: Enter 17:42:14.239
+     dvi:      Default installer: Exit
+     dvi: {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 17:42:14.240
+<<<  Section end 2026/09/07 17:42:14.257
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [SetupCopyOEMInf - C:\Program Files\Norton\Suite\WireGuard\nllwireguard.inf]
+>>>  Section start 2026/10/02 17:25:39.988
+      cmd: "C:\Program Files\Norton\Suite\SetupInf.exe" /install "C:\Program Files\Norton\Suite\WireGuard\nllwireguard.inf"
+     inf: Copy style: 0x00000000
+     sto: {Setup Import Driver Package: C:\Program Files\Norton\Suite\WireGuard\nllwireguard.inf} 17:25:40.032
+     inf:      Provider: Norton
+     inf:      Class GUID: {4D36E972-E325-11CE-BFC1-08002BE10318}
+     inf:      Driver Version: 08/04/2026,1.1.0.197
+     inf:      Catalog File: nllWireGuard.cat
+     ump:      Import flags: 0x00000009
+     pol:      {Driver package policy check} 17:25:40.441
+     pol:      {Driver package policy check - exit(0x00000000)} 17:25:40.472
+     sto:      {Stage Driver Package: C:\Program Files\Norton\Suite\WireGuard\nllwireguard.inf} 17:25:40.511
+     inf:           Provider       = Norton
+     inf:           Class GUID     = {4d36e972-e325-11ce-bfc1-08002be10318}
+     inf:           Driver Version = 08/04/2026,1.1.0.197
+     inf:           Catalog File   = nllWireGuard.cat
+     inf:           Version Flags  = 0x00000003
+     inf:           {Query Configurability: C:\Program Files\Norton\Suite\WireGuard\nllwireguard.inf} 17:25:40.526
+     inf:                Driver package 'nllwireguard.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 17:25:40.531
+     flq:           {FILE_QUEUE_COMMIT} 17:25:40.537
+     flq:                Copying 'C:\Program Files\Norton\Suite\WireGuard\nllWireGuard.cat' to 'C:\WINDOWS\System32\DriverStore\Temp\{0e474b56-1d41-e546-958d-20586c3d3f44}\nllWireGuard.cat'.
+     flq:                Copying 'C:\Program Files\Norton\Suite\WireGuard\nllwireguard.inf' to 'C:\WINDOWS\System32\DriverStore\Temp\{0e474b56-1d41-e546-958d-20586c3d3f44}\nllwireguard.inf'.
+     flq:                Copying 'C:\Program Files\Norton\Suite\WireGuard\nllWireguard.sys' to 'C:\WINDOWS\System32\DriverStore\Temp\{0e474b56-1d41-e546-958d-20586c3d3f44}\nllWireguard.sys'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 17:25:40.599
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 17:25:40.603
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 17:25:40.736
+     sig:                     Key      = nllwireguard.inf
+     sig:                     FilePath = C:\WINDOWS\System32\DriverStore\Temp\{0e474b56-1d41-e546-958d-20586c3d3f44}\nllwireguard.inf
+     sig:                     Catalog  = C:\WINDOWS\System32\DriverStore\Temp\{0e474b56-1d41-e546-958d-20586c3d3f44}\nllWireGuard.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 17:25:40.744
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 17:25:40.976
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 30033500_14556706471659475_1152921505701577194
+     sto:           {Core Driver Package Import: nllwireguard.inf_amd64_e8b4173830aa7ed4} 17:25:41.136
+     sto:                {DRIVERSTORE IMPORT BEGIN} 17:25:41.136
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 17:25:41.136
+     cpy:                {Copy Directory: C:\WINDOWS\System32\DriverStore\Temp\{0e474b56-1d41-e546-958d-20586c3d3f44}} 17:25:41.304
+     cpy:                     Target Path = C:\WINDOWS\System32\DriverStore\FileRepository\nllwireguard.inf_amd64_e8b4173830aa7ed4
+     cpy:                {Copy Directory: exit(0x00000000)} 17:25:41.382
+     idb:                {Register Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\nllwireguard.inf_amd64_e8b4173830aa7ed4\nllwireguard.inf} 17:25:41.448
+     idb:                     Created driver package object 'nllwireguard.inf_amd64_e8b4173830aa7ed4' in DRIVERS database node.
+     idb:                     Created driver INF file object 'oem167.inf' in DRIVERS database node.
+     idb:                     Registered driver package 'nllwireguard.inf_amd64_e8b4173830aa7ed4' with 'oem167.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 17:25:41.547
+     idb:                {Publish Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\nllwireguard.inf_amd64_e8b4173830aa7ed4\nllwireguard.inf} 17:25:41.547
+     idb:                     Activating driver package 'nllwireguard.inf_amd64_e8b4173830aa7ed4'.
+     cpy:                     Published 'nllwireguard.inf_amd64_e8b4173830aa7ed4\nllwireguard.inf' to 'oem167.inf'.
+     idb:                     Indexed 2 device IDs for 'nllwireguard.inf_amd64_e8b4173830aa7ed4'.
+     sto:                     Flushed driver database node 'DRIVERS'. Time = 0 ms
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 17:25:41.598
+     sto:                {DRIVERSTORE IMPORT END} 17:25:41.602
+     dvi:                     Flushed all driver package files to disk. Time = 71 ms
+     sig:                     Installed catalog 'nllWireGuard.cat' as 'oem167.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 17:25:41.853
+     sto:           {Core Driver Package Import: exit(0x00000000)} 17:25:41.853
+     sto:      {Stage Driver Package: exit(0x00000000)} 17:25:41.859
+     sto: {Setup Import Driver Package - exit (0x00000000)} 17:25:42.032
+     inf: Driver Store Path: C:\WINDOWS\System32\DriverStore\FileRepository\nllwireguard.inf_amd64_e8b4173830aa7ed4\nllwireguard.inf
+     inf: Published Inf Path: C:\WINDOWS\INF\oem167.inf
+<<<  Section end 2026/10/02 17:25:42.052
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Driver Install (DrvSetupInstallDriver) - C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping12724_2023828834\app\273.4.4708\driver_amd64\dbx.inf]
+>>>  Section start 2026/10/02 17:28:32.488
+      cmd: "C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping12724_2023828834\app\Dropbox.exe" /install /InstallType:MACHINE /InstallDir:"C:\Program Files (x86)\Dropbox\Client" /KillEveryone:YES /IsAutoUpdate:YES  /Omaha4 /InstallerData:"" /ChannelId:stable-weekly
+     dvs: Flags: 0x00000000
+     dvs: {Driver Setup Import Driver Package: C:\WINDOWS\SystemTemp\dropbox_Unpacker_BeginUnzipping12724_2023828834\app\273.4.4708\driver_amd64\dbx.inf} 17:28:32.510
+     dvs:      Driver Package:
+     dvs:           Outcome        - Already Imported
+     dvs:           Driver INF     - dbx.inf (oem164.inf)
+     dvs:           Class GUID     - {d546500a-2aeb-45f6-9482-f4b1799c3177}
+     dvs:           Driver Version - 09/14/2023,1.0.19.0
+     dvs: {Driver Setup Import Driver Package - exit (0x00000000)} 17:28:32.627
+     ump: {Plug and Play Service: Driver Install for C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx.inf}
+     pol:      {Driver package policy check} 17:28:32.991
+     pol:      {Driver package policy check - exit(0x00000000)} 17:28:32.995
+     sto:      {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx.inf}
+     inf:           Class GUID     = {d546500a-2aeb-45f6-9482-f4b1799c3177}
+     inf:           Class Options  = Configurable
+     inf:           {Configure Driver: Dropbox Service}
+     inf:                Section Name = DefaultInstall.NTamd64
+     inf:                Driver Type  = Primitive
+     sto:                Finding all published driver package versions
+     sto:                     dbx.inf_amd64_2758e227d1ac3410 [oem164.inf] - 09/14/2023,1.0.19.0 (Active)
+     sto:                Selected driver package 'dbx.inf_amd64_2758e227d1ac3410'.
+     inf:                {Add Service: DbxSvc}
+     inf:                     Start Type    = 2
+     inf:                     Service Type  = 16
+     inf:                     Error Control = 1
+     inf:                     Image Path    = %SystemRoot%\System32\DbxSvc.exe
+     inf:                     Display Name  = DbxSvc
+     inf:                     Description   = Dropbox Service
+     inf:                     Privileges    = SeLoadDriverPrivilege
+     inf:                     Updated service 'DbxSvc'.
+     inf:                {Add Service: exit(0x00000000)}
+     inf:           {Configure Driver: exit(0x00000000)}
+     flq:           {FILE_QUEUE_COMMIT} 17:28:33.201
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx-stable.sys' to 'C:\WINDOWS\System32\drivers\dbx-stable.sys'.
+     cpy:                Existing file 'C:\WINDOWS\System32\drivers\dbx-stable.sys' remains unchanged.
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx-dev.sys' to 'C:\WINDOWS\System32\drivers\dbx-dev.sys'.
+     cpy:                Existing file 'C:\WINDOWS\System32\drivers\dbx-dev.sys' remains unchanged.
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\dbx-canary.sys' to 'C:\WINDOWS\System32\drivers\dbx-canary.sys'.
+     cpy:                Existing file 'C:\WINDOWS\System32\drivers\dbx-canary.sys' remains unchanged.
+     flq:                Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\dbx.inf_amd64_2758e227d1ac3410\DbxSvc.exe' to 'C:\WINDOWS\System32\DbxSvc.exe'.
+     cpy:                Existing file 'C:\WINDOWS\System32\DbxSvc.exe' remains unchanged.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 17:28:33.262
+     inf:           Started service 'DbxSvc'.
+     sto:      {Configure Driver Package: exit(0x00000000)}
+     ump: {Plug and Play Service: Driver Install exit(00000000)}
+<<<  Section end 2026/10/02 17:28:33.426
+<<<  [Exit status: SUCCESS]
+
+
+[Boot Session: 2026/10/02 18:19:21.500]
+
+>>>  [Delete Device - SWD\PRINTENUM\{70B2DF25-46B8-4F4D-8D61-F76EA3950538}]
+>>>  Section start 2026/10/02 18:45:03.212
+      cmd: C:\WINDOWS\System32\spoolsv.exe
+!    dvi: Access denied from Query and Remove
+<<<  Section end 2026/10/02 18:45:03.258
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup Import Driver Package - c:\program files (x86)\adobe\acrobat dc\acrobat\xtras\adobepdf\adobepdf.inf]
+>>>  Section start 2026/10/02 18:47:22.706
+      cmd: C:\Windows\syswow64\MsiExec.exe -Embedding E959A946487F3918465A43CE7032A40D E Global\MSI0000
+     sto: Driver package already imported as 'oem45.inf'.
+<<<  Section end 2026/10/02 18:47:22.722
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (Hardware initiated) - SWD\WPDBUSENUM\{eea4cbe7-be96-11f1-8dca-50e08563415f}#0000000000100000]
+>>>  Section start 2026/10/12 08:48:23.722
+     ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+     utl: {Select Drivers - SWD\WPDBUSENUM\{eea4cbe7-be96-11f1-8dca-50e08563415f}#0000000000100000} 08:48:23.942
+     utl:      Driver Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - wpdfs.inf (C:\WINDOWS\System32\DriverStore\FileRepository\wpdfs.inf_amd64_c3bf01033d09bf92\wpdfs.inf)
+     utl:           Class GUID     - {eec5ad98-8080-425f-922a-dabf3de3f69a}
+     utl:           Driver Version - 06/21/2006,10.0.22621.1
+     utl:           Configuration  - wpdbusenum\fs
+     utl:           Driver Rank    - 00FF2000
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 08:48:23.942
+!    dvi: Device class {eec5ad98-8080-425f-922a-dabf3de3f69a} is not configurable.
+     dvi: Searching for compatible ID(s):
+     dvi:      wpdbusenum\fs
+     dvi:      swd\generic
+     dvi: Class GUID of device changed to: {eec5ad98-8080-425f-922a-dabf3de3f69a}.
+     dvi: Waiting for previous device install to complete. 08:48:23.973
+     ndv: {Core Device Install} 08:48:24.803
+     dvi:      {Install Device - SWD\WPDBUSENUM\{EEA4CBE7-BE96-11F1-8DCA-50E08563415F}#0000000000100000} 08:48:24.804
+     dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:           Config Flags: 0x00000000
+     dvi:           Parent Device: STORAGE\Volume\{eea4cbe7-be96-11f1-8dca-50e08563415f}#0000000000100000
+     dvi:           {DIF_ALLOW_INSTALL} 08:48:24.809
+     dvi:                Using exported function 'WpdClassInstaller' in module 'C:\WINDOWS\system32\wpd_ci.dll'.
+     dvi:                Class installer == wpd_ci.dll,WpdClassInstaller
+     dvi:                Using exported function 'CoDeviceInstall' in module 'C:\WINDOWS\system32\WUDFCoinstaller.dll'.
+     dvi:                CoInstaller 1 == WUDFCoinstaller.dll
+     dvi:                CoInstaller 1: Enter 08:48:24.826
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:24.826
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:24.853
+     dvi:                Default installer: Exit
+     dvi:           {DIF_ALLOW_INSTALL - exit(0xe000020e)} 08:48:24.853
+     dvi:           {DIF_INSTALLDEVICEFILES} 08:48:24.874
+     dvi:                CoInstaller 1: Enter 08:48:24.979
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:24.984
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:24.984
+     dvi:                Default installer: Exit
+     dvi:           {DIF_INSTALLDEVICEFILES - exit(0x00000000)} 08:48:24.995
+     dvi:           {_SCAN_FILE_QUEUE} 08:48:24.995
+     flq:                File 'C:\WINDOWS\system32\DRIVERS\UMDF\WpdFs.dll' pruned from copy.
+     dvi:           {_SCAN_FILE_QUEUE - exit(0x00000000)} 08:48:25.266
+     flq:           {FILE_QUEUE_COMMIT} 08:48:25.266
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 08:48:25.266
+     dvi:           {DIF_REGISTER_COINSTALLERS} 08:48:25.266
+     dvi:                Reset Device: Resetting device configuration. 08:48:25.266
+     dvi:                Reset Device: Resetting device configuration completed. 08:48:25.273
+     dvi:                CoInstaller 1: Enter 08:48:25.273
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:25.273
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:25.273
+     inf:                     {Install from INF Section - Basic_Install.CoInstallers} 08:48:25.279
+     inf:                          Flags         - 0x001001ee
+     inf:                     {Install from INF Section - exit(0x00000000)} 08:48:25.279
+     dvi:                     {DIF_DESTROYPRIVATEDATA} 08:48:25.279
+     dvi:                          CoInstaller 1: Enter 08:48:25.283
+     dvi:                          CoInstaller 1: Exit
+     dvi:                          Class installer: Enter 08:48:25.284
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 08:48:25.284
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 08:48:25.284
+     dvi:                Default installer: Exit
+     dvi:           {DIF_REGISTER_COINSTALLERS - exit(0x00000000)} 08:48:25.287
+     dvi:           {DIF_INSTALLINTERFACES} 08:48:25.287
+     dvi:                Using exported function 'CoDeviceInstall' in module 'C:\WINDOWS\system32\WUDFCoInstaller.dll'.
+     dvi:                CoInstaller 1 == WUDFCoInstaller.dll
+     dvi:                CoInstaller 1: Enter 08:48:25.287
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:25.287
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:25.287
+     dvi:                Default installer: Exit
+     dvi:           {DIF_INSTALLINTERFACES - exit(0x00000000)} 08:48:25.294
+     dvi:           {DIF_INSTALLDEVICE} 08:48:25.294
+     dvi:                CoInstaller 1: Enter 08:48:25.294
+     inf:                     {Install from INF Section - WpdFs_Install} 08:48:25.304
+     inf:                          Flags         - 0x00000004
+     inf:                     {Install from INF Section - exit(0x00000000)} 08:48:25.304
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:25.309
+     dvi:                     {Install DEVICE}
+     inf:                          {Install from INF Section - Basic_Install} 08:48:25.333
+     inf:                               Flags         - 0x001005ee
+     inf:                          {Install from INF Section - exit(0x00000000)} 08:48:25.333
+     inf:                          {Install from INF Section - Basic_Install.Hw} 08:48:25.333
+     inf:                               Flags         - 0x00100004
+     inf:                          {Install from INF Section - exit(0x00000000)} 08:48:25.333
+     dvi:                          {Writing Device Properties}
+     dvi:                               Strong Name=wpdfs.inf:0c0663c081fd6f5b:Basic_Install:10.0.22621.1:wpdbusenum\fs
+     dvi:                          {Writing Device Properties - Complete}
+     inf:                          AddService=WUDFWpdFs,0x000001fa,WUDFWpdFs_ServiceInstall  (wpdfs.inf line 38)
+     dvi:                          Add Service: Modified existing service 'WUDFWpdFs'.
+     inf:                          {Install from INF Section - WUDFWpdFs_ServiceInstall} 08:48:25.347
+     inf:                               Flags         - 0x00100004
+     inf:                          {Install from INF Section - exit(0x00000000)} 08:48:25.353
+     dvi:                     {Install DEVICE exit (0x00000000)}
+     dvi:                     Install Device: Configuring device class. 08:48:25.358
+     dvi:                     Install Device: Configuring device class completed. 08:48:25.373
+     dvi:                     Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:                     Install Device: Starting device 'SWD\WPDBUSENUM\{EEA4CBE7-BE96-11F1-8DCA-50E08563415F}#0000000000100000'. 08:48:25.373
+     dvi:                     Install Device: Starting device completed. 08:48:25.475
+     dvi:                Class installer: Exit
+     dvi:                CoInstaller 1: Enter (Post Processing) 08:48:25.484
+     dvi:                CoInstaller 1: Exit (Post Processing)
+     dvi:           {DIF_INSTALLDEVICE - exit(0x00000000)} 08:48:25.489
+     dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL} 08:48:25.489
+     dvi:                CoInstaller 1: Enter 08:48:25.490
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:25.490
+     dvi:                Class installer: Exit
+     dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL - exit(0x00000000)} 08:48:25.765
+     dvi:      {Install Device - exit(0x00000000)} 08:48:25.765
+     dvi: {Core Device Install - exit(0x00000000)} 08:48:25.765
+     dvi: {DIF_DESTROYPRIVATEDATA} 08:48:25.773
+     dvi:      CoInstaller 1: Enter 08:48:25.773
+     dvi:      CoInstaller 1: Exit
+     dvi:      Class installer: Enter 08:48:25.826
+     dvi:      Class installer: Exit
+     dvi:      Default installer: Enter 08:48:25.826
+     dvi:      Default installer: Exit
+     dvi: {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 08:48:25.826
+<<<  Section end 2026/10/12 08:48:26.017
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (Hardware initiated) - SWD\WPDBUSENUM\{eea4cbe7-be96-11f1-8dca-50e08563415f}#0000000500100000]
+>>>  Section start 2026/10/12 08:48:23.785
+     ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+     utl: {Select Drivers - SWD\WPDBUSENUM\{eea4cbe7-be96-11f1-8dca-50e08563415f}#0000000500100000} 08:48:23.879
+     utl:      Driver Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - wpdfs.inf (C:\WINDOWS\System32\DriverStore\FileRepository\wpdfs.inf_amd64_c3bf01033d09bf92\wpdfs.inf)
+     utl:           Class GUID     - {eec5ad98-8080-425f-922a-dabf3de3f69a}
+     utl:           Driver Version - 06/21/2006,10.0.22621.1
+     utl:           Configuration  - wpdbusenum\fs
+     utl:           Driver Rank    - 00FF2000
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 08:48:23.902
+!    dvi: Device class {eec5ad98-8080-425f-922a-dabf3de3f69a} is not configurable.
+     dvi: Searching for compatible ID(s):
+     dvi:      wpdbusenum\fs
+     dvi:      swd\generic
+     dvi: Class GUID of device changed to: {eec5ad98-8080-425f-922a-dabf3de3f69a}.
+     dvi: Waiting for previous device install to complete. 08:48:23.989
+     ndv: {Core Device Install} 08:48:25.765
+     dvi:      {Install Device - SWD\WPDBUSENUM\{EEA4CBE7-BE96-11F1-8DCA-50E08563415F}#0000000500100000} 08:48:25.773
+     dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:           Config Flags: 0x00000000
+     dvi:           Parent Device: STORAGE\Volume\{eea4cbe7-be96-11f1-8dca-50e08563415f}#0000000500100000
+     dvi:           {DIF_ALLOW_INSTALL} 08:48:25.778
+     dvi:                Using exported function 'WpdClassInstaller' in module 'C:\WINDOWS\system32\wpd_ci.dll'.
+     dvi:                Class installer == wpd_ci.dll,WpdClassInstaller
+     dvi:                Using exported function 'CoDeviceInstall' in module 'C:\WINDOWS\system32\WUDFCoinstaller.dll'.
+     dvi:                CoInstaller 1 == WUDFCoinstaller.dll
+     dvi:                CoInstaller 1: Enter 08:48:25.797
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:25.804
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:25.810
+     dvi:                Default installer: Exit
+     dvi:           {DIF_ALLOW_INSTALL - exit(0xe000020e)} 08:48:25.810
+     dvi:           {DIF_INSTALLDEVICEFILES} 08:48:25.813
+     dvi:                CoInstaller 1: Enter 08:48:25.814
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:25.814
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:25.814
+     dvi:                Default installer: Exit
+     dvi:           {DIF_INSTALLDEVICEFILES - exit(0x00000000)} 08:48:25.926
+     dvi:           {_SCAN_FILE_QUEUE} 08:48:25.964
+     flq:                File 'C:\WINDOWS\system32\DRIVERS\UMDF\WpdFs.dll' pruned from copy.
+     dvi:           {_SCAN_FILE_QUEUE - exit(0x00000000)} 08:48:26.145
+     flq:           {FILE_QUEUE_COMMIT} 08:48:26.145
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 08:48:26.145
+     dvi:           {DIF_REGISTER_COINSTALLERS} 08:48:26.145
+     dvi:                Reset Device: Resetting device configuration. 08:48:26.145
+     dvi:                Reset Device: Resetting device configuration completed. 08:48:26.145
+     dvi:                CoInstaller 1: Enter 08:48:26.145
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:26.145
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:26.145
+     inf:                     {Install from INF Section - Basic_Install.CoInstallers} 08:48:26.154
+     inf:                          Flags         - 0x001001ee
+     inf:                     {Install from INF Section - exit(0x00000000)} 08:48:26.154
+     dvi:                     {DIF_DESTROYPRIVATEDATA} 08:48:26.159
+     dvi:                          CoInstaller 1: Enter 08:48:26.159
+     dvi:                          CoInstaller 1: Exit
+     dvi:                          Class installer: Enter 08:48:26.159
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 08:48:26.161
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 08:48:26.161
+     dvi:                Default installer: Exit
+     dvi:           {DIF_REGISTER_COINSTALLERS - exit(0x00000000)} 08:48:26.163
+     dvi:           {DIF_INSTALLINTERFACES} 08:48:26.163
+     dvi:                Using exported function 'CoDeviceInstall' in module 'C:\WINDOWS\system32\WUDFCoInstaller.dll'.
+     dvi:                CoInstaller 1 == WUDFCoInstaller.dll
+     dvi:                CoInstaller 1: Enter 08:48:26.163
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:26.163
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:26.168
+     dvi:                Default installer: Exit
+     dvi:           {DIF_INSTALLINTERFACES - exit(0x00000000)} 08:48:26.168
+     dvi:           {DIF_INSTALLDEVICE} 08:48:26.173
+     dvi:                CoInstaller 1: Enter 08:48:26.173
+     inf:                     {Install from INF Section - WpdFs_Install} 08:48:26.183
+     inf:                          Flags         - 0x00000004
+     inf:                     {Install from INF Section - exit(0x00000000)} 08:48:26.183
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:26.189
+     dvi:                     {Install DEVICE}
+     inf:                          {Install from INF Section - Basic_Install} 08:48:26.213
+     inf:                               Flags         - 0x001005ee
+     inf:                          {Install from INF Section - exit(0x00000000)} 08:48:26.213
+     inf:                          {Install from INF Section - Basic_Install.Hw} 08:48:26.213
+     inf:                               Flags         - 0x00100004
+     inf:                          {Install from INF Section - exit(0x00000000)} 08:48:26.218
+     dvi:                          {Writing Device Properties}
+     dvi:                               Strong Name=wpdfs.inf:0c0663c081fd6f5b:Basic_Install:10.0.22621.1:wpdbusenum\fs
+     dvi:                          {Writing Device Properties - Complete}
+     inf:                          AddService=WUDFWpdFs,0x000001fa,WUDFWpdFs_ServiceInstall  (wpdfs.inf line 38)
+     dvi:                          Add Service: Modified existing service 'WUDFWpdFs'.
+     inf:                          {Install from INF Section - WUDFWpdFs_ServiceInstall} 08:48:26.239
+     inf:                               Flags         - 0x00100004
+     inf:                          {Install from INF Section - exit(0x00000000)} 08:48:26.241
+     dvi:                     {Install DEVICE exit (0x00000000)}
+     dvi:                     Install Device: Configuring device class. 08:48:26.249
+     dvi:                     Install Device: Configuring device class completed. 08:48:26.249
+     dvi:                     Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:                     Install Device: Starting device 'SWD\WPDBUSENUM\{EEA4CBE7-BE96-11F1-8DCA-50E08563415F}#0000000500100000'. 08:48:26.249
+     dvi:                     Install Device: Starting device completed. 08:48:26.428
+     dvi:                Class installer: Exit
+     dvi:                CoInstaller 1: Enter (Post Processing) 08:48:26.433
+     dvi:                CoInstaller 1: Exit (Post Processing)
+     dvi:           {DIF_INSTALLDEVICE - exit(0x00000000)} 08:48:26.436
+     dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL} 08:48:26.436
+     dvi:                CoInstaller 1: Enter 08:48:26.436
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:26.436
+     dvi:                Class installer: Exit
+     dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL - exit(0x00000000)} 08:48:26.763
+     dvi:      {Install Device - exit(0x00000000)} 08:48:26.763
+     dvi: {Core Device Install - exit(0x00000000)} 08:48:26.763
+     dvi: {DIF_DESTROYPRIVATEDATA} 08:48:26.769
+     dvi:      CoInstaller 1: Enter 08:48:26.770
+     dvi:      CoInstaller 1: Exit
+     dvi:      Class installer: Enter 08:48:26.770
+     dvi:      Class installer: Exit
+     dvi:      Default installer: Enter 08:48:26.774
+     dvi:      Default installer: Exit
+     dvi: {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 08:48:26.774
+<<<  Section end 2026/10/12 08:48:26.835
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (Hardware initiated) - SWD\WPDBUSENUM\{eea4cbe7-be96-11f1-8dca-50e08563415f}#0000019C74300000]
+>>>  Section start 2026/10/12 08:48:23.785
+     ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+     utl: {Select Drivers - SWD\WPDBUSENUM\{eea4cbe7-be96-11f1-8dca-50e08563415f}#0000019C74300000} 08:48:23.863
+     utl:      Driver Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - wpdfs.inf (C:\WINDOWS\System32\DriverStore\FileRepository\wpdfs.inf_amd64_c3bf01033d09bf92\wpdfs.inf)
+     utl:           Class GUID     - {eec5ad98-8080-425f-922a-dabf3de3f69a}
+     utl:           Driver Version - 06/21/2006,10.0.22621.1
+     utl:           Configuration  - wpdbusenum\fs
+     utl:           Driver Rank    - 00FF2000
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 08:48:23.879
+!    dvi: Device class {eec5ad98-8080-425f-922a-dabf3de3f69a} is not configurable.
+     dvi: Searching for compatible ID(s):
+     dvi:      wpdbusenum\fs
+     dvi:      swd\generic
+     dvi: Class GUID of device changed to: {eec5ad98-8080-425f-922a-dabf3de3f69a}.
+     ndv: {Core Device Install} 08:48:23.957
+     dvi:      {Install Device - SWD\WPDBUSENUM\{EEA4CBE7-BE96-11F1-8DCA-50E08563415F}#0000019C74300000} 08:48:23.957
+     dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:           Config Flags: 0x00000000
+     dvi:           Parent Device: STORAGE\Volume\{eea4cbe7-be96-11f1-8dca-50e08563415f}#0000019C74300000
+     dvi:           {DIF_ALLOW_INSTALL} 08:48:23.973
+     dvi:                Using exported function 'WpdClassInstaller' in module 'C:\WINDOWS\system32\wpd_ci.dll'.
+     dvi:                Class installer == wpd_ci.dll,WpdClassInstaller
+     dvi:                Using exported function 'CoDeviceInstall' in module 'C:\WINDOWS\system32\WUDFCoinstaller.dll'.
+     dvi:                CoInstaller 1 == WUDFCoinstaller.dll
+     dvi:                CoInstaller 1: Enter 08:48:24.005
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:24.020
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:24.025
+     dvi:                Default installer: Exit
+     dvi:           {DIF_ALLOW_INSTALL - exit(0xe000020e)} 08:48:24.025
+     dvi:           {DIF_INSTALLDEVICEFILES} 08:48:24.025
+     dvi:                CoInstaller 1: Enter 08:48:24.025
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:24.030
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:24.030
+     dvi:                Default installer: Exit
+     dvi:           {DIF_INSTALLDEVICEFILES - exit(0x00000000)} 08:48:24.046
+     dvi:           {_SCAN_FILE_QUEUE} 08:48:24.046
+     flq:                File 'C:\WINDOWS\system32\DRIVERS\UMDF\WpdFs.dll' pruned from copy.
+     dvi:           {_SCAN_FILE_QUEUE - exit(0x00000000)} 08:48:24.160
+     flq:           {FILE_QUEUE_COMMIT} 08:48:24.162
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 08:48:24.164
+     dvi:           {DIF_REGISTER_COINSTALLERS} 08:48:24.164
+     dvi:                Reset Device: Resetting device configuration. 08:48:24.164
+     dvi:                Reset Device: Resetting device configuration completed. 08:48:24.169
+     dvi:                CoInstaller 1: Enter 08:48:24.170
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:24.170
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:24.173
+     inf:                     {Install from INF Section - Basic_Install.CoInstallers} 08:48:24.176
+     inf:                          Flags         - 0x001001ee
+     inf:                     {Install from INF Section - exit(0x00000000)} 08:48:24.178
+     dvi:                     {DIF_DESTROYPRIVATEDATA} 08:48:24.179
+     dvi:                          CoInstaller 1: Enter 08:48:24.179
+     dvi:                          CoInstaller 1: Exit
+     dvi:                          Class installer: Enter 08:48:24.181
+     dvi:                          Class installer: Exit
+     dvi:                          Default installer: Enter 08:48:24.181
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 08:48:24.181
+     dvi:                Default installer: Exit
+     dvi:           {DIF_REGISTER_COINSTALLERS - exit(0x00000000)} 08:48:24.184
+     dvi:           {DIF_INSTALLINTERFACES} 08:48:24.184
+     dvi:                Using exported function 'CoDeviceInstall' in module 'C:\WINDOWS\system32\WUDFCoInstaller.dll'.
+     dvi:                CoInstaller 1 == WUDFCoInstaller.dll
+     dvi:                CoInstaller 1: Enter 08:48:24.184
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:24.184
+     dvi:                Class installer: Exit
+     dvi:                Default installer: Enter 08:48:24.184
+     dvi:                Default installer: Exit
+     dvi:           {DIF_INSTALLINTERFACES - exit(0x00000000)} 08:48:24.191
+     dvi:           {DIF_INSTALLDEVICE} 08:48:24.191
+     dvi:                CoInstaller 1: Enter 08:48:24.191
+     inf:                     {Install from INF Section - WpdFs_Install} 08:48:24.204
+     inf:                          Flags         - 0x00000004
+     inf:                     {Install from INF Section - exit(0x00000000)} 08:48:24.204
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:24.210
+     dvi:                     {Install DEVICE}
+     inf:                          {Install from INF Section - Basic_Install} 08:48:24.220
+     inf:                               Flags         - 0x001005ee
+     inf:                          {Install from INF Section - exit(0x00000000)} 08:48:24.220
+     inf:                          {Install from INF Section - Basic_Install.Hw} 08:48:24.220
+     inf:                               Flags         - 0x00100004
+     inf:                          {Install from INF Section - exit(0x00000000)} 08:48:24.220
+     dvi:                          {Writing Device Properties}
+     dvi:                               Strong Name=wpdfs.inf:0c0663c081fd6f5b:Basic_Install:10.0.22621.1:wpdbusenum\fs
+     dvi:                          {Writing Device Properties - Complete}
+     inf:                          AddService=WUDFWpdFs,0x000001fa,WUDFWpdFs_ServiceInstall  (wpdfs.inf line 38)
+     dvi:                          Add Service: Modified existing service 'WUDFWpdFs'.
+     inf:                          {Install from INF Section - WUDFWpdFs_ServiceInstall} 08:48:24.239
+     inf:                               Flags         - 0x00100004
+     inf:                          {Install from INF Section - exit(0x00000000)} 08:48:24.242
+     dvi:                     {Install DEVICE exit (0x00000000)}
+     dvi:                     Install Device: Configuring device class. 08:48:24.249
+     dvi:                     Install Device: Configuring device class completed. 08:48:24.249
+     dvi:                     Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:                     Install Device: Starting device 'SWD\WPDBUSENUM\{EEA4CBE7-BE96-11F1-8DCA-50E08563415F}#0000019C74300000'. 08:48:24.254
+     dvi:                     Install Device: Starting device completed. 08:48:24.504
+     dvi:                Class installer: Exit
+     dvi:                CoInstaller 1: Enter (Post Processing) 08:48:24.509
+     dvi:                CoInstaller 1: Exit (Post Processing)
+     dvi:           {DIF_INSTALLDEVICE - exit(0x00000000)} 08:48:24.515
+     dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL} 08:48:24.516
+     dvi:                CoInstaller 1: Enter 08:48:24.516
+     dvi:                CoInstaller 1: Exit
+     dvi:                Class installer: Enter 08:48:24.516
+     dvi:                Class installer: Exit
+     dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL - exit(0x00000000)} 08:48:24.794
+     dvi:      {Install Device - exit(0x00000000)} 08:48:24.799
+     dvi: {Core Device Install - exit(0x00000000)} 08:48:24.799
+     dvi: {DIF_DESTROYPRIVATEDATA} 08:48:24.803
+     dvi:      CoInstaller 1: Enter 08:48:24.804
+     dvi:      CoInstaller 1: Exit
+     dvi:      Class installer: Enter 08:48:24.884
+     dvi:      Class installer: Exit
+     dvi:      Default installer: Enter 08:48:24.889
+     dvi:      Default installer: Exit
+     dvi: {DIF_DESTROYPRIVATEDATA - exit(0xe000020e)} 08:48:24.889
+<<<  Section end 2026/10/12 08:48:25.064
+<<<  [Exit status: SUCCESS]
+

@@ -1,0 +1,41 @@
+{
+  "task_files": 264,
+  "task_xml_errors": 0,
+  "wake_capable": 8,
+  "wake_capable_explicitly_disabled": 6,
+  "selected_registry_keys": 2265,
+  "taskcache_task_keys": 260,
+  "exact_target_filetime": 133735242671331631,
+  "exact_target_le_hex": "2f1960a17e1fdb01",
+  "exact_target_in_selected_registry_values": [],
+  "logcounts": [
+    {
+      "source": "Microsoft-Windows-BackgroundTaskInfrastructure%4Operational.evtx",
+      "parsed": 425,
+      "xml_rejected": 0,
+      "first": "2023-09-29T08:43:18.292049900Z",
+      "last": "2026-10-12T06:48:53.986494300Z"
+    },
+    {
+      "source": "Microsoft-Windows-TaskScheduler%4Maintenance.evtx",
+      "parsed": 805,
+      "xml_rejected": 0,
+      "first": "2023-09-28T17:04:34.507144600Z",
+      "last": "2026-10-02T19:08:47.750377400Z"
+    },
+    {
+      "source": "Microsoft-Windows-WindowsUpdateClient%4Operational.evtx",
+      "parsed": 1999,
+      "xml_rejected": 0,
+      "first": "2024-01-11T17:39:47.235018900Z",
+      "last": "2026-10-02T19:24:53.986028600Z"
+    },
+    {
+      "source": "System.evtx",
+      "parsed": 36445,
+      "xml_rejected": 0,
+      "first": "2023-11-29T15:06:59.840439000Z",
+      "last": "2026-10-12T06:50:46.084950900Z"
+    }
+  ]
+}

@@ -1,0 +1,1189 @@
+OR_DISK_SPACE_HEADER=Você não tem espaço suficiente em disco
+DL_EXPORT_ERROR_DISK_SPACE_BODY=Libere espaço no seu disco rígido e tente exportar novamente.
+DL_EXPORT_ERROR_ACCESS_HEADER=Não é possível exportar para este local
+DL_EXPORT_ERROR_ACCESS_BODY=Altere as permissões ou selecione um novo destino. Em seguida, tente novamente.
+DL_EXPORT_ERROR_INVALID_DATA_HEADER=Ocorreu algum erro
+DL_EXPORT_ERROR_INVALID_DATA_BODY=Tente novamente mais tarde.
+DL_IMPORT=Importar
+DL_IMPORT_BROWSE_DEFAULT=Selecionar biblioteca
+DL_IMPORT_CANCELING=Cancelando importação...
+DL_IMPORT_CANCEL_COMPLETE=A importação da biblioteca foi cancelada
+DL_IMPORT_DESCRIPTION=Importe um arquivo .cclibs ou .cclibc para sua conta na Creative Cloud.
+DL_IMPORT_ERROR_DISK_SPACE_HEADER=Você não tem espaço suficiente em disco
+DL_IMPORT_ERROR_DISK_SPACE_BODY=Libere espaço no seu disco rígido e tente importar novamente.
+DL_IMPORT_ERROR_ACCESS_HEADER=Não é possível acessar este local
+DL_IMPORT_ERROR_ACCESS_BODY=Altere as permissões ou selecione um novo destino. Em seguida, tente novamente.
+DL_IMPORT_ERROR_INVALID_DATA_HEADER=Ocorreu algum erro
+DL_IMPORT_ERROR_INVALID_DATA_BODY=A biblioteca que você está tentando importar não funcionou. O arquivo pode estar corrompido.
+DL_IMPORT_IMPORTING=Importando biblioteca...
+DL_IMPORT_IMPORTING_PLURAL=Importando bibliotecas ({{completed}}/{{total}})...
+DL_IMPORT_LIBRARY=Importar biblioteca
+DL_IMPORT_LIBRARY_SUCCESS=Importamos sua biblioteca.
+DL_IMPORT_LIBRARY_SUCCESS_TITLE=Biblioteca importada
+DL_IMPORT_EXPORT_LOCATION=Localização:
+DL_IMPORT_EXPORT_CONTACT_SUPPORT=Entre em contato com o suporte
+DL_IMPORT_EXPORT_ERROR_CATCH_ALL_HEADER=Ocorreu algum erro
+DL_IMPORT_EXPORT_ERROR_CATCH_ALL_BODY=Tente novamente mais tarde.
+DL_IMPORT_CANCEL_HEADER=Importação cancelada
+DL_IMPORT_CANCEL_BODY=As seguintes bibliotecas não foram importadas:
+
+DL_EDIT_NAME_PLACEHOLDER=Nome do item
+DL_EDIT_GROUP_NAME_PLACEHOLDER=Nome do grupo
+DL_EDIT_GROUP_NAME_PLACEHOLDER_ACCC=Nomear grupo
+DL_DESCRIPTION_PLACEHOLDER=Adicionar uma descrição...
+
+DL_SHOW_MORE_ITEMS=Mostrar {{count}} restante(s)
+DL_LOADING=Carregando...
+DL_LOADING_LIBRARY=Carregando biblioteca...
+DL_SHOW_MORE_ITEMS_TOOLTIP=Mostrar mais itens na categoria
+DL_ITEM_LIBRARY_TOOLTIP=Biblioteca: {{libraryName}}
+
+DL_FOOTER_DELETE_TOOLTIP=Excluir
+DL_FOOTER_READ_ONLY_TOOLTIP=Somente leitura
+DL_FOOTER_DOCUMENT_LIBRARY_TOOLTIP=Mostrar opções de edição
+
+DL_INSERT_TOOLTIP=Adicionar elementos
+DL_INSERT_TOOLTIP_LIMIT=Sua biblioteca está cheia. Remova itens antes de adicionar mais.
+DL_INSERT_ADD=Adicionar
+DL_INSERT_CANCEL=Cancelar
+DL_ADD_COLOR_NAME=Cor
+DL_ADD_IMAGE_NAME=Gráfico
+DL_ADD_TEXT_STYLE_NAME=estilo de caractere
+DL_ADD_PARA_STYLE_NAME=estilo de parágrafo
+DL_ADD_LAYER_STYLE=Estilo de camada
+DL_ADD_TEXT_NAME=Texto
+DL_ADD_MODEL_NAME=Modelo
+DL_ADD_ALL=Adicionar tudo
+DL_ADD_ELEMENTS_TO_GROUP=Adicionar itens ao grupo
+
+DL_DEGREE={{degree}}°
+DL_COLOR=Cor:
+DL_BRUSH=Pincel:
+DL_LAYER_STYLE=Estilo de camada:
+DL_TYPE=Tipo:
+DL_CREATED_IN=Criado em:
+DL_OPACITY=Opacidade:
+DL_SPOT_COLOR=Cor especial:
+DL_INFO_CREATED=Criado
+DL_INFO_MODIFIED=Modificado
+DL_INFO_CREATED_DATE=Data de criação
+DL_INFO_DURATION=Duração
+DL_INFO_DIMENSIONS=Dimensões
+DL_INFO_FRAMERATE=Taxa de quadros
+DL_INFO_TYPE=Tipo
+DL_INFO_COLOR_VALUE=Valor da cor
+DL_INFO_COLOR_PROFILE=Perfil
+DL_INFO_COLOR_TYPE=Tipo de cor
+DL_INFO_SPOT_COLOR_TYPE=Spot
+DL_INFO_PROCESS_COLOR_TYPE=Processo
+DL_INFO_GRADIENT_TYPE=Estilo
+DL_INFO_GRADIENT_ANGLE=Ângulo
+DL_INFO_GRADIENT_ASPECT_RATIO=Proporções
+DL_INFO_GRADIENT_CENTER_POINT=Ponto central
+DL_INFO_GRADIENT_OFFSET=Localização
+DL_INFO_GRADIENT_MIDPOINT=Ponto Médio
+DL_INFO_GRADIENT_STOPS=Interrupções
+DL_INFO_GRADIENT_STOP_NUMBER=Parada {{number}}
+DL_INFO_GRADIENT_STOP=Parar
+DL_INFO_COLOR_STOP=Cor
+DL_INFO_OPACITY=Opacidade
+DL_INFO_REGISTRATION_COLOR_TYPE=Registro
+DL_INFO_LIBRARY=Biblioteca
+DL_INFO_SOURCE=Origem
+DL_INFO_SHARING=Compartilhamento
+DL_INFO_SIZE=Tamanho
+DL_INFO_PRIVATE=Particular
+DL_INFO_ONLY_YOU=Pessoal
+DL_INFO_SHARED=Compartilhado
+DL_INFO_SHARED_WITH_YOU=Compartilhado com você
+DL_INFO_COLLABORATORS={{number}} membros
+DL_INFO_COLLABORATOR=1 membro
+DL_INFO_MORE_COLLABORATORS=+ {{number}} outros
+DL_INFO_OWNER={{name}} (Proprietário)
+DL_INFO_PUBLIC=Público
+DL_INFO_TEAM=Pasta
+DL_INFO_WIDTH=Largura
+DL_INFO_HEIGHT=Altura
+DL_INFO_FONT_SIZE=Tamanho
+DL_INFO_FONT_STYLE=Estilo
+DL_INFO_FONT_FAMILY=Família
+DL_INFO_FONT_COLOR=Cor da fonte
+DL_INFO_ALIGNMENT=Alinhamento
+DL_INFO_TEXT_DECORATION=Decoração
+DL_INFO_LEFT_INDENT=Recuo à esquerda
+DL_INFO_RIGHT_INDENT=Recuo à direita
+DL_INFO_SPACE_BEFORE=Espaço acima
+DL_INFO_SPACE_AFTER=Espaço abaixo
+DL_INFO_FIRST_LINE_INDENT=Recuo da primeira linha
+DL_INFO_UNDERLINE=Sublinhado
+DL_INFO_LINETHROUGH=Tachado
+DL_INFO_REGULAR=Normal
+DL_INFO_STOCK_ID=ID do Stock
+DL_INFO_STOCK_AUTHOR=Autor
+DL_INFO_STOCK_LICENSE=Licença
+DL_INFO_STOCK_LICENSE_UNLICENSED=Não licenciada
+DL_INFO_STOCK_LICENSE_STANDARD=Padrão
+DL_INFO_STOCK_LICENSE_EXTENDED=Estendido
+DL_INFO_STOCK_LICENSE_ENHANCED=Aprimorado
+DL_INFO_STOCK_LICENSE_INTERNAL_USE=Uso interno
+DL_INFO_STOCK_LICENSE_DIGITAL_USE=Uso digital
+DL_INFO_STOCK_LICENSE_SOCIAL_MEDIA=Redes sociais
+DL_INFO_STOCK_LICENSE_NA=Desconhecido
+DL_INFO_BUY_STOCK_LICENSE=Comprar
+DL_INFO_STOCK_RESTRICTION=Restrições
+DL_INFO_STOCK_RESTRICTION_EDITORIAL=Apenas uso editorial
+DL_INFO_ACTIVATE_FONT=Adicionar fonte
+DL_INFO_DEACTIVATE_FONT=Remover fonte
+DL_INFO_SUBSCRIBE_FONT=Disponível com a Creative Cloud
+DL_INFO_UNAVAILABLE_FONT=Não disponível
+DL_INFO_STATUS=Status
+DL_INFO_INPUT_PAGINATION_COUNT=de {{totalPages}}
+DL_INFO_PAGINATION_COUNT={{currentPage}} de {{totalPages}}
+DL_INFO_ELEMENT_COUNT_PLURAL={{numElements}} itens
+DL_INFO_ELEMENT_COUNT_SINGULAR=1 item
+DL_INFO_CHANGE_BY=por {{name}}
+DL_INFO_TILEABLE=Mosaico
+DL_INFO_PROCEDURAL=Procedimento
+DL_INFO_YES=Sim
+DL_INFO_NO=Não
+
+DL_APP_PHOTOSHOP=Adobe Photoshop
+DL_APP_ILLUSTRATOR=Adobe Illustrator
+DL_APP_INDESIGN=Adobe InDesign
+DL_APP_MUSE=Adobe Muse
+DL_APP_SHAPE=Adobe Shape
+DL_APP_ANIMATE=Adobe Animate
+DL_APP_AE=Adobe After Effects
+DL_APP_PPRO=Adobe Premiere Pro
+DL_APP_XD=Adobe XD
+
+DL_TYPE_BRUSH=Pincéis
+DL_TYPE_COLOR=Cores
+DL_TYPE_COLOR_THEME=Temas de cores
+DL_TYPE_TEXT_STYLE=Estilos de caracteres
+DL_TYPE_PARA_STYLE=Estilos de parágrafo
+DL_TYPE_FONT=Fontes
+DL_TYPE_IMAGE=Gráficos
+DL_TYPE_LAYER_STYLE=Estilos de camada
+DL_TYPE_LOOK=Visuais
+DL_TYPE_CAPSULE=Modelos de Motion Graphics
+DL_TYPE_VIDEO=Vídeos
+DL_TYPE_3D=Modelos
+DL_TYPE_LIGHT=Luzes
+DL_TYPE_MATERIAL=Materiais
+DL_TYPE_UNKNOWN=Não suportado
+DL_TYPE_PATTERN=Padrões
+DL_TYPE_TEMPLATE=Modelos
+DL_TYPE_TEXT=Texto
+DL_TYPE_ANIMATION=Animações
+DL_TYPE_GRADIENT=Degradês
+DL_TYPE_COMPONENT=Componentes
+DL_TYPE_AUDIO=Áudio
+
+DL_TYPE_BRUSH_SINGULAR=Pincel
+DL_TYPE_COLOR_SINGULAR=Cor
+DL_TYPE_COLOR_THEME_SINGULAR=Tema de cores
+DL_TYPE_TEXT_STYLE_SINGULAR=estilo de caractere
+DL_TYPE_PARA_STYLE_SINGULAR=estilo de parágrafo
+DL_TYPE_FONT_SINGULAR=Fonte
+DL_TYPE_IMAGE_SINGULAR=Gráfico
+DL_TYPE_LAYER_STYLE_SINGULAR=Estilo de camada
+DL_TYPE_LOOK_SINGULAR=Aparência
+DL_TYPE_CAPSULE_SINGULAR=Modelo de Motion Graphics
+DL_TYPE_VIDEO_SINGULAR=Vídeo
+DL_TYPE_3D_SINGULAR=Modelo
+DL_TYPE_LIGHT_SINGULAR=Luz
+DL_TYPE_MATERIAL_SINGULAR=Material
+DL_TYPE_PATTERN_SINGULAR=Padrão
+DL_TYPE_TEMPLATE_SINGULAR=Modelo
+DL_TYPE_TEXT_SINGULAR=Texto
+DL_TYPE_ANIMATION_SINGULAR=Animação
+DL_TYPE_GRADIENT_SINGULAR=Degradê
+DL_TYPE_COMPONENT_SINGULAR=Componente
+DL_TYPE_AUDIO_SINGULAR=Áudio
+
+DL_REPRESENTATION_TYPE_BRUSH=Pincel
+DL_REPRESENTATION_TYPE_COLOR=Cor
+DL_REPRESENTATION_TYPE_TEXT_STYLE=estilo de caractere
+DL_REPRESENTATION_TYPE_PARA_STYLE=estilo de parágrafo
+DL_REPRESENTATION_TYPE_FONT=Fonte
+DL_REPRESENTATION_TYPE_LAYER_STYLE=Estilo de camada
+DL_REPRESENTATION_TYPE_CUBE_LUT=Cube LUT
+DL_REPRESENTATION_TYPE_LOOK=Aparência
+DL_REPRESENTATION_TYPE_CAPSULE=Cápsula
+DL_REPRESENTATION_TYPE_MODEL=Modelo
+DL_REPRESENTATION_TYPE_LIGHT=Luz
+DL_REPRESENTATION_TYPE_MATERIAL=Material
+DL_REPRESENTATION_TYPE_TEMPLATE=Modelo
+DL_REPRESENTATION_TYPE_TEXT=Texto
+DL_REPRESENTATION_TYPE_ANIMATION=Animate
+DL_REPRESENTATION_TYPE_PHOTOSHOP=Photoshop
+DL_REPRESENTATION_TYPE_PHOTOSHOP_3D=Photoshop 3D
+DL_REPRESENTATION_TYPE_ILLUSTRATOR=Illustrator
+DL_REPRESENTATION_TYPE_INDESIGN=InDesign
+DL_REPRESENTATION_TYPE_XD=XD
+DL_REPRESENTATION_TYPE_XD_COMPONENT=Componente XD
+DL_REPRESENTATION_TYPE_MUSE=Muse
+DL_REPRESENTATION_TYPE_SHAPE=Forma
+DL_REPRESENTATION_TYPE_CHART=Gráfico
+DL_REPRESENTATION_TYPE_BITMAP_PATTERN=Padrão de bitmap
+DL_REPRESENTATION_TYPE_VECTOR_PATTERN=Padrão de vetor
+DL_REPRESENTATION_TYPE_GRADIENT=Degradê
+DL_REPRESENTATION_TYPE_VIDEO=Vídeo
+DL_REPRESENTATION_TYPE_COMPONENT=Componente
+DL_REPRESENTATION_TYPE_AUDIO=Áudio
+
+DL_AUTOGROUP_COLORS=Cores
+DL_AUTOGROUP_TYPOGRAPHY=Tipografia
+DL_AUTOGROUP_STYLES=Estilos
+DL_AUTOGROUP_BRUSHES=Pincéis
+DL_AUTOGROUP_VECTORS=Gráficos de vetor
+DL_AUTOGROUP_IMAGES=Imagens
+DL_AUTOGROUP_MOTION=Movimento
+DL_AUTOGROUP_3D=3D
+DL_AUTOGROUP_TEMPLATES=Modelos
+DL_AUTOGROUP_UNKNOWN=Não suportado
+
+DL_TEXT_STYLE_DEFAULT_TEXT=Aa
+
+DL_MENU_CREATE_LIB=Criar nova biblioteca
+
+DL_SET_TEXT_STYLE_TOOLTIP=Aplicar estilo de caractere
+DL_SET_PARA_STYLE_TOOLTIP=Aplicar estilo de parágrafo
+DL_SET_FONT_TOOLTIP=Aplicar fonte
+DL_CREATE_TEXT_LAYER_TOOLTIP=Usar no documento
+DL_ADD_AS_TEXT_STYLE_TOOLTIP=Adicionar a Estilos de caractere
+DL_ADD_AS_PARA_STYLE_TOOLTIP=Adicionar a estilos de parágrafo
+DL_SET_STROKE_COLOR_TOOLTIP=Aplicar cor de traçado
+DL_SET_BORDER_COLOR_TOOLTIP=Aplicar cor da borda
+DL_SET_FILL_COLOR_TOOLTIP=Aplicar cor de preenchimento
+DL_SET_FILL_GRADIENT_TOOLTIP=Aplicar degradês
+DL_SET_COLOR_OVERLAY_TOOLTIP=Aplicar sobreposição de cor
+DL_SET_COLOR_TOOLTIP=Definir cor
+DL_COPY_RGB_COLOR_TOOLTIP=Copiar RGB
+DL_COPY_HEX_COLOR_TOOLTIP=Copiar hex
+DL_COPY_COLOR_TO_CLIPBOARD=Copiar {{hex}}
+DL_ID_ADD_COLORS_TOOLTIP=Adicionar cor a amostras
+DL_ID_ADD_COLORTHEME_TOOLTIP=Adicionar tema a amostras
+DL_MU_ADD_COLORS_TOOLTIP=Adicionar para amostras
+DL_ADD_TEXT_LINKED_ID=Inserir vinculado
+DL_ADD_TEXT_UNLINKED_ID_WIN=Inserir cópia (Alt + arrastar)
+DL_ADD_TEXT_UNLINKED_ID_MAC=Inserir cópia (⌥ arrastar)
+DL_ADD_TEXT_UNLINKED_NOSTYLES_ID=Inserir sem estilos (⇧ arrastar)
+DL_ADD_TEXT_INLINE_ID=Inserir em linha
+DL_ADD_TEXT_UNLINKED_AI=Inserir cópia
+DL_ADD_TEXT_UNLINKED_NOSTYLES_AI_WIN=Inserir sem estilos (Shift + arrastar)
+DL_ADD_TEXT_UNLINKED_NOSTYLES_AI_MAC=Inserir sem estilos (⇧ arrastar)
+DL_ADD_TEXT_UNLINKED_NOSTYLES=Colocar sem estilos
+DL_ADD_TEXT_INLINE_AI=Inserir em linha
+DL_TEXT_EMPTY_CONTENT_TOOLTIP=Sem texto
+DL_ADD_TEXT_ERROR_MAX_CHARACTER_LENGTH=Desculpe, o texto que você está tentando adicionar é muito longo. Tente selecionar menos caracteres.
+
+DL_SEARCH_DROPDOWN_TITLE=Pesquisar em
+DL_SEARCH_LIBRARY=Biblioteca atual
+DL_SEARCH_LIBRARIES=Todas as bibliotecas
+DL_SEARCH_DOCUMENT=Ativos do documento
+DL_SEARCH_STOCK=Adobe Stock
+DL_SEARCH_INPUT_LIBRARY_PLACEHOLDER=Pesquisar biblioteca atual
+DL_SEARCH_INPUT_DOCUMENT_PLACEHOLDER=Pesquisar ativos de documentos
+DL_SEARCH_INPUT_LIBRARIES_PLACEHOLDER=Pesquisar todas as bibliotecas
+DL_SEARCH_INPUT_STOCK_PLACEHOLDER=Pesquisar Adobe Stock
+DL_SEARCH_INPUT_PLACEHOLDER=Pesquisar nas bibliotecas e no Adobe Stock
+DL_SEARCH_RESULT_DOCUMENT=1 resultado do documento
+DL_SEARCH_RESULTS_DOCUMENT={{count}} resultados do documento
+DL_SEARCH_RESULTS_LIBRARY={{count}} resultados de {{name}}
+DL_SEARCH_RESULT_LIBRARY=1  resultado de {{name}}
+DL_SEARCH_RESULTS_LIBRARIES={{count}} resultados de todas as bibliotecas
+DL_SEARCH_RESULT_LIBRARIES=1 resultado de todas as bibliotecas
+DL_SEARCH_RESULTS_FILTERED_LIBRARIES={{count}} resultados
+DL_SEARCH_RESULT_FILTERED_LIBRARIES=1 resultado
+DL_SEARCH_RESULTS_STOCK=0 resultados do Adobe Stock
+DL_SEARCH_SIMILAR_RESULTS_STOCK=Resultados semelhantes do Stock
+DL_SEARCH_FILTERS=Filtros ({{num}})
+DL_SEARCH_FILTERS_NONE_SELECTED=Filtros
+DL_SEARCH_RESULTS={{count}} resultados
+DL_SEARCH_HEADER=Pesquisar
+DL_SEARCH_SCOPE_SUGGESTION_TITLE=Não encontrou o que você está procurando?
+DL_SEARCH_SCOPE_SUGGESTION_ALL_LIBRARIES=Pesquisar todas as bibliotecas
+DL_SEARCH_SCOPE_SUGGESTION_STOCK=Pesquisar Adobe Stock
+DL_SEARCH_LIBRARIES_NO_RESULTS_TITLE=Nenhum resultado foi encontrado
+DL_SEARCH_LIBRARIES_NO_RESULTS_BODY=Tente ajustar suas opções de pesquisa para encontrar o que está procurando.
+DL_SEARCH_CANCEL_TOOLTIP=Sair da pesquisa
+DL_SEARCH_SELECT_SCOPE_TOOLTIP=Pesquisar em
+DL_SEARCH_FILTERS_TOOLTIP=Filtro
+
+EMPTY_DOC_ASSETS_MESSAGE=Adicione seus estilos e componentes ou use elementos de bibliotecas existentes.
+EMPTY_DOC_ASSETS_CTA=Exibir bibliotecas
+EMPTY_ROOT_VIEW_MESSAGE_XD=Inicie seus projetos com kits de interface e bibliotecas de design prontas para uso.
+EMPTY_ROOT_VIEW_CTA_XD=Obter kits de interface
+EMPTY_ROOT_VIEW_MESSAGE=Inspire e acelere seu trabalho com bibliotecas prontas.
+EMPTY_ROOT_VIEW_CTA=Explorar bibliotecas
+ROOT_VIEW_MESSAGE_LM=As bibliotecas ajudam você a projetar rapidamente e permanecer conectado à sua equipe.
+ROOT_VIEW_CTA_LM=Gerenciar bibliotecas
+
+DL_SEARCH_RESULT=1 resultado
+DL_STOCK_PANEL_SEARCHING_MESSAGE=Pesquisando Adobe Stock...
+DL_STOCK_PANEL_RESULT_COUNT={{count}} resultados encontrados.
+DL_STOCK_PANEL_RESULT_TIPS_HEADER=Dicas para melhores resultados:
+DL_STOCK_PANEL_RESULT_TIPS=Verifique a ortografia de sua pesquisa quanto a erros de digitação. Tente pesquisar com menos termos.
+DL_STOCK_PANEL_SEARCH_ERROR=Ocorreu um erro ao pesquisar na Adobe Stock. Tente novamente.
+DL_STOCK_PANEL_NO_CONNECTION_MESSAGE=Você está offline no momento.<br/>Conecte-se para poder acessar o Adobe Stock.
+DL_STOCK_PANEL_SEARCH_ON_WEB=Ver mais resultados na web
+
+DL_LISTVIEW_TOOLTIP=Exibição em lista
+DL_LISTVIEW_SHORT=Listar
+DL_GRIDVIEW_TOOLTIP=Exibição de grade
+DL_GRIDVIEW_SHORT=Grade
+DL_SORT_ITEMS_BY_NAME_TOOLTIP=Classificar por ordem alfabética
+DL_SORT_ITEMS_BY_MOD_DATE_TOOLTIP=Classificar por última modificação
+DL_SORT_NAME=Nome
+DL_SORT_DATE=Data
+DL_SORT_TOOLTIP=Opções de classificação
+DL_SORT_REVERSE_ORDER=Ordem inversa
+
+DL_DELETE_TOAST=Biblioteca excluída
+DL_UNFOLLOW_TOAST=Biblioteca removida
+DL_UNPUBLISH_TOAST=Biblioteca não publicada
+DL_GROUPS_MERGED_TOAST=Os grupos no mesmo nível com o mesmo nome foram mesclados.
+
+DL_COLLAPSE_ALL=Recolher todos os grupos
+DL_SHOW_NAMES_ALWAYS=Sempre mostrar nomes
+DL_SHOW_TRANSPARENCY_GRID=Mostrar grade de transparência
+
+DL_VIEW_BY_TITLE=Visualizado por
+DL_VIEW_BY_TYPE=Exibir por tipo
+DL_VIEW_BY_GROUP=Exibir por grupo
+DL_VIEW_BY_TOOLTIP=Opções de visualização
+DL_VIEW_BY_GROUP_SHORT=Personalizar grupo
+DL_VIEW_BY_TYPE_SHORT=Tipo
+DL_VIEW_BY_GROUP_TREE=Árvore
+DL_VIEW_BY_GROUP_PATH=Caminho
+DL_CLEAR_FILTERS=Limpar filtros
+DL_VIEW_BY_GROUP_POPOVER_TITLE=Alternar para grupos personalizados
+DL_VIEW_BY_GROUP_POPOVER_BODY=Altere a visualização para "Grupos personalizados" para organizar os elementos.
+DL_VIEW_BY_GROUP_POPOVER_BODY_LINK=Altere a exibição para "Grupos personalizados" para organizar os elementos. <a>Saiba mais</a>
+DL_EDIT_NAME_INVALID_SLASH=Não é possível usar barras em nomes de elementos, pois elas são usadas para organizar grupos
+
+DL_MIGRATE_LIBRARY_POPOVER_TITLE=Converter '/' em grupos
+DL_MIGRATE_LIBRARY_POPOVER_BODY=Esta biblioteca contém um grupo ou elemento com um caractere '/' no nome. O caractere '/' agora é um caractere reservado para criar/especificar grupos aninhados. Você pode substituir o ( / ) por um traço ( - ) ou converter o nome em subgrupos separados na barra ( / ). <a href=" learnmore">Saiba mais</a>
+DL_MIGRATE_LIBRARY_POPOVER_CONVERT_TO_GROUPS=Converter em grupos
+DL_MIGRATE_LIBRARY_POPOVER_REPLACE_SLASHES=Substituir caracteres '/'
+DL_MIGRATE_LIBRARY_POPOVER_SUCCESS_TOAST_GROUP=Nova estrutura de grupo criada. Use '/' para criar subgrupos rapidamente. <a href="#learnMore">Saiba mais</a>
+DL_MIGRATE_LIBRARY_POPOVER_SUCCESS_TOAST_REPLACE=Todas as barras (/) foram substituídas por traços (-). Use '/' para criar subgrupos rapidamente. <a href="#learnMore">Saiba mais</a>
+DL_MIGRATE_LIBRARY_POPOVER_ERROR_TOAST=Não foi possível converter grupos nesta biblioteca
+
+DL_CREATE_GROUP_TOOLTIP=Criar novo grupo
+DL_NEW_GROUP_NAME=Novo grupo
+DL_GROUP_ONBOARDING_POPOVER_TITLE=Mais formas de visualizar e criar grupos
+DL_GROUP_ONBOARDING_POPOVER_BODY=Exibe grupos como uma árvore ou como um caminho. Ao nomear grupos, use o caractere '/' para criar subgrupos rapidamente
+
+DL_MY_TOOLKIT_UNLOCK_BUTTON_MESSAGE=Desbloqueie para fazer alterações
+DL_MY_TOOLKIT_UNLOCK_POPOVER_UNLOCK_BUTTON=\   Continuar
+DL_MY_TOOLKIT_UNLOCK_TOAST_BUTTON=Desbloqueie para editar
+
+DL_GENERIC_TOOLKIT_UNLOCK_POPOVER_TITLE=Edite {{toolkitName}}
+DL_GENERIC_TOOLKIT_UNLOCK_POPOVER_BODY=Desbloqueie esta biblioteca para fazer alterações.
+DL_GENERIC_TOOLKIT_UNLOCK_TOAST_MESSAGE=Desbloqueie esta biblioteca para fazer alterações.
+
+DL_GENERIC_MANAGER_DIALOG_ERROR=Infelizmente, algo deu errado. Tente novamente mais tarde.
+
+DL_TOOLKIT_UNLOCK_POPOVER_TITLE=Edite {{toolkitName}}
+DL_PHOTOSHOP_SWATCHES_TOOLKIT_UNLOCK_POPOVER_TITLE=Edite suas amostras do Photoshop
+DL_PHOTOSHOP_SWATCHES_TOOLKIT_UNLOCK_POPOVER_BODY=Todas as alterações feitas serão sincronizadas com o painel Amostras do Photoshop.
+DL_PHOTOSHOP_SWATCHES_TOOLKIT_UNLOCK_TOAST_MESSAGE=Esta biblioteca sincroniza com o painel Amostras do Photoshop.
+
+DL_PHOTOSHOP_BRUSHES_TOOLKIT_UNLOCK_POPOVER_TITLE=Edite seus pincéis do Photoshop
+DL_PHOTOSHOP_BRUSHES_TOOLKIT_UNLOCK_POPOVER_BODY=Todas as alterações feitas serão sincronizadas com o painel Pincel do Photoshop.
+DL_PHOTOSHOP_BRUSHES_TOOLKIT_UNLOCK_TOAST_MESSAGE=Esta biblioteca sincroniza com o painel Pincel do Photoshop.
+
+DL_PHOTOSHOP_GRADIENTS_TOOLKIT_UNLOCK_POPOVER_TITLE=Edite seus gradientes do Photoshop
+DL_PHOTOSHOP_GRADIENTS_TOOLKIT_UNLOCK_POPOVER_BODY=Todas as alterações feitas serão sincronizadas com o painel Gradientes do Photoshop.
+DL_PHOTOSHOP_GRADIENTS_TOOLKIT_UNLOCK_TOAST_MESSAGE=Esta biblioteca sincroniza com o painel gradientes do Photoshop.
+
+DL_PHOTOSHOP_PATTERNS_TOOLKIT_UNLOCK_POPOVER_TITLE=Edite seus padrões do Photoshop
+DL_PHOTOSHOP_PATTERNS_TOOLKIT_UNLOCK_POPOVER_BODY=Todas as alterações feitas serão sincronizadas com o painel Padrões do Photoshop.
+DL_PHOTOSHOP_PATTERNS_TOOLKIT_UNLOCK_TOAST_MESSAGE=Esta biblioteca sincroniza com o painel Padrões do Photoshop.
+
+DL_PHOTOSHOP_STYLES_TOOLKIT_UNLOCK_POPOVER_TITLE=Edite seus estilos do Photoshop
+DL_PHOTOSHOP_STYLES_TOOLKIT_UNLOCK_POPOVER_BODY=Todas as alterações feitas serão sincronizadas com o painel Estilos do Photoshop.
+DL_PHOTOSHOP_STYLES_TOOLKIT_UNLOCK_TOAST_MESSAGE=Esta biblioteca sincroniza com o painel Estilos do Photoshop.
+
+DL_PHOTOSHOP_SHAPES_TOOLKIT_UNLOCK_POPOVER_TITLE=Edite suas formas do Photoshop
+DL_PHOTOSHOP_SHAPES_TOOLKIT_UNLOCK_POPOVER_BODY=Todas as alterações feitas serão sincronizadas com o painel Formas do Photoshop.
+DL_PHOTOSHOP_SHAPES_TOOLKIT_UNLOCK_TOAST_MESSAGE=Esta biblioteca sincroniza com o painel Formas do Photoshop.
+
+DL_GROUP_UNGROUPED=Não agrupado
+
+DL_IMPORT_IMAGE_TO_PROJECT=Importar
+
+DL_XD_VIDEO_TYPE_TOOLTIP=Tipo: {{type}}
+DL_XD_VIDEO_DURATION_TOOLTIP=Duração: {{duration}}
+DL_XD_VIDEO_SIZE_TOOLTIP=Tamanho: {{filesize}}
+DL_XD_ADD_VIDEO_FILE_TOO_BIG_TOOLTIP=O tamanho do arquivo é maior que o limite ({{filesize}}).
+DL_XD_ADD_VIDEO_FILE_FORMAT_NOT_SUPPORTED_TOOLTIP=Este formato de arquivo não é suportado.
+
+DL_ADD_IMAGE_TO_DOC_AS_COPY=Inserir cópia
+DL_ADD_IMAGE_TO_DOC_AS_GRAPHIC=Inserir gráfico
+DL_ADD_IMAGE_TO_DOC_AS_VECTOR=Inserir como vetor
+DL_ADD_IMAGE_TO_DOC_AS_LINKED=Inserir vinculado
+DL_ADD_AUDIO_TO_DOC=Inserir cópia
+DL_ADD_COMPONENT_TO_DOC_AS_COPY=Inserir cópia
+DL_ADD_COMPONENT_TO_DOC_AS_LINKED=Inserir vinculado
+DL_INSERT_IMAGE_TO_DOC_AS_COPY=Inserir desvinculado
+DL_INSERT_IMAGE_TO_DOC_AS_LINKED=Inserir vinculado
+DL_DOWNLOAD_IMAGE_AS_COPY=Baixar não vinculados
+DL_DOWNLOAD_IMAGE_AS_LINKED=Baixar vinculado
+DL_ADD_IMAGE_TO_DOC_AS_LAYERS=Inserir camadas
+DL_ADD_IMAGE_TO_DOC=Usar no documento
+DL_ADD_IMAGE_TO_PROJECT=Adicionar ao projeto
+DL_ADD_BRUSH_TO_DOC=Usar no documento
+DL_ADD_COLORTHEME_TO_SWATCHES=Adicionar tema a amostras
+DL_ADD_GENERIC_TO_DOC=Usar no documento
+DL_ADD_PATTERN_TO_DOC_AS_IMAGE_AS_COPY=Posicionar mosaico do padrão Bitmap
+DL_ADD_VECTOR_PATTERN_TILE_TO_DOC_AS_COPY=Posicionar mosaico do padrão Vector
+DL_VECTOR_PATTERN_TYPE=Vector SVG
+DL_BITMAP_PATTERN_TYPE=Bitmap PNG
+
+DL_ADD_IMAGE_TO_ITEM_FILL_MU=Definir como Preenchimento
+DL_ADD_IMAGE_TO_PAGE_FILL_MU=Definir como preenchimento de página
+DL_ADD_IMAGE_TO_BROWSER_FILL_MU=Definir como preenchimento de navegador
+DL_SET_TEXT_COLOR_MU=Definir cor de texto
+DL_SET_STROKE_COLOR_MU=Definir cor de traçado
+DL_SET_FILL_COLOR_MU=Definir cor de preenchimento
+DL_SET_PAGE_FILL_COLOR_MU=Definir cor de preenchimento da página
+DL_SET_BROWSER_FILL_COLOR_MU=Definir cor de preenchimento do navegador
+
+DL_ADD_TO_PROJECT=Adicionar ao projeto
+
+DL_EMPTY_LIB_ACCC_TITLE=Crie uma biblioteca
+DL_EMPTY_LIB_FRED_TITLE=Reutilizar e atualizar ativos
+DL_EMPTY_LIB_STYG_TITLE=Esta biblioteca está vazia
+DL_EMPTY_LIB_ACCC_READ_ONLY_HEADING=Não há nada nesta biblioteca
+DL_EMPTY_LIB_ACCC_READ_ONLY_MESSAGE=Você não pode editar esta biblioteca, mas pode pedir permissão ao proprietário.
+DL_EMPTY_LIB_TRADITIONAL_LIBRARY_READ_ONLY_TITLE=Esta biblioteca está vazia.
+DL_EMPTY_LIB_TRADITIONAL_LIBRARY_READ_ONLY_TEXT=Solicite acesso de edição para adicionar elementos e compartilhar com outras pessoas.
+DL_EMPTY_LIB_LINKED_LIBRARY_READ_ONLY_TITLE=Esta biblioteca está vazia.
+DL_EMPTY_LIB_LINKED_LIBRARY_READ_ONLY_TEXT=Solicite acesso de edição para publicar elementos do arquivo de origem nesta biblioteca.
+DL_EMPTY_LIB_LINKED_LIBRARY_WRITE_TITLE=Esta biblioteca está vazia.
+DL_EMPTY_LIB_LINKED_LIBRARY_WRITE_TEXT=Acesse o arquivo de origem para publicar elementos nesta biblioteca.
+DL_EMPTY_LIB_LINKED_LIBRARY=Arquivo de código aberto
+DL_EMPTY_LIB_OFFICE_TITLE=Acesse seus elementos criativos no Microsoft Office
+DL_EMPTY_LIB_DRAG_TITLE=Acesse seus elementos criativos em todos os aplicativos Adobe
+DL_EMPTY_LIB_ACCESS_TITLE=Crie elementos criativos facilmente disponíveis com as bibliotecas da Creative Cloud
+DL_EMPTY_LIB_PANEL_INSTRUCTION_PS=Arraste e solte imagens ou adicione cores, estilos de camadas e outros elementos criativos do seu arquivo.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_AI=Arraste e solte imagens ou adicione cores, estilos de caracteres e outros elementos criativos do seu arquivo.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_ID=Arraste e solte imagens ou adicione cores, estilos de caracteres e outros elementos criativos do seu arquivo.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_PR=Arraste e solte imagens ou adicione vídeos, modelos e outros elementos criativos do Adobe Stock.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_AE=Arraste e solte imagens ou adicione vídeos e outros elementos criativos do Adobe Stock.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_DW=Obtenha acesso rápido às suas imagens, cores e mais em cada aplicativo Adobe.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_FP=Arraste e solte imagens ou adicione animações, cores e outros elementos criativos do seu arquivo.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_SG=Obtenha acesso rápido às suas imagens, cores e mais em cada aplicativo Adobe.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_XD=Adicione componentes, cores e estilos de caractere do seu arquivo.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_BR=Arraste e solte imagens para acessá-las em cada aplicativo Adobe.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_ACCC_1=Compartilhe e organize seus elementos em grupos aninhados.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_ACCC_2=Procure seu computador para adicionar elementos criativos
+DL_EMPTY_LIB_PANEL_INSTRUCTION_ACCC_3=Use suas bibliotecas em todos os seus aplicativos da Adobe.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_WD=Adicione estilos, cores ou texto. Ou acesse um aplicativo da Adobe para selecionar elementos criativos e reutilizá-los no Word.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_PP=Acesse um aplicativo da Adobe para selecionar elementos criativos e reutilizá-los no PowerPoint.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_STYG=Acesse os aplicativos móveis e para desktop compatíveis com a Creative Cloud para adicionar ativos, estilos e muito mais.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_FRED=Quando você adiciona arquivos vinculados à sua tela, eles são exibidos aqui.
+DL_EMPTY_LIB_LEARN_MORE=Saiba como usar bibliotecas
+
+DL_EMPTY_LIB_ACCC_PRIMARY_ACTION=Fazer upload de um arquivo
+
+DL_EMPTY_LIB_PANEL_HEADING_EDIT_TRADITIONAL=Começar a criar uma biblioteca
+DL_EMPTY_LIB_PANEL_HEADING=Esta biblioteca está vazia
+DL_EMPTY_LIB_PANEL_INSTRUCTION_VIEW_TRADITIONAL=Solicite acesso de edição para adicionar elementos e compartilhar com outras pessoas.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_EDIT_TRADITIONAL=Adicione ativos, estilos e muito mais a partir de um arquivo. Você também pode arrastar e soltar.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_EDIT_LINKED_LIB=Acesse o arquivo de origem para publicar elementos nesta biblioteca.
+DL_EMPTY_LIB_PANEL_INSTRUCTION_VIEW_LINKED_LIB=Solicite acesso de edição para publicar elementos do arquivo de origem nesta biblioteca.
+DL_EMPTY_LIB_LINKED_LIBRARY=Arquivo de código aberto
+DL_EMPTY_LIB_ENGAGEMENT_TITLE=BIBLIOTECAS PARA INICIANTES
+DL_EMPTY_LIB_ENGAGEMENT_BY_OWNER=por <b>{{name}}</b>
+DL_EMPTY_LIB_ENGAGEMENT_VIEW_ON_WEBSITE=Exibir biblioteca no site
+DL_EMPTY_LIB_ENGAGEMENT_FOLLOW_ERROR=Lamentamos, mas ocorreu algum erro ao sincronizar a biblioteca.
+
+DL_LOADING_LIBRARY_COLLABORATORS=Carregando lista de colaboradores...
+DL_DROP_MORE_FILES=e mais {{count}}
+
+DL_NO_LIBS_MESSAGE=Nenhuma biblioteca presente
+DL_NO_LIBS_ERROR_CONNECTING=Desculpe, não foi possível conectar ao servidor
+DL_NO_LIBS_ERROR_SYNCING=Desculpe, suas bibliotecas não foram sincronizadas
+DL_NO_LIBS_ERROR_INIT=Desculpe, não foi possível iniciar o painel
+DL_NO_LIBS_LOGGED_OUT=Para usar as bibliotecas da Creative Cloud, <br/> faça login na Creative Cloud
+DL_NO_LIBS_SYNCING=Buscando suas bibliotecas <br/> na Creative Cloud
+DL_NO_LIBS_CREATE_LIBRARY_BUTTON_TEXT=+ Criar nova biblioteca
+DL_NO_LIBS_RETRY=Repetir
+DL_NO_LIBS_RETRY_INIT=Tente novamente
+DL_NO_LIBS_NO_ACCESS=Você não tem acesso a este serviço. Você pode usá-lo no modo offline.
+DL_NO_LIBS_APP_LOGGED_OUT=Para usar as bibliotecas da Creative Cloud, é necessário acessar sua conta da Creative Cloud.
+DL_NO_LIBS_SERVICE_NOT_INSTALLED=Para usar as bibliotecas da Creative Cloud, <br/> instale o aplicativo da Creative Cloud
+DL_NO_LIBS_SERVICE_NOT_RUNNING=Ocorreu algum problema ao inicializar bibliotecas Creative Cloud
+DL_NO_LIBS_UPDATE_CLIENT=As bibliotecas da Creative Cloud necessitam ser atualizadas para uma versão mais recente
+DL_NO_LIBS_UPDATE_SERVER=Para usar suas bibliotecas, atualize para a versão mais recente das Bibliotecas da Creative Cloud.
+DL_NO_LIBS_SYNC_DISABLED=A sincronização de bibliotecas está pausada. Para buscar suas bibliotecas na Creative Cloud, retome a sincronização.
+DL_NO_LIBS_NETWORK_PROBLEM=Detectamos um problema com suas configurações de rede.
+DL_NO_LIBS_SOCKET_BLOCKED=Os serviços da Creative Cloud foram bloqueados. Verifique suas configurações de Firewall.
+DL_NO_LIBS_PAGE_NOT_AVAILABLE=Opa, página indisponível
+DL_LIB_LIST_ONBOARDING_CREATE_LIBRARY_BUTTON_TEXT=Criar nova biblioteca
+DL_LIB_LIST_ONBOARDING_FOLLOW_LIBRARY_BUTTON_TEXT=Encontre bibliotecas públicas
+DL_LIB_LIST_ONBOARDING_FOLLOW_LIBRARY_WEB_ARICLE_HEADING=Encontre bibliotecas públicas
+
+DL_OFFICE_LOGGED_OUT_TITLE=Bem-vindo(a) à Adobe Creative Cloud
+DL_OFFICE_LOGGED_OUT_DESCRIPTION=Acesse elementos criativos a partir das bibliotecas da Creative Cloud no Microsoft Office.
+DL_OFFICE_LOGGED_OUT_BUTTON=Fazer logon
+DL_OFFICE_ERROR_BACK_BUTTON=Voltar
+
+DL_OFFICE_NO_THOR_TITLE=Você não está conectado à Creative Cloud
+DL_OFFICE_NO_THOR_DESCRIPTION=Algumas coisas para experimentar:
+DL_OFFICE_NO_THOR_LIST_CONNECTION=Verifique se você está conectado à internet
+DL_OFFICE_NO_THOR_LIST_DOWNLOAD=<a>Baixar</a> ou reiniciar a Creative Cloud para desktop
+DL_OFFICE_NO_THOR_LIST_ACCOUNT=Verifique se você se conectou com a mesma conta da Creative Cloud para desktop
+DL_OFFICE_NO_THOR_LIST_VERIFY=Verifique suas configurações de rede
+DL_OFFICE_NO_THOR_LIST_LEARN_MORE=<a>Receber mais ajuda</a>
+
+DL_OFFICE_FIREFOX_ERROR_TITLE=Configuração concluída
+DL_OFFICE_FIREFOX_ERROR_DESCRIPTION=Reinicie o Firefox para que as alterações sejam aplicadas.
+
+DL_OFFICE_ADDIN_TITLE=Adobe Creative Cloud
+DL_OFFICE_ADDIN_DESCRIPTION=Acessar as bibliotecas da Creative Cloud no MS Office
+DL_OFFICE_ADDIN_BUTTON_TITLE=Creative Cloud
+DL_OFFICE_ADDIN_ONBOARDING_TITLE=Adobe Creative Cloud para Microsoft Office
+DL_OFFICE_ADDIN_ONBOARDING_DESCRIPTION=Acessar as bibliotecas da Creative Cloud no MS Office
+
+DL_OFFICE_IMAGE_APPLY_GENERIC_ERROR=Lamentamos, mas ocorreu algum erro ao inserir a imagem.  Tente novamente.
+DL_OFFICE_IMAGE_APPLY_FILE_TOO_LARGE=A imagem que você está tentando colocar é muito grande. Tente colocá-la usando aplicativos para desktop do Microsoft Office.
+DL_OFFICE_IMAGE_APPLY_SELECTION_NOT_WRITABLE=Não é possível inserir esta imagem na seleção atual. Desmarque os objetos no documento e tente novamente.
+
+DL_FIGMA_LOGGED_OUT_DESCRIPTION=Acesse elementos criativos a partir das bibliotecas da Creative Cloud no Figma.
+
+DL_SIGN_OUT=Fazer logoff
+
+DL_OFFLINE_VIDEO_PREVIEW=Não foi possível recuperar a visualização de vídeo durante o período offline
+
+DL_NO_LIBS_GET_IT=Obtenha agora mesmo!
+DL_NO_LIBS_MORE_INFO=Mais informações
+DL_TROUBLESHOOT_NETWORK_SETTINGS=Clique aqui para solucionar o problema
+
+DL_BRUSHTYPE_SCATTER=Pincel do Photoshop
+DL_BRUSHTYPE_VECTOR=Pincel de vetor
+DL_BRUSHTYPE_RIBBON=Pincel Croqui
+DL_BRUSHTYPE_UNKNOWN=Pincel desconhecido
+
+DL_ERROR_BRUSH_NOT_SUPPORTED_PS=Este formato de pincel não é suportado no Photoshop
+DL_ERROR_BRUSH_NOT_SUPPORTED_AI=Este formato de pincel não é suportado no Illustrator
+DL_ERROR_BRUSH_NOT_SUPPORTED_FP=Este formato de pincel não é suportado no Animate
+DL_ERROR_BRUSH_NOT_SUPPORTED_ID=Pincéis não são suportados no InDesign
+DL_ERROR_BRUSH_NOT_SUPPORTED_AE=Pincéis não são suportados no After Effects
+DL_ERROR_BRUSH_NOT_SUPPORTED_PR=Pincéis não são suportados no Premiere
+DL_ERROR_BRUSH_NOT_SUPPORTED_DW=Pincéis não são suportados no Dreamweaver
+DL_ERROR_BRUSH_NOT_SUPPORTED_SG=Pincéis não são suportados no Stager
+DL_ERROR_BRUSH_NOT_SUPPORTED_PP=Pincéis não são suportados no PowerPoint
+DL_ERROR_BRUSH_NOT_SUPPORTED_WD=Pincéis não são suportados no Word
+DL_ERROR_BRUSH_NOT_SUPPORTED_XD=Pincéis não são suportados no XD
+
+DL_ERROR_CAPSULE_NOT_SUPPORTED_PS=Modelos de Motion Graphics não são suportados no Photoshop
+DL_ERROR_CAPSULE_NOT_SUPPORTED_AI=Modelos de Motion Graphics não são suportados no Illustrator
+DL_ERROR_CAPSULE_NOT_SUPPORTED_FP=Modelos de Motion Graphics não são suportados no Animate
+DL_ERROR_CAPSULE_NOT_SUPPORTED_ID=Modelos de Motion Graphics não são suportados no InDesign
+DL_ERROR_CAPSULE_NOT_SUPPORTED_PR=Este modelo de Motion Graphics não é suportado no Premiere
+DL_ERROR_CAPSULE_NOT_SUPPORTED_AE=Este modelo de Motion Graphics não é suportado no After Effects
+DL_ERROR_CAPSULE_NOT_SUPPORTED_DW=Modelos de Motion Graphics não são suportados no Dreamweaver
+DL_ERROR_CAPSULE_NOT_SUPPORTED_SG=Modelos de animações não são suportados no Stager
+DL_ERROR_CAPSULE_NOT_SUPPORTED_PP=Modelos de Motion Graphics não são suportados no PowerPoint
+DL_ERROR_CAPSULE_NOT_SUPPORTED_WD=Modelos de Motion Graphics não são suportados no Word
+DL_ERROR_CAPSULE_NOT_SUPPORTED_XD=Modelos de Motion Graphics não são suportados no XD
+
+DL_ERROR_GRADIENT_NOT_SUPPORTED_XD=Este formato de gradiente não é suportado no XD
+DL_ERROR_GRADIENT_NOT_SUPPORTED_PS=Este formato de gradiente não é suportado no Photoshop
+DL_ERROR_GRADIENT_NOT_SUPPORTED_AI=Os gradientes da biblioteca não são suportados no Illustrator
+DL_ERROR_GRADIENT_NOT_SUPPORTED_ID=Os gradientes da biblioteca não são suportados no InDesign
+DL_ERROR_GRADIENT_NOT_SUPPORTED_FP=Os gradientes não são suportados no Animate
+DL_ERROR_GRADIENT_NOT_SUPPORTED_AE=Os gradientes não são suportados no After Effects
+DL_ERROR_GRADIENT_NOT_SUPPORTED_PR=Os gradientes não são suportados no Premiere
+DL_ERROR_GRADIENT_NOT_SUPPORTED_DW=Os gradientes não são suportados no Dreamweaver
+DL_ERROR_GRADIENT_NOT_SUPPORTED_SG=Os gradientes não são suportados no Stager
+DL_ERROR_GRADIENT_NOT_SUPPORTED_BR=Os gradientes não são suportados no Bridge
+DL_ERROR_GRADIENT_NOT_SUPPORTED_PP=Os gradientes não são suportados PowerPoint
+DL_ERROR_GRADIENT_NOT_SUPPORTED_WD=Os gradientes não são suportados no Word
+
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_PS=Este formato de modelo não é suportado no Photoshop
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_AI=Este formato de modelo não é suportado no Illustrator
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_ID=Este formato de modelo não é suportado no InDesign
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_FP=Modelos não são suportados no Animate
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_AE=Modelos não são suportados no After Effects
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_PR=Modelos não são suportados no Premiere
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_DW=Modelos não são suportados no Dreamweaver
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_SG=Modelos não são suportados no Stager
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_BR=Modelos não são suportados no Bridge
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_PP=Modelos não são suportados no PowerPoint
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_WD=Modelos não são suportados no Word
+DL_ERROR_TEMPLATE_NOT_SUPPORTED_XD=Modelos não são suportados no XD
+
+DL_ERROR_UNSUPPORTED_PS=Este item não é suportado no Photoshop
+DL_ERROR_UNSUPPORTED_AI=Este item não é suportado no Illustrator
+DL_ERROR_UNSUPPORTED_ID=Este item não é suportado no InDesign
+DL_ERROR_UNSUPPORTED_AE=Este item não é suportado no After Effects
+DL_ERROR_UNSUPPORTED_PR=Este item não é suportado no Premiere
+DL_ERROR_UNSUPPORTED_FP=Este item não é suportado no Animate
+DL_ERROR_UNSUPPORTED_DW=Este item não é suportado no Dreamweaver
+DL_ERROR_UNSUPPORTED_SG=Este item não é suportado no Stager
+DL_ERROR_UNSUPPORTED_BR=Este item não é suportado no Bridge
+DL_ERROR_UNSUPPORTED_PP=Este item não é suportado no PowerPoint
+DL_ERROR_UNSUPPORTED_WD=Este item não é suportado no Word
+DL_ERROR_UNSUPPORTED_XD=Este item não é suportado no XD
+
+DL_ERROR_LAYER_STYLE_NOT_SUPPORTED_AI=Estilos de camadas não são suportados no Illustrator
+DL_ERROR_LAYER_STYLE_NOT_SUPPORTED_ID=Estilos de camadas não são suportados no InDesign
+DL_ERROR_LAYER_STYLE_NOT_SUPPORTED_AE=Estilos de camadas não são suportados no After Effects
+DL_ERROR_LAYER_STYLE_NOT_SUPPORTED_FP=Estilos de camadas não são suportados no Animate
+DL_ERROR_LAYER_STYLE_NOT_SUPPORTED_DW=Estilos de camadas não são suportados no Dreamweaver
+DL_ERROR_LAYER_STYLE_NOT_SUPPORTED_SG=Estilos de camadas não são suportados no Stager
+DL_ERROR_LAYER_STYLE_NOT_SUPPORTED_PP=Estilos de camadas não são suportados no PowerPoint
+DL_ERROR_LAYER_STYLE_NOT_SUPPORTED_WD=Estilos de camadas não são suportados no Word
+DL_ERROR_LAYER_STYLE_NOT_SUPPORTED_XD=Estilos de camadas não são suportados no XD
+
+DL_ERROR_MISSING_FONT=Você não possui a fonte exigida
+
+DL_ERROR_INVALID_FILE_FORMAT_PS=Este item não pode ser diretamente editado no Photoshop, mas pode ser inserido em um documento. Para inserir o item, arraste-o para um documento aberto. 
+DL_ERROR_INVALID_FILE_FORMAT_AI=Este item não pode ser diretamente editado no Illustrator, mas pode ser inserido em um documento. Para inserir o item, arraste-o para um documento aberto. 
+DL_ERROR_INVALID_FILE_FORMAT_ID=Este item não pode ser diretamente editado no InDesign, mas pode ser inserido em um documento. Para inserir o item, arraste-o para um documento aberto.
+DL_ERROR_INVALID_FILE_FORMAT_FP=Este item não pode ser diretamente editado no Animate, mas pode ser inserido em um documento. Para inserir o item, arraste-o para um documento aberto.
+DL_ERROR_INVALID_FILE_FORMAT_DW=Este item não pode ser diretamente editado no Dreamweaver, mas pode ser inserido em um documento. Para inserir o item, arraste-o para um documento aberto.
+DL_ERROR_INVALID_FILE_FORMAT_AE=Este item não pode ser diretamente editado no After Effects, mas pode ser inserido em um documento. Para inserir o item, arraste-o para um documento aberto.
+DL_ERROR_INVALID_FILE_FORMAT_PR=Este item não pode ser diretamente editado no Premiere Pro, mas pode ser inserido em um documento. Para inserir o item, arraste-o para um documento aberto.
+DL_ERROR_INVALID_FILE_FORMAT_BR=Este item não pode ser diretamente utilizável no Bridge.
+DL_ERROR_INVALID_FILE_FORMAT_PP=Este item não pode ser usado diretamente no PowerPoint.
+DL_ERROR_INVALID_FILE_FORMAT_WD=Este item não pode ser usado diretamente no Word.
+DL_ERROR_INVALID_FILE_FORMAT_XD=Este item não pode ser diretamente editado no XD, mas pode ser inserido em um documento. Para inserir o item, arraste-o para um documento aberto.
+DL_ERROR_EDIT_FAILED=O tempo para editar este item está muito longo. Alguma coisa pode ter dado errado.
+DL_ERROR_APP_LAUNCH_TAKING_TIME=O tempo para abrir o aplicativo do editor está muito longo.
+DL_ERROR_UPDATE_NEEDED=Para editar este item, atualize o {{app}} para a versão mais recente. Se você estava tentando inserir o item, poderá fazê-lo arrastando-o para um documento aberto.
+DL_ERROR_INSTALL_NEEDED=Para editar este item, instale o {{app}} no seu computador. Se você estava tentando inserir o item, poderá fazê-lo arrastando-o para um documento aberto.
+DL_ERROR_UPDATE_NEEDED_NO_PLACE=Para editar este item, atualize o {{app}} para a versão mais recente.
+DL_ERROR_INSTALL_NEEDED_NO_PLACE=Para editar este item, instale o {{app}} em seu computador.
+DL_ERROR_EDIT_IN_SOURCE=Não foi possível abrir o documento de origem. Algo deu errado.
+
+DL_CUSTOM_DROP_MESSAGE_ID_TEXT_MAC=Pressione Cmd e solte para adicionar como um gráfico
+DL_CUSTOM_DROP_MESSAGE_ID_TEXT_WIN=Pressione Ctrl e solte para adicionar como um gráfico
+DL_CUSTOM_PLACE_OVERLAY_MESSAGE_ID=Selecione um texto ou gráfico para posicionar
+DL_CUSTOM_RELINK_TEXT_OVERLAY_MESSAGE_ID=Selecione um texto para revincular
+
+DL_ERROR_EDIT_READ_ONLY_LIBRARY="{{name}}" não pode ser modificada, pois é uma biblioteca somente leitura.
+DL_ERROR_EDIT_READ_ONLY_ELEMENT=Este item não pode ser editado, pois é uma biblioteca somente leitura.
+DL_ERROR_EDIT_ELEMENT_DOWNLOADING=Este item não pode ser editado, pois ainda está sendo baixado.
+
+DL_ERROR_FILE_TOO_BIG=Lamentamos, as bibliotecas da Creative Cloud não suportam gráficos maiores do que 1 GB.
+
+DL_3D_CHARACTER=Caractere
+
+DL_FLYOUT_RENAME_LIB=Renomear "{{libraryName}}"
+DL_FLYOUT_REMOVE_LIB=Excluir "{{libraryName}}"
+DL_FLYOUT_LEAVE_LIB=Deixar "{{libraryName}}"
+DL_FLYOUT_AUTOGENERATE_GROUPS=Gerar grupos automaticamente para "{{libraryName}}"
+DL_FLYOUT_COLLABORATE=Convidar pessoas...
+DL_FLYOUT_VIEW_ON_WEBSITE=Exibir no site
+DL_FLYOUT_VIEW_ARCHIVE_ON_WEBSITE=Visualizar itens excluídos
+DL_FLYOUT_HOW_TO_USE=Saiba mais
+DL_FLYOUT_SHARE_LINK=Obter link...
+DL_FLYOUT_ADD_DOC_CONTENT=Criar nova biblioteca de documento...
+DL_FLYOUT_ADD_DOC_CONTENT_MENU_ITEM=Nova biblioteca do documento
+DL_FLYOUT_WHATS_NEW=Novidades?
+DL_FLYOUT_FEEDBACK=Enviar feedback
+DL_FLYOUT_PERSONAL_COPY_LIB=Salvar cópia pessoal
+DL_FLYOUT_PROMOTE_LIB=Mover...
+DL_FLYOUT_RELINK_LIB=Revincular biblioteca
+DL_FLYOUT_ADD_STYLEGUIDE=Adicionar diretrizes
+DL_FLYOUT_VIEW_STYLEGUIDE=Exibir diretrizes
+
+DL_OFFICE_HEADER_LABEL=Menu bibliotecas
+
+DL_ADD_DOC_CONTENT_BUTTON=Criar nova biblioteca a partir desse arquivo
+DL_ADD_DOC_CONTENT_BUTTON_TOOLTIP=Extrair conteúdo do documento ativo para uma nova biblioteca
+DL_ADD_DOC_CONTENT_ICON_TOOLTIP=Nova biblioteca do documento...
+
+DL_NEW_USER_ADD_DOC_CONTENT_BUTTON=Criar biblioteca a partir deste arquivo
+
+DL_ADD_ENTIRE_ANIMATION_TO_LIBRARY=Animação inteira
+DL_OPEN_IN_NEW_DOCUMENT=Abrir em um novo documento
+DL_ADD_ANIMATION_TO_DOC_AS_COPY=Inserir cópia
+DL_ADD_ANIMATION_TO_DOC_AS_LINKED=Inserir vinculado
+DL_ADD_SYMBOL_TO_LIBRARY=Símbolos
+DL_ADD_BRUSH_TO_LIBRARY=Pincéis
+DL_ADD_BRUSH_TO_LIBRARY_ICON_TOOLTIP=Adicionar Pinceis à biblioteca
+
+DL_ADD_ANIMATION_TO_DOC=Usar no documento
+DL_ADD_ANIMATION_NAME=Animação
+
+DL_ADD_CAPSULE_TO_DOC=Usar no documento
+
+DL_APPLY_LAYER_STYLE=Aplicar estilo de camada
+DL_APPLY_LOOK=Aplicar visual
+DL_APPLY_LOOK_REQUIRES_RGB=Converta o documento para RGB para aplicar os Visuais.
+DL_APPLY_PATTERN=Aplicar padrão
+DL_ADD_PATTERN_TO_PRESETS=Criar Predefinição de padrão
+DL_ADD_GRADIENT_TO_PRESETS=Criar predefinição de degradê
+DL_ADD_LOOK_NAME=Visual
+
+DL_PERCENTAGE={{percent}}%
+DL_SYNCING=Sincronizando…
+DL_SYNC_OK=Todas as bibliotecas estão atualizadas
+DL_SYNC_PROGRESS_PERCENT=Sincronizando bibliotecas ({{percent}}%)
+DL_SYNC_PROGRESS=Sincronizando bibliotecas...
+DL_SYNC_PROGRESS_NUM_LIBRARIES=Sincronizando bibliotecas ({{number}} restantes)
+DL_SYNC_ERROR_QUOTA_EXCEEDED=Erro de sincronização devido a um problema com o armazenamento. Clique para obter mais informações.
+DL_SYNC_ERROR_CONNECTING=Não foi possível se conectar ao servidor
+DL_SYNC_ERROR_SERVER=Estamos enfrentando problemas no servidor
+DL_SYNC_ERROR_LIBRARY=Falha ao sincronizar "{{name}}"
+DL_SYNC_ERROR=Falha ao sincronizar
+DL_SYNC_LOGGED_OUT=Desconectado da Creative Cloud
+DL_SYNC_ERROR_NO_ACCESS=Você não tem acesso a este serviço
+DL_SYNC_RETRY=Tentar novamente em {{duration}}
+DL_SYNC_SERVICE_NOT_INSTALLED=O Aplicativo Creative Cloud não está instalado
+DL_SYNC_SERVICE_NOT_RUNNING=Falha ao inicializar
+DL_SYNC_UPDATE_CLIENT=Necessário atualizar
+DL_SYNC_UPDATE_SERVER=Necessário atualizar
+DL_SYNC_DISABLED=A sincronização de bibliotecas está pausada
+DL_SYNC_NETWORK_PROBLEM=Problema com as configurações de rede
+DL_SYNC_SOCKET_BLOCKED=Os serviços da Creative Cloud foram bloqueados
+
+DL_DOWNLOAD_LIBRARY_PERCENT=Baixando "{{name}}"... {{percent}}%
+DL_UPLOAD_LIBRARY_PERCENT=Enviando "{{name}}"... {{percent}}%
+DL_DOWNLOAD_NEW_LIBRARY_PERCENT=Baixando biblioteca... {{percent}}%
+
+DL_FS_ERROR=Não é possível gravar no disco
+DL_INIT_ERROR=Falha ao iniciar o painel
+
+DL_UNSHARED=Desculpe, você não tem mais acesso a esta biblioteca compartilhada
+DL_DELETED_FROM_SERVER=Esta biblioteca foi excluída da Creative Cloud
+DL_REMOVE_FROM_LIST=Remover da lista
+
+DL_QUOTA_EXCEEDED_LIBRARY_MESSAGE=Não foi possível sincronizar esta biblioteca porque não há espaço suficiente disponível na Creative Cloud.
+DL_QUOTA_EXCEEDED_LIBRARY_TIP=Você poderá liberar espaço na Creative Cloud excluindo permanentemente itens armazenados em seu arquivo da Creative Cloud, ou excluindo itens em outras bibliotecas.
+
+DL_DESIGN_LIBRARY_READ_ONLY=Este é uma biblioteca somente leitura
+DL_DESIGN_LIBRARY_HAS_LIMIT=Sua biblioteca atual está cheia. Remova itens antes de adicionar mais, ou escolha outra biblioteca.
+DL_DESIGN_LIBRARY_NATIVE_DROP=Adicionar à biblioteca
+DL_DESIGN_LIBRARY_NATIVE_EXCEEDED_LIMIT_TITLE=Limite excedido
+DL_DESIGN_LIBRARY_NATIVE_EXCEEDED_LIMIT_MESSAGE=As bibliotecas podem conter somente {{num}} itens ao mesmo tempo. Reduza o número de itens e faça o upload novamente.
+DL_DESIGN_LIBRARY_NATIVE_UNSUPPORTED_ASSET_TITLE=Tipos de arquivo incompatíveis
+DL_DESIGN_LIBRARY_NATIVE_UNSUPPORTED_ASSET_MESSAGE=Estamos trabalhando para oferecer suporte a mais tipos de arquivos, mas por enquanto, é necessário que eles tenham essas extensões: {{supportedExtensions}}.
+DL_DESIGN_LIBRARY_NATIVE_UNSUPPORTED_ASSET_MESSAGE_CONTINUE=O upload em lote só funciona com tipos de arquivos com as seguintes extensões {{supportedExtensions}}. Você ainda pode fazer o upload dos arquivos pendentes neste upload em lote.
+DL_DESIGN_LIBRARY_NATIVE_FILE_SIZE_TITLE=Arquivos muito grandes
+DL_DESIGN_LIBRARY_NATIVE_FILE_SIZE_MESSAGE=Seus arquivos ultrapassam o tamanho máximo permitido de 1 GB.
+DL_DESIGN_LIBRARY_NATIVE_FILE_SIZE_MESSAGE_CONTINUE=Pelo menos um de seus arquivos está ultrapassando o tamanho máximo permitido de 1 GB. Você ainda pode fazer o upload dos arquivos pendentes neste upload em lote.
+DL_DESIGN_LIBRARY_NATIVE_LARGE_UPLOAD_TITLE=Upload muito grande
+DL_DESIGN_LIBRARY_NATIVE_LARGE_UPLOAD_MESSAGE=Você está fazendo upload de muitos arquivos e/ou arquivos muito grandes.
+DL_DESIGN_LIBRARY_NATIVE_MULTIPLE_ERRORS_TITLE=Atenção, por favor
+DL_DESIGN_LIBRARY_NATIVE_EXCEEDED_FILE_COUNT_TITLE=Número de arquivos excedido
+DL_DESIGN_LIBRARY_NATIVE_EXCEEDED_FILE_COUNT_MESSAGE=O número de arquivos que você está tentando carregar excede o número suportado por esta operação. Tente adicionar menos de {{limit}} arquivos por vez.
+DL_ARTWORK_LABEL=Arte
+DL_CHART_LABEL=Gráfico
+DL_TEXT_LABEL=Texto
+DL_IMPORT_ERROR=Erro de importação
+DL_IMPORT_LIBRARY_ELEMENT_MIX_MESSAGE=Não oferecemos suporte à adição de arquivos e importação de bibliotecas ao mesmo tempo. Tente adicionar os arquivos primeiro à biblioteca atual e, em seguida, importe os arquivos da biblioteca com a extensão .cclibs ou .cclibc.
+
+DL_LAUNCH_CC_APP_TITLE=A sincronização está pausada
+DL_LAUNCH_CC_APP_MESSAGE=Retomar a sincronização para atualizar Bibliotecas.
+DL_LAUNCH_CC_APP_ENABLE_BUTTON=Reiniciar
+DL_LAUNCH_CC_APP_CANCEL_BUTTON=Não, obrigado
+
+DL_ADD_COLOR_NAME_FILL=Cor do preenchimento
+DL_ADD_COLOR_NAME_STROKE=Cor do traçado
+DL_ADD_COLOR_NAME_PS_FOREGROUND=Cor do primeiro plano
+DL_ADD_COLOR_NAME_PS_TEXT=Cor do texto
+DL_ADD_COLOR_NAME_PS_EFFECT_FILL=Cor de sobreposição de efeito da camada
+DL_ADD_COLOR_NAME_PS_EFFECT_STROKE=Cor do traçado de efeito da camada
+DL_ADD_COLOR_NAME_AI_TEXT_FILL=Cor de preenchimento do texto
+DL_ADD_COLOR_NAME_AI_TEXT_STROKE=Cor de traçado do texto
+DL_ADD_COLOR_NAME_ID_TEXT_FILL=Cor de preenchimento do texto
+DL_ADD_COLOR_NAME_ID_TEXT_STROKE=Cor de traçado do texto
+
+DL_ADD_COLOR_GOOGLE_BACKGROUND=Cor do fundo
+DL_ADD_COLOR_GOOGLE_FOREGROUND=Cor do primeiro plano
+DL_ADD_CHARACTER_GOOGLE=estilo de caractere
+
+DL_CAPTURE=Extrair da imagem
+DL_CAPTURE_TOUR=Fazer um tour
+DL_CAPTURE_ONBOARDING_POPOVER_TITLE=Capturar ativos da biblioteca
+DL_CAPTURE_ONBOARDING_POPOVER_BODY=Capture ativos a partir de suas imagens e salve-os em sua biblioteca criativa.
+
+DL_OPEN_DOC_FROM_TEMPLATE=Abrir novo documento
+
+DL_ADOBE_STOCK_PHOTO=Imagem do Adobe Stock
+DL_ADOBE_STOCK_VIDEO=Vídeo do Adobe Stock
+DL_ADOBE_STOCK_LIGHT=Luz do Adobe Stock
+DL_ADOBE_STOCK_MATERIAL=Material do Adobe Stock
+DL_ADOBE_STOCK_MODEL=Modelo do Adobe Stock
+DL_ADOBE_STOCK_CAPSULE=Modelo de Motion Graphics do Adobe Stock
+DL_ADOBE_STOCK_TEMPLATE=Modelo do Adobe Stock
+DL_ADOBE_STOCK_AUDIO=Áudio do Adobe Stock
+DL_LICENSED=Licenciada
+DL_UNLICENSED=Não licenciada 
+DL_STOCK_LICENSE_MENU_PHOTO=Obter licença da imagem...
+DL_STOCK_LICENSE_MENU_VIDEO=Obter licença do vídeo...
+DL_STOCK_LICENSE_MENU_TEMPLATE=Obter licença do modelo...
+DL_STOCK_LICENSE_MENU_THREE_D=Obter licença do ativo...
+DL_STOCK_LICENSE_MENU_CAPSULE=Obter licença do modelo de Motion Graphics...
+DL_STOCK_LICENSE_MENU_AUDIO=Obter licença do áudio...
+DL_STOCK_SAVE_TO=Salvar em
+DL_STOCK_SAVE_PREVIEW_TO=Salvar visualização em
+DL_STOCK_LICENSE_THEN_SAVE_TO=Obter licença e salvar em
+DL_STOCK_ASSET_TOOLTIP_TYPE_1=Tipo: Foto
+DL_STOCK_ASSET_TOOLTIP_TYPE_2=Tipo: Ilustração
+DL_STOCK_ASSET_TOOLTIP_TYPE_3=Tipo: Vetor
+DL_STOCK_ASSET_TOOLTIP_TYPE_4=Tipo: Vídeo
+DL_STOCK_ASSET_TOOLTIP_TYPE_6=Tipo: 3D
+DL_STOCK_ASSET_TOOLTIP_TYPE_7=Tipo: Modelo
+DL_STOCK_ASSET_TOOLTIP_TYPE_9=Tipo: áudio
+DL_STOCK_ASSET_TOOLTIP_DESCRIPTION={{type}} - {{contentType}}
+DL_STOCK_SAVE_TO_TOOLTIP=Salvar em {{name}}
+DL_STOCK_SAVE_PREVIEW_TO_TOOLTIP=Salvar visualização em {{name}}
+DL_STOCK_LICENSE_THEN_SAVE_TO_TOOLTIP=Obter licença e salvar em {{name}}
+DL_STOCK_LICENSE_TOOLTIP=Licença
+DL_STOCK_LICENSED_SEARCH_RESULT=Você já licenciou este ativo
+DL_STOCK_FIND_SIMILAR_MENU=Localizar similar...
+DL_STOCK_FIND_SIMILAR_PLACEHOLDER=<Localizar similar>
+DL_STOCK_VIEW_ON_WEB=Ver detalhes na Web...
+DL_STOCK_WATCH_VIDEO=Assistir vídeo na Web...
+DL_STOCK_PURCHASE_DIALOG_TITLE_PHOTO=Obter licença da imagem Adobe Stock
+DL_STOCK_PURCHASE_DIALOG_TITLE_SAVE_PHOTO=Salvar imagem do Adobe Stock
+DL_STOCK_PURCHASE_DIALOG_TITLE_VIDEO=Obter licença do vídeo Adobe Stock
+DL_STOCK_PURCHASE_DIALOG_TITLE_TEMPLATE=Obter licença do modelo do Adobe Stock
+DL_STOCK_PURCHASE_DIALOG_TITLE_CAPSULE=Obter licença do modelo de Motion Graphics do Adobe Stock
+DL_STOCK_PURCHASE_DIALOG_TITLE_THREE_D=Obter licença dos ativos do Adobe Stock
+DL_STOCK_PURCHASE_DIALOG_TITLE_SAVE_VIDEO=Salvar vídeo Adobe Stock
+DL_STOCK_PURCHASE_DIALOG_PHOTO_TYPE_MESSAGE=Você deseja obter licença para as versões de resolução grande ou pequena?
+DL_STOCK_PURCHASE_DIALOG_PHOTO_TYPE_SAVE_MESSAGE=Deseja salvar a versão de resolução grande ou pequena?
+DL_STOCK_PURCHASE_DIALOG_VIDEO_TYPE_MESSAGE=Deseja obter licença da versão HD ou 4K?
+DL_STOCK_PURCHASE_DIALOG_MANDATORY_REFERENCES=Referências obrigatórias
+DL_STOCK_PURCHASE_DIALOG_OPTIONAL_REFERENCES=Referências opcionais
+DL_STOCK_PURCHASE_DIALOG_VIDEO_SAVE_TYPE_MESSAGE=Deseja salvar a versão HD ou 4K? (É possível obter licença de ambas as versões posteriormente)
+DL_STOCK_PURCHASE_OFFLINE_ERROR_CAPSULE=Como você está offline no momento, não é possível entrar em contato com a Adobe Stock para obter a licença do modelo de Motion Graphics. Tente novamente após se conectar.
+DL_STOCK_PURCHASE_OFFLINE_ERROR_PHOTO=Como você está off-line no momento, não é possível entrar em contato com a Adobe Stock para obter licença da imagem. Tente novamente após se conectar.
+DL_STOCK_PURCHASE_OFFLINE_ERROR_VIDEO=Como você está off-line no momento, não é possível entrar em contato com a Adobe Stock para obter licença do vídeo. Tente novamente após se conectar.
+DL_STOCK_PURCHASE_OFFLINE_ERROR_TEMPLATE=Como você está off-line no momento, não é possível entrar em contato com a Adobe Stock para obter licença do modelo. Tente novamente após se conectar.
+DL_STOCK_PURCHASE_OFFLINE_ERROR_THREE_D=Como você está off-line no momento, não é possível entrar em contato com a Adobe Stock para obter licença do ativo. Tente novamente após se conectar.
+DL_STOCK_PURCHASE_UNKNOWN_ERROR_CAPSULE=Lamentamos, mas algo deu errado ao tentar obter licença do modelo de Motion Graphics. Tente novamente.
+DL_STOCK_PURCHASE_UNKNOWN_ERROR_PHOTO=Lamentamos, mas algo deu errado ao tentar obter licença da imagem. Tente novamente.
+DL_STOCK_PURCHASE_UNKNOWN_ERROR_VIDEO=Lamentamos, mas algo deu errado ao tentar obter licença do vídeo. Tente novamente.
+DL_STOCK_PURCHASE_UNKNOWN_ERROR_TEMPLATE=Lamentamos, mas algo deu errado ao tentar obter licença do modelo. Tente novamente.
+DL_STOCK_PURCHASE_UNKNOWN_ERROR_THREE_D=Lamentamos, mas algo deu errado ao tentar obter licença do ativo. Tente novamente.
+DL_STOCK_PURCHASE_SERVICE_UNAVAILABLE_ERROR_CAPSULE=Lamentamos, mas não foi possível acessar o Adobe Stock para obter licença do modelo de Motion Graphics. Tente novamente mais tarde.
+DL_STOCK_PURCHASE_SERVICE_UNAVAILABLE_ERROR_PHOTO=Lamentamos, mas não foi possível acessar o Adobe Stock para obter licença da imagem. Tente novamente mais tarde.
+DL_STOCK_PURCHASE_SERVICE_UNAVAILABLE_ERROR_VIDEO=Lamentamos, mas não foi possível acessar o Adobe Stock para obter licença do vídeo. Tente novamente mais tarde.
+DL_STOCK_PURCHASE_SERVICE_UNAVAILABLE_ERROR_TEMPLATE=Lamentamos, mas não foi possível acessar o Adobe Stock para obter licença do modelo. Tente novamente mais tarde.
+DL_STOCK_PURCHASE_SERVICE_UNAVAILABLE_ERROR_THREE_D=Lamentamos, mas não foi possível acessar o Adobe Stock para obter licença do ativo. Tente novamente mais tarde.
+DL_STOCK_SAVE_UNKNOWN_ERROR_TITLE=Erro desconhecido
+DL_STOCK_SAVE_UNKNOWN_ERROR=Desculpe, algo deu errado ao tentar salvar a biblioteca. Tente novamente.
+DL_STOCK_LICENSE_TO_EDIT_PHOTO=Um dos seus colaboradores obteve licença para esta imagem Adobe Stock. Você pode editar a imagem se obtiver licença dela.
+DL_STOCK_LICENSE_TO_USE_TEMPLATE_OWNED=Este modelo do Adobe Stock foi licenciado por um de seus colaboradores. Você pode usar o modelo se obtiver a licença.
+DL_STOCK_LICENSE_TO_USE_TEMPLATE=Este modelo do Adobe Stock não foi licenciado. Você pode usar o modelo se obtiver a licença.
+DL_STOCK_LICENSE_TO_EDIT_THREE_D=Um dos seus colaboradores obteve licença para este ativo do Adobe Stock. Você pode editar o ativo se obtiver licença dela.
+DL_STOCK_PURCHASE_ERROR_TITLE=Erro de compra
+DL_STOCK_PURCHASE_OFFLINE_ERROR_TITLE=Erro off-line
+DL_STOCK_PURCHASE_CHOOSE_LIB_TITLE=Escolher uma biblioteca
+DL_STOCK_PURCHASE_CHOOSE_LIB_MSG=Sua biblioteca de destino é somente leitura. Escolha outra biblioteca:
+DL_STOCK_DRAGDROP_READONLY_LIB_MSG=Os ativos não podem ser adicionados a uma biblioteca somente leitura. Selecione uma biblioteca diferente.
+DL_STOCK_FOOTER_BAR_PREMIUM=PREMIUM
+DL_STOCK_FOOTER_BAR_FREE=GRÁTIS
+DL_STOCK_SEARCH_AUDIO_WEB=Pesquisar conteúdo de áudio no Adobe Stock
+
+DL_DESIGN_LIBRARY_HAS_LIMIT_TITLE=Limite da biblioteca atingido
+
+DL_STOCK_SEARCH_OPTION_PHOTO=Fotos
+DL_STOCK_SEARCH_OPTION_ILLUSTRATION=Ilustrações
+DL_STOCK_SEARCH_OPTION_VECTOR=Vetores
+DL_STOCK_SEARCH_OPTION_VIDEO=Vídeos
+DL_STOCK_SEARCH_OPTION_TEMPLATE=Modelos
+DL_STOCK_SEARCH_OPTION_PREMIUM=Premium
+DL_STOCK_SEARCH_OPTION_3D=3D
+
+DL_STOCK_LICENSE_TITLE_MSG=Licença
+DL_STOCK_LICENSE_SAVE_TITLE_MSG=Obter licença e salvar
+
+DL_STOCK_LICENSE_TYPE_FULL=Grande\n
+DL_STOCK_LICENSE_TYPE_SMALL=Pequena
+
+DL_PLACE=Inserir
+DL_RELINK=Revincular
+DL_RELINK_RESOLVE_MESSAGE=Resolver: {{elementName}}
+DL_RELINK_REPLACE_MESSAGE=Substituir: {{elementName}}
+DL_RELINK_RELINK_MESSAGE=Revincular: {{elementName}}
+DL_RELINK_PLACE_MESSAGE=Inserir
+DL_RELINK_RELINK_OVERLAY_MESSAGE=Selecione um gráfico para revincular
+DL_RELINK_PLACE_OVERLAY_MESSAGE=Selecione um gráfico para inserir
+DL_RELINK_NONE_AVAILABLE=Não há gráficos vinculáveis nesta biblioteca. Selecione uma biblioteca diferente.
+
+DL_TEXT_ATTRIBUTE_UNDERLINE=Sublinhado
+DL_TEXT_ATTRIBUTE_STRIKETHROUGH=Tachado
+DL_TEXT_ATTRIBUTE_LEADING=Entrelinha: {{fontLeading}}
+DL_TEXT_ATTRIBUTE_PARAGRAPH_SPACING=Espaçamento de parágrafo: {{fontLeading}}
+DL_TEXT_ATTRIBUTE_KERNING=Ajuste de Espaço
+DL_TEXT_ATTRIBUTE_TRACKING=Rastreamento: {{fontTracking}}
+DL_TEXT_ATTRIBUTE_ALIGNMENT=Alinhamento
+DL_TEXT_ATTRIBUTE_HYPHENATE=Hifenizar
+DL_TEXT_ATTRIBUTE_TRACKING_XD=Espaçamento de caracteres: {{fontTracking}}
+DL_TEXT_ATTRIBUTE_LEADING_XD=Espaçamento de linha: {{fontLeading}}
+DL_TEXT_ATTRIBUTE_FONT_SIZE={{size}} {{type}}
+
+DL_TEXT_LEADING_AUTO=Automático
+DL_TEXT_KERNING_AUTO=Automático
+DL_TEXT_KERNING_OPTICAL=Ótico
+DL_TEXT_KERNING_METRICSROMANONLY=Métrica - apenas romana
+DL_TEXT_ALIGNMENT_LEFT=Esquerda
+DL_TEXT_ALIGNMENT_CENTER=Centro
+DL_TEXT_ALIGNMENT_RIGHT=Direita
+DL_TEXT_ALIGNMENT_LEFT_JUSTIFY=Justificação à esquerda
+DL_TEXT_ALIGNMENT_CENTER_JUSTIFY=Justificação pelo centro
+DL_TEXT_ALIGNMENT_RIGHT_JUSTIFY=Justificação à direita
+DL_TEXT_ALIGNMENT_FULL_JUSTIFY=Justificação total
+
+DL_TYPEKIT_UPGRADE_TOOLTIP=Assine para adicionar a fonte
+DL_TYPEKIT_SYNC_TOOLTIP=Adicionar fonte
+DL_TYPEKIT_UNSYNC_TOOLTIP=Remover fonte
+DL_TYPEKIT_SYNC_ERROR_TITLE=Não podemos adicionar as fontes agora
+DL_TYPEKIT_SYNC_ERROR_MESSAGE=Tente novamente mais tarde.
+DL_FONT_MISSING_TOOLTIP=Fonte ausente
+DL_FONTS_MISSING_TOOLTIP=Fontes ausentes
+
+DL_TYPE_NEW_CHAR_STYLE=Novo estilo de caractere
+DL_TYPE_NEW_PARA_STYLE=Novo estilo de parágrafo
+
+DL_GRADIENT_TYPE_LINEAR=Linear
+DL_GRADIENT_TYPE_RADIAL=Radial
+DL_GRADIENT_TYPE_NOISE=Ruído
+
+DL_AUDIO_ARTIST=Artista
+DL_AUDIO_ALBUM=Álbum
+DL_AUDIO_TEMPO=Tempo
+
+DL_PHXS_HISTORY_ENTRY_CREATE_TEXT_LAYER=Criar camada do estilo de caractere
+DL_PHXS_HISTORY_ENTRY_SET_TEXT_STYLE=Aplicar estilo de caractere
+DL_PHXS_HISTORY_ENTRY_SET_FONT=Aplicar fonte
+DL_PHXS_HISTORY_ENTRY_APPLY_PATTERN=Nova camada de preenchimento de padrão
+
+DL_FILESIZE_B={{size}} B
+DL_FILESIZE_KB={{size}} KB
+DL_FILESIZE_MB={{size}} MB
+DL_FILESIZE_GB={{size}} GB
+DL_DURATION_S=00:{{seconds}} s
+DL_DURATION_MS={{minutes}}:{{seconds}}
+DL_DURATION_HMS={{hours}}:{{minutes}}:{{seconds}}
+DL_FRAMERATE={{framerate}}fps
+DL_TEMPO={{tempo}} bpm
+DL_DIMENSIONS={{width}} x {{height}} px
+DL_LENGTH={{length}}px
+DL_LINK_DOWNLOAD_TOOLTIP=Baixando...
+DL_LINK_DOWNLOAD_FAIL_TOOLTIP=Falha no download. Clique para tentar novamente.
+DL_LINK_DOWNLOAD_PROGRESS_TOOLTIP=Baixando... {{percent}}%
+
+DL_UNIT_PT=pt
+
+DL_RECOVERED_LIBRARY_NAME={{name}} (Recuperado)
+DL_WARNING_RECOVERED_FROM_DELETED=A biblioteca original não existe mais. O item atualizado foi salvo em "{{recoveryLibraryName}}".
+DL_WARNING_RECOVERED_FROM_READONLY="{{originalLibraryName}}" não é mais editável. O item atualizado foi salvo em "{{recoveryLibraryName}}".
+
+DL_OVERFLOW_LIBRARY_NAME={{name}} (excesso)
+
+DL_UNDO_DELETE=Desfazer
+DL_UNDO_DELETE_ITEM=Excluir "{{name}}".
+DL_UNDO_DELETE_ITEMS={{num}} itens excluídos da biblioteca.
+DL_UNDO_DELETE_DESCRIPTION=Descrição excluída.
+
+DL_UNDO_DELETED_GROUP_SINGULAR=Grupo excluído.
+DL_UNDO_DELETED_GROUP_PLURAL={{num}} grupos excluídos.
+DL_UNDO_UNGROUPED_GROUP_SINGULAR=Grupo desagrupado.
+DL_UNDO_UNGROUPED_GROUP_PLURAL={{num}} grupos desagrupados.
+
+DL_REPLACE_GRAPHIC=Substituir o gráfico
+DL_REPLACE_GRAPHIC_SUCCESS=Gráfico substituído.
+DL_REPLACE_GRAPHIC_ERROR=Não é possível substituir o gráfico. Tente novamente.
+
+DL_ELEMENT_ADDED_SUCCESFUL=Adicionado 1 elemento à {{libraryName}}.
+DL_ELEMENTS_ADDED_SUCCESFUL=Adicionados {{numElements}} elementos à {{libraryName}}.
+
+DL_MOVING_ITEMS=Movendo {{numberElements}} itens para {{libraryName}}.
+DL_COPYING_ITEMS=Copiando {{numberElements}} itens para {{libraryName}}.
+DL_DUPLICATING_ITEMS=Duplicando {{numberElements}} itens.
+
+DL_WHATS_NEW_DATE=Maio de 2023
+DL_WHATS_NEW_VERSION=Versão {{num}}
+DL_WHATS_NEW_TITLE=Novidades nas bibliotecas da Creative Cloud:
+DL_WHATS_NEW_GENERAL=Correções de erros gerais e melhorias no desempenho em bibliotecas.
+DL_WHATS_NEW_TRANSPARENCY=Alterne a grade de transparência no menu para melhorar a legibilidade da miniatura.
+DL_WHATS_NEW_COLLAPSE_GROUPS=Recolha rapidamente grupos mantendo as teclas option/alt pressionadas enquanto alterna um grupo fechado.
+DL_WHATS_NEW_XD_IMPROVEMENTS=Dicas de ferramentas aprimoradas no XD e aprimoramentos para trabalhar com ativos de documentos.
+DL_WHATS_NEW_ONE_UP=Apresentamos a nova exibição expandida de ativos. Mergulhe em uma experiência de painel completa de qualquer ativo, incluindo todos os detalhes e metadados.
+DL_WHATS_NEW_RESPONSIVE_LAYOUT=Aproveite o novo comportamento responsivo ao redimensionar o painel.
+DL_WHATS_NEW_CCD_DRAG_OUT=Arraste gráficos, imagens, modelos, vídeos e arquivos de áudio para fora do aplicativo de desktop da Creative Cloud para exportá-los facilmente para outros aplicativos ou para o seu sistema de arquivos.
+DL_WHATS_NEW_QUOTA=Agora, as bibliotecas contam com seu armazenamento da Creative Cloud. Você pode gerenciar seu armazenamento na seção Seu trabalho no aplicativo de desktop da Creative Cloud ou acessando assets.adobe.com na Web.
+DL_WHATS_NEW_PUBLISH=No caso de bibliotecas publicadas vinculadas a documentos, agora você tem a opção de republicar em uma biblioteca diferente no Gerenciador de bibliotecas no XD.
+DL_WHATS_NEW_NESTED_GROUPS=Apresentando grupos dentro de grupos. Organize seus elementos em subgrupos, adicionando quantos níveis forem necessários para seus projetos criativos. Os colaboradores verão seus grupos ao selecionar o grupo por "Grupo personalizado".
+DL_WHATS_NEW_QUOTA_2=Agora, as bibliotecas contam com seu armazenamento da Creative Cloud. Você pode gerenciar seu armazenamento na seção Arquivos no aplicativo de desktop da Creative Cloud ou acessando assets.adobe.com na Web.
+DL_WHATS_NEW_PATH_VIEW=As bibliotecas agora oferecem subgrupos em uma visualização de caminho condensado. Crie subgrupos rapidamente usando o caractere "/" em um nome de grupo e alterne entre a visualização em árvore e a visualização de caminho para ver a estrutura de grupo expandida ou condensada.
+DL_WHATS_NEW_RELINK=Agora você pode reparar e vincular novamente elementos ausentes da biblioteca em seus ativos de documentos no XD. Clique com o botão direito do mouse em um ativo para gerenciar o link quebrado.
+
+DL_LIBRARY_LIST_ONBOARDING_HEADER=Trabalhe de forma mais inteligente com as bibliotecas
+DL_LIBRARY_LIST_ONBOARDING_BODY=As bibliotecas permitem compartilhar, reutilizar e gerenciar o que você mais usa.
+DL_LIBRARY_LIST_ONBOARDING_LINK=Saiba mais
+
+DL_LIBRARY_PERMANENTLY_DELETED=Biblioteca excluída permanentemente
+
+DL_LOADING_LIBRARIES=Carregando bibliotecas...
+DL_LOADING_MORE_LIBRARIES=Carregando mais bibliotecas
+DL_REPORT_ABUSE=Denunciar abuso
+
+DL_LIBRARY_PERSONAL_COPY_TOAST=Cópia pessoal salva
+DL_LIBRARY_SAVE_PERSONAL_COPY=Salvar cópia pessoal
+DL_OPEN_LIBRARY=Abrir biblioteca
+DL_OPEN_LIBRARY_COPY=Abrir cópia
+
+DL_LICENSED_ADOBE_STOCK=Adobe Stock com licença
+DL_UNLICENSED_ADOBE_STOCK=Adobe Stock sem licença
+
+DL_LIBRARY_NAME_INVALID=Caracteres inválidos
+DL_LIBRARY_NAME_DUPLICATE=Já existe uma biblioteca com este nome
+DL_LIBRARY_RENAME_DUPLICATE=Já existe uma biblioteca com este nome neste local. Tente um nome diferente.
+
+DL_GROUP_NAME_INVALID_SLASHES=Barras são usadas para organizar grupos na exibição de caminho.
+DL_GROUP_NAME_INVALID_SLASHES_ACCC=Barras são usadas para organizar grupos na exibição de caminho que está disponível no painel bibliotecas.
+DL_GROUP_NAME_DUPLICATE=Já existe um grupo com o mesmo nome neste nível.
+
+DL_SELECT_LIBRARY_LIST_HEADER_RECENT=Recente
+DL_SELECT_LIBRARY_LIST_HEADER_ALL=Todas as bibliotecas
+
+DL_RECENT_SEARCH_OVERLAY_LIBRARY_HEADER=Recente
+DL_RECENT_SEARCH_OVERLAY_STOCK_HEADER=Adobe Stock
+DL_RECENT_SEARCH_OVERLAY_CLEAR_ALL=Apagar tudo
+
+DL_SORT_BY_TITLE=Classificar por
+DL_SEARCH_SORT_BY_LABEL_NAME=Classificar por Nome
+DL_SEARCH_SORT_BY_LABEL_MODIFIED=Classificar por data de modificação
+DL_SEARCH_SORT_BY_LABEL_RELEVANCE=Classificar por relevância
+DL_SEARCH_SORT_BY_LABEL_CREATION=Classificar por mais recente
+DL_SEARCH_SORT_BY_LABEL_POPULARITY=Classificar por popularidade
+DL_SEARCH_SORT_BY_LABEL_NB_DOWNLOADS=Classificar por downloads
+
+DL_GROUP_BY_TITLE=Agrupar por
+
+DL_SEARCH_SORT_BY_OPTION_NAME=Nome
+DL_SEARCH_SORT_BY_OPTION_MODIFIEDDATE=Data de modificação
+DL_SEARCH_SORT_BY_OPTION_MODIFIED=Data de modificação
+DL_SEARCH_SORT_BY_OPTION_RELEVANCE=Relevância
+DL_SEARCH_SORT_BY_OPTION_CREATION=Mais recente
+DL_SEARCH_SORT_BY_OPTION_POPULARITY=Popularidade
+DL_SEARCH_SORT_BY_OPTION_NB_DOWNLOADS=Downloads
+DL_SEARCH_SORT_BY_OPTION_ORDER=Personalizar pedido
+
+DL_CREATED_MODIFIED_DATE_BY_USER={{date}} por {{user}}
+
+DL_BROWSE_LIBRARY_MANAGER=Procurar bibliotecas
+DL_MORE_LIBRARY_BROWSE=Procurar bibliotecas compartilhadas
+DL_MORE_LIBRARY_BROWSE_ALL=Procurar em todas
+DL_MORE_LIBRARY_BROWSE_ALL_OFFLINE=Procurar em todas as bibliotecas não está disponível off-line
+DL_NEW_LIBRARY=Nova biblioteca
+DL_MORE_LIBRARY_BROWSE_PUBLIC=Ir para Stock e Marketplace
+DL_TEAM_LIBRARY_BROWSE_AUTH_ERROR=Não foi possível navegar. Tente novamente em {{assetsSite}}
+DL_TEAM_LIBRARY_PROMOTE_TITLE=Mover para armazenamento corporativo
+DL_TEAM_LIBRARY_SAVE_TO=Salvar em
+DL_TEAM_LIBRARY_HELP=As bibliotecas em armazenamento pessoal podem ser compartilhadas com outras pessoas. O armazenamento corporativo realiza o compartilhamento automático com todos os membros da equipe.
+DL_TEAM_LIBRARY_EMPTY_VIEW_HEADER=Nenhuma biblioteca encontrada
+DL_TEAM_LIBRARY_EMPTY_VIEW_SUBTITLE=Não foi possível encontrar bibliotecas com base no seu filtro atual.
+DL_TEAM_LIBRARY_EMPTY_VIEW_CLEAR_FILTER=Limpar filtro
+DL_PERSONAL_STORAGE=Armazenamento pessoal
+DL_PERMISSION_TITLE=Qualquer pessoa com acesso à pasta
+DL_CAN_VIEW_AND_USE=Pode visualizar e usar
+DL_CAN_EDIT=Pode editar
+
+DL_TEAM_LIBRARY_ONBOARDING_LINK=Entendi
+DL_PROMOTE_TEAM_WARN=Convide novamente os colaboradores atuais para conceder acesso a eles.
+DL_PROMOTE_TEAM_MESSAGE=Por padrão, somente os membros com acesso à pasta terão acesso a esta biblioteca quando ela for movida para o armazenamento corporativo.
+DL_COPY_COLLABORATORS=Copiar lista de colaboradores
+DL_TEAM_LIBRARY_COPY_FAILED=Não é possível copiar a biblioteca.
+DL_TEAM_LIBRARY_MOVE_FAILED=Não foi possível mover a biblioteca
+DL_TEAM_LIBRARY_MOVING_TOAST=Movendo para o armazenamento corporativo
+DL_TEAM_LIBRARY_SAVED_TOAST=A biblioteca foi movida para o armazenamento corporativo
+DL_CANNOT_UNDO_WARNING=Aviso: não é possível desfazer esta ação.
+
+DL_LEAVE_TEAM_LIBRARY_ACCESS=Todos os membros da biblioteca ainda terão acesso.
+DL_LEAVE_TEAM_REJOIN=Você pode sempre adicionar esta biblioteca novamente a partir do navegador da biblioteca.
+
+DL_CREATE_TEAM_LIBRARY=Criar uma biblioteca
+DL_BROWSE_TEAM_LIBRARY=Procurar bibliotecas
+DL_TEAM_LIBRARIES_EMPTY_VIEW_HEADING=Encontre todos os recursos necessários, sempre que precisar.
+DL_TEAM_LIBRARIES_EMPTY_VIEW_MESSAGE=Certifique-se de que todos estejam usando as cores, os logotipos e outros elementos criativos nas versões mais recentes. <a>Saiba mais</a>
+
+DL_DELETE_TEAM_LIBRARY_ACCESS=Você e todos os membros da biblioteca perderão o acesso.
+DL_DELETE_LIBRARY_LINK=Os elementos inseridos nos documentos permanecerão, mas não serão mais vinculados.
+
+DL_LIBRARY_LIST_FILTER_BY_TYPE=Filtrar por tipo
+DL_LIBRARY_LIST_FILTER_BY_LIBRARY=Filtrar por biblioteca
+DL_LIBRARY_LIST_FILTER_BY_SOURCE=Filtrar por origem
+DL_LIBRARY_LIST_FILTER_UNLINK_SOURCE_TOOLTIP=Desvincular documento
+DL_LIBRARY_LIST_FILTER_BY=Filtrar por
+DL_LIBRARY_LIST_FILTER_LIBS=Filtrar bibliotecas
+DL_LIBRARY_LIST_FILTER_ALL=Tudo
+DL_LIBRARY_LIST_FILTER_PERSONAL=Pessoal
+DL_LIBRARY_LIST_FILTER_SHARED=Compartilhado
+DL_LIBRARY_LIST_FILTER_TEAM=Armazenamento corporativo
+DL_LIBRARY_LIST_FILTER_PUBLIC=Público
+DL_LIBRARY_LIST_EMPTY_FILTER_VIEW_TITLE=Nenhuma biblioteca encontrada
+DL_LIBRARY_LIST_EMPTY_FILTER_VIEW_BODY=Não foi possível encontrar bibliotecas com base no seu filtro atual.
+DL_LIBRARY_LIST_EMPTY_FILTER_VIEW_CTA=Limpar filtro
+
+DL_LIBRARY_TOGGLE_VIEW=Alternar visualização
+
+DL_ARIA_LIBRARY_LIST_SORT_OPTIONS=Opções da biblioteca
+DL_ARIA_LIBRARY_LIST_TITLE=Lista de bibliotecas
+DL_ARIA_FILTER_BUTTON_ALL=Filtrar bibliotecas
+DL_ARIA_FILTER_OPTIONS=Opções de filtro
+DL_ARIA_FILTER_BUTTON_SELECTED=Filtrando por {{currentSelection}}
+
+DL_PUBLISH_LIBRARY_TITLE=Publicar biblioteca
+DL_PUBLISH_LIBRARY_CONFIRM=Publicar
+DL_PUBLISH_LIBRARY_FOLDER_PERSONAL=Pessoal
+
+DL_LIBRARY_MANAGER_TITLE=Bibliotecas
+DL_LIBRARY_MANAGER_SEARCH_INPUT_PLACEHOLDER=Pesquisar bibliotecas
+DL_LIBRARY_MANAGER_SEARCH_EMPTY_HEADING=Nenhum resultado foi encontrado
+DL_LIBRARY_MANAGER_SEARCH_EMPTY_DESCRIPTION=Não foi possível encontrar nenhum resultado para <b>{{searchText}}</b>.<br/>Verifique a ortografia ou tente ampliar a pesquisa.
+DL_LIBRARY_MANAGER_ACTION_HIDE_ALL=Desativar tudo
+DL_LIBRARY_MANAGER_ACTION_SHOW_ALL=Ativar tudo
+DL_LIBRARY_MANAGER_ACTION_CREATE_LIBRARY=Criar novo
+DL_LIBRARY_MANAGER_BROWSE_ORG=Procurar
+DL_LIBRARY_MANAGER_MANAGE=Gerenciar
+DL_LIBRARY_MANAGER_IMPORT_SKETCH=Converter biblioteca do Sketch
+DL_LIBRARY_MANAGER_SECTION_CURRENT_FILE=Arquivo atual
+DL_LIBRARY_MANAGER_SECTION_FILE_LIBRARIES=Usado neste arquivo
+DL_LIBRARY_MANAGER_SECTION_ALL_LIBRARIES=Todas as bibliotecas
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_PUBLISH=Publicar
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_UNPUBLISH=Desfazer publicação
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_UPDATE=Atualizar
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_SHARE=Compartilhar
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_UP_TO_DATE=Atualizado
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_PUBLISHING=Publicação...
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_PUBLISHING_PROGRESS=Enviando ({{percent}}%)
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_SAVING=Salvando...
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_EMPTY=Você não tem nenhum ativo de documento. Adicione ativos para publicar a biblioteca.
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_UPGRADE=Atualizar
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_UPGRADE_TITLE=Obter bibliotecas vinculadas ilimitadas
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_UPGRADE_BODY=Mantenha-se em sincronia e siga o estilo da sua equipe. Atualize para publicar bibliotecas vinculadas e usar outros recursos premium.
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_UPGRADE_TOAST=Mantenha-se em sincronia e siga o estilo da sua equipe. Atualize para publicar bibliotecas vinculadas e usar outros recursos premium.
+DL_UPGRADE_TOAST_LABEL=Atualizar
+DL_UPGRADE_TOAST_MESSAGE=Atualize para continuar publicando na sua biblioteca vinculada.
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_UPGRADE_TOOLTIP=Atualize para publicar bibliotecas vinculadas
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_READ_ONLY=Você não tem acesso de edição à biblioteca publicada a partir deste documento. Peça ao proprietário para lhe conceder acesso de edição.
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_OFFLINE=Indisponível enquanto estiver offline. Verifique sua conexão e tente novamente.
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_CLOUD_DOC_NOT_SYNCED=Este documento na nuvem deve ser sincronizado para que você possa publicar uma biblioteca vinculada.
+DL_LIBRARY_MANAGER_DOCUMENT_LIBRARY_COEDITOR_PUBLISHING=No momento, outro usuário está publicando a biblioteca vinculada deste documento.
+
+DL_SAVE_CLOUD_DOC_HEADING_SPRK=Salvar como um documento XD na nuvem
+DL_SAVE_CLOUD_DOC_MESSAGE=Para publicar como uma biblioteca da Creative Cloud, salve primeiro como um documento na nuvem. Em seguida, você também pode acessá-lo em vários dispositivos.
+DL_SAVE_CLOUD_DOC_CONFIRM=Continuar
+
+DL_NEW=Novo
+DL_CREATE_PUBLISH_CREATE_TITLE=Biblioteca vazia
+DL_CREATE_PUBLISH_CREATE_BULLET_1=Adicione ativos de qualquer aplicativo.
+DL_CREATE_PUBLISH_CREATE_BULLET_2=Os ativos não são vinculados de volta ao documento de origem original.
+DL_CREATE_PUBLISH_CREATE_MESSAGE=Os co

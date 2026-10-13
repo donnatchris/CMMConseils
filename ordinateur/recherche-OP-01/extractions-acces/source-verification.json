@@ -1,0 +1,214 @@
+[
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/config/SYSTEM",
+    "raw_not_copied": true
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/config/SOFTWARE",
+    "raw_not_copied": true
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Users/fintm/NTUSER.DAT",
+    "raw_not_copied": true
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Users/INVITES/NTUSER.DAT",
+    "raw_not_copied": true
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/INF/setupapi.dev.log",
+    "equal": true,
+    "sha256": "01ac3e6a11badeaa6b936b563e901599460c9fa5e16326722a3c665356ef97a2"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/appcompat/Programs/Amcache.hve",
+    "equal": true,
+    "sha256": "fd729d142679d8c911f5a99f27cbf1cd28b32ca7fc56eb002967a381178f3ac5"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/sru/SRUDB.dat",
+    "equal": true,
+    "sha256": "c9b018885e63662a9fc1b12d5b0d22d7e72fd28ba062fcb0fc782912a19f2d78"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Users/fintm/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine/ConsoleHost_history.txt",
+    "equal": true,
+    "sha256": "45317fdcbec02a5d3824d55f9114ce0cab011808ffcfda9f145cc6a2b7fdcdd6"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Users/fintm/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop.ini",
+    "equal": true,
+    "sha256": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Users/INVITES/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/desktop.ini",
+    "equal": true,
+    "sha256": "cdb11958506a5ba5478e22ed472fa3ae422fe9916d674f290207e1fc29ae5a76"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Application.evtx",
+    "equal": true,
+    "sha256": "2eaaf9cc73e22a86411cd462b74bccda25d3a692df4303c2ffa8c90c955f2b72"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "equal": true,
+    "sha256": "f3ba86966afa8a5cb19a519690a42a55a751cb9271103906afddd561342f7157"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Microsoft-Windows-PowerShell%4Admin.evtx",
+    "equal": true,
+    "sha256": "e3253734fa5b3fc75053e9e145af415857197465ed1ea4dc850ac0c719967b79"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Microsoft-Windows-PowerShell%4Operational.evtx",
+    "equal": true,
+    "sha256": "429219570f83163aa90523daa97dfbac74f7a0fb7af30db89090fbb81f01bb88"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Microsoft-Windows-SMBServer%4Security.evtx",
+    "equal": true,
+    "sha256": "cdb678b00a047be52e9bc1187dd3b767b6026db5f646983ed77aedaddf8d4ebc"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "equal": true,
+    "sha256": "338ccd40a6014193b858d27fd0187e74e36fd167abaec7c30be6807ecde66f1f"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Microsoft-Windows-SmbClient%4Security.evtx",
+    "equal": true,
+    "sha256": "0c79a6b776a49e2f0e6de0fb3715eb186c5f1997136d11da0392ed80245587ae"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx",
+    "equal": true,
+    "sha256": "89e06ef4ec0cb3ddc5cc8ac7d5231e18b9ddb900b330ea7f5f1dc911b6d2c006"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx",
+    "equal": true,
+    "sha256": "78103f3e52bfb2e0f53353995fc450aa9b6cae467f87c30bc3845d66c4f50a39"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Microsoft-Windows-WinRM%4Operational.evtx",
+    "equal": true,
+    "sha256": "3861a60a3105995a7e43bdcf6143fe74834e8b2728632af888538606daaa5562"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Microsoft-Windows-Windows Defender%4Operational.evtx",
+    "equal": true,
+    "sha256": "8239bb07d4d3ff0a1d2da04aaa31fcffbed60b210bbe106c3a9be442b07f585a"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Security.evtx",
+    "equal": true,
+    "sha256": "346c92fe0e9167427a0862618b2b17ee11a88edb3e4fac1f34c40f0a20437e5a"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/System.evtx",
+    "equal": true,
+    "sha256": "a0bcdff97baa1c11ac5c0355d9e02aa2db248616d0b72c333190c6c40025ba12"
+  },
+  {
+    "manifest": "sources.json",
+    "source": "Windows/System32/winevt/Logs/Windows PowerShell.evtx",
+    "equal": true,
+    "sha256": "d64e3ed54b820908662991f4e25d3400626f6dc7d80308aec237589243be5ba5"
+  },
+  {
+    "manifest": "additional/sources.json",
+    "source": "Windows/appcompat/Programs/Amcache.hve",
+    "equal": true,
+    "sha256": "fd729d142679d8c911f5a99f27cbf1cd28b32ca7fc56eb002967a381178f3ac5"
+  },
+  {
+    "manifest": "additional/sources.json",
+    "source": "Windows/System32/sru/SRUDB.dat",
+    "equal": true,
+    "sha256": "c9b018885e63662a9fc1b12d5b0d22d7e72fd28ba062fcb0fc782912a19f2d78"
+  },
+  {
+    "manifest": "followup-sources.json",
+    "source": "Windows/INF/setupapi.dev.20240130_130906.log",
+    "equal": true,
+    "sha256": "c7469d4102d6bcb33018ba6f3a4d16010e961332f5784d3b9a121a8b92de36d1"
+  },
+  {
+    "manifest": "followup-sources.json",
+    "source": "Windows/INF/setupapi.dev.20240319_220333.log",
+    "equal": true,
+    "sha256": "852f6b523eacabe8fa700f40dbb207f2f196e7d806165c35e16d58519742a17a"
+  },
+  {
+    "manifest": "followup-sources.json",
+    "source": "Windows/INF/setupapi.dev.20240614_021232.log",
+    "equal": true,
+    "sha256": "414ff4792df82ab0c9a865d00ea697e95dfb37937fdc0e0aa32da73c0af822c1"
+  },
+  {
+    "manifest": "followup-sources.json",
+    "source": "Windows/INF/setupapi.dev.20241203_223829.log",
+    "equal": true,
+    "sha256": "a429e5e9eccbf30a2e560ddf0be4b3cbf810cc0ac53ca3918aea66ca41570f77"
+  },
+  {
+    "manifest": "followup-sources.json",
+    "source": "Windows/INF/setupapi.dev.log",
+    "equal": true,
+    "sha256": "01ac3e6a11badeaa6b936b563e901599460c9fa5e16326722a3c665356ef97a2"
+  },
+  {
+    "manifest": "followup-sources.json",
+    "source": "Windows/INF/setupapi.offline.20220507_052432.log",
+    "equal": true,
+    "sha256": "81dd27d366e7481f025150a4c46faae9c95414df388caaa20a9055496599ecf6"
+  },
+  {
+    "manifest": "followup-sources.json",
+    "source": "Windows/INF/setupapi.offline.20230928_185527.log",
+    "equal": true,
+    "sha256": "09de0f44fc601973a2443fbfa30b9b196b5ddc4ec44e87a063b0fcaac3b61fa1"
+  },
+  {
+    "manifest": "followup-sources.json",
+    "source": "Windows/INF/setupapi.offline.log",
+    "equal": true,
+    "sha256": "3c547c0b8945ea48fab9fedee1f2447127413ae7fc15ab56a632f25dfd2ae402"
+  },
+  {
+    "manifest": "followup-sources.json",
+    "source": "Windows/INF/setupapi.setup.log",
+    "equal": true,
+    "sha256": "1df1cac22fe438dfdd35b143027580b50780c4065d2d9f92dfef52da5b59b3d6"
+  },
+  {
+    "manifest": "followup-sources.json",
+    "source": "Windows/INF/setupapi.upgrade.log",
+    "equal": true,
+    "sha256": "7edaa6f79148d821cdb9faacd477ea74669396d5f9863157e59aea2b161c208f"
+  }
+]

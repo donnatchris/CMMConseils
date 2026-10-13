@@ -1,0 +1,2927 @@
+[
+  {
+    "mft_index": 627984,
+    "sequence": 13,
+    "name": "System.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:37.845585+00:00",
+      "modification": "2023-09-28T16:40:26.072770+00:00",
+      "mft_change": "2023-09-28T16:40:26.072770+00:00",
+      "access": "2023-09-28T16:40:26.072770+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\System.evtx"
+    ],
+    "data_size": 13701120,
+    "extents": [
+      [
+        86679646208,
+        13701120,
+        0
+      ]
+    ],
+    "copied_size": 13701120,
+    "sha256": "33b1a00e6e059760e10795770393f16befcdb54f038725731b2e586c83d2b9ef",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 669277,
+    "sequence": 12,
+    "name": "Application.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:37.861207+00:00",
+      "modification": "2023-09-28T16:40:26.068674+00:00",
+      "mft_change": "2023-09-28T16:40:26.068674+00:00",
+      "access": "2023-09-28T16:40:26.068674+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Application.evtx"
+    ],
+    "data_size": 6361088,
+    "extents": [
+      [
+        66233126912,
+        6361088,
+        0
+      ]
+    ],
+    "copied_size": 6361088,
+    "sha256": "f72793b79384e34fca2adcfad5708743f5139a64f47b774b7b05c42e8942a571",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 669409,
+    "sequence": 12,
+    "name": "Security.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:37.876828+00:00",
+      "modification": "2023-09-28T16:40:26.054421+00:00",
+      "mft_change": "2023-09-28T16:40:26.054421+00:00",
+      "access": "2023-09-28T16:40:26.054421+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Security.evtx"
+    ],
+    "data_size": 20975616,
+    "extents": [
+      [
+        55883120640,
+        20975616,
+        0
+      ]
+    ],
+    "copied_size": 20975616,
+    "sha256": "b21bdae1cd7ccd47e8a281e2e83f8360ab0f6ca1ed0071cd2281d3a4b2ae927e",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 669463,
+    "sequence": 12,
+    "name": "HardwareEvents.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.204638+00:00",
+      "modification": "2022-10-08T01:26:17.363626+00:00",
+      "mft_change": "2022-10-08T01:26:17.363626+00:00",
+      "access": "2023-06-22T23:06:58.465609+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\HardwareEvents.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        2216554496,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "69e8b397a7609f1e2fefbc75cf8cebc3cb131106c3b9bdbc3e9dd94cb699be44",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 670680,
+    "sequence": 12,
+    "name": "IntelAudioServiceLog.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.204638+00:00",
+      "modification": "2022-10-08T01:26:17.359601+00:00",
+      "mft_change": "2022-10-08T01:26:17.359601+00:00",
+      "access": "2023-06-22T23:06:58.481201+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\IntelAudioServiceLog.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        2582704128,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "d2db983cc9d14983341a3db7855bbaf357a2c43e65085f104f6d81482f24cca9",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 670681,
+    "sequence": 12,
+    "name": "Microsoft-Windows-AppModel-Runtime%4Admin.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.220260+00:00",
+      "modification": "2023-09-28T16:40:26.069671+00:00",
+      "mft_change": "2023-09-28T16:40:26.069671+00:00",
+      "access": "2023-09-28T16:40:26.069671+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-AppModel-Runtime%4Admin.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        11273732096,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "ba2b540753523a5571be18d74a13a6d31e172fc20ca90b72d42f7fc04cabc93b",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 670682,
+    "sequence": 12,
+    "name": "Internet Explorer.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.220260+00:00",
+      "modification": "2022-10-08T01:26:17.359601+00:00",
+      "mft_change": "2022-10-08T01:26:17.359601+00:00",
+      "access": "2023-06-22T23:06:58.496836+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Internet Explorer.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        4148391936,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "532a8c777836194a7057994721de7758999b13718297aa9eba7fa2c0b31e5c4f",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 670683,
+    "sequence": 12,
+    "name": "iolo Applications.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.235884+00:00",
+      "modification": "2022-10-08T01:26:17.359601+00:00",
+      "mft_change": "2022-10-08T01:26:17.359601+00:00",
+      "access": "2023-06-22T23:06:58.496836+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\iolo Applications.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        4379185152,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "817feaef19b55fb7f4ce1892f8ffbb4c6a552e2578ccd0eb1137e76a6afa9651",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 670684,
+    "sequence": 12,
+    "name": "Key Management Service.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.235884+00:00",
+      "modification": "2022-10-08T01:26:17.359601+00:00",
+      "mft_change": "2022-10-08T01:26:17.359601+00:00",
+      "access": "2023-06-22T23:06:58.512444+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Key Management Service.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        4455428096,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "43456540a4c422ddda424a2ed948a880ae77cc4e032aa513f593c45df21abc83",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 670685,
+    "sequence": 12,
+    "name": "NordUpdate.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.251503+00:00",
+      "modification": "2023-09-28T16:40:26.004508+00:00",
+      "mft_change": "2023-09-28T16:40:26.004508+00:00",
+      "access": "2023-09-28T16:40:26.004508+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\NordUpdate.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        13787361280,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "5daba465d7ba2f813489ce36a42551b00c0f268c31568a75d9a5dd5d2cf71da4",
+    "file_signature_valid": true,
+    "chunk_signatures": [
+      4096,
+      69632,
+      135168,
+      200704,
+      266240,
+      331776,
+      397312
+    ],
+    "records": 749
+  },
+  {
+    "mft_index": 670686,
+    "sequence": 12,
+    "name": "OAlerts.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.251503+00:00",
+      "modification": "2023-09-28T16:40:26.003511+00:00",
+      "mft_change": "2023-09-28T16:40:26.003511+00:00",
+      "access": "2023-09-28T16:40:26.004508+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\OAlerts.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        35404701696,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "94671bad505f2feba34093041efd5fc0dc26d064645b17f985cd5233df218867",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 670687,
+    "sequence": 12,
+    "name": "OneApp_IGCC.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.282747+00:00",
+      "modification": "2023-09-28T16:40:26.003511+00:00",
+      "mft_change": "2023-09-28T16:40:26.003511+00:00",
+      "access": "2023-09-28T16:40:26.003511+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\OneApp_IGCC.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        4596883456,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "2f02265a56556db18778da5dca00e4a6d33bca0c8fae3b0bd6d7f7c3a5dc9dd5",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 670953,
+    "sequence": 12,
+    "name": "Windows PowerShell.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.298371+00:00",
+      "modification": "2023-09-28T16:40:26.003511+00:00",
+      "mft_change": "2023-09-28T16:40:26.003511+00:00",
+      "access": "2023-09-28T16:40:26.003511+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Windows PowerShell.evtx"
+    ],
+    "data_size": 1118208,
+    "extents": [
+      [
+        14326996992,
+        1118208,
+        0
+      ]
+    ],
+    "copied_size": 1118208,
+    "sha256": "df360a2b536163961b3f00b00f366e01cda1e47b25cc79d09af6a081196a32b0",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 670973,
+    "sequence": 13,
+    "name": "Microsoft-Windows-Kernel-Boot%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.313988+00:00",
+      "modification": "2023-01-13T09:17:06.072054+00:00",
+      "mft_change": "2023-01-13T09:17:06.072054+00:00",
+      "access": "2023-06-22T23:06:59.186906+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Kernel-Boot%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        5961170944,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "8fc93ec5adaf77ada05dffb0bf7de9fffd0cf4a61ae6cbed08ce9b0f122af03a",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 670977,
+    "sequence": 13,
+    "name": "Microsoft-Windows-TerminalServices-LocalSessionManager%4Admin.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.329610+00:00",
+      "modification": "2022-10-08T01:26:17.473559+00:00",
+      "mft_change": "2022-10-08T01:26:17.473559+00:00",
+      "access": "2023-06-22T23:06:59.359694+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-TerminalServices-LocalSessionManager%4Admin.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        6595854336,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "1ded7d18497bd8a72e931fe133b6825c9418f9786cafbfffe750e5e4802b509b",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677303,
+    "sequence": 11,
+    "name": "Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.345233+00:00",
+      "modification": "2023-09-28T16:40:26.060618+00:00",
+      "mft_change": "2023-09-28T16:40:26.060618+00:00",
+      "access": "2023-09-28T16:40:26.060618+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        13016711168,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "92a61e9a4b72a1ebc2abd428c6bbbab3010a67268765005b729df03751d1142a",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677304,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.360852+00:00",
+      "modification": "2023-09-28T16:40:26.051430+00:00",
+      "mft_change": "2023-09-28T16:40:26.051430+00:00",
+      "access": "2023-09-28T16:40:26.052426+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Kernel-PnP%4Configuration.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        13886390272,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "56c941c5483fcea3d404093a7de58cf532455a868a73bae29306e38f086204a0",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677315,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Kernel-PnP%4Driver Watchdog.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.376480+00:00",
+      "modification": "2022-11-30T11:08:10.189418+00:00",
+      "mft_change": "2022-11-30T11:08:10.189418+00:00",
+      "access": "2023-06-22T23:06:58.779392+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Kernel-PnP%4Driver Watchdog.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        6686826496,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "2483fb1f460a7bef1eb21ab5116c894bd39ab5352437dd9f391ec19d42e33818",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677316,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.392128+00:00",
+      "modification": "2023-09-28T16:40:26.052426+00:00",
+      "mft_change": "2023-09-28T16:40:26.052426+00:00",
+      "access": "2023-09-28T16:40:26.052426+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Kernel-PnP%4Device Management.evtx"
+    ],
+    "data_size": 1118208,
+    "extents": [
+      [
+        34121068544,
+        1118208,
+        0
+      ]
+    ],
+    "copied_size": 1118208,
+    "sha256": "0c8ab038f9f7f74ad4452dc423d806ee92ec478512d74b88ff73c8e8127f262b",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677317,
+    "sequence": 14,
+    "name": "Microsoft-Windows-UserPnp%4DeviceInstall.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.407716+00:00",
+      "modification": "2023-09-28T16:40:26.009496+00:00",
+      "mft_change": "2023-09-28T16:40:26.009496+00:00",
+      "access": "2023-09-28T16:40:26.009496+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-UserPnp%4DeviceInstall.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        6766501888,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "96ab9a0dd084beacb738cf2c947566cf1fa120ba185e73018a488f59cc500f1c",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677318,
+    "sequence": 11,
+    "name": "Microsoft-Windows-UserPnp%4ActionCenter.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.407716+00:00",
+      "modification": "2022-10-08T01:26:17.433831+00:00",
+      "mft_change": "2022-10-08T01:26:17.433831+00:00",
+      "access": "2023-09-25T10:22:39.939836+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-UserPnp%4ActionCenter.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        6792699904,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "7ffd31573ce743f6deb219d4ff5daaa747b3f61be265d1cc74dd3d98e88226dd",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677325,
+    "sequence": 12,
+    "name": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.423343+00:00",
+      "modification": "2023-09-28T16:40:26.052426+00:00",
+      "mft_change": "2023-09-28T16:40:26.052426+00:00",
+      "access": "2023-09-28T16:40:26.052426+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Wcmsvc%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        13942210560,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "802cd48b9fea3f092814e3e943272ad2f33b764a7d66da73bd4dbd7a1bc9a9a2",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677326,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Kernel-WHEA%4Errors.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.438962+00:00",
+      "modification": "2022-10-08T01:26:17.426135+00:00",
+      "mft_change": "2022-10-08T01:26:17.426135+00:00",
+      "access": "2023-06-22T23:06:59.234227+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Kernel-WHEA%4Errors.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        6839595008,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "4b404dabc65bc28b4d1930179c34326ba2353b3c28551a19a72762b667079356",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677328,
+    "sequence": 12,
+    "name": "Microsoft-Windows-Kernel-WHEA%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.454587+00:00",
+      "modification": "2023-09-28T16:40:26.025584+00:00",
+      "mft_change": "2023-09-28T16:40:26.025584+00:00",
+      "access": "2023-09-28T16:40:26.025584+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Kernel-WHEA%4Operational.evtx"
+    ],
+    "data_size": 1118208,
+    "extents": [
+      [
+        14435504128,
+        1118208,
+        0
+      ]
+    ],
+    "copied_size": 1118208,
+    "sha256": "ed36101c3fa3a72fd224f2e38defbbc6764d9a2a50f7532937e82fc4b44f75d1",
+    "file_signature_valid": false,
+    "chunk_signatures": [
+      12288,
+      77824,
+      143360,
+      208896,
+      274432,
+      339968
+    ],
+    "records": 560
+  },
+  {
+    "mft_index": 677329,
+    "sequence": 11,
+    "name": "Microsoft-WindowsPhone-Connectivity-WiFiConnSvc-Channel.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.470200+00:00",
+      "modification": "2022-10-08T01:26:17.433831+00:00",
+      "mft_change": "2022-10-08T01:26:17.433831+00:00",
+      "access": "2023-06-22T23:06:59.218149+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-WindowsPhone-Connectivity-WiFiConnSvc-Channel.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        7170830336,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "62a03be0950724878102735fbc285298a66d7f6f5b6b52171210facd52ccc89b",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677333,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Kernel-ShimEngine%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.485823+00:00",
+      "modification": "2023-09-28T16:40:26.025584+00:00",
+      "mft_change": "2023-09-28T16:40:26.025584+00:00",
+      "access": "2023-09-28T16:40:26.025584+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Kernel-ShimEngine%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        35652055040,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "f7544c88f4043aecbf76c873cdadcaf629191217a1f99eb4ffedd46dfa04a851",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677340,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Storage-Storport%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.532687+00:00",
+      "modification": "2023-09-28T16:40:26.055418+00:00",
+      "mft_change": "2023-09-28T16:40:26.055418+00:00",
+      "access": "2023-09-28T16:40:26.055418+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Storage-Storport%4Operational.evtx"
+    ],
+    "data_size": 2166784,
+    "extents": [
+      [
+        47362179072,
+        2166784,
+        0
+      ]
+    ],
+    "copied_size": 2166784,
+    "sha256": "1da0c16b15dd0411fb8af1a3b61e8717d6dcf235fa5eda5520732ba05ff7038b",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677341,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Storage-Storport%4Health.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.548312+00:00",
+      "modification": "2023-09-28T16:40:26.055418+00:00",
+      "mft_change": "2023-09-28T16:40:26.055418+00:00",
+      "access": "2023-09-28T16:40:26.055418+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Storage-Storport%4Health.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        9023873024,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "0e438dc11f1a417bd9a61adc44d1e9e2b50d4aa4cd4b216688b69c78cbb2658c",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677342,
+    "sequence": 11,
+    "name": "Microsoft-Windows-WMI-Activity%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.563933+00:00",
+      "modification": "2023-09-28T16:40:26.070669+00:00",
+      "mft_change": "2023-09-28T16:40:26.070669+00:00",
+      "access": "2023-09-28T16:40:26.070669+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-WMI-Activity%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        9144725504,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "66db8ffb05a9bcc1119c34489b01b5c97bdc4fe76c47046e6466f643c144fbed",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677343,
+    "sequence": 11,
+    "name": "Microsoft-Client-Licensing-Platform%4Admin.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.579558+00:00",
+      "modification": "2023-09-28T16:40:26.049435+00:00",
+      "mft_change": "2023-09-28T16:40:26.049435+00:00",
+      "access": "2023-09-28T16:40:26.049435+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Client-Licensing-Platform%4Admin.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        13975683072,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "35a37d5b7799f29338d8b1319b53526d8037f64803142beb9ce249098985595f",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677344,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Ntfs%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.610796+00:00",
+      "modification": "2023-09-28T16:40:26.056416+00:00",
+      "mft_change": "2023-09-28T16:40:26.056416+00:00",
+      "access": "2023-09-28T16:40:26.056416+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Ntfs%4Operational.evtx"
+    ],
+    "data_size": 7409664,
+    "extents": [
+      [
+        47364354048,
+        7409664,
+        0
+      ]
+    ],
+    "copied_size": 7409664,
+    "sha256": "f8aadf2d3da1b16490c3f9b87ca11bc6f22f273e11fd5fae03d7fb6c56b8581c",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677345,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Ntfs%4WHC.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.626415+00:00",
+      "modification": "2023-09-28T16:40:26.056416+00:00",
+      "mft_change": "2023-09-28T16:40:26.056416+00:00",
+      "access": "2023-09-28T16:40:26.056416+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Ntfs%4WHC.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        9092206592,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "44f5ea215b58505a704b8ae1111983266f3ed285267f33c43f917d0ba92f20fc",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677346,
+    "sequence": 11,
+    "name": "Microsoft-Windows-User Profile Service%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.642052+00:00",
+      "modification": "2023-09-28T16:40:26.042535+00:00",
+      "mft_change": "2023-09-28T16:40:26.042535+00:00",
+      "access": "2023-09-28T16:40:26.042535+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-User Profile Service%4Operational.evtx"
+    ],
+    "data_size": 1118208,
+    "extents": [
+      [
+        14562586624,
+        1118208,
+        0
+      ]
+    ],
+    "copied_size": 1118208,
+    "sha256": "727c2c158fb30fe82e8d8dea457b4a1eb4ead17544d8329255a2e6f079cc50d2",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677347,
+    "sequence": 11,
+    "name": "Microsoft-Windows-EnhancedStorage-EhStorClass%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.657657+00:00",
+      "modification": "2023-09-28T16:40:26.028573+00:00",
+      "mft_change": "2023-09-28T16:40:26.028573+00:00",
+      "access": "2023-09-28T16:40:26.028573+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-EnhancedStorage-EhStorClass%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14555394048,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "5a63acab96bbf3eb36f28c4ab8aada234d465e6e4d4a31f5ad2754c13771a21e",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677348,
+    "sequence": 11,
+    "name": "Microsoft-Windows-ReadyBoost%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.673281+00:00",
+      "modification": "2023-09-28T16:40:26.020466+00:00",
+      "mft_change": "2023-09-28T16:40:26.020466+00:00",
+      "access": "2023-09-28T16:40:26.020466+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-ReadyBoost%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        10775658496,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "d4ce3f21d63d7dcf53eb115eed42868de75d5c18a8d3700cd0ad2cc7554c2344",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677349,
+    "sequence": 11,
+    "name": "Microsoft-Windows-StorageSpaces-Driver%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.688899+00:00",
+      "modification": "2023-09-28T16:40:26.012487+00:00",
+      "mft_change": "2023-09-28T16:40:26.012487+00:00",
+      "access": "2023-09-28T16:40:26.012487+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-StorageSpaces-Driver%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        23684329472,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "c101ef605fb54dff473a8e99ce97c710e599683d02fb6392c5ce1abf5e8008aa",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677350,
+    "sequence": 11,
+    "name": "Microsoft-Windows-StorageSpaces-Driver%4Diagnostic.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.704550+00:00",
+      "modification": "2022-10-08T01:26:17.433831+00:00",
+      "mft_change": "2022-10-08T01:26:17.433831+00:00",
+      "access": "2023-06-22T23:06:59.532457+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-StorageSpaces-Driver%4Diagnostic.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        22495510528,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "b25f327142a1791b9428847afcf93e68e9fbab683208c025d13296d9b8990bb6",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677351,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Partition%4Diagnostic.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.720142+00:00",
+      "modification": "2023-09-28T16:40:26.023589+00:00",
+      "mft_change": "2023-09-28T16:40:26.023589+00:00",
+      "access": "2023-09-28T16:40:26.023589+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Partition%4Diagnostic.evtx"
+    ],
+    "data_size": 1118208,
+    "extents": [
+      [
+        29928812544,
+        1118208,
+        0
+      ]
+    ],
+    "copied_size": 1118208,
+    "sha256": "e42163abe0025523cc36ff887139054da759cecfd34278803d3c526785396717",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677352,
+    "sequence": 11,
+    "name": "Microsoft-Windows-VolumeSnapshot-Driver%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.735764+00:00",
+      "modification": "2023-09-28T16:40:26.009496+00:00",
+      "mft_change": "2023-09-28T16:40:26.009496+00:00",
+      "access": "2023-09-28T16:40:26.009496+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-VolumeSnapshot-Driver%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        32532131840,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "f7317b059e25046ff50706edf6f8aa64033412f5063b8ac429a125c19cdb40e4",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677353,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Kernel-Cache%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.751390+00:00",
+      "modification": "2023-09-28T16:40:26.042535+00:00",
+      "mft_change": "2023-09-28T16:40:26.042535+00:00",
+      "access": "2023-09-28T16:40:26.042535+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Kernel-Cache%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14057230336,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "a9393c996bc60e77189be52231116a7f3533a0c2f4d4b75a384cb0709219a868",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677354,
+    "sequence": 11,
+    "name": "Microsoft-Windows-CodeIntegrity%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.767010+00:00",
+      "modification": "2023-09-28T16:40:26.033559+00:00",
+      "mft_change": "2023-09-28T16:40:26.033559+00:00",
+      "access": "2023-09-28T16:40:26.033559+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-CodeIntegrity%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14060580864,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "394d865459abd2b9b90f33f35cacbb480ac2eb515115dcca3edfc166bd90c481",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677355,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Kernel-Power%4Thermal-Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.845113+00:00",
+      "modification": "2022-10-08T01:26:17.441852+00:00",
+      "mft_change": "2022-10-08T01:26:17.441852+00:00",
+      "access": "2023-06-22T23:06:59.045851+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Kernel-Power%4Thermal-Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        18551394304,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "f22c332a4f5aee22b060829f1454165ab76c78b3b9d4fe0ef8767408b98b9b5a",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677357,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Dhcp-Client%4Admin.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.891977+00:00",
+      "modification": "2023-09-28T16:40:26.042535+00:00",
+      "mft_change": "2023-09-28T16:40:26.042535+00:00",
+      "access": "2023-09-28T16:40:26.042535+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Dhcp-Client%4Admin.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        35737661440,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "69c21b6b3002b4e21f536fd53bc3dff219a5d1f2a52e23bcca1a7dc5b51b1d11",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677358,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Dhcpv6-Client%4Admin.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.907599+00:00",
+      "modification": "2023-09-28T16:40:26.070669+00:00",
+      "mft_change": "2023-09-28T16:40:26.070669+00:00",
+      "access": "2023-09-28T16:40:26.070669+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Dhcpv6-Client%4Admin.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        17524781056,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "22cad7b52305ca0c0a8fe73b5ce550e2c9af837ecb2bb26d9097ba1e182026bc",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677359,
+    "sequence": 11,
+    "name": "Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.923226+00:00",
+      "modification": "2023-09-28T16:40:26.045527+00:00",
+      "mft_change": "2023-09-28T16:40:26.045527+00:00",
+      "access": "2023-09-28T16:40:26.045527+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14226554880,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "282ad72a67527b7aca249c17177dfbd3f445c988369031c840789163fcf43448",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677360,
+    "sequence": 11,
+    "name": "Setup.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.938841+00:00",
+      "modification": "2023-09-28T16:40:26.046527+00:00",
+      "mft_change": "2023-09-28T16:40:26.046527+00:00",
+      "access": "2023-09-28T16:40:26.046527+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Setup.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        17422614528,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "2e098a0c58e157014842015677bad7e4de37b5423e652839a33601f6b85e6855",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677362,
+    "sequence": 12,
+    "name": "Microsoft-Windows-DeviceSetupManager%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.954462+00:00",
+      "modification": "2023-09-28T16:40:26.030568+00:00",
+      "mft_change": "2023-09-28T16:40:26.030568+00:00",
+      "access": "2023-09-28T16:40:26.030568+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-DeviceSetupManager%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        35760615424,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "4c57b40d2d9334f00a7c4d95bf33db2cf165705a80a9e880dcff55dad1603245",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677363,
+    "sequence": 12,
+    "name": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.970089+00:00",
+      "modification": "2023-09-28T16:40:26.031566+00:00",
+      "mft_change": "2023-09-28T16:40:26.031566+00:00",
+      "access": "2023-09-28T16:40:26.032562+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-DeviceSetupManager%4Admin.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14232289280,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "6b7ac6d0605e2c1166ab97f9c0ac9f4349198a3a0566579616a5474e429b81d9",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677364,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Containers-Wcifs%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.985710+00:00",
+      "modification": "2023-09-28T16:40:26.033559+00:00",
+      "mft_change": "2023-09-28T16:40:26.033559+00:00",
+      "access": "2023-09-28T16:40:26.033559+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Containers-Wcifs%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        15618162688,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "7976259e6caf9e20722eb3906bcb770fe75a04d3efea90a18d0af3a4eaf9a0bb",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677365,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Containers-BindFlt%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:39.985710+00:00",
+      "modification": "2023-09-28T16:40:26.033559+00:00",
+      "mft_change": "2023-09-28T16:40:26.033559+00:00",
+      "access": "2023-09-28T16:40:26.033559+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Containers-BindFlt%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        15407898624,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "70451915756edaff9551b29f9a25a9ca594c16b0a1abebb3fcf14d23f7ffbb6f",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677366,
+    "sequence": 12,
+    "name": "Microsoft-Windows-GroupPolicy%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:40.001328+00:00",
+      "modification": "2023-09-28T16:40:26.041538+00:00",
+      "mft_change": "2023-09-28T16:40:26.041538+00:00",
+      "access": "2023-09-28T16:40:26.041538+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-GroupPolicy%4Operational.evtx"
+    ],
+    "data_size": 3215360,
+    "extents": [
+      [
+        55543001088,
+        3215360,
+        0
+      ]
+    ],
+    "copied_size": 3215360,
+    "sha256": "3b85fbe20ee33f0bce93cb8ac4baea28f2ccc5e91cbdf369ca8e344da8e0fbc7",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677367,
+    "sequence": 13,
+    "name": "Microsoft-Windows-AAD%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:44.812691+00:00",
+      "modification": "2023-09-28T16:40:26.039544+00:00",
+      "mft_change": "2023-09-28T16:40:26.039544+00:00",
+      "access": "2023-09-28T16:40:26.039544+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-AAD%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        12411731968,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "86dfbc6f87ec57fb4e66a3109447d01df988ab2450a303795ca2948f7d19dfff",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677391,
+    "sequence": 11,
+    "name": "Microsoft-Windows-WebAuthN%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:42.828793+00:00",
+      "modification": "2023-09-28T16:40:26.008498+00:00",
+      "mft_change": "2023-09-28T16:40:26.008498+00:00",
+      "access": "2023-09-28T16:40:26.008498+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-WebAuthN%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        15238971392,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "92a0797f38cf071b6b69d543714c8119f35cfb82397231efc8f6ea89b0a81244",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677392,
+    "sequence": 11,
+    "name": "Microsoft-Windows-UniversalTelemetryClient%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:42.844404+00:00",
+      "modification": "2023-09-28T16:40:26.048519+00:00",
+      "mft_change": "2023-09-28T16:40:26.048519+00:00",
+      "access": "2023-09-28T16:40:26.048519+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-UniversalTelemetryClient%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14254686208,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "2c10db79c9a3d24435be1f0e1843fa17d92a8d5d4ab0d0ecce9a39c7428aace0",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677397,
+    "sequence": 11,
+    "name": "Microsoft-Windows-SMBServer%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:43.000617+00:00",
+      "modification": "2023-09-28T16:40:26.013484+00:00",
+      "mft_change": "2023-09-28T16:40:26.013484+00:00",
+      "access": "2023-09-28T16:40:26.013484+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-SMBServer%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        15194062848,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "78a5d3873264eab1d05f33341292fc82fb33c9ae0503b11c1c7cbfeaff262d24",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677399,
+    "sequence": 11,
+    "name": "Microsoft-Windows-SMBServer%4Security.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:43.000617+00:00",
+      "modification": "2022-10-08T01:26:17.457904+00:00",
+      "mft_change": "2022-10-08T01:26:17.457904+00:00",
+      "access": "2023-06-22T23:07:08.618018+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-SMBServer%4Security.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        14018617344,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "c32ab2ba49c2a94b1856f1858be3a16b0779fd8ce583725126d2e1fa6b98f009",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677403,
+    "sequence": 11,
+    "name": "Microsoft-Windows-SMBServer%4Connectivity.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:43.141212+00:00",
+      "modification": "2022-10-08T01:26:17.457904+00:00",
+      "mft_change": "2022-10-08T01:26:17.457904+00:00",
+      "access": "2023-06-22T23:07:08.618018+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-SMBServer%4Connectivity.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        13047537664,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "7917a7eb8e0e368316c9200afbab6d4e582ba31b6087a381a164e6deb4a310e2",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677404,
+    "sequence": 11,
+    "name": "Microsoft-Windows-SMBServer%4Audit.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:43.156831+00:00",
+      "modification": "2022-10-08T01:26:17.457904+00:00",
+      "mft_change": "2022-10-08T01:26:17.457904+00:00",
+      "access": "2023-06-22T23:07:08.618018+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-SMBServer%4Audit.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        13026406400,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "dcfc05b06e5317fa4ef04628aab3fbf7c1801577a3975d8304b4690b8f828397",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677437,
+    "sequence": 11,
+    "name": "Microsoft-Windows-StateRepository%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:46.968430+00:00",
+      "modification": "2023-09-28T16:40:26.057413+00:00",
+      "mft_change": "2023-09-28T16:40:26.057413+00:00",
+      "access": "2023-09-28T16:40:26.057413+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-StateRepository%4Operational.evtx"
+    ],
+    "data_size": 5246976,
+    "extents": [
+      [
+        58948759552,
+        5246976,
+        0
+      ]
+    ],
+    "copied_size": 5246976,
+    "sha256": "cc16a28bbe377c93a51dd5c016405ddf5ff5877e5fcdfd7e86dff342fdbfbf2d",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677438,
+    "sequence": 11,
+    "name": "Microsoft-Windows-StateRepository%4Restricted.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:46.968430+00:00",
+      "modification": "2022-10-08T01:26:17.457904+00:00",
+      "mft_change": "2022-10-08T01:26:17.457904+00:00",
+      "access": "2023-06-22T23:06:59.014119+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-StateRepository%4Restricted.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        7905705984,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "1be642d80a5b013c0ba95fc8e5362f7a770ff1d6e62bf83d66a76bbccb726a7b",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677456,
+    "sequence": 13,
+    "name": "Microsoft-Windows-Store%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:15:53.348486+00:00",
+      "modification": "2023-09-28T16:40:26.042535+00:00",
+      "mft_change": "2023-09-28T16:40:26.042535+00:00",
+      "access": "2023-09-28T16:40:26.042535+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Store%4Operational.evtx"
+    ],
+    "data_size": 20058112,
+    "extents": [
+      [
+        57916248064,
+        20058112,
+        0
+      ]
+    ],
+    "copied_size": 20058112,
+    "sha256": "406084a131f8b588e311dd205d3924d2a9c412c990479f5a3e2db33450e3cbfd",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677465,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Known Folders API Service.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:17.319868+00:00",
+      "modification": "2023-09-28T16:40:26.047522+00:00",
+      "mft_change": "2023-09-28T16:40:26.047522+00:00",
+      "access": "2023-09-28T16:40:26.047522+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Known Folders API Service.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        11436302336,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "19f50e8e38c37765c1c6ac4063107c854c7908044d17debf977e8843ce231758",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677473,
+    "sequence": 12,
+    "name": "Microsoft-Windows-WinRM%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:17:40.817297+00:00",
+      "modification": "2023-09-28T16:40:26.006503+00:00",
+      "mft_change": "2023-09-28T16:40:26.006503+00:00",
+      "access": "2023-09-28T16:40:26.006503+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-WinRM%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14297923584,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "600a01f2a42926b005a50d9246f387b8341369fc2a65c685cbc4b54fc8b7774e",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677505,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Application-Experience%4Program-Compatibility-Assistant.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:50.400773+00:00",
+      "modification": "2023-09-28T16:40:26.048519+00:00",
+      "mft_change": "2023-09-28T16:40:26.048519+00:00",
+      "access": "2023-09-28T16:40:26.048519+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Application-Experience%4Program-Compatibility-Assistant.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        9062068224,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "2b01e1131e7d1a9da655c7ddcfc55b3264fb2d73c4aeeb3d8dd680f3b77862cb",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677507,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Program-Compatibility-Assistant%4CompatAfterUpgrade.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:50.416398+00:00",
+      "modification": "2022-10-08T01:26:17.363626+00:00",
+      "mft_change": "2022-10-08T01:26:17.363626+00:00",
+      "access": "2023-06-22T23:07:41.218225+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Program-Compatibility-Assistant%4CompatAfterUpgrade.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        8237367296,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "7d91f72ce263a85c1c5d5a5a9b727b38a7510d1b71661fc921a3f158ec7cf6d4",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677516,
+    "sequence": 11,
+    "name": "Microsoft-Windows-AppXDeploymentServer%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:52.775212+00:00",
+      "modification": "2023-09-28T16:40:26.038546+00:00",
+      "mft_change": "2023-09-28T16:40:26.038546+00:00",
+      "access": "2023-09-28T16:40:26.038546+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-AppXDeploymentServer%4Operational.evtx"
+    ],
+    "data_size": 5246976,
+    "extents": [
+      [
+        34862870528,
+        5246976,
+        0
+      ]
+    ],
+    "copied_size": 5246976,
+    "sha256": "f3d5d80f72f7ff810c5e3abda81912ad3db52822e9a9af2299cb6d79f1eef1f8",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677519,
+    "sequence": 11,
+    "name": "Microsoft-Windows-AppXDeploymentServer%4Restricted.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:52.790827+00:00",
+      "modification": "2022-10-08T01:26:17.443879+00:00",
+      "mft_change": "2022-10-08T01:26:17.443879+00:00",
+      "access": "2023-06-22T23:08:53.919853+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-AppXDeploymentServer%4Restricted.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        7230074880,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "b0fc71770db3e4a038f89be16544f7a93308cf1c9ad61bdfaeed4a3ac7f9b9cc",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677522,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:53.712489+00:00",
+      "modification": "2023-09-28T16:40:26.040541+00:00",
+      "mft_change": "2023-09-28T16:40:26.040541+00:00",
+      "access": "2023-09-28T16:40:26.041538+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14351818752,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "8eb53a9163a2b0f2671f40cc912e63a6863825ba7a3038cc29f1e04c76626bde",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677523,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Windows Firewall With Advanced Security%4ConnectionSecurity.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:53.712489+00:00",
+      "modification": "2022-10-08T01:26:17.363626+00:00",
+      "mft_change": "2022-10-08T01:26:17.363626+00:00",
+      "access": "2023-06-22T23:06:58.653957+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Windows Firewall With Advanced Security%4ConnectionSecurity.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        5633052672,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "731245d4b2ae498ed02ac0ad34b3ba4b91b929e8ead9d1ceef890d14ece97448",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677525,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Windows Firewall With Advanced Security%4FirewallDiagnostics.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:53.728113+00:00",
+      "modification": "2023-09-28T16:40:26.041538+00:00",
+      "mft_change": "2023-09-28T16:40:26.041538+00:00",
+      "access": "2023-09-28T16:40:26.041538+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Windows Firewall With Advanced Security%4FirewallDiagnostics.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        7811719168,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "ceb7af5c9cc31e7a005f06181f04f80db0b0d8e297cf1f6aebee86e8a1eba077",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677534,
+    "sequence": 11,
+    "name": "Microsoft-Windows-AppxPackaging%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:55.087163+00:00",
+      "modification": "2023-09-28T16:40:26.038546+00:00",
+      "mft_change": "2023-09-28T16:40:26.038546+00:00",
+      "access": "2023-09-28T16:40:26.038546+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-AppxPackaging%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14512209920,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "eb1f4e9662d96248979667f2210b209d165ab992c5359f9d177b8ff744fbeacb",
+    "file_signature_valid": false,
+    "chunk_signatures": [
+      0,
+      65536,
+      131072,
+      196608,
+      262144,
+      327680,
+      393216,
+      458752,
+      524288,
+      589824,
+      655360,
+      720896,
+      786432,
+      851968,
+      917504,
+      983040
+    ],
+    "records": 2358
+  },
+  {
+    "mft_index": 677541,
+    "sequence": 14,
+    "name": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:58.367639+00:00",
+      "modification": "2023-09-28T16:40:26.020466+00:00",
+      "mft_change": "2023-09-28T16:40:26.020466+00:00",
+      "access": "2023-09-28T16:40:26.020466+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Security-Mitigations%4KernelMode.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14563885056,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "b37cfbb957486833a9d0177701d055b355b502daa2e7ac126fd6a1b22506cd54",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677542,
+    "sequence": 11,
+    "name": "Microsoft-Windows-Security-Mitigations%4UserMode.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:58.383285+00:00",
+      "modification": "2022-10-08T01:26:17.379274+00:00",
+      "mft_change": "2022-10-08T01:26:17.379274+00:00",
+      "access": "2023-06-22T23:07:08.460871+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Security-Mitigations%4UserMode.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        2450210816,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "bc8fbd4a48236eaac4c7ef3bfd13b168805de5b5baf22377307af5ab2978554c",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677543,
+    "sequence": 12,
+    "name": "Microsoft-Windows-AppReadiness%4Admin.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:58.398882+00:00",
+      "modification": "2023-09-28T16:40:26.039544+00:00",
+      "mft_change": "2023-09-28T16:40:26.039544+00:00",
+      "access": "2023-09-28T16:40:26.039544+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-AppReadiness%4Admin.evtx"
+    ],
+    "data_size": 3215360,
+    "extents": [
+      [
+        55980224512,
+        3215360,
+        0
+      ]
+    ],
+    "copied_size": 3215360,
+    "sha256": "4d38677e73c3f92fb83bf07655872f36d77e5260b263d85984519e4c04b264bb",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 677544,
+    "sequence": 11,
+    "name": "Microsoft-Windows-AppReadiness%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:16:58.414502+00:00",
+      "modification": "2023-09-28T16:40:26.039544+00:00",
+      "mft_change": "2023-09-28T16:40:26.039544+00:00",
+      "access": "2023-09-28T16:40:26.039544+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-AppReadiness%4Operational.evtx"
+    ],
+    "data_size": 1118208,
+    "extents": [
+      [
+        14645764096,
+        1118208,
+        0
+      ]
+    ],
+    "copied_size": 1118208,
+    "sha256": "9bdc15251dc3a1efc27ec765a258df561496841a713e2b0b1afcd598a1d91501",
+    "file_signature_valid": false,
+    "chunk_signatures": [
+      8192,
+      73728,
+      139264,
+      204800,
+      270336,
+      335872,
+      401408,
+      466944
+    ],
+    "records": 870
+  },
+  {
+    "mft_index": 696364,
+    "sequence": 10,
+    "name": "Microsoft-Windows-CoreSystem-SmsRouter-Events%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T11:51:58.508342+00:00",
+      "modification": "2022-11-30T11:08:10.173797+00:00",
+      "mft_change": "2022-11-30T11:08:10.173797+00:00",
+      "access": "2023-06-06T18:30:12.546083+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-CoreSystem-SmsRouter-Events%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        4998348800,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "61077d5d9c2dbe30e780f674c71bbe0c5d1ade04010290475c5c3cac4ef2a7d3",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 926881,
+    "sequence": 8,
+    "name": "Microsoft-Windows-Audio%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:18:36.355204+00:00",
+      "modification": "2023-07-03T11:02:18.654787+00:00",
+      "mft_change": "2023-07-03T11:02:18.654787+00:00",
+      "access": "2023-07-03T11:02:18.654787+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Audio%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        27559669760,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "eec8a370cca80ebb3b1c169fda29b21eba4fb120e2014439df4c4970b014ad26",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 926885,
+    "sequence": 8,
+    "name": "Microsoft-Windows-WER-Diag%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:18:31.165438+00:00",
+      "modification": "2023-09-28T16:40:26.008498+00:00",
+      "mft_change": "2023-09-28T16:40:26.008498+00:00",
+      "access": "2023-09-28T16:40:26.008498+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-WER-Diag%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        20083093504,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "27f4151abccb0effd9dfebd97d4c9b8103026ec4103df7dbb9d57d5200bf3b3b",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 926890,
+    "sequence": 6,
+    "name": "Microsoft-Windows-Audio%4CaptureMonitor.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:18:36.370832+00:00",
+      "modification": "2022-10-08T01:26:17.379274+00:00",
+      "mft_change": "2022-10-08T01:26:17.379274+00:00",
+      "access": "2023-07-03T11:02:18.654787+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Audio%4CaptureMonitor.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        17494532096,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "73c93197164e3ad4f766d7804b9ddb137c2de357441937fc4063c2a054cc1930",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 926891,
+    "sequence": 6,
+    "name": "Microsoft-Windows-Audio%4PlaybackManager.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:18:36.370832+00:00",
+      "modification": "2023-09-28T16:40:26.035554+00:00",
+      "mft_change": "2023-09-28T16:40:26.035554+00:00",
+      "access": "2023-09-28T16:40:26.036551+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Audio%4PlaybackManager.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        15631056896,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "aa478e57e8f0836474b436e36e8b59e0423808cbac15ca6bcb319fd3b2c6e6ba",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 926894,
+    "sequence": 6,
+    "name": "Microsoft-Windows-HelloForBusiness%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:18:37.605740+00:00",
+      "modification": "2023-09-28T16:40:26.026578+00:00",
+      "mft_change": "2023-09-28T16:40:26.026578+00:00",
+      "access": "2023-09-28T16:40:26.026578+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-HelloForBusiness%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        32805298176,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "eba974313e721bc8b7cc5a636d2e02a9664b45d6734422155bd3d77bd571233a",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 929240,
+    "sequence": 6,
+    "name": "Microsoft-Windows-Resource-Exhaustion-Detector%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T01:25:44.181307+00:00",
+      "modification": "2023-09-28T16:40:26.020466+00:00",
+      "mft_change": "2023-09-28T16:40:26.020466+00:00",
+      "access": "2023-09-28T16:40:26.020466+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Resource-Exhaustion-Detector%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        18850066432,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "dfd6096cd86d2357eb3e7142e9ddb8a70260efb649167c7ea66c1766a57f704e",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931049,
+    "sequence": 5,
+    "name": "Microsoft-Windows-User Device Registration%4Admin.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:01.479111+00:00",
+      "modification": "2023-09-28T16:40:26.010492+00:00",
+      "mft_change": "2023-09-28T16:40:26.010492+00:00",
+      "access": "2023-09-28T16:40:26.010492+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-User Device Registration%4Admin.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        35042717696,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "50c23bc93db70ae187afa59d6808876ca4f6e9a9d149b724dc049caaa4a27190",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931057,
+    "sequence": 5,
+    "name": "Microsoft-Windows-Windows Defender%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:01.855609+00:00",
+      "modification": "2023-09-28T16:40:26.007500+00:00",
+      "mft_change": "2023-09-28T16:40:26.007500+00:00",
+      "access": "2023-09-28T16:40:26.007500+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Windows Defender%4Operational.evtx"
+    ],
+    "data_size": 1118208,
+    "extents": [
+      [
+        35202281472,
+        1118208,
+        0
+      ]
+    ],
+    "copied_size": 1118208,
+    "sha256": "7dfa07b8365d12fc214e39934782adf953f041d7c24451e01e3bd8c3344e60a1",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931058,
+    "sequence": 5,
+    "name": "Microsoft-Windows-Windows Defender%4WHC.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:01.855609+00:00",
+      "modification": "2022-10-08T10:54:02.122390+00:00",
+      "mft_change": "2022-10-08T10:54:02.122390+00:00",
+      "access": "2023-09-25T10:22:39.871621+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Windows Defender%4WHC.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        10001686528,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "b342ed8db2c8e542f5dddd267dc61e5ac84532f35c2955de387f8a24df8a9ec7",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931074,
+    "sequence": 5,
+    "name": "Microsoft-Windows-TaskScheduler%4Maintenance.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:02.898003+00:00",
+      "modification": "2023-09-28T16:40:26.011490+00:00",
+      "mft_change": "2023-09-28T16:40:26.011490+00:00",
+      "access": "2023-09-28T16:40:26.011490+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-TaskScheduler%4Maintenance.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        35500650496,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "3989ac732a8a1fd8c538cf022c8ae8f7d92439913a39b54a6d113bbcb024bb78",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931077,
+    "sequence": 5,
+    "name": "Microsoft-Windows-Kernel-StoreMgr%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:02.976234+00:00",
+      "modification": "2022-11-30T11:08:10.158176+00:00",
+      "mft_change": "2022-11-30T11:08:10.158176+00:00",
+      "access": "2023-06-22T23:07:01.948828+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Kernel-StoreMgr%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        9636745216,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "77715dc1e44807939347fa8aed6de89a29f10f6e3340da61c9685a0e555dcf07",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931114,
+    "sequence": 10,
+    "name": "Microsoft-Windows-SMBClient%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:03.980136+00:00",
+      "modification": "2022-11-30T11:08:10.142554+00:00",
+      "mft_change": "2022-11-30T11:08:10.142554+00:00",
+      "access": "2023-06-22T23:06:58.544150+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-SMBClient%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        10071371776,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "ee68c85acefc013ccad8a1d80074f0324f70ae482c627a6522c6799bc8068908",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931115,
+    "sequence": 5,
+    "name": "Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:03.980136+00:00",
+      "modification": "2023-09-28T16:40:26.046527+00:00",
+      "mft_change": "2023-09-28T16:40:26.046527+00:00",
+      "access": "2023-09-28T16:40:26.046527+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-SmbClient%4Connectivity.evtx"
+    ],
+    "data_size": 2166784,
+    "extents": [
+      [
+        47324835840,
+        2166784,
+        0
+      ]
+    ],
+    "copied_size": 2166784,
+    "sha256": "24eb71d45a331dca6f3b692be3b2911e6c4d9843a1f74b7e41f7d6ed7bfd0eb2",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931116,
+    "sequence": 5,
+    "name": "Microsoft-Windows-SmbClient%4Security.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:03.980136+00:00",
+      "modification": "2023-09-28T16:40:26.046527+00:00",
+      "mft_change": "2023-09-28T16:40:26.046527+00:00",
+      "access": "2023-09-28T16:40:26.046527+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-SmbClient%4Security.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        10149408768,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "9c803fe221d976802bd2577937a1249d2d0bf8a88996936112414febaf8b347a",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931117,
+    "sequence": 5,
+    "name": "Microsoft-Windows-SmbClient%4Audit.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:03.980136+00:00",
+      "modification": "2022-11-30T11:08:10.142554+00:00",
+      "mft_change": "2022-11-30T11:08:10.142554+00:00",
+      "access": "2023-06-22T23:06:58.606635+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-SmbClient%4Audit.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        10201989120,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "5bfd273b4d09c02964ea9dab1776ec6d0a40897fef07dfe087d9f1d08de9c428",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931121,
+    "sequence": 5,
+    "name": "Microsoft-Windows-WindowsUpdateClient%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:04.074375+00:00",
+      "modification": "2023-09-28T16:40:26.050431+00:00",
+      "mft_change": "2023-09-28T16:40:26.050431+00:00",
+      "access": "2023-09-28T16:40:26.050431+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-WindowsUpdateClient%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14344036352,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "fffdc773daa21a84f88782729953075c64ae79cbf9a74387107688f9031aef8f",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931396,
+    "sequence": 5,
+    "name": "Microsoft-Windows-Shell-Core%4ActionCenter.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:09.766440+00:00",
+      "modification": "2022-11-30T11:08:10.173797+00:00",
+      "mft_change": "2022-11-30T11:08:10.173797+00:00",
+      "access": "2023-06-22T23:09:00.317460+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Shell-Core%4ActionCenter.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        7097942016,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "983399b27217f9f0be88366fc64ccdfe190f4ec991814da0e4d87e0a4c252909",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931397,
+    "sequence": 5,
+    "name": "Microsoft-Windows-Shell-Core%4AppDefaults.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:09.767437+00:00",
+      "modification": "2023-09-28T16:40:26.018471+00:00",
+      "mft_change": "2023-09-28T16:40:26.018471+00:00",
+      "access": "2023-09-28T16:40:26.018471+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Shell-Core%4AppDefaults.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        15038787584,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "08094978ed7ccae5c0896e04487e50ee68bd2d7fb478bdbef1dd2675e73b9f68",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931398,
+    "sequence": 5,
+    "name": "Microsoft-Windows-Shell-Core%4LogonTasksChannel.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:09.769570+00:00",
+      "modification": "2022-11-30T11:08:10.173797+00:00",
+      "mft_change": "2022-11-30T11:08:10.173797+00:00",
+      "access": "2023-06-22T23:09:00.867015+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Shell-Core%4LogonTasksChannel.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        7198359552,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "80d8d3949cffb657c066cd1cf8445b6507a8c72c69cdce7067fe7b80468c799e",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931399,
+    "sequence": 5,
+    "name": "Microsoft-Windows-AppXDeployment%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:09.777549+00:00",
+      "modification": "2023-09-28T16:40:26.038546+00:00",
+      "mft_change": "2023-09-28T16:40:26.038546+00:00",
+      "access": "2023-09-28T16:40:26.038546+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-AppXDeployment%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14762852352,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "b05bc45145dba8854cc608036e843b2f97ebe8c8bf6260f1a9106d99f5476638",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931459,
+    "sequence": 5,
+    "name": "Microsoft-Windows-Biometrics%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:38.978381+00:00",
+      "modification": "2023-09-28T16:40:26.034556+00:00",
+      "mft_change": "2023-09-28T16:40:26.034556+00:00",
+      "access": "2023-09-28T16:40:26.034556+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Biometrics%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14826246144,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "82aa64b71f9b67339a5ce275a11ef0f53f528549f3c5e764e3cc72c4f54a6f1b",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931476,
+    "sequence": 5,
+    "name": "Microsoft-Windows-Crypto-NCrypt%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:40.333179+00:00",
+      "modification": "2023-09-28T16:40:26.045527+00:00",
+      "mft_change": "2023-09-28T16:40:26.045527+00:00",
+      "access": "2023-09-28T16:40:26.045527+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Crypto-NCrypt%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14918270976,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "de4a4d1297b8251a9c3d24957878576403f39ff10508da340503c760ef356495",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931487,
+    "sequence": 5,
+    "name": "Microsoft-Windows-Crypto-DPAPI%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:41.178090+00:00",
+      "modification": "2023-09-28T16:40:26.033559+00:00",
+      "mft_change": "2023-09-28T16:40:26.033559+00:00",
+      "access": "2023-09-28T16:40:26.033559+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Crypto-DPAPI%4Operational.evtx"
+    ],
+    "data_size": 1052672,
+    "extents": [
+      [
+        14978228224,
+        1052672,
+        0
+      ]
+    ],
+    "copied_size": 1052672,
+    "sha256": "e19ef07c99825269ef3b3f499c489a463b948de5897380f6bc0e15a571d17117",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 931488,
+    "sequence": 5,
+    "name": "Microsoft-Windows-Crypto-DPAPI%4BackUpKeySvc.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T10:54:41.182079+00:00",
+      "modification": "2022-11-30T11:08:10.173797+00:00",
+      "mft_change": "2022-11-30T11:08:10.173797+00:00",
+      "access": "2023-06-22T23:08:51.138961+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Crypto-DPAPI%4BackUpKeySvc.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        10411122688,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "acbb2a26a050a12fd5e944efc5ead091ee290150325702c3279dbdc2f6bf7860",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 937095,
+    "sequence": 5,
+    "name": "Microsoft-Windows-WPD-ClassInstaller%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T15:12:31.144829+00:00",
+      "modification": "2022-11-30T11:08:10.126933+00:00",
+      "mft_change": "2022-11-30T11:08:10.126933+00:00",
+      "access": "2023-09-21T18:09:36.405678+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-WPD-ClassInstaller%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        18268651520,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "e7eff43115f0cd1b29f676164a4f4829cd93b15a3ca6617b28788bf8c1f238f0",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 937096,
+    "sequence": 6,
+    "name": "Microsoft-Windows-Storage-ClassPnP%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-08T15:12:35.188856+00:00",
+      "modification": "2023-09-28T16:40:26.012487+00:00",
+      "mft_change": "2023-09-28T16:40:26.012487+00:00",
+      "access": "2023-09-28T16:40:26.012487+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-Storage-ClassPnP%4Operational.evtx"
+    ],
+    "data_size": 1118208,
+    "extents": [
+      [
+        25365950464,
+        1118208,
+        0
+      ]
+    ],
+    "copied_size": 1118208,
+    "sha256": "69b49b1a5e3d16d63240079c145c90a480a00d83e808ea4f4f3a7101986bc4f3",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  },
+  {
+    "mft_index": 960977,
+    "sequence": 3,
+    "name": "Microsoft-Windows-RestartManager%4Operational.evtx",
+    "record_allocated": false,
+    "SI": {
+      "creation": "2022-10-10T16:55:16.820259+00:00",
+      "modification": "2022-11-30T11:08:10.142554+00:00",
+      "mft_change": "2022-11-30T11:08:10.142554+00:00",
+      "access": "2023-06-23T18:03:12.338379+00:00"
+    },
+    "reconstructed_paths": [
+      "[parent MFT 481852 inconnu]\\Microsoft-Windows-RestartManager%4Operational.evtx"
+    ],
+    "data_size": 69632,
+    "extents": [
+      [
+        13695299584,
+        69632,
+        0
+      ]
+    ],
+    "copied_size": 69632,
+    "sha256": "54d491a315854f3725bd09e8220dea048a80fb5e65cead72071f731f2f8b8a2e",
+    "file_signature_valid": false,
+    "chunk_signatures": [],
+    "records": 0
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "hive": "SOFTWARE",
+    "sha256": "67acaa9245925627e0248a9a2095704d1e46275fe36a3bc021aabc561726287d",
+    "patterns": {
+      "filetime_le": {
+        "hex": "2f1960a17e1fdb01",
+        "offsets": []
+      },
+      "iso_ascii": {
+        "hex": "323032342d31302d31365430333a35313a3037",
+        "offsets": []
+      },
+      "iso_utf16le": {
+        "hex": "32003000320034002d00310030002d00310036005400300033003a00350031003a0030003700",
+        "offsets": []
+      }
+    }
+  },
+  {
+    "hive": "SYSTEM",
+    "sha256": "b034c34ee958c5f79386a17b4ca754be3fb4007b8295aeec06781ff016cbac9d",
+    "patterns": {
+      "filetime_le": {
+        "hex": "2f1960a17e1fdb01",
+        "offsets": []
+      },
+      "iso_ascii": {
+        "hex": "323032342d31302d31365430333a35313a3037",
+        "offsets": []
+      },
+      "iso_utf16le": {
+        "hex": "32003000320034002d00310030002d00310036005400300033003a00350031003a0030003700",
+        "offsets": []
+      }
+    }
+  }
+]

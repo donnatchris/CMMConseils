@@ -1,0 +1,261 @@
+[
+  {
+    "mounteddevices_name": "\\??\\Volume{b0643ceb-9537-11ef-8dc8-50e08563415f}",
+    "device_utf16": "_??_USBSTOR#Disk&Ven_Kingston&Prod_DataTraveler_3.0&Rev_#E0D55EA493C4F3A178B11467&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}",
+    "raw_hex": "5f003f003f005f00550053004200530054004f00520023004400690073006b002600560065006e005f004b0069006e006700730074006f006e002600500072006f0064005f004400610074006100540072006100760065006c00650072005f0033002e00300026005200650076005f0023004500300044003500350045004100340039003300430034004600330041003100370038004200310031003400360037002600300023007b00350033006600350036003300300037002d0062003600620066002d0031003100640030002d0039003400660032002d003000300061003000630039003100650066006200380062007d00",
+    "mountpoints_keys": [
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643ceb-9537-11ef-8dc8-50e08563415f}",
+        "lastwrite_utc": "2024-10-28 16:14:53.312064",
+        "values": []
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643ceb-9537-11ef-8dc8-50e08563415f}\\shell",
+        "lastwrite_utc": "2024-10-28 16:14:53.312064",
+        "values": [
+          {
+            "name": null,
+            "type": 1,
+            "hex": "4e006f006e0065000000",
+            "decoded": "None"
+          }
+        ]
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643ceb-9537-11ef-8dc8-50e08563415f}\\shell\\Autoplay",
+        "lastwrite_utc": "2024-10-28 16:14:53.312064",
+        "values": [
+          {
+            "name": "MUIVerb",
+            "type": 1,
+            "hex": "40007300680065006c006c00330032002e0064006c006c002c002d0038003500300037000000",
+            "decoded": "@shell32.dll,-8507"
+          }
+        ]
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643ceb-9537-11ef-8dc8-50e08563415f}\\shell\\Autoplay\\DropTarget",
+        "lastwrite_utc": "2024-10-28 16:14:53.312064",
+        "values": [
+          {
+            "name": "CLSID",
+            "type": 1,
+            "hex": "7b00460032003600410036003600390041002d0042004300420042002d0034004500330037002d0041004200460039002d003700330032003500440041003100350046003900330031007d000000",
+            "decoded": "{F26A669A-BCBB-4E37-ABF9-7325DA15F931}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mounteddevices_name": "\\??\\Volume{b0643e9f-9537-11ef-8dc8-50e08563415f}",
+    "device_utf16": "_??_USBSTOR#Disk&Ven_Kingston&Prod_DataTraveler_3.0&Rev_PMAP#E0D55EA49333E49089B402AD&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}",
+    "raw_hex": "5f003f003f005f00550053004200530054004f00520023004400690073006b002600560065006e005f004b0069006e006700730074006f006e002600500072006f0064005f004400610074006100540072006100760065006c00650072005f0033002e00300026005200650076005f0050004d004100500023004500300044003500350045004100340039003300330033004500340039003000380039004200340030003200410044002600300023007b00350033006600350036003300300037002d0062003600620066002d0031003100640030002d0039003400660032002d003000300061003000630039003100650066006200380062007d00",
+    "mountpoints_keys": [
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643e9f-9537-11ef-8dc8-50e08563415f}",
+        "lastwrite_utc": "2024-10-28 16:13:23.718048",
+        "values": []
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643e9f-9537-11ef-8dc8-50e08563415f}\\shell",
+        "lastwrite_utc": "2024-10-28 16:13:23.718048",
+        "values": [
+          {
+            "name": null,
+            "type": 1,
+            "hex": "4e006f006e0065000000",
+            "decoded": "None"
+          }
+        ]
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643e9f-9537-11ef-8dc8-50e08563415f}\\shell\\Autoplay",
+        "lastwrite_utc": "2024-10-28 16:13:23.718048",
+        "values": [
+          {
+            "name": "MUIVerb",
+            "type": 1,
+            "hex": "40007300680065006c006c00330032002e0064006c006c002c002d0038003500300037000000",
+            "decoded": "@shell32.dll,-8507"
+          }
+        ]
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643e9f-9537-11ef-8dc8-50e08563415f}\\shell\\Autoplay\\DropTarget",
+        "lastwrite_utc": "2024-10-28 16:13:23.718048",
+        "values": [
+          {
+            "name": "CLSID",
+            "type": 1,
+            "hex": "7b00460032003600410036003600390041002d0042004300420042002d0034004500330037002d0041004200460039002d003700330032003500440041003100350046003900330031007d000000",
+            "decoded": "{F26A669A-BCBB-4E37-ABF9-7325DA15F931}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mounteddevices_name": "\\??\\Volume{b0643fa4-9537-11ef-8dc8-50e08563415f}",
+    "device_utf16": "_??_USBSTOR#Disk&Ven_Kingston&Prod_DataTraveler_3.0&Rev_#0026188879D7F250D72E0E88&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}",
+    "raw_hex": "5f003f003f005f00550053004200530054004f00520023004400690073006b002600560065006e005f004b0069006e006700730074006f006e002600500072006f0064005f004400610074006100540072006100760065006c00650072005f0033002e00300026005200650076005f0023003000300032003600310038003800380037003900440037004600320035003000440037003200450030004500380038002600300023007b00350033006600350036003300300037002d0062003600620066002d0031003100640030002d0039003400660032002d003000300061003000630039003100650066006200380062007d00",
+    "mountpoints_keys": [
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643fa4-9537-11ef-8dc8-50e08563415f}",
+        "lastwrite_utc": "2024-10-28 16:14:52.046929",
+        "values": []
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643fa4-9537-11ef-8dc8-50e08563415f}\\shell",
+        "lastwrite_utc": "2024-10-28 16:14:52.046929",
+        "values": [
+          {
+            "name": null,
+            "type": 1,
+            "hex": "4e006f006e0065000000",
+            "decoded": "None"
+          }
+        ]
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643fa4-9537-11ef-8dc8-50e08563415f}\\shell\\Autoplay",
+        "lastwrite_utc": "2024-10-28 16:14:52.046929",
+        "values": [
+          {
+            "name": "MUIVerb",
+            "type": 1,
+            "hex": "40007300680065006c006c00330032002e0064006c006c002c002d0038003500300037000000",
+            "decoded": "@shell32.dll,-8507"
+          }
+        ]
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b0643fa4-9537-11ef-8dc8-50e08563415f}\\shell\\Autoplay\\DropTarget",
+        "lastwrite_utc": "2024-10-28 16:14:52.046929",
+        "values": [
+          {
+            "name": "CLSID",
+            "type": 1,
+            "hex": "7b00460032003600410036003600390041002d0042004300420042002d0034004500330037002d0041004200460039002d003700330032003500440041003100350046003900330031007d000000",
+            "decoded": "{F26A669A-BCBB-4E37-ABF9-7325DA15F931}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mounteddevices_name": "\\??\\Volume{b06440d5-9537-11ef-8dc8-50e08563415f}",
+    "device_utf16": "\\??\\SCSI#CdRom&Ven_WD&Prod_Virtual_CD_264F#6&14b1473&0&000001#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}",
+    "raw_hex": "5c003f003f005c00530043005300490023004300640052006f006d002600560065006e005f00570044002600500072006f0064005f005600690072007400750061006c005f00430044005f003200360034004600230036002600310034006200310034003700330026003000260030003000300030003000310023007b00350033006600350036003300300064002d0062003600620066002d0031003100640030002d0039003400660032002d003000300061003000630039003100650066006200380062007d00",
+    "mountpoints_keys": [
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b06440d5-9537-11ef-8dc8-50e08563415f}",
+        "lastwrite_utc": "2024-10-28 16:30:31.059528",
+        "values": []
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b06440d5-9537-11ef-8dc8-50e08563415f}\\shell",
+        "lastwrite_utc": "2024-10-28 16:30:31.059528",
+        "values": [
+          {
+            "name": null,
+            "type": 1,
+            "hex": "4100750074006f00520075006e000000",
+            "decoded": "AutoRun"
+          }
+        ]
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b06440d5-9537-11ef-8dc8-50e08563415f}\\shell\\Autoplay",
+        "lastwrite_utc": "2024-10-28 16:30:31.059528",
+        "values": [
+          {
+            "name": "MUIVerb",
+            "type": 1,
+            "hex": "40007300680065006c006c00330032002e0064006c006c002c002d0038003500300037000000",
+            "decoded": "@shell32.dll,-8507"
+          }
+        ]
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b06440d5-9537-11ef-8dc8-50e08563415f}\\shell\\Autoplay\\DropTarget",
+        "lastwrite_utc": "2024-10-28 16:30:31.059528",
+        "values": [
+          {
+            "name": "CLSID",
+            "type": 1,
+            "hex": "7b00460032003600410036003600390041002d0042004300420042002d0034004500330037002d0041004200460039002d003700330032003500440041003100350046003900330031007d000000",
+            "decoded": "{F26A669A-BCBB-4E37-ABF9-7325DA15F931}"
+          }
+        ]
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b06440d5-9537-11ef-8dc8-50e08563415f}\\shell\\AutoRun",
+        "lastwrite_utc": "2024-10-28 16:30:31.059528",
+        "values": [
+          {
+            "name": null,
+            "type": 1,
+            "hex": "49006e007300740061006c006c006500720020006f007500200065007800e90063007500740065007200200075006e002000700072006f006700720061006d006d0065002000640065007000750069007300200073006f006e00200073007500700070006f00720074000000",
+            "decoded": "Installer ou exécuter un programme depuis son support"
+          },
+          {
+            "name": "SetWorkingDirectoryFromTarget",
+            "type": 1,
+            "hex": "0000",
+            "decoded": ""
+          }
+        ]
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b06440d5-9537-11ef-8dc8-50e08563415f}\\shell\\AutoRun\\command",
+        "lastwrite_utc": "2024-10-28 16:30:31.059528",
+        "values": [
+          {
+            "name": null,
+            "type": 1,
+            "hex": "220044003a005c0057004400200044007200690076006500200055006e006c006f0063006b002e00650078006500220020006100750074006f0070006c00610079003d0074007200750065000000",
+            "decoded": "\"D:\\WD Drive Unlock.exe\" autoplay=true"
+          }
+        ]
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b06440d5-9537-11ef-8dc8-50e08563415f}\\_Autorun",
+        "lastwrite_utc": "2024-10-28 16:30:31.059528",
+        "values": []
+      },
+      {
+        "hive": "NTUSER:fintm",
+        "key": "Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MountPoints2\\{b06440d5-9537-11ef-8dc8-50e08563415f}\\_Autorun\\DefaultIcon",
+        "lastwrite_utc": "2024-10-28 16:30:31.059528",
+        "values": [
+          {
+            "name": null,
+            "type": 1,
+            "hex": "220044003a005c004500780074007200610073005c0055006e006c006f0063006b002e00490043004f00220020000000",
+            "decoded": "\"D:\\Extras\\Unlock.ICO\" "
+          }
+        ]
+      }
+    ]
+  }
+]

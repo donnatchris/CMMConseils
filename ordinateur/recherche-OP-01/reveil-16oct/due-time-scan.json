@@ -1,0 +1,2156 @@
+[
+  {
+    "source": "Application.evtx",
+    "records": 21577,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "HardwareEvents.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "IntelAudioServiceLog.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Internet Explorer.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Key Management Service.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Client-Licensing-Platform%4Admin.evtx",
+    "records": 1770,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-System-Diagnostics-DiagnosticInvoker%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AAD%4Operational.evtx",
+    "records": 151,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-All-User-Install-Agent%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AllJoyn%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppHost%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppID%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4EXE and DLL.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4MSI and Script.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4Packaged app-Deployment.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4Packaged app-Execution.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppModel-Runtime%4Admin.evtx",
+    "records": 1647,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppReadiness%4Admin.evtx",
+    "records": 6129,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppReadiness%4Operational.evtx",
+    "records": 1906,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeployment%4Operational.evtx",
+    "records": 1438,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeployment-Server%4Operational.evtx",
+    "records": 285,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeploymentServer%4Operational.evtx",
+    "records": 4883,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeploymentServer%4Restricted.evtx",
+    "records": 247,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-ApplicabilityEngine%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Application Server-Applications%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Application Server-Applications%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Compatibility-Assistant.evtx",
+    "records": 129,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Compatibility-Troubleshooter.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Inventory.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Telemetry.evtx",
+    "records": 1398,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Steps-Recorder.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-AppxPackaging%4Operational.evtx",
+    "records": 1957,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Audio%4CaptureMonitor.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Audio%4Operational.evtx",
+    "records": 124,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Audio%4PlaybackManager.evtx",
+    "records": 362,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Authentication User Interface%4Operational.evtx",
+    "records": 9,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-BackgroundTaskInfrastructure%4Operational.evtx",
+    "records": 425,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Backup.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Biometrics%4Operational.evtx",
+    "records": 1268,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-BitLocker%4BitLocker Management.evtx",
+    "records": 91,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Bits-Client%4Operational.evtx",
+    "records": 1144,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Bluetooth-BthLEPrepairing%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Bluetooth-MTPEnum%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-CertificateServicesClient-Lifecycle-System%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-CertificateServicesClient-Lifecycle-User%4Operational.evtx",
+    "records": 5,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Cleanmgr%4Diagnostic.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-CloudRestoreLauncher%4Operational.evtx",
+    "records": 762,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-CloudStore%4Initialization.evtx",
+    "records": 119,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-CloudStore%4Operational.evtx",
+    "records": 1962,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-CodeIntegrity%4Operational.evtx",
+    "records": 1341,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Compat-Appraiser%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Containers-BindFlt%4Operational.evtx",
+    "records": 32,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Containers-Wcifs%4Operational.evtx",
+    "records": 32,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Containers-Wcnfs%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-CoreApplication%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-CoreSystem-SmsRouter-Events%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-CorruptedFileRecovery-Client%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-CorruptedFileRecovery-Server%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Crashdump%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-DPAPI%4BackUpKeySvc.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-DPAPI%4Operational.evtx",
+    "records": 2358,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-NCrypt%4CertInUse.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-NCrypt%4Operational.evtx",
+    "records": 1335,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DAL-Provider%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DSC%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DSC%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DataIntegrityScan%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DataIntegrityScan%4CrashRecovery.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DateTimeControlPanel%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DeviceGuard%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Admin.evtx",
+    "records": 501,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Autopilot.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Operational.evtx",
+    "records": 341,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "records": 2252,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Operational.evtx",
+    "records": 159,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSync%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DeviceUpdateAgent%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Devices-Background%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Dhcp-Client%4Admin.evtx",
+    "records": 1042,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Dhcpv6-Client%4Admin.evtx",
+    "records": 49,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-DPS%4Operational.evtx",
+    "records": 1359,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-PCW%4Operational.evtx",
+    "records": 2288,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-PLA%4Operational.evtx",
+    "records": 165,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-Scheduled%4Operational.evtx",
+    "records": 186,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-Scripted%4Admin.evtx",
+    "records": 27,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-Scripted%4Operational.evtx",
+    "records": 114,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Diagnostics-Networking%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Diagnostics-Performance%4Operational.evtx",
+    "records": 130,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DiskDiagnostic%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DiskDiagnosticDataCollector%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DiskDiagnosticResolver%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DxgKrnl-Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-DxgKrnl-Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-EDP-Application-Learning%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-EDP-Audit-Regular%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-EDP-Audit-TCB%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-EFS%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-EapHost%4Operational.evtx",
+    "records": 6,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-RasChap%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-RasTls%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-Sim%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-Ttls%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-EnhancedStorage-EhStorClass%4Operational.evtx",
+    "records": 602,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-EventCollector%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-FMS%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Fault-Tolerant-Heap%4Operational.evtx",
+    "records": 14,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-FeatureConfiguration%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-FileHistory-Core%4WHC.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-FileHistory-Engine%4BackupLog.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Folder Redirection%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Forwarding%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-GenericRoaming%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-GroupPolicy%4Operational.evtx",
+    "records": 9737,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-HelloForBusiness%4Operational.evtx",
+    "records": 898,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Help%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-HomeGroup Control Panel%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-HomeGroup Listener Service%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-HomeGroup Provider Service%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-HotspotAuth%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-Guest-Drivers%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-Hypervisor-Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-Hypervisor-Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-VID-Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-IKE%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-IPxlatCfg%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-IdCtrls%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-International%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-International-RegionalOptionsControlPanel%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Iphlpsvc%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-KdsSvc%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-ApphelpCache%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Boot%4Operational.evtx",
+    "records": 2,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-CPU-Starvation%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Cache%4Operational.evtx",
+    "records": 820,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Dump%4Operational.evtx",
+    "records": 34,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-EventTracing%4Admin.evtx",
+    "records": 620,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-IO%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-LiveDump%4Operational.evtx",
+    "records": 93,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PRM%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "records": 1052,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "records": 1631,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Driver Watchdog.evtx",
+    "records": 4,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Power%4Thermal-Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-ShimEngine%4Operational.evtx",
+    "records": 309,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-StoreMgr%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-WDI%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-WHEA%4Errors.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-WHEA%4Operational.evtx",
+    "records": 299,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Known Folders API Service.evtx",
+    "records": 1895,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-LAPS%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-LanguagePackSetup%4Operational.evtx",
+    "records": 58,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-LiveId%4Operational.evtx",
+    "records": 568,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-MUI%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-MUI%4Operational.evtx",
+    "records": 39,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-MemoryDiagnostics-Results%4Debug.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Autopilot.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Diagnostics.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4ManagementService.evtx",
+    "records": 1653,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Mprddm%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "records": 1880,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-NTLM%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-NcdAutoSetup%4Operational.evtx",
+    "records": 23,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-NdisImPlatform%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-NetworkLocationWizard%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "records": 2216,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProvider%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProvisioning%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-NlaSvc%4Operational.evtx",
+    "records": 160,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Ntfs%4Operational.evtx",
+    "records": 3883,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Ntfs%4WHC.evtx",
+    "records": 32,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-OOBE-Machine-DUI%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-OneBackup%4Debug.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PackageStateRoaming%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-ParentalControls%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Partition%4Diagnostic.evtx",
+    "records": 103,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PerceptionRuntime%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PerceptionSensorDataService%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Perflib%4Operational.evtx",
+    "records": 800,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-Nvdimm%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-PmemDisk%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-ScmBus%4Certification.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-ScmBus%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Policy%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PowerShell%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PowerShell%4Operational.evtx",
+    "records": 619,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PrintService%4Admin.evtx",
+    "records": 32,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PrintService%4Operational.evtx",
+    "records": 1848,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Privacy-Auditing%4Operational.evtx",
+    "records": 223,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Program-Compatibility-Assistant%4CompatAfterUpgrade.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Provisioning-Diagnostics-Provider%4Admin.evtx",
+    "records": 734,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Provisioning-Diagnostics-Provider%4AutoPilot.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Provisioning-Diagnostics-Provider%4ManagementService.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PushNotification-Platform%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-PushNotification-Platform%4Operational.evtx",
+    "records": 1695,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-ReFS%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-ReadyBoost%4Operational.evtx",
+    "records": 107,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-ReadyBoostDriver%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Regsvr32%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-RemoteApp and Desktop Connections%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-RemoteApp and Desktop Connections%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-RemoteAssistance%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-RemoteAssistance%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-RemoteFX-Synth3dvsc%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-SessionServices%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Resource-Exhaustion-Detector%4Operational.evtx",
+    "records": 196,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Resource-Exhaustion-Resolver%4Operational.evtx",
+    "records": 330,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-RestartManager%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-RetailDemo%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-RetailDemo%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SMBClient%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Audit.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Connectivity.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Operational.evtx",
+    "records": 19279,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Security.evtx",
+    "records": 2,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SMBWitnessClient%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SMBWitnessClient%4Informational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SearchUI%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Security-Adminless%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Security-Isolation-BrokeringFileSystem%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx",
+    "records": 714,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+    "records": 753,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Security-Mitigations%4UserMode.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Security-Netlogon%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+    "records": 2,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync%4Debug.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-Azure%4Debug.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-Azure%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-OneDrive%4Debug.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-OneDrive%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Shell-ConnectedAccountState%4ActionCenter.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4ActionCenter.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4AppDefaults.evtx",
+    "records": 993,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4LogonTasksChannel.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4Operational.evtx",
+    "records": 2244,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-ShellCommon-StartLayoutPopulation%4Operational.evtx",
+    "records": 1010,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-Audit%4Authentication.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-DeviceEnum%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-TPM-VCard-Module%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-TPM-VCard-Module%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Audit.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "records": 8536,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Security.evtx",
+    "records": 265,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StateRepository%4Operational.evtx",
+    "records": 10708,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StateRepository%4Restricted.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Storage-ClassPnP%4Operational.evtx",
+    "records": 512,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Storage-NvmeDisk%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Storage-Storport%4Health.evtx",
+    "records": 21,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Storage-Storport%4Operational.evtx",
+    "records": 3278,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Storage-Tiering%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StorageManagement%4Operational.evtx",
+    "records": 757,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StorageManagement-PartUtil%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StorageSettings%4Diagnostic.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Api%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Driver%4Diagnostic.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Driver%4Operational.evtx",
+    "records": 66,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-ManagementAgent%4WHC.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Parser%4Diagnostic.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Parser%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-SpaceManager%4Diagnostic.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-SpaceManager%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Store%4Operational.evtx",
+    "records": 24897,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Storsvc%4Diagnostic.evtx",
+    "records": 57,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-SystemSettingsThreshold%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TWinUI%4Operational.evtx",
+    "records": 769,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TZSync%4Operational.evtx",
+    "records": 48,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TZUtil%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TaskScheduler%4Maintenance.evtx",
+    "records": 805,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-ClientUSBDevices%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-ClientUSBDevices%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-LocalSessionManager%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx",
+    "records": 1748,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-PnPDevices%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-PnPDevices%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-Printers%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-Printers%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-RDPClient%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Time-Service%4Operational.evtx",
+    "records": 1177,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Time-Service-PTP-Provider%4PTP-Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Troubleshooting-Recommended%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Troubleshooting-Recommended%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-UAC%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-UAC-FileVirtualization%4Operational.evtx",
+    "records": 90,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-UniversalTelemetryClient%4Operational.evtx",
+    "records": 1768,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-User Control Panel%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-User Device Registration%4Admin.evtx",
+    "records": 220,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-User Profile Service%4Operational.evtx",
+    "records": 965,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-User-Loader%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-UserPnp%4ActionCenter.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-UserPnp%4DeviceInstall.evtx",
+    "records": 201,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-UserSettingsBackup-BackupUnitProcessor%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-UserSettingsBackup-EarlyDownloader%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-UserSettingsBackup-Orchestrator%4Operational.evtx",
+    "records": 277,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-VDRVROOT%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-VHDMP-Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-VPN%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-VPN-Client%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-VerifyHardwareSecurity%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Volume%4Diagnostic.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-VolumeSnapshot-Driver%4Operational.evtx",
+    "records": 626,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WER-Diag%4Operational.evtx",
+    "records": 25,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WER-PayloadHealth%4Operational.evtx",
+    "records": 302,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WFP%4Operational.evtx",
+    "records": 2385,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx",
+    "records": 1325,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WMI-Activity%4Operational.evtx",
+    "records": 1226,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WMPNSS-Service%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WPD-ClassInstaller%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WPD-CompositeClassDriver%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WPD-MTPClassDriver%4Operational.evtx",
+    "records": 18,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WWAN-SVC-Events%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "records": 2784,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WebAuthN%4Operational.evtx",
+    "records": 1987,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WebIO%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WerKernel%4Operational.evtx",
+    "records": 7,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Win32k%4Operational.evtx",
+    "records": 181,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WinHttp%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WinINet%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WinINet-Config%4ProxyConfigChanged.evtx",
+    "records": 2,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WinRM%4Operational.evtx",
+    "records": 1511,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Windows Defender%4Operational.evtx",
+    "records": 2146,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Windows Defender%4WHC.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Windows Firewall With Advanced Security%4ConnectionSecurity.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+    "records": 1044,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Windows Firewall With Advanced Security%4FirewallDiagnostics.evtx",
+    "records": 30,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WindowsBackup%4ActionCenter.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WindowsSystemAssessmentTool%4Operational.evtx",
+    "records": 437,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WindowsUpdateClient%4Operational.evtx",
+    "records": 1999,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Winlogon%4Operational.evtx",
+    "records": 2506,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Winsock-WS2HELP%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Wired-AutoConfig%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WorkFolders%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WorkFolders%4WHC.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-Workplace Join%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-hidcfu%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-WindowsPhone-Connectivity-WiFiConnSvc-Channel.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "NordUpdate.evtx",
+    "records": 1503,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "OAlerts.evtx",
+    "records": 332,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "OneApp_IGCC.evtx",
+    "records": 96,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "OpenSSH%4Admin.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "OpenSSH%4Operational.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "SMSApi.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Security.evtx",
+    "records": 34472,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Setup.evtx",
+    "records": 188,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "System.evtx",
+    "records": 36445,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Windows PowerShell.evtx",
+    "records": 1124,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "iolo Applications.evtx",
+    "records": 0,
+    "returncode": 0,
+    "stderr": ""
+  }
+]

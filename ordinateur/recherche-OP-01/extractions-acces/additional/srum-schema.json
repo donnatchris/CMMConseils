@@ -1,0 +1,982 @@
+[
+  {
+    "table": "MSysObjects",
+    "records": 266,
+    "columns": [
+      {
+        "name": "ObjidTable",
+        "type": 4
+      },
+      {
+        "name": "Type",
+        "type": 3
+      },
+      {
+        "name": "Id",
+        "type": 4
+      },
+      {
+        "name": "ColtypOrPgnoFDP",
+        "type": 4
+      },
+      {
+        "name": "SpaceUsage",
+        "type": 4
+      },
+      {
+        "name": "Flags",
+        "type": 4
+      },
+      {
+        "name": "PagesOrLocale",
+        "type": 4
+      },
+      {
+        "name": "RootFlag",
+        "type": 1
+      },
+      {
+        "name": "RecordOffset",
+        "type": 3
+      },
+      {
+        "name": "LCMapFlags",
+        "type": 4
+      },
+      {
+        "name": "KeyMost",
+        "type": 17
+      },
+      {
+        "name": "LVChunkMax",
+        "type": 4
+      },
+      {
+        "name": "Name",
+        "type": 10
+      },
+      {
+        "name": "Stats",
+        "type": 9
+      },
+      {
+        "name": "TemplateTable",
+        "type": 10
+      },
+      {
+        "name": "DefaultValue",
+        "type": 9
+      },
+      {
+        "name": "KeyFldIDs",
+        "type": 9
+      },
+      {
+        "name": "VarSegMac",
+        "type": 9
+      },
+      {
+        "name": "ConditionalColumns",
+        "type": 9
+      },
+      {
+        "name": "TupleLimits",
+        "type": 9
+      },
+      {
+        "name": "Version",
+        "type": 9
+      },
+      {
+        "name": "SortID",
+        "type": 9
+      },
+      {
+        "name": "CallbackData",
+        "type": 11
+      },
+      {
+        "name": "CallbackDependencies",
+        "type": 11
+      },
+      {
+        "name": "SeparateLV",
+        "type": 11
+      },
+      {
+        "name": "SpaceHints",
+        "type": 11
+      },
+      {
+        "name": "SpaceDeferredLVHints",
+        "type": 11
+      },
+      {
+        "name": "LocaleName",
+        "type": 11
+      }
+    ],
+    "first_utc": null,
+    "last_utc": null,
+    "historic_selected": 0
+  },
+  {
+    "table": "MSysObjectsShadow",
+    "records": 266,
+    "columns": [
+      {
+        "name": "ObjidTable",
+        "type": 4
+      },
+      {
+        "name": "Type",
+        "type": 3
+      },
+      {
+        "name": "Id",
+        "type": 4
+      },
+      {
+        "name": "ColtypOrPgnoFDP",
+        "type": 4
+      },
+      {
+        "name": "SpaceUsage",
+        "type": 4
+      },
+      {
+        "name": "Flags",
+        "type": 4
+      },
+      {
+        "name": "PagesOrLocale",
+        "type": 4
+      },
+      {
+        "name": "RootFlag",
+        "type": 1
+      },
+      {
+        "name": "RecordOffset",
+        "type": 3
+      },
+      {
+        "name": "LCMapFlags",
+        "type": 4
+      },
+      {
+        "name": "KeyMost",
+        "type": 17
+      },
+      {
+        "name": "LVChunkMax",
+        "type": 4
+      },
+      {
+        "name": "Name",
+        "type": 10
+      },
+      {
+        "name": "Stats",
+        "type": 9
+      },
+      {
+        "name": "TemplateTable",
+        "type": 10
+      },
+      {
+        "name": "DefaultValue",
+        "type": 9
+      },
+      {
+        "name": "KeyFldIDs",
+        "type": 9
+      },
+      {
+        "name": "VarSegMac",
+        "type": 9
+      },
+      {
+        "name": "ConditionalColumns",
+        "type": 9
+      },
+      {
+        "name": "TupleLimits",
+        "type": 9
+      },
+      {
+        "name": "Version",
+        "type": 9
+      },
+      {
+        "name": "SortID",
+        "type": 9
+      },
+      {
+        "name": "CallbackData",
+        "type": 11
+      },
+      {
+        "name": "CallbackDependencies",
+        "type": 11
+      },
+      {
+        "name": "SeparateLV",
+        "type": 11
+      },
+      {
+        "name": "SpaceHints",
+        "type": 11
+      },
+      {
+        "name": "SpaceDeferredLVHints",
+        "type": 11
+      },
+      {
+        "name": "LocaleName",
+        "type": 11
+      }
+    ],
+    "first_utc": null,
+    "last_utc": null,
+    "historic_selected": 0
+  },
+  {
+    "table": "MSysObjids",
+    "records": 41,
+    "columns": [
+      {
+        "name": "objid",
+        "type": 4
+      },
+      {
+        "name": "objidTable",
+        "type": 4
+      },
+      {
+        "name": "type",
+        "type": 3
+      }
+    ],
+    "first_utc": null,
+    "last_utc": null,
+    "historic_selected": 0
+  },
+  {
+    "table": "MSysLocales",
+    "records": 7,
+    "columns": [
+      {
+        "name": "Type",
+        "type": 2
+      },
+      {
+        "name": "iValue",
+        "type": 4
+      },
+      {
+        "name": "Key",
+        "type": 9
+      }
+    ],
+    "first_utc": null,
+    "last_utc": null,
+    "historic_selected": 0
+  },
+  {
+    "table": "SruDbIdMapTable",
+    "records": 25834,
+    "columns": [
+      {
+        "name": "IdType",
+        "type": 2
+      },
+      {
+        "name": "IdIndex",
+        "type": 4
+      },
+      {
+        "name": "IdBlob",
+        "type": 11
+      }
+    ],
+    "first_utc": null,
+    "last_utc": null,
+    "historic_selected": 0
+  },
+  {
+    "table": "SruDbCheckpointTable",
+    "records": 0,
+    "columns": [
+      {
+        "name": "ProviderId",
+        "type": 16
+      },
+      {
+        "name": "CheckpointId",
+        "type": 4
+      },
+      {
+        "name": "NextIncId",
+        "type": 4
+      },
+      {
+        "name": "SeqNumber",
+        "type": 9
+      },
+      {
+        "name": "RecordSet",
+        "type": 11
+      }
+    ],
+    "first_utc": null,
+    "last_utc": null,
+    "historic_selected": 0
+  },
+  {
+    "table": "{DA73FB89-2BEA-4DDC-86B8-6E048C6DA477}",
+    "records": 9971,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "BinaryData",
+        "type": 9
+      }
+    ],
+    "first_utc": "2026-10-02T15:19:25+00:00",
+    "last_utc": "2026-10-12T06:49:00+00:00",
+    "historic_selected": 0
+  },
+  {
+    "table": "{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}",
+    "records": 89,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "EventTimestamp",
+        "type": 15
+      },
+      {
+        "name": "StateTransition",
+        "type": 4
+      },
+      {
+        "name": "DesignedCapacity",
+        "type": 4
+      },
+      {
+        "name": "FullChargedCapacity",
+        "type": 4
+      },
+      {
+        "name": "ChargeLevel",
+        "type": 4
+      },
+      {
+        "name": "CycleCount",
+        "type": 4
+      },
+      {
+        "name": "ConfigurationHash",
+        "type": 15
+      },
+      {
+        "name": "BatteryCount",
+        "type": 4
+      },
+      {
+        "name": "BatteryChargeLimited",
+        "type": 4
+      }
+    ],
+    "first_utc": "2026-09-03T12:52:00+00:00",
+    "last_utc": "2026-10-12T06:49:00+00:00",
+    "historic_selected": 0
+  },
+  {
+    "table": "{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}LT",
+    "records": 133,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "ActiveAcTime",
+        "type": 4
+      },
+      {
+        "name": "CsAcTime",
+        "type": 4
+      },
+      {
+        "name": "ActiveDcTime",
+        "type": 4
+      },
+      {
+        "name": "CsDcTime",
+        "type": 4
+      },
+      {
+        "name": "ActiveDischargeTime",
+        "type": 4
+      },
+      {
+        "name": "CsDischargeTime",
+        "type": 4
+      },
+      {
+        "name": "ActiveEnergy",
+        "type": 4
+      },
+      {
+        "name": "CsEnergy",
+        "type": 4
+      },
+      {
+        "name": "DesignedCapacity",
+        "type": 4
+      },
+      {
+        "name": "FullChargedCapacity",
+        "type": 4
+      },
+      {
+        "name": "CycleCount",
+        "type": 4
+      },
+      {
+        "name": "ConfigurationHash",
+        "type": 15
+      },
+      {
+        "name": "BatteryCount",
+        "type": 4
+      },
+      {
+        "name": "BatteryChargeLimited",
+        "type": 4
+      }
+    ],
+    "first_utc": "2021-10-16T08:07:36+00:00",
+    "last_utc": "2026-10-08T10:36:54+00:00",
+    "historic_selected": 127
+  },
+  {
+    "table": "{5C8CF1C7-7257-4F13-B223-970EF5939312}",
+    "records": 10799,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "Flags",
+        "type": 4
+      },
+      {
+        "name": "EndTime",
+        "type": 15
+      },
+      {
+        "name": "DurationMS",
+        "type": 4
+      },
+      {
+        "name": "SpanMS",
+        "type": 4
+      },
+      {
+        "name": "TimelineEnd",
+        "type": 4
+      },
+      {
+        "name": "InFocusTimeline",
+        "type": 15
+      },
+      {
+        "name": "UserInputTimeline",
+        "type": 15
+      },
+      {
+        "name": "CompRenderedTimeline",
+        "type": 15
+      },
+      {
+        "name": "CompDirtiedTimeline",
+        "type": 15
+      },
+      {
+        "name": "CompPropagatedTimeline",
+        "type": 15
+      },
+      {
+        "name": "AudioInTimeline",
+        "type": 15
+      },
+      {
+        "name": "AudioOutTimeline",
+        "type": 15
+      },
+      {
+        "name": "CpuTimeline",
+        "type": 15
+      },
+      {
+        "name": "DiskTimeline",
+        "type": 15
+      },
+      {
+        "name": "NetworkTimeline",
+        "type": 15
+      },
+      {
+        "name": "MBBTimeline",
+        "type": 15
+      },
+      {
+        "name": "InFocusS",
+        "type": 4
+      },
+      {
+        "name": "PSMForegroundS",
+        "type": 4
+      },
+      {
+        "name": "UserInputS",
+        "type": 4
+      },
+      {
+        "name": "CompRenderedS",
+        "type": 4
+      },
+      {
+        "name": "CompDirtiedS",
+        "type": 4
+      },
+      {
+        "name": "CompPropagatedS",
+        "type": 4
+      },
+      {
+        "name": "AudioInS",
+        "type": 4
+      },
+      {
+        "name": "AudioOutS",
+        "type": 4
+      },
+      {
+        "name": "Cycles",
+        "type": 15
+      },
+      {
+        "name": "CyclesBreakdown",
+        "type": 15
+      },
+      {
+        "name": "CyclesAttr",
+        "type": 15
+      },
+      {
+        "name": "CyclesAttrBreakdown",
+        "type": 15
+      },
+      {
+        "name": "CyclesWOB",
+        "type": 15
+      },
+      {
+        "name": "CyclesWOBBreakdown",
+        "type": 15
+      },
+      {
+        "name": "DiskRaw",
+        "type": 15
+      },
+      {
+        "name": "NetworkTailRaw",
+        "type": 15
+      },
+      {
+        "name": "NetworkBytesRaw",
+        "type": 15
+      },
+      {
+        "name": "MBBTailRaw",
+        "type": 15
+      },
+      {
+        "name": "MBBBytesRaw",
+        "type": 15
+      },
+      {
+        "name": "DisplayRequiredS",
+        "type": 4
+      },
+      {
+        "name": "DisplayRequiredTimeline",
+        "type": 15
+      },
+      {
+        "name": "KeyboardInputTimeline",
+        "type": 15
+      },
+      {
+        "name": "KeyboardInputS",
+        "type": 4
+      },
+      {
+        "name": "MouseInputS",
+        "type": 4
+      }
+    ],
+    "first_utc": "2026-10-02T15:19:36+00:00",
+    "last_utc": "2026-10-12T06:49:00+00:00",
+    "historic_selected": 0
+  },
+  {
+    "table": "{7ACBBAA3-D029-4BE4-9A7A-0885927F1D8F}",
+    "records": 137,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "Flags",
+        "type": 4
+      },
+      {
+        "name": "StartTime",
+        "type": 15
+      },
+      {
+        "name": "EndTime",
+        "type": 15
+      },
+      {
+        "name": "Usage",
+        "type": 9
+      }
+    ],
+    "first_utc": "2026-09-03T13:37:00+00:00",
+    "last_utc": "2026-10-08T11:03:00+00:00",
+    "historic_selected": 0
+  },
+  {
+    "table": "{D10CA2FE-6FCF-4F6D-848E-B2E99266FA89}",
+    "records": 1994,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "ForegroundCycleTime",
+        "type": 15
+      },
+      {
+        "name": "BackgroundCycleTime",
+        "type": 15
+      },
+      {
+        "name": "FaceTime",
+        "type": 15
+      },
+      {
+        "name": "ForegroundContextSwitches",
+        "type": 4
+      },
+      {
+        "name": "BackgroundContextSwitches",
+        "type": 4
+      },
+      {
+        "name": "ForegroundBytesRead",
+        "type": 15
+      },
+      {
+        "name": "ForegroundBytesWritten",
+        "type": 15
+      },
+      {
+        "name": "ForegroundNumReadOperations",
+        "type": 4
+      },
+      {
+        "name": "ForegroundNumWriteOperations",
+        "type": 4
+      },
+      {
+        "name": "ForegroundNumberOfFlushes",
+        "type": 4
+      },
+      {
+        "name": "BackgroundBytesRead",
+        "type": 15
+      },
+      {
+        "name": "BackgroundBytesWritten",
+        "type": 15
+      },
+      {
+        "name": "BackgroundNumReadOperations",
+        "type": 4
+      },
+      {
+        "name": "BackgroundNumWriteOperations",
+        "type": 4
+      },
+      {
+        "name": "BackgroundNumberOfFlushes",
+        "type": 4
+      }
+    ],
+    "first_utc": "2026-09-03T13:37:00+00:00",
+    "last_utc": "2026-10-08T11:03:00+00:00",
+    "historic_selected": 0
+  },
+  {
+    "table": "{973F5D5C-1D90-4944-BE8E-24B94231A174}",
+    "records": 682,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "InterfaceLuid",
+        "type": 15
+      },
+      {
+        "name": "L2ProfileId",
+        "type": 4
+      },
+      {
+        "name": "L2ProfileFlags",
+        "type": 4
+      },
+      {
+        "name": "BytesSent",
+        "type": 15
+      },
+      {
+        "name": "BytesRecvd",
+        "type": 15
+      }
+    ],
+    "first_utc": "2026-09-03T13:37:00+00:00",
+    "last_utc": "2026-10-08T10:37:00+00:00",
+    "historic_selected": 0
+  },
+  {
+    "table": "{B6D82AF1-F780-4E17-8077-6CB9AD8A6FC4}",
+    "records": 29,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "Metadata",
+        "type": 15
+      },
+      {
+        "name": "Energy Data",
+        "type": 9
+      },
+      {
+        "name": "Tag",
+        "type": 10
+      }
+    ],
+    "first_utc": "2026-10-02T16:19:00+00:00",
+    "last_utc": "2026-10-08T11:04:00+00:00",
+    "historic_selected": 0
+  },
+  {
+    "table": "{D10CA2FE-6FCF-4F6D-848E-B2E99266FA86}",
+    "records": 17,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "NotificationType",
+        "type": 4
+      },
+      {
+        "name": "PayloadSize",
+        "type": 4
+      },
+      {
+        "name": "NetworkType",
+        "type": 4
+      }
+    ],
+    "first_utc": "2026-09-03T11:47:00+00:00",
+    "last_utc": "2026-10-02T19:57:00+00:00",
+    "historic_selected": 0
+  },
+  {
+    "table": "{DD6636C4-8929-4683-974E-22C046A43763}",
+    "records": 15,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "InterfaceLuid",
+        "type": 15
+      },
+      {
+        "name": "L2ProfileId",
+        "type": 4
+      },
+      {
+        "name": "ConnectedTime",
+        "type": 4
+      },
+      {
+        "name": "ConnectStartTime",
+        "type": 15
+      },
+      {
+        "name": "L2ProfileFlags",
+        "type": 4
+      }
+    ],
+    "first_utc": "2026-09-03T13:37:00+00:00",
+    "last_utc": "2026-10-08T10:37:00+00:00",
+    "historic_selected": 0
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "source": "System.evtx",
+    "sha256": "a0bcdff97baa1c11ac5c0355d9e02aa2db248616d0b72c333190c6c40025ba12",
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-TaskScheduler%4Maintenance.evtx",
+    "sha256": "595764e06e41f7c71c5e535fa1842babbeba3fc223c1a118ed5b06408ecca889",
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-WindowsUpdateClient%4Operational.evtx",
+    "sha256": "26570d10a65cfe5ec61e87f9027bfeffcd3ae9bb6afe714e41d4da72fb8f05c4",
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "source": "Microsoft-Windows-BackgroundTaskInfrastructure%4Operational.evtx",
+    "sha256": "de3b0ff2624e2e7ea799e6cbc7da5259d6e724ab7e4c96f92391978b438b6a1b",
+    "returncode": 0,
+    "stderr": ""
+  }
+]

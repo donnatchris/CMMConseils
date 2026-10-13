@@ -1,0 +1,10 @@
+vshadowinfo 20240504
+
+
+Unable to open: /mnt/dislocker/dislocker-file.
+libvshadow_store_block_read_header_data: invalid store block list header identifier.
+libvshadow_store_block_read: unable to read store block header.
+libvshadow_store_descriptor_read_store_header: unable to read store block at offset: 128630341632 (0x1df2f74000).
+libvshadow_volume_open_read: unable to read store: 1 header.
+libvshadow_volume_open_file_io_handle: unable to read from file IO handle.
+info_handle_open_input: unable to open input volume.

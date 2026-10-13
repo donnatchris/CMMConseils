@@ -1,0 +1,12 @@
+GetCimInstance Win32_Processor | Select-Object Name, Architecture
+Get-CimInstance Win32_Processor | Select-Object Name, Architecture
+msinfo32
+manage-bde -status
+manage-bde -protectors -get C:
+Get-Disk | Format-Table Number, FriendlyName, Serial
+Get-Partition | Format-Table, DiskNumber, PartitionNumber, DriveLetter, Type, Size --AutoSize
+Get-Partition | Format-Table DiskNumber, PartitionNumber, DriveLetter, Type, Size --AutoSize
+Get-Partition | Format-Table DiskNumber, PartitionNumber, DriveLetter, Type, Size -AutoSize
+manage -bde status
+manage-bde status
+manage-bde -status

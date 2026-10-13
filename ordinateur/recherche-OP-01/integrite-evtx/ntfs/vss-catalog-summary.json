@@ -1,0 +1,39 @@
+{
+  "vshadowinfo_returncode": 1,
+  "catalog_blocks": 4,
+  "entries": [
+    {
+      "catalog_offset": 28639232,
+      "entry_offset": 128,
+      "type": 2,
+      "store_id": "b764a044-a79c-11f1-8dc9-50e08563415f",
+      "creation_filetime": 134354294192957138,
+      "creation_utc": "2026-10-02T15:43:39.295713+00:00",
+      "volume_size": 510927379968
+    },
+    {
+      "catalog_offset": 28639232,
+      "entry_offset": 256,
+      "type": 3,
+      "store_id": "b764a044-a79c-11f1-8dc9-50e08563415f",
+      "store_header_offset": 125895507968
+    },
+    {
+      "catalog_offset": 28639232,
+      "entry_offset": 384,
+      "type": 2,
+      "store_id": "2d9169d8-be7b-11f1-8dc9-50e08563415f",
+      "creation_filetime": 134354310752129814,
+      "creation_utc": "2026-10-02T16:11:15.212981+00:00",
+      "volume_size": 510927379968
+    },
+    {
+      "catalog_offset": 28639232,
+      "entry_offset": 512,
+      "type": 3,
+      "store_id": "2d9169d8-be7b-11f1-8dc9-50e08563415f",
+      "store_header_offset": 128630341632
+    }
+  ],
+  "errors": []
+}

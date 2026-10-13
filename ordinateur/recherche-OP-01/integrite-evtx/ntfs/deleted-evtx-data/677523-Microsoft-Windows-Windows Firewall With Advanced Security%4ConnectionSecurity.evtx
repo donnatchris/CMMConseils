@@ -1,0 +1,711 @@
+h-param>
+			<xsl:with-param name="MY"><xsl:call-template name="templ_prop_Gost_Date_MY"/></xsl:with-param>
+			<xsl:with-param name="DY"><xsl:call-template name="templ_prop_Gost_Date_DY"/></xsl:with-param>
+		</xsl:call-template>
+	</xsl:template>
+
+
+	<xsl:template name="formatDateMonthYearAccessed">
+		<xsl:param name="appendSpace"/>
+		<xsl:call-template name="formatDateCore">
+			<xsl:with-param name="day">
+				<xsl:call-template name="handleSpaces">
+					<xsl:with-param name="field" select="b:DayAccessed"/>
+				</xsl:call-template>
+			</xsl:with-param>
+			<xsl:with-param name="month">
+				<xsl:call-template name="handleSpaces">
+					<xsl:with-param name="field" select="b:MonthAccessed"/>
+				</xsl:call-template>
+			</xsl:with-param>
+			<xsl:with-param name="year">
+				<xsl:call-template name="handleSpaces">
+					<xsl:with-param name="field" select="b:YearAccessed"/>
+				</xsl:call-template>
+			</xsl:with-param>
+			
+			<xsl:with-param name="DMY"><xsl:call-template name="templ_prop_Gost_Date_DMY"/></xsl:with-param>
+			<xsl:with-param name="DM"><xsl:call-template name="templ_prop_Gost_Date_DM"/></xsl:with-param>
+			<xsl:with-param name="MY"><xsl:call-template name="templ_prop_Gost_Date_MY"/></xsl:with-param>
+			<xsl:with-param name="DY"><xsl:call-template name="templ_prop_Gost_Date_DY"/></xsl:with-param>
+		</xsl:call-template>
+	</xsl:template>
+
+
+	<xsl:template name ="formatPrimaryResponsibilities">
+		<xsl:param name ="FirstElement"></xsl:param>
+		<xsl:param name ="SecondElement"></xsl:param>
+		<xsl:param name ="ThirdElement"></xsl:param>
+		<xsl:param name ="NonEmptyPrimSectionsCount">2</xsl:param>
+		<xsl:param name ="MainSectionsCount">0</xsl:param>
+
+<xsl:variable name="constGost_PrimaryResponsibilitiesOpen">
+	<xsl:call-template name="templ_prop_Gost_GeneralOpen" />
+	
+</xsl:variable>
+<xsl:variable name="constGost_PrimaryResponsibilitiesClose">
+	<xsl:call-template name="templ_prop_Gost_GeneralClose" />
+	
+</xsl:variable>
+<xsl:variable name="constGost_PrimaryResponsibilitiesSeparator">
+	<xsl:call-template name="templ_prop_NonBreakingSpace" />
+	<xsl:call-template name="templ_prop_GroupSeparator" />
+	
+</xsl:variable>
+<xsl:variable name="constGost_PrimaryResponsibilitiesHeader">
+	<xsl:call-template name="templ_prop_NonBreakingSpace" />
+	<xsl:call-template name="templ_prop_Gost_OneSlash" />
+	<xsl:call-template name="templ_prop_Space" />
+	
+</xsl:variable>
+
+
+		<xsl:if test ="$NonEmptyPrimSectionsCount - $MainSectionsCount>0">
+			
+			
+			
+			
+			
+			
+			<xsl:value-of select="$constGost_PrimaryResponsibilitiesHeader"/>
+		</xsl:if>
+
+		
+		<xsl:if test ="$NonEmptyPrimSectionsCount - $MainSectionsCount >2">
+			
+			
+			<xsl:value-of select="$constGost_PrimaryResponsibilitiesOpen"/>
+		</xsl:if>
+
+		
+		<xsl:if test ='string-length($FirstElement)>0'>
+			<xsl:value-of select = "$FirstElement"/>
+		</xsl:if>
+
+
+		
+		<xsl:if test ="not ($FirstElement ='') and $NonEmptyPrimSectionsCount  - $MainSectionsCount > 1">
+			
+			
+			
+			
+			
+			<xsl:value-of select="$constGost_PrimaryResponsibilitiesSeparator"/>
+		</xsl:if>
+
+		
+		<xsl:if test ='string-length($SecondElement)>0'>
+			<xsl:value-of select = "$SecondElement"/>
+		</xsl:if>
+
+		
+		<xsl:if test ="($FirstElement ='' and $NonEmptyPrimSectionsCount - $MainSectionsCount >1) or ($NonEmptyPrimSectionsCount - $MainSectionsCount  > 2)">
+			
+			
+			
+			
+			
+			<xsl:value-of select="$constGost_PrimaryResponsibilitiesSeparator"/>
+		</xsl:if>
+
+		
+		<xsl:if test ='string-length($ThirdElement)>0'>
+			<xsl:value-of select = "$ThirdElement"/>
+		</xsl:if>
+
+		
+		<xsl:if test ="$NonEmptyPrimSectionsCount - $MainSectionsCount >2">
+			
+			
+			<xsl:value-of select="$constGost_PrimaryResponsibilitiesClose"/>
+		</xsl:if>
+	</xsl:template>
+
+	<xsl:template name ="format_SemiColonSeparated_Items">
+		<xsl:param name="Item1"></xsl:param>
+		<xsl:param name="Item2"></xsl:param>
+		<xsl:param name="Item3"></xsl:param>
+
+<xsl:variable name="constGost_SemiColonSeparatedItemsSeparator">
+	<xsl:call-template name="templ_prop_NonBreakingSpace" />
+	<xsl:call-template name="templ_prop_GroupSeparator" />
+	
+</xsl:variable>
+
+
+		<xsl:value-of select ="$Item1"/>
+		<xsl:if test ="string-length($Item1)>0 and (string-length($Item2)>0 or string-length($Item3) >0)">
+			
+			
+			
+			<xsl:value-of select="$constGost_SemiColonSeparatedItemsSeparator"/>
+		</xsl:if>
+		<xsl:value-of select ="$Item2"/>
+		<xsl:if test ="string-length($Item2)>0 and string-length($Item3) >0">
+			
+			
+			
+			<xsl:value-of select="$constGost_SemiColonSeparatedItemsSeparator"/>
+		</xsl:if>
+		<xsl:value-of select ="$Item3"/>
+	</xsl:template>
+
+	<xsl:template name ="formatSecondaryResponsibilities">
+		<xsl:param name ="CollectionName"></xsl:param>
+		<xsl:param name ="FirstElement"></xsl:param>
+		<xsl:param name ="SecondElement"></xsl:param>
+		<xsl:param name ="ThirdElement"></xsl:param>
+    <xsl:param name ="FourthElement"></xsl:param>
+
+    <xsl:if test ="string-length($CollectionName)>0 or string-length($FirstElement)>0 or string-length($SecondElement)>0 or string-length($ThirdElement)>0 or string-length($FourthElement)>0">
+			<xsl:choose>
+				<xsl:when test ="string-length($CollectionName)>0">
+					
+					
+					
+					
+					
+					<xsl:value-of select="$constGost_CollectionNameHeader"/>
+					<xsl:value-of select ="$CollectionName"/>
+				</xsl:when>
+				<xsl:otherwise>
+					
+					
+					
+					
+					
+					<xsl:value-of select="$constGost_SecondaryResponsibilitiesHeader"/>
+				</xsl:otherwise>
+			</xsl:choose>
+
+			<xsl:if test ="string-length($CollectionName)>0 and string-length($FirstElement)>0">
+				
+				
+				
+				<xsl:value-of select="$constGost_SecondaryResponsibilitiesSeparator"/>
+			</xsl:if>
+			<xsl:value-of select ="$FirstElement"/>
+			<xsl:if test ="(string-length($CollectionName)>0 or string-length($FirstElement)>0) and string-length($SecondElement)>0 ">
+				
+				
+				
+				<xsl:value-of select="$constGost_SecondaryResponsibilitiesSeparator"/>
+			</xsl:if>
+			<xsl:value-of select ="$SecondElement"/>
+			<xsl:if test ="(string-length($CollectionName)>0 or string-length($FirstElement)>0 or string-length($SecondElement)>0) and string-length($ThirdElement)>0 ">
+				
+				
+				
+				<xsl:value-of select="$constGost_SecondaryResponsibilitiesSeparator"/>
+			</xsl:if>
+			<xsl:value-of select ="$ThirdElement"/>
+      <xsl:if test ="(string-length($CollectionName)>0 or string-length($FirstElement)>0 or string-length($SecondElement)>0 or string-length($ThirdElement)>0) and string-length($FourthElement)>0 ">
+        
+        
+        
+        <xsl:value-of select="$constGost_SecondaryResponsibilitiesSeparator"/>
+      </xsl:if>
+      <xsl:value-of select ="$FourthElement"/>
+    </xsl:if>
+
+
+
+	</xsl:template>
+
+	<xsl:template name="handleSpaces">
+		<xsl:param name="field"/>
+
+    <xsl:variable name="prop_NormalizeSpace">
+      <xsl:call-template name="templ_prop_NormalizeSpace"/>
+    </xsl:variable>
+
+    <xsl:choose>
+			<xsl:when test="$prop_NormalizeSpace='yes'">
+				<xsl:value-of select="normalize-space($field)"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$field"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	
+	<xsl:template name="need_Dot">
+		<xsl:param name="field"/>
+		
+		<xsl:variable name="temp">
+			<xsl:call-template name="handleSpaces">
+				<xsl:with-param name="field" select="$field"/>
+			</xsl:call-template>
+		</xsl:variable>
+
+		<xsl:variable name="lastChar">
+			<xsl:value-of select="substring($temp, string-length($temp))"/>
+		</xsl:variable>
+
+    <xsl:variable name="prop_EndChars">
+      <xsl:call-template name="templ_prop_EndChars"/>
+    </xsl:variable>
+
+
+    <xsl:choose>
+			<xsl:when test="string-length($temp) = 0">
+			</xsl:when>
+			<xsl:when test="contains($prop_EndChars, $lastChar)">
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:call-template name="templ_prop_Dot"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	
+	
+
+
+	<xsl:template name="formatNameCore">
+		<xsl:param name="FML"/>
+		<xsl:param name="FM"/>
+		<xsl:param name="ML"/>
+		<xsl:param name="FL"/>
+		<xsl:param name="upperLast"/>
+		<xsl:param name="withDot"/>
+
+		<xsl:variable name="first">
+			<xsl:call-template name="handleSpaces">
+				<xsl:with-param name="field" select="b:First"/>
+			</xsl:call-template>
+		</xsl:variable>
+
+		<xsl:variable name="middle">
+			<xsl:call-template name="handleSpaces">
+				<xsl:with-param name="field" select="b:Middle"/>
+			</xsl:call-template>
+		</xsl:variable>
+
+		<xsl:variable name="last">
+			<xsl:call-template name="handleSpaces">
+				<xsl:with-param name="field" select="b:Last"/>
+			</xsl:call-template>
+		</xsl:variable>
+		
+		<xsl:variable name="format">
+			<xsl:choose>
+				<xsl:when test="string-length($first) = 0 and string-length($middle) = 0 and string-length($last) = 0 ">
+				</xsl:when>
+				<xsl:when test="string-length($first) = 0 and string-length($middle) = 0 and string-length($last) != 0 ">
+					<xsl:call-template name="templ_prop_SimpleAuthor_L" />
+				</xsl:when>
+				<xsl:when test="string-length($first) = 0 and string-length($middle) != 0 and string-length($last) = 0 ">
+          <xsl:call-template name="templ_prop_SimpleAuthor_M" />
+				</xsl:when>
+				<xsl:when test="string-length($first) = 0 and string-length($middle) != 0 and string-length($last) != 0 ">
+					<xsl:value-of select="$ML"/>
+				</xsl:when>
+				<xsl:when test="string-length($first) != 0 and string-length($middle) = 0 and string-length($last) = 0 ">
+					<xsl:call-template name="templ_prop_SimpleAuthor_F" />
+				</xsl:when>
+				<xsl:when test="string-length($first) != 0 and string-length($middle) = 0 and string-length($last) != 0 ">
+					<xsl:value-of select="$FL"/>
+				</xsl:when>
+				<xsl:when test="string-length($first) != 0 and string-length($middle) != 0 and string-length($last) = 0 ">
+					<xsl:value-of select="$FM"/>
+				</xsl:when>
+				<xsl:when test="string-length($first) != 0 and string-length($middle) != 0 and string-length($last) != 0 ">
+					<xsl:value-of select="$FML"/>
+				</xsl:when>
+			</xsl:choose>
+		</xsl:variable>
+		
+		<xsl:call-template name="StringFormatName">
+			<xsl:with-param name="format" select="$format"/>
+			<xsl:with-param name="upperLast" select="$upperLast"/>
+			<xsl:with-param name="withDot" select="$withDot"/>
+		</xsl:call-template>
+		
+	</xsl:template>
+
+	<xsl:template name="formatDateCorePrivate">
+		<xsl:param name="DMY"/>
+		<xsl:param name="DM"/>
+		<xsl:param name="MY"/>
+		<xsl:param name="DY"/>
+
+		<xsl:param name="day"/>
+		<xsl:param name="month"/>
+		<xsl:param name="year"/>
+		
+		<xsl:param name="withDot"/>
+		
+		<xsl:variable name="format">
+			<xsl:choose>
+				<xsl:when test="string-length($day) = 0 and string-length($month) = 0 and string-length($year) = 0 ">
+				</xsl:when>
+				<xsl:when test="string-length($day) = 0 and string-length($month) = 0 and string-length($year) != 0 ">
+					<xsl:call-template name="templ_prop_SimpleDate_Y" />
+				</xsl:when>
+				<xsl:when test="string-length($day) = 0 and string-length($month) != 0 and string-length($year) = 0 ">
+				</xsl:when>
+				<xsl:when test="string-length($day) = 0 and string-length($month) != 0 and string-length($year) != 0 ">
+					<xsl:value-of select="$MY"/>
+				</xsl:when>
+				<xsl:when test="string-length($day) != 0 and string-length($month) = 0 and string-length($year) = 0 ">
+					<xsl:call-template name="templ_prop_SimpleDate_Y" />
+				</xsl:when>
+				<xsl:when test="string-length($day) != 0 and string-length($month) = 0 and string-length($year) != 0 ">
+					<xsl:call-template name="templ_prop_SimpleDate_Y" />
+				</xsl:when>
+				<xsl:when test="string-length($day) != 0 and string-length($month) != 0 and string-length($year) = 0 ">
+				</xsl:when>
+				<xsl:when test="string-length($day) != 0 and string-length($month) != 0 and string-length($year) != 0 ">
+					<xsl:value-of select="$DMY"/>
+				</xsl:when>
+			</xsl:choose>
+		</xsl:variable>
+		
+		<xsl:call-template name="StringFormatDate">
+			<xsl:with-param name="format" select="$format"/>
+
+			<xsl:with-param name="day" select="$day"/>
+			<xsl:with-param name="month" select="$month"/>
+			<xsl:with-param name="year" select="$year"/>
+
+			<xsl:with-param name="withDot" select="$withDot"/>
+		</xsl:call-template>
+		
+	</xsl:template>
+
+	<xsl:template name="StringFormatName">
+		<xsl:param name="format" />
+		<xsl:param name="withDot" />
+		<xsl:param name="upperLast"/>
+
+    <xsl:variable name="prop_EndChars">
+      <xsl:call-template name="templ_prop_EndChars"/>
+    </xsl:variable>
+
+    <xsl:choose>
+			<xsl:when test="$format = ''"></xsl:when>
+			<xsl:when test="substring($format, 1, 2) = '%%'">
+				<xsl:text>%</xsl:text>
+				<xsl:call-template name="StringFormatName">
+					<xsl:with-param name="format" select="substring($format, 3)" />
+					<xsl:with-param name="withDot" select="$withDot" />
+					<xsl:with-param name="upperLast" select="$upperLast" />
+				</xsl:call-template>
+				<xsl:if test="string-length($format)=2 and withDot = 'yes' and not(contains($prop_EndChars, '%'))">
+					<xsl:call-template name="templ_prop_Dot"/>
+				</xsl:if>
+			</xsl:when>
+			<xsl:when test="substring($format, 1, 1) = '%'">
+				<xsl:variable name="what" select="substring($format, 2, 1)" />
+				
+				<xsl:choose>
+					<xsl:when test="(what = 'l' or what = 'L') and upperLast = 'yes'">
+						<span style='text-transform: uppercase;'>
+							<xsl:call-template name="formatNameOneItem">
+								<xsl:with-param name="format" select="$what"/>
+							</xsl:call-template>
+						</span>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:call-template name="formatNameOneItem">
+							<xsl:with-param name="format" select="$what"/>
+						</xsl:call-template>
+					</xsl:otherwise>
+				</xsl:choose>
+				<xsl:call-template name="StringFormatName">
+					<xsl:with-param name="format" select="substring($format, 3)" />
+					<xsl:with-param name="withDot" select="$withDot" />
+					<xsl:with-param name="upperLast" select="$upperLast" />
+				</xsl:call-template>
+				<xsl:if test="string-length($format)=2 and withDot='yes'">
+					<xsl:variable name="temp2">
+						<xsl:call-template name="handleSpaces">
+							<xsl:with-param name="field">
+								<xsl:call-template name="formatNameOneItem">
+									<xsl:with-param name="format" select="$what"/>
+								</xsl:call-template>
+							</xsl:with-param>
+						</xsl:call-template>
+					</xsl:variable>				
+					<xsl:variable name="lastChar">
+						<xsl:value-of select="substring($temp2, string-length($temp2))"/>
+					</xsl:variable>
+					<xsl:if test="not(contains($prop_EndChars, $lastChar))">
+						<xsl:call-template name="templ_prop_Dot"/>
+					</xsl:if>
+				</xsl:if>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="substring($format, 1, 1)" />
+				<xsl:call-template name="StringFormatName">
+					<xsl:with-param name="format" select="substring($format, 2)" />
+					<xsl:with-param name="withDot" select="$withDot" />
+					<xsl:with-param name="upperLast" select="$upperLast" />
+				</xsl:call-template>
+				<xsl:if test="string-length($format)=1">
+					<xsl:if test="withDot = 'yes' and not(contains($prop_EndChars, $format))">
+						<xsl:call-template name="templ_prop_Dot"/>
+					</xsl:if>
+				</xsl:if>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>	
+
+	<xsl:template name="StringFormatDate">
+		<xsl:param name="format" />
+		
+		<xsl:param name="day"/>
+		<xsl:param name="month"/>
+		<xsl:param name="year"/>		
+		
+		<xsl:param name="withDot" />
+
+    <xsl:variable name="prop_EndChars">
+      <xsl:call-template name="templ_prop_EndChars"/>
+    </xsl:variable>
+
+    <xsl:choose>
+			<xsl:when test="$format = ''"></xsl:when>
+			<xsl:when test="substring($format, 1, 2) = '%%'">
+				<xsl:text>%</xsl:text>
+				<xsl:call-template name="StringFormatDate">
+					<xsl:with-param name="format" select="substring($format, 3)" />
+					<xsl:with-param name="day" select="$day"/>
+					<xsl:with-param name="month" select="$month"/>
+					<xsl:with-param name="year" select="$year"/>
+					<xsl:with-param name="withDot" select="$withDot" />
+				</xsl:call-template>
+				<xsl:if test="string-length($format)=2 and withDot = 'yes' and not(contains($prop_EndChars, '%'))">
+					<xsl:call-template name="templ_prop_Dot"/>
+				</xsl:if>
+			</xsl:when>
+			<xsl:when test="substring($format, 1, 1) = '%'">
+				<xsl:variable name="what" select="substring($format, 2, 1)" />
+				<xsl:choose>
+					<xsl:when test="$what = 'D'">
+						<xsl:value-of select="$day"/>
+					</xsl:when>
+					<xsl:when test="$what = 'M'">
+						<xsl:value-of select="$month"/>
+					</xsl:when>
+					<xsl:when test="$what = 'Y'">
+						<xsl:value-of select="$year"/>
+					</xsl:when>
+				</xsl:choose>
+				<xsl:call-template name="StringFormatDate">
+					<xsl:with-param name="format" select="substring($format, 3)" />
+					<xsl:with-param name="day" select="$day"/>
+					<xsl:with-param name="month" select="$month"/>
+					<xsl:with-param name="year" select="$year"/>
+					<xsl:with-param name="withDot" select="$withDot" />
+				</xsl:call-template>
+				<xsl:if test="string-length($format)=2 and withDot='yes'">
+					<xsl:variable name="temp2">
+						<xsl:call-template name="handleSpaces">
+							<xsl:with-param name="field">
+								<xsl:call-template name="formatNameOneItem">
+									<xsl:with-param name="format" select="$what"/>
+								</xsl:call-template>
+							</xsl:with-param>
+						</xsl:call-template>
+					</xsl:variable>				
+					<xsl:variable name="lastChar">
+						<xsl:value-of select="substring($temp2, string-length($temp2))"/>
+					</xsl:variable>
+					<xsl:if test="not(contains($prop_EndChars, $lastChar))">
+						<xsl:call-template name="templ_prop_Dot"/>
+					</xsl:if>
+				</xsl:if>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="substring($format, 1, 1)" />
+				<xsl:call-template name="StringFormatDate">
+					<xsl:with-param name="format" select="substring($format, 2)" />
+					<xsl:with-param name="day" select="$day"/>
+					<xsl:with-param name="month" select="$month"/>
+					<xsl:with-param name="year" select="$year"/>
+					<xsl:with-param name="withDot" select="$withDot" />
+				</xsl:call-template>
+				<xsl:if test="string-length($format)=1">
+					<xsl:if test="withDot = 'yes' and not(contains($prop_EndChars, $format))">
+						<xsl:call-template name="templ_prop_Dot"/>
+					</xsl:if>
+				</xsl:if>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>	
+	<xsl:template name="formatDateCore">
+		<xsl:param name="day"/>
+		<xsl:param name="month"/>
+		<xsl:param name="year"/>
+		<xsl:param name="displayND"/>
+		
+		<xsl:param name="DMY"/>
+		<xsl:param name="DM"/>
+		<xsl:param name="MY"/>
+		<xsl:param name="DY"/>
+	
+		<xsl:choose>
+			<xsl:when test="string-length($year)=0">
+				<xsl:if test="$displayND = 'yes'">
+					<xsl:call-template name="templ_str_NoDateShortUnCap"/>
+				</xsl:if>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:call-template name="formatDateCorePrivate">
+					<xsl:with-param name="day" select="$day"/>
+					<xsl:with-param name="month" select="$month"/>
+					<xsl:with-param name="year" select="$year"/>
+					
+					<xsl:with-param name="DMY" select="$DMY"/>
+					<xsl:with-param name="DM" select="$DM"/>
+					<xsl:with-param name="MY" select="$MY"/>
+					<xsl:with-param name="DY" select="$DY"/>
+				</xsl:call-template>
+			</xsl:otherwise>
+		</xsl:choose>
+	
+	</xsl:template>
+
+	<xsl:template name="formatNameOneItem">
+		<xsl:param name="format"/>
+
+		<xsl:choose>
+			<xsl:when test="$format = 'F'">
+				<xsl:value-of select="b:First"/>
+			</xsl:when>
+			<xsl:when test="$format = 'L'">
+				<xsl:value-of select="b:Last"/>
+			</xsl:when>
+			<xsl:when test="$format = 'M'">
+				<xsl:value-of select="b:Middle"/>
+			</xsl:when>
+			<xsl:when test="$format = 'f'">
+				<xsl:call-template name="formatNameInitial">
+					<xsl:with-param name="name" select="b:First"/>
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:when test="$format = 'm'">
+				<xsl:call-template name="formatNameInitial">
+					<xsl:with-param name="name" select="b:Middle"/>
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:when test="$format = 'l'">
+				<xsl:call-template name="formatNameInitial">
+					<xsl:with-param name="name" select="b:Last"/>
+				</xsl:call-template>
+			</xsl:when>
+		</xsl:choose>
+
+	</xsl:template>
+
+	<xsl:template name="formatNameInitial">
+		<xsl:param name="name"/>
+		<xsl:variable name="temp">
+			<xsl:call-template name="handleSpaces">
+				<xsl:with-param name="field" select="$name"/>
+			</xsl:call-template>
+		</xsl:variable>
+
+    <xsl:variable name="prop_APA_Hyphens">
+      <xsl:call-template name="templ_prop_Hyphens"/>
+    </xsl:variable>
+
+    <xsl:if test="string-length($temp)>0">
+
+			<xsl:variable name="tempWithoutSpaces">
+				<xsl:value-of select="translate($temp, '&#32;&#160;', '')"/>
+			</xsl:variable>
+
+			<xsl:if test="not(contains($prop_APA_Hyphens, substring($tempWithoutSpaces, 1, 1)))">
+				<xsl:value-of select="substring($tempWithoutSpaces, 1, 1)"/>
+				<xsl:call-template name="templ_prop_DotInitial"/>
+			</xsl:if>
+
+			<xsl:call-template name="handleHyphens">
+				<xsl:with-param name="name" select="$tempWithoutSpaces"/>
+			</xsl:call-template>
+		</xsl:if>
+	</xsl:template>
+
+	<xsl:template name="handleHyphens">
+		<xsl:param name="name"/>
+
+    <xsl:variable name="prop_APA_Hyphens">
+      <xsl:call-template name="templ_prop_Hyphens"/>
+    </xsl:variable>
+
+    <xsl:if test="string-length($name)>=2">
+			<xsl:choose>
+				<xsl:when test="contains($prop_APA_Hyphens, substring($name, 1, 1))">
+					<xsl:value-of select="substring($name, 1, 2)"/>
+					<xsl:call-template name="templ_prop_DotInitial"/>
+					
+					<xsl:call-template name="handleHyphens">
+						<xsl:with-param name="name" select="substring($name, 3)"/>
+					</xsl:call-template>
+				</xsl:when>
+				
+				<xsl:otherwise>
+					<xsl:call-template name="handleHyphens">
+						<xsl:with-param name="name" select="substring($name, 2)"/>
+					</xsl:call-template>
+				</xsl:otherwise>
+			</xsl:choose>
+			
+		</xsl:if>
+
+	</xsl:template>
+
+	
+</xsl:stylesheet>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    b≥ EBFGONED`   « 0  @26.108. 0607.0002l%10.0.`22631-rg/Ã›ÓˇÅ6cnn§ü zƒF  h*  ËAæ; _ã	DüÕe gßñE_çùÅç#ÄTelem etryProx yConfigu rationFiÄle.cpp/ +::InitÄializep  JokeYakL og:\RodO afGad\Su mGemEye\ TaxZigPe n\WarPew Much\ Fo`xRag\ SÄea\WolfÄ Joy\Fort hRatWry\ QuillThe Can.txtÍ ≈AdÃAô@#Å ÕAPgBÁ1ËAS¿
+<¿úL::Upda teLocalV ariableF(rom¡S¿3,P 0, @21‘, .e.s@Å °.Hˇ÷. Win$DllH@andler¡m:@5V::CreAÇ)gging∆SXess Ö$få$éá Å ç$ôÔü$RÄHÄ-::H asGroupP0olicF£â'Uppload¡VÅ®A"Ë Äµq` ≠PÚ›ÿ&øE@0†µShould UseExperÄimental`0¸  a _ ???ˇ????????ˇ????????ˇ??????ˇˇˇˇˇˇˇˇˇˇˇˇˇ ∞ ¸∞ ¸∞ ¸∞ ¸∞ ¸∞ ¸∞ ¸∞ ¸∞ ¸∞ ¸∞ ¸∞ ¸∞ ¸∞ ¸∞ ¸                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 MZê       ˇˇ  ∏       @                                   Ä   ∫ ¥	Õ!∏LÕ!This program cannot be run in DOS mode.
+$       PE  L ∑Ü        ‡ " 0  Ã        ∆Î                                 @    Ü  @Ö                           tÎ O      ®           ÷ P'        XÎ                                                              H           .text   ÃÀ      Ã                   `.rsrc   ®         Œ             @  @.reloc            ‘             @  B                ®Î     H     P   P  	       †%  8≈ ÿÍ Ä                                   BSJB         v4.0.30319     l   0  #~  ú  ‰  #Strings    Ä     #US Ñ     #GUID   î  º  #Blob           	   ˙3      
+      	   	                    á a Ù a  N ”   € 6 ¿ 6 D 6 a 6 ß 6 - 6           	 H  H  H
+ ) H 1 H 9 H A H I H Q H .  ¿ .  … .  Ë . # Ò . + . 3 @. ; U. C ü. K üÄ  
+           Å^
+            
+            °     <Module> System.Runtime DebuggableAttribute AssemblyTitleAttribute AssemblyFileVersionAttribute AssemblyInformationalVersionAttribute CompilationRelaxationsAttribute AssemblyProductAttribute AssemblyCopyrightAttribute AssemblyCompanyAttribute RuntimeCompatibilityAttribute PresentationFramework.resources.dll System.Reflection .ctor System.Diagnostics System.Runtime.CompilerServices PresentationFramework.resources FxResources.PresentationFramework.SR.cs.resources DebuggingModes       ¿zl€ØÕCùv˙»ö±      ∞?_’
+:Ä† $  Ä  î      $  RSA1     µ¸êÁgáw:èﬁâ8»‘∫eπ `Y>ñƒíeàú¡?Îµ?¨1Æ”3≈Ó`!g-óÍ1®ÆΩ†/%ÿ}∫o…˝Yé‘⁄5‰L9åECË„;Ñ&=Æ…ıñÉoó»˜GPÂó\d‚üEﬁÙk*+G≠√e+ı√]©        TWrapNonExceptionThrows       Microsoft Corporation  3 .¬© Microsoft Corporation. All rights reserved.   10.0.1026.32716  I D10.0.10-servicing.26326.116+f7d90799ce4ef09a0bb257852a57248d2a8fb8dd   PresentationFramework    3≈ Œ Ôæ   ë   lSystem.Resources.ResourceReader, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet         PADPADPµÄÄéÄmåÄﬁßZÄıÜìÄıñ≠Ä!•Å¯|"ÅÎˇ@Åéì…ÅóAzÇ—åΩÇYÕÇ!{˝Çw=ÉJ0É≤•É~\¶É›ÉëT¯É¬è˘Éˇ70ÑH†DÑƒ˝yÑïüÑ÷}ÎÑëoÖˇÆÑÖP®©Ö ¸Ü
+Û/Ü∫ãÜòôçÜ7íÊÜb“á∫%áÅø á)Pá™˜SáFùbáûøüá3lßáj8¨á<?ºá^wŒáé‹Œá¸>‹á.Ûá9w‚à2˚â*7â5Xdâ˚€âO ˜â:’ä’®äª;#äõ)äÎxAä±eìäSùä%ãZÊãün4ã◊%¢ãBß≤ãVºã6+ÊãNWåuô7åÜöå:å°åë»\çÚ8Åç–ZÉç[`ãç·#èççµ≥ç¥^ﬂçœñÏç∫VÒç‘y˛ç‡∞éQë"éGs+é&äcéíæóé·∫éTèÉ0è¯ΩTê/[ê‘í_ê‹ªdê˛_pê˘÷tê¿5çê¡5çê¬5çê√5çêƒ5çê≈5çê∆5çê«5çê 5çêÀ5çêÕ0 ê{Àê¬=ë√OëjÜëóWëm§xëyíWBí—-8í>¬@íÑ“díˆ£tí∑>~í.–õíõ°´ím‘Øí√À=ì>zÉìµõ«ìx∑î>aGîqatî¸§õîT∏™î∑%ï›‘ìïÔΩ§ï¿üÔï»Vñ€|2ñîc6ñz®6ñ◊Lñ¬ùáñ[2Øñ“÷#ó€+Dóe>ıó]ˆ4òÀˇXòˆ«wò \íò©™òNÏò≠N¯ò€∏ôQˇÅö7_Àöv	õ·_Jõ!ËjõÁ&îõ»f”õUh‘õa¬^ú6ïáúÃtïúeπïú%ñú≤”ßúÅÓ—úb@·ú#Hù¬Vùf¯ù´∆Xû-ÛZû3W∆ûHÊûÔhüµ¸4ü‡(äüwfŸüN†Î“u†Oó†¬ù´†^˛À†?D°“÷q°môÖ°+C‘°c‰°17Ä¢O†ç¢îåî¢7ã„¢î5£á»@£+áA£KQ£-,R£u>R£ˇÚZ£KÅf£n|£)¿ì£T)§p%5§k	6§mÇC§ãÛF§rIN§ttY§<J •N◊U•≥Ç€•ªõﬁ•-kR¶Ç≈R¶ %º¶ìº¶VM9ßc @ß]$Yß»=ŒßPá€ßˆ®‡-®qè® ‡ø®x„‚®&&h©–„à©ïÙ¬©©>™˛j¶™˛≤™⁄«À™Hº™\ìp´3√î´ó´˝‰Á´–Y¨^S[¨øˇb¨x‘¨πœ’¨6¡Ô¨úú¬≠QD¯≠w˙BÆ6*íÆcq§Æöã¨Æ+‡ Æ6‘ÆNËØYç#ØÌ˙JØëçØ⁄U±Ø$Ú∞ÂC∞.˛Z∞©
+∞aø∞T˚«∞YÚ‡∞˝
+±ñfP±√+V± Œ}±4Ä±+⁄â±[‰™±Bhc≤ﬁe|≤X8©≤
+ı≤œk¸≤Ã2!≥9≥à≠¸≥Ñò¥…∆5¥Mé¥”Qú¥Ø©¥Sm∂¥>ˇΩ¥<˙¥àµî,Cµﬁd◊µ3s3∂íŸ¥∂fœƒ∂)¯∂mX∑≥m∑ë®o∑$mí∑Êø∑Ô«∑óﬁ∑}Í∑+∏•b>∏h5o∏ıæ∏“∏Í*πØ~&π`™4π"˚eπ‹µkπLÉπR„‘π®ìT∫e®∫R π∫º–˙∫ÈóWªÍ4wª§'{ª¡™ÙªwíºJÈº]$º©Æº8´{ºP˚âº≠7£ºâººw’º∆	Ωå Ωd◊!Ω¡ã4ΩÁ:\Ω[P˝Ω«∂!æ†@;æ¿ºxæN‚ˇæ 3øáJ|ø÷œø&ùîøùr∆ø‘⁄ø£Fc¿a4ú¿ÉUæ¿ ñÚ¿?ÜÛ¿#¡ÆM¡ımk¡‰WÙ¡Œ
+¬±6¬≤ﬁA¬‡kH¬bÛl¬°nê¬¬ÖÛ¬¸e√{ç√÷kÓ√Ì`˛√ÿ.ƒ´Gƒ´B`ƒ°îíƒ!ûƒJÆƒ ßœƒ}ÒƒèŒÛƒP0L≈çoV≈“⁄è≈z©≈ Ëª≈G"∆˛€I∆1t∆L˙∆9«¿”&«ûG«ÿπk«+{ë«pœ¿«ÚA »æ÷Q»)T»W<_»ÕPò»mP…Ì@_…¡Üu…!4 ˝∞1 ÏÉB 6tR îo∏ sÚø =eÀ¨ªÀSO∆À}‰À≈^ËÀ&RóÃÑ∏ÃU""Õ÷ΩpÕ€ qÕ-õÕÀ7∂ÕËî Œàí0Œ!Œ∞hÄŒ"˙Œ&B>œ'qaœÙ	Éœ}b-–ìà–Z∂À–V‰‘–ÈÊ–F4æ“bÚÕ“ö∞¸“´”q|”¡"O”_T”¡Íp”9‘ÿ3*‘ì;‘à~‘–ó‘ú∞’À’‡ª’mÃd’3∆Â’!R÷÷˚÷üh÷“Kk÷Ñ≤Ü÷WÆ¥÷£ÿ÷ûn¯÷Ù‹˛÷-ˇ÷çô
+◊ª$◊f [◊“q◊ı;È◊∆
+ÿl9ÿq∏òÿ±H6ŸÕ«⁄+≠8⁄l}[⁄vç⁄m¡›⁄>êÔ⁄N€∑jZ€©õ€˘´b‹.∫Ç‹¨Xß‹=∏…‹F]<›óM›ŸRt›ºà›j\â›Ã •›É∫Ê›¿ø?ﬁ™•GﬁÆKﬁGöﬁÁﬁ1ó[ﬂh«1‡ g^‡¸ap‡YC’‡Ÿ\Í‡ ∫!·ê‹0·BöQ·kÍò·aæÎ·Å‚ ≠>‚√kz‚ò≥¡‚s¥¸‚˜x„ˇ|ƒ„_‰n˘‰˘ùˇ‰≠@Â Âä◊"Â,!UÂF¡Â∆ÍÂÉ?kÊ[ÏqÊa∂Ê∫¿MÁ®
+óÁ˚‚<Ë7¯ûËb∆™ËYŒ&ÈÃ/È_≤QÈF÷XÈ∂ﬂcÈçmiÈπ®yÈR9ÑÈL˛¨ÈS•ˆÈà_#Ípâ*ÍÀ=°ÍNí≠Í#÷Í∏HıÍˆ˚Í€IÎ=$ÎSˆZÎ´ÒÅÎ™πìÎ∫Ø¨Î6ÁÎ…∞jÏbJyÏ}Œ—ÏO÷˝ÏH{jÌçÚπÌÌËÿÌBIÛÌ 9ıÌzAÓCÓqRHÓ7
+YÓÜS°Ó4y¨Ó	Ö‡ÓÛ*ÔÊ«OÔ∂ÇñÔç“µÔ≤M¡ÔÏ˝Ôdu#!!a∫x“r€µÒv‹ÜÒ˘0∂ÒËﬂæÒêß«Ò ƒ’ÒczËÒ‹®Úﬁ=0ÚÃl0Úb¿GÛ2^ÛŸ1ìÛA=¥ÛWü∏ÛËäˆÛ6  Ù∫¶$Ùr·)ÙrRRÙ	p[Ù¡~™ÙƒO¿ÙV ı,i ıi]Lı∫qWı0B^ıÁ|oınóıØ†©ı[Œırˆp&ˆä~ˆò–.ˆXÊ?ˆù?Rˆy‰hˆÚ‹ïˆî√ˆDIŸˆM	˜Éex˜2<z˜â¶Ä˜dÂµ˜Ã¯€˜FE·˜Ûì*¯Zö4˘‚•]˘ê7±˘ì¿˘ã7’˘ ∑ﬂ˘`π¸˘Å>˛˘†π˙ÚzB˙ç«Ω˙âõÃ˙-⁄˚O_˚„3˚.0å˚Ùë⁄˚]»ﬁ˚<7}¸Ç€‘¸e⁄‹¸o·¸uEW˝ö™r˝#^|˝Rî¡˝AlÃ˝<F8˛ßRi˛„≤À˛Áˇ¶M.ˇ◊qFˇUˇÈÛ% c7; 	Ìd íõ{ 0ˆ iáYÑx0´_…8Ä%≠Rã.é»å» ÜíL‘îÑÛ∑¢C£EN´ZRÂ4ß5Ω†ÛÊí@,ë®¿>Ÿƒk‡4ú´3√Aµ —ÄcÕ	q=	f@°	0±ß	ö∂
+|SÀ
+¯ÜŸg‡«ëÜ£ï/ÒÕ!Bˆq!å•,±ßp,pA@„bä`'diXµµe¶¿§ï! Œã#ÿi$¡kYﬁ—Ö¨*úR+Ëék∑†M…Ω›º¡ò6ﬁ˚_
+Hg‰j£—é)3Ÿ˝Fˆ√føŸêŒÂgéÍB“Ç”	=ß!{/¢\ Ü_∞æöJ£cÕΩä’ÉÃCÍ6Qè UŒYà
+ ¿™˙ca0—'∞Öê√ÀAÃ∞˘„˙2!õ=]*ØÈˆÛºê˚Ÿ≥2∆Z]•Ü^˚Pu˙ëùüÍR(>J!wÕiÿ7J≥T±E]	ﬂh ¯hÛm(úïE§ Ã¶ `ÑèYî÷`$m(ë1‹ﬁë»Oµr1íu?Ûœs!'–ÅMIìX#ﬁyÍ4ˇ3§*(eNã2¨˘∏1SΩöœ¿7|ÿÙ∏ﬂ…è?§∑E˝‚Eã≤«ﬂ˙¯<∏%>B†%;®ó±[÷Î©Zj m ï!ä!í[◊!›#‹!M∆Ï!\Ô!o‡"kY"∑pà"Xû∫"≤ıˆ"Ûl#Âæ#tDÃ#…!$· L$È]$›gq$Ö°$5–%«£%Í>7%˜®n%&{%}Ø% Û%œ«V&nãd&Cp&¬SÜ&iäƒ&§°%'˙B.'«ú`'◊¸'∆jÇ'ë˘ï'}‚'_œÙ'0>(€í?(˛∂W(§Ì[(‹uc(Ó	e(¶ß(ı»(+“4)Wõx)8§ñ)>Îô)sf…)N…Œ)Bº—)3€Ê)Ä
+*Ò*I*˛‰)*¥°*)S+·õ"+Óª*+Ã§>+#¢∫+œ±È+¢3_,V°,¯"…,˝[-w˙-¬«1-ˆ∞M-!¨-@Ö˚-º.ë. ¸0.èwq.ôñ.öñ.ùñ.üñ.£~’./æ|Z/‹◊Õ/À„/~ä˚/	#0ú#'0-0òèP0T0Jıã0®ªö09 ∏0Ë<1–·w1§Ö2y[2Î}t2è2Ω2=Q√2dæ‹2zÑ3∫u]3CD∑3¥CŒ3⁄Ÿ34öä4w6>5f¿Z5„ÌZ5¶Wj5gt5!6M6Ö 6N7EÚ7ù5#7,º07Ûb´7í 8G™8Nv\8E∞í8]ù8™≤8ö¥8´M˝8IÀ%9π/&9⁄09óZ}9l~9©9@∫9Nûø9'î‹9#®2:Î::ÔA¨:qn ;≥ <¨)`<R{q<Çª<F0X=NÂ_=ÃSr=)Æ=Óó*>NÅ>Ÿâ>v,ò>„>?D-?@?W≥?úË?†4˘?·M!@`W%@ª©Ø@∆:A ú_AO£ÂA†‚ÏAn‡¯AÚ'B{r∫BH»⁄Bï„ùCÿ ÈC·oDÆ(Dç/D´0iDuÛEù?(EÓ⁄=E!MEE7˝aEtâÃE.8€E
+ßﬂEÎ*ËEóù)F¶≈™FR¢÷F⁄Ô¸F° G©ÄG*∑2Gûç\GŒ)`G
+ßùG™,H[u<HdiH≥iH‹∫ÜHu–úHæâøH∏	rIä”•I5Ò·IË}‚I1¬fJUÜÅJ†˘ºJLÑ
+K‡
+0Kıù4K	eéKõyKLR¶UL¥hsL|WÉLæ·L%‚LÏ| M∏`M€”´MﬁÕMáNÇ¸`N≤¨pN7•Nu8∫Nmﬁ‰N¨ˆOL¸%OhQ(O,ÇfO‚˝éOZµ´O~)œOP„Pôµ3P¬rPD◊·Py‰&QÉNæQ÷∆æQ5ÈQ˜nÛQD˚Q®bR3RJYRy+R˝/8Ré{CR“bbR°ºRoÎRX˝S∆ÖS6ÑS‰†S¥^ÔS]˚Sà± T`∞
+TnTõù}T ˛™T˛™Tı8µTı≤πTpû¯TtóU5ä Uâ˜6U?c;U~ ~UeúåU™ñÀUY;˛U6æV£gVºÒÅVÃÄäV‹•≈VªAÒW¸¸XyÌ∏X◊"Yù∑YT∞Zø+rZ+§ZFç‹ZQ›P[.˙à[Nú[~œΩ[è \…í'\;'´\µ\ŸuÈ\ÑáÚ\ˇè],y]4®]xÙ4]‹XN]ì^√ci^6.^‚ó^LÏü^Õ˚√^∑:Õ^‚‡#_◊∆é_±°_6Ü´_t≥_˜F¡_	?8`≥Í al'a)êøa®–a]À„a‚—ÒaÙàbÒ0∞b.“Ôb©`cmÅ`c#	bcÁÄπc$O-dK∞DdÙÂwd≈ËÜdÌ9àdädh≤∆dÕÔd‘`eóz:eúËÅeÕfGÁ!fc\QfC©†fR∑f<pëg–∫hèB%h—˛“h≤M◊hıñ™iO]≥iú≥ﬁiÀÍiÔa4j=Ñ;j;x|jUÕäjqîjﬁıôjΩ7œjÕàÈjê3kQÃ*ka^6kØÎ¸k†Ôˇk\l
+\ãlµ6®lÚ˙∑lD[¿l¸Âm”FMm¢jmÖ∂óm›·n˙‚ne-ÌnZ†˜nÿäoò≈ÄoΩYHpîÚHp(a}pö^ôp ≠pG˝q$ÙqÉ~$q¡◊Iqd[àqˇêëq?8“qøäLrºmZrßﬂprT¸≠r…rOGãs˘ØÃs##t?Â=t[BAtgbCt/cWt–¡t∆˜t¿JuÍY#uå‘Gul±suíÏuunªÖuû.¶up≥ΩuX+Âu•ûvGS∫v‘GÍvq3wﬂ?JwuíPw©Y^wÓû„w¸(ÙwPtxÜ“x€©x§;VxÜ+µxËÓyq´syYz‰YëzCÿ°zM(ºz,Ç{∆∆|{©≤{›o∂{rpº{yæ≈{ƒ\Ê{C|ü9|Ò‰d|Äñh|Ù™o|óŒ~|nêé|~{∑|f≥ƒ|É∆|É}H}µ÷>}#Àj}oô}\	Ì}Áp~˜≤…~=~‚~1>s≥¨¥Û÷⁄;ﬁ’;Ï´1  €  ã€  n7  œ’  l≥  ,Å   Ü   ‡ƒ  ‚˛  `…  \⁄  d∞  ô. 7  ˇû  U  ¡_  Ω≈  %÷  ±  G<  Å⁄  $ ≤) º, ®
+  <ñ  J"  Ù  Y!  "Ó  2 o# ”  $.  ç" §V  xL  ∂9  ú  [ä  5Ê  ¶  Zg  mÃ  x=    õ  Ú™  £ù  ≤  ˘, Œ  a6 ¢¢    · [$ ≥  –O  <˘  âÈ  ‘ sK  µ¿  à  {8   }   ¥  ~p  ø©  @   ‡E  è  *3 ~  –≥  U3 ≤<  3j  Ï)  Â) Ÿc  «å  ~¥  |©  I˛  ÃŒ  ¸ª  …ª  Yª  è2 í  ∞^  â^  b^  ;^  L_  %_  ˛^  ◊^  ö_  s_  √b  \Ö  Ñ‰  …‰  ?‰  ÏN  è Ób  ∂™  “,  £Ç  ÈV  [  π  „   W˝  Û¯  n  NÊ  ∏Õ  ß~  „ +0  SQ  ú›  — …Ï  òË  Ó/  ”…  Ûm  ]Ó  Òı  S v * c≈  ˛…  y3  ∑ }ß  a  Ë≈  ¢ü  ﬂ®  ã  ø°  Ø$  +∞  ‹L  ,Ã  ¥0 ¬`  ØÍ  ó+ Rï  p  \H  6Î  	  9w   d  2—  ëe  I:  ≠¬  1z  åª  ∏Ô  d~  éñ  Ê  y  "i  Ò  ¡  C  °1 ™ÿ  §  ø#  Î˙  Úy  * Ñ  	ô  À wÄ  ‘Ö  N  I›  Q  ›  u( u#  ›§  ˛a  ñ •˙  9 £  ◊i  ®¡  ¥" w  8ú  CA  ≥º  /º  π‚  ›|  Üf  Mò  âÜ  ûß  î ;~  ä  = Î  hπ  t  Õê  k  Õ( ) #⁄  p  2@  £ì  ¯s    Ì  ©◊  l º3 €  }  [Ë  É  T\  $E  1ì  )π  E9  Ï∞  Ÿ{  ks  Dô  Ÿ	  Áj  ¯è  πs  ù÷  Ñ Ï\  ¯ Ï»  ¡H  J,  ô˛  c Ÿ  tr  ‹π  ∞	  ¶   ;Û  `Õ  œz  Â  ≥     \î  ˘	 $ e“  Äl  ÍΩ  l$  Ô ñ·  F  ë  ˙W  m  Tx  Â·  ©  kÊ  B ﬁ  Y   0≠  wÏ  îs  ÿ∂  ˝≥  ZM  ‡[  åê  Ñã  —ö  gI  l&  î  nµ  s¶  ©% ÜZ  T  >  +”  +Ω  ßw  ^Ç  Oc  7& —  |1 ˘∫  É
+ xí  ⁄
+ õƒ  ˆ¢  ·—  O»  q.  á  Zj  Â«  ∞2  ?¿  ™…  d˜  <∆  ˇ& ˚ç  ÿ  7  ≠ $n  Õ˝  +Z  Wã  <†  Ù#  ÷”  ∑$ ¸i  v®  ö  G¥  
+  í  @( !´  œÁ  n˚  ∂∆  Î¸  Œ€  ! 3Ç  N  ™ﬂ  µ  £∂  Yn  r* #/  ˙’  œ}  |k  L‹  ; Í9  ◊Ÿ  w  %ˇ  W◊  Ií  ®“  ºx  Í' U/ ¥v  √f  ∑  ≈  ¿  I˙  `Ù  @≈  Ñ `”  ©π  d  ¨ å  Í  Q1 ≥  Ú  àD  ﬂ]  l  „+ |  ¸„  ∞¶  ˙	  Àã  D   t9  ˜   ı  óO  À  ky  UÂ  ã  £´  ” Ó  O § ùΩ  {‡  ÑI  tà  Î£  (  ≥ ˆØ  ¨( xq  ˛{  Wo  ·Ì  Õ¢   &  Ju  Œr  ^  ÕÂ  ì≥  ãx  2s  ’™  eG  *[  ∞G  î ú' ⁄X  Z  GY  Ö¢  u¡  °\  ‹ï  w,  ¢  Â  ∫"  ñÂ  *r  )  û#  ¢•  À¶  <1  €‘  ◊ j÷  fm  k  - J  ›0  V™  ëN  -û  65  ÅR  èu  kE  ,
+ r  ¨  gÔ  j/  8 ö—  æ+ ·=  } √  »˜  Ö, n  œF  ~w  =  {{  o å‘  }X  jì  ¢Ÿ  â  I- G  ≤ Øg  =b  9  éc  [Ÿ  ù)  @y  k’  ¯  ¸  ≥  .‡  tó  Yë  ç  ‹  ·   ê´  (d  m) ˙Å  ?˚  4(  T, ÈK  Ô  8È  ` F6  ÛI  Ê≠  `á  Â?  iÎ  †ı   ¶  Z7 ÿ  ˆ- ŒÚ  ‚ì  *Ô  äQ  íÅ  ∂Ó  ¨! ®  Ï  & ä  ´7 Ÿ  ï  º# „P  iö  @4  Mâ  |◊  …  âŒ  —-  Â Fˆ  ®Æ  „  ˚≤  å N ç
+  “  \  Te  ≈  êÊ  ;∂  A+ ë öë  Ù1 #Í  Œ Û5  ¯  Ù´  H  “+  Gk  B i≠  Õ∏  Ã⁄  J" •ﬁ  Ö±  Æ  ß∞  œ  y5  O?  =  E “  `  £I  }]  ï&  ‹ U  ì¯  É∑  NP  æ¯  ˆí  a À  6  ñ≈  L  *Á  *  Æ]  ˙‚  ;„    n˛  ÖÕ  ¨  ÈR  s§  ùm    0’  –Í  H	  êÌ  Óf  g  ™ç    Ö…  ø„  „S  ºÄ  I≥  S|  -É  ªk  3*  ó  ]B  ?«  ÓÇ  ôW  ÒË  ∏Y  Ày  	ñ  “ ÅP  ‚  Å‹    `  ∞-  ã™  \)  (Ä  Ú( y√  }Æ  ˚ú  B´  ç6  X  ‹@  _  áv    s	  )g  ˙  ¥j  ˛>  Ωa  •À  h% Øí  ”D  ’ë  »÷  ∏2 $+  :  ?J  ƒˆ  µø  [}  ò ,◊  ¥Î  ¡ B;  7v  Oı  4 0ü  π* ™¸  °á  ]  GÀ  ò}  #–  €  K q  ».  z–  —7  5% *{  	 ¸$ º  »ú  ı0 ‡Ò  {  ‚¿  •  àõ  Ü  }0 ûö  Ê  ∫  º  Ã–  6' ˘±   ±  ˙5 æ√  d¯  eç  0V  Í% Ãm  ˛u  Q  ˚  ˙ﬁ  ∫  # õ  Q®      éÁ  —≠  „  ƒ	  S  5°  ∏ I≤  K  ü Øp  gô  1 8    √ „U  Ú!  ˆ
+  1. )…  JW  *Ø   ûn  yÿ  Y  V'  ‡. p«  Ú  T  âé  63  ∑>  ∫4  ◊˘  ¬R  	7  |- Ÿ  ‹œ  2`  ∞K  ıÓ  à .$ ôM  ¯ e  õÖ  It  ˙ˇ  Ì  ÈÆ  J]  #O  UØ  á  %) 'a  'R  L¢  ı,  HÜ  Z¶  1à  + ô5 ôï  K•  ‡J    ò &˝  º‹  Cß  ™  hN  ß  æ6 AÌ  r0   8Œ   ¯ ‹  ï;  €õ  ˆ   }   Çz  Bh  »5  ”/ ﬂA  YU  Eê  ÁT  ï”  î|  Ï~  
+%  çˆ  ?ﬁ  RO  ¯;  ç˚  ®B  ¯ ≥Ù  ﬂB  [    úA  Il  ÉC  ,C  1D  ⁄C  0T  _∏    µó  ‚w  ~F  §Û  Â∆  Ñô  ò  ˛Ÿ  RR  Ç  nÍ  Ú¥  „†  {`     ﬁ Ñ  ~b  |‚  ß[  za  ò   YÁ  v¿  ªà  «'  32 ì˜  3¨  ûÏ  ‘é  %‘  Ã Á‹  -  ›8  ò’  r    w4  Ω- ”*   ˚–  N  "!  ∂  o' Öj  D¬    ≤P  P  |ø  √ñ  Ñ!      •œ  öU  s  =å  È2  =  v ˝÷  úy  1 +K  åâ  „∑   f  l  Qf  - ◊•  ±è  Œ£  U! üÉ  2  c-  ÃÑ  ≈»  Ë  *ª  g   ™/ `û  jv  í?  [ Êù  ßJ  ÑÀ  ÿ‡  ¯°  ˚4  •£  «  #"  7 ü–  é∏  9©  }˘  ¶{  èú  ≠  lº  ∆≤  ˇ˜  “◊  C /* [(  gñ  ≈ ¢ò  ˇ ∞3  ˝ü  z¨  qh  ıŒ  î  Ñ    >æ  o  πÅ  …ß  v∂  ÈÎ  ’ä  ‘À  I¯  8B  ÛÄ  YÅ  †h  C Sﬂ  Ì ﬂn  ©  T±  iT  ≥  å$ ÷  ›ÿ  ®i    Ü  h  Ô2 ú:  Er  ¥(  F#  £û  L€  3, t£   ∏  ∂  Óá  "U  êØ  
+  ¸˝  ·  I  ≈!  ¶T  Mõ  ﬂÊ  Qø  &  ∫e  Çå  >∫  ƒ∫  è∫  US  ii  K	 x  Ã  E ≥  b
+  R  §˘  Õ  Ò  üq  æ˙  ≠Ò  ï«  ¢  Nƒ  Z2 ﬂe  ‹  ”“  ˚  x»  K  <  å°  D¸  I·  (≤  ∂«   »  ™†  ˆæ  @Ñ  , 0ù  πô  µˇ  ∞ ¯Q    Mœ  lJ  }2    ∆  p –û  Ôt  m@  …Ø  ^  J&  +£  z4 ñt  r+ `. ˇ3  œâ  õ   ö  è  ‹p  7m  #  Â æ  
+õ  ∫  a  ≠L  æ6  ≤ Fÿ  X∑  ∑¥  ¯ Ñ˝  œ   • .  C  nè  M  S  >Ï  F>  ‚g  0 Ç 2§  a  ô& ‹q  Û&  &  …   +  òä  Zß  _V  ¨ ’
+  lˇ  ËÉ  
+  B)   Ç˙  ê  )  L  Ô »M  œÃ  VK  u∆  µQ  +
+  0  üî  zÒ  ¢ °  —›  π õ9  Ÿ4 Ù  Äﬁ  π  ·v  âæ  -$  ∞8  ◊h  ,q  †≠  Áﬂ  q†  ~*  Gó  m´  `Ω  Æ§  >Æ  i%  ¬  ¨   ¸  Ö  _ü  1Õ  F¡  ı:  „" ≥µ  •  åS  <Ú  7Ò  °r  ü/  ≤∑  |„  ~œ  ù  CL  ÅÑ  c—  ^É  T Ç≤  ¶%  ¡  ©≤  Æo  ‚  " ˝¡  Ωl  f    Bé  œ9  ¿I  yÚ  Y  }"  Q‚  Õ¨  ƒ  Ω' ô ,  #  ‡È     Uq  Ë_  ™Ã  >5 ±a A X N o h W n d     *A b s o l u t e U r i N o t A l l o w e d o   A b s o l u t e U r i O n l y û   :A c c e s s C o l l e c t i o n A f t e r S h u t D o w n œ   8A d d A n n o t a t i o n s N o t I m p l e m e n t e d   &A d d e d I t e m N o t A t I n d e x 2  0A d d e d I t e m N o t I n C o l l e c t i o n a  ,A d o r n e d E l e m e n t N o t F o u n d ™  RA d o r n e d E l e m e n t P l a c e h o l d e r M u s t B e I n T e m p l a t e ‚  A d o r n e r N o t F o u n d Y  (A f f e c t e d B y M s C t f I s s u e ≤  2A l r e a d y H a s L o g i c a l C h i l d r e n «   A l r e a d y H a s P a r e n t   :A n i m a t i o n _ C h i l d M u s t B e K e y F r a m e V  `A n i m a t i o n _ I n v a l i d A n i m a t i o n U s i n g K e y F r a m e s D u r a t i o n º  4A n i m a t i o n _ I n v a l i d B a s e V a l u e —  BA n i m a t i o n _ I n v a l i d R e s o l v e d K e y T i m e s ô  8A n i m a t i o n _ I n v a l i d T i m e K e y T i m e Ö  <A n i m a t i o n _ I n v a l i d _ D e f a u l t V a l u e 	  0A n i m a t i o n _ N o T e x t C h i l d r e n R	  <A n n o t a t i o n A d o r n e r _ N o t U I E l e m e n t ¶	  >A n n o t a t i o n A l r e a d y E x i s t I n S e r v i c e ‹	  .A n n o t a t i o n A l r e a d y E x i s t s 
+   A n n o t a t i o n I s N u l l B
+  <A n n o t a t i o n S e r v i c e A l r e a d y E x i s t s Ñ
+  BA n n o t a t i o n S e r v i c e I s A l r e a d y E n a b l e d π
+  6A n n o t a t i o n S e r v i c e N o t E n a b l e d „
+  ,A p p A c t i v a t i o n E x c e p t i o n   2A p p l i c a t i o n A l r e a d y R u n n i n g V  .A p p l i c a t i o n S h u t t i n g D o w n å  ,A r g u m e n t L e n g t h M i s m a t c h ∏  :A r g u m e n t P r o p e r t y M u s t N o t B e N u l l ı  ,A r g u m e n t _ I n v a l i d O f f L e n $  0A r r a n g e R e e n t r a n c y I n v a l i d ®  $A s s e m b l y I d N e g a t i v e ÿ  .A s s e m b l y I d O u t O f S e q u e n c e -  $A s s e m b l y T a g M i s s i n g ü  4A t t a c h a b l e P r o p e r t y N o t F o u n d ⁄  :A u d i o V i d e o _ C a n n o t C o n t r o l M e d i a 	  DA u d i o V i d e o _ I n v a l i d D e p e n d e n c y O b j e c t g  8A u d i o V i d e o _ I n v a l i d M e d i a S t a t e é  bA u x i l i a r y F i l t e r R e t u r n e d A n o m a l o u s C o u n t O f C h a r a c t e r s ∂  &A x N o C o n n e c t i o n P o i n t &  8A x N o C o n n e c t i o n P o i n t C o n t a i n e r a  $A x N o E v e n t I n t e r f a c e §  A x N o S i n k A d v i s e €  ,A x N o S i n k I m p l e m e n t a t i o n    2A x R e q u i r e s A p a r t m e n t T h r e a d `  &A x W i n d o w l e s s C o n t r o l ∂  B a d D i s t a n c e   (B a d F i x e d T e x t P o s i t i o n Z  B a d T a r g e t A r r a y ¢  (B a d T e x t P o s i t i o n O r d e r À  ,B a m l A s s e m b l y I d N o t F o u n d Ù  *B a m l B a d E x t e n s i o n V a l u e %  ^B a m l I s N o t S u p p o r t e d O u t s i d e O f A p p l i c a t i o n R e s o u r c e s y   B a m l R e a d e r C l o s e d ≥  *B a m l R e a d e r N o O w n e r T y p e Ò  B a m l S c o p e E r r o r a  $B a m l T y p e I d N o t F o u n d ¡  *B a m l W r i t e r B a d A s s e m b l y Ó  $B a m l W r i t e r B a d S c o p e B  &B a m l W r i t e r B a d S t r e a m ∞  $B a m l W r i t e r B a d X m l n s ˝   B a m l W r i t e r C l o s e d =  *B a m l W r i t e r N o I n E l e m e n t |  $B a m l W r i t e r S t a r t D o c ⁄  @B a m l W r i t e r U n k n o w n M a r k u p E x t e n s i o n 5  FB i n d i n g C o l l e c t i o n C o n t a i n s N o n B i n d i n g ]  B i n d i n g C o n f l i c t ™  6B i n d i n g E x p r e s s i o n I s D e t a c h e d Á  <B i n d i n g E x p r e s s i o n S t a t u s C h a n g e d &  >B i n d i n g G r o u p _ C a n n o t C h a n g e G r o u p s ú  (B i n d i n g G r o u p _ N o E n t r y   :B i n d i n g G r o u p _ V a l u e U n a v a i l a b l e _  FB i n d i n g L i s t C a n O n l y S o r t B y O n e P r o p e r t y C  :B i n d i n g L i s t C a n n o t C u s t o m F i l t e r Ä  4B r o w s e r H o s t i n g N o t S u p p o r t e d ≈  (B u f f e r O f f s e t N e g a t i v e   B u f f e r T o o S m a l l X  BB y t e R a n g e D o w n l o a d e r N o t I n i t i a l i z e d ∞  TC a l e n d a r A u t o m a t i o n P e e r _ B l a c k o u t D a y H e l p T e x t ı  rC a l e n d a r A u t o m a t i o n P e e r _ C a l e n d a r B u t t o n L o c a l i z e d C o n t r o l T y p e   hC a l e n d a r A u t o m a t i o n P e e r _ D a y B u t t o n L o c a l i z e d C o n t r o l T y p e '  BC a l e n d a r A u t o m a t i o n P e e r _ D e c a d e M o d e 7  @C a l e n d a r A u t o m a t i o n P e e r _ M o n t h M o d e D  >C a l e n d a r A u t o m a t i o n P e e r _ Y e a r M o d e M  xC a l e n d a r C o l l e c t i o n _ M u l t i T h r e a d e d C o l l e c t i o n C h a n g e N o t S u p p o r t e d R  BC a l e n d a r N a m e P r o p e r t y V a l u e N o t V a l i d “  XC a l e n d a r _ C h e c k S e l e c t i o n M o d e _ I n v a l i d O p e r a t i o n R  .C a l e n d a r _ N e x t B u t t o n N a m e ‚  dC a l e n d a r _ O n D i s p l a y M o d e P r o p e r t y C h a n g e d _ I n v a l i d V a l u e ˆ  ZC a l e n d a r _ O n F i r s t D a y O f W e e k C h a n g e d _ I n v a l i d V a l u e   ^C a l e n d a r _ O n S e l e c t e d D a t e C h a n g e d _ I n v a l i d O p e r a t i o n A  VC a l e n d a r _ O n S e l e c t e d D a t e C h a n g e d _ I n v a l i d V a l u e ú  XC a l e n d a r _ O n S e l e c t i o n M o d e C h a n g e d _ I n v a l i d V a l u e ¡  6C a l e n d a r _ P r e v i o u s B u t t o n N a m e Á  4C a l e n d a r _ U n S e l e c t a b l e D a t e s ˇ  &C a n O n l y H a v e O n e C h i l d   ,C a n c e l E d i t N o t S u p p o r t e d õ  C a n c e l l e d T e x t €  C a n c e l l e d T i t l e    &C a n n o t B e I n s i d e P o p u p %  $C a n n o t B e S e l f P a r e n t c  BC a n n o t C a l l R u n F r o m B r o w s e r H o s t e d A p p ù  4C a n n o t C a l l R u n M u l t i p l e T i m e s „  .C a n n o t C h a n g e A f t e r S e a l e d    .C a n n o t C h a n g e L i v e S h a p i n g L   >C a n n o t C h a n g e M a i n W i n d o w I n B r o w s e r í   2C a n n o t C o n v e r t S t r i n g T o T y p e —   "C a n n o t C o n v e r t T y p e !  XC a n n o t D e t e r m i n e S o r t B y P r o p e r t i e s F o r C o l l e c t i o n ,!  *C a n n o t E d i t P l a c e h o l d e r ö!   C a n n o t F i l t e r V i e w Œ!  *C a n n o t F i n d R e m o v e d I t e m Ô!  C a n n o t G r o u p V i e w "  FC a n n o t H a v e E v e n t H a n d l e r s I n T h e m e S t y l e G"  VC a n n o t H a v e O v e r r i d e s D e f a u l t S t y l e I n T h e m e S t y l e Ñ"  2C a n n o t H a v e P r o p e r t y I n S t y l e …"  8C a n n o t H a v e P r o p e r t y I n T e m p l a t e #  &C a n n o t H o o k u p F C E R o o t A#  $C a n n o t I n v o k e S c r i p t ì#  RC a n n o t M o d i f y L o g i c a l C h i l d r e n D u r i n g T r e e W a l k µ#  :C a n n o t M o d i f y R e a d O n l y C o n t a i n e r '$  6C a n n o t M o v e T o U n k n o w n P o s i t i o n [$  C a n n o t P a r s e I d î$  .C a n n o t P r o c e s s I n k C o m m a n d …$  `C a n n o t Q u e r y P r o p e r t i e s W h e n P a g e N o t I n T r e e W i t h W i n d o w p%  <C a n n o t R e c y l e H e t e r o g e n e o u s T y p e s ø%  6C a n n o t R e m o v e U n r e a l i z e d I t e m s f&  NC a n n o t R e t r i e v e P a r t s O f W r i t e O n l y C o n t a i n e r ÿ&  :C a n n o t S e l e c t N o t S e l e c t a b l e I t e m A'  <C a n n o t S e r i a l i z e I n v a l i d I n s t a n c e ^'  2C a n n o t S e t N e g a t i v e P o s i t i o n ”'  ,C a n n o t S e t O w n e r T o I t s e l f (  C a n n o t S o r t V i e w A(  (C a n n o t U s e I t e m s S o u r c e g(  *C a n n o t W r i t e T o R e a d O n l y º(  C a n t S e t I n M a r k u p )  <C a n t S e t O w n e r A f t e r D i a l o g I s S h o w n p)  4C a n t S e t O w n e r T o C l o s e d W i n d o w ß)  @C a n t S e t O w n e r W h o s H w n d I s N o t C r e a t e d Ú)  4C a n t S h o w M B S e r v i c e W i t h O w n e r C*  :C a n t S h o w M o d a l O n N o n I n t e r a c t i v e s*  2C a n t S h o w O n D i f f e r e n t T h r e a d ÷*  NC a n t S w i t c h V i r t u a l i z a t i o n M o d e P o s t M e a s u r e +  2C h a n g e N o t A l l o w e d A f t e r S h o w ñ+  &C h a n g e S e a l e d B i n d i n g ,  <C h a n g i n g C o l l e c t i o n N o t S u p p o r t e d L,  (C h a n g i n g I d N o t A l l o w e d €,  ,C h a n g i n g T y p e N o t A l l o w e d --  "C h i l d H a s W r o n g T y p e q-  .C h i l d N a m e M u s t B e N o n E m p t y ù-  8C h i l d N a m e N a m e P a t t e r n R e s e r v e d .  BC h i l d T e m p l a t e I n s t a n c e D o e s N o t E x i s t b.  @C h i l d W i n d o w M u s t H a v e C o r r e c t P a r e n t •.  *C h i l d W i n d o w N o t C r e a t e d Ò.  $C i r c u l a r O w n e r C h i l d >/  C l e a r H i g h l i g h t s/  0C l i p T o B o u n d s N o t S u p p o r t e d ç/  4C l i p b o a r d C o p y M o d e _ D i s a b l e d ¡/  :C o l l e c t i o n A d d E v e n t M i s s i n g I t e m 0  >C o l l e c t i o n C h a n g e I n d e x O u t O f R a n g e Ï0  VC o l l e c t i o n C o n t a i n e r M u s t B e U n i q u e F o r C o m p o s i t e ;1  ZC o l l e c t i o n N u m b e r O f E l e m e n t s M u s t B e L e s s O r E q u a l T o £1  8C o l l e c t i o n V i e w T y p e I s I n i t O n l y Ë1  ZC o l l e c t i o n V i e w _ M i s s i n g S y n c h r o n i z a t i o n C a l l b a c k .2  @C o l l e c t i o n V i e w _ N a m e T y p e D u p l i c i t y ¿2  FC o l l e c t i o n V i e w _ V i e w T y p e I n s u f f i c i e n t 33  0C o l l e c t i o n V i e w _ W r o n g T y p e r3  $C o l l e c t i o n _ B a d T y p e ù3  ^C o l l e c t i o n _ C o p y T o _ A r r a y C a n n o t B e M u l t i d i m e n s i o n a l ˙3  lC o l l e c t i o n _ C o p y T o _ I n d e x G r e a t e r T h a n O r E q u a l T o A r r a y L e n g t h 94  hC o l l e c t i o n _ C o p y T o _ N u m b e r O f E l e m e n t s E x c e e d s A r r a y L e n g t h Ö4  "C o l l e c t i o n _ N o N u l l ˆ4  TC o l o r C o n v e r t e d B i t m a p E x t e n s i o n N o S o u r c e I m a g e 5  XC o l o r C o n v e r t e d B i t m a p E x t e n s i o n N o S o u r c e P r o f i l e g5  FC o l o r C o n v e r t e d B i t m a p E x t e n s i o n S y n t a x ™5  <C o m p a t i b i l i t y P r e f e r e n c e s S e a l e d €5  JC o m p o n e n t A l r e a d y I n P r e s e n t a t i o n C o n t e x t 6  BC o m p o n e n t N o t I n P r e s e n t a t i o n C o n t e x t O6  FC o m p o s i t e C o l l e c t i o n R e s e t O n l y O n C l e a r Ñ6  PC o n d i t i o n C a n n o t U s e B o t h P r o p e r t y A n d B i n d i n g 7  LC o n d i t i o n V a l u e O f E x p r e s s i o n N o t S u p p o r t e d Z7  VC o n d i t i o n V a l u e O f M a r k u p E x t e n s i o n N o t S u p p o r t e d î7  NC o n t e n t C o n t r o l C a n n o t H a v e M u l t i p l e C o n t e n t ∆7  .C o n t e n t T y p e N o t S u p p o r t e d ¸7  @C o n t e x t M e n u I n D i f f e r e n t D i s p a t c h e r 8  (C o p y T o N o t E n o u g h S p a c e G8  VC o r e P r o p e r t y E n u m e r a t o r P o s i t i o n e d O u t O f B o u n d s √8  C r e a t e H i g h l i g h t 
+9  C r e a t e I n k N o t e 9  JC r e a t e R o o t P o p u p _ C h i l d H a s L o g i c a l P a r e n t 39  HC r e a t e R o o t P o p u p _ C h i l d H a s V i s u a l P a r e n t å9  C r e a t e T e x t N o t e Á9  NC r o s s T h r e a d A c c e s s O f U n s h a r e a b l e F r e e z a b l e  :  HC u s t o m C o n t e n t S t a t e M u s t B e S e r i a l i z a b l e Q:  RC u s t o m D i c t i o n a r y F a i l e d T o L o a d D i c t i o n a r y U r i é:  VC u s t o m D i c t i o n a r y F a i l e d T o U n L o a d D i c t i o n a r y U r i À:  BC u s t o m D i c t i o n a r y I t e m A l r e a d y E x i s t s 	;  0C u s t o m D i c t i o n a r y N u l l I t e m ;;  JC u s t o m D i c t i o n a r y S o u r c e s U n s u p p o r t e d U R I o;  8C y c l i c S t y l e R e f e r e n c e D e t e c t e d ¿;  BC y c l i c T h e m e S t y l e R e f e r e n c e D e t e c t e d <  fD a t a G r i d C e l l I t e m A u t o m a t i o n P e e r _ L o c a l i z e d C o n t r o l T y p e c<  ZD a t a G r i d C e l l I t e m A u t o m a t i o n P e e r _ N a m e C o r e F o r m a t }<  jD a t a G r i d C o l u m n H e a d e r I t e m A u t o m a t i o n P e e r _ N a m e C o r e F o r m a t ´<  dD a t a G r i d C o l u m n H e a d e r I t e m A u t o m a t i o n P e e r _ U n r e s i z a b l e ’<  dD a t a G r i d C o l u m n H e a d e r I t e m A u t o m a t i o n P e e r _ U n s u p p o r t e d ˝<  .D a t a G r i d L e n g t h _ I n f i n i t y 2=  4D a t a G r i d L e n g t h _ I n v a l i d T y p e X=  HD a t a G r i d R o w _ C a n n o t S e l e c t R o w W h e n C e l l s k=  >D a t a G r i d _ A u t o m a t i o n I n v o k e F a i l e d ’=  2D a t a G r i d _ C a n n o t S e l e c t C e l l c>  JD a t a G r i d _ C o l u m n D i s p l a y I n d e x O u t O f R a n g e ¡>  <D a t a G r i d _ C o l u m n I n d e x O u t O f R a n g e }?  2D a t a G r i d _ C o l u m n I s R e a d O n l y @  >D a t a G r i d _ D i s p l a y I n d e x O u t O f R a n g e j@  <D a t a G r i d _ D u p l i c a t e D i s p l a y I n d e x ˛@  6D a t a G r i d _ I n v a l i d C o l u m n R e u s e wA  >D a t a G r i d _ I n v a l i d S o r t D e s c r i p t i o n 0B  JD a t a G r i d _ N e w C o l u m n I n v a l i d D i s p l a y I n d e x )C  &D a t a G r i d _ N u l l C o l u m n ÇC  ND a t a G r i d _ P r o b a b l e I n v a l i d S o r t D e s c r i p t i o n œC  BD a t a G r i d _ R e a d o n l y C e l l s I t e m s S o u r c e ME  ,D a t a T y p e C a n n o t B e O b j e c t õE  ZD a t e P i c k e r A u t o m a t i o n P e e r _ L o c a l i z e d C o n t r o l T y p e ÃE  LD a t e P i c k e r T e x t B o x _ D e f a u l t W a t e r m a r k T e x t ⁄E  ^D a t e P i c k e r T e x t B o x _ T e m p l a t e P a r t I s O f I n c o r r e c t T y p e ÓE  :D a t e P i c k e r _ D r o p D o w n B u t t o n N a m e F  fD a t e P i c k e r _ O n S e l e c t e d D a t e F o r m a t C h a n g e d _ I n v a l i d V a l u e 2F  0D a t e P i c k e r _ W a t e r m a r k T e x t [F  (D e f e r S e l e c t i o n A c t i v e iF  .D e f e r S e l e c t i o n N o t A c t i v e ¨F  0D e f e r r i n g L o a d e r N o C o n t e x t ÈF  *D e f e r r i n g L o a d e r N o S a v e VG  "D e l e t e A n n o t a t i o n s êG  D e l e t e N o t e s ∂G  D e p l o y T e x t ÃG  D e p l o y T i t l e H  ZD e s i g n e r M e t a d a t a _ C u s t o m C a t e g o r y _ A c c e s s i b i l i t y ;H  ND e s i g n e r M e t a d a t a _ C u s t o m C a t e g o r y _ C o n t e n t JH  TD e s i g n e r M e t a d a t a _ C u s t o m C a t e g o r y _ N a v i g a t i o n QH  HD i a l o g R e s u l t M u s t B e S e t A f t e r S h o w D i a l o g [H  ND i s p l a y M e m b e r P a t h A n d I t e m T e m p l a t e D e f i n e d ∞H  ^D i s p l a y M e m b e r P a t h A n d I t e m T e m p l a t e S e l e c t o r D e f i n e d ¸H  JD o c u m e n t A p p l i c a t i o n C a n n o t I n i t i a l i z e U I …I  fD o c u m e n t A p p l i c a t i o n C o n t e x t M e n u F i r s t P a g e I n p u t G e s t u r e ÍI  dD o c u m e n t A p p l i c a t i o n C o n t e x t M e n u L a s t P a g e I n p u t G e s t u r e ıI  XD o c u m e n t A p p l i c a t i o n C o n t e x t M e n u N e x t P a g e H e a d e r ˇI  dD o c u m e n t A p p l i c a t i o n C o n t e x t M e n u N e x t P a g e I n p u t G e s t u r e J  `D o c u m e n t A p p l i c a t i o n C o n t e x t M e n u P r e v i o u s P a g e H e a d e r !J  lD o c u m e n t A p p l i c a t i o n C o n t e x t M e n u P r e v i o u s P a g e I n p u t G e s t u r e 7J  BD o c u m e n t A p p l i c a t i o n N o t I n F u l l T r u s t EJ  LD o c u m e n t A p p l i c a t i o n R e g i s t r y K e y N o t F o u n d èJ  >D o c u m e n t A p p l i c a t i o n S t a t u s L o a d e d ¿J  ND o c u m e n t A p p l i c a t i o n U n a b l e T o O p e n D o c u m e n t ”J  HD o c u m e n t A p p l i c a t i o n U n k n o w n F i l e F o r m a t K  6D o c u m e n t G r i d I n v a l i d V i e w M o d e 3K  jD o c u m e n t G r i d V i s u a l T r e e C o n t a i n s N o n B o r d e r A s F i r s t E l e m e n t yK  bD o c u m e n t G r i d V i s u a l T r e e C o n t a i n s N o n D o c u m e n t G r i d P a g e ∆K  TD o c u m e n t G r i d V i s u a l T r e e C o n t a i n s N o n U I E l e m e n t  L  >D o c u m e n t G r i d V i s u a l T r e e O u t O f S y n c fL  TD o c u m e n t P a g e V i e w _ P a r e n t N o t D o c u m e n t P a g e H o s t ôL   D o c u m e n t R e a d O n l y ÷L  FD o c u m e n t R e f e r e n c e H a s I n v a l i d D o c u m e n t ˆL  2D o c u m e n t R e f e r e n c e N o t F o u n d aM  HD o c u m e n t R e f e r e n c e U n s u p p o r t e d M i m e T y p e âM  RD o c u m e n t S t r u c t u r e U n e x p e c t e d P a r a m e t e r T y p e 1 ﬂM  RD o c u m e n t S t r u c t u r e U n e x p e c t e d P a r a m e t e r T y p e 2  N  RD o c u m e n t S t r u c t u r e U n e x p e c t e d P a r a m e t e r T y p e 4 jN  RD o c u m e n t S t r u c t u r e U n e x p e c t e d P a r a m e t e r T y p e 6 æN  FD o c u m e n t V i e w e r A r g u m e n t M u s t B e I n t e g e r O  LD o c u m e n t V i e w e r A r g u m e n t M u s t B e P e r c e n t a g e {O  BD o c u m e n t V i e w e r C a n H a v e O n l y O n e C h i l d ¬O  pD o c u m e n t V i e w e r C h i l d M u s t I m p l e m e n t I D o c u m e n t P a g i n a t o r S o u r c e P  6D o c u m e n t V i e w e r O n e M a s t e r P a g e mP  ^D o c u m e n t V i e w e r O n l y S u p p o r t s F i x e d D o c u m e n t S e q u e n c e ÃP  LD o c u m e n t V i e w e r P a g e V i e w s C o l l e c t i o n E m p t y  Q  BD o c u m e n t V i e w e r S e a r c h C o m p l e t e T i t l e aQ  JD o c u m e n t V i e w e r S e a r c h D o w n C o m p l e t e L a b e l iQ  FD o c u m e n t V i e w e r S e a r c h U p C o m p l e t e L a b e l ûQ  RD o c u m e n t V i e w e r S t y l e M u s t I n c l u d e C o n t e n t H o s t ◊Q  PD o c u m e n t V i e w e r V i e w F i t T o H e i g h t C o m m a n d T e x t >R  `D o c u m e n t V i e w e r V i e w F i t T o M a x P a g e s A c r o s s C o m m a n d T e x t PR  ND o c u m e n t V i e w e r V i e w F i t T o W i d t h C o m m a n d T e x t fR  ND o c u m e n t V i e w e r V i e w T h u m b n a i l s C o m m a n d T e x t yR  D o w n l o a d T e x t êR  D o w n l o a d T i t l e S  D r a g M o v e F a i l )S  .D u p l i c a t e d C o m p a t i b l e U r i xS  D u p l i c a t e d U r i ≈S  (D u p l i c a t e s N o t A l l o w e d T  (E l e m e n t M u s t B e I n P o p u p 9T  6E l e m e n t M u s t B e l o n g T o T e m p l a t e ÇT  4E m p t y S e l e c t i o n N o t S u p p o r t e d ∏T  FE n d I n i t W i t h o u t B e g i n I n i t N o t S u p p o r t e d ÌT  &E n t r y A s s e m b l y I s N u l l $U  E n u m _ I n v a l i d V  8E n u m e r a t o r C o l l e c t i o n D i s p o s e d <V  4E n u m e r a t o r I n v a l i d O p e r a t i o n wV  (E n u m e r a t o r N o t S t a r t e d …V  (E n u m e r a t o r R e a c h e d E n d ˚V  0E n u m e r a t o r V e r s i o n C h a n g e d W  0E n u m e r a t o r _ V e r i f y C o n t e x t cW  *E v e n t T r i g g e r B a d A c t i o n îW  <E v e n t T r i g g e r D o N o t S e t P r o p e r t i e s ˆW  8E v e n t T r i g g e r D o e s N o t E n t e r E x i t 7X  :E v e n t T r i g g e r E v e n t U n r e s o l v a b l e X  *E v e n t T r i g g e r N e e d E v e n t ≠X  RE v e n t T r i g g e r O n S t y l e N o t A l l o w e d T o H a v e T a r g e t ‰X  DE v e n t T r i g g e r T a r g e t N a m e U n r e s o l v a b l e GY  $E x c e p t i o n I n G e t P a g e wY  VE x c e p t i o n V a l i d a t i o n R u l e V a l i d a t e N o t S u p p o r t e d óY  2E x p e c t e d B a m l S c h e m a C o n t e x t dZ  *E x p e c t e d B i n a r y C o n t e n t ÁZ  @E x p e c t e d R e s o u r c e D i c t i o n a r y T a r g e t h[  4F a i l T o L a u n c h D e f a u l t B r o w s e r ∏[  DF a i l T o N a v i g a t e U s i n g H y p e r l i n k T a r g e t Ë[  0F a i l e d R e s u m e P a g e F u n c t i o n \  .F a i l e d T o C o n v e r t R e s o u r c e •\  ,F i l e D i a l o g C r e a t e P r o m p t –\  ,F i l e D i a l o g F i l e N o t F o u n d ˝\  .F i l e D i a l o g I n v a l i d F i l t e r @]  8F i l e D i a l o g I n v a l i d F i l t e r I n d e x ≥^  2F i l e D i a l o g O v e r w r i t e P r o m p t œ^  &F i l e F o r m a t E x c e p t i o n ˛^  >F i l e F o r m a t E x c e p t i o n W i t h F i l e N a m e \_  *F i l e N a m e M u s t N o t B e N u l l †_  &F i l e N a m e N u l l O r E m p t y Ú_  *F i l e T o F i l t e r N o t L o a d e d `  <F i l t e r B i n d R e g i o n N o t I m p l e m e n t e d >`  "F i l t e r E n d O f C h u n k s ``  ,F i l t e r G e t C h u n k N o S t r e a m ñ`  6F i l t e r G e t T e x t B u f f e r O v e r f l o w a  2F i l t e r G e t T e x t N o t S u p p o r t e d la  RF i l t e r G e t V a l u e A l r e a d y C a l l e d O n C u r r e n t C h u n k ßa  HF i l t e r G e t V a l u e M u s t B e S t r i n g O r D a t e T i m e ‰a  4F i l t e r G e t V a l u e N o t S u p p o r t e d 3b  8F i l t e r I P e r s i s t F i l e I s R e a d O n l y ob  <F i l t e r I P e r s i s t S t r e a m I s R e a d O n l y ∑b  6F i l t e r I n i t I n v a l i d A t t r i b u t e s c  2F i l t e r L o a d I n v a l i d M o d e F l a g Dc  <F i l t e r N u l l G e t T e x t B u f f e r P o i n t e r ~c  DF i l t e r P r o p S p e c U n k n o w n U n i o n S e l e c t o r Ãc  HF i x e d D o c u m e n t E x p e c t s D e p e n d e n c y O b j e c t Òc  *F i x e d D o c u m e n t R e a d o n l y Nd  @F l o w D o c u m e n t F o r m a t t i n g R e e n t r a n c y nd  @F l o w D o c u m e n t I n v a l i d C o n t n e t C h a n g e æd  \F l o w D o c u m e n t P a g e V i e w e r O n l y S u p p o r t s F l o w D o c u m e n t d  JF l o w D o c u m e n t R e a d e r C a n H a v e O n l y O n e C h i l d >e  \F l o w D o c u m e n t R e a d e r C a n n o t D i s a b l e A l l V i e w i n g M o d e s Ñe  ~F l o w D o c u m e n t R e a d e r D e c o r a t o r M a r k e d A s C o n t e n t H o s t M u s t H a v e N o C o n t e n t Œe  XF l o w D o c u m e n t R e a d e r V i e w i n g M o d e E n a b l e d C o n f l i c t f  hF l o w D o c u m e n t R e a d e r _ M u l t i p l e V i e w P r o v i d e r _ P a g e V i e w N a m e cf  lF l o w D o c u m e n t R e a d e r _ M u l t i p l e V i e w P r o v i d e r _ S c r o l l V i e w N a m e mf  nF l o w D o c u m e n t R e a d e r _ M u l t i p l e V i e w P r o v i d e r _ T w o P a g e V i e w N a m e wf  VF l o w D o c u m e n t S c r o l l V i e w e r C a n H a v e O n l y O n e C h i l d Üf  ûF l o w D o c u m e n t S c r o l l V i e w e r D o c u m e n t B e l o n g s T o A n o t h e r F l o w D o c u m e n t S c r o l l V i e w e r A l r e a d y “f  xF l o w D o c u m e n t S c r o l l V i e w e r M a r k e d A s C o n t e n t H o s t M u s t H a v e N o C o n t e n t "g  4F o r m a t R e s t r i c t i o n s E x c e e d e d lg  F r a m e N o A d d C h i l d ¬g  LF r a m e w o r k E l e m e n t F a c t o r y A l r e a d y P a r e n t e d ˘g  HF r a m e w o r k E l e m e n t F a c t o r y C a n n o t A d d T e x t ?h  FF r a m e w o r k E l e m e n t F a c t o r y M u s t B e S e a l e d ûh  ,F r e e z a b l e _ C a n t B e F r o z e n ˝h  (G e n e r a t i o n I n P r o g r e s s ni  .G e n e r a t i o n N o t I n P r o g r e s s ®i  ,G e n e r a t o r _ C o u n t I s W r o n g Ìi  ,G e n e r a t o r _ I n c o n s i s t e n t ≠j  *G e n e r a t o r _ I t e m I s W r o n g 'k  (G e n e r a t o r _ M o r e E r r o r s Äk  "G e n e r a t o r _ R e a d m e 0 ´k  "G e n e r a t o r _ R e a d m e 1 l  "G e n e r a t o r _ R e a d m e 2 –l  "G e n e r a t o r _ R e a d m e 3 ˙l  "G e n e r a t o r _ R e a d m e 4 Om  "G e n e r a t o r _ R e a d m e 5 ¥m  "G e n e r a t o r _ R e a d m e 6 àn  "G e n e r a t o r _ R e a d m e 7 Ùn  "G e n e r a t o r _ R e a d m e 8 Ço  "G e n e r a t o r _ R e a d m e 9 Úo  "G e n e r a t o r _ U n n a m e d ip  "G e t R e s p o n s e F a i l e d wp  G e t S t r e a m F a i l e d Øp  DG l y p h s A d v a n c e W i d t h C a n n o t B e N e g a t i v e ˛p  BG l y p h s C a r e t S t o p s C o n t a i n s H e x D i g i t s *q  `G l y p h s C a r e t S t o p s L e n g t h C o r r e s p o n d s T o U n i c o d e S t r i n g qq  NG l y p h s C l u s t e r B a d C h a r a c t e r s B e f o r e B r a c k e t Ëq  >G l y p h s C l u s t e r M i s p l a c e d S e p a r a t o r :r  <G l y p h s C l u s t e r N o M a t c h i n g B r a c k e t {r  :G l y p h s C l u s t e r N o N e s t e d C l u s t e r s ∫r  <G l y p h s I n d e x R e q u i r e d I f N o U n i c o d e ‹r  @G l y p h s I n d e x R e q u i r e d W i t h i n C l u s t e r  s  &G l y p h s T o o M a n y C o m m a s \s  \G l y p h s U n i c o d e S t r i n g A n d I n d i c e s C a n n o t B o t h B e E m p t y ós  :G l y p h s U n i c o d e S t r i n g I s T o o S h o r t ‡s  FG r i d C o l l e c t i o n _ C a n n o t M o d i f y R e a d O n l y At  JG r i d C o l l e c t i o n _ D e s t A r r a y I n v a l i d L e n g t h ~t  RG r i d C o l l e c t i o n _ D e s t A r r a y I n v a l i d L o w e r B o u n d ßt  FG r i d C o l l e c t i o n _ D e s t A r r a y I n v a l i d R a n k ◊t  @G r i d C o l l e c t i o n _ I n O t h e r C o l l e c t i o n u  @G r i d C o l l e c t i o n _ M u s t B e C e r t a i n T y p e Hu  8G r i d _ U n e x p e c t e d P a r a m e t e r T y p e hu  $H a n d l e r T y p e I l l e g a l ©u   H a s L o g i c a l P a r e n t ∆u  <H o s t e d W i n d o w M u s t B e A C h i l d W i n d o w !v  ,H o s t i n g S t a t u s C a n c e l l e d Ev  0H o s t i n g S t a t u s D o w n l o a d A p p jv  8H o s t i n g S t a t u s D o w n l o a d A p p I n f o Äv  &H o s t i n g S t a t u s F a i l e d §v  6H o s t i n g S t a t u s P r e p a r i n g T o R u n »v  ,H o s t i n g S t a t u s V e r i f y i n g Ïv  PH w n d H o s t D o e s N o t S u p p o r t C h i l d K e y b o a r d S i n k s w  .H y p e r L i n k T a r g e t N o t F o u n d òw  $H y p h e n a t o r D i s p o s e d µw  2I D P I n v a l i d C o n t e n t P o s i t i o n Âw  *I D P N e g a t i v e P a g e N u m b e r x  *I c o n M u s t B e B i t m a p F r a m e Dx  2I l l e g a l T r e e C h a n g e D e t e c t e d Üx  FI l l e g a l T r e e C h a n g e D e t e c t e d P o s t A c t i o n ⁄x  BI l l e g a l _ I n h e r i t a n c e B e h a v i o r S e t t o r .y  :I m p l e m e n t O t h e r M e m b e r s W i t h S o r t πy  *I n D i f f e r e n t P a r a g r a p h s $z   I n D i f f e r e n t S c o p e Zz  2I n D i f f e r e n t T e x t C o n t a i n e r s åz  "I n a v a l i d S t a r t I t e m ¬z  &I n c o m p a t i b l e C L R T e x t Êz  *I n c o m p a t i b l e W i n F X T e x t Ü{  .I n c o n s i s t e n t B i n d i n g L i s t |  *I n c o r r e c t A n c h o r L e n g t h ÷|  ,I n c o r r e c t F l o w D i r e c t i o n !}  0I n c o r r e c t L o c a t o r P a r t T y p e J}  :I n d e x e d P r o p D e s c N o t I m p l e m e n t e d v}  BI n k C a n v a s D e s e l e c t K e y D i s p l a y S t r i n g µ}  BI n p u t S c o p e A t t r i b u t e _ E _ O U T O F M E M O R Y ∫}  2I n p u t S t r e a m M u s t B e R e a d a b l e Œ}  8I n s e r t I n D e f e r S e l e c t i o n A c t i v e  ~  FI n t e g e r C o l l e c t i o n L e n g t h L e s s T h a n Z e r o V~  *I n v a l i d A n c h o r P o s i t i o n ô~  *I n v a l i d A t t a c h e d A n c h o r µ~  2I n v a l i d A t t a c h e d A n n o t a t i o n ”~  *I n v a l i d A t t r i b u t e V a l u e ı~  "I n v a l i d B y t e R a n g e s &  ,I n v a l i d C l i p b o a r d F o r m a t T  0I n v a l i d C o m p o s i t i o n T a r g e t ì  @I n v a l i d C o n t r o l T e m p l a t e T a r g e t T y p e ˚  <I n v a l i d C t o r P a r a m e t e r N o I n f i n i t y yÄ  2I n v a l i d C t o r P a r a m e t e r 

@@ -1,0 +1,795 @@
+mbol:"XBA"},XBB:{displayName:{other:"EMU"},narrow:"XBB",symbol:"XBB"},XCD:{displayName:{one:"\xf8stkaribisk dollar",other:"\xf8stkaribiske dollar"},narrow:"$",symbol:"EC$"},XCG:{displayName:{},narrow:"Cg.",symbol:"Cg."},XDR:{displayName:{other:"SDR"},narrow:"XDR",symbol:"XDR"},XEU:{displayName:{other:"ECU"},narrow:"XEU",symbol:"XEU"},XFO:{displayName:{one:"Fransk guldfranc",other:"Franske guldfranc"},narrow:"XFO",symbol:"XFO"},XFU:{displayName:{one:"Fransk UIC-franc",other:"Franske UIC-franc"},narrow:"XFU",symbol:"XFU"},XOF:{displayName:{other:"CFA-franc BCEAO"},narrow:"Fâ€¯CFA",symbol:"Fâ€¯CFA"},XPD:{displayName:{other:"Palladium"},narrow:"XPD",symbol:"XPD"},XPF:{displayName:{other:"CFP-franc"},narrow:"CFPF",symbol:"CFPF"},XPT:{displayName:{other:"Platin"},narrow:"XPT",symbol:"XPT"},XRE:{displayName:{other:"RINET-fond"},narrow:"XRE",symbol:"XRE"},XTS:{displayName:{other:"testvaluta"},narrow:"XTS",symbol:"XTS"},XXX:{displayName:{other:"(ukendt valuta)"},narrow:"\xa4",symbol:"\xa4"},YDD:{displayName:{one:"Yemenitisk dinar",other:"Yemenitiske dinarer"},narrow:"YDD",symbol:"YDD"},YER:{displayName:{one:"yemenitisk rial",other:"yemenitiske rial"},narrow:"YER",symbol:"YER"},YUD:{displayName:{one:"Jugoslavisk hard dinar (1966â€“1990)",other:"Jugoslaviske hard dinar (1966â€“1990)"},narrow:"YUD",symbol:"YUD"},YUM:{displayName:{one:"Jugoslavisk noviy dinar (1994â€“2002)",other:"Jugoslaviske noviy dinar (1994â€“2002)"},narrow:"YUM",symbol:"YUM"},YUN:{displayName:{one:"Jugoslavisk konvertibel dinar (1990â€“1992)",other:"Jugoslaviske konvertibel dinar (1990â€“1992)"},narrow:"YUN",symbol:"YUN"},ZAL:{displayName:{one:"Sydafrikansk rand (financial)",other:"Sydafrikanske rand (financial)"},narrow:"ZAL",symbol:"ZAL"},ZAR:{displayName:{one:"sydafrikansk rand",other:"sydafrikanske rand"},narrow:"R",symbol:"ZAR"},ZMK:{displayName:{one:"Zambisk kwacha (1968â€“2012)",other:"Zambiske kwacha (1968â€“2012)"},narrow:"ZMK",symbol:"ZMK"},ZMW:{displayName:{one:"zambisk kwacha",other:"zambiske kwacha"},narrow:"ZK",symbol:"ZMW"},ZRN:{displayName:{one:"Ny zairisk zaire (1993â€“1998)",other:"Ny zairiske zaire (1993â€“1998)"},narrow:"ZRN",symbol:"ZRN"},ZRZ:{displayName:{one:"Zairisk zaire (1971â€“1993)",other:"Zairiske zaire (1971â€“1993)"},narrow:"ZRZ",symbol:"ZRZ"},ZWD:{displayName:{one:"Zimbabwisk dollar (1980â€“2008)",other:"Zimbabwiske dollar (1980â€“2008)"},narrow:"ZWD",symbol:"ZWD"},ZWL:{displayName:{one:"Zimbabwisk dollar (2009)",other:"Zimbabwiske dollar (2009)"},narrow:"ZWL",symbol:"ZWL"},ZWR:{displayName:{one:"Zimbabwisk dollar (2008)",other:"Zimbabwiske dollar (2008)"},narrow:"ZWR",symbol:"ZWR"}},nu:["latn"],numbers:{currency:{latn:{accounting:"#,##0.00\xa0\xa4",currencySpacing:{afterInsertBetween:"\xa0",beforeInsertBetween:"\xa0"},short:{1e3:{other:"0\xa0t\xa0\xa4"},1e4:{other:"00\xa0t\xa0\xa4"},1e5:{other:"000\xa0t\xa0\xa4"},1e6:{other:"0\xa0mio'.'\xa0\xa4"},1e7:{other:"00\xa0mio'.'\xa0\xa4"},1e8:{other:"000\xa0mio'.'\xa0\xa4"},1e9:{other:"0\xa0mia'.'\xa0\xa4"},"10000000000":{other:"00\xa0mia'.'\xa0\xa4"},"100000000000":{other:"000\xa0mia'.'\xa0\xa4"},"1000000000000":{other:"0\xa0bio'.'\xa0\xa4"},"10000000000000":{other:"00\xa0bio'.'\xa0\xa4"},"100000000000000":{other:"000\xa0bio'.'\xa0\xa4"}},standard:"#,##0.00\xa0\xa4",unitPattern:"{0} {1}"}},decimal:{latn:{long:{1e3:{other:"0 tusind"},1e4:{other:"00 tusind"},1e5:{other:"000 tusind"},1e6:{one:"0 million",other:"0 millioner"},1e7:{other:"00 millioner"},1e8:{other:"000 millioner"},1e9:{one:"0 milliard",other:"0 milliarder"},"10000000000":{other:"00 milliarder"},"100000000000":{other:"000 milliarder"},"1000000000000":{one:"0 billion",other:"0 billioner"},"10000000000000":{other:"00 billioner"},"100000000000000":{other:"000 billioner"}},short:{1e3:{other:"0\xa0t"},1e4:{other:"00\xa0t"},1e5:{other:"000\xa0t"},1e6:{other:"0\xa0mio'.'"},1e7:{other:"00\xa0mio'.'"},1e8:{other:"000\xa0mio'.'"},1e9:{other:"0\xa0mia'.'"},"10000000000":{other:"00\xa0mia'.'"},"100000000000":{other:"000\xa0mia'.'"},"1000000000000":{other:"0\xa0bio'.'"},"10000000000000":{other:"00\xa0bio'.'"},"100000000000000":{other:"000\xa0bio'.'"}},standard:"#,##0.###"}},nu:["latn"],percent:{latn:"#,##0\xa0%"},symbols:{latn:{approximatelySign:"~",decimal:",",exponential:"E",group:".",infinity:"âˆ",list:";",minusSign:"-",nan:"NaN",perMille:"â€°",percentSign:"%",plusSign:"+",rangeSign:"-",superscriptingExponent:"\xd7",timeSeparator:"."}}},units:{compound:{per:{long:"{0} pr. {1}",narrow:"{0}/{1}",short:"{0}/{1}"}},simple:{acre:{long:{one:"{0} acre",other:"{0} acres"},narrow:{other:"{0}ac"},perUnit:{},short:{other:"{0} ac"}},bit:{long:{other:"{0} bit"},narrow:{other:"{0} bit"},perUnit:{},short:{other:"{0} bit"}},byte:{long:{one:"{0} byte",other:"{0} bytes"},narrow:{other:"{0} B"},perUnit:{},short:{other:"{0} B"}},celsius:{long:{one:"{0} grad celsius",other:"{0} grader celsius"},narrow:{other:"{0}\xb0C"},perUnit:{},short:{other:"{0}\xb0C"}},centimeter:{long:{other:"{0} centimeter"},narrow:{other:"{0} cm"},perUnit:{long:"{0} pr. centimeter",narrow:"{0}/cm",short:"{0}/cm"},short:{other:"{0} cm"}},day:{long:{one:"{0} dag",other:"{0} dage"},narrow:{other:"{0} d"},perUnit:{long:"{0} pr. dag",narrow:"{0}/d",short:"{0}/dag"},short:{one:"{0} dag",other:"{0} dage"}},degree:{long:{one:"{0} grad",other:"{0} grader"},narrow:{other:"{0}\xb0"},perUnit:{},short:{other:"{0}\xb0"}},fahrenheit:{long:{one:"{0} grad fahrenheit",other:"{0} grader fahrenheit"},narrow:{other:"{0}\xb0F"},perUnit:{},short:{other:"{0}\xb0F"}},"fluid-ounce":{long:{one:"{0} engelsk fluid ounce",other:"{0} engelske fluid ounces"},narrow:{other:"{0} fl oz"},perUnit:{},short:{other:"{0} fl oz"}},foot:{long:{other:"{0} fod"},narrow:{other:"{0} fod"},perUnit:{long:"{0} pr. fod",narrow:"{0}/ft",short:"{0}/ft"},short:{other:"{0} fod"}},gallon:{long:{one:"{0} gallon",other:"{0} gallons"},narrow:{other:"{0} gal"},perUnit:{long:"{0}/gal",narrow:"{0}/gal",short:"{0}/gal"},short:{other:"{0} gal"}},gigabit:{long:{other:"{0} gigabit"},narrow:{other:"{0} Gbit"},perUnit:{},short:{other:"{0} Gbit"}},gigabyte:{long:{one:"{0} gigabyte",other:"{0} gigabytes"},narrow:{other:"{0} GB"},perUnit:{},short:{other:"{0} GB"}},gram:{long:{other:"{0} gram"},narrow:{other:"{0} g"},perUnit:{long:"{0} pr. gram",narrow:"{0}/g",short:"{0}/g"},short:{other:"{0} g"}},hectare:{long:{other:"{0} hektar"},narrow:{other:"{0}ha"},perUnit:{},short:{other:"{0} ha"}},hour:{long:{one:"{0} time",other:"{0} timer"},narrow:{other:"{0} t"},perUnit:{long:"{0} pr. time",narrow:"{0}/t",short:"{0}/t."},short:{other:"{0} t."}},inch:{long:{one:"{0} tomme",other:"{0} tommer"},narrow:{other:'{0}"'},perUnit:{long:"{0} pr. tomme",narrow:"{0}/tomme",short:"{0}/tomme"},short:{one:"{0} tomme",other:"{0} tommer"}},kilobit:{long:{other:"{0} kilobit"},narrow:{other:"{0} kb"},perUnit:{},short:{other:"{0} kbit"}},kilobyte:{long:{one:"{0} kilobyte",other:"{0} kilobytes"},narrow:{other:"{0} kB"},perUnit:{},short:{other:"{0} kB"}},kilogram:{long:{other:"{0} kilogram"},narrow:{other:"{0} kg"},perUnit:{long:"{0} pr. kg",narrow:"{0}/kg",short:"{0}/kg"},short:{other:"{0} kg"}},kilometer:{long:{other:"{0} kilometer"},narrow:{other:"{0} km"},perUnit:{long:"{0} pr. kilometer",narrow:"{0}/km",short:"{0}/km"},short:{other:"{0} km"}},"kilometer-per-hour":{long:{other:"{0} kilometer i timen"},narrow:{other:"{0} km/t"},perUnit:{},short:{other:"{0} km/t."}},liter:{long:{other:"{0} liter"},narrow:{other:"{0} l"},perUnit:{long:"{0}/l",narrow:"{0}/l",short:"{0}/l"},short:{other:"{0} l"}},"liter-per-kilometer":{long:{other:"{0} liter pr. kilometer"},narrow:{other:"{0} l/km"},perUnit:{},short:{other:"{0} l/km"}},megabit:{long:{other:"{0} megabit"},narrow:{other:"{0} Mb"},perUnit:{},short:{other:"{0} Mbit"}},megabyte:{long:{one:"{0} megabyte",other:"{0} megabytes"},narrow:{other:"{0} MB"},perUnit:{},short:{other:"{0} MB"}},meter:{long:{other:"{0} meter"},narrow:{other:"{0} m"},perUnit:{long:"{0} pr. meter",narrow:"{0}/m",short:"{0}/m"},short:{other:"{0} m"}},"meter-per-second":{long:{other:"{0} meter i sekundet"},narrow:{other:"{0}m/s"},perUnit:{},short:{other:"{0} m/s"}},mile:{long:{one:"{0} mile",other:"{0} miles"},narrow:{other:"{0} mi"},perUnit:{},short:{other:"{0} mi"}},"mile-per-gallon":{long:{one:"mil pr. gallon",other:"{0} mil pr. gallon"},narrow:{other:"{0} mpg"},perUnit:{},short:{other:"{0} mpg"}},"mile-per-hour":{long:{one:"{0} engelsk mil i timen",other:"{0} engelske mil i timen"},narrow:{other:"{0} mph"},perUnit:{},short:{other:"{0} mph"}},"mile-scandinavian":{long:{one:"{0} svensk mil",other:"{0} svenske mil"},narrow:{other:"{0}sv. mil"},perUnit:{},short:{other:"{0} smi"}},milliliter:{long:{other:"{0} milliliter"},narrow:{other:"{0} ml"},perUnit:{},short:{other:"{0} ml"}},millimeter:{long:{other:"{0} millimeter"},narrow:{other:"{0} mm"},perUnit:{},short:{other:"{0} mm"}},millisecond:{long:{one:"{0} millisekund",other:"{0} millisekunder"},narrow:{other:"{0} ms"},perUnit:{},short:{other:"{0} ms"}},minute:{long:{one:"{0} minut",other:"{0} minutter"},narrow:{other:"{0} m"},perUnit:{long:"{0} pr. min.",narrow:"{0}/m",short:"{0}/min."},short:{other:"{0} min."}},month:{long:{one:"{0} m\xe5ned",other:"{0} m\xe5neder"},narrow:{other:"{0} m"},perUnit:{long:"{0} pr. m\xe5ned",narrow:"{0}/m",short:"{0}/md."},short:{one:"{0} md.",other:"{0} mdr."}},ounce:{long:{one:"{0} ounce",other:"{0} ounces"},narrow:{other:"{0} oz"},perUnit:{long:"{0} pr. ounce",narrow:"{0}/oz",short:"{0}/oz"},short:{other:"{0} oz"}},percent:{long:{other:"{0} procent"},narrow:{other:"{0} %"},perUnit:{},short:{other:"{0} pct."}},petabyte:{long:{one:"{0} petabyte",other:"{0} petabytes"},narrow:{other:"{0} PB"},perUnit:{},short:{other:"{0} PB"}},pound:{long:{other:"{0} pund"},narrow:{other:"{0} pund"},perUnit:{long:"{0} pr. pund",narrow:"{0}/lb",short:"{0}/lb"},short:{other:"{0} lb"}},second:{long:{one:"{0} sekund",other:"{0} sekunder"},narrow:{other:"{0} s"},perUnit:{long:"{0} pr. sekund",narrow:"{0}/s",short:"{0}/sek."},short:{other:"{0} sek."}},stone:{long:{other:"{0} stone"},narrow:{other:"{0} st"},perUnit:{},short:{other:"{0} st"}},terabit:{long:{other:"{0} terabit"},narrow:{other:"{0} Tb"},perUnit:{},short:{other:"{0} Tbit"}},terabyte:{long:{one:"{0} terabyte",other:"{0} terabytes"},narrow:{other:"{0} TB"},perUnit:{},short:{other:"{0} TB"}},week:{long:{one:"{0} uge",other:"{0} uger"},narrow:{other:"{0} u"},perUnit:{long:"{0} pr. uge",narrow:"{0}/u",short:"{0}/uge"},short:{one:"{0} uge",other:"{0} uger"}},yard:{long:{one:"{0} engelsk yard",other:"{0} engelske yard"},narrow:{other:"{0} yard"},perUnit:{},short:{other:"{0} yard"}},year:{long:{other:"{0} \xe5r"},narrow:{other:"{0} \xe5r"},perUnit:{long:"{0} om \xe5ret",narrow:"{0}/\xe5r",short:"{0}/\xe5r"},short:{other:"{0} \xe5r"}}}}},locale:"da"})}}]);
+//# sourceMappingURL=c_formatjs_intl-numberformat_locale-data_da.js-vfliSj189.map
+//# debugId=07b18110-e96d-3abf-a8f0-8ac7485fca73ØA—Eoúô   “î‘È‰      
+
+GETšÈOK ".
+content-typetext/javascript; charset=utf-80 B¸https://edge-live.dropboxstatic.com/static/atlas/share_modal/share_modal_desktop_rspb_modern/c_formatjs_intl-numberformat_locale-data_da-vflmnJa4k.js?__esv_request_source=cache_prewarmP Z ` jtext/javascriptrGETx € ˆ¥àÕ÷¥îâéòe7J®‡È¶åH¢½niš¥Wë…‰æ9O®áÓØA—Eoúô   @V.-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ï»¿<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<instrumentationManifest xmlns="http://schemas.microsoft.com/win/2004/08/events" xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events">
+  <instrumentation>
+    <events>
+      <!-- The 'message' attribute is the hierarchy path in Event Viewer -->
+      <provider
+          guid="{43833e12-078d-4d7d-8aaf-ae8c8520f18c}"
+          message="$(string.AppxDeploymentUndockedDeh)"
+          messageFileName="WindowsAppSdk.AppxDeploymentExtensions.Desktop.dll"
+          name="Microsoft-Windows-AppXDeployment-Server-UndockedDeh"
+          resourceFileName="WindowsAppSdk.AppxDeploymentExtensions.Desktop.dll"
+          symbol="APPXDEPLOYMENTSERVER_UNDOCKEDDEH_ETW_CONTROL_GUID"
+          >
+
+        <channels>
+          <!-- The 'message' attribute is the leaf node in the path in Event Viewer -->
+          <channel
+              chid="Operational"
+              enabled="true"
+              message="$(string.AppxDeploymentUndockedDeh.Operational)"
+              name="Microsoft-Windows-AppXDeployment-Server/Operational"
+              type="Operational"
+              >
+            <logging>
+              <!-- max size of the operational log file is 5 MB -->
+              <maxSize>5242880</maxSize>
+            </logging>
+          </channel>
+        </channels>
+        
+        <maps>
+          <!-- this must be kept in sync with %SDXROOT%\onecore\admin\appmodel\OSIM\Inc\OSIMRegistration.hpp -->
+          <valueMap name="DehPhaseEnumMap">
+            <map
+                message="$(string.Map.DehPhaseEnumMap.PerUser)"
+                value="0"
+                />
+            <map
+                message="$(string.Map.DehPhaseEnumMap.PerMachine)"
+                value="1"
+                />
+            <map
+                message="$(string.Map.DehPhaseEnumMap.Singleton)"
+                value="2"
+                />
+            <map
+                message="$(string.Map.DehPhaseEnumMap.System)"
+                value="3"
+                />
+            <map
+                message="$(string.Map.DehPhaseEnumMap.OneTime)"
+                value="4"
+                />
+          </valueMap>
+        </maps>
+        
+        <tasks>
+          <task
+              name="AppXDeployment.Task.Server.OSIM"
+              symbol="Task_Server_OSIM"
+              value="1"
+              />
+        </tasks>
+        
+        <templates>
+          <template tid="EventLogInstallingManifestEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="PackageFullName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="UndockedDehDllParent"
+                />
+          </template>
+          <template tid="EventLogUninstallingManifestEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="PackageFullName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="UndockedDehDllParent"
+                />
+          </template>
+          <template tid="EventLogInstalledManifestEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="PackageFullName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="UndockedDehDllParent"
+                />
+          </template>
+          <template tid="EventLogUninstalledManifestEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="PackageFullName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="UndockedDehDllParent"
+                />
+          </template>
+          <template tid="EventLogSettingActiveManifestEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="PackageFullName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="UndockedDehDllParent"
+                />
+          </template>
+          <template tid="EventLogUnsettingActiveManifestEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="PackageFullName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="UndockedDehDllParent"
+                />
+          </template>
+          <template tid="LoadExtensionRegistrationTableEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="DllName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="DllPath"
+                />
+            <data
+                inType="win:HexInt32"
+                map="DehPhaseEnumMap"
+                name="DehPhase"
+                />
+          </template>
+          <template tid="ItemizingDehBaseClassEvaluateRequestEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="DehName"
+                />
+            <data
+                inType="win:HexInt32"
+                map="DehPhaseEnumMap"
+                name="DehPhase"
+                />
+          </template>
+          <template tid="AddEntryEventStringTemplate">
+            <data
+                inType="win:AnsiString"
+                name="ExceptionWhatString"
+                outType="win:Utf8"
+                />
+          </template>
+          <template tid="DehRequestFailureEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="DehAction"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="DehName"
+                />
+            <data
+                inType="win:HexInt32"
+                map="DehPhaseEnumMap"
+                name="DehPhase"
+                />
+            <data
+                inType="win:UInt32"
+                name="DehState"
+                />
+            <data
+                inType="win:AnsiString"
+                name="ExceptionWhatString"
+                outType="win:Utf8"
+                />
+          </template>
+          <template tid="EntryOperationFailureEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="Operation"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="EntryName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="SerializedEntry"
+                />
+            <data
+                inType="win:UInt32"
+                name="StepCounter"
+                />
+            <data
+                inType="win:AnsiString"
+                name="ExceptionWhatString"
+                outType="win:Utf8"
+                />
+          </template>
+          <template tid="PackagePairEncounteredEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="DehName"
+                />
+            <data
+                inType="win:HexInt32"
+                map="DehPhaseEnumMap"
+                name="DehPhase"
+                />
+            <data
+                inType="win:UInt32"
+                name="DehState"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="IncomingPackage"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="OutgoingPackage"
+                />
+          </template>
+          <template tid="EvaluatePackageForDehProcessingEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="Direction"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="DehName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="PackageFullName"
+                />
+            <data
+                inType="win:Boolean"
+                name="PostOsUpgrade"
+                />
+            <data
+                inType="win:HexInt32"
+                map="DehPhaseEnumMap"
+                name="DehPhase"
+                />
+            <data
+                inType="win:UInt32"
+                name="DehState"
+                />
+          </template>
+          <template tid="FailureWithItemsProgressEventStringTemplate">
+            <data
+                inType="win:UInt32"
+                name="ItemCounter"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="ItemName"
+                />
+            <data
+                inType="win:UInt32"
+                name="StepCounter"
+                />
+          </template>
+          <template tid="FailureWithItemProgressEventStringTemplate">
+            <data
+                inType="win:UnicodeString"
+                name="ItemName"
+                />
+            <data
+                inType="win:UInt32"
+                name="StepCounter"
+                />
+          </template>
+          <template tid="EventLogStackFrameErrorStringTemplate">
+            <data
+                inType="win:AnsiString"
+                name="File"
+                outType="win:Utf8"
+                />
+            <data
+                inType="win:UInt32"
+                name="Line"
+                />
+            <data
+                inType="win:AnsiString"
+                name="ExceptionWhatString"
+                outType="win:Utf8"
+                />
+          </template>
+        </templates>
+        
+        <events>
+          <event
+              channel="Operational"
+              level="win:Informational"
+              message="$(string.Event.EventLogInstallingManifestEvent)"
+              symbol="EventLogInstallingManifestEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="EventLogInstallingManifestEventStringTemplate"
+              value="9000"
+              />
+          <event
+              channel="Operational"
+              level="win:Informational"
+              message="$(string.Event.EventLogUninstallingManifestEvent)"
+              symbol="EventLogUninstallingManifestEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="EventLogUninstallingManifestEventStringTemplate"
+              value="9001"
+              />
+          <event
+              channel="Operational"
+              level="win:Informational"
+              message="$(string.Event.EventLogInstalledManifestEvent)"
+              symbol="EventLogInstalledManifestEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="EventLogInstalledManifestEventStringTemplate"
+              value="9002"
+              />
+          <event
+              channel="Operational"
+              level="win:Informational"
+              message="$(string.Event.EventLogUninstalledManifestEvent)"
+              symbol="EventLogUninstalledManifestEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="EventLogUninstalledManifestEventStringTemplate"
+              value="9003"
+              />
+          <event
+              channel="Operational"
+              level="win:Informational"
+              message="$(string.Event.EventLogSettingActiveManifestEvent)"
+              symbol="EventLogSettingActiveManifestEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="EventLogSettingActiveManifestEventStringTemplate"
+              value="9004"
+              />
+          <event
+              channel="Operational"
+              level="win:Informational"
+              message="$(string.Event.EventLogUnsettingActiveManifestEvent)"
+              symbol="EventLogUnsettingActiveManifestEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="EventLogUnsettingActiveManifestEventStringTemplate"
+              value="9005"
+              />
+          <event
+              channel="Operational"
+              level="win:Verbose"
+              message="$(string.Event.LoadExtensionRegistrationTable)"
+              symbol="LoadExtensionRegistrationTableEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="LoadExtensionRegistrationTableEventStringTemplate"
+              value="10001"
+              />
+          <event
+              channel="Operational"
+              level="win:Verbose"
+              message="$(string.Event.ItemizingDehBaseClassEvaluateRequest)"
+              symbol="ItemizingDehBaseClassEvaluateRequestEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="ItemizingDehBaseClassEvaluateRequestEventStringTemplate"
+              value="10002"
+              />
+          <event
+              channel="Operational"
+              level="win:Error"
+              message="$(string.Event.AddEntryEvent)"
+              symbol="AddEntryEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="AddEntryEventStringTemplate"
+              value="10003"
+              />
+          <event
+              channel="Operational"
+              level="win:Error"
+              message="$(string.Event.DehRequestFailureEvent)"
+              symbol="DehRequestFailureEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="DehRequestFailureEventStringTemplate"
+              value="10004"
+              />
+          <event
+              channel="Operational"
+              level="win:Error"
+              message="$(string.Event.EntryOperationFailureEvent)"
+              symbol="EntryOperationFailureEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="EntryOperationFailureEventStringTemplate"
+              value="10005"
+              />
+          <event
+              channel="Operational"
+              level="win:Verbose"
+              message="$(string.Event.PackagePairEncounteredEvent)"
+              symbol="PackagePairEncounteredEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="PackagePairEncounteredEventStringTemplate"
+              value="10006"
+              />
+          <event
+              channel="Operational"
+              level="win:Verbose"
+              message="$(string.Event.EvaluatePackageForDehProcessingEvent)"
+              symbol="EvaluatePackageForDehProcessingEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="EvaluatePackageForDehProcessingEventStringTemplate"
+              value="10007"
+              />
+          <event
+              channel="Operational"
+              level="win:Error"
+              message="$(string.Event.FailureWithItemsProgressEvent)"
+              symbol="FailureWithItemsProgressEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="FailureWithItemsProgressEventStringTemplate"
+              value="10008"
+              />
+          <event
+              channel="Operational"
+              level="win:Error"
+              message="$(string.Event.FailureWithItemProgressEvent)"
+              symbol="FailureWithItemProgressEvent"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="FailureWithItemProgressEventStringTemplate"
+              value="10009"
+              />
+          <event
+              channel="Operational"
+              level="win:Error"
+              message="$(string.Event.EventLogStackFrameError)"
+              symbol="EventLogStackFrameError"
+              task="AppXDeployment.Task.Server.OSIM"
+              template="EventLogStackFrameErrorStringTemplate"
+              value="10010"
+              />
+        </events>
+        
+      </provider>
+    </events>
+  </instrumentation>
+  
+  <localization>
+    <resources culture="en-US">
+      <stringTable>
+
+        <!-- ============================ -->
+        <!-- Setup strings -->
+        <!-- ============================ -->
+        
+        <!-- This is the hierarchy path in Event Viewer (Applications and Services Logs/Microsoft/Windows/AppXDeployment-Server-UndockedDeh) -->
+        <string
+            id="AppxDeploymentUndockedDeh"
+            value="Microsoft-Windows-AppXDeployment-Server-UndockedDeh"
+            />
+        <!-- This is the leaf node in the path in Event Viewer -->
+        <string
+            id="AppxDeploymentUndockedDeh.Operational"
+            value="AppxDeploymentUndockedDeh/Operational"
+            />
+
+
+        <!-- ============================ -->
+        <!-- Map strings -->
+        <!-- ============================ -->
+
+        <string
+            id="Map.DehPhaseEnumMap.PerUser"
+            value="PerUser"
+            />
+        <string
+            id="Map.DehPhaseEnumMap.PerMachine"
+            value="PerMachine"
+            />
+        <string
+            id="Map.DehPhaseEnumMap.Singleton"
+            value="Singleton"
+            />
+        <string
+            id="Map.DehPhaseEnumMap.System"
+            value="System"
+            />
+        <string
+            id="Map.DehPhaseEnumMap.OneTime"
+            value="OneTime"
+            />
+
+
+        <!-- ============================ -->
+        <!-- Error strings -->
+        <!-- ============================ -->
+
+        <string
+            id="Event.EventLogInstallingManifestEvent"
+            value="Installing EventLog manifest for package: '%1' (See 'Details' for extended information)"
+            />
+        <string
+            id="Event.EventLogUninstallingManifestEvent"
+            value="Uninstalling EventLog manifest for package: '%1' (See 'Details' for extended information)"
+            />
+        <string
+            id="Event.EventLogInstalledManifestEvent"
+            value="Installed EventLog manifest for package: '%1' (See 'Details' for extended information)"
+            />
+        <string
+            id="Event.EventLogUninstalledManifestEvent"
+            value="Uninstalled EventLog manifest for package: '%1' (See 'Details' for extended information)"
+            />
+        <string
+            id="Event.EventLogSettingActiveManifestEvent"
+            value="Setting active EventLog manifest for package: '%1' (See 'Details' for extended information)"
+            />
+        <string
+            id="Event.EventLogUnsettingActiveManifestEvent"
+            value="Unsetting active EventLog manifest for package: '%1' (See 'Details' for extended information)"
+            />
+        <string
+            id="Event.LoadExtensionRegistrationTable"
+            value="Loading registration table for Undocked DEH dll: %1, Path: %2, Phase: %3"
+            />
+        <string
+            id="Event.ItemizingDehBaseClassEvaluateRequest"
+            value="Evaluating request for DEH: DEH '%1' in Phase '%2'"
+            />
+        <string
+            id="Event.AddEntryEvent"
+            value="StringAddEntryEvent: %1"
+            />
+        <string
+            id="Event.DehRequestFailureEvent"
+            value="Failed performing DEH request: Action '%1' in DEH '%2' in Phase '%3' in State '%4' (See 'Details' for extended information)"
+            />
+        <string
+            id="Event.EntryOperationFailureEvent"
+            value="Failed performing operation on entry: Operation '%1' on Entry '%2' (See 'Details' for extended information)"
+            />
+        <string
+            id="Event.PackagePairEncounteredEvent"
+            value="Encountered package pair in DEH package evaluation: DEH '%1' in Phase '%2' State '%3' on Incoming Package '%4' and Outgoing Package '%5' (See 'Details' for extended information)"
+            />
+        <string
+            id="Event.EvaluatePackageForDehProcessingEvent"
+            value="Encountered package in DEH package evaluation: Direction '%1', DEH '%2', Package '%3', PostOsUpgrade '%4', Phase '%5', State '%6' (See 'Details' for extended information)"
+            />
+        <string
+            id="Event.FailureWithItemsProgressEvent"
+            value="Failure working on items: Item count '%1', Current item name '%2', Step counter '%3'"
+            />
+        <string
+            id="Event.FailureWithItemProgressEvent"
+            value="Failure working on item: Item '%1', Step counter '%2'"
+            />
+        <string
+            id="Event.EventLogStackFrameError"
+            value="Failure at frame: File '%1', Line '%2' (See 'Details' for extended information)"
+            />
+
+      </stringTable>
+    </resources>
+  </localization>
+  
+
+</instrumentationManifest>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       XBF |  s        x       (      ,      0      @      \      4B81F5C65E7D357310B6F2D43310C9CCB44331CF0EA342E0D2705A2F30BC4CE7   9   h t t p : / / s c h e m a s . m i c r o s o f t . c o m / w i n f x / 2 0 0 6 / x a m l / p r e s e n t a t i o n   ,   h t t p : / / s c h e m a s . m i c r o s o f t . c o m / w i n f x / 2 0 0 6 / x a m l   2   h t t p : / / s c h e m a s . m i c r o s o f t . c o m / e x p r e s s i o n / b l e n d / 2 0 0 8      u s i n g : P a i n t U I   ;   h t t p : / / s c h e m a s . o p e n x m l f o r m a t s . o r g / m a r k u p - c o m p a t i b i l i t y / 2 0 0 6       u s i n g : M i c r o s o f t . U I . X a m l . C o n t r o l s      u s i n g : P a i n t U I . U t i l i t i e s   	   t e x t B l o c k      S e m i B o l d      b u t t o n      T e x t F i l l C o l o r S e c o n d a r y B r u s h      T o o l t i p F o n t I c o n S t y l e      T e a c h i n g T i p      t e a c h i n g T i p      I s L i g h t D i s m i s s E n a b l e d      P r e f e r r e d P l a c e m e n t   
+   B o t t o m L e f t                                                                              g            x     d     l o c a l     m c     m u x c  	   u t i l i t i e s ë       P a i n t U I . T e x t B l o c k W i t h T e a c h i n g T i p áÂƒ   ˆ‚Œ    ˜¬   ƒ &ƒ§   !‚   	 -‚  À@  À@  À@  À@˜¬   ‚ÿÿÿ ‚                $(‚
+ ¸• !@ƒ!      $‚  @A    !!çƒ!                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     MZ       ÿÿ  ¸       @                                   €   º ´	Í!¸LÍ!This program cannot be run in DOS mode.
+$       PE  L 3°Pb        à " 0           &       @                           €     µÚ   @…                           Ì%  O    @  ,             HM   `                                                                       H           .text   $                           `.rsrc   ,   @      
+              @  @.reloc      `                    @  B                 &      H     P   ü  	               L%  €                                   BSJB         v4.0.30319     l   P  #~  ¼  ¸  #Strings    t     #US |     #GUID   Œ  p  #Blob           ‰    ú3      	      	   	                    - E ‡ E ¤ E ö E Â E Û E  E D E a E           	      !  )  1  9  A  I  .  · .  · .  · . # ç . + . 3 ". ; W. C ^. K ^€             W              
+                 >            ‚£	         j£	      <Module> mscorlib AssemblyMetadataAttribute AssemblyTitleAttribute AssemblyFileVersionAttribute AssemblyInformationalVersionAttribute AssemblyDescriptionAttribute AssemblyDefaultAliasAttribute AssemblyProductAttribute AssemblyCopyrightAttribute AssemblyCompanyAttribute System.Diagnostics.TextWriterTraceListener.dll System System.Reflection System.Diagnostics.TextWriterTraceListener DelimitedListTraceListener .ctor System.Diagnostics          &#—Ä•K­Ö±C†Å   ·z\V4à‰€  $  €  ”      $  RSA1     ÑúWÄ®Ùğ£.„ª®ıéèıjì‡ûvlƒL™’²;çšÙÕÜÁİšÒ6!r<ù€•ÄáwÆwO)è2’êìäè!À¥ïèñd\L“Á«™(]b,ªe,úÖ=t]o-åñ~^¯Ä–=&ŠCe mÀ“4MZÒ“/ *System.Diagnostics.TextWriterTraceListener   Microsoft Corporation   MicrosoftÂ® .NET Framework  4 /Â© Microsoft Corporation.  All rights reserved.        
+4.8.9032.0    Ê¶XVâË	¤n¤ğ+‹äp­¿GÌ/Æ>Ÿ­–;ø#3¾c¾X¤RåT"eûïn=ïÅ{û"*ÄM"ÀœNåK×U=c´¸Ñ¦b cÙ1–,¼};­$êñF‚\›ªmÍOCqµé¬ĞÃ³Ş^Œ¬@²¥O9U¹bOô%          &                           &            _CorDllMain mscoree.dll     ÿ%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   €                  0  €                   H   X@  Ğ          Ğ4   V S _ V E R S I O N _ I N F O     ½ïş       H#    H#?                         D    V a r F i l e I n f o     $    T r a n s l a t i o n       °0   S t r i n g F i l e I n f o      0 0 0 0 0 4 b 0   p +  C o m m e n t s   S y s t e m . D i a g n o s t i c s . T e x t W r i t e r T r a c e L i s t e n e r     L   C o m p a n y N a m e     M i c r o s o f t   C o r p o r a t i o n   € +  F i l e D e s c r i p t i o n     S y s t e m . D i a g n o s t i c s . T e x t W r i t e r T r a c e L i s t e n e r     8   F i l e V e r s i o n     4 . 8 . 9 0 3 2 . 0     € /  I n t e r n a l N a m e   S y s t e m . D i a g n o s t i c s . T e x t W r i t e r T r a c e L i s t e n e r . d l l     „ /  L e g a l C o p y r i g h t   ©   M i c r o s o f t   C o r p o r a t i o n .     A l l   r i g h t s   r e s e r v e d .     ,   L e g a l T r a d e m a r k s         ˆ /  O r i g i n a l F i l e n a m e   S y s t e m . D i a g n o s t i c s . T e x t W r i t e r T r a c e L i s t e n e r . d l l     T   P r o d u c t N a m e     M i c r o s o f t ®   . N E T   F r a m e w o r k   <   P r o d u c t V e r s i o n   4 . 8 . 9 0 3 2 . 0     8   A s s e m b l y   V e r s i o n   4 . 0 . 0 . 0                                                                                                                                                                                                                                   6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      HM    0‚M9	*†H†÷ ‚M*0‚M&10	`†He 0\
++‚7 N0L0
++‚70	  ¢€ 010	`†He  —/¨<¼×°=ı0¬åíwÑß\œˆ}+š3é¾å<Ğ ‚g0‚ï0‚× 3  8È]¶¼Sı    80	*†H†÷ 0~10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20100210902182557Z220901182557Z0t10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10UMicrosoft Corporation0‚"0	*†H†÷ ‚ 0‚
+‚ ®®?	Äªö£œk*Ñ­/â_å”5Ÿi–_›9<!#÷œ™íÀ%X3+b±tG"M1]’¥B’Íc„é·ªµ¶ÔêQ•¼Aİ¾÷{›P× é@f‘áÉ“f½¹=Ü¿HüTæCd*›×1i&ÚÅâø )¨s`ÏQV»ºzdTğd.!O—R2t¾.çº½[¸Ó2&Ğ1°Ôı7bşÒÍÀµQ{ïvÇø[ÔŒóñ téõGfE—yjò¹SP÷üêvW`79ôRŒÂY¸³ó€,Á…ê³a1ÓÒ°"2Âÿ6ÅE»ÁœĞ®\Â€"8@:ÒSå®ŸP§ £‚n0‚j0U%0
++‚7=+0U˜±İÚâuøã)‚ ÁT?0EU>0<¤:0810UMicrosoft Corporation10U230865+4673970U#0€æü_{»" XärNµô!t#2æï¬0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_2010-07-06.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicCodSigPCA_2010-07-06.crt0Uÿ0 0	*†H†÷ ‚ ÎK„øÈ©}ÎìQø>“L•Š¾%Ğ›õh½6Æ¨{Å©¸¥´<Mo5MÊîŞÖdªïî¶j‡U6ÊĞ5ÿ‘øÒ/pa#lÊ5ò4-º_wæ9I»âtÔByêãõå­¹›º[®‚npQÁœ”¸¹Şà)d2×€^"îv²ÓÉAÙçÛİ›“¦ıhãBâ'7®4™3÷i&;eÑÇJä3Õ”˜ôèRÔî.'ÍÃ‹Š;K’â&ö÷Œ ¥%~$v"®½ç+6´}«4Æ„áê9û¼ŞàºuSpıÅÏÂQvÏ'›$´µ$}ºVş}nÈ<ujæÇ…k·ÆõL0‚p0‚X 
+aRL     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100100706204017Z250706205017Z0~10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20100‚"0	*†H†÷ ‚ 0‚
+‚ édPygµÄãı	 L”¬÷VhêDØÏÅXO©¥v|mEºÓ9’´¤ùùe‚äÒıDœèe“Î,U„¿}ã.+¨A+·¢KnILkŞÑÒÂ‰q”ÍµK´¯ØÌˆÖk”:“Î&?ìæş4˜WÕ]Iö²*.Õ…»Y?ø´+ƒtÊ+³;FãğFIÁfTÉ½ÄUbWrøg¹% 4Ş]¦¥•^«(€ÍÕ²åµcÓ²ÈÁÈŠ&
+Yìÿí€5L¦¾R[õ¦Úà‹HwÖ…GÕ¹Æèªî‹j-\`Æ´*[œ#_Eão7Ë3€j‰M£jfcx“Õ0Ï• £‚ã0‚ß0	+‚7 0Uæü_{»" XärNµô!t#2æï¬0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0U •0’0	+‚7.00=+1http://www.microsoft.com/PKI/docs/CPS/default.htm0@+042  L e g a l _ P o l i c y _ S t a t e m e n t . 0	*†H†÷ ‚ tïWO){Ä…x¸PÓ"ü	¬‚—ø4ÿ*,—•åä¿Ï¿“Èã4©Û¸Ü ¾Ò5o¯åy•wåÔñëØÍNa¢ÂZ#ğŒ¨bQEgã?<“ø0…È9@¦×³!)å¥¡iŒ"“Ìt˜ç¡GCòS¬À0işÒ% moaÓßÕÙr ,i†v=QÛ¦9HÉ7amİSË§ÖaÂ¿âƒ«àk›•Ö}(Q°‰JQ¤šlÈ·Ji©×ÜÁ~ÑIpª¶­»rGcú¦Ö¢¦†ì¨D›c¶²i‰ÇF†z?èÅ!Õ{ù#-ÅAË¿LÈï±œü"KIŠnã¦v[ÑSy‘…ÕÒÛ=s5ó<®T²RGjÀª•ÒÚ™g^2Œû7…ÑÜu…œ‡ÆZW…Â¿İŒ›-ë´îÏ'Óµ^iú¤§$gsÏMO¶ŞV—z÷éRMôwO…ÆØñíB	Ñvã#Vx"&6¾Ê±Œnªä…ÚG3b¤É‘3_q@¯˜eÉ"èB!%Š-`Ù7‰A‰*×a<”h`RïÖG™ €@îw>œàSP8•›f3'9x‡6ÎNÃ_²õ=GS¶àåÛa=*×’,Î7Z>@B1¤ÂVœ¿$]QjyÒÓÚÁ”{%qD«jæÔÆß#š–uÅ1‚AE0‚AA0•0~10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20103  8È]¶¼Sı    80	`†He  ®0	*†H†÷	1
++‚70
++‚710
++‚70/	*†H†÷	1" Xü(ºä2hI’¢`wâ®¦.“©w±¼Û*(Ó÷H>0B
++‚71402 € M i c r o s o f t¡€http://www.microsoft.com0	*†H†÷ ‚ ÎpãXi”?:ÎöÔá„W¯ñz×ÄĞJ:ùVê0Xc0 Q>ËWèô’’nr û9aÆ¢Cµ~‹Uıò¿lèÿ>Šær8ÅC~áÂŞrµ»Â;êW?rœ¨xH
+õ»ëP9É'êû'à¨:©xLıqÉwü£R¨	ÖágnÒ–?Ñ²¨ˆ[íîıú¥¾‚rjÇàıAÉ-yÓ˜M?¤ÙóÙ’Û¸{lIoŞÎf/gkY(;/öşŞ, âhY”°Pää‰]"&sÓI·Ğ;âUœ)¥)’…\ËÑÕ[úVÀÚìF¸4ĞKIò€7ÚNš¢1òüÁ¡‚>Ï0‚
++‚71‚0‚ş	*†H†÷ ‚ï0‚ë10	`†He 0‚Y*†H†÷	 ‚H‚D0‚@
++„Y
+010	`†He  ÈK«Y±¿¾¦=dó¦6TYŒ®Ï2ˆä•1b‰~‰b·”P_20220408230455.026Z0€ô Ø¤Õ0Ò10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1-0+U$Microsoft Ireland Operations Limited1&0$UThales TSS ESN:0842-4BE6-C29A1%0#UMicrosoft Time-Stamp Service ‚e0‚0‚ü 3  ‡Bf\óô   ‡0	*†H†÷ 0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100211028192739Z230126192739Z0Ò10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1-0+U$Microsoft Ireland Operations Limited1&0$UThales TSS ESN:0842-4BE6-C29A1%0#UMicrosoft Time-Stamp Service0‚"0	*†H†÷ ‚ 0‚
+‚ ¾ixc=£Ñ‡ <®§ù8z›âØÀ¦ieevÓªº†ÉâìuHFJá¼¢Jf¼´Û&™·ióÓ¸ÓˆAõ¼¥» ïåa‹T¶’.2æ'Uäg§‡Ã.¨BpÔjFqÜ¤jCşñ®3½‘‘Eï¦(‰á	'êfÃ…´iÅvÀó˜Üú‘q»òË9“;Š ş§7‹lŒørŸSF_#CÒéù9}!±O!yg·¥Hƒ¯˜*?^šêB#‘ä€ÓØ€È¯4
+r3q5ÅçŸ)“ü•n6ÎÙ¾MOä¥ŸğmWó-eê¬ƒD(RdXt].íŠL¦KVíwÅ|¾`“†Ö•s‹0w?2WP/kÀËT¹BÖ„ùË¿ÄÃÖš}QOCábŸdš—Òèr|@[¡…/Pµ¶q¹…$s¹ 5$xúÊ3¹vŒSßÎëÓZeòqg´lq0rNÙqnWÔO²<p— (—üZF8yÑ`§÷oµÇ–îâcC üÑ”	T†¸ïFâÆäŒÏW¤Ó‚Xöt/P,ßôàE^ƒHğ_‡||8&©ê$òøŞi$X¤†:$ø„²s¡Á+{Jæ/OyµÒ«`o2ÕsàA¼#wä7ÃÒj$D¬Z›kP3N´Härİ.îqë £‚60‚20U"QÀºA-a~İas™?¥ 0U#0€Ÿ§] ^b]ƒôåÒe§S5ér0_UX0V0T R P†Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l+`0^0\+0†Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0Uÿ0 0U%0
++0	*†H†÷ ‚ ¹«~SÙ£ TMÿwsÅÎÓÚì§ª$¢g*âR?H1ğ¼üT6£”Ã'xÑ4»Ì«í¸ÉuÔQe}iÃw–¨¡‰ * 3Îu[ëÖ‚XàÑPáó.—­z‘ç2/e;ã*¸Tâ3oGmtş½ù2í éqX}(\¡¶n‰i*jFÛFL7t%	´ÇbJ–ƒ¤áğ€#\O1"î<†+“Ó¾h"©Ç&·ïÏÃ¦èĞ6caÆGÕÁ¼à:¹Ê¹Ê
+èwÛ3¯_Nl&It’éÊòV/D0$F3É‚T¦~}”GB¯Œ‚;8ìÌ
+ŸÉ&y§m0x‹s›Şâ6…d]IôMzybÖÀ«íXı@>Š·ìüÖ³œ-ñ†S¶şÂ´õL>$$=»º9Ó°;Ë²¿2Õ¶Ì—r©Ş¤»]GùØâĞh-&5,ĞÁà‚˜ù˜÷àŒl6ìÚÀ¢ƒ’âØ‚ÖÅê‹ß²{ÔÖÖí\èí÷¬ÙŞôê±€P¶Y~]zr't±Ù²°êVßÓ‚š^tÁ9,ô@/‘|›³òs©!ı¼ùiŒ>'Ú^à³ó+–§›"¿·Š‘£±øáÁ‚ó3`ûRÊİÂvêX¦Ÿ-Ğ)øloøå![€>@LEõlpPUq*ô/ÑÒnZ1wš`¿-æJˆÒ¬ó0‚q0‚Y 3   Åçk›I™     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100210930182225Z300930183225Z0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100‚"0	*†H†÷ ‚ 0‚
+‚ äá¦Lç´r!y¢Ë×$y½Õ‚ÓıîœÒ©lNuÈÊ5WölJàâ½¹>`3ÿ\OÇf÷•SqZâ~JZş¸6g…F#µÏw2Àè`}jRƒD·¦FkóÅvõ†PÜÁDÈq\Q17 
+8ní×Ø&S|9azÄªıri¯«¬ö6¾5&dÚ˜;º{3­€[~ŒRş¶èb%ÜjÏ]ôşSÏÖì…VMïİ¼¤ã‘²9,QœépiÊ6-p1È5(½ã´‡$ÃàÉ~µTÜúU˜mh;šF½í¤®z)7¬ËëƒEçFnÊ2ÕÀ†0\O,âb²Í¹âˆä–¬J»¾q©[g`Şø’‘=ı Ïs}AšFuÍÄ_4İ‰Öı¥ }~üÙEß¶r/Û}_€ºÛª~6ì6Lö+n¨Qè¿£Ñs¦M7t”4‚ğò·Gí§è™|?LÛ¯^ÂóÕØs=CNÁ39L¼Bh.ê„QFâÑ½jZasÊg¢^×(vâ3r×§ ğÂú
+×coÉ6d‹[ ¦ƒ!]_0t‘””Ø¹Pù‰aó65„GÛÜÑı²ÔÅkö\RQ]Û%º¯PzlÅrïùRÄ…“À<Û7Ç?x«E¶õ‡^ÚriÆ®{··>jâ.­ £‚İ0‚Ù0	+‚7 0#	+‚7*§RşdÄš¾‚‘<F5)Ïÿ/î0UŸ§] ^b]ƒôåÒe§S5ér0\U U0S0Q+‚7Lƒ}0A0?+3http://www.microsoft.com/pkiops/Docs/Repository.htm0U%0
++0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0	*†H†÷ ‚ U}ü*­á,g1$[árKü©oê\¶>NGdx±“—=13µ9×Âq6?Údl|Ğu9m»1äÂûlÑ¡”"îéfg:SMİ˜º¶xØ6.œ©‚V °¾‰èiàº	î{ßjo¾)ËnØ?HuÙŞm‚õm#TäxSu$W¹İŸó=Æóhßeö¤Vª÷•¶(U'Ğ$½@ ¿¶]='à@–8¬÷ù)‰Ã¼°T…B³ü‹‰çğjÂBRuŠ6ÂÃas.,k{n?,	xé‘²©[ßI£t¼ì‘€Ò=æJ>f;O»†ú2Ù–ôö‘öÎÆtıöLro«u0Å4°zØPş
+Xİ@<ÇTmctH,±NG-Áq¿dù$¾smÊ	½³WITdÙs×[DZ‘kŸ¤(Üg($º8Kšnû!TkjEG©ñ·®Èè‰^OÒĞLvµWT	±iD~|¡alsş
+»ìAf=iıËÁAI~~“¾Ëø;ä·¿´Î>¥1Q„¼¿Á‚¢{‰pşçµĞ(‰6ÚºLù›ÿ
+é4ø$5g+à¸æŒ™Öá"êğ'B=%”ætt[jÑ>í~ 13}¼Ëé{¿8pDÑñÈ«:Š:bÙpcSMî‚m¥Áqj´U3X³¡pfò¡‚Ô0‚=0‚ ¡Ø¤Õ0Ò10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1-0+U$Microsoft Ireland Operations Limited1&0$UThales TSS ESN:0842-4BE6-C29A1%0#UMicrosoft Time-Stamp Service¢#
+0+ xw“T(D†ÂÆ`aíşƒƒó ƒ0€¤~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100	*†H†÷  åúäS0"20220409004155Z20220410004155Z0t0:
++„Y
+1,0*0
+ åúäS 0 M0 t0
+ åü5Ó 06
++„Y
+1(0&0
++„Y
+ 
+0 ¡ ¡
+0 † 0	*†H†÷  cooz/QB`Æ9¹âÛkëû'=e_C(«GÖQmiäµ˜‹ÚRiêe&®Û$Š4ÕØ|',/Ñ¨Ã*‚}}´ß’JñO§CºQ şk"5rõÄ-ßäôe{ZÖ+v<cß˜'’ ©¼§–xFNÄíqw	1ü‡C‰zõU1‚0‚	0“0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103  ‡Bf\óô   ‡0	`†He  ‚J0	*†H†÷	1*†H†÷	0/	*†H†÷	1" Jş}¶ÛóÔMeéÖvÏZUª«îÑÇ!b¢¡JRdˆ}¸0ú*†H†÷	/1ê0ç0ä0½ Ä,ğ n vÂÀ¶KaÏÕ+Âf|6ç3¤lš›X0˜0€¤~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103  ‡Bf\óô   ‡0" àHLÚ=Ìİà Å±ñ«;Ì^á ˜u{/QXğ0	*†H†÷ ‚ ‚ğÑBcV×Ï’)3Ö•åPÀc2.X‡ÙÒ™µÔ¤IÉ4š¥eÇp¹ÿ>Š)ş¶ùç.µĞÅ=˜TWÿŞ,Ô†<'¿{:sjva`Pó<\¥›Û³•¢ò°ä…ğ¿p´Ã²CTœ/GıŠ¯Ç9¢¹!ô"WPo>È¡W¥$3Jp¢–dwªº”8GŒš”íİÏƒ@¸Æ#ÆğÖ3šn§áù=''Êêà5Ğr]ÆËjI_dÃ)Œk§ğ¨—Ş—Åû1‘/l³ÖÅq ÒØ A)K>ßŒİÀ
+„qÓ;=¿İ™ j˜8½Yˆ/ Ç„x‘A+ª-¹İ5½Q7ÇËa¾)×æVìğán`gŸQP^Š^Á‚•Æ’G0¶èx¤ˆ4íGÈ<ãu
+W¶d8…Q#ÜOAêFô¨«yÓ@Kò Ñ*Oß2Ë2VÀ,ßJİzr1t[G[@Š)5ø³BŠŠƒ›#F94âf`vŠ¯®ûRjM‘ÒA¨H…),»ÌBîî+Cj98_)ÍiùnÌ.Éc¦U–™&b>º2„Æ€Ó}qâ«ùi€‘-“ƒn¡›Ú-8¼áË9¶¸‹¿Ûi:È9Ö9% vÍ°òòÜ~ß'=Å©ú Í×ß8†u„Í`(ºŠq©{c|!E”’3?ål0‚'µ
++‚71‚'¥0‚'¡	*†H†÷ ‚'’0‚'10	`†He 0\
++‚7 N0L0
++‚70	  ¢€ 010	`†He  —/¨<¼×°=ı0¬åíwÑß\œˆ}+š3é¾å<Ğ ‚v0‚ô0‚Ü 3  TÊ+óËÚ¦u    T0	*†H†÷ 0~10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20110210902183301Z220901183301Z0t10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10UMicrosoft Corporation0‚"0	*†H†÷ ‚ 0‚
+‚ —Œ(?$ÃU«.häH¼tS÷]ôëzÒKkšLÜZ™ÊJ!ÄÀ¦ú‹Ÿ7ŞP¤ã	Ò5¦T´ñ,1Ùº³j¨*´±Ø”ª=’R¡Û}¥\gÃn—Ò%ÆïkD{ƒHÖ‹ßı‡;¯ŸxÓ
+Æ¬xì€úB`­èŒ:0æÑk’›DÀ¤§²£{…äÈà¯#fdjSF{’ğt÷"¾_Fdö`d7ß©„`ÍñŞV:{›l d	B¬u"Ç? òÌbËôä-”Å÷µ–~­V‰®e¸&ÒñĞ(’WBÓæOı^S33‚û¯ÀºøA*ÅİB´[ £‚s0‚o0U%0
++‚7
++0U7©0´×; Œì¤¨tê)Í0EU>0<¤:0810UMicrosoft Corporation10U230217+4673160U#0€HndåPÓ‚ª77"µm¨Êu•0TUM0K0I G E†Chttp://www.microsoft.com/pkiops/crl/MicCodSigPCA2011_2011-07-08.crl0a+U0S0Q+0†Ehttp://www.microsoft.com/pkiops/certs/MicCodSigPCA2011_2011-07-08.crt0Uÿ0 0	*†H†÷ ‚  T±îOhÇOÎ%ˆïœ²ãûb,}üÁWY©ÉN;ÒT|®RÍp¼+ÊĞñEµoº¸ıQ’¹“ı×i™fYà1ÕZÎ³<Ê÷h-ÛYO[©‰X”Õ‘èÃ;M¢'3³ÍH@©óÕ[i&ÍÎ“Ú5ïÇ0†lß¡#3¿{÷eŒ[€?ucˆó"œÏ{Ò"µn”ñ÷Ã›ZåùPâ`^šJã,HÒEûnô@i>"éº!ä¦XÚ~¬½"«Ü‚tlyÊ¯w"İvVh>í7’ĞÔZMLƒÉƒÕ¦kì·¸$ô¾‘$/A˜L‰ë?àÍèU>/ĞLÌ¹tlZÂJİ„NgíÂ†/@ûş|ÓI'÷ìÙë®¯ç+ï_!œ7Pg,¶£Ñ–eÑ¦’	AGƒ%¥9Z'ë ¾Î‘r€w°iVÛŸë|h-V»èö4j2>F áNÇ.¡4¤e(R©‡÷4‡6<>X¥¦‚«+ğ,¹/G†hF¯–ğ¼3Ğh µVÅ(gÕ¥=öN¬×D²²Ø‰7€5™¹ÒàÑ9&xáäÚöpüq¼lŠi8öÕ®<
++eæ‡3 X^}gR=G²–ûĞ' +¹ÿYW™3z+MŞsJr•¢P.q”¯Dƒó>¬cĞ¯I¢µ,ûâ4f†l—‘Ø0‚z0‚b 
+aÒ     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20110110708205909Z260708210909Z0~10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20110‚"0	*†H†÷ ‚ 0‚
+‚ «ğúr.­Ønª‚M4ºò¶X!ŸB*kéZPª¸8IºÃİ7kÆØğ8Â™°È9Õ1BÓ‰yd‡~”`$l¯Iœéh^Òß›S²
+,Ã¯Ù©+®z	¯×–YÊ`éfvè2R&/ç«PÏ³D·]ØÄ.u«hóËmó:\¡ôFºà8d¬nd5x¦ c-Ó@“øãŞÕ\y¥I)ç¾ w¾”=ïûã+ZMV(¢zrà:·I^ØííC‘ƒÙ{²{†Ù>±Œ]è‰O„ò¡/Yä;-®3XÅ·>ş2Ó³=±²¯’8~Ò€,õNV‘!5%Ã9ndSºœ­#„Ëôº†÷_ğĞR¿Œ”‡¼À!t%_(¶Ì'(8%˜9J6Ï|±’®#§©fìajá(I_ˆâ%]Ó!K>RÄµW?$ğÑz[/Õ#ãp]QFw³ø á¼¬‚_ÛÀ³½ÔUKç9¡é#I¼¸D|EäÁÃrzàrç$ß¿F™ÅïÂWÛƒìMI0§«ßì[Ÿ¯üİ°fâÁ—{íÖíKçI)§(¦§}g€æŠbx_²/„×Wœ\¿w((ñímÃ(,@7OÁá…D‰Ä	LÅÔ¥C/t•÷nøx X,]`•š>O3„Ú°ˆŞNô–°¼F l˜ÒàÖˆŒ £‚í0‚é0	+‚7 0UHndåPÓ‚ª77"µm¨Êu•0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€r-:1C¹Náê§Ç1Ñ#‰40ZUS0Q0O M K†Ihttp://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl0^+R0P0N+0†Bhttp://www.microsoft.com/pki/certs/MicRooCerAut2011_2011_03_22.crt0ŸU —0”0‘	+‚7.0ƒ0?+3http://www.microsoft.com/pkiops/docs/primarycps.htm0@+042  L e g a l _ p o l i c y _ s t a t e m e n t . 0	*†H†÷ ‚ gò†¥˜àTy.ÓØtg"›–ác’™B–}ÒyÁe_.,>øÃrÑmƒş¾?è
+Ê;¿G©£óiÛc¿"5¥—]e„}‹FPUØ’|ÒKó<B‹RĞ°ıkã>.)›æ=¥Ôµw”9âédÉD=xz#ó}¦tƒôË&F*ÂŠ»¤©›íhúh.• *?*kXIc	inZ˜–äƒôÀóF+Şü;Ğ½5ïn%®å¯'íĞİó¯™(—˜M=ò‰ÖÃ2âğÅ-Î[´I9
+Æ
+ÂÆ­®å²ÙÛˆQEX82q'±ô'øŞ,: i˜²Y‰hno§·tÃ@¦*(>‚?MfÀ³Mõáo}E§vå@*e£Ã]Rb†Ãc6—†ßÚóøò¡š'áÍ¥—Ğî]cAã[œ‡>wÑ±u¾aaµğÜÆ¾ßAÇ(îŞe/ì—ö¡\–Ø Ö¡F½Yó—¥	KH™€Ğ )Å±›¥?Ew5ÆÒ¢¢Ÿzz"úH•«ûG#€õø¿k·K—âëuxìê7™yKÿÖ³#huæ¯úü‹ë€êi;¯ü0íLßßumc‘=ÑVNO¿€W"¡x2!zïA
+±?û¨Ì¤]Á¡ˆ›WqVNHEÀBÉ›v[
+€HkıyŸÁ½mmjÉRszPÍ1‚0‚š0•0~10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20113  TÊ+óËÚ¦u    T0	`†He  Á0
+*†H†÷	10	*†H†÷	1
++‚70
++‚710
++‚70/	*†H†÷	1" Xü(ºä2hI’¢`wâ®¦.“©w±¼Û*(Ó÷H>0B
++‚71402 € M i c r o s o f t¡€http://www.microsoft.com0	*†H†÷ ‚ ;©ÛÒÄ­¼şŒ¸:ĞÙïJ‹ }‘Ôr„IÊ‚b-FÎßõÍ¸g†*ò«©À/†àì¥î¬wêGâMIu ›0Óû0áf*®mxoè´ôX9é6šoõd6>c˜f…Y9¾`åcV}^I#Öµpò‰Y®iü»A¯gÚ‡"bl)àèÏîÕÉ®õÈŞI±ØË)‹:ÂŸ¼ä\—•4O”ÚXMg–ci4]¦çî[I‰¦üº4!=íH³6Ò¾bæŞ®¡Ôš€åN[~4us¶%O·oµ^——}©FÌg’|H.$%¢×­;{KS„oY]ğ•º²ë»BÛ¡‚0‚
++‚71‚0‚ı	*†H†÷ ‚î0‚ê10	`†He 0‚X*†H†÷	 ‚G‚C0‚?
++„Y
+010	`†He  ¬ÀLbUü?­•Ø€#»Í>ùO£-aË2€Ì¾µıìTŞb2ûv_ø20220408230501.72Z0€ô Ø¤Õ0Ò10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1-0+U$Microsoft Ireland Operations Limited1&0$UThales TSS ESN:3BD4-4B80-69C31%0#UMicrosoft Time-Stamp Service ‚e0‚0‚ü 3  ‰´¿†0„K   ‰0	*†H†÷ 0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100211028192741Z230126192741Z0Ò10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1-0+U$Microsoft Ireland Operations Limited1&0$UThales TSS ESN:3BD4-4B80-69C31%0#UMicrosoft Time-Stamp Service0‚"0	*†H†÷ ‚ 0‚
+‚ ½WÅ‘fkªešã²¼ÚUó;¢VFüòea’“’N¢ò¬¢å\Uaå²bDá+çÎÇi°©•ÇÊ-8ÛŞ!AoIÇ„fŸ^k¹›Wîğ¾Üûyp]È›Ç*´KíBÉh‘qÒ¿‹ç†›¬ĞÚ¯FïrF'HKX½së§'ÊÊÑ.°²°PÇ$!<ÖdX®ÙóõFºFŠ,‡\(ùw‡ ¿½ş` /Â]{¨~/ır‚›¼MÁW5„ãB>¨«Ş ¹üÕ6I[†ëQ¤'	›Õ4\Ù¾Úè¥€çõKXñ„44§§\û]€±İCÃg¿x ²‹­b4k™ù7J	>òkÚ’§YšS¬yã’Õ{)@Ò@+[™–PMÉĞdçæ‡ã9÷º5œİÏïñŞåà?M#ŒÌfLÂµ\İÔ›"ÚRTX'ŒÍ‚8B}Î švó¢¬`Ë7õ’6Œ)dÂSväßÓ@	÷lşéÙ«K‹¯éâguøààqÛ VYgÙÎm•Í¹à8É-S$fÛ$R,	“P@º>^!!“lØ²[ıpMª÷õ
+£9¸.tæ|´ü¢?ùØdb®LwÜı¼Á´ê°ş|4¹Ä¼DÀ–÷`äy­n²F)A8¾KÅ—¥AümçŒ%áeĞ@‰OzCƒÀï £‚60‚20U—o³GZx €‚à:¬r¤­ù{P0U#0€Ÿ§] ^b]ƒôåÒe§S5ér0_UX0V0T R P†Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l+`0^0\+0†Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0Uÿ0 0U%0
++0	*†H†÷ ‚ ´·iYB8+Ë.·Ú*²Á÷`êl)c8Õ6à™~°|O£¶ºíÆ) £šDV­áí•ü²öC¤ìµšÇy7‘ïµ÷­}¸{¨}y]—9h7ô§ş¦MÆjìVe—!ÔĞÏ|øçe£¨Z(t»x	_Ş×Ö\íg×<Ö’Éİæ3ÈR+7ŞŸ¯‘,ÍÛ€´'pñT„o–¥=@21³À¦û4‚›ÿ#ñÃõğ9"÷œ](‡W0ëtXşóÊëbÃaÚbíiÆØæïÖT«p‹Èâ1ãÙÃ½«~ÇïÏ>]µê©Q˜tj¸˜©Œ÷
+§Sx˜GlÇ>(±ã«=‡…°qÖ$Rz+ïª~ô)7‰¦kø<R©·’ËI±!CªşPSIT_n­ò¿Ÿr)(|«öİaëµw·ºÕNÀ}c:Ñj(¤›>¼+‘ÖvßL©Bñ=èúšYĞ´jæã®¾P¤XĞœVµÚÌs›Ç”v_¨ÚÂ?Ñ°Í’éŸkÔı
+v57>Ã`·É’rñl®4æÏe§ìJ›iÕ!õ{âûÕ%ƒ,Í±ÿS,±À1µìŸ
+–µ Ô.|m}-­bî(j‘^ğœ‡S½áÜaĞá(ä½c¾Z–“(u£f‹Tê<¡²ˆO!~qCQÿÄÉ\8¹0‚q0‚Y 3   Åçk›I™     0	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100210930182225Z300930183225Z0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100‚"0	*†H†÷ ‚ 0‚
+‚ äá¦Lç´r!y¢Ë×$y½Õ‚ÓıîœÒ©lNuÈÊ5WölJàâ½¹>`3ÿ\OÇf÷•SqZâ~JZş¸6g…F#µÏw2Àè`}jRƒD·¦FkóÅvõ†PÜÁDÈq\Q17 
+8ní×Ø&S|9azÄªıri¯«¬ö6¾5&dÚ˜;º{3­€[~ŒRş¶èb%ÜjÏ]ôşSÏÖì…VMïİ¼¤ã‘²9,QœépiÊ6-p1È5(½ã´‡$ÃàÉ~µTÜúU˜mh;šF½í¤®z)7¬ËëƒEçFnÊ2ÕÀ†0\O,âb²Í¹âˆä–¬J»¾q©[g`Şø’‘=ı Ïs}AšFuÍÄ_4İ‰Öı¥ }~üÙEß¶r/Û}_€ºÛª~6ì6Lö+n¨Qè¿£Ñs¦M7t”4‚ğò·Gí§è™|?LÛ¯^ÂóÕØs=CNÁ39L¼Bh.ê„QFâÑ½jZasÊg¢^×(vâ3r×§ ğÂú
+×coÉ6d‹[ ¦ƒ!]_0t‘””Ø¹Pù‰aó65„GÛÜÑı²ÔÅkö\RQ]Û%º¯PzlÅrïùRÄ…“À<Û7Ç?x«E¶õ‡^ÚriÆ®{··>jâ.­ £‚İ0‚Ù0	+‚7 0#	+‚7*§RşdÄš¾‚‘<F5)Ïÿ/î0UŸ§] ^b]ƒôåÒe§S5ér0\U U0S0Q+‚7Lƒ}0A0?+3http://www.microsoft.com/pkiops/Docs/Repository.htm0U%0
++0	+‚7
+ S u b C A0U†0Uÿ0ÿ0U#0€ÕöVËè¢\bhÑ=”[×ÎšÄ0VUO0M0K I G†Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0†>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0	*†H†÷ ‚ U}ü*­á,g1$[árKü©oê\¶>NGdx±“—=13µ9×Âq6?Údl|Ğu9m»1äÂûlÑ¡”"îéfg:SMİ˜º¶xØ6.œ©‚V °¾‰èiàº	î{ßjo¾)ËnØ?HuÙŞm‚õm#TäxSu$W¹İŸó=Æóhßeö¤Vª÷•¶(U'Ğ$½@ ¿¶]='à@–8¬÷ù)‰Ã¼°T…B³ü‹‰çğjÂBRuŠ6ÂÃas.,k{n?,	xé‘²©[ßI£t¼ì‘€Ò=æJ>f;O»†ú2Ù–ôö‘öÎÆtıöLro«u0Å4°zØPş
+Xİ@<ÇTmctH,±NG-Áq¿dù$¾smÊ	½³WITdÙs×[DZ‘kŸ¤(Üg($º8Kšnû!TkjEG©ñ·®Èè‰^OÒĞLvµWT	±iD~|¡alsş
+»ìAf=iıËÁAI~~“¾Ëø;ä·¿´Î>¥1Q„¼¿Á‚¢{‰pşçµĞ(‰6ÚºLù›ÿ
+é4ø$5g+à¸æŒ™Öá"êğ'B=%”ætt[jÑ>í~ 13}¼Ëé{¿8pDÑñÈ«:Š:bÙpcSMî‚m¥Áqj´U3X³¡pfò¡‚Ô0‚=0‚ ¡Ø¤Õ0Ò10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1-0+U$Microsoft Ireland Operations Limited1&0$UThales TSS ESN:3BD4-4B80-69C31%0#UMicrosoft Time-Stamp Service¢#
+0+ !¥	­äzÜ¹ì»l“iZC.ˆ' ƒ0€¤~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100	*†H†÷  åû"Ş0"20220409050846Z20220410050846Z0t0:
++„Y
+1,0*0
+ åû"Ş 0 0 S0
+ åüt^ 06
++„Y
+1(0&0
++„Y
+ 
+0 ¡ ¡
+0 † 0	*†H†÷  4ór–¼gš`Ä ©rÃ¼ƒ›¢íçoîÄ]ó Ëâ—1Z Z|¬Ñs<Ó}AôSÉä.È'›‹­ÿqaY	Gm_ëe%¶´ÎèÊ¹¶uN©¨ŠTM®ÇÆ9ş=ã@dä³É÷nO: õ>Á]Píróßdƒ¢Êl;+T‰oñÍ¹m˜1‚0‚	0“0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103  ‰´¿†0„K   ‰0	`†He  ‚J0	*†H†÷	1*†H†÷	0/	*†H†÷	1" ¨ˆ¨kø*OÙqÉ/6sÖöÄs¿Ê~ÿZóÂrìE0ú*†H†÷	/1ê0ç0ä0½ fwG1ÜPWUln•‡91êXLœ½ÄI›·ëÙRdüE0˜0€¤~0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103  ‰´¿†0„K   ‰0" ıàQhOd¤;í*Û+È<Òào~Ú…ª¥t1à»¹™V0	*†H†÷ ‚ 7‰ûê§Zq ’L_}«\°"N¬Ä A5ºï•"Ñ’yÊØà>/±íŞgE°ƒ¬éÁ°Y7	Ã“™Öâ—ÖW\yEŒ3'ûÍß¨p©xC, àV±ƒù‚×<>©Üœq=™‹Ë‡¿‹Eú
+sqTR‘dİbíF¸!«	 )HÂ` ¼£¾BOÁá51‹O,”LëÔU'½âï"‹W¶µÜ>ZØzß­²G?Å?,ªÎÇùq%1cùä.öÜ¡ìH ¯	·üº¨™'?3Ó“Kš•Êú†*Ñ9ëÌ
+°±1ëc­µ}“Å–POT.#]6e¹úË¨åK×Cğ@Ø@(´M½°€·×"Èg‘>å¶OD |z s&Vï‡ÿv¸ÌNV¶P¡h]èñÊ–ó(€£NÊ(ØÑíåª~ğdH–®[(C‡»Ôh#¿ÖáİåS9èİüFt(@¬D;+»–Š¯YÄ¿û_õí¯W!ThÃr1tÖí¡kÈ	½åÂ½ÈÎ¤&0µâÒ¯—²	A?MxXHÔAYêK"'SÖçáHˆ˜­–‰‡ÀNç}Ê]—'0á.†ÏïÅ/Şùä=¿Ï ‚–—^><Ò5nûi¢³&·O d1q²¾]OÓ­#Ó `4”À…L‘¾.                                                                                                                                                                                           0‚Cx	*†H†÷ ‚Ci0‚Ce10	`†He 0‚4	+‚7
+ ‚%0‚!0
++‚7Ï‹‰«Pï£N¦ OzÍÜ241005015850Z0
++‚7 0‚ì0*ûJ$~ª¾4érÇ¡ş˜ĞI10
++‚71‚ 0 XÕû6”!|òZ‹,P£X~$!Ö_íc<øöğpøG1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  XÕû6”!|òZ‹,P£X~$!Ö_íc<øöğpøG0‚‰ âIèt‡?¿çæcv" '+T›¦d¹BÎX¶b"R1‚c0
++‚71€ 0]
++‚71O0M0
++‚70
+  ¢€ 010	`†He  âIèt‡?¿çæcv" '+T›¦d¹BÎX¶b"R0ï
++‚71à0İ H i n t Êm s i l _ i n s p e c t v h d d i a l o g 6 . 3 _ 3 1 b f 3 8 5 6 a d 3 6 4 e 3 5 _ 1 0 . 0 . 2 2 6 2 1 . 1 _ n o n e _ 2 9 6 e e 2 2 9 1 2 e c c f 9 a \ i n s p e c t v h d d i a l o g 6 . 3 . e x e   0 á_Skmn ^·ÜŒ{ú#XA„¸zrQ.O¦«™ ˆ1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  á_Skmn ^·ÜŒ{ú#XA„¸zrQ.O¦«™ ˆ0‚÷ ±Ïg«eQéÎ#TKÆ]+ñOò®€›ë·Œ+Tƒ1‚Ñ0
++‚71€ 0]
++‚71O0M0
++‚70
+  ¢€ 010	`†He  ±Ïg«eQéÎ#TKÆ]+ñOò®€›ë·Œ+Tƒ0‚\
++‚71‚L0‚H H i n t ‚4a m d 6 4 _ m i c r o s o f t . v i r t u a l i z . . e n t . r d p c l i e n t a x h o s t _ 3 1 b f 3 8 5 6 a d 3 6 4 e 3 5 _ 1 0 . 0 . 2 2 6 2 1 . 4 3 1 7 _ n o n e _ 8 7 3 1 a f a 2 f 1 2 7 5 2 3 c \ m i c r o s o f t . v i r t u a l i z a t i o n . c l i e n t . r d p c l i e n t a x h o s t . d l l   0 %›=»ºÜ˜‘=Fà‡C»äâaCJ~ELµà™(+1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  %›=»ºÜ˜‘=Fà‡C»äâaCJ~ELµà™(+0 /×Zb§û2Dœz5s}<“	:TüÚä;¼u¢A1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  /×Zb§û2Dœz5s}<“	:TüÚä;¼u¢A0‚é 6’™Àzl¯Ç²¤d)$K??’ŸÀîHi_ã1‚Ã0
++‚71€ 0]
++‚71O0M0
++‚70
+  ¢€ 010	`†He  6’™Àzl¯Ç²¤d)$K??’ŸÀîHi_ã0‚N
++‚71‚>0‚: H i n t ‚&m s i l _ m i c r o s o f t . v i r t u a l i z . . c l i e n t . 6 . 3 . s e t t i n g s _ 3 1 b f 3 8 5 6 a d 3 6 4 e 3 5 _ 1 0 . 0 . 2 2 6 2 1 . 1 _ n o n e _ 8 d 3 c 0 1 7 e 3 9 4 7 b 6 c 5 \ m i c r o s o f t . v i r t u a l i z a t i o n . c l i e n t . 6 . 3 . s e t t i n g s . d l l   0*6ízIğgÓç)ºÄ·yW¯Æ10
++‚71‚ 0*=²şßmç]T€1µIzË¤@š10
++‚71‚ 0*G˜	×‘SíŠ6aÃ¹Ên³ÆI&10
++‚71‚ 0 HoåğBÙ±uæÁ—f»2Èú~Í¢øZÈI^ºÄg@1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  HoåğBÙ±uæÁ—f»2Èú~Í¢øZÈI^ºÄg@0*Y%d±¾q»öÇAQšU[3ä10
++‚71€ 0*_¾húÈZİ—¼·mp¼$ Œ™”810
++‚71‚ 0*a#¼æ¨‘¤[ÙXÊû´S(?n10
++‚71€ 0*f¯Y×ıê‰®%îÂ…5ñÓ“¶10
++‚71‚ 0*h)«UüÃó*„7vsÂ¬­ôBŸ10
++‚71€ 0*kCg&Íşw´Ğ'ı5}DÜöšqo10
++‚71‚ 0 l}±r qEIĞîÑ.Sòü)UgRÇ¼;šâ<01i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  l}±r qEIĞîÑ.Sòü)UgRÇ¼;šâ<00 t	`ÂA}Í £6vĞ{£ªÄÆ€ a)z/ fí,1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  t	`ÂA}Í £6vĞ{£ªÄÆ€ a)z/ fí,0‚ç |±Ô]ù{>PÚç^¸Â©.¨¥àø„ß:o1‚Á0
++‚71€ 0]
++‚71O0M0
++‚70
+  ¢€ 010	`†He  |±Ô]ù{>PÚç^¸Â©.¨¥àø„ß:o0‚L
++‚71‚<0‚8 H i n t ‚$m s i l _ m i c r o s o f t . v i r t u a l i z . . . c l i e n t . 6 . 3 . w i z a r d s _ 3 1 b f 3 8 5 6 a d 3 6 4 e 3 5 _ 1 0 . 0 . 2 2 6 2 1 . 1 _ n o n e _ 6 1 1 6 c 4 c 8 3 3 c 9 0 d 0 6 \ m i c r o s o f t . v i r t u a l i z a t i o n . c l i e n t . 6 . 3 . w i z a r d s . d l l   0*}V¢myÈ>W½ˆÅqF™ŸK…İ10
++‚71€ 0‚Í €„G(1o¼ˆë¯P«c‡†‡Ù±ó€”=»¾äç£øÈ1‚§0
++‚71€ 0]
++‚71O0M0
++‚70
+  ¢€ 010	`†He  €„G(1o¼ˆë¯P«c‡†‡Ù±ó€”=»¾äç£øÈ0‚2
++‚71‚"0‚ H i n t ‚
+m s i l _ m i c r o s o f t . v i r t u a l i z a t i o n . c l i e n t . 6 . 3 _ 3 1 b f 3 8 5 6 a d 3 6 4 e 3 5 _ 1 0 . 0 . 2 2 6 2 1 . 1 _ n o n e _ 1 9 7 2 c 6 3 4 f 7 b 2 9 5 a c \ m i c r o s o f t . v i r t u a l i z a t i o n . c l i e n t . 6 . 3 . d l l   0 ôÎË5ï6ë–ÛÕİûˆ¥˜´ææ&|‰ó<1i0
++‚71‚ 0U
++‚71G0E0
++‚7¢€ 010	`†He  ôÎË5

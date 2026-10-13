@@ -1,0 +1,72 @@
+[
+  {
+    "source": "Application.evtx",
+    "records": 21577,
+    "selected": 1756
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "records": 2216,
+    "selected": 2216
+  },
+  {
+    "source": "Microsoft-Windows-PowerShell%4Admin.evtx",
+    "records": 0,
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PowerShell%4Operational.evtx",
+    "records": 619,
+    "selected": 619
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Security.evtx",
+    "records": 2,
+    "selected": 2
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "records": 8536,
+    "selected": 8536
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Security.evtx",
+    "records": 265,
+    "selected": 265
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx",
+    "records": 1748,
+    "selected": 1748
+  },
+  {
+    "source": "Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx",
+    "records": 1325,
+    "selected": 1325
+  },
+  {
+    "source": "Microsoft-Windows-WinRM%4Operational.evtx",
+    "records": 1511,
+    "selected": 1511
+  },
+  {
+    "source": "Microsoft-Windows-Windows Defender%4Operational.evtx",
+    "records": 2146,
+    "selected": 2146
+  },
+  {
+    "source": "Security.evtx",
+    "records": 34472,
+    "selected": 34472
+  },
+  {
+    "source": "System.evtx",
+    "records": 36445,
+    "selected": 1175
+  },
+  {
+    "source": "Windows PowerShell.evtx",
+    "records": 1124,
+    "selected": 1124
+  }
+]
