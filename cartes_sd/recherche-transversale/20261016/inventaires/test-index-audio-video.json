@@ -1,0 +1,378 @@
+[
+  {
+    "card": "SD-01",
+    "inode": "20903944",
+    "patches": [
+      {
+        "kind": "soun",
+        "offset": 13185537,
+        "old": 1176,
+        "new": 7
+      },
+      {
+        "kind": "vide",
+        "offset": 13204874,
+        "old": 35,
+        "new": 9
+      }
+    ],
+    "sha256": "de4841be56625237619b373e08085dd7701e43f0fc96f0db3a73da413f7a2d1d",
+    "changed_bytes": [
+      13185539,
+      13185540,
+      13204877
+    ],
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/3"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "wrong_sample_count": false,
+    "RAM_only": true
+  },
+  {
+    "card": "SD-01",
+    "inode": "22835208",
+    "patches": [
+      {
+        "kind": "soun",
+        "offset": 1171969,
+        "old": 91,
+        "new": 7
+      },
+      {
+        "kind": "vide",
+        "offset": 1174086,
+        "old": 17,
+        "new": 4
+      }
+    ],
+    "sha256": "6e25b1602f9e941fd3bd0289ecd60e25753e7b32f1db2aa8b2063b47c13ad4bd",
+    "changed_bytes": [
+      1171972,
+      1174089
+    ],
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/3"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "wrong_sample_count": false,
+    "RAM_only": true
+  },
+  {
+    "card": "SD-03",
+    "inode": "12727332",
+    "patches": [
+      {
+        "kind": "soun",
+        "offset": 4006401,
+        "old": 301,
+        "new": 7
+      }
+    ],
+    "sha256": "a76b6caedda0c7735614631c66c63471e4361ef40bb424f404f878b660ddc09e",
+    "changed_bytes": [
+      4006403,
+      4006404
+    ],
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/3"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "wrong_sample_count": false,
+    "RAM_only": true
+  },
+  {
+    "card": "SD-03",
+    "inode": "261989424",
+    "patches": [
+      {
+        "kind": "soun",
+        "offset": 13918721,
+        "old": 1484,
+        "new": 7
+      }
+    ],
+    "sha256": "82cf92c1df3a5790407ccef88b01f712b50131d4dfe0b4d0d8305b138723bac2",
+    "changed_bytes": [
+      13918723,
+      13918724
+    ],
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/3"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "wrong_sample_count": false,
+    "RAM_only": true
+  },
+  {
+    "card": "SD-03",
+    "inode": "261989436",
+    "patches": [
+      {
+        "kind": "soun",
+        "offset": 5517825,
+        "old": 595,
+        "new": 7
+      },
+      {
+        "kind": "vide",
+        "offset": 5532574,
+        "old": 22,
+        "new": 9
+      }
+    ],
+    "sha256": "e252334c10b86e7a0c0e82aa583014cd3dc54665fe72bd8ac14c8f42bafd15c4",
+    "changed_bytes": [
+      5517827,
+      5517828,
+      5532577
+    ],
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/3"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "wrong_sample_count": false,
+    "RAM_only": true
+  },
+  {
+    "card": "SD-03",
+    "inode": "261989444",
+    "patches": [
+      {
+        "kind": "soun",
+        "offset": 3555841,
+        "old": 336,
+        "new": 7
+      },
+      {
+        "kind": "vide",
+        "offset": 3564326,
+        "old": 15,
+        "new": 2
+      }
+    ],
+    "sha256": "16af1d7290f16a07fdb2a5800e0c89f825016ce0a0272c5b46cbef309334a415",
+    "changed_bytes": [
+      3555843,
+      3555844,
+      3564329
+    ],
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/3"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "wrong_sample_count": false,
+    "RAM_only": true
+  },
+  {
+    "card": "SD-03",
+    "inode": "266341920",
+    "patches": [
+      {
+        "kind": "soun",
+        "offset": 5324700,
+        "old": 357,
+        "new": 7
+      },
+      {
+        "kind": "vide",
+        "offset": 5333773,
+        "old": 33,
+        "new": 7
+      }
+    ],
+    "sha256": "46045bcf722c2b88108fec221f4d4d2ff09428230a3cb8751dfd3f32ba447006",
+    "changed_bytes": [
+      5324702,
+      5324703,
+      5333776
+    ],
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/3"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "wrong_sample_count": false,
+    "RAM_only": true
+  },
+  {
+    "card": "SD-03",
+    "inode": "266341968",
+    "patches": [
+      {
+        "kind": "soun",
+        "offset": 193025,
+        "old": 35,
+        "new": 7
+      },
+      {
+        "kind": "vide",
+        "offset": 194654,
+        "old": 24,
+        "new": 11
+      }
+    ],
+    "sha256": "daf5b5799a324c9c7bfe834aae7927bc8c7abd560a489998154ec24c75e01f2a",
+    "changed_bytes": [
+      193028,
+      194657
+    ],
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/3"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "wrong_sample_count": false,
+    "RAM_only": true
+  },
+  {
+    "card": "SD-03",
+    "inode": "266341984",
+    "patches": [
+      {
+        "kind": "soun",
+        "offset": 8160973,
+        "old": 903,
+        "new": 7
+      }
+    ],
+    "sha256": "c08ddd4fc9def9a999d0f86576ae159ac1c55da31430a0cd30fe280bf6248b84",
+    "changed_bytes": [
+      8160975,
+      8160976
+    ],
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/3"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "wrong_sample_count": false,
+    "RAM_only": true
+  },
+  {
+    "card": "SD-03",
+    "inode": "266342024",
+    "patches": [
+      {
+        "kind": "soun",
+        "offset": 1163777,
+        "old": 154,
+        "new": 7
+      },
+      {
+        "kind": "vide",
+        "offset": 1168042,
+        "old": 38,
+        "new": 12
+      }
+    ],
+    "sha256": "4ab535cd3e5430556f3fd36625551912e06d15eebe01e1b37fd0fc57a1e06d04",
+    "changed_bytes": [
+      1163780,
+      1168045
+    ],
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/3"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "wrong_sample_count": false,
+    "RAM_only": true
+  },
+  {
+    "card": "SD-03",
+    "inode": "714049800",
+    "patches": [
+      {
+        "kind": "soun",
+        "offset": 32865034,
+        "old": 2163,
+        "new": 7
+      }
+    ],
+    "sha256": "f3d4add38a3e742bf15a3f603493b9905921a9d7b688771f5fa957bd05a28b2a",
+    "changed_bytes": [
+      32865036,
+      32865037
+    ],
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/3"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "wrong_sample_count": false,
+    "RAM_only": true
+  }
+]

@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:rescap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3" xmlns:rescap4="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/4" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:desktop2="http://schemas.microsoft.com/appx/manifest/desktop/windows10/2" xmlns:desktop3="http://schemas.microsoft.com/appx/manifest/desktop/windows10/3" xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" xmlns:wincap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities/3" IgnorableNamespaces="uap2 uap3 uap4 uap5 rescap3 rescap4 desktop desktop2 desktop3 com wincap3" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="AppleInc.iCloud" ProcessorArchitecture="x64" Publisher="CN=5BD5593D-A41B-4F89-884E-B4F3E0FBAA75" Version="15.9.60.0" />
+  <Properties>
+    <DisplayName>iCloud</DisplayName>
+    <!-- Do not localize, or MS Store submissions will fail to validate -->
+    <PublisherDisplayName>Apple Inc.</PublisherDisplayName>
+    <Logo>iCloud\StoreLogo.png</Logo>
+    <!-- this allows the applications in the package to get RegistryChange notifications from the listed registry keys
+		
+		Note, for now, we will disable this functionality and wait for a response from Microsoft. Apparently, this causes the installer
+		to complain on Windows 10. Adding the namespace to IgnorableNamespaces mitigates this, but the feature doesn't work neither on 
+		Windows 10 nor 11. For Windows 10 there is a different solution for manifest file bascially opening whole HKCU hive which results
+		in our inability to remove our own settings from the registry after uninstall. Make sure to uncomment the corresponding oart in 
+		the Capabilities node below.
+		
+		The line below should go up into Packages node
+		xmlns:virtualization="http://schemas.microsoft.com/appx/manifest/virtualization/windows10"
+		
+		<virtualization:RegistryWriteVirtualization>
+			<virtualization:ExcludedKeys>
+				<virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Office</virtualization:ExcludedKey>
+			</virtualization:ExcludedKeys>
+		</virtualization:RegistryWriteVirtualization>
+		 -->
+  </Properties>
+  <Resources>
+    <Resource Language="en-US" />
+    <Resource Language="ar-SA" />
+    <Resource Language="ca-ES" />
+    <Resource Language="cs-CZ" />
+    <Resource Language="da-DK" />
+    <Resource Language="de-DE" />
+    <Resource Language="el-GR" />
+    <Resource Language="en-AU" />
+    <Resource Language="en-GB" />
+    <Resource Language="es-ES" />
+    <Resource Language="es-419" />
+    <Resource Language="fi-FI" />
+    <Resource Language="fr-FR" />
+    <Resource Language="fr-CA" />
+    <Resource Language="he-IL" />
+    <Resource Language="hi-IN" />
+    <Resource Language="hr-HR" />
+    <Resource Language="hu-HU" />
+    <Resource Language="id-ID" />
+    <Resource Language="it-IT" />
+    <Resource Language="ja-JP" />
+    <Resource Language="ko-KR" />
+    <Resource Language="ms-MY" />
+    <Resource Language="nb-NO" />
+    <Resource Language="nl-NL" />
+    <Resource Language="pl-PL" />
+    <Resource Language="pt-BR" />
+    <Resource Language="pt-PT" />
+    <Resource Language="ro-RO" />
+    <Resource Language="ru-RU" />
+    <Resource Language="sk-SK" />
+    <Resource Language="sv-SE" />
+    <Resource Language="th-TH" />
+    <Resource Language="tr-TR" />
+    <Resource Language="uk-UA" />
+    <Resource Language="vi-VN" />
+    <Resource Language="zh-CN" />
+    <Resource Language="zh-HK" />
+    <Resource Language="zh-TW" />
+    <Resource uap:Scale="100" />
+    <Resource uap:Scale="125" />
+    <Resource uap:Scale="150" />
+    <Resource uap:Scale="200" />
+    <Resource uap:Scale="400" />
+  </Resources>
+  <Dependencies>
+    <!-- this version supports Share Target -->
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.23810.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.23810.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <!-- we need 1.2 to use WinUI Toast notifications -->
+    <!-- we need to switch to 1.4 or 1.5 to be able to subscribe to ResourceManagerRequested() event -->
+    <!-- we need 1.6 to see if it solves crashes in rendering code deep inside WinUI3  -->
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.8" MinVersion="6000.519.329.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+    <!-- this allows to remove the virtualization restrictions, see also the Properties node
+		
+		Temporarily disabled, see the comment about RegistryChange notifications above in the Package node.
+		
+		<rescap:Capability Name="unvirtualizedResources"/>
+		 -->
+    <Capability Name="internetClient" />
+    <!-- Allows registration of Chrome/Firefox extensions registry below -->
+    <uap4:CustomCapability Name="Microsoft.classicAppCompat_8wekyb3d8bbwe" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.publisherCacheFolders">
+      <PublisherCacheFolders>
+        <Folder Name="com.apple.AuthKitWin" />
+      </PublisherCacheFolders>
+    </Extension>
+    <rescap4:Extension Category="windows.classicAppCompatKeys" EntryPoint="Windows.FullTrustApplication">
+      <rescap4:ClassicAppCompatKeys>
+        <rescap4:ClassicAppCompatKey Name="HKEY_LOCAL_MACHINE\Software\Google\Chrome\NativeMessagingHosts\com.apple.passwordmanager" />
+        <rescap4:ClassicAppCompatKey Name="HKEY_LOCAL_MACHINE\Software\Google\Chrome\NativeMessagingHosts\com.apple.passwordmanager" Value="[{AppVPackageRoot}]\iCloud\ChromePwdMgrHostApp_manifest.json" />
+        <rescap4:ClassicAppCompatKey Name="HKEY_LOCAL_MACHINE\Software\Mozilla\NativeMessagingHosts\com.apple.passwordmanager" />
+        <rescap4:ClassicAppCompatKey Name="HKEY_LOCAL_MACHINE\Software\Mozilla\NativeMessagingHosts\com.apple.passwordmanager" Value="[{AppVPackageRoot}]\iCloud\FirefoxPwdMgrHostApp_manifest.json" />
+        <rescap4:ClassicAppCompatKey Name="HKEY_LOCAL_MACHINE\Software\Google\Chrome\NativeMessagingHosts\com.apple.bookmarks" />
+        <rescap4:ClassicAppCompatKey Name="HKEY_LOCAL_MACHINE\Software\Google\Chrome\NativeMessagingHosts\com.apple.bookmarks" Value="[{AppVPackageRoot}]\iCloud\iCloudChrome_manifest.json" />
+        <rescap4:ClassicAppCompatKey Name="HKEY_LOCAL_MACHINE\Software\Mozilla\NativeMessagingHosts\com.apple.bookmarks" />
+        <rescap4:ClassicAppCompatKey Name="HKEY_LOCAL_MACHINE\Software\Mozilla\NativeMessagingHosts\com.apple.bookmarks" Value="[{AppVPackageRoot}]\iCloud\iCloudFirefox_manifest.json" />
+      </rescap4:ClassicAppCompatKeys>
+    </rescap4:Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>SharedControls.dll</Path>
+        <ActivatableClass ActivatableClassId="SharedControls.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SharedControls.UserPhotoControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SharedControls.LocalizationService" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <Applications>
+    <Application Id="iCloud" Executable="iCloud\iCloudHome.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:iCloudHomeUIDisplayName" Description="ms-resource:iCloudHomeUIDescription" BackgroundColor="transparent" Square150x150Logo="iCloud\Square150x150Logo.png" Square44x44Logo="iCloud\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="iCloud\Wide310x150Logo.png" Square310x310Logo="iCloud\LargeTile.png" Square71x71Logo="iCloud\SmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <!-- Needed so the MS Store launch button works -->
+        <!-- according to documentation having this will cause COM server activation (for Toasts) to launch a new 
+                instance of the application, but I wasn't able to see this behavior -->
+        <uap:Extension Category="windows.protocol">
+          <uap3:Protocol Name="apple-icloudapp" Parameters="/url &quot;%1&quot;">
+            <uap:Logo>iCloud\Square150x150Logo.png</uap:Logo>
+          </uap3:Protocol>
+        </uap:Extension>
+        <!-- Widget extension 
+                <uap3:Extension Category="windows.appExtension">
+                    <uap3:AppExtension Name="com.microsoft.windows.widgets" DisplayName="iCloudHome Widget" Id="iCloudHomeWidget" PublicFolder="Public">
+                        <uap3:Properties>
+                            <WidgetProvider>
+                                <ProviderIcons>
+                                    <Icon Path="Images\StoreLogo.png" />
+                                </ProviderIcons>
+                                <Activation>
+                                    <CreateInstance ClassId="5F82F19B-7A6B-4FBC-8B5A-FC29C028C3E4" />
+                                </Activation>
+                                
+                                <TrustedPackageFamilyNames>
+                                    <TrustedPackageFamilyName>Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe</TrustedPackageFamilyName>
+                                </TrustedPackageFamilyNames>
+                                
+                                <Definitions>
+                                    <Definition Id="iCloudHomeStatusWidget" DisplayName="iCloudHome Widget" Description="iCloudHome Status Widget">
+                                        <Capabilities>
+                                            <Capability>
+                                                <Size Name="medium" />
+                                            </Capability>
+                                        </Capabilities>
+                                        <ThemeResources>
+                                            <Icons>
+                                                <Icon Path="iCloudHome/emoji.png" />
+                                            </Icons>
+                                            <Screenshots>
+                                                <Screenshot Path="iCloudHome/emoji.png" DisplayAltText="For accessibility" />
+                                            </Screenshots>
+                                        </ThemeResources>
+                                    </Definition>
+                                </Definitions>
+                            </WidgetProvider>
+                        </uap3:Properties>
+                    </uap3:AppExtension>
+                </uap3:Extension>
+                End of Widget extension -->
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="iCloud\iCloudHome.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="iCloudHome-AppX.exe" />
+            <uap5:ExecutionAlias Alias="iCloudServices-AppX.exe" />
+            <uap5:ExecutionAlias Alias="iCloudPrefs-AppX.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+        <desktop:Extension Category="windows.startupTask" Executable="iCloud\iCloudHome.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask TaskId="iCloudHomeStartupTask" Enabled="true" DisplayName="ms-resource:iCloudHomeDisplayName" />
+        </desktop:Extension>
+        <desktop:Extension Category="windows.toastNotificationActivation">
+          <!-- Toast Notification support -->
+          <desktop:ToastNotificationActivation ToastActivatorCLSID="71E3DFFE-A4AD-4A16-A15B-7C85A2111AD8" />
+        </desktop:Extension>
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            <!-- apparently, it is ciritical to have this server in a separate ExeServer section,
+                             otherwise, the new instance of the application will be created to host the server -->
+            <com:ExeServer Executable="iCloud\iCloudHome.exe" DisplayName="iCloud Home Toast Server" Arguments="----AppNotificationActivated:">
+              <com:Class Id="71E3DFFE-A4AD-4A16-A15B-7C85A2111AD8" DisplayName="Toast Notification Class" />
+            </com:ExeServer>
+            <com:ExeServer Executable="iCloud\iCloudHome.exe" DisplayName="iCloud Home COM Server">
+              <com:Class Id="38BBA208-6E2B-4F2B-A8E8-5396C52D0B5F" DisplayName="SyncNotifyIcon Class" />
+              <com:Class Id="C5B12896-DBB7-4419-85E0-9C6D6F51E64E" DisplayName="NCAccount Class" />
+              <com:Class Id="A186852F-85EC-4F58-835F-AB27E54303E6" DisplayName="ProxyInfo Class" />
+              <com:Class Id="1DCCADB1-41E1-47E5-A581-CB2F095B954D" DisplayName="UserDefaults Class" />
+              <com:Class Id="5F82F19B-7A6B-4FBC-8B5A-FC29C028C3E4" DisplayName="Status Provider Class" />
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
+        <com:Extension Category="windows.comInterface">
+          <com:ComInterface>
+            <!-- ISyncNotifyIcon -->
+            <com:Interface Id="DF64E75C-FFA9-4087-A3A5-E587459E1740" UseUniversalMarshaler="true">
+              <com:TypeLib Id="E7B6EDF8-8737-46DA-BC3D-F7E5AD676D9C" VersionNumber="2.0" />
+            </com:Interface>
+            <!-- IProxyInfo -->
+            <com:Interface Id="6729D31E-68D1-4692-BE8A-796D581F32A8" UseUniversalMarshaler="true">
+              <com:TypeLib Id="E7B6EDF8-8737-46DA-BC3D-F7E5AD676D9C" VersionNumber="2.0" />
+            </com:Interface>
+            <!-- NCAccount -->
+            <com:Interface Id="02B21C08-C2CD-4698-A72F-29F2A6403851" UseUniversalMarshaler="true">
+              <com:TypeLib Id="E7B6EDF8-8737-46DA-BC3D-F7E5AD676D9C" VersionNumber="2.0" />
+            </com:Interface>
+            <!-- UserDefaults -->
+            <com:Interface Id="50C1944B-3B04-42EF-836F-A5DA895BED03" UseUniversalMarshaler="true">
+              <com:TypeLib Id="E7B6EDF8-8737-46DA-BC3D-F7E5AD676D9C" VersionNumber="2.0" />
+            </com:Interface>
+            <com:TypeLib Id="E7B6EDF8-8737-46DA-BC3D-F7E5AD676D9C">
+              <com:Version DisplayName="iCloudHome 2.0 Type Library" VersionNumber="2.0" LocaleId="0" LibraryFlag="0">
+                <com:Win32Path Path="iCloud\iCloudHome.exe" />
+                <com:Win64Path Path="iCloud\iCloudHome.exe" />
+              </com:Version>
+            </com:TypeLib>
+          </com:ComInterface>
+        </com:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="iCloudPhotoViewer" Executable="iCloud\iCloudPhotoViewer.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:iCloudPhotoViewerDisplayName" Description="ms-resource:iCloudPhotoViewerDescription" BackgroundColor="transparent" Square150x150Logo="Photos\Square150x150Logo.png" Square44x44Logo="Photos\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Photos\Wide310x150Logo.png" Square310x310Logo="Photos\LargeTile.png" Square71x71Logo="Photos\SmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="iCloud\iCloudPhotoViewer.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="iCloudPhotoViewer-AppX.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="iCloudPasswords" Executable="iCloud\iCloudPasswords.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:PasswordManagerUIDisplayName" Description="ms-resource:PasswordManagerUIDescription" BackgroundColor="transparent" Square150x150Logo="iCloudPasswords\Square150x150Logo.png" Square44x44Logo="iCloudPasswords\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="iCloudPasswords\Wide310x150Logo.png" Square310x310Logo="iCloudPasswords\LargeTile.png" Square71x71Logo="iCloudPasswords\SmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="iCloud\iCloudPasswords.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="iCloudPasswords-AppX.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+    <!-- Application entry for iCloudChrome so it runs as UWP when Chrome launches it. -->
+    <!-- AppListEntry is none so it doesn't show up in the start menu -->
+    <!-- The alias cannot have the -AppX suffix. Otherwise the browser will fail to launch the host app. -->
+    <Application Id="iCloudChrome" Executable="iCloud\iCloudChrome.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="iCloud Chrome Bookmarks" Description="iCloud Chrome Bookmarks" BackgroundColor="transparent" Square150x150Logo="iCloud\Square150x150Logo.png" Square44x44Logo="iCloud\Square44x44Logo.png" AppListEntry="none" />
+      <Extensions>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="iCloud\iCloudChrome.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="iCloudChrome.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+    <!-- Application entry for ChromePwdMgrApp so it runs as UWP when Chrome launches it. -->
+    <!-- AppListEntry is none so it doesn't show up in the start menu -->
+    <!-- The alias cannot have the -AppX suffix. Otherwise the browser will fail to launch the host app. -->
+    <Application Id="iCloudPasswordsExtensionHelper" Executable="iCloud\iCloudPasswordsExtensionHelper.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="iCloud Passwords Extension Helper" Description="iCloud Passwords Extension Helper" BackgroundColor="transparent" Square150x150Logo="iCloud\Square150x150Logo.png" Square44x44Logo="iCloud\Square44x44Logo.png" AppListEntry="none" />
+      <Extensions>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="iCloud\iCloudPasswordsExtensionHelper.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="iCloudPasswordsExtensionHelper.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+    <!-- Application entry for iCloudFirefox so it runs as UWP when Firefox launches it. -->
+    <!-- AppListEntry is none so it doesn't show up in the start menu -->
+    <!-- The alias cannot have the -AppX suffix. Otherwise the browser will fail to launch the host app. -->
+    <Application Id="iCloudFirefox" Executable="iCloud\iCloudFirefox.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="iCloud Firefox Bookmarks" Description="iCloud Firefox Bookmarks" BackgroundColor="transparent" Square150x150Logo="iCloud\Square150x150Logo.png" Square44x44Logo="iCloud\Square44x44Logo.png" AppListEntry="none" />
+      <Extensions>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="iCloud\iCloudFirefox.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="iCloudFirefox.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+    <!-- Application entry for iCloud Drive, so it can be associated with file extensions -->
+    <!-- AppListEntry is none so it doesn't show up in the start menu -->
+    <Application Id="iCloudDrive" Executable="iCloud\iCloudDrive.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:iCloudDriveDisplayName" Description="ms-resource:iCloudDriveDisplayName" BackgroundColor="transparent" Square150x150Logo="iCloud\Square150x150Logo.png" Square44x44Logo="iCloud\Square44x44Logo.png" AppListEntry="none" />
+      <Extensions>
+        <!-- Declare that this app can be launched as a Share Target -->
+        <uap:Extension Category="windows.shareTarget">
+          <uap:ShareTarget Description="iCloud Drive Target">
+            <uap:SupportedFileTypes>
+              <uap:SupportsAnyFileType />
+            </uap:SupportedFileTypes>
+          </uap:ShareTarget>
+        </uap:Extension>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="iCloud\iCloudDrive.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="iCloudDrive-AppX.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+        <desktop:Extension Category="windows.startupTask" Executable="iCloud\iCloudDrive.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask TaskId="iCloudDriveStartupTask" Enabled="false" DisplayName="ms-resource:iCloudDriveDisplayName" />
+        </desktop:Extension>
+        <!-- CloudFiles support. -->
+        <desktop3:Extension Category="windows.cloudFiles" Executable="iCloud\iCloudDrive.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop3:CloudFiles IconResource="iCloud\Wide310x150Logo.png">
+            <desktop3:CustomStateHandler Clsid="D3B0ACEA-46E8-41A7-A69E-0A46053EA2A1" />
+            <desktop3:ThumbnailProviderHandler Clsid="19BB4B1F-6BEE-47C2-858E-64140AE114EE" />
+            <desktop3:ExtendedPropertyHandler Clsid="20000000-0000-0000-0000-000000000003" />
+            <desktop3:BannersHandler Clsid="20000000-0000-0000-0000-000000000003" />
+            <desktop3:CloudFilesContextMenus>
+              <desktop3:Verb Id="iCloudSharing" Clsid="85527100-19D0-45AF-9F09-DAB4E711C35E" />
+            </desktop3:CloudFilesContextMenus>
+          </desktop3:CloudFiles>
+        </desktop3:Extension>
+        <!-- iCloud Drive thumbnail, context menu and custom state handlers -->
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            <com:ExeServer Executable="iCloud\iCloudDrive.exe" DisplayName="iCloud Drive COM Server">
+              <com:Class Id="19BB4B1F-6BEE-47C2-858E-64140AE114EE" DisplayName="iCloud Drive Thumbnail Handler" />
+              <com:Class Id="85527100-19D0-45AF-9F09-DAB4E711C35E" DisplayName="iCloud Drive Context Menu Handler" />
+              <com:Class Id="D3B0ACEA-46E8-41A7-A69E-0A46053EA2A1" DisplayName="iCloud Drive Custom State Handler" />
+              <com:Class Id="F73FD223-6B08-4C7F-BF36-27ABAA8E70CC" DisplayName="iCloud Drive Toast Activator" />
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
+        <desktop:Extension Category="windows.toastNotificationActivation">
+          <desktop:ToastNotificationActivation ToastActivatorCLSID="F73FD223-6B08-4C7F-BF36-27ABAA8E70CC" />
+        </desktop:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="icloud.pages">
+            <uap:DisplayName>ms-resource:PagesDocument</uap:DisplayName>
+            <uap:Logo>iCloudDrive\Pages.png</uap:Logo>
+            <uap:SupportedFileTypes>
+              <uap:FileType>.pages</uap:FileType>
+              <uap:FileType>.pages-tef</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="Open" Parameters="openiWorkDoc &quot;%1&quot;">ms-resource:OpenIniCloudCom</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="icloud.numbers">
+            <uap:DisplayName>ms-resource:NumbersDocument</uap:DisplayName>
+            <uap:Logo>iCloudDrive\Numbers.png</uap:Logo>
+            <uap:SupportedFileTypes>
+              <uap:FileType>.numbers</uap:FileType>
+              <uap:FileType>.numbers-tef</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="Open" Parameters="openiWorkDoc &quot;%1&quot;">ms-resource:OpenIniCloudCom</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="icloud.keynote">
+            <uap:DisplayName>ms-resource:KeynoteDocument</uap:DisplayName>
+            <uap:Logo>iCloudDrive\Keynote.png</uap:Logo>
+            <uap:SupportedFileTypes>
+              <uap:FileType>.key</uap:FileType>
+              <uap:FileType>.key-tef</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="Open" Parameters="openiWorkDoc &quot;%1&quot;">ms-resource:OpenIniCloudCom</uap3:Verb>
+            </uap2:SupportedVerbs>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="iCloudPhotos" Executable="iCloud\iCloudPhotos.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:iCloudPhotosDisplayName" Description="ms-resource:iCloudPhotosDisplayName" BackgroundColor="transparent" Square150x150Logo="Photos\Square150x150Logo.png" Square44x44Logo="Photos\Square44x44Logo.png" AppListEntry="none" />
+      <Extensions>
+        <!-- Declare that this app can be launched as a Share Target -->
+        <uap:Extension Category="windows.shareTarget">
+          <uap:ShareTarget Description="iCloud Photos Target">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.PNG</uap:FileType>
+              <uap:FileType>.JPG</uap:FileType>
+              <uap:FileType>.JPEG</uap:FileType>
+              <uap:FileType>.JPE</uap:FileType>
+              <uap:FileType>.JP2</uap:FileType>
+              <uap:FileType>.JPX</uap:FileType>
+              <uap:FileType>.J2K</uap:FileType>
+              <uap:FileType>.JPF</uap:FileType>
+              <uap:FileType>.JPM</uap:FileType>
+              <uap:FileType>.MJ2</uap:FileType>
+              <uap:FileType>.JFIF</uap:FileType>
+              <uap:FileType>.GIF</uap:FileType>
+              <uap:FileType>.TIF</uap:FileType>
+              <uap:FileType>.TIFF</uap:FileType>
+              <uap:FileType>.BMP</uap:FileType>
+              <uap:FileType>.MOV</uap:FileType>
+              <uap:FileType>.M4V</uap:FileType>
+              <uap:FileType>.MP4</uap:FileType>
+              <uap:FileType>.MPG</uap:FileType>
+              <uap:FileType>.MPEG</uap:FileType>
+              <uap:FileType>.AVI</uap:FileType>
+              <uap:FileType>.3GP</uap:FileType>
+              <uap:FileType>.WMV</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap:ShareTarget>
+        </uap:Extension>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="iCloud\iCloudPhotos.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="iCloudPhotos-AppX.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+        <desktop:Extension Category="windows.startupTask" Executable="iCloud\iCloudPhotos.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask TaskId="iCloudPhotosStartupTask" Enabled="false" DisplayName="ms-resource:iCloudPhotosDisplayName" />
+        </desktop:Extension>
+        <!-- CloudFiles support. -->
+        <desktop3:Extension Category="windows.cloudFiles" Executable="iCloud\iCloudPhotos.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop3:CloudFiles IconResource="Photos\Wide310x150Logo.png">
+            <desktop3:CustomStateHandler Clsid="CD42CDE5-55BB-4B7F-BAB9-846E7193689E" />
+            <desktop3:ThumbnailProviderHandler Clsid="E8784411-23CA-4783-AA3D-060EAB307FE5" />
+            <desktop3:ExtendedPropertyHandler Clsid="20000000-0000-0000-0000-000000000003" />
+            <desktop3:BannersHandler Clsid="20000000-0000-0000-0000-000000000003" />
+            <desktop3:CloudFilesContextMenus>
+              <desktop3:Verb Id="iCloudPhotosSharing" Clsid="1454BEE1-EC6D-4D38-BCFD-1DA1F91BA46E" />
+            </desktop3:CloudFilesContextMenus>
+          </desktop3:CloudFiles>
+        </desktop3:Extension>
+        <!-- iCloud Photos thumbnail handler -->
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            <com:ExeServer Executable="iCloud\iCloudPhotos.exe" DisplayName="iCloud Photos COM Server">
+              <com:Class Id="E8784411-23CA-4783-AA3D-060EAB307FE5" DisplayName="iCloud Photos Thumbnail Handler" />
+              <com:Class Id="CD42CDE5-55BB-4B7F-BAB9-846E7193689E" DisplayName="iCloud Photos Custom State Handler" />
+              <com:Class Id="1454BEE1-EC6D-4D38-BCFD-1DA1F91BA46E" DisplayName="iCloud Photos Context Menu Handler" />
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="ApplePhotoStreams" Executable="iCloud\ApplePhotoStreams.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="Apple Shared Photo Streams" Description="Apple Shared Photo Streams" BackgroundColor="transparent" Square150x150Logo="iCloud\Square150x150Logo.png" Square44x44Logo="iCloud\Square44x44Logo.png" AppListEntry="none" />
+      <Extensions>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="iCloud\ApplePhotoStreams.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="ApplePhotoStreams-AppX.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+        <desktop:Extension Category="windows.startupTask" Executable="iCloud\ApplePhotoStreams.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask TaskId="iCloudPhotoStreamsStartupTask" Enabled="false" DisplayName="ms-resource:iCloudPhotoStreamsDisplayName" />
+        </desktop:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="iCloudCKKS" Executable="iCloud\iCloudCKKS.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:iCloudCKKSDisplayName" Description="iCloud Keychain" BackgroundColor="transparent" Square150x150Logo="iCloud\Square150x150Logo.png" Square44x44Logo="iCloud\Square44x44Logo.png" AppListEntry="none" />
+      <Extensions>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="iCloud\iCloudCKKS.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="iCloudCKKS-AppX.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+        <desktop:Extension Category="windows.startupTask" Executable="iCloud\iCloudCKKS.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask Ta

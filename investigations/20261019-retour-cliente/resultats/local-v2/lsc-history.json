@@ -1,0 +1,104 @@
+{
+  "activeTime_snapshot": [
+    {
+      "device_sha256": "7bf3ca23227188be96527a8731274dd6575c07808b6cd01bd985c3c5b8b9a1c9",
+      "key": "activeTimeKey",
+      "raw": 1688998579.0,
+      "unix_hypothesis_utc": "2023-07-10T14:16:19+00:00",
+      "limit": "Sémantique et écriture historique non établies; pas date de reset prouvée."
+    },
+    {
+      "device_sha256": "6580568f6417466198414562830a8c44e0d77780997a9d3d7c4a880bb319e07e",
+      "key": "activeTimeKey",
+      "raw": 1692995813.0,
+      "unix_hypothesis_utc": "2023-08-25T20:36:53+00:00",
+      "limit": "Sémantique et écriture historique non établies; pas date de reset prouvée."
+    },
+    {
+      "device_sha256": "63ccb5018f1567ab6096a0e7f57c3e253f79c300619c6efb5d30c62404764d34",
+      "key": "activeTimeKey",
+      "raw": 1687271769.0,
+      "unix_hypothesis_utc": "2023-06-20T14:36:09+00:00",
+      "limit": "Sémantique et écriture historique non établies; pas date de reset prouvée."
+    },
+    {
+      "device_sha256": "9a5de3fda92d3299c33cb78e1dbaec1c073513a9faf8df7c50a30ffd2c76e05b",
+      "key": "activeTimeKey",
+      "raw": 1701536875.0,
+      "unix_hypothesis_utc": "2023-12-02T17:07:55+00:00",
+      "limit": "Sémantique et écriture historique non établies; pas date de reset prouvée."
+    },
+    {
+      "device_sha256": "d423269eb819ac0815ebd39e9bb8bbf015a45b0993a8090111116e63468ff5b0",
+      "key": "activeTimeKey",
+      "raw": 1692995103.0,
+      "unix_hypothesis_utc": "2023-08-25T20:25:03+00:00",
+      "limit": "Sémantique et écriture historique non établies; pas date de reset prouvée."
+    }
+  ],
+  "metrics": [
+    {
+      "source": "Documents/metric.json",
+      "begin": "2025-08-10 00:00:00",
+      "end": "2025-08-11 00:00:00",
+      "keys": [
+        "locationActivityMetrics",
+        "cellularConditionMetrics",
+        "metaData",
+        "memoryMetrics",
+        "gpuMetrics",
+        "signpostMetrics",
+        "displayMetrics",
+        "cpuMetrics",
+        "networkTransferMetrics",
+        "diskIOMetrics",
+        "applicationTimeMetrics",
+        "timeStampEnd",
+        "appVersion",
+        "timeStampBegin"
+      ]
+    },
+    {
+      "source": "Documents/diagnostic.json",
+      "begin": "2025-05-16 02:47:00",
+      "end": "2025-05-16 02:47:00",
+      "keys": [
+        "timeStampEnd",
+        "timeStampBegin",
+        "crashDiagnostics"
+      ]
+    }
+  ],
+  "home_opaque": [
+    {
+      "source": "Documents/home/detailv1",
+      "size": 186272,
+      "sqlite_signature": false,
+      "plist_signature": false,
+      "limit": "Format non décodé; pas d’historique de partages reconstitué."
+    },
+    {
+      "source": "Documents/home/list313",
+      "size": 1120,
+      "sqlite_signature": false,
+      "plist_signature": false,
+      "limit": "Format non décodé; pas d’historique de partages reconstitué."
+    }
+  ],
+  "catalogue_count": 18,
+  "catalogue_dates": [
+    "2023-08-24",
+    "2023-11-04",
+    "2023-11-15",
+    "2023-12-03",
+    "2024-04-09",
+    "2024-06-02",
+    "2024-07-26",
+    "2024-09-30",
+    "2024-11-29",
+    "2025-04-23",
+    "2025-05-10",
+    "2025-05-22"
+  ],
+  "limits": "Valeurs d’état, références de médias et diagnostics ne constituent pas un journal complet des connexions ou partages."
+}

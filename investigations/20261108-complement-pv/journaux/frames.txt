@@ -1,0 +1,5 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5ec16c774f40] wrong sample count
+[mjpeg @ 0x5ec16c7ec480] bitrate tolerance 4000000 too small for bitrate 200000, overriding
+[h264 @ 0x5ec16c93bc40] left block unavailable for requested intra mode
+[h264 @ 0x5ec16c93bc40] error while decoding MB 0 16, bytestream 18582
+[vist#0:1/h264 @ 0x5ec16c779080] [dec:h264 @ 0x5ec16c7d6a40] corrupt decoded frame

@@ -1,0 +1,26 @@
+{
+  "inode": "1551",
+  "path": "CAMERA TERRASSE/.record_tmp/20241112_234855_10.mp4.stbl",
+  "size": 24824,
+  "deleted": false,
+  "start_cluster": 1244788,
+  "method": "lecture chaîne FAT active",
+  "read_size": 24824,
+  "sha256": "6757fabc89effdc8e90bdfbc3d537586a67b559e64df2a35f2b76150d937a1f0",
+  "allocated_chain_clusters": 2,
+  "artifact": "prive/extraits/1551_20241112_234855_10.mp4.stbl",
+  "icat_crosscheck": {
+    "argv": [
+      "icat",
+      "-o",
+      "8192",
+      "/mnt/ewf-sd02/ewf1",
+      "1551"
+    ],
+    "returncode": 0,
+    "bytes": 24824,
+    "sha256": "6757fabc89effdc8e90bdfbc3d537586a67b559e64df2a35f2b76150d937a1f0",
+    "matches": true,
+    "stderr": ""
+  }
+}

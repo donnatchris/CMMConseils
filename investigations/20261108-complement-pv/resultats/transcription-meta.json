@@ -1,0 +1,11 @@
+{
+  "model": "small",
+  "engine": "faster-whisper",
+  "language": "fr",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "segments": 0,
+  "audio_sha256": "8d7db003e0f04504d6cd10799bf2203f664c9dada812820548c156bd5eee8436",
+  "duration": 277.76,
+  "status": "automatic_unverified_not_a_verbatim_transcript"
+}

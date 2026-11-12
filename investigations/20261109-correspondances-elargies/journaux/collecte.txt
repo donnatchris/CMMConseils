@@ -1,0 +1,43 @@
+TARGET       SOURCE                        FSTYPE OPTIONS
+/mnt/windows /mnt/dislocker/dislocker-file fuse   ro,relatime,user_id=0,group_id=0,allow_other
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/email/_header_value_parser.py", line 2079, in get_msg_id
+    token, value = get_dot_atom_text(value)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/email/_header_value_parser.py", line 1344, in get_dot_atom_text
+    raise errors.HeaderParseError("expected atom at a start of "
+email.errors.HeaderParseError: expected atom at a start of dot-atom-text but found '[1a4f40b5944543198e7e7a30999163d5-JFBVALKQOJXWILKCJQZFA7CDIRXECRLNMFUWYUDMMF2GM33SNV6EGRDOIF6EK6DPKNWXI4A=@microsoft.com]>'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/shared/codeProjects/CMMConseils/investigations/20261109-correspondances-elargies/scripts/collecter.py", line 35, in <module>
+    for i,m in enumerate(mb,1):msg(m,str(p),i)
+                               ^^^^^^^^^^^^^^^
+  File "/media/shared/codeProjects/CMMConseils/investigations/20261109-correspondances-elargies/scripts/collecter.py", line 31, in msg
+    row={'id':key,'source':src,'index':idx,'headers':{k:str(m.get(k,'')) for k in fields},'text':'\n'.join(body),'attachments':ats};msgs.write(json.dumps(row,ensure_ascii=False)+'\n')
+                                                            ^^^^^^^^^^^
+  File "/usr/lib/python3.12/email/message.py", line 503, in get
+    return self.policy.header_fetch_parse(k, v)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/email/policy.py", line 163, in header_fetch_parse
+    return self.header_factory(name, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/email/headerregistry.py", line 604, in __call__
+    return self[name](name, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/email/headerregistry.py", line 192, in __new__
+    cls.parse(value, kwds)
+  File "/usr/lib/python3.12/email/headerregistry.py", line 532, in parse
+    kwds['parse_tree'] = parse_tree = cls.value_parser(value)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/email/_header_value_parser.py", line 2136, in parse_message_id
+    token, value = get_msg_id(value)
+                   ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/email/_header_value_parser.py", line 2083, in get_msg_id
+    token, value = get_obs_local_part(value)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/email/_header_value_parser.py", line 1526, in get_obs_local_part
+    if (obs_local_part[0].token_type == 'dot' or
+        ~~~~~~~~~~~~~~^^^
+IndexError: list index out of range

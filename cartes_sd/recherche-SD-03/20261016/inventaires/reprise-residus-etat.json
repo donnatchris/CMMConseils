@@ -1,0 +1,14 @@
+{
+  "original_transfer_exitcode": 143,
+  "verified_existing_count": 5311,
+  "incomplete": [
+    {
+      "cluster": 694483,
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "preserved_as": "prive/residus-incomplets/694483.bin"
+    }
+  ],
+  "remaining": 6266,
+  "reason": "Transfert interrompu sans message stderr ; cause non établie. Résultats partiels non utilisés comme inventaire complet."
+}

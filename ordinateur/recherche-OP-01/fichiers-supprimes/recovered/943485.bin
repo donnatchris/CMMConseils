@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved.">
+  <assemblyIdentity name="Microsoft-Windows-MSMQ-Client-Package" version="10.0.22621.3374" processorArchitecture="amd64" language="fi-FI" buildType="release" publicKeyToken="31bf3856ad364e35" />
+  <package identifier="Microsoft-Windows-MSMQ-Client-fi-FI" releaseType="Language Pack">
+    <parent disposition="detect">
+      <assemblyIdentity name="Microsoft-Windows-MSMQ-Client-Package" version="10.0.22621.3374" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" />
+    </parent>
+    <update name="MSMQ-Container" displayName="MSMQ-palvelin" description="MSMQ (Microsoft Message Queue) -palvelin."></update>
+    <update name="MSMQ-DCOMProxy" displayName="MSMQ DCOM -välityspalvelin" description="DCOM-välityspalvelinominaisuuden avulla MSMQ-sovellukset voivat käyttää MSMQ DCOM -rajapintaa yhteyden muodostamisessa MSMQ-etäpalvelimeen.">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-msmq-dcomproxy-Opt-Package" version="10.0.22621.1" processorArchitecture="amd64" language="fi-FI" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="MSMQ-Server" displayName="MSMQ Server Core" description="Tämä toiminto asentaa MSMQ-ydinkomponentit, joiden avulla voidaan suorittaa Message Queuing -perustoimintoja. Siihen sisältyvät kaikki välttämättömimmät ominaisuudet.">
+      <package contained="false" integrate="hidden">
+        <assemblyIdentity name="Microsoft-Windows-msmq-server-Opt-Package" version="10.0.22621.1" processorArchitecture="amd64" language="fi-FI" buildType="release" publicKeyToken="31bf3856ad364e35" />
+      </package>
+    </update>
+    <update name="Microsoft-Windows-COM-MSMQ-package">
+      <package contain

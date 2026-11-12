@@ -1,0 +1,435 @@
+{
+  "inode": "527388708",
+  "path": "CAMERA SALON/record/20240713/20240713_002759_10_0033.mp4",
+  "size": 3923385,
+  "deleted": false,
+  "start_cluster": 1032333,
+  "method": "lecture chaîne FAT active",
+  "read_size": 3923385,
+  "sha256": "7e8abc4f1b800e7c8e7aba49bfd771688958642fdae3f1d5916773d9f1c56690",
+  "allocated_chain_clusters": 240,
+  "prefix_bytes": 16384,
+  "prefix_sha256": "14d8fe646dcf77e162d293dfc757fe00709834372fd4dd5b950d98000659d830",
+  "mp4_structure": {
+    "size": 3923385,
+    "boxes": [
+      {
+        "path": "/ftyp",
+        "offset": 0,
+        "size": 28
+      },
+      {
+        "path": "/mdat",
+        "offset": 28,
+        "size": 3913855
+      },
+      {
+        "path": "/moov",
+        "offset": 3913883,
+        "size": 9502
+      },
+      {
+        "path": "/moov/mvhd",
+        "offset": 3913891,
+        "size": 108,
+        "creation_raw": 2082844800,
+        "modification_raw": 2082844800
+      },
+      {
+        "path": "/moov/trak",
+        "offset": 3913999,
+        "size": 1653
+      },
+      {
+        "path": "/moov/trak/tkhd",
+        "offset": 3914007,
+        "size": 92,
+        "creation_raw": 2082844800,
+        "modification_raw": 2082844800
+      },
+      {
+        "path": "/moov/trak/mdia",
+        "offset": 3914099,
+        "size": 1553
+      },
+      {
+        "path": "/moov/trak/mdia/mdhd",
+        "offset": 3914107,
+        "size": 32,
+        "creation_raw": 2082844800,
+        "modification_raw": 2082844800
+      },
+      {
+        "path": "/moov/trak/mdia/hdlr",
+        "offset": 3914139,
+        "size": 33
+      },
+      {
+        "path": "/moov/trak/mdia/minf",
+        "offset": 3914172,
+        "size": 1480
+      },
+      {
+        "path": "/moov/trak/mdia/minf/smhd",
+        "offset": 3914180,
+        "size": 16
+      },
+      {
+        "path": "/moov/trak/mdia/minf/dinf",
+        "offset": 3914196,
+        "size": 36
+      },
+      {
+        "path": "/moov/trak/mdia/minf/dinf/dref",
+        "offset": 3914204,
+        "size": 28
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl",
+        "offset": 3914232,
+        "size": 1420
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl/stsd",
+        "offset": 3914240,
+        "size": 100
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl/stts",
+        "offset": 3914340,
+        "size": 24,
+        "entry_count": 1,
+        "total_samples": 265,
+        "sum_ticks": 271360
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl/stsc",
+        "offset": 3914364,
+        "size": 40
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl/stsz",
+        "offset": 3914404,
+        "size": 1080,
+        "sample_count": 265,
+        "uniform_size": 0,
+        "sum_sample_bytes": 67840
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl/stco",
+        "offset": 3915484,
+        "size": 168,
+        "entry_count": 38,
+        "min_offset": 125526,
+        "max_offset": 3912347,
+        "offsets_outside_file": 0
+      },
+      {
+        "path": "/moov/trak",
+        "offset": 3915652,
+        "size": 7733
+      },
+      {
+        "path": "/moov/trak/tkhd",
+        "offset": 3915660,
+        "size": 92,
+        "creation_raw": 2082844800,
+        "modification_raw": 2082844800
+      },
+      {
+        "path": "/moov/trak/mdia",
+        "offset": 3915752,
+        "size": 7633
+      },
+      {
+        "path": "/moov/trak/mdia/mdhd",
+        "offset": 3915760,
+        "size": 32,
+        "creation_raw": 2082844800,
+        "modification_raw": 2082844800
+      },
+      {
+        "path": "/moov/trak/mdia/hdlr",
+        "offset": 3915792,
+        "size": 33
+      },
+      {
+        "path": "/moov/trak/mdia/minf",
+        "offset": 3915825,
+        "size": 7560
+      },
+      {
+        "path": "/moov/trak/mdia/minf/vmhd",
+        "offset": 3915833,
+        "size": 20
+      },
+      {
+        "path": "/moov/trak/mdia/minf/dinf",
+        "offset": 3915853,
+        "size": 36
+      },
+      {
+        "path": "/moov/trak/mdia/minf/dinf/dref",
+        "offset": 3915861,
+        "size": 28
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl",
+        "offset": 3915889,
+        "size": 7496
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl/stsd",
+        "offset": 3915897,
+        "size": 160
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl/stts",
+        "offset": 3916057,
+        "size": 3008,
+        "entry_count": 374,
+        "total_samples": 484,
+        "sum_ticks": 33882
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl/stss",
+        "offset": 3919065,
+        "size": 1952
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl/stsc",
+        "offset": 3921017,
+        "size": 244
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl/stsz",
+        "offset": 3921261,
+        "size": 1956,
+        "sample_count": 484,
+        "uniform_size": 0,
+        "sum_sample_bytes": 3846007
+      },
+      {
+        "path": "/moov/trak/mdia/minf/stbl/stco",
+        "offset": 3923217,
+        "size": 168,
+        "entry_count": 38,
+        "min_offset": 36,
+        "max_offset": 3805276,
+        "offsets_outside_file": 0
+      }
+    ],
+    "errors": [],
+    "tracks": [
+      {
+        "stsz_sample_count": 265,
+        "stts_sample_count": 265,
+        "chunk_sample_count": 265,
+        "max_chunk_end": 3913883,
+        "chunks_beyond_eof": []
+      },
+      {
+        "stsz_sample_count": 484,
+        "stts_sample_count": 484,
+        "chunk_sample_count": 484,
+        "max_chunk_end": 3912347,
+        "chunks_beyond_eof": []
+      }
+    ]
+  },
+  "stsd": [
+    {
+      "size": 100,
+      "sha256": "213b1835be0042c92d0bfec261e63c0d961cfb79e05ad27088ecd0e20bd678b9"
+    },
+    {
+      "size": 160,
+      "sha256": "53174a7427c69d2fd117c75bdaa506f9dce6bdedf4c1f77392c98e8f3fa1051c"
+    }
+  ],
+  "ffprobe": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_format",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 0,
+    "stderr": ""
+  },
+  "metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "8000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x1",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/8000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 271360,
+        "duration": "33.920000",
+        "bit_rate": "16000",
+        "nb_frames": "265",
+        "extradata_size": 2,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "creation_time": "1970-01-01T00:00:00.000000Z",
+          "language": "eng",
+          "vendor_id": "[0][0][0][0]"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "Main",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 50,
+        "color_range": "tv",
+        "color_space": "bt470bg",
+        "color_transfer": "bt470bg",
+        "color_primaries": "bt470bg",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x2",
+        "r_frame_rate": "343/12",
+        "avg_frame_rate": "242000/16941",
+        "time_base": "1/1000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 33812,
+        "duration": "33.812000",
+        "bit_rate": "909974",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "484",
+        "extradata_size": 50,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "creation_time": "1970-01-01T00:00:00.000000Z",
+          "language": "eng",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/proc/self/fd/4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "33.920000",
+      "size": "3923385",
+      "bit_rate": "925326",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "3gp5",
+        "minor_version": "0",
+        "compatible_brands": "3gp53gp4isom",
+        "creation_time": "1970-01-01T00:00:00.000000Z"
+      }
+    }
+  },
+  "packets": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "summary": {
+      "dts": {
+        "count": 484,
+        "nonincreasing": 0,
+        "max_delta": 75,
+        "min_delta": 65
+      },
+      "pts": {
+        "count": 484,
+        "nonincreasing": 0,
+        "max_delta": 75,
+        "min_delta": 65
+      }
+    },
+    "raw_output_sha256": "b8ca57ea62a467831cca37f8f4e2bc3d7a33d7a454db51f5402f74946dba2de4"
+  }
+}

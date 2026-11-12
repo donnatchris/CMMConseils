@@ -1,0 +1,323 @@
+[
+  {
+    "path": "Users/fintm/AppData/Local/Microsoft/OneDrive/settings/CxP.db",
+    "tables": [
+      {
+        "table": "__oddbm_schema",
+        "schema": "CREATE TABLE __oddbm_schema (name TEXT PRIMARY KEY, value INTEGER UNIQUE) WITHOUT ROWID",
+        "count": 1,
+        "target_rows": []
+      },
+      {
+        "table": "cxp_state",
+        "schema": "CREATE TABLE cxp_state ( id    INTEGER NOT NULL, cxp_name TEXT NOT NULL, cxp_token TEXT NOT NULL, start_time NUMERIC NOT NULL, extra_data TEXT, archived INTEGER DEFAULT 0 NOT NULL, PRIMARY KEY(\"id\" AUTOINCREMENT), UNIQUE(cxp_name, cxp_token) )",
+        "count": 11,
+        "target_rows": []
+      },
+      {
+        "table": "sqlite_sequence",
+        "schema": "CREATE TABLE sqlite_sequence(name,seq)",
+        "count": 1,
+        "target_rows": []
+      }
+    ]
+  },
+  {
+    "path": "Users/fintm/AppData/Local/Microsoft/OneDrive/settings/FileSyncFSCache.db",
+    "tables": [
+      {
+        "table": "__oddbm_schema",
+        "schema": "CREATE TABLE __oddbm_schema (name TEXT PRIMARY KEY, value INTEGER UNIQUE) WITHOUT ROWID",
+        "count": 1,
+        "target_rows": []
+      },
+      {
+        "table": "filesyncfs_cache",
+        "schema": "CREATE TABLE filesyncfs_cache ( id INTEGER NOT NULL, vnhigh NUMERIC NOT NULL, vnlow NUMERIC NOT NULL, name TEXT NOT NULL, type INTEGER NOT NULL, value BLOB, ttl NUMERIC NOT NULL, PRIMARY KEY(\"id\" AUTOINCREMENT), UNIQUE(vnhigh, vnlow, name) )",
+        "count": 0,
+        "target_rows": []
+      },
+      {
+        "table": "sqlite_sequence",
+        "schema": "CREATE TABLE sqlite_sequence(name,seq)",
+        "count": 0,
+        "target_rows": []
+      }
+    ]
+  },
+  {
+    "path": "Users/fintm/AppData/Local/Microsoft/OneDrive/settings/Personal/CxP.db",
+    "tables": [
+      {
+        "table": "__oddbm_schema",
+        "schema": "CREATE TABLE __oddbm_schema (name TEXT PRIMARY KEY, value INTEGER UNIQUE) WITHOUT ROWID",
+        "count": 1,
+        "target_rows": []
+      },
+      {
+        "table": "cxp_state",
+        "schema": "CREATE TABLE cxp_state ( id    INTEGER NOT NULL, cxp_name TEXT NOT NULL, cxp_token TEXT NOT NULL, start_time NUMERIC NOT NULL, extra_data TEXT, archived INTEGER DEFAULT 0 NOT NULL, PRIMARY KEY(\"id\" AUTOINCREMENT), UNIQUE(cxp_name, cxp_token) )",
+        "count": 5,
+        "target_rows": []
+      },
+      {
+        "table": "sqlite_sequence",
+        "schema": "CREATE TABLE sqlite_sequence(name,seq)",
+        "count": 1,
+        "target_rows": []
+      }
+    ]
+  },
+  {
+    "path": "Users/fintm/AppData/Local/Microsoft/OneDrive/settings/Personal/KFM.db",
+    "tables": [
+      {
+        "table": "__oddbm_schema",
+        "schema": "CREATE TABLE __oddbm_schema (name TEXT PRIMARY KEY, value INTEGER UNIQUE) WITHOUT ROWID",
+        "count": 1,
+        "target_rows": []
+      },
+      {
+        "table": "throttled_kfm_paths",
+        "schema": "CREATE TABLE throttled_kfm_paths ( path TEXT PRIMARY KEY NOT NULL COLLATE NOCASE , timeAdded INTEGER NOT NULL DEFAULT 0)",
+        "count": 0,
+        "target_rows": []
+      }
+    ]
+  },
+  {
+    "path": "Users/fintm/AppData/Local/Microsoft/OneDrive/settings/Personal/SyncEngineDatabase.db",
+    "tables": [
+      {
+        "table": "__oddbm_schema",
+        "schema": "CREATE TABLE __oddbm_schema (name TEXT PRIMARY KEY, value INTEGER UNIQUE) WITHOUT ROWID",
+        "count": 1,
+        "target_rows": []
+      },
+      {
+        "table": "odc_convergence_items",
+        "schema": "CREATE TABLE odc_convergence_items ( resourceID TEXT PRIMARY KEY NOT NULL COLLATE NOCASE, parentResourceID TEXT NOT NULL COLLATE NOCASE, volumeID INTEGER NOT NULL, itemIndex INTEGER NOT NULL, name TEXT NOT NULL COLLATE NOCASE, itemStatus INTEGER NOT NULL, isFolder INTEGER NOT NULL, size INTEGER, modifiedTime INTEGER NOT NULL, hashDigest BLOB, hashAlgorithm INTEGER, hashDescriptor INTEGER, receivedPostMigration INTEGER , etag TEXT, scopeID TEXT, scopeType INTEGER, spoResourceID_deprecated TEXT DEFAULT \"\", spoScopeID_deprecated TEXT DEFAULT \"\", spoParentResourceID_deprecated TEXT DEFAULT \"\", spoResourceID TEXT COLLATE NOCASE DEFAULT \"\", spoScopeID TEXT COLLATE NOCASE DEFAULT \"\", spoParentResourceID TEXT COLLATE NOCASE DEFAULT \"\") WITHOUT ROWID",
+        "count": 1411,
+        "target_rows": []
+      },
+      {
+        "table": "od_SelectiveSync_Records",
+        "schema": "CREATE TABLE od_SelectiveSync_Records ( resourceID TEXT PRIMARY KEY NOT NULL COLLATE NOCASE CHECK (length(resourceID) > 0), rootFolderID TEXT NOT NULL COLLATE NOCASE, syncState INTEGER NOT NULL, syncChildrenFiles INTEGER ) WITHOUT ROWID",
+        "count": 0,
+        "target_rows": []
+      },
+      {
+        "table": "od_ScopeInfo_Records",
+        "schema": "CREATE TABLE od_ScopeInfo_Records ( scopeID TEXT PRIMARY KEY NOT NULL COLLATE NOCASE CHECK (length(scopeID) > 0), flags INTEGER NOT NULL, scopeType INTEGER NOT NULL, resyncStatus INTEGER, resyncScheduled INTEGER, syncTokenData BLOB, selectiveSyncEnabled INTEGER, syncRootFiles INTEGER, sourceResourceID TEXT COLLATE NOCASE, cid TEXT COLLATE NOCASE, scopeSequentialID INTEGER, shortcutVolumeID INTEGER, shortcutItemIndex INTEGER, siteID TEXT COLLATE NOCASE, webID TEXT COLLATE NOCASE, listID TEXT COLLATE NOCASE, resyncFolderID TEXT COLLATE NOCASE, libraryType INTEGER, spoPermissions INTEGER, checkedOutState INTEGER, resyncRestrictions INTEGER, libraryIrmPolicyState INTEGER , webURL TEXT, tenantID TEXT, remotePath TEXT, lastResyncVersion INTEGER, lastProcessedChange TEXT DEFAULT NULL, lastKnownFolderPath TEXT DEFAULT NULL) WITHOUT ROWID",
+        "count": 2,
+        "target_rows": []
+      },
+      {
+        "table": "od_ClientFile_Records",
+        "schema": "CREATE TABLE od_ClientFile_Records ( resourceID TEXT PRIMARY KEY NOT NULL COLLATE NOCASE CHECK (length(resourceID) > 0), parentResourceID TEXT NOT NULL COLLATE NOCASE, eTag TEXT NOT NULL COLLATE NOCASE, fileName TEXT NOT NULL COLLATE NOCASE, resyncState INTEGER, volumeID INTEGER, itemIndex INTEGER, lastChange INTEGER, size INTEGER, fileStatus INTEGER, spoPermissions INTEGER, checkedOutState INTEGER, serverSize INTEGER, serverLastChange INTEGER, mediaDateTaken INTEGER, mediaWidth INTEGER, mediaHeight INTEGER, mediaDuration INTEGER, holdStateBegin INTEGER, holdStateReason INTEGER, holdStateResolution INTEGER, locallyDeleted INTEGER, isOneNoteShortcut INTEGER, reuploadNeeded INTEGER, matchesMissingVersion INTEGER, serverFileIsNewerThanLocalFile INTEGER, serverDeleted INTEGER, irmEncrypted INTEGER, irmDecryptableByClient INTEGER, irmDecryptableByServer INTEGER, coAuthOcsi INTEGER, ocsiModified INTEGER, lastModifiedViaOcsi INTEGER, lastMovedViaOcsi INTEGER, needsContentCheck INTEGER, linkifiedShortcut INTEGER, webBasedFile INTEGER, mediaFileMetadataUpToDate INTEGER, cfAlwaysFullFlagAttempted INTEGER, oneNoteFixupRequired INTEGER, sharedItem INTEGER, subScope INTEGER, localHashDigest BLOB, localHashAlgorithm INTEGER, localHashDescriptor INTEGER, serverHashDigest BLOB, serverHashAlgorithm INTEGER, serverHashDescriptor INTEGER, irmEnabled INTEGER, irmPolicyState INTEGER, irmEncryptedFileSize INTEGER, irmHashDigest BLOB, irmHashAlgorithm INTEGER, irmHashDescriptor INTEGER, localWriteValidationToken BLOB, localWaterlineData BLOB, localCobaltHashDigest BLOB, localCobaltHashAlgorithm INTEGER, localCobaltHashDescriptor INTEGER, serverWriteValidationToken BLOB, serverWaterlineData BLOB, serverCobaltHashDigest BLOB, serverCobaltHashAlgorithm INTEGER, serverCobaltHashDescriptor INTEGER, localCLPIsMipDecrypted INTEGER, localCLPLabelHashScope INTEGER, localCLPHashDigest BLOB, localCLPHashAlgorithm INTEGER, localCLPHashDescriptor INTEGER, serverCLPIsMipDecrypted INTEGER, serverCLPLabelHashScope INTEGER, serverCLPHashDigest BLOB, serverCLPHashAlgorithm INTEGER, serverCLPHashDescriptor INTEGER , localProtocolSupport INTEGER, localSyncTokenData BLOB, serverProtocolSupport INTEGER, serverSyncTokenData BLOB, cloudVisibleOnly INTEGER, LinkifiedODCShortcut INTEGER, LinkifiedSPOShortcut INTEGER, CoAuthClockData TEXT, diskLastAccessTime INTEGER, diskCreationTime INTEGER, lastKnownPinState INTEGER, archiveState INTEGER, fixedCidForA2odConsumer INTEGER, archiveTimeLastModified INTEGER) WITHOUT ROWID",
+        "count": 2452,
+        "target_rows": []
+      },
+      {
+        "table": "od_ClientFolder_Records",
+        "schema": "CREATE TABLE od_ClientFolder_Records ( resourceID TEXT PRIMARY KEY NOT NULL COLLATE NOCASE CHECK (length(resourceID) > 0), parentResourceID TEXT NOT NULL COLLATE NOCASE, parentScopeID TEXT NOT NULL COLLATE NOCASE, eTag TEXT NOT NULL COLLATE NOCASE, folderName TEXT NOT NULL COLLATE NOCASE, resyncState INTEGER, volumeID INTEGER, itemIndex INTEGER, folderStatus INTEGER, syncChildrenFiles INTEGER, locallyDeleted INTEGER, serverDeleted INTEGER, jumpLinkType INTEGER, spoPermissions INTEGER, checkedOutState INTEGER, oneNoteDetectionPending INTEGER, sharedItem INTEGER, subScope INTEGER , teamsChannelFolder INTEGER, cloudVisibleOnly INTEGER, folderColor INTEGER, localFolderColor INTEGER, fixedCidForA2odConsumer INTEGER, shortcutsFolder INTEGER) WITHOUT ROWID",
+        "count": 80,
+        "target_rows": []
+      },
+      {
+        "table": "od_ClientFilePostponedChange_Records",
+        "schema": "CREATE TABLE od_ClientFilePostponedChange_Records ( persistenceID INTEGER PRIMARY KEY NOT NULL, sequenceID INTEGER NOT NULL, resourceID TEXT NOT NULL COLLATE NOCASE, parentResourceID TEXT NOT NULL COLLATE NOCASE, parentScopeID TEXT NOT NULL COLLATE NOCASE, eTag TEXT NOT NULL COLLATE NOCASE, changeType INTEGER, postponedCount INTEGER, flags INTEGER, fileName TEXT, sourceResourceID TEXT COLLATE NOCASE, lastChange INTEGER, size INTEGER, isLocalChange INTEGER, isOneNote INTEGER, reuploadNeeded INTEGER, createStubFile INTEGER, itemSharingStatus INTEGER, timeAdded INTEGER, spoPermissions INTEGER, checkedOutState INTEGER, irmEnabled INTEGER, irmPolicyState INTEGER, mediaDateTaken INTEGER, mediaWidth INTEGER, mediaHeight INTEGER, mediaDuration INTEGER, hashDigest BLOB, hashAlgorithm INTEGER, hashDescriptor INTEGER, writeValidationToken BLOB, waterlineData BLOB, cobaltHashDigest BLOB, cobaltHashAlgorithm INTEGER, cobaltHashDescriptor INTEGER, clpIsMipDecrypted INTEGER, clpLabelHashScope INTEGER, clpHashDigest BLOB, clpHashAlgorithm INTEGER, clpHashDescriptor INTEGER , protocolSupport INTEGER, syncTokenData BLOB, shouldHardDelete INTEGER, archiveState INTEGER, archiveTimeLastModified INTEGER)",
+        "count": 0,
+        "target_rows": []
+      },
+      {
+        "table": "od_ClientFolderPostponedChange_Records",
+        "schema": "CREATE TABLE od_ClientFolderPostponedChange_Records ( persistenceId INTEGER PRIMARY KEY NOT NULL, sequenceID INTEGER NOT NULL, resourceID TEXT NOT NULL COLLATE NOCASE, parentResourceID TEXT NOT NULL COLLATE NOCASE, parentScopeID TEXT NOT NULL COLLATE NOCASE, eTag TEXT NOT NULL COLLATE NOCASE, changeType INTEGER, postponedCount INTEGER, flags INTEGER, folderName TEXT, sourceResourceID TEXT COLLATE NOCASE, subScopeOwnerResourceID TEXT COLLATE NOCASE, itemSharingStatus INTEGER, isLocalChange INTEGER, jumpLinkType INTEGER, spoPermissions INTEGER, checkedOutState INTEGER , folderColor INTEGER)",
+        "count": 0,
+        "target_rows": []
+      },
+      {
+        "table": "od_MigrateItemPostponedChange_Records",
+        "schema": "CREATE TABLE od_MigrateItemPostponedChange_Records ( persistenceID INTEGER PRIMARY KEY NOT NULL, sequenceID INTEGER NOT NULL, resourceID TEXT NOT NULL COLLATE NOCASE, parentResourceID TEXT NOT NULL COLLATE NOCASE, parentScopeID TEXT NOT NULL COLLATE NOCASE, eTag TEXT NOT NULL COLLATE NOCASE, changeType INTEGER, postponedCount INTEGER, flags INTEGER, itemName TEXT, itemSharingStatus INTEGER, isDelete INTEGER, spoPermissions INTEGER, checkedOutState INTEGER, jumpLinkType INTEGER, lastChange INTEGER, size INTEGER, mediaDateTaken INTEGER, mediaWidth INTEGER, mediaHeight INTEGER, mediaDuration INTEGER, hashDigest BLOB, hashAlgorithm INTEGER, hashDescriptor INTEGER, serverSha1HashDigest BLOB, writeValidationToken BLOB, waterlineData BLOB, cobaltHashDigest BLOB, cobaltHashAlgorithm INTEGER, cobaltHashDescriptor INTEGER, protocolSupport INTEGER, syncTokenData BLOB , forkedItemAtPathOnce BOOLEAN DEFAULT 0)",
+        "count": 0,
+        "target_rows": []
+      },
+      {
+        "table": "od_GraphMetadata_Records",
+        "schema": "CREATE TABLE od_GraphMetadata_Records ( resourceID TEXT PRIMARY KEY NOT NULL COLLATE NOCASE, graphMetadataJSON TEXT NOT NULL, spoCompositeID TEXT NOT NULL, createdBy TEXT NOT NULL, modifiedBy TEXT NOT NULL , filePolicies TEXT, fileExtension TEXT, lastWriteCount INTEGER DEFAULT 0 NOT NULL) WITHOUT ROWID",
+        "count": 2452,
+        "target_rows": []
+      },
+      {
+        "table": "od_GraphMetadata_LastWrite",
+        "schema": "CREATE TABLE od_GraphMetadata_LastWrite (name TEXT primary key, value INTEGER, lastWriteTableId TEXT NOT NULL DEFAULT '')",
+        "count": 1,
+        "target_rows": []
+      },
+      {
+        "table": "odc_Convergence_ScopeInfo_Records",
+        "schema": "CREATE TABLE odc_Convergence_ScopeInfo_Records ( scopeID TEXT PRIMARY KEY NOT NULL COLLATE NOCASE CHECK (length(scopeID) > 0), scopeType INTEGER NOT NULL , spoScopeID_deprecated TEXT DEFAULT \"\", spoScopeID TEXT COLLATE NOCASE DEFAULT \"\") WITHOUT ROWID",
+        "count": 2,
+        "target_rows": []
+      },
+      {
+        "table": "od_HydrationData",
+        "schema": "CREATE TABLE od_HydrationData ( resourceID TEXT PRIMARY KEY NOT NULL COLLATE NOCASE, firstHydrationTime INTEGER NOT NULL , lastHydrationTime INTEGER, hydrationCount INTEGER DEFAULT 1, lastHydrationType TEXT NOT NULL COLLATE NOCASE DEFAULT Active) WITHOUT ROWID",
+        "count": 2335,
+        "target_rows": []
+      },
+      {
+        "table": "od_CreateAddedFolderFailures",
+        "schema": "CREATE TABLE od_CreateAddedFolderFailures ( siteID TEXT NOT NULL COLLATE NOCASE, listID TEXT NOT NULL COLLATE NOCASE, folderID TEXT NOT NULL COLLATE NOCASE, lastSuccessfulSync INTEGER NOT NULL, reason INTEGER, lastFailedAttempt INTEGER, PRIMARY KEY (siteID, listID, folderID) ) WITHOUT ROWID",
+        "count": 0,
+        "target_rows": []
+      },
+      {
+        "table": "od_ArchiveData_Records",
+        "schema": "CREATE TABLE od_ArchiveData_Records ( resourceID TEXT PRIMARY KEY NOT NULL COLLATE NOCASE, fileName TEXT COLLATE NOCASE, lastReportedAccessTime INTEGER NOT NULL, lastReportingTime INTEGER ) WITHOUT ROWID",
+        "count": 0,
+        "target_rows": []
+      },
+      {
+        "table": "od_ThrottleHistory",
+        "schema": "CREATE TABLE od_ThrottleHistory ( startTime INTEGER PRIMARY KEY, duration INTEGER, scenario INTEGER, reason TEXT COLLATE NOCASE, isKFM INTEGER, isOnBackoffList INTEGER ) WITHOUT ROWID",
+        "count": 0,
+        "target_rows": []
+      },
+      {
+        "table": "od_ServiceOperationHistory",
+        "schema": "CREATE TABLE od_ServiceOperationHistory ( id INTEGER PRIMARY KEY AUTOINCREMENT, timestamp INTEGER NOT NULL, scopeId TEXT NOT NULL, operationName TEXT NOT NULL, resultCode INTEGER NOT NULL, sizeInBytes REAL , scenarioName TEXT)",
+        "count": 215,
+        "target_rows": []
+      },
+      {
+        "table": "sqlite_sequence",
+        "schema": "CREATE TABLE sqlite_sequence(name,seq)",
+        "count": 1,
+        "target_rows": []
+      },
+      {
+        "table": "od_IgnoredItem_Records",
+        "schema": "CREATE TABLE od_IgnoredItem_Records (itemIndex INTEGER NOT NULL, volumeID INTEGER NOT NULL, PRIMARY KEY(itemIndex, volumeID))",
+        "count": 24,
+        "target_rows": []
+      },
+      {
+        "table": "od_ClientPolicy_Records",
+        "schema": "CREATE TABLE od_ClientPolicy_Records ( siteID TEXT NOT NULL COLLATE NOCASE, webID TEXT NOT NULL COLLATE NOCASE, listID TEXT NOT NULL COLLATE NOCASE, schemaVersion INTEGER DEFAULT 1, etag TEXT COLLATE NOCASE, lastRefresh INTEGER, lastUpdate INTEGER, lastHash TEXT COLLATE NOCASE, davUrlMatch TEXT COLLATE NOCASE, davUrlTemplate TEXT COLLATE NOCASE, davUrlNamespace TEXT COLLATE NOCASE, davUrlNoCaretTemplate TEXT COLLATE NOCASE, davUrlNoCaretNamespace TEXT COLLATE NOCASE, downloadUrlTemplate TEXT COLLATE NOCASE, shareUrlTemplate TEXT COLLATE NOCASE, shareUrlTemplateV2 TEXT COLLATE NOCASE, wacUrlTemplate TEXT COLLATE NOCASE, viewOnlineUrlTemplate TEXT COLLATE NOCASE, ocdiDavUrlTemplate TEXT COLLATE NOCASE, ocdiDavUrlNamespace TEXT COLLATE NOCASE, ocdiDavUrlMatches TEXT COLLATE NOCASE, policyDocumentPollIntervalSeconds INTEGER, backoffOnErrorsIntervalSeconds INTEGER, policyDocumentPrefetchIntervalSeconds INTEGER, backgroundPollShortIntervalSeconds INTEGER, backgroundPollLongIntervalSeconds INTEGER, documentBackgroundPollIntervalSeconds INTEGER, syncVerificationInterval INTEGER, syncProgressInterval INTEGER, uploadBlockSizeKB INTEGER, downloadBlockSizeKB INTEGER, maxInlineUploadSizeKB INTEGER, encryptionBlockSizeKB INTEGER, maxFileSizeBytes INTEGER, tier1MaxFileSizeBytes INTEGER, cloudSizeLimitForFullSyncInKB INTEGER, uploadBatchMaxDocumentCount INTEGER, uploadBatchMaxFileCommitCount INTEGER, tier1FileInclusionList TEXT COLLATE NOCASE, filenameExclusionList TEXT COLLATE NOCASE, coauthSupportedFileExtensionsList TEXT COLLATE NOCASE, highVisibilityFileExclusionList TEXT COLLATE NOCASE, irmSupportedFileExtensions TEXT COLLATE NOCASE, officeExcludeList TEXT COLLATE NOCASE, highFrequencyBackoffExtensions TEXT COLLATE NOCASE, mediumFrequencyBackoffExtensions TEXT COLLATE NOCASE, lowFrequencyBackoffExtensions TEXT COLLATE NOCASE, coauthMinimumProtocolVersionsV5 TEXT COLLATE NOCASE, coauthAppNameMap TEXT COLLATE NOCASE, coauthIntervalToPostponeLocalChange INTEGER, coauthMaxNumberOfClients INTEGER, coauthWaitTimeOutSeconds INTEGER, skyApiURL TEXT COLLATE NOCASE, rootFolderName TEXT COLLATE NOCASE, skyDriveURI TEXT COLLATE NOCASE, skyDriveItemsURI TEXT COLLATE NOCASE, skyDriveItemsByPathURI TEXT COLLATE NOCASE, skyDriveItemsByPathURIForSubscopes TEXT COLLATE NOCASE, collabVectorClockURI TEXT COLLATE NOCASE, skyDriveFarmUri TEXT COLLATE NOCASE, skyDriveItemsFarmUri TEXT COLLATE NOCASE, skyDriveFarmDirectUri TEXT COLLATE NOCASE, skyDriveItemsFarmDirectUri TEXT COLLATE NOCASE, storageManagementURI TEXT COLLATE NOCASE, recycleBinURI TEXT COLLATE NOCASE, getSignatureUri TEXT COLLATE NOCASE, syncVerificationEnabled INTEGER, isCloudSizeCheckNeededForFullSync INTEGER, fullSyncMaxItemCount INTEGER, incrementalSyncMaxItemCount INTEGER, incrementalSyncMaxItemCountUpperBound INTEGER, syncVerificationMaxItemCount INTEGER, syncVerificationPageSize INTEGER, telemetryId TEXT COLLATE NOCASE, syncTelemetryURL TEXT COLLATE NOCASE, qosCollectionEnabled INTEGER, telemetryItemAlreadyExistsErrorCallbackFrequency INTEGER, telemetryItemAlreadyExistsMinReportingThreshold INTEGER, telemetryItemAlreadyExistsMaxReportingThreshold INTEGER, telemetryDefaultMaxErrorEvents INTEGER, telemetryDefaultErrorCallbackFrequency INTEGER, telemetryDefaultMinReportingThreshold INTEGER, telemetryDefaultMaxReportingThreshold INTEGER, loggingMaxLogFileSizeMB INTEGER, maxLogFilesToKeep INTEGER, logUploadUri TEXT COLLATE NOCASE, logUploadV2Uri TEXT COLLATE NOCASE, maxLogUploadRetries INTEGER, loggingMinTimeBetweenLogUploadsInSeconds INTEGER, logUploadTimeboundDurationDays INTEGER, logUploadRetryTimeSeconds INTEGER, logUploadV2BatchMinSize INTEGER, logUploadV2BatchMaxSize INTEGER, logUploadV2MinSecondsBetweenBatches INTEGER, logUploadV2MaxSecondsBetweenBatches INTEGER, logUploadV2MaxLogsInQueue INTEGER, officeProgID TEXT COLLATE NOCASE, officeRegKey TEXT COLLATE NOCASE, office15MinVersion TEXT COLLATE NOCASE, office16MinVersion TEXT COLLATE NOCASE, irmLibraryId TEXT COLLATE NOCASE, blockSharedFolderSync INTEGER, hashAlgorithm TEXT COLLATE NOCASE, grooveCVR INTEGER, zipItEnabled INTEGER, opcEnabled INTEGER, aipIntegrationEnabled INTEGER, caretEncodingDisabled INTEGER, disableReportProblemDialog INTEGER, maxUploadKBPerSecond INTEGER, maxDownloadKBPerSecond INTEGER, bandwidthAutoManagedRateCheckDuration INTEGER, bandwidthAutoManagedRateCheckInterval INTEGER, bandwidthAutoManagedThrottlePercentage INTEGER, maxClientMBTransferredPerDay INTEGER, maxClientRequestsPerDay INTEGER, numberOfConcurrentStorageRequests INTEGER, deltaDownloadBlockSizeKB INTEGER, deltaUploadBlockSizeKB INTEGER, minSupportDeltaFileSizeKB INTEGER, maxSupportDeltaFileSizeKB INTEGER, maxInlineDeltaUploadSizeKB INTEGER, deltaMaxUnitOfWorkKB INTEGER, deltaMaxUploadBatchFileSizeKB INTEGER, deltaMaxDownloadRangesPerRequest INTEGER, deltaAlgo TEXT COLLATE NOCASE, deltaTypeFilterMax TEXT COLLATE NOCASE, deltaTypeFixedChunk4MBSha1 TEXT COLLATE NOCASE, deltaTypeFixedChunk3MBSha1 TEXT COLLATE NOCASE, deltaTypeZip TEXT COLLATE NOCASE, deltaExtensionAntler TEXT COLLATE NOCASE, deltaExtensionOffice TEXT COLLATE NOCASE, periodicRetryIntervalSeconds INTEGER, periodicRetryMaxIntervalSeconds INTEGER, deferredDownloadRetrySeconds INTEGER, maxHttpRetriesBeforeUnmounting INTEGER, selfHealingBackOffPeriodInSeconds INTEGER, pathChangeSubscriptionScenarioName TEXT COLLATE NOCASE, clientNotificationCoalesceSeconds INTEGER, massDeleteMinFolderCount INTEGER, massDeleteMinFileCount INTEGER, massDeleteMinTotalFilesSizeKB INTEGER, localMassDeleteFileDeleteThreshold INTEGER, downloadStreamingMaxStreamSizeKB INTEGER, uploadStreamingMaxStreamSizeKB INTEGER, syncProgressAuditMaxFilesToShow INTEGER, currentMinimumOneDriveSupportedVersion TEXT COLLATE NOCASE, futureMinimumOneDriveSupportedVersion TEXT COLLATE NOCASE, futureMinimumOneDriveSupportedVersionTimestamp INTEGER, createPersonalVault INTEGER, revisedVaultQuota INTEGER, itemCount INTEGER, autoMountDelayMaxIntervalMinutes INTEGER, rootFarmUrl TEXT COLLATE NOCASE, rootFarmExpressUrl TEXT COLLATE NOCASE, rootTenantUrl TEXT COLLATE NOCASE, scopeBaseUrl TEXT COLLATE NOCASE, downloadForegroundUrl TEXT COLLATE NOCASE, downloadBackgroundUrl TEXT COLLATE NOCASE, inlineUploadForegroundUrl TEXT COLLATE NOCASE, inlineUploadBackgroundUrl TEXT COLLATE NOCASE, streamedUploadForegroundUrl TEXT COLLATE NOCASE, streamedUploadBackgroundUrl TEXT COLLATE NOCASE, downloadUrlFarmTemplate TEXT COLLATE NOCASE, graphDriveId TEXT COLLATE NOCASE, allowWnsSubscriptions INTEGER, wnsAuthAppId TEXT COLLATE NOCASE, wnsAuthAppIdUri TEXT COLLATE NOCASE, wnsEndpoint TEXT COLLATE NOCASE, webPushAppServerPublicKey TEXT COLLATE NOCASE, moiFootprintMetadataCollection TEXT COLLATE NOCASE, moiFootprintOptIn INTEGER, moiFootprintFlightId TEXT COLLATE NOCASE, moiFootprintHeavyTests TEXT COLLATE NOCASE, moiFootprintHeavyTestFrequency INTEGER, moiFootprintLightTestFrequency INTEGER, rampGroup TEXT COLLATE NOCASE, hasSharePointCopilotLicense INTEGER, preferEventualConsistencyReadOnly INTEGER, postponedChangesUIThreshold INTEGER, minNumOfForksBeforeReportInfiniteForkTelemetry INTEGER, maxIntervalSinceLastPotentialForkInSeconds INTEGER, winboxFALMinIntegrationVersion TEXT COLLATE NOCASE, maxUrlLength INTEGER, autoResumeTimersInHours TEXT COLLATE NOCASE, oneRMPollingIntervalHours INTEGER, speedTestMaximumDuration INTEGER, speedTestInterval INTEGER, speedTestRetryInterval INTEGER, speedTestTerminationVariancePercent INTEGER, speedTestMaximumNumberOfThreads INTEGER, speedTestEnablePercentage INTEGER, siteTitle TEXT COLLATE NOCASE, libraryTitle TEXT COLLATE NOCASE, macFALMinIntegrationVersion TEXT COLLATE NOCASE, macFALMinIntegrationVersionProd TEXT COLLATE NOCASE, mpcDavUrlMatches TEXT COLLATE NOCASE, mpcDavUrlTemplate TEXT COLLATE NOCASE, mpcDavUrlNamespace TEXT COLLATE NOCASE, PRIMARY KEY (siteID, webID, listID) ) WITHOUT ROWID",
+        "count": 0,
+        "target_rows": []
+      }
+    ]
+  },
+  {
+    "path": "Users/fintm/AppData/Local/Microsoft/OneDrive/settings/Personal/UXDatabase.db",
+    "tables": [
+      {
+        "table": "__oddbm_schema",
+        "schema": "CREATE TABLE __oddbm_schema (name TEXT PRIMARY KEY, value INTEGER UNIQUE) WITHOUT ROWID",
+        "count": 1,
+        "target_rows": []
+      },
+      {
+        "table": "history_list",
+        "schema": "CREATE TABLE history_list ( FilePath TEXT NOT NULL COLLATE NOCASE, FileName TEXT NOT NULL COLLATE NOCASE, HydratingProcess TEXT, HydratingExe TEXT, ItemType INTEGER NOT NULL, LastUpdatedTimeUTC TIMESTAMP NOT NULL, DiffSyncStatusFlag INTEGER, DiffGramSize BIGINT, IsVaultItem BOOLEAN, ImageFileName TEXT, IsQuantumPlaceholder BOOLEAN, PRIMARY KEY(FilePath))",
+        "count": 36,
+        "target_rows": []
+      }
+    ]
+  },
+  {
+    "path": "Users/fintm/AppData/Local/Microsoft/OneDrive/settings/Personal/SafeDelete.db",
+    "tables": [
+      {
+        "table": "__oddbm_schema",
+        "schema": "CREATE TABLE __oddbm_schema (name TEXT PRIMARY KEY, value INTEGER UNIQUE) WITHOUT ROWID",
+        "count": 1,
+        "target_rows": []
+      },
+      {
+        "table": "filter_delete_info",
+        "schema": "CREATE TABLE filter_delete_info (fileId INTEGER NOT NULL, volumeId INTEGER DEFAULT 0 NOT NULL, notificationTime INTEGER NOT NULL, path TEXT DEFAULT \"\" COLLATE NOCASE, process TEXT DEFAULT \"\" COLLATE NOCASE, PRIMARY KEY(fileId, volumeId))",
+        "count": 2,
+        "target_rows": []
+      },
+      {
+        "table": "deletes_last_touched_by_sync_engine",
+        "schema": "CREATE TABLE deletes_last_touched_by_sync_engine (resourceId TEXT NOT NULL COLLATE NOCASE, notificationTime INTEGER NOT NULL, isKFMOptOut BOOLEAN NOT NULL DEFAULT 0, PRIMARY KEY(resourceId))",
+        "count": 2,
+        "target_rows": []
+      },
+      {
+        "table": "unvalidated_deletes_displayed_in_ux",
+        "schema": "CREATE TABLE unvalidated_deletes_displayed_in_ux ( resourceId TEXT NOT NULL COLLATE NOCASE, path TEXT DEFAULT \"\" COLLATE NOCASE, lastCloudUpdateTime INTEGER NOT NULL, notificationTime INTEGER NOT NULL, uxUserAction INTEGER NOT NULL, uiDisplayType INTEGER NOT NULL, parentResourceID TEXT DEFAULT '0' NOT NULL COLLATE NOCASE, itemType INTEGER NOT NULL DEFAULT 0, isFoundByScanner BOOLEAN NOT NULL DEFAULT 0, isDisplayedToUser BOOLEAN NOT NULL DEFAULT 0, PRIMARY KEY(resourceId))",
+        "count": 0,
+        "target_rows": []
+      },
+      {
+        "table": "items_moved_to_recycle_bin",
+        "schema": "CREATE TABLE items_moved_to_recycle_bin ( fileId INTEGER NOT NULL CHECK (fileId != 0), volumeId INTEGER NOT NULL CHECK (volumeId != 0), itemName TEXT NOT NULL, resourceId TEXT NOT NULL COLLATE NOCASE, parentResourceId TEXT NOT NULL COLLATE NOCASE, reparentStatus INTEGER NOT NULL, notificationTime INTEGER NOT NULL, folderContainsIgnoredItems BOOLEAN, PRIMARY KEY(fileId, volumeId))",
+        "count": 0,
+        "target_rows": []
+      },
+      {
+        "table": "placeholder_deletes_info",
+        "schema": "CREATE TABLE placeholder_deletes_info ( resourceId TEXT NOT NULL COLLATE NOCASE, fsid TEXT NOT NULL COLLATE NOCASE, originalFileName TEXT NOT NULL, notificationTime INTEGER NOT NULL, PRIMARY KEY(fsid))",
+        "count": 0,
+        "target_rows": []
+      },
+      {
+        "table": "redundant_placeholder_deletes",
+        "schema": "CREATE TABLE redundant_placeholder_deletes ( fsid TEXT NOT NULL COLLATE NOCASE, resourceId TEXT COLLATE NOCASE, itemName TEXT, PRIMARY KEY(fsid))",
+        "count": 0,
+        "target_rows": []
+      }
+    ]
+  },
+  {
+    "path": "Users/fintm/AppData/Local/Microsoft/OneDrive/settings/Personal/SettingsDatabase.db",
+    "tables": [
+      {
+        "table": "__oddbm_schema",
+        "schema": "CREATE TABLE __oddbm_schema (name TEXT PRIMARY KEY, value INTEGER UNIQUE) WITHOUT ROWID",
+        "count": 1,
+        "target_rows": []
+      },
+      {
+        "table": "integer_settings",
+        "schema": "CREATE TABLE integer_settings ( name TEXT PRIMARY KEY, value INTEGER ) WITHOUT ROWID",
+        "count": 18,
+        "target_rows": []
+      },
+      {
+        "table": "string_settings",
+        "schema": "CREATE TABLE string_settings ( name TEXT PRIMARY KEY, value TEXT ) WITHOUT ROWID",
+        "count": 2,
+        "target_rows": []
+      }
+    ]
+  },
+  {
+    "path": "Users/fintm/AppData/Local/Microsoft/OneDrive/settings/Personal/OCSI.db",
+    "tables": [
+      {
+        "table": "__oddbm_schema",
+        "schema": "CREATE TABLE __oddbm_schema (name TEXT PRIMARY KEY, value INTEGER UNIQUE) WITHOUT ROWID",
+        "count": 1,
+        "target_rows": []
+      },
+      {
+        "table": "ocsi_property_records",
+        "schema": "CREATE TABLE ocsi_property_records ( resourceID TEXT PRIMARY KEY NOT NULL COLLATE NOCASE, conflictJson TEXT, lastSetPropsSessionId TEXT, lastSetPropsTime INTEGER, lastSetPropsResult INTEGER , documentSessionId INTEGER, ocsSessionId TEXT, ocsRevisionSequenceNumber INTEGER, ocsLastSyncedRevisionSequenceNumber INTEGER, waterlineSize INTEGER, waterlineData BLOB, writeValidationToken BLOB, collabMetadataHashAlgorithm INTEGER, collabMetadataHashDescriptor INTEGER, collabMetadataHashDigest BLOB, streamProtocolSupport INTEGER, streamSyncToken BLOB, coAuthClockData TEXT, holdBegin INTEGER, holdReason INTEGER, holdResolution INTEGER, irmEnabled INTEGER, irmPolicyState INTEGER, irmEncryptedFileSize INTEGER, irmHashAlgorithm INTEGER, irmHashDescriptor INTEGER, irmHashDigest BLOB, clpIsMipDecrypted INTEGER, clpHashScope INTEGER, clpHashAlgorithm INTEGER, clpHashDescriptor INTEGER, clpHashDigest BLOB, size INTEGER, lastChange INTEGER, isOfflineUpdate INTEGER, savePropHandlerType INTEGER) WITHOUT ROWID",
+        "count": 2481,
+        "target_rows": []
+      },
+      {
+        "table": "ocsi_map_paths_records",
+        "schema": "CREATE TABLE ocsi_map_paths_records ( parentFSID TEXT NOT NULL COLLATE NOCASE, itemName TEXT NOT NULL COLLATE NOCASE, resourceID TEXT NOT NULL, isFile INTEGER, PRIMARY KEY (parentFSID, itemName) ) WITHOUT ROWID",
+        "count": 37,
+        "target_rows": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,2102 @@
+[
+  {
+    "inode": "41329160",
+    "path": "CAMERA CHAMBRE/record/20241015/20241015_121454_10_0034.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329160_20241015_121454_10_0034.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 436,
+    "raw_output_sha256": "036cbc4503d0e6a8ccf275d3f3762fed8acfab38a60b0e2414020de12fc39ede",
+    "summary": {
+      "dts": {
+        "count": 436,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 436,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "41329180",
+    "path": "CAMERA CHAMBRE/record/20241015/20241015_145121_10_0159.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329180_20241015_145121_10_0159.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 2275,
+    "raw_output_sha256": "c4ba9863500a728c3a7d1dde3a2bac5afc61ed54dc77a4b3cbd361e9916ce49e",
+    "summary": {
+      "dts": {
+        "count": 2275,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 75
+      },
+      "pts": {
+        "count": 2275,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 75
+      }
+    }
+  },
+  {
+    "inode": "41329184",
+    "path": "CAMERA CHAMBRE/record/20241015/20241015_145407_10_0060.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329184_20241015_145407_10_0060.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 865,
+    "raw_output_sha256": "139887717a68bcc38f04820b0fb59c83777896b2e92a9d57da035293a5ef4523",
+    "summary": {
+      "dts": {
+        "count": 865,
+        "nonincreasing": 0,
+        "minimum_delta": 33,
+        "maximum_delta": 107
+      },
+      "pts": {
+        "count": 865,
+        "nonincreasing": 0,
+        "minimum_delta": 33,
+        "maximum_delta": 107
+      }
+    }
+  },
+  {
+    "inode": "41329200",
+    "path": "CAMERA CHAMBRE/record/20241015/20241015_145824_10_0124.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329200_20241015_145824_10_0124.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 1777,
+    "raw_output_sha256": "3136e806e3aa59999b82d66a4e143159e9ddbafc29b73d026e61fd2bbdffc2e1",
+    "summary": {
+      "dts": {
+        "count": 1777,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 76
+      },
+      "pts": {
+        "count": 1777,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 76
+      }
+    }
+  },
+  {
+    "inode": "41329212",
+    "path": "CAMERA CHAMBRE/record/20241015/20241015_165733_10_0033.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329212_20241015_165733_10_0033.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 431,
+    "raw_output_sha256": "60796f1de5f04e12d72720325a9527a5ce9b001b14795530004856fe4119a9e5",
+    "summary": {
+      "dts": {
+        "count": 431,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 431,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "41329248",
+    "path": "CAMERA CHAMBRE/record/20241015/20241015_171122_10_0027.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329248_20241015_171122_10_0027.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 320,
+    "raw_output_sha256": "8e274fc8a5228eebeed932ad890f6e29786967bd9c1fdf5605b093c9d35fd62e",
+    "summary": {
+      "dts": {
+        "count": 320,
+        "nonincreasing": 0,
+        "minimum_delta": 59,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 320,
+        "nonincreasing": 0,
+        "minimum_delta": 59,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "46966800",
+    "path": "CAMERA CHAMBRE/record/20241016/20241016_114044_10_0123.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/46966800_20241016_114044_10_0123.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 1666,
+    "raw_output_sha256": "a86aa4af4aa1b9910c4031531cc330784190a50092e6ad5d9971c9b745aa1594",
+    "summary": {
+      "dts": {
+        "count": 1666,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 1666,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "46966812",
+    "path": "CAMERA CHAMBRE/record/20241016/20241016_212245_10_0028.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/46966812_20241016_212245_10_0028.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 338,
+    "raw_output_sha256": "3a532f450e2cee720a8ceba7c107c52dee637c5decbc59bfc574ef2c1262717c",
+    "summary": {
+      "dts": {
+        "count": 338,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 106
+      },
+      "pts": {
+        "count": 338,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 106
+      }
+    }
+  },
+  {
+    "inode": "48042532",
+    "path": "CAMERA CHAMBRE/record/20241017/20241017_093646_10_0102.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/48042532_20241017_093646_10_0102.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 1339,
+    "raw_output_sha256": "bfb058ff306fb3f027e29404677f5d36a72f79272a2c039df913b5c76a29f211",
+    "summary": {
+      "dts": {
+        "count": 1339,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 1339,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "49060360",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_005505_10_0035.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060360_20241018_005505_10_0035.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 448,
+    "raw_output_sha256": "d60f9d0705db02605ae6a555122b4129a5b51e3cb2d01b8d02d4dd82e98fdbc8",
+    "summary": {
+      "dts": {
+        "count": 448,
+        "nonincreasing": 0,
+        "minimum_delta": 63,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 448,
+        "nonincreasing": 0,
+        "minimum_delta": 63,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "49060364",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_005548_10_0027.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060364_20241018_005548_10_0027.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 331,
+    "raw_output_sha256": "d2857ad577a24cc204732f4bfe02256efa391e95b94aae6e8bdf5172992f93c8",
+    "summary": {
+      "dts": {
+        "count": 331,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 331,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "49060368",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_005655_10_0116.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060368_20241018_005655_10_0116.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 1614,
+    "raw_output_sha256": "f0635bb1a0933ebcff2b80f984cca7bbdf67c32a757f3cf3e06e868dcc7c9948",
+    "summary": {
+      "dts": {
+        "count": 1614,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 1614,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "49060388",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_010335_10_0070.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060388_20241018_010335_10_0070.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 819,
+    "raw_output_sha256": "7940bfcbb05e3afa0520b56d8cda486a8b5d7a7865a6c0a11b494116c4b658d8",
+    "summary": {
+      "dts": {
+        "count": 819,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 819,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "49060392",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_010538_10_0034.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060392_20241018_010538_10_0034.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 415,
+    "raw_output_sha256": "8139de6e23a5f3efb68d7e221669931b87b336613b4a37fbf26df9378567eaab",
+    "summary": {
+      "dts": {
+        "count": 415,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 106
+      },
+      "pts": {
+        "count": 415,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 106
+      }
+    }
+  },
+  {
+    "inode": "49060420",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_011138_10_0025.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060420_20241018_011138_10_0025.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 313,
+    "raw_output_sha256": "e2c8d5f254ed62692cd1fcc638b618802505c87bfa8877581ad188b9a910ff4d",
+    "summary": {
+      "dts": {
+        "count": 313,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 106
+      },
+      "pts": {
+        "count": 313,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 106
+      }
+    }
+  },
+  {
+    "inode": "49060432",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_011410_10_0064.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060432_20241018_011410_10_0064.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 759,
+    "raw_output_sha256": "2fe38d99b55a7207d2af29dc7cc3854b7311862e734de805fb1e68156f4242d2",
+    "summary": {
+      "dts": {
+        "count": 759,
+        "nonincreasing": 0,
+        "minimum_delta": 59,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 759,
+        "nonincreasing": 0,
+        "minimum_delta": 59,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "49060500",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_132557_10_0033.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060500_20241018_132557_10_0033.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 401,
+    "raw_output_sha256": "e8a9f9bd5daf5cd07758c9f808380f4f3e2d9bfe8374c04c7c8459ec1d794238",
+    "summary": {
+      "dts": {
+        "count": 401,
+        "nonincreasing": 0,
+        "minimum_delta": 62,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 401,
+        "nonincreasing": 0,
+        "minimum_delta": 62,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "49060516",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_133002_10_0026.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060516_20241018_133002_10_0026.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 322,
+    "raw_output_sha256": "ab57e6885c105044a12c3d198c0964336b84cb67edd655519e385fb7f0ef0f60",
+    "summary": {
+      "dts": {
+        "count": 322,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 322,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "49060520",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_133048_10_0072.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060520_20241018_133048_10_0072.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 866,
+    "raw_output_sha256": "ba447a7339238030acb137ea01b7dc1a2d14414a92d7556e8a76221de40b98df",
+    "summary": {
+      "dts": {
+        "count": 866,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 866,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "49060528",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_133320_10_0027.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060528_20241018_133320_10_0027.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 330,
+    "raw_output_sha256": "374c02d838e421c2ff79bcd8bf85761b53966fda70bad2eac389f5f9dd72dd24",
+    "summary": {
+      "dts": {
+        "count": 330,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 330,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "49060540",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_133607_10_0036.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060540_20241018_133607_10_0036.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 430,
+    "raw_output_sha256": "61bd28a8d1ce712652ae975aacd055cced664aec40e22f2d4806fd95d382e974",
+    "summary": {
+      "dts": {
+        "count": 430,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 430,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "49060548",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_133814_10_0034.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060548_20241018_133814_10_0034.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 473,
+    "raw_output_sha256": "a72d081617396d9b37eae1bae86e9d4a0f707263145b091aec68bf51914207f3",
+    "summary": {
+      "dts": {
+        "count": 473,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 473,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "49060552",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_133910_10_0063.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060552_20241018_133910_10_0063.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 897,
+    "raw_output_sha256": "5c1c7743d6bb11a247d2670e3eb84b2d523ab20ae67995158ef2fe8e83e6e5c9",
+    "summary": {
+      "dts": {
+        "count": 897,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 103
+      },
+      "pts": {
+        "count": 897,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 103
+      }
+    }
+  },
+  {
+    "inode": "49060556",
+    "path": "CAMERA CHAMBRE/record/20241018/20241018_134017_10_0034.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/49060556_20241018_134017_10_0034.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 466,
+    "raw_output_sha256": "3fb4690a94c006ae6c8ef184cb9ee1d59706a262e011e74322ee579ef58743e2",
+    "summary": {
+      "dts": {
+        "count": 466,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 466,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "55203848",
+    "path": "CAMERA CHAMBRE/record/20241019/20241019_040237_10_0034.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/55203848_20241019_040237_10_0034.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 387,
+    "raw_output_sha256": "a9520b597ebfd43fde1975d50fc96117709baf084b80b336a0ce83a6450f77c2",
+    "summary": {
+      "dts": {
+        "count": 387,
+        "nonincreasing": 0,
+        "minimum_delta": 63,
+        "maximum_delta": 106
+      },
+      "pts": {
+        "count": 387,
+        "nonincreasing": 0,
+        "minimum_delta": 63,
+        "maximum_delta": 106
+      }
+    }
+  },
+  {
+    "inode": "55203868",
+    "path": "CAMERA CHAMBRE/record/20241019/20241019_114538_10_0036.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/55203868_20241019_114538_10_0036.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 458,
+    "raw_output_sha256": "7cbb18624cc6bab1a0b89e9b5e7a2f954a1e00de6aae6cb152a22b7e8a3b2fb7",
+    "summary": {
+      "dts": {
+        "count": 458,
+        "nonincreasing": 0,
+        "minimum_delta": 61,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 458,
+        "nonincreasing": 0,
+        "minimum_delta": 61,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "55203872",
+    "path": "CAMERA CHAMBRE/record/20241019/20241019_204016_10_0034.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/55203872_20241019_204016_10_0034.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 411,
+    "raw_output_sha256": "b19e093ccf89fbd1bd328541dddd0cf30a77aa42e88704628f9cb6d3fdb54a8e",
+    "summary": {
+      "dts": {
+        "count": 411,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 411,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "55685128",
+    "path": "CAMERA CHAMBRE/record/20241020/20241020_000234_10_0032.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/55685128_20241020_000234_10_0032.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 380,
+    "raw_output_sha256": "f44db4d902d51a84584950146f045dc669fcde217e6262dca8bee8a9fc1754ef",
+    "summary": {
+      "dts": {
+        "count": 380,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 106
+      },
+      "pts": {
+        "count": 380,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 106
+      }
+    }
+  },
+  {
+    "inode": "55685136",
+    "path": "CAMERA CHAMBRE/record/20241020/20241020_045409_10_0163.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/55685136_20241020_045409_10_0163.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 1667,
+    "raw_output_sha256": "0b643516788df80ebe68d33a3ba3945638ee4eeb990d8e160ca30cc764f7769a",
+    "summary": {
+      "dts": {
+        "count": 1667,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 106
+      },
+      "pts": {
+        "count": 1667,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 106
+      }
+    }
+  },
+  {
+    "inode": "55685144",
+    "path": "CAMERA CHAMBRE/record/20241020/20241020_130455_10_0036.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/55685144_20241020_130455_10_0036.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 471,
+    "raw_output_sha256": "619ed9499bd212a5389e63f8a2fee429a0e705d51792cefcea0f656709296f40",
+    "summary": {
+      "dts": {
+        "count": 471,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 471,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "55685148",
+    "path": "CAMERA CHAMBRE/record/20241020/20241020_130532_10_0033.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/55685148_20241020_130532_10_0033.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 429,
+    "raw_output_sha256": "99cd4becadf16ff9e01129e052ef1e3de97dd8591dba79d67872bca02b6c3f6c",
+    "summary": {
+      "dts": {
+        "count": 429,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 106
+      },
+      "pts": {
+        "count": 429,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 106
+      }
+    }
+  },
+  {
+    "inode": "55685188",
+    "path": "CAMERA CHAMBRE/record/20241020/20241020_155946_10_0035.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/55685188_20241020_155946_10_0035.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 505,
+    "raw_output_sha256": "89d7dfab0e111c3c4f79faf285d8de393254c483d077b058e9cc27f479691798",
+    "summary": {
+      "dts": {
+        "count": 505,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 75
+      },
+      "pts": {
+        "count": 505,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 75
+      }
+    }
+  },
+  {
+    "inode": "55685196",
+    "path": "CAMERA CHAMBRE/record/20241020/20241020_174356_10_0032.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/55685196_20241020_174356_10_0032.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 466,
+    "raw_output_sha256": "44e31966568ab41674ab6c72de85f78edf2188692f4b5a1892657843919d49da",
+    "summary": {
+      "dts": {
+        "count": 466,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 75
+      },
+      "pts": {
+        "count": 466,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 75
+      }
+    }
+  },
+  {
+    "inode": "57487388",
+    "path": "CAMERA CHAMBRE/record/20241021/20241021_021944_10_0027.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/57487388_20241021_021944_10_0027.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 337,
+    "raw_output_sha256": "910baa998af9e649784989bc8e4c3c4977a91be25e036add0fb5b4818fd2745c",
+    "summary": {
+      "dts": {
+        "count": 337,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 337,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "57487416",
+    "path": "CAMERA CHAMBRE/record/20241021/20241021_105247_10_0035.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/57487416_20241021_105247_10_0035.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 411,
+    "raw_output_sha256": "9620389aa23e79e6dd1793afb9dd6dcd076d2e0205c8c85114b9bff9dc4bc4bd",
+    "summary": {
+      "dts": {
+        "count": 411,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 411,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "57487456",
+    "path": "CAMERA CHAMBRE/record/20241021/20241021_121432_10_0101.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/57487456_20241021_121432_10_0101.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 1195,
+    "raw_output_sha256": "2e468a7a9be091526cefd1f25cce6929e8db82cc16496ec8a1958f7bd5801e15",
+    "summary": {
+      "dts": {
+        "count": 1195,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 1195,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "57487480",
+    "path": "CAMERA CHAMBRE/record/20241021/20241021_122103_10_0072.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/57487480_20241021_122103_10_0072.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 863,
+    "raw_output_sha256": "5dcf6d4b3e1fd881aaebb15a18b801dabf2cf1741e06e7e9ba16436ba92ae51e",
+    "summary": {
+      "dts": {
+        "count": 863,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 863,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "57487484",
+    "path": "CAMERA CHAMBRE/record/20241021/20241021_122235_10_0034.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/57487484_20241021_122235_10_0034.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 402,
+    "raw_output_sha256": "707bc8a153043e70b262c9bc21637db4aab565b3d8f14584217c56ef3f1ca4e6",
+    "summary": {
+      "dts": {
+        "count": 402,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 402,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "57487492",
+    "path": "CAMERA CHAMBRE/record/20241021/20241021_122510_10_0070.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/57487492_20241021_122510_10_0070.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 850,
+    "raw_output_sha256": "43b2622037515440fecb38b4b96672d088518448c35eb801d57ba58dbcbcffeb",
+    "summary": {
+      "dts": {
+        "count": 850,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 850,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "57487500",
+    "path": "CAMERA CHAMBRE/record/20241021/20241021_122733_10_0033.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/57487500_20241021_122733_10_0033.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 402,
+    "raw_output_sha256": "0b660faa877f79686070e4abbaaa19e1bcc3291023c8ed3dc8b8c58ae96eb77f",
+    "summary": {
+      "dts": {
+        "count": 402,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 402,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "57487520",
+    "path": "CAMERA CHAMBRE/record/20241021/20241021_123051_10_0034.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/57487520_20241021_123051_10_0034.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 412,
+    "raw_output_sha256": "283b41e186a9d22a058110f64687b907af15d0c9b91d00e7e626f162faf0e97a",
+    "summary": {
+      "dts": {
+        "count": 412,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 412,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "57487536",
+    "path": "CAMERA CHAMBRE/record/20241021/20241021_123431_10_0028.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/57487536_20241021_123431_10_0028.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 340,
+    "raw_output_sha256": "ce77317227a18b89db908d7e77af85a83cc005a1c4d09c8b85f84b6a88e9fbca",
+    "summary": {
+      "dts": {
+        "count": 340,
+        "nonincreasing": 0,
+        "minimum_delta": 62,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 340,
+        "nonincreasing": 0,
+        "minimum_delta": 62,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "57487580",
+    "path": "CAMERA CHAMBRE/record/20241021/20241021_124347_10_0070.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/57487580_20241021_124347_10_0070.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 823,
+    "raw_output_sha256": "0b04f89de7b1ab5ac56460c3558b4b60a8e51cd8019eeb4a530486de086c9444",
+    "summary": {
+      "dts": {
+        "count": 823,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 823,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "57487604",
+    "path": "CAMERA CHAMBRE/record/20241021/20241021_124945_10_0056.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/57487604_20241021_124945_10_0056.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 698,
+    "raw_output_sha256": "b8b3ca4a42d50d1eb781cd837786c8d53ff03422792a2fa47aaebfa9de125fa8",
+    "summary": {
+      "dts": {
+        "count": 698,
+        "nonincreasing": 0,
+        "minimum_delta": 63,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 698,
+        "nonincreasing": 0,
+        "minimum_delta": 63,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "63907396",
+    "path": "CAMERA CHAMBRE/record/20241022/20241022_084755_10_0026.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/63907396_20241022_084755_10_0026.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 321,
+    "raw_output_sha256": "211def128f76f55297e4a0044309bf82fae828a234fc5ff0bbd3414a187e3379",
+    "summary": {
+      "dts": {
+        "count": 321,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 321,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "63907440",
+    "path": "CAMERA CHAMBRE/record/20241022/20241022_085611_10_0026.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/63907440_20241022_085611_10_0026.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 312,
+    "raw_output_sha256": "9ad6b609a5c388cd6983db491719e4f5f10e143b8116c563b8e1878667aa6960",
+    "summary": {
+      "dts": {
+        "count": 312,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 312,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "63907448",
+    "path": "CAMERA CHAMBRE/record/20241022/20241022_085921_10_0059.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/63907448_20241022_085921_10_0059.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 815,
+    "raw_output_sha256": "84d67dac6020b49989e1e407ba323fc6f04cc4237ff96af89896ad349f3e9300",
+    "summary": {
+      "dts": {
+        "count": 815,
+        "nonincreasing": 0,
+        "minimum_delta": 62,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 815,
+        "nonincreasing": 0,
+        "minimum_delta": 62,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "63907464",
+    "path": "CAMERA CHAMBRE/record/20241022/20241022_090314_10_0027.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/63907464_20241022_090314_10_0027.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 336,
+    "raw_output_sha256": "d81643d4eb7a24f814e3e8a676fca7d1b9b1a2332db67b5cfa009ff3487679b6",
+    "summary": {
+      "dts": {
+        "count": 336,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 336,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "63907484",
+    "path": "CAMERA CHAMBRE/record/20241022/20241022_092100_10_0099.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/63907484_20241022_092100_10_0099.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 1426,
+    "raw_output_sha256": "902bd9a6998ee52dee226839fbd7e0211aadb4b8c1ae9e160911bfa745c1a833",
+    "summary": {
+      "dts": {
+        "count": 1426,
+        "nonincreasing": 0,
+        "minimum_delta": 63,
+        "maximum_delta": 260
+      },
+      "pts": {
+        "count": 1426,
+        "nonincreasing": 0,
+        "minimum_delta": 63,
+        "maximum_delta": 260
+      }
+    }
+  },
+  {
+    "inode": "63907500",
+    "path": "CAMERA CHAMBRE/record/20241022/20241022_095643_10_0033.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/63907500_20241022_095643_10_0033.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 484,
+    "raw_output_sha256": "9f886173c0aeb3d40266cffc6cb81f7cb2d16b61971e7448cdf71d565b24e7d9",
+    "summary": {
+      "dts": {
+        "count": 484,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 75
+      },
+      "pts": {
+        "count": 484,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 75
+      }
+    }
+  },
+  {
+    "inode": "63907520",
+    "path": "CAMERA CHAMBRE/record/20241022/20241022_132654_10_0033.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/63907520_20241022_132654_10_0033.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 477,
+    "raw_output_sha256": "32b19c73aa61a2045184b1644e399f9c5ad5ca66228317f82004d22aa740de1e",
+    "summary": {
+      "dts": {
+        "count": 477,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 74
+      },
+      "pts": {
+        "count": 477,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 74
+      }
+    }
+  },
+  {
+    "inode": "70253576",
+    "path": "CAMERA CHAMBRE/record/20241023/20241023_010302_10_0034.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/70253576_20241023_010302_10_0034.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 398,
+    "raw_output_sha256": "4003e7bef71917398f91681a897b67ae93eaa428caca6cb8b2c98ea7dfc46a5d",
+    "summary": {
+      "dts": {
+        "count": 398,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 398,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  },
+  {
+    "inode": "70253592",
+    "path": "CAMERA CHAMBRE/record/20241023/20241023_081813_10_0027.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/70253592_20241023_081813_10_0027.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 330,
+    "raw_output_sha256": "e4c39db53068d3dccb8c43c02b83be041811dc681ae10e2133b1143d9b84750f",
+    "summary": {
+      "dts": {
+        "count": 330,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 107
+      },
+      "pts": {
+        "count": 330,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 107
+      }
+    }
+  },
+  {
+    "inode": "70253596",
+    "path": "CAMERA CHAMBRE/record/20241023/20241023_113744_10_0056.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/70253596_20241023_113744_10_0056.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 786,
+    "raw_output_sha256": "20d83272210935fa329a41bd9452d89dd74e341cbb8dde21f5c1c5fcfa274aba",
+    "summary": {
+      "dts": {
+        "count": 786,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 106
+      },
+      "pts": {
+        "count": 786,
+        "nonincreasing": 0,
+        "minimum_delta": 66,
+        "maximum_delta": 106
+      }
+    }
+  },
+  {
+    "inode": "70253608",
+    "path": "CAMERA CHAMBRE/record/20241023/20241023_215609_10_0040.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/70253608_20241023_215609_10_0040.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 455,
+    "raw_output_sha256": "1f943d02a3f2ad407b92f5b9c940c735d4cb01e286c18c58700b97161344193d",
+    "summary": {
+      "dts": {
+        "count": 455,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      },
+      "pts": {
+        "count": 455,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 104
+      }
+    }
+  },
+  {
+    "inode": "71118356",
+    "path": "CAMERA CHAMBRE/record/20241024/20241024_144222_10_0034.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/71118356_20241024_144222_10_0034.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 408,
+    "raw_output_sha256": "1dfa29c3af6a954219a3e6f6d0267bedab9103a0cf7c5937db2859486cf91f97",
+    "summary": {
+      "dts": {
+        "count": 408,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 106
+      },
+      "pts": {
+        "count": 408,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 106
+      }
+    }
+  },
+  {
+    "inode": "72011848",
+    "path": "CAMERA CHAMBRE/record/20241026/20241026_123535_10_0063.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/72011848_20241026_123535_10_0063.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 901,
+    "raw_output_sha256": "409dc38da27dc8993912205c4f52a00c45e0b6a2943913ba2a545ddad46f9f30",
+    "summary": {
+      "dts": {
+        "count": 901,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 76
+      },
+      "pts": {
+        "count": 901,
+        "nonincreasing": 0,
+        "minimum_delta": 64,
+        "maximum_delta": 76
+      }
+    }
+  },
+  {
+    "inode": "72011904",
+    "path": "CAMERA CHAMBRE/record/20241026/20241026_153617_10_0032.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/72011904_20241026_153617_10_0032.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 469,
+    "raw_output_sha256": "9d0956e069ce55e5a0d7905e4ef8a3b1fb648874863601bfcdecc2d8d095dec8",
+    "summary": {
+      "dts": {
+        "count": 469,
+        "nonincreasing": 0,
+        "minimum_delta": 60,
+        "maximum_delta": 314
+      },
+      "pts": {
+        "count": 469,
+        "nonincreasing": 0,
+        "minimum_delta": 60,
+        "maximum_delta": 314
+      }
+    }
+  },
+  {
+    "inode": "75458620",
+    "path": "CAMERA CHAMBRE/record/20241027/20241027_124311_10_0032.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/75458620_20241027_124311_10_0032.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 463,
+    "raw_output_sha256": "95109dd173f67fef66e4f49ec6016f2191ac64569143d92a74d3ec8e4ddec26c",
+    "summary": {
+      "dts": {
+        "count": 463,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 75
+      },
+      "pts": {
+        "count": 463,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 75
+      }
+    }
+  },
+  {
+    "inode": "76861456",
+    "path": "CAMERA CHAMBRE/record/20241028/20241028_232234_10_0053.mp4",
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/76861456_20241028_232234_10_0053.mp4"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": 734,
+    "raw_output_sha256": "32ce9afaeba2435380b726afee359689d9ebafca7c92beb112034f52e8b9d6f2",
+    "summary": {
+      "dts": {
+        "count": 734,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      },
+      "pts": {
+        "count": 734,
+        "nonincreasing": 0,
+        "minimum_delta": 65,
+        "maximum_delta": 105
+      }
+    }
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "window": [
+    "2024-10-28T11:30:00+01:00",
+    "2024-10-28T12:15:00+01:00"
+  ],
+  "rows": [
+    {
+      "ROWID": 74688,
+      "date": 751806194750877056,
+      "date_read": 751806198794336128,
+      "date_delivered": 0,
+      "service": "SMS",
+      "is_from_me": 0,
+      "is_read": 1,
+      "date_paris": "2024-10-28T12:03:14.750877+01:00",
+      "read_paris": "2024-10-28T12:03:18.794336+01:00",
+      "apple_mentioned": null,
+      "content_status": "text column NULL; attributedBody present; content not decoded"
+    },
+    {
+      "ROWID": 74689,
+      "date": 751806604455465984,
+      "date_read": 751806606276798976,
+      "date_delivered": 0,
+      "service": "SMS",
+      "is_from_me": 0,
+      "is_read": 1,
+      "date_paris": "2024-10-28T12:10:04.455466+01:00",
+      "read_paris": "2024-10-28T12:10:06.276799+01:00",
+      "apple_mentioned": null,
+      "content_status": "text column NULL; attributedBody present; content not decoded"
+    }
+  ],
+  "sources": [
+    {
+      "path": "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/SMS/sms.db",
+      "sha256_before": "013bd7ec5e87c1e7daf1e69097e6d3d8e797791574aefaca7e2ecd2a7c0cd171",
+      "sha256_after": "013bd7ec5e87c1e7daf1e69097e6d3d8e797791574aefaca7e2ecd2a7c0cd171"
+    },
+    {
+      "path": "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/SMS/sms.db-wal",
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/SMS/sms.db-shm",
+      "sha256_before": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+      "sha256_after": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    }
+  ],
+  "interpretation": "No conclusion about Apple verification SMS from the NULL text column."
+}

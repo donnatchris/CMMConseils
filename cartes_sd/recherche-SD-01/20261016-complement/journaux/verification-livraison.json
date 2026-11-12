@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-16T06:58:54.260681+00:00",
+  "initial_parser_dependencies": [
+    {
+      "path": "cartes_sd/scripts/sd01_mp4.py",
+      "sha256": "1469fef432647244cd3698cbfafc593d57ca520a946ca03236a14953e003dfaa",
+      "matches_initial_manifest": true
+    },
+    {
+      "path": "cartes_sd/scripts/sd01_collect.py",
+      "sha256": "bc8fbdfc3b97ed6ded2c26d993715aee7e2eb4ea23fdb589722c7fd517d4ef0e",
+      "matches_initial_manifest": true
+    }
+  ],
+  "report_context_corrected": true,
+  "two_event_sections_each_with_four_answers": true,
+  "raw_fat_2000_slots": 9,
+  "raw_alias_slots": 4,
+  "media_hashes_checked": 45,
+  "identical_stsd_across_45_targets": true,
+  "packet_checks": {
+    "total": 37,
+    "reused": 6,
+    "new_metadata_reads": 31,
+    "dts_backwards_or_equal": 0,
+    "pts_backwards_or_equal": 0
+  },
+  "old_forensic_outputs_modified": false,
+  "heavy_analyses_reexecuted": false,
+  "scripts_syntax": "OK",
+  "local_markdown_links": "OK",
+  "FORENSIC_directory_accessed": false,
+  "archived_report_matches_initial_hash_before_deletion": true,
+  "archived_report_deleted_at_user_request": true
+}

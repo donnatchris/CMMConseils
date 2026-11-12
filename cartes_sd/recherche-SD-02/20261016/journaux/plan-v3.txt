@@ -1,0 +1,651 @@
+{
+  "tsk_real_entries": 3760,
+  "raw_rows": 3760,
+  "join_errors": [],
+  "types": {
+    "d/d supprimé": 115,
+    "r/r alloué": 3306,
+    "d/d alloué": 13,
+    "r/r supprimé": 218,
+    "-/r supprimé": 108
+  },
+  "allocated_video_count": 3301,
+  "regular_declared_bytes": 37956219430,
+  "video_declared_bytes": 31583025459,
+  "maximum_file_size": 26367368,
+  "save_declared_bytes": 1073633593,
+  "save_files": 73,
+  "decode_requested": 17,
+  "rejected_directories": [
+    {
+      "path": "CAMERA TERRASSE/record/σ0240918",
+      "cluster": 11064,
+      "reason": "dot entry not validated",
+      "sha256": "d7e45613b1035e7206914abca7141d2c9b9026c26fee9c86e43cfae58b8de559"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240919",
+      "cluster": 44757,
+      "reason": "dot entry not validated",
+      "sha256": "49879b19ae87c2d05dfc6ab2703a36bcf2b8d9aa2c29ec9caf4c3e6ccc734895"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240707",
+      "cluster": 45170,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240920",
+      "cluster": 86479,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240921",
+      "cluster": 87755,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240922",
+      "cluster": 91935,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240923",
+      "cluster": 94588,
+      "reason": "dot entry not validated",
+      "sha256": "eb75e58adcccf3c1fc740bcf7ac4e85399385d96e882385fb09b194f12446989"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240924",
+      "cluster": 105013,
+      "reason": "dot entry not validated",
+      "sha256": "eaf5bc643de7bac5957caf3db68e3506dd6537c9ffeb54f2082ce6b231970802"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240925",
+      "cluster": 135067,
+      "reason": "dot entry not validated",
+      "sha256": "15c88ac0efedc1ad711954894f07d46add8252e0e21899879b71e18c9eba096c"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240926",
+      "cluster": 143408,
+      "reason": "dot entry not validated",
+      "sha256": "99768f33abf3fcd8fc6cb9d2ff819ee652c598ba71eed13751284ac1f4b5882a"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240928",
+      "cluster": 290952,
+      "reason": "dot entry not validated",
+      "sha256": "96678196dee063f37a9367c3b224f5d2dae3634cd43e0aeb7cfe3b6375b04731"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240929",
+      "cluster": 292553,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240930",
+      "cluster": 294280,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241002",
+      "cluster": 398833,
+      "reason": "dot entry not validated",
+      "sha256": "7d5824822c5a77e250d64e5126c88a96b496d47ad140f38d5716228acfcd865b"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241003",
+      "cluster": 399941,
+      "reason": "dot entry not validated",
+      "sha256": "614e9e1ef96d1dff6d3e41b3725d913164970a103893399130f7c83836d21395"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241004",
+      "cluster": 404062,
+      "reason": "dot entry not validated",
+      "sha256": "dd15cc074055fbe8bc9db42009156ffd773d18124131e421cc153cb4cea8cb3a"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241005",
+      "cluster": 410526,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240629",
+      "cluster": 430134,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240630",
+      "cluster": 432941,
+      "reason": "dot entry not validated",
+      "sha256": "38a4643d30ef4f4925b8234065fb9c46f81a6e7e25d9d6d1c4daf5cff41fd96e"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240701",
+      "cluster": 442076,
+      "reason": "dot entry not validated",
+      "sha256": "8ec1d6d221dfa8bd9436c45fc968fd9ab9bfdd7aaa3afee4f777e1ae83bb42f6"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240702",
+      "cluster": 443893,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240703",
+      "cluster": 444244,
+      "reason": "dot entry not validated",
+      "sha256": "b146394e3b20aa9ab57e2574513e656e44b64379963a5d1c5c38ea51131ea4d1"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240704",
+      "cluster": 454868,
+      "reason": "dot entry not validated",
+      "sha256": "8982434be70ca914955fb9d618c2eacaa9a079fca6d155d34e085e3bd3054d98"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241006",
+      "cluster": 467543,
+      "reason": "dot entry not validated",
+      "sha256": "7a1d665a9cef9376e1428382701472483ddfb40949a0e51acf730750cc40c8c3"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241007",
+      "cluster": 467872,
+      "reason": "dot entry not validated",
+      "sha256": "b7a6da75b20e99e43f2a6fde62203a1ba09832851807d4f9f08226e6eae913ed"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241008",
+      "cluster": 498620,
+      "reason": "dot entry not validated",
+      "sha256": "11a62e47d3466a8a72a1ab10d5ded375029d4177203c4e463c13b394a9f3ffe5"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240705",
+      "cluster": 516097,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240708",
+      "cluster": 699054,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240709",
+      "cluster": 700195,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240710",
+      "cluster": 701138,
+      "reason": "dot entry not validated",
+      "sha256": "f968a2ec196c0230aae9a84317bb44c82bcd602afbaa8d2d4a158abb15238d90"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240712",
+      "cluster": 767262,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240713",
+      "cluster": 768791,
+      "reason": "dot entry not validated",
+      "sha256": "9fb5dbb0c8fb98058ada8fe691b258afd1b15d82f55836310b573436fe2df497"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240714",
+      "cluster": 785234,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240715",
+      "cluster": 799814,
+      "reason": "dot entry not validated",
+      "sha256": "51bd69376d820a62574135b4043a53ca952b1a83f67644c4eda9f777f8279490"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241024",
+      "cluster": 839630,
+      "reason": "dot entry not validated",
+      "sha256": "9f8cc630b3b26d6fdfce036eb5361776a6e974aeeb6cca9ca49784778c52896c"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240716",
+      "cluster": 867192,
+      "reason": "dot entry not validated",
+      "sha256": "e452f3fde6dcdf0b5b4f2e4b7cb1a01cf9145742c5e8f3cea6f7cc5d5a5c2525"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240717",
+      "cluster": 957785,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240718",
+      "cluster": 959980,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240719",
+      "cluster": 962739,
+      "reason": "dot entry not validated",
+      "sha256": "1bb568cc4837c9c61773b2ff2da2415425bd4a22ed8f45634519a51fa69fffc3"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240720",
+      "cluster": 969309,
+      "reason": "dot entry not validated",
+      "sha256": "c17276a91c4b6248a737e214fd09f7d8ef231070080ea616ae0de6570a8b33c7"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240721",
+      "cluster": 986868,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240722",
+      "cluster": 991318,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240723",
+      "cluster": 1008329,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241011",
+      "cluster": 1018214,
+      "reason": "dot entry not validated",
+      "sha256": "d68bb2d5b11c7eb4f0e8a8ee171455f06baca1f615fb2c71385280398a600481"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240724",
+      "cluster": 1023060,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240725",
+      "cluster": 1023652,
+      "reason": "dot entry not validated",
+      "sha256": "4353096759a05a7fac4fb9c1cbf9065f1c4f51cbbd470da6e1a8b23b776a7129"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240726",
+      "cluster": 1050372,
+      "reason": "dot entry not validated",
+      "sha256": "07c90757630031bedd1445330c2f3eb834c1e1c7921ed00ef9c49d3d93772822"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240727",
+      "cluster": 1051647,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240728",
+      "cluster": 1052032,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240729",
+      "cluster": 1061506,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240730",
+      "cluster": 1066665,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240731",
+      "cluster": 1067604,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240801",
+      "cluster": 1069035,
+      "reason": "dot entry not validated",
+      "sha256": "a79c5ef63d353a414dfd3caafdc5f5d9a6c3f63be55c889365abbc3995b295c9"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240803",
+      "cluster": 1111028,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240804",
+      "cluster": 1115573,
+      "reason": "dot entry not validated",
+      "sha256": "7cde9b36d8ff82ec568bd08a5ade21ecc169aee37438937121f620ed9f4eb8dd"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240805",
+      "cluster": 1122499,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240806",
+      "cluster": 1145525,
+      "reason": "dot entry not validated",
+      "sha256": "895af7cc036667dd26a53013b3944d1782ab781b85c2bee6d0e2bff436378794"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241027",
+      "cluster": 1198884,
+      "reason": "dot entry not validated",
+      "sha256": "fa4de2b7f26466820845e4825783925f1c94e9174aef39f4ad71da18ef833bca"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240807",
+      "cluster": 1220723,
+      "reason": "dot entry not validated",
+      "sha256": "a8703e7c419db41c9ea0801b3fb22d7858d5b18628c13015938ce7fe8cad78a4"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240808",
+      "cluster": 1227406,
+      "reason": "dot entry not validated",
+      "sha256": "02052ac638e2d08e130e83f4f948ced6cb4ad3b7cb168ab2d149ead7c7773a4a"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240809",
+      "cluster": 1256499,
+      "reason": "dot entry not validated",
+      "sha256": "994b24203efa7a18fca92fc758fa9e1304d9813f87143dc5681bb5a82ac7d6df"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240810",
+      "cluster": 1272960,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240811",
+      "cluster": 1277631,
+      "reason": "dot entry not validated",
+      "sha256": "c1c8063300102a9f614c9aeca5118926384f08d755b63f1a979ed671e2d7af9e"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240812",
+      "cluster": 1292681,
+      "reason": "dot entry not validated",
+      "sha256": "568c9f50d893f5b7114a746f60ccb1828cd295a58660725272a23b1874614a02"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241013",
+      "cluster": 1296303,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241014",
+      "cluster": 1327842,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241015",
+      "cluster": 1328191,
+      "reason": "dot entry not validated",
+      "sha256": "2e21f0b0d3a9d154cdff6d2b7855f63a4587aa440583034bf850774c85f758e9"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240814",
+      "cluster": 1341342,
+      "reason": "dot entry not validated",
+      "sha256": "13071bf61837c5f958834b7e31336e9d436caf10540b3b065962abc477690e96"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240815",
+      "cluster": 1342497,
+      "reason": "dot entry not validated",
+      "sha256": "7ccb4868b7e6b4fa6edcc63d8be68cf84ca840b29fa293c99ea4f13435c41fe4"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240816",
+      "cluster": 1380807,
+      "reason": "dot entry not validated",
+      "sha256": "f4cebe19d511fa0895c8071f79c7847a8c4fbcb334dab3218fce4746bc7c4713"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240817",
+      "cluster": 1396039,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240818",
+      "cluster": 1397600,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240819",
+      "cluster": 1399089,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240820",
+      "cluster": 1400990,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241017",
+      "cluster": 1424739,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240821",
+      "cluster": 1427147,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240822",
+      "cluster": 1429699,
+      "reason": "dot entry not validated",
+      "sha256": "24f46777d2d2e28c3db043f1d3b755ef765d08f5b28183c9925f274c546432df"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240430",
+      "cluster": 1460728,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241029",
+      "cluster": 1498842,
+      "reason": "dot entry not validated",
+      "sha256": "4d5ed459d7b39a2bad8a07521d47c69f1636fcf6357a29ba42b1cff0f2fff6c1"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240502",
+      "cluster": 1499683,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240503",
+      "cluster": 1503235,
+      "reason": "dot entry not validated",
+      "sha256": "66f82a184dd41fe1564e7e7312034c51b43a2f69d00d05d2e68f2e5cca0b06b1"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240504",
+      "cluster": 1545239,
+      "reason": "dot entry not validated",
+      "sha256": "40994e0459f1270bf2a6d43073e187128e705856805f09ac3abae8308dc5b2c0"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240505",
+      "cluster": 1546115,
+      "reason": "dot entry not validated",
+      "sha256": "ee322756a6ae8b2f77aee802874da26655ce4068c5463ea7acd6d49239556ebf"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240506",
+      "cluster": 1548553,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240510",
+      "cluster": 1590622,
+      "reason": "dot entry not validated",
+      "sha256": "0e2b6210a37718d4e2b7744e3b9e5e2a7f79c8b03f53ebd52ea93201145a2879"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240512",
+      "cluster": 1609312,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240513",
+      "cluster": 1616863,
+      "reason": "dot entry not validated",
+      "sha256": "59bc7d4e649eece5bc1434215555e48ece8a9cfd9248f6323b38e690005f396e"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240519",
+      "cluster": 1693946,
+      "reason": "dot entry not validated",
+      "sha256": "9a010bef774aeca51f1038e87f386565be96d314e2100805074c1370585b2951"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240520",
+      "cluster": 1694804,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241030",
+      "cluster": 1695068,
+      "reason": "dot entry not validated",
+      "sha256": "a8205c58cc895e4c155bced81375a298052515709856c0a4898391a95db6bef4"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240521",
+      "cluster": 1700673,
+      "reason": "dot entry not validated",
+      "sha256": "ecc4f4874f9852761ae22b235628c539beb411f00447ded173c77c097c916d7a"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240522",
+      "cluster": 1711473,
+      "reason": "dot entry not validated",
+      "sha256": "f2759bb5c0d405a2e00acaa8a9840fc1e3d61d61fa0bad8477c22d00ea1625df"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240525",
+      "cluster": 1741710,
+      "reason": "dot entry not validated",
+      "sha256": "1cabce9538665a9f3daeb5da3478954fe99d80f417934b265a1dfb2f2f701fc7"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240831",
+      "cluster": 1779097,
+      "reason": "dot entry not validated",
+      "sha256": "ec8ed4b180c492a25103aa73d96c973805d67c43753d04879b8686573bae7699"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240901",
+      "cluster": 1780736,
+      "reason": "dot entry not validated",
+      "sha256": "f4b61c226feea34091c122757eaab34e1c3687c8a9f3354c12910331ec8e367f"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240902",
+      "cluster": 1823809,
+      "reason": "dot entry not validated",
+      "sha256": "0670ffceb1f575bbf94d969f26dc724b0fc5831b7fbbcb9be409b32573da13f6"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240903",
+      "cluster": 1858110,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240905",
+      "cluster": 1860712,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240906",
+      "cluster": 1860889,
+      "reason": "dot entry not validated",
+      "sha256": "bbf9a61b5d1837a03df359c48afba1dac84eb43cdcd8864a3b805defe3dd09a1"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240907",
+      "cluster": 1861974,
+      "reason": "dot entry not validated",
+      "sha256": "cf46a0016236b7f243325a5ce3a525dad24a749161ccb03b282814c8252c7a79"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240602",
+      "cluster": 1864398,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240603",
+      "cluster": 1865633,
+      "reason": "dot entry not validated",
+      "sha256": "c584bb1f47ba036fe69ec8604ba6f868599922230e88d34fe1c6c897ca764acc"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240604",
+      "cluster": 1866945,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240908",
+      "cluster": 1870712,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240909",
+      "cluster": 1877639,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240910",
+      "cluster": 1878389,
+      "reason": "dot entry not validated",
+      "sha256": "82d0380c7dd86073cc014409985154495551dd404b771a85b6bf07fb6bca303d"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240911",
+      "cluster": 1924209,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240912",
+      "cluster": 1930241,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240913",
+      "cluster": 1931919,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240914",
+      "cluster": 1932653,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240915",
+      "cluster": 1934059,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240916",
+      "cluster": 1936788,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0240917",
+      "cluster": 1938246,
+      "reason": "directory exceeds 4 MiB"
+    },
+    {
+      "path": "$OrphanFiles",
+      "cluster": 1011192,
+      "reason": "dot entry not validated",
+      "sha256": "a54978e71008d5f0918f3cf591177f6b6eb4d1841c84326eb85357a2e40aa0cd"
+    }
+  ]
+}

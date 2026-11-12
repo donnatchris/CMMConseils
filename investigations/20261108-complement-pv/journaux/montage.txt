@@ -1,0 +1,19 @@
+[Dialogue de déverrouillage omis pour confidentialité]
+Valid password format, continuing.
+[4/4] Montage NTFS en lecture seule, sans rejeu du journal
+
+Montage terminé :
+TARGET     SOURCE                     FSTYPE OPTIONS
+/mnt/windows
+           /mnt/dislocker/dislocker-file
+                                      fuse   ro,relatime,user_id=0,group_id=0,al
+NAME         SIZE FSTYPE    RO TYPE MOUNTPOINT
+loop15     476.9G            1 loop 
+├─loop15p1   260M vfat       1 part 
+├─loop15p2    16M            1 part 
+├─loop15p3 475.8G BitLocker  1 part 
+└─loop15p4   848M ntfs       1 part 
+OK : System.evtx accessible
+Accès : /mnt/windows
+Connection to 127.0.0.1 closed.
+

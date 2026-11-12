@@ -1,0 +1,9 @@
+bo].[aspnet_Membership_ResetPassword]
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'[dbo].[aspnet_Membership_UpdateUser]') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+DROP PROCEDURE [dbo].[aspnet_Membership_UpdateUser]
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'[dbo].[aspnet_Membership_ChangePasswordQuestionAndAnswer]') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+DROP PROCEDURE [dbo].[aspnet_Membership_ChangePasswordQuestionAndAnswer]
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'[dbo].[aspnet_Membership_GetAllUsers]') AND OBJECTPROPERTY(id, N'

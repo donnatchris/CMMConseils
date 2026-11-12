@@ -1,0 +1,71 @@
+{
+  "entries": 3632,
+  "active_regular": 3306,
+  "deleted_regular": 326,
+  "active_mp4": 3301,
+  "finalized_record_mp4": 3300,
+  "valid_named_finalized_mp4": 3299,
+  "read_errors": [],
+  "hash_active_bytes": 31583051377,
+  "active_ffprobe_failed": [
+    "CAMERA TERRASSE/.record_tmp/20241112_234855_10.mp4"
+  ],
+  "active_decode_count": 17,
+  "active_decode_failed": [
+    "CAMERA TERRASSE/.record_tmp/20241112_234855_10.mp4"
+  ],
+  "active_table_anomaly_files": [],
+  "active_structural_error_files": [],
+  "mp4_creation_times": {
+    "1970-01-01T00:00:00.000000Z": 3300,
+    "null": 1
+  },
+  "raw_mp4_times": [
+    {
+      "creation": "2082844800",
+      "modification": "2082844800",
+      "count": 16500
+    }
+  ],
+  "codec_profiles": [
+    {
+      "profile": [
+        "audio",
+        "aac",
+        null,
+        null,
+        "8000"
+      ],
+      "count": 3300
+    },
+    {
+      "profile": [
+        "video",
+        "h264",
+        1920,
+        1080,
+        null
+      ],
+      "count": 3300
+    }
+  ],
+  "duplicates": [],
+  "icat_crosschecks": 6,
+  "icat_crosscheck_mismatch": [],
+  "sd01_comparison_source": "cartes_sd/recherche-SD-01/20261015/inventaires/export.json",
+  "sd01_identical_active_files": [
+    {
+      "sd02": ".rw",
+      "sd01": [
+        ".rw"
+      ],
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "deleted_ffprobe_success": 10,
+  "selection_rule": "Conservation : supprimés, dates 1999/2000 création/écriture, non-vidéos, témoins ; décodage : toutes vidéos du 15, dates aberrantes, premier/dernier par jour et anomalies structurelles détectées en cours. Tous les fichiers vidéo reçoivent un examen des tables, FFprobe et les temps des paquets.",
+  "duration_minus_suffix_min": 0.089,
+  "duration_minus_suffix_max": 1.568,
+  "fat_written_minus_end_min": -2.072,
+  "fat_written_minus_end_max": 1.96
+}

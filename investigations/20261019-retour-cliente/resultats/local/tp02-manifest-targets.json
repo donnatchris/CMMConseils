@@ -1,0 +1,412 @@
+{
+  "rows_scanned": 106154,
+  "patterns": {
+    "pairing": "(^|/)(lockdown|pair_records|pairing_records)(/|$)|(^|/)(pair_records|pairing_records)\\.",
+    "extraction_names": "cellebrite|graykey|gray.?shift|elcomsoft|oxygen.?forensic|magnet.?axiom|ufed",
+    "remote_app_names": "teamviewer|anydesk|logmein|splashtop|rustdesk|screenconnect|connectwise|airdroid|supremo|vnc",
+    "management": "configurationprofiles|managedconfiguration|mdm|cloudconfiguration",
+    "account_devices": "account.*device|device.*account|trusteddevice|paireddevice"
+  },
+  "hits": {
+    "pairing": [],
+    "extraction_names": [],
+    "remote_app_names": [],
+    "management": [
+      {
+        "domain": "AppDomain-com.apple.FMDMagSafeSetupRemoteUI",
+        "relativePath": "",
+        "fileID": "b5a62e1b4afbacbee25cbabe6937a67f0138ac75",
+        "flags": "2",
+        "birth_raw": "1718105953",
+        "modified_raw": "1718105953"
+      },
+      {
+        "domain": "AppDomain-com.apple.FMDMagSafeSetupRemoteUI",
+        "relativePath": "Documents",
+        "fileID": "a12e64c145ac4148d7ba18de6265b585976683a5",
+        "flags": "2",
+        "birth_raw": "1718105953",
+        "modified_raw": "1718105953"
+      },
+      {
+        "domain": "AppDomain-com.apple.FMDMagSafeSetupRemoteUI",
+        "relativePath": "Library",
+        "fileID": "5281638d556cdb7e63ce2700ea7d98212b55db32",
+        "flags": "2",
+        "birth_raw": "1718105953",
+        "modified_raw": "1718105953"
+      },
+      {
+        "domain": "AppDomain-com.apple.FMDMagSafeSetupRemoteUI",
+        "relativePath": "Library/Preferences",
+        "fileID": "4839ff21078e58094f1177f3f982df6f575a1b30",
+        "flags": "2",
+        "birth_raw": "1718105953",
+        "modified_raw": "1718105953"
+      },
+      {
+        "domain": "AppDomain-com.apple.mobilesafari",
+        "relativePath": "Library/WebKit/WebsiteData/Default/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I",
+        "fileID": "95ea49ab7f96e9b43c6c38f97092561c8f56acba",
+        "flags": "2",
+        "birth_raw": "1751555581",
+        "modified_raw": "1754599095"
+      },
+      {
+        "domain": "AppDomain-com.apple.mobilesafari",
+        "relativePath": "Library/WebKit/WebsiteData/Default/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I",
+        "fileID": "b3457f9d2e045813fc3dc907594d2511eddbfc97",
+        "flags": "2",
+        "birth_raw": "1751555618",
+        "modified_raw": "1751555618"
+      },
+      {
+        "domain": "AppDomain-com.apple.mobilesafari",
+        "relativePath": "Library/WebKit/WebsiteData/Default/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/IndexedDB",
+        "fileID": "c59945291c61367dd91066b982454ae13d81f74c",
+        "flags": "2",
+        "birth_raw": "1751555618",
+        "modified_raw": "1754512347"
+      },
+      {
+        "domain": "AppDomain-com.apple.mobilesafari",
+        "relativePath": "Library/WebKit/WebsiteData/Default/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/IndexedDB/51DB253425817ABFF5F9D6CB749A42D8CBB7CD4DC95128EFB59D788FCC570593",
+        "fileID": "f2355816044c83d41f5db161804cb88c563dc00b",
+        "flags": "2",
+        "birth_raw": "1751556371",
+        "modified_raw": "1751556371"
+      },
+      {
+        "domain": "AppDomain-com.apple.mobilesafari",
+        "relativePath": "Library/WebKit/WebsiteData/Default/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/IndexedDB/51DB253425817ABFF5F9D6CB749A42D8CBB7CD4DC95128EFB59D788FCC570593/IndexedDB.sqlite3",
+        "fileID": "290bb935da8488f0423a02c12d86b3dccef05b72",
+        "flags": "1",
+        "birth_raw": "1751556371",
+        "modified_raw": "1754512332"
+      },
+      {
+        "domain": "AppDomain-com.apple.mobilesafari",
+        "relativePath": "Library/WebKit/WebsiteData/Default/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/LocalStorage",
+        "fileID": "192439df8495c835efc5f89ef252b28d946ec3aa",
+        "flags": "2",
+        "birth_raw": "1751555618",
+        "modified_raw": "1751555618"
+      },
+      {
+        "domain": "AppDomain-com.apple.mobilesafari",
+        "relativePath": "Library/WebKit/WebsiteData/Default/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/LocalStorage/localstorage.sqlite3",
+        "fileID": "07b0dac37124a22bfa7bc3a88395e49d5e176302",
+        "flags": "1",
+        "birth_raw": "1751555618",
+        "modified_raw": "1754512355"
+      },
+      {
+        "domain": "AppDomain-com.apple.mobilesafari",
+        "relativePath": "Library/WebKit/WebsiteData/Default/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/origin",
+        "fileID": "fdebbbca3332304e590fbfb2bad99a0b0bea8176",
+        "flags": "1",
+        "birth_raw": "1751555618",
+        "modified_raw": "1754512332"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/Preferences/com.apple.managedconfiguration.profiled.plist",
+        "fileID": "f540d2cb9eb677d5344a82cbc1849f47e1932125",
+        "flags": "1",
+        "birth_raw": "1733475931",
+        "modified_raw": "1733475931"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles",
+        "fileID": "2779eb4953c1f319268908386d8fb583fe54dd98",
+        "flags": "2",
+        "birth_raw": "1718105931",
+        "modified_raw": "1789742182"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/ClientTruth.plist",
+        "fileID": "37f5f2cb0563afa31011b7da26a041a246ab44ad",
+        "flags": "1",
+        "birth_raw": "1752454407",
+        "modified_raw": "1752454407"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/EffectiveUserSettings.plist",
+        "fileID": "6241b2b9da35bc7ac51266cce64774fc975ccf00",
+        "flags": "1",
+        "birth_raw": "1752454407",
+        "modified_raw": "1752454407"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/MCOutstandingNagComputation",
+        "fileID": "8d2d037f3c9b3b3c01e552ee37344e8c995355a4",
+        "flags": "1",
+        "birth_raw": "1789742182",
+        "modified_raw": "1789742182"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/PayloadDependency.plist",
+        "fileID": "6b3158f78f7ce11560be55e312146c3567e595e8",
+        "flags": "1",
+        "birth_raw": "1755077305",
+        "modified_raw": "1755077305"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/PayloadManifest.plist",
+        "fileID": "ecb5489ac8284e6a5fd307eaff829497eeaf500b",
+        "flags": "1",
+        "birth_raw": "1748149032",
+        "modified_raw": "1748149032"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/ProfileTruth.plist",
+        "fileID": "aa4bcc99697f859cbd3d9d35d46db9bbe00114de",
+        "flags": "1",
+        "birth_raw": "1755077305",
+        "modified_raw": "1755077305"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/PublicInfo",
+        "fileID": "b57898c333d0770eccf899109724cb64d4d74315",
+        "flags": "2",
+        "birth_raw": "1718105949",
+        "modified_raw": "1789742182"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/PublicInfo/MCMeta.plist",
+        "fileID": "d79ef1238ebf1ba85c980522b41290af21cc8727",
+        "flags": "1",
+        "birth_raw": "1748149036",
+        "modified_raw": "1748149036"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist",
+        "fileID": "3c3b08edb593b2b4ec66ae993792462cc1d7ba92",
+        "flags": "1",
+        "birth_raw": "1789742182",
+        "modified_raw": "1789742182"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/PublicInfo/PublicEffectiveUserSettings.plist",
+        "fileID": "3aef6f188cf22d663030b159b271f1f2591cf56a",
+        "flags": "1",
+        "birth_raw": "1752454407",
+        "modified_raw": "1752454407"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/PublicInfo/Truth.plist",
+        "fileID": "01a14737bf725839e60201704f5e0447e23800a6",
+        "flags": "1",
+        "birth_raw": "1789741832",
+        "modified_raw": "1789741832"
+      },
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/UserConfigurationProfiles/UserSettings.plist",
+        "fileID": "7e9faeaa271021ac54a4f90cbaf047601854a20c",
+        "flags": "1",
+        "birth_raw": "1789742182",
+        "modified_raw": "1789742182"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "",
+        "fileID": "9581eb754ee03b7f535293caf770235f0f37f8a8",
+        "flags": "2",
+        "birth_raw": "1718105948",
+        "modified_raw": "1718107247"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library",
+        "fileID": "9c96c4c3c8c86249857ed131053f623aa2d7ba50",
+        "flags": "2",
+        "birth_raw": "1595255413",
+        "modified_raw": "1718107247"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles",
+        "fileID": "d07301223f7c5050c8a12d770697f94614aa280a",
+        "flags": "2",
+        "birth_raw": "1635526131",
+        "modified_raw": "1789742182"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/AppAccessibilityParameters.plist",
+        "fileID": "5fe47b24af1681316db428b3b4e8108211665830",
+        "flags": "1",
+        "birth_raw": "1748149135",
+        "modified_raw": "1748149135"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/ClientTruth.plist",
+        "fileID": "550a09c4f8c4d89df203ab615ffc979d3c56f613",
+        "flags": "1",
+        "birth_raw": "1752454407",
+        "modified_raw": "1752454407"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/CloudConfigurationDetails.plist",
+        "fileID": "1e6c0783f9b33d00b152067a0661c8fc8841073f",
+        "flags": "1",
+        "birth_raw": "1733479219",
+        "modified_raw": "1733479219"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/Features",
+        "fileID": "17838d721beac0ee6e6a7dc1541b9429e5e13061",
+        "flags": "2",
+        "birth_raw": "1745808534",
+        "modified_raw": "1745808534"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/Features/DEPPush",
+        "fileID": "b01df872c599c27fa003b26c621b2dba1e991377",
+        "flags": "2",
+        "birth_raw": "1745808534",
+        "modified_raw": "1745808534"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/LockdownParameters.plist",
+        "fileID": "85cbb36a0a73dabd9e37d3d443bd186fa467e90f",
+        "flags": "1",
+        "birth_raw": "1490762750",
+        "modified_raw": "1490762750"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/MCProfileEvents.plist",
+        "fileID": "aeb25de285ea542f7ac7c2070cddd1961e369df1",
+        "flags": "1",
+        "birth_raw": "1788809077",
+        "modified_raw": "1788809077"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/MCSettingsEvents.plist",
+        "fileID": "9c46fd950cb447d02fb55f6bfe00251032bda8b4",
+        "flags": "1",
+        "birth_raw": "1789742182",
+        "modified_raw": "1789742182"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/MCSettingsEvents.plist.sb-88c62b0d-BqZVF7",
+        "fileID": "b2b33ffff1e35e0dcc5c886b9a964ba3a2e90a7d",
+        "flags": "2",
+        "birth_raw": "1754639037",
+        "modified_raw": "1754639037"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/MCSettingsEvents.plist.sb-88c62b0d-BqZVF7/MCSettingsEvents.plist",
+        "fileID": "aac78adb09e91faadaa36de329f2d226d274c407",
+        "flags": "1",
+        "birth_raw": "1754639037",
+        "modified_raw": "1754639037"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/PayloadDependency.plist",
+        "fileID": "4d607fcf6b9a281ae940ac7572e9494f4dfa2042",
+        "flags": "1",
+        "birth_raw": "1755077305",
+        "modified_raw": "1755077305"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/PayloadManifest.plist",
+        "fileID": "8e7f26685d92296da2100cfaf98173f45da1ce88",
+        "flags": "1",
+        "birth_raw": "1755077305",
+        "modified_raw": "1755077305"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/ProfileTruth.plist",
+        "fileID": "b2998988ede72dc5ec6d24d258f060d2b2e961b1",
+        "flags": "1",
+        "birth_raw": "1755077305",
+        "modified_raw": "1755077305"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/PublicInfo",
+        "fileID": "0570415eb508276a4626d1952c7da108b691b692",
+        "flags": "2",
+        "birth_raw": "1635526129",
+        "modified_raw": "1789742182"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/PublicInfo/MCMeta.plist",
+        "fileID": "77e6b5a266733afee2b161f9ec40f2164639ab21",
+        "flags": "1",
+        "birth_raw": "1748149154",
+        "modified_raw": "1748149154"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist",
+        "fileID": "4bf2c57686ace66ebb9a7edafc27a5f59631b5f4",
+        "flags": "1",
+        "birth_raw": "1789742182",
+        "modified_raw": "1789742182"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/UserSettings.plist",
+        "fileID": "c857040ce4ce8654af495a2f04da92a0a5111fac",
+        "flags": "1",
+        "birth_raw": "1789742182",
+        "modified_raw": "1789742182"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+        "relativePath": "Library/ConfigurationProfiles/phone",
+        "fileID": "75a5229d56b88ec432c9a2b6a77a23ee7b694ef3",
+        "flags": "2",
+        "birth_raw": "1547824055",
+        "modified_raw": "1547824055"
+      }
+    ],
+    "account_devices": [
+      {
+        "domain": "HomeDomain",
+        "relativePath": "Library/Preferences/com.apple.icloud.findmydeviced.FMIPAccounts.plist",
+        "fileID": "cb268d19ef64a3fab915151f3ae40853d7e7cd91",
+        "flags": "1",
+        "birth_raw": "1789741834",
+        "modified_raw": "1789741834"
+      },
+      {
+        "domain": "SysSharedContainerDomain-systemgroup.com.apple.icloud.findmydevice.managed",
+        "relativePath": "Library/Preferences/com.apple.icloud.findmydeviced.FMIPAccounts.plist",
+        "fileID": "054f83cb9b84268797a873aac72b6035fa89f280",
+        "flags": "1",
+        "birth_raw": "1789741834",
+        "modified_raw": "1789741834"
+      }
+    ]
+  },
+  "limit": "Noms de chemins uniquement; logiciel inconnu/renommé ou accès compte côté serveur non exclus."
+}

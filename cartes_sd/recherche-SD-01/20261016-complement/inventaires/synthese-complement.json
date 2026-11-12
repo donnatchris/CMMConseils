@@ -1,0 +1,47 @@
+{
+  "raw_slots_examined": 936,
+  "raw_fat_1999_slots": 0,
+  "fat_2000_slots": 9,
+  "fat_2000_alias_slots": 4,
+  "daily_directories": 81,
+  "parent_within_2seconds_last": 79,
+  "dot_within_2seconds_first": 79,
+  "october15_video_count": 37,
+  "october15_duration_seconds": 1911.954,
+  "october15_fat_written_minus_estimated_end_range": [
+    -1.6000000000000014,
+    0.5840000000000032
+  ],
+  "october15_stsd_pairs": {
+    "213b1835be0042c92d0bfec261e63c0d961cfb79e05ad27088ecd0e20bd678b9|53174a7427c69d2fd117c75bdaa506f9dce6bdedf4c1f77392c98e8f3fa1051c": 37
+  },
+  "october15_sample_table_anomalies": [],
+  "october15_largest_internal_gaps": [
+    {
+      "inode": "41329300",
+      "next_start": "2024-10-15 22:40:22",
+      "gap_seconds": 18891.76
+    },
+    {
+      "inode": "41329208",
+      "next_start": "2024-10-15 16:55:38",
+      "gap_seconds": 6825.096
+    },
+    {
+      "inode": "41329172",
+      "next_start": "2024-10-15 14:49:52",
+      "gap_seconds": 5166.4
+    },
+    {
+      "inode": "41329168",
+      "next_start": "2024-10-15 13:23:20",
+      "gap_seconds": 4032.952
+    },
+    {
+      "inode": "41329224",
+      "next_start": "2024-10-15 17:04:10",
+      "gap_seconds": 258.944
+    }
+  ],
+  "media_hashes_rechecked": 45
+}

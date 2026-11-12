@@ -1,0 +1,83 @@
+Using locale 'C.UTF-8'.
+
+
+Thu Oct 15 07:50:29 2026
+Command line: PhotoRec /log /d /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-01/RECUPERATION /mnt/ewf-sd01/ewf1
+
+PhotoRec 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.8.0-110-generic (#110-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 19 15:09:20 UTC 2026) x86_64
+Compiler: GCC 13.2
+ext2fs lib: 1.47.0, ntfs lib: libntfs-3g, ewf lib: none, libjpeg: libjpeg-turbo-2.1.5, curses lib: ncurses 6.4
+Hard disk list
+Disk /mnt/ewf-sd01/ewf1 - 31 GB / 29 GiB - CHS 3881 255 63 (RO), sector size=512
+
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+heads/cylinder 4 (FAT) != 255 (HD)
+sect/track 16 (FAT) != 63 (HD)
+set_FAT_info: name from BS used
+     No partition             0   0  1  3880  27 51   62333952 [Whole disk]
+ 1 P FAT32 LBA                0 130  3  3880  27 51   62325760
+     FAT32, blocksize=16384, 31 GB / 29 GiB
+718 first-level signatures enabled
+
+Analyse
+ 1 P FAT32 LBA                0 130  3  3880  27 51   62325760
+     FAT32, blocksize=16384, 31 GB / 29 GiB
+Pass 0 (blocksize=16384) STATUS_FIND_OFFSET
+blocksize=16384, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=16384) STATUS_EXT2_OFF
+Elapsed time 0h01m31s
+Pass 1 +0 file
+Total: 0 files found
+
+62325760 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.1</version>
+    <build_environment>
+      <compiler>GCC 13.2</compiler>
+      <library name='libext2fs' version='1.47.0'/>
+      <library name='libewf' version='none'/>
+      <library name='libjpeg' version='libjpeg-turbo-2.1.5'/>
+      <library name='libntfs' version='libntfs-3g'/>
+      <library name='zlib' version='1.3'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>6.8.0-110-generic</os_release>
+      <os_version>#110-Ubuntu SMP PREEMPT_DYNAMIC Thu Mar 19 15:09:20 UTC 2026</os_version>
+      <host>siftworkstation</host>
+      <arch>x86_64</arch>
+      <uid>0</uid>
+      <start_time>2026-10-15T07:52:32+0000</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>/mnt/ewf-sd01/ewf1</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>31914983424</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='4194304' len='31910789120'/>
+      </byte_runs>
+      <block_size>16384</block_size>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+</dfxml>

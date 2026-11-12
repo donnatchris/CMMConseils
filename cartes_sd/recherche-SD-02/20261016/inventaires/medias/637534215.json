@@ -1,0 +1,26 @@
+{
+  "inode": "637534215",
+  "path": "System Volume Information/WPSettings.dat",
+  "size": 12,
+  "deleted": false,
+  "start_cluster": 1245187,
+  "method": "lecture chaîne FAT active",
+  "read_size": 12,
+  "sha256": "5a129fce21f768ec39c6ae975ed2c1cf1bd7957e038cb054a5976f823b2564d7",
+  "allocated_chain_clusters": 1,
+  "artifact": "prive/extraits/637534215_WPSettings.dat",
+  "icat_crosscheck": {
+    "argv": [
+      "icat",
+      "-o",
+      "8192",
+      "/mnt/ewf-sd02/ewf1",
+      "637534215"
+    ],
+    "returncode": 0,
+    "bytes": 12,
+    "sha256": "5a129fce21f768ec39c6ae975ed2c1cf1bd7957e038cb054a5976f823b2564d7",
+    "matches": true,
+    "stderr": ""
+  }
+}

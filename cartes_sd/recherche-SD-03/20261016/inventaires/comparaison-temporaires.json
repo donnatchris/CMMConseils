@@ -1,0 +1,195 @@
+{
+  "deleted_entries": [
+    {
+      "inode": "1543",
+      "path": "CAMERA SALON/.record_tmp/20241031_232538_10.mp4",
+      "size": 2123808,
+      "deleted": true,
+      "start_cluster": 1487054,
+      "method": "icat -r heuristique pour entrée supprimée",
+      "recovery": {
+        "argv": [
+          "icat",
+          "-r",
+          "-o",
+          "8192",
+          "/mnt/ewf-sd03/ewf1",
+          "1543"
+        ],
+        "returncode": 0,
+        "stderr": ""
+      },
+      "read_size": 16384,
+      "sha256": "49ca54e990b5ce24ba5fe15eb5ae53fbccdb5ee492547942f88c7c55dc28d02e",
+      "allocated_chain_clusters": 0,
+      "prefix_bytes": 16384,
+      "prefix_sha256": "49ca54e990b5ce24ba5fe15eb5ae53fbccdb5ee492547942f88c7c55dc28d02e",
+      "stsd": [],
+      "ffprobe": {
+        "argv": [
+          "ffprobe",
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "/proc/self/fd/4"
+        ],
+        "returncode": 1,
+        "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x57cd4ad26680] moov atom not found\n/proc/self/fd/4: Invalid data found when processing input\n"
+      },
+      "packets": {
+        "argv": [
+          "ffprobe",
+          "-v",
+          "error",
+          "-select_streams",
+          "v:0",
+          "-show_packets",
+          "-show_entries",
+          "packet=pts,dts",
+          "-of",
+          "json",
+          "/proc/self/fd/4"
+        ],
+        "returncode": 1,
+        "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5d903da43700] moov atom not found\n/proc/self/fd/4: Invalid data found when processing input\n",
+        "summary": {
+          "dts": {
+            "count": 0,
+            "nonincreasing": 0,
+            "max_delta": null,
+            "min_delta": null
+          },
+          "pts": {
+            "count": 0,
+            "nonincreasing": 0,
+            "max_delta": null,
+            "min_delta": null
+          }
+        },
+        "raw_output_sha256": "8e1d794b49e35ea828279c6a8c95282bbb9a0787cf5c9385256c2cc9d17baeb7"
+      },
+      "artifact": "prive/priorite/1543_20241031_232538_10.mp4"
+    },
+    {
+      "inode": "1547",
+      "path": "CAMERA SALON/.record_tmp/20241031_232538_10.mp4.moov",
+      "size": 1006,
+      "deleted": true,
+      "start_cluster": 1487055,
+      "method": "icat -r heuristique pour entrée supprimée",
+      "recovery": {
+        "argv": [
+          "icat",
+          "-r",
+          "-o",
+          "8192",
+          "/mnt/ewf-sd03/ewf1",
+          "1547"
+        ],
+        "returncode": 0,
+        "stderr": ""
+      },
+      "read_size": 1006,
+      "sha256": "731c49c0eb32815913b66158889c78a53f83fcea0e661589ac633b8fa5c26e15",
+      "allocated_chain_clusters": 0,
+      "prefix_bytes": 1006,
+      "prefix_sha256": "731c49c0eb32815913b66158889c78a53f83fcea0e661589ac633b8fa5c26e15",
+      "artifact": "prive/priorite/1547_20241031_232538_10.mp4.moov"
+    },
+    {
+      "inode": "1551",
+      "path": "CAMERA SALON/.record_tmp/20241031_232538_10.mp4.stbl",
+      "size": 10784,
+      "deleted": true,
+      "start_cluster": 1487056,
+      "method": "icat -r heuristique pour entrée supprimée",
+      "recovery": {
+        "argv": [
+          "icat",
+          "-r",
+          "-o",
+          "8192",
+          "/mnt/ewf-sd03/ewf1",
+          "1551"
+        ],
+        "returncode": 0,
+        "stderr": ""
+      },
+      "read_size": 10784,
+      "sha256": "55398e14a70a2b0d198cd959a3c09233571d867b6ba6f269ead699b1455b8259",
+      "allocated_chain_clusters": 0,
+      "prefix_bytes": 10784,
+      "prefix_sha256": "55398e14a70a2b0d198cd959a3c09233571d867b6ba6f269ead699b1455b8259",
+      "artifact": "prive/priorite/1551_20241031_232538_10.mp4.stbl"
+    }
+  ],
+  "pairs": [
+    {
+      "deleted_inode": "1543",
+      "deleted_path": "CAMERA SALON/.record_tmp/20241031_232538_10.mp4",
+      "deleted_declared_size": 2123808,
+      "deleted_read_bytes": 16384,
+      "final_inode": "761370124",
+      "final_path": "CAMERA SALON/record/20241031/20241031_232538_10_0028.mp4",
+      "final_size": 2617249,
+      "same_start_cluster": true,
+      "compared_prefix_bytes": 16384,
+      "prefix_equal": true,
+      "prefix_sha256": "49ca54e990b5ce24ba5fe15eb5ae53fbccdb5ee492547942f88c7c55dc28d02e",
+      "final_sha256": "81c80db68065233b96132ee4ff4c3a3bd93b107f497a48f1ef13b3bec22eee03",
+      "limitation": "Les deux entrées pointent sur le même premier cluster actuel : le préfixe est une concordance de récupération et ne prouve pas que son contenu soit inchangé depuis la suppression.",
+      "auxiliary_stbl": {
+        "inode": "1551",
+        "bytes": 10784,
+        "parse_summary": {
+          "start": 0,
+          "parsed_until": 10784,
+          "reason": "borne",
+          "record_count": 963,
+          "unparsed_nonzero_bytes": 0
+        },
+        "comparisons": [
+          {
+            "token": "vdsz",
+            "temp_count": 266,
+            "final_count": 317,
+            "prefix_equal": true,
+            "first_mismatch": null
+          },
+          {
+            "token": "sdsz",
+            "temp_count": 182,
+            "final_count": 227,
+            "prefix_equal": true,
+            "first_mismatch": null
+          },
+          {
+            "token": "vdco",
+            "temp_count": 27,
+            "final_count": 33,
+            "prefix_equal": true,
+            "first_mismatch": null
+          },
+          {
+            "token": "sdco",
+            "temp_count": 26,
+            "final_count": 33,
+            "prefix_equal": true,
+            "first_mismatch": null
+          },
+          {
+            "token": "vdss",
+            "temp_count": 266,
+            "final_count": 317,
+            "prefix_equal": true,
+            "first_mismatch": null
+          }
+        ]
+      }
+    }
+  ],
+  "interpretation": "Concordance entre temporaires supprimés et fichier final présent ; processus de finalisation/nettoyage fortement étayé, sans journal d’exécution ni preuve d’intention individuelle."
+}

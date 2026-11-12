@@ -1,0 +1,41 @@
+[
+  {
+    "objet": "État initial",
+    "commande": "ssh -F /home/chris/.ssh/config sift : sudo stat ewf1 ; ewfinfo SD01.E01 ; mmls ewf1 ; fsstat -o 8192 ewf1",
+    "sortie": "journaux/etat-initial.txt",
+    "limite": "Commande combinée préliminaire ; commandes individuelles et retours dans commandes.jsonl ensuite"
+  },
+  {
+    "objet": "Consignes",
+    "sources": [
+      "/media/shared/AGENTS.md"
+    ],
+    "sortie": "journaux/consignes-distantes.txt"
+  },
+  {
+    "objet": "Cibles initiales",
+    "commande": "sudo -n istat -z UTC -o 8192 /mnt/ewf-sd01/ewf1 1543 ; même commande 76861460",
+    "sortie": "journaux/istat-cibles-initial.txt"
+  },
+  {
+    "objet": "Journaux PhotoRec préexistants",
+    "commande": "cat des deux fichiers sources, aucune exécution de PhotoRec",
+    "sources": [
+      "/media/shared/forensic/SADEDINE-2026/ANALYSES/SD-01/RECUPERATION/photorec.log",
+      "/media/shared/forensic/SADEDINE-2026/ANALYSES/SD-01/RECUPERATION.1/report.xml"
+    ],
+    "sortie": "journaux/photorec-anterieur.txt"
+  },
+  {
+    "objet": "Optimisation scan",
+    "commande": "sudo -n kill -INT 11595",
+    "limite": "PID de notre premier scan python3 identifié par ps ; jamais réutiliser ce numéro sans vérifier le processus",
+    "resultat": "KeyboardInterrupt enregistré ; scan v2 indépendant complet"
+  },
+  {
+    "objet": "Affichage 1999",
+    "procedure": "datetime(2000,1,1,0,0,26).replace(tzinfo=ZoneInfo(\"Europe/Paris\")).astimezone(timezone.utc)",
+    "sortie": "inventaires/hypothese-conversion-1999.json",
+    "qualification": "Démonstration hypothétique, pas réglage historique vérifié"
+  }
+]

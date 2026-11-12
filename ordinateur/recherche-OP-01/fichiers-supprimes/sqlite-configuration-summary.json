@@ -1,0 +1,58 @@
+{
+  "mft_index": 439945,
+  "schema": [
+    [
+      "CREATE TABLE Config (id INTEGER PRIMARY KEY, name TEXT, parentId INTEGER, market TEXT, itemType INTEGER, value)"
+    ],
+    [
+      "CREATE INDEX idx_market ON Config(market)"
+    ],
+    [
+      "CREATE INDEX idx_parentAndMarket ON Config(parentId, market)"
+    ]
+  ],
+  "records": 1784,
+  "url_domains": {
+    "weathermapdata.blob.core.windows.net": 2,
+    "persephone.blob.core.windows.net": 4,
+    "api.msn.com": 31,
+    "ppe-api.msn.com": 1,
+    "api.taboola.com": 4,
+    "odb.outbrain.com": 1,
+    "www.msnapps.com": 1,
+    "srtb.msn.com": 1,
+    "config.edge.skype.net": 1,
+    "api.bing.com": 1,
+    "platform.bing.com": 3,
+    "dev.virtualearth.net": 1,
+    "login.microsoftonline.com": 1,
+    "dpa-fwl.microsoft.com": 1,
+    "appex.bing.com": 1,
+    "go.microsoft.com": 10,
+    "www.msn.com": 8,
+    "login.microsoft.com": 1,
+    "login.live.com": 4,
+    "substrate.office.com": 1,
+    "storage.live.com": 1,
+    "img-s-msn-com.akamaized.net": 1,
+    "microsoft.onmicrosoft.com": 2,
+    "recirc.cloudapp.net": 1,
+    "sam.benevity.org": 1,
+    "popup.taboola.com": 1,
+    "www.outbrain.com": 1,
+    "beta.itunes.apple.com": 1,
+    "play.google.com": 2,
+    "aka.ms": 2,
+    "persephoneappstorebadges.blob.core.windows.net": 1,
+    "www.facebook.com": 1,
+    "twitter.com": 1,
+    "web.whatsapp.com": 1,
+    "www.linkedin.com": 1,
+    "a.msn.com": 1,
+    "assets.msn.com": 4,
+    "blob.weather.microsoft.com": 6,
+    "www.bing.com": 1,
+    "service.weather.msn.cn": 1,
+    "www.microsoft.com": 1
+  }
+}

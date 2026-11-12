@@ -1,0 +1,38 @@
+[
+  {
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "warning",
+      "-ss",
+      "1",
+      "-i",
+      "cartes_sd/recherche-SD-01/20261015/prive/extraits/22835208_20240301_040505_10_0012.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=960:-1",
+      "cartes_sd/recherche-SD-01/20261015/prive/previsualisations-initiales/22835208.png"
+    ],
+    "returncode": 0,
+    "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x595f549eeec0] wrong sample count\n    Last message repeated 1 times\n[image2 @ 0x595f54a20480] The specified filename 'cartes_sd/recherche-SD-01/20261015/prive/previsualisations-initiales/22835208.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x595f54a20480] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+  },
+  {
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "warning",
+      "-ss",
+      "1",
+      "-i",
+      "cartes_sd/recherche-SD-01/20261015/prive/extraits/20903944_20240221_233914_10_0151.mp4",
+      "-frames:v",
+      "1",
+      "-vf",
+      "scale=960:-1",
+      "cartes_sd/recherche-SD-01/20261015/prive/previsualisations-initiales/20903944.png"
+    ],
+    "returncode": 0,
+    "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x625d4598dec0] wrong sample count\n    Last message repeated 1 times\n[image2 @ 0x625d45b43780] The specified filename 'cartes_sd/recherche-SD-01/20261015/prive/previsualisations-initiales/20903944.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x625d45b43780] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "inode": "1551",
+  "path": "CAMERA SALON/.record_tmp/20241031_232538_10.mp4.stbl",
+  "size": 10784,
+  "deleted": true,
+  "start_cluster": 1487056,
+  "method": "icat -r heuristique pour entrée supprimée",
+  "recovery": {
+    "argv": [
+      "icat",
+      "-r",
+      "-o",
+      "8192",
+      "/mnt/ewf-sd03/ewf1",
+      "1551"
+    ],
+    "returncode": 0,
+    "stderr": ""
+  },
+  "read_size": 10784,
+  "sha256": "55398e14a70a2b0d198cd959a3c09233571d867b6ba6f269ead699b1455b8259",
+  "allocated_chain_clusters": 0,
+  "prefix_bytes": 10784,
+  "prefix_sha256": "55398e14a70a2b0d198cd959a3c09233571d867b6ba6f269ead699b1455b8259",
+  "artifact": "prive/priorite/1551_20241031_232538_10.mp4.stbl"
+}

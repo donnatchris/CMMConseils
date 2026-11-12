@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-Ntfs%4Operational.evtx",
+    "sha256_before": "4c8d481568b22bc9f1742fc56c9a5a1b02695bc755dc0714d0611773dabc0db3",
+    "sha256_after": "4c8d481568b22bc9f1742fc56c9a5a1b02695bc755dc0714d0611773dabc0db3"
+  },
+  {
+    "path": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-Partition%4Diagnostic.evtx",
+    "sha256_before": "52d39f5aa15e273fa60d9289a859677d1f74580cd2a5dc4e3e2c3bbc28d23236",
+    "sha256_after": "52d39f5aa15e273fa60d9289a859677d1f74580cd2a5dc4e3e2c3bbc28d23236"
+  },
+  {
+    "path": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-StateRepository%4Operational.evtx",
+    "sha256_before": "00225e1f07fab318732431a944115ffc42cf8d71ce360b6bf7c76264e9084066",
+    "sha256_after": "00225e1f07fab318732431a944115ffc42cf8d71ce360b6bf7c76264e9084066"
+  },
+  {
+    "path": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-Storage-ClassPnP%4Operational.evtx",
+    "sha256_before": "9a3115e55d296d969daa943086579613d3ad13073af2c5a3fa0993d45ed706bf",
+    "sha256_after": "9a3115e55d296d969daa943086579613d3ad13073af2c5a3fa0993d45ed706bf"
+  },
+  {
+    "path": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-StorageSpaces-Driver%4Operational.evtx",
+    "sha256_before": "d3b0273a5101609fa7df0e4d37ac1efe15547691838f9a8fd62d43b404e58279",
+    "sha256_after": "d3b0273a5101609fa7df0e4d37ac1efe15547691838f9a8fd62d43b404e58279"
+  },
+  {
+    "path": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-Storsvc%4Diagnostic.evtx",
+    "sha256_before": "c82e365db85b353c23b411c425542a91b85ba3fd6dc665f7b025d585968d43b0",
+    "sha256_after": "c82e365db85b353c23b411c425542a91b85ba3fd6dc665f7b025d585968d43b0"
+  }
+]

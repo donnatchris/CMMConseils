@@ -1,0 +1,622 @@
+{
+  "entries": 3632,
+  "active_regular": 3306,
+  "deleted_regular": 326,
+  "active_mp4": 3301,
+  "finalized_record_mp4": 3300,
+  "valid_named_finalized_mp4": 3299,
+  "read_errors": [],
+  "hash_active_bytes": 31583051377,
+  "active_ffprobe_failed": [
+    "CAMERA TERRASSE/.record_tmp/20241112_234855_10.mp4"
+  ],
+  "active_decode_count": 17,
+  "active_decode_failed": [
+    "CAMERA TERRASSE/.record_tmp/20241112_234855_10.mp4"
+  ],
+  "active_decode_warning_logs": [
+    {
+      "inode": "6806024",
+      "path": "CAMERA TERRASSE/record/20241108/20241108_000002_10_0164.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/6806024.txt"
+      }
+    },
+    {
+      "inode": "115692500",
+      "path": "CAMERA TERRASSE/record/20241108/20241108_235611_10_0228.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/115692500.txt"
+      }
+    },
+    {
+      "inode": "167293448",
+      "path": "CAMERA TERRASSE/record/20241109/20241109_000002_10_0073.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/167293448.txt"
+      }
+    },
+    {
+      "inode": "268232192",
+      "path": "CAMERA TERRASSE/record/20241109/20241109_235832_10_0034.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/268232192.txt"
+      }
+    },
+    {
+      "inode": "273341448",
+      "path": "CAMERA TERRASSE/record/20242010/20242010_060029_10_0032.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/273341448.txt"
+      }
+    },
+    {
+      "inode": "287307784",
+      "path": "CAMERA TERRASSE/record/20241110/20241110_000002_10_0057.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/287307784.txt"
+      }
+    },
+    {
+      "inode": "989809104",
+      "path": "CAMERA TERRASSE/record/20241110/20241110_235507_10_0292.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/989809104.txt"
+      }
+    },
+    {
+      "inode": "374877704",
+      "path": "CAMERA TERRASSE/record/20241111/20241111_000001_10_0007.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/374877704.txt"
+      }
+    },
+    {
+      "inode": "461116688",
+      "path": "CAMERA TERRASSE/record/20241111/20241111_235919_10_0040.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/461116688.txt"
+      }
+    },
+    {
+      "inode": "600023412",
+      "path": "CAMERA TERRASSE/record/20241112/20241112_194821_10_0033.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/600023412.txt"
+      }
+    },
+    {
+      "inode": "575101300",
+      "path": "CAMERA TERRASSE/record/20241105/20241105_070623_10_0300.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/575101300.txt"
+      }
+    },
+    {
+      "inode": "657582556",
+      "path": "CAMERA TERRASSE/record/20241105/20241105_235700_10_0179.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/657582556.txt"
+      }
+    },
+    {
+      "inode": "692896776",
+      "path": "CAMERA TERRASSE/record/20241106/20241106_000000_10_0001.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/692896776.txt"
+      }
+    },
+    {
+      "inode": "806016876",
+      "path": "CAMERA TERRASSE/record/20241106/20241106_235730_10_0149.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/806016876.txt"
+      }
+    },
+    {
+      "inode": "848167944",
+      "path": "CAMERA TERRASSE/record/20241107/20241107_000000_10_0154.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/848167944.txt"
+      }
+    },
+    {
+      "inode": "944463784",
+      "path": "CAMERA TERRASSE/record/20241107/20241107_235741_10_0138.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/decodage/944463784.txt"
+      }
+    },
+    {
+      "inode": "1543",
+      "path": "CAMERA TERRASSE/.record_tmp/20241112_234855_10.mp4",
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 183,
+        "stderr_bytes": 259,
+        "log": "journaux/decodage/1543.txt"
+      }
+    }
+  ],
+  "active_table_anomaly_files": [],
+  "active_structural_error_files": [],
+  "active_packet_anomalies": [],
+  "mp4_creation_times": {
+    "1970-01-01T00:00:00.000000Z": 3300,
+    "null": 1
+  },
+  "raw_mp4_times": [
+    {
+      "creation": "2082844800",
+      "modification": "2082844800",
+      "count": 16500
+    }
+  ],
+  "codec_profiles": [
+    {
+      "profile": [
+        "audio",
+        "aac",
+        null,
+        null,
+        "8000"
+      ],
+      "count": 3300
+    },
+    {
+      "profile": [
+        "video",
+        "h264",
+        1920,
+        1080,
+        null
+      ],
+      "count": 3300
+    }
+  ],
+  "sample_description_hashes": [
+    {
+      "size": "100",
+      "sha256": "213b1835be0042c92d0bfec261e63c0d961cfb79e05ad27088ecd0e20bd678b9",
+      "count": 3300
+    },
+    {
+      "size": "160",
+      "sha256": "53174a7427c69d2fd117c75bdaa506f9dce6bdedf4c1f77392c98e8f3fa1051c",
+      "count": 3300
+    }
+  ],
+  "duplicates": [],
+  "icat_crosschecks": 6,
+  "icat_crosscheck_mismatch": [],
+  "sd01_comparison_source": "cartes_sd/recherche-SD-01/20261015/inventaires/export.json",
+  "sd01_identical_active_files": [
+    {
+      "sd02": ".rw",
+      "sd01": [
+        ".rw"
+      ],
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "daily": [
+    {
+      "day": "2024-11-05",
+      "count": 155,
+      "first_name_start": "2024-11-05 07:06:23",
+      "last_name_start": "2024-11-05 23:57:00",
+      "last_estimated_end": "2024-11-05 23:59:59.712000",
+      "sum_duration_seconds": 16559.579,
+      "max_internal_gap_seconds": 30707.696,
+      "internal_overlaps": 20
+    },
+    {
+      "day": "2024-11-06",
+      "count": 346,
+      "first_name_start": "2024-11-06 00:00:00",
+      "last_name_start": "2024-11-06 23:57:30",
+      "last_estimated_end": "2024-11-07 00:00:00.016000",
+      "sum_duration_seconds": 54019.76,
+      "max_internal_gap_seconds": 21429.952,
+      "internal_overlaps": 42
+    },
+    {
+      "day": "2024-11-07",
+      "count": 489,
+      "first_name_start": "2024-11-07 00:00:00",
+      "last_name_start": "2024-11-07 23:57:41",
+      "last_estimated_end": "2024-11-07 23:59:59.368000",
+      "sum_duration_seconds": 54200.395,
+      "max_internal_gap_seconds": 5624.352,
+      "internal_overlaps": 53
+    },
+    {
+      "day": "2024-11-08",
+      "count": 372,
+      "first_name_start": "2024-11-08 00:00:02",
+      "last_name_start": "2024-11-08 23:56:11",
+      "last_estimated_end": "2024-11-08 23:59:59.736000",
+      "sum_duration_seconds": 56153.089,
+      "max_internal_gap_seconds": 2931.056,
+      "internal_overlaps": 41
+    },
+    {
+      "day": "2024-11-09",
+      "count": 511,
+      "first_name_start": "2024-11-09 00:00:02",
+      "last_name_start": "2024-11-09 23:58:32",
+      "last_estimated_end": "2024-11-09 23:59:06.304000",
+      "sum_duration_seconds": 42291.283,
+      "max_internal_gap_seconds": 24906.696,
+      "internal_overlaps": 49
+    },
+    {
+      "day": "2024-11-10",
+      "count": 499,
+      "first_name_start": "2024-11-10 00:00:02",
+      "last_name_start": "2024-11-10 23:55:07",
+      "last_estimated_end": "2024-11-10 23:59:59.608000",
+      "sum_duration_seconds": 44108.036,
+      "max_internal_gap_seconds": 14269.184,
+      "internal_overlaps": 49
+    },
+    {
+      "day": "2024-11-11",
+      "count": 451,
+      "first_name_start": "2024-11-11 00:00:01",
+      "last_name_start": "2024-11-11 23:59:19",
+      "last_estimated_end": "2024-11-11 23:59:59.704000",
+      "sum_duration_seconds": 45273.674,
+      "max_internal_gap_seconds": 8440.507,
+      "internal_overlaps": 47
+    },
+    {
+      "day": "2024-11-12",
+      "count": 476,
+      "first_name_start": "2024-11-12 00:00:01",
+      "last_name_start": "2024-11-12 19:48:21",
+      "last_estimated_end": "2024-11-12 19:48:54.664000",
+      "sum_duration_seconds": 51313.595,
+      "max_internal_gap_seconds": 1771.464,
+      "internal_overlaps": 59
+    }
+  ],
+  "active_access_dates": {
+    "2023-11-11 00:00:00": 1,
+    "2024-11-08 00:00:00": 372,
+    "2025-09-18 00:00:00": 382,
+    "2024-11-09 00:00:00": 456,
+    "2026-07-07 00:00:00": 478,
+    "2024-11-10 00:00:00": 499,
+    "2024-11-11 00:00:00": 451,
+    "2025-05-18 00:00:00": 63,
+    "2024-11-12 00:00:00": 413,
+    "2026-10-12 00:00:00": 4,
+    "2024-11-05 00:00:00": 150,
+    "2025-09-11 00:00:00": 1,
+    "2026-10-06 00:00:00": 36
+  },
+  "deleted_read_sizes": {
+    "16384": 315,
+    "26299013": 1,
+    "26306688": 1,
+    "14355289": 1,
+    "26193642": 1,
+    "3005335": 1,
+    "26316475": 1,
+    "6446568": 1,
+    "26238484": 1,
+    "26321132": 1,
+    "26259093": 1,
+    "26321113": 1
+  },
+  "deleted_ffprobe_success": 10,
+  "selection_rule": "Conservation : supprimés, dates 1999/2000 création/écriture, non-vidéos, témoins ; décodage : toutes vidéos du 15, dates aberrantes, premier/dernier par jour et anomalies structurelles détectées en cours. Tous les fichiers vidéo reçoivent un examen des tables, FFprobe et les temps des paquets.",
+  "duration_minus_suffix_min": 0.089,
+  "duration_minus_suffix_max": 1.568,
+  "fat_written_minus_end_min": -2.072,
+  "fat_written_minus_end_max": 1.96
+}

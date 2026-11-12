@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "rg",
+    "-n",
+    "-i",
+    "réinitialis|reinitialis|31.?12.?1999|février|fevrier|perquisition|scell",
+    "docs/mail.txt",
+    "discussion-chat.md",
+    "remise-documents/attestation-de-remise.md",
+    "cartes_sd/analyse-cartes_sd.md",
+    "freebox/analyse-freebox.md",
+    "telephones/analyse-TP-02.md",
+    "ordinateur/analyse-ordinateur.md"
+  ],
+  "returncode": 0,
+  "stderr": "",
+  "scope": "Pièces textuelles nommées ; les rapports de synthèse ne remplacent pas le mail original ; aucune recherche dans un compte externe ou une interface caméra"
+}

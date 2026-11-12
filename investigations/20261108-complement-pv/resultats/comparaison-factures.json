@@ -1,0 +1,33 @@
+{
+  "method": "pdftotext -layout; all whitespace removed; case and punctuation preserved",
+  "test_sha256": "f2cb8dbbbb28fe11eaddc59d31045152218516a1585109bd529a075e48dd8201",
+  "sage_text_sha256": "eca7572f33eff10ed6271ab8ca5f0b26232fad8f6d9e11f19a1e6af0a1fc96a5",
+  "test_pages": 2,
+  "sage_text_pages": 458,
+  "results": [
+    {
+      "test_page": 1,
+      "invoice_ids": [
+        "FA0338"
+      ],
+      "identical_normalized_text_pages": [
+        254
+      ],
+      "same_invoice_id_pages": [
+        254
+      ]
+    },
+    {
+      "test_page": 2,
+      "invoice_ids": [
+        "FA0339"
+      ],
+      "identical_normalized_text_pages": [
+        255
+      ],
+      "same_invoice_id_pages": [
+        255
+      ]
+    }
+  ]
+}

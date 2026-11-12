@@ -1,0 +1,299 @@
+1073"> • </string>
+		<string id="1007">Tamanho</string>
+		<string id="1075">0</string>
+		<string id="1109">Importar imagem</string>
+	</dlg>
+	<dlg id="109">
+		<caption>Catálogo de endereços</caption>
+		<string id="1092">Endereço recente</string>
+		<string id="1093">Catálogo de endereços</string>
+		<string id="1097"></string>
+		<string id="1012">&gt;</string>
+		<string id="1013">&lt;</string>
+		<string id="1014">Destinatários</string>
+		<string id="1">OK</string>
+		<string id="2">Cancelar</string>
+	</dlg>
+	<dlg id="114">
+		<caption></caption>
+		<string id="1">OK</string>
+	</dlg>
+	<dlg id="150">
+		<caption></caption>
+		<string id="1117">Hoje</string>
+		<string id="1162">Mês</string>
+		<string id="1163">Dia</string>
+	</dlg>
+	<dlg id="159">
+		<caption></caption>
+		<string id="1">OK</string>
+		<string id="2">Cancelar</string>
+	</dlg>
+</resources>
+  </NetFaxSendUI>
+  <NetFaxDevBrowser>
+    <resources>
+	<dlg id="105">
+		<caption>Procurar MFP</caption>
+		<string id="207">Selecionar fax de rede</string>
+		<string id="202">Detecção automática na rede</string>
+		<string id="203">Endereço IP ou nome</string>
+		<string id="205">Pesquisar agora</string>
+		<string id="206">Interromper pesquisa</string>
+		<string id="9">Ajuda</string>
+		<string id="1">OK</string>
+		<string id="2">Cancelar</string>
+	</dlg>
+	<dlg id="106">
+		<caption>Configurações</caption>
+		<string id="1">OK</string>
+		<string id="2">Cancelar</string>
+		<string id="209">Nome da comunidade SNMP</string>
+	</dlg>
+	<strings>
+		<string id="100">NetDevBrowser</string>
+		<string id="101">Classe NetDevBrowser</string>
+		<string id="102">Erro desconhecido de rede</string>
+		<string id="103">Não há serviço SNMP disponível</string>
+		<string id="105">Endereço IP</string>
+		<string id="104">Observação: Se o nome da comunidade estiver incorreto, a comunicação bidirecional não ocorrerá. Entre em contato com o administrador para obter o nome correto da comunidade Leitura para inserir nesta caixa de diálogo.  O nome da comunidade SNMP diferencia maiúsculas e minúsculas. O nome padrão é "public". Se o campo de texto não for preenchido, o nome padrão será aplicado.</string>
+		<string id="106">Local</string>
+		<string id="107">Descrição</string>
+		<string id="108">Iniciar</string>
+		<string id="109">Parar</string>
+		<string id="110">Atualizar</string>
+	</strings>
+</resources>
+  </NetFaxDevBrowser>
+  <NetFaxPhonebook>
+    <resources>
+	<strings>
+		<string id="100">STPhonebook</string>
+		<string id="101">Remover</string>
+		<string id="102">Adicionar </string>
+		<string id="103">Novo destinatário</string>
+		<string id="104">000-00-00</string>
+		<string id="105">#</string>
+		<string id="106">Nome</string>
+		<string id="107">Número do fax</string>
+		<string id="108">Data</string>
+		<string id="109">Este endereço já existe. Modifique o nome do usuário ou o telefone.</string>
+		<string id="110">Não é possível modificar o catálogo de endereços do sistema.</string>
+		<string id="111">Este endereço está incorreto. Modifique o nome do usuário ou o telefone.</string>
+		<string id="112">Editar</string>
+		<string id="113">Salvar</string>
+		<string id="114">Fechar</string>
+		<string id="115">Digitar o novo Nome ou Número.</string>
+		<string id="116">O Nome ou Número digitado já existe</string>
+		<string id="117">Nome</string>
+		<string id="118">Número</string>
+		<string id="119">OK</string>
+		<string id="120">Cancelar</string>
+		<string id="206">Tem certeza de que deseja remover o(s) %d destinatário(s) selecionado(s)?</string>
+		<string id="207">Não é possível modificar o catálogo de endereços do Microsoft Outlook.</string>
+		<string id="231">Adicionar catálogo de endereços</string>
+		<string id="232">Editar catálogo de endereços</string>
+		<string id="233">Remover catálogo de endereços</string>
+	</strings>
+	<dlg id="103">
+		<caption></caption>
+		<string id="205"> Agenda </string>
+		<string id="204">List1</string>
+		<string id="203">Adicionar</string>
+		<string id="202">Remover</string>
+		<string id="208">Editar</string>
+	</dlg>
+	<dlg id="120">
+		<caption>Catálogo de endereços</caption>
+		<string id="215">OK</string>
+		<string id="216">Cancelar</string>
+	</dlg>
+	<dlg id="122">
+		<caption></caption>
+		<string id="203">Nova</string>
+		<string id="202">Excluir</string>
+		<string id="212">Adicionar ao catálogo de endereços</string>
+	</dlg>
+	<dlg id="159">
+		<caption></caption>
+		<string id="1">OK</string>
+		<string id="2">Cancelar</string>
+	</dlg>
+</resources>
+  </NetFaxPhonebook>
+  <NetFaxPort>
+    <resources>
+	<strings>
+		<string id="100">PortMonitor</string>
+		<string id="101">__mnfact__</string>
+		<string id="102">Erro</string>
+		<string id="103">O nome da porta não é valido ou não é único</string>
+		<string id="104">Não é possível conectar ao dispositivo. Verifique se o nome do dispositivo ou seu endereço IP foi especificado corretamente.</string>
+	</strings>
+	<dlg id="99">
+		<caption>Configurar porta</caption>
+		<string id="209">Nome da porta</string>
+		<string id="201">Selecionar equipamento de fax</string>
+		<string id="202">Local</string>
+		<string id="203">Rede</string>
+		<string id="204">Procurar...</string>
+		<string id="205">Configurações</string>
+		<string id="1">OK</string>
+		<string id="2">Cancelar</string>
+		<string id="9">Ajuda</string>
+	</dlg>
+</resources>
+  </NetFaxPort>
+  <NetFaxShell>
+    <resources>
+	<strings>
+		<string id="100">FaxShell</string>
+		<string id="101">Enviar por fax</string>
+		<string id="102">Enviar os documentos selecionados por fax</string>
+	</strings>
+</resources>
+  </NetFaxShell>
+  <NetFaxTray>
+    <resources>
+	<strings>
+		<string id="10">Vazio</string>
+		<string id="15">Pronto</string>
+		<string id="33">Verificando status...</string>
+		<string id="34">Enviado.</string>
+		<string id="35">Erro.</string>
+		<string id="36">Cancelado.</string>
+		<string id="37">Parar pressionado.</string>
+		<string id="38">Sem resposta.</string>
+		<string id="39">Erro de linha.</string>
+		<string id="40">Sem memória.</string>
+		<string id="102">Clique aqui para ver a lista completa de faxes enviados.</string>
+		<string id="103">%s Processando %i mensagens (s)</string>
+		<string id="104">%s %s</string>
+		<string id="105">%s %s %s</string>
+		<string id="106">%s %s %s</string>
+		<string id="107">Tentando novamente...</string>
+	</strings>
+	<menu id="101">
+		<menu id="1">
+			<string id="20000">Mostrar a última &amp;mensagem</string>
+			<string id="20001">&amp;Exibir histórico de transmissão de fax</string>
+			<string id="20010">Sai&amp;r</string>
+		</menu>
+	</menu>
+</resources>
+  </NetFaxTray>
+  <NetFaxUI>
+    <resources>
+	<strings>
+		<string id="2011">Carta</string>
+		<string id="2012">Ofício</string>
+		<string id="24600">Estrutura DEVMODE inválida.</string>
+		<string id="24601">Selecionar automaticamente</string>
+		<string id="24602">Avançado</string>
+		<string id="24603">Este dispositivo não pode ser configurado</string>
+		<string id="24604">Alfanumérica de 1 a 32 caracteres</string>
+		<string id="24605">Alfanumérica de 4 a 32 caracteres</string>
+		<string id="24606">Alfanumérica de 4 a 32 caracteres</string>
+		<string id="24607">Você deve inserir uma ID de usuário alfanumérica de 1 a 32 caracteres, uma senha alfanumérica de 4 a 32 caracteres e confirmar a senha para utilizar o recurso Contabilidade</string>
+		<string id="24608">Você deve inserir uma senha alfanumérica de 4 a 32 caracteres e confirmá-la para usar o recurso Contabilidade.</string>
+		<string id="24610">Contabilidade</string>
+		<string id="24611">Somente ID</string>
+		<string id="24612">Você deve inserir uma ID de usuário alfanumérica de 1 a 129 caracteres, uma senha alfanumérica de 4 a 32 caracteres e confirmá-la para utilizar o recurso Contabilidade de trabalhos.</string>
+		<string id="24620">Parâmetros de fax</string>
+		<string id="24621">Número de telefone</string>
+		<string id="24622">Os símbolos válidos são 0123456789*#+-</string>
+		<string id="24623">Folha de rosto</string>
+		<string id="24624">Destinatários do fax</string>
+		<string id="24625">Erro</string>
+		<string id="24626">O número do fax deve ser especificado. O trabalho de impressão será cancelado. O aplicativo poderá exibir mensagens de erro adicionais.</string>
+		<string id="24627">Máximo de %i caracteres aqui</string>
+		<string id="24628">O trabalho de impressão foi cancelado pelo usuário. O aplicativo poderá exibir mensagens de erro adicionais.</string>
+		<string id="24629">Aviso</string>
+		<string id="24630">Nenhum destinatário de fax especificado. Especifique os destinatários do fax nas Preferências de impressão disponíveis através do miniaplicativo Painel de controle. Isso é essencial para imprimir de aplicativos de 32 bits no Windows de 64 bits.</string>
+		<string id="24631">Configuração de porta</string>
+		<string id="24640">Sobre</string>
+		<string id="24641">Versão %i.%02.2i.%02.2i</string>
+		<string id="24650">Layout</string>
+		<string id="258">Senha</string>
+		<string id="260">Confirmar senha</string>
+		<string id="24651">Código PIN</string>
+		<string id="24652">Confirmar código PIN</string>
+		<string id="24653">(%d-%d numérica)</string>
+	</strings>
+	<dlg id="102">
+		<caption></caption>
+		<string id="267">Tamanho do papel</string>
+		<string id="269">Orientação</string>
+		<string id="270">Retrato</string>
+		<string id="271">Paisagem</string>
+	</dlg>
+	<dlg id="239">
+		<caption></caption>
+		<string id="262">Contabilidade de trabalhos</string>
+		<string id="263">Tipo de contabilidade:</string>
+		<string id="272">Permissão de usuário</string>
+		<string id="273">Permissão de grupo</string>
+		<string id="256">ID do usuário</string>
+		<string id="258">Senha</string>
+		<string id="260">Confirmar senha</string>
+	</dlg>
+	<dlg id="240">
+		<caption></caption>
+		<string id="250">Especificar opções de fax antes de enviar</string>
+		<string id="253">Enviar automaticamente para</string>
+		<string id="254">...</string>
+		<string id="241">Adicionar seleção</string>
+		<string id="246">Catálogo de endereços do Windows</string>
+		<string id="247">Catálogo de endereços do Office Outlook</string>
+		<string id="249">Notificar-me na entrega</string>
+		<string id="251">Histórico de transmissão de fax ...</string>
+	</dlg>
+</resources>
+  </NetFaxUI>
+  <NetFaxUserUI>
+    <resources>
+	<strings>
+		<string id="100">FaxUserUI</string>
+		<string id="101">%s em %s</string>
+		<string id="102">Todos os arquivos (*.*)|*.*||</string>
+		<string id="104">Falha ao imprimir arquivos. Código de erro %08.8Xh</string>
+		<string id="105">Falha ao acessar o arquivo: Código de erro %s %08.8Xh</string>
+		<string id="107">Nome do arquivo</string>
+		<string id="108">Nome da pasta</string>
+		<string id="242">Alerta</string>
+		<string id="243">Erro</string>
+		<string id="244">Deseja excluir os itens selecionados?</string>
+		<string id="245">Arquivo corrompido.</string>
+		<string id="250">Abrir</string>
+		<string id="251">Local</string>
+		<string id="252">Nome do arquivo</string>
+		<string id="253">Formatar</string>
+		<string id="751">Exibir informações de versão do aplicativo</string>
+		<string id="752">Ver arquivo de ajuda para o PC FAX</string>
+		<string id="24641">Versão %i.%02.2i.%02.2i</string>
+	</strings>
+	<dlg id="159">
+		<caption></caption>
+		<string id="1">OK</string>
+		<string id="2">Cancelar</string>
+	</dlg>
+	<dlg id="201">
+		<caption>Enviar por fax</caption>
+		<string id="1167">Sobre</string>
+		<string id="1104">Ajuda</string>
+		<string id="203">Adicionar arquivo...</string>
+		<string id="204">Remover arquivo</string>
+		<string id="9">Ajuda</string>
+		<string id="205">Iniciar</string>
+		<string id="208">Fechar</string>
+	</dlg>
+	<dlg id="202">
+		<caption></caption>
+		<string id="1">OK</string>
+	</dlg>
+</resources>
+  </NetFaxUserUI>
+</NetFax>
+                                                                                                                                                 INDX( 	 5 &           (   �  �                             �    X D     �    7N=����?����?����?��                       f     �    X D     �    ��?����?����?����?��                       r i n �   
+ x b     �    7N=����?���&&h�&�J���� p       f              w i n l o g o n . e x e . m u i       �   
+ p Z     �    7N=����?���&&h�&�J���� p       f              W I N L O G ~ 1 . M U I                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

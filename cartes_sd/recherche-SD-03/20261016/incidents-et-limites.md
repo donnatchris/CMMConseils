@@ -1,0 +1,12 @@
+# Incidents et limites de collecte SD-03
+
+Toutes les opérations concernent l’image EWF en lecture seule ; aucun incident ci-dessous n’a écrit dans les sources.
+
+- La première réception des clusters libres s’est arrêtée avec le code 143, de cause non déterminée. Les 5 311 clusters complets reçus ont été vérifiés par SHA-256. Le membre vide 694483 a été conservé dans `prive/residus-incomplets/`. L’index partiel non valide est nommé explicitement. La reprise a transmis seulement les 6 266 clusters manquants et a produit l’index canonique `inventaires/residus-classes.json`. La lecture complète de l’espace libre n’a pas été recommencée.
+- Un premier essai d’analyse des index MP4 a échoué sur un objet Python `bytearray` non hachable. Aucun résultat de cet essai n’est utilisé. Le script fautif est conservé sous `sd03_finalization_pattern_remote_v1.py`, l’erreur dans `journaux/finalisation.stderr`. La conversion explicite en `bytes` a permis le second essai, journalisé sous `finalisation-v2`.
+- Certains aperçus demandés par recherche temporelle n’ont fourni aucune image, en particulier au-delà de la dernière image effectivement décodable. Des lectures linéaires puis un inventaire des images par FFprobe ont distingué ce problème de recherche d’une durée vidéo réellement tronquée. Un aperçu absent n’a jamais été décrit comme une image observée.
+- Tesseract et le filtre OCR FFmpeg ne sont pas disponibles. Aucune installation n’a été effectuée. Les incrustations citées sont celles des 23 images effectivement examinées, référencées par SHA-256 dans `inventaires/observations-visuelles.json` ; il ne s’agit pas d’une lecture humaine intégrale des vidéos.
+- FFmpeg peut retourner zéro en présence d’avertissements de décodage. Les journaux et les compteurs d’images ont donc été examinés séparément du code de retour.
+- Les réceptions interrompues ne produisent pas toujours une entrée finale dans `commandes.jsonl`. Les paramètres JSON, les sorties partielles et `journaux/incidents-locaux.jsonl` complètent la trace des essais.
+
+La recherche négative concerne les données encore présentes dans l’image, pas les données déjà écrasées ou éliminées avant acquisition. Les dates de caméra et FAT ne sont pas des heures civiles certifiées. Le code malveillant, l’identité d’un opérateur, une remise aux paramètres d’usine et l’heure exacte d’une intervention ne peuvent être établis avec ces seules traces.

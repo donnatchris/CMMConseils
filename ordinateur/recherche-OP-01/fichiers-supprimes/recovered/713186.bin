@@ -1,0 +1,18 @@
+nction Test-MicrosoftCertificate
+{
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$true)]
+        [System.Management.Automation.Signature]
+        $AuthenticodeSignature
+    )
+
+    $IsMicrosoftCertificate = $false
+
+    if($AuthenticodeSignature.SignerCertificate)
+    {
+        $X509Chain = $null
+        $SafeX509ChainHandle = $null
+
+        try
+        {

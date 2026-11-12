@@ -1,0 +1,26 @@
+{
+  "inode": "637534218",
+  "path": "System Volume Information/IndexerVolumeGuid",
+  "size": 76,
+  "deleted": false,
+  "start_cluster": 1245188,
+  "method": "lecture chaîne FAT active",
+  "read_size": 76,
+  "sha256": "aab38b19fba582901f6ea64dbbc5c5add946081f4b07007eca9f88ab9235c0d5",
+  "allocated_chain_clusters": 1,
+  "artifact": "prive/extraits/637534218_IndexerVolumeGuid",
+  "icat_crosscheck": {
+    "argv": [
+      "icat",
+      "-o",
+      "8192",
+      "/mnt/ewf-sd02/ewf1",
+      "637534218"
+    ],
+    "returncode": 0,
+    "bytes": 76,
+    "sha256": "aab38b19fba582901f6ea64dbbc5c5add946081f4b07007eca9f88ab9235c0d5",
+    "matches": true,
+    "stderr": ""
+  }
+}

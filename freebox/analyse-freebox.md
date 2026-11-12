@@ -1,5 +1,27 @@
 # Analyse de la Freebox Révolution
 
+**Relecture de cohérence : 12 novembre 2026.** Harmonisation avec le [rapport final réorganisé](../RAPPORT-FINAL-SADEDINE-2026.md), sans nouvelle acquisition ni nouvelle analyse des supports. Les campagnes et décomptes techniques conservent leurs dates et leurs périmètres. Le détail de cette révision et les empreintes actuelles figurent dans le [dossier de relecture](../investigations/20261112-coherence-rapports/compte-rendu.md).
+
+## Revue du 10 novembre 2026 — intervention avant ouverture
+
+Les présences réseau nocturnes des 16–17 ne sont toujours pas attribuées aux trois téléphones scellés ; l’ordinateur non identifié du 16 n’est pas rattaché à OP-01. Elles ne corroborent donc pas matériellement les séquences TP-02/TP-03. Cette revue documentaire n’est pas une nouvelle acquisition de la Freebox et ne transforme pas des bornes first/last seen en présence continue. Voir la [comparaison des hypothèses et les nouveaux contrôles](../investigations/20261110-revue-intervention-scelles/compte-rendu.md). Les versions antérieures de ce rapport sont conservées pour cette mise à jour.
+
+## Actualisation du 10 novembre 2026 — lecture courante
+
+Le PV est disponible et a été consulté. Les repères à retenir sont la mise sous scellés après 14 h 19 le 15 octobre, l’ouverture du PC à 10 h 41 et celle des téléphones à 11 h 30 le 28 ; 10 h 22 est l’arrivée de la cliente et 19 h 20 la clôture, sans heure individuelle de restitution. Les mentions d’indisponibilité et bornes déclaratives des sections datées ci-dessous décrivent leurs campagnes historiques. Le recoupement des trois sauvegardes ne rattache toujours pas les trois iPhone nocturnes d’octobre. Une MAC privée de TP-03 correspond à une fiche de **septembre 2025**, sans preuve de présence sous cette MAC en octobre 2024. Les intervalles entre première et dernière date d’une fiche ne prouvent pas une connexion continue. Aucune nouvelle connexion à la Freebox ni collecte distante n’a été effectuée. Voir la [relecture transversale](../investigations/20261110-telephones/compte-rendu.md), qui distingue les nouveaux contrôles des reprises documentaires. Les empreintes historiques des rapports restent attachées à leurs versions datées.
+
+
+## Actualisation du 19 octobre 2026 — contexte client et rapprochements
+
+Le [nouveau mail](../docs/mail-2.txt) précise une installation des caméras après mars 2023, une réinitialisation déclarée de la chambre en février 2024, un fonctionnement déclaré continu de la terrasse et l’absence connue de téléphone ASUS dans l’entourage. Ces déclarations n’identifient ni un auteur ni un point d’accès physique. Le PV n’était pas disponible lors de cette campagne d’octobre ; il a depuis été consulté le 8 novembre.
+
+La contre-lecture TP-02 conserve deux BSSID ASUS_Z01RD avec dates d’association du **28 octobre**, sans certifier le BSSID au 17 ni le propriétaire. Le PC contient le nom dans des fragments compatibles avec un réseau visible, sans date de connexion. Aucun de ces éléments ne devient un historique de sessions Freebox depuis 2021. Les exports Freebox n’ont pas fait l’objet d’une nouvelle acquisition ; leurs limites de rétention demeurent.
+
+Les nouvelles analyses des cartes quantifient des lacunes du corpus terrasse ; elles ne prouvent pas des accès réseau, des suppressions à distance ou une coupure de la Freebox. Les nouveaux faits et les réponses au mail sont dans le [complément du 19 octobre](../investigations/20261019-retour-cliente/compte-rendu.md).
+
+
+**Complément du 17/10/2026 — identifications nouvelles :** le recoupement avec OP-01 identifie `LAPTOP-RMCOB2VU` / `50:E0:85:63:41:5B` comme l’ordinateur OP-01. La MAC `E0:A2:5A:0A:A3:F7` correspond exactement à une configuration Xiaomi Home de TP-02, modèle `mxiang.camera.mwc11`. Les mentions d’« appareils suspects » dans les campagnes ci-dessous désignent leur classement initial et doivent être relues avec ces corrections. Deux échecs SMB du 26/03/2024 ont pour origine IP un candidat réseau, `LAPTOP-205Q5H9C`, sans attribution certaine. Le DESKTOP d’octobre et les iPhone nocturnes restent non attribués. Voir le [compte rendu transversal](../investigations/20261017-recroisements/compte-rendu.md) et ses pièces vérifiées. Ces identifications ne prouvent pas l’identité d’un utilisateur ni un accès non autorisé.
+
 - **Auteur** : Christophe Donnat - DonnatDev - christophe@donnat.dev
 - **Client** : Mme Sadedine Malika - DMM Conseils - dmmconseils@hotmail.com
 - **Matériel examiné** : Freebox Révolution du domicile de Mme Sadedine
@@ -522,22 +544,22 @@ Pour chaque équipement, les informations ci-dessous reprennent les données aff
 
 > **Analyse.** La Freebox a enregistré l'existence de cette adresse MAC le 19 juillet 2024 à 21:02:47. En l'absence d'adresse IPv4 ou IPv6 associée et de période de joignabilité, cette fiche atteste une détection par la Freebox, mais ne suffit pas à établir que l'équipement a obtenu une connectivité IP effective sur le réseau local.
 
-#### LAPTOP-RMC0B2VU
+#### LAPTOP-RMCOB2VU
 
 **Informations générales**
 
 - Adresse MAC : `50:E0:85:63:41:5B`
 - Constructeur : Intel Corporate
 - Type indiqué par Freebox OS : Ordinateur portable
-- Nom principal : `LAPTOP-RMC0B2VU`
+- Nom principal : `LAPTOP-RMCOB2VU`
 - Nom de domaine local : `laptop-rmc0b2vu.home`
 - Première connexion : 23/07/2024 à 15:37:02
 - Dernière joignabilité : jeudi 03 septembre à 15:48:25
 
 **Noms observés**
 
-- `LAPTOP-RMC0B2VU` — source DHCP
-- `LAPTOP-RMC0B2VU` — source mDNS
+- `LAPTOP-RMCOB2VU` — source DHCP
+- `LAPTOP-RMCOB2VU` — source mDNS
 - Une troisième occurrence du même nom apparaît, mais sa source n'est pas renseignée sur la capture.
 
 **Connectivités observées**
@@ -764,9 +786,11 @@ Une autre ligne de connectivité est visible, mais ses données ne sont pas retr
 
 > **Analyse.** Les adresses IPv6 conservées établissent qu'une connectivité IP effective a été observée entre le 5 avril et le 2 mai 2022, bien qu'aucune adresse IPv4 ne soit visible. Le champ « Première connexion » indique pourtant « Jamais » : cette contradiction montre que ce champ ne constitue pas un historique exhaustif et ne doit pas être interprété isolément. La dernière activité et la dernière joignabilité visibles sont datées du 2 mai 2022 vers 21:19. L'adresse MAC localement administrée ne permet pas d'identifier fiablement le constructeur ou le propriétaire du périphérique.
 
-### Synthèse des périphériques non identifiés
+### Synthèse du premier relevé des périphériques initialement non identifiés
 
-- Une connectivité IP effective est établie pour sept équipements : `LAPTOP-RMC0B2VU`, `158742fd-de6e-43df-98be-e440d29c2673`, `CE:04:84:BC:D2:4D`, `DE:98:33:8D:2C:A2`, `56:96:03:FB:28:58`, `F2:D1:B4:69:51:D8` et `B6:BD:59:D2:25:62`.
+Cette synthèse décrit les captures du premier relevé. Les exports API ci-dessous complètent leurs dates ; les recoupements ultérieurs identifient **`LAPTOP-RMCOB2VU` comme OP-01** et **`E0:A2:5A:0A:A3:F7` comme une configuration de caméra Xiaomi `mxiang.camera.mwc11` dans TP-02**, sans lien certain avec une des trois cartes SD. « Non identifié » ou « suspect » décrit ici le classement initial, sans présumer une intrusion.
+
+- Une connectivité IP effective est établie pour sept équipements : `LAPTOP-RMCOB2VU`, `158742fd-de6e-43df-98be-e440d29c2673`, `CE:04:84:BC:D2:4D`, `DE:98:33:8D:2C:A2`, `56:96:03:FB:28:58`, `F2:D1:B4:69:51:D8` et `B6:BD:59:D2:25:62`.
 - Pour `E0:A2:5A:0A:A3:F7`, `16:E8:85:01:02:FD`, `4E:B5:4A:B0:3F:04` et `E6:E1:90:ED:E4:94`, les fiches conservées attestent une détection par la Freebox, mais aucune adresse IP ni période de joignabilité ne permet d'établir une connectivité IP effective.
 - Neuf des onze équipements utilisent une adresse MAC localement administrée. Ce mécanisme, courant pour les adresses privées ou aléatoires, empêche généralement d'attribuer fiablement le terminal à un constructeur et ne constitue pas, en lui-même, un indice d'activité malveillante.
 - Les incohérences relevées dans les champs « Première connexion » montrent que l'inventaire Freebox OS ne doit pas être assimilé à un journal chronologique exhaustif. Il permet d'établir certaines présences, mais pas d'exclure une présence à une date pour laquelle aucune ligne n'est affichée.
@@ -810,7 +834,7 @@ L’accès à l’API de la Freebox a été réalisé au moyen du mécanisme d�
 Depuis le poste d’analyse distant, l’API publique de la Freebox a ensuite été interrogée via son nom de domaine d’accès distant et son port HTTPS. L’ouverture de session a reposé sur un mécanisme de challenge-réponse: la Freebox fournit une valeur temporaire (challenge), à partir de laquelle une réponse HMAC-SHA1 est calculée en utilisant l’app_token comme clé secrète. Cette réponse est transmise à l’endpoint de connexion de l’API, qui retourne alors un session_token. Ce jeton de session a ensuite été utilisé dans l’en-tête X-Fbx-App-Auth pour effectuer des requêtes en lecture sur les différents endpoints de l’API, notamment ceux relatifs au réseau local, au Wi-Fi, au DHCP, au NAT et aux services VPN.
 
 ```bash
-APP_TOKEN='Ocs6IU76SZgJTjGw2dGjpqzOe15y4TQrdICciCdB+AB8qc60gERrflVb6sde/Gki'
+APP_TOKEN='[JETON_MASQUE]'
 APP_ID='fr.donnat.freebox.forensic'
 BASE_URL='https://v28vy0w8.fbxos.fr:9717/api/v16'
 ```
@@ -1002,6 +1026,8 @@ Les colonnes « première » et « dernière trace retenue » désignent les hor
 
 ### `E0:A2:5A:0A:A3:F7`
 
+**Identification ajoutée le 17/10/2026 :** configuration Xiaomi Home `mxiang.camera.mwc11` dans TP-02, par MAC exacte.
+
 - `first_activity` : 19/07/2024 à 21:02:47 CEST ;
 - constructeur : Shanghai Mo xiang Network Technology CO.,ltd ;
 - aucune entrée `l3connectivities` ;
@@ -1009,7 +1035,9 @@ Les colonnes « première » et « dernière trace retenue » désignent les hor
 
 ### `50:E0:85:63:41:5B` — `LAPTOP-RMCOB2VU`
 
-- nom exact renvoyé par l'API : `LAPTOP-RMCOB2VU`, alors que `freebox.md` écrit `LAPTOP-RMC0B2VU` ;
+**Identification ajoutée le 17/10/2026 :** ordinateur OP-01, par MAC de l’interface WLAN.
+
+- nom exact renvoyé par l'API : `LAPTOP-RMCOB2VU` ; la première retranscription utilisait un zéro à la place de la lettre O. Ce libellé est corrigé dans le présent rapport ;
 - constructeur : Intel Corporate ;
 - `first_activity` de la fiche : 23/07/2024 à 15:37:02 CEST ;
 - sept connectivités conservées ;
@@ -1311,23 +1339,23 @@ Il n'existe donc aucun signe d'activité actuelle de ces appareils sur le résea
 | Appareil | Activité conservée | Recherche d'activité suspecte | Appréciation |
 |---|---|---|---|
 | `96:8F:D6:BB:47:D7` — iPhone | Première détection le 12/10/2024 ; dernières activités IP conservées en novembre et décembre 2024 | Pas de connectivité IP d'octobre encore datée ; aucune tâche ou ouverture attribuée | Présence avant la période confirmée, usage précis indéterminable ; aucune action malveillante démontrée |
-| `EA:21:6C:F7:47:E7` — iPhone | Du 16/10/2024 à 00:20:00 au 17/10/2024 à 00:57:02 ; IPv4 `192.168.1.3` et cinq IPv6 | Connexion IP effective, mais aucun port, volume, fichier ou accès d'administration journalisé | Présence réseau certaine pendant environ 24 h 37 ; aucune preuve d'activité sensible ou de piratage |
+| `EA:21:6C:F7:47:E7` — iPhone | Du 16/10/2024 à 00:20:00 au 17/10/2024 à 00:57:02 ; IPv4 `192.168.1.3` et cinq IPv6 | Connexion IP effective, mais aucun port, volume, fichier ou accès d'administration journalisé | Repères réseau espacés d’environ 24 h 37, sans continuité démontrée ; aucune preuve d'activité sensible ou de piratage |
 | `AC:ED:5C:DA:47:74` — DESKTOP-ICPNCMD | Du 16/10/2024 à 21:27:48 à 23:25:55 ; plusieurs IPv6 ; nouvelle activité en 2026 | Connexion IP effective ; aucune redirection, tâche, VPN ou session d'administration attribuée | Appareil à identifier en priorité, possiblement l'un des ordinateurs connus ; aucune activité malveillante démontrée |
-| `9C:64:8B:0A:BD:0C` — iPhone Apple | Du 17/10/2024 à 01:00:57 à 03:43:56 ; IPv4 `192.168.1.55` et cinq IPv6 | Connexion IP effective, sans détail des flux ou services utilisés | Présence réseau certaine pendant environ 2 h 43 ; aucune preuve d'accès sensible ou d'exfiltration |
+| `9C:64:8B:0A:BD:0C` — iPhone Apple | Du 17/10/2024 à 01:00:57 à 03:43:56 ; IPv4 `192.168.1.55` et cinq IPv6 | Connexion IP effective, sans détail des flux ou services utilisés | Repères réseau espacés d’environ 2 h 43, sans continuité démontrée ; aucune preuve d'accès sensible ou d'exfiltration |
 | `FE:AA:76:95:AC:29` — iPhone | Première détection le 17/10/2024 à 03:45:44 ; activités IP conservées en novembre/décembre 2024 | Pas de connectivité IP d'octobre encore datée ; aucune tâche ou ouverture attribuée | Usage précis indéterminable ; aucune action malveillante démontrée |
 
 ### Succession des identités iPhone dans la nuit du 16 au 17 octobre 2024
 
 Une séquence temporelle mérite d'être signalée :
 
-1. `EA:21:6C:F7:47:E7` cesse d'être actif le 17/10/2024 à 00:57:02 ;
+1. la dernière activité conservée de `EA:21:6C:F7:47:E7` dans la période est le 17/10/2024 à 00:57:02 ;
 2. `9C:64:8B:0A:BD:0C` apparaît à 01:00:57, soit 3 minutes et 55 secondes plus tard ;
-3. `9C:64:8B:0A:BD:0C` cesse d'être actif à 03:43:56 ;
+3. la dernière activité conservée de `9C:64:8B:0A:BD:0C` dans la période est à 03:43:56 ;
 4. `FE:AA:76:95:AC:29` apparaît à 03:45:44, soit 1 minute et 48 secondes plus tard.
 
 Les trois fiches portent le nom `iPhone`. `EA:21:6C:F7:47:E7` et `FE:AA:76:95:AC:29` sont des adresses MAC localement administrées, compatibles avec des adresses Wi-Fi privées. `9C:64:8B:0A:BD:0C` est attribuée à Apple et n'est pas localement administrée.
 
-Cette succession peut correspondre à plusieurs iPhone distincts, ou éventuellement à un changement de mode d'adresse privée d'un même appareil. Les données Freebox ne permettent pas de fusionner ces identités ni d'établir qu'elles appartiennent à la même personne. La proximité temporelle constitue un point à rapprocher des appareils physiques et des témoignages, mais **elle ne constitue pas une preuve de piratage**.
+Ces bornes de fiches ne sont pas des heures certaines de déconnexion et ne prouvent pas une présence continue entre première et dernière trace. Cette succession peut correspondre à plusieurs iPhone distincts, ou éventuellement à un changement de mode d'adresse privée d'un même appareil. Les données Freebox ne permettent pas de fusionner ces identités ni d'établir qu'elles appartiennent à la même personne. La proximité temporelle constitue un point à rapprocher des appareils physiques et des témoignages, mais **elle ne constitue pas une preuve de piratage**.
 
 ---
 
@@ -1348,7 +1376,9 @@ Cette succession peut correspondre à plusieurs iPhone distincts, ou éventuelle
 
 **Cette conclusion ne signifie toutefois pas qu'une activité ancienne non autorisée est techniquement exclue. Les données manquantes sont précisément celles qui seraient nécessaires pour l'établir: journal d'audit des modifications, historique des sessions d'administration, journal des accès SMB, historique des flux par appareil et compteurs de trafic par adresse MAC. La Freebox n'a pas conservé ou n'expose pas ces informations pour la période examinée.**
 
-> Les démarches les plus utiles pour poursuivre l'attribution seraient :
+**Recoupements déjà réalisés :** les identifiants clients exploitables des sauvegardes TP-01/02/03 ne rattachent aucune des trois identités iPhone nocturnes à un téléphone de mission. Une MAC privée de TP-03 correspond à une fiche de **septembre 2025**, sans prouver sa présence sous cette MAC en octobre 2024. L’identité réseau d’OP-01 est confirmée ; `DESKTOP-ICPNCMD` reste non identifié. Deux tentatives SMB vers OP-01 le 26 mars 2024 ont échoué ; leur IP correspond à un candidat de l’inventaire, sans attribution certaine à cet instant. Voir les compléments des [17 octobre](../investigations/20261017-recroisements/compte-rendu.md) et [10 novembre](../investigations/20261110-telephones/compte-rendu.md). Ces contrôles ne garantissent pas la conservation de toutes les anciennes MAC.
+
+> Les démarches encore utiles pour poursuivre l’attribution seraient :
 > 
 > 1. relever les adresses MAC matérielles et privées des iPhone, ordinateurs et appareils connus de Mme Sadedine ;
 > 2. identifier en priorité `DESKTOP-ICPNCMD` et les trois identités iPhone successives de la nuit du 16 au 17 octobre 2024 ;

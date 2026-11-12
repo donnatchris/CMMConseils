@@ -1,0 +1,89 @@
+{
+  "inode": "517729356",
+  "path": "$OrphanFiles/_0D246~2.MP4",
+  "size": 3050918,
+  "deleted": true,
+  "start_cluster": 1016874,
+  "method": "icat -r heuristique pour entrée supprimée",
+  "recovery": {
+    "argv": [
+      "icat",
+      "-r",
+      "-o",
+      "8192",
+      "/mnt/ewf-sd02/ewf1",
+      "517729356"
+    ],
+    "returncode": 0,
+    "stderr": ""
+  },
+  "read_size": 16384,
+  "sha256": "0403b57d34b13b76066b0beec84abcc438de2e3c3f1fa683089bf88ade452c9d",
+  "allocated_chain_clusters": 0,
+  "mp4_structure": {
+    "size": 16384,
+    "boxes": [],
+    "errors": [
+      {
+        "offset": 0,
+        "type": "�g��",
+        "claimed_size": 869296019,
+        "available": 16384
+      },
+      {
+        "offset": 0,
+        "error": "trailing bytes",
+        "count": 16384
+      }
+    ],
+    "tracks": []
+  },
+  "stsd": [],
+  "ffprobe": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_format",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "[mp3 @ 0x61a2374af680] Failed to read frame size: Could not seek to 17407.\n/proc/self/fd/4: Invalid argument\n"
+  },
+  "metadata": {},
+  "packets": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "[mp3 @ 0x5baccd9f8700] Failed to read frame size: Could not seek to 17407.\n/proc/self/fd/4: Invalid argument\n",
+    "summary": {
+      "dts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      },
+      "pts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      }
+    },
+    "raw_output_sha256": "8e1d794b49e35ea828279c6a8c95282bbb9a0787cf5c9385256c2cc9d17baeb7"
+  }
+}

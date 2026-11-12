@@ -1,0 +1,884 @@
+2024-10-04 15:45:25.5969 INFO [1] DispatcherTimerPeriodicTask Executing periodic task <>c__DisplayClass8_0:<Start>b__0 
+2024-10-04 15:45:25.5969 INFO [1] PersistedPeriodicTask Executing persisted periodic task UserDataSynchronizer:<Start>b__8_0 
+2024-10-04 15:45:26.0097 INFO [12-Worker] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 15:45:26.0097 INFO [12-Worker] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 15:45:26.0097 INFO [12-Worker] JsonProvider Fetching [NordVPN] hash from remote 
+2024-10-04 15:45:25.9142 INFO [1] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 15:45:26.4144 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.x9fnzrtl4x8pynsf.com" will be used 
+2024-10-04 15:45:26.4144 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.x9fnzrtl4x8pynsf.com" url 
+2024-10-04 15:45:26.4144 INFO [1] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 15:45:26.4144 INFO [1] JsonProvider Fetching [NordVPN] hash from remote 
+2024-10-04 15:45:26.4274 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.x9fnzrtl4x8pynsf.com" will be used 
+2024-10-04 15:45:26.4274 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.x9fnzrtl4x8pynsf.com" url 
+2024-10-04 15:45:26.4464 INFO [1] NordVpnApiAuthenticator Tokens login attempt 
+2024-10-04 15:45:26.4703 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:45:26.4703 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:45:26.4853 INFO [1] Settings Setting KillSwitchApps changed to System.Collections.Generic.List`1[NordVpn.Core.Models.Settings.AppInfo] 
+2024-10-04 15:45:26.4853 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 15:45:26.4853 INFO [1] Settings Setting UniqueUserAppId changed to a2138aca-1655-4c96-9f8d-a8e64e9cbe0a 
+2024-10-04 15:45:26.4853 INFO [1] Settings Setting KillSwitchApps changed to [] 
+2024-10-04 15:45:26.4853 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 15:45:26.4998 INFO [1] Settings Setting UniqueUserAppId changed to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPCY5/lmcjUSvxI0aQdF3EwQAAAACAAAAAAAQZgAAAAEAACAAAABF7WyO9eWO3Dy1iRnCUooUS/nm8DfUOWNPcq4uh99gogAAAAAOgAAAAAIAACAAAACTBZd0xxRNgum/D4RzjirFZ8kJYLiI3z4Xz41Rw4kD7TAAAADNrDiDhJ/TOmhjGZnb892l3hogaj1Luo+LNBF8/1d9JaVtokwiOOTn30jeAuze3ZNAAAAAtaOTuuv/oqrgXQ+kyT7YYW7igRHTMbR50S1sWrShgxfI87TqkuIxP7Nq4/aTSsb5W0/Rdyhc0+M17U4ne9Xz5g== 
+2024-10-04 15:45:26.4998 INFO [1] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 15:45:26.5686 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 15:45:26.5796 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.x9fnzrtl4x8pynsf.com" threw HttpRequestException. 
+2024-10-04 15:45:26.5796 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" threw HttpRequestException. 
+2024-10-04 15:45:27.3412 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.x9fnzrtl4x8pynsf.com" threw HttpRequestException. 
+2024-10-04 15:45:27.6051 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:45:27.6051 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:45:27.6051 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.x9fnzrtl4x8pynsf.com" will be used 
+2024-10-04 15:45:27.6051 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.x9fnzrtl4x8pynsf.com" url 
+2024-10-04 15:45:27.6191 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" threw HttpRequestException. 
+2024-10-04 15:45:27.6191 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" threw HttpRequestException. Blacklisting... 
+2024-10-04 15:45:27.6191 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "icpsuawn1zy5amys.com" will be used 
+2024-10-04 15:45:27.6191 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "icpsuawn1zy5amys.com" url 
+2024-10-04 15:45:27.6400 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.x9fnzrtl4x8pynsf.com" threw HttpRequestException. 
+2024-10-04 15:45:27.6400 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.x9fnzrtl4x8pynsf.com" threw HttpRequestException. Blacklisting... 
+2024-10-04 15:45:27.6400 INFO [12-Worker] UrlList ResiliencyHandler: Blacklisting "downloads.x9fnzrtl4x8pynsf.com" 
+2024-10-04 15:45:27.6400 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.njtzzrvg0lwj3bsn.info" will be used 
+2024-10-04 15:45:27.6400 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.njtzzrvg0lwj3bsn.info" url 
+2024-10-04 15:45:27.6400 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "icpsuawn1zy5amys.com" threw HttpRequestException. 
+2024-10-04 15:45:27.6400 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "icpsuawn1zy5amys.com" threw HttpRequestException. Blacklisting... 
+2024-10-04 15:45:27.6400 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "se3v5tjfff3aet.me" will be used 
+2024-10-04 15:45:27.6400 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "se3v5tjfff3aet.me" url 
+2024-10-04 15:45:27.6620 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.njtzzrvg0lwj3bsn.info" threw HttpRequestException. 
+2024-10-04 15:45:27.6620 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.njtzzrvg0lwj3bsn.info" threw HttpRequestException. Blacklisting... 
+2024-10-04 15:45:27.6620 INFO [12-Worker] UrlList ResiliencyHandler: Blacklisting "downloads.njtzzrvg0lwj3bsn.info" 
+2024-10-04 15:45:27.6929 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 15:45:27.6929 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 15:45:27.6929 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "se3v5tjfff3aet.me" threw HttpRequestException. 
+2024-10-04 15:45:27.6929 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "se3v5tjfff3aet.me" threw HttpRequestException. Blacklisting... 
+2024-10-04 15:45:27.7712 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" threw HttpRequestException. 
+2024-10-04 15:45:27.7712 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" threw HttpRequestException. Blacklisting... 
+2024-10-04 15:45:27.7712 INFO [12-Worker] UrlList ResiliencyHandler: Blacklisting "downloads.73dkt-vwrqs.xyz" 
+2024-10-04 15:45:27.7712 INFO [12-Worker] UrlList ResiliencyHandler: All url were blocked. Clearing blacklist 
+2024-10-04 15:45:27.7712 INFO [12-Worker] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/NordVPN.sha1. Failed to get response: NordVpn.Core.Errors.BlockedEndpointException: Feature Config - …chec du traitement de la demande. Le terminal est peut-Ítre bloquÈ
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerInner.<SendAsync>d__6.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__12.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.AdditionalHeaderHandler.<SendAsync>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2024-10-04 15:45:27.7712 ERROR [12-Worker] FeatureConfigCacheProvider Unable to update featureConfig FeatureConfig.Core.Exceptions.FeatureConfigException: Unable to update featureConfig ---> NordVpn.Core.Errors.BlockedEndpointException: Feature Config - …chec du traitement de la demande. Le terminal est peut-Ítre bloquÈ
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerInner.<SendAsync>d__6.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__12.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.AdditionalHeaderHandler.<SendAsync>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Downloads.FileDownloader.<GetFileContentAsync>d__7.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.FeatureConfig.FeatureConfigFileProvider.<GetAsync>d__3.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ FeatureConfig.JsonProviders.JsonProvider.<GetHash>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ FeatureConfig.Providers.FeatureConfigCacheProvider.<UpdateFromRemoteIfChanged>d__13.MoveNext()
+   --- Fin de la trace de la pile d'exception interne ---
+2024-10-04 15:45:28.4174 INFO [1] Settings Settings saved 
+2024-10-04 15:45:28.4174 INFO [1] LoggingHandler Request POST https://se3v5tjfff3aet.me/v1/users/tokens/renew. Failed to get response: NordVpn.Core.Errors.BlockedEndpointException:  …chec du traitement de la demande. Le terminal est peut-Ítre bloquÈ
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerWithRotator.<SendAsyncInternal>d__13.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerWithRotator.<SendAsync>d__12.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.AdditionalHeaderHandler.<SendAsync>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2024-10-04 15:45:28.4666 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" will be used 
+2024-10-04 15:45:28.4666 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.napps-1.com" url 
+2024-10-04 15:45:29.8457 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" threw HttpRequestException. 
+2024-10-04 15:45:29.8587 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" threw HttpRequestException. Internet is not available. 
+2024-10-04 15:45:30.5804 INFO [1] LoggingHandler Request GET https://downloads.napps-1.com/apps/windows/FeatureConfig/NordVPN.sha1. Failed to get response: NordVpn.Core.Errors.NoInternetException: Aucune connexion Internet pour traiter la demande ---> System.Net.Http.HttpRequestException: Une erreur s'est produite lors de l'envoi de la demande. ---> System.Net.WebException: Le nom distant n'a pas pu Ítre rÈsolu: 'downloads.napps-1.com'
+   ‡ System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   ‡ System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- Fin de la trace de la pile d'exception interne ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Api.RequestCountingDelegatingHandler.<SendAsync>d__2.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendRequest>d__11.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerInner.<SendAsync>d__6.MoveNext()
+   --- Fin de la trace de la pile d'exception interne ---
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerInner.<SendAsync>d__6.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__12.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.AdditionalHeaderHandler.<SendAsync>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2024-10-04 15:45:30.5804 ERROR [1] FeatureConfigCacheProvider Unable to update featureConfig FeatureConfig.Core.Exceptions.FeatureConfigException: Unable to update featureConfig ---> NordVpn.Core.Errors.NoInternetException: Aucune connexion Internet pour traiter la demande ---> System.Net.Http.HttpRequestException: Une erreur s'est produite lors de l'envoi de la demande. ---> System.Net.WebException: Le nom distant n'a pas pu Ítre rÈsolu: 'downloads.napps-1.com'
+   ‡ System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   ‡ System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- Fin de la trace de la pile d'exception interne ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Api.RequestCountingDelegatingHandler.<SendAsync>d__2.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendRequest>d__11.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerInner.<SendAsync>d__6.MoveNext()
+   --- Fin de la trace de la pile d'exception interne ---
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerInner.<SendAsync>d__6.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__12.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.AdditionalHeaderHandler.<SendAsync>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Downloads.FileDownloader.<GetFileContentAsync>d__7.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.FeatureConfig.FeatureConfigFileProvider.<GetAsync>d__3.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ FeatureConfig.JsonProviders.JsonProvider.<GetHash>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ FeatureConfig.Providers.FeatureConfigCacheProvider.<UpdateFromRemoteIfChanged>d__13.MoveNext()
+   --- Fin de la trace de la pile d'exception interne ---
+2024-10-04 15:45:30.5804 INFO [1] DispatcherTimerPeriodicTask Executing periodic task <>c__DisplayClass8_0:<Start>b__0 
+2024-10-04 15:45:30.5804 INFO [1] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 15:45:30.5804 INFO [1] NetApplicationSettingsRepository Deserialized map position values: X: 343,452431349362 Y: 176,538841950503 
+2024-10-04 15:45:30.5804 INFO [1] DispatcherTimerPeriodicTask Executing periodic task <>c__DisplayClass8_0:<Start>b__0 
+2024-10-04 15:45:34.1763 INFO [73] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 15:45:35.7001 INFO [1] OpenVpnService OpenVpnService state change. State: Connecting. Server: fr777.nordvpn.com 
+2024-10-04 15:45:35.7021 INFO [1] RapidStatedVpnConnectionService Rapid states. Raising: Connecting - fr777.nordvpn.com 
+2024-10-04 15:45:35.7021 INFO [1] EventFacade member: ServiceOnStatusChanged linenumber:233 messageType:NordVpn.Core.Messages.Status.ConnectionStateChangedMessage message: NordVpn.Core.Messages.Status.ConnectionStateChangedMessage 
+2024-10-04 15:45:35.7021 INFO [1] EventFacade member: ServiceOnStatusChanged linenumber:239 messageType:NordVpn.Core.Messages.Status.AbortSnoozeMessage message: NordVpn.Core.Messages.Status.AbortSnoozeMessage 
+2024-10-04 15:45:35.7535 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:45:35.7535 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:45:35.7844 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" threw HttpRequestException. 
+2024-10-04 15:45:35.7844 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" threw HttpRequestException. Internet is not available. 
+2024-10-04 15:45:35.7844 INFO [57] LoggingHandler Request POST https://zwyr157wwiu6eior.com/v1/users/tokens/renew. Failed to get response: NordVpn.Core.Errors.NoInternetException: Aucune connexion Internet pour traiter la demande ---> System.Net.Http.HttpRequestException: Une erreur s'est produite lors de l'envoi de la demande. ---> System.Net.WebException: Le nom distant n'a pas pu Ítre rÈsolu: 'zwyr157wwiu6eior.com'
+   ‡ System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   ‡ System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- Fin de la trace de la pile d'exception interne ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Api.RequestCountingDelegatingHandler.<SendAsync>d__2.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Api.RequestTimingDelegatingHandler.<SendAsync>d__0.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerWithRotator.<SendRequest>d__11.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerWithRotator.<SendAsyncInternal>d__13.MoveNext()
+   --- Fin de la trace de la pile d'exception interne ---
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerWithRotator.<SendAsyncInternal>d__13.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerWithRotator.<SendAsync>d__12.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.AdditionalHeaderHandler.<SendAsync>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2024-10-04 15:45:36.5706 INFO [1] EventFacade member: Connection_StateChanged linenumber:51 messageType:NordVpn.Core.Messages.SecurityScore.VpnConnectionFeatureStateChangedMessage message: NordVpn.Core.Messages.SecurityScore.VpnConnectionFeatureStateChangedMessage 
+2024-10-04 15:45:36.6404 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 15:45:41.5963 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:45:41.5963 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:45:44.1065 INFO [46] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 15:45:46.6018 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 15:45:51.7488 INFO [12-Worker] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 15:45:51.7488 INFO [12-Worker] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 15:45:51.7498 INFO [12-Worker] JsonProvider Fetching [ThreatProtection] hash from remote 
+2024-10-04 15:45:51.7498 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" will be used 
+2024-10-04 15:45:51.7498 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.napps-1.com" url 
+2024-10-04 15:45:51.9618 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 15:45:54.1039 INFO [52] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 15:45:55.2235 INFO [1] OpenVpnService OpenVpnService state change. State: Connected. Server: fr777.nordvpn.com 
+2024-10-04 15:45:55.2235 INFO [1] RapidStatedVpnConnectionService Rapid states. Raising: Connected - fr777.nordvpn.com 
+2024-10-04 15:45:55.2235 INFO [1] EventFacade member: ServiceOnStatusChanged linenumber:233 messageType:NordVpn.Core.Messages.Status.ConnectionStateChangedMessage message: NordVpn.Core.Messages.Status.ConnectionStateChangedMessage 
+2024-10-04 15:45:55.2235 INFO [1] Settings Setting KillSwitchApps changed to System.Collections.Generic.List`1[NordVpn.Core.Models.Settings.AppInfo] 
+2024-10-04 15:45:55.2235 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 15:45:55.2235 INFO [1] Settings Setting UniqueUserAppId changed to a2138aca-1655-4c96-9f8d-a8e64e9cbe0a 
+2024-10-04 15:45:55.2235 INFO [1] Settings Setting KillSwitchApps changed to [] 
+2024-10-04 15:45:55.2235 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 15:45:55.2235 INFO [1] Settings Setting UniqueUserAppId changed to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPCY5/lmcjUSvxI0aQdF3EwQAAAACAAAAAAAQZgAAAAEAACAAAADuPMpVCqQyFBdS6vBpRwGEpGesJOpBMT+w6Zq7agt8YwAAAAAOgAAAAAIAACAAAABJlSDrD1Sbut07CDCMsMybKrZ2wBb5QXzN7fwqkzMjczAAAABUvjX09x99POTe0Kum/EIydCZ1xltaVCK9mGujd4J1aU1ynAqaRyg3f86fPjoS2SxAAAAAMGKWI75N7Ct4ytmanSHDOEIGZDwyfXeZDW/bbkSbABFmLiph6BSvfHe58J49P6LtTXQnBCqp7u9CJ/p2v5S3iA== 
+2024-10-04 15:45:55.2235 INFO [1] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 15:45:55.3272 INFO [1] Settings Settings saved 
+2024-10-04 15:45:55.3272 INFO [1] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 15:45:55.3272 INFO [1] NetApplicationSettingsRepository Deserialized map position values: X: 343,452431349362 Y: 176,538841950503 
+2024-10-04 15:45:55.3272 INFO [12-Worker] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 15:45:55.3272 INFO [12-Worker] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 15:45:55.3272 INFO [12-Worker] JsonProvider Fetching [SharedConfig] hash from remote 
+2024-10-04 15:45:55.3272 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" will be used 
+2024-10-04 15:45:55.3272 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.napps-1.com" url 
+2024-10-04 15:45:55.4095 INFO [1] EventFacade member: Connection_StateChanged linenumber:57 messageType:NordVpn.Core.Messages.SecurityScore.VpnConnectionFeatureStateChangedMessage message: NordVpn.Core.Messages.SecurityScore.VpnConnectionFeatureStateChangedMessage 
+2024-10-04 15:45:55.9936 INFO [12-Worker] LoggingHandler Request GET https://downloads.napps-1.com/apps/windows/FeatureConfig/ThreatProtection.sha1. Returned 200 OK 
+2024-10-04 15:45:56.3852 INFO [12-Worker] LoggingHandler Request GET https://downloads.napps-1.com/apps/windows/FeatureConfig/SharedConfig.sha1. Returned 200 OK 
+2024-10-04 15:45:56.7369 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 15:46:00.5851 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:00.5851 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:01.9863 INFO [1] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/helpers/ips/insights. Returned 200 OK 
+2024-10-04 15:46:02.6955 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" threw HttpRequestException. 
+2024-10-04 15:46:03.3031 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:03.3031 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:03.4669 INFO [57] LoggingHandler Request POST https://zwyr157wwiu6eior.com/v1/users/tokens/renew. Returned 201 Created 
+2024-10-04 15:46:03.5732 INFO [6] PersistentUserTokenProvider Token update started 
+2024-10-04 15:46:03.5732 INFO [6] Settings Setting KillSwitchApps changed to System.Collections.Generic.List`1[NordVpn.Core.Models.Settings.AppInfo] 
+2024-10-04 15:46:03.5732 INFO [6] Settings Setting RenewalToken changed 
+2024-10-04 15:46:03.5732 INFO [6] Settings Setting UniqueUserAppId changed to a2138aca-1655-4c96-9f8d-a8e64e9cbe0a 
+2024-10-04 15:46:03.5772 INFO [6] Settings Setting KillSwitchApps changed to [] 
+2024-10-04 15:46:03.5772 INFO [13-MessageQueue] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 15:46:03.5772 INFO [13-MessageQueue] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 15:46:03.5772 INFO [6] Settings Setting RenewalToken changed 
+2024-10-04 15:46:03.5772 INFO [13-MessageQueue] JsonProvider Fetching [LibmooseEventsToggle] hash from remote 
+2024-10-04 15:46:03.5772 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" will be used 
+2024-10-04 15:46:03.5772 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.napps-1.com" url 
+2024-10-04 15:46:03.5772 INFO [6] Settings Setting UniqueUserAppId changed to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPCY5/lmcjUSvxI0aQdF3EwQAAAACAAAAAAAQZgAAAAEAACAAAABLTc0cQ2PWN9srKWARHFSpzAuuhaocyCkqkzEfNQ9hNQAAAAAOgAAAAAIAACAAAACOTaFz6DnOKbzaX+Dsd8uD97/Vxe681Dd3mf0Sy3JflzAAAADDPiQHZQNOsvkrNfisKAK10N++jfBHIDMQ9YNT4RUKjwwrIaBuhzUDRasF9MiONftAAAAAn6nTpjACWfGlTxW/QcrLquU9wf0qftPHD8tjNcUvQMFH1vKI3clNERwy2F8k3kU+3Kx8yfkbxwgpcXktIb3wRQ== 
+2024-10-04 15:46:03.5772 INFO [6] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 15:46:03.5981 INFO [13-MessageQueue] LoggingHandler Request GET https://downloads.napps-1.com/apps/windows/FeatureConfig/LibmooseEventsToggle.sha1. Returned 200 OK 
+2024-10-04 15:46:03.6112 INFO [6] Settings Settings saved 
+2024-10-04 15:46:03.6112 INFO [6] PersistentUserTokenProvider Token updated 
+2024-10-04 15:46:03.6112 INFO [12-Worker] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 15:46:03.6112 INFO [12-Worker] NetApplicationSettingsRepository Deserialized map position values: X: 343,452431349362 Y: 176,538841950503 
+2024-10-04 15:46:03.6112 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:03.6112 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:03.6112 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:03.6112 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:03.6112 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:03.6112 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:03.8177 INFO [31] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/users/current. Returned 200 OK 
+2024-10-04 15:46:03.8177 INFO [1] NordVpnApiAuthenticator Tokens login attempt 
+2024-10-04 15:46:03.8177 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:03.8177 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:03.9967 INFO [4] LoggingHandler Request POST https://zwyr157wwiu6eior.com/v1/notifications/tokens. Returned 201 Created 
+2024-10-04 15:46:03.9997 INFO [60] NotificationCenterClient NotificationCenterClient: Received user connection to tcps://nc-unit6-mqtt.nordvpn.com:8884/ for user ecdc6161ff083aba3280fe80232d62e299a11f9494cc1399add9cc66efe5802c7b50e7a5ad2b8d695e01e562a73d8b74436c0e31b486d3d6d64ca5cc5b607175 with appuserid 668862e210664877c2bff6efc5ca43e32ce8ef3d 
+2024-10-04 15:46:04.0446 INFO [13-MessageQueue] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/breach-scanner/subscriptions. Returned 200 OK 
+2024-10-04 15:46:04.0466 INFO [13-MessageQueue] EventFacade member: CalculateFeatureScore linenumber:42 messageType:NordVpn.Core.Messages.SecurityScore.SecurityScoreChangedMessage message: NordVpn.Core.Messages.SecurityScore.SecurityScoreChangedMessage 
+2024-10-04 15:46:04.1140 INFO [57] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 15:46:04.2947 INFO [48] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 15:46:04.2947 INFO [48] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 15:46:04.2947 INFO [48] JsonProvider Fetching [Meshnet] hash from remote 
+2024-10-04 15:46:04.2967 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" will be used 
+2024-10-04 15:46:04.2967 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.napps-1.com" url 
+2024-10-04 15:46:04.3356 INFO [17] LoggingHandler Request GET https://downloads.napps-1.com/apps/windows/FeatureConfig/Meshnet.sha1. Returned 200 OK 
+2024-10-04 15:46:04.6622 INFO [1] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/users/services/credentials. Returned 200 OK 
+2024-10-04 15:46:04.6622 INFO [1] NordVpnApiAuthenticator Tokens login attempt 
+2024-10-04 15:46:04.6622 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:04.6622 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:04.7970 INFO [1] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/users/services. Returned 200 OK 
+2024-10-04 15:46:04.7970 INFO [1] Settings Setting KillSwitchApps changed to System.Collections.Generic.List`1[NordVpn.Core.Models.Settings.AppInfo] 
+2024-10-04 15:46:04.7970 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 15:46:04.7970 INFO [12-Worker] EventFacade member: OnUserChangedAsync linenumber:29 messageType:NordVpn.Core.Messages.Application.FeatureAvailabilityChanged message: NordVpn.Core.Messages.Application.FeatureAvailabilityChanged 
+2024-10-04 15:46:04.7970 INFO [1] Settings Setting UniqueUserAppId changed to a2138aca-1655-4c96-9f8d-a8e64e9cbe0a 
+2024-10-04 15:46:04.7970 INFO [1] Settings Setting KillSwitchApps changed to [] 
+2024-10-04 15:46:04.7970 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 15:46:04.7970 INFO [1] Settings Setting UniqueUserAppId changed to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPCY5/lmcjUSvxI0aQdF3EwQAAAACAAAAAAAQZgAAAAEAACAAAADBWa/FwIXeFI+c+IBnu4kz/U/25S46cX7mr3rsWGI/3AAAAAAOgAAAAAIAACAAAAB8lzmP67Y1Z7RXaQ+YJtYrbwIO75TQTSgLLx2RzvUcdzAAAACHRq4Y5/bT1ZMNWIvkB32le22zHMcGu1pUGc10gsPdS/+LR9QPv4OtaEXsaihmlj9AAAAAqO7kBc/jzgEpyD0POfZqbDwklDXuCT7rKuFHUdPpkNjIY1BZOipPvV5LieINiUx8NkmvLKpvqU0+04PL+ASh3A== 
+2024-10-04 15:46:04.7970 INFO [1] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 15:46:04.8460 INFO [1] Settings Settings saved 
+2024-10-04 15:46:04.8460 INFO [12-Worker] EventFacade member: OnUserChangedAsync linenumber:170 messageType:NordVpn.Core.Messages.BreachScanner.BreachScannerUserChangedMessage message: NordVpn.Core.Messages.BreachScanner.BreachScannerUserChangedMessage 
+2024-10-04 15:46:04.8595 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:04.8595 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:04.8595 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:04.8595 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:05.0340 INFO [12-Worker] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/alerts. Returned 200 OK 
+2024-10-04 15:46:05.0340 INFO [12-Worker] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 15:46:05.0340 INFO [12-Worker] NetApplicationSettingsRepository Deserialized map position values: X: 343,452431349362 Y: 176,538841950503 
+2024-10-04 15:46:05.0622 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:05.0622 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:05.1393 INFO [1] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/breach-scanner/subscriptions. Returned 200 OK 
+2024-10-04 15:46:05.1413 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 15:46:05.1413 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:05.1413 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:05.1413 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 15:46:05.1413 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 15:46:05.2771 INFO [13-MessageQueue] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/breach-scanner/subscriptions. Returned 200 OK 
+2024-10-04 15:46:05.2771 INFO [13-MessageQueue] EventFacade member: CalculateFeatureScore linenumber:42 messageType:NordVpn.Core.Messages.SecurityScore.SecurityScoreChangedMessage message: NordVpn.Core.Messages.SecurityScore.SecurityScoreChangedMessage 
+2024-10-04 15:46:05.4373 INFO [12-Worker] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/users/referrals. Returned 200 OK 
+2024-10-04 15:46:05.4983 INFO [1] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/breach-scanner/breaches. Returned 200 OK 
+2024-10-04 15:46:06.6190 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 15:46:14.1117 INFO [4] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 15:46:16.6273 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 15:46:24.1269 INFO [17] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 15:46:26.5956 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 15:46:34.1284 INFO [73] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 15:46:36.6009 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 15:46:40.5190 INFO [1] EventFacade member: OnUIVpnConnectionStateChanged linenumber:45 messageType:NordVpn.Core.Messages.Promos.PromoRefreshMessage message: NordVpn.Core.Messages.Promos.PromoRefreshMessage 
+2024-10-04 15:46:44.1560 INFO [73] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 15:46:46.6100 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:49:05.7776 INFO [1] OpenVpnService OpenVpnService state change. State: Connecting. Server: fr777.nordvpn.com 
+2024-10-04 17:49:05.7806 INFO [1] RapidStatedVpnConnectionService Rapid states. Raising: Connecting - fr777.nordvpn.com 
+2024-10-04 17:49:05.7806 INFO [13-MessageQueue] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 17:49:05.7806 INFO [13-MessageQueue] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 17:49:05.7806 INFO [1] EventFacade member: ServiceOnStatusChanged linenumber:233 messageType:NordVpn.Core.Messages.Status.ConnectionStateChangedMessage message: NordVpn.Core.Messages.Status.ConnectionStateChangedMessage 
+2024-10-04 17:49:05.7806 INFO [13-MessageQueue] JsonProvider Fetching [NordVPN] hash from remote 
+2024-10-04 17:49:05.7806 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" will be used 
+2024-10-04 17:49:05.7806 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.napps-1.com" url 
+2024-10-04 17:49:05.7806 INFO [1] EventFacade member: ServiceOnStatusChanged linenumber:239 messageType:NordVpn.Core.Messages.Status.AbortSnoozeMessage message: NordVpn.Core.Messages.Status.AbortSnoozeMessage 
+2024-10-04 17:49:06.5269 INFO [1] EventFacade member: Connection_StateChanged linenumber:51 messageType:NordVpn.Core.Messages.SecurityScore.VpnConnectionFeatureStateChangedMessage message: NordVpn.Core.Messages.SecurityScore.VpnConnectionFeatureStateChangedMessage 
+2024-10-04 17:49:06.5409 INFO [1] DispatcherTimerPeriodicTask Executing periodic task <>c__DisplayClass8_0:<Start>b__0 
+2024-10-04 17:49:06.5409 INFO [1] DispatcherTimerPeriodicTask Executing periodic task <>c__DisplayClass8_0:<Start>b__0 
+2024-10-04 17:49:06.5409 INFO [1] DispatcherTimerPeriodicTask Executing periodic task <>c__DisplayClass8_0:<Start>b__0 
+2024-10-04 17:49:08.3687 INFO [12-Worker] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 17:49:08.3687 INFO [12-Worker] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 17:49:08.3687 INFO [12-Worker] JsonProvider Fetching [ThreatProtection] hash from remote 
+2024-10-04 17:49:08.3687 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" will be used 
+2024-10-04 17:49:08.3687 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.napps-1.com" url 
+2024-10-04 17:49:08.4111 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 17:49:10.8555 INFO [79] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:49:13.3294 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:49:20.8648 INFO [73] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:49:23.3306 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:49:27.0250 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" threw HttpRequestException. 
+2024-10-04 17:49:27.0250 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" threw HttpRequestException. 
+2024-10-04 17:49:28.0346 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" will be used 
+2024-10-04 17:49:28.0346 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.napps-1.com" url 
+2024-10-04 17:49:28.0346 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" will be used 
+2024-10-04 17:49:28.0346 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.napps-1.com" url 
+2024-10-04 17:49:30.8671 INFO [79] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:49:33.3329 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:49:40.8701 INFO [79] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:49:43.3441 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:49:49.0908 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" threw HttpRequestException. 
+2024-10-04 17:49:49.0908 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" threw HttpRequestException. Blacklisting... 
+2024-10-04 17:49:49.0908 INFO [12-Worker] UrlList ResiliencyHandler: Blacklisting "downloads.napps-1.com" 
+2024-10-04 17:50:13.1709 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.p99nxpivfscyverz.me" will be used 
+2024-10-04 17:50:13.1709 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.p99nxpivfscyverz.me" url 
+2024-10-04 17:50:13.1709 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" threw HttpRequestException. 
+2024-10-04 17:50:13.1709 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.napps-1.com" threw HttpRequestException. Blacklisting... 
+2024-10-04 17:50:13.1709 INFO [12-Worker] UrlList ResiliencyHandler: Blacklisting "downloads.napps-1.com" 
+2024-10-04 17:50:25.2297 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.x9fnzrtl4x8pynsf.com" will be used 
+2024-10-04 17:50:25.2297 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.x9fnzrtl4x8pynsf.com" url 
+2024-10-04 17:50:25.2407 INFO [46] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:50:25.2822 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:50:25.2822 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:50:25.2822 INFO [45] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:50:25.2983 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:50:25.2983 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:50:25.3191 INFO [31] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:50:25.3411 INFO [55] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:50:25.4256 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 17:50:30.8967 INFO [55] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:50:33.3621 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:50:37.3249 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.p99nxpivfscyverz.me" threw HttpRequestException. 
+2024-10-04 17:50:37.3249 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.p99nxpivfscyverz.me" threw HttpRequestException. Blacklisting... 
+2024-10-04 17:50:37.3249 INFO [12-Worker] UrlList ResiliencyHandler: Blacklisting "downloads.p99nxpivfscyverz.me" 
+2024-10-04 17:50:58.1025 INFO [40] AutoConnector Stopping AutoConnectPeriodicTask 
+2024-10-04 17:50:58.5180 INFO [40] AutoConnector Stopping AutoConnectPeriodicTask 
+2024-10-04 17:51:01.1938 INFO [40] TrustedWifiConnectionsService Connect or disconnect depending if trusted Wifi. Parameters: isWifiAutoConnectable: False  
+2024-10-04 17:51:01.4426 INFO [12-Worker] UrlList ResiliencyHandler: All url were blocked. Clearing blacklist 
+2024-10-04 17:51:01.4426 INFO [13-MessageQueue] LoggingHandler Request GET https://downloads.p99nxpivfscyverz.me/apps/windows/FeatureConfig/NordVPN.sha1. Failed to get response: System.OperationCanceledException: L'opÈration a ÈtÈ annulÈe.
+   ‡ System.Threading.CancellationToken.ThrowOperationCanceledException()
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerInner.<SendAsync>d__6.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__12.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.AdditionalHeaderHandler.<SendAsync>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2024-10-04 17:51:01.4426 ERROR [13-MessageQueue] FeatureConfigCacheProvider Unable to update featureConfig FeatureConfig.Core.Exceptions.FeatureConfigException: Unable to update featureConfig ---> System.Threading.Tasks.TaskCanceledException: Une t‚che a ÈtÈ annulÈe.
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Downloads.FileDownloader.<GetFileContentAsync>d__7.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.FeatureConfig.FeatureConfigFileProvider.<GetAsync>d__3.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ FeatureConfig.JsonProviders.JsonProvider.<GetHash>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ FeatureConfig.Providers.FeatureConfigCacheProvider.<UpdateFromRemoteIfChanged>d__13.MoveNext()
+   --- Fin de la trace de la pile d'exception interne ---
+2024-10-04 17:51:01.4426 INFO [69] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:51:01.4983 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.x9fnzrtl4x8pynsf.com" threw HttpRequestException. 
+2024-10-04 17:51:01.4983 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.x9fnzrtl4x8pynsf.com" threw HttpRequestException. Blacklisting... 
+2024-10-04 17:51:01.4983 INFO [12-Worker] UrlList ResiliencyHandler: Blacklisting "downloads.x9fnzrtl4x8pynsf.com" 
+2024-10-04 17:51:02.7056 INFO [1] OpenVpnService OpenVpnService state change. State: Connected. Server: fr777.nordvpn.com 
+2024-10-04 17:51:02.7056 INFO [1] RapidStatedVpnConnectionService Rapid states. Raising: Connected - fr777.nordvpn.com 
+2024-10-04 17:51:02.7056 INFO [1] EventFacade member: ServiceOnStatusChanged linenumber:233 messageType:NordVpn.Core.Messages.Status.ConnectionStateChangedMessage message: NordVpn.Core.Messages.Status.ConnectionStateChangedMessage 
+2024-10-04 17:51:02.7056 INFO [1] Settings Setting KillSwitchApps changed to System.Collections.Generic.List`1[NordVpn.Core.Models.Settings.AppInfo] 
+2024-10-04 17:51:02.7056 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 17:51:02.7056 INFO [1] Settings Setting UniqueUserAppId changed to a2138aca-1655-4c96-9f8d-a8e64e9cbe0a 
+2024-10-04 17:51:02.7056 INFO [1] Settings Setting KillSwitchApps changed to [] 
+2024-10-04 17:51:02.7056 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 17:51:02.7350 INFO [1] Settings Setting UniqueUserAppId changed to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPCY5/lmcjUSvxI0aQdF3EwQAAAACAAAAAAAQZgAAAAEAACAAAABW3ZRpOjpbcFsZZwdKuE6LKmVv9tPNJWkFn+bvb7zmgwAAAAAOgAAAAAIAACAAAABuQ48b7nKR7F8wvyXusfmoPAOgnmXOMtRsiwwpZUytIDAAAABZURVUlotoTXyH7Z+8ztjSZWW/h35Crdg2IfsBCR0ulEtxD8QDsPNCbjsY0XqdjtNAAAAA7zbn0jEU6dSYnaugeKoOiDnA0Sg2JS5PXBFhI4RGvjrlh8SFjUKLYnMjDoFuB6Q+6fpq7BGqASA4lmnU7xxUuA== 
+2024-10-04 17:51:02.7350 INFO [1] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 17:51:02.9042 INFO [1] Settings Settings saved 
+2024-10-04 17:51:02.9110 INFO [1] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 17:51:02.9110 INFO [1] NetApplicationSettingsRepository Deserialized map position values: X: 343,452431349362 Y: 176,538841950503 
+2024-10-04 17:51:03.1237 INFO [1] EventFacade member: Connection_StateChanged linenumber:57 messageType:NordVpn.Core.Messages.SecurityScore.VpnConnectionFeatureStateChangedMessage message: NordVpn.Core.Messages.SecurityScore.VpnConnectionFeatureStateChangedMessage 
+2024-10-04 17:51:03.5911 INFO [17] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 17:51:03.5911 INFO [17] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 17:51:03.5911 INFO [17] JsonProvider Fetching [Meshnet] hash from remote 
+2024-10-04 17:51:03.7975 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 17:51:03.7975 INFO [12-Worker] LoggingHandler Request GET https://downloads.x9fnzrtl4x8pynsf.com/apps/windows/FeatureConfig/ThreatProtection.sha1. Failed to get response: System.OperationCanceledException: L'opÈration a ÈtÈ annulÈe.
+   ‡ System.Threading.CancellationToken.ThrowOperationCanceledException()
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandlerInner.<SendAsync>d__6.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__12.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.AdditionalHeaderHandler.<SendAsync>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2024-10-04 17:51:04.0448 INFO [12-Worker] BasePeriodicTask "Executing periodic task" "<>c__DisplayClass10_0:<Start>b__0" 
+2024-10-04 17:51:04.0448 INFO [12-Worker] BasePeriodicTask "Finished executing periodic task" "<>c__DisplayClass10_0:<Start>b__0" 
+2024-10-04 17:51:04.0539 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:51:04.0539 INFO [12-Worker] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 17:51:04.0539 INFO [12-Worker] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 17:51:04.0539 INFO [12-Worker] JsonProvider Fetching [SharedConfig] hash from remote 
+2024-10-04 17:51:04.0539 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 17:51:04.0621 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 17:51:04.0621 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 17:51:04.0621 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 17:51:04.0621 ERROR [12-Worker] FeatureConfigCacheProvider Unable to update featureConfig FeatureConfig.Core.Exceptions.FeatureConfigException: Unable to update featureConfig ---> System.Threading.Tasks.TaskCanceledException: Une t‚che a ÈtÈ annulÈe.
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.Infrastructure.Downloads.FileDownloader.<GetFileContentAsync>d__7.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ NordVpn.FeatureConfig.FeatureConfigFileProvider.<GetAsync>d__3.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ FeatureConfig.JsonProviders.JsonProvider.<GetHash>d__4.MoveNext()
+--- Fin de la trace de la pile ‡ partir de l'emplacement prÈcÈdent au niveau duquel l'exception a ÈtÈ levÈe ---
+   ‡ System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   ‡ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   ‡ FeatureConfig.Providers.FeatureConfigCacheProvider.<UpdateFromRemoteIfChanged>d__13.MoveNext()
+   --- Fin de la trace de la pile d'exception interne ---
+2024-10-04 17:51:04.0621 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 17:51:04.0621 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 17:51:04.0621 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 17:51:04.0621 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 17:51:04.0621 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:51:04.0621 INFO [66] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:51:04.0621 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:51:04.0810 INFO [17] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:51:05.4929 INFO [12-Worker] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/servers?limit=2147483647&fields[id]=&fields[load]=. Returned 200 OK 
+2024-10-04 17:51:05.5725 INFO [73] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/Meshnet.sha1. Returned 200 OK 
+2024-10-04 17:51:05.5725 INFO [12-Worker] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/SharedConfig.sha1. Returned 200 OK 
+2024-10-04 17:51:05.5835 INFO [13-MessageQueue] EventFacade member: Handle linenumber:46 messageType:NordVpn.Core.Messages.Servers.UpdateServersMessage message: NordVpn.Core.Messages.Servers.UpdateServersMessage 
+2024-10-04 17:51:05.9295 INFO [13-MessageQueue] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/breach-scanner/subscriptions. Returned 200 OK 
+2024-10-04 17:51:05.9295 INFO [13-MessageQueue] EventFacade member: CalculateFeatureScore linenumber:42 messageType:NordVpn.Core.Messages.SecurityScore.SecurityScoreChangedMessage message: NordVpn.Core.Messages.SecurityScore.SecurityScoreChangedMessage 
+2024-10-04 17:51:08.5037 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 17:51:08.5037 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 17:51:08.5037 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 17:51:08.6208 INFO [1] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/helpers/ips/insights. Returned 200 OK 
+2024-10-04 17:51:10.4628 INFO [1] EventFacade member: OpenApp linenumber:63 messageType:NordVpn.Core.Messages.Tray.ShowShellMessage message: NordVpn.Core.Messages.Tray.ShowShellMessage 
+2024-10-04 17:51:10.6087 INFO [1] EventFacade member: WindowFocusChanged linenumber:653 messageType:NordVpn.Application.Core.ViewModels.Shell.Messages.ApplicationFocusChangedMessage message: NordVpn.Application.Core.ViewModels.Shell.Messages.ApplicationFocusChangedMessage 
+2024-10-04 17:51:10.9252 INFO [31] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:51:13.3917 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:51:20.9308 INFO [30] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:51:23.4126 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:51:30.9417 INFO [41] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:51:33.4390 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:51:40.9538 INFO [18] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:51:43.4472 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:51:48.2552 INFO [1] EventFacade member: OnUIVpnConnectionStateChanged linenumber:45 messageType:NordVpn.Core.Messages.Promos.PromoRefreshMessage message: NordVpn.Core.Messages.Promos.PromoRefreshMessage 
+2024-10-04 17:51:50.9588 INFO [48] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:51:53.4875 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:52:00.9768 INFO [48] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:52:03.4743 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:52:08.5427 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 17:52:10.9710 INFO [5] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:52:13.5405 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:52:20.9841 INFO [79] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:52:23.5006 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:52:30.9863 INFO [68] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:52:33.5273 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:52:40.9963 INFO [52] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:52:43.5002 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:52:51.0103 INFO [51] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:52:53.5370 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:53:01.0249 INFO [51] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:53:03.7578 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:53:08.3760 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 17:53:11.0970 INFO [57] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:53:13.7527 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:53:21.0779 INFO [68] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:53:23.7797 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:53:31.0839 INFO [55] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:53:33.7790 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:53:41.1020 INFO [46] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:53:43.8054 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:53:51.1109 INFO [48] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:53:53.8198 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:54:01.1110 INFO [68] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:54:03.8106 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:54:08.3834 INFO [12-Worker] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 17:54:08.3834 INFO [12-Worker] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 17:54:08.3834 INFO [12-Worker] JsonProvider Fetching [ThreatProtection] hash from remote 
+2024-10-04 17:54:08.3899 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 17:54:08.3899 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 17:54:08.3899 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 17:54:08.4362 INFO [12-Worker] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/ThreatProtection.sha1. Returned 200 OK 
+2024-10-04 17:54:11.1163 INFO [46] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:54:11.1253 INFO [54] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 17:54:11.1253 INFO [54] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 17:54:11.1253 INFO [54] JsonProvider Fetching [NordVPN] hash from remote 
+2024-10-04 17:54:11.1253 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 17:54:11.1253 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 17:54:11.1482 INFO [48] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/NordVPN.sha1. Returned 200 OK 
+2024-10-04 17:54:11.1482 INFO [48] FeatureConfigCacheProvider Remote hash does not match local. Config needs to be updated 
+2024-10-04 17:54:11.1619 INFO [48] JsonProvider Fetching [NordVPN] json from remote 
+2024-10-04 17:54:11.1619 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 17:54:11.1619 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 17:54:11.1801 INFO [29] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/NordVPN.json. Returned 200 OK 
+2024-10-04 17:54:13.8455 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:54:21.1289 INFO [67] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:54:23.8733 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:54:31.1333 INFO [63] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:54:34.1246 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:54:41.1358 INFO [55] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:54:44.1386 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:54:51.1598 INFO [17] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:54:54.1399 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:55:01.2898 INFO [51] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:55:04.1446 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:55:08.4883 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 17:55:11.2778 INFO [57] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:55:14.1477 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:55:21.2804 INFO [74] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:55:24.1472 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:55:31.2958 INFO [66] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:55:34.1873 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:55:41.3075 INFO [68] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:55:44.1756 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:55:51.3111 INFO [79] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:55:54.1770 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:55:55.1075 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 17:55:55.1075 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 17:55:56.1911 INFO [12-Worker] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/servers?limit=2147483647&fields[id]=&fields[load]=. Returned 200 OK 
+2024-10-04 17:55:56.2696 INFO [13-MessageQueue] EventFacade member: Handle linenumber:46 messageType:NordVpn.Core.Messages.Servers.UpdateServersMessage message: NordVpn.Core.Messages.Servers.UpdateServersMessage 
+2024-10-04 17:56:01.3149 INFO [30] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:56:04.1885 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:56:08.4799 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 17:56:11.3296 INFO [67] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:56:14.2167 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:56:21.3480 INFO [67] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:56:24.2116 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:56:31.3539 INFO [48] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:56:34.2139 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:56:41.3684 INFO [43] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:56:44.2216 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:56:51.3847 INFO [68] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:56:54.2421 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:57:01.3946 INFO [18] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:57:04.2531 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:57:08.4818 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 17:57:11.3963 INFO [74] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:57:14.2634 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:57:21.4116 INFO [31] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:57:24.2680 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:57:31.4163 INFO [74] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:57:34.2790 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:57:41.4230 INFO [74] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:57:44.3047 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:57:51.4331 INFO [18] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:57:54.2740 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:58:01.4418 INFO [66] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:58:04.2877 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:58:08.4884 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 17:58:11.4582 INFO [57] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:58:14.2903 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:58:50.4696 INFO [5] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:58:53.1454 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:58:54.6841 INFO [79] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 17:58:54.6841 INFO [79] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 17:58:54.6841 INFO [79] JsonProvider Fetching [Meshnet] hash from remote 
+2024-10-04 17:58:54.6841 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 17:58:54.6841 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 17:58:55.7555 INFO [73] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/Meshnet.sha1. Returned 200 OK 
+2024-10-04 17:59:00.4733 INFO [74] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:59:03.1608 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:59:10.4854 INFO [68] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:59:13.1689 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:59:20.4922 INFO [30] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:59:20.4922 INFO [30] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 17:59:20.4922 INFO [30] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 17:59:20.4922 INFO [30] JsonProvider Fetching [NordVPN] hash from remote 
+2024-10-04 17:59:20.4922 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 17:59:20.4922 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 17:59:20.5114 INFO [52] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/NordVPN.sha1. Returned 200 OK 
+2024-10-04 17:59:20.5114 INFO [52] FeatureConfigCacheProvider Remote hash does not match local. Config needs to be updated 
+2024-10-04 17:59:20.5114 INFO [52] JsonProvider Fetching [NordVPN] json from remote 
+2024-10-04 17:59:20.5239 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 17:59:20.5239 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 17:59:20.5395 INFO [46] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/NordVPN.json. Returned 200 OK 
+2024-10-04 17:59:23.1822 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:59:30.4970 INFO [30] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:59:33.1960 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:59:37.3562 INFO [12-Worker] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 17:59:37.3562 INFO [12-Worker] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 17:59:37.3562 INFO [12-Worker] JsonProvider Fetching [ThreatProtection] hash from remote 
+2024-10-04 17:59:37.3590 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 17:59:37.3590 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 17:59:37.3809 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 17:59:37.3809 INFO [12-Worker] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/ThreatProtection.sha1. Returned 200 OK 
+2024-10-04 17:59:40.5014 INFO [69] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:59:43.1989 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 17:59:50.5085 INFO [31] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 17:59:53.2046 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:00:00.5207 INFO [74] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:00:03.2154 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:00:11.2225 INFO [17] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:00:13.2245 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:00:20.9403 INFO [69] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:00:23.2749 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:00:30.9427 INFO [73] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:00:33.2847 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:00:37.3673 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 18:00:40.9579 INFO [31] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:00:43.2871 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:00:50.9653 INFO [45] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:00:53.3313 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:01:00.9726 INFO [67] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:01:02.6082 INFO [1] EventFacade member: WindowFocusChanged linenumber:653 messageType:NordVpn.Application.Core.ViewModels.Shell.Messages.ApplicationFocusChangedMessage message: NordVpn.Application.Core.ViewModels.Shell.Messages.ApplicationFocusChangedMessage 
+2024-10-04 18:01:03.2961 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:01:03.9160 INFO [1] EventFacade member: Close linenumber:127 messageType:NordVpn.Application.Core.ViewModels.Shell.Messages.ApplicationFocusChangedMessage message: NordVpn.Application.Core.ViewModels.Shell.Messages.ApplicationFocusChangedMessage 
+2024-10-04 18:01:03.9542 INFO [1] Settings Setting KillSwitchApps changed to System.Collections.Generic.List`1[NordVpn.Core.Models.Settings.AppInfo] 
+2024-10-04 18:01:03.9542 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 18:01:03.9542 INFO [1] Settings Setting UniqueUserAppId changed to a2138aca-1655-4c96-9f8d-a8e64e9cbe0a 
+2024-10-04 18:01:03.9542 INFO [1] Settings Setting KillSwitchApps changed to [] 
+2024-10-04 18:01:03.9542 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 18:01:03.9542 INFO [1] Settings Setting UniqueUserAppId changed to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPCY5/lmcjUSvxI0aQdF3EwQAAAACAAAAAAAQZgAAAAEAACAAAABjjFaga9ISR7xDsBtvpGdyM6rpmN91oCiovIZhDWau0gAAAAAOgAAAAAIAACAAAACBitLAhZMNBW+fUOkzKLSze/3zol0sZJnyoInGBd+PcDAAAAC5hr07IScsrNiNKAj/P4EroohIbXKGrYbOKDFmuopG7GVBKb5d1jvy+Sg9j5WRQJdAAAAAN6AkEMmddmKUsm15XtURn1RqAGQGx5XD8P4jpkk5so9H08HE52/fe3QOKQlVufrbcLnWUl/wyM1xcftcWyQVkw== 
+2024-10-04 18:01:03.9542 INFO [1] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 18:01:03.9956 INFO [1] Settings Settings saved 
+2024-10-04 18:01:04.0017 INFO [12-Worker] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 18:01:04.0017 INFO [12-Worker] NetApplicationSettingsRepository Deserialized map position values: X: 343,452431349362 Y: 176,538841950503 
+2024-10-04 18:01:04.0017 INFO [12-Worker] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 18:01:04.0264 INFO [12-Worker] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 18:01:04.0264 INFO [12-Worker] JsonProvider Fetching [SharedConfig] hash from remote 
+2024-10-04 18:01:04.0306 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 18:01:04.0306 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 18:01:04.1772 INFO [12-Worker] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/SharedConfig.sha1. Returned 200 OK 
+2024-10-04 18:01:10.9694 INFO [63] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:01:13.3171 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:01:20.9825 INFO [74] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:01:23.3229 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:01:23.9680 INFO [12-Worker] ResiliencyHandlerWithRotator Domain "zwyr157wwiu6eior.com" will be used 
+2024-10-04 18:01:23.9680 INFO [12-Worker] ResiliencyHandlerWithRotator ResiliencyHandler: Using "zwyr157wwiu6eior.com" url 
+2024-10-04 18:01:25.0070 INFO [12-Worker] LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/servers?limit=2147483647&fields[id]=&fields[load]=. Returned 200 OK 
+2024-10-04 18:01:25.0321 INFO [12-Worker] BasePeriodicTask "Executing periodic task" "<>c__DisplayClass10_0:<Start>b__0" 
+2024-10-04 18:01:25.0321 INFO [12-Worker] BasePeriodicTask "Finished executing periodic task" "<>c__DisplayClass10_0:<Start>b__0" 
+2024-10-04 18:01:25.0777 INFO [13-MessageQueue] EventFacade member: Handle linenumber:46 messageType:NordVpn.Core.Messages.Servers.UpdateServersMessage message: NordVpn.Core.Messages.Servers.UpdateServersMessage 
+2024-10-04 18:01:30.9789 INFO [57] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:01:33.3411 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:01:37.3764 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 18:01:40.9932 INFO [30] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:01:43.3429 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:01:50.9995 INFO [5] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:01:53.3126 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:02:01.0163 INFO [57] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:02:03.3367 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:02:11.0110 INFO [17] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:02:13.3617 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:02:21.0187 INFO [55] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:02:23.3698 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:02:31.0214 INFO [66] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:02:33.3776 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:02:37.3921 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 18:02:41.0269 INFO [17] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:02:43.3636 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:02:51.0376 INFO [74] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:02:53.3923 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:03:01.0466 INFO [68] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:03:03.4052 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:03:11.0486 INFO [18] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:03:13.4076 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:03:21.0802 INFO [67] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:03:23.4090 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:03:31.0635 INFO [46] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:03:33.4030 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:03:37.4141 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 18:03:41.0667 INFO [57] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:03:43.4095 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:03:51.0822 INFO [41] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:03:53.4163 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:04:01.0830 INFO [52] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:04:03.4236 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:04:11.0967 INFO [43] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:04:13.4383 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:04:21.0994 INFO [46] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:04:21.1110 INFO [47] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 18:04:21.1110 INFO [47] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 18:04:21.1110 INFO [47] JsonProvider Fetching [NordVPN] hash from remote 
+2024-10-04 18:04:21.1110 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 18:04:21.1110 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 18:04:22.1761 INFO [41] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/NordVPN.sha1. Returned 200 OK 
+2024-10-04 18:04:22.1761 INFO [41] FeatureConfigCacheProvider Remote hash does not match local. Config needs to be updated 
+2024-10-04 18:04:22.1761 INFO [41] JsonProvider Fetching [NordVPN] json from remote 
+2024-10-04 18:04:22.1761 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 18:04:22.1761 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 18:04:22.1917 INFO [43] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/NordVPN.json. Returned 200 OK 
+2024-10-04 18:04:23.4241 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:04:31.1075 INFO [68] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:04:33.4375 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:04:37.3736 INFO [12-Worker] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 18:04:37.3865 INFO [12-Worker] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 18:04:37.3865 INFO [12-Worker] JsonProvider Fetching [ThreatProtection] hash from remote 
+2024-10-04 18:04:37.3940 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 18:04:37.3940 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 18:04:37.4079 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 18:04:37.7531 INFO [12-Worker] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/ThreatProtection.sha1. Returned 200 OK 
+2024-10-04 18:04:41.1143 INFO [73] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:04:43.4390 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:04:51.1261 INFO [66] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:04:53.4651 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:05:01.1271 INFO [46] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:05:03.4725 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:05:11.1417 INFO [67] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:05:13.4906 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:05:21.1479 INFO [57] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:05:23.4933 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:05:31.1569 INFO [48] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:05:33.4997 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:05:37.3977 INFO [12-Worker] EventFacade member: PublishFeatureStateMessages linenumber:187 messageType:NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage message: NordVpn.Core.Messages.ThreatProtection.ThreatProtectionStateChangedMessage 
+2024-10-04 18:05:41.1724 INFO [31] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:05:43.5152 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:28:20.1923 INFO [1] OpenVpnService OpenVpnService state change. State: Connecting. Server: fr777.nordvpn.com 
+2024-10-04 18:28:20.2063 INFO [1] RapidStatedVpnConnectionService Rapid states. Raising: Connecting - fr777.nordvpn.com 
+2024-10-04 18:28:20.2063 INFO [13-MessageQueue] FeatureConfigCacheProvider Config needs to be updated 
+2024-10-04 18:28:20.2063 INFO [1] EventFacade member: ServiceOnStatusChanged linenumber:233 messageType:NordVpn.Core.Messages.Status.ConnectionStateChangedMessage message: NordVpn.Core.Messages.Status.ConnectionStateChangedMessage 
+2024-10-04 18:28:20.2063 INFO [13-MessageQueue] FeatureConfigCacheProvider Updating config from remote... 
+2024-10-04 18:28:20.2063 INFO [13-MessageQueue] JsonProvider Fetching [NordVPN] hash from remote 
+2024-10-04 18:28:20.2063 INFO [1] EventFacade member: ServiceOnStatusChanged linenumber:239 messageType:NordVpn.Core.Messages.Status.AbortSnoozeMessage message: NordVpn.Core.Messages.Status.AbortSnoozeMessage 
+2024-10-04 18:28:20.2063 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 18:28:20.2220 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 18:28:23.8556 INFO [52] ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2024-10-04 18:28:24.0132 INFO [1] EventFacade member: Connection_StateChanged linenumber:51 messageType:NordVpn.Core.Messages.SecurityScore.VpnConnectionFeatureStateChangedMessage message: NordVpn.Core.Messages.SecurityScore.VpnConnectionFeatureStateChangedMessage 
+2024-10-04 18:28:24.0445 INFO [1] Settings Setting KillSwitchApps changed to System.Collections.Generic.List`1[NordVpn.Core.Models.Settings.AppInfo] 
+2024-10-04 18:28:24.0445 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 18:28:24.0445 INFO [1] Settings Setting UniqueUserAppId changed to a2138aca-1655-4c96-9f8d-a8e64e9cbe0a 
+2024-10-04 18:28:24.0520 INFO [1] Settings Setting KillSwitchApps changed to [] 
+2024-10-04 18:28:24.0520 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 18:28:24.0520 INFO [1] Settings Setting UniqueUserAppId changed to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPCY5/lmcjUSvxI0aQdF3EwQAAAACAAAAAAAQZgAAAAEAACAAAACDi0gdymgG6zXZbOCrq/AmeYaW616jPdXvqZ4J5SusSwAAAAAOgAAAAAIAACAAAAAyYvuyAK73xo4QN7gH8OTho2imhpkduduAVlu+yefeqDAAAADXV2hTfnmYfDpybsiBFq2IJ78nbQ2hC1GJiCdHpqdF3H9MUGNBSrO+VYwGcMnxThNAAAAArnigvPxYkcZ+vq4w4OrZ371MJTNv+/bdCFg9P+qSwreQF5Jf7UgielOCQNF3Suz1j2zKhOwPDxKs8mGIks9fTg== 
+2024-10-04 18:28:24.0520 INFO [1] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 18:28:25.4354 INFO [1] Settings Settings saved 
+2024-10-04 18:28:26.2510 INFO [12-Worker] CustomManagerClientBase`1 Calling service.channel 
+2024-10-04 18:28:26.7542 INFO [13-MessageQueue] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/NordVPN.sha1. Returned 200 OK 
+2024-10-04 18:28:26.7542 INFO [13-MessageQueue] FeatureConfigCacheProvider Remote hash does not match local. Config needs to be updated 
+2024-10-04 18:28:26.7542 INFO [13-MessageQueue] JsonProvider Fetching [NordVPN] json from remote 
+2024-10-04 18:28:26.7542 INFO [12-Worker] ResiliencyHandlerInner Domain "downloads.73dkt-vwrqs.xyz" will be used 
+2024-10-04 18:28:26.7699 INFO [12-Worker] ResiliencyHandlerInner ResiliencyHandler: Using "downloads.73dkt-vwrqs.xyz" url 
+2024-10-04 18:28:26.8425 INFO [1] DispatcherTimerPeriodicTask Executing periodic task <>c__DisplayClass8_0:<Start>b__0 
+2024-10-04 18:28:26.8668 INFO [1] NetApplicationSettingsRepository Serialized map position: {"X":343.452431349362,"Y":176.538841950503} 
+2024-10-04 18:28:26.8668 INFO [1] NetApplicationSettingsRepository Deserialized map position values: X: 343,452431349362 Y: 176,538841950503 
+2024-10-04 18:28:27.2855 INFO [13-MessageQueue] LoggingHandler Request GET https://downloads.73dkt-vwrqs.xyz/apps/windows/FeatureConfig/NordVPN.json. Returned 200 OK 
+2024-10-04 18:28:28.0840 INFO [1] OpenVpnService OpenVpnService state change. State: Connected. Server: fr777.nordvpn.com 
+2024-10-04 18:28:28.0930 INFO [1] RapidStatedVpnConnectionService Rapid states. Raising: Connected - fr777.nordvpn.com 
+2024-10-04 18:28:28.0930 INFO [1] EventFacade member: ServiceOnStatusChanged linenumber:233 messageType:NordVpn.Core.Messages.Status.ConnectionStateChangedMessage message: NordVpn.Core.Messages.Status.ConnectionStateChangedMessage 
+2024-10-04 18:28:28.0930 INFO [1] Settings Setting KillSwitchApps changed to System.Collections.Generic.List`1[NordVpn.Core.Models.Settings.AppInfo] 
+2024-10-04 18:28:28.0930 INFO [1] Settings Setting RenewalToken changed 
+2024-10-04 18:28:28.0930 INFO [1] Settings Setting UniqueUserAppId changed to a2138aca-1655-4c96-9f8d-a8e64e9cbe0a 
+2024-10-04 18:28:28.0930 INFO [1] Settings Settin÷V¨∫(π`mõ≤›∞§Ó•ä∫<úÚà©{¿~k°·e(ß\ ¥nöi.DÔâèïÌU‚-Û?˚˛_ù@S
+ÁE∂Ã«Xµ©=å}/os–uvÿ≤t„Nü◊bˇpEà_ò∆|Ô…#‹Uß|¸’ªÎ∫gãDè˝cPî¿gãcLa4Öå'üC|	Öfƒ¨ˆÿ∫ö<wï˜eHÔ…ºGÌÄbáü$˜ôhIy∑é1·¨nPuˇ£‹&˜ª"’bìÒol/ÿ'Ò+sŒuªtoG˚ƒ÷v	ÛıÚ*%p˙tr3j™ç“ù†h2™-d8MØyx˝ø—T^’sïjU˜°ànÏF£a◊©´Q–é¶v∏€Ä'%[ëà83ÁÑ_‰)Rku(»˜1v±oàìÇ˜ª8Àπ∏8ÜÆtÍfÎ=Î≤≈ë+œÖÂ~”Ï”};CUa„H¿=ûº}ØtlJ- 1˜Ú¿Ω™<îBö\X˙~ñX>q^•ïä$í‡üﬂ~˚ ˆE{ÅÏ˚Ó™6…$[±W∆‹úôΩ?Ø*©_√EOÃtØ…z3%√V⁄o?Q YwënÈF£&Xp[F^ì§GcÎ”T¯3Z∆Úbπ>“„cü…÷
+gÓ˜¯h\ñˇ∑>K∑AS{≥Òñ§|îZ¿¿®≠\iõøjª*ô˛ÁÂ◊Ì,Æ¡ú˚Êù!îÍ#8«ëÃøâ’%˝Ú‘¶XCBí¶<˜ﬂ·™Œ($›|*0SÔ ∂&yïE;Uo%˚ÄC≠≥Õ≥£ñπW˚9«C(ÄFåœ-òÎ∏˜Veuá˘¨I˙ÉWgO‹LyYGÍh$Bé®@y@£‹¬ÔlN'GBÛ¢£Kwï úT¥-»eàì@§6˜Yvî Å$ï«	’ˆÒCwﬂóLv›÷§ÎÈ&†7g?ò\Œ ƒzrV°’`"Ûï≥·ü*¸ÒE}…wI√è∫∞-¶pÙûÏ¬0·óG}'M^º0\´Ì Ü∑Oàª±äDì%_8Ç•¯8‰”|À$3˜wÒÑËßƒb •˙‹	HÏ%8Í®
+˛ªkúÊ∫á6ÈN:´/§¡Ælº¶cÅ1˜æ0kœ∫¨Éé¨˛ÓÉ_û´õßÉwap±/D ›_çM°z:¡CXmo”|á√Y©&o¸˝˘?'j‡Œ∏€.∞∫0.W»n”Ãîet)æü(^Ëˆñ‡”Oü}åÇvÄ(”(üÕ<÷ ãòI€4±£§ç/ºÍˆzÏ:WödÉ/ óI˙…C-–A»•‘û‚±díå±1[,∞D‹˛±Z◊ê&cπ9ÊxaàÊVÔcKq:gxx±ßÙ‘DËë˚».ßµãk√ò–´¯m—¨j†éÌyXß™ z@:GW©töªIgŸﬂ|NÊÙb∆⁄?ÍÁp‘¢(@/Dç‰4[‰vTtÅ%Óüò¡‹u±¥|¬˙&‰œGj”&#’∆^‚Í ºk ªyû8óøb©vï˜öbÈ-ﬁç˘%	jÁ3À‡Ú¡’î˜∫Oó±¥ÚD:Î¯‰ê%>ŒwÃ ´◊Vœ¶Bˇû|ƒÚvå≈Ó‡˝‰(“oIÛÙ≠z–)ÄWùã¡Êõ(ú}Z‹€7z_7;ñÁ§π5Ú"»7i˜élt—ÂÓ…”⁄—y ®(1ö'Û•d$
+^lˇf‘g⁄…ôÙ–6ÓÂ1ÛÊ≠ﬁDYøC„“«>˘•ëêÉ°ïá\—á‹¨SM TË™Ç‰á{Æt0Å[c”g
+åw,$ÈqàêõŒÂ∂l´«™∞Z±ﬁ~¢ﬁä=˜µ%V{@ôÚ0EYëÜÆŒÂ€ﬂ‘~	Ù∂fuÛôÿwÓfÌˇÿ¥ÑÙaÒµuPOÛ.I?ÿüùÎ˚•ç€7sªÄN√Æ>:~ï©õ˝ˆªxÏË°ıüíÍ¥_gπnı|Çb?~Ÿ[HØåÕ¥Œ´X¢;Œº£éx!8G•j∑Ü—K!ˆ≈y„{jáƒ}IOÆG	 ‰_•tuòtxä˚ÿ√—Ù^lÄÌb}É
+æÒ<§¢ÊñíáŸYOP∫Å‰À”·ZÁûΩé=&.A5Ø≥ãA"c¸W_ó√ƒÁ—8às≥Lˆÿ⁄õ≈º?ˇ2êdÌ#1køq^8∂	„ÜnÀÀñc‹ê*∏©ë∑0\∏ò–V$µBıÜÕ6W?|U◊¶O+?[ì∫B«ê∂@ﬁgÜ"Çﬂ∂™M˚p⁄º´(úI´≤Mïh=iä%Øeá©h·Ÿ–
+øK‚cˆ√XBÕπ“*}ïL÷‹ƒ&√ﬂÉ˙L z∑-‡]€	dÚŸeC.hò-î^Xµ∂”zˆ6ë,¿·¡LuŒBZ û"÷‹Çôﬂ D1%~¨säÒÎ∆ó¨Ëwq◊ e±ÍJùvﬁ9&ò∂`õqÜtﬂÚ‹’M_t!<˜É_µ<`B«|ﬁª-2ª:ÚËmﬂ	◊≤EˇDI:hËÖzj@K´≠UlÆâè\‡·Ò[oiì¡ PÙË™r?)†kπÉ5ë∂ïà_ù8©y£*∫Ù]¡˚ÒÌÃÏ√:…p^˙ym®â˜38¯ä ±9Ãqç2¸#1,â=√{‡–1+5±‰Ï¿û>÷.ùÒº=9aRQù[#˛#ÙΩoŒMN°õ"ÇÔ=Êì¯≠ç_˝Âı_Ó6•=üX[¸Œëu”‚HX@L%ıx*Ti@|jÎ*#@ù¶úù≥O˛ÙFﬂ¡RN√_€yóÕò`B¨Ä1’≈A˚^üy{Ó øR3?
+·heKØŸ©Bˇ◊Ó“W6e}±‚"Õ‡Ùf¸H¶8¯]ŸµéÄ√vYPvN†ùÊ˛Û,lEŒkÕávúQß˝Y¿ä¿'ﬁ∑\ü◊ÓE»É>É~zkÔ∫	‚FŸ7ër∞F«ÊBPQQJ<C∞Oô»È ¡/g…”≠G1µà•iu˙Í\™:Ò@O‘∑aÑÑãπ°ÌZ=u}*A≤]cNôÂëœìÅÑNœÛÁê%˝hOÉã†nÏ‹‡j6H, õ@µµá5yI“ìy .€Ø¶>"|£¢!ÎT=ÚâI‹ïOU≤q§5Ö¥€ <‘¶vµ≥‰H)Æ4Ü⁄'$ÿ∫≤$∫.([£ö¬ÀÉh0Ù™Ωb;ˆd
+X§D™Ü§H‡îﬁ.g«¸ã†ÏJ…≠Lp˜∂%œqmzö;4Ï¸qﬁ~Ÿ©hWµlÎêë¢YçkN4˘Â™Z4»]ÄJ≤,4†àD:/1Î‰†˛|ŒDFŒ∂öaè1µT—}UajÍÁ%AˇÄhC^ﬂ≠∆ª¯+òﬂˇBæ3zaÒ€Ω<πlcÎ∏ql!NπH@◊VÜS€7Üóﬂ®Ÿ˚<Ø%ãPbÏ…“"≥ÔäD£T®˘ãatp˝æ?3ñîÅ÷‡ﬂÙ≠ÿØcÏ˝(˚d◊)ËÏ!ﬁnZ†ë%ï!KOü§L˛ÇqïNçúÀ≥x‚B	Æ˝∫ÂõH%ÅTÂ0î®èIæÙÜp<ˇÖ˚√E¨“èÛ£Miê;K1¡1≤:&Å˚s≠Á:"«œ‡¸ãçÂQ;¡ÀÉOI®⁄`%Ä\=ö:áW˝±èÿ∂7Ω>{‹(We9R/¶e'á√ñk•«ëÖ(T‚F ›/("µ_õ>VßˆÎÇ≠Õ…Ä£˘kàlÁTD·®l^~÷∫Á^4vü%Á–4&/√ÔÉò;Ú›%…*Ôêπ,ÜYé^3{≠üÅ5\˘¬”¢71≈¸™ıâj"r#e„Ÿyõ—E”È êÙ≠◊T‰."O\€Nt´ÄUög2>K≈:.ÍÊ_QÆ:Ò±õlƒÁ¸RÖ|Ë\‘xRæπÕ2HŒû9‹sÛ–`!ô,‚1|Ë™Çòw€ì¯ﬂºêÙÄÇfÚ˜ΩòAqPá˜
+PéŒà=òNB*äÀqõìA—˚=qfñ‘º˘ÖKîÁ¶ΩrÌf8®∂∫˝ΩrÖãªÂïŒaƒDW_<[£©x|¶^ QtÍ%}êãÒñHõ;„ºıI∑I8'Ç±»¬Gîm(\π•Xl™·›∆µ%JéÃ¿;" à≠ß∞ø8«X:¢˜¬∫m¨Í§≤zTx"Y˘√V|¶c‚&RÀø.–ñÎqê]|Ë’∑n¸v÷Ÿ¡{‘Ro†“»XOÓœnP~úïìh˙ÔM∫æ†3æ≠∂B´åî‚65»†∏≈l §(Ω∫¬{*´ß
+A:KA`\€<¢ÿÚ=ÑéÈöL◊ΩrO$ˆRÛ	†¶  DCãÏ=ÜŸWÃ=g√#èí ®˙Ï¶X√ZuF=d,ÆpÜ“Ê5!#≥El Ì›Rï÷Ûëcò-fÜ"ãÌ¥*m~⁄ßË–“Ht‚€œo6yÎÍ_‰ÅHÀF5ï ¬˝yn	ŸÎ…h‹â	6%Äd˝/NˆtŸz%‘\ÖÔƒDÂœ9∂„¯ÓEØ∑Ô$
+JW	È"üú?	eUŸz¯ÜúeáGµëMˆ-õ›·ˆUwd•è˝Ù¶gπ∫ÚHòp8áùT?˚AO£ÿ?ôÃåIDø∆uó›˜vπ$∫
+9ò«mˆjÜ-=±¡íîÙ.∏t8œh'j‡·§~ô’Quêéä°„&5ñyDbKÕ¿¡l©_`¡ìƒMYóÌKaìk*];0d=ÊÓ¸…´∂ØÂ/ñ]NÎNÚZº£^înµùÖ·è;pøK`b;ÔÓñŸ«Tæ`ß7kz1¥Ñ£
+Ä⁄5_Ú«F[sE∑ï*©=êxxGâ#qW≈1Ån∑¨Õ÷’)’^ul-+œŒÜ<mù÷|‘PQ≤®=∆˙^ó“vÛÌΩU⁄’¡GEÃµ∞ÎAüQ√.Mä¸Z§6Êº_Œ_°CÕŒ8"Tp‡K1ÄD@Î=<Œ™k~ãI∞õ‰W?≠h†?˝ƒ˙+˙ BÅ˛û:Gà††1Ÿ≤ëUØ>õΩ´öZü>m°tL«êD¡:√*çyc|„H
+¬¶0áígœ¬_,˚?$ùSD∑‘'pcÄsmú/1ı•ªuj\ìÛÙû1Qñz]umã-/~qÏÄ—ãµ4„±ﬁÈV™jÑ~áû§$ÉZLúú¸,%Rp¸Ωáx˝ﬂ 3éî,ŸàH8Ê∞aÇy»¬ïUWbñ®	 ∞Ú]Ï÷tê!Æ1ÑØ@HS“»Â∂vıÇ ;A∏cLÉ∫zU|∑Ë∆pﬁóS~ô¬Ì$æˇ¸ÅÌjúx÷∑-Nã19-ˆ¢˛r4ÍÂ"„ùIBq æN’≤U+X·8jî:^‡KˆF;ÛÇ+úX_ì’'J¶-ê}ØéPDŸ™j(=cÀn§Œ‰Úqÿ{õå”_;t˝_mŸ”/ãç>Ë_–$Â£∞∑/8‚¿∏¿¬ƒ:hö∂á÷·xÈô4£ß(Y&‡◊^T4otÏKÕI ≠8?øè∂	È¥[<|v=ZË∑Uèê©Ke∆UVy]∑∂ØÃÅkqAˆèOÜk—8G!∂Â∂Åu]Œ?m$ë◊…ı˛1ˇO»Çü¡&JòÎÕöÄ~mV)üÆ>Xe©®ΩEXá“ÈÈÅD.2<Df…>ä˛»ºﬁﬁÒñuåñø’†ŸæSDzñbâ%A+õ>hÑ™¡⁄∆ZÊPhtC¿7Ü[”õ#˚ÒπﬂÏ,1Ê9I„√é¨—"r#vä≈%_˛Qró¿≥X^êπPúÈV.ÛL	âTo æù~“¯NˆÈ£bE›çåw»‘G%BcÃ5µ∂ò«2µXbêò¢ªPÿ˝Ù÷Èm;çÆü!"æ«O7òwÈHdzzQr›b∂RUF»Ö˘ó∏ÏaB?óπ⁄B°±πw˙YôÄL»Ë¢˝}áäÈﬂïñ∫ì.Éo!AgQ-/-£ÿTëO¡a¡åæ˘jC§‘&ÕçW.Òó©˘&`¿Õ∞Åπ8ÆóM	c”RÒ!Ü∆~7˚u¨¥{;ëV¬ùI>âcüÜQD/◊æ	BYÆ–!+¸k‘+”Aç(·÷âï:3Ë/√‹≠0⁄∂bâ >[I‹Å∞∂.◊û∆FíQ∆Ps{/ÓYı¯ÍæøêòzUc\$U∫e@yd)Mq›§≥ôTL4Sâ¬y]a»{¯<≤$ sQ∫¥„åDBã∂oZõ˚ﬂr∏hXc”Ô6&Ò=»i}ËÑﬂ.–8[¨ße‡Ç#ΩÁcó¡·CÂ/∫üªCµe≤4ä0»ÏUã”Ÿ´RﬁM≠ ü'$™ÄH6RjAµºÙéKºıí˝±ÖEäÅ≠Òµ€ã∂nY˛‰Ù’Úñ‰o!≠âTä<€\π◊{nJ≤k2ËºkúÑbókâ+õµJQˆÁ¿€È¨(ëzÇk)¡ gs·¬Jg 4Ö8îƒ]&…ñ/c1î®Li[#~/¿ˆ·m˛í3–[å6¥5û∆]s…IÍƒË"˛≥ˆ88D[zøŒL"ˆœ3…ß∏oÚUÓ[Ã§9<K6#\§
+å”`S6M“˙°í«≤π´7£Ó°U˙ù¨øã©∫ÃD9-Ã¨—[g¡TÂk√cÔ&€ ›Ñ=æ‘ä3Q¸∂ÎÁ8™À.∂j¶Ê®4zú&ﬂ¶Ω6ıMg…Ω‰˝RuåSAkh~áö±õ¡ZBÛ«R¶UΩπöŸ0¶&CÀN`úé∂d˚bö`\tGåìhäı5{A]Md:’†ë6˝ÓÀá‚¨‰/JåÙÑË∫˚iIRÂãÌ43‘3]s ≤ø“µ£VL∫£“æ]È®

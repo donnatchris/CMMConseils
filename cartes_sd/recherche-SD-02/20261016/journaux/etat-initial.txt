@@ -1,0 +1,75 @@
+ewfmount 20140816
+
+  File: /mnt/ewf-sd02/ewf1
+  Size: 31914983424	Blocks: 0          IO Block: 4096   regular file
+Device: 0,57	Inode: 2           Links: 1
+Access: (0444/-r--r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2026-10-16 07:17:59.000000000 +0000
+Modify: 2026-10-16 07:17:59.000000000 +0000
+Change: 2026-10-16 07:17:59.000000000 +0000
+ Birth: -
+ewfinfo 20140816
+
+Acquiry information
+	Case number:		SADEDINE-2026
+	Description:		Carte SD contenant les enregistrements vidéos des caméras (terrasse)
+	Examiner name:		Christophe Donnat
+	Evidence number:	SD-02
+	Notes:			Identifiant série déclaré par le lecteur USB : 121220160204.
+	Password:		N/A
+
+EWF information
+	File format:		EnCase 6
+	Sectors per chunk:	64
+	Error granularity:	1
+	Compression method:	deflate
+	Compression level:	good (fast) compression
+
+Media information
+	Media type:		removable disk
+	Is physical:		yes
+	Bytes per sector:	512
+	Number of sectors:	62333952
+	Media size:		29 GiB (31914983424 bytes)
+
+Digest hash information
+	MD5:			d15c25a454693c2140a00c9da951e63d
+
+DOS Partition Table
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Primary Table (#0)
+001:  -------   0000000000   0000008191   0000008192   Unallocated
+002:  000:000   0000008192   0062333951   0062325760   Win95 FAT32 (0x0c)
+ewfverify 20140816
+
+Use ewfverify to verify data stored in the EWF format (Expert Witness
+Compression Format).
+
+Usage: ewfverify [ -A codepage ] [ -d digest_type ] [ -f format ]
+                 [ -l log_filename ] [ -p process_buffer_size ]
+                 [ -hqvVwx ] ewf_files
+
+	ewf_files: the first or the entire set of EWF segment files
+
+	-A:        codepage of header section, options: ascii (default),
+	           windows-874, windows-932, windows-936, windows-949,
+	           windows-950, windows-1250, windows-1251, windows-1252,
+	           windows-1253, windows-1254, windows-1255, windows-1256,
+	           windows-1257 or windows-1258
+	-d:        calculate additional digest (hash) types besides md5,
+	           options: sha1, sha256
+	-f:        specify the input format, options: raw (default),
+	           files (restricted to logical volume files)
+	-h:        shows this help
+	-l:        logs verification errors and the digest (hash) to the
+	           log_filename
+	-p:        specify the process buffer size (default is the chunk size)
+	-q:        quiet shows minimal status information
+	-v:        verbose output to stderr
+	-V:        print version
+	-w:        zero sectors on checksum error (mimic EnCase like behavior)
+	-x:        use the chunk data instead of the buffered read and write
+	           functions.

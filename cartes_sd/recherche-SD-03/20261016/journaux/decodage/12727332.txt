@@ -1,0 +1,26 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5591480d2ec0] wrong sample count
+[NULL @ 0x5591480d6b40] Invalid NAL unit size (4587520 > 5585).
+[NULL @ 0x5591480d6b40] missing picture in access unit with size 5589
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5591480d2ec0] Packet corrupt (stream = 1, dts = 38363).
+[NULL @ 0x5591480d6b40] Invalid NAL unit size (-83886067 > 1701).
+[NULL @ 0x5591480d6b40] missing picture in access unit with size 1705
+[h264 @ 0x5591480ee000] Invalid NAL unit 0, skipping.
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x5591480d2dc0] corrupt input packet in stream 1
+[h264 @ 0x5591480ee000] error while decoding MB 24 10, bytestream -6
+[h264 @ 0x5591480ee000] slice type 32 too large at 33423359
+[h264 @ 0x5591480ee000] decode_slice_header error
+[h264 @ 0x5591480ee000] A non-intra slice in an IDR NAL unit.
+[h264 @ 0x5591480ee000] decode_slice_header error
+[h264 @ 0x5591480ee000] data partitioning is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[h264 @ 0x5591480ee000] If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+[h264 @ 0x5591480ee000] pps_id 3199971767 out of range
+[h264 @ 0x5591480ee000] data partitioning is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[h264 @ 0x5591480ee000] If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+[vist#0:1/h264 @ 0x5591480e8600] corrupt decoded frame
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5591480d2ec0] stream 1, offset 0x3d5ad3: partial file
+[h264 @ 0x5591480ee000] Invalid NAL unit size (4587520 > 5585).
+[h264 @ 0x5591480ee000] Error splitting the input into NAL units.
+[vist#0:1/h264 @ 0x5591480e8600] Error submitting packet to decoder: Invalid data found when processing input
+[h264 @ 0x5591480ee000] Invalid NAL unit size (-83886067 > 1701).
+[h264 @ 0x5591480ee000] Error splitting the input into NAL units.
+[vist#0:1/h264 @ 0x5591480e8600] Error submitting packet to decoder: Invalid data found when processing input

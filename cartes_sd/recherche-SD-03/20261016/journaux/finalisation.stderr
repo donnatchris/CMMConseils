@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<stdin>", line 96, in <module>
+  File "<stdin>", line 53, in inspect
+  File "<stdin>", line 50, in walk
+TypeError: unhashable type: 'bytearray'

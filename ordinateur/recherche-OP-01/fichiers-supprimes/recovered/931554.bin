@@ -1,0 +1,28 @@
+/**********************************************************************/
+/* UninstallMembership.SQL                                            */
+/*                                                                    */
+/* Uninstalls the tables, triggers and stored procedures necessary for*/
+/* supporting the aspnet feature of ASP.Net                           */
+/*
+** Copyright Microsoft, Inc. 2002
+** All Rights Reserved.
+*/
+/**********************************************************************/
+
+PRINT '---------------------------------------------'
+PRINT 'Starting execution of UninstallMembership.SQL'
+PRINT '---------------------------------------------'
+GO
+
+SET QUOTED_IDENTIFIER OFF -- We don't use quoted identifiers
+SET ANSI_NULLS ON         -- We don't want (NULL = NULL) == TRUE
+GO
+SET ANSI_PADDING ON
+GO
+
+USE [aspnetdb]
+
+DECLARE @command nvarchar(4000)
+DECLARE @RemoveAllRoleMembersExits bit
+SET @RemoveAllRoleMembersExits = 0
+IF EXISTS (SELECT * FROM dbo.s

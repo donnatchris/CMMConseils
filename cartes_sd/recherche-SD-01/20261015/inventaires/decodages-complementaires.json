@@ -1,0 +1,124 @@
+[
+  {
+    "inode": "11500564",
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "warning",
+      "-threads",
+      "2",
+      "-i",
+      "cartes_sd/recherche-SD-01/20261015/prive/extraits/11500564_20240111_000726_10_0003.mp4",
+      "-fps_mode",
+      "passthrough",
+      "-enc_time_base",
+      "demux",
+      "-f",
+      "null",
+      "-"
+    ],
+    "returncode": 0,
+    "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6105cc204f00] wrong sample count\n"
+  },
+  {
+    "inode": "36542512",
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "warning",
+      "-threads",
+      "2",
+      "-i",
+      "cartes_sd/recherche-SD-01/20261015/prive/extraits/36542512_20240914_194725_10_0003.mp4",
+      "-fps_mode",
+      "passthrough",
+      "-enc_time_base",
+      "demux",
+      "-f",
+      "null",
+      "-"
+    ],
+    "returncode": 0,
+    "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x60cf11d7cf00] wrong sample count\n"
+  },
+  {
+    "inode": "41329160",
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "warning",
+      "-threads",
+      "2",
+      "-i",
+      "cartes_sd/recherche-SD-01/20261015/prive/extraits/41329160_20241015_121454_10_0034.mp4",
+      "-fps_mode",
+      "passthrough",
+      "-enc_time_base",
+      "demux",
+      "-f",
+      "null",
+      "-"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": {
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts,pts_time,dts_time",
+        "-of",
+        "json",
+        "cartes_sd/recherche-SD-01/20261015/prive/extraits/41329160_20241015_121454_10_0034.mp4"
+      ],
+      "returncode": 0,
+      "count": 436,
+      "dts_nonincreasing": 0,
+      "pts_nonincreasing": 0
+    }
+  },
+  {
+    "inode": "76861456",
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "warning",
+      "-threads",
+      "2",
+      "-i",
+      "cartes_sd/recherche-SD-01/20261015/prive/extraits/76861456_20241028_232234_10_0053.mp4",
+      "-fps_mode",
+      "passthrough",
+      "-enc_time_base",
+      "demux",
+      "-f",
+      "null",
+      "-"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "packets": {
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts,pts_time,dts_time",
+        "-of",
+        "json",
+        "cartes_sd/recherche-SD-01/20261015/prive/extraits/76861456_20241028_232234_10_0053.mp4"
+      ],
+      "returncode": 0,
+      "count": 734,
+      "dts_nonincreasing": 0,
+      "pts_nonincreasing": 0
+    }
+  }
+]

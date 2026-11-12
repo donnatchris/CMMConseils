@@ -1,0 +1,1417 @@
+{
+  "reused_count": 6,
+  "new_ffprobe_count": 31,
+  "total": 37,
+  "dts_nonincreasing": 0,
+  "pts_nonincreasing": 0,
+  "max_intrafile_dts_gap_seconds": 0.138,
+  "ffprobe_version": "ffprobe version 8.0.1-3ubuntu2 Copyright (c) 2007-2025 the FFmpeg developers",
+  "entries": [
+    {
+      "inode": "41329160",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_121454_10_0034.mp4",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329160_20241015_121454_10_0034.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 436,
+      "raw_output_sha256": "036cbc4503d0e6a8ccf275d3f3762fed8acfab38a60b0e2414020de12fc39ede",
+      "summary": {
+        "dts": {
+          "count": 436,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 104
+        },
+        "pts": {
+          "count": 436,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 104
+        }
+      },
+      "method": "Réemploi du contrôle du 15/10/2026",
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.104
+    },
+    {
+      "inode": "41329164",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_121533_10_0033.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329164_20241015_121533_10_0033.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 348,
+      "raw_output_sha256": "fb094934ebe718484def17141fe1a0671de407d37b153bcf32b4ddd8ac87aea7",
+      "summary": {
+        "pts": {
+          "count": 348,
+          "nonincreasing": 0,
+          "minimum_delta": 67,
+          "maximum_delta": 107
+        },
+        "dts": {
+          "count": 348,
+          "nonincreasing": 0,
+          "minimum_delta": 67,
+          "maximum_delta": 107
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.107
+    },
+    {
+      "inode": "41329168",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_132320_10_0025.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329168_20241015_132320_10_0025.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 313,
+      "raw_output_sha256": "4d65fcd5688f4276fbab6d9457450df27256e63a9559a354c63a81dcb0f7a548",
+      "summary": {
+        "pts": {
+          "count": 313,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 313,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329172",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_144952_10_0053.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329172_20241015_144952_10_0053.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 754,
+      "raw_output_sha256": "6c09e2479d7229c954748b80933824e9523c764aefe4355fc198afe4f563974e",
+      "summary": {
+        "pts": {
+          "count": 754,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 104
+        },
+        "dts": {
+          "count": 754,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 104
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.104
+    },
+    {
+      "inode": "41329176",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_145100_10_0016.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329176_20241015_145100_10_0016.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 240,
+      "raw_output_sha256": "670b3d700634bbfdb2876b1cb56fd4c9d18ffeeab8d2620d1c6cc12206a94a83",
+      "summary": {
+        "pts": {
+          "count": 240,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 75
+        },
+        "dts": {
+          "count": 240,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 75
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.075
+    },
+    {
+      "inode": "41329180",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_145121_10_0159.mp4",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329180_20241015_145121_10_0159.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 2275,
+      "raw_output_sha256": "c4ba9863500a728c3a7d1dde3a2bac5afc61ed54dc77a4b3cbd361e9916ce49e",
+      "summary": {
+        "dts": {
+          "count": 2275,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 75
+        },
+        "pts": {
+          "count": 2275,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 75
+        }
+      },
+      "method": "Réemploi du contrôle du 15/10/2026",
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.075
+    },
+    {
+      "inode": "41329184",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_145407_10_0060.mp4",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329184_20241015_145407_10_0060.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 865,
+      "raw_output_sha256": "139887717a68bcc38f04820b0fb59c83777896b2e92a9d57da035293a5ef4523",
+      "summary": {
+        "dts": {
+          "count": 865,
+          "nonincreasing": 0,
+          "minimum_delta": 33,
+          "maximum_delta": 107
+        },
+        "pts": {
+          "count": 865,
+          "nonincreasing": 0,
+          "minimum_delta": 33,
+          "maximum_delta": 107
+        }
+      },
+      "method": "Réemploi du contrôle du 15/10/2026",
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.107
+    },
+    {
+      "inode": "41329188",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_145525_10_0014.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329188_20241015_145525_10_0014.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 201,
+      "raw_output_sha256": "704885351c9de1f749a0a7eb19138a8161164f7976bbe184630544f94f0b1096",
+      "summary": {
+        "pts": {
+          "count": 201,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 74
+        },
+        "dts": {
+          "count": 201,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 74
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.074
+    },
+    {
+      "inode": "41329192",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_145544_10_0056.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329192_20241015_145544_10_0056.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 803,
+      "raw_output_sha256": "24a8eb8c2db8a401fcf991e589281bcaa36d60f14903d275d1704ae52e70c360",
+      "summary": {
+        "pts": {
+          "count": 803,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 76
+        },
+        "dts": {
+          "count": 803,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 76
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.076
+    },
+    {
+      "inode": "41329196",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_145727_10_0032.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329196_20241015_145727_10_0032.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 471,
+      "raw_output_sha256": "1948e4cb8f854cf28a43111db53f929a5485c8b1ac9f26e1eaa9dcbb6fdbbe4e",
+      "summary": {
+        "pts": {
+          "count": 471,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 75
+        },
+        "dts": {
+          "count": 471,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 75
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.075
+    },
+    {
+      "inode": "41329200",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_145824_10_0124.mp4",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329200_20241015_145824_10_0124.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 1777,
+      "raw_output_sha256": "3136e806e3aa59999b82d66a4e143159e9ddbafc29b73d026e61fd2bbdffc2e1",
+      "summary": {
+        "dts": {
+          "count": 1777,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 76
+        },
+        "pts": {
+          "count": 1777,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 76
+        }
+      },
+      "method": "Réemploi du contrôle du 15/10/2026",
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.076
+    },
+    {
+      "inode": "41329204",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_150109_10_0043.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329204_20241015_150109_10_0043.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 490,
+      "raw_output_sha256": "fc29537b9e80604ed938d574da889a87a5f9c05682f4d8fad4eb60e6f65d26a3",
+      "summary": {
+        "pts": {
+          "count": 490,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 104
+        },
+        "dts": {
+          "count": 490,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 104
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.104
+    },
+    {
+      "inode": "41329208",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_165538_10_0026.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329208_20241015_165538_10_0026.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 321,
+      "raw_output_sha256": "794f9ed91495b1c87749aa4e10e93aadb06344f0964c4185b574d9c670d8988e",
+      "summary": {
+        "pts": {
+          "count": 321,
+          "nonincreasing": 0,
+          "minimum_delta": 31,
+          "maximum_delta": 138
+        },
+        "dts": {
+          "count": 321,
+          "nonincreasing": 0,
+          "minimum_delta": 31,
+          "maximum_delta": 138
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.138
+    },
+    {
+      "inode": "41329212",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_165733_10_0033.mp4",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329212_20241015_165733_10_0033.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 431,
+      "raw_output_sha256": "60796f1de5f04e12d72720325a9527a5ce9b001b14795530004856fe4119a9e5",
+      "summary": {
+        "dts": {
+          "count": 431,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 105
+        },
+        "pts": {
+          "count": 431,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 105
+        }
+      },
+      "method": "Réemploi du contrôle du 15/10/2026",
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329216",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_165806_10_0033.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329216_20241015_165806_10_0033.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 475,
+      "raw_output_sha256": "2f6b5b0cc92e7ace95eb357fe1d8f44c11e745a46aed69007c8b2bd13d0d555e",
+      "summary": {
+        "pts": {
+          "count": 475,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 75
+        },
+        "dts": {
+          "count": 475,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 75
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.075
+    },
+    {
+      "inode": "41329220",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_165850_10_0061.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329220_20241015_165850_10_0061.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 808,
+      "raw_output_sha256": "be355f3b576d18f1864ab75d52ee908e222eaffb2729e793617634524dcc1d4c",
+      "summary": {
+        "pts": {
+          "count": 808,
+          "nonincreasing": 0,
+          "minimum_delta": 60,
+          "maximum_delta": 104
+        },
+        "dts": {
+          "count": 808,
+          "nonincreasing": 0,
+          "minimum_delta": 60,
+          "maximum_delta": 104
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.104
+    },
+    {
+      "inode": "41329224",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_170410_10_0032.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329224_20241015_170410_10_0032.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 382,
+      "raw_output_sha256": "32d503d7c239419f0c57857ebb5b7a09aaeb91495a4869198b40261ca9412b08",
+      "summary": {
+        "pts": {
+          "count": 382,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 382,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329228",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_170502_10_0025.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329228_20241015_170502_10_0025.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 293,
+      "raw_output_sha256": "5b1eabb43307576b681586ddf6042a9253e806ce3dcf413ad0e265b4bb72227c",
+      "summary": {
+        "pts": {
+          "count": 293,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 104
+        },
+        "dts": {
+          "count": 293,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 104
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.104
+    },
+    {
+      "inode": "41329232",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_170556_10_0078.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329232_20241015_170556_10_0078.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 932,
+      "raw_output_sha256": "633f475cf6403bae02a1318969819c293e63c5796cf2b2da5307df49708a475e",
+      "summary": {
+        "pts": {
+          "count": 932,
+          "nonincreasing": 0,
+          "minimum_delta": 61,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 932,
+          "nonincreasing": 0,
+          "minimum_delta": 61,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329236",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_170749_10_0026.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329236_20241015_170749_10_0026.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 305,
+      "raw_output_sha256": "e7875b6fcc50b460db3550a25f7d12d9fd6544e0e5e50c2d06e5e18018efef27",
+      "summary": {
+        "pts": {
+          "count": 305,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 305,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329240",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_170843_10_0034.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329240_20241015_170843_10_0034.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 404,
+      "raw_output_sha256": "d6b50e8ac56ad08117cc5f6e928f9874a6de7f873584d182620eb8d515df03bd",
+      "summary": {
+        "pts": {
+          "count": 404,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 106
+        },
+        "dts": {
+          "count": 404,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 106
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.106
+    },
+    {
+      "inode": "41329244",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_170944_10_0078.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329244_20241015_170944_10_0078.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 929,
+      "raw_output_sha256": "b0674987e0cd57e9ea67114e1f3336c236402e724d614b79edb5952db9eec264",
+      "summary": {
+        "pts": {
+          "count": 929,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 929,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329248",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_171122_10_0027.mp4",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329248_20241015_171122_10_0027.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 320,
+      "raw_output_sha256": "8e274fc8a5228eebeed932ad890f6e29786967bd9c1fdf5605b093c9d35fd62e",
+      "summary": {
+        "dts": {
+          "count": 320,
+          "nonincreasing": 0,
+          "minimum_delta": 59,
+          "maximum_delta": 105
+        },
+        "pts": {
+          "count": 320,
+          "nonincreasing": 0,
+          "minimum_delta": 59,
+          "maximum_delta": 105
+        }
+      },
+      "method": "Réemploi du contrôle du 15/10/2026",
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329252",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_171223_10_0034.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329252_20241015_171223_10_0034.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 410,
+      "raw_output_sha256": "6876f5873efa33bf047839c64ad77fcef8bb5ec4173488628e3698bae0689502",
+      "summary": {
+        "pts": {
+          "count": 410,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 410,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329256",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_171316_10_0025.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329256_20241015_171316_10_0025.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 315,
+      "raw_output_sha256": "6296e06333d07787670f94ecf13251f390f22599c94ae13c01e7a933bff7cbdf",
+      "summary": {
+        "pts": {
+          "count": 315,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 104
+        },
+        "dts": {
+          "count": 315,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 104
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.104
+    },
+    {
+      "inode": "41329260",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_171402_10_0079.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329260_20241015_171402_10_0079.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 936,
+      "raw_output_sha256": "e69b75bcb464859ac814ffca63a247c964765a289a52027ee59f6e712fecc8a5",
+      "summary": {
+        "pts": {
+          "count": 936,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 936,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329264",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_171617_10_0033.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329264_20241015_171617_10_0033.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 398,
+      "raw_output_sha256": "65f52af8a966cc45bd84057f7ea3ed460220ad4b34aefe643740377b32a88cd4",
+      "summary": {
+        "pts": {
+          "count": 398,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 398,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329268",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_171710_10_0024.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329268_20241015_171710_10_0024.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 306,
+      "raw_output_sha256": "cd367b5c4a254cfafbc2b861ca03982b955b10a13fa60c8fb4a431a15331bbf7",
+      "summary": {
+        "pts": {
+          "count": 306,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 306,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329272",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_171803_10_0064.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329272_20241015_171803_10_0064.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 764,
+      "raw_output_sha256": "a550c9230aa255070e8a09db7a4d5dc1b4dd1d2f6c52a07585b88210a7accb4a",
+      "summary": {
+        "pts": {
+          "count": 764,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 106
+        },
+        "dts": {
+          "count": 764,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 106
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.106
+    },
+    {
+      "inode": "41329276",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_171927_10_0026.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329276_20241015_171927_10_0026.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 320,
+      "raw_output_sha256": "583ffad95a40edffa8b5428bbc135ac8c41f809f15c2cc16ddb2ce1997348afd",
+      "summary": {
+        "pts": {
+          "count": 320,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 104
+        },
+        "dts": {
+          "count": 320,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 104
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.104
+    },
+    {
+      "inode": "41329280",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_172020_10_0026.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329280_20241015_172020_10_0026.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 309,
+      "raw_output_sha256": "58bfca0ab8fbc258affe818f45eac4fe538d83260f2fd9a837e325f7f618ab28",
+      "summary": {
+        "pts": {
+          "count": 309,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 106
+        },
+        "dts": {
+          "count": 309,
+          "nonincreasing": 0,
+          "minimum_delta": 64,
+          "maximum_delta": 106
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.106
+    },
+    {
+      "inode": "41329284",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_172105_10_0027.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329284_20241015_172105_10_0027.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 316,
+      "raw_output_sha256": "696be35d886f0e442bf274ecca7ca2049912acfff839fe0137b5d863b32c53aa",
+      "summary": {
+        "pts": {
+          "count": 316,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 316,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329288",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_172237_10_0026.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329288_20241015_172237_10_0026.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 302,
+      "raw_output_sha256": "9e807ccdebd9542e6bee21afde76e9aa0f648ac726414986103fad1464e6408c",
+      "summary": {
+        "pts": {
+          "count": 302,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 106
+        },
+        "dts": {
+          "count": 302,
+          "nonincreasing": 0,
+          "minimum_delta": 66,
+          "maximum_delta": 106
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.106
+    },
+    {
+      "inode": "41329292",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_172330_10_0074.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329292_20241015_172330_10_0074.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 829,
+      "raw_output_sha256": "86855e124bccad194b4b6a081cbbe973bb2c78f07ea0a11fcd34c7af1e9bff12",
+      "summary": {
+        "pts": {
+          "count": 829,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 829,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329296",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_172504_10_0026.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329296_20241015_172504_10_0026.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 300,
+      "raw_output_sha256": "fd680be6e0e786c174005db60cda1e8dcb33b63df6e70d1682e20c6e60e4de97",
+      "summary": {
+        "pts": {
+          "count": 300,
+          "nonincreasing": 0,
+          "minimum_delta": 60,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 300,
+          "nonincreasing": 0,
+          "minimum_delta": 60,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329300",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_224022_10_0025.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329300_20241015_224022_10_0025.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 316,
+      "raw_output_sha256": "ac6f29c94b8be2ffc10b6a223b12f2e840a9990da1fd57d5d42aee0dd53b7fcc",
+      "summary": {
+        "pts": {
+          "count": 316,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 105
+        },
+        "dts": {
+          "count": 316,
+          "nonincreasing": 0,
+          "minimum_delta": 65,
+          "maximum_delta": 105
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.105
+    },
+    {
+      "inode": "41329304",
+      "path": "CAMERA CHAMBRE/record/20241015/20241015_224117_10_0300.mp4",
+      "method": "FFprobe local complémentaire, sans décodage",
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-select_streams",
+        "v:0",
+        "-show_packets",
+        "-show_entries",
+        "packet=pts,dts",
+        "-of",
+        "json",
+        "/home/chris/codeProjects/CMMConseils/cartes_sd/recherche-SD-01/20261015/prive/extraits/41329304_20241015_224117_10_0300.mp4"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "packets": 3005,
+      "raw_output_sha256": "ef89ccabd669efb8a0893fa241651881d3359138d909ca9a12596c04816df410",
+      "summary": {
+        "pts": {
+          "count": 3005,
+          "nonincreasing": 0,
+          "minimum_delta": 67,
+          "maximum_delta": 107
+        },
+        "dts": {
+          "count": 3005,
+          "nonincreasing": 0,
+          "minimum_delta": 67,
+          "maximum_delta": 107
+        }
+      },
+      "time_base": "1/1000",
+      "max_dts_gap_seconds": 0.107
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "inode": "517729688",
+  "path": "$OrphanFiles/_0A3EF~6.MP4",
+  "size": 26327844,
+  "deleted": true,
+  "start_cluster": 1111805,
+  "method": "icat -r heuristique pour entrée supprimée",
+  "recovery": {
+    "argv": [
+      "icat",
+      "-r",
+      "-o",
+      "8192",
+      "/mnt/ewf-sd02/ewf1",
+      "517729688"
+    ],
+    "returncode": 0,
+    "stderr": ""
+  },
+  "read_size": 16384,
+  "sha256": "c2388eb2f11676438f9fe81d62dc712c1f4d9a182d4ddf87f3ad22599f9bdec5",
+  "allocated_chain_clusters": 0,
+  "mp4_structure": {
+    "size": 16384,
+    "boxes": [],
+    "errors": [
+      {
+        "offset": 0,
+        "type": "��e�",
+        "claimed_size": 3206353735,
+        "available": 16384
+      },
+      {
+        "offset": 0,
+        "error": "trailing bytes",
+        "count": 16384
+      }
+    ],
+    "tracks": []
+  },
+  "stsd": [],
+  "ffprobe": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_format",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "/proc/self/fd/4: Invalid data found when processing input\n"
+  },
+  "metadata": {},
+  "packets": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "/proc/self/fd/4: Invalid data found when processing input\n",
+    "summary": {
+      "dts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      },
+      "pts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      }
+    },
+    "raw_output_sha256": "8e1d794b49e35ea828279c6a8c95282bbb9a0787cf5c9385256c2cc9d17baeb7"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "free_signature_counts": {
+    "moov": 629,
+    "ftyp": 11,
+    "mdat": 11
+  },
+  "classification_counts": {
+    "autre": 15030,
+    "fragment_journal": 616,
+    "journal": 1025,
+    "modele_moov": 617
+  },
+  "moov_template_hashes": {
+    "731c49c0eb32815913b66158889c78a53f83fcea0e661589ac633b8fa5c26e15": 617
+  },
+  "new_mp4_directory_slots": [],
+  "outside_data_regions": [
+    {
+      "artifact": "structures/mbr-et-avant-partition.bin",
+      "size": 4194304,
+      "sha256": "37a35b11e0d8c5fb86d602e1848246fb3ceb2c671af5a2d6849750e16e7ee57e",
+      "nonzero_bytes": 12,
+      "signature_candidates": []
+    },
+    {
+      "artifact": "structures/reserve-fat32.bin",
+      "size": 3072,
+      "sha256": "8f61a6e1de1688b057fbd4d09884c5a335349ad5adfe14159a37ad61566e0e5d",
+      "nonzero_bytes": 224,
+      "signature_candidates": [
+        {
+          "offset": 3,
+          "signature": "mkdosfs"
+        },
+        {
+          "offset": 82,
+          "signature": "FAT32   "
+        },
+        {
+          "offset": 1539,
+          "signature": "mkdosfs"
+        },
+        {
+          "offset": 1618,
+          "signature": "FAT32   "
+        }
+      ]
+    },
+    {
+      "artifact": "structures/fin-partition.bin",
+      "size": 4096,
+      "sha256": "67be45a1ec42ed05b4a1f3e76e55d8b71cbcb3e9e2af2d12e8d42c0e5c048131",
+      "nonzero_bytes": 512,
+      "signature_candidates": []
+    }
+  ]
+}

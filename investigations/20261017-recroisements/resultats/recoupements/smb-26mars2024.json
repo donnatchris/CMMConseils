@@ -1,0 +1,138 @@
+{
+  "windows": [],
+  "freebox_ip_matches": [
+    {
+      "mac": "F8:28:19:77:42:71",
+      "name": "LAPTOP-205Q5H9C",
+      "names": [
+        {
+          "name": "LAPTOP-205Q5H9C",
+          "source": "dhcp"
+        },
+        {
+          "name": "LAPTOP-205Q5H9C",
+          "source": "mdns"
+        }
+      ],
+      "first_activity": {
+        "utc": "2023-05-20T17:02:43+00:00",
+        "paris": "2023-05-20T19:02:43+02:00"
+      },
+      "last_activity": {
+        "utc": "2024-03-26T14:48:20+00:00",
+        "paris": "2024-03-26T15:48:20+01:00"
+      },
+      "connectivities": [
+        {
+          "addr": "192.168.1.139",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1711464500,
+          "af": "ipv4",
+          "last_time_reachable": 1711464500,
+          "times": {
+            "last_activity": {
+              "utc": "2024-03-26T14:48:20+00:00",
+              "paris": "2024-03-26T15:48:20+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-03-26T14:48:20+00:00",
+              "paris": "2024-03-26T15:48:20+01:00"
+            }
+          }
+        },
+        {
+          "addr": "fe80::6045:1e54:b58f:c4e0",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1711464499,
+          "af": "ipv6",
+          "last_time_reachable": 1711464471,
+          "times": {
+            "last_activity": {
+              "utc": "2024-03-26T14:48:19+00:00",
+              "paris": "2024-03-26T15:48:19+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-03-26T14:47:51+00:00",
+              "paris": "2024-03-26T15:47:51+01:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:6a71:d509:d485:c75b",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1711464471,
+          "af": "ipv6",
+          "last_time_reachable": 1711464471,
+          "times": {
+            "last_activity": {
+              "utc": "2024-03-26T14:47:51+00:00",
+              "paris": "2024-03-26T15:47:51+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-03-26T14:47:51+00:00",
+              "paris": "2024-03-26T15:47:51+01:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:a8ca:d828:bfd4:8fbd",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1711459472,
+          "af": "ipv6",
+          "last_time_reachable": 1711459472,
+          "times": {
+            "last_activity": {
+              "utc": "2024-03-26T13:24:32+00:00",
+              "paris": "2024-03-26T14:24:32+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-03-26T13:24:32+00:00",
+              "paris": "2024-03-26T14:24:32+01:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:e0b4:2f3e:bd1:7729",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1711459739,
+          "af": "ipv6",
+          "last_time_reachable": 1711459739,
+          "times": {
+            "last_activity": {
+              "utc": "2024-03-26T13:28:59+00:00",
+              "paris": "2024-03-26T14:28:59+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-03-26T13:28:59+00:00",
+              "paris": "2024-03-26T14:28:59+01:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:6df2:f8cb:4c66:8d13",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1711464493,
+          "af": "ipv6",
+          "last_time_reachable": 1711464493,
+          "times": {
+            "last_activity": {
+              "utc": "2024-03-26T14:48:13+00:00",
+              "paris": "2024-03-26T15:48:13+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-03-26T14:48:13+00:00",
+              "paris": "2024-03-26T15:48:13+01:00"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "limit": "Dernière activité conservée, pas journal continu des baux ni preuve de succès SMB."
+}

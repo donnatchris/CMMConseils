@@ -1,0 +1,540 @@
+{
+  "entry_count": 766,
+  "types": {
+    "r/r alloue": 677,
+    "d/d supprime": 1,
+    "d/d alloue": 85,
+    "r/r supprime": 3
+  },
+  "video_count": 675,
+  "active_record_video_count": 674,
+  "first": "2023-12-02 18:15:46",
+  "last": "2024-10-28 23:25:03",
+  "total_video_duration_seconds": 28238.066,
+  "creation_time_counts": {
+    "1970-01-01T00:00:00.000000Z": 674
+  },
+  "codecs": {
+    "aac,h264": 674
+  },
+  "probe_failures": [
+    "1543"
+  ],
+  "decode_count": 341,
+  "decode_failures": [],
+  "decode_warnings": [
+    "20903944",
+    "22835208",
+    "41329160",
+    "41329180",
+    "41329184",
+    "41329200",
+    "41329212",
+    "41329248",
+    "46966800",
+    "46966812",
+    "48042532",
+    "49060360",
+    "49060364",
+    "49060368",
+    "49060388",
+    "49060392",
+    "49060412",
+    "49060420",
+    "49060432",
+    "49060500",
+    "49060516",
+    "49060520",
+    "49060528",
+    "49060540",
+    "49060548",
+    "49060552",
+    "49060556",
+    "55203848",
+    "55203868",
+    "55203872",
+    "55685128",
+    "55685136",
+    "55685144",
+    "55685148",
+    "55685188",
+    "55685196",
+    "57487388",
+    "57487416",
+    "57487456",
+    "57487480",
+    "57487484",
+    "57487492",
+    "57487500",
+    "57487520",
+    "57487536",
+    "57487580",
+    "57487604",
+    "63907396",
+    "63907420",
+    "63907440",
+    "63907448",
+    "63907464",
+    "63907484",
+    "63907500",
+    "63907520",
+    "63907540",
+    "70253576",
+    "70253592",
+    "70253596",
+    "70253608",
+    "71118356",
+    "72011848",
+    "72011904",
+    "75458620",
+    "76861456"
+  ],
+  "nonvideos": [
+    {
+      "inode": "4",
+      "path": ".rw",
+      "type": "r/r",
+      "allocation": "alloue",
+      "declared_size": "0",
+      "extracted_size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fat_created": "2024-11-01 00:03:58 (UTC)",
+      "fat_written": "2024-11-01 00:03:58 (UTC)",
+      "fat_accessed": "2000-01-01 00:00:00 (UTC)",
+      "artifact": "prive/extraits/4_.rw",
+      "extraction_returncode": 0,
+      "ffprobe_returncode": "",
+      "decode_returncode": "",
+      "decode_warnings_bytes": ""
+    },
+    {
+      "inode": "67235335",
+      "path": "System Volume Information/WPSettings.dat",
+      "type": "r/r",
+      "allocation": "alloue",
+      "declared_size": "12",
+      "extracted_size": 12,
+      "sha256": "1f69b72d7f6e77137eea4fa733169e80a4b03a41a5f7c9a7f3bd77c322625e61",
+      "fat_created": "2024-11-12 23:35:28 (UTC)",
+      "fat_written": "2024-11-12 23:35:30 (UTC)",
+      "fat_accessed": "2026-10-06 00:00:00 (UTC)",
+      "artifact": "prive/extraits/67235335_WPSettings.dat",
+      "extraction_returncode": 0,
+      "ffprobe_returncode": "",
+      "decode_returncode": "",
+      "decode_warnings_bytes": ""
+    },
+    {
+      "inode": "67235338",
+      "path": "System Volume Information/IndexerVolumeGuid",
+      "type": "r/r",
+      "allocation": "alloue",
+      "declared_size": "76",
+      "extracted_size": 76,
+      "sha256": "3ffb6923a9ea925d5b5a84cd415f3932c58caaca801654a7f012fcceb25ef633",
+      "fat_created": "2024-11-12 23:35:28 (UTC)",
+      "fat_written": "2024-11-12 23:35:30 (UTC)",
+      "fat_accessed": "2026-10-06 00:00:00 (UTC)",
+      "artifact": "prive/extraits/67235338_IndexerVolumeGuid",
+      "extraction_returncode": 0,
+      "ffprobe_returncode": "",
+      "decode_returncode": "",
+      "decode_warnings_bytes": ""
+    },
+    {
+      "inode": "1547",
+      "path": "CAMERA CHAMBRE/.record_tmp/20241028_232503_10.mp4.moov",
+      "type": "r/r",
+      "allocation": "supprime",
+      "declared_size": "1006",
+      "extracted_size": 1006,
+      "sha256": "731c49c0eb32815913b66158889c78a53f83fcea0e661589ac633b8fa5c26e15",
+      "fat_created": "2024-10-28 23:25:04 (UTC)",
+      "fat_written": "2024-10-28 23:25:04 (UTC)",
+      "fat_accessed": "2024-10-28 00:00:00 (UTC)",
+      "artifact": "prive/extraits/1547_20241028_232503_10.mp4.moov",
+      "extraction_returncode": 0,
+      "ffprobe_returncode": "",
+      "decode_returncode": "",
+      "decode_warnings_bytes": ""
+    },
+    {
+      "inode": "1551",
+      "path": "CAMERA CHAMBRE/.record_tmp/20241028_232503_10.mp4.stbl",
+      "type": "r/r",
+      "allocation": "supprime",
+      "declared_size": "11888",
+      "extracted_size": 11888,
+      "sha256": "4ea1bb51dfe23f8662bd951c07ea1038d8077272ae19c95f9b96be26a33917c7",
+      "fat_created": "2024-10-28 23:25:36 (UTC)",
+      "fat_written": "2024-10-28 23:25:36 (UTC)",
+      "fat_accessed": "2024-10-28 00:00:00 (UTC)",
+      "artifact": "prive/extraits/1551_20241028_232503_10.mp4.stbl",
+      "extraction_returncode": 0,
+      "ffprobe_returncode": "",
+      "decode_returncode": "",
+      "decode_warnings_bytes": ""
+    }
+  ],
+  "duplicates": {},
+  "temporal_anomalies": [
+    {
+      "inode": "1046",
+      "path": "CAMERA CHAMBRE/record/20240221",
+      "type": "d/d",
+      "allocation": "alloue",
+      "declared_size": "16384",
+      "extracted_size": "",
+      "sha256": "",
+      "fat_created": "2000-01-01 00:01:32 (UTC)",
+      "fat_written": "2000-01-01 00:01:32 (UTC)",
+      "fat_accessed": "2025-09-11 00:00:00 (UTC)",
+      "artifact": "",
+      "extraction_returncode": "",
+      "ffprobe_returncode": "",
+      "decode_returncode": "",
+      "decode_warnings_bytes": ""
+    },
+    {
+      "inode": "20903944",
+      "path": "CAMERA CHAMBRE/record/20240221/20240221_233914_10_0151.mp4",
+      "type": "r/r",
+      "allocation": "alloue",
+      "declared_size": "13214278",
+      "extracted_size": 13214278,
+      "sha256": "9e4d51f725b53292b2f82bc696597c69625f543371302808f4d48ebcab9521cb",
+      "fat_created": "2000-01-01 00:00:28 (UTC)",
+      "fat_written": "2000-01-01 00:00:28 (UTC)",
+      "fat_accessed": "2026-10-06 00:00:00 (UTC)",
+      "artifact": "prive/extraits/20903944_20240221_233914_10_0151.mp4",
+      "extraction_returncode": 0,
+      "ffprobe_returncode": 0,
+      "decode_returncode": 0,
+      "decode_warnings_bytes": 96,
+      "name_start": "2024-02-21 23:39:14",
+      "name_suffix": 151,
+      "duration": 151.924,
+      "estimated_end": "2024-02-21 23:41:45.924000",
+      "gap_from_previous_end": 635634.416,
+      "fat_written_minus_start_seconds": -761873926.0,
+      "suffix_minus_duration": -0.924,
+      "creation_time": "1970-01-01T00:00:00.000000Z",
+      "codecs": "aac,h264",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "inode": "1049",
+      "path": "CAMERA CHAMBRE/record/20240301",
+      "type": "d/d",
+      "allocation": "alloue",
+      "declared_size": "16384",
+      "extracted_size": "",
+      "sha256": "",
+      "fat_created": "2000-01-01 00:00:26 (UTC)",
+      "fat_written": "2000-01-01 00:00:26 (UTC)",
+      "fat_accessed": "2000-01-01 00:00:00 (UTC)",
+      "artifact": "",
+      "extraction_returncode": "",
+      "ffprobe_returncode": "",
+      "decode_returncode": "",
+      "decode_warnings_bytes": ""
+    },
+    {
+      "inode": "22835208",
+      "path": "CAMERA CHAMBRE/record/20240301/20240301_040505_10_0012.mp4",
+      "type": "r/r",
+      "allocation": "alloue",
+      "declared_size": "1174930",
+      "extracted_size": 1174930,
+      "sha256": "146acc8b5b8981630bb2357e86c0893cf6d46fb0ca023f25f5f025bb0018f2c5",
+      "fat_created": "2000-01-01 00:00:26 (UTC)",
+      "fat_written": "2000-01-01 00:00:26 (UTC)",
+      "fat_accessed": "2026-10-06 00:00:00 (UTC)",
+      "artifact": "prive/extraits/22835208_20240301_040505_10_0012.mp4",
+      "extraction_returncode": 0,
+      "ffprobe_returncode": 0,
+      "decode_returncode": 0,
+      "decode_warnings_bytes": 1524,
+      "name_start": "2024-03-01 04:05:05",
+      "name_suffix": 12,
+      "duration": 12.95,
+      "estimated_end": "2024-03-01 04:05:17.950000",
+      "gap_from_previous_end": 54683.184,
+      "fat_written_minus_start_seconds": -762581079.0,
+      "suffix_minus_duration": -0.95,
+      "creation_time": "1970-01-01T00:00:00.000000Z",
+      "codecs": "aac,h264",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "max_gaps": [
+    {
+      "previous_inode": "25427508",
+      "next_inode": "27802120",
+      "previous_end": "2024-05-14 22:10:22.200000",
+      "next_start": "2024-06-09 03:01:14",
+      "gap_seconds": 2177451.8
+    },
+    {
+      "previous_inode": "29394444",
+      "next_inode": "29602312",
+      "previous_end": "2024-07-19 01:03:54.968000",
+      "next_start": "2024-08-08 09:05:03",
+      "gap_seconds": 1756868.032
+    },
+    {
+      "previous_inode": "39505480",
+      "next_inode": "41167368",
+      "previous_end": "2024-09-17 20:19:23.048000",
+      "next_start": "2024-10-07 20:51:58",
+      "gap_seconds": 1729954.952
+    },
+    {
+      "previous_inode": "24344584",
+      "next_inode": "24381960",
+      "previous_end": "2024-04-12 05:58:37.432000",
+      "next_start": "2024-04-24 22:12:39",
+      "gap_seconds": 1095241.568
+    },
+    {
+      "previous_inode": "20211212",
+      "next_inode": "20386312",
+      "previous_end": "2024-01-24 20:30:38.112000",
+      "next_start": "2024-02-05 14:59:24",
+      "gap_seconds": 1016925.888
+    },
+    {
+      "previous_inode": "3690532",
+      "next_inode": "4660744",
+      "previous_end": "2023-12-19 16:55:59.592000",
+      "next_start": "2023-12-30 22:46:57",
+      "gap_seconds": 971457.408
+    },
+    {
+      "previous_inode": "1667600",
+      "next_inode": "2041352",
+      "previous_end": "2023-12-08 17:23:40.680000",
+      "next_start": "2023-12-18 23:32:24",
+      "gap_seconds": 886123.32
+    },
+    {
+      "previous_inode": "5826116",
+      "next_inode": "7702024",
+      "previous_end": "2023-12-31 09:08:15.512000",
+      "next_start": "2024-01-09 23:05:41",
+      "gap_seconds": 827845.488
+    },
+    {
+      "previous_inode": "20386312",
+      "next_inode": "20484616",
+      "previous_end": "2024-02-05 14:59:56.768000",
+      "next_start": "2024-02-14 15:04:44",
+      "gap_seconds": 777887.232
+    },
+    {
+      "previous_inode": "22835208",
+      "next_inode": "22944776",
+      "previous_end": "2024-03-01 04:05:17.950000",
+      "next_start": "2024-03-09 13:43:13",
+      "gap_seconds": 725875.05
+    },
+    {
+      "previous_inode": "41167372",
+      "next_inode": "41329160",
+      "previous_end": "2024-10-07 20:53:22.464000",
+      "next_start": "2024-10-15 12:14:54",
+      "gap_seconds": 660091.536
+    },
+    {
+      "previous_inode": "20484616",
+      "next_inode": "20903944",
+      "previous_end": "2024-02-14 15:05:19.584000",
+      "next_start": "2024-02-21 23:39:14",
+      "gap_seconds": 635634.416
+    },
+    {
+      "previous_inode": "24605720",
+      "next_inode": "25110024",
+      "previous_end": "2024-05-03 17:19:55.944000",
+      "next_start": "2024-05-10 21:23:06",
+      "gap_seconds": 619390.056
+    },
+    {
+      "previous_inode": "28002316",
+      "next_inode": "28194824",
+      "previous_end": "2024-06-15 15:50:05.688000",
+      "next_start": "2024-06-22 17:51:33",
+      "gap_seconds": 612087.312
+    },
+    {
+      "previous_inode": "28402696",
+      "next_inode": "28424712",
+      "previous_end": "2024-06-24 22:12:24.272000",
+      "next_start": "2024-07-01 18:59:51",
+      "gap_seconds": 593246.728
+    },
+    {
+      "previous_inode": "16424044",
+      "next_inode": "19819016",
+      "previous_end": "2024-01-16 20:39:20.448000",
+      "next_start": "2024-01-23 14:28:19",
+      "gap_seconds": 582538.552
+    },
+    {
+      "previous_inode": "24249864",
+      "next_inode": "24344584",
+      "previous_end": "2024-04-05 20:09:01.048000",
+      "next_start": "2024-04-12 05:58:03",
+      "gap_seconds": 553741.952
+    },
+    {
+      "previous_inode": "29270024",
+      "next_inode": "29394440",
+      "previous_end": "2024-07-13 00:16:42.456000",
+      "next_start": "2024-07-19 00:57:42",
+      "gap_seconds": 520859.544
+    },
+    {
+      "previous_inode": "23625740",
+      "next_inode": "23799304",
+      "previous_end": "2024-03-16 19:11:32.825000",
+      "next_start": "2024-03-22 18:52:26",
+      "gap_seconds": 517253.175
+    },
+    {
+      "previous_inode": "20984840",
+      "next_inode": "21075976",
+      "previous_end": "2024-02-23 13:51:29.576000",
+      "next_start": "2024-02-29 10:14:22",
+      "gap_seconds": 505372.424
+    }
+  ],
+  "study_days": [
+    {
+      "day": "2024-10-14",
+      "videos": 0,
+      "duration_seconds": 0,
+      "first_start": "",
+      "last_start": "",
+      "last_estimated_end": ""
+    },
+    {
+      "day": "2024-10-15",
+      "videos": 37,
+      "duration_seconds": 1911.954,
+      "first_start": "2024-10-15 12:14:54",
+      "last_start": "2024-10-15 22:41:17",
+      "last_estimated_end": "2024-10-15 22:46:17.416000"
+    },
+    {
+      "day": "2024-10-16",
+      "videos": 8,
+      "duration_seconds": 418.211,
+      "first_start": "2024-10-16 03:18:36",
+      "last_start": "2024-10-16 21:25:00",
+      "last_estimated_end": "2024-10-16 21:25:33.280000"
+    },
+    {
+      "day": "2024-10-17",
+      "videos": 9,
+      "duration_seconds": 379.52,
+      "first_start": "2024-10-17 03:44:17",
+      "last_start": "2024-10-17 09:50:32",
+      "last_estimated_end": "2024-10-17 09:51:05.408000"
+    },
+    {
+      "day": "2024-10-18",
+      "videos": 55,
+      "duration_seconds": 2275.599,
+      "first_start": "2024-10-18 00:55:05",
+      "last_start": "2024-10-18 22:50:47",
+      "last_estimated_end": "2024-10-18 22:51:12.029000"
+    },
+    {
+      "day": "2024-10-19",
+      "videos": 7,
+      "duration_seconds": 239.137,
+      "first_start": "2024-10-19 04:02:37",
+      "last_start": "2024-10-19 20:40:16",
+      "last_estimated_end": "2024-10-19 20:40:50.337000"
+    },
+    {
+      "day": "2024-10-20",
+      "videos": 19,
+      "duration_seconds": 859.282,
+      "first_start": "2024-10-20 00:02:34",
+      "last_start": "2024-10-20 18:15:53",
+      "last_estimated_end": "2024-10-20 18:16:25.128000"
+    },
+    {
+      "day": "2024-10-21",
+      "videos": 68,
+      "duration_seconds": 2268.498,
+      "first_start": "2024-10-21 00:57:59",
+      "last_start": "2024-10-21 21:52:50",
+      "last_estimated_end": "2024-10-21 21:54:34.576000"
+    },
+    {
+      "day": "2024-10-22",
+      "videos": 60,
+      "duration_seconds": 2266.539,
+      "first_start": "2024-10-22 01:07:54",
+      "last_start": "2024-10-22 20:25:34",
+      "last_estimated_end": "2024-10-22 20:26:26.096000"
+    },
+    {
+      "day": "2024-10-23",
+      "videos": 9,
+      "duration_seconds": 322.274,
+      "first_start": "2024-10-23 01:03:02",
+      "last_start": "2024-10-23 21:56:09",
+      "last_estimated_end": "2024-10-23 21:56:49.192000"
+    },
+    {
+      "day": "2024-10-24",
+      "videos": 5,
+      "duration_seconds": 201.856,
+      "first_start": "2024-10-24 02:53:36",
+      "last_start": "2024-10-24 20:30:58",
+      "last_estimated_end": "2024-10-24 20:31:31.024000"
+    },
+    {
+      "day": "2024-10-25",
+      "videos": 4,
+      "duration_seconds": 163.516,
+      "first_start": "2024-10-25 00:49:52",
+      "last_start": "2024-10-25 10:45:01",
+      "last_estimated_end": "2024-10-25 10:45:57.960000"
+    },
+    {
+      "day": "2024-10-26",
+      "videos": 36,
+      "duration_seconds": 1352.099,
+      "first_start": "2024-10-26 03:18:01",
+      "last_start": "2024-10-26 22:54:11",
+      "last_estimated_end": "2024-10-26 22:54:52.984000"
+    },
+    {
+      "day": "2024-10-27",
+      "videos": 18,
+      "duration_seconds": 623.697,
+      "first_start": "2024-10-27 02:45:53",
+      "last_start": "2024-10-27 17:14:44",
+      "last_estimated_end": "2024-10-27 17:15:17.920000"
+    },
+    {
+      "day": "2024-10-28",
+      "videos": 4,
+      "duration_seconds": 163.072,
+      "first_start": "2024-10-28 02:53:48",
+      "last_start": "2024-10-28 23:25:03",
+      "last_estimated_end": "2024-10-28 23:25:39.864000"
+    }
+  ],
+  "suffix_duration_range": [
+    -1.28,
+    -0.028
+  ]
+}

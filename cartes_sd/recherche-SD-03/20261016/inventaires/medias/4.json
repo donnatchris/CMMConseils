@@ -1,0 +1,28 @@
+{
+  "inode": "4",
+  "path": ".rw",
+  "size": 0,
+  "deleted": false,
+  "start_cluster": 0,
+  "method": "lecture chaîne FAT active",
+  "read_size": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "allocated_chain_clusters": 0,
+  "prefix_bytes": 0,
+  "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "artifact": "prive/extraits/4_.rw",
+  "icat_crosscheck": {
+    "argv": [
+      "icat",
+      "-o",
+      "8192",
+      "/mnt/ewf-sd03/ewf1",
+      "4"
+    ],
+    "returncode": 0,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true,
+    "stderr": ""
+  }
+}

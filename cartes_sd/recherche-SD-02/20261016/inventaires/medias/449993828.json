@@ -1,0 +1,89 @@
+{
+  "inode": "449993828",
+  "path": "CAMERA TERRASSE/record/_0241104/20241104_014251_10_0300.mp4",
+  "size": 26237061,
+  "deleted": true,
+  "start_cluster": 685179,
+  "method": "icat -r heuristique pour entrée supprimée",
+  "recovery": {
+    "argv": [
+      "icat",
+      "-r",
+      "-o",
+      "8192",
+      "/mnt/ewf-sd02/ewf1",
+      "449993828"
+    ],
+    "returncode": 0,
+    "stderr": ""
+  },
+  "read_size": 16384,
+  "sha256": "96dc8309d4ec708c6c8753f6e60206827976a234987b13c6c6a335b97282d4db",
+  "allocated_chain_clusters": 0,
+  "mp4_structure": {
+    "size": 16384,
+    "boxes": [],
+    "errors": [
+      {
+        "offset": 0,
+        "type": "93\u0017�",
+        "claimed_size": 3289342552,
+        "available": 16384
+      },
+      {
+        "offset": 0,
+        "error": "trailing bytes",
+        "count": 16384
+      }
+    ],
+    "tracks": []
+  },
+  "stsd": [],
+  "ffprobe": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_format",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "/proc/self/fd/4: Invalid data found when processing input\n"
+  },
+  "metadata": {},
+  "packets": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "/proc/self/fd/4: Invalid data found when processing input\n",
+    "summary": {
+      "dts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      },
+      "pts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      }
+    },
+    "raw_output_sha256": "8e1d794b49e35ea828279c6a8c95282bbb9a0787cf5c9385256c2cc9d17baeb7"
+  }
+}

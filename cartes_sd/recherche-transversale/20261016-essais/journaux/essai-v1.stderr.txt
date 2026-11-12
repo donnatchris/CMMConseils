@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/chris/codeProjects/CMMConseils/cartes_sd/scripts/sd_transversal_20261016.py", line 107, in <module>
+    result={'card':'SD-'+c,'inode':r['inode'],'path':r['path'],'source_artifact':str(path.relative_to(ROOT)),'sha256':digest(b),'fat_created':r['fat_created'],'fat_written':r['fat_written'],'name_start':r['name_start'],'inspection':inspect(b)}
+                                                                                                                                                                                                                                        ~~~~~~~^^^
+  File "/home/chris/codeProjects/CMMConseils/cartes_sd/scripts/sd_transversal_20261016.py", line 30, in inspect
+    top=children(b,0,len(b)); moov=dict(top)[b'moov']; mdats=[(v[0]+8,sum(v)) for t,v in top if t==b'mdat']; tracks=[]; spans=[]; patches=[]
+  File "/home/chris/codeProjects/CMMConseils/cartes_sd/scripts/sd_transversal_20261016.py", line 26, in children
+    size,typ=struct.unpack_from('>I4s',b,start); assert size>=8 and start+size<=end
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

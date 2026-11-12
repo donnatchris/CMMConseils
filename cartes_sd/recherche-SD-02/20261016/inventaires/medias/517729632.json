@@ -1,0 +1,90 @@
+{
+  "inode": "517729632",
+  "path": "$OrphanFiles/_06379~8.MP4",
+  "size": 26339734,
+  "deleted": true,
+  "start_cluster": 1089537,
+  "method": "icat -r heuristique pour entrée supprimée",
+  "recovery": {
+    "argv": [
+      "icat",
+      "-r",
+      "-o",
+      "8192",
+      "/mnt/ewf-sd02/ewf1",
+      "517729632"
+    ],
+    "returncode": 0,
+    "stderr": ""
+  },
+  "read_size": 16384,
+  "sha256": "9cd1017d7eef6d6c5368c54236ef903e3da35b022aced059c77f50e44a516a9d",
+  "allocated_chain_clusters": 0,
+  "mp4_structure": {
+    "size": 16384,
+    "boxes": [],
+    "errors": [
+      {
+        "offset": 0,
+        "type": "!I�",
+        "claimed_size": 2336393689,
+        "available": 16384
+      },
+      {
+        "offset": 0,
+        "error": "trailing bytes",
+        "count": 16384
+      }
+    ],
+    "tracks": []
+  },
+  "stsd": [],
+  "ffprobe": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_format",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "[mp3 @ 0x5c7e8b06c680] Invalid frame size (1920): Could not seek to 16420.\n/proc/self/fd/4: Invalid argument\n"
+  },
+  "metadata": {},
+  "packets": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "[mp3 @ 0x605918df0700] Invalid frame size (1920): Could not seek to 16420.\n/proc/self/fd/4: Invalid argument\n",
+    "summary": {
+      "dts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      },
+      "pts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      }
+    },
+    "raw_output_sha256": "8e1d794b49e35ea828279c6a8c95282bbb9a0787cf5c9385256c2cc9d17baeb7"
+  },
+  "artifact": "prive/extraits/517729632__06379~8.MP4"
+}

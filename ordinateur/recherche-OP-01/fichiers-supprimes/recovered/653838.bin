@@ -1,0 +1,38 @@
+ize-[327] time taken-[335.63]ms.
+05/15/24 10:21:40:146 | [INFO] |  |  |  | AdobeGCIALWrapper |  |  | 13732 | Parsing response successful
+05/15/24 10:21:40:146 | [INFO] |  |  |  | AdobeGCIALWrapper |  |  | 13732 | AdobeGC sending machine event- [0] took - [374.38]ms.
+05/15/24 10:21:40:147 | [INFO] |  |  |  | AdobeGCIALWrapper |  |  | 13732 | machine events successfully sent to server
+05/15/24 10:21:40:147 | [INFO] |  |  |  | AdobeGCIALWrapper |  |  | 13732 | Closing AdobeIALClient 1.0 Release (build 1.0.6.3) session.
+05/15/24 10:21:40:189 | [INFO] |  |  |  | AdobeGCPHEvents |  |  | 13732 | Sending PH Data 
+05/15/24 10:21:40:194 | [INFO] |  |  |  | AdobeGCPHEvents |  |  | 13732 | PH-GC File does not exist
+05/15/24 10:21:40:194 | [INFO] |  |  |  | AdobeGCClientImpl |  |  | 13732 | Semaphore signalled
+05/15/24 10:21:40:233 | [DEBUG] |  |  |  | AdobeGCClientImpl |  |  | 13732 | AdobeGC folder is empty, Deleting Folder
+05/15/24 10:21:40:234 | [INFO] |  |  |  | AdobeGCClientMain |  |  | 13732 | Client request processing completed
+05/15/24 10:21:40:235 | [INFO] |  |  |  | AdobeGCClientMain |  |  | 13732 | *********** Adobe GCClient Launch Ended ************
+05/15/24 13:08:36:347 | [INFO] |  |  |  | AdobeGCInvokerUtilityHelper |  |  | 1752 | AdobeGCInvokerUtility : inside getLatestGCApplication
+05/15/24 13:08:36:348 | [INFO] |  |  |  | AdobeGCInvokerUtilityHelper |  |  | 1752 | AdobeGCInvokerUtility : inside getLatestGCApplication
+05/15/24 13:08:36:381 | [INFO] |  |  |  | AdobeGCUpdater |  |  | 1752 | ***********AdobeGC Updater library invoked = 8.4.0.63 ************
+05/15/24 13:08:36:381 | [INFO] |  |  |  | AdobeGCUpdater |  |  | 1752 | ***********AdobeGC Updater library invoked = 8.4.0.63 ************
+05/15/24 13:08:36:381 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 1752 | Perform WF started
+05/15/24 13:08:36:381 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 1752 | Perform WF started
+05/15/24 13:08:36:382 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 1752 | Perform WF completed
+05/15/24 13:08:36:382 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 1752 | Perform WF completed
+05/15/24 13:08:36:382 | [ERROR] |  |  |  | AdobeGCInvokerUtilityHelper |  |  | 1752 | AdobeGCInvokerUtility :inside waitForCFUCallBack.
+05/15/24 13:08:36:382 | [DEBUG] |  |  |  | AdobeGCInvokerUtilityHelper |  |  | 20804 | Trying to acquire the semaphore
+05/15/24 13:08:36:382 | [ERROR] |  |  |  | AdobeGCInvokerUtilityHelper |  |  | 1752 | AdobeGCInvokerUtility :inside waitForCFUCallBack.
+05/15/24 13:08:36:382 | [DEBUG] |  |  |  | AdobeGCInvokerUtilityHelper |  |  | 20804 | Trying to acquire the semaphore
+05/15/24 13:08:36:383 | [DEBUG] |  |  |  | AdobeGCUpdaterCFU |  |  | 20804 | Semaphore acquired
+05/15/24 13:08:36:383 | [DEBUG] |  |  |  | AdobeGCUpdaterCFU |  |  | 20804 | Semaphore acquired
+05/15/24 13:08:36:383 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 20804 | Threaded CFU Started
+05/15/24 13:08:36:383 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 20804 | Threaded CFU Started
+05/15/24 13:08:36:383 | [INFO] |  |  |  | AdobeGCUpdater |  |  | 20804 | Get client install path Started
+05/15/24 13:08:36:383 | [INFO] |  |  |  | AdobeGCUpdater |  |  | 20804 | Get client install path Started
+05/15/24 13:08:36:392 | [INFO] |  |  |  | AdobeGCUpdater |  |  | 20804 | Get client install path Ended
+05/15/24 13:08:36:393 | [INFO] |  |  |  | AdobeGCUpdater |  |  | 20804 | Get client install path Ended
+05/15/24 13:08:36:393 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 20804 | Client sanitization started
+05/15/24 13:08:36:393 | [INFO] |  |  |  | AdobeGCUpdaterCFU |  |  | 20804 | Client sanitization started
+05/15/24 13:08:36:393 | [INFO] |  |  |  | AdobeGCCodeSignWrapper |  |  | 20804 | Signature Self Signing Check
+05/15/24 13:08:36:393 | [INFO] |  |  |  | AdobeGCCodeSignWrapper |  |  | 20804 | Signature Self Signing Check
+05/15/24 13:08:36:693 | [INFO] |  |  |  | AdobeGCCodeSignWrapper |  |  | 20804 | Signature found
+05/15/24 13:08:36:693 | [INFO] |  |  |  | AdobeGCCodeSignWrapper |  |  | 20804 | Signature found
+05/15/24 13:08:36:693 | [INFO] |  |  |  | Ado

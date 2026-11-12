@@ -1,0 +1,277 @@
+[
+  {
+    "artifact": "structures/mbr-et-avant-partition.bin",
+    "size": 4194304,
+    "sha256": "37a35b11e0d8c5fb86d602e1848246fb3ceb2c671af5a2d6849750e16e7ee57e",
+    "source": {
+      "absolute_offset": 0,
+      "length": 4194304
+    }
+  },
+  {
+    "artifact": "structures/reserve-fat32.bin",
+    "size": 3072,
+    "sha256": "8f61a6e1de1688b057fbd4d09884c5a335349ad5adfe14159a37ad61566e0e5d",
+    "source": {
+      "absolute_offset": 4194304,
+      "length": 3072
+    }
+  },
+  {
+    "artifact": "structures/fat1.bin",
+    "size": 7787008,
+    "sha256": "f55dd2becbbd17fe60c010570db3a36db049a1d66734b99e445c99a4fd4b60d2",
+    "source": {
+      "absolute_offset": 4197376,
+      "length": 7787008
+    }
+  },
+  {
+    "artifact": "structures/fat2.bin",
+    "size": 7787008,
+    "sha256": "f55dd2becbbd17fe60c010570db3a36db049a1d66734b99e445c99a4fd4b60d2",
+    "source": {
+      "absolute_offset": 11984384,
+      "length": 7787008
+    }
+  },
+  {
+    "artifact": "structures/fin-partition.bin",
+    "size": 4096,
+    "sha256": "67be45a1ec42ed05b4a1f3e76e55d8b71cbcb3e9e2af2d12e8d42c0e5c048131",
+    "source": {
+      "absolute_offset": 31914979328,
+      "length": 4096
+    }
+  },
+  {
+    "artifact": "prive/repertoires/2.bin",
+    "size": 16384,
+    "sha256": "03f48bc5f6c85db719b48f08ceb5be3be6f70fdc477848b1591dc5714ea40dde",
+    "source": {
+      "path": "",
+      "start_cluster": 2,
+      "clusters": [
+        2
+      ],
+      "size": 16384,
+      "sha256": "03f48bc5f6c85db719b48f08ceb5be3be6f70fdc477848b1591dc5714ea40dde"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/3.bin",
+    "size": 16384,
+    "sha256": "2ba9b5fc3fc8b303ecea33ff95ceff2711569f82b0124f73afb74e5d24b97768",
+    "source": {
+      "path": "CAMERA TERRASSE",
+      "start_cluster": 3,
+      "clusters": [
+        3
+      ],
+      "size": 16384,
+      "sha256": "2ba9b5fc3fc8b303ecea33ff95ceff2711569f82b0124f73afb74e5d24b97768"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/4.bin",
+    "size": 16384,
+    "sha256": "e9a8fbf9699b83668af2111909b197385d80aaa5e711ea0b4a5a7c094a0d71de",
+    "source": {
+      "path": "CAMERA TERRASSE/record",
+      "start_cluster": 4,
+      "clusters": [
+        4
+      ],
+      "size": 16384,
+      "sha256": "e9a8fbf9699b83668af2111909b197385d80aaa5e711ea0b4a5a7c094a0d71de"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/13295.bin",
+    "size": 49152,
+    "sha256": "1d5269b099b2364bd39ef1b903084236e0f03775a47f571cad45b4df91998b6f",
+    "source": {
+      "path": "CAMERA TERRASSE/record/20241108",
+      "start_cluster": 13295,
+      "clusters": [
+        13295,
+        178042,
+        225963
+      ],
+      "size": 49152,
+      "sha256": "1d5269b099b2364bd39ef1b903084236e0f03775a47f571cad45b4df91998b6f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/326747.bin",
+    "size": 65536,
+    "sha256": "dab8e4959c70c107c34a71369af6c0af1628c21874a9e7b9f798d4ae1d46b141",
+    "source": {
+      "path": "CAMERA TERRASSE/record/20241109",
+      "start_cluster": 326747,
+      "clusters": [
+        326747,
+        417320,
+        489030,
+        523892
+      ],
+      "size": 65536,
+      "sha256": "dab8e4959c70c107c34a71369af6c0af1628c21874a9e7b9f798d4ae1d46b141"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/533872.bin",
+    "size": 16384,
+    "sha256": "3e6a31d4fcb97b82139957f2d800e80c3e6ca3c9521f647dd1762649a2e5f618",
+    "source": {
+      "path": "CAMERA TERRASSE/record/20242010",
+      "start_cluster": 533872,
+      "clusters": [
+        533872
+      ],
+      "size": 16384,
+      "sha256": "3e6a31d4fcb97b82139957f2d800e80c3e6ca3c9521f647dd1762649a2e5f618"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/561150.bin",
+    "size": 65536,
+    "sha256": "dfb9b570c79d80a736cbb06e1134e6f3faedb799d6b8a705896c3fec6d259dc6",
+    "source": {
+      "path": "CAMERA TERRASSE/record/20241110",
+      "start_cluster": 561150,
+      "clusters": [
+        561150,
+        602372,
+        1181690,
+        1933222
+      ],
+      "size": 65536,
+      "sha256": "dfb9b570c79d80a736cbb06e1134e6f3faedb799d6b8a705896c3fec6d259dc6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/732185.bin",
+    "size": 65536,
+    "sha256": "552ac5ab166dce0e4d7e453a9bb923ca59339b75e0cd67bfd817a1aee8d2758b",
+    "source": {
+      "path": "CAMERA TERRASSE/record/20241111",
+      "start_cluster": 732185,
+      "clusters": [
+        732185,
+        833380,
+        883206,
+        900620
+      ],
+      "size": 65536,
+      "sha256": "552ac5ab166dce0e4d7e453a9bb923ca59339b75e0cd67bfd817a1aee8d2758b"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/957000.bin",
+    "size": 65536,
+    "sha256": "a8e9f6a9b8508631967ac2006e4fff69f5c0ab2e39730000465949d794a0d280",
+    "source": {
+      "path": "CAMERA TERRASSE/record/20241112",
+      "start_cluster": 957000,
+      "clusters": [
+        957000,
+        1071966,
+        1133007,
+        1171922
+      ],
+      "size": 65536,
+      "sha256": "a8e9f6a9b8508631967ac2006e4fff69f5c0ab2e39730000465949d794a0d280"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1123246.bin",
+    "size": 32768,
+    "sha256": "0ea061ad836f35679613c15e7c7d209488fea5a2a03ae2fb9c5c00eb32e5600a",
+    "source": {
+      "path": "CAMERA TERRASSE/record/20241105",
+      "start_cluster": 1123246,
+      "clusters": [
+        1123246,
+        1284342
+      ],
+      "size": 32768,
+      "sha256": "0ea061ad836f35679613c15e7c7d209488fea5a2a03ae2fb9c5c00eb32e5600a"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1353316.bin",
+    "size": 49152,
+    "sha256": "d102a4d68f95cd19dc6a80889f2a31d125b25edcb23519d7ad6652a60edc9eb6",
+    "source": {
+      "path": "CAMERA TERRASSE/record/20241106",
+      "start_cluster": 1353316,
+      "clusters": [
+        1353316,
+        1504267,
+        1574253
+      ],
+      "size": 49152,
+      "sha256": "d102a4d68f95cd19dc6a80889f2a31d125b25edcb23519d7ad6652a60edc9eb6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1656580.bin",
+    "size": 65536,
+    "sha256": "1e7677d0b350c575c7955f56b6afb8a0cb6c2ccb4603747b2d96514f3289211f",
+    "source": {
+      "path": "CAMERA TERRASSE/record/20241107",
+      "start_cluster": 1656580,
+      "clusters": [
+        1656580,
+        1728706,
+        1805850,
+        1844657
+      ],
+      "size": 65536,
+      "sha256": "1e7677d0b350c575c7955f56b6afb8a0cb6c2ccb4603747b2d96514f3289211f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/878896.bin",
+    "size": 16384,
+    "sha256": "eab46e649b9fd8630b800ae7285faaf8412b7a73690973e7c2867a036af31ac8",
+    "source": {
+      "path": "CAMERA TERRASSE/record/σ0241104",
+      "start_cluster": 878896,
+      "clusters": [
+        878896
+      ],
+      "size": 16384,
+      "sha256": "eab46e649b9fd8630b800ae7285faaf8412b7a73690973e7c2867a036af31ac8"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/5.bin",
+    "size": 16384,
+    "sha256": "494f9512f44bd3db8519daf722a342365321b25a38e7913d4a2ba6be0c640bdf",
+    "source": {
+      "path": "CAMERA TERRASSE/.record_tmp",
+      "start_cluster": 5,
+      "clusters": [
+        5
+      ],
+      "size": 16384,
+      "sha256": "494f9512f44bd3db8519daf722a342365321b25a38e7913d4a2ba6be0c640bdf"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1245186.bin",
+    "size": 16384,
+    "sha256": "05d73f073281db449698283dbefaab14124a4da671e3409c08feeb8e9d42c8f6",
+    "source": {
+      "path": "System Volume Information",
+      "start_cluster": 1245186,
+      "clusters": [
+        1245186
+      ],
+      "size": 16384,
+      "sha256": "05d73f073281db449698283dbefaab14124a4da671e3409c08feeb8e9d42c8f6"
+    }
+  }
+]

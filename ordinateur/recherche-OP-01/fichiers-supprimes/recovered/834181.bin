@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package
+    IgnorableNamespaces="build com desktop desktop4 desktop6 desktop9 mp rescap uap uap5 systemai"
+    xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+    xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build"
+    xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10"
+    xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"
+    xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4"
+    xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6"
+    xmlns:desktop9="http://schemas.microsoft.com/appx/manifest/desktop/windows10/9"
+    xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+    xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+    xmlns:rescap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3"
+    xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+    xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"
+    xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5"
+    xmlns:systemai="http://schemas.microsoft.com/appx/manifest/systemai/windows10"
+>
+    <Identity
+        Name="Microsoft.OutlookForWindows"
+        ProcessorArchitecture="x64"
+        Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+        Version="1.2026.818.100" />
+    <!-- resources, driven by makepri details. -->
+    <Resources>
+        <Resource uap:Scale="100" />
+        <Resource uap:Scale="125" />
+        <Resource uap:Scale="150" />
+        <Resource uap:Scale="200" />
+        <Resource uap:Scale="400" />
+        <Resource Language="en-us" />
+        <Resource Language="af" />
+        <Resource Language="am" />
+        <Resource Language="ar" />
+        <Resource Language="as-IN" />
+        <Resource Language="az-Latn-AZ" />
+        <Resource Language="bg" />
+        <Resource Language="bn-IN" />
+        <Resource Language="bs-Latn-BA" />
+        <Resource Language="ca" />
+        <Resource Language="ca-Es-VALENCIA" />
+        <Resource Language="cs" />
+        <Resource Language="cy" />
+        <Resource Language="da" />
+        <Resource Language="de" />
+        <Resource Language="el" />
+        <Resource Language="en" />
+        <Resource Language="en-GB" />
+        <Resource Language="es" />
+        <Resource Language="es-MX" />
+        <Resource Language="et" />
+        <Resource Language="eu" />
+        <Resource Language="fa" />
+        <Resource Language="fi" />
+        <Resource Language="fil" />
+        <Resource Language="fr" />
+        <Resource Language="fr-CA" />
+        <Resource Language="ga-IE" />
+        <Resource Language="gd-gb" />
+        <Resource Language="gl" />
+        <Resource Language="gu" />
+        <Resource Language="he" />
+        <Resource Language="hi" />
+        <Resource Language="hr" />
+        <Resource Language="hu" />
+        <Resource Language="hy" />
+        <Resource Language="id" />
+        <Resource Language="is" />
+        <Resource Language="it" />
+        <Resource Language="ja" />
+        <Resource Language="ka" />
+        <Resource Language="kk" />
+        <Resource Language="km-KH" />
+        <Resource Language="kn" />
+        <Resource Language="ko" />
+        <Resource Language="kok" />
+        <Resource Language="lb-LU" />
+        <Resource Language="lo-LA" />
+        <Resource Language="lt" />
+        <Resource Language="lv" />
+        <Resource Language="mi-NZ" />
+        <Resource Language="mk" />
+        <Resource Language="ml" />
+        <Resource Language="mr" />
+        <Resource Language="ms" />
+        <Resource Language="mt-MT" />
+        <Resource Language="ne-NP" />
+        <Resource Language="nl" />
+        <Resource Language="nn-NO" />
+        <Resource Language="no" />
+        <Resource Language="or" />
+        <Resource Language="pa-IN" />
+        <Resource Language="pl" />
+        <Resource Language="pt" />
+        <Resource Language="pt-PT" />
+        <Resource Language="quz-PE" />
+        <Resource Language="ro" />
+        <Resource Language="ru" />
+        <Resource Language="sk" />
+        <Resource Language="sl" />
+        <Resource Language="sq" />
+        <Resource Language="sr-Cyrl" />
+        <Resource Language="sr-Cyrl-BA" />
+        <Resource Language="sv" />
+        <Resource Language="ta" />
+        <Resource Language="te" />
+        <Resource Language="th" />
+        <Resource Language="tr" />
+        <Resource Language="ug-CN" />
+        <Resource Language="uk" />
+        <Resource Language="ur" />
+        <Resource Language="vi" />
+        <Resource Language="zh-Hans" />
+        <Resource Language="zh-Hant" />
+    </Resources>
+    <Capabilities>
+        <rescap:Capability Name="runFullTrust" />
+        <rescap:Capability Name="unvirtualizedResources" />
+        <rescap:Capability Name="packageManagement" />
+        <rescap:Capability Name="internetClient" />
+        <systemai:Capability Name="systemAIModels" />
+    </Capabilities>
+    <Properties>
+        <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+        <DisplayName>Outlook for Windows</DisplayName>
+        <Logo>Assets\StoreLogo.png</Logo>
+        <desktop6:RegistryWriteVirtualization>disabled</desktop6:RegistryWriteVirtualization>
+        <desktop6:FileSystemWriteVirtualization>disabled</desktop6:FileSystemWriteVirtualization>
+    </Properties>
+    <Applications>
+        <!-- Outlook Application Entrypoint -->
+        <Application EntryPoint="Windows.FullTrustApplication" Executable="olk.exe"
+            Id="Microsoft.OutlookforWindows">
+            <uap:VisualElements
+                AppListEntry="default"
+                BackgroundColor="transparent"
+                Description="Microsoft Outlook"
+                DisplayName="Outlook"
+                Square150x150Logo="Assets\MedTile.png"
+                Square44x44Logo="Assets\AppList.png">
+                <uap:InitialRotationPreference>
+                    <uap:Rotation Preference="portrait" />
+                    <uap:Rotation Preference="landscape" />
+                </uap:InitialRotationPreference>
+                <uap:DefaultTile
+                    Square71x71Logo="Assets\SmallTile.png"
+                    Wide310x150Logo="Assets\WideTile.png"
+                    Square310x310Logo="Assets\LargeTile.png"
+                />
+            </uap:VisualElements>
+            <Extensions>
+                <desktop:Extension Category="windows.fullTrustProcess"
+                    Executable="olkFullTrustExecutor.exe">
+                </desktop:Extension>
+                <uap5:Extension
+                    Category="windows.appExecutionAlias"
+                    EntryPoint="Windows.FullTrustApplication" Executable="olk.exe">
+                    <uap5:AppExecutionAlias>
+                        <uap5:ExecutionAlias Alias="olk.exe" />
+                    </uap5:AppExecutionAlias>
+                </uap5:Extension>
+                <uap:Extension
+                    Category="windows.protocol">
+                    <uap:Protocol Name="ms-outlook" />
+                </uap:Extension>
+                <uap:Extension
+                    Category="windows.protocol">
+                    <uap:Protocol Name="mailto" />
+                </uap:Extension>
+                <uap:Extension
+                    Category="windows.protocol">
+                    <uap:Protocol Name="webcal" />
+                </uap:Extension>
+                <uap:Extension
+                    Category="windows.protocol">
+                    <uap:Protocol Name="webcals" />
+                </uap:Extension>
+                <uap:Extension
+                    Category="windows.fileTypeAssociation">
+                    <uap:FileTypeAssociation Name="ics" DesiredView="default">
+                        <uap:SupportedFileTypes>
+                            <uap:FileType>.ics</uap:FileType>
+                        </uap:SupportedFileTypes>
+                        <uap:DisplayName>iCalendar File</uap:DisplayName>
+                        <uap:Logo>Assets/CalendarIcon.png</uap:Logo>
+                    </uap:FileTypeAssociation>
+                </uap:Extension>
+                <uap:Extension
+                    Category="windows.fileTypeAssociation">
+                    <uap:FileTypeAssociation Name="msg" DesiredView="default">
+                        <uap:SupportedFileTypes>
+                            <uap:FileType>.msg</uap:FileType>
+                        </uap:SupportedFileTypes>
+                        <uap:DisplayName>Outlook Item</uap:DisplayName>
+                        <uap:Logo>Assets/MailIcon.png</uap:Logo>
+                    </uap:FileTypeAssociation>
+                </uap:Extension>
+                <uap:Extension
+                    Category="windows.fileTypeAssociation">
+                    <uap:FileTypeAssociation Name="eml" DesiredView="default">
+                        <uap:SupportedFileTypes>
+                            <uap:FileType>.eml</uap:FileType>
+                        </uap:SupportedFileTypes>
+                        <uap:DisplayName>E-mail Message</uap:DisplayName>
+                        <uap:Logo>Assets/MailIcon.png</uap:Logo>
+                    </uap:FileTypeAssociation>
+                </uap:Extension>
+                <uap:Extension
+                    Category="windows.fileTypeAssociation">
+                    <uap:FileTypeAssociation Name="oft" DesiredView="default">
+                        <uap:SupportedFileTypes>
+                            <uap:FileType>.oft</uap:FileType>
+                        </uap:SupportedFileTypes>
+                        <uap:DisplayName>Outlook File Template</uap:DisplayName>
+                        <uap:Logo>Assets/MailIcon.png</uap:Logo>
+                    </uap:FileTypeAssociation>
+                </uap:Extension>
+                <uap:Extension
+                    Category="windows.fileTypeAssociation">
+                    <uap:FileTypeAssociation Name="vcf" DesiredView="default">
+                        <uap:SupportedFileTypes>
+                            <uap:FileType>.vcf</uap:FileType>
+                        </uap:SupportedFileTypes>
+                        <uap:DisplayName>vCard File</uap:DisplayName>
+						<uap:Logo>Assets/ContactCardIcon.png</uap:Logo>
+                    </uap:FileTypeAssociation>
+                </uap:Extension>
+                <uap:Extension
+                    Category="windows.shareTarget">
+                    <uap:ShareTarget>
+                        <uap:SupportedFileTypes>
+                            <uap:SupportsAnyFileType />
+                        </uap:SupportedFileTypes>
+                        <uap:DataFormat>Text</uap:DataFormat>
+                        <uap:DataFormat>Html</uap:DataFormat>
+                    </uap:ShareTarget>
+                </uap:Extension>
+                <uap3:Extension
+                    Category="windows.appUriHandler">
+                    <uap3:AppUriHandler>
+                        <uap3:Host Name="outlook.office.com" />
+                        <uap3:Host Name="outlook.office365.com" />
+                        <uap3:Host Name="outlook.cloud.microsoft" />
+                    </uap3:AppUriHandler>
+                </uap3:Extension>
+                <rescap3:Extension
+                    Category="windows.desktopAppMigration">
+                    <rescap3:DesktopAppMigration>
+                        <rescap3:DesktopApp
+                            AumId="microsoft.windowscommunicationsapps_8wekyb3d8bbwe!microsoft.windowslive.mail" />
+                    </rescap3:DesktopAppMigration>
+                </rescap3:Extension>
+                <com:Extension
+                    Category="windows.comServer">
+                    <com:ComServer>
+                        <com:ExeServer Executable="olk.exe" Arguments="-ToastActivated"
+                            DisplayName="NotificationActivator">
+                            <com:Class Id="cf57ab46-9d90-5e9d-b5ec-b13a74e5b68f"
+                                DisplayName="NotificationActivator" />
+                        </com:ExeServer>
+                    </com:ComServer>
+                </com:Extension>
+                <!--Specify
+                which CLSID to activate when toast clicked-->
+                <desktop:Extension
+                    Category="windows.toastNotificationActivation">
+                    <desktop:ToastNotificationActivation ToastActivatorCLSID="cf57ab46-9d90-5e9d-b5ec-b13a74e5b68f" />
+                </desktop:Extension>
+                <com:Extension
+                    Category="windows.comServer">
+                    <com:ComServer>
+                        <com:ExeServer Executable="olkPushNotificationBackgroundTask.exe"
+                            DisplayName="olkPushNotificationBackgroundTask"
+                            Arguments="-StartPushNotificationTask">
+                            <com:Class Id="30c84ea2-06e5-44b2-8614-d17d7244e7dc"
+                                DisplayName="PushNotificationBackgroundTask" />
+                        </com:ExeServer>
+                    </com:ComServer>
+                </com:Extension>
+                <com:Extension
+                    Category="windows.comServer">
+                    <com:ComServer>
+                        <com:ExeServer Executable="olkexthost.exe"
+                            DisplayName="Outlook Extensions Host"
+                            Arguments="-Embedded">
+                            <com:Class Id="FB5A00AE-274F-4B55-A3F0-BBE264A22BAA"
+                                DisplayName="ExtensionHost" />
+                        </com:ExeServer>
+                    </com:ComServer>
+                </com:Extension>
+                 <Extension Category="windows.preInstalledConfigTask"
+                    EntryPoint="Microsoft.NativeHost.LowTrustBackgroundTask" />
+            </Extensions>
+        </Application>
+    </Applications>
+    <Extensions>
+        <Extension
+            Category="windows.activatableClass.inProcessServer">
+            <InProcessServer>
+                <Path>lowTrustBackgroundTask.dll</Path>
+                <ActivatableClass
+                    ActivatableClassId="Microsoft.NativeHost.LowTrustBackgroundTask"
+                    ThreadingModel="both" />
+            </InProcessServer>
+        </Extension>
+    </Extensions>
+    <Dependencies>
+        <TargetDeviceFamily MaxVersionTested="10.0.26226.0" MinVersion="10.0.19041.0"
+            Name="Windows.Desktop" />
+    </Dependencies>
+</Package>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  MZ       ÿÿ  ¸       @                                   ¸   º ´	Í!¸LÍ!This program cannot be run in DOS mode.
+$       	t=ßMSŒMSŒMSŒm¬ŒLSŒmQLSŒRichMSŒ                PE  L             à !                              
+   
+           0     ›C   @                                       ˜             @'             8                                                                           .rdata  à                        @  @.rsrc                            @  @    àúgu       l   P  P      àúgu       $   ¼  ¼      € €                       8   .rdata  8     .rdata$voltmd   P     .rdata$zzzdbg       ğ   .rsrc$01    ğ   à  .rsrc$02        áŠü¦—>ş'ËekK˜²Î!%> <prfH4=Fàúgu                                                                                                                                                                                                                                                                                                             è  €(  €   @  €   X  €                 p  €                 ˆ  €                    €                ¸                   È                   Ø   ğ   °   ä       !  4	  ä      Ô*  Ä  ä       M U I ÍşÍş°                     º"pDV¬`:‚ì°Ùi¿ ×›™ÄíÓkñ­z±                        ˆ      ˜                                         M U I                 f r - F R          l @m @@   q @q @P  Ï @Ï @¼  Ğ ÀÓ ÀX  Õ ÀØ ÀX     U n   c o m p t e u r   e x t e n s i b l e   a   o u v e r t   l e   j o u r n a l   d e s   é v é n e m e n t s   p o u r   u s b p e r f . D L L  
+     p  O u v e r t u r e   e t   i n i t i a l i s a t i o n   d e   u s b p e r f . d l l   r é u s s i e s  
+   l  A p p e l   d e   l a   f o n c t i o n   d e   f e r m e t u r e   d e   u s b p e r f . d l l  
+     œ  U n   c o m p t e u r   e x t e n s i b l e   a   f e r m é   l e   j o u r n a l   d e s   é v é n e m e n t s   p o u r   u s b p e r f . D L L  
+     I m p o s s i b l e   d  o u v r i r   l a   c l é   «   P e r f o r m a n c e   »   d u   p i l o t e   u s b p e r f   d a n s   l e   R e g i s t r e .   L e   c o d e   d  é t a t   e s t   r e n v o y é   d a n s   l e s   d o n n é e s .  
+    I m p o s s i b l e   d e   l i r e   l a   v a l e u r   «   F i r s t   C o u n t e r   »   s o u s   l a   c l é   u s b p e r f \ P e r f o r m a n c e .   L e s   c o d e s   d  é t a t   s o n t   r e n v o y é s   d a n s   l e s   d o n n é e s .  
+      I m p o s s i b l e   d e   l i r e   l a   v a l e u r   «   F i r s t   H e l p   »   s o u s   l a   c l é   u s b p e r f \ P e r f o r m a n c e .   L e s   c o d e s   d  é t a t   s o n t   r e n v o y é s   d a n s   l e s   d o n n é e s .  
+   ğ  É c h e c   d e   l a   c o l l e c t e   d e s   d o n n é e s   U s b p e r f .   A p p e l   d e   l a   f o n c t i o n   d e   c o l l e c t e   a l o r s   q u e   l a   D L L   n  e s t   p a s   i n i t i a l i s é e   !  
+   À  É c h e c   d e   l a   c o l l e c t e   d e s   d o n n é e s   U s b p e r f .   F o n c t i o n   a p p e l é e   a v e c   m é m o i r e   t a m p o n   t r o p   p e t i t e .  
+   ¸  É c h e c   d e   l  i n i t i a l i s a t i o n   d e   U s b p e r f .   I m p o s s i b l e   d  o u v r i r   l e   h a n d l e   d u   c o n t r ô l e u r   U S B .  
+     œ  É c h e c   d e   l a   c o l l e c t e   d e s   d o n n é e s   U s b p e r f .   A u c u n e   d o n n é e   n  e s t   d i s p o n i b l e .  
+   È  É c h e c   d e   l  i n i t i a l i s a t i o n   d e   U s b p e r f .   V a l e u r   d e   l  i n d e x   d u   c o m p t e u r   d e   p e r f o r m a n c e   n o n   v a l i d e .  
+     Ä4   V S _ V E R S I O N _ I N F O     ½ïş     
+ ‡]X  
+ ‡]X?                        $   S t r i n g F i l e I n f o       0 4 0 C 0 4 B 0   L   C o m p a n y N a m e     M i c r o s o f t   C o r p o r a t i o n   l "  F i l e D e s c r i p t i o n     D L L   d e s   o b j e t s   d e   p e r f o r m a n c e   U S B   n '  F i l e V e r s i o n     1 0 . 0 . 2 2 6 2 1 . 4 7 4 3   ( W i n B u i l d . 1 6 0 1 0 1 . 0 8 0 0 )     8   I n t e r n a l N a m e   U S B P E R F . D L L   ‚ /  L e g a l C o p y r i g h t   ©   M i c r o s o f t   C o r p o r a t i o n .   T o u s   d r o i t s   r é s e r v é s .     H   O r i g i n a l F i l e n a m e   U S B P E R F . D L L . M U I   v +  P r o d u c t N a m e     S y s t è m e   d ' e x p l o i t a t i o n   M i c r o s o f t ®   W i n d o w s ®     D   P r o d u c t V e r s i o n   1 0 . 0 . 2 2 6 2 1 . 4 7 4 3   D    V a r F i l e I n f o     $    T r a n s l a t i o n     °PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX@'    0‚'.	*†H†÷ ‚'0‚'10	`†He 0\
++‚7 N0L0
++‚70	  ¢€ 010	`†He  FcuB	d’÷tâ.
+!¶Ë×¼D~½„+ù’ª\%O ‚º0‚õ0‚İ 3  MÈN×WH    0	*†H†÷ 0W10	UUS10U
+Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20240260416185943Z270415185943Z0t10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation10UMicrosoft Corporation0‚"0	*†H†÷ ‚ 0‚
+‚ Ğ½ìÇ`e‘Bé‹5X²ğ|`8%	Çä#~£€JTé+Ñü£–WM{tq¥PLÓ>Ş8çØçEµ¢–O çÔv¡D«ÛÉŠ}F²«~Ï"‰/àİämQëPæ3-´´È;t…yßQ~/è¦,aKëĞ«Çş6KG•_ø/=»-ğ’o/ôNH]§¢]°a’ŠÓİ'à%eÜmlß½Ò=HÛ¿Ê;èÍnvşîÑ_ôí¥¯ÊZn¢F~eÆïš×}º¿`»ÙÎ5£Ó,÷%B×Za¯º‰¹¯ç¶˜${-ÄçûÁïŒ$ñº¦gº«ç¶nt+ˆ[ £‚›0‚—0Uÿ€0U%0
++‚7L+0U~¸Ì*pñ´…	PéÎc
+ÔÓ.µ^0EU>0<¤:0810UMicrosoft Corporation10U230012+5075590U#0€Y?T!Ú­Oïåæ£×-”10`UY0W0U S Q†Ohttp://www.microsoft.com/pkiops/crl/Microsoft%20Code%20Signing%20PCA%202024.crl0m+a0_0]+0†Qhttp://www.microsoft.com/pkiops/certs/Microsoft%20Code%20Signing%20PCA%202024.crt0Uÿ0 0	*†H†÷ ‚ JM¶<ğ×¬ı³¯ŸAæ“´7˜Æ>åL•,£ìûşæ-û©õü•"ÿ´aÖ°ËBWÙº²Cê¾T‚xµ~ªñ×uR¨gtšÚ¥è_w*ö$¼qVôèşçõÉìÄqı|;/'t÷Ã•fĞbë—ãô
+Ñ¾÷k³FÉô6İ3¤,ÂÖ<°İ1è„¤eHC šO’ngå@ßœWèU‚¬2ìH¦ùç–Ó‰üòbAÁÙhFæ}ˆçqgQ]ËœÙ}Íâ¬‰¦ˆª¢‚èpØ¹B^Á•3h$Ü1
+ğf©mŒ@¹Â‘ƒUU,GuvÇúÜLÜèÿÙı*Q:÷ZfN9İnŠ…É·{]-ïš©‰½
+}jÿeÖ×J·ñ\_
+tP¬ÛJìíG¹Ä2ì×ì)>õÚ<5İÖ¨{ÛäÈÙ\Ö˜ïs²vıR¯İÂïä*Ÿ+ºí Æ +ç^(¶}¿~Q.=ÙTç])Å+*°ƒ52ËY+_ì„ïé±¸NÔÊ1Lß™Wæ‰"RØÊ™í²«s³KÙº6
+ucª×VÓ9œ
+”üHUõ%¤giGøO==¯é1#à_OüÇ³!N\ü1¥·õacúJÑy	´LŒšdµËcSúê•L"mİŸ,ı0AÊ¿‚Æu¯¶¢}PùdªÎ0‚½0‚¥ 3   9;¶7¿g     90	*†H†÷ 0ˆ10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20110240808205418Z360322221304Z0W10	UUS10U
+Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20240‚"0	*†H†÷ ‚ 0‚
+‚ Øœã8Çª•5­ºæşc×Çñ2¡zaß<ƒ^Ö
+Ki]İ†öálÓ¢Üºg°¤3b¶¼¨ÑÛRüEº#ü„/öËI!*–ßBå®°ëö¦³aÀñ	oê6ù&Â5³ÆÍ:ÛTïARøµÇôİ¤òrÌüAà3IÈtNlŸP©¬ÌÖ¾•<C‰ì²ş¸Aï|:@+¡³ÏZÖëõÍêÎ`ÉìäQÀ&éÉmu!È SG(0êÖ˜Õ'2 ^¾¢%×m²ˆó;µ$+GÕ‘¬šñ)•í9ı·™öM‹m[ÚwR‚äå’Ò±ÅÀ¦¾­\·Î%‡ …xb´ÉM>6Ü¹DJ#›™
+äÕg1Z„ã7ÈŞCşå¾•Ga€{¶Ó®Õµg]ñÚ¨ö%Ú³ìÛHâÓrÎUk!ş¶€M{zÎa/ëz•]TzÕ†Ë,Då‰»=Œ\À­î,;”SÆôµÊ;&¢yö‚‹Ftr.Iœ“	Vh±w’Ñ–I aJÎR¨Š´>€í•=Ëy¤!äŠ7 9´Y
+ûB²zš%r¡¦Ñ?ÆaL„reã¦U
+)ß¬UF$•L¾úğÖxH£‹;‡z˜†ßØÄˆCøˆ|Æ`'ºö‹¤1EÂ¬à·JA?Ä‰ ¥ùvØÃ5ŠÙß™Í^C(•Me £‚N0‚J0Uÿ†0	+‚7 0UY?T!Ú­Oïåæ£×-”10	+‚7
+ S u b C A0Uÿ0ÿ0U#0€r-:1C¹Náê§Ç1Ñ#‰40ZUS0Q0O M K†Ihttp://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl0^+R0P0N+0†Bhttp://www.microsoft.com/pki/certs/MicRooCerAut2011_2011_03_22.crt0	*†H†÷ ‚ ”8(Oî‰çéòÈ0ªÒ”İV`¬ w)PíÅ¬ÏìÖş$:ì~Ãån03/+-pJŸ’<ø5DQ¬ò2îrG4!àº£‹Rµ7	‡Z);~O¸ğX»´ù1Ò¹QÓ{ESLõaŠ\¿¦!kÚÅOà/—œ·í M÷¤ $¹Å/œaôˆ¾	ô&KSTPïê†rá°ADS1¼~ûô†8$;éd¥_mË¡¤7‹İŞòk¤:irß†¢3Z¦Å¬A‹£”Ÿ#eéù.ºİ‰1g`2Ó¦“¤¯ù ådŸ
+ Õ0Ğ±¶>0< ¹:aæÔ4·ó¢FÛu°SõA¼ì.‡.J¢Â¼}="ßôæ±Ä}c¾Fâ¥ûE5üĞO£B:8J#s¸VmÒ£‡›®XY:õÆLÚç„ÔÀtåÓM€r½1;Ì«Êıø<j£[ÏOõ…å^n½‘­©¯EH½‘k0+êÃ>çú$f3àz`1‘Áá.¬ÍdŠ`ôV+Íü`yOªåÖõ·tjæ%8|÷`§\İ'½â±/Š\Áç‚N€	0a;¿õÒŞjC©âY  UdP	¥ß;’àÈ¬
+¶¦(+e€£Q \¯å^ğñV2SB]/â¯	ü&@ŞVâ}tÕÆ6/€;4Ööp/}Xı1‚ç0‚ã0n0W10	UUS10U
+Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20243  MÈN×WH    0	`†He  °0	*†H†÷	1
++‚70
++‚710
++‚70/	*†H†÷	1" Xˆ§›Õ.[ÙE\D³ÄõôGĞ2²ß$¨Ó0D
++‚71604 € M i c r o s o f t¡€https://www.microsoft.com 0	*†H†÷ ‚ .rYÒaÊß×ÕR|q–äKWåW&^ëC$%†åDCrÌ3{İ˜]Lnr87.éáhL¡F³ø…2ºI¬½†ûrÄ^Ç,ãäoCÂp%ÍfáÊ‚ÏâÑv|íæŒ_ûšn#+0¯ˆ6÷O‹5 î ›$}UªZ‘Ì.#!_rÑœVà}M;SÉêû¦˜ÆËi¶Cû›‰œcÓt‡Î
+âz­¨$– <Í|ã_Ä~­ KãiÀ,¾|r’øò$æ ¦(t™ñÓpÿbÌôuÖ’ÆV˜Ü©Ø{‹ÌçÈÌ±#g’ª-û+F²ÆÁRH½œoÇü}Úì@”¥Ï¡‚—0‚“
++‚71‚ƒ0‚	*†H†÷ ‚p0‚l10	`†He 0‚R*†H†÷	 ‚A‚=0‚9
++„Y
+010	`†He  “%¾Ñ »RÄqÆü½ü¾N™‡®ÆˆÁ’:5càTÍjí¨420260521112116.335Z0€ô Ñ¤Î0Ë10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1%0#UMicrosoft America Operations1'0%UnShield TSS ESN:F002-05E0-D9471%0#UMicrosoft Time-Stamp Service ‚í0‚ 0‚ 3   $áæà¹´    0	*†H†÷ 0|10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100260219193952Z270517193952Z0Ë10	UUS10U
+Washington10URedmond10U
+Microsoft Corporation1%0#UMicrosoft America Operations1'0%UnShield TSS ESN:F002-05E0-D9471%0#UMicrosoft Time-Stamp Service0‚"0	*†H†÷ ‚ 0‚
+‚ Ñaò¯¸£[ ‘×¿.*÷ˆ2çîµc¢s	À£œ{ı†9ºÎ™Yõõâ-ã6É8şÌ“$8œÁ`pˆFŸ™bA£¥ZflWnÖ¢ğ¥ı€Â l'ôó«;$QZÆêw-Ücğhİ')ƒİTßé`z¸ÃÔ‰ïÔ%§òØ(š"‘I’Nòj÷Ù•‘Úa0ç B|¼©váSÓ¼:‰¤³ÖjôHÃx¡Æ¦ğ]AêmÜDê>Äşh°yıN¢mÜƒ¬¨û÷/Ë«¢0{ãµÁl´2”¢Ü.]ÙÀû%r§Y1^Ÿy¬0òirúĞß5TšÇşb7Gæ
+i¤3ô¸m~<œ$èñúÇèØVëŒh^Jqè15“_qwJmqvñqt³gÎÒ,Õr™ä	„ÚH¨gSÎœ©«ŒI9ãRbº¹C
+@–;ÙTC÷'ÉõÔlÔOT¸øôÌEÕÎ£]`,ÂAóvf¢ô³†ÛÁu¹û6ƒõÛ§²ó3${s…-“‡té	ğ[8f¥"Q}ÇğÉgû,›ü²Í?X´^ªgÍÄÓvº‡ÆdÈ7Ø ïXØAn}C#=à=&øjL°¶)C`­zè.š4Ÿ¸Åb6dR(uO/¼ª„½]k¦yLƒå¯­`æ«¯B™H‡ £‚I0‚E0UÛÈœàˆ‡€òf;—X4íAïÈØ30U#0€Ÿ§] ^b]ƒôåÒe§S5ér0_UX0V0T R P†Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l+`0^0\+0†Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time

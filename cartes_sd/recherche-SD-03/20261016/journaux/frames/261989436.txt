@@ -1,0 +1,57 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5833393f0780] wrong sample count
+    Last message repeated 1 times
+[h264 @ 0x583339427b80] error while decoding MB 12 52, bytestream -8
+[h264 @ 0x583339427b80] Overread VUI by 8 bits
+[h264 @ 0x583339427b80] height overflow
+[h264 @ 0x583339427b80] slice type 32 too large at 9
+[h264 @ 0x583339427b80] decode_slice_header error
+[h264 @ 0x583339427b80] illegal POC type 5
+[h264 @ 0x583339427b80] sps_id 32 out of range
+[h264 @ 0x583339427b80] illegal POC type 5
+[h264 @ 0x583339427b80] reference overflow (pps)
+[h264 @ 0x583339427b80] pps_id 3199971767 out of range
+    Last message repeated 1 times
+[h264 @ 0x583339427b80] slice type 32 too large at 63
+[h264 @ 0x583339427b80] decode_slice_header error
+[h264 @ 0x583339427b80] slice type 32 too large at 47
+[h264 @ 0x583339427b80] decode_slice_header error
+[h264 @ 0x583339427b80] log2_max_frame_num_minus4 out of range (0-12): 17
+[h264 @ 0x583339427b80] sps_id 32 out of range
+[h264 @ 0x583339427b80] log2_max_frame_num_minus4 out of range (0-12): 17
+[h264 @ 0x583339427b80] sps_id 19 out of range
+[h264 @ 0x583339427b80] non-existing PPS 3 referenced
+[h264 @ 0x583339427b80] decode_slice_header error
+[h264 @ 0x583339427b80] A non-intra slice in an IDR NAL unit.
+[h264 @ 0x583339427b80] decode_slice_header error
+[h264 @ 0x583339427b80] illegal POC type 4
+[h264 @ 0x583339427b80] sps_id 32 out of range
+[h264 @ 0x583339427b80] illegal POC type 4
+[h264 @ 0x583339427b80] sps_id 3 out of range
+[h264 @ 0x583339427b80] non-existing PPS 1 referenced
+[h264 @ 0x583339427b80] decode_slice_header error
+[h264 @ 0x583339427b80] A non-intra slice in an IDR NAL unit.
+[h264 @ 0x583339427b80] decode_slice_header error
+[h264 @ 0x583339427b80] Overread SPS by 8 bits
+[h264 @ 0x583339427b80] sps_id 32 out of range
+[h264 @ 0x583339427b80] non-existing PPS 2 referenced
+[h264 @ 0x583339427b80] decode_slice_header error
+[h264 @ 0x583339427b80] A non-intra slice in an IDR NAL unit.
+[h264 @ 0x583339427b80] decode_slice_header error
+[h264 @ 0x583339427b80] sps_id 32 out of range
+[NULL @ 0x5833393f2540] Invalid NAL unit size (786432 > 1102).
+[NULL @ 0x5833393f2540] missing picture in access unit with size 1106
+[h264 @ 0x583339427b80] Invalid NAL unit size (786432 > 1102).
+[h264 @ 0x583339427b80] Error splitting the input into NAL units.
+[NULL @ 0x5833393f2540] Invalid NAL unit size (1926 > 1071).
+[NULL @ 0x5833393f2540] missing picture in access unit with size 1075
+[h264 @ 0x583339427b80] Invalid NAL unit size (1926 > 1071).
+[h264 @ 0x583339427b80] Error splitting the input into NAL units.
+[NULL @ 0x5833393f2540] Invalid NAL unit size (-1711276012 > 2264).
+[NULL @ 0x5833393f2540] missing picture in access unit with size 2268
+[h264 @ 0x583339427b80] Invalid NAL unit size (-1711276012 > 2264).
+[h264 @ 0x583339427b80] Error splitting the input into NAL units.
+[NULL @ 0x5833393f2540] Invalid NAL unit size (1593835524 > 785).
+[NULL @ 0x5833393f2540] missing picture in access unit with size 789
+[h264 @ 0x583339427b80] Invalid NAL unit size (1593835524 > 785).
+[h264 @ 0x583339427b80] Error splitting the input into NAL units.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5833393f0780] stream 1, offset 0x547f40: partial file

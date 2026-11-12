@@ -1,1 +1,22 @@
 acces.md
+# SD-01 : médias et structures brutes sensibles, conservés localement
+cartes_sd/recherche-SD-01/**/prive/
+cartes_sd/recherche-SD-01/**/structures/*.bin
+cartes_sd/scripts/__pycache__/
+cartes_sd/recherche-SD-01/**/journaux/istat/
+
+# SD-02 : médias et blocs bruts sensibles conservés dans le projet
+cartes_sd/recherche-SD-02/**/prive/
+cartes_sd/recherche-SD-02/**/structures/*.bin
+cartes_sd/recherche-SD-02/**/journaux/istat/
+
+# SD-03 : médias et blocs bruts sensibles conservés dans le projet
+cartes_sd/recherche-SD-03/**/prive/
+cartes_sd/recherche-SD-03/**/structures/*.bin
+cartes_sd/recherche-SD-03/**/journaux/istat/
+
+# Connexion au S3
+s3.md
+
+# OP-01 : export MFT volumineux conservé localement
+/ordinateur/recherche-OP-01/fichiers-supprimes/mft-deleted-records.jsonl

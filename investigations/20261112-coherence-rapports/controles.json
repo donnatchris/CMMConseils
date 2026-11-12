@@ -1,0 +1,93 @@
+{
+  "scope": "11 rapports harmonisés et rapport final de référence",
+  "checks": [
+    {
+      "path": "RAPPORT-FINAL-SADEDINE-2026.md",
+      "final_unchanged": true,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    },
+    {
+      "path": "ordinateur/analyse-ordinateur.md",
+      "final_unchanged": null,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    },
+    {
+      "path": "freebox/analyse-freebox.md",
+      "final_unchanged": null,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    },
+    {
+      "path": "telephones/analyse-TP-01.md",
+      "final_unchanged": null,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    },
+    {
+      "path": "telephones/analyse-TP-02.md",
+      "final_unchanged": null,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    },
+    {
+      "path": "telephones/analyse-TP-03.md",
+      "final_unchanged": null,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    },
+    {
+      "path": "cartes_sd/analyse-cartes_sd-SD-01.md",
+      "final_unchanged": null,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    },
+    {
+      "path": "cartes_sd/analyse-cartes_sd-SD-02.md",
+      "final_unchanged": null,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    },
+    {
+      "path": "cartes_sd/analyse-cartes_sd-SD-03.md",
+      "final_unchanged": null,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    },
+    {
+      "path": "cartes_sd/analyse-cartes_sd-transversale.md",
+      "final_unchanged": null,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    },
+    {
+      "path": "cartes_sd/analyse-cartes_sd.md",
+      "final_unchanged": null,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    },
+    {
+      "path": "ordinateur/recherche-OP-01/operations-28oct/compte-rendu.md",
+      "final_unchanged": null,
+      "fenced_blocks_unchanged": true,
+      "technical_sha256_values_unchanged": true,
+      "snapshot_sha256_valid_before_requested_removal": true
+    }
+  ],
+  "missing_local_links": [],
+  "invalid_local_anchors": [],
+  "git_diff_check": "réussi sur les rapports suivis modifiés",
+  "note": "Résultats des comparaisons effectuées avant suppression des copies antérieures, demandée par l’utilisateur. Les empreintes actuelles tiennent compte de la mise à jour des mentions de conservation."
+}

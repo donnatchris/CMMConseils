@@ -1,0 +1,123 @@
+
+GUYMAGER ACQUISITION INFO FILE
+==============================
+
+Guymager
+========
+
+Version            : 0.8.13-2build3                                                                                         
+Version timestamp  : 2025-12-08-22.09.03 UTC                                                                                
+Compiled with      : gcc 15.2.0                                                                                             
+libewf version     : 20140816 (not used as Guymager is configured to use its own EWF module)                                
+libguytools version: 2.1.0                                                                                                  
+Host name          : chris-MS-7B48                                                                                          
+Domain name        : (none)                                                                                                 
+System             : Linux chris-MS-7B48 7.0.0-38-generic #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026 x86_64
+
+
+Device information
+==================
+Command executed: bash -c "search="`basename /dev/sdc`: H..t P.......d A..a de.....d" && dmesg | grep -A3 "$search" || echo "No kernel HPA messages for /dev/sdc""
+Information returned:
+----------------------------------------------------------------------------------------------------
+   No kernel HPA messages for /dev/sdc
+
+Command executed: bash -c "smartctl -s on /dev/sdc ; smartctl -a /dev/sdc"
+Information returned:
+----------------------------------------------------------------------------------------------------
+   smartctl 7.5 2025-04-30 r5714 [x86_64-linux-7.0.0-38-generic] (local build)
+   Copyright (C) 2002-25, Bruce Allen, Christian Franke, www.smartmontools.org
+   
+   /dev/sdc: Unknown USB bridge [0x14cd:0x1212 (0x100)]
+   Please specify device type with the -d option.
+   
+   Use smartctl -h to get a usage summary
+   
+   smartctl 7.5 2025-04-30 r5714 [x86_64-linux-7.0.0-38-generic] (local build)
+   Copyright (C) 2002-25, Bruce Allen, Christian Franke, www.smartmontools.org
+   
+   /dev/sdc: Unknown USB bridge [0x14cd:0x1212 (0x100)]
+   Please specify device type with the -d option.
+   
+   Use smartctl -h to get a usage summary
+
+Command executed: bash -c "hdparm -I /dev/sdc"
+Information returned:
+----------------------------------------------------------------------------------------------------
+   /dev/sdc:
+   
+   ATA device, with non-removable media
+   Standards:
+   	Likely used: 1
+   Configuration:
+   	Logical		max	current
+   	cylinders	0	0
+   	heads		0	0
+   	sectors/track	0	0
+   	--
+   	Logical/Physical Sector size:           512 bytes
+   	device size with M = 1024*1024:           0 MBytes
+   	device size with M = 1000*1000:           0 MBytes 
+   	cache/buffer size  = unknown
+   Capabilities:
+   	IORDY not likely
+   	Cannot perform double-word IO
+   	R/W multiple sector transfer: not supported
+   	DMA: not supported
+   	PIO: pio0
+
+Command executed: bash -c "CIDFILE=/sys/block/$(basename /dev/sdc)/device/cid; echo -n "CID: " ; if [ -e $CIDFILE ] ; then cat $CIDFILE  ; else echo "not available" ; fi "
+Information returned:
+----------------------------------------------------------------------------------------------------
+   CID: not available
+
+Hidden areas: unknown
+
+
+Acquisition
+===========
+
+Linux device            : /dev/sdc                                                                                                          
+Device size             : 31914983424 (31,9GB)                                                                                              
+Format                  : Expert Witness Format, sub-format Guymager - file extension is .Exx                                               
+Image meta data         
+   Case number          : SADEDINE-2026                                                                                                     
+   Evidence number      : SD-01                                                                                                             
+   Examiner             : Christophe Donnat                                                                                                 
+   Description          : Carte SD contenant les enregistrements des caméras                                                                
+   Notes                : Identifiant série déclaré par le lecteur USB : 121220160204.
+Numéro de série physique de la carte SD non confirmé.
+Image path and file name: /mnt/data/forensic/SADEDINE-2026/SD-01/SD01.Exx                                                                   
+Info  path and file name: /mnt/data/forensic/SADEDINE-2026/SD-01/SD01.info                                                                  
+Hash calculation        : MD5 and SHA-256                                                                                                   
+Source verification     : off                                                                                                               
+Image verification      : on                                                                                                                
+
+No bad sectors encountered during acquisition.
+State: Finished successfully
+
+MD5 hash                   : cf7837b9d9a3907f1a8db5b7d0b06922                                
+MD5 hash verified source   : --                                                              
+MD5 hash verified image    : cf7837b9d9a3907f1a8db5b7d0b06922                                
+SHA1 hash                  : --                                                              
+SHA1 hash verified source  : --                                                              
+SHA1 hash verified image   : --                                                              
+SHA256 hash                : 42fa8f6d3351a4ba2446b267637f51a0c1e44df4abd31b002a1ac2212c023c09
+SHA256 hash verified source: --                                                              
+SHA256 hash verified image : 42fa8f6d3351a4ba2446b267637f51a0c1e44df4abd31b002a1ac2212c023c09
+Image verification OK. The image contains exactly the data that was written.
+
+Acquisition started : 2026-10-12 10:17:52 (ISO format YYYY-MM-DD HH:MM:SS)    
+Verification started: 2026-10-12 10:46:27                                     
+Ended               : 2026-10-12 10:49:04 (0 hours, 31 minutes and 12 seconds)
+Acquisition speed   : 17.75 MByte/s (0 hours, 28 minutes and 35 seconds)      
+Verification speed  : 193.86 MByte/s (0 hours, 2 minutes and 37 seconds)      
+
+
+Generated image files and their MD5 hashes
+==========================================
+
+No MD5 hashes available (configuration parameter CalcImageFileMD5 is off)
+MD5                               Image file
+n/a                               SD01.E01
+n/a                               SD01.E02

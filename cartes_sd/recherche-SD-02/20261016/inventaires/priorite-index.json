@@ -1,0 +1,255 @@
+{
+  "entries": [
+    {
+      "inode": "273341448",
+      "path": "CAMERA TERRASSE/record/20242010/20242010_060029_10_0032.mp4",
+      "size": 2572714,
+      "deleted": false,
+      "start_cluster": 533709,
+      "method": "lecture chaîne FAT active",
+      "read_size": 2572714,
+      "sha256": "6c704b40a1d3fd7fb8ed708e3fab81ba62ae7450cb176346f3d2475d8bfec85f",
+      "allocated_chain_clusters": 158,
+      "stsd": [
+        {
+          "size": 100,
+          "sha256": "213b1835be0042c92d0bfec261e63c0d961cfb79e05ad27088ecd0e20bd678b9"
+        },
+        {
+          "size": 160,
+          "sha256": "53174a7427c69d2fd117c75bdaa506f9dce6bdedf4c1f77392c98e8f3fa1051c"
+        }
+      ],
+      "ffprobe": {
+        "argv": [
+          "ffprobe",
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "/proc/self/fd/4"
+        ],
+        "returncode": 0,
+        "stderr": ""
+      },
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 0,
+        "stderr_bytes": 196,
+        "log": "journaux/priorite-decodage/273341448.txt"
+      },
+      "packets": {
+        "argv": [
+          "ffprobe",
+          "-v",
+          "error",
+          "-select_streams",
+          "v:0",
+          "-show_packets",
+          "-show_entries",
+          "packet=pts,dts",
+          "-of",
+          "json",
+          "/proc/self/fd/4"
+        ],
+        "returncode": 0,
+        "stderr": "",
+        "summary": {
+          "dts": {
+            "count": 328,
+            "nonincreasing": 0,
+            "max_delta": 105,
+            "min_delta": 96
+          },
+          "pts": {
+            "count": 328,
+            "nonincreasing": 0,
+            "max_delta": 105,
+            "min_delta": 96
+          }
+        },
+        "raw_output_sha256": "4a5160b97e5d62c5fa87a1435b4fba2dcfaea829a69123b88d314add7fdb0ae6"
+      },
+      "artifact": "prive/priorite/273341448_20242010_060029_10_0032.mp4",
+      "icat_crosscheck": {
+        "argv": [
+          "icat",
+          "-o",
+          "8192",
+          "/mnt/ewf-sd02/ewf1",
+          "273341448"
+        ],
+        "returncode": 0,
+        "bytes": 2572714,
+        "sha256": "6c704b40a1d3fd7fb8ed708e3fab81ba62ae7450cb176346f3d2475d8bfec85f",
+        "matches": true,
+        "stderr": ""
+      }
+    },
+    {
+      "inode": "1543",
+      "path": "CAMERA TERRASSE/.record_tmp/20241112_234855_10.mp4",
+      "size": 6135808,
+      "deleted": false,
+      "start_cluster": 1244786,
+      "method": "lecture chaîne FAT active",
+      "read_size": 6135808,
+      "sha256": "359f487a4e7b8541dd4edb82fff95b7a7f14f49a8db18a109e1da21d1dbe4f9d",
+      "allocated_chain_clusters": 380,
+      "stsd": [],
+      "ffprobe": {
+        "argv": [
+          "ffprobe",
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "/proc/self/fd/4"
+        ],
+        "returncode": 1,
+        "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x57325e1d4680] moov atom not found\n/proc/self/fd/4: Invalid data found when processing input\n"
+      },
+      "decode": {
+        "argv": [
+          "ffmpeg",
+          "-v",
+          "warning",
+          "-threads",
+          "1",
+          "-i",
+          "/proc/self/fd/4",
+          "-fps_mode",
+          "passthrough",
+          "-enc_time_base",
+          "-1",
+          "-f",
+          "null",
+          "-"
+        ],
+        "returncode": 183,
+        "stderr_bytes": 259,
+        "log": "journaux/priorite-decodage/1543.txt"
+      },
+      "packets": {
+        "argv": [
+          "ffprobe",
+          "-v",
+          "error",
+          "-select_streams",
+          "v:0",
+          "-show_packets",
+          "-show_entries",
+          "packet=pts,dts",
+          "-of",
+          "json",
+          "/proc/self/fd/4"
+        ],
+        "returncode": 1,
+        "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56969c04a700] moov atom not found\n/proc/self/fd/4: Invalid data found when processing input\n",
+        "summary": {
+          "dts": {
+            "count": 0,
+            "nonincreasing": 0,
+            "max_delta": null,
+            "min_delta": null
+          },
+          "pts": {
+            "count": 0,
+            "nonincreasing": 0,
+            "max_delta": null,
+            "min_delta": null
+          }
+        },
+        "raw_output_sha256": "8e1d794b49e35ea828279c6a8c95282bbb9a0787cf5c9385256c2cc9d17baeb7"
+      },
+      "artifact": "prive/priorite/1543_20241112_234855_10.mp4",
+      "icat_crosscheck": {
+        "argv": [
+          "icat",
+          "-o",
+          "8192",
+          "/mnt/ewf-sd02/ewf1",
+          "1543"
+        ],
+        "returncode": 0,
+        "bytes": 6135808,
+        "sha256": "359f487a4e7b8541dd4edb82fff95b7a7f14f49a8db18a109e1da21d1dbe4f9d",
+        "matches": true,
+        "stderr": ""
+      }
+    },
+    {
+      "inode": "1547",
+      "path": "CAMERA TERRASSE/.record_tmp/20241112_234855_10.mp4.moov",
+      "size": 1006,
+      "deleted": false,
+      "start_cluster": 1244787,
+      "method": "lecture chaîne FAT active",
+      "read_size": 1006,
+      "sha256": "731c49c0eb32815913b66158889c78a53f83fcea0e661589ac633b8fa5c26e15",
+      "allocated_chain_clusters": 1,
+      "artifact": "prive/priorite/1547_20241112_234855_10.mp4.moov",
+      "icat_crosscheck": {
+        "argv": [
+          "icat",
+          "-o",
+          "8192",
+          "/mnt/ewf-sd02/ewf1",
+          "1547"
+        ],
+        "returncode": 0,
+        "bytes": 1006,
+        "sha256": "731c49c0eb32815913b66158889c78a53f83fcea0e661589ac633b8fa5c26e15",
+        "matches": true,
+        "stderr": ""
+      }
+    },
+    {
+      "inode": "1551",
+      "path": "CAMERA TERRASSE/.record_tmp/20241112_234855_10.mp4.stbl",
+      "size": 24824,
+      "deleted": false,
+      "start_cluster": 1244788,
+      "method": "lecture chaîne FAT active",
+      "read_size": 24824,
+      "sha256": "6757fabc89effdc8e90bdfbc3d537586a67b559e64df2a35f2b76150d937a1f0",
+      "allocated_chain_clusters": 2,
+      "artifact": "prive/priorite/1551_20241112_234855_10.mp4.stbl",
+      "icat_crosscheck": {
+        "argv": [
+          "icat",
+          "-o",
+          "8192",
+          "/mnt/ewf-sd02/ewf1",
+          "1551"
+        ],
+        "returncode": 0,
+        "bytes": 24824,
+        "sha256": "6757fabc89effdc8e90bdfbc3d537586a67b559e64df2a35f2b76150d937a1f0",
+        "matches": true,
+        "stderr": ""
+      }
+    }
+  ],
+  "saved_bytes": 8734352,
+  "all_entries": 4
+}

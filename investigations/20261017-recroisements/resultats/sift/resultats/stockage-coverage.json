@@ -1,0 +1,65 @@
+[
+  {
+    "source": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-Kernel-PnP%4Driver Watchdog.evtx",
+    "records": 4,
+    "first": "2024-06-14 00:18:57.930310",
+    "last": "2024-06-14 00:22:18.518674",
+    "selected": 0
+  },
+  {
+    "source": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-Partition%4Diagnostic.evtx",
+    "records": 103,
+    "first": "2023-09-28 17:00:24.449599",
+    "last": "2026-10-12 06:49:23.801884",
+    "selected": 0
+  },
+  {
+    "source": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-Storage-ClassPnP%4Operational.evtx",
+    "records": 512,
+    "first": "2023-10-06 12:54:20.818608",
+    "last": "2026-09-07 19:57:19.214099",
+    "selected": 0
+  },
+  {
+    "source": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-UserPnp%4ActionCenter.evtx",
+    "records": 0,
+    "first": null,
+    "last": null,
+    "selected": 0
+  },
+  {
+    "source": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-UserPnp%4DeviceInstall.evtx",
+    "records": 201,
+    "first": "2023-09-28 17:00:27.942474",
+    "last": "2026-10-12 06:48:59.553762",
+    "selected": 0
+  },
+  {
+    "source": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "records": 1052,
+    "first": "2023-09-28 17:00:23.092557",
+    "last": "2026-10-12 06:48:23.128527",
+    "selected": 0
+  },
+  {
+    "source": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "records": 1631,
+    "first": "2023-09-28 17:00:46.900555",
+    "last": "2026-10-12 06:50:17.549076",
+    "selected": 0
+  },
+  {
+    "source": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "records": 2252,
+    "first": "2024-08-27 10:27:59.771427",
+    "last": "2026-10-12 06:50:05.810875",
+    "selected": 0
+  },
+  {
+    "source": "/mnt/windows/Windows/System32/winevt/Logs/Microsoft-Windows-DeviceSetupManager%4Operational.evtx",
+    "records": 159,
+    "first": "2023-09-28 17:17:28.996798",
+    "last": "2026-10-12 06:48:23.385776",
+    "selected": 0
+  }
+]

@@ -1,0 +1,16 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5d5038b21780] wrong sample count
+[h264 @ 0x5d5038b88100] error while decoding MB 24 10, bytestream -6
+[h264 @ 0x5d5038b88100] slice type 32 too large at 33423359
+[h264 @ 0x5d5038b88100] decode_slice_header error
+[h264 @ 0x5d5038b88100] A non-intra slice in an IDR NAL unit.
+[h264 @ 0x5d5038b88100] decode_slice_header error
+[h264 @ 0x5d5038b88100] pps_id 3199971767 out of range
+[NULL @ 0x5d5038b252c0] Invalid NAL unit size (4587520 > 5585).
+[NULL @ 0x5d5038b252c0] missing picture in access unit with size 5589
+[h264 @ 0x5d5038b88100] Invalid NAL unit size (4587520 > 5585).
+[h264 @ 0x5d5038b88100] Error splitting the input into NAL units.
+[NULL @ 0x5d5038b252c0] Invalid NAL unit size (-83886067 > 1701).
+[NULL @ 0x5d5038b252c0] missing picture in access unit with size 1705
+[h264 @ 0x5d5038b88100] Invalid NAL unit size (-83886067 > 1701).
+[h264 @ 0x5d5038b88100] Error splitting the input into NAL units.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5d5038b21780] stream 1, offset 0x3d5ad3: partial file

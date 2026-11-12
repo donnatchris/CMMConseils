@@ -1,0 +1,28 @@
+{
+  "inode": "973078538",
+  "path": "System Volume Information/IndexerVolumeGuid",
+  "size": 76,
+  "deleted": false,
+  "start_cluster": 1900548,
+  "method": "lecture chaîne FAT active",
+  "read_size": 76,
+  "sha256": "7c81087012abcc9851f0d293160d4845ace1a25e2dfded55ad45c061df1f155d",
+  "allocated_chain_clusters": 1,
+  "prefix_bytes": 76,
+  "prefix_sha256": "7c81087012abcc9851f0d293160d4845ace1a25e2dfded55ad45c061df1f155d",
+  "artifact": "prive/extraits/973078538_IndexerVolumeGuid",
+  "icat_crosscheck": {
+    "argv": [
+      "icat",
+      "-o",
+      "8192",
+      "/mnt/ewf-sd03/ewf1",
+      "973078538"
+    ],
+    "returncode": 0,
+    "bytes": 76,
+    "sha256": "7c81087012abcc9851f0d293160d4845ace1a25e2dfded55ad45c061df1f155d",
+    "matches": true,
+    "stderr": ""
+  }
+}

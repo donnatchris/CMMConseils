@@ -1,0 +1,26 @@
+{
+  "documents_candidates": 396,
+  "messages_candidates": 541,
+  "strong_documents": 44,
+  "strong_messages": 48,
+  "patterns": {
+    "profession": "\\bavocat(?:e)?s?\\b|\\bbarreau\\b|emailavocats|avocat-negrevergne|enkadenn-avocat",
+    "noms": "\\b(?:soyer|rochere|negrevergne|dress|rubio|pascoet|drie|benveniste|leproux|liwer|meyer|guillou|lalot|khallouki|fakiroff|legrand|wahrheit|wahreit|duffay|coriou)\\b",
+    "conseil_defense": "convention d.honoraires|secret professionnel|\\bmaitre\\b|\\bcontentieux\\b|\\brecours\\b",
+    "procedure_fiscale": "proposition de rectification|juge des libertes|\\bl[ .-]*16[ .-]*b\\b|ordonnance.{0,60}(visite|saisie)|visite.{0,60}domiciliaire"
+  },
+  "extraction_status": {
+    "decoded": 3841,
+    "not_decoded": 395,
+    "error": 2
+  },
+  "limits": {
+    "unsupported_format": 91,
+    "small_image_not_ocred": 298,
+    "ValueError": 1,
+    "rtf_not_full_parser": 2,
+    "pdf_text_RuntimeError": 6,
+    "pdf_page_count_unverified": 6,
+    "TimeoutExpired": 1
+  }
+}

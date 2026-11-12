@@ -1,0 +1,59 @@
+e="FeaturePackage" />
+        <Package ID="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~wow64~~" PackageType="SatellitePackage" />
+        <Package ID="amd64_Microsoft-Windows-Kernel-LA57-FoD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Marvel-Mrvlpcie8897-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Qualcomm-Athw8x-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Qualcomm-Athwnx-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Qualcomm-Qcamain10x64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwbw02-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwew00-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwew01-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwlv64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwns64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwsw00-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw02-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw04-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw06-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw08-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw10-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Broadcom-Bcmpciedhd63-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63a-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63al-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Ralink-Netr28x-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl8187se-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl8192se-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl819xp-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl85n64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtwlane-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtwlane01-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtwlane13-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Intel-E1i68x64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Intel-E2f68-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Realtek-Rtcx21x64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Vmware-Vmxnet3-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wallpaper-Content-Extended-FoD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Hello-Face-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_OpenSSH-Client-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-TabletPCMath-Package" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~~" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-Printing-PMCPPC-FoD-Package~31bf3856ad364e35~amd64~~" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-FoDMetadata-Package" PackageType="FeaturePackage" />
+        <Package ID="professionaln_fi-fi_esd" PackageType="MetadataESD" />
+      </Packages>
+    </Feature>
+  </Features>
+  <Packages>
+    <Package ID="Microsoft-Windows-Client-LanguagePack-Package_fi-fi~31bf3856ad364e35~amd64~fi-fi~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="lgcmsJ1oi/JG2TCdieb7ZPg8bOF9sNJ0MOhNobLG0ew=" PayloadSize="24008068" Path="UUP\Desktop\editionpackages\fi-fi\Client\Microsoft-Windows-Client-LanguagePack-Package_fi-fi~31bf3856ad364e35~amd64~fi-fi~.esd" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Foundation-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="Al7SV2QHFGslIzRherGBmGICaibYK5mMEQmHjok+UW0=" PayloadSize="24038" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-Foundation-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-EditionSpecific-ProfessionalN-Package" Version="10.0.22621.1">
+      

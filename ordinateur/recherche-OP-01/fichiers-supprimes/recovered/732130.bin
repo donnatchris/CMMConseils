@@ -1,0 +1,52 @@
+# mkdirp
+
+Like `mkdir -p`, but in Node.js!
+
+Now with a modern API and no\* bugs!
+
+<small>\* may contain some bugs</small>
+
+# example
+
+## pow.js
+
+```js
+const mkdirp = require('mkdirp')
+
+// return value is a Promise resolving to the first directory created
+mkdirp('/tmp/foo/bar/baz').then(made =>
+  console.log(`made directories, starting with ${made}`))
+```
+
+Output (where `/tmp/foo` already exists)
+
+```
+made directories, starting with /tmp/foo/bar
+```
+
+Or, if you don't have time to wait around for promises:
+
+```js
+const mkdirp = require('mkdirp')
+
+// return value is the first directory created
+const made = mkdirp.sync('/tmp/foo/bar/baz')
+console.log(`made directories, starting with ${made}`)
+```
+
+And now /tmp/foo/bar/baz exists, huzzah!
+
+# methods
+
+```js
+const mkdirp = require('mkdirp')
+```
+
+## mkdirp(dir, [opts]) -> Promise<String | undefined>
+
+Create a new directory and any necessary subdirectories at `dir` with octal
+permission string `opts.mode`. If `opts` is a string or number, it will be
+treated as the `opts.mode`.
+
+If `opts.mode` isn't specified, it defaults to `0o777 &
+(~process.umask())

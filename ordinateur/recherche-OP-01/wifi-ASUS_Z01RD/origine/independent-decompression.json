@@ -1,0 +1,41 @@
+{
+  "library": "/opt/volatility3/lib/python3.12/site-packages/leechcorepyc/libMSCompression.so",
+  "library_sha256": "9ed3576ef72978af857702055067b9f210538258c099a75ac5e00e4acf1ffc91",
+  "results": [
+    {
+      "start": 147842848,
+      "input_size": 187,
+      "returncode": 0,
+      "output_size": 4096,
+      "sha256": "5d1af93ab799c91be2a17f776402b3a029ce85f6912566282d0f2b06f1d0cadb"
+    },
+    {
+      "start": 331614992,
+      "input_size": 284,
+      "returncode": 0,
+      "output_size": 4096,
+      "sha256": "5a6c5bb771d7679c6fd8835040b176b6aee5d2e40336d667bcec4bb0e9181532"
+    },
+    {
+      "start": 459192208,
+      "input_size": 161,
+      "returncode": -3,
+      "output_size": 4096,
+      "sha256": "5f29bcb17442a7f8b9cc7f68a0064c63a02eb77308399683a549b17d83886050"
+    },
+    {
+      "start": 549269216,
+      "input_size": 161,
+      "returncode": -3,
+      "output_size": 4096,
+      "sha256": "5f29bcb17442a7f8b9cc7f68a0064c63a02eb77308399683a549b17d83886050"
+    },
+    {
+      "start": 2752380080,
+      "input_size": 265,
+      "returncode": 0,
+      "output_size": 4096,
+      "sha256": "72520403bf5338b2bb20500f91a81a34248601c6a676c5f94d3f745c4b7a2f13"
+    }
+  ]
+}

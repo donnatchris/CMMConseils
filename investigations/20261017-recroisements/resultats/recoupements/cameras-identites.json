@@ -1,0 +1,326 @@
+{
+  "xiaomi_devices": [
+    {
+      "Z_PK": 3370,
+      "ZMODEL": "mxiang.camera.mwc11",
+      "ZMAC": "E0:A2:5A:0A:A3:F7",
+      "ZLOCALIP": null,
+      "ZEXTFWVERSION": null,
+      "ZLASTONLINE": 0.0,
+      "ZSHAREFLAG": 0,
+      "ZADMINFLAG": 1,
+      "ZISFROMSERVER": 1,
+      "ZISONLINE": 1,
+      "ZDID_sha256": "da146b7181e8a116ef9cae8352b6d82fce5292098c963502786a9112abcd1cb8",
+      "source": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.xiaomi.mihome/Documents/8216275811_mihome.sqlite",
+      "freebox_mac_match": {
+        "mac": "E0:A2:5A:0A:A3:F7",
+        "name": "",
+        "names": [],
+        "first_activity": {
+          "utc": "2024-07-19T19:02:47+00:00",
+          "paris": "2024-07-19T21:02:47+02:00"
+        },
+        "last_activity": null,
+        "connectivities": []
+      }
+    },
+    {
+      "Z_PK": 3371,
+      "ZMODEL": "yeelink.light.nl1",
+      "ZMAC": "64:9E:31:82:C1:3C",
+      "ZLOCALIP": null,
+      "ZEXTFWVERSION": null,
+      "ZLASTONLINE": 0.0,
+      "ZSHAREFLAG": 0,
+      "ZADMINFLAG": 1,
+      "ZISFROMSERVER": 1,
+      "ZISONLINE": 0,
+      "ZDID_sha256": "f46f67d371a4560ba6f1cc07aec34ba3b8017f8235a767afb8f30091ff5bcd83",
+      "source": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.xiaomi.mihome/Documents/8216275811_mihome.sqlite",
+      "freebox_mac_match": null
+    },
+    {
+      "Z_PK": 3372,
+      "ZMODEL": "mxiang.camera.mwc10",
+      "ZMAC": "E0:A2:5A:0D:06:DE",
+      "ZLOCALIP": "192.168.1.135",
+      "ZEXTFWVERSION": null,
+      "ZLASTONLINE": 0.0,
+      "ZSHAREFLAG": 0,
+      "ZADMINFLAG": 1,
+      "ZISFROMSERVER": 1,
+      "ZISONLINE": 1,
+      "ZDID_sha256": "6b1553210a47ca1cb01200ae39cd7b369907caf782b82c225a3a6d5d0220d3f2",
+      "source": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.xiaomi.mihome/Documents/8216275811_mihome.sqlite",
+      "freebox_mac_match": null
+    },
+    {
+      "source": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.xiaomi.mihome/Documents/mihome_db.sqlite3",
+      "table": "device",
+      "model": "yeelink.light.nl1",
+      "isShared": 0,
+      "isLocked": 0,
+      "isOnline": 1,
+      "did_sha256": "f46f67d371a4560ba6f1cc07aec34ba3b8017f8235a767afb8f30091ff5bcd83"
+    },
+    {
+      "source": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.xiaomi.mihome/Documents/mihome_db.sqlite3",
+      "table": "device",
+      "model": "mxiang.camera.mwc10",
+      "isShared": 0,
+      "isLocked": 1,
+      "isOnline": 1,
+      "did_sha256": "6b1553210a47ca1cb01200ae39cd7b369907caf782b82c225a3a6d5d0220d3f2"
+    }
+  ],
+  "sqlite_tables": [
+    {
+      "source": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.xiaomi.mihome/Documents/8216275811_mihome.sqlite",
+      "table": "ZDEVICE",
+      "rows": 3
+    },
+    {
+      "source": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.xiaomi.mihome/Documents/mihome_db.sqlite3",
+      "table": "device",
+      "rows": 2
+    },
+    {
+      "source": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.xiaomi.mihome/Documents/mihome_db.sqlite3",
+      "table": "props",
+      "rows": 2
+    },
+    {
+      "source": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.xiaomi.mihome/Documents/mihome_db.sqlite3",
+      "table": "operationData",
+      "rows": 2
+    },
+    {
+      "source": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.xiaomi.mihome/Documents/mihome_db.sqlite3",
+      "table": "propValues",
+      "rows": 0
+    }
+  ],
+  "dates_candidates": [],
+  "lsc_activeTime": [
+    {
+      "device_id_sha256": "7bf3ca23227188be96527a8731274dd6575c07808b6cd01bd985c3c5b8b9a1c9",
+      "raw": 1688998579.0,
+      "unix_hypothesis": {
+        "utc": "2023-07-10T14:16:19+00:00",
+        "paris": "2023-07-10T16:16:19+02:00"
+      },
+      "meaning": "Nom activeTimeKey ; activation/dernière consultation non établies"
+    },
+    {
+      "device_id_sha256": "6580568f6417466198414562830a8c44e0d77780997a9d3d7c4a880bb319e07e",
+      "raw": 1692995813.0,
+      "unix_hypothesis": {
+        "utc": "2023-08-25T20:36:53+00:00",
+        "paris": "2023-08-25T22:36:53+02:00"
+      },
+      "meaning": "Nom activeTimeKey ; activation/dernière consultation non établies"
+    },
+    {
+      "device_id_sha256": "63ccb5018f1567ab6096a0e7f57c3e253f79c300619c6efb5d30c62404764d34",
+      "raw": 1687271769.0,
+      "unix_hypothesis": {
+        "utc": "2023-06-20T14:36:09+00:00",
+        "paris": "2023-06-20T16:36:09+02:00"
+      },
+      "meaning": "Nom activeTimeKey ; activation/dernière consultation non établies"
+    },
+    {
+      "device_id_sha256": "9a5de3fda92d3299c33cb78e1dbaec1c073513a9faf8df7c50a30ffd2c76e05b",
+      "raw": 1701536875.0,
+      "unix_hypothesis": {
+        "utc": "2023-12-02T17:07:55+00:00",
+        "paris": "2023-12-02T18:07:55+01:00"
+      },
+      "meaning": "Nom activeTimeKey ; activation/dernière consultation non établies"
+    },
+    {
+      "device_id_sha256": "d423269eb819ac0815ebd39e9bb8bbf015a45b0993a8090111116e63468ff5b0",
+      "raw": 1692995103.0,
+      "unix_hypothesis": {
+        "utc": "2023-08-25T20:25:03+00:00",
+        "paris": "2023-08-25T22:25:03+02:00"
+      },
+      "meaning": "Nom activeTimeKey ; activation/dernière consultation non établies"
+    }
+  ],
+  "lsc_last_version": "1.2.0",
+  "lsc_sdk_field": "thing_smart_camera_sdk_version",
+  "lsc_local_storage": [
+    {
+      "key_sha256": "43e9374f1a80f7cbaf7cfb787aaa31d11341dca5d7dd85b42b097b7e40d6cb71",
+      "kind": "voice",
+      "value_type": "dict",
+      "fields": [
+        "voiceStatus"
+      ],
+      "value_size": 21
+    },
+    {
+      "key_sha256": "4a8af74e2459f9d6ed2b0ad5ef489a460c195fafae94fd9e18f0e53108c29ddc",
+      "kind": "other",
+      "value_type": "dict",
+      "fields": [
+        "cloudDp",
+        "uiContent"
+      ],
+      "value_size": 414
+    },
+    {
+      "key_sha256": "06c54389f2fce594a0923b371cd816ec123117118b4642257a5f9f46fc32d958",
+      "kind": "CloudPanelConfig",
+      "value_type": "dict",
+      "fields": [
+        "tyabidfw7q",
+        "timestamp",
+        "tyabi9ueme",
+        "tyabi97svu",
+        "tyabicfdh9",
+        "tyabi84ajd",
+        "tyabivafwm",
+        "tyabi4q3vj",
+        "tyabikue7c",
+        "tyabicuyj5",
+        "tyabi3ewdd"
+      ],
+      "value_size": 294
+    },
+    {
+      "key_sha256": "83e6e7ada1c82e7bf80af2efa2812f3ca906c6e019bd1a4c996c5746b4f2b6f1",
+      "kind": "voice",
+      "value_type": "dict",
+      "fields": [
+        "voiceStatus"
+      ],
+      "value_size": 21
+    },
+    {
+      "key_sha256": "55eadfe9ce51d476b2fa8e88dff7116079dbee3d944e95e2a9cb0da982a69b8f",
+      "kind": "other",
+      "value_type": "dict",
+      "fields": [
+        "themeStatus"
+      ],
+      "value_size": 23
+    },
+    {
+      "key_sha256": "f2494e3a2f40dd5fdc260b9a548b0a82ae4c9baef2e90c75a2de1b1ece9eebb4",
+      "kind": "CloudPanelConfig",
+      "value_type": "dict",
+      "fields": [
+        "tyabidfw7q",
+        "timestamp",
+        "tyabi9ueme",
+        "tyabi97svu",
+        "tyabicfdh9",
+        "tyabi84ajd",
+        "tyabivafwm",
+        "tyabi4q3vj",
+        "tyabikue7c",
+        "tyabicuyj5",
+        "tyabi3ewdd"
+      ],
+      "value_size": 294
+    },
+    {
+      "key_sha256": "e452d714c15e4c53c1bbea153bdfc49a5e2c3d15b3dbc3bbde9d64bb797322d1",
+      "kind": "LOCAL_DATA_KEY",
+      "value_type": "dict",
+      "fields": [
+        "value",
+        "type"
+      ],
+      "value_size": 350
+    },
+    {
+      "key_sha256": "0077e98d96c85f4ef4ca36f9b375bc8dd930486b84e1af6e50f0b24b843646fb",
+      "kind": "CloudPanelConfig",
+      "value_type": "dict",
+      "fields": [
+        "tyabidfw7q",
+        "timestamp",
+        "tyabi9ueme",
+        "tyabi97svu",
+        "tyabicfdh9",
+        "tyabi84ajd",
+        "tyabivafwm",
+        "tyabi4q3vj",
+        "tyabikue7c",
+        "tyabicuyj5",
+        "tyabi3ewdd"
+      ],
+      "value_size": 294
+    },
+    {
+      "key_sha256": "505d5cb9d5fa502a36440b9002480829ab702ecf481ec416cc9b22c41cc951b9",
+      "kind": "CloudPanelConfig",
+      "value_type": "dict",
+      "fields": [
+        "tyabidfw7q",
+        "timestamp",
+        "tyabi9ueme",
+        "tyabi97svu",
+        "tyabicfdh9",
+        "tyabi84ajd",
+        "tyabivafwm",
+        "tyabi4q3vj",
+        "tyabikue7c",
+        "tyabicuyj5",
+        "tyabi3ewdd"
+      ],
+      "value_size": 294
+    },
+    {
+      "key_sha256": "32af69550faf03b1527425429fd218356851affbc3fcec0b7805961e48c0364a",
+      "kind": "voice",
+      "value_type": "dict",
+      "fields": [
+        "voiceStatus"
+      ],
+      "value_size": 20
+    },
+    {
+      "key_sha256": "0d15c2ec6440e8cc1953ffdd6c41e342a5bedd8e12ef0fcf4b93c47207e69299",
+      "kind": "CloudPanelConfig",
+      "value_type": "dict",
+      "fields": [
+        "tyabidfw7q",
+        "timestamp",
+        "tyabi9ueme",
+        "tyabi97svu",
+        "tyabicfdh9",
+        "tyabi84ajd",
+        "tyabivafwm",
+        "tyabi4q3vj",
+        "tyabikue7c",
+        "tyabicuyj5",
+        "tyabi3ewdd"
+      ],
+      "value_size": 294
+    },
+    {
+      "key_sha256": "bb43a708332152cd2b50e06da893d47dfab52a96a76d2c5e99da8c80add1147f",
+      "kind": "voice",
+      "value_type": "dict",
+      "fields": [
+        "voiceStatus"
+      ],
+      "value_size": 20
+    },
+    {
+      "key_sha256": "4eb3730710cb21bbfce9614ec82cb8aabc8dc62a44bb69181384a1e83ba8b7d5",
+      "kind": "voice",
+      "value_type": "dict",
+      "fields": [
+        "voiceStatus"
+      ],
+      "value_size": 21
+    }
+  ],
+  "limit": "Configurations à la sauvegarde ; aucune session historique ou correspondance SD démontrée par leur seule présence."
+}

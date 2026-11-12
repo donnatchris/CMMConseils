@@ -1,0 +1,20 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5c62a67c9e40] wrong sample count
+    Last message repeated 1 times
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5c62a67c9e40] Packet corrupt (stream = 1, dts = 9379).
+[NULL @ 0x5c62a67ccac0] Invalid NAL unit size (74240 > 2556).
+[NULL @ 0x5c62a67ccac0] missing picture in access unit with size 2560
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x5c62a67c9d40] corrupt input packet in stream 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5c62a67c9e40] stream 1, offset 0x11f009: partial file
+[h264 @ 0x5c62a6942f00] Invalid NAL unit 0, skipping.
+    Last message repeated 1 times
+[h264 @ 0x5c62a6942f00] error while decoding MB 4 62, bytestream -7
+[h264 @ 0x5c62a6942f00] data partitioning is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+[h264 @ 0x5c62a6942f00] If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+[h264 @ 0x5c62a6942f00] slice type 32 too large at 29360127
+[h264 @ 0x5c62a6942f00] decode_slice_header error
+[h264 @ 0x5c62a6942f00] slice type 32 too large at 33423359
+[h264 @ 0x5c62a6942f00] decode_slice_header error
+[vist#0:1/h264 @ 0x5c62a6876d80] corrupt decoded frame
+[h264 @ 0x5c62a68067c0] Invalid NAL unit size (74240 > 2556).
+[h264 @ 0x5c62a68067c0] Error splitting the input into NAL units.
+[vist#0:1/h264 @ 0x5c62a6876d80] Decoding error: Invalid data found when processing input

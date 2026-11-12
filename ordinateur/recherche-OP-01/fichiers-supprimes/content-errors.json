@@ -1,0 +1,34 @@
+[
+  {
+    "mft_index": 437208,
+    "error": "pyscca_file_open: unable to open file. libfwnt_lzxpress_huffman_decompress_chunk: unable to build Huffman tree. libfwnt_lzxpress_huffman_decompress: unable to decompress chunk. libscca_compressed_block_read_file_io_handle: unable to decompress compressed data. libscca_io_handle_read_compressed_blocks: unable to read compressed block data. libscca_file_open_read: unable to read compressed blocks. libscca_file_open_file_io_handle: unable to read from file handle. libscca_file_open: unable to open file: /home/sansforensics/analysis/OP-01/fichiers-supprimes-20261013/recovered/437208.bin."
+  },
+  {
+    "mft_index": 653936,
+    "error": "database disk image is malformed"
+  },
+  {
+    "mft_index": 675271,
+    "error": "pyscca_file_open: unable to open file. libscca_compressed_block_initialize: invalid data size value out of bounds. libscca_io_handle_read_compressed_blocks: unable to create compressed block. libscca_file_open_read: unable to read compressed blocks. libscca_file_open_file_io_handle: unable to read from file handle. libscca_file_open: unable to open file: /home/sansforensics/analysis/OP-01/fichiers-supprimes-20261013/recovered/675271.bin."
+  },
+  {
+    "mft_index": 681304,
+    "error": "pyscca_file_open: unable to open file. libfwnt_lzxpress_huffman_decompress_chunk: compression size value out of bounds. libfwnt_lzxpress_huffman_decompress: unable to decompress chunk. libscca_compressed_block_read_file_io_handle: unable to decompress compressed data. libscca_io_handle_read_compressed_blocks: unable to read compressed block data. libscca_file_open_read: unable to read compressed blocks. libscca_file_open_file_io_handle: unable to read from file handle. libscca_file_open: unable to open file: /home/sansforensics/analysis/OP-01/fichiers-supprimes-20261013/recovered/681304.bin."
+  },
+  {
+    "mft_index": 682578,
+    "error": "pyscca_file_open: unable to open file. libscca_compressed_block_initialize: invalid data size value out of bounds. libscca_io_handle_read_compressed_blocks: unable to create compressed block. libscca_file_open_read: unable to read compressed blocks. libscca_file_open_file_io_handle: unable to read from file handle. libscca_file_open: unable to open file: /home/sansforensics/analysis/OP-01/fichiers-supprimes-20261013/recovered/682578.bin."
+  },
+  {
+    "mft_index": 919409,
+    "error": "File is not a zip file"
+  },
+  {
+    "mft_index": 941860,
+    "error": "pyscca_file_open: unable to open file. libfwnt_lzxpress_huffman_decompress_chunk: compression size value out of bounds. libfwnt_lzxpress_huffman_decompress: unable to decompress chunk. libscca_compressed_block_read_file_io_handle: unable to decompress compressed data. libscca_io_handle_read_compressed_blocks: unable to read compressed block data. libscca_file_open_read: unable to read compressed blocks. libscca_file_open_file_io_handle: unable to read from file handle. libscca_file_open: unable to open file: /home/sansforensics/analysis/OP-01/fichiers-supprimes-20261013/recovered/941860.bin."
+  },
+  {
+    "mft_index": 1032967,
+    "error": "File is not a zip file"
+  }
+]

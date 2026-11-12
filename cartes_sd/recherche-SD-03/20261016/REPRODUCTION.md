@@ -1,0 +1,19 @@
+# Reproduction de la campagne SD-03
+
+Exécuter depuis la racine du projet. Les scripts refusent normalement d’écraser leurs sorties : choisir une nouvelle campagne, par exemple `export SD03_RUN=20261016-controle`, et ne pas relancer la campagne archivée sur elle-même. La VM s’utilise via `ssh -F /home/chris/.ssh/config -o BatchMode=yes sift`. Adapter seulement le chemin de configuration SSH si nécessaire.
+
+Les scripts distants sont envoyés sur stdin, travaillent sur `/mnt/ewf-sd03/ewf1` ouvert en lecture seule et utilisent des fichiers anonymes en mémoire pour FFmpeg. Les archives tar sont reçues directement sous le projet. Aucun fichier de travail n’est créé sur FORENSIC. Vérifier au préalable le montage EWF et l’espace disponible. Tous les offsets TSK sont `-o 8192` ; les offsets binaires absolus sont calculés à partir du BPB.
+
+## Ordre et paramètres exacts
+
+Les commandes réellement exécutées, leur code de retour, le script transmis ou son empreinte et les paramètres sont conservés dans `journaux/commandes.jsonl`. Les incidents interrompus sont détaillés séparément dans `incidents-et-limites.md`. Les fichiers `inventaires/plan-*.json` et `parametres-*.json` sont les paramètres explicites de cette image, avec les identifiants vérifiés ; ils ne doivent pas être réutilisés sur une autre carte.
+
+1. `python3 cartes_sd/scripts/sd03_collect.py initial`, puis `integrite`, `segments`, `etat` : identification, vérification libewf et empreintes.
+2. Phases `fls`, `body`, `mactime`. Le lecteur brut `sd03_rawfat_remote.py` est exécuté par la phase `script` du collecteur. Les scripts `sd03_orphans.py`, `sd03_plan.py` et leurs sorties permettent l’inventaire et le plan de lecture.
+3. Pour une réception distante : `python3 cartes_sd/scripts/sd03_receive.py SCRIPT LABEL PARAMETRES_JSON`. Consulter le journal pour l’association exacte : structures, médias, priorité, allocation, compléments, aperçus, inventaire des images, index de finalisation et récupération après EOF. Le récepteur injecte les fonctions pures du parseur `sd01_mp4.py` ; il n’exécute pas l’analyse de SD-01.
+4. `sd03_scan_remote.py` lit intégralement les clusters libres et conserve leurs empreintes. `sd03_residual_remote.py` extrait seulement les clusters non nuls. La reprise n’est nécessaire qu’en cas d’interruption ; `sd03_resume_residues.py` vérifie ce qui a déjà été reçu avant de demander les seuls manquants.
+5. Les scripts locaux `sd03_classify.py`, `sd03_residual_summary.py`, `sd03_residual_details.py`, `sd03_deleted_compare.py`, `sd03_overlap.py`, `sd03_focus.py`, puis `sd03_analyze.py` produisent les recoupements. Les observations visuelles sont déclarées séparément dans `sd03_observations_visuelles.py` : leur reproduction suppose de revoir les images citées, pas seulement d’exécuter ce script.
+6. Phase `final` du collecteur : comparaison des douze empreintes de segments avec le début. `sd03_report.py` produit le rapport et exige cette concordance. Le rapport est une synthèse à relire, pas une expertise automatiquement déduite.
+7. `python3 cartes_sd/scripts/sd03_qa.py`, puis `sd03_manifest.py`, puis `sd03_verify_manifest.py` contrôlent les artefacts dérivés et le manifeste. Le manifeste couvre les fichiers privés conservés localement, même exclus de Git. Ne pas modifier les fichiers manifestés après clôture sans nouvelle campagne ou traçabilité explicite.
+
+Les journaux des neuf fichiers anormaux, les structures MP4 et les paramètres de reconstruction permettent de vérifier les conclusions sans refaire la lecture intégrale des 32 Go. Le fragment reconstruit est `prive/reconstructions/266342024-fragment-apres-EOF.mp4` : conteneur dérivé de 3,849 secondes, pas restauration complète d’un fichier supprimé. Ses échantillons et offsets sources sont énumérés dans `inventaires/recuperation-apres-eof.json`.

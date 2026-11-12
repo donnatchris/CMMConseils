@@ -1,0 +1,58 @@
+{
+  "method": "Grammaire de tokens inf\u00e9r\u00e9e de .stbl ; comparaison sans transformation avec les tables MP4 finalis\u00e9es",
+  "bytes_consumed": 11888,
+  "file_size": 11888,
+  "record_counts": {
+    "vdts": 252,
+    "sdts": 1,
+    "vdco": 38,
+    "vdsz": 360,
+    "vdss": 12,
+    "sdco": 37,
+    "sdsz": 259,
+    "vdsc": 8,
+    "sdsc": 1
+  },
+  "comparisons": [
+    {
+      "token": "vdsz",
+      "table": "vide/stsz",
+      "temp_entries": 360,
+      "final_entries": 392,
+      "prefix_equal": true,
+      "first_mismatch": null
+    },
+    {
+      "token": "sdsz",
+      "table": "soun/stsz",
+      "temp_entries": 259,
+      "final_entries": 288,
+      "prefix_equal": true,
+      "first_mismatch": null
+    },
+    {
+      "token": "vdco",
+      "table": "vide/stco",
+      "temp_entries": 38,
+      "final_entries": 42,
+      "prefix_equal": true,
+      "first_mismatch": null
+    },
+    {
+      "token": "sdco",
+      "table": "soun/stco",
+      "temp_entries": 37,
+      "final_entries": 42,
+      "prefix_equal": true,
+      "first_mismatch": null
+    },
+    {
+      "token": "vdss",
+      "table": "vide/stss",
+      "temp_entries": 12,
+      "final_entries": 14,
+      "prefix_equal": true,
+      "first_mismatch": null
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "inode": "1543",
+  "path": "CAMERA SALON/.record_tmp/20241031_232538_10.mp4",
+  "size": 2123808,
+  "deleted": true,
+  "start_cluster": 1487054,
+  "method": "icat -r heuristique pour entrée supprimée",
+  "recovery": {
+    "argv": [
+      "icat",
+      "-r",
+      "-o",
+      "8192",
+      "/mnt/ewf-sd03/ewf1",
+      "1543"
+    ],
+    "returncode": 0,
+    "stderr": ""
+  },
+  "read_size": 16384,
+  "sha256": "49ca54e990b5ce24ba5fe15eb5ae53fbccdb5ee492547942f88c7c55dc28d02e",
+  "allocated_chain_clusters": 0,
+  "prefix_bytes": 16384,
+  "prefix_sha256": "49ca54e990b5ce24ba5fe15eb5ae53fbccdb5ee492547942f88c7c55dc28d02e",
+  "mp4_structure": {
+    "size": 16384,
+    "boxes": [
+      {
+        "path": "/ftyp",
+        "offset": 0,
+        "size": 28
+      }
+    ],
+    "errors": [
+      {
+        "offset": 28,
+        "type": "mdat",
+        "claimed_size": 2610519,
+        "available": 16356
+      },
+      {
+        "offset": 28,
+        "error": "trailing bytes",
+        "count": 16356
+      }
+    ],
+    "tracks": []
+  },
+  "stsd": [],
+  "ffprobe": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_format",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x6213f8c2a680] moov atom not found\n/proc/self/fd/4: Invalid data found when processing input\n"
+  },
+  "metadata": {},
+  "packets": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x60cf99f8c700] moov atom not found\n/proc/self/fd/4: Invalid data found when processing input\n",
+    "summary": {
+      "dts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      },
+      "pts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      }
+    },
+    "raw_output_sha256": "8e1d794b49e35ea828279c6a8c95282bbb9a0787cf5c9385256c2cc9d17baeb7"
+  },
+  "artifact": "prive/extraits/1543_20241031_232538_10.mp4"
+}

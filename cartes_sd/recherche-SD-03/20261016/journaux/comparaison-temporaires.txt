@@ -1,0 +1,65 @@
+[
+  {
+    "deleted_inode": "1543",
+    "deleted_path": "CAMERA SALON/.record_tmp/20241031_232538_10.mp4",
+    "deleted_declared_size": 2123808,
+    "deleted_read_bytes": 16384,
+    "final_inode": "761370124",
+    "final_path": "CAMERA SALON/record/20241031/20241031_232538_10_0028.mp4",
+    "final_size": 2617249,
+    "same_start_cluster": true,
+    "compared_prefix_bytes": 16384,
+    "prefix_equal": true,
+    "prefix_sha256": "49ca54e990b5ce24ba5fe15eb5ae53fbccdb5ee492547942f88c7c55dc28d02e",
+    "final_sha256": "81c80db68065233b96132ee4ff4c3a3bd93b107f497a48f1ef13b3bec22eee03",
+    "limitation": "Les deux entrées pointent sur le même premier cluster actuel : le préfixe est une concordance de récupération et ne prouve pas que son contenu soit inchangé depuis la suppression.",
+    "auxiliary_stbl": {
+      "inode": "1551",
+      "bytes": 10784,
+      "parse_summary": {
+        "start": 0,
+        "parsed_until": 10784,
+        "reason": "borne",
+        "record_count": 963,
+        "unparsed_nonzero_bytes": 0
+      },
+      "comparisons": [
+        {
+          "token": "vdsz",
+          "temp_count": 266,
+          "final_count": 317,
+          "prefix_equal": true,
+          "first_mismatch": null
+        },
+        {
+          "token": "sdsz",
+          "temp_count": 182,
+          "final_count": 227,
+          "prefix_equal": true,
+          "first_mismatch": null
+        },
+        {
+          "token": "vdco",
+          "temp_count": 27,
+          "final_count": 33,
+          "prefix_equal": true,
+          "first_mismatch": null
+        },
+        {
+          "token": "sdco",
+          "temp_count": 26,
+          "final_count": 33,
+          "prefix_equal": true,
+          "first_mismatch": null
+        },
+        {
+          "token": "vdss",
+          "temp_count": 266,
+          "final_count": 317,
+          "prefix_equal": true,
+          "first_mismatch": null
+        }
+      ]
+    }
+  }
+]

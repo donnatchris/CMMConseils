@@ -1,5 +1,33 @@
 # Analyse informatique de l’ordinateur OP-01
 
+**Relecture de cohérence : 12 novembre 2026.** Harmonisation avec le [rapport final réorganisé](../RAPPORT-FINAL-SADEDINE-2026.md), sans nouvelle acquisition ni nouvelle analyse des supports. Les campagnes et décomptes techniques conservent leurs dates et leurs périmètres. Le détail de cette révision et les empreintes actuelles figurent dans le [dossier de relecture](../investigations/20261112-coherence-rapports/compte-rendu.md).
+
+## Revue du 10 novembre 2026 — intervention avant ouverture
+
+La comparaison avec les trois téléphones ne transforme pas le réveil programmé du 16 à 05:51 en réveil constaté. Le nom de réseau ASUS conservé sur TP-02 ne suffit pas à attribuer un point d’accès à OP-01. Les activités Windows du 28 à partir de 10:41 sont postérieures à l’ouverture du PC. Aucun nouveau scan Windows n’est revendiqué dans cette revue ; les limites des journaux et de l’image restent celles détaillées ci-dessous. Voir la [comparaison des hypothèses et les nouveaux contrôles](../investigations/20261110-revue-intervention-scelles/compte-rendu.md). Les versions antérieures de ce rapport sont conservées pour cette mise à jour.
+
+## Actualisation du 10 novembre 2026 — lecture courante
+
+Le PV est disponible et a été consulté. Les repères à retenir sont la mise sous scellés après 14 h 19 le 15 octobre, l’ouverture du PC à 10 h 41 et celle des téléphones à 11 h 30 le 28 ; 10 h 22 est l’arrivée de la cliente et 19 h 20 la clôture, sans heure individuelle de restitution. Les mentions d’indisponibilité et bornes déclaratives des sections datées ci-dessous décrivent leurs campagnes historiques. Le pair record Apple ancien est désormais rattaché à **TP-03 par l’UDID exact** ; ses métadonnées de 2022/2023 ne datent aucune connexion d’octobre 2024. Les 27 PDF Mini de L16B sont communs aux sauvegardes **TP-02 et TP-03**, sans origine physique exclusive. Les contrôles Windows antérieurs ne sont pas présentés comme rejoués. Voir la [relecture transversale](../investigations/20261110-telephones/compte-rendu.md), qui distingue les nouveaux contrôles des reprises documentaires. Les empreintes historiques des rapports restent attachées à leurs versions datées.
+
+
+## Complément du 9 novembre 2026 — concordance des copies avec le PV
+
+La confrontation aux trois extraits photographiés du PV et une nouvelle lecture de L16B sur SIFT corroborent les catégories et formats annoncés : deux PST, trente EML, Takeout, PDF Sage et export SHINE. Les cinq fichiers ciblés sont inchangés et leurs SHA-256 concordent avec les résultats antérieurs. Les trente membres de SHINE et les deux membres de Takeout se décompressent sans erreur ; SHINE contient 94 mouvements et 27 justificatifs PDF, avec une période OFX du 01/01/2023 au 15/10/2024. Les mêmes 1 558 chemins/tailles sont retrouvés ; trois créations FN sont de 2026, dont `CADA.pdf.pdf`, et ne doivent pas être attribuées automatiquement à l'administration en 2024. La concordance documentaire et technique est substantielle, mais l'identité exhaustive avec la saisie finale exige le CD d'inventaire et les fichiers définitivement saisis. [Méthode, tableau de contrôle et limites](../investigations/20261109-controle-l16b-photos/compte-rendu.md).
+
+## Actualisation du 19 octobre 2026 — retour de la cliente
+
+Le [nouveau mail](../docs/mail-2.txt) décrit l’ouverture d’OP-01 à **10 h 41**, le regroupement `C:\L16B`, les exports Outlook/Takeout et une clé Kingston. Lors de ce complément du 19 octobre, le PV n’était pas disponible : ces éléments étaient alors déclaratifs. La lecture du PV du 8 novembre confirme depuis **10 h 22 pour l’arrivée de la cliente et 10 h 41 pour l’ouverture du PC** ; ces repères ne sont pas interchangeables.
+
+La nouvelle lecture de **359 EVTX / 275 577 enregistrements** ne trouve aucun événement du 16 au 27 octobre, ni après **19 h 20 le 28**. Les 285 rendus XML non valides ont été repris pour leurs dates/identifiants, sans perte silencieuse de couverture. Les **dix mises à la corbeille** sont revérifiées sur l’image ; métadonnées `$I` et contenus `$R` concordent avec les extractions précédentes. Le [détail complet des dix chemins et heures](../investigations/20261019-retour-cliente/compte-rendu.md#4-dix-mises-à-la-corbeille--contre-lecture-directe) répond à la nouvelle demande.
+
+Le parcours complet de la MFT retrouve **cinq fichiers iCloud** avec des dates SI/FN du 28 après 19 h 20, mais un changement MFT SI en octobre 2026 : **ces dates ne prouvent pas une utilisation locale du PC le soir du 28**. Un fichier d’appairage Apple est présent, création SI en juillet 2022, création FN/modification en décembre 2023 ; son UDID est différent de TP-02. Aucun branchement/extraction d’octobre 2024 n’en est déduit.
+
+La différence entre la clé unique décrite et les **trois identifiants Kingston** reste non résolue. Le nom Takeout correspond à **12:41:05 Paris**, son manifeste à **12:42:33** : ces 88 secondes ne calibrent pas l’horloge Windows. ASUS_Z01RD reste non datable sur le PC ; le réveil programmé du 16 reste non corroboré. Résultats, pièces et limites : [complément du 19 octobre](../investigations/20261019-retour-cliente/compte-rendu.md). Les sections historiques suivantes décrivent leurs campagnes à leur date.
+
+
+**Complément du 17/10/2026 :** l’identité MAC d’OP-01 avec l’entrée Freebox `LAPTOP-RMCOB2VU` est vérifiée. Le registre complet, les journaux de stockage et les 5 875 messages des deux PST ont fait l’objet de recherches complémentaires. Deux invitations Rescue de 2022 se présentent comme de la téléassistance Sage ; elles ne prouvent pas une session établie. Le contrôle complet de `GDRIVE (2).zip` révèle une erreur de décompression, distincte des trois erreurs de `GDRIVE.zip`. Les résultats et le décodage NTFS sont détaillés dans le [compte rendu transversal](../investigations/20261017-recroisements/compte-rendu.md). Les limites « non réalisé » des anciennes campagnes doivent être lues à leur date. Le PV était indisponible lors du complément du 17 octobre ; sa lecture du 8 novembre et les contrôles du 9 novembre sont désormais intégrés ci-dessous.
+
 **Affaire :** SADEDINE-2026
 
 **Cliente :** Mme Malika Sadedine — DMM Conseils
@@ -10,9 +38,9 @@
 
 **Acquisition :** 12 octobre 2026
 
-**Investigations décrites :** état des travaux au 13 octobre 2026
+**Investigations décrites :** campagnes initiales des 13–14 octobre 2026, complétées jusqu’au 10 novembre ; relecture documentaire du 12 novembre 2026
 
-**Périmètre de cette version :** allumage et utilisation pendant la rétention du 15 au 28 octobre 2024 ; recherche de traces d’effacement ; exports/copies de données et indices de compromission antérieure à la perquisition, avec examen des traces encore conservées depuis 2021/2022.
+**Périmètre de cette version :** allumage et utilisation pendant la rétention du 15 au 28 octobre 2024 ; recherche de traces d’effacement ; exports/copies de données et indices de compromission antérieure à la perquisition, avec examen des traces encore conservées depuis 2021/2022 ; récupération et examen des contenus supprimés et de la corbeille.
 
 ## 1. Synthèse des conclusions
 
@@ -20,9 +48,9 @@
 
 | Question | Réponse étayée par les investigations | Limite à conserver |
 |---|---|---|
-| Le PC a-t-il fonctionné le jour de la saisie ? | Oui : reprise le **15/10 à 10 h 43**, activité Windows et session locale, puis hibernation vers **10 h 53**. | L’heure de fermeture effective des scellés n’est pas connue ; cette activité ne peut pas être positionnée précisément par rapport au scellement. |
-| A-t-il repris Windows entre cette hibernation et l’ouverture déclarée ? | **Aucune trace corroborée retrouvée** entre le **15/10 à 10:53:09** et le **28/10 à 10:22**, selon les horodatages conservés. | Les journaux ne couvrent pas toutes les opérations possibles, notamment hors ligne ou sur un autre système. |
-| A-t-il été utilisé le 28 avant restitution ? | Oui : reprise à **10:41:56**, puis indices forts d’interaction dans Outlook, corroborés par des exécutions et des traces de session. | Cette activité est postérieure à l’ouverture déclarée à 10:22 ; elle ne démontre pas une utilisation antérieure à l’ouverture. |
+| Le PC a-t-il fonctionné le jour de la saisie ? | Oui : reprise le **15/10 à 10 h 43**, activité Windows et session locale, puis hibernation vers **10 h 53**. | Ces dates précèdent la mise sous scellés consignée après 14:19 ; leur position par rapport au début de la perquisition et l’auteur restent inconnus. |
+| A-t-il repris Windows entre cette hibernation et l’ouverture du PC ? | **Aucune activité Windows intermédiaire corroborée** ; la prochaine reprise conservée est le **28/10 à 10:41:56**, à la minute de l’ouverture consignée à 10:41. | Les décomptes de l’intervalle central historique s’arrêtent à 10:22 (§ 2.3) ; ils ne sont pas recalculés. Les journaux ne couvrent pas toutes les opérations possibles, notamment hors ligne ou sur un autre système. |
+| A-t-il été utilisé le 28 avant restitution ? | Oui : reprise à **10:41:56**, puis indices forts d’interaction dans Outlook, corroborés par des exécutions et des traces de session. | Cette activité est postérieure à l’ouverture du PC consignée au PV à 10:41 ; elle ne démontre pas une utilisation antérieure à l’ouverture. |
 | La date du 16/10 à 05:51:07 prouve-t-elle un réveil ? | Non : c’est une **échéance programmée sur secteur** présente dans un événement enregistré le 15. | Le moment où ce minuteur a été défini ou armé et son demandeur ne sont pas établis. |
 | Des journaux ont-ils été effacés ou falsifiés pour masquer une activité ? | **Aucun indice probant établi** : pas d’événement explicite d’effacement retrouvé, CRC et séquences conservées cohérents. | Des anomalies d’en-tête existent ; des traces anciennes peuvent être perdues. Une réécriture cohérente ne peut pas être exclue. |
 | Existe-t-il des dates de fichiers pendant la rétention ? | Oui : **3 461 entrées MFT** portent au moins une date dans l’intervalle central, dans iCloud Photos ou `L16B`. | Ces dates ne constituent pas une preuve autonome d’allumage : divergences SI/FN, copies possibles et changements de métadonnées ultérieurs. |
@@ -30,9 +58,11 @@
 
 **Seconde étape — données et compromission (§ 10) :** `L16B` contient 4,64 Go de fichiers, dont des archives d’export ; 1 555 créations FN sont datées du 28/10/2024. Trois supports Kingston apparaissent dans les anciens journaux ce jour-là. Une détection de PDF de phishing le 15/05/2024, suivie d’une quarantaine déclarée réussie, et un raccourci Rescue daté du 06/10/2023 constituent des pistes antérieures. **Aucune compromission réussie ni exfiltration antérieure à la perquisition n’est établie.**
 
-Cette analyse informatique privée ne détermine ni l’intégrité matérielle des scellés, ni le caractère autorisé d’une intervention. La confrontation avec les procès-verbaux reste nécessaire.
+**Fichiers supprimés (§ 11) :** l’inventaire MFT complet et 4 299 tentatives de récupération révèlent **dix mises à la corbeille le 28/10/2024**. Un ZIP de téléchargement de **94 fichiers**, dont un document de gestion de mots de passe, est récupéré : **93 fichiers sont identiques par SHA-256 au dossier `L16B/GDRIVE`**. Un PDF de deux factures a été créé puis supprimé ce jour-là. Ces constats renforcent les opérations après ouverture déclarée ; ils ne démontrent ni transfert vers un tiers ni compromission antérieure.
 
-## 2. Sources, équipement et chronologie déclarée
+Cette analyse informatique privée ne détermine ni l’intégrité matérielle des scellés, ni le caractère autorisé d’une intervention. Le PV a été consulté ; la confrontation avec l’inventaire final, les fichiers saisis et les documents de conservation reste nécessaire.
+
+## 2. Sources, équipement et chronologie de procédure
 
 ### 2.1. Sources documentaires et techniques
 
@@ -40,7 +70,7 @@ Les demandes et dates communiquées par la cliente figurent dans [le mail](../do
 
 Les constats techniques proviennent de l’image disque OP-01, du fichier d’acquisition **`OP01.info`**, des journaux Windows, des tâches planifiées, des ruches de registre et des métadonnées du système de fichiers. Les commandes, scripts, sorties brutes et empreintes sont conservés sous [recherche-OP-01](recherche-OP-01/). Le présent document expose les résultats et leur méthode ; ces pièces permettent d’en contrôler le détail.
 
-Les procès-verbaux de saisie, fermeture et ouverture des scellés n’ont pas été vérifiés dans cette analyse. Les horaires du mail sont donc des **déclarations de la cliente**, distinctes des horodatages techniques.
+Le [PV de saisie](../docs/PV%20DE%20SAISIE.pdf) a été consulté lors du [complément du 8 novembre](../investigations/20261108-analyse-pv/compte-rendu.md). Ses horaires sont distingués des déclarations de la cliente et des horodatages techniques. Il ne fournit pas une heure individuelle précise de fermeture ou de restitution de chaque appareil.
 
 ### 2.2. Identification d’OP-01
 
@@ -56,22 +86,25 @@ Les procès-verbaux de saisie, fermeture et ouverture des scellés n’ont pas �
 
 Les logiciels mentionnés à la remise comprennent Sage 50, Ciel Paye Evolution, Adobe Reader/Acrobat, Word, Excel, Outlook, OpenOffice 4.1.11, Microsoft Teams, Oodrive Sign, PaperCut MF Client et Norton 360. Leur présence ne prouve pas leur utilisation pendant la période étudiée.
 
-### 2.3. Dates déclarées et fenêtres d’examen
+### 2.3. Dates documentaires et déclarées, fenêtres d’examen
 
-| Événement déclaré | Date et heure de Paris | Précision |
+| Événement | Date et heure de Paris | Provenance et précision |
 |---|---|---|
 | Perquisition fiscale | **15/10/2024** | Date corrigée par la cliente ; ne pas retenir le 14. |
 | Perte d’accès au PC | Dès le début de la perquisition | Heure exacte et heure de fermeture des scellés non fournies. |
 | Perte d’accès aux téléphones | 15/10 vers 13:30 | Déclaration concernant les téléphones, pas une borne de saisie du PC. |
-| Début de l’ouverture des scellés | **28/10 vers 10:22** | Dans les locaux de l’administration ; horaire approximatif. |
-| Récupération des appareils | **28/10 vers 19:20** | Horaire approximatif. |
+| Mise sous scellés | **15/10 après 14:19** | PV ; heure de fermeture individuelle inconnue. |
+| Arrivée de la cliente | **28/10 à 10:22** | PV ; ce n’est pas l’ouverture du PC. |
+| Ouverture du scellé du PC | **28/10 à 10:41** | PV ; reprise Windows à 10:41:56. |
+| Ouverture des scellés des téléphones | **28/10 à 11:30** | PV ; repère distinct de celui d’OP-01. |
+| Clôture et récupération des appareils | **28/10 à 19:20** | Clôture au PV et récupération approximative déclarée ; restitution sans heure individuelle au PV. |
 
-Deux fenêtres sont utilisées :
+Les deux fenêtres historiques de calcul sont conservées pour rendre les décomptes reproductibles :
 
 - **Fenêtre élargie :** du 14 au 29 octobre inclus en date civile française, soit **`[2024-10-13T22:00:00Z ; 2024-10-29T23:00:00Z[`**. Elle inclut les jours adjacents pour les recoupements.
-- **Intervalle technique central :** **`[2024-10-15T08:53:09Z ; 2024-10-28T09:22:00Z[`**, soit le 15 à 10:53:09 jusqu’au 28 à 10:22 à Paris. Son début est situé après la dernière séquence Windows connue du 15 ; **ce n’est pas une heure de scellement démontrée**.
+- **Intervalle technique central :** **`[2024-10-15T08:53:09Z ; 2024-10-28T09:22:00Z[`**, soit le 15 à 10:53:09 jusqu’au 28 à 10:22 à Paris. Son début suit la dernière séquence Windows connue du 15 ; **ce n’est pas une heure de scellement démontrée**. Sa fin de 10:22 provenait du mail initial ; le PV situe l’ouverture du PC à **10:41**. Les 3 461 entrées MFT et les autres décomptes associés restent ceux de cette fenêtre historique, sans recalcul ni extension implicite jusqu’à 10:41.
 
-Les événements du 15 avant l’hibernation et ceux du 28 après l’ouverture déclarée sont analysés séparément. Toutes les dates UTC originales sont conservées. Les conversions utilisent **`Europe/Paris`**, UTC+2 le 15 et UTC+1 le 28, après le changement d’heure du 27 octobre. L’horloge du PC n’a pas été calibrée contre une source externe.
+Les événements du 15 avant l’hibernation et ceux du 28 après l’ouverture documentée à 10:41 sont analysés séparément. Toutes les dates UTC originales sont conservées. Les conversions utilisent **`Europe/Paris`**, UTC+2 le 15 et UTC+1 le 28, après le changement d’heure du 27 octobre. L’horloge du PC n’a pas été calibrée contre une source externe.
 
 ## 3. Interventions de 2026 et acquisition de l’image
 
@@ -84,12 +117,10 @@ Les notes d’intervention mentionnent une remise le **07/10/2026 à 16:15**, av
 | 08/10/2026 | 12:36 | Allumage par le prestataire, récupération de la clé BitLocker et vérification du système ; commandes `Get-CimInstance Win32_Processor` et `msinfo32`. |
 | 12/10/2026 | Vers 08:55 | Redémarrage et désactivation du Secure Boot dans le BIOS. |
 | 12/10/2026 | Vers 08:57 | Démarrage sur un SSD externe contenant Caine/Linux. |
-| 12/10/2026 | Vers 09:15 | Acquisition avec Guymager, support source annoncé en lecture seule, sauvegarde sur une partition externe de 1 To notée « FORENSOC ». |
+| 12/10/2026 | Vers 09:15 | Acquisition avec Guymager, support source annoncé en lecture seule, sauvegarde sur une partition externe de 1 To notée « FORENSIC ». |
 | 12/10/2026 | Vers 11:20 | Notes indiquant réactivation du Secure Boot, redémarrage et remise en service de BitLocker ; détail des opérations sur les protecteurs non consigné. |
 
 Ces horaires de notes ne sont pas tous associés à un fuseau explicitement confirmé. **Ils ne sont pas entièrement raccordés aux horaires automatiques de Guymager** exposés ci-dessous. Ils sont conservés sans réécriture supposée de la chronologie. Les interventions sous Windows de 2026 peuvent produire des traces récentes et contribuer à la rotation des journaux ; elles ne sont pas attribuées aux faits de 2024.
-
-La clé BitLocker n’est pas reproduite dans ce rapport. Elle doit être disponible séparément pour reproduire le déchiffrement. Elle figurait dans une version antérieure du document ; son retrait de la version courante n’efface pas les anciennes copies.
 
 La capture de contrôle du système est conservée : [OP-01-2.jpg](images/OP-01-2.jpg).
 
@@ -262,7 +293,7 @@ Les heures Paris ci-dessous sont celles obtenues par conversion des horodatages 
 | **28/10 15:38:14** | 28/10 14:38:14 | OAlerts / 300, **284** | Nouvelle demande de confirmation de suppression définitive. |
 | **28/10 17:37:47** | 28/10 16:37:47 | TerminalServices-LocalSessionManager/Operational / 23 et 24, **1808, 1812** | Fin puis déconnexion de la session locale 2 sous `fintm`. |
 
-La reprise du 28 est enregistrée **environ vingt minutes après l’ouverture déclarée** des scellés. Les alertes Outlook constituent des indices forts d’interaction : elles ne prouvent pas la réponse donnée, la réussite des suppressions ou le contenu effectivement modifié.
+La reprise du 28 à **10:41:56** concorde à la minute avec **l’ouverture du PC consignée au PV à 10:41**. L’écart d’environ vingt minutes concerne l’arrivée de la cliente à 10:22, pas l’ouverture. Les alertes Outlook constituent des indices forts d’interaction : elles ne prouvent pas la réponse donnée, la réussite des suppressions ou le contenu effectivement modifié.
 
 ### 5.3. Sessions, horloge et exécutions : précisions
 
@@ -707,14 +738,14 @@ Une comparaison de contenu a porté sur **40 documents**, sélectionnés de faç
 
 La lecture des catalogues ZIP et le calcul des empreintes, sans exécution ni extraction générale du contenu, sont conservés dans [archives.json](recherche-OP-01/extractions-acces/archives.json).
 
-- Deux fichiers de messagerie **PST**, de **2 143 626 240** et **1 156 260 864 octets**, sont présents dans `MESSAGERIES`. Leur extension et leur taille suggèrent des conteneurs Outlook ; leurs messages et leur structure interne n’ont pas été validés dans cette campagne. Leur présence ne démontre pas un export Outlook exécuté localement à l’heure de copie.
+- Deux fichiers de messagerie **PST**, de **2 143 626 240** et **1 156 260 864 octets**, sont présents dans `MESSAGERIES`. Leur extension et leur taille suggèrent des conteneurs Outlook ; la campagne initiale n’en validait pas les messages. Le complément du 14 octobre a depuis décodé les deux PST et reparsé **5 875 messages**, avec les limites décrites dans le [compte rendu ciblé](recherche-OP-01/operations-28oct/compte-rendu.md). Leur présence ne démontre pas un export Outlook exécuté localement à l’heure de copie.
 - `takeout-20241028T114105Z-001.zip`, **41 828 775 octets**, contient réellement `Takeout/Mail/L16.mbox` (**66 015 300 octets décompressés**) et `Takeout/archive_browser.html` (**197 837 octets**). Les dates DOS des deux membres sont au **01/01/1980**, donc non utilisables comme date effective d’export.
 - Le [manifeste HTML Takeout](recherche-OP-01/extractions-acces/takeout-archive_browser.html) nomme le compte `rct93300@gmail.com`, décrit un export Google Mail et affiche **28/10/2024, 04:42:33 UTC−7**, soit **11:42:33 UTC / 12:42:33 Paris**. Son SHA-256 est `a81d350c7c347e78a18756ed5bda77faee3d2b1eb278c40050408a096cda4f83`. Des textes génériques « aucune donnée trouvée / 0 fichier exporté » figurent également dans le HTML ; le catalogue ZIP apporte la preuve distincte de la présence du MBOX. Ce manifeste n’authentifie pas cryptographiquement le producteur et n’identifie pas l’auteur de la demande d’export.
 - `GDRIVE.zip` et `GDRIVE (2).zip` mesurent chacun **61 847 396 octets** et contiennent **97 membres**, dont **93 fichiers**. Leurs SHA-256 diffèrent, mais les catalogues comparés (noms, tailles, CRC, tailles comprimées, dates et indicateur de chiffrement) sont identiques. Cela ne suffit pas à affirmer l’identité de tous leurs octets ni celle des données décompressées sans comparaison complémentaire. Les dates des membres sont surtout au 28 ; une entrée au 29 et une au 01/01/1980 illustrent les limites des dates internes ZIP, sans fuseau explicite.
 - Le ZIP SHINE, dont le nom désigne une période comptable **01/2023–15/10/2024**, contient **30 membres**, notamment CSV et OFX. Les dates de ses membres sont au **28/10/2024**. La date de fin comptable dans le nom ne représente pas la date technique d’export.
 - Trois ZIP de conversations WhatsApp figurent dans `TELEPHONES/IPHONE13`. Les dates de leurs médias remontent notamment à 2020–2023 ; elles ne datent pas leur importation sur OP-01. Aucun identifiant physique de téléphone n’a été attribué à ces archives dans cette campagne.
 
-**Des données sous forme d’exports sont donc présentes dans l’image. Le manifeste Takeout apporte un indice explicite d’export le 28 octobre. Aucune preuve de transmission sortante de ces ensembles, de leur destination finale ou d’exfiltration clandestine antérieure au 15 n’est établie.** Un export cloud peut avoir été créé ailleurs puis copié sur OP-01.
+**Des données sous forme d’exports sont présentes dans l’image. Le manifeste Takeout apporte un indice explicite d’export le 28 octobre. Les seuls artefacts techniques de cette campagne ne rattachent pas les fichiers à un support de destination précis ; le PV consulté depuis décrit toutefois une copie finale sur une clé de l’administration (§ 10.10). Aucune exfiltration clandestine antérieure au 15 n’est établie.** Un export cloud peut avoir été créé ailleurs puis copié sur OP-01.
 
 ### 10.4. Supports externes et limites d’une attribution de copie
 
@@ -823,27 +854,214 @@ L’extraction du manifeste Takeout dans `archives.py` utilise `zipfile.ZipFile(
 
 ### 10.9. Conclusions de cette étape et suites ciblées
 
-**Les constats positifs sont :** des exports et un regroupement de données autour du 28 octobre 2024 ; trois identifiants de supports Kingston présents ce jour-là ; une détection de PDF de phishing en mai 2024 et une piste de téléassistance Rescue en octobre 2023. **Aucun transfert sortant de fichiers déterminés, aucune compromission réussie et aucune exfiltration antérieure au 15 octobre ne sont démontrés dans les artefacts examinés.**
+**Les constats positifs sont :** des exports et un regroupement de données autour du 28 octobre 2024 ; trois identifiants de supports Kingston présents ce jour-là ; une détection de PDF de phishing en mai 2024 et une piste de téléassistance Rescue en octobre 2023. **Les seuls artefacts de cette étape ne permettent pas de rattacher un fichier déterminé à un support externe précis. Le PV décrit depuis une copie par l’administration, dont la composition exacte reste à vérifier (§ 10.10). Aucune compromission réussie ni exfiltration antérieure au 15 octobre n’est démontrée.**
 
-Les suites utiles sont de rapprocher les identifiants Kingston et l’ensemble `L16B` des opérations détaillées au procès-verbal du 28 ; rechercher, si les supports ou leurs images existent, les copies correspondantes et leurs empreintes ; obtenir les historiques de sécurité/connexions/export des comptes Google, Microsoft, Dropbox et Apple encore disponibles ; confronter la piste Rescue à une éventuelle intervention d’assistance le 06/10/2023 et rechercher ses traces complémentaires ; rechercher le message d’origine du PDF de mai 2024 et son contenu dans les archives de messagerie disponibles, sans supposer que les PST/MBOX présents le contiennent. La Freebox pourrait aider à identifier `192.168.1.139` si un historique de bail de mars 2024 subsiste, ce qui n’est pas établi ici.
+Les suites utiles sont de rapprocher les identifiants Kingston et l’ensemble `L16B` des opérations détaillées au procès-verbal du 28 ; rechercher, si les supports ou leurs images existent, les copies correspondantes et leurs empreintes ; obtenir les historiques de sécurité/connexions/export des comptes Google, Microsoft, Dropbox et Apple encore disponibles ; confronter la piste Rescue à une éventuelle intervention d’assistance le 06/10/2023 et rechercher ses traces complémentaires ; rechercher le message d’origine du PDF de mai 2024 et son contenu dans les archives de messagerie disponibles, sans supposer que les PST/MBOX présents le contiennent. Le recoupement Freebox du 17 octobre associe désormais `192.168.1.139` à un candidat, `LAPTOP-205Q5H9C`, sans certifier cette attribution au moment exact des deux tentatives SMB échouées du 26 mars 2024.
 
-Restent non réalisés : audit exhaustif de chaque binaire/signature et mécanisme de persistance, validation et recherche interne des PST/MBOX, audit des caches de synchronisation cloud, contenu des autres équipements ou des supports Kingston, analyse détaillée des Jump Lists et de ShimCache, récupération `$LogFile`, mémoire historique et carving intégral de l’espace non alloué. Aucun scan antivirus exécuté sur le système acquis ni restauration de quarantaine n’a été effectué.
+Depuis cette étape initiale, les deux PST et les Jump Lists ont été décodés, des caches OneDrive ont été examinés et `$LogFile` a été extrait ; les compléments sont décrits au § 12 et dans le [compte rendu ciblé](recherche-OP-01/operations-28oct/compte-rendu.md). La recherche élargie des correspondances a également examiné des messages et documents (§ 10.10). Restent non réalisés : audit exhaustif des binaires/signatures et de la persistance, audit exhaustif des caches cloud, examen des supports Kingston, analyse détaillée de ShimCache, décodage des transactions `$LogFile`, reconstruction de mémoire historique et carving intégral de l’espace non alloué. Aucun scan antivirus exécuté sur le système acquis ni restauration de quarantaine n’a été effectué.
 
-## 11. Conclusion et suites utiles
+### 10.10. Compléments intégrés — PV, copie finale et correspondances
+
+**Le PV décrit une extraction, un filtrage puis une copie sur une clé USB de l’administration.** Il précise que `L16B` est laissé sur le PC à titre informatif et ne remplace pas les fichiers saisis. La présence locale de données regroupées est donc distincte de leur inclusion dans la copie définitivement emportée. Le CD d’inventaire est indisponible dans cette mission ; le contenu final et ses empreintes n’ont pas été contrôlés. Voir la [lecture du PV](../investigations/20261108-analyse-pv/compte-rendu.md) et le [contrôle des catégories de L16B](../investigations/20261109-controle-l16b-photos/compte-rendu.md).
+
+Des **correspondances avec des avocats sont effectivement présentes dans L16B**, notamment Negrevergne, Pascoët, Khallouki, Fakiroff / Roosevelt Avocats, Wahrheit et Guillou. Le [tableau des messages](../investigations/20261109-correspondances-elargies/tableau-messages.md), le [tableau des documents](../investigations/20261109-correspondances-elargies/tableau-documents.md) et la [fiche du PDF Bourarach](../investigations/20261109-clarification-correspondances/fiche-bourarach.md) individualisent les pièces. **Ni leur emport définitif, ni leur lecture par les agents, ni leur utilisation fiscale ne sont établis.** La qualification juridique et le lien avocat-client doivent être examinés pour chaque échange ; une mention d’avocat ne suffit pas. La recherche élargie est bornée et l’OCR a été arrêté après 4 238 résultats sur 5 365 contenus, avec 1 127 sans résultat terminé dans cette passe.
+
+Les **27 PDF du dossier Mini représentent 20 contenus distincts, tous retrouvés à l’identique dans TP-02 et TP-03**. Ce résultat ne départage pas le téléphone source ni les scellés n° 3/n° 4, ne prouve pas un transfert direct et ne décrit pas la copie finale saisie. Le fichier d’appairage Apple ancien d’OP-01 est désormais rattaché à **TP-03 par l’UDID exact** ; ses dates SI de juillet 2022 et FN/modification de décembre 2023 ne datent aucun branchement d’octobre 2024. Voir la [relecture transversale du 10 novembre](../investigations/20261110-telephones/compte-rendu.md).
+
+Les **trois identifiants Kingston** du 28 restent à rapprocher de la clé unique décrite au PV. Trois identifiants ne prouvent ni trois copies ni trois destinataires. Le volume `140B8328` référencé par les Jump Lists n’est pas rattaché à un de ces identifiants matériels. L’inventaire final, les fichiers saisis, les rejets et les journaux d’outils restent les pièces nécessaires pour résoudre ces questions. Cette intégration reprend les compléments existants, sans nouveau contrôle de l’image.
+
+## 11. Fichiers supprimés : récupération et examen des contenus
+
+### 11.1. Objet, préservation et distinction des sources
+
+Cette troisième campagne du **13/10/2026** recherche, dans les suppressions encore représentées sur OP-01, des éléments concernant **les exports/copies de données, les accès distants et une compromission antérieure au 15/10/2024**. Elle examine également les suppressions du 28 octobre pour documenter les opérations avant restitution. Les dates déclarées de la procédure restent celles du § 2.3, sans vérification des procès-verbaux.
+
+Les opérations ont été effectuées sur la même image, montée **NTFS en lecture seule**, avec Dislocker **`-r`** et loop **RO=1** ; voir [mount-check.txt](recherche-OP-01/fichiers-supprimes/mount-check.txt). Les données récupérées ont été écrites dans un répertoire de travail SIFT persistant, puis rapatriées sous [fichiers-supprimes](recherche-OP-01/fichiers-supprimes/). Aucun programme, script, lien de connexion ou action PDF issu de l’image n’a été exécuté ou activé.
+
+Deux situations doivent être distinguées :
+
+- **Corbeille Windows :** un fichier retiré de son dossier peut subsister comme objet `$R…`, avec une métadonnée `$I…` contenant son ancien chemin, sa taille et la date de mise à la corbeille. L’objet peut rester **alloué dans NTFS** : il n’est pas nécessairement effacé physiquement.
+- **Entrée MFT non allouée :** un ancien nom et des dates peuvent subsister après libération du fichier. Ses clusters peuvent avoir été réutilisés. Les octets lus à ces emplacements ne sont donc pas automatiquement le contenu du fichier portant cet ancien nom.
+
+Les dates **SI/FN ne sont pas des dates explicites de suppression**. En revanche, le champ de suppression d’un `$I` validé apporte cette information spécifique, sous réserve de l’horloge et de l’intégrité de l’artefact. La présence d’un objet dans la corbeille n’identifie pas la personne qui l’a supprimé.
+
+### 11.2. Inventaire complet de la MFT et sélection des récupérations
+
+Le scan binaire de **toute la MFT** a contrôlé les signatures FILE, les fixups, les attributs SI/FN/DATA et les références de parents. Il retrouve **1 046 016 emplacements**, **1 045 790 signatures FILE**, dont **380 384 entrées non allouées**. Cette dernière valeur inclut dossiers et enregistrements d’extension : elle ne représente pas 380 384 documents supprimés récupérables.
+
+La MFT de **1 071 120 384 octets** conserve le SHA-256 déjà observé : `4b56e70ac59c0b8cdbf25a429e633991960862f4fa827368d83ef824c18f673b`. Le nouvel inventaire [mft-deleted-records.jsonl](recherche-OP-01/fichiers-supprimes/mft-deleted-records.jsonl) conserve toutes les entrées non allouées et 182 candidats alloués de noms `$I/$R`, ensuite filtrés par leur chemin. Les chemins dont le parent manque, n’est plus alloué ou porte une séquence différente sont marqués **incertains** ; ils ne sont pas utilisés comme preuve de l’ancien emplacement.
+
+Le triage identifie **2 116 fichiers à chemin utilisateur fiable**, principalement dans AppData, et **246 984 entrées de fichiers à parent incertain** dans l’ensemble retenu. Des chemins apparents `L16B` accompagnés de noms de ressources Windows sont précisément des cas de parents réutilisés/incertains ; ils ne démontrent pas une suppression de ces ressources dans `L16B`.
+
+La sélection explicite dans [recovery-selection.jsonl](recherche-OP-01/fichiers-supprimes/recovery-selection.jsonl) comporte **4 299 candidats** : **4 122 entrées non allouées** et **177 objets de corbeille alloués**. Elle privilégie les chemins utilisateur, la corbeille, les noms d’outils/export et les documents, archives, courriels, raccourcis, scripts et traces d’exécution à parent perdu. Elle ne consiste pas à extraire les centaines de milliers de composants Windows obsolètes. Les critères et catégories sont dans [triage-summary.json](recherche-OP-01/fichiers-supprimes/triage-summary.json) et `scripts/triage.py` ; cette sélection n’est pas un audit exhaustif de tout fichier malveillant inconnu ou renommé.
+
+Un recoupement **Sleuth Kit `fls -rdpl -z UTC`** a produit **60 912 lignes**. La récursivité globale a été interrompue volontairement après environ 20 minutes, alors qu’elle poursuivait les répertoires Windows, car le scan MFT complet était terminé. [deleted-fls-partial.txt](recherche-OP-01/fichiers-supprimes/deleted-fls-partial.txt) est donc **partiel**, pas un second inventaire complet ; un premier instantané est également conservé. La documentation [fls](https://www.sleuthkit.org/sleuthkit/man/fls.html) précise en outre que la récursivité ne suit pas les dossiers supprimés. C’est la lecture MFT qui couvre ici les entrées de dossiers perdus.
+
+### 11.3. Récupérations, réutilisation des clusters et limites
+
+La lecture des flux avec `pyfsntfs` a été confrontée au **`$Bitmap` NTFS, entrée MFT 6**, dont la taille et l’empreinte sont consignées dans [bitmap-source.json](recherche-OP-01/fichiers-supprimes/bitmap-source.json). Le cluster fait **4 096 octets**. Les extents sont conservés par candidat. Pour les extents ordinaires, les bits du bitmap indiquent leur allocation actuelle ; les segments compressés/sparse ou de statut non interprété restent signalés comme indéterminés.
+
+| Résultat de la première récupération | Nombre / volume | Interprétation |
+|---|---|---|
+| Candidats traités | **4 299** | Ensemble sélectionné, pas totalité des anciens contenus du SSD. |
+| Lectures logiques complètes | **4 253** | Une lecture complète ne garantit ni le format ni l’identité du contenu historique. |
+| Lecture limitée à un préfixe | **1** | Ancien `WhatsApp.dll` de 98 938 880 octets : préfixe de 64 Mio. Ne constitue pas une validation complète de ce binaire. |
+| Échecs | **45** | 34 décompressions NTFS, 10 absences de flux DATA par défaut et une erreur de récupération d’entrée. |
+| Octets lus | **675 734 678** | Lecture par candidats ; peut inclure des données réutilisées ou recouvrantes. |
+| Contenus non vides/non entièrement nuls conservés | **3 261** | Sous `recovered/<index-MFT>.bin`, avec SHA-256. |
+| Lectures de taille nulle | **978** | Ne doivent pas être qualifiées de contenus « écrasés par des zéros ». |
+| Lectures non vides entièrement nulles | **15** | Aucun contenu utile obtenu ; cause non établie. |
+| Candidats non alloués dont tous les clusters ordinaires évalués sont actuellement alloués | **1 753** | Indice majeur de réutilisation possible ; interdit l’association automatique ancien nom ↔ octets. |
+
+Les seuils de lecture étaient **64 Mio par candidat** et **12 Gio au total**. Le seuil total n’a pas été atteint ; seule la bibliothèque WhatsApp dépasse le seuil individuel. [recovery-results.jsonl](recherche-OP-01/fichiers-supprimes/recovery-results.jsonl) décrit chaque tentative ; [summary.json](recherche-OP-01/fichiers-supprimes/summary.json) consolide les résultats. Les **3 261 empreintes** des contenus rapatriés ont été comparées aux empreintes de lecture SIFT, sans divergence, dans [recovered-hash-verification.json](recherche-OP-01/fichiers-supprimes/recovered-hash-verification.json).
+
+Un second moteur, **`icat -r`**, a été essayé sur les **34 échecs de décompression**, qui concernent des anciens journaux/cache OneDrive. Il donne **33 retours en erreur** et **un retour réussi de 1 842 octets**. Sept tentatives produisent des octets non nuls, dont des fragments malgré un retour en erreur ; ils sont conservés séparément dans `tsk-retry`. Le flux de 1 842 octets ne porte pas l’en-tête ODL attendu, et sa réussite technique ne valide pas l’ancien journal. Un fragment de 458 752 octets commence bien par **`EBFGONED`**, signature du format [ODL](https://github.com/ydkhatri/OneDrive/blob/main/odl.py), mais provient du candidat nommé `FileCoAuth-2026-09-03…`, avec décompression incomplète. **Aucun historique de transferts OneDrive de 2024 n’a été reconstitué par cette tentative.** Les erreurs, tailles, préfixes et empreintes sont dans [tsk-compressed-retry.json](recherche-OP-01/fichiers-supprimes/tsk-compressed-retry.json). Les fragments n’ont pas été soumis à une reconstitution complète d’ODL ni à une récupération de ses tables d’obfuscation.
+
+### 11.4. Corbeille : dix suppressions explicites le 28 octobre
+
+La corbeille du SID de `fintm` conserve **89 fichiers `$I` de version 2**, datés de 2020 à 2026. Le décodage utilise la taille originale à l’offset 8, le FILETIME de suppression à l’offset 16 et le chemin UTF-16LE après l’en-tête de version 2. Les noms `$I/$R` de même suffixe et même parent ont été rapprochés : **88 objets `$R`** retrouvés, dont **48 avec contenu non nul conservé**. Pour les autres, l’existence d’une métadonnée ne vaut pas récupération du document. Les liens complets sont dans [recycle-pairs.json](recherche-OP-01/fichiers-supprimes/recycle-pairs.json).
+
+**Dix mises à la corbeille sont datées du 28/10/2024**, toutes après l’ouverture du PC consignée à 10:41 et avant la restitution déclarée à 19:20. Les heures suivantes sont converties en **Europe/Paris, UTC+1** :
+
+| Heure à Paris | Ancien chemin / objet | Preuve de contenu et index MFT utiles |
+|---|---|---|
+| **11:02:53.315 et .322** | Deux raccourcis `C:\L16B\LOCAL\Téléchargements - Raccourci (2).lnk` et sa copie | `$I` **175042/175043**, `$R` **158281/158263** : deux LNK de 758 octets, mêmes SHA-256, ciblant `C:\Users\fintm\Downloads`. |
+| **14:51:12.749** | `C:\Users\fintm\Downloads\drive-download-20241028T134819Z-001\GESTION DES MOTS DE PASSES 2.docx` | `$I` **83278**, `$R` **77995** : **10 562 octets**, DOCX récupéré et CRC des membres validés. |
+| **14:52:25.983** | `C:\Users\fintm\Downloads\drive-download-20241028T134819Z-001.zip` | `$I` **70741**, `$R` **76808** : **61 904 642 octets**, ZIP récupéré et CRC de tous les membres validés. |
+| **15:12:28.791–15:12:29.137** | Cinq fichiers du dossier Ciel `Compléments utilisateur\Etats` : `BANMAT`, `My Little`, `Prestations de service~YARA`, `RCT`, `RCT Shine` | `$I` **171691, 172103, 172272, 172368, 172384** ; `$R` **276584, 356721, 356724, 356722, 276662**. Contenus récupérés, tailles de 36 552 à 59 661 octets correspondant aux métadonnées. |
+| **15:24:17.961** | `C:\L16B\test.pdf` | `$I` **25963**, `$R` **166334** : PDF de **499 320 octets**, deux pages lisibles. |
+
+Les cinq fichiers Ciel ont un préfixe binaire commun et des noms internes compatibles avec les noms d’états ; ils ne sont pas du XML lisible. **Leur format propriétaire n’a pas été interprété intégralement** ; la suppression de ces éléments du dossier `Etats` ne doit pas être décrite comme destruction d’une base comptable. Leurs structures de préfixe sont conservées dans `ciel-structure.json`.
+
+Ces constats établissent **des retraits de fichiers de leurs chemins d’origine vers la corbeille**. Ils ne prouvent ni un effacement sécurisé, ni un motif, ni une action de la cliente ou de l’administration. Les objets restent en partie récupérables près de deux ans plus tard. Le SID rattache cette corbeille à un profil Windows, pas à l’identité physique de l’opérateur.
+
+### 11.5. Archive Drive et document de gestion des mots de passe
+
+Le ZIP supprimé contient **96 membres, dont 94 fichiers**, totalisant **68 224 820 octets décompressés**. Il porte un nom caractéristique d’une archive de téléchargement Drive ; ce nom et la présence de documents ne constituent pas à eux seuls une authentification par Google ni l’historique serveur du compte.
+
+La comparaison de contenu de [drive-content-comparison.json](recherche-OP-01/fichiers-supprimes/drive-content-comparison.json) apporte un recoupement précis :
+
+- **Les 93 fichiers actuels de `L16B/GDRIVE` sont identiques par SHA-256 à 93 fichiers de ce ZIP supprimé.** Ce résultat dépasse la seule comparaison de noms, tailles ou CRC.
+- Le **94e fichier est `GESTION DES MOTS DE PASSES 2.docx`**, absent du dossier `L16B/GDRIVE` actuel. Son contenu est **identique par SHA-256** au DOCX récupéré séparément dans la corbeille, index **77995**.
+- Le DOCX récupéré est un conteneur Word valide contenant **quatre tableaux, 34 lignes et 86 cellules non vides**, avec des rubriques de mots de passe et d’identifiants. Des cellules sont renseignées en clair dans le XML. **Aucune valeur de connexion n’est reproduite dans ce rapport ni dans les résumés de structure** ; voir [credential-document-structure-redacted.json](recherche-OP-01/fichiers-supprimes/credential-document-structure-redacted.json). Cela ne prouve ni la validité actuelle des identifiants, ni leur utilisation.
+
+Empreintes des deux contenus déterminants :
+
+```text
+ZIP supprimé (MFT 76808)
+03a593ea508aefdb1bf8b0280dce839a1b7f8098a7560a3f8c345a61d7a5bc44
+DOCX supprimé (MFT 77995)
+38fcaf9ab9a8aac80038dd0bd75a45e884339208def6d083d6134473becf2b0a
+```
+
+**Interprétation :** un ensemble de 94 fichiers comportant ce document a été présent localement sous un chemin de téléchargement ; le document développé a été mis à la corbeille à 14:51, puis le ZIP complet à 14:52. Le dossier `L16B/GDRIVE` conserve 93 contenus identiques, avec les créations FN du 28 documentées au § 10.2. Cela **renforce fortement le constat de copie/regroupement local de données le 28 octobre**, y compris d’un document contenant des champs de connexion. L’identité de la personne, la machine ayant demandé l’archive au service cloud et une transmission ultérieure ne sont pas établies. L’absence du document dans l’ensemble actuel ne prouve pas à elle seule un retrait volontaire pour un motif déterminé.
+
+**Précision sur les ZIP GDRIVE actuels :** les FN de `L16B/GDRIVE.zip` et `GDRIVE (2).zip` sont datés du **27/07/2026 à 17:01:33 et 17:07:00 UTC**, soit **19:01:33 et 19:07:00 Paris**. Leur création n’est donc pas datée du 28/10/2024 ; les dates des membres d’archive peuvent être préservées. Le § 10.3 comparait leurs catalogues, pas l’intégrité de tous les contenus.
+
+Le contrôle supplémentaire de **`GDRIVE.zip`** restitue **90 fichiers identiques** au ZIP supprimé, mais échoue pour trois PDF bancaires (`Bred relevé n°15 du 21 juillet 2021.PDF`, `Bred relevé n°16 du 5 août 2021.PDF`, `BRED AVRIL 2021 3.PDF`) : deux erreurs d’en-tête local et une erreur de décompression. Leurs contreparties dans le **dossier** `GDRIVE` sont toutefois intactes et identiques au ZIP supprimé. Ces erreurs sont des défauts effectifs du ZIP actuel ; **leur cause et leur intention ne sont pas établies**. Elles ne prouvent pas une falsification de l’acquisition. `GDRIVE (2).zip` n’a pas fait l’objet du même contrôle complet de décompression dans cette campagne.
+
+### 11.6. PDF test : impression de factures puis suppression
+
+`C:\L16B\test.pdf`, récupéré à l’index **166334**, contient **deux factures Sage/ALMU**, dont la facture **FA0339**, datées dans leur contenu de mars 2022. Ces dates commerciales ne datent pas la génération du PDF.
+
+Les métadonnées lues par `pdfinfo` indiquent **Producer = Microsoft: Print To PDF**, **Title = Facture - FA0339**, **CreationDate et ModDate = 28/10/2024 14:19:42 UTC**, soit **15:19:42 Paris**. La mise à la corbeille est à **15:24:17.961 Paris**, environ 4 min 36 s après cette création déclarée. Le PDF ne comporte pas de JavaScript signalé par `pdfinfo`. Les métadonnées internes peuvent être modifiées et ne certifient pas l’identité de l’auteur.
+
+Son SHA-256 est `f2cb8dbbbb28fe11eaddc59d31045152218516a1585109bd529a075e48dd8201`. La lecture textuelle est conservée dans `pdf-text/166334.txt` ; les métadonnées sont dans [static-checks.json](recherche-OP-01/fichiers-supprimes/static-checks.json). Ce constat est cohérent avec des opérations d’impression/export comptable le 28, avant le fichier `L16B/SAGE/sage.pdf` dont le FN de création est à 15:27:24. **Il ne suffit pas à identifier le processus qui a alimenté l’imprimante PDF ni à authentifier les transactions des factures.**
+
+**Contrôle du 9 novembre :** le texte des deux factures de `test.pdf` est retrouvé aux **pages 254 et 255 de `L16B/SAGE/sage.pdf`**, après suppression des espaces du texte extrait. Leur contenu textuel subsiste donc dans L16B ; ce n’est ni une identité binaire des PDF, ni une explication du motif de suppression. Voir le [contrôle L16B](../investigations/20261109-controle-l16b-photos/compte-rendu.md). Aucune destruction malveillante de ces factures n’est établie.
+
+### 11.7. Recherche d’intrusion dans les autres contenus récupérés
+
+Les **3 261 contenus non nuls** ont reçu une qualification de signature et, selon leur format, des contrôles de structure et des recherches ciblées. [content-analysis.jsonl](recherche-OP-01/fichiers-supprimes/content-analysis.jsonl) conserve les résultats ; **huit erreurs de parsing** restent consignées. Un nom de fichier historique n’a pas été considéré comme identité certaine du contenu lorsque les clusters sont réutilisés.
+
+- **PDF :** 58 préfixes PDF identifiés ; `pdftotext`, `pdfinfo`, inspection des domaines de liens et PDFiD ont été utilisés. `pdfinfo` réussit sur **48**, échoue sur dix ; du texte non vide est extrait pour **44**. Aucun JavaScript n’est signalé dans les PDF lisibles. PDFiD ne retrouve ni `/JS`, ni `/JavaScript`, ni `/Launch` dans les 58 candidats ; un `/OpenAction` est présent dans un fragment avec destination d’affichage **`/XYZ`**, sans script identifié. Ce fragment est sous un ancien nom de cache Mail et ses 25 clusters sont actuellement alloués : il n’est pas attribué au fichier historique. Le seul domaine de lien restitué est `www.infogreffe.fr`. Les analyses statiques ne constituent pas une garantie d’innocuité : objets comprimés, structure tronquée et données réutilisées limitent la portée.
+- **Exécutables PE :** 72 signatures MZ/PE examinées avec recherche ASCII/UTF-16LE de noms d’outils et métadonnées `pefile`. Trois correspondances ont été revues : `radmin` dans **`ContainerAdministrator`**, `ldsd` dans **`NldsDuplicate/NldsDeprecated`**, `screenconnect` dans **`RdpViewer_FullScreenConnectionBarText`**. Ce sont des correspondances de sous-chaînes, pas une identification de Radmin, LdSD ou ScreenConnect. [pe-hit-review.json](recherche-OP-01/fichiers-supprimes/pe-hit-review.json) conserve cette qualification. Les versions déclarées et la présence d’une zone de signature ne valent pas validation cryptographique ; aucun audit exhaustif de code malveillant n’a été effectué.
+- **Raccourcis :** 17 signatures LNK décodées, dont les deux raccourcis de téléchargement supprimés le 28. Les autres cibles n’apportent pas de faisceau nouveau d’extraction clandestine ou de téléassistance réussie.
+- **Prefetch :** huit signatures candidates, **trois décodages réussis**, cinq échecs. Les trois décrivent `SPEECHUXWIZ.EXE`, `MSEDGE.EXE` avec des dates de 2026, et `SVCHOST.EXE` avec des dates des **4, 7 et 10 octobre 2024**. Ils ont été lus sous d’anciens noms de caches utilisateurs dont les clusters sont en partie ou entièrement réutilisés ; ils ne datent pas la suppression des caches ni un accès distant. Aucun nom d’outil ciblé ou exécution dans l’intervalle central sous scellés n’est identifié par ces décodages.
+- **Archives :** cinq signatures PK candidates ; trois archives effectivement lisibles et contrôlées sans erreur CRC, dont le ZIP Drive et le DOCX de corbeille. Un autre DOCX est sous un ancien nom TokenBroker : le contenu peut être reconstitué, mais il n’est pas attribué au cache historique. Deux candidats sont des préfixes PK sans archive complète lisible.
+- **SQLite :** deux signatures ; une base malformée, sous un ancien cache Edge à clusters réutilisés, et une base `Configuration/configuration.sqlite` de parent perdu, dont `quick_check` est **ok**. Cette dernière contient **1 784 lignes de configuration** et des URL de services MSN/Microsoft et partenaires ; elle ne fournit pas un historique d’authentification ou de transferts. Le résumé sans paramètres URL est dans `sqlite-configuration-summary.json`.
+- **Textes et scripts :** les formats texte/scripts retenus ont été recherchés pour les noms d’outils, Takeout/transfer et le fragment du PDF de phishing. Aucun contenu nouveau permettant d’établir une compromission antérieure ou un transfert sortant identifié n’a été obtenu. Les formats binaires non reconnus n’ont pas tous été décodés.
+
+**Le PDF `AppleID-977451TLU5I[58342].pdf` détecté en mai 2024 n’a pas été retrouvé en tant que document récupérable, ni une nouvelle preuve de session LogMeIn Rescue établie.** Les constats de phishing et de raccourci de 2023 restent ceux du § 10 ; aucune chaîne complète détection → prise de contrôle → vol de données n’a été reconstruite.
+
+### 11.8. Incidence sur la période sous scellés et conclusion de cette campagne
+
+Parmi les **380 384 entrées MFT non allouées**, aucune date SI/FN conservée ne se situe dans l’intervalle technique central **15/10/2024 08:53:09 UTC–28/10/2024 09:22 UTC** ; le résultat est dans [unallocated-gap-metadata.json](recherche-OP-01/fichiers-supprimes/unallocated-gap-metadata.json). Aucune des **89 mises à la corbeille** conservées n’est datée dans cet intervalle. Cela ne constitue pas un registre exhaustif des suppressions : une entrée réutilisée ou une suppression hors corbeille peut ne plus être représentée, et les dates SI/FN ne datent pas directement l’effacement.
+
+**Les résultats utiles sont positifs pour les opérations du 28 : dix suppressions datées, récupération d’une archive de 94 fichiers et de son document de gestion de mots de passe, correspondance exacte de 93 fichiers avec `L16B/GDRIVE`, et PDF de factures créé puis supprimé ce jour-là.** Ils renforcent le constat de copies/regroupement et de manipulation après l’ouverture déclarée, avant restitution. **Ils n’établissent pas une utilisation Windows avant l’ouverture déclarée, une compromission réussie antérieure au 15 octobre ou une exfiltration vers un destinataire déterminé.**
+
+Une mise à la corbeille n’est pas un effacement sécurisé : le document de gestion de mots de passe subsiste dans **deux contenus récupérables**, le DOCX séparé et le ZIP supprimé. Sa présence ne démontre pas qu’une personne a consulté ou utilisé les identifiants. Les contenus sensibles récupérés et leurs textes dérivés ont été conservés avec des permissions locales restrictives ; les valeurs ne figurent pas dans les résumés ni dans ce rapport.
+
+Les suites factuelles sont de confronter ces opérations précises aux procès-verbaux du 28, rechercher les ensembles correspondants sur les trois supports Kingston ou leurs acquisitions si disponibles, et obtenir les historiques de téléchargement/export et d’accès des comptes cloud encore conservés. Pour une récupération supplémentaire, un carving ciblé des zones non allouées ou des segments non décodés pourrait retrouver des fragments sans nom ; **aucun carving intégral du SSD, audit exhaustif de malware ou décodage complet de tous les formats propriétaires n’est présenté comme réalisé**.
+
+### 11.9. Reproduction et contrôles essentiels
+
+Le répertoire de travail SIFT est **`/home/sansforensics/analysis/OP-01/fichiers-supprimes-20261013`**. Les scripts lisent `/mnt/windows/$MFT` et `/mnt/dislocker/dislocker-file`. Après vérification du montage du § 4, les lecteurs du fichier Dislocker nécessitent ici **`sudo -n`**. Les dépendances effectivement utilisées sont `pyfsntfs`, `pylnk`, `pyscca`, `pefile`, Sleuth Kit, `pdftotext`, `pdfinfo` et `/usr/local/bin/pdfid.py`. Choisir un autre `root/out` pour une nouvelle passe afin de préserver le jeu existant.
+
+```bash
+scp -F /home/chris/.ssh/config \
+  ordinateur/recherche-OP-01/fichiers-supprimes/scripts/{inventory_mft,triage,recover,analyze_recovered,compare_drive,static_checks,review_pe_hits,retry_compressed}.py \
+  sift:/home/sansforensics/
+
+ssh -F /home/chris/.ssh/config sift \
+  'sudo -n python3 /home/sansforensics/inventory_mft.py && python3 /home/sansforensics/triage.py'
+ssh -F /home/chris/.ssh/config sift \
+  'sudo -n python3 /home/sansforensics/recover.py && sudo -n python3 /home/sansforensics/analyze_recovered.py'
+ssh -F /home/chris/.ssh/config sift \
+  'sudo -n python3 /home/sansforensics/compare_drive.py && sudo -n python3 /home/sansforensics/static_checks.py && sudo -n python3 /home/sansforensics/review_pe_hits.py && sudo -n python3 /home/sansforensics/retry_compressed.py'
+```
+
+`inventory_mft.py` procède en flux afin de limiter la mémoire de la VM. Il conserve un intermédiaire sans chemins, puis résout les parents ; l’intermédiaire n’est pas nécessaire à la lecture du rapport. `recover.py` conserve les extents, le contrôle bitmap et les empreintes ; `analyze_recovered.py` compare les suffixes de corbeille et valide les ZIP avec `testzip()`. `compare_drive.py` traite les erreurs par membre afin de ne pas confondre un catalogue ZIP lisible avec une décompression réussie. `static_checks.py` conserve les seuls domaines des URL PDF dans sa sortie de liens, sans visiter les destinations.
+
+Contrôle indépendant des contenus déterminants avec `icat`, **sans afficher leurs données** :
+
+```bash
+ssh -F /home/chris/.ssh/config sift \
+  'set -o pipefail; sudo -n icat /mnt/dislocker/dislocker-file 76808 | sha256sum'
+ssh -F /home/chris/.ssh/config sift \
+  'set -o pipefail; sudo -n icat /mnt/dislocker/dislocker-file 77995 | sha256sum'
+ssh -F /home/chris/.ssh/config sift \
+  'set -o pipefail; sudo -n icat /mnt/dislocker/dislocker-file 166334 | sha256sum'
+```
+
+Les empreintes des **trois contenus** et de la métadonnée `$I` **83278** sont identiques entre `icat` et `pyfsntfs` ; elles sont consignées dans [icat-crosscheck.txt](recherche-OP-01/fichiers-supprimes/icat-crosscheck.txt). Le flag `-r` de `icat` est utilisé pour les tentatives sur entrées non allouées ; les trois contenus principaux ci-dessus sont encore alloués dans la corbeille.
+
+Rapatrier les sorties terminées vers un **nouveau répertoire de reproduction**, puis exécuter les synthèses locales :
+
+```bash
+mkdir -p /tmp/OP01-reproduction-supprimes
+set -o pipefail
+ssh -F /home/chris/.ssh/config sift \
+  'sudo -n tar -C /home/sansforensics/analysis/OP-01/fichiers-supprimes-20261013 -cf - --exclude=mft-selection-unresolved.jsonl .' \
+  | tar -xf - -C /tmp/OP01-reproduction-supprimes
+
+python3 ordinateur/recherche-OP-01/fichiers-supprimes/scripts/local_reviews.py
+python3 ordinateur/recherche-OP-01/fichiers-supprimes/scripts/summarize_deleted.py
+```
+
+Les deux derniers scripts travaillent par défaut sur les pièces du projet ; pour une reproduction isolée, les copier dans le nouveau répertoire avec la même structure `scripts/`, ou adapter `root`. Ils produisent les résumés sans valeurs de connexion, les compteurs et la comparaison de toutes les empreintes récupérées. Les lectures SQLite utilisent des copies temporaires ou une ouverture immutable en lecture seule.
+
+Les journaux `inventory.log`, `inventory-stream.log`, `recover.log`, `content-analysis.log`, `static-checks.log` et `compressed-retry.log` distinguent les passes. Le premier inventaire a été remplacé par une version en flux avant achèvement, pour maîtriser la mémoire ; c’est `inventory-stream.log` qui décrit le scan complet. L’option JSON initialement tentée avec le PDFiD installé n’était pas utilisable ; la passe finale lit ses compteurs texte et les **58 appels terminent avec code 0**. La passe globale `fls` est explicitement partielle, comme indiqué au § 11.2. Ces limitations de travail ne sont pas présentées comme des preuves d’altération de l’image.
+
+## 12. Conclusion et suites utiles
+
+**Complément du 14/10/2026 — opérations du 28 octobre :** le [compte rendu ciblé](recherche-OP-01/operations-28oct/compte-rendu.md) documente le décodage des Jump Lists et des deux PST. Les Jump Lists référencent un volume **KINGSTON `140B8328`** et `E:\saddedine\Archive_saddedine.zip`, `Inventaire_saddedine.csv` et `Rejets_saddedine.txt`, avec dernières interactions vers **17:26–17:27 Paris** le 28. Le rattachement de ce numéro de volume à l’un des trois identifiants matériels Kingston et le contenu de l’archive restent à vérifier. Un diagnostic Outlook conservé dans le PST 93300 décrit une synchronisation **15:04:42–15:12:02**, **937 éléments ajoutés**, puis une erreur de ressources ; sa machine d’origine n’est pas établie. Les deux PST ont livré **5 875 messages reparsés**, sans preuve de transmission sortante de L16B dans le périmètre recherché. Le triage des bases OneDrive et l’extraction de `$LogFile` sont documentés ; le décodage des transactions NTFS et le carving intégral restent non réalisés. Ces travaux complètent les limites indiquées dans les campagnes précédentes. **Le PV, consulté depuis le 8 novembre, décrit bien une copie par l’administration ; l’identification des supports et la comparaison avec les fichiers définitivement saisis restent à effectuer (§ 10.10).**
 
 **OP-01 a repris Windows le 15 octobre vers 10 h 43 puis le 28 vers 10 h 41. Son utilisation le 28 après ouverture déclarée et avant restitution est étayée par plusieurs familles d’artefacts. Aucune activité Windows corroborée n’a été établie dans l’intervalle central entre l’hibernation et l’ouverture déclarée.**
 
 Le champ du 16 octobre est une échéance programmée, pas une preuve de réveil. Sa programmation n’est pas datée. Les contrôles n’établissent pas d’effacement ou de falsification destiné à masquer une activité, malgré des anomalies d’en-tête documentées. Les dates de fichiers pendant la rétention existent et ont été examinées ; leur provenance et leurs changements ultérieurs empêchent de les transformer en preuve d’allumage local à ces dates.
 
+L’examen des suppressions (§ 11) ajoute **dix opérations datées du 28**, une archive de téléchargement et un document de gestion de mots de passe récupérés, un rapprochement exact de 93 fichiers avec `L16B/GDRIVE`, ainsi qu’un PDF de factures créé puis supprimé. Aucune trace de suppression conservée ne place ces opérations avant l’ouverture déclarée. Les horodatages des ZIP GDRIVE actuels sont de juillet 2026 et ne doivent pas être confondus avec la chronologie du téléchargement de 2024.
+
 La conclusion ne permet pas d’exclure : réécriture cohérente des journaux/CRC/compteurs, horloge erronée, activité non journalisée, démarrage externe, lecture hors ligne du SSD, traces définitivement écrasées ou opérations ne laissant pas les artefacts recherchés. Security et USN ne couvrent plus 2024 ; l’acquisition intervient près de deux ans après les faits. Les dates et compteurs ne constituent pas des signatures inviolables.
 
-Pour consolider le rapprochement factuel, obtenir les procès-verbaux précisant **début de perquisition, fermeture des scellés, ouverture, opérations réalisées le 28 et restitution**. Clarifier également les divergences des notes de remise et des horaires d’acquisition de 2026, et la provenance des ensembles iCloud/L16B.
+Pour consolider le rapprochement factuel, compléter le PV déjà consulté par **l’inventaire final, les fichiers saisis, les empreintes, les rejets, les journaux d’outils et les documents de conservation des scellés**. Les heures individuelles de fermeture et de restitution restent inconnues. Clarifier également les divergences des notes de remise et des horaires d’acquisition de 2026, et la provenance des ensembles iCloud/L16B.
 
-La seconde étape (§ 10) établit la présence de données exportées et un regroupement daté principalement du 28 octobre, ainsi que des installations de supports Kingston ce jour-là. Elle documente une détection de PDF de phishing en mai 2024 et une piste de téléassistance Rescue en octobre 2023, sans établir de compromission réussie ni d’exfiltration antérieure à la perquisition. Les recherches non réalisées et les suites ciblées figurent au § 10.9. Aucun cliché VSS illisible n’a été restauré.
+La seconde étape (§ 10) établit la présence de données exportées et un regroupement daté principalement du 28 octobre, ainsi que des installations de supports Kingston ce jour-là. Elle documente une détection de PDF de phishing en mai 2024 et une piste de téléassistance Rescue en octobre 2023, sans établir de compromission réussie ni d’exfiltration antérieure à la perquisition. Les compléments intégrés au § 10.10 confirment des correspondances d’avocats dans L16B ; leur inclusion dans la copie finale décrite au PV reste à vérifier. Les PDF communs aux deux Mini n’identifient pas un téléphone source exclusif. Les recherches non réalisées et les suites ciblées figurent aux §§ 10.9 et 11.8. Aucun cliché VSS illisible n’a été restauré.
 
 Les résultats décrits sont conservés localement dans le projet ; la conservation cloud pour la durée contractuelle et la copie sur le disque neuf fourni par la cliente ne sont pas réalisées par ces seules investigations et restent à organiser séparément.
 
-## 12. Références techniques
+## 13. Références techniques
 
 Les références ci-dessous étayent la méthode et les interprétations de format ; les constatations propres à OP-01 proviennent des pièces d’analyse citées dans le document.
 
@@ -860,3 +1078,8 @@ Les références ci-dessous étayent la méthode et les interprétations de form
 - [LogMeIn Rescue — connexion à une session par code](https://www.logmeinrescue.com/-/media/6a893c89d119416e9595cb8ad18514a2.pdf).
 - [libyal — schéma des tables SRUM et dates OLE](https://github.com/libyal/esedb-kb/blob/main/documentation/System%20Resource%20Usage%20Monitor%20%28SRUM%29.asciidoc).
 - [MemProcFS — Amcache et limite présence/exécution](https://github.com/ufrisk/MemProcFS/wiki/FS_Forensic_Amcache) : l’inventaire Amcache ne prouve pas à lui seul l’exécution.
+
+- [Sleuth Kit — fls](https://www.sleuthkit.org/sleuthkit/man/fls.html) et [icat](https://www.sleuthkit.org/sleuthkit/man/icat.html) : inventaire et récupération, limites de récursivité.
+- [RBCmd — artefacts de corbeille Windows](https://github.com/EricZimmerman/RBCmd) : référence de format ; RBCmd n’a pas été exécuté dans cette campagne.
+- [Didier Stevens — PDFiD](https://github.com/DidierStevens/DidierStevensSuite/blob/master/pdfid.py) : comptage statique des noms d’actions PDF, sans garantie d’innocuité.
+- [Yogesh Khatri — format des journaux OneDrive ODL](https://github.com/ydkhatri/OneDrive/blob/main/odl.py) : signature et structure de référence ; ce parseur externe n’a pas été exécuté.

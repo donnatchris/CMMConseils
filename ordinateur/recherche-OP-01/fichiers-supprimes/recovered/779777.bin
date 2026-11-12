@@ -1,0 +1,253 @@
+,
+  "ArchiveRequestDialog_Folder_SingleItem_Title": "1 Datei in {0} archivieren?",
+  "ArchiveRequestDialog_Folder_Body": "Hierdurch werden alle Elemente in diesem Ordner und allen Unterordnern archiviert. Bestimmte Dateitypen kÃ¶nnen nicht archiviert werden und werden ausgeschlossen.",
+  "ArchiveRequestDialog_ConfirmButton": "BestÃ¤tigen",
+  "ArchiveRequestDialog_CancelButton": "Abbrechen",
+  "Archive_Learn_More": "<a href=\"#\">Weitere Informationen zum M365-Archiv.</a>",
+  "UnarchiveRequestDialog_SingleFile_Title": "{0} reaktivieren?",
+  "UnarchiveRequestDialog_SingleFile_Body": "Dieses Element ist archiviert. Die erneute Aktivierung kann bis zu 24 Stunden dauern. Wir senden Ihnen eine E-Mail, wenn es bereit ist.",
+  "UnarchiveRequestDialog_SingleFile_Body_Instant": "Dieses Element ist archiviert. Es wurde vor weniger als 7 Tagen archiviert, sodass die Reaktivierung sofort erfolgt.",
+  "UnarchiveRequestDialog_MultipleFiles_Title": "{0} Dateien reaktivieren?",
+  "UnarchiveRequestDialog_MultipleFiles_Body": "Diese Elemente werden archiviert. Die erneute Aktivierung kann bis zu 24 Stunden dauern.",
+  "UnarchiveRequestDialog_MultipleFiles_Body_Instant": "Diese Elemente werden archiviert. Sie wurden vor weniger als 7 Tagen archiviert, sodass die Reaktivierung sofort erfolgt.",
+  "UnarchiveRequestDialog_Folder_Title": "{0} Dateien in {1} reaktivieren?",
+  "UnarchiveRequestDialog_Folder_SingleItem_Title": "1 Datei in {0} reaktivieren?",
+  "UnarchiveRequestDialog_Folder_Body": "Hierdurch werden alle archivierten Elemente in diesem Ordner und alle Unterordner reaktiviert. Die erneute Aktivierung kann bis zu 24 Stunden dauern. Wir senden Ihnen eine E-Mail, wenn sie bereit sind.",
+  "UnarchiveRequestDialog_Folder_Body_Instant": "Dadurch werden alle archivierten Elemente in diesem Ordner und allen Unterordnern reaktiviert. Sie wurden vor weniger als 7 Tagen archiviert, sodass die Reaktivierung sofort erfolgt.",
+  "UnarchiveRequestDialog_ConfirmButton": "Reaktivieren",
+  "UnarchiveRequestDialog_CancelButton": "Abbrechen",
+  "ArchiveRequestToast_Single_Success_Title": "Archivierte Datei",
+  "ArchiveRequestToast_Single_Success_Body": "{0} wurde erfolgreich archiviert.",
+  "ArchiveRequestToast_Multiple_Success_Title": "Archivierte Dateien",
+  "ArchiveRequestToast_Multiple_Success_Body": "{0} Dateien wurden erfolgreich archiviert.",
+  "ArchiveRequestToast_Error_Title": "Fehler bei Archivanforderung",
+  "ArchiveRequestToast_Single_NotFound_Body": "{0} konnte nicht archiviert werden, da es nicht gefunden wurde.",
+  "ArchiveRequestToast_Single_AlreadyArchived_Body": "{0} ist bereits archiviert und kann nicht erneut archiviert werden.",
+  "ArchiveRequestToast_Single_RecentlyUnarchived_Body": "{0} kann nicht archiviert werden, da sie kÃ¼rzlich reaktiviert wurde. Wiederholen Sie die Archivierung nach {1} Tagen.",
+  "ArchiveRequestToast_Single_RecentlyUnarchived_Body_Singular": "{0} kann nicht archiviert werden, da sie kÃ¼rzlich reaktiviert wurde. Wiederholen Sie die Archivierung nach 1 Tag.",
+  "ArchiveRequestToast_Single_GenericError_Body": "Unerwarteter Fehler beim Archivieren der {0}. Versuchen Sie es spÃ¤ter noch mal.",
+  "ArchiveRequestToast_Multiple_GenericError_Body": "Unerwarteter Fehler beim Archivieren {0} Dateien. Versuchen Sie es spÃ¤ter noch mal.",
+  "ArchiveRequestToast_Folder_Success_Title": "Dateien werden archiviert",
+  "ArchiveRequestToast_Folder_Success_Body": "Files in {0} werden archiviert. Dieser Vorgang kann einige Zeit in Anspruch nehmen.",
+  "ArchiveRequestToast_Folder_GenericError_Body": "Unerwarteter Fehler beim Archivieren von Dateien in {0}. Versuchen Sie es spÃ¤ter noch mal.",
+  "ArchiveRequestToast_EmptyFolder_Title": "Keine Dateien zum Archivieren vorhanden",
+  "ArchiveRequestToast_EmptyFolder_Body": "Es sind keine geeigneten Dateien zum Archivieren in {0} vorhanden.",
+  "UnarchiveRequestToast_Single_Success_Title": "Datei wird reaktiviert",
+  "UnarchiveRequestToast_Single_Success_Body": "{0} wird reaktiviert. Dieser Vorgang kann bis zu 24 Stunden dauern.",
+  "UnarchiveRequestToast_Single_Success_Body_Instant": "{0} wird reaktiviert.",
+  "UnarchiveRequestToast_Multiple_Success_Title": "Dateien werden reaktiviert",
+  "UnarchiveRequestToast_Multiple_Success_Body": "{0} Dateien werden reaktiviert. Dieser Vorgang kann bis zu 24 Stunden dauern.",
+  "UnarchiveRequestToast_Multiple_Success_Body_Instant": "{0} Dateien werden reaktiviert.",
+  "UnarchiveRequestToast_Error_Title": "Reaktivierungsanforderung fehlgeschlagen",
+  "UnarchiveRequestToast_Single_NotFound_Body": "{0} konnte nicht reaktiviert werden, da es nicht gefunden wurde.",
+  "UnarchiveRequestToast_Single_AlreadyUnarchived_Body": "{0} ist bereits reaktiviert und kann nicht erneut aktiviert werden.",
+  "UnarchiveRequestToast_Single_GenericError_Body": "Unerwarteter Fehler beim reaktivieren {0}. Versuchen Sie es spÃ¤ter noch mal.",
+  "UnarchiveRequestToast_Multiple_GenericError_Body": "Unerwarteter Fehler beim erneuten Aktivieren {0} Dateien. Versuchen Sie es spÃ¤ter noch mal.",
+  "UnarchiveRequestToast_Folder_Success_Title": "Dateien werden reaktiviert",
+  "UnarchiveRequestToast_Folder_Success_Body": "Dateien in {0} werden reaktiviert. Dieser Vorgang kann bis zu 24 Stunden dauern.",
+  "UnarchiveRequestToast_Folder_Success_Body_Instant": "Dateien in {0} werden reaktiviert.",
+  "UnarchiveRequestToast_Folder_GenericError_Body": "Unerwarteter Fehler beim reaktivieren von Dateien in {0}. Versuchen Sie es spÃ¤ter noch mal.",
+  "UnarchiveRequestToast_EmptyFolder_Title": "Keine Dateien zur Reaktivierung vorhanden",
+  "UnarchiveRequestToast_EmptyFolder_Body": "Es sind keine berechtigten Dateien vorhanden, die in {0} erneut aktiviert werden kÃ¶nnen.",
+  "accessibility_Collapsed": "Reduziert.",
+  "accessibility_Expanded": "Erweitert.",
+  "SyncNowToast_UpToDate_Title": "Datei bereits synchronisiert",
+  "SyncNowToast_UpToDate_Body": "{0} ist bereits auf dem neuesten Stand.",
+  "SyncNowToast_Upload_Title": "Hochladen",
+  "SyncNowToast_Upload_Body": "{0} mit der Cloud synchronisieren.",
+  "SyncNowToast_Download_Title": "Herunterladen",
+  "SyncNowToast_Download_Body": "Die aktuelle Version von {0} wird abgerufen.",
+  "SyncNowToast_Syncing_Title": "Synchronisierung",
+  "SyncNowToast_Syncing_Body": "Die aktuelle Version von {0} wird abgerufen.",
+  "SyncNowToast_Postponed_Title": "Synchronisierung verzÃ¶gert",
+  "SyncNowToast_Postponed_Body": "{0} kann im Moment nicht synchronisiert werden. Wir versuchen es in KÃ¼rze noch einmal.",
+  "PostponedReason_FileInUse_Title": "Datei wird verwendet",
+  "PostponedReason_FileInUse_Body": "{0} ist in einer anderen App geÃ¶ffnet. SchlieÃŸen Sie sie, und wir synchronisieren automatisch.",
+  "PostponedReason_FileLocked_Title": "Datei gesperrt",
+  "PostponedReason_FileLocked_Body": "{0} ist von einem anderen Prozess gesperrt. SchlieÃŸen Sie die App, mit der sie synchronisiert wird.",
+  "PostponedReason_FileAccessBlocked_Title": "Auf Datei kann nicht zugegriffen werden",
+  "PostponedReason_FileAccessBlocked_Body": "Wir kÃ¶nnen nicht auf {0} zugreifen. ÃœberprÃ¼fen Sie die Dateiberechtigungen, und versuchen Sie es noch mal.",
+  "PostponedReason_FileDeleteBlocked_Title": "Datei kann nicht gelÃ¶scht werden",
+  "PostponedReason_FileDeleteBlocked_Body": "{0} kann nicht entfernt werden. SchlieÃŸen Sie alle Apps, die es verwenden, und versuchen Sie es noch mal.",
+  "PostponedReason_FileMoveBlocked_Title": "Datei kann nicht verschoben werden",
+  "PostponedReason_FileMoveBlocked_Body": "{0} kann nicht verschoben werden. SchlieÃŸen Sie alle Apps, die es verwenden, und versuchen Sie es noch mal.",
+  "PostponedReason_FileConflict_Title": "Dateikonflikt",
+  "PostponedReason_FileConflict_Body": "Es ist bereits eine Datei vorhanden, {0} synchronisiert werden muss. Benennen Sie die in Konflikt stehende Datei um, oder verschieben Sie sie.",
+  "PostponedReason_FolderDeleteBlocked_Title": "Ordner kann nicht gelÃ¶scht werden",
+  "PostponedReason_FolderDeleteBlocked_Body": "{0} kann nicht synchronisiert werden, da ein Ordnervorgang blockiert ist. SchlieÃŸen Sie Apps, die Dateien in diesem Ordner verwenden, und versuchen Sie es noch mal.",
+  "PostponedReason_FolderMoveBlocked_Title": "Ordner kann nicht verschoben werden",
+  "PostponedReason_FolderMoveBlocked_Body": "{0} kann nicht synchronisiert werden, da ein Ordnervorgang blockiert ist. SchlieÃŸen Sie Apps, die Dateien in diesem Ordner verwenden, und versuchen Sie es noch mal.",
+  "SyncNowToast_Pending_Title": "Synchronisierung in Warteschlange",
+  "SyncNowToast_Pending_Body": "{0} wurde in die Warteschlange aufgenommen und wird bald synchronisiert.",
+  "SystrayPlaceholderFormat": "{0}\n{1}",
+  "systrayNewNotificationText": "Neue Benachrichtigung",
+  "searchFilterAll": "Alle",
+  "searchFilterDocuments": "Dokumente",
+  "searchFilterPhotos": "Fotos",
+  "searchFilterVideos": "Videos",
+  "searchFilterPresentations": "PrÃ¤sentationen",
+  "searchFilterSpreadsheets": "Tabellenkalkulationen",
+  "searchFilterMore": "Mehr",
+  "searchFilterScrollLeft": "Filter nach links scrollen",
+  "searchFilterScrollRight": "Filter nach rechts scrollen",
+  "searchFilesPlaceholder": "Dateien durchsuchen...",
+  "searchFilesPlaceholderWindows": "Versuchen Sie es mit â€Notizen aus der letzten Besprechungâ€œ",
+  "searchHistoryPlaceholderWindows": "Suchen",
+  "searchNoResults": "Keine Ergebnisse gefunden",
+  "searchNoResultsSubtitle": "Versuchen Sie, Ihre Suche anders zu formulieren oder andere SchlÃ¼sselwÃ¶rter zu verwenden",
+  "searchError": "Da hat etwas nicht geklappt. Versuchen Sie, noch mal zu suchen.",
+  "searchToggleTooltip": "Dateien durchsuchen",
+  "searchNoResultsForFilter": "Keine Ergebnisse fÃ¼r diesen Filter",
+  "showSearchBar": "Suchleiste anzeigen",
+  "hideSearchBar": "Suchleiste ausblenden",
+  "clearSearch": "Suche lÃ¶schen",
+  "closeSearch": "Suche schlieÃŸen",
+  "searchResultAvailableIn": "VerfÃ¼gbar in {0}",
+  "searchResultOpening": "Wird geÃ¶ffnetâ€¦",
+  "searchResultDownloading": "Wird heruntergeladenÂ â€¦",
+  "searchPhotoGridShowMore": "Mehr anzeigen",
+  "searchPhotoGridShowMoreAccessibility": "Alle Fotos und Videos anzeigen, {0} weitere.",
+  "searchVideoBadgeAccessibility": "Video",
+  "searchHistoryHeading": "Aktuelle Suchen",
+  "searchHistoryClear": "LÃ¶schen",
+  "searchHistoryRemove": "Letzte Suche entfernen",
+  "searchHistoryEmptyTitle": "Ihre OneDrive-Dateien durchsuchen",
+  "searchHistoryEmptySubtitle": "Suchen Sie Fotos, Dokumente und mehr, indem Sie oben in das Suchfeld eingeben.",
+  "searchHistoryEmptyTitleWindows": "Finden Sie es, indem Sie es beschreiben",
+  "searchHistoryEmptySubtitleWindows": "Suchen Sie nach Name, SchlÃ¼sselwort oder dem, was Sie suchen",
+  "searchOnboardingTooltip": "Neu: Durchsuchen Sie Ihre OneDrive-Dateien von hier aus.",
+  "searchFeedbackBannerText": "Gefallen Ihnen die Suchergebnisse? Teilen Sie Ihr Feedback mit.",
+  "searchFeedbackThumbsUpAccessibilityLabel": "Die Suchergebnisse gefallen mir",
+  "searchFeedbackThumbsDownAccessibilityLabel": "Die Suchergebnisse gefallen mir nicht",
+  "privacyMessageTitle": "Datenschutz-Update",
+  "exitDialogTitleODB": "MÃ¶chten Sie OneDrive wirklich schlieÃŸen?",
+  "exitDialogDescriptionODB": "Wenn Sie OneDrive schlieÃŸen, werden die Dateien in Ihrem OneDrive-Ordner nicht mit Ihren Onlinedateien synchronisiert.",
+  "exitDialogCloseButtonODB": "OneDrive schlieÃŸen",
+  "freChooseRootFolderAdminLockMessage": "Ihr IT-Admin hat diesen Ort ausgewÃ¤hlt.",
+  "versionHistoryTitle": "Versionsverlauf",
+  "versionHistoryModifiedBy": "GeÃ¤ndert von {0}",
+  "versionHistoryUnknownUser": "GeÃ¤ndert von einem unbekannten Benutzer",
+  "versionHistoryNew": "Neu",
+  "versionHistoryRestore": "Wiederherstellung",
+  "versionHistoryDownloadFile": "Herunterladen",
+  "versionHistoryDeleteConfirmTitle": "Version lÃ¶schen",
+  "versionHistoryDeleteConfirmBody": "MÃ¶chten Sie diese Version wirklich lÃ¶schen?",
+  "versionHistoryGenericError": "Die Versionen kÃ¶nnen nicht geladen werden",
+  "versionHistoryRestoreError": "Die Version kann nicht wiederhergestellt werden",
+  "versionHistoryDownloadFileError": "Version konnte nicht heruntergeladen werden",
+  "versionHistoryDeleteVersionError": "Die Version kann nicht gelÃ¶scht werden",
+  "versionHistoryRetryMessage": "Versuchen Sie es spÃ¤ter noch einmal.",
+  "versionHistoryFileInUseRetryMessage": "Die Datei wird verwendet. SchlieÃŸen Sie sie, und versuchen Sie es noch mal.",
+  "versionHistoryRestoreInfo": "Wenn die Datei geÃ¶ffnet ist, schlieÃŸen Sie sie, um Konflikte zu vermeiden.",
+  "timeAgo": "vor {0} {1}",
+  "unitSecond": "zweite",
+  "unitSeconds": "Sekunden",
+  "unitMinute": "Minute",
+  "unitMinutes": "Minuten",
+  "unitHour": "Stunde",
+  "unitHours": "Stunden",
+  "sizeWithUnit": "{0} {1}",
+  "dateTimeFormat": "{0}/{1}/{2} {3}:{4} {5}",
+  "ShareLoadingTitleMulti": "Diese Dateien kÃ¶nnen bald freigegeben werden.",
+  "ShareLoadingDescriptionTextMulti": "Ihre Dateien werden auf OneDrive hochgeladen. Lassen Sie das Fenster geÃ¶ffnet, und es wird nach Abschluss des Uploads zur Freigabe umgeleitet.",
+  "ShareLoadingCloseButton": "SchlieÃŸen",
+  "ShareLoadingSyncOnlyTitle": "Diese Dateien warten darauf, hochgeladen zu werden",
+  "ShareLoadingSyncOnlyDoneTitle": "{0} auf OneDrive hochgeladenen Dateien",
+  "ShareLoadingSyncOnlyDescription": "Sobald der Upload abgeschlossen ist, kÃ¶nnen Sie sie einzeln Ã¼ber OneDrive teilen. Sie kÃ¶nnen dieses Fenster jederzeit schlieÃŸen.",
+  "ShareLoadingSyncOnlyDoneDescription": "Sie kÃ¶nnen sie jetzt einzeln Ã¼ber OneDrive teilen.",
+  "ShareLoadingSyncOnlyDoneButton": "In OneDrive anzeigen",
+  "ShareLoadingSyncOnlyAggregateSyncingLabel": "Ihre Dateien werden mit OneDrive synchronisiert",
+  "ShareLoadingSyncOnlyAggregateDoneLabel": "Auf OneDrive gespeicherte Dateien",
+  "ShareLoadingSyncOnlyAggregateCount": "{0} von {1} Dateien synchronisiert",
+  "ShareLoadingAggregateProgressText": "{0} von {1} Dateien werden hochgeladen, {2} {3} von {4} {5}",
+  "ShareLoadingAggregateDoneProgressText": "Hochgeladene {0} von {1} Dateien, {2} {3} von {4} {5}",
+  "ShareLoadingPreparingText": "Dateien werden vorbereitet...",
+  "ShareLoadingPreparingFileText": "Datei wird vorbereitetÂ â€¦",
+  "ShareLoadingSaveACopyUnavailableTitle": "Das Speichern einer Kopie ist im Moment nicht verfÃ¼gbar.",
+  "ShareLoadingSaveACopyUnavailableDescription": "Sie kÃ¶nnen diese Datei stattdessen auf OneDrive verschieben und von dort aus freigeben.",
+  "ShareLoadingSaveACopyUnavailableButton": "Verstanden",
+  "ShareLoadingFailedSlowTitle": "Dies dauert lÃ¤nger als erwartet",
+  "ShareLoadingFailedSlowDescription": "Ihre Dateien werden weiterhin im Hintergrund auf OneDrive hochgeladen. Sie kÃ¶nnen sie Ã¼ber OneDrive freigeben, sobald sie fertig sind.",
+  "ShareLoadingFailedErrorTitle": "Ihre Dateien konnten nicht hochgeladen werden.",
+  "ShareLoadingFailedErrorDescription": "Da hat etwas nicht geklappt, und wir konnten Ihre Datei(en) nicht auf OneDrive hochladen. ÃœberprÃ¼fen Sie Ihre Verbindung, und versuchen Sie spÃ¤ter noch mal, sie freizugeben.",
+  "officeUpsellTitle": "Word, Excel, PowerPoint abrufen",
+  "officeUpsellBody": "Upgrade fÃ¼r Office-Desktop-Apps, die Sie offline verwenden kÃ¶nnen, mit mehr Bearbeitungs- und Formatierungstools.",
+  "officeUpsellCta": "Jetzt upgraden",
+  "copilotUpsellTitle": "Schneller einen ersten Entwurf erstellen",
+  "copilotUpsellBody": "Verwenden Sie Copilot, um Dokumente zusammenzufassen, Daten zu analysieren und Folien in Word, Excel und PowerPoint zu erstellen.",
+  "copilotUpsellCta": "Auf Copilot upgraden",
+  "ransomwareProtectionUpsellTitle": "Ransomware-Schutz erhalten",
+  "ransomwareProtectionUpsellBody": "Microsoft 365 Basic kann OneDrive Dateien nach Angriffen, BeschÃ¤digungen oder versehentlichem LÃ¶schen wiederherstellen.",
+  "ransomwareProtectionUpsellCta": "M365 Basic jetzt erhalten"
+}                                                                                                                                                                                                                                                                                                                                                                                                   et="0.785262" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint11_radial_568_5295" cx="0" cy="0" r="1" gradientTransform="matrix(-7.07601 6.09859 -8.38794 -5.14472 326.288 165.576)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4BFDE8"/>
+<stop offset="0.584724" stop-color="#4BFDE8" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint12_radial_568_5295" cx="0" cy="0" r="1" gradientTransform="matrix(3.93806 4.71867 -6.57752 8.02889 63.631 79.7303)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4894FE"/>
+<stop offset="0.695072" stop-color="#0934B3"/>
+</radialGradient>
+<radialGradient id="paint13_radial_568_5295" cx="0" cy="0" r="1" gradientTransform="matrix(-17.312 19.9692 -15.2582 -12.2967 80.1306 72.6537)" gradientUnits="userSpaceOnUse">
+<stop offset="0.165327" stop-color="#23C0FE"/>
+<stop offset="0.534" stop-color="#1C91FF"/>
+</radialGradient>
+<radialGradient id="paint14_radial_568_5295" cx="0" cy="0" r="1" gradientTransform="matrix(-4.11529 -3.45481 -7.69795 9.59779 67.6193 80.0799)" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="0.660528" stop-color="#ADC0FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint15_radial_568_5295" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(73.462 86.4306) rotate(-139.764) scale(6.05637 9.19793)">
+<stop stop-color="#033ACC"/>
+<stop offset="1" stop-color="#368EFF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint16_radial_568_5295" cx="0" cy="0" r="1" gradientTransform="matrix(5.28383 12.1935 -13.164 5.70313 67.2637 76.625)" gradientUnits="userSpaceOnUse">
+<stop offset="0.592618" stop-color="#3464E3" stop-opacity="0"/>
+<stop offset="1" stop-color="#033ACC"/>
+</radialGradient>
+<radialGradient id="paint17_radial_568_5295" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(79.9176 74.0339) rotate(135) scale(19.5479 30.6249)">
+<stop stop-color="#4BFDE8"/>
+<stop offset="0.543937" stop-color="#4BFDE8" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint18_linear_568_5295" x1="75.7082" y1="89.9909" x2="75.7082" y2="81.1509" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0086FF"/>
+<stop offset="0.49" stop-color="#00BBFF"/>
+</linearGradient>
+<radialGradient id="paint19_radial_568_5295" cx="0" cy="0" r="1" gradientTransform="matrix(8.23398 3.26545 -10.4333 13.9071 71.0888 82.0979)" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="0.785262" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint20_radial_568_5295" cx="0" cy="0" r="1" gradientTransform="matrix(-9.19881 7.92817 -10.9043 -6.68814 82.4745 80.3506)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4BFDE8"/>
+<stop offset="0.584724" stop-color="#4BFDE8" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ¯–    L                B E 1?³ a”§‹A   0  1SPS ¡¸51M –Ùl¿Ég™ 1    l   i P h  o n e  P 1 3 
+m *nK   "ˆ •   š‚  Ê {®Gázä”?(’( C)ªg“¤@ @  €å ¶Û¥Sš™ ùS>­ÏÖÙÃ²´õ?	dŠ
+%f @nE…r€A p€ l«€qƒˆWk€—Dd‹LÑ ‹p 6±´-€$€ * 4 0€’2€“
+x€3€2 4 ´, ƒ,•À€®¥Ğ5‘5 u'á_+iH ‰±.X[Ó‹z:u€d5ÓÍ   b a c€[  ªu€l€w€dB*c@m@rÀ  (5 .Àm@   ˆf /À. 6ÆiÁ8$—…éU­ àB¶$!Yšœ˜8A/$A/@BA‹u‰=áÇH I®?7Êá÷@„ò‹s ‡B’ÏX40¿nùí
+!ìì 7û9E ½@LLÅ™Š!p±
+Šs—ü ı/F“Wàˆ‹é
+ j
+ ‹£©á…f½F ‡^WÇ­s 89÷ÊİæÅ )
+OšhÑ”xìpÁ”†gÍ”IP ^ «·F¡€Œ/#86æ'ZF 	Fç M¸IO ¸`F+Ù—˜§LŠ==î SúL±;ªö0k_NÉ;–$ *é;"cD¤ã@0ê»§€º9B @êôÖÊKƒ€I|xÓ³3j80V‚aR0ñ %·ïG¥ñÀ`Œë¬ApAcaBz £pÊAz	 dK.PØFˆ€UALÅÊ ¢i€ÉâD~%1 #C¬8…ÅRH‡.j N Æ[0¡Ü¥DŸÀÔÀºyA‹ ;kkw=K šºò¨I*ŠàÑMÆ(                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.5 4H11.5C11.5 3.17157 10.8284 2.5 10 2.5C9.17157 2.5 8.5 3.17157 8.5 4ZM7.5 4C7.5 2.61929 8.61929 1.5 10 1.5C11.3807 1.5 12.5 2.61929 12.5 4H17.5C17.7761 4 18 4.22386 18 4.5C18 4.77614 17.7761 5 17.5 5H16.4456L15.2521 15.3439C15.0774 16.8576 13.7957 18 12.2719 18H7.72813C6.20431 18 4.92256 16.8576 4.7479 15.3439L3.55437 5H2.5C2.22386 5 2 4.77614 2 4.5C2 4.22386 2.22386 4 2.5 4H7.5ZM5.74131 15.2292C5.85775 16.2384 6.71225 17 7.72813 17H12.2719C13.2878 17 14.1422 16.2384 14.2587 15.2292L15.439 5H4.56101L5.74131 15.2292ZM8.5 7.5C8.77614 7.5 9 7.72386 9 8V14C9 14.2761 8.77614 14.5 8.5 14.5C8.22386 14.5 8 14.2761 8 14V8C8 7.72386 8.22386 7.5 8.5 7.5ZM12 8C12 7.72386 11.7761 7.5 11.5 7.5C11.2239 7.5 11 7.72386 11 8V14C11 14.2761 11.2239 14.5 11.5 14.5C11.7761 14.5 12 14.2761 12 14V8Z" fill="black" fill-opacity="0.8956"/>
+</svg>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ARI8    $
+      TOC8\   
+   SECUl   ALTP¨   DEPG  TPLTD  PKMPd  GLOBÜ  APPSø  RESP  RESA¸  JHN8
+  SECU<       (               x2g æbZ¨·µ„\?LÔÑ¿èíX…7Ó¨)ALTPn   C : \ P r o g r a m   F i l e s   ( x 8 6 ) \ M i c r o s o f t \ E d g e \ A p p l i c a t i o n ;     DEPG,           Â p¤    ' İ  f    >  ¢     ˆ M i c r o s o f t . M i c r o s o f t E d g e . S t a b l e   8 w e k y b 3 d 8 b b w e   C N = M i c r o s o f t   C o r p o r a t i o n ,   O = M i c r o s o f t   C o r p o r a t i o n ,   L = R e d m o n d ,   S = W a s h i n g t o n ,   C = U S   M i c r o s o f t . M i c r o s o f t E d g e . S t a b l e _ 1 0 2 . 0 . 1 2 4 5 . 3 9 _ n e u t r a l _ _ 8 w e k y b 3 d 8 b b w e   C : \ P r o g r a m   F i l e s \ W i n d o w s A p p s \ M i c r o s o f t . M i c r o s o f t E d g e . S t a b l e _ 1 0 2 . 0 . 1 2 4 5 . 3 9 _ n e u t r a l _ _ 8 w e k y b 3 d 8 b b w e     ª         aJ  
+   aJ  
+  , .  M i c r o s o f t   E d g e   M i c r o s o f t   C o r p o r a t i o n   M i c r o s o f t   E d g e   B r o w s e r   L o g o . p n g     TPLT             aJ  
+   aJ  
+ PKMPx          h   C : \ P r o g r a m   F i l e s   ( x 8 6 ) \ M i c r o s o f t \ E d g e \ A p p l i c a t i o n   GLOB              A p p   APPS                b Z  .      wwwÿ        M i c r o s o f t . M i c r o s o f t E d g e . S t a b l e _ 8 w e k y b 3 d 8 b b w e ! A p p   M i c r o s o f t   E d g e   M i c r o s o f t   E d g e   B r o w s e r   L o g o . p n g   S m a l l L o g o . p n g   RESP°         4      (    (    M i c r o s o f t   E d g e   s @      4    4   , M i c r o s o f t   C o r p o r a t i o n   D      8    8   . M i c r o s o f t   E d g e   B r o w s e r     è     Ü    Ü   Ô C : \ P r o g r a m   F i l e s \ W i n d o w s A p p s \ M i c r o s o f t . M i c r o s o f t E d g e . S t a b l e _ 1 0 2 . 0 . 1 2 4 5 . 3 9 _ n e u t r a l _ _ 8 w e k y b 3 d 8 b b w e \ L o g o . p n g   RESAd         4      (    (    M i c r o s o f t   E d g e   ~èD      8    8   . M i c r o s o f t   E d g e   B r o w s e r     è     Ü    Ü   Ô C : \ P r o g r a m   F i l e s \ W i n d o w s A p p s \ M i c r o s o f t . M i c r o s o f t E d g e . S t a b l e _ 1 0 2 . 0 . 1 2 4 5 . 3 9 _ n e u t r a l _ _ 8 w e k y b 3 d 8 b b w e \ L o g o . p n g   ô     è    è   Ş C : \ P r o g r a m   F i l e s \ W i n d o w s A p p s \ M i c r o s o f t . M i c r o s o f t E d g e . S t a b l e _ 1 0 2 . 0 . 1 2 4 5 . 3 9 _ n e u t r a l _ _ 8 w e k y b 3 d 8 b b w e \ S m a l l L o g o . p n g     JHN8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ÓTPA30 "PÔ¢Ú°^ĞÇÄÀ 
+¼£1÷VNÒóÅb<wËSD3            !èC* -ªªªªªªªªªªª*ª¢*¢Ø™™™™™™™™™™™™™y , t ` ü€à (€ğÿ~$È”¡åáæágâıç{xXşÿÿßÛÙ™™>ş_şÿÿ$•Zfş?ş_>9	( *A 	p~0Ààÿ3Œh&0ÀÙü9 T¥à§0 CXÀ`C0(Q ´H@$/®ç	9!1p2‚ Q@tå…òF	0C!4…ˆ(„ €ğ! #ñ	##ì	#áÁ{ÂH¼@QŒ°'0ˆ…Â÷#F@ €¡8aH€>Œ à #èçÀHø:0€ÀAğà …E	P7 Xpü8€ƒ€qp$ü?ÄÅkqqqqqqqqqqqA{‰‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹Aà>ÄÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅ.pÿâââ@@]ˆ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹$ü”¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸@Á ˆ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹p`ÄÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅ‡ˆ(°ññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññ;>>>>>>>>> !‰à`ÆÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇ0ÈñññññññññññññññññññÆ0øññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññG|||||||||`àøøøøøøÀa~‚Ÿà'ø	~‚Ÿà'ø	~‚Ÿà'ø	~‹#Ğ(ÁOğü?ÁOğüP<‚Ÿà'ø	~‚Ÿà'ø	~‚Ÿà'ø	~‚Ÿà'ø	~‚Ÿà'ø	~‚Ÿà'ø	~‚Ÿà'ø	~‚Ÿà'ğĞ ø	~‚Ÿà'ø	~‚Ÿà'ğ ôè#ĞG @>}úôè#`Áô0 }úôè#ĞGÀè#ĞG @>}úôè#ĞGÀÉ‡H>Dò!’#’‘|ˆ(ˆˆ‚ˆäC$"
+B8ˆ‹‹‹A\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\°!¾ÄÅÅÅ‹âS\°@!^ÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅ&............(
+@BˆŠ ÁJ%Kl8*ÔHòÀˆ È |ôbg@ ¸À;+"™    €±  *+»³Õ‘cñŞ±Å96[-;bë²9¶¨—:‹Íö‹œ­fŸe}µeÃŸ·_Í«e{{İ³%û·ÆŞ¬gŸ%ş˜÷ï?>1‹Úâx;ì-Ş²ı	Ş~/–%2;‹¶—Z8öÛ²úc&9™)6„( bÆÔ¿DJ,ëBb4¡áMs¨Ou(öÂ&Öè&‡È$È“CrHÔjÄ¡D£Ñ ‰Fƒ.(P$T‡z ¡›„jÀ$(€Œ!†`*„aÆ…ÆU.á~–çªüÂ¢òë^_G3}"ëºfºPÃÈúú`˜:m6xF&£íD¨€„3+âB”ø1èP#y€ÑJ#u2å	>‡«Àƒ¿‚Öá:iÓSHÁrÄ”+B°;šøs´. XåÍä a$ËÖ™J½4ÉÒ!ş$hy\­¬…‰xĞ§@0ÌEı²ÚQ2ú£ò¼†ìÖÁşÇ¯¡òŸÎiñ%§khü9•	*Ìú\ ñù;é w°lPÿ©4İnüçà<°j?)Ãà?‹eôg¶?uãRq|¤6où¯¼4ìÏğÚgÒûİGÑ "gğ5ÏÏ@‘”LÆÍ Û©ıC¤ŠÎÃOûOD÷<eP·„8ïxéışúô/µ/Ó³èİkılAõ&:¿kQ¼ØJ‡.!t¤@¿Èå›ƒ³=İox#ê¿ÅoĞ¾Ó­ÓÕobúC…ßPğ(LÄÄi‚D²ÈªV×™–5X.‚¤` Åª¬¤¯#©*R1t1€«\k™ôë¦á¢[ˆ¹Ğ«ÑšˆaxJãRË¢jsMB¼t¥ÀX)•³4´êÀªNXÖ’u Q¾TJ.,jŒ4<bxk¤u€¹&‰$ ²úÒîŸC¥vèÖæ:À^#"ıƒÂÉ;(?¸½í?ßÂÈø7hó»@íP?8x°ÂäGúÚw«x¨¥ñ>?£'ø‡èñƒj[{i.>2óYŒ6¾l—Öê,I!ƒì¦±?ùe¶(.JËbY.«EÕ•äå²@ÙØ¢·<ıå½şCˆn6Ù<)M±ÁkyÂ%[fø@µ{˜Š;üŠ€‘˜RËĞyE Å€—5¢Ùnx}h*Ö6<‡Ñ"n”ƒ"e$Ğl™¸án|‹ltıÚğ&6°Él|›Úğê­òF6¶Å†6¶‘oj•7°Él|‹õIŞÿˆ !·ØÔ¦÷¿”F,»¢&×çîßğF]z#Û„«÷¹$Vyƒßğ6°Ê›Zÿ6´án|‹M­ò6´áM®Ïİ¿ÁÕÛè&6°áõ¹6¶şnbıÛĞ†7¹±Mm`Ã›XåntB®C[¬ò7µ¡¯ÏSo£[lp}îzëßĞ†6µşMmh£[¬Ï=¾©õ¯Ş†·ØĞ&6°‘UŞĞFWoCÙä¶Xv?JU>Ë¬šåbò¨ºíÈ$—o%,œ<	z+™¸ÉğxÜ<j×®ĞÕ@ˆåy^z	öÎşĞçµØ0CÆw¦§z¾Hü^<ÀQ	¼­˜/œ'ìñ¿+†x:ƒóW)šå]!1$q¢2©”†öCg˜Ú¦ƒÎ@3­Ñ:Ãb€:Ãy¸ÍpŒ‡Äı!A ¯ñÁ¨ã”†ÊPšCgøMpÈà&'\Æn€9‚Ælğ‰£:@NL†ÒD†Ü 5$İ pVØ†ê 2|'>À¨šQ¤Ç~ØÙXÃb0ãñã½áxï7ŞÛ÷nã½Ùxï5Ş[÷NãµGc&Uj4*ÓÊ®
+üàC „ÕÄ¨0@7Ë ÒÈ!ì3’§ú¿É¯ÿy(¾±¯Á·x?„ŸcÏş¯ãƒÚ7ğeş|Ù}c_Şßø×ø›øš~‹¯Ù7ò`üxˆOˆò½ıGìsñœ|Fó›çâkû¬iò	š|4ù„L>º&÷tó¨ôÜšÜ3´û@ëğÑtøè:|:|˜;|¢©Å7õ5ıoWÅá IÀp •8XÙR†HÊÜÊ[¬oğ=†ÙM	gi`}9Œõ°Ìe3œÙg9t£á~ÑğkºÂÇlÄœOf1î(ŒØ/)CÆïñƒ†ÀÑrë8"÷Ú ‰ĞXÃá6FYóÎ'Á1jot0?¥¡½Wâ}Ã'zmE½½6¢Ş@ŠLÑ•FTt«‘½*»•*²„é’CbAi‚£)çÈ<¦×sÑ›±é0Ëeaºl2ÜAİk¥!½Xuû[š³¡İjHF='¢J$Õ×ÆiÔóè„³KÛa”Ævùßâ¸\Gb(q\»…Är ¶‹ğ2XVË}±Y1…¨£D¬dQ¢[buø¼;¿I”‘¬YV„î$OnPH½Q!õÆ„ôÚ¸zpö­Æ‡Ôóè„³>&;®“*ÍÊÄˆÿ4f¤—FÔ3ìHİóè
+ºâåk¼c:‰Ò¬ŒĞ0WVRo\I·_RÏ&uÏ£+èÅ+ésYáĞ
+T– ×†£t»q)õ™R÷<º‚å¢=%+ÿ˜áşéN$âK£Vêy<MUºÜ…Ë®4+Ëøà‰ÿ# …ŞlXK¯néµA.õ<:1xËkùOWX¶BâÜn<L=ùAÊ€
+uo LW-SÏãQ.ÎnàL›AeêÍÀ1uo„L½!2õÆÈô
+.¾R—•†°5+ID…ÔĞ™zCfzi¼L½3=%VÈ#ú¼YVhnxìn4ˆ¦·_ø¨çr¨8WšÂK-Áø€‘C]øõFÖôÒøšcSÏ£+øÅ+ùÍ}zñª7ø¦Şè›zÃoºí\‡çg‘ì@Ëò>Aø§	=zÃsz!'bÈçR±‚)®ñhË„	Š¸ÔzcvêØ©7^§Şh^³Óc±ÀäàyŞ6ëŒ6>®5Š§Ş0®4–§Ç£\ôFóÔÎÓ›Çò£19Ï?kp»ñ=õF÷ôèÑŞSo|OWäÓíFøôÒ8Ÿeµö#¶t,©9~]IJæ—ûÓUó
+aYÑ4_ê¥ÑĞ7Ç/ÇYóKêµ@õFÕToPoÛş8–±'%‘u.9‘^õ”ĞToDPÇ

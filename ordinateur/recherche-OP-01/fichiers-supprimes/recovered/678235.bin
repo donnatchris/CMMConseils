@@ -1,0 +1,1036 @@
+d="Microsoft.UI.Xaml.Shapes.Ellipse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Shapes.Line" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Shapes.Path" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Shapes.Polygon" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Shapes.Polyline" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Shapes.Rectangle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Shapes.Shape" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.SizeHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.StateTrigger" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.StateTriggerBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Style" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.TargetPropertyPath" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.ThicknessHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.TriggerActionCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.UIElement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.UIElementWeakCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Vector3Transition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.VisualState" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.VisualStateChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.VisualStateGroup" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.VisualStateManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.VisualTransition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Window" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.WindowChrome" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>Microsoft.UI.Xaml.Controls.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.AnimatedIconTestHooks" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.ButtonInteraction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.DisplayRegionHelperTestApi" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.ItemsViewTestHooks" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.LayoutsTestHooks" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.MUXControlsTestHooks" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.PullToRefreshHelperTestApi" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.RadioButtonsTestHooks" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.RepeaterTestHooks" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.ScrollPresenterTestHooks" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.ScrollViewerIRefreshInfoProviderAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.ScrollViewTestHooks" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.SliderInteraction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.SpectrumBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.SplitButtonTestApi" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.SwipeTestHooks" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Controls.TeachingTipTestHooks" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Media.AcrylicTestApi" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Media.MaterialHelperTestApi" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Media.RevealBorderLight" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Media.RevealBrushTestApi" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Media.RevealHoverLight" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Media.RevealTestApi" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Private.Media.XamlAmbientLight" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.AnimatedVisualPlayerAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.BreadcrumbBarItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.ColorPickerSliderAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.ColorSpectrumAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.DropDownButtonAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.InfoBarAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.ItemContainerAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.ItemsViewAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.MenuBarAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.MenuBarItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.NavigationViewAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.NavigationViewItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.NumberBoxAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.PagerControlAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.PersonPictureAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.PipsPagerAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.ProgressBarAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.ProgressRingAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.RadioButtonsAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.RatingControlAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.RepeaterAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.ScrollPresenterAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.SplitButtonAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.TabViewAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.TabViewItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.TeachingTipAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.ToggleSplitButtonAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.TreeViewItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.TreeViewListAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.WebView2AutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnimatedIcon" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnimatedIconSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedAcceptVisualSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedBackVisualSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedChevronDownSmallVisualSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedChevronRightDownSmallVisualSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedChevronUpDownSmallVisualSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedFindVisualSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedGlobalNavigationButtonVisualSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnimatedVisuals.AnimatedSettingsVisualSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnnotatedScrollBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.AnnotatedScrollBarLabel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.BreadcrumbBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.BreadcrumbBarItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ColorPicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.CommandBarFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.DropDownButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ElementFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Expander" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.FlowLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.FlowLayoutState" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ImageIcon" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ImageIconSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.IndexPath" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.InfoBadge" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.InfoBadgeTemplateSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.InfoBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ItemContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ItemsRepeater" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ItemsRepeaterScrollHost" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ItemsSourceView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ItemsView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.LayoutPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.LinedFlowLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.LinedFlowLayoutItemCollectionTransitionProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.MenuBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.MenuBarItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.MenuBarItemFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewItemBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewItemHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NonVirtualizingLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NonVirtualizingLayoutContext" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NumberBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.PagerControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.PagerControlTemplateSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ParallaxView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.PersonPicture" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.PipsPager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.AutoSuggestBoxHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ColorPickerSlider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ColorSpectrum" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ColumnMajorUniformToLargestGridLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ComboBoxHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarAutomationProperties" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.InfoBarPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.MonochromaticOverlayPresenter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenterTemplateSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.RepeatedScrollSnapPoint" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.RepeatedZoomSnapPoint" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ScrollControllerAddScrollVelocityRequestedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ScrollControllerPanRequestedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ScrollControllerScrollByRequestedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ScrollControllerScrollToRequestedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ScrollSnapPoint" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.TabViewListView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ZoomSnapPoint" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ProgressBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ProgressRing" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RadioButtons" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RatingControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RatingItemFontInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RatingItemImageInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RatingItemInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RecyclePool" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RecyclingElementFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RefreshContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RefreshVisualizer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RevealListViewItemPresenter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ScrollingScrollOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ScrollingZoomOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ScrollView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.SelectionModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.SplitButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.StackLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.StackLayoutState" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.SwipeControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.SwipeItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.SwipeItems" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TabView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TabViewItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TeachingTip" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TextCommandBarFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ToggleSplitButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TreeView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TreeViewItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TreeViewItemTemplateSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TreeViewList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TreeViewNode" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TwoPaneView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.UniformGridLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.UniformGridLayoutState" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.VirtualizingLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.VirtualizingLayoutContext" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.WebView2" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.XamlControlsResources" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.AcrylicBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.DesktopAcrylicBackdrop" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.MicaBackdrop" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.RadialGradientBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.RevealBackgroundBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.RevealBorderBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.RevealBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.XamlTypeInfo.XamlControlsXamlMetaDataProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>Microsoft.UI.Xaml.Phone.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.PivotAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.PivotItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.PivotItemDataAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.DatePickedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.DatePickerFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.DatePickerFlyoutPresenter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ItemsPickedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ListPickerFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.PickerConfirmedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.PickerFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Pivot" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.PivotItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.PivotItemEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.JumpListItemBackgroundConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.JumpListItemForegroundConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.PickerFlyoutBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.PivotPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TimePickedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TimePickerFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.Animation.CommonNavigationTransitionInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.Animation.DrillInNavigationTransitionInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.Animation.EntranceNavigationTransitionInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.Animation.NavigationThemeTransition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.Animation.SlideNavigationTransitionInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.Animation.SuppressNavigationTransitionInfo" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>WinUIEdit.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Text.FontWeights" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Text.TextConstants" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>Microsoft.Web.WebView2.Core.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2CompositionController" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2ControllerWindowReference" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Environment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>CoreMessagingXP.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Dispatching.DispatcherExitDeferral" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Dispatching.DispatcherQueue" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Dispatching.DispatcherQueueController" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>dcompi.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.ColorHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Colors" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.AnimationController" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionAnimation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionApiInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionCapabilities" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionClip" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionDrawingSurface" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionEasingFunction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionEffectSourceParameter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionGeometry" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionGradientBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionLight" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionObject" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionPath" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionShadow" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionShape" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionTransform" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.CompositionVirtualDrawingSurface" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Compositor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.ContainerVisual" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Core.CompositorController" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Diagnostics.CompositionDebugSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Effects.SceneLightingEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Experimental.ExpCompositionVisualSurface" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Interactions.CompositionConditionalValue" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Interactions.InteractionTracker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaModifier" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaMotion" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaNaturalMotion" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaRestingValue" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Interactions.InteractionTrackerVector2InertiaModifier" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Interactions.InteractionTrackerVector2InertiaNaturalMotion" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Interactions.VisualInteractionSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.KeyFrameAnimation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.NaturalMotionAnimation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.ScalarNaturalMotionAnimation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.SceneComponent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.SceneMaterial" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.SceneMaterialInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.SceneMesh" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.SceneMeshRendererComponent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.SceneMetallicRoughnessMaterial" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.SceneNode" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.SceneObject" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.ScenePbrMaterial" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.SceneRendererComponent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.SceneSurfaceMaterialInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Scenes.SceneVisual" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Vector2NaturalMotionAnimation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Vector3NaturalMotionAnimation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.Visual" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>Microsoft.Graphics.Display.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Display.DisplayInformation" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>Microsoft.UI.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.System.ThemeSettings" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>Microsoft.UI.Input.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.ContentAppWindowBridge" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.ContentCoordinateConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.ContentExternalBackdropLink" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.ContentExternalOutputLink" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.ContentIsland" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.ContentIslandEnvironment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.ContentSite" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.ContentSiteEnvironment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.ContentSiteEnvironmentView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.ContentSiteView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.CoreWindowSiteBridge" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.DesktopChildSiteBridge" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.DesktopSiteBridge" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Content.SystemVisualSiteBridge" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.DragDrop.DragDropManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.DragDrop.DragOperation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.Experimental.ExpFocusController" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.Experimental.ExpFocusNavigationHost" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.Experimental.ExpFocusNavigationRequest" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.Experimental.ExpPointerPoint" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.GestureRecognizer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputActivationListener" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputCursor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputCustomCursor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputDesktopResourceCursor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputDesktopNamedResourceCursor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputFocusController" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputKeyboardSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputLightDismissAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputObject" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputPreTranslateKeyboardSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputNonClientPointerSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputPointerSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.InputSystemCursor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.Interop.PenDeviceInterop" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Input.PointerPredictor" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>Microsoft.UI.Windowing.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Windowing.AppWindow" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Windowing.AppWindowPresenter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Windowing.CompactOverlayPresenter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Windowing.DisplayArea" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Windowing.FullScreenPresenter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Windowing.OverlappedPresenter" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>Microsoft.UI.Windowing.Core.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Windowing.AppWindowTitleBar" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>wuceffectsi.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.SystemBackdrops.DesktopAcrylicController" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.SystemBackdrops.MicaController" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Composition.SystemBackdrops.SystemBackdropConfiguration" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.proxyStub" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <ProxyStub ClassId="93022121-B6C9-4A22-90DB-763E24FD99E1">
+        <Path>Microsoft.Windows.Widgets.dll</Path>
+        <Interface Name="Microsoft.Windows.Widgets.Providers.IWidgetProvider2" InterfaceId="38C3A963-DD93-479D-9276-04BF84EE1816" />
+        <Interface Name="Microsoft.Windows.Widgets.Providers.IWidgetProviderAnalytics" InterfaceId="661985A5-D187-482D-9EEF-6FDA05D21845" />
+        <Interface Name="Microsoft.Windows.Widgets.Providers.IWidgetProviderErrors" InterfaceId="90C1B5F0-0D3A-4AC6-ABB7-C97B367B8FCC" />
+      </ProxyStub>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+      <InProcessServer>
+        <Path>Microsoft.Windows.Widgets.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Providers.WidgetManager" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    
+  </Extensions>
+  <mp:PhoneIdentity PhoneProductId="b9e8b971-ee94-4737-a270-9ed595dc59f3" PhonePublisherId="a8099e80-050d-411d-9b45-4ea107a7be6b" />
+</Package>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             MZê       ˇˇ  ∏       @                                   ∏   ∫ ¥	Õ!∏LÕ!This program cannot be run in DOS mode.
+$       mÜƒﬂ)Á™å)Á™å)Á™åÎcå(Á™å)Á=å(Á™åÎfå(Á™åRich)Á™å        PE  L ˘€U        ‡ !                                             0                                                H                                                                                                         .rsrc   H                     @  @                                                       Ä0  Äñ Äê  Ä   ∞  Ä   »  Ä               Ä‡  ÄX Ä¯  Äî   Äï  ( Äñ  @ Äó  X Äò  p Äô  à Äö  † Äõ  ∏ Ä               '  – Ä'  Ë Ä                    Ä                   Ä                 0                   @                   P                   `                   p                   Ä                   ê                   †                   ∞                   ¿                   –                   ‡                                    	      ì  {          †Æ  b          †  {           /  Ö          ®B  J          ¯[  @          8a  b          †q  +          –}  £          xê  •          x¬  ò          ƒ  ∂g          ø  p          »+ }           E X V W  I D D _ A D M _ H T M L _ C O N F I G _ D I A L O G _ E V E  I D D _ A D M _ T E X T _ C O N F I G _ D I A L O G _ E V E  Z D C T gStrDefault				= '$$$/Dialogs/ConfigDialog/Default';
+gStrUseSelected			= '$$$/Dialogs/ConfigDialogHtml/UseSelected';
+gStrLanguageScript		= '$$$/Dialogs/ConfigDialog/LangScript';
+gStrChange				= '$$$/Dialogs/ConfigDialog/Change';
+gStrBodyText			= '$$$/Dialogs/ConfigDialogHtml/BodyText';
+gStrBaseFontSize		= '$$$/Dialogs/ConfigDialogHtml/BaseFont';
+gChkBoxWidth			= max (zstring_width(zstring: '$$$/Dialogs/ConfigDialogHtml/RetainBG'), zstring_width(zstring: '$$$/Dialogs/ConfigDialogHtml/UnderLinks'));
+gRetainBGGap			= gChkBoxWidth - zstring_width(zstring: '$$$/Dialogs/ConfigDialogHtml/RetainBG');
+gUnderLinksGap			= gChkBoxWidth - zstring_width(zstring: '$$$/Dialogs/ConfigDialogHtml/UnderLinks');
+
+gIndentWidth  = gGap;
+
+gChangeButtonWidth = gGap + zstring_width( zstring: gStrChange ) + gGap;
+
+gSpaceBetweenPopupAndButton = gMarginWidth + (gGap * 2);
+
+gFontNamePopupWidth		= max_char_width() * 15;
+gSampleWidth			= gFontNamePopupWidth + (max_char_width() *2);
+
+gLangaugeScriptPopupWidth = 
+	max	( zstring_width( zstring: '$$$IDS_LANG_SCRIPT_WESTERN' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_JAPANESE' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_CHINESE_TRAD' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_CHINESE_SIMP' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_KOREAN' )
+		);
+
+gDefaultEncodingPopupWidth = 
+	max	( zstring_width( zstring: '$$$IDS_ENCODING_WESTERN' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_JAPANESE' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_CHINESE_TRAD' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_CHINESE_SIMP' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_KOREAN' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_EUCJP' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_SHIFTJIS' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_JIS' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_EUCCN' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_GBK' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_EUCTW' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_BIG5' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_EUCKR' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_ISO2022KR' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_JOHAB' )
+		, ( gLangaugeScriptPopupWidth + gSpaceBetweenPopupAndButton + gChangeButtonWidth )
+		);
+
+gLangaugeScriptPopupWidth	= gDefaultEncodingPopupWidth 
+							- gSpaceBetweenPopupAndButton 
+							- gChangeButtonWidth;
+
+gFontSettingsTextWidth = 
+	max	( zstring_width( zstring: gStrLanguageScript )
+		, zstring_width( zstring: gStrBaseFontSize)
+		, ( zstring_width( zstring: gStrBodyText ) + gIndentWidth )
+		, zstring_width( zstring: gStrDefault)
+		, zstring_width( zstring: gStrUseSelected)
+		) + max_char_width();
+
+gFontSizeWidth = max_char_width() * 3;
+gColorWellWidth = 22;
+gColumnWidth = 30;
+gFaceNamePopupWidth	= gDefaultEncodingPopupWidth + gMarginWidth + (gGap * 2);
+gMMListWidth = max (zstring_width(zstring: '$$$IDS_MM_NONE'), 
+					zstring_width(zstring: '$$$IDS_MM_EMBED'), 
+					zstring_width(zstring: '$$$IDS_MM_REF')) + max_char_width() * 3;
+					
+gPopupsWidth = max (gLangaugeScriptPopupWidth, gFontNamePopupWidth, gFaceNamePopupWidth);
+
+gTextBGTextWidth = max (zstring_width (zstring :'$$$/Dialogs/ConfigDialog/TextColor')
+							, zstring_width (zstring :'$$$/Dialogs/ConfigDialog/Background'));
+
+gDialogClusterWidth = gMMListWidth + zstring_width(zstring: '$$$/Dialogs/ConfigDialogHtml/Mult') + gMarginWidth * 3;
+gColorWellPartWidth = gDialogClusterWidth / 3;
+gTxtBGGap = gColorWellPartWidth - zstring_width (zstring: '$$$/Dialogs/ConfigDialog/TextColor') - gColorWellWidth - gMarginWidth;
+gBGLinksGap = gColorWellPartWidth - zstring_width (zstring: '$$$/Dialogs/ConfigDialog/Background') - gColorWellWidth - gMarginWidth;
+
+dialog( name: '$$$/Dialogs/ConfigDialogHtml/DialogTitle')
+{
+	view (align_children: align_left)
+	{
+		cluster (name: '$$$/Dialogs/ConfigDialog/InputEnc')
+		{
+			view (align_children: align_row)
+			{
+				view (align_children: align_left, width:gFontSettingsTextWidth)
+				{
+					static_text (name: gStrDefault);
+				}
+				popup( item_id: 'inec', width: gDefaultEncodingPopupWidth);
+			}
+			view (align_children: align_row)
+			{
+				view (align_children: align_left, width:gFontSettingsTextWidth)
+				{
+					static_text (name: gStrUseSelected);
+				}
+				radio(item_id: 'alws', group_id: 'rgrp', name: '$$$/Dialogs/ConfigDialogHtml/Always');
+			}
+			view (align_children: align_row)
+			{
+				view (align_children: align_left, width:gFontSettingsTextWidth)
+				{
+					static_text (name: '$$$/Dialogs/ConfigDialogHtml/Null');
+				}
+				radio(item_id: 'ntaw', group_id: 'rgrp', name: '$$$/Dialogs/ConfigDialogHtml/PageDoesnt');
+			}
+		}
+		cluster (name: '$$$/Dialogs/ConfigDialog/LangSpecificCaption')
+		{
+			view (align_children: align_row)
+			{
+				view (align_children: align_right, width: gFontSettingsTextWidth)
+				{
+					static_text (name: gStrLanguageScript);
+				}
+				popup( item_id: 'lngs', width: gPopupsWidth);
+			}
+			view (align_children: align_row)
+			{
+				view (align_children: align_right, width: gFontSettingsTextWidth)
+				{
+					static_text (name: gStrBodyText);
+				}
+				popup( item_id: 'btfn', width: gPopupsWidth );
+			}
+			view (align_children: align_row)
+			{
+				view (align_children: align_right, width: gFontSettingsTextWidth)
+				{
+					static_text (name: gStrBaseFontSize);
+				}
+				edit_text( item_id: 'btps', width: 4 * max_char_width(), PopupEdit: true, numeric: true);
+			}
+		}
+		cluster (name: '$$$/Dialogs/ConfigDialog/DefaultColCaption')
+		{
+			check_box(item_id: 'forc', name: '$$$/Dialogs/HTML2PDF/HTMLSettings/General/ForceSettings');
+			view (align_children: align_row)
+			{
+				static_text (name: '$$$/Dialogs/ConfigDialog/TextColor');
+				button( item_id: 'colr', picture: true, height: 20, width: gColorWellWidth);
+				gap (width: gTxtBGGap);
+
+				static_text (name: '$$$/Dialogs/ConfigDialog/Background');
+				button( item_id: 'back', picture: true, height: 20, width: gColorWellWidth);
+				gap (width: gBGLinksGap);
+
+				static_text (name: '$$$/Dialogs/ConfigDialogHtml/Links');
+				button( item_id: 'link', picture: true, height: 20, width: gColorWellWidth);
+			}
+		}
+		cluster (name: '$$$/Dialogs/ConfigDialogHtml/Other')
+		{
+			view (align_children: align_row)
+			{
+				static_text (name: '$$$/Dialogs/ConfigDialogHtml/Mult');
+				popup (item_id: 'mmpu', width: gMMListWidth);
+			}
+			view (align_children: align_row)
+			{
+				check_box(item_id: 'retp', name: '$$$/Dialogs/ConfigDialogHtml/RetainBG');
+				gap (width: gRetainBGGap);
+				check_box(item_id: 'cimg', name: '$$$/Dialogs/ConfigDialogHtml/ConvImg');
+			}
+			view (align_children: align_row)
+			{				
+				check_box(item_id: 'ullk', name: '$$$/Dialogs/ConfigDialogHtml/UnderLinks');
+				gap (width: gUnderLinksGap);
+				check_box(item_id: 'scbl', name: '$$$/Dialogs/ConfigDialogHtml/ScrolBlk');
+			}
+		}
+		ok_cancel();
+	}
+}
+     gStrDefaultColors			= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/DefaultColors';
+gStrText					= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/Text';
+gStrLinks					= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/Links';
+gStrBackground				= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/Background';
+gStrAltText					= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/AltText';
+gStrForceSettings			= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/ForceSettings';
+gStrBackgroundOptions		= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/BackgroundOptions';
+gStrPageColors				= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/PageColors';
+gStrTableCellColors			= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/TableCellColors';
+gStrTileImgBackground		= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/TileImgBackground';
+gStrLineOptions				= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/LineOptions';
+gStrWrapLines				= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/WrapLines';
+gStrConvertImages			= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/ConvertImages';
+gStrUnderlineLinks			= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/UnderlineLinks';
+gStrMultimedia				= '$$$/Dialogs/HTML2PDF/HTMLSettings/General/Multimedia';
+
+gColorTextWidth = max	( zstring_width( zstring: gStrText )
+						, zstring_width( zstring: gStrLinks )
+						, zstring_width( zstring: gStrBackground )
+						, zstring_width( zstring: gStrAltText )
+						) + max_char_width();
+gColorWellWidth = 22;
+gTestWidth1 = gColorTextWidth + gColorWellWidth + max_char_width() / 2;
+
+gWrapEditWidth = max_char_width() * 6;
+gWrapTextWidth = zstring_width( zstring: gStrWrapLines );
+gTestWidth2 = (max_char_width() + gWrapEditWidth + gWrapTextWidth) / 2;
+
+gColumnWidth = max( gTestWidth1, gTestWidth2 );
+
+dialog( )
+{
+	view( align_children: align_left )
+	{
+		cluster( name: gStrDefaultColors )
+		{
+			view( align_children: align_row )
+			{
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					view( align_children: align_left, width: gColorTextWidth )
+					{
+						static_text( item_id: 'st01', name: gStrText, next_tab: 'colr' );
+					}
+					view( align_children: align_right )
+					{
+						button( item_id: 'colr', picture: true, height: 20, width: gColorWellWidth, next_tab: 'st02' );
+					}
+				}
+				gap();
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					view( align_children: align_left, width: gColorTextWidth )
+					{
+						static_text( item_id: 'st02', name: gStrLinks, next_tab: 'link', next_tab: 'link' );
+					}
+					view( align_children: align_right )
+					{
+						button( item_id: 'link', picture: true, height: 20, width: gColorWellWidth, next_tab: 'st03' );
+					}
+				}
+			}
+			view( align_children: align_row )
+			{
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					view( align_children: align_left, width: gColorTextWidth )
+					{
+						static_text( item_id: 'st03', name: gStrBackground, next_tab: 'back' );
+					}
+					view( align_children: align_right )
+					{
+						button( item_id: 'back', picture: true, height: 20, width: gColorWellWidth, next_tab: 'st04' );
+					}
+				}
+				gap();
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					view( align_children: align_left, width: gColorTextWidth )
+					{
+						static_text( item_id: 'st04', name: gStrAltText, next_tab: 'altt' );
+					}
+					view( align_children: align_right )
+					{
+						button( item_id: 'altt', picture: true, height: 20, width: gColorWellWidth, next_tab: 'pgcl' );
+					}
+				}
+			}
+			check_box(item_id: 'forc', name: gStrForceSettings );
+		}
+		cluster( name: gStrBackgroundOptions )
+		{
+			view( align_children: align_row )
+			{
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					check_box(item_id: 'pgcl', name: gStrPageColors, next_tab: 'tbcl' );
+				}
+				gap();
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					check_box(item_id: 'tbcl', name: gStrTableCellColors, next_tab: 'tile' );
+				}
+			}
+			view( align_children: align_row )
+			{
+				check_box(item_id: 'tile', name: gStrTileImgBackground, next_tab: 'wrap' );
+			}
+		}
+		cluster( name: gStrLineOptions )
+		{
+			view( align_children: align_row )
+			{
+				check_box(item_id: 'wrap', name: gStrWrapLines, next_tab: 'wpln' );
+				edit_text(item_id: 'wpln', width: gWrapEditWidth, next_tab: 'mmpu' );
+			}
+		}
+		cluster( name: gStrMultimedia )
+		{
+			view( align_children: align_row )
+			{
+				popup( item_id: 'mmpu', width: 2 * gColumnWidth, next_tab: 'cimg' );
+			}
+		}
+		cluster( item_id:'misc', name:'Miscellaneous Settings' )
+		{
+			view( align_children: align_row )
+			{
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					check_box(item_id: 'cimg', name: gStrConvertImages, next_tab: 'ullk' );
+				}
+				gap();
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					check_box(item_id: 'ullk', name: gStrUnderlineLinks );
+				}
+			}
+		}
+	}
+}
+   gStrInputEncoding		= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/InputEncoding';gStrDefault				= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/Default';gStrFontSettings		= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/FontSettings';gStrLanguageScript		= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/LanguageScript';gStrUseThisEncoding		= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/UseThisEncoding';gStrChange				= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/Change';gStrBodyText			= '$$$/Dialogs/HTML2PDF/HTMLSettings/Font/BodyText';gStrHeadings			= '$$$/Dialogs/HTML2PDF/HTMLSettings/Font/Headings';gStrPreFormatted		= '$$$/Dialogs/HTML2PDF/HTMLSettings/Font/PreFormatted';gStrBaseFontSize		= '$$$/Dialogs/HTML2PDF/HTMLSettings/Font/BaseFontSize';gStrFontEmbedding		= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/FontEmbedding';gStrFontSize			= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/FontSize';gStrEmbedFonts			= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/EmbedFonts';gStrNoSelection			= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/NoSelection';gIndentWidth  = gGap;gChangeButtonWidth = gGap + zstring_width( zstring: gStrChange ) + gGap;gSpaceBetweenPopupAndButton = gMarginWidth + (gGap * 2);gLangaugeScriptPopupWidth = 	max	( zstring_width( zstring: '$$$IDS_LANG_SCRIPT_WESTERN' )		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_JAPANESE' )		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_CHINESE_TRAD' )		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_CHINESE_SIMP' )		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_KOREAN' )		);gDefaultEncodingPopupWidth = 	max	( zstring_width( zstring: '$$$IDS_ENCODING_WESTERN' )		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_JAPANESE' )		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_CHINESE_TRAD' )		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_CHINESE_SIMP' )		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_KOREAN' )		, zstring_width( zstring: '$$$IDS_ENCODING_EUCJP' )		, zstring_width( zstring: '$$$IDS_ENCODING_SHIFTJIS' )		, zstring_width( zstring: '$$$IDS_ENCODING_JIS' )		, zstring_width( zstring: '$$$IDS_ENCODING_EUCCN' )		, zstring_width( zstring: '$$$IDS_ENCODING_GBK' )		, zstring_width( zstring: '$$$IDS_ENCODING_EUCTW' )		, zstring_width( zstring: '$$$IDS_ENCODING_BIG5' )		, zstring_width( zstring: '$$$IDS_ENCODING_EUCKR' )		, zstring_width( zstring: '$$$IDS_ENCODING_ISO2022KR' )		, zstring_width( zstring: '$$$IDS_ENCODING_JOHAB' )		, ( gLangaugeScriptPopupWidth + gSpaceBetweenPopupAndButton + gChangeButtonWidth )		);gLangaugeScriptPopupWidth	= gDefaultEncodingPopupWidth 							- gSpaceBetweenPopupAndButton 							- gChangeButtonWidth;gFontSettingsTextWidth = 	max	( zstring_width( zstring: gStrLanguageScript )		, zstring_width( zstring: gStrDefault )		, zstring_width( zstring: gStrUseThisEncoding)		, ( zstring_width( zstring: gStrBodyText ) + gIndentWidth )		, ( zstring_width( zstring: gStrHeadings ) + gIndentWidth )		, ( zstring_width( zstring: gStrPreFormatted ) + gIndentWidth )		) + max_char_width();gFaceNameEditWidth	= gDefaultEncodingPopupWidth + gMarginWidth + (gGap * 2);gFontSizeWidth = max_char_width() * 3;dialog(  ){	view( align_children: align_left )	{		cluster( name: gStrInputEncoding )		{			view( align_children: align_row )			{				view( align_children: align_row )				{					view( align_children: align_left, width: gFontSettingsTextWidth )					{						static_text( item_id: 'st01', name: gStrDefault, next_tab: 'inec' );					}					view( align_children: align_right )					{						popup( item_id: 'inec', width: gDefaultEncodingPopupWidth, next_tab: 'st02' );					}				}			}			view( align_children: align_row )			{				view( align_children: align_row )				{					view( align_children: align_left, width: gFontSettingsTextWidth )					{						static_text( item_id: 'st50', name: gStrUseThisEncoding, next_tab: 'alws' );					}					view( align_children: align_right )					{						group()						{							radio(item_id: 'alws', group_id: 'rgrp', name: '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/Always');							radio(item_id: 'ntaw', group_id: 'rgrp', name: '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/NotSpecified');						}					}				}			}		}		cluster( name: gStrFontSettings )		{			view( align_children: align_row )			{				view( align_children: align_left, width: gFontSettingsTextWidth )				{					static_text( item_id:'st02', name: gStrLanguageScript, next_tab: 'lngs' );				}				view( align_children: align_left )				{					popup( item_id: 'lngs', width: gLangaugeScriptPopupWidth, next_tab: 'chag' );				}				view( alignment: align_fill, align_children: align_right )				{					button( item_id: 'chag', name: gStrChange, next_tab: 'st03' );				}			}			view( align_children: align_row )			{				view( align_children: align_row, width: gFontSettingsTextWidth )				{					gap( width: gIndentWidth );					static_text( item_id: 'st03', name: gStrBodyText, next_tab: 'btfn' );				}				view( align_children: align_left )				{					edit_text( item_id: 'btfn', readonly: true, width: gFaceNameEditWidth, next_tab: 'st04' );				}			}			view( align_children: align_row )			{				view( align_children: align_row, width: gFontSettingsTextWidth )				{					gap( width: gIndentWidth );					static_text( item_id: 'st04', name: gStrHeadings, next_tab: 'hdfn' );				}				view( align_children: align_left )				{					edit_text( item_id: 'hdfn', readonly: true, width: gFaceNameEditWidth, next_tab: 'st05' );				}			}			view( align_children: align_row )			{				view( align_children: align_row, width: gFontSettingsTextWidth )				{					gap( width: gIndentWidth );					static_text( item_id: 'st05', name: gStrPreFormatted, next_tab: 'pffn' );				}				view( align_children: align_left )				{					edit_text( item_id: 'pffn', readonly: true, width: gFaceNameEditWidth, next_tab: 'st06' );				}			}		}		cluster( name: gStrFontSize )		{			view( align_children: align_row )			{				view( align_children: align_row, width: gFontSettingsTextWidth )				{					static_text( item_id: 'st06', name: gStrBaseFontSize, next_tab: 'btps' );				}				view( align_children: align_left, width: gFaceNameEditWidth )				{					edit_text( item_id: 'btps', PopupEdit: true, numeric: true, width: gFontSizeWidth, next_tab: 'embp' );				}			}		}		cluster( name: gStrFontEmbedding )		{			view( align_children: align_row )			{				check_box(item_id: 'embp', name: gStrEmbedFonts );			}		}	}}      gStrFontSelectionDialog	= '$$$/Dialogs/HTML2PDF/HTMLSettings/FontSelection/DialogTitle';
+gStrFontForBodyText		= '$$$/Dialogs/HTML2PDF/HTMLSettings/FontSelection/BodyText';
+gStrFontForHeadings		= '$$$/Dialogs/HTML2PDF/HTMLSettings/FontSelection/Headings';
+gStrFontForPreFormatted	= '$$$/Dialogs/HTML2PDF/HTMLSettings/FontSelection/PreFormatted';
+
+gFontNamePopupWidth		= max_char_width() * 15;
+gSampleWidth			= gFontNamePopupWidth + (max_char_width() *2);
+gSampleHeight			= max_char_width() * 3;
+
+dialog( name: gStrFontSelectionDialog, target: 'btfn' )
+{
+	view( align_children: align_left )
+	{
+		cluster( name: gStrFontForBodyText )
+		{
+			view( align_children: align_left )
+			{
+				popup( item_id: 'btfn', width: gFontNamePopupWidth );
+				user_item( item_id: 'btsm', width: gSampleWidth, height: gSampleHeight);
+			}
+		}
+		cluster( name: gStrFontForHeadings )
+		{
+			view( align_children: align_left )
+			{
+				popup( item_id: 'hdfn', width: gFontNamePopupWidth );
+				user_item( item_id: 'hdsm', width: gSampleWidth, height: gSampleHeight);
+			}
+		}
+		cluster( name: gStrFontForPreFormatted )
+		{
+			view( align_children: align_left )
+			{
+				popup( item_id: 'pffn', width: gFontNamePopupWidth );
+				user_item( item_id: 'pfsm', width: gSampleWidth, height: gSampleHeight);
+			}
+		}
+		ok_cancel();
+	}
+}gStrDefault				= '$$$/Dialogs/ConfigDialog/Default';
+gStrUseSelected			= '$$$/Dialogs/ConfigDialogHtml/UseSelected';
+gStrLanguageScript		= '$$$/Dialogs/ConfigDialog/LangScript';
+gStrBodyText			= '$$$/Dialogs/ConfigDialogHtml/BodyText';
+gStrBaseFontSize		= '$$$/Dialogs/ConfigDialogHtml/BaseFont';
+gStrChange			    = '$$$/Dialogs/ConfigDialog/Change';
+gIndentWidth  = gGap;
+
+gLangaugeScriptPopupWidth = 
+	max	( zstring_width( zstring: '$$$IDS_LANG_SCRIPT_WESTERN' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_JAPANESE' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_CHINESE_TRAD' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_CHINESE_SIMP' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_KOREAN' )
+		);
+
+gChangeButtonWidth = gGap + zstring_width( zstring: gStrChange ) + gGap;
+gSpaceBetweenPopupAndButton = gMarginWidth + (gGap * 2);
+
+gDefaultEncodingPopupWidth = 
+	max	( zstring_width( zstring: '$$$IDS_ENCODING_WESTERN' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_JAPANESE' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_CHINESE_TRAD' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_CHINESE_SIMP' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_KOREAN' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_EUCJP' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_SHIFTJIS' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_JIS' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_EUCCN' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_GBK' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_EUCTW' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_BIG5' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_EUCKR' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_ISO2022KR' )
+		, zstring_width( zstring: '$$$IDS_ENCODING_JOHAB' )
+		, ( gLangaugeScriptPopupWidth + gSpaceBetweenPopupAndButton + gChangeButtonWidth )
+		);
+		
+gFaceNamePopupWidth	= gDefaultEncodingPopupWidth + gMarginWidth + (gGap * 2);
+gFontSizeEditWidth = max_char_width() * 2;
+gColorWellWidth = 22;
+gFontNamePopupWidth		= max_char_width() * 15;
+gFontSettingsTextWidth = 
+	max	( zstring_width( zstring: gStrLanguageScript )
+		, zstring_width( zstring: gStrBaseFontSize)
+		, ( zstring_width( zstring: gStrBodyText ) + gIndentWidth )
+		, zstring_width( zstring: gStrDefault)
+		, zstring_width( zstring: gStrUseSelected)
+		) + max_char_width();
+
+gPopupsWidth = max (gLangaugeScriptPopupWidth, gFontNamePopupWidth, gFaceNamePopupWidth);
+
+dialog( name: '$$$/Dialogs/ConfigDialogText/DialogTitle')
+{
+	view (align_children: align_left)
+	{
+		cluster (name: '$$$/Dialogs/ConfigDialog/InputEnc')
+		{
+			view (align_children: align_row)
+			{
+				static_text (name: '$$$/Dialogs/ConfigDialog/Default');
+				popup( item_id: 'inec', width: gDefaultEncodingPopupWidth);
+			}
+		}
+		cluster (name: '$$$/Dialogs/ConfigDialog/LangSpecificCaption')
+		{
+			view (align_children: align_row)
+			{
+				view (align_children: align_right, width: gFontSettingsTextWidth)
+				{
+					static_text (name: gStrLanguageScript);
+				}
+				popup( item_id: 'lngs', width: gPopupsWidth);
+			}
+			view (align_children: align_row)
+			{
+				view (align_children: align_right, width: gFontSettingsTextWidth)
+				{
+					static_text (name: gStrBodyText);
+				}
+				popup( item_id: 'btfn', width: gPopupsWidth );
+			}
+			view (align_children: align_row)
+			{
+				view (align_children: align_right, width: gFontSettingsTextWidth)
+				{
+					static_text (name: gStrBaseFontSize);
+				}
+				edit_text( item_id: 'btps', width: 4 * max_char_width(), PopupEdit: true, numeric: true);
+			}
+		}
+		cluster (name: '$$$/Dialogs/ConfigDialog/DefaultColCaption')
+		{
+			view (align_children: align_row)
+			{
+				static_text (name: '$$$/Dialogs/ConfigDialog/TextColor');
+				button( item_id: 'colr', picture: true, height: 20, width: gColorWellWidth);
+				static_text (name: '$$$/Dialogs/ConfigDialog/Background');
+				button( item_id: 'back', picture: true, height: 20, width: gColorWellWidth);
+			}
+		}
+		cluster ()
+		{
+			view (align_children: align_row)
+			{
+				check_box(item_id: 'wrap', name: '$$$/Dialogs/ConfigDialogText/WrapLine' );
+			}
+		}
+		ok_cancel();
+	}
+}
+      gStrColors			= '$$$/Dialogs/HTML2PDF/TextSettings/General/Colors';
+gStrText			= '$$$/Dialogs/HTML2PDF/TextSettings/General/Text';
+gStrBackground		= '$$$/Dialogs/HTML2PDF/TextSettings/General/Background';
+gStrLineWrapOptions	= '$$$/Dialogs/HTML2PDF/TextSettings/General/LineWrapOptions';
+gStrWrapLines		= '$$$/Dialogs/HTML2PDF/TextSettings/General/WrapLines';
+gStrReflow			= '$$$/Dialogs/HTML2PDF/TextSettings/General/Reflow';
+gStrLayoutOptions	= '$$$/Dialogs/HTML2PDF/TextSettings/General/LayoutOptions';
+gStrLimitLines		= '$$$/Dialogs/HTML2PDF/TextSettings/General/LimitLines';
+gStrMaxLines		= '$$$/Dialogs/HTML2PDF/TextSettings/General/MaxLines';
+
+gColorTextWidth = max	( zstring_width( zstring: gStrText )
+						, zstring_width( zstring: gStrBackground )
+						) + max_char_width();
+gColorWellWidth = 22;
+gTestWidth1 = gColorTextWidth + gColorWellWidth + max_char_width();
+
+gMaxLinesEditWidth = max_char_width() * 3;
+gMaxLinesWidth = zstring_width( zstring: gStrMaxLines ) + gMaxLinesEditWidth + gMarginWidth;
+gTestWidth2 = max	( gMaxLinesWidth
+					, zstring_width( zstring: gStrWrapLines )
+					, zstring_width( zstring: gStrReflow )
+					, zstring_width( zstring: gStrReflow )
+					);
+
+gColumnWidth = max( gTestWidth1, gTestWidth2 )  / 2;
+
+dialog( )
+{
+	view( align_children: align_left )
+	{
+		cluster( name: gStrColors )
+		{
+			view( align_children: align_row )
+			{
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					view( align_children: align_left, width: gColorTextWidth )
+					{
+						static_text( item_id: 'st01', name: gStrText, next_tab: 'colr' );
+					}
+					view( align_children: align_right )
+					{
+						button( item_id: 'colr', picture: true, height: 20, width: gColorWellWidth, next_tab: 'st02' );
+					}
+				}
+				gap();
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					view( align_children: align_left, width: gColorTextWidth )
+					{
+						static_text( item_id: 'st02', name: gStrBackground, next_tab: 'back' );
+					}
+					view( align_children: align_right )
+					{
+						button( item_id: 'back', picture: true, height: 20, width: gColorWellWidth, next_tab: 'wrap' );
+					}
+				}
+			}
+		}
+		cluster( name: gStrLineWrapOptions )
+		{
+			view( align_children: align_row )
+			{
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					check_box(item_id: 'wrap', name: gStrWrapLines, next_tab: 'refl' );
+				}
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					check_box(item_id: 'refl', name: gStrReflow, next_tab: 'liml' );
+				}
+			}
+		}
+		cluster( name: gStrLayoutOptions )
+		{
+			view( align_children: align_row )
+			{
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					check_box(item_id: 'liml', name: gStrLimitLines, next_tab: 'st03' );
+				}
+				gap();
+				view( align_children: align_row, width: gColumnWidth )
+				{
+					static_text( item_id: 'st03', name: gStrMaxLines, next_tab: 'mxln' );
+					edit_text(item_id: 'mxln', PopupEdit: true, numeric: true, width: gMaxLinesEditWidth );
+				}
+			}
+		}
+	}
+}     gStrInputEncoding		= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/InputEncoding';gStrDefault				= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/Default';gStrFontSettings		= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/FontSettings';gStrLanguageScript		= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/LanguageScript';gStrUseThisEncoding		= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/UseThisEncoding';gStrChange				= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/Change';gStrFontSize			= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/FontSize';gStrTextFont			= '$$$/Dialogs/HTML2PDF/TextSettings/Font/TextFont';gStrTextFontWAcel		= '$$$/Dialogs/HTML2PDF/TextSettings/Font/TextFontWAcel';gStrFontEmbedding		= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/FontEmbedding';gStrEmbedFonts			= '$$$/Dialogs/HTML2PDF/ConfigSettings/Font/EmbedFonts';gIndentWidth  = gGap;gChangeButtonWidth = gGap + zstring_width( zstring: gStrChange ) + gGap;gSpaceBetweenPopupAndButton = gMarginWidth + (gGap * 2);gLangaugeScriptPopupWidth = 	max	( zstring_width( zstring: '$$$IDS_LANG_SCRIPT_WESTERN' )		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_JAPANESE' )		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_CHINESE_TRAD' )		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_CHINESE_SIMP' )		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_KOREAN' )		);gDefaultEncodingPopupWidth = 	max	( zstring_width( zstring: '$$$IDS_ENCODING_WESTERN' )		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_JAPANESE' )		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_CHINESE_TRAD' )		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_CHINESE_SIMP' )		, zstring_width( zstring: '$$$IDS_ENCODING_AUTO_KOREAN' )		, zstring_width( zstring: '$$$IDS_ENCODING_EUCJP' )		, zstring_width( zstring: '$$$IDS_ENCODING_SHIFTJIS' )		, zstring_width( zstring: '$$$IDS_ENCODING_JIS' )		, zstring_width( zstring: '$$$IDS_ENCODING_EUCCN' )		, zstring_width( zstring: '$$$IDS_ENCODING_GBK' )		, zstring_width( zstring: '$$$IDS_ENCODING_EUCTW' )		, zstring_width( zstring: '$$$IDS_ENCODING_BIG5' )		, zstring_width( zstring: '$$$IDS_ENCODING_EUCKR' )		, zstring_width( zstring: '$$$IDS_ENCODING_ISO2022KR' )		, zstring_width( zstring: '$$$IDS_ENCODING_JOHAB' )		, ( gLangaugeScriptPopupWidth + gSpaceBetweenPopupAndButton + gChangeButtonWidth )		);gLangaugeScriptPopupWidth	= gDefaultEncodingPopupWidth 							- gSpaceBetweenPopupAndButton 							- gChangeButtonWidth;gFontSettingsTextWidth = 	max	( zstring_width( zstring: gStrLanguageScript )		, zstring_width( zstring: gStrDefault )		, zstring_width( zstring: gStrUseThisEncoding)		, ( zstring_width( zstring: gStrTextFont ) + gIndentWidth )		) + max_char_width();gFaceNameEditWidth	= gDefaultEncodingPopupWidth + gMarginWidth + (gGap * 2);gFontSizeEditWidth = max_char_width() * 2;dialog( ){	view( align_children: align_left )	{		cluster( name: gStrInputEncoding )		{			view( align_children: align_row )			{				view( align_children: align_row )				{					view( align_children: align_left, width: gFontSettingsTextWidth )					{						static_text( item_id: 'st01', name: gStrDefault, next_tab: 'inec' );					}					view( align_children: align_right )					{						popup( item_id: 'inec', width: gDefaultEncodingPopupWidth, next_tab: 'st02' );					}				}			}		}		cluster( name: gStrFontSettings )		{			view( align_children: align_row )			{				view( align_children: align_left, width: gFontSettingsTextWidth )				{					static_text( item_id: 'st02', name: gStrLanguageScript, next_tab: 'lngs' );				}				view( align_children: align_left )				{					popup( item_id: 'lngs', width: gLangaugeScriptPopupWidth, next_tab: 'chag' );				}				view( alignment: align_fill, align_children: align_right )				{					button( item_id: 'chag', name: gStrChange, next_tab: 'st03' );				}			}			view( align_children: align_row )			{				view( align_children: align_row, width: gFontSettingsTextWidth )				{					gap( width: gIndentWidth );					static_text( item_id: 'st03', name: gStrTextFont, next_tab: 'btfn' );				}				view( align_children: align_left )				{					edit_text( item_id: 'btfn', readonly: true, width: gFaceNameEditWidth, next_tab: 'st04' );				}			}		}		cluster( name: gStrFontSize )		{			view( align_children: align_row )			{				view( align_children: align_left, width: gFontSettingsTextWidth )				{					static_text( item_id: 'st04', name: gStrTextFontWAcel, next_tab: 'btps' );				}				view( align_children: align_left )				{					edit_text( item_id: 'btps', PopupEdit: true, numeric: true, width: gFontSizeEditWidth, next_tab: 'embp' );				}			}		}		cluster( name: gStrFontEmbedding )		{			view( align_children: align_row )			{				check_box(item_id: 'embp', name: gStrEmbedFonts );			}		}	}}     gStrFontSelectionDialog	= '$$$/Dialogs/HTML2PDF/TextSettings/FontSelection/DialogTitle';
+gStrTextFont			= '$$$/Dialogs/HTML2PDF/TextSettings/FontSelection/TextFont';
+
+gFontNamePopupWidth		= max_char_width() * 15;
+gSampleWidth			= gFontNamePopupWidth + (max_char_width() * 2);
+gSampleHeight			= max_char_width() * 3;
+
+dialog( name: gStrFontSelectionDialog, target: 'btfn' )
+{
+	view( align_children: align_left )
+	{
+		cluster( name: gStrTextFont )
+		{
+			view( align_children: align_left )
+			{
+				popup( item_id: 'txfn', width: gFontNamePopupWidth );
+				user_item( item_id: 'txsm', width: gSampleWidth, height: gSampleHeight);
+			}
+		}
+		ok_cancel();
+	}
+}   gStrDefault				= '$$$/Dialogs/ConfigDialog/Default';
+gStrUseSelected			= '$$$/Dialogs/ConfigDialogHtml/UseSelected';
+gStrLanguageScript		= '$$$/Dialogs/ConfigDialog/LangScript';
+gStrChange				= '$$$/Dialogs/ConfigDialog/Change';
+gStrBodyText			= '$$$/Dialogs/ConfigDialogHtml/BodyText';
+gStrBaseFontSize		= '$$$/Dialogs/ConfigDialogHtml/BaseFont';
+gChkBoxWidth			= max (zstring_width(zstring: '$$$/Dialogs/ConfigDialogHtml/RetainBG'), zstring_width(zstring: '$$$/Dialogs/ConfigDialogHtml/UnderLinks'));
+gRetainBGGap			= gChkBoxWidth - zstring_width(zstring: '$$$/Dialogs/ConfigDialogHtml/RetainBG');
+gUnderLinksGap			= gChkBoxWidth - zstring_width(zstring: '$$$/Dialogs/ConfigDialogHtml/UnderLinks');
+
+gIndentWidth  = gGap;
+
+gChangeButtonWidth = gGap + zstring_width( zstring: gStrChange ) + gGap;
+
+gSpaceBetweenPopupAndButton = gMarginWidth + (gGap * 2);
+
+gFontNamePopupWidth		= max_char_width() * 15;
+gSampleWidth			= gFontNamePopupWidth + (max_char_width() *2);
+
+gLangaugeScriptPopupWidth = 
+	max	( zstring_width( zstring: '$$$IDS_LANG_SCRIPT_WESTERN' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_JAPANESE' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_CHINESE_TRAD' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_CHINESE_SIMP' )
+		, zstring_width( zstring: '$$$IDS_LANG_SCRIPT_KOREAN' )
+		);
+
+gDefaultEncoding

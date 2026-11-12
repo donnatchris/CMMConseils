@@ -1,0 +1,37 @@
+[
+  {
+    "source": "Microsoft-Windows-Dhcp-Client%4Admin.evtx",
+    "records": 1042,
+    "first_utc": "2023-09-28 17:05:42.136361",
+    "last_utc": "2026-10-02 19:22:08.528769",
+    "matches": 0
+  },
+  {
+    "source": "Microsoft-Windows-Dhcpv6-Client%4Admin.evtx",
+    "records": 49,
+    "first_utc": "2023-09-28 17:05:42.386853",
+    "last_utc": "2026-07-27 16:55:14.125243",
+    "matches": 0
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "records": 1880,
+    "first_utc": "2023-09-28 17:05:42.929682",
+    "last_utc": "2026-10-08 10:36:32.043405",
+    "matches": 0
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "records": 2216,
+    "first_utc": "2024-06-27 15:58:15.222047",
+    "last_utc": "2026-10-12 06:49:51.812060",
+    "matches": 0
+  },
+  {
+    "source": "Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx",
+    "records": 1325,
+    "first_utc": "2024-03-28 06:02:41.926886",
+    "last_utc": "2026-10-08 10:36:32.160319",
+    "matches": 0
+  }
+]

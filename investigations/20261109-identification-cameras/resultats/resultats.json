@@ -1,0 +1,472 @@
+{
+  "sources_checked": 104,
+  "all_sources_unchanged": true,
+  "local_seed_count": 5205,
+  "candidate_key_count": 16004,
+  "cache_probes": [
+    {
+      "source": "Documents/home/detailv1",
+      "size": 186272,
+      "size_mod_16": 0,
+      "entropy_bits_per_byte": 7.998969458547095,
+      "direct_parse": false,
+      "complete_compression_streams": [],
+      "aes_probe_count": 304076,
+      "validated_aes_decodings": []
+    },
+    {
+      "source": "Documents/home/list313",
+      "size": 1120,
+      "size_mod_16": 0,
+      "entropy_bits_per_byte": 7.8105644821284725,
+      "direct_parse": false,
+      "complete_compression_streams": [],
+      "aes_probe_count": 304076,
+      "validated_aes_decodings": []
+    }
+  ],
+  "decoded_resources": [
+    {
+      "source": "Documents/GZLMiniApps/65184F0C6FA53B47EC0556ED367877FA/Common/I18n/tynxbsaqmkp28eanwp_fr.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/65184F0C6FA53B47EC0556ED367877FA/Common/tynxbsaqmkp28eanwp_basicinfo",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/65184F0C6FA53B47EC0556ED367877FA/Resources/Q5pczC5WYcFKirAK/app-config.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/65184F0C6FA53B47EC0556ED367877FA/Resources/Q5pczC5WYcFKirAK/app-service.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/845E0982BB228133EBA4AF8F99B19DE7/Common/I18n/tyopj6iszgguzbkgqv_fr.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/845E0982BB228133EBA4AF8F99B19DE7/Common/tyopj6iszgguzbkgqv_basicinfo",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/845E0982BB228133EBA4AF8F99B19DE7/Resources/Ts3tKPFwZPBZbPSB/app-config.dark.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/845E0982BB228133EBA4AF8F99B19DE7/Resources/Ts3tKPFwZPBZbPSB/app-config.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/845E0982BB228133EBA4AF8F99B19DE7/Resources/Ts3tKPFwZPBZbPSB/app-service.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/C26D372B40DA308B3DD4E70EC1742F24/Common/I18n/tyeavwo0j4oocvdrf1_fr.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/C26D372B40DA308B3DD4E70EC1742F24/Common/tyeavwo0j4oocvdrf1_basicinfo",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/C26D372B40DA308B3DD4E70EC1742F24/Resources/4FJkMrAjZNwHzsrj/app-config.dark.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/C26D372B40DA308B3DD4E70EC1742F24/Resources/4FJkMrAjZNwHzsrj/app-config.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/C26D372B40DA308B3DD4E70EC1742F24/Resources/4FJkMrAjZNwHzsrj/app-service.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/C26D372B40DA308B3DD4E70EC1742F24/Resources/TZri2pT5K4dwbHRa/app-config.dark.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/C26D372B40DA308B3DD4E70EC1742F24/Resources/TZri2pT5K4dwbHRa/app-config.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/C26D372B40DA308B3DD4E70EC1742F24/Resources/TZri2pT5K4dwbHRa/app-service.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/DEBC993C8E147934D5D78C1FB862452D/Common/I18n/tycryc71qaug8at6yt_fr.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/DEBC993C8E147934D5D78C1FB862452D/Common/tycryc71qaug8at6yt_basicinfo",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/DEBC993C8E147934D5D78C1FB862452D/Functional/Release/jjeCBZeTCtiGC4yw/app-config.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/DEBC993C8E147934D5D78C1FB862452D/Functional/Release/jjeCBZeTCtiGC4yw/app-service.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/DEBC993C8E147934D5D78C1FB862452D/Resources/b8mSkRPbcjWrRhKB/app-config.dark.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/DEBC993C8E147934D5D78C1FB862452D/Resources/b8mSkRPbcjWrRhKB/app-config.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GZLMiniApps/DEBC993C8E147934D5D78C1FB862452D/Resources/b8mSkRPbcjWrRhKB/app-service.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/GodzillaLang/fr_lang.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/RCTAsyncLocalStorage_V1/manifest.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/diagnostic.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/launchProtect.plist",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/metric.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1727236525033.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1727400886729.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1728300573094.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1728446076502.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1730105016152.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1731311136593.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1732153256065.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1732592645377.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1735182155606.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1737628026046.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1738726465452.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1738806563891.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1740729965628.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1741750068674.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1742197415467.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1750661095675.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/5egzavnxtqsczrho_1.0.0_1750924955452.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/__access_time__.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/panel/exclude_cache_clean.json",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Documents/panel/ixar3nxaes57uv6n_1.0.0_1731311136593.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1727400886729.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1727692732486.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1728301403346.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1728380706740.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1728446076502.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1730105016152.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1731311136593.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1732153256065.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1732592645377.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1735182155606.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1737628026046.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1738806563891.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1740729965628.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1741750068674.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1742197415467.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1750661095675.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/jrtivcmjvidhxq2u_1.0.0_1750924955452.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1727236525033.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1727400886729.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1727688770556.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1728300632998.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1728446076502.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1730105016152.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1731311136593.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1732153256065.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1732531295449.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1732592645377.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1735182155606.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1737628026046.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1738726465452.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1738806563891.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1740729965628.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1741750068674.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1742197415467.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1750661095675.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Documents/panel/k56etquy1kdmbtvl_1.0.0_1750924955452.json",
+      "encoding": "base64+json/plist",
+      "translation_dictionary": true
+    },
+    {
+      "source": "Library/Preferences/com.lscsmartconnection.smart.plist",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    },
+    {
+      "source": "Library/Preferences/com.matter.CHIPToolTest.plist",
+      "encoding": "json/plist",
+      "translation_dictionary": false
+    }
+  ],
+  "identity_field_candidates": [],
+  "limits": [
+    "AES hypotheses are bounded probes, not an exhaustive decryption attempt.",
+    "No app binary, no validated cache cipher/KDF, no authenticated original plaintext.",
+    "High entropy and 16-byte alignment do not prove encryption.",
+    "No account connection, no cloud request, no key/token/plaintext export."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "geometry": {
+    "partition_offset_bytes": 4194304,
+    "bytes_per_sector": 512,
+    "sectors_per_cluster": 32,
+    "cluster_bytes": 16384,
+    "reserved_sectors": 6,
+    "fats": 2,
+    "fat_sectors": 15209,
+    "total_sectors": 62325760,
+    "data_absolute_offset": 19771392,
+    "total_clusters": 1946729,
+    "hidden_sectors": 0,
+    "volume_id": "0x6546a41d",
+    "oem": "mkdosfs\u0000"
+  },
+  "entries": [
+    {
+      "inode": "172620304",
+      "path": "CAMERA SALON/record/20231221/20231221_130102_10_0003.mp4",
+      "raw_path": "CAMERA SALON/record/20231221/20231221_130102_10_0003.mp4",
+      "type": "r/r",
+      "deleted": false,
+      "deleted_parent": false,
+      "size": 301072,
+      "start_cluster": 337352,
+      "first_fat_value": 337355,
+      "created": "2023-12-21 13:01:06",
+      "written": "2023-12-21 13:01:06",
+      "accessed": "2025-09-18 00:00:00",
+      "absolute_entry_offset": 5543621024,
+      "raw_hex": "3230323331327e334d503420000023689557325b050023689557c82510980400"
+    }
+  ],
+  "tar_max_bytes": 16777216,
+  "test_inode": "aucun"
+}

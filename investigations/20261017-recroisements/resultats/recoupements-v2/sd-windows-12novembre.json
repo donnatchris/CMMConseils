@@ -1,0 +1,83 @@
+{
+  "sd_volumes": [
+    {
+      "source": "cartes_sd/recherche-SD-01/20261015/journaux/fsstat.txt",
+      "volume_id": "0x386d4397"
+    },
+    {
+      "source": "cartes_sd/recherche-SD-02/20261016/journaux/fsstat.txt",
+      "volume_id": "0x386d4397"
+    },
+    {
+      "source": "cartes_sd/recherche-SD-03/20261016/journaux/fsstat.txt",
+      "volume_id": "0x6546a41d"
+    }
+  ],
+  "registry_entries_examined": 5726,
+  "registry_nov12": [],
+  "registry_literal_hits": [],
+  "setupapi_coverage": [
+    {
+      "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/INF/setupapi.dev.20240130_130906.log",
+      "sections": 84,
+      "first": "2023/09/28 19:04:10.912",
+      "last": "2024/01/30 13:08:55.728"
+    },
+    {
+      "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/INF/setupapi.dev.20240319_220333.log",
+      "sections": 65,
+      "first": "2024/01/30 13:09:07.100",
+      "last": "2024/03/19 22:03:11.582"
+    },
+    {
+      "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/INF/setupapi.dev.20240614_021232.log",
+      "sections": 69,
+      "first": "2024/03/19 22:03:33.492",
+      "last": "2024/06/14 02:07:13.639"
+    },
+    {
+      "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/INF/setupapi.dev.20241203_223829.log",
+      "sections": 121,
+      "first": "2024/06/14 02:12:34.419",
+      "last": "2024/12/03 22:38:29.730"
+    },
+    {
+      "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/INF/setupapi.dev.log",
+      "sections": 55,
+      "first": "2024/12/03 22:38:35.685",
+      "last": "2026/10/12 08:48:23.785"
+    },
+    {
+      "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/INF/setupapi.offline.20220507_052432.log",
+      "sections": 10,
+      "first": "2022/05/07 05:22:56.177",
+      "last": "2022/05/07 05:23:35.071"
+    },
+    {
+      "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/INF/setupapi.offline.20230928_185527.log",
+      "sections": 190,
+      "first": "2023/09/28 18:44:07.168",
+      "last": "2023/09/28 18:55:05.408"
+    },
+    {
+      "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/INF/setupapi.offline.log",
+      "sections": 7,
+      "first": "2023/09/28 18:55:28.148",
+      "last": "2023/09/28 18:59:39.386"
+    },
+    {
+      "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/INF/setupapi.setup.log",
+      "sections": 37,
+      "first": "2023/09/28 19:00:28.591",
+      "last": "2023/09/28 19:01:34.822"
+    },
+    {
+      "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/INF/setupapi.upgrade.log",
+      "sections": 5,
+      "first": "2023/09/23 12:31:31.493",
+      "last": "2023/09/28 18:28:02.653"
+    }
+  ],
+  "setupapi_nov12": [],
+  "limit": "Registre précédemment extrait sélectivement ; SetupAPI trace des installations, pas toutes les insertions. Recherche textuelle des numéros, non décodage universel des structures binaires."
+}

@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "evtx_359_records_275577": true,
+    "event_counts_28_29": true,
+    "no_events_after_1920": true,
+    "fallback_285": true,
+    "ten_recycle_all_match": true,
+    "remote_hashes_unchanged": true,
+    "fallback_hashes_unchanged": true,
+    "local_hashes_unchanged": true,
+    "local_source_hashes_current": true,
+    "plists_hashes_unchanged": true,
+    "plists_source_hashes_current": true,
+    "mft_same_sha256_as_previous": true,
+    "mft_six_selected": true,
+    "five_icloud_one_pairing": true,
+    "istat_confirms_pairing_dates": true,
+    "nine_reports_hashes_current": true,
+    "source_image_133021_hash": true,
+    "new_report_link_targets_exist": true,
+    "no_draft_placeholders": true,
+    "new_context_all_reports": true
+  },
+  "all_passed": true,
+  "link_errors": [],
+  "limits": "Contrôles de cohérence et empreintes; pas validation indépendante de toutes les interprétations ni acquisition nouvelle."
+}

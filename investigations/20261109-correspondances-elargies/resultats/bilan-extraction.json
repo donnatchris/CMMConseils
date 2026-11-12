@@ -1,0 +1,29 @@
+{
+  "total_results": 4238,
+  "status": {
+    "decoded": 3841,
+    "not_decoded": 395,
+    "error": 2
+  },
+  "methods": {
+    "office_xml_all_parts": 172,
+    "pdftotext": 2965,
+    "tesseract_image": 543,
+    "antiword": 6,
+    "tesseract_sparse_pages": 666,
+    "xlrd_all_sheets": 8,
+    "utf8_replacement": 145,
+    "rtf_approximate": 2
+  },
+  "limitations": {
+    "unsupported_format": 91,
+    "small_image_not_ocred": 298,
+    "ValueError": 1,
+    "rtf_not_full_parser": 2,
+    "pdf_text_RuntimeError": 6,
+    "pdf_page_count_unverified": 6,
+    "TimeoutExpired": 1
+  },
+  "ocr_pages": 2576,
+  "ocr_images": 543
+}

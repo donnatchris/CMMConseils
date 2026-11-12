@@ -1,0 +1,37 @@
+sion] $CimSession,
+
+    [Parameter(Mandatory=$true,ParameterSetName="FeatureNameSet")]
+    [int] $FeatureName,
+
+    [Parameter(Mandatory=$true,ParameterSetName="NameSet")]
+    [string] $Name,
+
+    [Parameter(Mandatory=$true,ParameterSetName="InstanceIdSet")]
+    [string] $InstanceId,
+
+    [Parameter(Mandatory=$true,
+        ParameterSetName="InputObjectSet",
+        ValueFromPipeline=$true)]
+    [Microsoft.Management.Infrastructure.CimInstance[]] $InputObject
+    )
+
+    Begin {
+        $cmdletName = "Enable-NetworkSwitchFeature"
+        $nsNamespace = Get-NetworkSwitchImplementationNamespace -CimSession $CimSession
+    }
+
+    Process {
+        if (-not $nsNamespace) { return }
+
+        if ($InputObject) {
+            if ($input) {
+                $features = $input[0]
+            }
+            else {
+                $features = $InputObject
+            }
+        }
+        else {
+            $features = Get-NetworkSwitchInstanceNoFilter -Namespace $nsNamespace `
+                                                          -ClassName MSFT_Feature `
+                                                          -CimSession $CimS

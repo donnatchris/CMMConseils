@@ -1,0 +1,152 @@
+[
+  {
+    "path": "scripts/analyse_sift.py",
+    "size": 7053,
+    "sha256": "b830645a15610ccbd4920ed8e25d0a3feafd52bd947d9e6d7d41861b68df84b7"
+  },
+  {
+    "path": "scripts/comparer_factures.py",
+    "size": 1133,
+    "sha256": "94e0b5e9c6a80d67ff46b8373d4f873f70754ec86550bdfd517f39df5f211ff6"
+  },
+  {
+    "path": "scripts/phone_pv.py",
+    "size": 3012,
+    "sha256": "ec04893241c1cbf0b9c8460be3308aa4575e90037c30c3e7ee262c05d68b9447"
+  },
+  {
+    "path": "scripts/revoir_candidats.py",
+    "size": 1681,
+    "sha256": "7900253639b6bf94119584e243d1234d88b7c83fd3029b54642bd0e8538ea478"
+  },
+  {
+    "path": "scripts/revoir_candidats_v2.py",
+    "size": 1666,
+    "sha256": "28c1d86dca8d5a26c1193028a59c6544e50f8611082f5a50a10c8b0b0224aa6a"
+  },
+  {
+    "path": "scripts/revoir_candidats_v3.py",
+    "size": 1752,
+    "sha256": "d3892ffb115b3a8e19ea0f2e4ab977d5a6d30994910025b83fa0d79e1e3fb13b"
+  },
+  {
+    "path": "scripts/selection_pdf.py",
+    "size": 1213,
+    "sha256": "1666d74de8430f750ed6417fdea243eb977574d2d7aa64676c087eef3e94a52f"
+  },
+  {
+    "path": "scripts/transcrire.py",
+    "size": 1242,
+    "sha256": "2a6826c4dbcae5d1c037cec983a805a2a0157b31a65b6269c34518dde948488a"
+  },
+  {
+    "path": "resultats/comparaison-factures.json",
+    "size": 732,
+    "sha256": "7207541eef8f71f383d3cd32087779311d495c2cdd2b0057db1a76a12e2f9a56"
+  },
+  {
+    "path": "resultats/controle-sources.json",
+    "size": 169,
+    "sha256": "7a52ff657d65dc6fec3299eae93ac4ee110fb9099063a3215b261e975216c665"
+  },
+  {
+    "path": "resultats/empreintes-transfert-sift.json",
+    "size": 3469,
+    "sha256": "e13dc6f2292b30a7c915149f1d709159fcd27b7e5391e58015030fece3c3c42e"
+  },
+  {
+    "path": "resultats/limites-pieces-jointes.json",
+    "size": 1167,
+    "sha256": "022d4dcc40c46aa713ba9d70f70f17d7f5ff858258fe40741806fdada658360b"
+  },
+  {
+    "path": "resultats/manifest-controle.json",
+    "size": 317,
+    "sha256": "953c08f9e781643f6bd447621743e0239616c4b70980393e9a32a77db60ef0bd"
+  },
+  {
+    "path": "resultats/mini-texte-resume.json",
+    "size": 229,
+    "sha256": "e780b85bc42b5d65bfde1ea8f8fb2637ae0784c4386daacb3ba2b04548b1a223"
+  },
+  {
+    "path": "resultats/qualification-candidats.json",
+    "size": 823,
+    "sha256": "c00427f2d7b16c6c9a05a12039f1b1c01ec8ef75a0c920a7ab7da2e208381a3f"
+  },
+  {
+    "path": "resultats/sift-resume-provisoire.json",
+    "size": 1147,
+    "sha256": "9ef1898d77e68c47c02335c9a2023a206c061a5b2e76203914c9a312a06e7757"
+  },
+  {
+    "path": "resultats/sms-fenetre-resume-corrige.json",
+    "size": 1992,
+    "sha256": "07b1235ee710d5efed0a173acc49d7981a63f7a0e6413859f90d27fa5dbcf44a"
+  },
+  {
+    "path": "resultats/sms-fenetre-resume.json",
+    "size": 1722,
+    "sha256": "d472aa2e7a69d15efda9739dae43c36d038de907fbd8e5d22f6ab084f8b51373"
+  },
+  {
+    "path": "resultats/transcription-meta.json",
+    "size": 320,
+    "sha256": "7e4a356541e4c2af8ff008521913d4cb623205cf72343e0ecba7553c365603fd"
+  },
+  {
+    "path": "journaux/audio.txt",
+    "size": 62,
+    "sha256": "c7be328efb898f98c7065704563d2ed02bb78468645f2344abe487b58b51d4ee"
+  },
+  {
+    "path": "journaux/frames-detail.txt",
+    "size": 288,
+    "sha256": "458edc8fbb60b83b37029397c530ac7fa23c3c9d13e357655d74c3b818908313"
+  },
+  {
+    "path": "journaux/frames.txt",
+    "size": 380,
+    "sha256": "fad8f48a140442592487893686e6dd0361ba10df4902ccce735c5abde9c01483"
+  },
+  {
+    "path": "journaux/installation-audio.txt",
+    "size": 6489,
+    "sha256": "a7399ad5e6b2dda6ed884d59dca2e51233cd3d6039c2957d08a29c76a2b48ac3"
+  },
+  {
+    "path": "journaux/montage.txt",
+    "size": 690,
+    "sha256": "b16af782c5d5dee22bee1dab401c862815631e6c05bfb3e26c7d140cdc399e94"
+  },
+  {
+    "path": "journaux/sift.stderr.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "journaux/sift.stdout.txt",
+    "size": 1021,
+    "sha256": "a950b207ec921313f7c646ae427cdee8877ff9d2596d78764d82fd87e02b6c7d"
+  },
+  {
+    "path": "journaux/transcription-v2.txt",
+    "size": 177,
+    "sha256": "193255eafe5aa1171ba1668308597039ed322c29ad967373910802598f3ad626"
+  },
+  {
+    "path": "journaux/transcription.txt",
+    "size": 1115,
+    "sha256": "7613c1d8909edcb214974cd44d912669618a66cf2da998f4dad0c95349be872f"
+  },
+  {
+    "path": "reprise-20261109.md",
+    "size": 6520,
+    "sha256": "3e69bbc7dde093c72475573709080ce25f0172bbb21ee78126dbb22a0460bbe4"
+  },
+  {
+    "path": "prive/verification-20261109-v3/review.json",
+    "size": 24237759,
+    "sha256": "cdef62672b8d0c005b2488be3148634be85a18ff9c43aeb5d4730ee77c200824"
+  }
+]

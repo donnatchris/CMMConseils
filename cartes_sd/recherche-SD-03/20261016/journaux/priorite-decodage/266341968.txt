@@ -1,0 +1,9 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5e47d2866ec0] wrong sample count
+    Last message repeated 1 times
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5e47d2866ec0] Packet corrupt (stream = 1, dts = 2098).
+[NULL @ 0x5e47d2869440] Invalid NAL unit size (56945 > 19326).
+[NULL @ 0x5e47d2869440] missing picture in access unit with size 19377
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x5e47d2866dc0] corrupt input packet in stream 1
+[h264 @ 0x5e47d2878240] Invalid NAL unit size (56945 > 19326).
+[h264 @ 0x5e47d2878240] Error splitting the input into NAL units.
+[vist#0:1/h264 @ 0x5e47d28cbc40] Error submitting packet to decoder: Invalid data found when processing input

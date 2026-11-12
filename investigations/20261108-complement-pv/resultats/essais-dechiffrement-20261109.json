@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-09",
+  "passwords_recorded": false,
+  "attempts": [
+    {
+      "attempt": 2,
+      "events": [
+        {
+          "status": "initialization_error",
+          "error_class": "IncorrectPassphraseError"
+        }
+      ],
+      "files_extracted": 0
+    },
+    {
+      "attempt": 3,
+      "events": [
+        {
+          "status": "initialization_error",
+          "error_class": "IncorrectPassphraseError"
+        }
+      ],
+      "files_extracted": 0
+    }
+  ]
+}

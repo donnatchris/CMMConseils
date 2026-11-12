@@ -1,0 +1,53 @@
+/media/shared/AGENTS.md
+# Forensic workspace instructions
+
+## SIFT VM access
+
+The SIFT forensic VM is available over SSH:
+
+```bash
+ssh sift
+```
+
+Use the SIFT VM for forensic tooling and analysis.
+
+## Evidence handling rules
+
+* Never modify source evidence.
+* Never write to master forensic images.
+* Prefer read-only mounts for evidence.
+* Perform analysis on working copies when possible.
+* Record hashes of evidence and important exported artifacts.
+* Do not delete or overwrite forensic outputs without explicit approval.
+* Keep commands and analysis steps reproducible.
+
+## Scope
+
+The main objective is to identify forensic artifacts that can indicate whether a Windows device was accessed, used, modified, or had files altered/deleted during a specified time period.
+
+Relevant sources may include:
+
+* NTFS metadata
+* $MFT
+* $UsnJrnl
+* Windows Event Logs
+* Registry
+* Prefetch
+* Amcache
+* Shimcache
+* LNK files
+* Jump Lists
+* SRUM
+* Recycle Bin
+* deleted/unallocated files
+* filesystem timelines
+
+## Reporting
+
+Clearly distinguish:
+
+* observed facts
+* interpretation
+* hypotheses
+* limitations
+

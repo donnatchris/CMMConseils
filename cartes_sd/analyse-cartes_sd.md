@@ -1,8 +1,20 @@
 # Analyse des cartes SD
 
+**Relecture de cohérence : 12 novembre 2026.** Harmonisation avec le [rapport final réorganisé](../RAPPORT-FINAL-SADEDINE-2026.md), sans nouvelle acquisition ni nouvelle analyse des supports. Les campagnes et décomptes techniques conservent leurs dates et leurs périmètres. Le détail de cette révision et les empreintes actuelles figurent dans le [dossier de relecture](../investigations/20261112-coherence-rapports/compte-rendu.md).
+
+## Actualisation du 10 novembre 2026 — lecture courante
+
+Le PV est disponible et a été consulté. Les repères à retenir sont la mise sous scellés après 14 h 19 le 15 octobre, l’ouverture du PC à 10 h 41 et celle des téléphones à 11 h 30 le 28 ; 10 h 22 est l’arrivée de la cliente et 19 h 20 la clôture, sans heure individuelle de restitution. Les mentions d’indisponibilité et bornes déclaratives des sections datées ci-dessous décrivent leurs campagnes historiques. Les caméras et cartes n’étaient pas sous scellés. Les nouvelles traces système TP-03 ne prouvent ni un accès aux caméras ni une modification des vidéos. Cette relecture ne réexécute pas les scans/récupérations SD ; elle maintient les anomalies, lacunes et limites déjà établies. Voir la [relecture transversale](../investigations/20261110-telephones/compte-rendu.md), qui distingue les nouveaux contrôles des reprises documentaires. Les empreintes historiques des rapports restent attachées à leurs versions datées.
+
+
+## Actualisation documentaire du 19 octobre 2026
+
+Ce document conserve le compte rendu d’acquisition. Les nouvelles analyses du retour de la cliente figurent dans le [complément du 19 octobre](../investigations/20261019-retour-cliente/compte-rendu.md) et les rapports SD-01/02/03 et transversal. La cliente précise **février 2024, caméra de la chambre**, une installation après mars 2023 et un fonctionnement continu de la terrasse. Ces déclarations ne changent ni les empreintes ni les dates d’acquisition. Le PV n’était pas disponible lors de cette campagne d’octobre ; il a depuis été consulté le 8 novembre ; aucune réinitialisation ou suppression intentionnelle nouvelle n’est démontrée.
+
+
 - **Auteur** : Christophe Donnat - DonnatDev - christophe@donnat.dev
 - **Client** : Mme Sadedine Malika - DMM Conseils - dmmconseils@hotmail.com
-- **Matériel examiné** : OP-01 (voir ci-dessous)
+- **Matériels examinés** : cartes SD-01, SD-02 et SD-03 (chambre, terrasse, salon)
 - **Début de l'analyse** : 12 octobre 2026 à 10:06:00
 - **Remarques** : RAS
 
@@ -24,9 +36,18 @@
 - **Système de fichiers:** FAT32
 - **Numéro de série USB déclaré	par le lecteur :** 121220160204
 
+### Carte SD-03
+
+- **Référence forensic :** SD-03
+- **Capacité commerciale :** 32 Go
+- **Système de fichiers :** FAT32
+- **Identification :** référence et description « salon » dans `SD03.info` ; aucun numéro de série matériel propre à la carte n’est établi.
+
+La marque est transcrite **« ScanDisk » dans l’attestation**, **« SanDisk » dans les notes d’acquisition** ; cette divergence est conservée sans prétendre à une nouvelle vérification physique. Le numéro USB `121220160204` est celui du **lecteur**, pas un identifiant individuel des cartes.
+
 ### État antérieur
 
-Les cartes SD ont été remises au prestataire le 07/10/2026 à 16h15, avec adaptateur USB.
+Les notes indiquent une remise le **07/10/2026 à 16h15**, avec adaptateur USB ; l’[attestation](../remise-documents/attestation-de-remise.md) est datée du **06/10/2026**. Cette divergence documentaire reste non résolue.
 
 Le prestataire a inscrit les numéros 1, 2 et 3 dessus, correspondant aux identifiants attribués lors de la remise du matériel:
 
@@ -46,19 +67,19 @@ Le 12/10/2026 à 10h00 environ, la carte SD-01 a été branchée sur le PC Linux
 
 #### Acquisition de l'image disque avec Guymager
 
-Le 12/10/2026 à 10h17 environ, le prestataire a lancé la l'acquisition de l'image disque de la carte SD-01 avec le logiciel Guymager.
+Le 12/10/2026 à 10h17 environ, le prestataire a lancé l'acquisition de l'image disque de la carte SD-01 avec le logiciel Guymager.
 
 L'acquisition a été réalisée en mode "read-only" pour éviter toute modification des données présentes sur la carte SD.
 
 #### Résultat de l'acquisition
 
-Hash de la carte SD-02 :
+SHA-256 du flux source SD-01 calculé pendant l’acquisition :
 `42fa8f6d3351a4ba2446b267637f51a0c1e44df4abd31b002a1ac2212c023c09`
 
-Hash SHA256 de l'image disque de la carte SD-02 :
+SHA-256 du flux relu dans l’image SD-01 :
 `42fa8f6d3351a4ba2446b267637f51a0c1e44df4abd31b002a1ac2212c023c09`
 
-> Les empreintes SHA256 de la carte SD-01 et de l'image disque obtenue sont identiques, ce qui confirme que l'image disque est une copie exacte de la carte SD-01.
+> Le SHA-256 du flux acquis et celui du flux relu dans l’image SD-01 concordent ; Guymager indique une vérification de l’image réussie. `Source verification: off` : il ne s’agit pas d’une seconde lecture indépendante de contrôle de la carte après acquisition. Ces valeurs portent sur les données décompressées, pas sur les fichiers segments EWF.
 
 Contenu du fichier `SD01.info`
 
@@ -195,19 +216,19 @@ Le 12/10/2026 à 13h00 environ, la carte SD-02 a été branchée sur le PC Linux
 
 #### Acquisition de l'image disque avec Guymager
 
-Le 12/10/2026 à 13h07 environ, le prestataire a lancé la l'acquisition de l'image disque de la carte SD-02 avec le logiciel Guymager.
+Le 12/10/2026 à 13h07 environ, le prestataire a lancé l'acquisition de l'image disque de la carte SD-02 avec le logiciel Guymager.
 
 L'acquisition a été réalisée en mode "read-only" pour éviter toute modification des données présentes sur la carte SD.
 
 #### Résultat de l'acquisition
 
-Hash de la carte SD-02 :
+SHA-256 du flux source SD-02 calculé pendant l’acquisition :
 `ba77335e75bdcb140922d3275fefea4441bbc4fdac3dea846a30bd37960d1f9d`
 
-Hash SHA256 de l'image disque de la carte SD-02 :
+SHA-256 du flux relu dans l’image SD-02 :
 `ba77335e75bdcb140922d3275fefea4441bbc4fdac3dea846a30bd37960d1f9d`
 
-> Les empreintes SHA256 de la carte SD-02 et de l'image disque obtenue sont identiques, ce qui confirme que l'image disque est une copie exacte de la carte SD-02.
+> Le SHA-256 du flux acquis et celui du flux relu dans l’image SD-02 concordent ; Guymager indique une vérification de l’image réussie. `Source verification: off` : il ne s’agit pas d’une seconde lecture indépendante de contrôle de la carte après acquisition. Ces valeurs portent sur les données décompressées, pas sur les fichiers segments EWF.
 
 Contenu du fichier `SD02.info`
 
@@ -360,23 +381,23 @@ n/a                               SD02.E15
 
 #### Branchement sur le PC Linux du prestataire
 
-Le 12/10/2026 à 14h00 environ, la carte SD-01 a été branchée sur le PC Linux du prestataire via l'adaptateur USB fourni par la cliente.
+Le 12/10/2026 à 14h00 environ, la carte SD-03 a été branchée sur le PC Linux du prestataire via l'adaptateur USB fourni par la cliente.
 
 #### Acquisition de l'image disque avec Guymager
 
-Le 12/10/2026 à 14h03 environ, le prestataire a lancé la l'acquisition de l'image disque de la carte SD-03 avec le logiciel Guymager.
+Le 12/10/2026 à 14h03 environ, le prestataire a lancé l'acquisition de l'image disque de la carte SD-03 avec le logiciel Guymager.
 
 L'acquisition a été réalisée en mode "read-only" pour éviter toute modification des données présentes sur la carte SD.
 
 #### Résultat de l'acquisition
 
-Hash de la carte SD-03 :
+SHA-256 du flux source SD-03 calculé pendant l’acquisition :
 `7a59d086d809d27bdb2f203e7449c024e50ca919e528792c151cb8a604c852c0`
 
-Hash SHA256 de l'image disque de la carte SD-03 :
+SHA-256 du flux relu dans l’image SD-03 :
 `7a59d086d809d27bdb2f203e7449c024e50ca919e528792c151cb8a604c852c0`
 
-> Les empreintes SHA256 de la carte SD-03 et de l'image disque obtenue sont identiques, ce qui confirme que l'image disque est une copie exacte de la carte SD-03.
+> Le SHA-256 du flux acquis et celui du flux relu dans l’image SD-03 concordent ; Guymager indique une vérification de l’image réussie. `Source verification: off` : il ne s’agit pas d’une seconde lecture indépendante de contrôle de la carte après acquisition. Ces valeurs portent sur les données décompressées, pas sur les fichiers segments EWF.
 
 Contenu du fichier `SD03.info`
 

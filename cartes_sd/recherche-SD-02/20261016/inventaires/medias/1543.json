@@ -1,0 +1,97 @@
+{
+  "inode": "1543",
+  "path": "CAMERA TERRASSE/.record_tmp/20241112_234855_10.mp4",
+  "size": 6135808,
+  "deleted": false,
+  "start_cluster": 1244786,
+  "method": "lecture chaîne FAT active",
+  "read_size": 6135808,
+  "sha256": "359f487a4e7b8541dd4edb82fff95b7a7f14f49a8db18a109e1da21d1dbe4f9d",
+  "allocated_chain_clusters": 380,
+  "mp4_structure": {
+    "size": 6135808,
+    "boxes": [
+      {
+        "path": "/ftyp",
+        "offset": 0,
+        "size": 28
+      },
+      {
+        "path": "/mdat",
+        "offset": 28,
+        "size": 6135780
+      }
+    ],
+    "errors": [],
+    "tracks": []
+  },
+  "stsd": [],
+  "ffprobe": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-show_format",
+      "-show_streams",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x56224088f680] moov atom not found\n/proc/self/fd/4: Invalid data found when processing input\n"
+  },
+  "metadata": {},
+  "decode": {
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "warning",
+      "-threads",
+      "1",
+      "-i",
+      "/proc/self/fd/4",
+      "-fps_mode",
+      "passthrough",
+      "-enc_time_base",
+      "-1",
+      "-f",
+      "null",
+      "-"
+    ],
+    "returncode": 183,
+    "stderr_bytes": 259,
+    "log": "journaux/decodage/1543.txt"
+  },
+  "packets": {
+    "argv": [
+      "ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_packets",
+      "-show_entries",
+      "packet=pts,dts",
+      "-of",
+      "json",
+      "/proc/self/fd/4"
+    ],
+    "returncode": 1,
+    "stderr": "[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5dc25f90a700] moov atom not found\n/proc/self/fd/4: Invalid data found when processing input\n",
+    "summary": {
+      "dts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      },
+      "pts": {
+        "count": 0,
+        "nonincreasing": 0,
+        "max_delta": null,
+        "min_delta": null
+      }
+    },
+    "raw_output_sha256": "8e1d794b49e35ea828279c6a8c95282bbb9a0787cf5c9385256c2cc9d17baeb7"
+  }
+}

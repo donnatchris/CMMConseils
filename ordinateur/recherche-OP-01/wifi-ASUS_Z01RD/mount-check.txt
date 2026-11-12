@@ -1,0 +1,8 @@
+TARGET       SOURCE                        FSTYPE OPTIONS
+/mnt/windows /mnt/dislocker/dislocker-file fuse   ro,relatime,user_id=0,group_id=0,allow_other
+NAME         SIZE FSTYPE    RO TYPE MOUNTPOINT
+loop14     476.9G            1 loop 
+├─loop14p1   260M vfat       1 part 
+├─loop14p2    16M            1 part 
+├─loop14p3 475.8G BitLocker  1 part 
+└─loop14p4   848M ntfs       1 part 

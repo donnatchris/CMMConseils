@@ -1,0 +1,53 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55e6c9422ec0] wrong sample count
+    Last message repeated 1 times
+[NULL @ 0x55e6c94270c0] Invalid NAL unit size (16777216 > 1420).
+[NULL @ 0x55e6c94270c0] missing picture in access unit with size 1424
+[NULL @ 0x55e6c94270c0] Invalid NAL unit size (0 > 1643).
+[NULL @ 0x55e6c94270c0] missing picture in access unit with size 1647
+[h264 @ 0x55e6c9461f00] error while decoding MB 1 53, bytestream -6
+[vist#0:1/h264 @ 0x55e6c948aa80] corrupt decoded frame
+[h264 @ 0x55e6c9461f00] Invalid NAL unit size (16777216 > 1420).
+[h264 @ 0x55e6c9461f00] Error splitting the input into NAL units.
+[NULL @ 0x55e6c94270c0] Invalid NAL unit size (1174405120 > 1951).
+[NULL @ 0x55e6c94270c0] missing picture in access unit with size 2030
+[vist#0:1/h264 @ 0x55e6c948aa80] Error submitting packet to decoder: Invalid data found when processing input
+[h264 @ 0x55e6c9461f00] Invalid NAL unit size (0 > 1643).
+[h264 @ 0x55e6c9461f00] Error splitting the input into NAL units.
+[vist#0:1/h264 @ 0x55e6c948aa80] Error submitting packet to decoder: Invalid data found when processing input
+[h264 @ 0x55e6c9461f00] Invalid NAL unit size (1174405120 > 1951).
+[h264 @ 0x55e6c9461f00] Error splitting the input into NAL units.
+[vist#0:1/h264 @ 0x55e6c948aa80] Error submitting packet to decoder: Invalid data found when processing input
+[aac @ 0x55e6c944de80] Reserved bit set.
+[aac @ 0x55e6c944de80] channel element 0.0 is not allocated
+[aist#0:0/aac @ 0x55e6c95b9e80] Error submitting packet to decoder: Invalid data found when processing input
+[aac @ 0x55e6c944de80] Reserved bit set.
+[aac @ 0x55e6c944de80] channel element 0.0 is not allocated
+[aist#0:0/aac @ 0x55e6c95b9e80] Error submitting packet to decoder: Invalid data found when processing input
+[aac @ 0x55e6c944de80] Reserved bit set.
+[aac @ 0x55e6c944de80] channel element 0.0 is not allocated
+[aist#0:0/aac @ 0x55e6c95b9e80] Error submitting packet to decoder: Invalid data found when processing input
+[aac @ 0x55e6c944de80] Reserved bit set.
+[aac @ 0x55e6c944de80] channel element 0.0 is not allocated
+[aist#0:0/aac @ 0x55e6c95b9e80] Error submitting packet to decoder: Invalid data found when processing input
+[aac @ 0x55e6c944de80] Reserved bit set.
+[aac @ 0x55e6c944de80] channel element 0.0 is not allocated
+[aist#0:0/aac @ 0x55e6c95b9e80] Error submitting packet to decoder: Invalid data found when processing input
+[NULL @ 0x55e6c94270c0] Invalid NAL unit size (27983872 > 2613).
+[NULL @ 0x55e6c94270c0] missing picture in access unit with size 2617
+[aac @ 0x55e6c944de80] Reserved bit set.
+[aac @ 0x55e6c944de80] channel element 0.0 is not allocated
+[aist#0:0/aac @ 0x55e6c95b9e80] Error submitting packet to decoder: Invalid data found when processing input
+[aac @ 0x55e6c944de80] Reserved bit set.
+[aac @ 0x55e6c944de80] channel element 0.0 is not allocated
+[aist#0:0/aac @ 0x55e6c95b9e80] Error submitting packet to decoder: Invalid data found when processing input
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55e6c9422ec0] Packet corrupt (stream = 1, dts = 41373).
+[NULL @ 0x55e6c94270c0] Invalid NAL unit size (1291845644 > 1241).
+[NULL @ 0x55e6c94270c0] missing picture in access unit with size 1245
+[in#0/mov,mp4,m4a,3gp,3g2,mj2 @ 0x55e6c9422dc0] corrupt input packet in stream 1
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55e6c9422ec0] stream 1, offset 0x367e13: partial file
+[h264 @ 0x55e6c9461f00] Invalid NAL unit size (27983872 > 2613).
+[h264 @ 0x55e6c9461f00] Error splitting the input into NAL units.
+[vist#0:1/h264 @ 0x55e6c948aa80] Error submitting packet to decoder: Invalid data found when processing input
+[h264 @ 0x55e6c9461f00] Invalid NAL unit size (1291845644 > 1241).
+[h264 @ 0x55e6c9461f00] Error splitting the input into NAL units.
+[vist#0:1/h264 @ 0x55e6c948aa80] Error submitting packet to decoder: Invalid data found when processing input

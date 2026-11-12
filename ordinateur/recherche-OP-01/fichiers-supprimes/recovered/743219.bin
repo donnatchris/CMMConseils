@@ -1,0 +1,315 @@
+dules::NativeModuleManager: AddModuleToPie: m365link
+2026-10-12T06:50:18.954917+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: AddModuleToPie: logscollection
+2026-10-12T06:50:18.954917+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: AddModuleToPie: publicpreview
+2026-10-12T06:50:18.954917+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: AddModuleToPie: vdi
+2026-10-12T06:50:18.954917+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: AddModuleToPie: hostcapabilities
+2026-10-12T06:50:18.970541+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: AddModuleToPie: noisesuppression
+2026-10-12T06:50:18.970541+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: AddModuleToPie: recordingdetector
+2026-10-12T06:50:18.970541+02:00 0x00003978 <DBG>  RecordingDetectorModule: [ExternalRecording] AddToPie: registering PIE methods
+2026-10-12T06:50:18.970541+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: AddModuleToPie: teamauseractivityrecall
+2026-10-12T06:50:18.970541+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: AddModuleToPie: devicediscovery
+2026-10-12T06:50:18.970541+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_webview_initialized' doesn't meet minimum privacy classification
+2026-10-12T06:50:18.970541+02:00 0x00003978 <INFO> WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Setting webview background color to: #00000000
+2026-10-12T06:50:18.970541+02:00 0x00003978 <INFO> WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Trying to get UserAgent string
+2026-10-12T06:50:18.970541+02:00 0x00003978 <INFO> WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Trying to append UserAgent string: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0 Teams/26213.1006.5014.9784/49
+2026-10-12T06:50:18.970541+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Memory usage level changed to: Normal
+2026-10-12T06:50:18.970541+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) SetIsVisible: visible=true
+2026-10-12T06:50:18.970541+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_user_permissions' doesn't meet minimum privacy classification
+2026-10-12T06:50:18.970541+02:00 0x00003978 <INFO> WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Granting permission by default: MICROPHONE
+2026-10-12T06:50:18.970541+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_user_permissions' doesn't meet minimum privacy classification
+2026-10-12T06:50:18.970541+02:00 0x00003978 <INFO> WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Granting permission by default: CAMERA
+2026-10-12T06:50:18.970541+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_user_permissions' doesn't meet minimum privacy classification
+2026-10-12T06:50:18.970541+02:00 0x00003978 <INFO> WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Granting permission by default: WINDOW_MANAGEMENT
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://local.teams.microsoft.invalid/shared-files/* to web intercept filter (no source kinds)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://trustedui.invalid\?* to web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://trustedui.invalid/ to web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://trustedui.invalid/* to web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://trustedui.invalid/index.html\?* to web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://trustedui.invalid/teams-modular-packages/hashed-assets/* to web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://trustedui.invalid/index.html to web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://trustedui.invalid/\?* to web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://trustedui.invalid to web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://trustedui-statics-apl.invalid/* to web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://local.teams.microsoft.invalid/client-bindings/* to web intercept filter (no source kinds)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2 to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://statics.teams.cdn.office.net/teams-modular-packages/hashed-assets/* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/intl-v2/* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2\?* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://statics.teams.cdn.office.net/teams-modular-packages/hashed-assets/intl-v2/* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/msteams/* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://statics.teams.cdn.office.net/teams-modular-packages/hashed-assets/msteams/* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/\?* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/ to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/index.html\?* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/index.html to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-telemetry-web-worker-742a87b957697402.js to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/service-worker-noop.js\?* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/service-worker-noop.js to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-editor-dedicated-index-readjuster-web-worker-bc7bcab7c97785ad.js\?* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-editor-dedicated-index-readjuster-web-worker-bc7bcab7c97785ad.js to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-editor-shared-index-readjuster-web-worker-7ab51b73c894a605.js\?* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-editor-shared-index-readjuster-web-worker-7ab51b73c894a605.js to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-telemetry-web-worker-742a87b957697402.js\?* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-web-worker-7e19b2efd9db16cf.js\?* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-web-worker-7e19b2efd9db16cf.js to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-web-worker-fc4feaf923272757.js\?* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-web-worker-fc4feaf923272757.js to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-webrtc-web-worker-84edbf3c5f7d1987.js\?* to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.microsoft.com/v2/worker/precompiled-webrtc-web-worker-84edbf3c5f7d1987.js to web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.live.com/desktop/* to web intercept filter (no source kinds)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.live.com/maglev/custom-video-background/upload to web intercept filter (no source kinds)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.live.com/maglev/custom-video-background/upload/v2 to web intercept filter (no source kinds)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Adding https://teams.live.com/maglev/custom-video-background/tenant-image\?* to web intercept filter (no source kinds)
+2026-10-12T06:50:18.986159+02:00 0x00003978 <INFO> WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Trying to append UserAgent string: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0 Teams/26213.1006.5014.9784/49
+2026-10-12T06:50:18.986159+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_webview_process_info' doesn't meet minimum privacy classification
+2026-10-12T06:50:19.001792+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_webview_process_info' doesn't meet minimum privacy classification
+2026-10-12T06:50:19.001792+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_webview_process_info' doesn't meet minimum privacy classification
+2026-10-12T06:50:19.001792+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_sensitivity_label_event' doesn't meet minimum privacy classification
+2026-10-12T06:50:19.001792+02:00 0x00003978 <DBG>  WebViewControlWin::OnSensitivityInfoChanged: Allowlist not set, ignoring sensitivity info change.
+2026-10-12T06:50:19.001792+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_webview_process_info' doesn't meet minimum privacy classification
+2026-10-12T06:50:19.128216+02:00 0x00003978 <INFO> WebViewScriptInjector: Script Injection Completed for id :1
+2026-10-12T06:50:19.128216+02:00 0x00003978 <DBG>  NonRenderingCore: (hwnd=0x00000000) Teams Preload Script injected: true
+2026-10-12T06:50:19.128216+02:00 0x00003978 <INFO> WebViewScriptInjector: Script Injection Completed for id :2
+2026-10-12T06:50:19.128216+02:00 0x00003978 <INFO> NonRenderingCore: (hwnd=0x00000000) PIE Bindings injection result: true
+2026-10-12T06:50:19.128216+02:00 0x00003978 <DBG>  NonRenderingCore: (hwnd=0x00000000) About to Start navigation
+2026-10-12T06:50:19.128216+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) [NewWindowCreation] StartNavigate: 
+2026-10-12T06:50:19.144242+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: AddDevToolsProtocolEventReceived: Log.entryAdded
+2026-10-12T06:50:19.144242+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: AddDevToolsProtocolEventReceived: Runtime.consoleAPICalled
+2026-10-12T06:50:19.144242+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: AddDevToolsProtocolEventReceived: Network.loadingFailed
+2026-10-12T06:50:19.144242+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_storage_info' doesn't meet minimum privacy classification
+2026-10-12T06:50:19.144242+02:00 0x00003978 <DBG>  WebViewControlWin::OnNavigationStarting: Cancel=false
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  CdpHandler: CallDevToolsProtocolMethod: Target.getTargets : SUCCESS
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  WebViewCdpTarget: GetTargets callback - parsed 1 targets
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  TeamsWorkerTracker: TeamsWorkerTracker constructor - origin: https://teams.live.com, nrc_browser_context_id: 3A1EAA5CB823B89113EF81350C7AF3A4, track_frames_lifecycle_for_cdp: true
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  WebViewCdpTarget: AttachedToTarget - creating new CDP event subscription
+2026-10-12T06:50:19.159986+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: AddDevToolsProtocolEventReceived: Target.attachedToTarget
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  WebViewCdpTarget: DetachedFromTarget - creating new CDP event subscription
+2026-10-12T06:50:19.159986+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: AddDevToolsProtocolEventReceived: Target.detachedFromTarget
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  WebViewCdpTarget: TargetCrashed - creating new CDP event subscription
+2026-10-12T06:50:19.159986+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: AddDevToolsProtocolEventReceived: Inspector.targetCrashed
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  WebViewCdpTarget: TargetReloadedAfterCrash - creating new CDP event subscription
+2026-10-12T06:50:19.159986+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: AddDevToolsProtocolEventReceived: Inspector.targetReloadedAfterCrash
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  WebViewCdpTarget: TargetCreated - creating new CDP event subscription
+2026-10-12T06:50:19.159986+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: AddDevToolsProtocolEventReceived: Target.targetCreated
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  CdpHandler: CallDevToolsProtocolMethod: Log.enable : SUCCESS
+2026-10-12T06:50:19.159986+02:00 0x00003978 <INFO> WebConsoleLogger: CdpMethod: Log.enable: true
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  CdpHandler: CallDevToolsProtocolMethod: Runtime.enable : SUCCESS
+2026-10-12T06:50:19.159986+02:00 0x00003978 <INFO> WebConsoleLogger: CdpMethod: Runtime.enable: true
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  CdpHandler: CallDevToolsProtocolMethod: Network.enable : SUCCESS
+2026-10-12T06:50:19.159986+02:00 0x00003978 <INFO> WebConsoleLogger: CdpMethod: Network.enable: true
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  WebViewCdpTarget: TargetCreated event callback lambda - received event, json_length: 306
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  CdpHandler: CallDevToolsProtocolMethod: Target.setDiscoverTargets : SUCCESS
+2026-10-12T06:50:19.159986+02:00 0x00003978 <DBG>  TeamsWorkerTracker: SetDiscoverTargets succeeded - SharedWorkers will now be discovered
+2026-10-12T06:50:19.173269+02:00 0x00003978 <DBG>  CdpHandler: CallDevToolsProtocolMethod: Target.setAutoAttach : SUCCESS
+2026-10-12T06:50:19.173269+02:00 0x00003978 <DBG>  TeamsWorkerTracker: Global SetAutoAttach succeeded
+2026-10-12T06:50:19.185224+02:00 0x00003978 <DBG>  TeamsCloud(life): CONSOLE Network: {"canceled":false,"errorText":"net::ERR_INTERNET_DISCONNECTED","requestId":"73FC592BF709098A5B95C7AFFB89F7AD","timestamp":61.026814,"type":"Document"}
+2026-10-12T06:50:19.201482+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_sensitivity_label_event' doesn't meet minimum privacy classification
+2026-10-12T06:50:19.201482+02:00 0x00003978 <DBG>  WebViewControlWin::OnSensitivityInfoChanged: Allowlist not set, ignoring sensitivity info change.
+2026-10-12T06:50:19.209490+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_webview_process_info' doesn't meet minimum privacy classification
+2026-10-12T06:50:19.327104+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Source changed, is new document: true
+2026-10-12T06:50:19.343136+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_webview_process_info' doesn't meet minimum privacy classification
+2026-10-12T06:50:19.384053+02:00 0x00003978 <INFO> NonRenderingCore: (hwnd=0x00000000) OnDomContentLoaded: Retrieving web client version
+2026-10-12T06:50:19.384053+02:00 0x00003978 <INFO> WebViewDevTools: GetLocalStorage: getting localStorage for key=tmp.react-web-client.buildNumber
+2026-10-12T06:50:19.384053+02:00 0x00003978 <ERR>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Navigation failed: Disconnected
+2026-10-12T06:50:19.384053+02:00 0x00003978 <DBG>  TeamsCloud(life): Stop and Collecting Console Logs
+2026-10-12T06:50:19.384053+02:00 0x00003978 <DBG>  TeamsCloud(life): Console log collected : console logs:0 network logs:1
+2026-10-12T06:50:19.384053+02:00 0x00003978 <DBG>  TeamsCloud(life): Stopped Console Logging
+2026-10-12T06:50:19.384053+02:00 0x00003978 <DBG>  TeamsCloud(life): ShouldRetryNavigate: will retry (error is in retriable list), error: 11
+2026-10-12T06:50:19.384053+02:00 0x00003978 <DBG>  TeamsCloud(life): HandleNavigationError: will try to navigate again in 10s...
+2026-10-12T06:50:19.391046+02:00 0x00003978 <DBG>  CdpHandler: CallDevToolsProtocolMethod: Runtime.evaluate : SUCCESS
+2026-10-12T06:50:19.391046+02:00 0x00003978 <ERR>  GetLocalStorageProperty: GetLocalStorage failed with Runtime.evaluate threw: {"text":"Uncaught","lineNumber":0,"exception":{"className":"DOMException","description":"SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.","preview":{"description":"SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.","overflow":false,"properties":[{"name":"stack","type":"string","value":"SecurityError: Failed to read the 'localStorage' p…rom 'Window': Access is denied for this document."},{"name":"code","type":"number","value":"18"},{"name":"name","type":"string","value":"SecurityError"},{"name":"message","type":"string","value":"Failed to read the 'localStorage' property from 'Window': Access is denied for this document."}],"type":"object","subtype":"error"},"objectId":"-6202264421205076649.1.2","type":"object","subtype":"error"},"columnNumber":0,"exceptionId":1,"scriptId":"6"}
+2026-10-12T06:50:19.392726+02:00 0x00003978 <DBG>  CdpHandler: CallDevToolsProtocolMethod: Network.disable : SUCCESS
+2026-10-12T06:50:19.392726+02:00 0x00003978 <INFO> WebConsoleLogger: CdpMethod: Network.disable: true
+2026-10-12T06:50:19.392726+02:00 0x00003978 <DBG>  CdpHandler: CallDevToolsProtocolMethod: Log.disable : SUCCESS
+2026-10-12T06:50:19.392726+02:00 0x00003978 <INFO> WebConsoleLogger: CdpMethod: Log.disable: true
+2026-10-12T06:50:19.392726+02:00 0x00003978 <DBG>  CdpHandler: CallDevToolsProtocolMethod: Runtime.disable : SUCCESS
+2026-10-12T06:50:19.392726+02:00 0x00003978 <INFO> WebConsoleLogger: CdpMethod: Runtime.disable: true
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  TeamsCloud(life): OnLauncherRetryTimeout:retrying to navigate, nav_retry_no=1
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  TeamsCloud(life): ColdLaunchCoreWindow
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.live.com/desktop/* from web intercept filter (no source kinds)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.live.com/maglev/custom-video-background/upload from web intercept filter (no source kinds)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.live.com/maglev/custom-video-background/upload/v2 from web intercept filter (no source kinds)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.live.com/maglev/custom-video-background/tenant-image\?* from web intercept filter (no source kinds)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  NonRenderingCore: (hwnd=0x00000000) NonRenderingCore destructor
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2 from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://statics.teams.cdn.office.net/teams-modular-packages/hashed-assets/* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/intl-v2/* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2\?* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://statics.teams.cdn.office.net/teams-modular-packages/hashed-assets/intl-v2/* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/msteams/* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://statics.teams.cdn.office.net/teams-modular-packages/hashed-assets/msteams/* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/\?* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/ from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/index.html\?* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/index.html from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-telemetry-web-worker-742a87b957697402.js from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/service-worker-noop.js\?* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/service-worker-noop.js from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-editor-dedicated-index-readjuster-web-worker-bc7bcab7c97785ad.js\?* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-editor-dedicated-index-readjuster-web-worker-bc7bcab7c97785ad.js from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-editor-shared-index-readjuster-web-worker-7ab51b73c894a605.js\?* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-editor-shared-index-readjuster-web-worker-7ab51b73c894a605.js from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-telemetry-web-worker-742a87b957697402.js\?* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-web-worker-7e19b2efd9db16cf.js\?* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-web-worker-7e19b2efd9db16cf.js from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-web-worker-fc4feaf923272757.js\?* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-web-worker-fc4feaf923272757.js from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-webrtc-web-worker-84edbf3c5f7d1987.js\?* from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://teams.microsoft.com/v2/worker/precompiled-webrtc-web-worker-84edbf3c5f7d1987.js from web intercept filter (source kinds: 0x00000005)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://local.teams.microsoft.invalid/client-bindings/* from web intercept filter (no source kinds)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://trustedui.invalid\?* from web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://trustedui.invalid/ from web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://trustedui.invalid/* from web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://trustedui.invalid/index.html\?* from web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://trustedui.invalid/teams-modular-packages/hashed-assets/* from web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://trustedui.invalid/index.html from web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://trustedui.invalid/\?* from web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://trustedui.invalid from web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://trustedui-statics-apl.invalid/* from web intercept filter (source kinds: 0x00000001)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) Removing https://local.teams.microsoft.invalid/shared-files/* from web intercept filter (no source kinds)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: recordingdetector
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: fileopenpreference
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: vdi
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: moduleloader
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: Heartbeat
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: Auth
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: m365link
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: OsUtils
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: Ecs
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: fits
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: etw
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: tmpcore
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: windowcontrols
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: platformapp
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: customvideobackground
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: mtmahub
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: BrB
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: ods
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: callingcrosscloud
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: callingcrosscloudpersistent
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: callingcrosscloudtransient
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: Tmapolicy
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: userdataxcloud
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: Settings
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: toasts
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: taskbar
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: Files
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: bluetoothproximity
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  BluetoothProximity: RemoveFromPiebluetoothproximity
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: hid
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: officeintegration
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: hostcapabilities
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: gatt
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  GATTModule: RemoveFromPiegatt
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  GATTModule: Deinitgatt
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: appdevicepermission
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: hfp
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  HfpCallManagerModule: RemoveFromPiehfp
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: globalshortcuts
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: roomservice
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  RoomServiceImpl: RemoveFromPieroomservice
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: logscollection
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: Vdiconnectioninfo
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: lastmiletelemetry
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: Telemetry
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: userpreferences
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: profiler
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: thirdpartydevices
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: updates
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: webclientstates
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: sharetarget
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: publicpreview
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: teamauseractivityrecall
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: noisesuppression
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: SlimCore
+2026-10-12T06:50:29.389330+02:00 0x00003978 <ERR>  native_modules::RemoteModule (SlimCore): Module: SlimCore Invalid State Operation: RemoveFromPie Current: RemoteInit (expected: RemoteStarted)
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: devicediscovery
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  native_modules::NativeModuleManager: RemoveFromPie: VdiBridgeWV2
+2026-10-12T06:50:29.389330+02:00 0x00003978 <WARN> VdiBridgeWV2: RemoveFromPie bridge_id_ not matching.
+2026-10-12T06:50:29.389330+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) WebViewControlWin::DoDispose()
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> ObjectCollectionShared: (class msft::teams::WebViewDownloadOperationWin) Clear
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: ~Event Subscription Log.entryAdded
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: RemoveDevToolsProtocolEventReceived: Log.entryAdded
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: ~Event Subscription Target.targetCreated
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: RemoveDevToolsProtocolEventReceived: Target.targetCreated
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: ~Event Subscription Inspector.targetCrashed
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: RemoveDevToolsProtocolEventReceived: Inspector.targetCrashed
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: ~Event Subscription Target.detachedFromTarget
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: RemoveDevToolsProtocolEventReceived: Target.detachedFromTarget
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: ~Event Subscription Runtime.consoleAPICalled
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: RemoveDevToolsProtocolEventReceived: Runtime.consoleAPICalled
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: ~Event Subscription Network.loadingFailed
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: RemoveDevToolsProtocolEventReceived: Network.loadingFailed
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: ~Event Subscription Target.attachedToTarget
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: RemoveDevToolsProtocolEventReceived: Target.attachedToTarget
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: ~Event Subscription Inspector.targetReloadedAfterCrash
+2026-10-12T06:50:29.389330+02:00 0x00003978 <INFO> CdpHandler::EventSubscriber: RemoveDevToolsProtocolEventReceived: Inspector.targetReloadedAfterCrash
+2026-10-12T06:50:29.420572+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_webview_process_info' doesn't meet minimum privacy classification
+2026-10-12T06:50:29.420572+02:00 0x00003978 <ERR>  WIL: D:\a\_work\1\s\src\webview\webview_environment_win.cpp(769)\ms-teams.exe!00007FF7662CC499: (caller: 00007FF765B6FE69) Exception(3) tid(3978) 80070015 Le périphérique n’est pas prêt.
+2026-10-12T06:50:29.420572+02:00 0x00003978 <INFO> ObjectCollection: (class msft::teams::WebViewFrame) Clear
+2026-10-12T06:50:29.420572+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000103a8; visual=0}) ~WebViewControl
+2026-10-12T06:50:29.420572+02:00 0x00003978 <INFO> NativeWindowWin: (hwnd=0x000103a8) DoDispose
+2026-10-12T06:50:29.420572+02:00 0x00003978 <INFO> NativeWindowWin: (hwnd=0x000103a8) OnWmNcDestroy: WM_NCDESTROY hwnd=0x000103a8 wparam=0x0000000000000000 lparam=0x0000000000000000
+2026-10-12T06:50:29.420572+02:00 0x00003978 <DBG>  TeamsCloud(life): ColdLaunchCoreWindow: removed existing core window
+2026-10-12T06:50:29.420572+02:00 0x00003978 <DBG>  TeamsCloud(life): ColdLaunchCoreWindow: creating core window with attempt 1/1
+2026-10-12T06:50:29.420572+02:00 0x00003978 <DBG>  TeamsCloud(life): Legacy Path: core_args.clear_browsing_data_all_on_first_nav = false
+2026-10-12T06:50:29.420572+02:00 0x00003978 <DBG>  WinWindowClass: (name=TeamsNrc) Creating window: NativeWindowWinArgs{text=; parent=hwnd=0xfffffffd; style=0 (WS_OVERLAPPED); ex_style=0x00200000 (WS_EX_LEFT|WS_EX_LTRREADING|WS_EX_NOREDIRECTIONBITMAP|WS_EX_RIGHTSCROLLBAR); menu=0; position=std::nullopt; size=UISizePhysical{width=1; height=1}}
+2026-10-12T06:50:29.420572+02:00 0x00003978 <INFO> SetWindowLong: (hwnd=0x000203a8) Setting GWLP_USERDATA to 0x000001ebaaeec840
+2026-10-12T06:50:29.420572+02:00 0x00003978 <DBG>  WebViewControl: (NativeViewHandle{hwnd=0x000203a8; visual=0}) BeginCreateControllerCreating WV2 controller
+2026-10-12T06:50:29.420572+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_webviewcontroller_created' doesn't meet minimum privacy classification
+2026-10-12T06:50:29.420572+02:00 0x00003978 <DBG>  WebViewEnvironment: WebView GameDay disabled, resetting counter.
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  WebViewEnvironmentWin: Attempting to create WebView Controller using profile: tfl
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  WebViewEnvironmentWin: Setting script locale: fr-FR
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  WebViewEnvironmentWin: Setting default background color: #00000000
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  WebViewEnvironmentWin: Creating controller with options
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://trustedui.invalid\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://trustedui.invalid/
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://trustedui.invalid/*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://trustedui.invalid/index.html\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://trustedui.invalid/teams-modular-packages/hashed-assets/*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://trustedui.invalid/index.html
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://trustedui.invalid/\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://trustedui.invalid
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  WebViewScriptInjector: Pending Script Recorded with id:  3
+2026-10-12T06:50:29.436194+02:00 0x00003978 <INFO> testmode::TestModeHelper: Not in test mode
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_webview_pie_bindings_injection' doesn't meet minimum privacy classification
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  WebViewScriptInjector: Pending Script Recorded with id:  4
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_webview_script_injection' doesn't meet minimum privacy classification
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://statics.teams.cdn.office.net/teams-modular-packages/hashed-assets/*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/intl-v2/*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://statics.teams.cdn.office.net/teams-modular-packages/hashed-assets/intl-v2/*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.public.onecdn.static.microsoft/teams-modular-packages/hashed-assets/msteams/*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://statics.teams.cdn.office.net/teams-modular-packages/hashed-assets/msteams/*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/index.html\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/index.html
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-telemetry-web-worker-742a87b957697402.js
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/service-worker-noop.js\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/service-worker-noop.js
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-editor-dedicated-index-readjuster-web-worker-bc7bcab7c97785ad.js\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-editor-dedicated-index-readjuster-web-worker-bc7bcab7c97785ad.js
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-editor-shared-index-readjuster-web-worker-7ab51b73c894a605.js\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-editor-shared-index-readjuster-web-worker-7ab51b73c894a605.js
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-telemetry-web-worker-742a87b957697402.js\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-web-worker-7e19b2efd9db16cf.js\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-web-worker-7e19b2efd9db16cf.js
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-web-worker-fc4feaf923272757.js\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-web-worker-fc4feaf923272757.js
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-webrtc-web-worker-84edbf3c5f7d1987.js\?*
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ExperienceLoader: Adding web request filter: https://teams.microsoft.com/v2/worker/precompiled-webrtc-web-worker-84edbf3c5f7d1987.js
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  GetNpmPackageVersion: Bundled web client version retrieved; version=260716160.11.49693509
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  Version: TryParseVersionSegments: Version successfully parsed. version=260716160.11.49693509
+2026-10-12T06:50:29.436194+02:00 0x00003978 <INFO> WebClientVersionChecker: Web client version retrieved, version=
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: 'shell_check_web_client_version' doesn't meet minimum privacy classification
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  TeamsCloud(life): skype migration web client version is empty
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  TeamsCloud(life): SubscribeToEvents
+2026-10-12T06:50:29.436194+02:00 0x00003978 <INFO> MemoryManager: (life) App in active use.
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  MemoryManager: (life) Memory level changing to Normal
+2026-10-12T06:50:29.436194+02:00 0x00003978 <DBG>  TeamsCloud(life): ColdLaunchCoreWindow: created core window
+2026-10-12T06:50:29.576785+02:00 0x00003978 <DBG>  ScenarioFactory: Scenario: '

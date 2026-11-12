@@ -1,0 +1,110 @@
+[
+  {
+    "table": "SruDbIdMapTable",
+    "records": 25834,
+    "columns": [
+      {
+        "name": "IdType",
+        "type": 2
+      },
+      {
+        "name": "IdIndex",
+        "type": 4
+      },
+      {
+        "name": "IdBlob",
+        "type": 11
+      }
+    ],
+    "first_utc": null,
+    "last_utc": null
+  },
+  {
+    "table": "{973F5D5C-1D90-4944-BE8E-24B94231A174}",
+    "records": 682,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "InterfaceLuid",
+        "type": 15
+      },
+      {
+        "name": "L2ProfileId",
+        "type": 4
+      },
+      {
+        "name": "L2ProfileFlags",
+        "type": 4
+      },
+      {
+        "name": "BytesSent",
+        "type": 15
+      },
+      {
+        "name": "BytesRecvd",
+        "type": 15
+      }
+    ],
+    "first_utc": "2026-09-03T13:37:00+00:00",
+    "last_utc": "2026-10-08T10:37:00+00:00"
+  },
+  {
+    "table": "{DD6636C4-8929-4683-974E-22C046A43763}",
+    "records": 15,
+    "columns": [
+      {
+        "name": "AutoIncId",
+        "type": 4
+      },
+      {
+        "name": "TimeStamp",
+        "type": 8
+      },
+      {
+        "name": "AppId",
+        "type": 4
+      },
+      {
+        "name": "UserId",
+        "type": 4
+      },
+      {
+        "name": "InterfaceLuid",
+        "type": 15
+      },
+      {
+        "name": "L2ProfileId",
+        "type": 4
+      },
+      {
+        "name": "ConnectedTime",
+        "type": 4
+      },
+      {
+        "name": "ConnectStartTime",
+        "type": 15
+      },
+      {
+        "name": "L2ProfileFlags",
+        "type": 4
+      }
+    ],
+    "first_utc": "2026-09-03T13:37:00+00:00",
+    "last_utc": "2026-10-08T10:37:00+00:00"
+  }
+]

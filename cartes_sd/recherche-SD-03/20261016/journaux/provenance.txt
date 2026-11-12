@@ -1,0 +1,291 @@
+# Forensic workspace instructions
+
+## SIFT VM access
+
+The SIFT forensic VM is available over SSH:
+
+```bash
+ssh sift
+```
+
+Use the SIFT VM for forensic tooling and analysis.
+
+## Evidence handling rules
+
+* Never modify source evidence.
+* Never write to master forensic images.
+* Prefer read-only mounts for evidence.
+* Perform analysis on working copies when possible.
+* Record hashes of evidence and important exported artifacts.
+* Do not delete or overwrite forensic outputs without explicit approval.
+* Keep commands and analysis steps reproducible.
+
+## Scope
+
+The main objective is to identify forensic artifacts that can indicate whether a Windows device was accessed, used, modified, or had files altered/deleted during a specified time period.
+
+Relevant sources may include:
+
+* NTFS metadata
+* $MFT
+* $UsnJrnl
+* Windows Event Logs
+* Registry
+* Prefetch
+* Amcache
+* Shimcache
+* LNK files
+* Jump Lists
+* SRUM
+* Recycle Bin
+* deleted/unallocated files
+* filesystem timelines
+
+## Reporting
+
+Clearly distinguish:
+
+* observed facts
+* interpretation
+* hypotheses
+* limitations
+
+
+GUYMAGER ACQUISITION INFO FILE
+==============================
+
+Guymager
+========
+
+Version            : 0.8.13-2build3                                                                                         
+Version timestamp  : 2025-12-08-22.09.03 UTC                                                                                
+Compiled with      : gcc 15.2.0                                                                                             
+libewf version     : 20140816 (not used as Guymager is configured to use its own EWF module)                                
+libguytools version: 2.1.0                                                                                                  
+Host name          : chris-MS-7B48                                                                                          
+Domain name        : (none)                                                                                                 
+System             : Linux chris-MS-7B48 7.0.0-38-generic #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026 x86_64
+
+
+Device information
+==================
+Command executed: bash -c "search="`basename /dev/sdc`: H..t P.......d A..a de.....d" && dmesg | grep -A3 "$search" || echo "No kernel HPA messages for /dev/sdc""
+Information returned:
+----------------------------------------------------------------------------------------------------
+   No kernel HPA messages for /dev/sdc
+
+Command executed: bash -c "smartctl -s on /dev/sdc ; smartctl -a /dev/sdc"
+Information returned:
+----------------------------------------------------------------------------------------------------
+   smartctl 7.5 2025-04-30 r5714 [x86_64-linux-7.0.0-38-generic] (local build)
+   Copyright (C) 2002-25, Bruce Allen, Christian Franke, www.smartmontools.org
+   
+   /dev/sdc: Unknown USB bridge [0x14cd:0x1212 (0x100)]
+   Please specify device type with the -d option.
+   
+   Use smartctl -h to get a usage summary
+   
+   smartctl 7.5 2025-04-30 r5714 [x86_64-linux-7.0.0-38-generic] (local build)
+   Copyright (C) 2002-25, Bruce Allen, Christian Franke, www.smartmontools.org
+   
+   /dev/sdc: Unknown USB bridge [0x14cd:0x1212 (0x100)]
+   Please specify device type with the -d option.
+   
+   Use smartctl -h to get a usage summary
+
+Command executed: bash -c "hdparm -I /dev/sdc"
+Information returned:
+----------------------------------------------------------------------------------------------------
+   /dev/sdc:
+   
+   ATA device, with non-removable media
+   Standards:
+   	Likely used: 1
+   Configuration:
+   	Logical		max	current
+   	cylinders	0	0
+   	heads		0	0
+   	sectors/track	0	0
+   	--
+   	Logical/Physical Sector size:           512 bytes
+   	device size with M = 1024*1024:           0 MBytes
+   	device size with M = 1000*1000:           0 MBytes 
+   	cache/buffer size  = unknown
+   Capabilities:
+   	IORDY not likely
+   	Cannot perform double-word IO
+   	R/W multiple sector transfer: not supported
+   	DMA: not supported
+   	PIO: pio0
+
+Command executed: bash -c "CIDFILE=/sys/block/$(basename /dev/sdc)/device/cid; echo -n "CID: " ; if [ -e $CIDFILE ] ; then cat $CIDFILE  ; else echo "not available" ; fi "
+Information returned:
+----------------------------------------------------------------------------------------------------
+   CID: not available
+
+Hidden areas: unknown
+
+
+Acquisition
+===========
+
+Linux device            : /dev/sdc                                                                                                          
+Device size             : 31914983424 (31,9GB)                                                                                              
+Format                  : Expert Witness Format, sub-format Guymager - file extension is .Exx                                               
+Image meta data         
+   Case number          : SADEDINE-2026                                                                                                     
+   Evidence number      : SD-03                                                                                                             
+   Examiner             : Christophe Donnat                                                                                                 
+   Description          : Carte SD contenant les enregistrement vidéo des caméras (salon)                                                   
+   Notes                : Identifiant série déclaré par le lecteur USB : 121220160204.
+Numéro de série physique de la carte SD non confirmé.
+Image path and file name: /mnt/data/forensic/SADEDINE-2026/SD-03/SD03.Exx                                                                   
+Info  path and file name: /mnt/data/forensic/SADEDINE-2026/SD-03/SD03.info                                                                  
+Hash calculation        : MD5 and SHA-256                                                                                                   
+Source verification     : off                                                                                                               
+Image verification      : on                                                                                                                
+
+No bad sectors encountered during acquisition.
+State: Finished successfully
+
+MD5 hash                   : d0402e436587d9cb319f78575e81fec0                                
+MD5 hash verified source   : --                                                              
+MD5 hash verified image    : d0402e436587d9cb319f78575e81fec0                                
+SHA1 hash                  : --                                                              
+SHA1 hash verified source  : --                                                              
+SHA1 hash verified image   : --                                                              
+SHA256 hash                : 7a59d086d809d27bdb2f203e7449c024e50ca919e528792c151cb8a604c852c0
+SHA256 hash verified source: --                                                              
+SHA256 hash verified image : 7a59d086d809d27bdb2f203e7449c024e50ca919e528792c151cb8a604c852c0
+Image verification OK. The image contains exactly the data that was written.
+
+Acquisition started : 2026-10-12 14:03:19 (ISO format YYYY-MM-DD HH:MM:SS)    
+Verification started: 2026-10-12 14:32:46                                     
+Ended               : 2026-10-12 14:35:50 (0 hours, 32 minutes and 31 seconds)
+Acquisition speed   : 17.23 MByte/s (0 hours, 29 minutes and 26 seconds)      
+Verification speed  : 165.42 MByte/s (0 hours, 3 minutes and 4 seconds)       
+
+
+Generated image files and their MD5 hashes
+==========================================
+
+No MD5 hashes available (configuration parameter CalcImageFileMD5 is off)
+MD5                               Image file
+n/a                               SD03.E01
+n/a                               SD03.E02
+n/a                               SD03.E03
+n/a                               SD03.E04
+n/a                               SD03.E05
+n/a                               SD03.E06
+n/a                               SD03.E07
+n/a                               SD03.E08
+n/a                               SD03.E09
+n/a                               SD03.E10
+n/a                               SD03.E11
+n/a                               SD03.E12
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E01
+  Size: 2146422898	Blocks: 4192248    IO Block: 4096   regular file
+Device: 0,54	Inode: 58          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.567277874 +0000
+Modify: 2026-10-12 12:05:23.662193002 +0000
+Change: 2026-10-15 07:02:59.296664353 +0000
+ Birth: -
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E02
+  Size: 2146426063	Blocks: 4192248    IO Block: 4096   regular file
+Device: 0,54	Inode: 52          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.575277790 +0000
+Modify: 2026-10-12 12:07:26.532995674 +0000
+Change: 2026-10-15 07:03:28.979820654 +0000
+ Birth: -
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E03
+  Size: 2146402172	Blocks: 4192200    IO Block: 4096   regular file
+Device: 0,54	Inode: 59          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.583277707 +0000
+Modify: 2026-10-12 12:09:29.257792076 +0000
+Change: 2026-10-15 07:03:59.851794138 +0000
+ Birth: -
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E04
+  Size: 2146412270	Blocks: 4192224    IO Block: 4096   regular file
+Device: 0,54	Inode: 61          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.591277624 +0000
+Modify: 2026-10-12 12:11:31.877559952 +0000
+Change: 2026-10-15 07:04:30.200979858 +0000
+ Birth: -
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E05
+  Size: 2146410839	Blocks: 4192224    IO Block: 4096   regular file
+Device: 0,54	Inode: 55          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.614277384 +0000
+Modify: 2026-10-12 12:13:35.132794197 +0000
+Change: 2026-10-15 07:04:59.605236963 +0000
+ Birth: -
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E06
+  Size: 2146417521	Blocks: 4192232    IO Block: 4096   regular file
+Device: 0,54	Inode: 57          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.636277154 +0000
+Modify: 2026-10-12 12:15:41.326401072 +0000
+Change: 2026-10-15 07:05:27.869964056 +0000
+ Birth: -
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E07
+  Size: 2146414888	Blocks: 4192232    IO Block: 4096   regular file
+Device: 0,54	Inode: 51          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.645277061 +0000
+Modify: 2026-10-12 12:17:44.596757205 +0000
+Change: 2026-10-15 07:05:56.926004515 +0000
+ Birth: -
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E08
+  Size: 2146400885	Blocks: 4192200    IO Block: 4096   regular file
+Device: 0,54	Inode: 62          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.651276998 +0000
+Modify: 2026-10-12 12:19:47.219210013 +0000
+Change: 2026-10-15 07:06:27.607928695 +0000
+ Birth: -
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E09
+  Size: 2146426135	Blocks: 4192248    IO Block: 4096   regular file
+Device: 0,54	Inode: 56          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.659276915 +0000
+Modify: 2026-10-12 12:21:49.965176063 +0000
+Change: 2026-10-15 07:06:59.758358614 +0000
+ Birth: -
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E10
+  Size: 2146425954	Blocks: 4192248    IO Block: 4096   regular file
+Device: 0,54	Inode: 60          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.668276821 +0000
+Modify: 2026-10-12 12:23:52.751385413 +0000
+Change: 2026-10-15 07:07:31.962880812 +0000
+ Birth: -
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E11
+  Size: 2146426388	Blocks: 4192248    IO Block: 4096   regular file
+Device: 0,54	Inode: 53          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.691276581 +0000
+Modify: 2026-10-12 12:25:55.337525342 +0000
+Change: 2026-10-15 07:08:00.781737054 +0000
+ Birth: -
+  File: /media/shared/forensic/SADEDINE-2026/ANALYSES/SD-03/SD03.E12
+  Size: 153526757 	Blocks: 299864     IO Block: 4096   regular file
+Device: 0,54	Inode: 50          Links: 1
+Access: (0770/-rwxrwx---)  Uid: (    0/    root)   Gid: (  123/  vboxsf)
+Access: 2026-10-16 08:48:55.713276352 +0000
+Modify: 2026-10-12 12:32:46.500086263 +0000
+Change: 2026-10-15 07:08:02.699905636 +0000
+ Birth: -
+  File: /mnt/ewf-sd03/ewf1
+  Size: 31914983424	Blocks: 0          IO Block: 4096   regular file
+Device: 0,60	Inode: 2           Links: 1
+Access: (0444/-r--r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2026-10-16 08:48:55.000000000 +0000
+Modify: 2026-10-16 08:48:55.000000000 +0000
+Change: 2026-10-16 08:48:55.000000000 +0000
+ Birth: -
+TARGET        SOURCE FSTYPE OPTIONS
+/media/shared data   vboxsf rw,nodev,relatime

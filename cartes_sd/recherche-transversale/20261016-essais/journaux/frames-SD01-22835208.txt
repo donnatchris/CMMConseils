@@ -1,0 +1,10 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5c9e9692a140] wrong sample count
+    Last message repeated 1 times
+[h264 @ 0x5c9e9696c580] error while decoding MB 4 62, bytestream -7
+[h264 @ 0x5c9e9696c580] slice type 32 too large at 29360127
+[h264 @ 0x5c9e9696c580] slice type 32 too large at 33423359
+[h264 @ 0x5c9e9692b240] Invalid NAL unit size (74240 > 2556).
+[h264 @ 0x5c9e9692b240] missing picture in access unit with size 2560
+[h264 @ 0x5c9e9696c580] Invalid NAL unit size (74240 > 2556).
+[h264 @ 0x5c9e9696c580] Error splitting the input into NAL units.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5c9e9692a140] stream 1, offset 0x11f009: partial file

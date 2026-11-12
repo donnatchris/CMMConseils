@@ -1,0 +1,134 @@
+[
+  {
+    "mac": "AC:ED:5C:DA:47:74",
+    "name": "DESKTOP-ICPNCMD",
+    "names": [
+      {
+        "name": "DESKTOP-ICPNCMD",
+        "source": "dhcp"
+      },
+      {
+        "name": "c0a9c211-4f92-416a-a4ad-fe9d313d73aa",
+        "source": "mdns"
+      }
+    ],
+    "first_activity": {
+      "utc": "2024-10-16T19:27:48+00:00",
+      "paris": "2024-10-16T21:27:48+02:00"
+    },
+    "last_activity": {
+      "utc": "2026-09-26T08:36:02+00:00",
+      "paris": "2026-09-26T10:36:02+02:00"
+    },
+    "connectivities": [
+      {
+        "addr": "192.168.1.41",
+        "active": false,
+        "reachable": false,
+        "last_activity": 1790411762,
+        "af": "ipv4",
+        "last_time_reachable": 1790411762,
+        "times": {
+          "last_activity": {
+            "utc": "2026-09-26T08:36:02+00:00",
+            "paris": "2026-09-26T10:36:02+02:00"
+          },
+          "last_time_reachable": {
+            "utc": "2026-09-26T08:36:02+00:00",
+            "paris": "2026-09-26T10:36:02+02:00"
+          }
+        }
+      },
+      {
+        "addr": "fe80::9e9c:c08c:f877:9715",
+        "active": false,
+        "reachable": false,
+        "last_activity": 1729113955,
+        "af": "ipv6",
+        "last_time_reachable": 1729113907,
+        "times": {
+          "last_activity": {
+            "utc": "2024-10-16T21:25:55+00:00",
+            "paris": "2024-10-16T23:25:55+02:00"
+          },
+          "last_time_reachable": {
+            "utc": "2024-10-16T21:25:07+00:00",
+            "paris": "2024-10-16T23:25:07+02:00"
+          }
+        }
+      },
+      {
+        "addr": "2a01:e0a:958:8d80:c098:3452:d79e:53a",
+        "active": false,
+        "reachable": false,
+        "last_activity": 1729106869,
+        "af": "ipv6",
+        "last_time_reachable": 1729106869,
+        "times": {
+          "last_activity": {
+            "utc": "2024-10-16T19:27:49+00:00",
+            "paris": "2024-10-16T21:27:49+02:00"
+          },
+          "last_time_reachable": {
+            "utc": "2024-10-16T19:27:49+00:00",
+            "paris": "2024-10-16T21:27:49+02:00"
+          }
+        }
+      },
+      {
+        "addr": "2a01:e0a:c88:900:e41c:34bd:92a0:ed3f",
+        "active": false,
+        "reachable": false,
+        "last_activity": 1729110461,
+        "af": "ipv6",
+        "last_time_reachable": 1729110461,
+        "times": {
+          "last_activity": {
+            "utc": "2024-10-16T20:27:41+00:00",
+            "paris": "2024-10-16T22:27:41+02:00"
+          },
+          "last_time_reachable": {
+            "utc": "2024-10-16T20:27:41+00:00",
+            "paris": "2024-10-16T22:27:41+02:00"
+          }
+        }
+      },
+      {
+        "addr": "2a01:e0a:c88:900:8782:35e:b681:63f8",
+        "active": false,
+        "reachable": false,
+        "last_activity": 1729113904,
+        "af": "ipv6",
+        "last_time_reachable": 1729113904,
+        "times": {
+          "last_activity": {
+            "utc": "2024-10-16T21:25:04+00:00",
+            "paris": "2024-10-16T23:25:04+02:00"
+          },
+          "last_time_reachable": {
+            "utc": "2024-10-16T21:25:04+00:00",
+            "paris": "2024-10-16T23:25:04+02:00"
+          }
+        }
+      },
+      {
+        "addr": "2a01:e0a:c88:900:4975:b53a:4078:6f53",
+        "active": false,
+        "reachable": false,
+        "last_activity": 1729113954,
+        "af": "ipv6",
+        "last_time_reachable": 1729113954,
+        "times": {
+          "last_activity": {
+            "utc": "2024-10-16T21:25:54+00:00",
+            "paris": "2024-10-16T23:25:54+02:00"
+          },
+          "last_time_reachable": {
+            "utc": "2024-10-16T21:25:54+00:00",
+            "paris": "2024-10-16T23:25:54+02:00"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "argv": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "info",
+    "-threads",
+    "1",
+    "-i",
+    "/proc/self/fd/3",
+    "-map",
+    "0:v:0",
+    "-vf",
+    "showinfo",
+    "-fps_mode",
+    "passthrough",
+    "-f",
+    "null",
+    "-"
+  ],
+  "returncode": 0,
+  "stderr_sha256": "0f89e8a6d651810240bedb2fbbd6f172d74588852154d4d0d0a94f8031fd2036",
+  "contexts": [
+    [
+      "[Parsed_showinfo_0 @ 0x730b40002640] n:1786 pts: 125039 pts_time:125.039 duration:     69 duration_time:0.069   fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:AE8477FF plane_checksum:[6F37778F 13129171 BDF96EF0] mean:[143 126 129] stdev:[58.0 5.5 5.4]",
+      "[Parsed_showinfo_0 @ 0x730b40002640] color_range:tv color_space:bt470bg color_primaries:bt470bg color_trc:bt470bg",
+      "[Parsed_showinfo_0 @ 0x730b40002640] n:1787 pts: 125108 pts_time:125.108 duration:     68 duration_time:0.068   fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:7BBEFB30 plane_checksum:[40800C81 62EE868D B8ED6822] mean:[136 126 129] stdev:[62.8 5.5 5.4]",
+      "[Parsed_showinfo_0 @ 0x730b40002640] color_range:tv color_space:bt470bg color_primaries:bt470bg color_trc:bt470bg",
+      "[h264 @ 0x5ac38eec61c0] left block unavailable for requested intra mode",
+      "[h264 @ 0x5ac38eec61c0] error while decoding MB 0 16, bytestream 18582",
+      "[h264 @ 0x5ac38eec61c0] concealing 6289 DC, 6289 AC, 6289 MV errors in P frame",
+      "[Parsed_showinfo_0 @ 0x730b40002640] n:1788 pts: 125176 pts_time:125.176 duration:     70 duration_time:0.07    fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:1407E390 plane_checksum:[9DA57198 A041C527 EE90ACC2] mean:[133 126 129] stdev:[63.5 5.7 5.5]",
+      "[Parsed_showinfo_0 @ 0x730b40002640] color_range:tv color_space:bt470bg color_primaries:bt470bg color_trc:bt470bg",
+      "[vist#0:1/h264 @ 0x5ac38ee520c0] [dec:h264 @ 0x5ac38eec6040] corrupt decoded frame"
+    ],
+    [
+      "[Parsed_showinfo_0 @ 0x730b40002640] color_range:tv color_space:bt470bg color_primaries:bt470bg color_trc:bt470bg",
+      "[Parsed_showinfo_0 @ 0x730b40002640] n:1787 pts: 125108 pts_time:125.108 duration:     68 duration_time:0.068   fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:7BBEFB30 plane_checksum:[40800C81 62EE868D B8ED6822] mean:[136 126 129] stdev:[62.8 5.5 5.4]",
+      "[Parsed_showinfo_0 @ 0x730b40002640] color_range:tv color_space:bt470bg color_primaries:bt470bg color_trc:bt470bg",
+      "[h264 @ 0x5ac38eec61c0] left block unavailable for requested intra mode",
+      "[h264 @ 0x5ac38eec61c0] error while decoding MB 0 16, bytestream 18582",
+      "[h264 @ 0x5ac38eec61c0] concealing 6289 DC, 6289 AC, 6289 MV errors in P frame",
+      "[Parsed_showinfo_0 @ 0x730b40002640] n:1788 pts: 125176 pts_time:125.176 duration:     70 duration_time:0.07    fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:1407E390 plane_checksum:[9DA57198 A041C527 EE90ACC2] mean:[133 126 129] stdev:[63.5 5.7 5.5]",
+      "[Parsed_showinfo_0 @ 0x730b40002640] color_range:tv color_space:bt470bg color_primaries:bt470bg color_trc:bt470bg",
+      "[vist#0:1/h264 @ 0x5ac38ee520c0] [dec:h264 @ 0x5ac38eec6040] corrupt decoded frame",
+      "[Parsed_showinfo_0 @ 0x730b40002640] n:1789 pts: 125246 pts_time:125.246 duration:     70 duration_time:0.07    fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:7471C115 plane_checksum:[B8D7D861 E8189375 C8C85530] mean:[154 126 128] stdev:[62.6 4.2 4.5]"
+    ],
+    [
+      "[h264 @ 0x5ac38eec61c0] error while decoding MB 0 16, bytestream 18582",
+      "[h264 @ 0x5ac38eec61c0] concealing 6289 DC, 6289 AC, 6289 MV errors in P frame",
+      "[Parsed_showinfo_0 @ 0x730b40002640] n:1788 pts: 125176 pts_time:125.176 duration:     70 duration_time:0.07    fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:1407E390 plane_checksum:[9DA57198 A041C527 EE90ACC2] mean:[133 126 129] stdev:[63.5 5.7 5.5]",
+      "[Parsed_showinfo_0 @ 0x730b40002640] color_range:tv color_space:bt470bg color_primaries:bt470bg color_trc:bt470bg",
+      "[vist#0:1/h264 @ 0x5ac38ee520c0] [dec:h264 @ 0x5ac38eec6040] corrupt decoded frame",
+      "[Parsed_showinfo_0 @ 0x730b40002640] n:1789 pts: 125246 pts_time:125.246 duration:     70 duration_time:0.07    fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:7471C115 plane_checksum:[B8D7D861 E8189375 C8C85530] mean:[154 126 128] stdev:[62.6 4.2 4.5]",
+      "[Parsed_showinfo_0 @ 0x730b40002640] color_range:tv color_space:bt470bg color_primaries:bt470bg color_trc:bt470bg",
+      "[Parsed_showinfo_0 @ 0x730b40002640] n:1790 pts: 125316 pts_time:125.316 duration:     68 duration_time:0.068   fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:C18DE79A plane_checksum:[5C2400DB 787CAAD2 28FD3BED] mean:[150 126 129] stdev:[60.3 5.2 5.5]",
+      "[Parsed_showinfo_0 @ 0x730b40002640] color_range:tv color_space:bt470bg color_primaries:bt470bg color_trc:bt470bg",
+      "[Parsed_showinfo_0 @ 0x730b40002640] n:1791 pts: 125384 pts_time:125.384 duration:     71 duration_time:0.071   fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:49892443 plane_checksum:[D9F2C207 97DA2207 0E2E4026] mean:[146 126 129] stdev:[58.5 5.1 5.5]"
+    ]
+  ]
+}

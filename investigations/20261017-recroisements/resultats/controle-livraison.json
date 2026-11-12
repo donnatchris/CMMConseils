@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "python_syntax": true,
+    "links": true,
+    "independent_checks": true,
+    "reproducible": true,
+    "resultats/sift/resultats/sources.json": true,
+    "resultats/sift/ntfs/sources.json": true,
+    "sift_no_errors": true,
+    "ntfs_completed": true,
+    "zip_sources_unchanged": true,
+    "zip_folder_matches": true,
+    "no_complete_recovery_key": true,
+    "no_unfinished_marker": true
+  },
+  "broken_links": [],
+  "all_pass": true
+}

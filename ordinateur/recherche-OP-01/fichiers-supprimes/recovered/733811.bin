@@ -1,0 +1,463 @@
+nstalledApps" Type="Optional" />
+        <Feature FeatureID="Microsoft.DesktopAppInstaller_8wekyb3d8bbwe" FMID="MSDN" Group="PreinstalledApps" Type="Optional" />
+        <Feature FeatureID="Microsoft.Paint_8wekyb3d8bbwe" FMID="MSDN" Group="PreinstalledApps" Type="Optional" />
+        <Feature FeatureID="Microsoft.549981C3F5F10_8wekyb3d8bbwe" FMID="MSDN" Group="PreinstalledApps" Type="Optional" />
+        <Feature FeatureID="Microsoft.YourPhone_8wekyb3d8bbwe" FMID="MSDN" Group="PreinstalledApps" Type="Optional" />
+        <Feature FeatureID="MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy" FMID="MSDN" Group="PreinstalledApps" Type="Optional" />
+        <Feature FeatureID="Microsoft.Todos_8wekyb3d8bbwe" FMID="MSDN" Group="PreinstalledApps" Type="Optional" />
+        <Feature FeatureID="Clipchamp.Clipchamp_yxz26nhyzhsrt" FMID="MSDN" Group="PreinstalledApps" Type="Optional" />
+        <Feature FeatureID="MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe" FMID="MSDN" Group="PreinstalledApps" Type="Optional" />
+      </Dependencies>
+      <Packages>
+        <Package ID="Microsoft-Windows-Client-LanguagePack-Package_nb-no~31bf3856ad364e35~amd64~nb-no~" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Foundation-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-EditionSpecific-ProfessionalN-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Client-Desktop-Required-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Client-Desktop-Required-WOW64-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Client-Features-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Client-Features-WOW64-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-EditionPack-Professional-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-EditionPack-Professional-WOW64-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Not-Supported-On-LTSB-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Not-Supported-On-LTSB-WOW64-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Required-ShellExperiences-Desktop-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Required-ShellExperiences-Desktop-WOW64-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-LanguageFeatures-Basic-nb-no-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-LanguageFeatures-Handwriting-nb-no-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-LanguageFeatures-TextToSpeech-nb-no-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-LanguageFeatures-OCR-nb-no-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~amd64~~" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~wow64~~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~~" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~~" PackageType="SatellitePackage" />
+        <Package ID="amd64_Microsoft-OneCore-DirectX-Database-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~amd64~~" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~wow64~~" PackageType="SatellitePackage" />
+        <Package ID="amd64_Microsoft-Windows-Kernel-LA57-FoD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Marvel-Mrvlpcie8897-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Qualcomm-Athw8x-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Qualcomm-Athwnx-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Qualcomm-Qcamain10x64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwbw02-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwew00-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwew01-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwlv64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwns64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwsw00-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw02-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw04-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw06-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw08-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw10-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Broadcom-Bcmpciedhd63-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63a-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63al-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Ralink-Netr28x-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl8187se-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl8192se-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl819xp-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl85n64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtwlane-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtwlane01-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtwlane13-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Intel-E1i68x64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Intel-E2f68-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Realtek-Rtcx21x64-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Vmware-Vmxnet3-FOD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Wallpaper-Content-Extended-FoD-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-Hello-Face-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_OpenSSH-Client-Package" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-TabletPCMath-Package" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~~" PackageType="FeaturePackage" />
+        <Package ID="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-Printing-PMCPPC-FoD-Package~31bf3856ad364e35~amd64~~" PackageType="FeaturePackage" />
+        <Package ID="amd64_Microsoft-Windows-FoDMetadata-Package" PackageType="FeaturePackage" />
+        <Package ID="professionaln_nb-no_esd" PackageType="MetadataESD" />
+      </Packages>
+    </Feature>
+  </Features>
+  <Packages>
+    <Package ID="Microsoft-Windows-Client-LanguagePack-Package_nb-no~31bf3856ad364e35~amd64~nb-no~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="jjEgfamqGRoE5utl/3qI7PI2R6670xtwO7wft8g6QlI=" PayloadSize="23781098" Path="UUP\Desktop\editionpackages\nb-no\Client\Microsoft-Windows-Client-LanguagePack-Package_nb-no~31bf3856ad364e35~amd64~nb-no~.esd" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Foundation-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="Al7SV2QHFGslIzRherGBmGICaibYK5mMEQmHjok+UW0=" PayloadSize="24038" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-Foundation-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-EditionSpecific-ProfessionalN-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="n6vNKwx4LnAB7uhh5EmhyOsgVOA/oq+I2u7la/6yIkM=" PayloadSize="50242731" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-EditionSpecific-ProfessionalN-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Client-Desktop-Required-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="k5pS/3AUIhDd3VPEt08drnr9RhAJkDvs/eoIqpVR8YI=" PayloadSize="765102680" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-Client-Desktop-Required-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Client-Desktop-Required-WOW64-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="d+GIz7F9IJ4mG/f/UlwM/CmgEjevhfrQZPR6piZV/kI=" PayloadSize="203790888" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-Client-Desktop-Required-WOW64-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Client-Features-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="XDBrCszjPXUPEB6LxW4ubG3r6IvAHsoslGFRLO7rH0A=" PayloadSize="295764870" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-Client-Features-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Client-Features-WOW64-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="Ctg46tSN9Dn+S/oFAO+G+eYYm6Ji2SsMNmpXebbYOW0=" PayloadSize="86416288" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-Client-Features-WOW64-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-EditionPack-Professional-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="4/rfANVI4qwy2aWJSYWcRGNoCf0XkHjU9he9Lv23zcs=" PayloadSize="159028088" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-EditionPack-Professional-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-EditionPack-Professional-WOW64-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="Bo78WjNiLhIA9V0LWdUCVyJT6UzbgKRs/+EWlM71Xrk=" PayloadSize="7271726" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-EditionPack-Professional-WOW64-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Not-Supported-On-LTSB-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="TV+m76ikQd9qkX5vKvarcw4Amo6c+zEL85WZPNiiRP8=" PayloadSize="46343713" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-Not-Supported-On-LTSB-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Not-Supported-On-LTSB-WOW64-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="FgQQEEP/+WjJo3pFWsqK95Ctu6E6jb8huxrR8JM1eug=" PayloadSize="22521" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-Not-Supported-On-LTSB-WOW64-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Required-ShellExperiences-Desktop-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="ihQgfc93VsOGO9SOzWZyz5AaXOyRThj3rSlwdNV1Q/U=" PayloadSize="8869058" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-Required-ShellExperiences-Desktop-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Required-ShellExperiences-Desktop-WOW64-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="2ZeDf8KrTtq2SZZsVCMLtrkGKx6JBXJ69CSyi5YuCxE=" PayloadSize="1639460" Path="UUP\Desktop\editionPackages\neutral\Microsoft-Windows-Required-ShellExperiences-Desktop-WOW64-Package.ESD" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-LanguageFeatures-Basic-nb-no-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="yVJSLcLL183I/AX0aCx/mSz7KA1ToE7K0ByDRx7BW/A=" PayloadSize="11834306" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-LanguageFeatures-Basic-nb-no-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-LanguageFeatures-Handwriting-nb-no-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="dfsTGG2zzoNxCKXlpiiHYYaTiYTafLjFYG3RMK6aJSU=" PayloadSize="4968174" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-LanguageFeatures-Handwriting-nb-no-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-LanguageFeatures-TextToSpeech-nb-no-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="1bz/k0g/dvpiZei/t0TnwtIUiuY2GOCigtEu0Z4MBFw=" PayloadSize="6380336" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-LanguageFeatures-TextToSpeech-nb-no-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-LanguageFeatures-OCR-nb-no-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="/jMxgTbVz/B02xn0lwDgByLiSQYTZLf9m3/BfEEZf7I=" PayloadSize="155562" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-LanguageFeatures-OCR-nb-no-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="QqSfmhPULf4QP/zx2TH8zoWkVX37jDVdvOpSz1HCMfg=" PayloadSize="3511261" Path="FeaturesOnDemand\neutral\cabs\Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~amd64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="yR04IGPcW9RwdGp3mqA0Nrt+Abjr8etJU9Ocf5OSyWo=" PayloadSize="903673" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~wow64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="Y/TgFTtPqXB17sWBnepOdHJHZC+2CiJWmqAz9OUHPMo=" PayloadSize="852065" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-WordPad-FoD-Package~31bf3856ad364e35~wow64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="iklWJGckM2rNaxqX/JPJOLU5M+tFTf4bso2rgBwlNkc=" PayloadSize="1114942" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="/JXb9eW3/rHnvZ2NJA1XOHiUbGKqwQxZG6Fu1F1SLqI=" PayloadSize="114545" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="2ImpBOuUSdp+KUpB9JIJAbCYkCUDb1lp3fAjMrweDPg=" PayloadSize="189667" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="GEVcWJux6E6a3jSXU6rV9Wmyeeq59BgH+Beoe0A+rWA=" PayloadSize="112988" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-OneCore-DirectX-Database-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="BSud1mdZ9ndJrI5Zcgq9Y8+/CRDEI5Ehy19pvb3tHwU=" PayloadSize="523630" Path="FeaturesOnDemand\neutral\cabs\Microsoft-OneCore-DirectX-Database-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~amd64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="Advj1fBGZtLRYg9W+RgmXNmeq7T4b54+o3KTAcpShlk=" PayloadSize="318921" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~wow64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="NaSWeQxlaQDHvRp6enLF5yV3KcAY+IMsaJWK9HdyOHs=" PayloadSize="312413" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~wow64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Kernel-LA57-FoD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="/w6JKo5YdeyYFl3ZmTSSmNZpwGlxzagFy/pX2E+s2Ag=" PayloadSize="5107201" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Kernel-LA57-FoD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Marvel-Mrvlpcie8897-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="kgFQC7oaIheWUuZg5jQXQQVbC/SOZHMhwi/NBE23pCw=" PayloadSize="620992" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Marvel-Mrvlpcie8897-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Qualcomm-Athw8x-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="gaGopawspsuNrr3M2k6/3p1dDbkS8ga/WgephsPJOYI=" PayloadSize="1030428" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Qualcomm-Athw8x-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Qualcomm-Athwnx-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="r5+5ccEHN2SRw2Ozien45F+sIN3t5J/kE5vTvPTAhnw=" PayloadSize="1042842" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Qualcomm-Athwnx-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Qualcomm-Qcamain10x64-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="74vZGaUrnh/ouBYCCzb7xbs180nXd0U9TCxF7RMps1E=" PayloadSize="1705119" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Qualcomm-Qcamain10x64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwbw02-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="EbgNXjUaJrojsj2sgIrsuV/dS1dXOVDS3PiwiP9Htuo=" PayloadSize="1809119" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Intel-Netwbw02-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwew00-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="r31gqLnNllUkDG/POvd/kEUL39F3a4/0QEiGqhi8UdY=" PayloadSize="2278451" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Intel-Netwew00-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwew01-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="AxVOxGlJzHaBxuikZs7lQGNwRLsIGfkzEQAx/N2C11U=" PayloadSize="2285671" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Intel-Netwew01-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwlv64-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="TziqskO3ha7YjbEXzVCUaDn9h8UFhLaleeT7586c+SA=" PayloadSize="1855156" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Intel-Netwlv64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwns64-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="uy+YxDGbWpci+jB7c1u9ahg26yHzKU8epA4qmG3t3Gc=" PayloadSize="2001522" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Intel-Netwns64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwsw00-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="4i4kJuzg41eH4GEM/IABVMYtKgMV7ALPDfjpoI97+34=" PayloadSize="2343354" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Intel-Netwsw00-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw02-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="jxBZng/xot+sEY1wuxMk7dr89EXLoFyCLMbRiHNBSh0=" PayloadSize="3212711" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Intel-Netwtw02-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw04-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="QXWzwD5YlHwRR+9qUvHVt48TqhIEiCeQq3BhBX826N0=" PayloadSize="2560354" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Intel-Netwtw04-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw06-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="1C/J8sRvld+/kb1DTAiSVNzco0+fx/dQjZvSo2x802c=" PayloadSize="2695268" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Intel-Netwtw06-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw08-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="a2w2Hu75pKnA+aaW7YxH3kJO25Zsc0teHhI2bMhc9k4=" PayloadSize="2911710" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Intel-Netwtw08-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Intel-Netwtw10-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="7eZ1OqjvwhZ96GzYCnxYg5XD9WCCyYnCO6W1yahMVzo=" PayloadSize="3463988" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Intel-Netwtw10-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Broadcom-Bcmpciedhd63-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="vAEulpzrqX2vzXEKoO4KF+V73/VTdbtSB3fKsz+6rnc=" PayloadSize="1043981" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Broadcom-Bcmpciedhd63-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63a-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="f4L+PgvjmJygJFc5I7QdnsmnxH2Ht1JNfyBgMaOJD68=" PayloadSize="2078586" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63a-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63al-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="J+0sU4eSuKbYzE/joGGNWW0mwhNNc6gH/13zMKJB3HY=" PayloadSize="1210059" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63al-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Ralink-Netr28x-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="4gG8D4I8d5g8i4fygppA6eEiL3OOIPYEQA6FOuQKPcg=" PayloadSize="1148227" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Ralink-Netr28x-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl8187se-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="DVxYzNpC6uuzjFwlD9wpQXclqPQMLngznJivk4Z5LXo=" PayloadSize="235273" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Realtek-Rtl8187se-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl8192se-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="mWj8kqrDKToEMr+nf1XcSKbPk75eRLT8Z2AN5NVYPDc=" PayloadSize="520721" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Realtek-Rtl8192se-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl819xp-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="1ETQ/j2ov44GhMM82IQitGOT0aMWRuQEjMqNyRdxReA=" PayloadSize="294710" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Realtek-Rtl819xp-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtl85n64-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="aPhLWkT6peXb//J+rx4KY0KGKxLz3VOXmrsu6dnfoUI=" PayloadSize="588236" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Realtek-Rtl85n64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtwlane-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="+kXi3NTAkPcE/ISzUYB1G17s0Ac2m1dNZqH1drZiYzo=" PayloadSize="2636827" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Realtek-Rtwlane-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtwlane01-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="uZcpOZbFQARiHizZove9jWMzR/+cHkET0iJM0EwP+uA=" PayloadSize="2084793" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Realtek-Rtwlane01-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wifi-Client-Realtek-Rtwlane13-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="8S7508r9zmwSd89QK1fFnTQK4yiamIF6s5jM2GfVapo=" PayloadSize="1212082" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wifi-Client-Realtek-Rtwlane13-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Intel-E1i68x64-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="GQZdRu5RYDBGIOVVPK2P1S9dRhPevut3WzDiCRrMhKY=" PayloadSize="286466" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Ethernet-Client-Intel-E1i68x64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Intel-E2f68-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="l63Ubm17+jvYK5IdWqR0rx0Bo2j9AT2L33Kxh3WCuSQ=" PayloadSize="238067" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Ethernet-Client-Intel-E2f68-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Realtek-Rtcx21x64-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="wHZixUx2osuQGaDA/3lIbq+FtvxP9LCeNrKuwgFShT4=" PayloadSize="248531" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Ethernet-Client-Realtek-Rtcx21x64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Ethernet-Client-Vmware-Vmxnet3-FOD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="AlSGGiBcLL15/gf/oOLo4Gs6MfdFn/oPguqgzjSaDHg=" PayloadSize="70537" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Ethernet-Client-Vmware-Vmxnet3-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Wallpaper-Content-Extended-FoD-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="Xyrmiq/bW0S55M+uguXSO5aWwFhj0OjoQSPA3T6fRis=" PayloadSize="24834" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Wallpaper-Content-Extended-FoD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-Hello-Face-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="oP4Ov2KW+q++ZfirNRh5q/Bqihy70EDTK2bNZFX2Rqk=" PayloadSize="70147277" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Hello-Face-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_OpenSSH-Client-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="MWXFv49AkhuD0Q7ykj1J5Gukxyhtz9sqar8i6F9Jj/s=" PayloadSize="1532607" Path="FeaturesOnDemand\neutral\cabs\OpenSSH-Client-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-TabletPCMath-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="vP/ORyCg4CPwULmJpaobKbGSnGh4wwTJq7RlQZ7jZQw=" PayloadSize="5903019" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-TabletPCMath-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="w2x7QCKwAEi7sDrqg9bS7rB5PVKaq4BHlpZ7TtnMzms=" PayloadSize="306301" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="hmYLBy4MVw49ED8WY63Oo/2HK40GbwYWbfOL4zfdlkU=" PayloadSize="213141" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="4aVGzAQrVVsbY3ZVx1yQy6E1ia3E19kWyv5IhLRbrBw=" PayloadSize="198742" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="Microsoft-Windows-Printing-PMCPPC-FoD-Package~31bf3856ad364e35~amd64~~" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="STDMkvIOCD6u9Ui26VZLLnmZ+g5ezsF+youNLzQ8NDA=" PayloadSize="404036" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-Printing-PMCPPC-FoD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="amd64_Microsoft-Windows-FoDMetadata-Package" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="+vYwbEhWGRPxAPEyPgBw0rs8b2XkoMdo6XtFDgTXYf4=" PayloadSize="484730" Path="FeaturesOnDemand\neutral\cabs\Microsoft-Windows-FoDMetadata-Package.cab" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+    <Package ID="professionaln_nb-no_esd" InstalledSize="7328983870" Version="10.0.22621.1">
+      <Payload>
+        <PayloadItem PayloadHash="YjMgHBnpvkg/fHklE1qLU9o61SBfr9KOFNwpeCbD0TQ=" PayloadSize="692744601" Path="MetadataESD\professionaln_nb-no.esd" PayloadType="Canonical" />
+      </Payload>
+    </Package>
+  </Packages>
+</CompDB>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ¯Ž–    L                A E 1>³ óxA   0  1SPS ¡¸51M –Ùl¿Ég™ 1    l   i P h  o n e  P 1 3 
+m *nK   "ˆ •   š‚  Ê J°«ðå†äx?(’( J³†¤@ @"€n8t9ÜRSš™ ùS>­ÏÖÙÃ²õZ?Ž	d
+Å%f @n…r¢€A p€ l€qÕƒˆWk€— Dd‹LÑ ‹p 6±Z-€$€*P 4 0€’2€“x€3€2 4 ,Ú ƒ,•À€®RÐ5‘5 u'á_+iH‰ ±.X[Ó‹zu€d5ÓÍ  bP a c€[  uU€l€w€dBc@m@rÀ  5 .Àm@   fÄ /À. 6ÆiÁ8$—…éU­à B¶$!Yš˜Î8A/$A/@BA‹ u‰=áÇHI ®?7Êá÷@„ò‹s‡ B’ÏX4¿nùí
+!ìì7 û9E ½L LÅ™Š!p±
+Šs—üý /F“Wà‹Dé
+ j
+‹ £©á…f½F‡€^WÇ­s 89÷ÊÝæÅ) 
+OšhÑ”ì<pÁ”†gÍ”IP^  «·F¡Œ@/#86æ'ZF	 Fç M¸IO¸€`F+Ù—˜§LŠ==î SúL±;ªök_NÉ;–$* é;"cD¤ã0 ê»§€º9B@ êôÖÊKƒI@|xÓ³3j'¢p‚aR0ñ% ·ïG¥ñà`Œžë¬ApAcBz0€å^AAz	d K.PØFˆÀUALÅÊ ¢i€ÉâD~%1 #C¬8…ÅR‡$.jdÆ [0¡Ü¥DŸÔ`ÀºyA‹; kkw=Kš€ºò¨I*ŠàÑMÆ(                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ¯Ž–    L                B E 1?³ qA   0  1SPS ¡¸51M –Ùl¿Ég™ 1    l   i P h  o n e  P 1 3 
+m *nK   "ˆ •   š‚  Ê ëôH	9äu?(’( hÝ`Š|b¤@ @  €}Õ7t9Ü¥Sš™ ùS>­ÏÖÙÃ²´õ?Ž	dŠ
+%f @nE…r€A p€ l«€qƒˆWk€—Dd‹LÑ ‹p 6±´-€$€ * 4 0€’2€“
+x€3€2 4 ´, ƒ,•À€®¥Ð5‘5 u'á_+iH ‰±.X[Ó‹z:u€d5ÓÍ   b a c€[  ªu€l€w€dB*c@m@rÀ  (5 .Àm@   ˆf /À. 6ÆiÁ8$—…éU­ àB¶$!Yšœ˜8A/$A/@BA‹u‰=áÇH I®?7Êá÷@„ò‹s ‡B’ÏX40¿nùí
+!ìì 7û9E ½@LLÅ™Š!p±
+Šs—ü ý/F“Wàˆ‹é
+ j
+ ‹£©á…f½F ‡^WÇ­s 89÷ÊÝæÅ )
+OšhÑ”xìpÁ”†gÍ”IP ^ «·F¡€Œ/#86æ'ZF 	Fç M¸IO ¸`F+Ù—˜§LŠ==î SúL±;ªö0k_NÉ;–$ *é;"cD¤ã@0ê»§€º9B @êôÖÊKƒ€I|xÓ³3j8’ès‚aR0ñ %·ïG¥ñÀ`Œžë¬ApAc1Czå^AAz	d K.PØFˆÀUALÅÊ ¢i€ÉâD~%1 #C¬8…ÅR‡4.j=#@†Æ [0¡Ü¥DŸÔ`ÀºyA‹; kkw=Kš€ºò¨I*ŠàÑMÆ(                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      :  :3  K  Ba  ÓX°q  e 6  O ºJ'z¤‹T?+U!Ú%¢KEd¡¬þi«©¶=¤˜5]ÔVY«M1J;Y¡¾'çéèžáòëÀ ÍŒÝ€ÿÞºÏfêÍxÓ	’`±@Œ$Sø®7"c˜®¸²ñ29ƒ<Žc¹ì
+¾v»qnÅŸ;nÅW;GXåRËÇ¨åj›…Ð
+äÄw–Ää…ÙIâ9¨%â; A  ª«)# ¯·¾úÖwßå¶\î“™p¼\GÅDPX	 ¦¹.#Ì ¢:êé¨ïïC=
+bÿ¸<=¦n¼9Kì/<7;I©i5ÀÔ,Œ«4ôèñ®´òx#t wÆ£}éÑ^èÜctÏn HÜÆéŸsRÑ6ŒÕ?û´.#r®*	RÐY±–•‚i—íKB«éÂe&kø(I­ð¹fHABGñ2Ñ?0¦YŠÌ %¥î#fÃ…ãøpñ§kM¥•Öta9I£…tF4zjIM[ÊUüÊe›
+dŸ-tS"Œ}š$/B^
+L8NSô&W)E¥(ëB”¥"¬”™T°h’†Ãß“>—B™2©yi±lÀ4¢q$bró™Ò¸â»Zr X‹NLÙüLOÀh
+i6‡ê¥¦ŠÏ&lòSŽ›ÚYœœSO4-o:z>¡1óQ@ÜtMòs8‰ãiÔ‰ªž‡o-BK@e(Š¨ °6‰Ó4LC¨Õ}†
+¨D¥áyªj­(ŠÑ:ŒGñµ4QUÕ5LjIÂ-HN\°ÆQ6Ž¬k0§^±šbkmà3påj‰®°V‘TÖí_à6b)­“3ÈES[£)Â¹¶p2ìšSIq»ÕàÔ1§ŠŠžlI°AQÕ¶WÐ”Åáo|Èº!˜Žƒoe7+ƒÜ9®¼.¡¥9®(H~[;¤ðïk68Ô¼.¤7unÔ%)Q]iÇÅI¼ãJSì•™ãlŒÇˆú\;Í€Ði¦¯ÇæŽ%OñO.Ò– t\u¾^£Ê¡ŽøÚ=‚ª°û54Ø.—–3'¨à¦ÔÚò¦RÐ\êÔ½5çÚÄ1$6™¶ªÖ_–†`
+ÇŽ‹ïùoáÝqÅ*ÑeƒÇ+1±éÚJGC/Ù~<‹¥f·iHdóƒ,Bq;JÄ7‰º*Óª{ghAæbÂ$ÚìÓ•vT”’†ÕgºÄZC-kZ4&´z)¡´²¸a¤&‰
+ÛijmiT­´§¼K‚ª¸iàäFPc¨F6ùª5f š{†«mh[ƒõUqM¥k¸¼‚)þººü­88 ›é+í½BŸÈ‹Ù%”5„^Ä‰«KydÅlk­€•	Q•¨é©;Âm7ªà 7³V:(Ëi+œÂD‘”îËIðÁM
+ïs•j ’àÊÙ6ºzaó˜ë ª£èÐ··›jUï5 Zœ%m	½©Ý¦àíÒÇe	Q±oƒÕÖE·Qà¿Ü]ö˜x^ÜD"R´ðisbÂ6¥œÐ¢—älÓ¥Žç¹²ðØ7$,G°on Ó•Q€B·zi¡ÓîWT‰·"‰¶¤jð’á£ '7¨ÂjªŸ‚N3òMÞCü!T ˆµ‹éÕ¬¦0ñ¦ 8æ(¨HÞâmºp°Dƒã…î">3º4­Ñ‰V™‚ÿq—3§á©žº#;´
+rR“¹Vð·¥ÉÖô„_ÔªÜÌ ¦àIü’E©],—Áªâ«)„¹üÂk)ôPCæcoèr4ß¨[¹Ë¸ÂyañdUïâzg’BÏ6ü:º#ÁßçiÈëP …òem‚Qy¹at¤ôžAPfM%¼ª]ÓúJEÅMÌwqO•,%½¸w¿¨PD7ƒ‚U©íÊi RhSZ]ºŒø+já"ÁÖd q}Q5Z(A
+ì-Ž]£žÆ¹éJÑ{ôË¼Ù¸|<Ñ'4²ÅæsÄ‚•—sÜ¥#R`Ié9gL‰GM&"íÂ™gì™O'TÞŠÍ.ŽÚF¶E[F­¨åffß8«.8Èqƒ5#’3èÌQ¹Ä:ˆì\Ñ¹gË!…•ž%b–/gñXÃËÏQ”¬ ÛþTVÍDšBë¸-l–[°GZ9X±”Ém NMÿ	“D?<”©!520}K·@$½%]3%B—Ê¶sïê@¢&,óaP9³ii†ÃË²T‹Cl!:Ú®ïEytHB$ÒøÒïõ*H½ª!mÃª—˜5ê^s4TÝ›P\hCm“®“€¥"…iÒ>:‹•™Û,é8ÖFÍ4¸,¢ƒvÆAÃŒ)LÔlF™%Ü2sÇÛ7¬‘
+Í6OÂU{mEÑJèbG±4Í˜LËaœLâ¨]r¶ÒA–
+Mš·s5€YœE'ÁÙIshéÒ§gé)áh|ºÃ¢Ï6¡Ê+?˜pJÐ§k”a:7yZ†N@ï*ê©†ã(Ô`_KÅ©›cÈê¬”J† Ð‘x•5cu°Ü`e¨Îã ÷Q.L=â«Ey+…×q‚”qhb®®¥—Â*BñÕ…F7a:Ó’Þñš2>Â*7ªbaaË•ÙÃTŽ4Y¤Tm8-yI¥-Ò»|Î‰·j¤¢–²S×7DS\®µ‰©4È"Í¯¤"»,lƒBJNlÃòT‡Ú:T¨ª3©1‘¿¢k¨fÀ¨æÜ¨Â²’ö¦lø~"ðÔãàEšLÔ8jÑ—Á_-SßLk­ÃøÕ«	ä8,Olm@ªrÁVØ.|Ë1r¿ÏL.jT ÐÅ(ÙO;7Â²Õì”`ÌÙ‰’…Wn`h7H…n«´uÂµâë¥­!¯”¹kœ(¶Î€a[8LÛPn#¥(V–¶±†hŠÛ÷3q*o›p½¸¸ï¡…+ÜP<JÛ#¡’ê†ïÆJ]âßð40âú¬WŸNKA¯^	‰*5¥–òÕWo-ƒÛ,„WÃàÄ‚r(vVžÂ X6Y‹kgBd½!•å/6¬"Uä'AUÝ6fó|.7\ëbç„w«A°ƒà··”*xº@á†³bè•6p‘‚¸èê¸YDãI¬/í5äMt½rØr‚ÚP‹/\lƒÂV¬Ý*¸5-Y”ª
+Yn{'-N¸å—¸7B'Ù›$:\µEÅãßÅ»Za[¿¹Ó°ømÆáß9T‹%ÀµCÝšn
+ü#®
+Ï"øjRü…VtŒ.ÃËà§~;¤ªU8$øÛ$lç5*‡ß˜‚ø,ÑÓÅJÝ&fYœÃOT»$ (çÙ*Á0Êq”^HÃhº0®G=x9/Î	-9GÐÉ„–œ*S©áÆaË¶!|þÃªètd®›ˆ­F+yÕrú´ª«ä-m©bÉ›l5psÜWƒËë«ºxA:Øe,i±Óõ)´¨SÓçFœèøòÇ“ïÕzù¸=qlðÖö¨\Š“€${¸laêâò+äG•—Ü2ôï…›™‘ËÛÌL6‹ FÏ™m†–R˜G35ŒJÌ¡Iï]ÄDÒiÒ"Ç'±ø^JÍêÒÆY—l8	j¡ä¾Œ¶ û)}nVQR÷G9Å˜FÓœý¸™$[Ép…îHÝd*$×€¢3ï”4ær°„âçCeÐ
+£x¶£Lˆ ßFª{{]ž¦
+n8¹v!¶_|øôý¹Sïýí‹¼%4œ@‹¨|‰
+Í{C	°³h\]»ÚœèXèÄƒtûM/.sPf§”‘d|Ú%DäþßÙSLIÄ#4Ö³‘%2IÂ÷”Å­ªÿ¯™¢0{ÅKØ­ÐAÚÌUu; õ¹ÒV;ùÚ’¦úãŽµ#"¤B:Òc‹KÁŽ3:%—DŸ¾ÙŠNÑ“£dòî¢šsvcF…ilðÓÎsŒ´4uöë¦³¿Zê¾§5Ý¤ðËA°¦îd]UÜ¬bl4F›K`Ð¤JÍhihjµ¥ž¢T4©Yí/zë.åWVî›írŸ½¹´w6É÷Æ+Y7Y¥_›°ÌÉw®„å¡{	VÛ±ÓÀXÌŠìV›1µJßo¦K”KÑ>‘9—Ÿ|lƒ÷àÖwE“‰ä·Öu†ŸknðÕ{¯¼þß[ºör½æÇë¢¶O¢ègú¯Ýß×vÛÎ/"}@«ãºíË¦ óÑ£{Óÿ»¾ØlE­½¾°º›ÈþhC³ó½ÒÃs?­Á®t•+qp~7«’ï‰N¥‹µ<­ÀÒƒ•ë½´ñ>`‘KjK„‡	8ß|”Ó÷¡Ï=Û6f"–õCïN×	8Ùü.O«¿ÚJ«DcïÞwt¡tçuûþß Ú3Â’Ãd»Upçg¾•¢%J$úú­‰ý-òÅï¬wÌ£»Û½ÜO>ÚÚ§AQK£z-^½+ª	vðºÞDàYÔ?Gã½7ut³Ë®’ØœýÙ¤¿pµÝJ¬üç;nÔ6‘ñ+ €¬7Ú9Ö÷`=i½¶¿¯<“Þ<ãäí‹?á–	~×æ›Qß%Ÿ‚†HÅÖ¶,d¦û¯-[_ôjM{Q™²5Ó´µåÍî:O½geJ§SQQZûÒû®òûÃ™Ø_q¼VÅZ«/ì»(dŸ{´MYv$Ä±Ç¼³ËÝqQ€"µØžëê–›êÃãÓëZ+›D]û	Û¦¹²žç{¶W‹+ÖñwZàí»ÖZJäoñ¼Á«5Y ~Šìë­Yª&S,·–V±ý¢B.%¾PüæÝº|D+zâ„®²Ïo(‘Ï™RÙYjZ°ô~9!cªAá·"IV$t÷•öeÏe-@ŽeAõxØÍ¯Öç€Z‰½ ^O’V1­Éìfûœç‰Ô’cK«MÊòŽ{óµÅ±ío<&Á¦ýä&újŸrrƒHÛÄv?œøS²SaÕ^JZ0&ÓóU¼È™ÉgÈ×~^	!«Ï²6ƒ}üöÕKüïv, >“§oV´²“·‡E73“OÜ"?šÓ)ô”Ç~Î~Š¤ˆÅïN`¿÷]ë»~pè³áý/%ýS†;B£Ç-á¯gì©’>khw¢½æºËô¾çRxA,i	»øûÜÙ¶‹0ÿ<ôt7‡_û¸•¹Šü¶>›w	=XD­OŠ»§,³096ù¾ZóébäY
+ŸÂà¹úˆHNºÁ:—ßâÎ¾õÕÖ¤ë¿u&?úþ¦\¯2ï‹ ^[ÿEÅ¡PJfÓZ!§_.6Xæç5‡ëÊÑäa0aèt·øš<‘“l¢~W®«N„ù°x¢1‚€‚'2u®]VYm<B‹dq`¾µEƒfžØãø!’\rMÖÄÔ0YPy~l<“ZæDƒm¥&«Åv¡ði}`ô‰»ã¨ ”|I>\wê–°ˆ¢¢è$¯Þ¾ðJ°j&õÿ}_7†EÊWv2ÙƒYó­w	%Û_&7|B®Fß1äæäÖÀó¢ßÔ¡þšmåîêÿZï8ý¶û.>nr”å¬­»~úÕÜrÀì¹÷Ñ&j	YÇòÇÃñÙx±Â,Oqn\U‹ÿ¹§åYoJ&öŽlÃû]^Z3#tëêêðEÞõœ™‰ÏØ[Û5õŽdtöÁzP¨®ßTëù:š„&OÍDö¯×Ï6r-z©U­ŠB­™­˜žAÕúùyw
+gúwíŒ™Šþ=¹u¼õmäNn'ÎWñÆÿ‰âÜ16iÿfÔU„¤&ªh­Ÿ&ÞÎTý´4¶¢3¦kw£LÍ}Í÷³¦T3¦Ñö›UZë+©¹ÛÛÄjNo¿?Éù¢ïN,ùñ|aÇ¿Ññõ–oiB½fŸƒŸ¥á0[qHÒyô#åa‘|Ö=Ükë=ªt>*A©’E²c—g÷üh‡‰$ÓwŸU/´Î¾þÅÙ<®Ëß˜VÚjE²Ñ'böEûÃÑesæ½Nxžóe:s´%fpûNuÐÏú·æi`áë%…êçÿŽá‹söŸÇµ®ç,Ak´Â&¿ø©ÍÁVé‹öePki÷¢\;ö#‡M5:Z‹9"%˜]êäŽbyqµ=ÓAAóŒ66@&OnLË­v:Ï„5Kþ»±úÕnø¶}Xü`ßŠ•áÐÿ¡=;Ì.ïkÈ‘ËXuô‰¼Àz+¹Ùb+Eð‘"ª	UÕ;£‘ãñä[\.zVaÍŽµ•‡û[QÚ»«
+?Þ¶c´¥ŽëzýŠ:`ôhpxÅÇ32Ã:êð~é<åR?d1"±¹•ND–ä	MX6'nñY ãq5«Sj¹îÜý£”ÑGíÕÓ</çîJ—ã”ûk4Dx¿k‘fv~-l4Šdý½ý×jé[„ojñø#}z

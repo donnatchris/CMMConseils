@@ -1,0 +1,2570 @@
+[
+  {
+    "artifact": "structures/mbr-et-avant-partition.bin",
+    "size": 4194304,
+    "sha256": "37a35b11e0d8c5fb86d602e1848246fb3ceb2c671af5a2d6849750e16e7ee57e",
+    "source": {
+      "absolute_offset": 0,
+      "length": 4194304
+    }
+  },
+  {
+    "artifact": "structures/reserve-fat32.bin",
+    "size": 3072,
+    "sha256": "ea445fc6e3817c18b29d03df04e574327e5d97c1b33a2c9bcdea1350836f3ab2",
+    "source": {
+      "absolute_offset": 4194304,
+      "length": 3072
+    }
+  },
+  {
+    "artifact": "structures/fat1.bin",
+    "size": 7787008,
+    "sha256": "19d943e6f80a9d9e63c707f486f833c7d1753f8d1a324bd0569cbdd0b6db374d",
+    "source": {
+      "absolute_offset": 4197376,
+      "length": 7787008
+    }
+  },
+  {
+    "artifact": "structures/fat2.bin",
+    "size": 7787008,
+    "sha256": "19d943e6f80a9d9e63c707f486f833c7d1753f8d1a324bd0569cbdd0b6db374d",
+    "source": {
+      "absolute_offset": 11984384,
+      "length": 7787008
+    }
+  },
+  {
+    "artifact": "structures/fin-partition.bin",
+    "size": 4096,
+    "sha256": "aa8ad959c0eea7af4707767d4476e8a794b892a844934901454878cd62efe02b",
+    "source": {
+      "absolute_offset": 31914979328,
+      "length": 4096
+    }
+  },
+  {
+    "artifact": "prive/repertoires/2.bin",
+    "size": 16384,
+    "sha256": "044cc7d817719e8c343e718fe2718992d61af9f9e714b10af097217f86d54ebb",
+    "source": {
+      "path": "",
+      "start_cluster": 2,
+      "clusters": [
+        2
+      ],
+      "size": 16384,
+      "sha256": "044cc7d817719e8c343e718fe2718992d61af9f9e714b10af097217f86d54ebb"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/3.bin",
+    "size": 16384,
+    "sha256": "4af15197c53a15e63e583c2fea31d2ba148a967e20e38a62c3c80477aa6b17b5",
+    "source": {
+      "path": "CAMERA SALON",
+      "start_cluster": 3,
+      "clusters": [
+        3
+      ],
+      "size": 16384,
+      "sha256": "4af15197c53a15e63e583c2fea31d2ba148a967e20e38a62c3c80477aa6b17b5"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/4.bin",
+    "size": 16384,
+    "sha256": "4c25be9b2789789ff542a7422ab1efaf419329a1faa9a5f04d76ba1cada50cc8",
+    "source": {
+      "path": "CAMERA SALON/record",
+      "start_cluster": 4,
+      "clusters": [
+        4
+      ],
+      "size": 16384,
+      "sha256": "4c25be9b2789789ff542a7422ab1efaf419329a1faa9a5f04d76ba1cada50cc8"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/160.bin",
+    "size": 16384,
+    "sha256": "f2fabf7ff71288ed6dd6585e5e64a2610f1aa1f1eb09b091233b13af2c5235d7",
+    "source": {
+      "path": "CAMERA SALON/record/20231104",
+      "start_cluster": 160,
+      "clusters": [
+        160
+      ],
+      "size": 16384,
+      "sha256": "f2fabf7ff71288ed6dd6585e5e64a2610f1aa1f1eb09b091233b13af2c5235d7"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/3575.bin",
+    "size": 16384,
+    "sha256": "c69e060cac280ed5a3afee15fae4c81e565bb92ba32444c056bb352051c04f63",
+    "source": {
+      "path": "CAMERA SALON/record/20231107",
+      "start_cluster": 3575,
+      "clusters": [
+        3575
+      ],
+      "size": 16384,
+      "sha256": "c69e060cac280ed5a3afee15fae4c81e565bb92ba32444c056bb352051c04f63"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/18230.bin",
+    "size": 16384,
+    "sha256": "627a65f3f4950eba94c7d2aee5fb50ddf07e370a258cf5c54bd4d3575bd39580",
+    "source": {
+      "path": "CAMERA SALON/record/20231108",
+      "start_cluster": 18230,
+      "clusters": [
+        18230
+      ],
+      "size": 16384,
+      "sha256": "627a65f3f4950eba94c7d2aee5fb50ddf07e370a258cf5c54bd4d3575bd39580"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/24860.bin",
+    "size": 16384,
+    "sha256": "68948f6c6d343634ee9c5c7d99f320e58a16d62ff1610238ef2bbf77f53dcea6",
+    "source": {
+      "path": "CAMERA SALON/record/20231109",
+      "start_cluster": 24860,
+      "clusters": [
+        24860
+      ],
+      "size": 16384,
+      "sha256": "68948f6c6d343634ee9c5c7d99f320e58a16d62ff1610238ef2bbf77f53dcea6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/28602.bin",
+    "size": 16384,
+    "sha256": "b233d349730c0fc873d53f60e0a616119948b477c46e863bb5c144bb21941d01",
+    "source": {
+      "path": "CAMERA SALON/record/20231111",
+      "start_cluster": 28602,
+      "clusters": [
+        28602
+      ],
+      "size": 16384,
+      "sha256": "b233d349730c0fc873d53f60e0a616119948b477c46e863bb5c144bb21941d01"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/45168.bin",
+    "size": 16384,
+    "sha256": "c43a3936893e12c5eadbacd62be1122f6d46a76243a2f8a58cae51f5d781019f",
+    "source": {
+      "path": "CAMERA SALON/record/20231115",
+      "start_cluster": 45168,
+      "clusters": [
+        45168
+      ],
+      "size": 16384,
+      "sha256": "c43a3936893e12c5eadbacd62be1122f6d46a76243a2f8a58cae51f5d781019f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/73034.bin",
+    "size": 16384,
+    "sha256": "157b0d33218843dc9fa890996c4a007c4b13a8c8221d28920ea47842f2d66ffb",
+    "source": {
+      "path": "CAMERA SALON/record/20231116",
+      "start_cluster": 73034,
+      "clusters": [
+        73034
+      ],
+      "size": 16384,
+      "sha256": "157b0d33218843dc9fa890996c4a007c4b13a8c8221d28920ea47842f2d66ffb"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/110894.bin",
+    "size": 16384,
+    "sha256": "64c024102d99a55a424b19d5ec6e8ddbd91f4ab2b6aba4ab119401591bb6808f",
+    "source": {
+      "path": "CAMERA SALON/record/20231117",
+      "start_cluster": 110894,
+      "clusters": [
+        110894
+      ],
+      "size": 16384,
+      "sha256": "64c024102d99a55a424b19d5ec6e8ddbd91f4ab2b6aba4ab119401591bb6808f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/123009.bin",
+    "size": 16384,
+    "sha256": "a12d643d2b169649db7d015760a7198d2bd14195e47a90704a75eae0f6e08dc6",
+    "source": {
+      "path": "CAMERA SALON/record/20231118",
+      "start_cluster": 123009,
+      "clusters": [
+        123009
+      ],
+      "size": 16384,
+      "sha256": "a12d643d2b169649db7d015760a7198d2bd14195e47a90704a75eae0f6e08dc6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/170786.bin",
+    "size": 16384,
+    "sha256": "8273d26c80eb756c972e77af1be0e2b05e62a1c052e09977ef1ece94602ca0c0",
+    "source": {
+      "path": "CAMERA SALON/record/20231120",
+      "start_cluster": 170786,
+      "clusters": [
+        170786
+      ],
+      "size": 16384,
+      "sha256": "8273d26c80eb756c972e77af1be0e2b05e62a1c052e09977ef1ece94602ca0c0"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/180384.bin",
+    "size": 16384,
+    "sha256": "e3a0f424c77784b787e798b44cc7d3c5f5d5bfa6a266345b41e80661d7332861",
+    "source": {
+      "path": "CAMERA SALON/record/20231121",
+      "start_cluster": 180384,
+      "clusters": [
+        180384
+      ],
+      "size": 16384,
+      "sha256": "e3a0f424c77784b787e798b44cc7d3c5f5d5bfa6a266345b41e80661d7332861"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/183161.bin",
+    "size": 16384,
+    "sha256": "d0eeecefe246fc5befd1cd60d4edcd8099423416f61899e9c7be9961897a7274",
+    "source": {
+      "path": "CAMERA SALON/record/20231122",
+      "start_cluster": 183161,
+      "clusters": [
+        183161
+      ],
+      "size": 16384,
+      "sha256": "d0eeecefe246fc5befd1cd60d4edcd8099423416f61899e9c7be9961897a7274"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/183635.bin",
+    "size": 16384,
+    "sha256": "5dc18484ab37c80bdf346ad16973170460300886aacbb843400aa3d9f5399c45",
+    "source": {
+      "path": "CAMERA SALON/record/20231123",
+      "start_cluster": 183635,
+      "clusters": [
+        183635
+      ],
+      "size": 16384,
+      "sha256": "5dc18484ab37c80bdf346ad16973170460300886aacbb843400aa3d9f5399c45"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/186657.bin",
+    "size": 16384,
+    "sha256": "9132a3b31e85cf2627b34a154f571bbc8441ee0cb9c0da327fd4193f3fb23813",
+    "source": {
+      "path": "CAMERA SALON/record/20231125",
+      "start_cluster": 186657,
+      "clusters": [
+        186657
+      ],
+      "size": 16384,
+      "sha256": "9132a3b31e85cf2627b34a154f571bbc8441ee0cb9c0da327fd4193f3fb23813"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/187769.bin",
+    "size": 16384,
+    "sha256": "1fe89433396559bad183b2416543f5e4d78e180009a6a569d0145b014bdf5380",
+    "source": {
+      "path": "CAMERA SALON/record/20231126",
+      "start_cluster": 187769,
+      "clusters": [
+        187769
+      ],
+      "size": 16384,
+      "sha256": "1fe89433396559bad183b2416543f5e4d78e180009a6a569d0145b014bdf5380"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/188581.bin",
+    "size": 16384,
+    "sha256": "0e8e786bc9ba5cb78eb00b1e424c942fd2104bcd21cff766b77e65306eb3b9da",
+    "source": {
+      "path": "CAMERA SALON/record/20231128",
+      "start_cluster": 188581,
+      "clusters": [
+        188581
+      ],
+      "size": 16384,
+      "sha256": "0e8e786bc9ba5cb78eb00b1e424c942fd2104bcd21cff766b77e65306eb3b9da"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/189494.bin",
+    "size": 16384,
+    "sha256": "17ee13edd5381e99004b6dc198cabcac67f9599993f89f821a6ad7a03cdc82e6",
+    "source": {
+      "path": "CAMERA SALON/record/20231129",
+      "start_cluster": 189494,
+      "clusters": [
+        189494
+      ],
+      "size": 16384,
+      "sha256": "17ee13edd5381e99004b6dc198cabcac67f9599993f89f821a6ad7a03cdc82e6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/192110.bin",
+    "size": 16384,
+    "sha256": "f32eec27f064c7d9029ef619ae4ac6f632d315a3aa1984220325ec45636f24fa",
+    "source": {
+      "path": "CAMERA SALON/record/20231130",
+      "start_cluster": 192110,
+      "clusters": [
+        192110
+      ],
+      "size": 16384,
+      "sha256": "f32eec27f064c7d9029ef619ae4ac6f632d315a3aa1984220325ec45636f24fa"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/200455.bin",
+    "size": 16384,
+    "sha256": "f8cac7ecc76367dc6115f5010d531d580d6d0b1d9f4754b17d065bda0761348f",
+    "source": {
+      "path": "CAMERA SALON/record/20231201",
+      "start_cluster": 200455,
+      "clusters": [
+        200455
+      ],
+      "size": 16384,
+      "sha256": "f8cac7ecc76367dc6115f5010d531d580d6d0b1d9f4754b17d065bda0761348f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/201835.bin",
+    "size": 16384,
+    "sha256": "5cf8cb591d509e4e1efc59c74ce201f5a74b444fdcd0a06061d1714778b4f704",
+    "source": {
+      "path": "CAMERA SALON/record/20231203",
+      "start_cluster": 201835,
+      "clusters": [
+        201835
+      ],
+      "size": 16384,
+      "sha256": "5cf8cb591d509e4e1efc59c74ce201f5a74b444fdcd0a06061d1714778b4f704"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/207756.bin",
+    "size": 16384,
+    "sha256": "1714f662f95db603a62a107d4f3ecc5afe4fe99b329454c080db5080df0676ae",
+    "source": {
+      "path": "CAMERA SALON/record/20231204",
+      "start_cluster": 207756,
+      "clusters": [
+        207756
+      ],
+      "size": 16384,
+      "sha256": "1714f662f95db603a62a107d4f3ecc5afe4fe99b329454c080db5080df0676ae"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/209626.bin",
+    "size": 16384,
+    "sha256": "a119896da65133251c4cb456548e85a607b4f2154082a2ec9d980d4d3bc03dc4",
+    "source": {
+      "path": "CAMERA SALON/record/20231205",
+      "start_cluster": 209626,
+      "clusters": [
+        209626
+      ],
+      "size": 16384,
+      "sha256": "a119896da65133251c4cb456548e85a607b4f2154082a2ec9d980d4d3bc03dc4"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/211770.bin",
+    "size": 16384,
+    "sha256": "40227be415208ca6662f2df5fbfc926a46f2b61529fddbfba33c32a8b339faaf",
+    "source": {
+      "path": "CAMERA SALON/record/20231206",
+      "start_cluster": 211770,
+      "clusters": [
+        211770
+      ],
+      "size": 16384,
+      "sha256": "40227be415208ca6662f2df5fbfc926a46f2b61529fddbfba33c32a8b339faaf"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/214147.bin",
+    "size": 16384,
+    "sha256": "66111435e4f8606fe6f76ed743274763ebf14a19e34708d082ced2f94edf823e",
+    "source": {
+      "path": "CAMERA SALON/record/20231207",
+      "start_cluster": 214147,
+      "clusters": [
+        214147
+      ],
+      "size": 16384,
+      "sha256": "66111435e4f8606fe6f76ed743274763ebf14a19e34708d082ced2f94edf823e"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/214860.bin",
+    "size": 16384,
+    "sha256": "d520410ab0cf20a862fb5340b8b6162c06b365bdc758c1f37d1a98c6e17538c6",
+    "source": {
+      "path": "CAMERA SALON/record/20231208",
+      "start_cluster": 214860,
+      "clusters": [
+        214860
+      ],
+      "size": 16384,
+      "sha256": "d520410ab0cf20a862fb5340b8b6162c06b365bdc758c1f37d1a98c6e17538c6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/235509.bin",
+    "size": 16384,
+    "sha256": "31a11037cdf42391c0c071fb4b5cf0558efe6a9650886611bf7363a5f05f906e",
+    "source": {
+      "path": "CAMERA SALON/record/20231209",
+      "start_cluster": 235509,
+      "clusters": [
+        235509
+      ],
+      "size": 16384,
+      "sha256": "31a11037cdf42391c0c071fb4b5cf0558efe6a9650886611bf7363a5f05f906e"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/303507.bin",
+    "size": 16384,
+    "sha256": "3f81d56e766ca936f8f0bf053dc4a3416a0d04ef44d8fd87f6d2b2f819866b96",
+    "source": {
+      "path": "CAMERA SALON/record/20231213",
+      "start_cluster": 303507,
+      "clusters": [
+        303507
+      ],
+      "size": 16384,
+      "sha256": "3f81d56e766ca936f8f0bf053dc4a3416a0d04ef44d8fd87f6d2b2f819866b96"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/305965.bin",
+    "size": 16384,
+    "sha256": "a2cdec1d28290fa5af5667273ecf46c20acb7deecc736f352528f8b46e2ea4ab",
+    "source": {
+      "path": "CAMERA SALON/record/20231214",
+      "start_cluster": 305965,
+      "clusters": [
+        305965
+      ],
+      "size": 16384,
+      "sha256": "a2cdec1d28290fa5af5667273ecf46c20acb7deecc736f352528f8b46e2ea4ab"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/306693.bin",
+    "size": 16384,
+    "sha256": "4b6dd0bb332fc4617a1aad0db462718fa014abbe120678b536fa83b983ad0e96",
+    "source": {
+      "path": "CAMERA SALON/record/20231218",
+      "start_cluster": 306693,
+      "clusters": [
+        306693
+      ],
+      "size": 16384,
+      "sha256": "4b6dd0bb332fc4617a1aad0db462718fa014abbe120678b536fa83b983ad0e96"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/311277.bin",
+    "size": 16384,
+    "sha256": "2ce4021a962d84fa5b2c9979ac15a47a0dfdb52d67778e90e226ce9016ecd549",
+    "source": {
+      "path": "CAMERA SALON/record/20231219",
+      "start_cluster": 311277,
+      "clusters": [
+        311277
+      ],
+      "size": 16384,
+      "sha256": "2ce4021a962d84fa5b2c9979ac15a47a0dfdb52d67778e90e226ce9016ecd549"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/335536.bin",
+    "size": 16384,
+    "sha256": "04d47445fb56d1f98e8ccc6804b427fd9982666379658e72d1a04de21726b3d7",
+    "source": {
+      "path": "CAMERA SALON/record/20231220",
+      "start_cluster": 335536,
+      "clusters": [
+        335536
+      ],
+      "size": 16384,
+      "sha256": "04d47445fb56d1f98e8ccc6804b427fd9982666379658e72d1a04de21726b3d7"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/337151.bin",
+    "size": 16384,
+    "sha256": "a4208c6ca394c171125516e6cb13ae812c20bd78ae6260d1cd77c30c5afaae90",
+    "source": {
+      "path": "CAMERA SALON/record/20231221",
+      "start_cluster": 337151,
+      "clusters": [
+        337151
+      ],
+      "size": 16384,
+      "sha256": "a4208c6ca394c171125516e6cb13ae812c20bd78ae6260d1cd77c30c5afaae90"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/337757.bin",
+    "size": 16384,
+    "sha256": "23bfec956d555c4cd7a5479465837faa2be4c2bd5c42b52cf2ea6880d96aba86",
+    "source": {
+      "path": "CAMERA SALON/record/20231225",
+      "start_cluster": 337757,
+      "clusters": [
+        337757
+      ],
+      "size": 16384,
+      "sha256": "23bfec956d555c4cd7a5479465837faa2be4c2bd5c42b52cf2ea6880d96aba86"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/340322.bin",
+    "size": 16384,
+    "sha256": "422977fca67be2dfcb4ef65751aaa0006ae6cd91138584b7a7d78f5ea856c713",
+    "source": {
+      "path": "CAMERA SALON/record/20231230",
+      "start_cluster": 340322,
+      "clusters": [
+        340322
+      ],
+      "size": 16384,
+      "sha256": "422977fca67be2dfcb4ef65751aaa0006ae6cd91138584b7a7d78f5ea856c713"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/352076.bin",
+    "size": 16384,
+    "sha256": "43891a3ece3cea6530df9f5f29c96aea47d7deb8e5dc6d45d2825172622dfc72",
+    "source": {
+      "path": "CAMERA SALON/record/20231231",
+      "start_cluster": 352076,
+      "clusters": [
+        352076
+      ],
+      "size": 16384,
+      "sha256": "43891a3ece3cea6530df9f5f29c96aea47d7deb8e5dc6d45d2825172622dfc72"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/356290.bin",
+    "size": 16384,
+    "sha256": "bc3c89ea8b21a5b57a7c661f3ed221b8caae648e68d66e0d6e7d8526ab9de3cd",
+    "source": {
+      "path": "CAMERA SALON/record/20240109",
+      "start_cluster": 356290,
+      "clusters": [
+        356290
+      ],
+      "size": 16384,
+      "sha256": "bc3c89ea8b21a5b57a7c661f3ed221b8caae648e68d66e0d6e7d8526ab9de3cd"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/358025.bin",
+    "size": 16384,
+    "sha256": "f84ef94143d3ececea130b6689fb2cd0db72da5a4c00cfe03965c7e65ccf605c",
+    "source": {
+      "path": "CAMERA SALON/record/20240110",
+      "start_cluster": 358025,
+      "clusters": [
+        358025
+      ],
+      "size": 16384,
+      "sha256": "f84ef94143d3ececea130b6689fb2cd0db72da5a4c00cfe03965c7e65ccf605c"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/359666.bin",
+    "size": 16384,
+    "sha256": "1d630e3333c599492af3e1e2bee4b7af1b9c1df0d09576fb76c415305f859623",
+    "source": {
+      "path": "CAMERA SALON/record/20240111",
+      "start_cluster": 359666,
+      "clusters": [
+        359666
+      ],
+      "size": 16384,
+      "sha256": "1d630e3333c599492af3e1e2bee4b7af1b9c1df0d09576fb76c415305f859623"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/465140.bin",
+    "size": 16384,
+    "sha256": "353bee7a6857af20234f286345cca983f94d139a596aa2bba5e7c93b0b6bf221",
+    "source": {
+      "path": "CAMERA SALON/record/20240112",
+      "start_cluster": 465140,
+      "clusters": [
+        465140
+      ],
+      "size": 16384,
+      "sha256": "353bee7a6857af20234f286345cca983f94d139a596aa2bba5e7c93b0b6bf221"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/471581.bin",
+    "size": 16384,
+    "sha256": "d3fd157765fd8199d8f47bdb4f4f91336612b95a62bc67529d574fa85336d1d6",
+    "source": {
+      "path": "CAMERA SALON/record/20240114",
+      "start_cluster": 471581,
+      "clusters": [
+        471581
+      ],
+      "size": 16384,
+      "sha256": "d3fd157765fd8199d8f47bdb4f4f91336612b95a62bc67529d574fa85336d1d6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/480858.bin",
+    "size": 16384,
+    "sha256": "f366ae3a959eb557e341b1d4c857e9134ace57077523685a3adc04f679d8aa2b",
+    "source": {
+      "path": "CAMERA SALON/record/20240116",
+      "start_cluster": 480858,
+      "clusters": [
+        480858
+      ],
+      "size": 16384,
+      "sha256": "f366ae3a959eb557e341b1d4c857e9134ace57077523685a3adc04f679d8aa2b"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/483896.bin",
+    "size": 16384,
+    "sha256": "9f80349bee038d5d8bd573a2dfd1115a3d9a83d9fc50c8d4fbc3b10bc646a935",
+    "source": {
+      "path": "CAMERA SALON/record/20240117",
+      "start_cluster": 483896,
+      "clusters": [
+        483896
+      ],
+      "size": 16384,
+      "sha256": "9f80349bee038d5d8bd573a2dfd1115a3d9a83d9fc50c8d4fbc3b10bc646a935"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/484572.bin",
+    "size": 16384,
+    "sha256": "6aa4cf89f801daa97913bc521b7927d15fb3d49faee3f1bc87091040b6ca1f0b",
+    "source": {
+      "path": "CAMERA SALON/record/20240118",
+      "start_cluster": 484572,
+      "clusters": [
+        484572
+      ],
+      "size": 16384,
+      "sha256": "6aa4cf89f801daa97913bc521b7927d15fb3d49faee3f1bc87091040b6ca1f0b"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/490736.bin",
+    "size": 16384,
+    "sha256": "051ea6e60b1a6795fddebdb57d04ab13df9f427167570f9861f11d8a52fe7954",
+    "source": {
+      "path": "CAMERA SALON/record/20240123",
+      "start_cluster": 490736,
+      "clusters": [
+        490736
+      ],
+      "size": 16384,
+      "sha256": "051ea6e60b1a6795fddebdb57d04ab13df9f427167570f9861f11d8a52fe7954"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/497826.bin",
+    "size": 16384,
+    "sha256": "4509379c1514657cea0cd745295b9222bce121181ae5645beca317ea73222749",
+    "source": {
+      "path": "CAMERA SALON/record/20240124",
+      "start_cluster": 497826,
+      "clusters": [
+        497826
+      ],
+      "size": 16384,
+      "sha256": "4509379c1514657cea0cd745295b9222bce121181ae5645beca317ea73222749"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/503174.bin",
+    "size": 16384,
+    "sha256": "acbab7a7b1592e230341b32484edb2971a74e6ca18c972f2bb9df1e298a345b8",
+    "source": {
+      "path": "CAMERA SALON/record/20240205",
+      "start_cluster": 503174,
+      "clusters": [
+        503174
+      ],
+      "size": 16384,
+      "sha256": "acbab7a7b1592e230341b32484edb2971a74e6ca18c972f2bb9df1e298a345b8"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/505931.bin",
+    "size": 16384,
+    "sha256": "1f68e780d7cc76cbceba48a4f016ff925d816bcc5f44a7893a30ee58d3c6fdee",
+    "source": {
+      "path": "CAMERA SALON/record/20240209",
+      "start_cluster": 505931,
+      "clusters": [
+        505931
+      ],
+      "size": 16384,
+      "sha256": "1f68e780d7cc76cbceba48a4f016ff925d816bcc5f44a7893a30ee58d3c6fdee"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/507444.bin",
+    "size": 16384,
+    "sha256": "89a5bb0512bb309d2afd6d4684ba9e9818ab9575d6f5b4097df59c3e515e376c",
+    "source": {
+      "path": "CAMERA SALON/record/20240214",
+      "start_cluster": 507444,
+      "clusters": [
+        507444
+      ],
+      "size": 16384,
+      "sha256": "89a5bb0512bb309d2afd6d4684ba9e9818ab9575d6f5b4097df59c3e515e376c"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/509636.bin",
+    "size": 16384,
+    "sha256": "49d8bb9921d33336d3e576a2467fdae3d8f53069eafefe9b5bd096917e4697a3",
+    "source": {
+      "path": "CAMERA SALON/record/20240220",
+      "start_cluster": 509636,
+      "clusters": [
+        509636
+      ],
+      "size": 16384,
+      "sha256": "49d8bb9921d33336d3e576a2467fdae3d8f53069eafefe9b5bd096917e4697a3"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/511700.bin",
+    "size": 16384,
+    "sha256": "c06be4a8d39f088647a329784936e223210c3b08c279ef3a753c08dc39181791",
+    "source": {
+      "path": "CAMERA SALON/record/20240221",
+      "start_cluster": 511700,
+      "clusters": [
+        511700
+      ],
+      "size": 16384,
+      "sha256": "c06be4a8d39f088647a329784936e223210c3b08c279ef3a753c08dc39181791"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/519939.bin",
+    "size": 16384,
+    "sha256": "335c66cf4fa822ea2ac21c896709172c7d4e3bfdd62c79ef9fe8db03e23994d4",
+    "source": {
+      "path": "CAMERA SALON/record/20240222",
+      "start_cluster": 519939,
+      "clusters": [
+        519939
+      ],
+      "size": 16384,
+      "sha256": "335c66cf4fa822ea2ac21c896709172c7d4e3bfdd62c79ef9fe8db03e23994d4"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/520032.bin",
+    "size": 16384,
+    "sha256": "85b0d9f1cd5bfaea1f5c6bcca53e4a06c33f94bcbc61ad861e8909b5e7efab8c",
+    "source": {
+      "path": "CAMERA SALON/record/20240224",
+      "start_cluster": 520032,
+      "clusters": [
+        520032
+      ],
+      "size": 16384,
+      "sha256": "85b0d9f1cd5bfaea1f5c6bcca53e4a06c33f94bcbc61ad861e8909b5e7efab8c"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/520201.bin",
+    "size": 16384,
+    "sha256": "429e044107ac10df82b1a5ed49d795e5598d01779bc6cb0822caac9f9083a325",
+    "source": {
+      "path": "CAMERA SALON/record/20240229",
+      "start_cluster": 520201,
+      "clusters": [
+        520201
+      ],
+      "size": 16384,
+      "sha256": "429e044107ac10df82b1a5ed49d795e5598d01779bc6cb0822caac9f9083a325"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/553153.bin",
+    "size": 16384,
+    "sha256": "b65a7d8a937930ea5465d5a4a1ea25dead09d4c18414e1cc449c6edc0436e2d8",
+    "source": {
+      "path": "CAMERA SALON/record/20240304",
+      "start_cluster": 553153,
+      "clusters": [
+        553153
+      ],
+      "size": 16384,
+      "sha256": "b65a7d8a937930ea5465d5a4a1ea25dead09d4c18414e1cc449c6edc0436e2d8"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/578105.bin",
+    "size": 16384,
+    "sha256": "d1e302ffe33e9c290448747fb60d9915cd6a1603029b51cc6473a394f5a857bd",
+    "source": {
+      "path": "CAMERA SALON/record/20240307",
+      "start_cluster": 578105,
+      "clusters": [
+        578105
+      ],
+      "size": 16384,
+      "sha256": "d1e302ffe33e9c290448747fb60d9915cd6a1603029b51cc6473a394f5a857bd"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/581275.bin",
+    "size": 16384,
+    "sha256": "9a14c0572ac9efdf9a881fe0f7bc8243cd5d437edfb65717b3f755cf055ea1e6",
+    "source": {
+      "path": "CAMERA SALON/record/20240309",
+      "start_cluster": 581275,
+      "clusters": [
+        581275
+      ],
+      "size": 16384,
+      "sha256": "9a14c0572ac9efdf9a881fe0f7bc8243cd5d437edfb65717b3f755cf055ea1e6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/581422.bin",
+    "size": 16384,
+    "sha256": "e78f5154ef37fc8e116f70f69267587d9af64f643e2c15f9970849dc9ff39a47",
+    "source": {
+      "path": "CAMERA SALON/record/20240311",
+      "start_cluster": 581422,
+      "clusters": [
+        581422
+      ],
+      "size": 16384,
+      "sha256": "e78f5154ef37fc8e116f70f69267587d9af64f643e2c15f9970849dc9ff39a47"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/582962.bin",
+    "size": 16384,
+    "sha256": "b872b0c68f20e616eda244a8a92f9093e0d7677143e5f49179fcf7b267821be3",
+    "source": {
+      "path": "CAMERA SALON/record/20240312",
+      "start_cluster": 582962,
+      "clusters": [
+        582962
+      ],
+      "size": 16384,
+      "sha256": "b872b0c68f20e616eda244a8a92f9093e0d7677143e5f49179fcf7b267821be3"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/585134.bin",
+    "size": 16384,
+    "sha256": "50ec61dffee9977cb1359bc1cb48a0eb3ca92d70195239197e47897809c9a11f",
+    "source": {
+      "path": "CAMERA SALON/record/20240314",
+      "start_cluster": 585134,
+      "clusters": [
+        585134
+      ],
+      "size": 16384,
+      "sha256": "50ec61dffee9977cb1359bc1cb48a0eb3ca92d70195239197e47897809c9a11f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/585410.bin",
+    "size": 16384,
+    "sha256": "5287b28e4d5807769f656291baf73cb5a276d04378db5d9cbbcfaa9ace4647de",
+    "source": {
+      "path": "CAMERA SALON/record/20240316",
+      "start_cluster": 585410,
+      "clusters": [
+        585410
+      ],
+      "size": 16384,
+      "sha256": "5287b28e4d5807769f656291baf73cb5a276d04378db5d9cbbcfaa9ace4647de"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/588798.bin",
+    "size": 16384,
+    "sha256": "81ab8cb4cdfbfca7a8b764ee958443dafbee863ca6ea41dce23f1e6f6835dcca",
+    "source": {
+      "path": "CAMERA SALON/record/20240319",
+      "start_cluster": 588798,
+      "clusters": [
+        588798
+      ],
+      "size": 16384,
+      "sha256": "81ab8cb4cdfbfca7a8b764ee958443dafbee863ca6ea41dce23f1e6f6835dcca"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/593068.bin",
+    "size": 16384,
+    "sha256": "82aab67aa0a902310ddd4e8adf110c0e7bb213b63307cf90770c8cc2053b0bf6",
+    "source": {
+      "path": "CAMERA SALON/record/20240322",
+      "start_cluster": 593068,
+      "clusters": [
+        593068
+      ],
+      "size": 16384,
+      "sha256": "82aab67aa0a902310ddd4e8adf110c0e7bb213b63307cf90770c8cc2053b0bf6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/594384.bin",
+    "size": 16384,
+    "sha256": "c3b7d1267ce4b83211f08c08919e2dc495301d6d054d4cdbe569b9e471640bee",
+    "source": {
+      "path": "CAMERA SALON/record/20240323",
+      "start_cluster": 594384,
+      "clusters": [
+        594384
+      ],
+      "size": 16384,
+      "sha256": "c3b7d1267ce4b83211f08c08919e2dc495301d6d054d4cdbe569b9e471640bee"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/595688.bin",
+    "size": 16384,
+    "sha256": "6f3f946a5802d61ca0a30d74bec8da44f30c59c91f7c07a75aac85fb46f2d13f",
+    "source": {
+      "path": "CAMERA SALON/record/20240325",
+      "start_cluster": 595688,
+      "clusters": [
+        595688
+      ],
+      "size": 16384,
+      "sha256": "6f3f946a5802d61ca0a30d74bec8da44f30c59c91f7c07a75aac85fb46f2d13f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/598105.bin",
+    "size": 16384,
+    "sha256": "7ae62b18ae9dc2806279d8cf22125459be920721b78a1e5d67709a8a60bafc59",
+    "source": {
+      "path": "CAMERA SALON/record/20240328",
+      "start_cluster": 598105,
+      "clusters": [
+        598105
+      ],
+      "size": 16384,
+      "sha256": "7ae62b18ae9dc2806279d8cf22125459be920721b78a1e5d67709a8a60bafc59"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/606284.bin",
+    "size": 16384,
+    "sha256": "5002f120bb0b6c2194239797a21f4f6d39bbd71ac34ea98d2c1f879b7e08bb22",
+    "source": {
+      "path": "CAMERA SALON/record/20240329",
+      "start_cluster": 606284,
+      "clusters": [
+        606284
+      ],
+      "size": 16384,
+      "sha256": "5002f120bb0b6c2194239797a21f4f6d39bbd71ac34ea98d2c1f879b7e08bb22"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/606400.bin",
+    "size": 16384,
+    "sha256": "1b938462b7977a847ce608ea03f8ce61bd18e74844f4828a64ed91a151cb7de4",
+    "source": {
+      "path": "CAMERA SALON/record/20240401",
+      "start_cluster": 606400,
+      "clusters": [
+        606400
+      ],
+      "size": 16384,
+      "sha256": "1b938462b7977a847ce608ea03f8ce61bd18e74844f4828a64ed91a151cb7de4"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/613860.bin",
+    "size": 16384,
+    "sha256": "3a769d3971781ff2977263cecbfe46430960fb87b55cd1b4a9efd33bd1d86678",
+    "source": {
+      "path": "CAMERA SALON/record/20240405",
+      "start_cluster": 613860,
+      "clusters": [
+        613860
+      ],
+      "size": 16384,
+      "sha256": "3a769d3971781ff2977263cecbfe46430960fb87b55cd1b4a9efd33bd1d86678"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/614761.bin",
+    "size": 16384,
+    "sha256": "7ec8b9e94b218cf659ac6f46c7c8d6b656052cc711b74f94c2a52adf6be05265",
+    "source": {
+      "path": "CAMERA SALON/record/20240406",
+      "start_cluster": 614761,
+      "clusters": [
+        614761
+      ],
+      "size": 16384,
+      "sha256": "7ec8b9e94b218cf659ac6f46c7c8d6b656052cc711b74f94c2a52adf6be05265"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/617170.bin",
+    "size": 16384,
+    "sha256": "a26a193e070d87950b5fa47acdd804df1dcc3258b9439e01284b9fe96828171e",
+    "source": {
+      "path": "CAMERA SALON/record/20240410",
+      "start_cluster": 617170,
+      "clusters": [
+        617170
+      ],
+      "size": 16384,
+      "sha256": "a26a193e070d87950b5fa47acdd804df1dcc3258b9439e01284b9fe96828171e"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/619041.bin",
+    "size": 16384,
+    "sha256": "534a9b188e0ed25bddb44766743e21dea33e667768d5f436d6bbf938302284f0",
+    "source": {
+      "path": "CAMERA SALON/record/20240411",
+      "start_cluster": 619041,
+      "clusters": [
+        619041
+      ],
+      "size": 16384,
+      "sha256": "534a9b188e0ed25bddb44766743e21dea33e667768d5f436d6bbf938302284f0"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/619614.bin",
+    "size": 16384,
+    "sha256": "d691b53e1d25434363d13be434b00ac16a625e58a9878ea60f8957178605435c",
+    "source": {
+      "path": "CAMERA SALON/record/20240412",
+      "start_cluster": 619614,
+      "clusters": [
+        619614
+      ],
+      "size": 16384,
+      "sha256": "d691b53e1d25434363d13be434b00ac16a625e58a9878ea60f8957178605435c"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/619749.bin",
+    "size": 16384,
+    "sha256": "285ae178c0200aba897efbf939da083f92ee7583c70e0973745ae42ad0a53f1c",
+    "source": {
+      "path": "CAMERA SALON/record/20240413",
+      "start_cluster": 619749,
+      "clusters": [
+        619749
+      ],
+      "size": 16384,
+      "sha256": "285ae178c0200aba897efbf939da083f92ee7583c70e0973745ae42ad0a53f1c"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/621827.bin",
+    "size": 16384,
+    "sha256": "13572d31440f22835a7f45a2957847092cd03cbc5136e420785e5555f3e61de3",
+    "source": {
+      "path": "CAMERA SALON/record/20240415",
+      "start_cluster": 621827,
+      "clusters": [
+        621827
+      ],
+      "size": 16384,
+      "sha256": "13572d31440f22835a7f45a2957847092cd03cbc5136e420785e5555f3e61de3"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/623435.bin",
+    "size": 16384,
+    "sha256": "1ace060ee669a7e07db9f15830382b196eed1e82551666851e70b1a0b0693eae",
+    "source": {
+      "path": "CAMERA SALON/record/20240416",
+      "start_cluster": 623435,
+      "clusters": [
+        623435
+      ],
+      "size": 16384,
+      "sha256": "1ace060ee669a7e07db9f15830382b196eed1e82551666851e70b1a0b0693eae"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/623639.bin",
+    "size": 16384,
+    "sha256": "785ac20ee77b1b16a48cfc64d5163f44f804092eef3a7fc8a4c5dff296042ca6",
+    "source": {
+      "path": "CAMERA SALON/record/20240418",
+      "start_cluster": 623639,
+      "clusters": [
+        623639
+      ],
+      "size": 16384,
+      "sha256": "785ac20ee77b1b16a48cfc64d5163f44f804092eef3a7fc8a4c5dff296042ca6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/624380.bin",
+    "size": 16384,
+    "sha256": "64b0daf15709d46810f03fa92fdd07577c7f42b03018e2b1310e99637819760d",
+    "source": {
+      "path": "CAMERA SALON/record/20240419",
+      "start_cluster": 624380,
+      "clusters": [
+        624380
+      ],
+      "size": 16384,
+      "sha256": "64b0daf15709d46810f03fa92fdd07577c7f42b03018e2b1310e99637819760d"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/624603.bin",
+    "size": 16384,
+    "sha256": "eb97b5fa228915ce018f2d0f5b5748e0b2a915a39f4c1a745f145f6f2ba6777c",
+    "source": {
+      "path": "CAMERA SALON/record/20240420",
+      "start_cluster": 624603,
+      "clusters": [
+        624603
+      ],
+      "size": 16384,
+      "sha256": "eb97b5fa228915ce018f2d0f5b5748e0b2a915a39f4c1a745f145f6f2ba6777c"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/625253.bin",
+    "size": 16384,
+    "sha256": "e319316726e61e217e5f36d1af8b605ae00331430f4a6cb7c4167f8b2573fc8e",
+    "source": {
+      "path": "CAMERA SALON/record/20240421",
+      "start_cluster": 625253,
+      "clusters": [
+        625253
+      ],
+      "size": 16384,
+      "sha256": "e319316726e61e217e5f36d1af8b605ae00331430f4a6cb7c4167f8b2573fc8e"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/629792.bin",
+    "size": 16384,
+    "sha256": "9d426161e763a206ce2d2f3cc0325c58c3c6f82bdd0571e9c518ec4870d89589",
+    "source": {
+      "path": "CAMERA SALON/record/20240422",
+      "start_cluster": 629792,
+      "clusters": [
+        629792
+      ],
+      "size": 16384,
+      "sha256": "9d426161e763a206ce2d2f3cc0325c58c3c6f82bdd0571e9c518ec4870d89589"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/631715.bin",
+    "size": 16384,
+    "sha256": "a6fadc560b2d48151e74ae69b76866cf4288a1d0300fb08e2dfc9ff60078cd34",
+    "source": {
+      "path": "CAMERA SALON/record/20240424",
+      "start_cluster": 631715,
+      "clusters": [
+        631715
+      ],
+      "size": 16384,
+      "sha256": "a6fadc560b2d48151e74ae69b76866cf4288a1d0300fb08e2dfc9ff60078cd34"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/632720.bin",
+    "size": 16384,
+    "sha256": "a3c262ed2d0ad276905794fcb9c1120fec4e29e0e106942a9aaf98a60a4536ee",
+    "source": {
+      "path": "CAMERA SALON/record/20240425",
+      "start_cluster": 632720,
+      "clusters": [
+        632720
+      ],
+      "size": 16384,
+      "sha256": "a3c262ed2d0ad276905794fcb9c1120fec4e29e0e106942a9aaf98a60a4536ee"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/633168.bin",
+    "size": 16384,
+    "sha256": "4147245edb6afd1632bc3f330e6691d3391482f0b2c7417ad3b4390c887b169f",
+    "source": {
+      "path": "CAMERA SALON/record/20240426",
+      "start_cluster": 633168,
+      "clusters": [
+        633168
+      ],
+      "size": 16384,
+      "sha256": "4147245edb6afd1632bc3f330e6691d3391482f0b2c7417ad3b4390c887b169f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/639942.bin",
+    "size": 16384,
+    "sha256": "66bac7d1fa9d4788ce37bc86d40482e76325cd2148b255bea355b1516dc3b300",
+    "source": {
+      "path": "CAMERA SALON/record/20240428",
+      "start_cluster": 639942,
+      "clusters": [
+        639942
+      ],
+      "size": 16384,
+      "sha256": "66bac7d1fa9d4788ce37bc86d40482e76325cd2148b255bea355b1516dc3b300"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/641173.bin",
+    "size": 16384,
+    "sha256": "df29d6f3edbe75035843507373f94435c946f58591f4800c72b49659d0ccd322",
+    "source": {
+      "path": "CAMERA SALON/record/20240429",
+      "start_cluster": 641173,
+      "clusters": [
+        641173
+      ],
+      "size": 16384,
+      "sha256": "df29d6f3edbe75035843507373f94435c946f58591f4800c72b49659d0ccd322"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/641331.bin",
+    "size": 16384,
+    "sha256": "9decdbcc618f2585062b2b67e5ea6f170d2761bfced08353056b69013edcf02f",
+    "source": {
+      "path": "CAMERA SALON/record/20240430",
+      "start_cluster": 641331,
+      "clusters": [
+        641331
+      ],
+      "size": 16384,
+      "sha256": "9decdbcc618f2585062b2b67e5ea6f170d2761bfced08353056b69013edcf02f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/641969.bin",
+    "size": 16384,
+    "sha256": "9c7a64ce0cea8e8b48cb28a505676af26baa6388841d7c5f9587fdf183993f87",
+    "source": {
+      "path": "CAMERA SALON/record/20240503",
+      "start_cluster": 641969,
+      "clusters": [
+        641969
+      ],
+      "size": 16384,
+      "sha256": "9c7a64ce0cea8e8b48cb28a505676af26baa6388841d7c5f9587fdf183993f87"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/653379.bin",
+    "size": 16384,
+    "sha256": "9036f99bfb8dc5980cc776d7675dd13acca47b14b3fec497b071fe71cb3bef42",
+    "source": {
+      "path": "CAMERA SALON/record/20240506",
+      "start_cluster": 653379,
+      "clusters": [
+        653379
+      ],
+      "size": 16384,
+      "sha256": "9036f99bfb8dc5980cc776d7675dd13acca47b14b3fec497b071fe71cb3bef42"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/653601.bin",
+    "size": 16384,
+    "sha256": "48b85e1f740dcb87a6fbd4373581598c0b552ec668eec7fb4a228b3b1af167e5",
+    "source": {
+      "path": "CAMERA SALON/record/20240507",
+      "start_cluster": 653601,
+      "clusters": [
+        653601
+      ],
+      "size": 16384,
+      "sha256": "48b85e1f740dcb87a6fbd4373581598c0b552ec668eec7fb4a228b3b1af167e5"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/654080.bin",
+    "size": 16384,
+    "sha256": "67923f54f8d6e4fe1d9ec2c260ac3bf63ac060ca2fa41e9e5436666740739a0c",
+    "source": {
+      "path": "CAMERA SALON/record/20240510",
+      "start_cluster": 654080,
+      "clusters": [
+        654080
+      ],
+      "size": 16384,
+      "sha256": "67923f54f8d6e4fe1d9ec2c260ac3bf63ac060ca2fa41e9e5436666740739a0c"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/659794.bin",
+    "size": 16384,
+    "sha256": "54a7e1604e20e31eb985ae41da8ca4c9b3867a120a7c87fd1ada937838bdcba1",
+    "source": {
+      "path": "CAMERA SALON/record/20240511",
+      "start_cluster": 659794,
+      "clusters": [
+        659794
+      ],
+      "size": 16384,
+      "sha256": "54a7e1604e20e31eb985ae41da8ca4c9b3867a120a7c87fd1ada937838bdcba1"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/660311.bin",
+    "size": 16384,
+    "sha256": "9dfae3bfc79834e89161c68550960acc67d9222dfca770e72a95e24dd101c52a",
+    "source": {
+      "path": "CAMERA SALON/record/20240512",
+      "start_cluster": 660311,
+      "clusters": [
+        660311
+      ],
+      "size": 16384,
+      "sha256": "9dfae3bfc79834e89161c68550960acc67d9222dfca770e72a95e24dd101c52a"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/660879.bin",
+    "size": 16384,
+    "sha256": "ff59a85fcbc5160e14febf44e701d5c9ead3be3b90c18fb15968bc153064bbd0",
+    "source": {
+      "path": "CAMERA SALON/record/20240513",
+      "start_cluster": 660879,
+      "clusters": [
+        660879
+      ],
+      "size": 16384,
+      "sha256": "ff59a85fcbc5160e14febf44e701d5c9ead3be3b90c18fb15968bc153064bbd0"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/661504.bin",
+    "size": 16384,
+    "sha256": "bea72799d0ccb9ef9285fc37032953d67ceedb45818b118e6664eb50641899d1",
+    "source": {
+      "path": "CAMERA SALON/record/20240514",
+      "start_cluster": 661504,
+      "clusters": [
+        661504
+      ],
+      "size": 16384,
+      "sha256": "bea72799d0ccb9ef9285fc37032953d67ceedb45818b118e6664eb50641899d1"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/662997.bin",
+    "size": 16384,
+    "sha256": "e7c70fe6ae1bf7ea0f5bd37016df2f4d028e6180905bb02cefda89dec74ebe99",
+    "source": {
+      "path": "CAMERA SALON/record/20240515",
+      "start_cluster": 662997,
+      "clusters": [
+        662997
+      ],
+      "size": 16384,
+      "sha256": "e7c70fe6ae1bf7ea0f5bd37016df2f4d028e6180905bb02cefda89dec74ebe99"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/666732.bin",
+    "size": 16384,
+    "sha256": "6fc9b9ceb94b43fdec44b995f47d960bd94e3a27fcd9c0d4e1a079f1f7472cfa",
+    "source": {
+      "path": "CAMERA SALON/record/20240518",
+      "start_cluster": 666732,
+      "clusters": [
+        666732
+      ],
+      "size": 16384,
+      "sha256": "6fc9b9ceb94b43fdec44b995f47d960bd94e3a27fcd9c0d4e1a079f1f7472cfa"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/669356.bin",
+    "size": 16384,
+    "sha256": "11d85c8ff8f509a66b175f3c5136eca5a15a0f2f60a6fb7eebece00aac1b6ba8",
+    "source": {
+      "path": "CAMERA SALON/record/20240522",
+      "start_cluster": 669356,
+      "clusters": [
+        669356
+      ],
+      "size": 16384,
+      "sha256": "11d85c8ff8f509a66b175f3c5136eca5a15a0f2f60a6fb7eebece00aac1b6ba8"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/669881.bin",
+    "size": 16384,
+    "sha256": "f51c5e22f5da85f57a80012943b40a2e3d2c560cf72b3b0b2ff92182495c8c32",
+    "source": {
+      "path": "CAMERA SALON/record/20240524",
+      "start_cluster": 669881,
+      "clusters": [
+        669881
+      ],
+      "size": 16384,
+      "sha256": "f51c5e22f5da85f57a80012943b40a2e3d2c560cf72b3b0b2ff92182495c8c32"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/673022.bin",
+    "size": 16384,
+    "sha256": "7794ad684c86afdcd087d8186ada6bcb282a5d8787d780d2e12d12dcffdff73a",
+    "source": {
+      "path": "CAMERA SALON/record/20240525",
+      "start_cluster": 673022,
+      "clusters": [
+        673022
+      ],
+      "size": 16384,
+      "sha256": "7794ad684c86afdcd087d8186ada6bcb282a5d8787d780d2e12d12dcffdff73a"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/674320.bin",
+    "size": 16384,
+    "sha256": "e4e2aca27a6f21c2ca0e9414a14dfbc3d44900afbe479bd69bb8a818aaf2533c",
+    "source": {
+      "path": "CAMERA SALON/record/20240603",
+      "start_cluster": 674320,
+      "clusters": [
+        674320
+      ],
+      "size": 16384,
+      "sha256": "e4e2aca27a6f21c2ca0e9414a14dfbc3d44900afbe479bd69bb8a818aaf2533c"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/675276.bin",
+    "size": 16384,
+    "sha256": "ccaf2fffdf6c78d52fe9b2f5caee6c98627a0c8998f30ce45d5a14b1e6e8aa98",
+    "source": {
+      "path": "CAMERA SALON/record/20240609",
+      "start_cluster": 675276,
+      "clusters": [
+        675276
+      ],
+      "size": 16384,
+      "sha256": "ccaf2fffdf6c78d52fe9b2f5caee6c98627a0c8998f30ce45d5a14b1e6e8aa98"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/676002.bin",
+    "size": 16384,
+    "sha256": "0a6aca8f7ac6eb327bfcd21457c9bf93321ef84122c7b4d3a323cd2921aaec22",
+    "source": {
+      "path": "CAMERA SALON/record/20240610",
+      "start_cluster": 676002,
+      "clusters": [
+        676002
+      ],
+      "size": 16384,
+      "sha256": "0a6aca8f7ac6eb327bfcd21457c9bf93321ef84122c7b4d3a323cd2921aaec22"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/676188.bin",
+    "size": 16384,
+    "sha256": "907f277c911a53a35d8cff73114ea178e4790ee4ed8393e533186bc90c646084",
+    "source": {
+      "path": "CAMERA SALON/record/20240612",
+      "start_cluster": 676188,
+      "clusters": [
+        676188
+      ],
+      "size": 16384,
+      "sha256": "907f277c911a53a35d8cff73114ea178e4790ee4ed8393e533186bc90c646084"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/677809.bin",
+    "size": 16384,
+    "sha256": "7c8784e8c372be1af9461eda9fb4034bb3d88f71a63edebfffdf1e829f256518",
+    "source": {
+      "path": "CAMERA SALON/record/20240614",
+      "start_cluster": 677809,
+      "clusters": [
+        677809
+      ],
+      "size": 16384,
+      "sha256": "7c8784e8c372be1af9461eda9fb4034bb3d88f71a63edebfffdf1e829f256518"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/679087.bin",
+    "size": 16384,
+    "sha256": "96b125f452e063a73bed78bcf1280e0ad64c05ef47435a79d48b06be9129f385",
+    "source": {
+      "path": "CAMERA SALON/record/20240615",
+      "start_cluster": 679087,
+      "clusters": [
+        679087
+      ],
+      "size": 16384,
+      "sha256": "96b125f452e063a73bed78bcf1280e0ad64c05ef47435a79d48b06be9129f385"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/691781.bin",
+    "size": 16384,
+    "sha256": "c8c89686942dcc6ffdd1e09f40b8927255ae2c98415db65910c3880b7e1ae28c",
+    "source": {
+      "path": "CAMERA SALON/record/20240621",
+      "start_cluster": 691781,
+      "clusters": [
+        691781
+      ],
+      "size": 16384,
+      "sha256": "c8c89686942dcc6ffdd1e09f40b8927255ae2c98415db65910c3880b7e1ae28c"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/722506.bin",
+    "size": 49152,
+    "sha256": "ed9752c371a45aaecce30ea17c3ca1bb1c902e5eddad9c5762c43e60ea64b820",
+    "source": {
+      "path": "CAMERA SALON/record/20240622",
+      "start_cluster": 722506,
+      "clusters": [
+        722506,
+        770252,
+        818912
+      ],
+      "size": 49152,
+      "sha256": "ed9752c371a45aaecce30ea17c3ca1bb1c902e5eddad9c5762c43e60ea64b820"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/844167.bin",
+    "size": 16384,
+    "sha256": "d4d179264f27b7a889f5a6314b158c530f6653a34ebbe455cff3c260200301cc",
+    "source": {
+      "path": "CAMERA SALON/record/20240623",
+      "start_cluster": 844167,
+      "clusters": [
+        844167
+      ],
+      "size": 16384,
+      "sha256": "d4d179264f27b7a889f5a6314b158c530f6653a34ebbe455cff3c260200301cc"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/844569.bin",
+    "size": 16384,
+    "sha256": "46ef0e06852f864b46b854f2ee295717a7043fbc10c3a1ed7f3f4c2da387cc2f",
+    "source": {
+      "path": "CAMERA SALON/record/20240624",
+      "start_cluster": 844569,
+      "clusters": [
+        844569
+      ],
+      "size": 16384,
+      "sha256": "46ef0e06852f864b46b854f2ee295717a7043fbc10c3a1ed7f3f4c2da387cc2f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/845481.bin",
+    "size": 16384,
+    "sha256": "f7d3c27c934cf3e41d056a6792369757b8880b031555d7bd8331c115a9724927",
+    "source": {
+      "path": "CAMERA SALON/record/20240625",
+      "start_cluster": 845481,
+      "clusters": [
+        845481
+      ],
+      "size": 16384,
+      "sha256": "f7d3c27c934cf3e41d056a6792369757b8880b031555d7bd8331c115a9724927"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/845559.bin",
+    "size": 16384,
+    "sha256": "dbe29fa30dcc145a0769bd1ccc306a0b408002bf5eebd546e86c6c76134ce4e4",
+    "source": {
+      "path": "CAMERA SALON/record/20240628",
+      "start_cluster": 845559,
+      "clusters": [
+        845559
+      ],
+      "size": 16384,
+      "sha256": "dbe29fa30dcc145a0769bd1ccc306a0b408002bf5eebd546e86c6c76134ce4e4"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/845673.bin",
+    "size": 16384,
+    "sha256": "307aba6a11b028d17c16fad6f7fec539dd2253aeb49e0f981655bea1e1b26653",
+    "source": {
+      "path": "CAMERA SALON/record/20240704",
+      "start_cluster": 845673,
+      "clusters": [
+        845673
+      ],
+      "size": 16384,
+      "sha256": "307aba6a11b028d17c16fad6f7fec539dd2253aeb49e0f981655bea1e1b26653"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/846415.bin",
+    "size": 16384,
+    "sha256": "ba1e099003fc1989ce70c301194e1a2aa24b0dbaccff25fcfd5376c9e62c75d0",
+    "source": {
+      "path": "CAMERA SALON/record/20240705",
+      "start_cluster": 846415,
+      "clusters": [
+        846415
+      ],
+      "size": 16384,
+      "sha256": "ba1e099003fc1989ce70c301194e1a2aa24b0dbaccff25fcfd5376c9e62c75d0"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/847876.bin",
+    "size": 16384,
+    "sha256": "dd4a4c5c08d20ecac85b207f4a4c5df9790a178409550bf5274d02a68b931143",
+    "source": {
+      "path": "CAMERA SALON/record/20240706",
+      "start_cluster": 847876,
+      "clusters": [
+        847876
+      ],
+      "size": 16384,
+      "sha256": "dd4a4c5c08d20ecac85b207f4a4c5df9790a178409550bf5274d02a68b931143"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/878767.bin",
+    "size": 16384,
+    "sha256": "848b5ff802644a76d51334721e8ba0b743438beb92c21db1b6718643c18cc3b3",
+    "source": {
+      "path": "CAMERA SALON/record/20240709",
+      "start_cluster": 878767,
+      "clusters": [
+        878767
+      ],
+      "size": 16384,
+      "sha256": "848b5ff802644a76d51334721e8ba0b743438beb92c21db1b6718643c18cc3b3"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/878941.bin",
+    "size": 16384,
+    "sha256": "72ebc93562109446794e4d3a1a9d64eda69add413d48e3e5aef3688077e90ba6",
+    "source": {
+      "path": "CAMERA SALON/record/20240711",
+      "start_cluster": 878941,
+      "clusters": [
+        878941
+      ],
+      "size": 16384,
+      "sha256": "72ebc93562109446794e4d3a1a9d64eda69add413d48e3e5aef3688077e90ba6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/974444.bin",
+    "size": 16384,
+    "sha256": "8f36b72fc691701a3be5d7e00a011e6dec19e0b2c5e47f51e248181977c43586",
+    "source": {
+      "path": "CAMERA SALON/record/20240712",
+      "start_cluster": 974444,
+      "clusters": [
+        974444
+      ],
+      "size": 16384,
+      "sha256": "8f36b72fc691701a3be5d7e00a011e6dec19e0b2c5e47f51e248181977c43586"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1030058.bin",
+    "size": 16384,
+    "sha256": "07be084da07ab50e93dada73aafce1be37b7f70d3d73f4458b44ad2150b0258a",
+    "source": {
+      "path": "CAMERA SALON/record/20240713",
+      "start_cluster": 1030058,
+      "clusters": [
+        1030058
+      ],
+      "size": 16384,
+      "sha256": "07be084da07ab50e93dada73aafce1be37b7f70d3d73f4458b44ad2150b0258a"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1033241.bin",
+    "size": 16384,
+    "sha256": "60949f92fe1db0d75f3a8565903d7db90e6f506e805919f5d1bf5cd8a0a302b5",
+    "source": {
+      "path": "CAMERA SALON/record/20240714",
+      "start_cluster": 1033241,
+      "clusters": [
+        1033241
+      ],
+      "size": 16384,
+      "sha256": "60949f92fe1db0d75f3a8565903d7db90e6f506e805919f5d1bf5cd8a0a302b5"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1033340.bin",
+    "size": 16384,
+    "sha256": "113119c12bdcd8a7e5ccea25b2fd8b51b1f5fd0a0612ee01ef21249ef3a1b8a8",
+    "source": {
+      "path": "CAMERA SALON/record/20240718",
+      "start_cluster": 1033340,
+      "clusters": [
+        1033340
+      ],
+      "size": 16384,
+      "sha256": "113119c12bdcd8a7e5ccea25b2fd8b51b1f5fd0a0612ee01ef21249ef3a1b8a8"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1033568.bin",
+    "size": 16384,
+    "sha256": "a5835674b6db2bccb8ff9753bd4570224595b1f50c90b6697944e50222d3dec1",
+    "source": {
+      "path": "CAMERA SALON/record/20240719",
+      "start_cluster": 1033568,
+      "clusters": [
+        1033568
+      ],
+      "size": 16384,
+      "sha256": "a5835674b6db2bccb8ff9753bd4570224595b1f50c90b6697944e50222d3dec1"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1035284.bin",
+    "size": 16384,
+    "sha256": "7909bc231458a357460796db279a7c03f7550643f099f4f7cc317e59fceb661f",
+    "source": {
+      "path": "CAMERA SALON/record/20240723",
+      "start_cluster": 1035284,
+      "clusters": [
+        1035284
+      ],
+      "size": 16384,
+      "sha256": "7909bc231458a357460796db279a7c03f7550643f099f4f7cc317e59fceb661f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1035424.bin",
+    "size": 16384,
+    "sha256": "fae67f2a6240976866e52334ae8d98de3c4808d99d44155901e1350b72af0dbf",
+    "source": {
+      "path": "CAMERA SALON/record/20240727",
+      "start_cluster": 1035424,
+      "clusters": [
+        1035424
+      ],
+      "size": 16384,
+      "sha256": "fae67f2a6240976866e52334ae8d98de3c4808d99d44155901e1350b72af0dbf"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1035525.bin",
+    "size": 16384,
+    "sha256": "524372c468b94906c152b7bd8feeaadae1bb68199b2265fcf202b2a208e6861e",
+    "source": {
+      "path": "CAMERA SALON/record/20240801",
+      "start_cluster": 1035525,
+      "clusters": [
+        1035525
+      ],
+      "size": 16384,
+      "sha256": "524372c468b94906c152b7bd8feeaadae1bb68199b2265fcf202b2a208e6861e"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1035698.bin",
+    "size": 16384,
+    "sha256": "6349ac8b2433f8cab981dd1586f08247110b60af2ff67450aab0e96b8b2e5417",
+    "source": {
+      "path": "CAMERA SALON/record/20240807",
+      "start_cluster": 1035698,
+      "clusters": [
+        1035698
+      ],
+      "size": 16384,
+      "sha256": "6349ac8b2433f8cab981dd1586f08247110b60af2ff67450aab0e96b8b2e5417"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1035987.bin",
+    "size": 16384,
+    "sha256": "920a9ace004b0ddc95dbc8e1ed1cd092de901eda493b35c91967480e930fed34",
+    "source": {
+      "path": "CAMERA SALON/record/20240809",
+      "start_cluster": 1035987,
+      "clusters": [
+        1035987
+      ],
+      "size": 16384,
+      "sha256": "920a9ace004b0ddc95dbc8e1ed1cd092de901eda493b35c91967480e930fed34"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1078087.bin",
+    "size": 16384,
+    "sha256": "9457bd919527faca8806d7f658f72af09dee774750cf337f80b92abe3f2bfc68",
+    "source": {
+      "path": "CAMERA SALON/record/20240810",
+      "start_cluster": 1078087,
+      "clusters": [
+        1078087
+      ],
+      "size": 16384,
+      "sha256": "9457bd919527faca8806d7f658f72af09dee774750cf337f80b92abe3f2bfc68"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1078300.bin",
+    "size": 16384,
+    "sha256": "e11157705131b8f0f6c1f8f3f03ed4cfaffe868e3f2bcf126b9c5ed75e7bc667",
+    "source": {
+      "path": "CAMERA SALON/record/20240811",
+      "start_cluster": 1078300,
+      "clusters": [
+        1078300
+      ],
+      "size": 16384,
+      "sha256": "e11157705131b8f0f6c1f8f3f03ed4cfaffe868e3f2bcf126b9c5ed75e7bc667"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1080037.bin",
+    "size": 16384,
+    "sha256": "9735a11c4e54b9b46af66cdd458b6720afb8e92bc1e5d594ea1cb50471c038a6",
+    "source": {
+      "path": "CAMERA SALON/record/20240813",
+      "start_cluster": 1080037,
+      "clusters": [
+        1080037
+      ],
+      "size": 16384,
+      "sha256": "9735a11c4e54b9b46af66cdd458b6720afb8e92bc1e5d594ea1cb50471c038a6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1081495.bin",
+    "size": 16384,
+    "sha256": "984fb68d366bad97deb4946958cd8ec7b2599f0bf3ade747a7dd50e23ba8977d",
+    "source": {
+      "path": "CAMERA SALON/record/20240814",
+      "start_cluster": 1081495,
+      "clusters": [
+        1081495
+      ],
+      "size": 16384,
+      "sha256": "984fb68d366bad97deb4946958cd8ec7b2599f0bf3ade747a7dd50e23ba8977d"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1131521.bin",
+    "size": 16384,
+    "sha256": "b31ad836e9a18e0ec9ec36a8d55e643241eb575489223c6a1b18dc9374958495",
+    "source": {
+      "path": "CAMERA SALON/record/20240816",
+      "start_cluster": 1131521,
+      "clusters": [
+        1131521
+      ],
+      "size": 16384,
+      "sha256": "b31ad836e9a18e0ec9ec36a8d55e643241eb575489223c6a1b18dc9374958495"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1162483.bin",
+    "size": 32768,
+    "sha256": "3519541465e1a3268eee5b932b673b70e135f42789315d05f32b343050d864e6",
+    "source": {
+      "path": "CAMERA SALON/record/20240817",
+      "start_cluster": 1162483,
+      "clusters": [
+        1162483,
+        1240469
+      ],
+      "size": 32768,
+      "sha256": "3519541465e1a3268eee5b932b673b70e135f42789315d05f32b343050d864e6"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1299128.bin",
+    "size": 16384,
+    "sha256": "fe55e02cec672a0e4fe795528c96a203fa5abdae7b4ce6f424eb49dc219d676b",
+    "source": {
+      "path": "CAMERA SALON/record/20240818",
+      "start_cluster": 1299128,
+      "clusters": [
+        1299128
+      ],
+      "size": 16384,
+      "sha256": "fe55e02cec672a0e4fe795528c96a203fa5abdae7b4ce6f424eb49dc219d676b"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1299633.bin",
+    "size": 16384,
+    "sha256": "c9fb8e481bcf159cda14bd9875c95a51aa98581f9940f29babeaeacf9120cec1",
+    "source": {
+      "path": "CAMERA SALON/record/20240819",
+      "start_cluster": 1299633,
+      "clusters": [
+        1299633
+      ],
+      "size": 16384,
+      "sha256": "c9fb8e481bcf159cda14bd9875c95a51aa98581f9940f29babeaeacf9120cec1"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1300333.bin",
+    "size": 16384,
+    "sha256": "5a851336c0cee4b470ad5496c022d45a81acd0677d6c67c92d019df05a6588c4",
+    "source": {
+      "path": "CAMERA SALON/record/20240820",
+      "start_cluster": 1300333,
+      "clusters": [
+        1300333
+      ],
+      "size": 16384,
+      "sha256": "5a851336c0cee4b470ad5496c022d45a81acd0677d6c67c92d019df05a6588c4"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1305500.bin",
+    "size": 16384,
+    "sha256": "9d57e59aeeb96e0cd710e5a04bd196b538fbf9c66ffaecf8ba87b7a38a7e08ec",
+    "source": {
+      "path": "CAMERA SALON/record/20240821",
+      "start_cluster": 1305500,
+      "clusters": [
+        1305500
+      ],
+      "size": 16384,
+      "sha256": "9d57e59aeeb96e0cd710e5a04bd196b538fbf9c66ffaecf8ba87b7a38a7e08ec"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1314187.bin",
+    "size": 16384,
+    "sha256": "e628ee1d43199a0b738639d2b7da0be5067844011de3bc829f99b147d93d32df",
+    "source": {
+      "path": "CAMERA SALON/record/20240824",
+      "start_cluster": 1314187,
+      "clusters": [
+        1314187
+      ],
+      "size": 16384,
+      "sha256": "e628ee1d43199a0b738639d2b7da0be5067844011de3bc829f99b147d93d32df"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1320138.bin",
+    "size": 16384,
+    "sha256": "0ac08536c71a9b1a253a12b307b50526c57ec54e52eefdc09c881d8fc7d8cbbb",
+    "source": {
+      "path": "CAMERA SALON/record/20240826",
+      "start_cluster": 1320138,
+      "clusters": [
+        1320138
+      ],
+      "size": 16384,
+      "sha256": "0ac08536c71a9b1a253a12b307b50526c57ec54e52eefdc09c881d8fc7d8cbbb"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1326894.bin",
+    "size": 16384,
+    "sha256": "dfaa83a130602111b8b2587d02389c53c14bf7441761b9bf3621c1fb294e3853",
+    "source": {
+      "path": "CAMERA SALON/record/20240827",
+      "start_cluster": 1326894,
+      "clusters": [
+        1326894
+      ],
+      "size": 16384,
+      "sha256": "dfaa83a130602111b8b2587d02389c53c14bf7441761b9bf3621c1fb294e3853"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1328004.bin",
+    "size": 16384,
+    "sha256": "a33315911e2dce6d75af94b49117b7a50e28fe6d8c84d34d29c49b47bb7b5a79",
+    "source": {
+      "path": "CAMERA SALON/record/20240830",
+      "start_cluster": 1328004,
+      "clusters": [
+        1328004
+      ],
+      "size": 16384,
+      "sha256": "a33315911e2dce6d75af94b49117b7a50e28fe6d8c84d34d29c49b47bb7b5a79"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1328096.bin",
+    "size": 16384,
+    "sha256": "cce352903522d28bcaa85f50c87ccbddb86722afb8a34dd69ce37439fd86bef3",
+    "source": {
+      "path": "CAMERA SALON/record/20240831",
+      "start_cluster": 1328096,
+      "clusters": [
+        1328096
+      ],
+      "size": 16384,
+      "sha256": "cce352903522d28bcaa85f50c87ccbddb86722afb8a34dd69ce37439fd86bef3"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1333850.bin",
+    "size": 16384,
+    "sha256": "a272cfc3053742ff140ea7f8ea5493c8d28792a5fbc11c2ebbf1c49ba3c0690e",
+    "source": {
+      "path": "CAMERA SALON/record/20240901",
+      "start_cluster": 1333850,
+      "clusters": [
+        1333850
+      ],
+      "size": 16384,
+      "sha256": "a272cfc3053742ff140ea7f8ea5493c8d28792a5fbc11c2ebbf1c49ba3c0690e"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1335986.bin",
+    "size": 16384,
+    "sha256": "0dde4e917efb79dfb809eb877c0fcf59f65eb9553db2f2fa438c72d98b18d544",
+    "source": {
+      "path": "CAMERA SALON/record/20240902",
+      "start_cluster": 1335986,
+      "clusters": [
+        1335986
+      ],
+      "size": 16384,
+      "sha256": "0dde4e917efb79dfb809eb877c0fcf59f65eb9553db2f2fa438c72d98b18d544"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1338238.bin",
+    "size": 16384,
+    "sha256": "4befbe9d6504bd852db9cea44deb010686786d643412cb76ddd5a647cc96a339",
+    "source": {
+      "path": "CAMERA SALON/record/20240903",
+      "start_cluster": 1338238,
+      "clusters": [
+        1338238
+      ],
+      "size": 16384,
+      "sha256": "4befbe9d6504bd852db9cea44deb010686786d643412cb76ddd5a647cc96a339"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1343270.bin",
+    "size": 16384,
+    "sha256": "ea73b92386e37c365b6fbc713bcee9b90f9e28331d48b1770f8c6630e4e18468",
+    "source": {
+      "path": "CAMERA SALON/record/20240904",
+      "start_cluster": 1343270,
+      "clusters": [
+        1343270
+      ],
+      "size": 16384,
+      "sha256": "ea73b92386e37c365b6fbc713bcee9b90f9e28331d48b1770f8c6630e4e18468"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1344928.bin",
+    "size": 16384,
+    "sha256": "9f9b5b58c731ba5d958d5a43469f36cd969779b1e11361f34f2294bcfcf88675",
+    "source": {
+      "path": "CAMERA SALON/record/20240905",
+      "start_cluster": 1344928,
+      "clusters": [
+        1344928
+      ],
+      "size": 16384,
+      "sha256": "9f9b5b58c731ba5d958d5a43469f36cd969779b1e11361f34f2294bcfcf88675"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1345253.bin",
+    "size": 16384,
+    "sha256": "72da2af6c839c6d5c44fc835974fd75754bb7db5e266faae1d7fb6491cdc1159",
+    "source": {
+      "path": "CAMERA SALON/record/20240907",
+      "start_cluster": 1345253,
+      "clusters": [
+        1345253
+      ],
+      "size": 16384,
+      "sha256": "72da2af6c839c6d5c44fc835974fd75754bb7db5e266faae1d7fb6491cdc1159"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1351071.bin",
+    "size": 16384,
+    "sha256": "37281fb79dfafe53d6391276dffee6085497a49f1b7f2b0f316e6be4bbf47569",
+    "source": {
+      "path": "CAMERA SALON/record/20240909",
+      "start_cluster": 1351071,
+      "clusters": [
+        1351071
+      ],
+      "size": 16384,
+      "sha256": "37281fb79dfafe53d6391276dffee6085497a49f1b7f2b0f316e6be4bbf47569"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1351931.bin",
+    "size": 16384,
+    "sha256": "b44bec82bef2739d478dafa3b619210297cb0f4a408a9a2655bb9a9646f827fa",
+    "source": {
+      "path": "CAMERA SALON/record/20240912",
+      "start_cluster": 1351931,
+      "clusters": [
+        1351931
+      ],
+      "size": 16384,
+      "sha256": "b44bec82bef2739d478dafa3b619210297cb0f4a408a9a2655bb9a9646f827fa"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1352212.bin",
+    "size": 16384,
+    "sha256": "9c312e6254ac625c489d6134fb7560eac630ae7664a40196f184f2c9c8bfc099",
+    "source": {
+      "path": "CAMERA SALON/record/20240913",
+      "start_cluster": 1352212,
+      "clusters": [
+        1352212
+      ],
+      "size": 16384,
+      "sha256": "9c312e6254ac625c489d6134fb7560eac630ae7664a40196f184f2c9c8bfc099"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1352627.bin",
+    "size": 16384,
+    "sha256": "569602a9071345bc6551b4faddfe9dbbe8f30cc78b3c64ff2621925ce69345f2",
+    "source": {
+      "path": "CAMERA SALON/record/20240914",
+      "start_cluster": 1352627,
+      "clusters": [
+        1352627
+      ],
+      "size": 16384,
+      "sha256": "569602a9071345bc6551b4faddfe9dbbe8f30cc78b3c64ff2621925ce69345f2"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1363120.bin",
+    "size": 16384,
+    "sha256": "1765b1f18d325b310b5459eee3c5aa6ea8e5d2652fb8e095e543cef4e8c8c61d",
+    "source": {
+      "path": "CAMERA SALON/record/20240916",
+      "start_cluster": 1363120,
+      "clusters": [
+        1363120
+      ],
+      "size": 16384,
+      "sha256": "1765b1f18d325b310b5459eee3c5aa6ea8e5d2652fb8e095e543cef4e8c8c61d"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1366299.bin",
+    "size": 16384,
+    "sha256": "abff6cbaf29f4d29b397b1a20e8279ce2549a554a6f9a40396cb474757067e0d",
+    "source": {
+      "path": "CAMERA SALON/record/20240917",
+      "start_cluster": 1366299,
+      "clusters": [
+        1366299
+      ],
+      "size": 16384,
+      "sha256": "abff6cbaf29f4d29b397b1a20e8279ce2549a554a6f9a40396cb474757067e0d"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1376826.bin",
+    "size": 16384,
+    "sha256": "4d52f2cf319c4440fc1c5edb89901d761a897472e327d95e4a2a256c1ec9143a",
+    "source": {
+      "path": "CAMERA SALON/record/20240918",
+      "start_cluster": 1376826,
+      "clusters": [
+        1376826
+      ],
+      "size": 16384,
+      "sha256": "4d52f2cf319c4440fc1c5edb89901d761a897472e327d95e4a2a256c1ec9143a"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1378595.bin",
+    "size": 16384,
+    "sha256": "e143c25e8f984a39bae3335c19c644fc00da6eca3b1e91c260048515e74a7912",
+    "source": {
+      "path": "CAMERA SALON/record/20240920",
+      "start_cluster": 1378595,
+      "clusters": [
+        1378595
+      ],
+      "size": 16384,
+      "sha256": "e143c25e8f984a39bae3335c19c644fc00da6eca3b1e91c260048515e74a7912"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1379842.bin",
+    "size": 16384,
+    "sha256": "3cb1939626a86c1b79a03c1f05873a79f6d3a52888ba1c00651fd46015f3e248",
+    "source": {
+      "path": "CAMERA SALON/record/20240921",
+      "start_cluster": 1379842,
+      "clusters": [
+        1379842
+      ],
+      "size": 16384,
+      "sha256": "3cb1939626a86c1b79a03c1f05873a79f6d3a52888ba1c00651fd46015f3e248"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1380166.bin",
+    "size": 16384,
+    "sha256": "73c7618886a10bfa33266cacf5912a1a370ff112026095a2ddbe69e15b7b79b1",
+    "source": {
+      "path": "CAMERA SALON/record/20240922",
+      "start_cluster": 1380166,
+      "clusters": [
+        1380166
+      ],
+      "size": 16384,
+      "sha256": "73c7618886a10bfa33266cacf5912a1a370ff112026095a2ddbe69e15b7b79b1"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1380769.bin",
+    "size": 16384,
+    "sha256": "cbe8f59b11bba925775024d8f81944d46aa277e175d8a40455f1d756734a1f27",
+    "source": {
+      "path": "CAMERA SALON/record/20240923",
+      "start_cluster": 1380769,
+      "clusters": [
+        1380769
+      ],
+      "size": 16384,
+      "sha256": "cbe8f59b11bba925775024d8f81944d46aa277e175d8a40455f1d756734a1f27"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1381209.bin",
+    "size": 16384,
+    "sha256": "3a47da0d51dc28e45787f68f1f42dab879cce947fbde0d7bd514f2216c3fe1e8",
+    "source": {
+      "path": "CAMERA SALON/record/20240924",
+      "start_cluster": 1381209,
+      "clusters": [
+        1381209
+      ],
+      "size": 16384,
+      "sha256": "3a47da0d51dc28e45787f68f1f42dab879cce947fbde0d7bd514f2216c3fe1e8"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1381400.bin",
+    "size": 16384,
+    "sha256": "ac92165af6c7440c12c37ec50041a71c1a65bdd8b5dbb140611293ba3a18c387",
+    "source": {
+      "path": "CAMERA SALON/record/20240927",
+      "start_cluster": 1381400,
+      "clusters": [
+        1381400
+      ],
+      "size": 16384,
+      "sha256": "ac92165af6c7440c12c37ec50041a71c1a65bdd8b5dbb140611293ba3a18c387"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1382352.bin",
+    "size": 16384,
+    "sha256": "6a3d6a9d7cd58bb6f00a9a9a2d1c0f66bcd86bbfe03b33d1ac0e70cc22bb38de",
+    "source": {
+      "path": "CAMERA SALON/record/20240928",
+      "start_cluster": 1382352,
+      "clusters": [
+        1382352
+      ],
+      "size": 16384,
+      "sha256": "6a3d6a9d7cd58bb6f00a9a9a2d1c0f66bcd86bbfe03b33d1ac0e70cc22bb38de"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1386165.bin",
+    "size": 16384,
+    "sha256": "849c83ec86b6f204245bbae07c751a5dbdf6bfcf2655e9e6cc6a5ec937029e2f",
+    "source": {
+      "path": "CAMERA SALON/record/20240930",
+      "start_cluster": 1386165,
+      "clusters": [
+        1386165
+      ],
+      "size": 16384,
+      "sha256": "849c83ec86b6f204245bbae07c751a5dbdf6bfcf2655e9e6cc6a5ec937029e2f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1386299.bin",
+    "size": 16384,
+    "sha256": "d9aac53be3fc14196b6fd01251e49a004bf736693faecbfa37464826dce430dd",
+    "source": {
+      "path": "CAMERA SALON/record/20241001",
+      "start_cluster": 1386299,
+      "clusters": [
+        1386299
+      ],
+      "size": 16384,
+      "sha256": "d9aac53be3fc14196b6fd01251e49a004bf736693faecbfa37464826dce430dd"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1387090.bin",
+    "size": 16384,
+    "sha256": "cd00308e4508b4c79c35166c1cd52de75670c3c24b0f65e4041a08e4d665b80f",
+    "source": {
+      "path": "CAMERA SALON/record/20241002",
+      "start_cluster": 1387090,
+      "clusters": [
+        1387090
+      ],
+      "size": 16384,
+      "sha256": "cd00308e4508b4c79c35166c1cd52de75670c3c24b0f65e4041a08e4d665b80f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1387177.bin",
+    "size": 16384,
+    "sha256": "1222e1831fcc86fd2e92595c8e8c3e8988a64cec159309db55c7cd21ad1f10e7",
+    "source": {
+      "path": "CAMERA SALON/record/20241003",
+      "start_cluster": 1387177,
+      "clusters": [
+        1387177
+      ],
+      "size": 16384,
+      "sha256": "1222e1831fcc86fd2e92595c8e8c3e8988a64cec159309db55c7cd21ad1f10e7"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1388698.bin",
+    "size": 16384,
+    "sha256": "600c7eb29431081fdc73d060df76402d4cda03ad324d34bcb601db97b30bdea4",
+    "source": {
+      "path": "CAMERA SALON/record/20241004",
+      "start_cluster": 1388698,
+      "clusters": [
+        1388698
+      ],
+      "size": 16384,
+      "sha256": "600c7eb29431081fdc73d060df76402d4cda03ad324d34bcb601db97b30bdea4"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1392249.bin",
+    "size": 16384,
+    "sha256": "decf62aeef1e40ddee64dd45177aee7d1c004ff21232b2bf1d4b525133cd5d37",
+    "source": {
+      "path": "CAMERA SALON/record/20241005",
+      "start_cluster": 1392249,
+      "clusters": [
+        1392249
+      ],
+      "size": 16384,
+      "sha256": "decf62aeef1e40ddee64dd45177aee7d1c004ff21232b2bf1d4b525133cd5d37"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1393021.bin",
+    "size": 16384,
+    "sha256": "76a099b1986dfe1ca218b4a28524d71585332297c79e076eebc6f4694c8f6b48",
+    "source": {
+      "path": "CAMERA SALON/record/20241007",
+      "start_cluster": 1393021,
+      "clusters": [
+        1393021
+      ],
+      "size": 16384,
+      "sha256": "76a099b1986dfe1ca218b4a28524d71585332297c79e076eebc6f4694c8f6b48"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1393474.bin",
+    "size": 16384,
+    "sha256": "7e103a210332940106a024d085289e6a17dfbd68c1ae40c2e85927670967416f",
+    "source": {
+      "path": "CAMERA SALON/record/20241010",
+      "start_cluster": 1393474,
+      "clusters": [
+        1393474
+      ],
+      "size": 16384,
+      "sha256": "7e103a210332940106a024d085289e6a17dfbd68c1ae40c2e85927670967416f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1393876.bin",
+    "size": 16384,
+    "sha256": "9e721bfeaefc98cf72580a2ca16e3dce87fe5e28a2b626ffbbdb77a4be1e12b8",
+    "source": {
+      "path": "CAMERA SALON/record/20241011",
+      "start_cluster": 1393876,
+      "clusters": [
+        1393876
+      ],
+      "size": 16384,
+      "sha256": "9e721bfeaefc98cf72580a2ca16e3dce87fe5e28a2b626ffbbdb77a4be1e12b8"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1394063.bin",
+    "size": 16384,
+    "sha256": "ded93b659779ef8bcf01659ed019beabb194fb2c15f0b6615ae18bbf42e64d8c",
+    "source": {
+      "path": "CAMERA SALON/record/20241012",
+      "start_cluster": 1394063,
+      "clusters": [
+        1394063
+      ],
+      "size": 16384,
+      "sha256": "ded93b659779ef8bcf01659ed019beabb194fb2c15f0b6615ae18bbf42e64d8c"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1394518.bin",
+    "size": 16384,
+    "sha256": "d4b55fd6ba18153e8b5f65bc0a672bfcd7918e9c2403fd8b72997311c5d43cee",
+    "source": {
+      "path": "CAMERA SALON/record/20241014",
+      "start_cluster": 1394518,
+      "clusters": [
+        1394518
+      ],
+      "size": 16384,
+      "sha256": "d4b55fd6ba18153e8b5f65bc0a672bfcd7918e9c2403fd8b72997311c5d43cee"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1394630.bin",
+    "size": 16384,
+    "sha256": "15dae9b4593e52dad0385711e6be905c694a4ba9f34a369f39c187d05348f8bd",
+    "source": {
+      "path": "CAMERA SALON/record/20241015",
+      "start_cluster": 1394630,
+      "clusters": [
+        1394630
+      ],
+      "size": 16384,
+      "sha256": "15dae9b4593e52dad0385711e6be905c694a4ba9f34a369f39c187d05348f8bd"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1486499.bin",
+    "size": 16384,
+    "sha256": "61e9dc78d73cb18e6d5d9e502501fcea91614648d9e9252a3709f69467330060",
+    "source": {
+      "path": "CAMERA SALON/record/20241029",
+      "start_cluster": 1486499,
+      "clusters": [
+        1486499
+      ],
+      "size": 16384,
+      "sha256": "61e9dc78d73cb18e6d5d9e502501fcea91614648d9e9252a3709f69467330060"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1487053.bin",
+    "size": 16384,
+    "sha256": "9882b8ddffcae45b9ee9915719277461755f168ab641b31f376f2dbad5167f69",
+    "source": {
+      "path": "CAMERA SALON/record/20241031",
+      "start_cluster": 1487053,
+      "clusters": [
+        1487053
+      ],
+      "size": 16384,
+      "sha256": "9882b8ddffcae45b9ee9915719277461755f168ab641b31f376f2dbad5167f69"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/5.bin",
+    "size": 16384,
+    "sha256": "2e7b4f939f8c08c49b33a8ba918ba081d5cb89b6cddba684c5393c901dc1a73f",
+    "source": {
+      "path": "CAMERA SALON/.record_tmp",
+      "start_cluster": 5,
+      "clusters": [
+        5
+      ],
+      "size": 16384,
+      "sha256": "2e7b4f939f8c08c49b33a8ba918ba081d5cb89b6cddba684c5393c901dc1a73f"
+    }
+  },
+  {
+    "artifact": "prive/repertoires/1900546.bin",
+    "size": 16384,
+    "sha256": "81aa5424d710bab22eb7f1a7968453a66d341bbee179945f54f7e48c894b7b88",
+    "source": {
+      "path": "System Volume Information",
+      "start_cluster": 1900546,
+      "clusters": [
+        1900546
+      ],
+      "size": 16384,
+      "sha256": "81aa5424d710bab22eb7f1a7968453a66d341bbee179945f54f7e48c894b7b88"
+    }
+  }
+]
