@@ -8,7 +8,7 @@ Ce complément exécute les vérifications proposées dans la [lecture du PV](..
 
 OP-01 a été monté sur SIFT par EWF, boucle en lecture seule, Dislocker en lecture seule, puis NTFS avec les options `ro,norecover`. Le journal de montage est dans `journaux/montage.txt`. Les recherches portent sur des extractions existantes et le système de fichiers ainsi monté. Les bases SMS et Manifest de TP-02 ont été copiées dans un répertoire de travail isolé avant interrogation ; les empreintes des fichiers sources contrôlés avant et après sont identiques. Les scripts sont conservés dans `scripts/`. Les documents, chemins détaillés et images contenant des données privées sont dans `prive/`, exclu de Git.
 
-La version antérieure du rapport final est conservée dans `rapports-avant/`. Les rapports historiques ne sont pas réécrits. Les sorties anciennes ou les tentatives échouées sont conservées et explicitement distinguées des résultats utilisables.
+Les versions antérieures du rapport final restent conservées dans l’historique Git, notamment au commit `8dd5a85`. Le dossier `rapports-avant/` a été retiré de l’arborescence de travail. Les conclusions historiques restent inchangées. Les sorties anciennes ou les tentatives échouées sont conservées et explicitement distinguées des résultats utilisables. La normalisation éditoriale des noms et chemins du 12 novembre 2026 est tracée dans `../../generer-pdf/correction-denomination-20261112.json`.
 
 ## 2. Messageries et noms de l’annexe au PV
 

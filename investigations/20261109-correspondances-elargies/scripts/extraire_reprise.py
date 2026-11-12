@@ -63,4 +63,4 @@ with (O/'extraction.jsonl').open('x') as f:
  for name in ['extraction-initiale.jsonl','extraction-reprise.jsonl']:
   with (O/name).open() as g:
    for line in g:f.write(line)
-subprocess.run([sys.executable,'/media/shared/codeProjects/CMMConseils/investigations/20261109-correspondances-elargies/scripts/rechercher.py',str(O)],check=True)
+subprocess.run([sys.executable,str(Path(__file__).resolve().with_name('rechercher.py')),str(O)],check=True)

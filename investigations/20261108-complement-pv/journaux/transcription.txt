@@ -1,6 +1,6 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 Traceback (most recent call last):
-  File "/mnt/data/codeProjects/CMMConseils/investigations/20261108-complement-pv/scripts/transcrire.py", line 7, in <module>
+  File "/mnt/data/codeProjects/DMMConseils/investigations/20261108-complement-pv/scripts/transcrire.py", line 7, in <module>
     segments,info=model.transcribe(str(p),language='fr',beam_size=5,vad_filter=True,condition_on_previous_text=False)
                   ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/tmp/cmm-whisper-venv/lib/python3.14/site-packages/faster_whisper/transcribe.py", line 876, in transcribe

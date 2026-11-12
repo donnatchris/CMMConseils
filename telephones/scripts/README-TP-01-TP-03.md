@@ -45,7 +45,7 @@ python3 telephones/scripts/tp03_correlations.py DESTINATION
 python3 telephones/scripts/tp03_final_checks.py DESTINATION PRIORITE
 ```
 
-Valeurs de la campagne : SOURCE `/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E`, DESTINATION `/home/sansforensics/analysis/tp03-20261110`, PRIORITE `/home/sansforensics/analysis/tp03-priority-20261110`, PROJET `/media/shared/codeProjects/CMMConseils`. Ces destinations sont déjà occupées : en choisir d’autres pour reproduire.
+Valeurs de la campagne : SOURCE `/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E`, DESTINATION `/home/sansforensics/analysis/tp03-20261110`, PRIORITE `/home/sansforensics/analysis/tp03-priority-20261110`, PROJET : racine du dépôt monté sur la VM. Ces destinations sont déjà occupées : en choisir d’autres pour reproduire.
 
 `tp03_collect.py` conserve le manifeste chiffré et enregistre le manifeste clair séparément, ainsi que l’absence d’Info.plist. Les extractions utilisent l’API par domaine/chemin après vérification du fileID. Les messages de différence de taille de la bibliothèque sont informatifs ; les tailles ne sont pas forcées.
 
@@ -76,7 +76,7 @@ python3 telephones/scripts/tp03_human_controls.py GENERAL PRIORITE NOUVELLE_PASS
 python3 telephones/scripts/tp03_recover_preferences.py GENERAL NOUVELLE_REPRISE_PLISTS
 ```
 
-`TP02_SYSTEME` vaut `/media/shared/codeProjects/CMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014`. Le dernier argument de la première commande est facultatif. Les SQL et empreintes des requêtes ciblées sont conservés ; les SHM des lecteurs sont distingués des bases/WAL. Les échecs du parseur plist standard restent visibles, même après la reprise des trois fichiers concernés.
+`TP02_SYSTEME` vaut `$PROJET/telephones/recherche-TP-02/extraction-systeme-20261014`, où `PROJET` désigne la racine du dépôt sur la VM. Le dernier argument de la première commande est facultatif. Les SQL et empreintes des requêtes ciblées sont conservés ; les SHM des lecteurs sont distingués des bases/WAL. Les échecs du parseur plist standard restent visibles, même après la reprise des trois fichiers concernés.
 
 `tp03_window_all_columns.py` teste les colonnes sans filtre de nom : minima/maxima numériques puis six échelles/époques sur le 16 octobre Paris. Les colonnes explicitement textuelles/BLOB et tables virtuelles restent hors interprétation exhaustive. Une valeur candidate n’est pas automatiquement une preuve d’activité.
 

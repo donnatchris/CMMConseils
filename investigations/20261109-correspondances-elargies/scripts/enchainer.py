@@ -1,5 +1,5 @@
 import time,pathlib,subprocess,sys
-root=pathlib.Path('/home/sansforensics/analysis/elargi-20261109-v2');scripts=pathlib.Path('/media/shared/codeProjects/CMMConseils/investigations/20261109-correspondances-elargies/scripts')
+root=pathlib.Path('/home/sansforensics/analysis/elargi-20261109-v2');scripts=pathlib.Path(__file__).resolve().parent
 for _ in range(240):
  if (root/'sources.json').exists():break
  time.sleep(5)

@@ -545,7 +545,7 @@ Exécuter les étapes séquentiellement, vérifier chaque code retour et ne pas 
 Créer un dossier local distinct pour les nouveaux résultats :
 
 ```bash
-cd /home/chris/codeProjects/CMMConseils
+cd "$(git rev-parse --show-toplevel)"
 OP01_SCRIPTS="$PWD/ordinateur/recherche-OP-01"
 OP01_REPRO=$(mktemp -d /tmp/OP-01-reproduction.XXXXXX)
 mkdir -p "$OP01_REPRO/evtx" "$OP01_REPRO/reveil-16oct" \
@@ -650,7 +650,7 @@ python3 "$OP01_REPRO/scripts/summarize.py"
 Pour vérifier la livraison **déjà conservée dans le projet**, sans recalculer ni remplacer son manifeste :
 
 ```bash
-cd /home/chris/codeProjects/CMMConseils/ordinateur/recherche-OP-01
+cd "$(git rev-parse --show-toplevel)/ordinateur/recherche-OP-01"
 sha256sum -c SHA256SUMS
 ```
 

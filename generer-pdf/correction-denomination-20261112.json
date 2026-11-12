@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-12",
+  "denomination_corrigee": "DMMConseils",
+  "commit_des_versions_initiales": "8dd5a8579f229b5943f3dc9c2716b226470b6278",
+  "nature": "Correction éditoriale du nom et des chemins consignés ; scripts rendus indépendants du nom du dossier du projet.",
+  "limites": "Les répertoires physiques et le dépôt distant ne sont pas renommés. Les chemins des journaux historiques sont normalisés à titre documentaire. Les supports sources, images et extractions binaires ne sont pas modifiés.",
+  "fichiers": [
+    {
+      "fichier": "investigations/20261017-recroisements/resultats/verification.json",
+      "occurrences_corrigees": 79,
+      "sha256_avant": "9168ad50fc5431c9cc4835310c018493a39615083ae1d600fd22303963ee6239",
+      "sha256_apres": "24efd35036ed1b922b2db094ea0ee0ccc6e01a6632e41d8cfe797c65a5563a83"
+    },
+    {
+      "fichier": "investigations/20261019-retour-cliente/resultats/local-v2/tp02-after1920.json",
+      "occurrences_corrigees": 12,
+      "sha256_avant": "4b81e78d090c4cb2cfcd5af111fa07682ff5ce9d16e5314054bbfb4e45312227",
+      "sha256_apres": "1b14b45cc103a70a2f8008d03284f2e185f128389c4b721d1c36029dbfd35151"
+    },
+    {
+      "fichier": "investigations/20261017-recroisements/rapports-avant/ordinateur/analyse-ordinateur.md",
+      "occurrences_corrigees": 2,
+      "sha256_avant": "608be11a372363417a8cdb96e141faf840ddb2345ad9ee053aeb9380fe4cde15",
+      "sha256_apres": "89a7ac89dd90019b6a3cca638776f80da5e1c76754c6a4fe0a72ab1c36902f43"
+    },
+    {
+      "fichier": "investigations/20261017-recroisements/resultats/recoupements/sources.json",
+      "occurrences_corrigees": 23,
+      "sha256_avant": "dd55972f3178e22ad63d7b99f7274abb0b6f91221e39754eefeec1f2e4afef9e",
+      "sha256_apres": "35005bac087a03fb8ce0273fc7ab9442f5264598b2cb3aa400fef719f831d1f8"
+    },
+    {
+      "fichier": "investigations/20261108-complement-pv/scripts/revoir_candidats_v2.py",
+      "occurrences_corrigees": 1,
+      "sha256_avant": "28c1d86dca8d5a26c1193028a59c6544e50f8611082f5a50a10c8b0b0224aa6a",
+      "sha256_apres": "2d51adbc2a3dd503660a47fa0810d78f81e1b4430f3ac865bd19b58e3bac304c"
+    },
+    {
+      "fichier": "investigations/20261108-complement-pv/scripts/revoir_candidats.py",
+      "occurrences_corrigees": 1,
+      "sha256_avant": "7900253639b6bf94119584e243d1234d88b7c83fd3029b54642bd0e8538ea478",
+      "sha256_apres": "a03a04dac3a0f037d10a7a97bfd84fabf268480837d5317af231202e42446776"
+    },
+    {
+      "fichier": "investigations/20261108-complement-pv/scripts/revoir_candidats_v3.py",
+      "occurrences_corrigees": 1,
+      "sha256_avant": "d3892ffb115b3a8e19ea0f2e4ab977d5a6d30994910025b83fa0d79e1e3fb13b",
+      "sha256_apres": "a835e2c05bb06b564ae0eaa75a97d0b4756cc8753093c96c60f85350bc2cb5b4"
+    },
+    {
+      "fichier": "investigations/20261108-complement-pv/journaux/transcription.txt",
+      "occurrences_corrigees": 1,
+      "sha256_avant": "7613c1d8909edcb214974cd44d912669618a66cf2da998f4dad0c95349be872f",
+      "sha256_apres": "5b1d07c5be511e75c6c268563125ecf43870642344fa93905840a3bc67004ae4"
+    },
+    {
+      "fichier": "investigations/20261017-recroisements/resultats/verification-finale.json",
+      "occurrences_corrigees": 79,
+      "sha256_avant": "9168ad50fc5431c9cc4835310c018493a39615083ae1d600fd22303963ee6239",
+      "sha256_apres": "24efd35036ed1b922b2db094ea0ee0ccc6e01a6632e41d8cfe797c65a5563a83"
+    },
+    {
+      "fichier": "investigations/20261017-recroisements/resultats/recoupements-v2/sources.json",
+      "occurrences_corrigees": 23,
+      "sha256_avant": "dd55972f3178e22ad63d7b99f7274abb0b6f91221e39754eefeec1f2e4afef9e",
+      "sha256_apres": "35005bac087a03fb8ce0273fc7ab9442f5264598b2cb3aa400fef719f831d1f8"
+    },
+    {
+      "fichier": "investigations/20261019-retour-cliente/resultats/local/tp02-after1920.json",
+      "occurrences_corrigees": 12,
+      "sha256_avant": "3174c20ce658bb93ff353fb4be7fde588ae4c7e6022cf08be4ef00439540970c",
+      "sha256_apres": "3e46413d716bcf2a15f008e33ecc6974f66f841d6165b180172f1e3d85c2a003"
+    },
+    {
+      "fichier": "investigations/20261019-retour-cliente/rapports-avant/ordinateur/analyse-ordinateur.md",
+      "occurrences_corrigees": 2,
+      "sha256_avant": "4e71ec5da5ea1a6734ba880650e27008d154e801f444c0fb0f7923a1d049fb41",
+      "sha256_apres": "7121ac456850f7458593f12ba079689546a0e979cbd3cc43454f0da457adfc64"
+    },
+    {
+      "fichier": "investigations/20261109-correspondances-elargies/scripts/enchainer.py",
+      "occurrences_corrigees": 1,
+      "sha256_avant": "747d3b3869daeb932bc530720c925e19d479650a9eab1498b89c44d6b885e793",
+      "sha256_apres": "294646caead7d5c6b8aaf9676ebc64724cc1022ac4671fa8c94c40d1123ffe13"
+    },
+    {
+      "fichier": "investigations/20261109-correspondances-elargies/scripts/montage_prive.py",
+      "occurrences_corrigees": 1,
+      "sha256_avant": "bc982431a0a3f8546d0cbfa90b6c46a9cc23b69f612acf4ad3003a8a818cd52b",
+      "sha256_apres": "439691cc6cfd0a21fa867409f721eb8a8315afe9e63190f35853bf985ebad7fb"
+    },
+    {
+      "fichier": "investigations/20261109-correspondances-elargies/scripts/extraire_reprise.py",
+      "occurrences_corrigees": 1,
+      "sha256_avant": "b67d47a73699e35155f4e4110c93881b826cb10d08f6ff909440b759bd5e736a",
+      "sha256_apres": "bb375b6b9674f979619dcb666b174de4216d5df354b60bf1e8d48a8860c517d2"
+    },
+    {
+      "fichier": "investigations/20261109-correspondances-elargies/journaux/collecte.txt",
+      "occurrences_corrigees": 2,
+      "sha256_avant": "d2cb7d2182fad58d9cc96c3345230a22a2e833c5a9473690b1913a12681cb75f",
+      "sha256_apres": "6f33a4d7075fe9e6c027d3edc87c65039d27cbd3340c35cb29b74b27decda8f3"
+    },
+    {
+      "fichier": "investigations/20261109-controle-l16b-photos/rapports-avant/analyse-ordinateur.md",
+      "occurrences_corrigees": 2,
+      "sha256_avant": "cb5c6c1c414654827deacb283addced0132d2665d17431fc57433c8321bb14b9",
+      "sha256_apres": "fad439471a0b3285f0c314138d91a99e3b343cb86e0195fe1ea7873427506afb"
+    },
+    {
+      "fichier": "ordinateur/analyse-ordinateur.md",
+      "occurrences_corrigees": 2,
+      "sha256_avant": "bf80e3ae965afe03083cebf770c94b60e641106dd6507f2fc6860a9dd2a59377",
+      "sha256_apres": "b747a20bb51e2a70161874ebebf9856fdff4341bb15bf523d71d230afac5bed6"
+    },
+    {
+      "fichier": "telephones/scripts/README-TP-01-TP-03.md",
+      "occurrences_corrigees": 2,
+      "sha256_avant": "e6fd7c54c5d6501a306db8247f16f0e7bf2470a8f0e8c0e02599c775c00bd8d3",
+      "sha256_apres": "5ad3bb42fcd1a5a072c25897fddcedd1161dd5f592d3be2982b9517a623943ce"
+    },
+    {
+      "fichier": "cartes_sd/recherche-transversale/20261016/inventaires/tables-ciblees.json",
+      "occurrences_corrigees": 2,
+      "sha256_avant": "52fcbc269638349d8f0a29be35fdee98d7f98ab36ddd74c473848f98a2eb7fb4",
+      "sha256_apres": "c979760ccede9ab47e54bc5f401b13080824b67ba38dd163f7b68e3fcb0fa3eb"
+    },
+    {
+      "fichier": "cartes_sd/recherche-transversale/20261016-essais/journaux/essai-v1.stderr.txt",
+      "occurrences_corrigees": 3,
+      "sha256_avant": "efa157c9696a9a749529efebf380cd79599fa9fdc87483d2c46cb1d90ef16566",
+      "sha256_apres": "cea7a9e7652e213107ab35b1724d7e04c59ef17132b3bf2253a039c6ad966d32"
+    },
+    {
+      "fichier": "cartes_sd/recherche-transversale/20261016-essais/journaux/execution.stderr.txt",
+      "occurrences_corrigees": 3,
+      "sha256_avant": "05c80bb1b0859f248e665f1f5891e6154804e7aaa665f90ab3af572f1273741c",
+      "sha256_apres": "42544cb60715a3baaf6c5e73115b916b82f2f05e22c915c1deac0126590c3157"
+    },
+    {
+      "fichier": "cartes_sd/recherche-SD-01/20261016-complement/inventaires/paquets-video-20241015.json",
+      "occurrences_corrigees": 37,
+      "sha256_avant": "e38151d8dc6595955fb40d8697769e6d7998f20233beaf0e10c4245b57620469",
+      "sha256_apres": "1839f9aac552902a74010a5a948368ed116f792dd173a6b20614e285322fe7a8"
+    },
+    {
+      "fichier": "cartes_sd/recherche-SD-01/20261015/journaux/verification-prioritaire-v2.txt",
+      "occurrences_corrigees": 1,
+      "sha256_avant": "fe343ae83d194fc6e232786b6d36b90c1090a72123020b67033c30a73b94b7cb",
+      "sha256_apres": "836f3b50213ebbe3fd91876560f9edfb933c109c8f255dac3347d17cb06c1250"
+    },
+    {
+      "fichier": "cartes_sd/recherche-SD-01/20261015/journaux/verification-prioritaire.txt",
+      "occurrences_corrigees": 1,
+      "sha256_avant": "07664ca1c2445aab3f545342217f4080bb0735a291c39097642e362005ece737",
+      "sha256_apres": "0de2fb6061853ab6ae53126ff9f2459e194338543711da1270b1bf00209fbda0"
+    },
+    {
+      "fichier": "cartes_sd/recherche-SD-01/20261015/inventaires/decodage-complement-local.jsonl",
+      "occurrences_corrigees": 331,
+      "sha256_avant": "26698dcc33d63f658062e170145164233ccba4aaefcd2ca1dead433303375f53",
+      "sha256_apres": "546d7f2d7db5f485bd6378e9626ada6a020d7938cfd9877b795f7dd4c7691bd6"
+    },
+    {
+      "fichier": "cartes_sd/recherche-SD-01/20261015/inventaires/controle-paquets-DTS.json",
+      "occurrences_corrigees": 60,
+      "sha256_avant": "0319b3f92e8b865472f3f81e9d5169260b0e74e9d10c24e054cd11be282a55f3",
+      "sha256_apres": "a7e59aa135179fb34aa60d10cc2a273fe82c28b27d8eaa60aaa02f9d2f0050d0"
+    },
+    {
+      "fichier": "cartes_sd/recherche-SD-01/20261015/inventaires/verification-prioritaire.json",
+      "occurrences_corrigees": 72,
+      "sha256_avant": "2ce521edb9482eb43b86cf000de6768a5ff7174999622ced26a08395ce8c618d",
+      "sha256_apres": "8bb87db708117d3a1febc0467316f8455918272f572ccd70b51fdddba843007a"
+    }
+  ]
+}

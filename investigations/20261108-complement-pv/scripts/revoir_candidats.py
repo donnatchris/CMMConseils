@@ -1,5 +1,5 @@
 import json,mailbox,email.policy,email.parser,pathlib,subprocess,zipfile,io,re,hashlib
-B=pathlib.Path('/media/shared/codeProjects/CMMConseils/investigations/20261108-complement-pv')
+B=pathlib.Path(__file__).resolve().parents[1]
 h=json.loads((B/'prive/sift-recupere/prive/lawyer-candidates.json').read_text());out=B/'prive/verification-20261109';out.mkdir(exist_ok=False)
 results=[]
 for i,x in enumerate(h):

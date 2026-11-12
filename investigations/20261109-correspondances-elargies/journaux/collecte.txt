@@ -11,10 +11,10 @@ email.errors.HeaderParseError: expected atom at a start of dot-atom-text but fou
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/media/shared/codeProjects/CMMConseils/investigations/20261109-correspondances-elargies/scripts/collecter.py", line 35, in <module>
+  File "/media/shared/codeProjects/DMMConseils/investigations/20261109-correspondances-elargies/scripts/collecter.py", line 35, in <module>
     for i,m in enumerate(mb,1):msg(m,str(p),i)
                                ^^^^^^^^^^^^^^^
-  File "/media/shared/codeProjects/CMMConseils/investigations/20261109-correspondances-elargies/scripts/collecter.py", line 31, in msg
+  File "/media/shared/codeProjects/DMMConseils/investigations/20261109-correspondances-elargies/scripts/collecter.py", line 31, in msg
     row={'id':key,'source':src,'index':idx,'headers':{k:str(m.get(k,'')) for k in fields},'text':'\n'.join(body),'attachments':ats};msgs.write(json.dumps(row,ensure_ascii=False)+'\n')
                                                             ^^^^^^^^^^^
   File "/usr/lib/python3.12/email/message.py", line 503, in get
