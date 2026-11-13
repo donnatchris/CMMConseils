@@ -12,6 +12,8 @@
 
 L’appréciation juridique appartient à l’avocate et au juge. Les traitements automatiques sans signe distinctif de geste humain sont exposés plus loin et ne sont pas comptés ici comme des suspicions supplémentaires.
 
+**Réserve concernant l’ordinateur OP-01.** Aucune trace d’extraction n’a été retrouvée sur l’ordinateur pour la période entre la saisie et l’ouverture des scellés. Cette absence ne permet pas de conclure définitivement à l’absence de copie des données. Une acquisition hors ligne, par exemple en reliant le support de stockage à un autre équipement au moyen d’un bloqueur en écriture, pourrait permettre d’en copier les données sans démarrer Windows ni modifier le support source, et donc sans y laisser les traces recherchées. Cette possibilité technique n’est ni démontrée ni exclue par les éléments disponibles.
+
 ### 1.1. TP-02 : connexion Wi-Fi et appels pendant la conservation
 
 **Constat.** Les données de TP-02 conservent une séquence de configuration et de connexion au réseau `ASUS_Z01RD` le **17 octobre 2024 vers 17 h 25**. Elles contiennent aussi **53 appels du 15 au 26 octobre, dont 22 marqués sortants sur huit jours ; 19 sortants ont une durée positive**.
@@ -78,7 +80,7 @@ L’appréciation juridique appartient à l’avocate et au juge. Les traitement
 
 **Question.** Qu’est-ce qui explique cette anomalie et la lacune qui suit ?
 
-**Limite.** **Une manipulation volontaire ou une falsification n’est pas établie.** Le même défaut existe sur des vidéos antérieures, dès 2023, ce qui soutient un défaut récurrent de production. Les caméras n’étaient pas sous scellés.
+**Limite.** **Une manipulation volontaire ou une falsification n’est pas établie.** Le même défaut existe sur des vidéos antérieures, dès 2023, ce qui soutient un défaut récurrent de finalisation ou de récupération des fichiers. Son déclencheur reste inconnu : une interruption d’alimentation ou un redémarrage sont possibles, sans être démontrés. Une interruption pourrait elle-même être accidentelle ou résulter d’un geste humain. Le défaut du fichier n’explique pas à lui seul la lacune qui suit. Les caméras n’étaient pas sous scellés.
 
 **À vérifier.** Autres copies, journaux et conditions de fonctionnement de la caméra, s’ils sont disponibles. Voir la section 6 et l’annexe B.4.
 
@@ -198,6 +200,8 @@ Pour la **chambre**, 37 vidéos du 15 octobre sont conservées, dont certaines v
 
 Un défaut structurel identique est retrouvé dans onze vidéos de la chambre et du salon, dès novembre 2023. Cette répétition soutient un problème de production ou de finalisation, sans en établir le mécanisme exact. Une conversion horaire peut expliquer l’affichage du 31 décembre 1999 à partir d’une date de janvier 2000 ; elle n’explique pas pourquoi la date initiale a été enregistrée. Le signalement de réinitialisation de la chambre en février 2024 reste non authentifié.
 
+**Les scénarios techniques doivent être distingués de leur déclencheur.** Un défaut logiciel lors de la clôture du fichier ou de sa récupération après interruption est l’explication la mieux étayée pour l’erreur structurelle répétée. Une coupure d’alimentation, un redémarrage avec horodatage par défaut, un problème de production ou d’écriture des données, ou un traitement ultérieur restent compatibles, sans être établis. Un défaut logiciel pourrait être déclenché par un débranchement humain : son caractère récurrent ne prouve donc pas l’absence d’intervention. Aucun élément identifié n’attribue toutefois une telle action à une personne. **Le défaut du dernier fichier et l’absence de fichiers référencés du 16 au 28 octobre sont deux constats dont le lien causal n’est pas démontré.** Les scénarios et leurs limites sont détaillés en annexe B.4.
+
 ### Vidéos récupérées et couverture réelle
 
 Pour la **terrasse**, onze vidéos supprimées ont été récupérées entièrement et la fin d’une douzième partiellement. Elles sont datées du **5 novembre 2024**, après la période de conservation des téléphones. La carte presque pleine présente des traces compatibles avec le remplacement automatique d’anciens enregistrements ; chaque suppression n’est pas expliquée individuellement.
@@ -233,7 +237,7 @@ Ces documents ne sont pas présentés comme disponibles. La traçabilité de la 
 
 Les annexes permettent de retrouver les dates exactes, les détails vérifiables et les limites des contrôles. Elles développent les réponses du texte principal et ne présentent pas de nouvelles investigations.
 
-**Accès direct :** [chronologie détaillée](#annexe-a) · [précisions techniques](#annexe-b) · [limites et provenance](#annexe-c) · [conservation en 2026](#annexe-d) · [glossaire](#annexe-e) · [sources](#annexe-f).
+**Accès direct :** [chronologie détaillée](#annexe-a) · [précisions techniques](#annexe-b) · [limites et provenance](#annexe-c) · [conservation en 2026](#annexe-d) · [glossaire](#annexe-e) · [sources](#annexe-f) · [inventaire du matériel](#annexe-g).
 
 <a id="annexe-a"></a>
 
@@ -497,7 +501,7 @@ Le fichier du 15 octobre concerné est `20241015_132800_10_0277.mp4` (copie extr
 
 La carte conserve **65 vidéos du 15 octobre 2024**, parmi 2 431 vidéos disponibles. La dernière vidéo conservée sur SD-03 pour cette journée commence à **13 h 28 selon l’horloge de la caméra**. Ses informations de fichier indiquent janvier 2000, tandis que les images contrôlées affichent le 15 octobre 2024.
 
-Ce fichier présente une anomalie de production : la piste sonore dure **11,589 secondes de plus que la piste vidéo**. Le son correspondant existe et peut être décodé.
+Ce fichier présente une anomalie de production : la piste sonore dure **277,760 secondes**, contre **266,171 secondes** pour la piste vidéo, soit **11,589 secondes de plus**. Cet excédent est exceptionnel dans les populations comparées des trois cartes. Le son correspondant existe, peut être décodé et contient un signal non nul ; son contenu n’a pas été interprété dans les contrôles cités.
 
 La **dernière image techniquement décodée se situe vers 13 h 32 min 26 s**, selon le début et les temps de lecture du fichier. Un aperçu effectivement examiné près de cette fin affiche également 13 h 32 min 26 s. Une autre erreur affecte la lecture d’image vers **13 h 30 min 05 s**, selon le même calcul ; des images subsistent ensuite.
 
@@ -506,6 +510,19 @@ La **dernière image techniquement décodée se situe vers 13 h 32 min 26 s**, s
 **Aucune vidéo référencée ne porte une date du 16 au 28 octobre. Les fichiers disponibles reprennent le 29 octobre à 17 h 59 min 18 s**, selon la caméra. Cette lacune mérite l’attention, mais sa cause reste indéterminée : arrêt, absence de déclenchement ou perte d’enregistrements ne peuvent pas être départagés.
 
 Aucune vidéo supprimée distincte et complète n’a été récupérée. Un fragment d’environ quatre secondes a toutefois été restauré à la fin d’une vidéo déjà présente mais endommagée du 29 février ; ce résultat est distinct des suppressions.
+
+**Explications techniques possibles et niveau d’appui.** La même erreur de compteur audio est retrouvée dans onze vidéos de SD-01 et SD-03, dès novembre 2023. Dans le fichier du 15 octobre, le dernier compteur contient 2 163 éléments alors que sept restent attendus. Cette répétition étaye fortement un mécanisme récurrent de finalisation ou de reconstruction défaillante, sans identifier son déclencheur ni démontrer une cause unique pour toutes les anomalies.
+
+| Scénario | Ce qu’il pourrait expliquer | Limite des éléments disponibles |
+|---|---|---|
+| **Défaut logiciel de finalisation ou de récupération** | Erreur répétée lors de la clôture du MP4 ou de la reconstruction de ses tables de lecture. | Mécanisme le mieux étayé pour le défaut structurel ; logiciel exact, séquence et déclencheur non établis. |
+| **Interruption d’alimentation ou redémarrage** | Enregistrement interrompu, puis récupération du fichier avec une date par défaut si le mécanisme d’horodatage n’est pas correctement initialisé. | Scénario compatible, non observé en fonctionnement ; aucune coupure ni heure de redémarrage démontrée. Aucun retour aux réglages d’usine n’en est déduit. |
+| **Problème de production vidéo, d’écriture ou de gestion des temps** | Arrêt de production des images avant l’audio, données ou index vidéo manquants, ou durées de pistes mal calculées. | Les deux pistes se terminent différemment dans le fichier acquis ; la cause de cette différence n’est pas identifiée. |
+| **Récupération ou modification ultérieure** | Un traitement après l’enregistrement pourrait produire un état comparable des données, index et dates. | Aucune version antérieure authentifiée ni trace d’outil ou d’auteur n’établit une modification précise de cette vidéo. |
+
+**Un mécanisme technique ne détermine pas l’origine de l’événement.** Une interruption pourrait être accidentelle ou provoquée par une personne, par exemple par un débranchement. Le défaut récurrent ne permet pas d’exclure ce second cas ; aucune trace positive ne démontre toutefois une intervention humaine à son origine. La dernière image décodée ne constitue pas une heure certaine d’arrêt de la caméra.
+
+**La lacune suivante reste à expliquer séparément.** Arrêt de la caméra ou de l’enregistrement, absence de déclenchement, problème de stockage, perte ou suppression de fichiers sans trace survivante restent possibles. Aucun lien causal entre cette lacune et le défaut du dernier clip n’est établi. Les vidéos de SD-01 conservées plus tard le 15 octobre ne soutiennent pas un arrêt prolongé simultané de toutes les caméras. Voir les [contrôles et comparaisons détaillés](cartes_sd/analyse-cartes_sd-transversale.md).
 
 ##### Conclusions communes
 
@@ -541,7 +558,7 @@ La mission portait sur l’utilisation du matériel pendant les périodes signal
 
 Le périmètre effectivement analysé comprend l’ordinateur **OP-01** (portable ASUS), les sauvegardes des téléphones **TP-01** (iPhone 13), **TP-02** et **TP-03** (iPhone 13 mini), la **Freebox Révolution** et trois cartes de caméra : **SD-01 — chambre**, **SD-02 — terrasse**, **SD-03 — salon**.
 
-**TP-01 a fait l’objet d’un complément le 10 novembre 2026**, à partir de sa sauvegarde du 9 novembre, identifiée par la série Q13QT4F164. Son indisponibilité lors des campagnes antérieures ne décrit plus le périmètre actuel. **TP-03 est également analysé le 10 novembre**, sur une sauvegarde chiffrée portant des dates de septembre 2025 et identifiée par la série Y4Q9KGHG26. L’attestation le mentionnait comme non remis le 6 octobre 2026 ; la sauvegarde disponible ne documente pas à elle seule une réception ultérieure du matériel.
+**TP-01 a fait l’objet d’un complément le 10 novembre 2026**, à partir de sa sauvegarde du 9 novembre, identifiée par la série Q13QT4F164. Son indisponibilité lors des campagnes antérieures ne décrit plus le périmètre actuel. **TP-03 est également analysé le 10 novembre**, sur une sauvegarde chiffrée portant des dates de septembre 2025 et identifiée par la série Y4Q9KGHG26. Sa remise matérielle, postérieure à l’attestation du 6 octobre 2026, est confirmée par le prestataire.
 
 Cette synthèse intègre les résultats antérieurs, le [complément du 19 octobre](investigations/20261019-retour-cliente/compte-rendu.md) et la [lecture du PV du 8 novembre](investigations/20261108-analyse-pv/compte-rendu.md). Le PV est désormais disponible et a été consulté ; ses énonciations sont distinguées des constats techniques et des observations de la cliente annexées. Le [complément technique du 8 novembre](investigations/20261108-complement-pv/compte-rendu.md) expose les nouveaux contrôles et les travaux encore suspendus ; la [reprise du 9 novembre](investigations/20261108-complement-pv/reprise-20261109.md) intègre les résultats SIFT récupérés. Le journal de création de la sauvegarde sur Mac demeure indisponible. La réorganisation du 12 novembre intègre les investigations réalisées jusqu’au 10 novembre et l’observation de visionnage communiquée par le prestataire le 12 novembre (section 1.2) ; elle ne constitue ni une nouvelle analyse des acquisitions ni un nouveau visionnage indépendant des vidéos. Les constats techniques, les énonciations du PV et les déclarations de la cliente sont distingués dans chaque conclusion.
 
@@ -610,3 +627,23 @@ Deux divergences documentaires restent à signaler. L’attestation porte la dat
 
 - [Relecture transversale du 10 novembre](investigations/20261110-telephones/compte-rendu.md), [approfondissement TP-03](investigations/20261110-tp03-intervention-humaine/compte-rendu.md) et [revue contradictoire des interventions avant ouverture](investigations/20261110-revue-intervention-scelles/compte-rendu.md).
 - [Contrôle des SMS marqués lus](investigations/20261109-sms-lecture/compte-rendu.md) et [note documentaire sur l’uptime](investigations/20261109-documentation-uptime/note-technique.md).
+
+<div style="break-before: page;"></div>
+
+<a id="annexe-g"></a>
+
+### Annexe G — Inventaire du matériel
+
+Cet inventaire reprend les équipements et identifiants de l’annexe 1 de l’[attestation de remise de matériels](remise-documents/attestation-de-remise.md), datée du **6 octobre 2026**, et tient compte de la remise ultérieure de TP-03 confirmée par le prestataire.
+
+| Repère et matériel | Caractéristiques et identifiants transcrits | Remise du matériel |
+|---|---|---|
+| **OP-01** — Ordinateur portable ASUS | Modèle : **UX333F NOTEBOOK PC** ; série : `KAN0CV116290436` ; système : Windows 11 version 23H2 x64. | Remis au prestataire. |
+| **TP-01** — Apple iPhone 13 vert | Série : `Q13QT4F164` ; modèle : `MNGK3ZD/A` ; IMEI : `35 876346 861150 5`. | Remis au prestataire. |
+| **TP-02** — Apple iPhone 13 mini rouge | Série : `F5466LV9V7` ; modèle : `MLK83KH/A` ; IMEI 1 : `35292959671648 4` ; IMEI 2 : `35292959 723940 3`. | Remis au prestataire. |
+| **TP-03** — Apple iPhone 13 mini rouge | Série : `Y4Q9KGHG26` ; modèle : `MLK83F/A` ; champ « IMEI » : `8933130002078820373`. | Remis ultérieurement au prestataire, selon sa confirmation. |
+| **SD-01** — Carte SD | Marque transcrite : **ScanDisk** ; capacité : **32 Go** ; numéro de série non renseigné. | Inscrite à l’inventaire des matériels remis. |
+| **SD-02** — Carte SD | Marque transcrite : **ScanDisk** ; capacité : **32 Go** ; numéro de série non renseigné. | Inscrite à l’inventaire des matériels remis. |
+| **SD-03** — Carte SD | Marque transcrite : **ScanDisk** ; capacité : **32 Go** ; numéro de série non renseigné. | Inscrite à l’inventaire des matériels remis. |
+
+La Freebox et les caméras ne sont pas répertoriées comme matériels remis dans cette attestation ; aucun identifiant officiel de remise ne leur est donc attribué dans cet inventaire.
