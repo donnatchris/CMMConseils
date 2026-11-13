@@ -14,19 +14,21 @@ L’appréciation juridique appartient à l’avocate et au juge. Les traitement
 
 **Réserve concernant l’ordinateur OP-01.** Aucune trace d’extraction n’a été retrouvée sur l’ordinateur pour la période entre la saisie et l’ouverture des scellés. Cette absence ne permet pas de conclure définitivement à l’absence de copie des données. Une acquisition hors ligne, par exemple en reliant le support de stockage à un autre équipement au moyen d’un bloqueur en écriture, pourrait permettre d’en copier les données sans démarrer Windows ni modifier le support source, et donc sans y laisser les traces recherchées. Cette possibilité technique n’est ni démontrée ni exclue par les éléments disponibles.
 
-### 1.1. TP-02 : connexion Wi-Fi et appels pendant la conservation
+### 1.1. TP-02 : indices d’une connexion Wi-Fi volontaire pendant la conservation
 
-**Constat.** Les données de TP-02 conservent une séquence de configuration et de connexion au réseau `ASUS_Z01RD` le **17 octobre 2024 vers 17 h 25**. Elles contiennent aussi **53 appels du 15 au 26 octobre, dont 22 marqués sortants sur huit jours ; 19 sortants ont une durée positive**.
+Constat. Les données de TP-02 conservent une séquence de configuration et de connexion au réseau ASUS_Z01RD le 17 octobre 2024 vers 17 h 25. La mention d’un ajout depuis les réglages Wi-Fi, l’indication de connexion par utilisateur, la génération d’une adresse MAC privée puis l’association au réseau en environ 4,7 secondes forment un ensemble cohérent en faveur d’une configuration volontaire à l’origine de cette connexion. Une simple synchronisation de mot de passe explique moins bien cette séquence complète.
 
-**Question.** Une personne a-t-elle utilisé ce téléphone avant l’ouverture de son scellé ?
+L’historique contient également 53 appels du 15 au 26 octobre, dont 22 marqués sortants sur huit jours ; 19 sortants ont une durée positive. Ces appels peuvent être transportés par synchronisation ou restauration : ils ne permettent pas, à eux seuls, d’établir une utilisation de TP-02 pendant sa conservation.
 
-**Limite.** Le Wi-Fi comporte des indications compatibles avec une initiative d’utilisateur. Mais ni ces indications ni les appels ne prouvent leur production sur le téléphone physique TP-02 : un historique peut être synchronisé ou restauré. Aucun auteur ni déverrouillage n’est établi.
+Question. Une personne a-t-elle configuré et connecté TP-02 à ce réseau Wi-Fi avant l’ouverture de son scellé ?
 
-**À vérifier.** Relevés opérateur avec identifiants matériels s’ils existent, journaux du réseau ASUS et historique des migrations ou restaurations. Voir la section 4 et l’annexe B.2.
+Limite. La séquence Wi-Fi constitue un indice plus solide d’une intervention humaine que la seule présence des appels. Son attribution au téléphone physique TP-02 le 17 octobre reste toutefois à confirmer : une restauration complète pourrait avoir importé un état produit ailleurs. Aucune restauration expliquant cette séquence n’a été identifiée, sans que cette possibilité puisse être exclue. Aucun auteur ni déverrouillage de TP-02 n’est établi.
+
+À vérifier. Journaux du réseau ASUS, historique des migrations ou restaurations et relevés opérateur avec identifiants matériels s’ils existent. Voir la section 4 et l’annexe B.2.
 
 ### 1.2. Téléphones rallumés avant leur mise sous scellés
 
-**Constat rapporté.** Le prestataire indique, le 12 novembre 2026, que son visionnage des vidéos du salon du **15 octobre 2024 vers 13 h 25** montre **une agente de l’administration fiscale rallumant les téléphones précédemment éteints**. La cliente situait ce geste vers 13 h 30 ou un peu avant. La mise sous scellés est consignée après 14 h 19.
+Le prestataire indique, le 12 novembre 2026, que son visionnage des vidéos du salon du **15 octobre 2024 vers 13 h 25** montre **une agente de l’administration fiscale rallumant les téléphones précédemment éteints**. La mise sous scellés est consignée après 14 h 19.
 
 **Question.** Les téléphones ont-ils été placés sous scellés encore allumés, et dans quelles conditions de conservation ?
 
@@ -46,13 +48,15 @@ L’appréciation juridique appartient à l’avocate et au juge. Les traitement
 
 ### 1.4. Données emportées et correspondances avec des avocats
 
-**Constat.** Le PV décrit une copie finale après filtrage. Des échanges avec des avocats sont effectivement présents dans **L16B, le dossier laissé sur l’ordinateur** : notamment Negrevergne, Pascoët, Khallouki, Fakiroff / Roosevelt Avocats, Wahrheit et Guillou.
+**Constat.** L16B est le dossier de regroupement constitué par les agents de l’administration fiscale sur l’ordinateur de Mme Sadedine lors des opérations du 28 octobre 2024. Il rassemble des documents et données provenant notamment de l’ordinateur, de messageries, de services en ligne et de téléphones. Le PV décrit ensuite un filtrage et une copie finale sur un support de l’administration ; il précise que L16B est laissé sur l’ordinateur à titre informatif, avec l’accord de Mme Sadedine.
 
-**Question.** Ces échanges ont-ils été exclus de la copie emportée ? Les documents retenus entraient-ils dans le périmètre autorisé ? Ont-ils été utilisés fiscalement ?
+Des échanges avec des avocats sont effectivement présents dans ce dossier : notamment Negrevergne, Pascoët, Khallouki, Fakiroff / Roosevelt Avocats, Wahrheit et Guillou.
 
-**Limite.** L16B ne remplace pas les fichiers définitivement saisis. La présence locale ne prouve ni l’emport, ni la lecture par les agents, ni l’utilisation fiscale. Le caractère protégé et le lien avocat-client doivent être examinés pour chaque échange.
+**Question.** Ces échanges ont-ils été exclus lors du filtrage précédant la copie emportée par l’administration ? Les documents finalement retenus entraient-ils dans le périmètre autorisé ? Ont-ils été utilisés fiscalement ?
 
-**À vérifier.** Inventaire final, fichiers saisis, empreintes de contrôle, liste des rejets, critères de filtrage, ordonnance et éventuels actes fiscaux citant ces documents. Voir la section 5 et l’annexe B.1.
+**Limite.** Le dossier L16B laissé par les agents ne constitue pas une copie certifiée des fichiers finalement emportés. La présence de correspondances dans ce dossier ne prouve donc ni leur saisie définitive, ni leur lecture par les agents, ni leur utilisation fiscale. Le caractère protégé et le lien avocat-client doivent être examinés pour chaque échange.
+
+**À vérifier.** Comparer le contenu de L16B avec l’inventaire final et les fichiers effectivement saisis, à l’aide de leurs empreintes de contrôle. Examiner également la liste des rejets, les critères de filtrage, l’ordonnance et les éventuels actes fiscaux citant ces documents. Voir la section 5 et l’annexe B.1.
 
 ### 1.5. Une clé de destination décrite, trois périphériques Kingston relevés
 
