@@ -1,265 +1,355 @@
-# Investigation transversale des cartes SD-01, SD-02 et SD-03
+# Rapport d’analyse technique transversale des cartes SD-01, SD-02 et SD-03
 
-**Relecture de cohérence : 12 novembre 2026.** Harmonisation avec le [rapport final réorganisé](../RAPPORT-FINAL-SADEDINE-2026.md), sans nouvelle acquisition ni nouvelle analyse des supports. Les campagnes et décomptes techniques conservent leurs dates et leurs périmètres. Le détail de cette révision et les empreintes actuelles figurent dans le [dossier de relecture](../investigations/20261112-coherence-rapports/compte-rendu.md).
+**Affaire :** SADEDINE-2026 — Mme Malika Sadedine, DMM Conseils
 
-## Revue du 10 novembre 2026 — intervention avant ouverture
+**Prestataire :** Christophe Donnat — Donnat Dev
 
-Les anomalies et lacunes vidéo demeurent des constats distincts des traces des téléphones. Aucun lien technique ne démontre une commande de caméra depuis un téléphone pendant la fermeture des scellés ; les caméras/cartes n’étaient pas scellées. Les récupérations et scans antérieurs ne sont pas réexécutés dans cette revue. La piste Wi-Fi de TP-02 et la séquence système de TP-03 ne permettent pas d’attribuer les lacunes à une personne. Voir la [comparaison des hypothèses et les nouveaux contrôles](../investigations/20261110-revue-intervention-scelles/compte-rendu.md). Les versions antérieures de ce rapport sont conservées pour cette mise à jour.
+**Supports :** SD-01 — chambre ; SD-02 — terrasse ; SD-03 — salon
 
-## Actualisation du 10 novembre 2026 — lecture courante
+## 1. Objet et périmètre
 
-Le PV est disponible et a été consulté. Les repères à retenir sont la mise sous scellés après 14 h 19 le 15 octobre, l’ouverture du PC à 10 h 41 et celle des téléphones à 11 h 30 le 28 ; 10 h 22 est l’arrivée de la cliente et 19 h 20 la clôture, sans heure individuelle de restitution. Les mentions d’indisponibilité et bornes déclaratives des sections datées ci-dessous décrivent leurs campagnes historiques. Les caméras et cartes n’étaient pas sous scellés. Les nouvelles traces système TP-03 ne prouvent ni un accès aux caméras ni une modification des vidéos. Cette relecture ne réexécute pas les scans/récupérations SD ; elle maintient les anomalies, lacunes et limites déjà établies. Voir la [relecture transversale](../investigations/20261110-telephones/compte-rendu.md), qui distingue les nouveaux contrôles des reprises documentaires. Les empreintes historiques des rapports restent attachées à leurs versions datées.
+Ce rapport compare les enregistrements, structures de fichiers et métadonnées des trois cartes afin de caractériser les défauts communs, les récupérations possibles et les événements signalés en **février 2024** et le **15 octobre 2024**. Il distingue un mécanisme commun de production de fichiers, un éventuel incident physique commun et une intervention humaine : ces propositions ne nécessitent pas les mêmes preuves.
 
+La cliente déclare une installation des caméras après mars 2023, une réinitialisation de la **chambre en février 2024** et un fonctionnement **continu de la terrasse**. L’affichage « 31/12/1999 » et l’autre événement du 15 octobre ne sont pas rattachés à une interface ou un fichier d’origine authentifiés. Les [mails](../docs/mail.txt) et [complémentaires](../docs/mail-2.txt) documentent ces déclarations, sans constituer des journaux de réinitialisation.
 
-## Complément du 9 novembre 2026 — identification des modèles et firmwares
+**Les caméras et cartes n’étaient pas sous scellés.** Leurs enregistrements après la perquisition ne constituent donc pas une anomalie pour cette seule raison. Les traces des téléphones et les horaires du PV apportent du contexte, sans étalonner les horloges des caméras ou démontrer une commande sur une carte. L’analyse est une investigation privée, sans désignation comme expertise judiciaire.
 
-Le sondage ciblé des caches LSC `home/detailv1` et `home/list313` n'a pas permis de les décoder ni d'identifier le modèle exact ou le firmware des trois caméras. Les essais de décompression et les hypothèses AES fondées sur les données locales n'ont produit aucun objet structuré valide ; ils ne sont pas exhaustifs. Les 54 ressources de produit/panneau voisines ont été décodées en base64 puis JSON : elles contiennent des traductions d'interface, sans version installée démontrée. Les 104 fichiers sources lus par le script concordent avec les empreintes d'extraction et restent inchangés. Méthode, références techniques, résultats et limites : [note d'identification](../investigations/20261109-identification-cameras/compte-rendu.md). Les versions de l'application, des panneaux et des mini-applications ne doivent pas être assimilées au firmware des caméras.
+## 2. Synthèse des conclusions
 
-## Actualisation du 19 octobre 2026 — nouveau périmètre déclaré
+| Question | Résultat technique | Portée et limite |
+|---|---|---|
+| Les cartes partagent-elles un système de production ? | Organisation `record/.record_tmp`, modèle auxiliaire commun et descriptions de pistes identiques dans les copies comparées. | Une famille commune de production est étayée, sans modèle exact ou firmware identifié. |
+| Les anomalies de dates sont-elles accompagnées d’un défaut précis ? | **Onze vidéos SD-01/SD-03 datées en FAT de janvier 2000** portent le même compteur audio fautif. | Un chemin récurrent de finalisation/reconstruction défaillant est fortement étayé ; son déclencheur reste inconnu. |
+| Les défauts se limitent-ils aux dates ? | Non : compteurs incohérents, références hors données et médias non indexés. **Quatre images supplémentaires** sont décodables dans deux fichiers. | Elles n’ont pas de nouveaux temps de présentation validés et ne constituent pas des vidéos complètes récupérées. |
+| Un incident commun en février est-il établi ? | Les fins nominales de deux clips du **21 février vers 23:41** sont proches. | Incident commun plausible, sans synchronisation civile, coupure ou redémarrage commun démontrés. |
+| Que distingue le 15 octobre ? | Sur SD-03 : défaut audio récurrent, erreur H.264 intermédiaire, **excédent audio de 11,589 s** et lacune du corpus jusqu’au 29. | Ces particularités sont confirmées, sans cause, heure certaine d’arrêt ou intention établies. |
+| SD-02 confirme-t-elle une continuité d’enregistrement ? | Corpus actuel discontinu malgré le fonctionnement continu déclaré ; stockage circulaire fortement étayé. | Les lacunes ne sont pas une mesure du temps d’extinction et ne prouvent pas une suppression ciblée. |
+| Une intervention extérieure est-elle démontrée ? | Auxiliaires compatibles Windows sur les trois cartes, sans poste ni auteur identifié. | Aucun reset usine, formatage daté, accès distant ou acte malveillant n’est établi. |
 
-[mail-2.txt](../docs/mail-2.txt) précise **chambre, février 2024**, une installation après mars 2023 et le fonctionnement **continu de la terrasse**. L’année et la caméra du signalement de février sont désormais renseignées. Le PV n’était pas disponible lors de cette campagne d’octobre ; il a depuis été consulté le 8 novembre ; les horaires décrits dans le mail ne sont pas des constatations documentaires indépendantes.
+**La conclusion la mieux étayée concerne un défaut récurrent de fabrication ou de reconstruction des index, associé aux dates FAT de 2000. Elle ne démontre ni un incident unique commun aux caméras, ni une réinitialisation effective, ni une manipulation intentionnelle.**
 
-La nouvelle relecture établit les bornes et les lacunes des inventaires : pas de couverture continue depuis mars 2023 ; SD-01 débute en décembre 2023, SD-03 en novembre 2023, SD-02 conserve principalement novembre 2024 et un clip daté du 21 octobre par ses images. L’union des intervalles nominaux SD-02 ne couvre que **48,892–64,937 %** de 24 h les 6–11 novembre. Cela établit une discontinuité du corpus, **pas sa cause ni une suppression ciblée le 15**.
+## 3. Sources, méthode et portée des contrôles
 
-Les onze défauts communs et la possibilité d’une finalisation défaillante restent étayés ; ni reset usine, ni réappairage, ni changement de compte n’est démontré. L’absence de dysfonctionnement remarqué n’exclut pas des défauts binaires dans des clips encore lisibles. Les catalogues et états LSC ne constituent pas un historique complet de partages. Résultats et tableaux : [complément du 19 octobre](../investigations/20261019-retour-cliente/compte-rendu.md).
+### 3.1. Corpus et préservation
 
+Les constats reposent sur les [rapports SD-01](analyse-cartes_sd-SD-01.md), [SD-02](analyse-cartes_sd-SD-02.md) et [SD-03](analyse-cartes_sd-SD-03.md), leurs inventaires, structures FAT, extractions MP4 et résultats FFprobe/FFmpeg. Le [rapport d’acquisition](analyse-cartes_sd.md) et l’[attestation](../remise-documents/attestation-de-remise.md) documentent les supports. Les limites d’identification physique et de conservation des rapports individuels restent applicables.
 
-**Complément du 17/10/2026 :** la recherche des manipulations Windows du 12/11/2024 a été étendue à OP-01 : ruches complètes accessibles, journaux System/PnP/stockage et SetupAPI. Aucun rattachement positif des cartes à ce poste n’a été obtenu ; ce résultat n’exclut pas une insertion ancienne dont les traces ont disparu. Les identifiants de volume ne sont pas des numéros matériels uniques. Le [compte rendu transversal](../investigations/20261017-recroisements/compte-rendu.md) et le [protocole de référence caméra](../investigations/20261017-recroisements/README.md) précisent les travaux et limites. Les essais sur caméra de référence ne sont pas exécutés. Les conclusions sur les défauts MP4 ci-dessous restent inchangées.
+La comparaison binaire ciblée porte sur **37 copies complètes** : **21 SD-01, trois SD-02 et treize SD-03**, comprenant **les dix-sept anomalies de tables connues et vingt témoins**. Un parseur distinct vérifie **74 pistes** : comptes d’échantillons, temps, positions des blocs, limites des données et délimitation des unités H.264.
 
-**Affaire :** SADEDINE-2026 — Mme Malika Sadedine, DMM Conseils.  
-**Prestataire :** Christophe Donnat — Donnat Dev.  
-**Complément du 16 octobre 2026.** Investigation technique indépendante, non expertise judiciaire.  
-**Périmètre :** chambre (SD-01), terrasse (SD-02), salon (SD-03). Réexamen ciblé des dérivés conservés, sans nouveau scan des images.
+Les **vingt slots FAT portant au moins une date de 2000** sont contrôlés sur leurs octets conservés, y compris les alias de répertoires et le marqueur vide. Ils ne représentent pas vingt événements indépendants. Les **4 391 empreintes d’artefacts consommés** concordent avec les manifestes dans le périmètre du contrôle consigné, sans authentifier les opérations antérieures à l’acquisition de 2026.
 
-## Conclusions accessibles
+Les essais de correction d’index ou de lecture des médias résiduels utilisent des **copies en mémoire**, sans modifier les extraits conservés ou les images EWF. Une copie expérimentale n’est pas une nouvelle vidéo originale réparée. Les observations visuelles proviennent des échantillons documentés dans les rapports individuels ; aucun visionnage humain intégral des trois corpus ou interprétation sémantique de l’audio n’est établi.
 
-**Les anomalies de SD-01 et SD-03 partagent un défaut précis de fabrication des index vidéo.** Dans les onze vidéos aux dates FAT de janvier 2000, le dernier compteur audio reprend le cumul des échantillons précédents au lieu des sept échantillons restants. Cette correspondance renforce fortement l'hypothèse d'un même mécanisme logiciel de finalisation ou de reprise. Elle ne prouve ni un même incident physique, ni un firmware strictement identique, ni une opération humaine commune.
+### 3.2. Limites de temps et d’interprétation
 
-**Un incident commun le 21 février reste plausible, sans être démontré.** Deux fichiers anormaux ont des fins nominales proches de deux secondes. Toutefois, les horloges ne sont pas étalonnées, un fichier perd des images référencées et l'autre conserve au moins trois images supplémentaires non indexées. La proximité est une piste sérieuse de comparaison, pas une heure de coupure commune établie.
+Les dates FAT ne stockent pas de fuseau ; l’écriture a une granularité de deux secondes, la création un champ supplémentaire de précision et le dernier accès une précision de journée. Noms et incrustations restent des indications de l’horloge du producteur, sans référence civile indépendante.
 
-**Le 15 octobre présente le défaut audio déjà rencontré avant la perquisition, ainsi qu'une particularité supplémentaire.** Sur SD-03, l'audio dure 277,760 secondes, contre 266,171 secondes pour la vidéo. Cet excédent de **11,589 secondes** est exceptionnel dans les trois populations comparées. L'audio supplémentaire se décode et contient un signal non nul. Une erreur H.264 se situe vers 125 secondes de lecture, bien avant les dernières images ; elle ne permet pas de dater un arrêt à la fin du fichier.
+La durée d’un conteneur, la fin d’une piste vidéo, la dernière image produite et la fin audio sont des mesures distinctes. Une structure de boîte cohérente ou une longueur d’unité H.264 valide ne garantit pas le décodage de toutes les images. Un code retour FFmpeg nul peut coexister avec des erreurs consignées dans son journal.
 
-**Les défauts dépassent une simple erreur de date.** Des compteurs sont incohérents, certaines tables pointent hors des données vidéo et, dans deux fichiers, au moins quatre images supplémentaires au total sont décodables dans des zones non indexées. Une correction expérimentale des compteurs supprime l'avertissement `wrong sample count`, mais ne garantit pas l'intégrité des médias et ne restitue pas leurs temps manquants.
+L’image de 2026 ne constitue pas un instantané de 2024. Une copie peut conserver dates et défauts ; des données écrasées ou non exposées par le contrôleur peuvent ne plus être récupérables. Les relations numériques sont contrôlables, mais ne datent pas automatiquement l’opération qui les a produites.
 
-**Aucune réinitialisation, coupure d'alimentation, intervention intentionnelle ou connexion extérieure n'est démontrée par ces anomalies.** Une finalisation défaillante, une reprise après interruption avec date par défaut, un problème d'horloge ou un traitement ultérieur restent compatibles. Les fichiers auxiliaires de type Windows documentent séparément une histoire de traitement des supports, sans identifier un poste, un auteur ou un lien avec les anomalies.
+## 4. Comparaison des supports et des résultats de récupération
 
-**Les caméras n'ont jamais été placées sous scellés.** Leur fonctionnement après la perquisition ne constitue donc pas en soi une anomalie.
+### 4.1. Populations conservées
 
-## 1. Sources, méthode et limites communes
+| Population active | SD-01 — chambre | SD-02 — terrasse | SD-03 — salon |
+|---|---:|---:|---:|
+| MP4 actifs | **674** | **3 301**, dont un temporaire | **2 431** |
+| MP4 finalisés analysables | **674** | **3 300** | **2 431** |
+| MP4 aux dates FAT de 2000 | **2** | **0** | **9** |
+| MP4 avec anomalies de tables retenues | **7** | **0 parmi les finalisés** | **10** |
+| MP4 nommés du 15 octobre | **37** | **0 disponible** | **65** |
+| Couverture nominale principale | **02/12/2023–28/10/2024**, 81 jours représentés | **05–12/11/2024**, plus un clip au nom impossible daté du 21 octobre par ses images | **04/11/2023–31/10/2024**, 175 jours représentés |
 
-Les [rapports SD-01](analyse-cartes_sd-SD-01.md), [SD-02](analyse-cartes_sd-SD-02.md) et [SD-03](analyse-cartes_sd-SD-03.md), leurs guides, résultats et scripts utiles ont été consultés. Sources de contexte : [mail original](../docs/mail.txt), [attestation de remise](../remise-documents/attestation-de-remise.md), [rapport d'acquisition](analyse-cartes_sd.md), [contexte corrigé](recherche-SD-01/20261016-complement/sources/contexte-et-observations.md), notes de mission et conventions existantes de qualification des conclusions. Le Markdown suit les rapports du projet ; aucun PDF supplémentaire n'est produit ici.
+Les **6 405 MP4 finalisés** comprennent **onze cas couplant date FAT 2000 et compteur audio cumulatif erroné**, **six autres erreurs terminales avec dates ordinaires**, et **6 388 fichiers sans les anomalies de tables retenues**. Il s’agit d’une association dans ce corpus, sans calcul de probabilité de cause ou hypothèse d’indépendance statistique.
 
-Le premier mail disait « en février » sans année ni caméra. Le nouveau mail précise désormais **février 2024, caméra de la chambre** ; l’interface, le fichier et le champ d’origine ne sont toujours pas authentifiés. Le second signalement est un « autre événement » au 15 octobre ; sa nature technique n'est pas connue. **13 h 30 correspond à la perte d'accès déclarée aux téléphones**, sans établir le début de perquisition ou un arrêt caméra. Aucun procès-verbal ni journal de synchronisation n'étalonne les horloges.
+Les dates disponibles ne couvrent pas continûment la période depuis mars 2023. SD-02 conserve en outre des vestiges nommés du 4 novembre, sans restitution de tous leurs contenus. Son cas `20242010` reste séparé du calendrier des noms valides.
 
-Le complément utilise les extractions, structures FAT et résultats FFprobe/FFmpeg déjà produits. Les empreintes de **37 copies MP4 complètes** sont contrôlées contre les inventaires avant leur analyse binaire : 21 SD-01, trois SD-02 et treize SD-03. Ces fichiers comprennent les dix-sept anomalies de tables connues et vingt témoins disponibles. Une absence de copie du voisin dans le jeu local n'entraîne pas de nouvelle extraction distante. Les chronologies complètes restent disponibles pour l'étude des voisins non reparsés.
+### 4.2. Système de production commun
 
-Un nouveau parseur local, indépendant du parseur MP4 antérieur, vérifie 74 pistes : `stsc`, `stsz`, `stts`, positions de chunks, bornes de `mdat`, délimitation des unités H.264. Il ne vérifie pas toute la sémantique du flux compressé : des longueurs NAL cohérentes n'excluent pas une erreur H.264 interne. Les expériences modifient des **copies anonymes en RAM**, jamais les extraits conservés ni les images EWF. Aucun décodage exhaustif des trois cartes, aucune réparation de source, aucun scan disque, aucune connexion à SIFT, aux caméras ou aux comptes n'est effectué.
+Les 37 copies comparées ont les mêmes descriptions `stsd` audio et vidéo. Les trois cartes partagent l’organisation de dossiers, le modèle auxiliaire **`.moov` de 1 006 octets** et les dates internes MP4 conventionnelles de **1970**, distinctes des dates FAT de 2000.
 
-Les vingt slots FAT portant au moins une date de 2000 sont réexaminés, alias et marqueur vide compris. Douze sont directement contre-vérifiés sur les copies binaires nommées par cluster ; les huit autres SD-01 sont vérifiés dans un second temps grâce à leur index historique, nommé par identifiant de répertoire TSK. **Les vingt slots sont ainsi contrôlés sur leurs octets conservés**, sans compter les alias comme des événements supplémentaires. SD-02 ne fournit qu'un ancien slot de dossier, dont le premier caractère supprimé n'est pas reconstitué avec certitude.
+La géométrie FAT32, les sauvegardes FSInfo anciennes et l’octet d’état du boot ne datent pas un incident. L’identifiant de volume est commun à SD-01/SD-02 et différent sur SD-03 ; ce n’est pas une série matérielle. **Les ressemblances étayent une famille de production et de stockage, sans démontrer un matériel, firmware ou événement physique unique.**
 
-**4 391 empreintes d'artefacts consommés** correspondent aux manifestes historiques, sans écart ni fichier consommé absent de ces manifestes dans le périmètre du contrôle. Ce résultat valide la stabilité des dérivés réutilisés ; il ne constitue pas une nouvelle vérification intégrale des EWF ni une authentification des opérations antérieures à 2026. Les limites de conservation, d'identification physique et de remise signalées dans les rapports individuels demeurent applicables.
+Le temporaire non finalisé de SD-02 illustre un état de production inachevé, mais n’est pas un témoin de février ou du 15 octobre. L’absence de défaut de tables retenu parmi ses 3 300 finalisés montre que les onze anomalies couplées ne sont pas obligatoires pour chaque fichier de cette famille.
 
-Sources nouvelles, commandes, erreurs d'outillage et paramètres : [guide de reproduction](recherche-transversale/20261016/README.md). Aucune nouvelle image n'a été examinée visuellement, aucune écoute ou transcription audio n'a été effectuée. Les constats visuels de 2024 cités ici proviennent des examens antérieurs explicitement documentés.
+### 4.3. Suppressions et récupérations : résultats distincts
 
-## 2. Comparaison des populations et du système de production
+| Support | Résultat de récupération | Interprétation |
+|---|---|---|
+| **SD-01** | Trois temporaires reliés à une vidéo finale toujours présente ; aucune vidéo effacée distincte supplémentaire. | Nettoyage de finalisation fortement étayé, pas trois enregistrements perdus. |
+| **SD-02** | **Onze vidéos complètes**, soit **44 min 36,096 s**, et **126,464 s** de la fin d’une douzième, nominalement du **5 novembre**. | Contenus survivants validés avec hypothèses d’ordre de clusters documentées ; le fragment n’est pas le fichier original complet. |
+| **SD-02, temporaire actif** | **68,992 s** lisibles dans un conteneur dérivé limité aux données complètes de la taille logique. | Fichier non finalisé du 12 novembre, pas une vidéo supprimée ; le prolongement en erreur n’est pas validé. |
+| **SD-03** | Trois temporaires associés à un final présent ; **3,849 s** restaurées après la fin logique d’un fichier actif du 29 février. | Récupération partielle d’un actif endommagé, pas une vidéo supprimée distincte. |
 
-| Population active | SD-01 | SD-02 | SD-03 |
-| --- | ---: | ---: | ---: |
-| MP4 | 674 | 3 301 | 2 431 |
-| Dont finalisés analysables | 674 | 3 300 | 2 431 |
-| MP4 aux dates FAT de 2000 | 2 | 0 | 9 |
-| MP4 avec anomalies de tables connues | 7 | 0 finalisé | 10 |
-| MP4 nommés du 15 octobre | 37 | 0 disponible | 65 |
+Les **quatre images non indexées** détaillées ci-dessous sont un autre résultat : sans temps de présentation reconstitués, elles ne sont ajoutées ni à une nouvelle durée de vidéo validée ni aux récupérations complètes. Une absence de récupération ne prouve pas l’absence historique d’effacement.
 
-Sur les **6 405 MP4 finalisés**, les onze vidéos aux dates FAT de 2000 ont le défaut audio cumulatif décrit au § 3. Six autres ont une erreur terminale différente, avec dates ordinaires ; les 6 388 restantes ne présentent pas les anomalies de tables retenues par les contrôles antérieurs. Il s'agit d'une association dans ce corpus, sans supposer l'indépendance statistique des fichiers ni estimer une probabilité de cause.
+## 5. Signature arithmétique commune et défauts associés
 
-Les 37 copies reparsées ont exactement les mêmes descriptions de pistes `stsd` : audio `213b1835…678b9`, vidéo `53174a74…1051c`. Les trois cartes partagent aussi l'organisation `record`/`.record_tmp`, le modèle auxiliaire `.moov` de 1 006 octets et les dates internes MP4 conventionnelles de 1970. Cela étaye une famille commune de production et de stockage. **Ces ressemblances ne suffisent pas à identifier le modèle de caméra ou la version de son logiciel.**
+### 5.1. Le même compteur audio fautif dans onze vidéos
 
-La géométrie FAT32 commune, les sauvegardes FSInfo anciennes et l'octet de boot `0x41` ne datent pas un incident. L'identifiant de volume est identique sur SD-01/SD-02 et distinct sur SD-03 ; ce n'est pas un numéro matériel. La FAT courante ne fournit pas de journal des modifications historiques. Aucun de ces champs ne relie positivement un formatage aux dates recherchées.
+`stsz` décrit les tailles et le nombre d’échantillons ; `stsc` les répartit par bloc, appelé *chunk*, dont la position est donnée par `stco`. **La valeur attendue est un nombre d’échantillons par bloc, pas un cumul.** Dans les onze cas, la dernière entrée reprend le cumul précédent alors que sept échantillons restent à répartir.
 
-**SD-02 constitue un témoin de fonctionnement, pas un témoin temporel de février ou du 15 octobre.** Son temporaire de novembre sans `moov` final montre un état de production inachevé ; ses suppressions et réutilisations massives étayent une gestion circulaire. Ses 3 300 fichiers finalisés sont cohérents selon les contrôles antérieurs. Les onze défauts couplés FAT/MP4 ne sont donc pas une propriété obligatoire de tous les fichiers de ce système. L'absence des anciennes vidéos SD-02 empêche d'y vérifier un incident commun.
+| Carte et TSK | Date et début nominaux | Audio total | Cumul avant dernier bloc | Valeur inscrite | Reste attendu |
+|---|---|---:|---:|---:|---:|
+| SD-01, **20903944** | 21/02/2024, 23:39:14 | 1 183 | 1 176 | 1 176 | **7** |
+| SD-01, **22835208** | 01/03/2024, 04:05:05 | 98 | 91 | 91 | **7** |
+| SD-03, **12727332** | 09/11/2023, 18:19:05 | 308 | 301 | 301 | **7** |
+| SD-03, **261989424** | 21/02/2024, 23:22:37 | 1 491 | 1 484 | 1 484 | **7** |
+| SD-03, **261989436** | 21/02/2024, 23:33:45 | 602 | 595 | 595 | **7** |
+| SD-03, **261989444** | 21/02/2024, 23:41:03 | 343 | 336 | 336 | **7** |
+| SD-03, **266341920** | 29/02/2024, 10:26:10 | 364 | 357 | 357 | **7** |
+| SD-03, **266341968** | 29/02/2024, 10:56:00 | 42 | 35 | 35 | **7** |
+| SD-03, **266341984** | 29/02/2024, 11:01:39 | 910 | 903 | 903 | **7** |
+| SD-03, **266342024** | 29/02/2024, 11:27:25 | 161 | 154 | 154 | **7** |
+| SD-03, **714049800** | 15/10/2024, 13:28:00 | 2 170 | 2 163 | 2 163 | **7** |
 
-## 3. Signature arithmétique commune et défauts associés
+La correspondance exacte sur deux cartes et plusieurs mois soutient fortement un même défaut de calcul ou chemin de finalisation/reconstruction. La correction du seul compteur audio peut laisser l’avertissement `wrong sample count` lorsque le compteur vidéo est également erroné. Après correction expérimentale des compteurs concernés, l’avertissement disparaît dans les **onze essais FFprobe**.
 
-### 3.1. Le même compteur audio fautif dans les onze cas
+**Ce résultat démontre l’origine de l’avertissement dans les comptes d’index, sans certifier les médias, restaurer des temps manquants ou prouver que la table de référence était historiquement correcte.** Les défauts existent dès novembre 2023 ; ils ne sont pas propres au séjour rapporté en février ou à la perquisition.
 
-`stsz` donne le nombre d'échantillons ; `stsc` les répartit entre chunks, dont les positions sont dans `stco`. La table `stsc` décrit un **nombre par chunk**, pas un cumul. Cette fonction est documentée par [Apple, Sample-to-chunk atom](https://developer.apple.com/documentation/quicktime-file-format/sample-to-chunk_atom).
+### 5.2. Sept excédents de compteur vidéo
 
-| Carte, TSK | Nom abrégé | Audio total | Cumul avant dernier chunk | Valeur inscrite | Reste attendu |
-| --- | --- | ---: | ---: | ---: | ---: |
-| SD-01, 20903944 | 21/02, 23:39:14 | 1 183 | 1 176 | 1 176 | 7 |
-| SD-01, 22835208 | 01/03, 04:05:05 | 98 | 91 | 91 | 7 |
-| SD-03, 12727332 | 09/11/2023, 18:19:05 | 308 | 301 | 301 | 7 |
-| SD-03, 261989424 | 21/02, 23:22:37 | 1 491 | 1 484 | 1 484 | 7 |
-| SD-03, 261989436 | 21/02, 23:33:45 | 602 | 595 | 595 | 7 |
-| SD-03, 261989444 | 21/02, 23:41:03 | 343 | 336 | 336 | 7 |
-| SD-03, 266341920 | 29/02, 10:26:10 | 364 | 357 | 357 | 7 |
-| SD-03, 266341968 | 29/02, 10:56:00 | 42 | 35 | 35 | 7 |
-| SD-03, 266341984 | 29/02, 11:01:39 | 910 | 903 | 903 | 7 |
-| SD-03, 266342024 | 29/02, 11:27:25 | 161 | 154 | 154 | 7 |
-| SD-03, 714049800 | 15/10, 13:28:00 | 2 170 | 2 163 | 2 163 | 7 |
+| Carte et TSK | Valeur vidéo inscrite → reste calculé | Excédent |
+|---|---|---:|
+| SD-01, **20903944** | 35 → 9 | **26** |
+| SD-01, **22835208** | 17 → 4 | **13** |
+| SD-03, **261989436** | 22 → 9 | **13** |
+| SD-03, **261989444** | 15 → 2 | **13** |
+| SD-03, **266341920** | 33 → 7 | **26** |
+| SD-03, **266341968** | 24 → 11 | **13** |
+| SD-03, **266342024** | 38 → 12 | **26** |
 
-La correspondance exacte sur deux cartes et plusieurs mois rend fortement plausible un même défaut de calcul ou un même chemin de finalisation/reconstruction. Le remplacement expérimental du seul champ audio par sept laisse parfois `wrong sample count`, car **sept fichiers ont aussi un compteur vidéo incohérent**. Après correction expérimentale des deux compteurs concernés, cet avertissement disparaît dans les onze essais FFprobe. Cela démontre l'origine de cet avertissement dans les compteurs, sans certifier le contenu des médias ni prouver que `stsz` était historiquement la table correcte.
+Des blocs de treize échantillons sont présents. L’excédent correspond à une ou deux unités de ce découpage : **la relation numérique est établie, l’algorithme fautif exact ne l’est pas**.
 
-### 3.2. Sept excédents vidéo et six autres erreurs de petite fin de clip
+Les cinq autres anomalies SD-01 et celle de décembre SD-03 relèvent d’une seconde famille : sept échantillons audio sont annoncés dans le dernier bloc alors qu’il n’en reste qu’un à trois. Leurs dates FAT sont ordinaires. Une erreur de clôture peut donc exister sans anomalie de date ; elle ne prouve pas une coupure d’alimentation pour chaque fichier.
 
-Dans les sept fichiers concernés, le nombre vidéo annoncé pour le dernier chunk dépasse le reste calculé depuis `stsz` de **13 ou 26 échantillons** :
+### 5.3. Médias absents et médias présents sans index complet
 
-| Carte, TSK | Champ inscrit → reste calculé | Excédent |
-| --- | --- | ---: |
-| SD-01, 20903944 | 35 → 9 | 26 |
-| SD-01, 22835208 | 17 → 4 | 13 |
-| SD-03, 261989436 | 22 → 9 | 13 |
-| SD-03, 261989444 | 15 → 2 | 13 |
-| SD-03, 266341920 | 33 → 7 | 26 |
-| SD-03, 266341968 | 24 → 11 | 13 |
-| SD-03, 266342024 | 38 → 12 | 26 |
+**Huit des onze fichiers de 2000** ont des blocs référencés hors du `mdat` : SD-01 du 1er mars et sept cas SD-03 de novembre/février. Des références atteignent des métadonnées ou dépassent le fichier ; ces octets ne sont pas des images simplement parce qu’un index les désigne.
 
-Des chunks vidéo de treize échantillons sont effectivement présents. L'excédent correspond donc à une ou deux unités de ce découpage récurrent. **La relation numérique est démontrée ; l'algorithme exact fautif ne l'est pas.** Le § 3.3 montre pourquoi une correction de compteur seule ne restitue pas nécessairement toute la vidéo : des tailles et des temps peuvent aussi manquer.
+Les trois autres — SD-01 du 21 février, SD-03 du 29 février à 10:26:10 et SD-03 du 15 octobre — conservent les tailles référencées dans le `mdat`. Deux possèdent aussi des zones non indexées :
 
-Les cinq autres anomalies SD-01 et celle de décembre SD-03 relèvent d'une seconde famille : le dernier chunk audio est compté comme sept échantillons alors qu'il n'en reste qu'un à trois. Ces fichiers ne portent pas les dates FAT de 2000 et leurs unités vidéo passent la vérification des longueurs NAL. Une erreur de clôture MP4 peut donc exister sans date aberrante. Le nom « défaut de finalisation » désigne ici un ensemble de constats, pas une preuve de coupure d'alimentation pour chaque fichier.
+| Fichier | Offset logique de la zone | Taille de zone | Résultat du test borné |
+|---|---:|---:|---|
+| SD-01, **20903944** | **12 281 990** | **903 034 octets** | Trois unités H.264 supplémentaires au début : **2 170 → 2 173 images**, sans avertissement. |
+| SD-03, **266341920** | **5 308 698** | **15 489 octets** | Une unité supplémentaire : **673 → 674 images**, sans avertissement. |
 
-### 3.3. Tables hors données, médias non indexés et images supplémentaires
+Les essais exploitent des octets existants sans inventer d’image ou d’horodatage. Pour SD-01, **14 348 octets** sont utilisés ; les **888 686 restants** ne sont pas attribués à une continuation valide. Aucun temps de présentation de ces quatre images n’est reconstitué et aucun examen visuel de leur contenu n’est revendiqué.
 
-**Huit des onze fichiers** aux dates 2000 ont des chunks référencés hors du `mdat` : SD-01 du 1er mars et sept cas SD-03 de novembre/février. Des références peuvent atteindre le `moov` ou dépasser la fin du fichier ; ces octets ne sont pas des images simplement parce qu'une table les désigne. Les erreurs de délimitation NAL concordent avec les pertes d'images déjà observées.
+**Compteurs incohérents, données référencées absentes et données présentes sans index complet sont trois constats distincts.** Ils sont compatibles avec une clôture ou reprise utilisant des états de tables et de médias différents, sans démontrer qu’un fichier initialement sain a été modifié après sa production.
 
-Les trois autres fichiers — SD-01 du 21 février, SD-03 du 29 février à 10:26:10 et SD-03 du 15 octobre — gardent les tailles disponibles dans le `mdat`. Deux conservent toutefois des zones non indexées :
+## 6. Dates FAT de 2000 et affichage de 1999
 
-| Fichier | Zone non indexée du `mdat`, offset logique | Octets | Test borné sans horodatage ajouté |
-| --- | ---: | ---: | --- |
-| SD-01, 20903944 | 12 281 990 | 903 034 | Trois unités H.264 au début de cette zone : décodage de 2 170 à **2 173 images**, sans avertissement |
-| SD-03, 266341920 | 5 308 698 | 15 489 | Une unité H.264 couvrant cette zone : décodage de 673 à **674 images**, sans avertissement |
+### 6.1. Valeurs réellement stockées
 
-Les essais convertissent en mémoire les unités AVC indexées et ce seul préfixe résiduel en flux H.264 élémentaire, avec les paramètres de décodage conservés. Ils n'inventent ni image ni horodatage MP4. **Quatre images supplémentaires sont ainsi décodables**, mais aucune nouvelle vidéo complète ou fin datée n'est livrée. Aucun examen visuel de ces quatre images n'est revendiqué.
+Les onze vidéos portent des créations/écritures FAT proches de **00:00:26–00:00:28 le 1er janvier 2000**, malgré leurs noms et les incrustations examinées de 2023/2024. Les valeurs sont inscrites dans les octets FAT : il ne s’agit pas seulement de l’affichage d’un champ nul. Aucune date FAT explicite de 1999 n’est identifiée dans les entrées examinées.
 
-Pour SD-01, seuls 14 348 octets du début de la zone sont ajoutés au test ; les **888 686 octets restants demeurent non attribués**. Leur mélange de données et de zéros ne permet pas d'en faire automatiquement une continuation. Les temps de présentation des images supplémentaires ne sont pas dans les tables examinées : on ne les extrapole pas à partir d'une cadence supposée. Cette limite affecte directement l'usage de la fin nominale du 21 février.
+Les alias `.` et `..`, les dates des dossiers et un dernier accès du marqueur `.rw` ne sont pas comptés comme des réinitialisations indépendantes. Les dossiers reprennent fréquemment les dates liées aux premiers ou derniers clips. Une date de dossier dite de création ne garantit donc pas une première initialisation du support.
 
-Ces observations précisent les défauts : **incohérence des compteurs, références à des médias absents, ou présence de médias sans index complet**. Elles sont compatibles avec une clôture/reprise utilisant des états de tables et de médias différents. Elles ne démontrent pas qu'une vidéo initialement saine a été modifiée ultérieurement.
+La concentration autour de 26–28 secondes est compatible avec un chemin de traitement répétable, **sans être un chronomètre de démarrage validé**. Plusieurs clips peuvent être finalisés dans une même reprise ultérieure ; leur nombre n’est pas un nombre de redémarrages ou resets.
 
-Preuves : [tables et offsets](recherche-transversale/20261016/inventaires/tables-ciblees.json), [excédents et zones](recherche-transversale/20261016/inventaires/compteurs-video-et-zones-non-indexees.json), [tests de compteurs](recherche-transversale/20261016/inventaires/test-index-audio-video.json), [tests H.264 résiduels](recherche-transversale/20261016/inventaires/nal-non-indexes.json). Le fragment après EOF de 3,849 s déjà restauré sur SD-03 est un résultat antérieur distinct, conservé sans modification.
+### 6.2. Mécanisme compatible et cause non établie
 
-## 4. Février : mécanisme commun et événement commun sont deux questions
+Un scénario compatible est le suivant : médias, noms, incrustations et journaux auxiliaires sont produits ; une interruption ou un défaut laisse des états différents en mémoire et sur carte ; une clôture ou reprise construit les tables à partir de ces états et inscrit une date de référence. Cela pourrait associer un compteur erroné et une date FAT 2000 à des images conservant 2024.
 
-### 4.1. Rapprochement du 21 février à 23:41
+Les modèles et journaux étayent l’architecture générale de production. **Ni une reprise au démarrage, ni l’ordre exact écriture/date/synchronisation, ni une coupure n’est observé directement.** Une erreur sans redémarrage, une variable non initialisée ou un traitement ultérieur restent compatibles. Aucune architecture de double horloge matérielle n’est affirmée.
 
-| Mesure, en heures nominales de caméra | SD-01, 20903944 | SD-03, 261989444 |
-| --- | --- | --- |
-| Début du nom | 23:39:14 | 23:41:03 |
-| Fin de piste vidéo selon tables | 23:41:45,924 | 23:41:47,101 |
-| Dernière PTS d'image produite dans la lecture indexée | 23:41:45,851 | 23:41:44,023 |
-| Fin audio selon tables | 23:41:45,424 | 23:41:46,904 |
-| Écriture FAT brute | 01/01/2000 00:00:28 | 01/01/2000 00:00:26 |
-| Particularité | Au moins trois images non indexées décodables | 587 images produites sur 630 annoncées |
+### 6.3. Sens de la conversion « 31/12/1999 »
 
-La comparaison initiale, fin nominale SD-01 contre dernière PTS produite SD-03, donne bien **1,901 s**. Comparer les dernières PTS indexées produites des deux cartes donne **1,828 s** ; comparer les fins vidéo de tables donne **1,177 s**, dans l'autre ordre. Ces mesures ne sont pas interchangeables et aucune ne constitue seule une heure de coupure.
+| Interprétation d’une date FAT naïve | Résultat |
+|---|---|
+| `2000-01-01 00:00:26` traitée comme locale à Paris, puis convertie en UTC | **`1999-12-31 23:00:26Z`** |
+| Même valeur traitée comme UTC, puis affichée à Paris | **`2000-01-01 01:00:26+01:00`** |
 
-La proximité des fins, les deux dates 2000 et la même signature de compteur rendent **plausible un événement commun**, par exemple une interruption affectant les deux équipements. Mais les horloges ne sont pas étalonnées, la fin SD-03 est dégradée et celle de SD-01 n'indexe pas tous les médias présents. Un traitement différé de plusieurs enregistrements pourrait aussi produire les métadonnées communes. **Ni une simultanéité civile, ni une coupure commune, ni un redémarrage commun ne sont établis.**
+**Le sens de conversion peut expliquer un affichage de la veille, mais la convention réellement employée par l’interface de la cliente reste inconnue.** Ce calcul n’explique pas pourquoi la valeur de 2000 a été inscrite et n’authentifie pas la provenance de son signalement.
 
-SD-03 a déjà deux autres fichiers anormaux ce soir-là, à 23:22:37 et 23:33:45, séparés par des clips aux dates FAT ordinaires. Son clip de 23:37:04, voisin du dernier cas, porte une fin nominale 23:39:50,144 et une écriture cohérente. Le clip suivant est nommé 23:44:14, avec dates normales. SD-01 ne conserve ce soir-là que le fichier anormal considéré. Cette répartition ne permet pas de compter trois redémarrages sur SD-03, ni de synchroniser tous ses défauts avec SD-01.
+## 7. Comparaison de février et mars 2024
 
-### 4.2. Le 29 février et le 1er mars ne forment pas une panne continue démontrée
+### 7.1. Fins proches le 21 février vers 23:41
 
-SD-03 présente quatre fichiers anormaux le 29 février, entrecoupés de vidéos cohérentes. SD-01 conserve douze vidéos du 29 février aux écritures FAT normales. En particulier, sa vidéo de **11:27:08 à 11:27:42,432** recouvre une partie du clip SD-03 de 11:27:25, endommagé. Les anomalies de finalisation ne sont donc pas systématiquement reproduites sur les deux cartes aux mêmes heures nominales.
+| Mesure nominale | SD-01, **20903944** | SD-03, **261989444** |
+|---|---|---|
+| Début du nom | **23:39:14** | **23:41:03** |
+| Fin de piste vidéo selon les tables | **23:41:45,924** | **23:41:47,101** |
+| Dernière PTS d’image produite en lecture indexée | **23:41:45,851** | **23:41:44,023** |
+| Fin audio selon les tables | **23:41:45,424** | **23:41:46,904** |
+| Écriture FAT | **01/01/2000 00:00:28** | **01/01/2000 00:00:26** |
+| Limite | Au moins trois images non indexées décodables | **587 images produites sur 630 annoncées** |
 
-L'anomalie SD-01 du **1er mars à 04:05:05** possède la signature audio commune, mais sa lecture indexée ne produit que **134 images sur 185**, dernière PTS **9,309 s**, contre 12,950 s de durée annoncée. Sa fin nominale annoncée n'est pas une fin lisible certaine. Le journal résiduel antérieurement associé conserve davantage de tailles que la table finale, ce qui corrobore le désaccord entre états de production.
+Les comparaisons homogènes donnent **1,828 s entre dernières PTS indexées produites** et **1,177 s entre fins vidéo de tables, dans l’autre ordre**. L’écart de **1,901 s** mélange une fin de piste SD-01 et une dernière image SD-03 ; il ne doit pas devenir une mesure de simultanéité.
 
-**Conclusion pour février : même famille de mécanisme fortement étayée ; incident commun du 21 février possible ; un événement unique expliquant toutes les anomalies de février/mars non démontré.**
+La proximité des fins et la même signature rendent **plausible un incident commun**, sans le démontrer. Les horloges ne sont pas étalonnées, une fin perd des images et l’autre n’indexe pas tous ses médias. Un traitement différé pourrait aussi produire des métadonnées semblables. **Ni simultanéité civile, ni coupure commune, ni redémarrage commun ne sont établis.**
 
-Preuves : [chronologie croisée](recherche-transversale/20261016/inventaires/chronologie-croisee.csv), [fins distinctes](recherche-transversale/20261016/inventaires/fins-comparees.json), nouveaux relevés d'images SD-01 et contrôles antérieurs d'images SD-03. Les noms et incrustations restent déclaratifs.
+Les deux autres anomalies SD-03 de cette soirée, à **23:22:37 et 23:33:45**, sont séparées par des clips aux dates ordinaires. Un voisin normal finit nominalement à **23:39:50,144** et le suivant est nommé **23:44:14**. Cette alternance ne permet pas de compter trois redémarrages. SD-01 ne conserve ce soir-là que le fichier anormal comparé.
 
-## 5. Le 15 octobre : défaut récurrent et particularités nouvelles
+### 7.2. Le 29 février et le 1er mars
 
-### 5.1. Ce qui reste commun aux cas antérieurs
+SD-03 comporte quatre cas anormaux le 29 février, entrecoupés de fichiers cohérents. SD-01 conserve douze clips du même jour aux écritures FAT normales ; celui de **11:27:08 à 11:27:42,432** recouvre une partie du clip SD-03 de 11:27:25 endommagé. Les anomalies ne se reproduisent donc pas systématiquement aux mêmes heures nominales sur les deux cartes.
 
-Le dernier MP4 SD-03, **714049800**, `20241015_132800_10_0277.mp4`, présente le compteur audio cumulatif fautif et la date FAT de 2000. Son dossier reprend cette date, tandis que ses alias internes gardent le 15 octobre 08:02:36. Le motif de renseignement du dossier est déjà documenté sur les autres jours : **fichier et dossier ne sont pas deux événements indépendants de reset**.
+Le clip SD-01 du **1er mars à 04:05:05** a la signature audio commune mais ne produit en lecture indexée que **134 images sur 185**, dernière PTS **9,309 s**, contre **12,950 s** de durée annoncée. Son journal résiduel conserve davantage de tailles que la table finale. La fin nominale n’est pas une fin lisible certaine.
 
-Le champ audio fautif est à l'offset logique **32 865 034** : remplacer 2 163 par sept modifie seulement deux octets. L'avertissement de compteur disparaît. Le compteur vidéo terminal est ici arithmétiquement cohérent : six échantillons restants, six annoncés. Toutes les longueurs d'unités NAL examinées sont cohérentes avec les tailles vidéo. Cela distingue ce cas des fichiers avec références hors `mdat`.
+**Même famille de mécanisme fortement étayée ; événement commun du 21 février possible ; événement unique ou panne continue expliquant toutes les anomalies de février/mars non démontrés.**
 
-### 5.2. Un audio réellement décodable plus long que la piste vidéo
+## 8. Dernière vidéo du salon le 15 octobre 2024
 
-| Population de métadonnées comparée | Plus grand excédent audio sur vidéo |
-| --- | ---: |
-| SD-01, 674 vidéos | 0,528 s |
-| SD-02, 3 300 MP4 actifs analysables | 0,671 s |
-| SD-03, hors dernier fichier du 15 octobre | 0,657 s |
-| SD-03, dernier fichier du 15 octobre | **11,589 s** |
+### 8.1. Défaut récurrent et particularité audio
 
-Sur ce dernier fichier : **2 170 échantillons AAC**, durée 277,760 s ; **3 802 images vidéo**, durée de piste 266,171 s, dernière PTS produite 266,103 s. Le test audio après correction du compteur produit **2 222 080 échantillons PCM mono à 8 kHz**, soit exactement 277,760 s, sans avertissement. Les fenêtres d'une seconde après la fin vidéo ont une énergie et des pics non nuls. Il ne s'agit donc pas seulement d'une durée fictive engendrée par la mauvaise valeur `stsc`, ni d'une extension composée exclusivement de silence numérique.
+Le dernier MP4 SD-03, **714049800**, `20241015_132800_10_0277.mp4`, porte la date FAT 2000 et le compteur audio cumulatif fautif. Son dossier reprend cette date, tandis que ses alias gardent **15/10/2024 08:02:36**. Fichier et dossier ne sont pas deux événements indépendants de reset.
 
-La fin du dernier chunk vidéo est l'offset **32 841 225** ; des chunks audio occupent ensuite les **23 296 octets** restants du `mdat`, jusqu'à **32 864 521**. Ces données sont dans la taille logique et référencées par les tailles audio. L'excédent de durée reste présent après correction du compteur, qui ne change ni les tailles ni `stts`.
+Le champ audio à l’offset **32 865 034** vaut **2 163 au lieu de sept**. Sa correction sur copie supprime l’avertissement de compte. Le compteur vidéo terminal est cohérent — six échantillons attendus et annoncés — et les longueurs NAL contrôlées concordent avec les tailles.
 
-**Interprétation :** les deux pistes se terminent différemment dans l'état enregistré. Arrêt de production vidéo avant l'audio, pertes d'index ou de données vidéo, calcul temporel défaillant, reprise ou assemblage ultérieur restent compatibles. Sans étalonnage des temps de pistes ni analyse sémantique, on ne démontre pas que ce son a été capté exactement 11,589 secondes après la dernière image civile. Aucun sens n'est attribué au signal sonore.
+| Population comparée | Plus grand excédent audio sur vidéo |
+|---|---:|
+| SD-01, 674 vidéos | **0,528 s** |
+| SD-02, 3 300 finalisés actifs | **0,671 s** |
+| SD-03, hors dernier clip du 15 | **0,657 s** |
+| SD-03, dernier clip du 15 | **11,589 s** |
 
-### 5.3. Une erreur vidéo vers le milieu, puis des images jusqu'à la fin
+Ce fichier comporte **2 170 échantillons AAC**, durée audio **277,760 s**, contre **266,171 s de piste vidéo**, avec **3 802 images produites**. Après correction du compteur sur copie, l’audio produit **2 222 080 échantillons PCM mono à 8 kHz**, exactement 277,760 s, sans avertissement. Les fenêtres après la fin de piste vidéo portent un signal non nul.
 
-Le décodage ciblé avec un seul thread et `showinfo` retrouve l'erreur H.264 `left block unavailable for requested intra mode` et une dissimulation d'erreurs autour de l'image d'indice zéro **1 788**, PTS **125,176 s**. Les images et paquets antérieurement inventoriés situent cette image à l'offset logique **15 423 494**. Le temps nominal correspondant est **13:30:05,176**, sans étalonnage civil. La localisation autour de cette PTS repose sur le voisinage des messages de décodage et de `showinfo` ; aucune précision d'heure civile n'en est déduite.
+Les données audio occupent notamment les **23 296 octets** de `mdat` entre la fin du dernier bloc vidéo à **32 841 225** et la fin des données à **32 864 521**. Elles sont dans la taille logique et référencées. **L’excédent n’est donc ni une durée fictive due au seul compteur erroné ni une extension exclusivement composée de silence numérique.**
 
-Le décodeur produit ensuite des images jusqu'à la dernière PTS **266,103 s**, nominalement **13:32:26,103**. Le contrôle ne signale pas de nouvelle erreur vidéo terminale dans ce fichier. **Les 3 802 images produites ne sont donc pas toutes garanties intactes**, puisqu'une image est produite avec dissimulation d'erreurs. L'avertissement H.264 antérieurement observé n'est pas en lui-même la preuve d'une troncature de la dernière image ou d'une coupure à 13:32:26.
+Les pistes se terminent différemment dans l’état enregistré. Arrêt de production vidéo, perte d’index ou de données, calcul temporel défaillant et reprise/assemblage ultérieur restent compatibles. Sans étalonnage des pistes, **il n’est pas démontré que ce son ait été capté exactement 11,589 secondes civiles après la dernière image**. Aucun sens n’est attribué à son contenu.
 
-La fin audio nominale **13:32:37,760** ne doit pas être présentée comme une dernière image observée, ni comme une heure certaine d'arrêt de la caméra. L'heure 13 h 30 évoquée pour les téléphones ne permet pas d'attribuer l'erreur intermédiaire ou la fin du clip à une opération de perquisition.
+### 8.2. Erreur intermédiaire et dernières images
 
-### 5.4. Comparaison avec les autres cartes et la reprise disponible
+Le contrôle ciblé situe l’erreur H.264 `left block unavailable for requested intra mode` et une dissimulation d’erreurs autour de l’image d’indice zéro **1 788**, PTS **125,176 s**, offset **15 423 494**. Le temps nominal correspondant est **13:30:05,176**, sans précision civile indépendante.
 
-Les deux clips SD-03 précédents, à 13:24:49 et 13:26:34, passent les contrôles prioritaires antérieurs. Aucun MP4 SD-03 référencé ne porte un nom du 16 au 28 octobre ; la reprise des noms est le **29 octobre à 17:59:18**. Cette longue lacune distingue le contexte du 15 de la reprise du 21 février vers 23:44:14. Elle ne distingue pas à elle seule arrêt, absence de déclenchement, perte de données ou suppression sans trace survivante.
+Des images sont ensuite produites jusqu’à la dernière PTS **266,103 s**, nominalement **13:32:26,103**, sans nouvelle erreur vidéo terminale signalée. Les **3 802 images produites ne sont pas toutes garanties intactes**, puisqu’une image est produite avec dissimulation d’erreurs. Cette erreur intermédiaire ne date donc pas une troncature terminale ou une coupure à 13:32:26.
 
-SD-01 conserve **37 vidéos du 15 octobre**, sans anomalie spécifique de reset identifiée, dont des enregistrements postérieurs à la dernière image SD-03 et jusqu'à une fin nominale vers 22:46:17. Un arrêt prolongé simultané de toutes les caméras n'est donc pas étayé. Un événement bref commun, ou limité à une caméra, n'est pas exclu. SD-02 ne possède pas les séquences requises pour trancher.
+La fin audio nominale **13:32:37,760** est distincte de la dernière image et d’une heure certaine d’arrêt. L’heure rapportée pour l’allumage des téléphones ne permet pas d’attribuer le défaut vidéo ou la fin du clip à une manipulation. Les deux clips précédents, nommés **13:24:49 et 13:26:34**, passent les contrôles prioritaires sans avertissement.
 
-**Conclusion : la signature de compteur du 15 octobre est ancienne et récurrente ; l'excédent audio est exceptionnel dans les populations comparées, et la lacune suivante est particulièrement longue. Ces différences ne démontrent pas une nouvelle cause ni une intention.**
+### 8.3. Lacune et comparaison intercartes
 
-Preuves : [audio et mesures de signal](recherche-transversale/20261016/inventaires/audio-714049800.json), [localisation de l'erreur vidéo](recherche-transversale/20261016/inventaires/video-erreur-714049800.json), [distribution SD-01/SD-03](recherche-transversale/20261016/inventaires/ecarts-audio-video.json), [population active SD-02](recherche-transversale/20261016/inventaires/ecarts-audio-video-SD02-actifs.json). Le relevé SD-02 initial du complément porte sur 3 310 métadonnées mêlant actifs et supprimés ; seule la population corrigée de 3 300 actifs sert au tableau ci-dessus.
+Aucun MP4 SD-03 référencé ne porte un nom du **16 au 28 octobre** ; le nom suivant est le **29 octobre à 17:59:18**. La lacune ne départage pas arrêt, alimentation, réglages, absence de déclenchement ou données perdues/supprimées sans trace survivante.
 
-## 6. Comment les dates FAT de 2000 pourraient-elles accompagner ces défauts ?
+SD-01 conserve **37 vidéos du 15**, sans anomalie spécifique de reset identifiée, dont des clips après les dernières images du salon et jusqu’à une fin nominale vers **22:46:17**. Un arrêt prolongé simultané de toutes les caméras n’est donc pas étayé ; un événement bref commun ou limité à une caméra n’est pas exclu. SD-02 ne dispose pas des séquences nécessaires pour trancher.
 
-Les dates sont réellement inscrites dans les slots FAT ; ce n'est pas seulement l'affichage d'un champ nul. Les onze fichiers ont des créations/écritures proches de **00:00:26–00:00:28 au 1er janvier 2000**, malgré les noms et incrustations de 2023/2024. FAT ne contient pas de fuseau et ses champs ont des précisions différentes : création 10 ms, écriture deux secondes, accès un jour selon [Microsoft, File Times](https://learn.microsoft.com/en-us/windows/win32/sysinfo/file-times). Ces précisions ne prouvent pas l'exactitude des horloges.
+**Le défaut de compteur est ancien et récurrent ; l’excédent audio et la longue lacune sont des particularités du cas. Ces différences ne démontrent ni cause nouvelle, ni réinitialisation, ni intention.**
 
-**Scénario technique compatible, sans être observé en fonctionnement :** un enregistrement produit ses médias, son nom, ses incrustations et un journal auxiliaire ; une interruption laisse des états différents en mémoire et sur carte ; un traitement de clôture ou de reprise fabrique des tables à partir de ces états et inscrit les dates FAT alors que le chemin d'horodatage emploie une date par défaut. Un mauvais calcul de compteur et une date aberrante apparaissent ainsi dans le même fichier, tandis que les noms et images conservent 2024.
+## 9. Terrasse : stockage circulaire et corpus discontinu
 
-La présence des modèles/journaux et leurs correspondances avec les fichiers finalisés étayent l'architecture générale de production. **Ni l'exécution d'un mécanisme de reprise au démarrage, ni l'ordre exact écriture/date/synchronisation ne sont démontrés.** Une erreur de finalisation en fonctionnement sans redémarrage, une variable de date non initialisée, ou une récupération ultérieure pourraient produire des états comparables. Aucune architecture de double horloge matérielle n'est affirmée.
+SD-02 est occupée à environ **99,11 %** ; **315 des 326 entrées de fichiers supprimés** pointent désormais à l’intérieur de chaînes actives. La saturation, les enregistrements plus récents et la réutilisation étayent fortement une gestion circulaire remplaçant les contenus anciens. Ce mécanisme ne date pas les suppressions ni leur auteur.
 
-La concentration des heures autour de 26–28 secondes est compatible avec une phase répétable de traitement ou de démarrage. Elle ne constitue pas un chronomètre d'uptime validé. Plusieurs clips anormaux d'une même soirée peuvent avoir été traités plus tard dans une seule session ; le nombre de clips n'est pas un nombre de resets. L'écriture du dossier SD-01 du 21 février à 00:01:32 en 2000, différente de celle du fichier, interdit aussi de transformer toutes ces valeurs en une même seconde certaine de démarrage.
+La cliente déclare pourtant une captation continue. L’union des intervalles nominaux des **vidéos actives à nom datable**, sans double comptage des recouvrements, donne :
 
-### Affichage du 31 décembre 1999 : préciser le sens de conversion
+| Journée intérieure du corpus, novembre 2024 | Part nominale de 24 heures couverte |
+|---|---:|
+| 6 novembre | **62,466 %** |
+| 7 novembre | **62,655 %** |
+| 8 novembre | **64,937 %** |
+| 9 novembre | **48,892 %** |
+| 10 novembre | **50,992 %** |
+| 11 novembre | **52,340 %** |
 
-Une date naïve FAT **2000-01-01 00:00:26**, interprétée comme locale à Paris puis convertie en UTC, devient bien **1999-12-31 23:00:26Z**. Inversement, traiter ce minuit comme UTC puis l'afficher à Paris donne **2000-01-01 01:00:26+01:00**. Les deux sens sont reproduits dans [le calcul de conversion](recherche-transversale/20261016/inventaires/conversion-1999.json).
+Les supprimés récupérés, le temporaire non finalisé et le nom impossible sont exclus de ce calcul. **Les lacunes du corpus ne sont pas assimilées à un arrêt habituel démontré ni au temps certain d’extinction de la caméra.** Réglage historique, interruption, écrasement/suppression, défaut de production ou datation restent à départager.
 
-Cela précise les formulations des rapports SD-02/SD-03 : Paris peut produire la veille dans le premier sens de conversion ; il ne la produit pas dans le second. **La convention réellement employée dans l'affichage rapporté reste inconnue.** Aucune de ces conversions n'explique pourquoi la valeur de 2000 a été écrite, ni n'authentifie la provenance du signalement de la cliente. Aucune date FAT explicite de 1999 n'est identifiée dans les entrées déjà examinées.
+Le remplacement circulaire peut expliquer la disparition d’anciens fichiers, y compris sur un système enregistrant en continu ; il ne démontre pas la cause de chaque lacune du flux conservé. Aucune vidéo du 15 octobre n’est récupérée sur SD-02, donc aucun effacement ciblé ou geste sur la terrasse ce jour-là n’est établi à partir des enregistrements disponibles.
 
-## 7. Mécanismes distinguables et indices d'intervention extérieure
+## 10. Traitements ultérieurs, modèles et accès extérieurs
+
+### 10.1. Auxiliaires compatibles avec Windows
+
+Les trois cartes portent `System Volume Information`, `WPSettings.dat` et `IndexerVolumeGuid`. Les créations FAT des deux fichiers auxiliaires sont proches le **12 novembre 2024**, selon les valeurs brutes non étalonnées :
+
+| Support | Heure FAT approximative |
+|---|---|
+| **SD-01** | **23:35:28** |
+| **SD-03** | **23:37:25** |
+| **SD-02** | **23:51:46** |
+
+Cette succession est compatible avec un traitement des trois volumes dans un environnement Windows. **Elle ne prouve pas un même poste, une même session, un opérateur ou une modification des vidéos.** Ces dates peuvent aussi avoir été conservées lors d’un traitement ultérieur.
+
+Les recherches dans les ruches complètes et journaux System/PnP/stockage/SetupAPI d’OP-01 n’obtiennent pas de rattachement positif des cartes à ce poste. L’absence de correspondance n’exclut pas une insertion ancienne dont les traces ont disparu. Les identifiants de volume ne sont pas des séries matérielles uniques.
+
+Les fichiers actifs communs par SHA-256 entre cartes ne concernent que **`.rw` vide**, pas des vidéos identiques. Anciens noms de répertoires, temporaires retirés et clusters réutilisés ne datent pas des actes intentionnels ciblés sur février ou le 15 octobre.
+
+### 10.2. Modèles, firmwares et historiques caméra
+
+Les caches LSC `home/detailv1` et `home/list313` ne sont pas décodés par les sondages documentés. Les **54 ressources voisines** décodables en base64 puis JSON contiennent des traductions, pas une preuve de version installée. Les **104 fichiers sources** consommés par ce contrôle conservent les empreintes d’extraction ; ce résultat valide les dérivés, pas le firmware historique.
+
+**Aucun modèle exact ni firmware des trois caméras associées aux cartes n’est identifié par ces pièces.** Les versions de l’application, panneaux et mini-applications ne sont pas assimilées à celles du micrologiciel. L’échec des sondages non exhaustifs ne prouve pas l’absence de ces informations dans les caches opaques.
+
+Les catalogues et états LSC ne reconstituent pas un historique complet des comptes, partages, réappairages ou visionnages depuis mars 2023. Les configurations Xiaomi identifiées ailleurs ne sont pas reliées matériellement à une des trois cartes par ces seuls rapprochements.
+
+### 10.3. Téléphones, réseau et procédure
+
+La séquence Wi-Fi de TP-02, les traitements système de TP-03 et les présences Freebox restent propres à leurs artefacts et limites de provenance. **Aucun lien technique ne démontre une commande de caméra depuis un téléphone pendant la fermeture des scellés ou une responsabilité dans les lacunes SD.** Une proximité horaire ne remplace pas une session, un identifiant d’équipement ou une commande.
+
+Le PV consulté distingue la mise sous scellés des appareils concernés après **14:19 le 15 octobre**, l’arrivée de la cliente le **28 à 10:22**, l’ouverture du PC à **10:41**, celle des téléphones à **11:30** et la clôture à **19:20**, sans heure individuelle de restitution. Ces repères ne datent pas une réinitialisation caméra et ne permettent pas de forcer la concordance d’horloges non étalonnées.
+
+## 11. Hypothèses, limites et conclusion technique
+
+### 11.1. Mécanismes distingués
 
 | Mécanisme envisagé | Éléments compatibles | Ce qui manque pour le démontrer |
-| --- | --- | --- |
-| Défaut de finalisation ou reconstruction | Même erreur audio dans onze fichiers, excédents vidéo répétés, index et médias en désaccord, journaux auxiliaires | Code/firmware ou expérience reproduisant exactement les défauts ; moment et logiciel ayant finalisé les fichiers |
-| Interruption d'enregistrement | Données référencées absentes dans certains clips, temporaire SD-02, fins de pistes différentes | Journal d'état ou d'alimentation ; distinction entre données jamais écrites et données perdues ensuite |
-| Redémarrage | Dates de référence très proches, reprise/finalisation possible | Journal de boot, compteur de démarrages, reproduction de la séquence ; aucun reset usine n'est déduit |
-| Perte de synchronisation horaire | Date FAT 2000 avec nom et image 2024 | Journal NTP/horloge ; démonstration du champ concerné ; une simple dérive d'heure n'explique pas seule les compteurs MP4 |
-| Modification ou récupération ultérieure | État acquis en 2026, métadonnées de traitement postérieures, possibilité de dates conservées/modifiées | Version antérieure authentifiée, traces d'un outil ou poste reliant une modification précise aux onze fichiers |
-| Intervention intentionnelle ou accès distant | Aucun marqueur propre identifié dans les traces examinées | Journaux de session/configuration, compte, commande, outil ou acte attribuable ; une anomalie n'est pas une preuve d'intention |
+|---|---|---|
+| **Finalisation ou reconstruction défaillante** | Signature audio commune, excédents vidéo, index/médias en désaccord, journaux auxiliaires | Firmware ou expérience reproduisant les défauts exacts ; moment et logiciel responsables. |
+| **Interruption d’enregistrement** | Médias référencés absents, temporaire inachevé, fins de pistes différentes | Journal d’état/alimentation ; distinction entre données jamais écrites et perdues ensuite. |
+| **Redémarrage** | Dates de référence proches, possibilité de reprise de fichiers | Journal de boot ou compteur validé ; le nombre de clips ne compte pas les démarrages. |
+| **Défaut d’horloge ou de synchronisation** | Dates FAT 2000 avec noms/images 2024 | Journal d’horloge/NTP ; une erreur d’affichage seule n’explique pas les compteurs MP4. |
+| **Copie, récupération ou modification ultérieure** | Acquisition tardive et métadonnées de traitements postérieurs | Version antérieure authentifiée ou trace d’outil/poste reliant une transformation précise aux fichiers. |
+| **Intervention intentionnelle ou distante** | Aucun marqueur propre identifié dans les données examinées | Session, compte, commande, outil ou acte attribuable ; une anomalie ne démontre pas une intention. |
 
-Le classement le mieux étayé concerne **un chemin récurrent de finalisation/reconstruction défaillant**, avec origine et déclencheur inconnus. Les mécanismes peuvent se combiner : un redémarrage peut déclencher une reprise, mais une reprise n'implique pas nécessairement un redémarrage. Une date aberrante seule ne démontre ni formatage ni retour aux paramètres d'usine.
+Les mécanismes peuvent se combiner : un redémarrage peut déclencher une reprise, sans que toute reprise implique un redémarrage. Une remise à l’heure, un redémarrage, un retour aux paramètres d’usine et un formatage sont des opérations différentes. **Aucune n’est établie par la seule date FAT 2000.**
 
-**Traces positives de traitement hors du seul contenu vidéo :** les trois cartes portent `System Volume Information`, `WPSettings.dat` et `IndexerVolumeGuid`. Les créations FAT des fichiers sont proches le **12 novembre 2024** : vers **23:35:28 sur SD-01**, **23:37:25 sur SD-03**, **23:51:46 sur SD-02**. Cette succession est compatible avec une manipulation des trois volumes dans un environnement Windows. Elle constitue une piste transversale de traitement ultérieur à examiner sur le poste concerné, **sans prouver un même poste, une même session, une personne ou une modification des vidéos**. Ces dates dépendent elles aussi d'horloges non étalonnées et peuvent avoir été conservées.
+### 11.2. Limites et éléments discriminants
 
-Les correspondances de fichiers actifs précédemment recensées entre cartes ne concernent que le marqueur `.rw` vide : elles ne démontrent pas une copie commune des vidéos. Les anciens renommages de répertoire, le nettoyage des temporaires et la réutilisation de clusters SD-02 ne sont pas datables comme des actes intentionnels ciblés sur février ou le 15 octobre. L'activité d'une application caméra sur un téléphone, citée dans les rapports antérieurs, ne devient pas une session établie sur une carte par seule proximité temporelle.
+La conservation est tardive et incomplète pour l’histoire recherchée. Les horloges caméra ne sont pas étalonnées ; FAT32 ne fournit pas de journal complet des modifications, accès ou suppressions. Les contenus peuvent être copiés avec leurs dates et défauts ; les états supprimés, écrasés ou non adressables ne sont pas tous récupérables.
 
-**Aucune trace positive ne relie une personne, une connexion distante ou une modification intentionnelle aux anomalies étudiées.** Cela n'exclut pas une opération ancienne sans trace survivante. La présence de fichiers compatibles Windows n'est pas effacée de l'analyse, mais son niveau de preuve reste distinct de celui d'une intervention sur les enregistrements.
+La comparaison ciblée des 37 copies ne constitue pas un décodage exhaustif et indépendant de chaque vidéo des trois cartes. Les résultats de population reposent aussi sur les contrôles individuels. Les essais bornés valident des relations de tables et certains médias résiduels, sans certifier une absence de montage antérieur techniquement propre ou une origine humaine/automatique.
 
-## 8. Réponses aux six questions et investigations désormais utiles
+Les éléments les plus discriminants seraient :
 
-| Question | Réponse défendable |
-| --- | --- |
-| Événement commun en février sur SD-01/SD-03 ? | Même signature de défaut établie ; événement commun proche de 23:41 le 21 février plausible, sans synchronisation ni cause commune démontrées. Toutes les anomalies de février ne se superposent pas. |
-| Défaut SD-03 mieux caractérisé ? | Oui : cumul audio inscrit à la place du reste, excédents vidéo de 13/26 dans certains cas, références hors médias, données non indexées ; le 15 possède une erreur vidéo intermédiaire et un audio prolongé décodable. |
-| Mécanisme simultané FAT 2000 / MP4 incohérent ? | Une finalisation/reprise avec date de référence explique conjointement les constats de façon compatible. Le processus réel, son déclencheur et sa date ne sont pas prouvés. |
-| Peut-on choisir entre redémarrage, horloge, interruption, clôture et modification ultérieure ? | Le défaut de tables est démontré ; sa cause et son contexte restent indéterminés. Une simple erreur d'affichage horaire ne suffit pas à expliquer les défauts MP4. |
-| Caractéristiques nouvelles le 15 octobre ? | Signature audio ancienne ; excédent audio de 11,589 s exceptionnel dans le corpus et longue lacune suivante. Aucun nouveau mécanisme causal ou intentionnel établi. |
-| Intervention intentionnelle/extérieure positive ? | Traitement des volumes compatible Windows documenté séparément ; aucune connexion ni intervention intentionnelle sur les clips anormaux identifiée. |
+- l’affichage original de 1999 et son contexte, pour déterminer le champ et la convention de conversion réellement utilisés ;
+- les modèles, firmwares et réglages historiques, ainsi que les journaux de démarrage, synchronisation horaire, compte et application ;
+- les traces du poste ayant traité les cartes en novembre ;
+- une expérience sur **un autre support**, reproduisant ensemble les valeurs FAT, les compteurs, les tailles, les données non indexées et les fins de pistes. Obtenir seulement une date de 2000 ne reproduirait pas la signature complète.
 
-Les recherches de meilleure valeur ne sont plus un nouveau carving exhaustif : retrouver l'affichage original et son contexte ; identifier modèles/firmwares ; rechercher les journaux de boot, d'heure, d'application et de compte ; tester sur une **autre carte** l'interruption et la reprise, en contrôlant ensemble les mots FAT et les compteurs MP4 ; identifier le poste ayant traité les volumes en novembre. Le PV désormais consulté précise les horaires de procédure, sans remplacer les traces de caméra ni étalonner les horloges.
+Ces expériences ne sont pas réalisées et la disponibilité des archives n’est pas présumée. Une répétition de recherche ne recrée pas des traces déjà écrasées.
 
-Une expérience de firmware devra comparer les octets des tables, les tailles, les données non indexées, les durées de pistes et les heures FAT : obtenir seulement une date de 2000 ne reproduirait pas la signature complète. Aucun contact, accès à un compte, publication ou transfert n'est réalisé dans ce complément.
+### 11.3. Conclusion
 
-## 9. Livraison technique et traçabilité
+**Les cartes chambre et salon partagent un défaut arithmétique précis dans onze vidéos aux dates FAT de 2000, dès novembre 2023. Les incohérences de compteurs, les références hors données et les médias non indexés étayent fortement un chemin récurrent de finalisation ou reconstruction défaillant.** Le logiciel, son déclencheur et la date réelle du traitement restent inconnus.
 
-Résultats : [recherche-transversale/20261016](recherche-transversale/20261016/). Quatre scripts locaux permettent la reproduction dans un répertoire neuf ; les sources historiques restent inchangées. Le [guide](recherche-transversale/20261016/README.md) décrit les populations, les commandes, les expériences en RAM, les incidents et le contrôle du manifeste. Les manifestes historiques sont conservés ; un manifeste propre au complément couvre les nouveaux résultats et ce rapport.
+La proximité des fins du **21 février** rend un incident commun plausible, sans démontrer une coupure ou un redémarrage simultanés. Les autres cas de février/mars ne forment pas une panne continue commune établie.
 
-Les expériences ne produisent pas une nouvelle version originale des vidéos. Les médias privés antérieurs doivent accompagner une remise technique sécurisée : le dépôt Git seul est insuffisant. Les journaux publics nouveaux contiennent des données techniques, pas des images ni une transcription sonore. Les résultats donnent des états et des relations techniques ; ils ne datent ni n'attribuent avec certitude les opérations historiques qui les ont produits.
+Le dernier clip du **15 octobre sur SD-03** associe la signature ancienne à une erreur vidéo intermédiaire, un excédent audio décodable de **11,589 s** et une longue lacune du corpus. Les dernières images produites, la fin audio et l’heure d’arrêt de la caméra restent des notions distinctes. SD-01 conserve des enregistrements ultérieurs ce jour-là ; SD-02 ne permet pas de vérifier les événements de la perquisition en vidéo.
+
+**Aucun retour aux paramètres d’usine, formatage daté, accès extérieur ou acte malveillant n’est démontré.** Les auxiliaires Windows documentent séparément un traitement possible des volumes, sans poste ni auteur identifié. Les lacunes et l’absence de récupération complète ne prouvent pas l’absence historique d’intervention.
+
+## 12. Pièces techniques et termes de lecture
+
+### 12.1. Sources de contrôle
+
+| Domaine | Pièces de référence |
+|---|---|
+| Supports et résultats individuels | [SD-01](analyse-cartes_sd-SD-01.md), [SD-02](analyse-cartes_sd-SD-02.md), [SD-03](analyse-cartes_sd-SD-03.md), [acquisition](analyse-cartes_sd.md) |
+| Méthode, scripts et traçabilité | [Guide de reproduction](recherche-transversale/20261016/README.md), [dossier des résultats](recherche-transversale/20261016/) |
+| Compteurs et références de médias | [Tables ciblées](recherche-transversale/20261016/inventaires/tables-ciblees.json), [excédents et zones non indexées](recherche-transversale/20261016/inventaires/compteurs-video-et-zones-non-indexees.json), [tests d’index](recherche-transversale/20261016/inventaires/test-index-audio-video.json) |
+| Images résiduelles | [Tests H.264 non indexés](recherche-transversale/20261016/inventaires/nal-non-indexes.json) |
+| Février et mars | [Chronologie croisée](recherche-transversale/20261016/inventaires/chronologie-croisee.csv), [fins comparées](recherche-transversale/20261016/inventaires/fins-comparees.json) |
+| Dernier clip du 15 | [Audio et signal](recherche-transversale/20261016/inventaires/audio-714049800.json), [erreur vidéo](recherche-transversale/20261016/inventaires/video-erreur-714049800.json), [distributions SD-01/SD-03](recherche-transversale/20261016/inventaires/ecarts-audio-video.json), [population active SD-02](recherche-transversale/20261016/inventaires/ecarts-audio-video-SD02-actifs.json) |
+| Conversion 1999/2000 | [Calcul des deux sens de conversion](recherche-transversale/20261016/inventaires/conversion-1999.json) |
+| Couverture, continuité et comptes caméra | [Analyse du retour de la cliente](../investigations/20261019-retour-cliente/compte-rendu.md), [couverture nominale SD-02](../investigations/20261019-retour-cliente/resultats/local-v2/sd-daily-nominal-coverage.json) |
+| Traitements Windows et modèles | [Recoupements avec OP-01](../investigations/20261017-recroisements/compte-rendu.md), [modèles et firmwares](../investigations/20261109-identification-cameras/compte-rendu.md) |
+| Téléphones et procédure | [Lecture du PV](../investigations/20261108-analyse-pv/compte-rendu.md), [comparaison des téléphones](../investigations/20261110-telephones/compte-rendu.md), [hypothèses d’intervention](../investigations/20261110-revue-intervention-scelles/compte-rendu.md) |
+
+Les pièces conservent valeurs brutes, offsets, localisateurs, paramètres et empreintes. Les essais sur copies sont distincts des originaux. Les médias et blocs privés doivent accompagner une remise technique sécurisée : le dépôt Git seul ne contient pas tous les contenus nécessaires aux contrôles. Les manifestes historiques restent attachés à leurs jeux de résultats et versions de rapport.
+
+### 12.2. Termes techniques
+
+| Terme | Sens dans ce rapport |
+|---|---|
+| **FAT / slot / alias** | Système de fichiers / entrée de répertoire / références internes `.` et `..`. Plusieurs dates recopiées ne sont pas autant d’événements. |
+| **`moov` / `mdat` / `.stbl`** | Métadonnées du MP4 / données audio-vidéo / journal auxiliaire de production. Un modèle ou un index n’est pas une vidéo supplémentaire. |
+| **`stsz` / `stsc` / `stco` / `stts`** | Tables de tailles et comptes / répartition par bloc / positions des blocs / temps des échantillons. Leur comparaison révèle des incohérences d’index. |
+| **NAL / AVC / H.264** | Unités et format du flux vidéo compressé. Une longueur valide ne garantit pas l’intégrité du contenu de l’image. |
+| **PTS / fin de piste** | Temps de présentation / fin calculée de la piste. La dernière image produite peut différer de la durée déclarée. |
+| **EOF / conteneur dérivé** | Fin logique d’un fichier / nouvelle structure indexant des médias existants récupérés, distincte de l’original. |
+| **FSInfo / identifiant de volume** | Métadonnées de gestion de l’espace FAT / valeur de volume, sans date fiable de formatage ni série physique unique. |
+
+### 12.3. Références de formats
+
+Les interprétations de format s’appuient notamment sur [Apple — Sample-to-chunk atom](https://developer.apple.com/documentation/quicktime-file-format/sample-to-chunk_atom) et [Microsoft — File Times](https://learn.microsoft.com/en-us/windows/win32/sysinfo/file-times). Elles définissent la fonction des champs et leur précision, sans expliquer à elles seules la cause historique des défauts observés.
