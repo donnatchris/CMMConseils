@@ -2,6 +2,13 @@
 
 **OP-01 — relevé établi le 16 novembre 2026.** La recherche porte sur les chemins des fichiers présents dans l’image acquise et sur les traces historiques conservées. Elle ne représente pas une capture du dossier réalisée le 28 octobre 2024.
 
+
+## Réponse en langage courant
+
+**Les 1 559 entrées sont des chemins historiques, pas 1 559 contenus présents simultanément ni 1 559 fichiers définitivement saisis.** J’ai distingué 1 555 chemins actuels avec création de nom le 28 octobre (A), trois anciens chemins supprimés dont les contenus sont récupérés (B), et un chemin de sortie PDF référencé sans fichier actuel à cet endroit (C). Le dossier actuel contient aussi trois créations de 2026, exclues de ce total historique.
+
+Je privilégie un enchaînement de regroupements et de sorties intermédiaires, car les traces de corbeille et d’impression expliquent les anciens chemins. Leur rapport à l’inventaire de saisie relève du [contrôle exhaustif des contenus](../comparaison-L16B-inventaire-20261116/rapport-comparaison-L16B-inventaire.md), distinct de cette reconstitution de chemins.
+
 ## Résultat
 
 **1 559 chemins de fichiers sont retenus comme identifiés ou référencés au cours du 28 octobre 2024**, avec trois niveaux de constat :
@@ -98,3 +105,9 @@ Le raccourci `Nouveau dossier (2).lnk` désigne `C:\L16B\Nouveau dossier` et mé
 
 - [Script de production](generer_inventaire.py).
 - [Empreintes des sources et des livrables](empreintes-provenance.json).
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

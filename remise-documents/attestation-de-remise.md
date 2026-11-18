@@ -155,19 +155,19 @@ Portable non remis ce jour, à envoyer par recommandé par la suite.
 
 ## Ordinateur portable OP-01
 
-![Ordinateur portable OP-01](remise-documents/photos/OP-01-1.jpg){ width=20% }
+![Ordinateur portable OP-01](photos/OP-01-1.jpg){ width=20% }
 
 ## Téléphone portable TP-01
 
-![Téléphone portable TP-01](remise-documents/photos/TP-01-1.jpg){ width=20% }
+![Téléphone portable TP-01](photos/TP-01-1.jpg){ width=20% }
 
 ## Téléphone portable TP-02
 
-![Téléphone portable TP-02](remise-documents/photos/TP-02-1.jpg){ width=20% }
+![Téléphone portable TP-02](photos/TP-02-1.jpg){ width=20% }
 
 \newpage
 
 ## Cartes sd
 
-![Carte sd SD-01](remise-documents/photos/SD-01-1.jpg){ width=20% }
+![Carte sd SD-01](photos/SD-01-1.jpg){ width=20% }
 

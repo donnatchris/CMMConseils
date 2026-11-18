@@ -6,13 +6,19 @@
 
 **Support :** image de la carte SD-03, arborescence `CAMERA SALON`
 
-## 1. Objet et périmètre
+## 1. Que montrent le dernier clip du 15 octobre et l’absence d’enregistrements suivants ?
 
-Ce rapport présente les enregistrements conservés sur SD-03, les suppressions et récupérations possibles, les anomalies vidéo et temporelles, ainsi que les conclusions relatives aux événements signalés par la cliente. Une attention particulière porte sur la dernière vidéo disponible du **15 octobre 2024** et la lacune qui la suit.
+**J’ai constaté une vidéo défectueuse du salon le 15 octobre 2024, puis une absence de fichiers nommés du 16 au 28 octobre. Le défaut de finalisation récurrent constitue une meilleure explication technique des compteurs et dates incohérents qu’une falsification, actuellement non démontrée. Il n’explique pas à lui seul toute la lacune suivante.**
 
-Les [mails de mission](../docs/mail.txt) et [complémentaires](../docs/mail-2.txt) décrivent un affichage « 31/12/1999 », une réinitialisation rapportée de la **chambre en février 2024** et un autre événement le 15 octobre. Les anomalies du salon constituent des comparaisons techniques avec la chambre ; elles ne sont pas la provenance authentifiée du signalement de février. L’interface et le fichier à l’origine des observations restent inconnus.
+Le dernier fichier, `20241015_132800_10_0277.mp4`, conserve des images jusqu’à environ 13 h 32 min 26 s et une piste audio plus longue de 11,589 secondes. J’ai distingué trois observations : une erreur vidéo intermédiaire, un excédent audio effectivement décodable et une date de fichier située en janvier 2000. Une erreur n’entraîne pas mécaniquement les deux autres ; les mesures et leurs localisateurs sont aux §§ 7 et 8.
 
-**Les caméras et cartes n’étaient pas sous scellés.** Leurs enregistrements postérieurs à la perquisition ne démontrent pas une violation de scellés. L’analyse distingue les mesures sur l’image, les interprétations, les constats de visionnage du prestataire et les hypothèses ; elle constitue une investigation privée, sans désignation comme expertise judiciaire.
+Je privilégie un défaut de production ou de reconstruction pour la signature de compteur : je retrouve le même défaut dans onze clips de deux cartes, dès novembre 2023, avant la perquisition. Le logiciel, le déclencheur et le moment réel de l’écriture fautive ne sont pas identifiés. Une intervention antérieure reste techniquement possible ; aucun indice conservé ne l’établit comme meilleure explication.
+
+**La cause de la lacune reste indéterminée.** Arrêt, alimentation, réglages, absence de déclenchement ou perte de fichiers ne sont pas départagés par une carte dépourvue de journal d’activité. Les journaux caméra/compte, les réglages et une copie plus ancienne permettraient d’avancer. La signature commune explique un défaut de fichier, pas treize journées sans nom d’enregistrement. Le nom suivant est daté du 29 octobre à 17 h 59 min 18 s.
+
+J’ai examiné l’image acquise en octobre 2026 et les dérivés documentés, sans nouvelle lecture de la carte physique pour cette révision. Les §§ 3 et 11 donnent l’identité, les empreintes, les commandes et la couverture : 2 431 vidéos actives, dont 65 du 15 octobre, mais aucun visionnage humain intégral. Les horloges des caméras ne sont pas étalonnées indépendamment.
+
+La cliente situe son signalement de février 2024 dans la chambre ; le salon apporte une comparaison, sans en devenir la source. Les [mails](../docs/mail.txt) et leur [complément](../docs/mail-2.txt) documentent ces déclarations. **Les caméras et les cartes n’étaient pas sous scellés.** Leur situation reste distincte de celle du PC et des téléphones.
 
 ## 2. Synthèse des conclusions
 
@@ -243,7 +249,7 @@ La fin nominale du conteneur **13:32:37,760** ne doit donc pas être confondue a
 
 Aucun fichier référencé ne porte de nom du **16 au 28 octobre**. Le nom suivant est le **29 octobre à 17:59:18**. Cette absence est établie dans le corpus, sans identifier sa cause : arrêt, alimentation, réglages, absence de déclenchement ou perte/suppression sans trace survivante restent possibles.
 
-**Constat de visionnage :** la [note de constatation du 16 novembre 2026](../NOTE-DE-CONSTATION-téléphones.md) consigne, le **15 octobre 2024 à 13 h 25 min 19 s**, l’intervention sur les trois téléphones d’une femme identifiée par Mme Sadedine comme étant Mme Adam, avec apparition des logos Apple sur leurs écrans, caractéristique d’une séquence de démarrage d’iPhone. Ce constat figure également dans le [rapport final](../RAPPORT-FINAL-SADEDINE-2026.md#12-téléphones-rallumés-avant-leur-mise-sous-scellés).
+**Constat de visionnage :** la [note de constatation du 16 novembre 2026](../NOTE-DE-CONSTATION-téléphones.md) consigne, le **15 octobre 2024 à 13 h 25 min 19 s**, l’intervention sur les trois téléphones d’une femme identifiée par Mme Sadedine comme étant Mme Adam, avec apparition des logos Apple sur leurs écrans, caractéristique d’une séquence de démarrage d’iPhone. Ce constat figure également dans le [rapport final](../RAPPORT-FINAL-SADEDINE-2026.md#16-conservation-et-déroulement-des-opérations).
 
 L’image à **13:30:21** montre plusieurs personnes et des objets sur une table ; **elle seule ne démontre ni allumage, ni branchement, ni identité ou fonction**. Ni le geste constaté, ni sa proximité avec l’erreur vidéo intermédiaire ne démontrent la cause de l’anomalie ou de la lacune suivante. L’extinction ultérieure des téléphones et leur état à la fermeture ne sont pas déterminés par les aperçus.
 
@@ -319,3 +325,9 @@ Les index, scripts et manifestes conservent tailles, empreintes, ordres de clust
 | PTS / DTS | Temps internes de présentation / décodage. Ils ne certifient pas une heure civile de captation. |
 | EOF / slack | Fin logique du fichier / octets restant dans son allocation. Un média retrouvé après EOF exige une validation spécifique. |
 | Conteneur dérivé | Nouveau fichier indexant des médias existants récupérés. Il n’invente pas les données manquantes et demeure distinct de l’original. |
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

@@ -21,7 +21,7 @@ La correction concerne les matériels déclarés remis dans l’annexe 1 : **OP-
 
 Ce rectificatif doit être conservé et communiqué avec l’attestation d’origine et ses annexes. Il corrige uniquement la date de remise effective. Les caractéristiques des matériels, leur périmètre et les conditions prévues dans l’attestation demeurent ceux de l’original.
 
-**Référence documentaire :** notes de remise reprises dans le rapport d’acquisition des cartes SD, section « État antérieur », qui indiquent le 07/10/2026 à 16 h 15.
+**Référence documentaire vérifiable :** [rapport d’acquisition des cartes SD, « État antérieur »](../cartes_sd/analyse-cartes_sd.md#état-antérieur), et [interventions OP-01, remise du 7 octobre à 16 h 15](../ordinateur/analyse-ordinateur.md#interventions-consignées-avant-lacquisition-de-2026). Ces rapports reprennent les notes d’intervention ; l’original manuscrit distinct n’est pas présenté comme une nouvelle pièce vérifiée.
 
 Fait à Perpignan, le 17 novembre 2026.
 
@@ -34,3 +34,5 @@ Signature :
 **La cliente pour prise de connaissance**  
 Mme Malika Sadedine, pour DMM Conseils  
 Date et signature :
+
+*Révision documentaire du 18 novembre 2026 par Christophe DOnnat — Donnat Dev. Les dates et emplacements de signature des parties restent ceux du document établi le 17 novembre ; aucune signature des parties n’est ajoutée.*

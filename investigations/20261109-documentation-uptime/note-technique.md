@@ -2,6 +2,9 @@
 
 Précision documentaire du 9 novembre 2026, fondée sur les références Apple consultées et les résultats techniques déjà conservés. Aucune nouvelle acquisition du téléphone.
 
+
+**Explication simple :** une durée de temps éveillé ne donne pas nécessairement le temps civil écoulé depuis l’allumage. Exemple illustratif, sans valeur de mesure pour TP-02 : un appareil allumé depuis douze heures mais endormi pendant huit heures peut avoir un compteur d’éveil de quatre heures. Soustraire quatre heures à la date du diagnostic daterait mal son démarrage. Il faut connaître le compteur effectivement alimentant le champ et ses états de sommeil avant cette opération.
+
 ## Définition documentée et distinction des horloges
 
 Apple décrit le champ JSON `uptime` d’un rapport de crash comme une durée en secondes depuis le démarrage et indique son libellé de présentation **« Time Awake Since Boot »**, soit temps d’éveil depuis le démarrage. Source : [Interpreting the JSON format of a crash report](https://developer.apple.com/documentation/xcode/interpreting-the-json-format-of-a-crash-report).
@@ -32,3 +35,9 @@ La documentation publique du champ `uptime` ne désigne pas explicitement l’AP
 Le diagnostic ne permet donc pas d’affirmer que TP-02 a été allumé lors de l’ouverture des scellés à 11 h 30, ni qu’il était auparavant éteint. Le PV consigne un déverrouillage des téléphones après ouverture ; cet acte ne constitue pas une preuve de démarrage.
 
 **Formulation retenue :** « Le diagnostic du 28 octobre à 12 h 26 conserve un uptime de 2 500 secondes, présenté par Apple comme un temps d’éveil depuis le démarrage. Cette valeur ne suffit pas à dater le démarrage physique de TP-02 ni à déterminer son état d’alimentation avant l’ouverture des scellés. »
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

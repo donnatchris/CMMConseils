@@ -1,18 +1,14 @@
-# Analyse des cartes SD
+# Rapport de remise, identification et acquisition des cartes SD
 
-**Actualisation documentaire du 17 novembre 2026.** Rectification de la date de remise au 7 octobre 2026 par document séparé ; les dates et résultats d’acquisition sont conservés.
+**Question examinée :** quels supports ai-je reçus, comment les ai-je identifiés et acquis, et quels contrôles d’intégrité sont documentés ?
 
-**Relecture de cohérence : 12 novembre 2026.** Harmonisation avec le [rapport final réorganisé](../RAPPORT-FINAL-SADEDINE-2026.md), sans nouvelle acquisition ni nouvelle analyse des supports. Les campagnes et décomptes techniques conservent leurs dates et leurs périmètres. Le détail de cette révision et les empreintes actuelles figurent dans le [dossier de relecture](../investigations/20261112-coherence-rapports/compte-rendu.md).
+J’ai acquis les trois cartes de 32 Go identifiées SD-01, SD-02 et SD-03 en octobre 2026. Les relevés Guymager ci-dessous documentent les images et leurs contrôles ; ils ne constituent pas une nouvelle lecture des supports en novembre. Le numéro USB `121220160204` identifie le lecteur, pas chacune des cartes. La remise effective est retenue au 7 octobre 2026 à 16 h 15 sur la base des notes d’intervention reprises dans « État antérieur » ; l’attestation d’origine porte le 6 et reste jointe au rectificatif distinct.
 
-## Actualisation du 10 novembre 2026 — lecture courante
+La vérification d’image Guymager est activée, la seconde vérification de source désactivée : une concordance du flux acquis et du flux relu dans l’image ne vaut pas seconde lecture indépendante de la carte. Les interventions et commandes effectivement consignées, y compris les commandes d’interrogation du périphérique, sont conservées ci-dessous. Elles ne sont pas réécrites en procédure idéale.
 
-Le PV est disponible et a été consulté. Les repères à retenir sont la mise sous scellés après 14 h 19 le 15 octobre, l’ouverture du PC à 10 h 41 et celle des téléphones à 11 h 30 le 28 ; 10 h 22 est l’arrivée de la cliente et 19 h 20 la clôture, sans heure individuelle de restitution. Les mentions d’indisponibilité et bornes déclaratives des sections datées ci-dessous décrivent leurs campagnes historiques. Les caméras et cartes n’étaient pas sous scellés. Les nouvelles traces système TP-03 ne prouvent ni un accès aux caméras ni une modification des vidéos. Cette relecture ne réexécute pas les scans/récupérations SD ; elle maintient les anomalies, lacunes et limites déjà établies. Voir la [relecture transversale](../investigations/20261110-telephones/compte-rendu.md), qui distingue les nouveaux contrôles des reprises documentaires. Les empreintes historiques des rapports restent attachées à leurs versions datées.
+Les analyses propres aux enregistrements et aux récupérations figurent dans les rapports [SD-01](analyse-cartes_sd-SD-01.md), [SD-02](analyse-cartes_sd-SD-02.md), [SD-03](analyse-cartes_sd-SD-03.md) et dans la [comparaison transversale](analyse-cartes_sd-transversale.md). Ce rapport d’acquisition n’en reprend pas les conclusions.
 
-
-## Actualisation documentaire du 19 octobre 2026
-
-Ce document conserve le compte rendu d’acquisition. Les nouvelles analyses du retour de la cliente figurent dans le [complément du 19 octobre](../investigations/20261019-retour-cliente/compte-rendu.md) et les rapports SD-01/02/03 et transversal. La cliente précise **février 2024, caméra de la chambre**, une installation après mars 2023 et un fonctionnement continu de la terrasse. Ces déclarations ne changent ni les empreintes ni les dates d’acquisition. Le PV n’était pas disponible lors de cette campagne d’octobre ; il a depuis été consulté le 8 novembre ; aucune réinitialisation ou suppression intentionnelle nouvelle n’est démontrée.
-
+## Remise et identification
 
 - **Auteur** : Christophe Donnat - DonnatDev - christophe@donnat.dev
 - **Client** : Mme Sadedine Malika - DMM Conseils - dmmconseils@hotmail.com
@@ -51,7 +47,7 @@ La marque est transcrite **« ScanDisk » dans l’attestation**, **« SanDisk �
 
 La remise effective est retenue au **07/10/2026 à 16 h 15**, avec adaptateur USB, conformément aux notes d’intervention. La date du **06/10/2026** portée sur l’[attestation d’origine](../remise-documents/attestation-de-remise.md) est rectifiée par le [rectificatif du 17 novembre 2026](../remise-documents/rectificatif-attestation-remise-20261117.md), à conserver avec cette attestation.
 
-Le prestataire a inscrit les numéros 1, 2 et 3 dessus, correspondant aux identifiants attribués lors de la remise du matériel:
+J’ai inscrit les numéros 1, 2 et 3 dessus, correspondant aux identifiants attribués lors de la remise du matériel:
 
 - **1** : Carte SD-01
 - **2** : Carte SD-02
@@ -65,11 +61,11 @@ Le prestataire a inscrit les numéros 1, 2 et 3 dessus, correspondant aux identi
 
 #### Branchement sur le PC Linux du prestataire
 
-Le 12/10/2026 à 10h00 environ, la carte SD-01 a été branchée sur le PC Linux du prestataire via l'adaptateur USB fourni par la cliente.
+Le 12/10/2026 à 10h00 environ, la carte SD-01 a été branchée sur mon PC Linux via l'adaptateur USB fourni par la cliente.
 
 #### Acquisition de l'image disque avec Guymager
 
-Le 12/10/2026 à 10h17 environ, le prestataire a lancé l'acquisition de l'image disque de la carte SD-01 avec le logiciel Guymager.
+Le 12/10/2026 à 10h17 environ, j’ai lancé l'acquisition de l'image disque de la carte SD-01 avec le logiciel Guymager.
 
 L'acquisition a été réalisée en mode "read-only" pour éviter toute modification des données présentes sur la carte SD.
 
@@ -214,11 +210,11 @@ n/a                               SD01.E02
 
 #### Branchement sur le PC Linux du prestataire
 
-Le 12/10/2026 à 13h00 environ, la carte SD-02 a été branchée sur le PC Linux du prestataire via l'adaptateur USB fourni par la cliente.
+Le 12/10/2026 à 13h00 environ, la carte SD-02 a été branchée sur mon PC Linux via l'adaptateur USB fourni par la cliente.
 
 #### Acquisition de l'image disque avec Guymager
 
-Le 12/10/2026 à 13h07 environ, le prestataire a lancé l'acquisition de l'image disque de la carte SD-02 avec le logiciel Guymager.
+Le 12/10/2026 à 13h07 environ, j’ai lancé l'acquisition de l'image disque de la carte SD-02 avec le logiciel Guymager.
 
 L'acquisition a été réalisée en mode "read-only" pour éviter toute modification des données présentes sur la carte SD.
 
@@ -383,11 +379,11 @@ n/a                               SD02.E15
 
 #### Branchement sur le PC Linux du prestataire
 
-Le 12/10/2026 à 14h00 environ, la carte SD-03 a été branchée sur le PC Linux du prestataire via l'adaptateur USB fourni par la cliente.
+Le 12/10/2026 à 14h00 environ, la carte SD-03 a été branchée sur mon PC Linux via l'adaptateur USB fourni par la cliente.
 
 #### Acquisition de l'image disque avec Guymager
 
-Le 12/10/2026 à 14h03 environ, le prestataire a lancé l'acquisition de l'image disque de la carte SD-03 avec le logiciel Guymager.
+Le 12/10/2026 à 14h03 environ, j’ai lancé l'acquisition de l'image disque de la carte SD-03 avec le logiciel Guymager.
 
 L'acquisition a été réalisée en mode "read-only" pour éviter toute modification des données présentes sur la carte SD.
 
@@ -538,5 +534,12 @@ n/a                               SD03.E11
 n/a                               SD03.E12
 ```
 
+## Portée du contrôle d’acquisition
+
+Ces journaux consignent les acquisitions des trois cartes et les contrôles d’image correspondants, sans mauvais secteur signalé. J’ai conservé leurs heures, paramètres et empreintes tels qu’inscrits. La vérification de la source après acquisition était désactivée ; les valeurs du flux acquis et du flux relu dans l’image ne constituent pas deux acquisitions indépendantes. Les vérifications complémentaires et les résultats propres aux vidéos sont référencés dans les rapports individuels. Cette révision du texte ne modifie ni les images ni les journaux d’acquisition.
+
 ---
 
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

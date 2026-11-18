@@ -1,6 +1,6 @@
 # Comparaison aux empreintes de l’inventaire DNEF — 16 novembre 2026
 
-**Deux concordances et un écart.** Le CSV déclare l’algorithme SHA-512, tandis que les contrôles d’extraction antérieurs étaient en SHA-256. Les deux algorithmes ont été recalculés sur les trois copies extraites pour cette comparaison.
+**Deux concordances et un écart.** J’ai recalculé les empreintes sur les copies extraites. SHA-256 sert ici à contrôler les copies de travail ; SHA-512 permet la comparaison avec l’algorithme annoncé dans le CSV. Une valeur SHA-256 ne se compare pas directement à une valeur SHA-512. Le CSV déclare l’algorithme SHA-512, tandis que les contrôles d’extraction antérieurs étaient en SHA-256. Les deux algorithmes ont été recalculés sur les trois copies extraites pour cette comparaison.
 
 Source : `inventaire-DNEF/documents-recus/Inventaire_saddedine.csv`, SHA-256 du CSV : `f2a4e9d05cca5c7b8082da42df76fca45e870f3e3acbbdf6ff03c07e68293c40`.
 
@@ -63,3 +63,9 @@ e1026d76b643485b5c3da5686d10ac6d69225cca33c46e18038db93be2593a7f2baacc82d1661285
 - Le PST `dmmconseils93300@hotmail.com.pst` ne concorde pas avec l’empreinte listée au même chemin. Ce constat ne détermine ni la date, ni le mécanisme, ni l’auteur d’une éventuelle modification, et ne permet pas d’attribuer l’écart à l’extraction.
 
 [Résultats structurés](comparaison-inventaire-SHA512-20261116.json).
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

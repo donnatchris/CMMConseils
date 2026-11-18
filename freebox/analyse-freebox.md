@@ -6,9 +6,18 @@
 
 **Équipement :** Freebox Révolution du domicile de la cliente
 
+
+## Réponse en langage courant
+
+**J’ai retrouvé des identités réseau et des dates anciennes, sans pouvoir identifier un intrus ou reconstituer un journal complet des accès d’octobre 2024.** La configuration consultée en 2026 décrit l’état au moment des relevés ; les premières/dernières dates mémorisées dans les fiches décrivent des traces historiques, pas une observation directe du réseau en 2024.
+
+Les présences nocturnes de plusieurs identités iPhone sont compatibles avec des appareils autorisés, des tâches automatiques ou des changements d’adresse privée. Un appareil non identifié reste une possibilité ; les fiches ne permettent pas de classer ces scénarios par propriétaire. Une adresse privée peut changer et ne suffit pas à compter les téléphones. Un relevé contemporain avec identifiants radio et horaires indépendants serait discriminant.
+
+Le rapprochement d’OP-01 avec sa MAC est étayé ; les autres identités ne doivent pas être déduites d’un nom commercial seul. L’inventaire exhaustif est placé en annexe (§ 13). Les sources API, captures et limites de rétention sont référencées aux §§ 3 et 12.
+
 ## 1. Objet et périmètre
 
-Ce rapport présente la configuration réseau consignée, les identités d’équipements conservées par la Freebox et les indices éventuels d’accès non autorisé, de modification de configuration ou de transfert de données. Il examine les traces anciennes encore disponibles depuis **2021/2022**, avec une attention particulière à **octobre 2024** et aux rapprochements avec les appareils de la mission.
+J’ai examiné la configuration réseau consignée, les identités d’équipements conservées par la Freebox et les indices éventuels d’accès non autorisé, de modification de configuration ou de transfert de données. Il examine les traces anciennes encore disponibles depuis **2021/2022**, avec une attention particulière à **octobre 2024** et aux rapprochements avec les appareils de la mission.
 
 Les conclusions reposent sur les captures Freebox OS, les réponses API conservées et les recoupements documentés avec OP-01, TP-01/02/03 et les applications caméra. Les [mails de mission](../docs/mail.txt) et [complémentaires](../docs/mail-2.txt) définissent les demandes de la cliente ; ses déclarations sur les équipements et événements sont distinguées des constats techniques.
 
@@ -368,7 +377,7 @@ Les réponses brutes référencées ne contiennent pas les jetons de session. Le
 
 La documentation Freebox des interfaces [LAN](https://dev.freebox.fr/sdk/os/lan/), [Wi-Fi](https://dev.freebox.fr/sdk/os/wifi/) et [RRD](https://dev.freebox.fr/sdk/os/rrd/) décrit les champs et compteurs utilisés. Les constats propres à cette Freebox reposent sur les réponses et captures conservées ; la documentation générale ne fournit pas son historique de 2024.
 
-## 13. Inventaire des fiches ayant une trace antérieure au 29 octobre 2024
+## 13. Annexe — inventaire des fiches ayant une trace antérieure au 29 octobre 2024
 
 Le tableau reprend les **56 fiches** de l’inventaire de référence, avec leurs noms API, y compris lorsqu’un rattachement matériel est établi ailleurs dans le rapport. Les dates sont les **minimum et maximum encore présents avant la limite** dans les champs examinés ; elles ne sont pas les premières/dernières connexions réelles garanties. Les valeurs de joignabilité et d’activité peuvent différer de quelques secondes et les intervalles ne prouvent pas une continuité.
 
@@ -432,3 +441,9 @@ Le tableau reprend les **56 fiches** de l’inventaire de référence, avec leur
 | `AC:ED:5C:DA:47:74` | DESKTOP-ICPNCMD | 16/10/2024 21:27:48 | 16/10/2024 23:25:55 | IP effective |
 | `9C:64:8B:0A:BD:0C` | iPhone | 17/10/2024 01:00:57 | 17/10/2024 03:43:56 | IP effective |
 | `FE:AA:76:95:AC:29` | iPhone | 17/10/2024 03:45:44 | 17/10/2024 03:45:44 | détection seulement avant la limite |
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

@@ -1,5 +1,9 @@
 # Outils TP-01, TP-03 et recoupements du 10 novembre 2026
 
+## Choisir le parcours
+
+TP-01 est une sauvegarde non chiffrée : inventaire, scan SQLite avec compagnons, puis ciblages communications/Wi-Fi. Les résultats étayent les §§ 3–7 du rapport TP-01. TP-03 est chiffrée : collecte/déchiffrement avec saisie masquée, inventaire, décodage ciblé puis recoupements ; ils étayent les §§ 3–7 de TP-03. Les contre-épreuves du 16 octobre restent dans la campagne détaillée, dont les 40 séquences comparables. Ne pas appliquer les paramètres d’un téléphone à l’autre. Les versions réellement utilisées et les commandes détaillées suivent ; les contrôles nouveaux doivent écrire dans une destination neuve et conserver les empreintes avant/après.
+
 Les scripts lisent les sources et travaillent dans des destinations **nouvelles**, hors acquisitions. Les sauvegardes originales ne sont jamais une destination. Les résultats peuvent contenir des données personnelles : conserver les répertoires avec accès restreint, hors Git. Aucun mot de passe dans les arguments ou les fichiers ; les collecteurs chiffrés utilisent `getpass` dans un terminal interactif.
 
 Environnement réellement utilisé : SIFT, Python 3.12.3, SQLite 3.45.1. TP-03 : `iphone_backup_decrypt` 0.11.2 et pycryptodome 4.4.0 installés dans `/home/sansforensics/analysis/tp03-dependencies-20261110`, sans modifier la source. La création initiale d’un venv a échoué faute d’ensurepip ; son dossier n’est pas utilisé.
@@ -99,3 +103,9 @@ Le format d’enveloppe ATX est inféré de ce fichier et vérifié par consomma
 Destinations réellement utilisées : `/home/sansforensics/analysis/tp03-human-20261110`, `tp03-human-window-20261110`, `tp03-human-controls-20261110`, `tp03-human-plist-recovery-20261110`, `tp03-human-extra-20261110`, `tp03-human-atx-20261110` (ces cinq derniers noms ont le même parent `analysis`). Une exploration préliminaire par signatures est conservée dans `tp03-human-extra-20261110/decoded/` ; ses échecs sur des blocs internes incomplets ne sont pas des constats de corruption. La seconde passe structurée `tp03-human-atx-v2-20261110` ajoute le contrôle de toutes les 112 colonnes numériques de la base ATX et constitue la référence finale ; `tp03-human-atx-20261110` reste conservé.
 
 La reprise `tp03_recover_preferences.py` utilise l’API privée de `plistlib` de Python 3.12 pour conserver une date binaire hors plage comme marqueur brut. Elle n’altère pas le fichier, ne remplace pas l’année 0000 par une date plausible et ne répare pas les preuves. L’XML concerné est relu par éléments date.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

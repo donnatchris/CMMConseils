@@ -6,6 +6,13 @@
 **Prestataire :** Christophe Donnat — Donnat Dev  
 **Nature :** analyse technique complémentaire de l’image disque ; rapport autonome, sans modification des rapports antérieurs.
 
+
+## Réponse en langage courant
+
+**Les traces étayent une utilisation de Sage et un accès réussi à des services distants le 28 octobre 2024, sans prouver une saisie de mot de passe.** J’ai distingué les fichiers société présents localement, les alias vers des services hébergés et l’échange d’authentification. Une réponse serveur 200 atteste l’aboutissement enregistré de la requête ; un jeton ou un accès mémorisé peuvent éviter une nouvelle frappe d’identifiants.
+
+Seul le dossier ALMU est positivement confirmé ce jour-là. Les contrôles complémentaires des préférences, historiques web et bases de connexions vides ne déterminent pas le mécanisme d’authentification de 2024 ; ils sont conservés dans la [note de contrôle](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/compte-rendu.md). Je privilégie un accès Internet fourni par le Samsung en USB, corroboré par la chronologie réseau. La présence du nom ASUS dans la mémoire d’OP-01 ne prouve aucune connexion Wi-Fi à ce réseau. Les journaux Sage et de collecte permettraient de préciser l’accès et les dossiers ouverts.
+
 ## 1. Réponses aux trois questions
 
 | Question | Résultat | Limite essentielle |
@@ -273,3 +280,9 @@ ordinateur/recherche-OP-01/sage-reseaux-20261113/
 Outils principaux : Python 3, `pyevtx/libevtx`, `pyregf`, `pyscca`, lecture binaire NTFS avec contrôle des fixups, `dissect.eventlog` **3.11** et `dissect.etl` **3.14**. Les lectures ETL sont détaillées dans [leur résumé](recherche-OP-01/sage-reseaux-20261113/resultats/etl-summary.json) et [leurs limites de décodage](recherche-OP-01/sage-reseaux-20261113/resultats/etl-errors.json). Les références documentaires Sage et Microsoft ont été consultées le 13 novembre 2026 ; elles expliquent les mécanismes sans certifier la configuration historique de la machine.
 
 Le rapport répond aux trois demandes sur les traces accessibles. Les points restant indéterminés — identité du compte et de l’opérateur, droits de licence retournés, réseau amont du Samsung, association directe des GUID opérationnels et historique Wi-Fi exhaustif — ne doivent pas être présentés comme établis.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

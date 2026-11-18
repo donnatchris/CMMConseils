@@ -1,8 +1,12 @@
 # Recherche de récupération — OP-01 — 16 novembre 2026
 
+## Résultat et périmètre reproductible
+
+La campagne n’a récupéré ni archive finale ni rejets sur le volume interne. Les commandes ci-dessous couvrent les candidats supprimés, corbeille, fichiers mémoire et clusters non alloués selon les paramètres consignés ; elles ne lisent pas le support externe E:. Utiliser une destination neuve et conserver les sorties négatives comme les erreurs. Le [rapport de résultat](../../rapports/Recherche_recuperation_Archive_Rejets_OP-01_20261116.md) précise pourquoi les raccourcis et leurs tailles mémorisées ne remplacent pas les fichiers cibles.
+
 Cette campagne recherche Archive_saddedine.zip, Rejets_saddedine.txt et Inventaire_saddedine.csv dans l’image interne d’OP-01. Elle complète les recherches par noms précédentes. Les sources restent en lecture seule ; les sorties antérieures sont conservées.
 
-Le [rapport de résultat](../../rapports/Recherche_recuperation_Archive_Rejets_OP-01_20261116.md) distingue métadonnées descriptives et contenu récupéré. Les conclusions sont intégrées dans `telephones/analyse-TP-03.md` et au point 1.9 du rapport final. Leurs versions avant intégration sont conservées et hachées sous `prive/versions-rapports-avant-integration/`.
+Le [rapport de résultat](../../rapports/Recherche_recuperation_Archive_Rejets_OP-01_20261116.md) distingue métadonnées descriptives et contenu récupéré. Les conclusions sont intégrées dans `telephones/analyse-TP-03.md` et au point 1.5 du rapport final. Leurs versions avant intégration sont conservées et hachées sous `prive/versions-rapports-avant-integration/`.
 
 ## Parcours reproductible
 
@@ -17,3 +21,9 @@ Les scripts utilisent les chemins du partage SIFT `/media/shared/codeProjects/DM
 7. `rediger_bilan.py` vérifie la couverture, les empreintes et les candidats, écrit le rapport puis le manifeste SHA-256. Les scripts et données sont conservés ; `prive/` est exclu de Git.
 
 Le balayage final a lu 357 162 754 048 octets libres et 15 187 726 336 octets de fichiers logiques, sans erreur signalée. Aucun fichier cible n’a été récupéré. Les limites comprennent les archives fragmentées sans allocations conservées, les données écrasées, la compression mémoire non décodée et les zones non balayées décrites dans le rapport.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

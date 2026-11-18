@@ -4,6 +4,13 @@
 
 Source : segments EWF `OP01.E01` à `OP01.E74`, sous `/media/shared/forensic/SADEDINE-2026/OP-01/` dans SIFT. Les recherches portent sur le volume NTFS déchiffré présenté en lecture seule sous `/mnt/dislocker/dislocker-file`, monté sous `/mnt/windows`.
 
+
+## Réponse en langage courant
+
+**La récupération a échoué : aucun fichier complet correspondant à l’archive finale ni aux rejets n’a été retrouvé sur le disque interne d’OP-01.** J’ai contrôlé les fichiers supprimés sélectionnés, la corbeille, les fichiers mémoire et l’ensemble des clusters NTFS non alloués selon les critères documentés. La priorité est désormais l’examen du support externe désigné `E:` par les traces.
+
+Un raccourci contient une référence et des métadonnées mémorisées, pas le fichier cible. Sa taille enregistrée à zéro ne certifie donc pas que l’archive définitive était vide. L’hypothèse la plus directement étayée est celle de cibles externes ; une présence ancienne sur le disque interne suivie de disparition reste possible. Les pièces techniques ci-dessous décrivent la couverture et ses limites sans garantir la récupération de données écrasées.
+
 ## Résultat
 
 **Aucun fichier correspondant à l’archive ou au fichier de rejets n’a été récupéré par cette recherche.** Ce résultat dépasse la recherche des seuls noms : il comprend le contrôle des candidats supprimés, de la corbeille, des fichiers mémoire et le balayage de tous les clusters NTFS actuellement non alloués.
@@ -102,3 +109,9 @@ Le balayage vise les clusters libres du volume NTFS interne, complétés par les
 - [Qualification de la correspondance générique loading.gif](../travaux-techniques/recuperation-archives-20261116/prive/qualification-zip-generique/resultats.json).
 - [Bilan du balayage complet](../travaux-techniques/recuperation-archives-20261116/prive/balayage-v3/synthese.json), [occurrences et fragments](../travaux-techniques/recuperation-archives-20261116/prive/balayage-v3/occurrences.jsonl), [structures ZIP contrôlées](../travaux-techniques/recuperation-archives-20261116/prive/balayage-v3/zip-candidats.jsonl).
 - [Scripts](../travaux-techniques/recuperation-archives-20261116/scripts/), [contrôle final](../travaux-techniques/recuperation-archives-20261116/verification-finale.json) et [empreintes](../travaux-techniques/recuperation-archives-20261116/manifest-sha256.txt).
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

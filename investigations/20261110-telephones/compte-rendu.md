@@ -4,18 +4,9 @@
 
 **Actualisation après approfondissement ciblé :** la [nouvelle étude TP-03](../20261110-tp03-intervention-humaine/compte-rendu.md) confirme la séquence mais identifie un échec CloudKit sans objet traité et un profil TipKit retrouvé dans 40 autres séquences. Aucun affichage des trois conseils ni déverrouillage du 16 n’est attesté. Les nouveaux contrôles ne valident pas l’intervention humaine et ne permettent pas non plus de l’exclure. Les détails de couverture ci-dessous décrivent la passe initiale ; la nouvelle étude ajoute deux artefacts déchiffrés et une recherche élargie.
 
-## 1. Résultat principal
+## 1. Résultats propres et portée actuelle
 
-**La nouvelle piste la plus informative est une séquence système de TP-03 datée du 16 octobre 2024 entre 05:31:33 et 05:31:39, heure de Paris.** Deux créations Santé précèdent un événement interne PersonalAudio et huit transactions du composant Messages. Des préférences de TP-03 portent également des dates du 15 à 18:33–18:36 et du 16 à 01:40.
-
-Ces observations, distinctes de la séquence TP-02 du 17, **justifient de vérifier les conditions de conservation des téléphones**. Elles sont compatibles avec le fonctionnement de services iOS, y compris automatique. Elles ne certifient pas l’appareil physique ayant produit chaque trace à la date civile indiquée, ni un déverrouillage, une action humaine ou une rupture de scellé. Une sauvegarde tardive peut transporter des dates et historiques ; l’horloge historique n’est pas étalonnée.
-
-**Deux rapprochements deviennent possibles grâce aux nouvelles sauvegardes :**
-
-- Le pair record Apple ancien d’OP-01 correspond exactement à l’**UDID TP-03**. Il identifie une relation de confiance conservée, sans nouvelle date de connexion d’octobre 2024.
-- Les **27 PDF Mini de L16B sont identiques dans TP-02 et TP-03**. Leurs vingt contenus distincts ne départagent donc pas les deux Mini ni le téléphone physiquement extrait le 28. L’identité binaire reste établie ; son caractère discriminant entre appareils ne l’est pas.
-
-TP-01 conserve des données datées de la conservation mais **pas de faisceau local comparable** dans les sources examinées. Il présente des traitements et lignes WhatsApp après ouverture le 28 ; son inactivité antérieure n’est pas certifiée.
+J’ai analysé TP-01 et TP-03 et exécuté les recoupements décrits ci-dessous le 10 novembre 2026. La séquence du 16 de TP-03 a ensuite été approfondie : les 40 profils comparables privilégient les traitements internes, sans identifier leur déclencheur. Le [rapport détaillé](../20261110-tp03-intervention-humaine/compte-rendu.md) et la [revue comparative](../20261110-revue-intervention-scelles/compte-rendu.md) portent les conclusions actuelles. Cette note conserve les collectes, requêtes et résultats spécifiques de la première passe.
 
 ## 2. Périmètre de relecture et travaux nouveaux
 
@@ -108,31 +99,6 @@ Les trois identités nocturnes `EA:21:6C:F7:47:E7`, `9C:64:8B:0A:BD:0C`, `FE:AA:
 
 `ASUS_Z01RD` n’est pas présent dans les préférences Wi-Fi TP-01/03 contrôlées. Cela ne transforme pas la séquence TP-02 du 17 en preuve matérielle certaine. OP-01 conserve ce nom dans des listes de réseaux visibles, sans connexion ou date commune établie. Le DESKTOP du 16 reste non identifié.
 
-## 7. Résultats antérieurs maintenus et corrections de présentation
-
-| Sujet | Résultat maintenu | Mise au point |
-|---|---|---|
-| OP-01 | Reprise le 15, hibernation, reprise le 28 à 10:41:56 ; pas d’activité Windows corroborée entre les deux | L’activité du 15 précède le scellement consigné ; l’échéance du 16 à 05:51 n’est pas un réveil. Aucun lien causal n’est démontré avec TP-03 à 05:31 |
-| OP-01, fichiers du 28 | Regroupement L16B, exports, dix mises à la corbeille récupérées, références Kingston | Après ouverture ; identité d’un opérateur et contenu définitif de la clé non établis |
-| TP-02 | Séquence interne/Wi-Fi du 17, communications et bibliothèque comportant des dates de conservation | Les hypothèses de transport et d’horloge restent ouvertes ; l’uptime ne date pas un démarrage |
-| Freebox | Détections et présences IP conservées les 16–17, appareils encore non attribués | L’écart entre première et dernière date ne démontre pas une connexion continue |
-| SD-03 | Dernières images vers 13:32:26 le 15, défaut MP4 et lacune jusqu’au 29 | Avant le scellement consigné ; caméra non scellée. Cause de lacune et allumage d’un téléphone non démontrés |
-| SD-01/03 | Défaut commun ancien, dates FAT 2000, anomalies de finalisation | Pas de reset usine ou intervention malveillante démontrés ; pas de nouveau scan répétitif justifié par ces seuls états |
-| SD-02 | Vidéos supprimées récupérées, gestion circulaire et corpus discontinu | Lacunes distinctes d’une interruption certaine ; aucun effacement ciblé le 15 établi |
-| Correspondances d’avocats | Présence de pièces dans L16B, contrôle du filtrage à confronter au jeu final | Ce n’est pas une preuve d’inclusion dans la saisie finale, ni de lecture/utilisation par les agents |
-
-Des encarts du 10 novembre sont ajoutés aux rapports courants pour actualiser le PV disponible et les téléphones analysés. Les passages de campagne restent datés et lisibles comme historiques. Le jeton applicatif explicite présent dans l’ancien exemple du rapport Freebox est masqué dans la version courante ; l’ancienne version est conservée avec les snapshots privés. Aucun paramètre de la Freebox n’est modifié.
-
-## 8. Ce qui est établi, ce qui reste à obtenir
-
-**Établi dans les pièces analysées :** nouvelles traces TP-03 du 15–16 ; identité d’installation liée aux données Santé/Photos ; contenu PDF commun aux deux Mini ; appairage ancien rattachable à TP-03 ; dates et traitements TP-01 décrits séparément. Les champs et empreintes sont vérifiables.
-
-**Non établi :** rupture de scellé, identité d’un intervenant, geste de déverrouillage aux dates du 16/17, extraction clandestine, absence de toute activité, exactitude des horloges de 2024, origine physique exclusive des PDF ou contenu définitivement saisi. Les divergences d’emballage entre corps du PV et observations annexées demeurent documentaires, sans résolution technique.
-
-Les compléments réellement discriminants seraient : rapprochement des séries avec les numéros de scellés ; documents de prise en charge, stockage et éventuelles interventions ; acquisition plus proche de 2024 et historique de restauration ; journaux radio/démarrage à référence indépendante ; inventaire et jeu final saisi. Aucun de ces éléments n’est présumé encore disponible.
-
-Les copies cloud/disque client et leur complétude ne sont pas nouvellement attestées. Le constat d’inventaire incomplet du 17 octobre reste un constat historique, pas un nouvel inventaire du stockage du prestataire. Les nouvelles extractions doivent aussi être prises en compte lors de la conservation finale.
-
 ## 9. Traçabilité et livraison
 
 Scripts sous `telephones/scripts/`, notice [README-TP-01-TP-03.md](../../telephones/scripts/README-TP-01-TP-03.md). Les résultats détaillés sont dans `telephones/recherche-TP-01/`, `telephones/recherche-TP-03/` et `prive/` de cette campagne. Les contenus déchiffrés restent dans les dossiers SIFT identifiés dans les rapports. Les **71 fichiers JSON de résultats rapatriés** ont des SHA-256 identiques à ceux calculés sur SIFT ; les liens locaux des cinq documents de livraison et la syntaxe des onze scripts ont été contrôlés. Le détail est conservé dans `prive/verification-livraison.json`. Ce contrôle de livraison reste distinct de l’analyse historique ; aucun succès de transfert n’est assimilé à une authentification historique de 2024.
@@ -140,3 +106,9 @@ Scripts sous `telephones/scripts/`, notice [README-TP-01-TP-03.md](../../telepho
 Les erreurs de déchiffrement, parseur et limites de schéma sont conservées. Les 116 contrôles SQLite incomplets de TP-03 ne sont pas qualifiés de corruptions ; les 525 écarts MBFile/clair ne sont pas corrigés par troncature. Les références aux dates de programmation, aux mesures Santé, aux contenus cloud et aux transactions sont gardées distinctes.
 
 **La conclusion générale reste proportionnée : des indices techniques supplémentaires existent, notamment le 16 sur TP-03. Ils ne démontrent pas à eux seuls qu’une personne a ouvert ou utilisé un appareil sous scellé.**
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

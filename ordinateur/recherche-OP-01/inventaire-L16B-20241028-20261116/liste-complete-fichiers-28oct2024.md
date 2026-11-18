@@ -1,5 +1,10 @@
 # Liste des fichiers rattachables au 28 octobre 2024 — L16B
 
+## Réponse en langage courant
+
+**Guide de lecture autonome.** Cette liste compte 1 559 chemins rattachés au 28 octobre : A = 1 555 fichiers actuels avec création de nom FN ce jour ; B = trois anciens chemins supprimés avec contenu récupéré ; C = un ancien chemin PDF référencé par les traces d’impression/Jump List. Ce ne sont ni 1 559 contenus uniques ni un instantané de fin de journée. Les dates SI peuvent être conservées lors d’une copie ; les dates FN décrivent l’entrée de nom dans l’état examiné. Les colonnes et références ci-dessous permettent de refaire le classement. Le [rapport de contrôle des contenus](../comparaison-L16B-inventaire-20261116/rapport-comparaison-L16B-inventaire.md) répond séparément à la concordance avec l’inventaire fourni.
+
+
 Liste de **1 559 chemins** identifiés ou référencés par les traces Windows conservées. Les lettres A/B/C renvoient aux classes expliquées dans le [rapport de méthode](rapport-inventaire-L16B-20241028.md). Les dates FN sont des métadonnées et ne garantissent pas l’identité du contenu courant avec celui de 2024.
 
 | Réf. | Chemin complet | Classe | Taille (octets) | Création FN Paris | Suppression Paris |
@@ -1563,3 +1568,9 @@ Liste de **1 559 chemins** identifiés ou référencés par les traces Windows c
 | L1557 | `C:\L16B\TELEPHONES\IPHONE13_MINI\TR Déposez votre capital social sur Qonto 📥.pdf` | A | 248427 | 2024-10-28T17:13:43.721387+01:00 |  |
 | L1558 | `C:\L16B\TELEPHONES\IPHONE13_MINI\TR  Urgent.pdf` | A | 41824 | 2024-10-28T17:13:43.737013+01:00 |  |
 | L1559 | `C:\L16B\test.pdf` | B | 499320 | 2024-10-28T15:19:40.188563+01:00 | 2024-10-28T15:24:17.961000+01:00 |
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

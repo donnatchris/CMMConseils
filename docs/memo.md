@@ -1,3 +1,5 @@
+> Usage interne : aide générale, hors livraison documentaire SADEDINE-2026 et hors justification des conclusions de l’affaire.
+
 # Fiche mémo – Réseau, Box et analyse forensic
 
 ## 1. LAN

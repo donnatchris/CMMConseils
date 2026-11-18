@@ -2,6 +2,15 @@
 
 **Mission SADEDINE-2026 — 14 novembre 2026 — OP-01, TP-02 et TP-03.**
 
+
+## Réponse en langage courant
+
+**Question examinée (reformulation complète de Q1) : quelles sont les dates de création, les emplacements et les applications d’origine des vingt contenus PDF dans les sauvegardes de TP-02 et TP-03, et quel iPhone mini les aurait créés le 15 octobre 2024 entre 13 h 41 et 13 h 50 ?**
+
+J’ai retrouvé les mêmes vingt contenus dans 72 exemplaires : 46 sur TP-02 et 26 sur TP-03. Les 27 fichiers de l’inventaire incluent des doublons. Leurs dates de création sauvegardées sont anciennes ; elles ne prouvent pas une création le 15 octobre. Je privilégie l’historique de données conservé dans TP-03 pour expliquer le rapprochement temporel, car 17 contenus portent un attribut de dernière utilisation dans cette fenêtre, dont 16 avec changement de statut rapproché. Aucun attribut équivalent contrôlé sur TP-02 ne tombe dans cette fenêtre.
+
+Cette préférence ne démontre pas le téléphone physique source du transfert, une lecture du contenu ni un opérateur. Les dates de contenu, les dates de copie sauvegardées et les créations Windows du CSV sont comparées séparément dans les tableaux. L’archive finale, les journaux de collecte et une sauvegarde contemporaine permettraient de préciser le parcours.
+
 ## Conclusion
 
 **Les 27 PDF de l’inventaire représentent bien 20 contenus distincts, retrouvés à l’identique par SHA-512 dans les deux sauvegardes. Aucune date de création `Birth` des 72 exemplaires examinés ne tombe le 15 octobre 2024 entre 13 h 41 et 13 h 50. Leurs métadonnées de création sont essentiellement anciennes, de 2019 à 2023.** Il faut donc distinguer la création du contenu PDF, la date de création conservée par sa copie sur le téléphone et la date de « création » figurant dans l’inventaire de saisie.
@@ -144,7 +153,7 @@ Les 17 rapprochements se situent tous à moins de 11 secondes en valeur absolue.
 
 Exemple particulièrement précis : **Rép Dossier bourarach.pdf** a dans TP-03 `Birth=17/12/2019 19:20:21`, un attribut lastused au **15/10/2024 13:42:55,987134933**, puis `LastStatusChange=13:42:56`. Le CSV lui attribue une création à **13:42:57,930**. L’écart est de **1,943 seconde** environ. TP-02 contient deux copies identiques de ce PDF, mais leurs attributs lastused actuels sont datés du 28 octobre vers 23 h 36 et 23 h 53.
 
-**Ce faisceau favorise la lignée logique de TP-03 pour la séquence de traitements du 15 octobre.** Il ne permet pas de transformer les dates DNEF en dates `Birth` du téléphone. Les attributs de dernière utilisation peuvent être réécrits ou transportés ; leur nom et leur proximité avec les dates de changement ne prouvent pas une consultation humaine ni un export direct. L’absence de valeur comparable dans l’état tardif de TP-02 ne prouve pas que TP-02 n’a jamais connu ces traitements.
+**Ce faisceau favorise l’historique de données conservé dans TP-03 pour la séquence de traitements du 15 octobre.** Il ne permet pas de transformer les dates DNEF en dates `Birth` du téléphone. Les attributs de dernière utilisation peuvent être réécrits ou transportés ; leur nom et leur proximité avec les dates de changement ne prouvent pas une consultation humaine ni un export direct. L’absence de valeur comparable dans l’état tardif de TP-02 ne prouve pas que TP-02 n’a jamais connu ces traitements.
 
 ## Portée de l’inventaire et réponse à l’identification du Mini
 
@@ -170,3 +179,9 @@ python3 /media/shared/codeProjects/DMMConseils/inventaire-DNEF/travaux-technique
 ```
 
 Les scripts refusent de remplacer leurs sorties. Pour reproduire, adapter dans une copie les destinations vers un dossier neuf. Les accès SSH ont utilisé `ssh -F /home/chris/.ssh/config sift` : la commande simple `ssh sift` rencontrait une erreur locale de permissions sur la configuration SSH système. Une exploration préliminaire d’attributs a échoué sur l’agrégation des noms de clés ; elle a été corrigée, puis tous les attributs utiles ont été relus par le script conservé. Aucun résultat d’une passe échouée n’est utilisé comme preuve d’absence.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

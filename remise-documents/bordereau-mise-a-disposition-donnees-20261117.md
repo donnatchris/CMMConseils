@@ -7,7 +7,7 @@
 
 ## Mise à disposition et accès au téléchargement
 
-Le prestataire confirme que **l’ensemble des données extraites et du dossier de travail de la mission est stocké sur OVHcloud S3 et que ce stockage est complet** à la date du présent bordereau.
+Je confirme, selon les informations que j’ai consignées dans la conversation du 17 novembre 2026, que **l’ensemble des données extraites et du dossier de travail de la mission est stocké sur OVHcloud S3 et que ce stockage est complet** à la date du présent bordereau.
 
 **Mme Malika Sadedine dispose d’un accès lui permettant de consulter et de télécharger ces données au moyen d’une clé d’accès S3 et de la clé secrète associée.** Les identifiants sont communiqués séparément ; ils ne sont pas reproduits dans ce bordereau. La notice de téléchargement précise la configuration de l’accès et la récupération des dossiers.
 
@@ -18,6 +18,10 @@ Le prestataire confirme que **l’ensemble des données extraites et du dossier 
 | Région | `sbg` |
 | Bucket | `sadedine-2026` |
 | Préfixe du dossier | `SADEDINE-2026/` |
+
+## Portée de la confirmation et des contrôles
+
+La confirmation de complétude et de l’accès S3 provient du prestataire dans la conversation du 17 novembre ; aucun nouveau contrôle intégral du stockage distant n’est réalisé par la révision du 18 novembre. Les empreintes ci-dessous reprennent des contrôles identifiés de la mission ; elles ne certifient pas chaque objet S3. La disponibilité de clés ne démontre ni leur utilisation effective ni un téléchargement intégral achevé chez la cliente. La [notice de téléchargement](notice-telechargement-s3.md) fournit une procédure sans secrets.
 
 ## Contenu mis à disposition
 
@@ -95,3 +99,5 @@ e99a859fe1ed8dcd682eb15b10ec9ab61ac0cbc9d36bd26e734f751ca194c768
 Les listes détaillées d’empreintes des segments, extractions et résultats restent jointes aux dossiers techniques correspondants. Le fichier `empreintes-controle-remise-20261117.sha256` accompagne le présent bordereau : il réunit les empreintes des documents remis et des principaux inventaires de contrôle. Les valeurs ci-dessus reprennent les contrôles de la mission ; elles ne constituent pas un nouveau calcul intégral du stockage S3.
 
 **Pièces associées :** notice de téléchargement ; rectificatif de la date de remise du 17 novembre 2026 ; fichier d’empreintes de contrôle.
+
+*Révision documentaire du 18 novembre 2026 par Christophe DOnnat — Donnat Dev. Les dates et emplacements de signature des parties restent ceux du document établi le 17 novembre ; aucune signature des parties n’est ajoutée.*

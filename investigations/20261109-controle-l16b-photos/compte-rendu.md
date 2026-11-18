@@ -2,6 +2,11 @@
 
 **Mission SADEDINE-2026 — 9 novembre 2026.**
 
+
+## Réponse en langage courant
+
+**J’ai confronté les catégories, formats et horaires locaux aux trois photographies d’extraits du PV ; cette confrontation ne permettait pas, à elle seule, de comparer chaque contenu.** Elle conserve sa portée documentaire. Le [contrôle exhaustif du 16 novembre](../../ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-L16B-inventaire.md) complète ce résultat : 1 555 chemins retrouvés, 1 552 contenus concordants, trois divergents. Le CSV est désormais disponible ; son support d’origine et l’archive finale ne le sont pas. Les photographies ne se substituent pas à ce contrôle des empreintes.
+
 ## Conclusion
 
 **Les données corroborent fortement les catégories, les formats et la chronologie des opérations décrites dans les trois photos. Elles ne permettent pas de certifier que chaque fichier actuel de L16B est exactement un fichier copié par l'administration en 2024, ni que rien d'autre n'a été copié ou définitivement saisi.**
@@ -79,5 +84,11 @@ Pour répondre « ce sont exactement ces fichiers, et aucun autre », il manque 
 - [Rapport OP-01, § 10 et § 11](../../ordinateur/analyse-ordinateur.md) et [inventaire](../../ordinateur/recherche-OP-01/extractions-acces/l16b-inventory.json).
 - [Opérations du 28 octobre : PST et Jump Lists](../../ordinateur/recherche-OP-01/operations-28oct/compte-rendu.md).
 - [Analyse du PV complet](../20261108-analyse-pv/compte-rendu.md), qui actualise les mentions historiques d'indisponibilité du PV dans les anciens rapports.
-- [Comparaison des factures et reprise du 9 novembre](../20261108-complement-pv/reprise-20261109.md).
+- [Comparaison des factures et reprise du 9 novembre](../20261108-complement-pv/compte-rendu.md).
 - [Recherche élargie des correspondances](../20261109-correspondances-elargies/compte-rendu.md), avec ses limites de couverture et la distinction L16B/jeu saisi.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

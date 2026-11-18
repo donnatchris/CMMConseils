@@ -2,6 +2,13 @@
 
 **OP-01 — 16 novembre 2026.** Comparaison des chemins dans les deux sens, puis lecture et calcul SHA-512 de chaque fichier inventorié dans l’image montée en lecture seule sur SIFT.
 
+
+## Réponse en langage courant
+
+**Trois fichiers diffèrent de l’inventaire par leur contenu : le raccourci USB2, `FACT 2018 SUITE.pdf` et le PST 93300.** J’ai retrouvé les 1 555 chemins attendus et recalculé leurs empreintes : 1 552 concordent et trois divergent. Un chemin retrouvé établit la présence d’un nom ; une empreinte concordante établit l’identité des octets comparés au CSV. Pour les trois différences, je ne peux pas classer version différente, modification ultérieure ou erreur d’inventaire sans disposer des fichiers correspondant aux empreintes attendues.
+
+Les trois fichiers supplémentaires datés de 2026 et les anciens chemins intermédiaires du 28 octobre ne sont pas trois nouveaux manquements au CSV. Ils relèvent de périmètres et d’étapes différents, explicités ci-dessous. Le contrôle exhaustif conserve tous les chemins et empreintes ; l’archive finale et le support d’origine du CSV restent les pièces prioritaires.
+
 ## Introduction — Ce qui est comparé
 
 ### L’inventaire de saisie fourni
@@ -155,3 +162,9 @@ Fichier dans l’image :
 - [Analyse OP-01, suppressions et PDF Sage](../../analyse-ordinateur.md).
 - [Recherche de récupération de l’archive finale et des rejets](../../../inventaire-DNEF/rapports/Recherche_recuperation_Archive_Rejets_OP-01_20261116.md).
 - [Script de comparaison sur SIFT](comparer_sift.py).
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

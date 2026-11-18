@@ -26,3 +26,9 @@ L’analyse ne permet donc ni d’affirmer « connexion le 15/10/2024 », ni de 
 Une connexion pourrait être datée si l’on retrouvait un ancien événement Wi-Fi, un ancien profil réseau avec ses métadonnées ou un enregistrement de connectivité relié de façon fiable à ce SSID. Une archive antérieure ou un cliché VSS lisible pourrait conserver ces éléments. Les investigations précédentes ont cependant rencontré une erreur de structure VSS ; aucun ancien cliché monté n’est disponible dans cette campagne. Une nouvelle tentative de récupération historique est une piste, sans garantie de retrouver une trace et sans garantie que le PC ait effectivement rejoint ce réseau.
 
 **Conclusion : présence probable parmi les réseaux détectés ; connexion et date non établies.**
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

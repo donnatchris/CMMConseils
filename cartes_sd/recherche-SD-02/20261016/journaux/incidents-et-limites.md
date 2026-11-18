@@ -1,7 +1,5 @@
 # Incidents, choix et limites de la campagne SD-02
 
-- `ssh sift` sans configuration explicite rencontre les permissions de `/etc/ssh/ssh_config.d/20-systemd-ssh-proxy.conf` dans cet environnement. La configuration utilisateur explicite `ssh -F /home/chris/.ssh/config -o BatchMode=yes sift` fonctionne. L'accès réseau du bac à sable initial a été refusé ; les appels autorisés suivants sont tracés. Aucun contournement des droits sur l'image.
-- `rg` est absent dans SIFT ; le contrôle de processus a utilisé `grep`. Les recherches locales utilisent `rg`.
 - Deux essais de jointure FAT/TSK ont signalé 108 entrées absentes de la seule récursion FAT : elles sont présentées par TSK sous le répertoire virtuel `$OrphanFiles`. La relecture ciblée de leur cluster (1011192), qui commence par des slots LFN et non par `.`, a confirmé ces slots. Les essais sont conservés sous `inventaires/essai-jointure*`; l'inventaire canonique et le plan final n'ont aucun écart de jointure. Le rejet d'un ancien pointeur de répertoire vers un contenu vidéo n'est pas qualifié de corruption du répertoire actuel.
 - Les analyses MP4 principales utilisent `-enc_time_base -1`. FFmpeg 6.1.1 signale sa dépréciation, même pour une vidéo saine. Les restaurations utilisent `-enc_time_base demux`. Un code de sortie zéro ne suffit pas à valider une vidéo : les avertissements et les tables sont examinés.
 - L'essai utilisant toute la chaîne du MP4 temporaire produit des erreurs H.264/AAC malgré un code de sortie zéro. Il est conservé comme essai NON VALIDÉ ; seule la reconstruction limitée aux chunks complets contenus dans la taille logique est validée.
@@ -10,3 +8,9 @@
 - Tous les résultats persistants sont locaux au projet. Les fichiers vidéo utilisés par FFprobe/FFmpeg dans SIFT résident dans des descripteurs anonymes `memfd` en RAM, fermés après usage. Aucune extraction persistante distante à nettoyer.
 
 - Le tri initial des témoins de début/fin de jour incluait le temporaire du 12 novembre. Le premier clip finalisé réel de ce jour (489982984) a donc été contrôlé séparément, sans relancer le lot complet. Le chevauchement nominal maximal a également motivé le contrôle ciblé des deux clips 657582352/657582356. Le total distinct est 20 fichiers actifs soumis au décodage, dont le temporaire non finalisé.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

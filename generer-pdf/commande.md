@@ -1,51 +1,42 @@
-# Commandes
+# Générer la livraison documentaire du 18 novembre 2026
 
-## Régénérer tous les rapports DMMConseils
+La sélection explicite de [livraison-20261118.json](livraison-20261118.json) contient 69 documents : 68 rendus des textes courants et le PDF d’origine de l’attestation, copié sans régénération. Les rapports par appareil, compléments, annexes exhaustives et notices sont inclus. Les cours, mémos, codes d’accès, correspondance ancienne et versions supprimées sont exclus.
 
-Depuis la racine du projet, la commande suivante convertit les 11 rapports courants dans `pdfs/`. Elle conserve les tableaux et illustrations, ajoute les en-têtes DMMConseils et la pagination, puis actualise `pdfs/manifest.json` avec les empreintes SHA-256 des sources et des PDF.
+## Préparer puis générer
+
+Depuis la racine du projet, avec Python 3 et les bibliothèques système nécessaires à WeasyPrint :
 
 ```bash
 python3 -m venv /tmp/dmm-pdf-venv
-/tmp/dmm-pdf-venv/bin/pip install markdown weasyprint pypdf
+/tmp/dmm-pdf-venv/bin/pip install markdown==3.11.3 weasyprint==70.0 pypdf==7.1.0
+/tmp/dmm-pdf-venv/bin/python generer-pdf/verifier-livraison.py --skip-pdf
 /tmp/dmm-pdf-venv/bin/python generer-pdf/generer-rapports.py
+/tmp/dmm-pdf-venv/bin/python generer-pdf/verifier-livraison.py
+/tmp/dmm-pdf-venv/bin/python generer-pdf/preparer-livraison.py
 ```
 
-Le script retrouve automatiquement la racine du projet et conserve les journaux de conversion dans un dossier temporaire dont il affiche le chemin. Les chemins historiques normalisés sont des références documentaires ; ils ne signifient pas que les répertoires physiques ont été renommés.
+Le générateur écrit uniquement dans `pdfs/livraison-20261118/`. Il refuse de remplacer des sorties existantes sans `--replace`. Pour régénérer cette livraison après correction, ajouter `--replace` ; pour un seul texte, ajouter aussi `--only chemin/rapport.md`. Les PDF antérieurs et manifestes historiques restent en place. Aucun générateur historique d’analyse SD ou Sage n’est exécuté : ils pourraient remplacer les textes révisés.
 
-## Générer un PDF à partir d'un fichier Markdown
+## Manifestes et contrôle visuel
 
-Commande à exécuter à la racine du projet pour générer un PDF à partir d'un fichier Markdown :
+`manifest-20261118.json` contient les SHA-256 des sources et PDF, pagination, tailles et limites de page contrôlées. Les liens entre rapports livrés visent les nouveaux PDF ; les références aux pièces techniques nécessitent le dossier de travail correspondant. Les secrets ne font partie ni des sources sélectionnées ni des commandes de génération.
+
+Le vérificateur contrôle les liens/ancres, les colonnes des tableaux, la conservation des données de preuve, les références Git des suppressions, les empreintes des Markdown hors corpus rétablis, le texte de l’attestation et les PDF. La synthèse du rapport final doit occuper trois pages, avant la section 2.
+
+Après toute modification de texte ou de style, rendre les pages de contrôle avec Poppler, par exemple :
 
 ```bash
-SOURCE=<source.md>
-OUTPUT=<output.pdf>
-pandoc $SOURCE \
-  -o $OUTPUT \
-  --pdf-engine=xelatex \
-  --syntax-highlighting=idiomatic \
-  --lua-filter=./generer-pdf/wrap-inline-code.lua \
-  -H ./generer-pdf/pdf-header.tex \
-  -V geometry:margin=0.7in
+pdftoppm -f 1 -l 3 -scale-to 1500 -png pdfs/livraison-20261118/RAPPORT-FINAL-SADEDINE-2026.pdf /tmp/synthese-revisee
 ```
 
-exemple:
+Examiner également les pages de tableaux et d’images affectées. Les journaux de rendu restent dans le répertoire temporaire affiché par le générateur. Le manifeste global de livraison est distinct des anciens relevés d’empreintes ; ne pas recalculer ceux-ci comme s’ils décrivaient les textes du 18 novembre.
+
+## Conversion d’une nouvelle photographie
+
+Les photographies d’origine de l’attestation sont préservées. Pour un nouveau dérivé, écrire un nouveau fichier :
 
 ```bash
-SOURCE=remise-documents/attestation-de-remise.md 
-OUTPUT=remise-documents/attestation-de-remise.pdf
-pandoc $SOURCE \
-  -o $OUTPUT \
-  --pdf-engine=xelatex \
-  --syntax-highlighting=idiomatic \
-  --lua-filter=./generer-pdf/wrap-inline-code.lua \
-  -H ./generer-pdf/pdf-header.tex \
-  -V geometry:margin=0.7in
+magick SOURCE.HEIC /CHEMIN/NOUVEAU-DERIVE.jpg
 ```
 
-## Changer les .HEIC en .JPG
-
-```bash
-for f in remise-documents/photos/*.HEIC; do
-  magick "$f" "${f%.HEIC}.jpg"
-done
-```
+Christophe DOnnat — Donnat Dev

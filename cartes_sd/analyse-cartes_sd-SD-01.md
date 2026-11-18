@@ -6,6 +6,15 @@
 
 **Support :** image de la carte SD-01, arborescence `CAMERA CHAMBRE`
 
+
+## Réponse en langage courant
+
+**Les dates aberrantes retrouvées ne prouvent pas la réinitialisation de la chambre signalée en février 2024.** J’ai comparé les dates stockées, les images disponibles et les défauts des fichiers : deux clips présentent une date de janvier 2000 avec une signature de compteur défectueux également présente sur le salon. Je privilégie un défaut de finalisation ou d’horodatage, parce que cette signature se répète sur plusieurs dates et cartes ; aucun journal ne permet de conclure à un retour aux réglages usine.
+
+J’ai retrouvé **674 vidéos actives sur 81 jours**, du 2 décembre 2023 au 28 octobre 2024 selon les noms. Les trois temporaires supprimés correspondent à un final conservé ; aucune vidéo effacée distincte supplémentaire n’a été récupérée. Les 37 clips du 15 octobre sont cohérents dans les contrôles réalisés. Ces résultats précèdent ici les détails FAT32, qui expliquent la méthode sans constituer un journal d’activité.
+
+L’origine exacte de l’affichage signalé reste inconnue. Une capture originale avec le nom du fichier, l’application et le champ concerné serait la première pièce à obtenir. Le mail initial ne précise pas l’année de février ; le complément du 16 octobre 2026, communiqué par le prestataire dans la conversation, vise février 2024 sans constituer une nouvelle déclaration directement recueillie de la cliente. Le [mail complémentaire](../docs/mail-2.txt) précise la chambre. Une date FAT de 2000 et sa conversion possible vers le 31 décembre 1999 ne datent pas une réinitialisation.
+
 ## 1. Objet et périmètre
 
 Ce rapport présente l’état technique de SD-01, les possibilités de récupération de vidéos effacées, les anomalies de fichiers et de dates, ainsi que les conclusions relatives aux événements signalés en **février 2024** et le **15 octobre 2024**. Il repose sur l’image de la carte et les pièces techniques conservées, sans assimilation des hypothèses aux faits établis.
@@ -244,6 +253,10 @@ Les propriétés, valeurs brutes, empreintes et correspondances sont directement
 
 Pour départager les causes, les éléments discriminants seraient l’affichage original, les journaux de caméra/compte/horloge, les réglages historiques et une expérience contrôlée sur un autre support reproduisant ensemble les dates FAT et les défauts MP4. Leur disponibilité n’est pas présumée.
 
+### Provenance du complément de contexte du 16 octobre 2026
+
+Le prestataire a précisé dans la conversation du 16 octobre que les caméras n’avaient jamais été sous scellés et a ciblé février 2024. Il a déclaré ne pas connaître l’origine exacte de l’interrogation de la cliente, avançant les métadonnées comme une hypothèse seulement. Ce complément n’est ni un procès-verbal ni une déclaration supplémentaire directement recueillie auprès de Mme Sadedine. Le mail initial, § 4, dit « en février » sans année et ne désigne ni champ, ni logiciel, ni heure ; le complément de la cliente précise la chambre. Les relevés de provenance et de recherche restent dans `recherche-SD-01/20261016-complement/sources/fichiers-consultes.json` et `recherche-origine-evenements.txt`. Les anciens objectifs de récupération et de distinction des défauts/actions extérieures sont ceux traités par le présent rapport.
+
 ## 10. Pièces techniques et termes de lecture
 
 ### 10.1. Références des constats
@@ -271,3 +284,9 @@ Les scripts, commandes, erreurs et manifestes conservent la traçabilité des me
 | `mdat` / tables MP4 | Données audio/vidéo / index décrivant tailles, positions et temps. Un index cohérent et des médias intacts sont deux propriétés distinctes. |
 | PTS / DTS | Temps de présentation / de décodage des médias. Ce sont des temps internes, pas des heures civiles certifiées. |
 | Slack / EOF | Octets alloués au-delà de la taille logique / fin logique d’un fichier. Ces octets nécessitent une validation avant toute attribution au fichier. |
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

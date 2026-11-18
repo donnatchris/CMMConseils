@@ -2,6 +2,13 @@
 
 **Affaire :** SADEDINE-2026. **Date :** 10 novembre 2026. **Périmètre :** OP-01, TP-01/02/03 et recoupements Freebox/cartes SD. Relecture des rapports et compléments existants, suivie de contrôles ciblés sur SIFT ; aucune nouvelle acquisition des appareils.
 
+
+## Réponse en langage courant
+
+**La piste la plus discriminante avant ouverture est la séquence Wi-Fi de TP-02 du 17 octobre ; les traitements de TP-03 du 16 s’expliquent mieux par des opérations internes récurrentes.** J’ai comparé les hypothèses d’action locale, d’automatisme et d’historique importé. La connexion locale est privilégiée pour l’enchaînement Wi-Fi ; la simple synchronisation de mot de passe est moins étayée, tandis qu’un transport complet ultérieur reste crédible sans occurrence démontrée. Pour TP-03, les 40 séquences comparables et l’échec CloudKit sans objet traité défavorisent une lecture des transactions comme des consultations humaines.
+
+Les 17 métadonnées PDF du 15 favorisent l’historique conservé dans TP-03, sans démontrer une ouverture des contenus. Les classes de protection actuelles ne datent pas un premier déverrouillage ancien. Les trois SMS Microsoft/Google sont expliqués par la cliente. Les contrôles plus récents sont exposés dans [TP-02](../../telephones/analyse-TP-02.md), [TP-03](../../telephones/analyse-TP-03.md) et [B–E](../../inventaire-DNEF/rapports/Rapport_investigations_B_C_D_E_SADEDINE-2026.md). Les journaux de collecte, l’historique de restauration et l’identité des appareils sous scellés sont les pièces discriminantes.
+
 ## 1. Réponse à la question
 
 **Une intervention humaine avant l’ouverture demeure possible, mais aucune des traces examinées ne l’établit sur un appareil physique identifié. La piste la plus discriminante est TP-02 le 17 octobre à 17:25:47–17:25:52 : ses propriétés Wi-Fi associent une raison `WiFi Settings`, une date `JoinedByUserAt` et une séquence de génération de MAC puis d’association.** Les 22 appels marqués sortants dans son historique constituent une autre piste, dont l’origine matérielle reste indéterminée.
@@ -90,3 +97,9 @@ La revue reprend les conclusions et contre-lectures des rapports Windows, Freebo
 | Un scellé a-t-il été matériellement ouvert ? | Identifiants des pièces/scellés, photographies, état à fermeture/ouverture, mouvements et interventions consignés | Une sauvegarde logique ne décrit pas l’intégrité matérielle d’un emballage. |
 
 Ces compléments documentaires et expérimentaux ne sont pas présentés comme obtenus ou exécutés. **La conclusion actuelle est une possibilité humaine étayée surtout par TP-02, avec des alternatives non départagées ; aucune intervention humaine sous scellé fermé, identité d’auteur ou rupture matérielle n’est démontrée.**
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

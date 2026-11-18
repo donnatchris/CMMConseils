@@ -2,6 +2,11 @@
 
 **OP-01 — 16 novembre 2026.** Ce document contient la comparaison individuelle de **toutes les empreintes SHA-512 du CSV d’inventaire fourni**, avec les fichiers correspondants du dossier `C:\L16B` dans l’image disque analysée.
 
+
+## Réponse en langage courant
+
+Cette annexe conserve intégralement les 1 555 comparaisons, chemins et empreintes. Pour chaque entrée, lire d’abord le chemin et la ligne du CSV, puis les valeurs attendue/calculée et le résultat. **« Identique » compare les octets au CSV ; « différent » n’identifie pas la cause de l’écart.** Aucun chemin ne manque, 1 552 contenus concordent et trois divergent. Les trois cas sont explicités dans la [synthèse, section 3](rapport-comparaison-L16B-inventaire.md#3-fichiers-inventoriés-présents-au-chemin-attendu-mais-de-contenu-divergent) : raccourci USB2, `FACT 2018 SUITE.pdf`, PST 93300. Les renvois de chaque ligne conservent le localisateur de preuve.
+
 ## Sources comparées et portée
 
 L’[inventaire de saisie fourni](../../../inventaire-DNEF/documents-recus/Inventaire_saddedine.csv), daté du **28 octobre 2024**, décrit 1 555 fichiers par leur chemin Windows, leurs dates et une empreinte **SHA-512**. `C:\L16B` est le dossier de regroupement laissé sur OP-01 lors des opérations ; les fichiers comparés sont ceux présents dans l’**image acquise en 2026**.
@@ -17200,3 +17205,9 @@ f2a4e9d05cca5c7b8082da42df76fca45e870f3e3acbbdf6ff03c07e68293c40
 ```
 
 Les tailles, inodes et dates de modification des fichiers sont restés identiques pendant leur lecture. Le CSV conserve la même empreinte avant et après le contrôle. La comparaison porte sur les fichiers inventoriés ; les fichiers supplémentaires non inscrits au CSV sont traités dans le rapport de synthèse.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

@@ -2,6 +2,13 @@
 
 **Mission SADEDINE-2026 — 19 octobre 2026.** Source nouvelle : [mail-2.txt](../../docs/mail-2.txt). Le prestataire confirme dans cette conversation ne pas disposer du PV. **Aucun procès-verbal n’a été consulté** : son contenu décrit dans le mail reste une déclaration de la cliente. Ce complément actualise les rapports, sans réécrire les pièces des campagnes antérieures.
 
+
+## Réponse en langage courant
+
+Ce compte rendu conserve les demandes reçues et les contrôles exécutés les 19–20 octobre 2026 : dix métadonnées de corbeille et leurs contenus, événements Windows, dates MFT et comparaisons de sauvegardes. J’ai séparé ces résultats de l’état documentaire ultérieur : le PV a été lu le 8 novembre, TP-03 a été analysé, le déchiffrement des PDF a réussi et les 1 555 contenus du CSV ont été comparés le 16 novembre.
+
+La conservation textuelle des deux factures dans Sage explique pourquoi leur suppression ne démontre pas la disparition des factures. L’attribution des scellés aux deux Mini reste ouverte. Les demandes anciennes concernant l’inventaire ne signifient plus qu’aucun inventaire n’est disponible : il reste à examiner son support d’origine, l’archive finale et les rejets. Les résultats actuels sont dans [OP-01](../../ordinateur/analyse-ordinateur.md), [TP-03](../../telephones/analyse-TP-03.md) et la [lecture du PV](../20261108-analyse-pv/compte-rendu.md).
+
 ## 1. Incidence du retour et réponses aux demandes
 
 | Point du mail | Incidence et réponse |
@@ -27,7 +34,7 @@
 | OP-01 | ASUS UX333F, série KAN0CV116290436 | Scellé n° 1, ASUS UX333F | Modèle concordant ; numéro de série du PV non disponible. |
 | TP-01 | iPhone 13 **vert**, série Q13QT4F164 | Scellé n° 2, iPhone 13 **noir** | Candidat par famille de modèle, **divergence de couleur non résolue** ; aucune identité certaine. |
 | TP-02 | iPhone 13 mini rouge, série F5466LV9V7 ; sauvegarde concordante | Scellé n° 3 **ou** n° 4 | Les deux Mini rouges ne sont pas départageables avec le mail. |
-| TP-03 | iPhone 13 mini rouge, série Y4Q9KGHG26 | Scellé n° 4 **ou** n° 3 | Même limite ; pas de sauvegarde analysable identifiée. |
+| TP-03 | iPhone 13 mini rouge, série Y4Q9KGHG26 | Scellé n° 4 **ou** n° 3 | Même limite d’attribution au scellé ; la sauvegarde TP-03 a depuis été analysée en novembre. |
 
 L’insertion SIM rapportée à 11 h 45 sur le premier Mini est une piste de comparaison, pas un identifiant matériel. Les traces de remappage CommCenter déjà étudiées ne démontrent pas cette insertion. Ne pas renuméroter les supports et ne pas écrire « TP-02 = scellé n° 3 » sans pièce supplémentaire. L’attestation porte un champ « IMEI » de 19 chiffres pour TP-03 ; il reste à vérifier, sans correction arbitraire.
 
@@ -41,9 +48,9 @@ Les heures du 28 sont en **Europe/Paris, UTC+1** ; le 15 et le 17 sont en UTC+2.
 | Dossier C:\L16B laissé avec l’accord de la cliente | Arborescence et concentration de créations FN, dont LOCAL à 10:47–11:11 | Concordance substantielle ; sa présence n’est plus à présenter sans ce contexte déclaré. Elle n’identifie pas chaque opérateur. |
 | Téléchargement de dmmconseils93300@hotmail.com dans Outlook | PST correspondant, créations FN à 15:35:26 et journal interne de synchronisation déjà documentés | Concordance avec un traitement de messagerie ; les heures du corps du journal restent sans fuseau explicite. |
 | Takeout-20241028T114105Z-001.zip | Nom : 11:41:05 UTC = **12:41:05 Paris** ; manifeste : 11:42:33 UTC = **12:42:33 Paris** | Écart de **88 secondes**, compatible avec deux étapes d’un export. Le nom et le manifeste ne mesurent pas à eux seuls l’écart de l’horloge Windows : ils peuvent être produits côté service puis copiés. Aucune correction globale de l’horloge appliquée. |
-| Une clé USB, déclarée Kingston par la cliente | Trois identifiants Kingston distincts dans SetupAPI ; volume KINGSTON 140B8328 dans les LNK/Jump Lists | Concordance de marque déclarée, **nombre et identité physique non réconciliés**. Ce n’est ni la preuve de trois copies ni la preuve d’une erreur du PV non consulté. Le numéro de volume n’est pas un numéro de série USB. |
+| Une clé USB, déclarée Kingston par la cliente | Trois identifiants Kingston distincts dans SetupAPI ; volume KINGSTON 140B8328 dans les LNK/Jump Lists | Concordance de marque déclarée, **nombre et identité physique non réconciliés**. Ce n’est ni la preuve de trois copies ni la preuve d’une erreur du PV, dont la lecture est documentée le 8 novembre. Le numéro de volume n’est pas un numéro de série USB. |
 | Inventaire sur CD, pièces non remises | Références à E:\saddedine\Inventaire_saddedine.csv, Rejets_saddedine.txt et Archive_saddedine.zip vers 17:26–17:27 | Les chemins sont des pistes concrètes. Ils ne prouvent pas la gravure d’un CD ni le contenu de l’archive externe. |
-| Aucune suppression mentionnée dans le PV selon la cliente | Dix métadonnées de corbeille explicites | Différence entre les opérations techniques constatées et le récit fourni. Sans PV, aucune omission documentaire n’est directement vérifiée ; la nature juridique ou l’intention ne sont pas déduites. |
+| Aucune suppression mentionnée dans le PV selon la cliente | Dix métadonnées de corbeille explicites | Différence entre les opérations techniques constatées et le récit fourni. La lecture du PV ne suffit pas à qualifier chaque absence de mention d’omission juridiquement pertinente ; la nature juridique ou l’intention ne sont pas déduites. |
 
 L’accord déclaré pour laisser `L16B` ne vaut pas autorisation documentée de chaque suppression. Inversement, une mise à la corbeille ne démontre ni effacement sécurisé, ni intention de dissimuler une pièce.
 
@@ -205,4 +212,10 @@ Les journaux, métadonnées de corbeille, préférences et fichiers d’appairag
 
 **La conservation cloud/disque client n’a pas été modifiée ou nouvellement attestée par ce complément.** Les lacunes documentées le 17 restent à traiter ; ce travail ne prouve pas que les deux copies demandées sont achevées. La durée contractuelle du cloud reste celle du devis à consulter.
 
-Les éléments externes encore utiles sont précis : identité des deux Mini par série/IMEI dans les pièces de saisie, explication de la couleur de l’iPhone 13, date du branchement de l’outil, inventaire CD et éventuels rapports d’extraction, historiques de sauvegarde/restauration et de compte, réglages/modèles des caméras et contexte de l’affichage de réinitialisation. Le PV est **confirmé indisponible**, sans faire obstacle à la remise des constats techniques déjà établis.
+Les éléments externes encore utiles sont précis : identité des deux Mini par série/IMEI dans les pièces de saisie, explication de la couleur de l’iPhone 13, date du branchement de l’outil, inventaire CD et éventuels rapports d’extraction, historiques de sauvegarde/restauration et de compte, réglages/modèles des caméras et contexte de l’affichage de réinitialisation. Le PV a depuis été reçu et lu le 8 novembre ; la référence actuelle est la note de lecture et son complément consolidé.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

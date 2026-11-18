@@ -10,3 +10,9 @@ Toutes les opérations concernent l’image EWF en lecture seule ; aucun inciden
 - Les réceptions interrompues ne produisent pas toujours une entrée finale dans `commandes.jsonl`. Les paramètres JSON, les sorties partielles et `journaux/incidents-locaux.jsonl` complètent la trace des essais.
 
 La recherche négative concerne les données encore présentes dans l’image, pas les données déjà écrasées ou éliminées avant acquisition. Les dates de caméra et FAT ne sont pas des heures civiles certifiées. Le code malveillant, l’identité d’un opérateur, une remise aux paramètres d’usine et l’heure exacte d’une intervention ne peuvent être établis avec ces seules traces.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

@@ -7,7 +7,7 @@
 
 ## Constat sur la couleur de l’appareil
 
-**Le téléphone remis et examiné sous la référence de mission TP-01 est un Apple iPhone 13 de couleur verte, et non noire.** La couleur verte est consignée dans l’annexe 1 de l’attestation de remise, avec le numéro de série **Q13QT4F164** et la référence de modèle **MNGK3ZD/A**.
+**L’attestation décrit le téléphone TP-01 comme vert ; la photo actuelle montre ses identifiants de face, sans permettre de constater clairement la couleur de son dos.** La couleur verte est consignée dans l’annexe 1 de l’attestation de remise, avec le numéro de série **Q13QT4F164** et la référence de modèle **MNGK3ZD/A**.
 
 Les procès-verbaux de visite et de saisie du **15 octobre 2024** et d’ouverture des scellés et de saisie du **28 octobre 2024** décrivent pour leur part le téléphone placé sous le **scellé n° 2** comme un **iPhone 13 noir**. Il existe donc une divergence de couleur entre cette description et celle du téléphone TP-01 remis au prestataire.
 
@@ -18,14 +18,14 @@ Les procès-verbaux de visite et de saisie du **15 octobre 2024** et d’ouvertu
 | Référence de mission | **TP-01** |
 | Marque | Apple |
 | Modèle | iPhone 13 |
-| Couleur constatée et consignée à la remise | **Verte** |
+| Couleur consignée à la remise | **Verte** |
 | Numéro de série | **Q13QT4F164** |
 | Référence du modèle | **MNGK3ZD/A** |
 | IMEI transcrit dans l’attestation | **35 876346 861150 5** |
 | Type produit relevé dans la sauvegarde | `iPhone14,5` |
 | UDID de la sauvegarde associée | `00008110-000A70993407801E` |
 
-Le numéro de série de l’attestation et celui du fichier `Info.plist` de la sauvegarde concordent exactement. La photographie ci-dessous permet également de lire **Q13QT4F164** et **MNGK3ZD/A** sur l’écran de l’appareil. L’IMEI est reproduit tel qu’il figure dans l’attestation ; il n’est pas visible sur cette photographie.
+J’ai comparé le numéro de série de l’attestation à celui du fichier `Info.plist` de la sauvegarde : ils concordent exactement. La photographie ci-dessous permet également de lire **Q13QT4F164** et **MNGK3ZD/A** sur l’écran de l’appareil. L’IMEI est reproduit tel qu’il figure dans l’attestation ; il n’est pas visible sur cette photographie.
 
 ## Photographie de l’appareil
 
@@ -46,9 +46,8 @@ Les passages des procès-verbaux contrôlés ne fournissent pas de numéro de s�
 - [Lecture des procès-verbaux, identification des téléphones](investigations/20261108-analyse-pv/compte-rendu.md).
 - [Procès-verbaux communiqués, réunis dans le dossier de procédure](docs/PV%20DE%20SAISIE.pdf).
 
-Fait à Perpignan, le 17 novembre 2026.
+---
 
-**Christophe Donnat**  
-Donnat Dev, prestataire en analyse informatique
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
 
-Signature :
+Christophe DOnnat — Donnat Dev

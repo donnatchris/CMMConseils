@@ -2,6 +2,13 @@
 
 **Date de l’analyse :** 17/11/2026.
 
+
+## Réponse en langage courant
+
+**Les 458 pages ont toutes ALMU pour émettrice ; elles mentionnent 85 dénominations destinataires et 86 codes clients.** J’ai classé les pages d’après les blocs émetteur et destinataire, puis contrôlé les comptages. Un SIREN comporte neuf chiffres et désigne une unité légale ; un SIRET en comporte quatorze et désigne un établissement. Les valeurs imprimées n’ont pas été authentifiées auprès d’un registre : les dénominations ne sont donc pas 85 personnes morales vérifiées.
+
+Je retiens un ensemble de facturation ALMU, et non l’ouverture de 85 dossiers société Sage. L’appréciation de son rapport au périmètre autorisé relève de l’avocate, à partir de l’ordonnance et des pièces de procédure. L’inventaire page par page est conservé comme annexe de preuve (§ 5), avec les répartitions et la méthode de contrôle.
+
 ## 1. Source et périmètre
 
 **Source unique des affectations :** [sage.pdf](/mnt/data/codeProjects/DMMConseils/ordinateur/recherche-OP-01/samsung-almu-20261113/preuves/L16B/SAGE/sage.pdf).
@@ -176,7 +183,7 @@ Les deux catégories sont séparées pour ne pas présenter une valeur de 9 chif
 
 **Pages concernées :** 1, 4, 6, 9–11, 18–20, 25–27, 32–34, 36, 39–40, 42, 45–46, 48–49, 52–54, 57, 59, 61–65, 67, 70, 72–73, 76, 78, 82–84, 87–88, 91–93, 95–101, 104–105, 108–110, 113, 120–124, 126, 129–132, 134–135, 138–140, 142–145, 148–149, 152–154, 157, 159–161, 165–166, 168, 170, 173–174, 176, 178–179, 182–183, 187–188, 190, 192, 194, 197–199, 202–206, 208–210, 214–216, 219, 221, 225–227, 229–231, 233, 236–238, 242–245, 249, 251–252, 254–255, 258–260, 264–267, 269–270, 275–277, 280–282, 284–288, 292–294, 297–299, 302, 304–312, 314, 318–323, 328–329, 332–333, 336–337, 339–340, 342, 344, 346–347, 349–356, 358–363, 365–369, 371–379, 382, 385, 387–389, 391, 395–397, 399–404, 406, 408, 410–413, 415–418, 420–425, 427, 429–431, 433–436, 438–449, 452–453, 455–456.
 
-## 5. Inventaire page par page
+## 5. Annexe — inventaire page par page
 
 Pour **chacune des lignes ci-dessous**, l’émetteur est **SAS ALMU**, SIRET **`81816735500010`**. La colonne « Destinataire » décrit la société, l’association ou la personne facturée. La qualification porte uniquement sur le champ client de la page. La mention « Provisoire » est reproduite lorsqu’elle figure sur la page.
 
@@ -670,3 +677,9 @@ python3 ../travaux-techniques/analyse-sage-20261117/analyser_sage.py '/mnt/data/
 ```
 
 Le script conserve les valeurs comme chaînes de caractères pour préserver les zéros des codes clients. Le CSV utilise le point-virgule ; lors de son import dans un tableur, choisir le type Texte pour les codes et identifiants. La reproduction automatise les extractions et contrôles ; les 14 rendus et leur relecture visuelle relèvent du contrôle complémentaire documenté ci-dessus.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

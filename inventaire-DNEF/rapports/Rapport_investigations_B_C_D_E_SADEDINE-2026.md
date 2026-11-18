@@ -4,6 +4,13 @@
 
 **Complément du 17 novembre 2026 :** réponse à la question Q3 de la note cliente.
 
+
+## Réponse en langage courant
+
+**J’ai établi une arrivée groupée des 27 PDF au dossier final d’OP-01 le 28 octobre ; je n’ai pas identifié le logiciel ni démontré un premier déverrouillage du téléphone le 15.** Les questions sont traitées ci-dessous par leur objet : déverrouillage (B), arrivée des PDF (C), activité applicative (D) et doublons (E).
+
+L’explication la plus solide des créations FN regroupées en environ 658 millisecondes est une copie ou mise en place groupée au dossier final. Elle ne date pas le début d’un parcours intermédiaire. Pour le déverrouillage et le nommage des doublons, aucun scénario ne peut être classé avec la même force : la classe de protection actuelle et les métadonnées ne suffisent pas à dater un accès ancien au contenu. Les sauvegardes contemporaines, l’historique des transferts et le logiciel de collecte permettraient de départager les scénarios. Le protocole sur appareils témoins reste non exécuté.
+
 ## Conclusions
 
 Les investigations apportent des précisions importantes sur l’activité applicative de TP-03 et sur l’apparition des PDF dans OP-01. **Elles ne démontrent pas un premier déverrouillage le 15 octobre, et le logiciel ayant transféré les 27 PDF reste non identifié.**
@@ -202,3 +209,9 @@ Les résultats détaillés restent dans le sous-dossier privé, exclu de Git :
 - [Scripts de reproduction de l’analyse](../travaux-techniques/investigations-B-E-20261114/scripts), [contrôle final d’intégrité](../travaux-techniques/investigations-B-E-20261114/verification-finale.json) et [empreintes des nouveaux résultats](../travaux-techniques/investigations-B-E-20261114/manifest-sha256.txt).
 
 Pour lever les incertitudes restantes, les pièces les plus discriminantes sont les journaux et la version de l’outil de transfert, le contenu de l’archive finale et des supports intermédiaires, ainsi que des traces contemporaines du démarrage et de l’authentification de TP-03. Aucune identité d’opérateur ni qualification juridique n’est déduite des seuls rapprochements techniques.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

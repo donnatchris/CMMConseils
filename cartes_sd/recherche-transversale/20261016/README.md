@@ -1,5 +1,11 @@
 # Complément transversal — 16 octobre 2026
 
+## Trois niveaux de contrôle
+
+Les commandes de cette notice analysent les **dérivés historiques**, sans relire les EWF. Les contrôles d’images originales restent dans les notices individuelles. Les essais en mémoire sur compteurs et médias reconstruits produisent des résultats dérivés : ils n’authentifient pas l’histoire des originaux.
+
+Prérequis : médias privés historiques présents, Python et FFprobe/FFmpeg aux versions indiquées, destination neuve. Suivre les quatre commandes dans l’ordre, puis les contrôles finaux. Les références comprennent onze signatures audio communes, les écarts audio/vidéo calculés sur les populations explicitement filtrées et le diagnostic du clip 714049800. Aucune écoute humaine ni expérience de caméra témoin n’est incluse.
+
 Rapport : [analyse-cartes_sd-transversale.md](../../analyse-cartes_sd-transversale.md).
 
 ## Préservation et périmètre
@@ -71,3 +77,9 @@ sha256sum -c cartes_sd/recherche-transversale/20261016/manifest-sha256.txt
 ```
 
 Le manifeste de ce complément couvre le rapport transversal, les scripts nouveaux, ce dossier et les sorties des essais conservés. Il exclut son propre fichier. Les artefacts historiques ne sont pas dupliqués : leurs chemins, empreintes et manifestes sont référencés. La remise technique doit inclure les médias privés historiques, exclus de Git. Aucun commit, transfert cloud ou envoi à un tiers n'est réalisé par cette campagne.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

@@ -8,13 +8,24 @@
 
 **Équipement :** ASUS UX333F NOTEBOOK PC — numéro de série `KAN0CV116290436`
 
-## 1. Objet et périmètre
+## 1. Le PC a-t-il été utilisé pendant sa conservation et quels fichiers ont été retenus ?
 
-Ce rapport présente les constats techniques et les conclusions relatifs au fonctionnement d’OP-01 pendant sa rétention du **15 au 28 octobre 2024**, aux opérations sur ses fichiers, aux copies de données et aux indices éventuels de compromission antérieurs à la perquisition. La recherche remonte à 2021/2022 lorsque des traces sont encore conservées.
+**Je n’ai retrouvé aucune reprise Windows corroborée entre l’hibernation du 15 octobre 2024 vers 10 h 53 et la reprise du 28 octobre à 10 h 41. En revanche, j’ai retrouvé des opérations nombreuses après l’ouverture du scellé le 28, puis trois différences de contenu parmi les 1 555 fichiers de l’inventaire fourni.**
 
-Il repose sur l’image du SSD, les artefacts Windows, les contenus présents ou récupérables, leur confrontation au procès-verbal de saisie et, pour les contrôles du 16 novembre 2026, au CSV d’inventaire fourni. La comparaison SHA-512 des deux PST et de Takeout est détaillée en section 7.7. Les demandes de la cliente sont documentées dans les [mails de mission](../docs/mail.txt) et [complémentaires](../docs/mail-2.txt) ; l’identification du matériel figure dans l’[attestation de remise](../remise-documents/attestation-de-remise.md).
+L’hibernation enregistre l’état de Windows sur le disque et arrête son fonctionnement courant ; elle n’empêche pas une lecture du disque depuis un autre système. L’échéance de réveil du 16 octobre est une heure demandée au système, pas la preuve qu’il s’est réveillé. Je privilégie donc une conservation en hibernation pour expliquer les traces Windows disponibles, sans en déduire l’impossibilité d’une copie hors ligne. Les observations et événements précis sont détaillés aux sections 4 à 6.
 
-Les résultats distinguent ce qu’un artefact enregistre, l’interprétation permise par les recoupements et les questions qui restent ouvertes. Une date de fichier ne démontre pas à elle seule un allumage ; une session Windows ne désigne pas une personne ; un export présent localement ne démontre pas son transfert vers un tiers.
+J’ai comparé les chemins puis les empreintes numériques permettant de comparer les contenus : **1 555 chemins sont retrouvés, 1 552 contenus concordent et trois divergent** (§ 7.8). Ces différences portent sur un raccourci USB2, `FACT 2018 SUITE.pdf` et le PST 93300. Elles justifient une comparaison avec les fichiers effectivement conservés par l’administration ; leur cause n’est pas identifiée par ce contrôle.
+
+Le 28, après l’ouverture documentée du PC à 10 h 41, les traces étayent l’accès Internet par un Samsung, l’utilisation de Sage et la génération de documents ALMU. J’ai aussi rapproché les dix mises à la corbeille des contenus récupérés : les deux factures de `test.pdf` subsistent textuellement aux pages 254 et 255 du PDF Sage. Une suppression datée n’est donc pas, à elle seule, la disparition du contenu ni une preuve de dissimulation (§ 8).
+
+| Niveau du raisonnement | Résultat et contrôle utile |
+|---|---|
+| Constat établi | Reprise/hibernation le 15, reprise le 28 ; opérations après ouverture ; 1 552 concordances et trois divergences. Les localisateurs et pièces figurent aux §§ 4, 7.8 et 12. |
+| Explication privilégiée | Hibernation pendant la période intermédiaire ; regroupement et exports de données lors des opérations du 28, corroborés par plusieurs familles de traces. |
+| Autres explications possibles | Lecture du disque hors de Windows, démarrage externe ou traces anciennes perdues ; pour les divergences, version différente ou modification avant/après le calcul d’inventaire. Aucun de ces mécanismes n’est identifié comme cause certaine. |
+| Information manquante | Archive finale, rejets, fichiers divergents dans leur version inventoriée, inventaire et support d’origine, journaux de collecte et correspondance des supports Kingston. Leur comparaison permettrait de distinguer le dossier local du jeu finalement retenu. |
+
+J’ai examiné l’image du SSD et les résultats techniques déjà conservés. Les [mails de mission](../docs/mail.txt), le [complément de la cliente](../docs/mail-2.txt), l’[attestation](../remise-documents/attestation-de-remise.md) et le [PV](../docs/PV%20DE%20SAISIE.pdf) fournissent le contexte documentaire. Le présent rapport contient ses propres identifiants, contrôles d’intégrité, repères de procédure, méthode et limites ; ses conclusions ne supposent pas la lecture du rapport final.
 
 ## 2. Synthèse des conclusions
 
@@ -65,6 +76,20 @@ L’analyse ne détermine ni l’intégrité matérielle des scellés, ni le car
 | Interface réseau identifiée | MAC **50:E0:85:63:41:5B**, concordante entre les événements WLAN d’OP-01 et l’entrée Freebox `LAPTOP-RMCOB2VU`. |
 
 La présence de Sage 50, Ciel Paye Evolution, Adobe, Word, Excel, Outlook, OpenOffice, Teams, Oodrive Sign, PaperCut et Norton ne suffit pas à démontrer leur utilisation à une date donnée. L’identité du SSD est distincte de celle du portable ; l’identité réseau ne désigne pas son utilisateur.
+
+### Interventions consignées avant l’acquisition de 2026
+
+Les notes d’intervention reprises dans la version historique d’OP-01 distinguent les actes suivants. Je les conserve comme notes du prestataire, sans les attribuer à 2024 ni corriger silencieusement leurs heures approximatives.
+
+| Date de note | Heure inscrite | Intervention |
+|---|---|---|
+| 07/10/2026 | 16:15 | Remise avec alimentation et codes ; la date de l’attestation est rectifiée par pièce séparée. |
+| 08/10/2026 | 12:36 | J’ai allumé OP-01, récupéré la clé BitLocker et vérifié le système ; commandes `Get-CimInstance Win32_Processor` et `msinfo32`. |
+| 12/10/2026 | Vers 08:55, puis 08:57 | Redémarrage, désactivation du Secure Boot puis démarrage Caine depuis un SSD externe. |
+| 12/10/2026 | Vers 09:15 | Lancement d’acquisition noté, source annoncée en lecture seule et destination externe FORENSIC. |
+| 12/10/2026 | Vers 11:20 | Réactivation du Secure Boot et remise en service de BitLocker notées ; détail des protecteurs non consigné. |
+
+Le journal Guymager inscrit début acquisition 10:21:57, début vérification 11:20:34 et fin 12:04:26 le 12 octobre. Si le fuseau BST de sa sortie SMART s’applique à ces heures, il correspond à 09:21:57, 10:20:34 et 11:04:26 UTC. Ce rapprochement ne raccorde pas entièrement les notes approximatives ; aucune chronologie corrigée n’est inventée. Le [journal d’environnement/acquisition](recherche-OP-01/environnement-acquisition.txt) et la [capture système](images/OP-01-2.jpg) permettent le contrôle. Les interventions Windows de 2026 peuvent produire des traces et contribuer à la rotation des journaux.
 
 ### 3.2. Image disque et vérification d’acquisition
 
@@ -565,7 +590,7 @@ La corbeille du profil `fintm` conserve **89 métadonnées `$I` de version 2**, 
 | **15:12:28.791–15:12:29.137** | Cinq fichiers Ciel sous `Compléments utilisateur\Etats` : `BANMAT`, `My Little`, `Prestations de service~YARA`, `RCT`, `RCT Shine` | Contenus récupérés de **36 552 à 59 661 octets**, compatibles avec des états propriétaires dont le format n’est pas intégralement interprété. |
 | **15:24:17.961** | `C:\L16B\test.pdf` | PDF de **499 320 octets**, deux pages lisibles. |
 
-Les métadonnées et contenus de ces dix opérations concordent avec les contre-lectures directes de l’image. Les [chemins complets, heures et références MFT](../investigations/20261019-retour-cliente/compte-rendu.md#4-dix-mises-à-la-corbeille--contre-lecture-directe) permettent leur contrôle individuel.
+Les métadonnées et contenus de ces dix opérations concordent avec les contre-lectures directes de l’image. Les [chemins complets, heures et références MFT](../investigations/20261019-retour-cliente/compte-rendu.md#4-dix-mises-à-la-corbeille-contre-lecture-directe) permettent leur contrôle individuel.
 
 Ces constats établissent des retraits vers la corbeille, sans démontrer un effacement sécurisé, un motif ou l’identité de l’auteur. Les cinq fichiers d’états Ciel ne doivent pas être décrits comme une base comptable détruite. Le SID identifie un profil Windows, pas la personne présente devant le PC.
 
@@ -769,3 +794,9 @@ Ces références étayent les formats et principes utilisés ; les constats prop
 | SRUM | Base Windows de statistiques d’utilisation des ressources. Chaque table a sa propre couverture temporelle ; des données d’énergie anciennes n’impliquent pas des données réseau de la même période. |
 | RNDIS / partage USB | Pilote et mécanisme permettant à un périphérique USB de fournir une interface réseau. Windows peut la classer comme Ethernet, sans qu’un câble RJ45 soit utilisé. |
 | Exfiltration | Transfert de données vers un destinataire extérieur dans un contexte de compromission. Un regroupement local ou un export ne suffit pas à l’établir. |
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

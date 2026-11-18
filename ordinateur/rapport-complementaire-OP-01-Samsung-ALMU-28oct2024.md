@@ -6,6 +6,13 @@
 **Prestataire :** Christophe Donnat — Donnat Dev  
 **Statut :** rapport autonome ; aucun rapport antérieur modifié.
 
+
+## Réponse en langage courant
+
+**J’ai rapproché la reconnaissance du Samsung à 11 h 18, le fonctionnement d’Internet et les générations de PDF ALMU après ouverture du PC le 28 octobre 2024.** Le retrait du Samsung à 17 h 14 précède immédiatement la perte de la connexion enregistrée : le partage Internet par USB est l’explication la mieux étayée. La première trace retrouvée de la série exacte ne garantit pas la première connexion absolue ; le nom « XCover 5 de David » n’identifie pas son propriétaire.
+
+Les sorties identifiées évoluent d’une facture FA0338, à deux factures FA0338/FA0339, puis à 458 pages ALMU. Les travaux d’une page et de 205 pages également consignés ne sont pas des jeux indépendants à additionner. La génération PDF est établie ; une impression papier et le transfert externe de ce fichier précis ne le sont pas. Les deux factures supprimées subsistent textuellement aux pages 254 et 255 du PDF final. L’archive finale, les rejets et les journaux de collecte permettraient de déterminer les documents retenus. Les contrôles supplémentaires des dossiers Sage sont référencés dans la [note technique](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/compte-rendu.md).
+
 ## 1. Réponses
 
 **Samsung.** La première reconnaissance documentée du numéro de série exact **`R58RB2ETQER`** est le **28 octobre 2024 à 11:18:34, heure enregistrée par le PC**. Aucun événement ni section SetupAPI antérieur n’a été retrouvé pour ce numéro. Une clé du registre le désigne comme **« XCover 5 de David »**. Les traces ne mettent pas en évidence un usage habituel avant le 28 ; elles restent insuffisantes pour certifier qu’il s’agissait de sa toute première connexion depuis la mise en service de l’ordinateur.
@@ -172,3 +179,9 @@ Les nouvelles pièces sont regroupées dans [le dossier technique](recherche-OP-
 | [Scripts](recherche-OP-01/samsung-almu-20261113/scripts/) et [manifeste SHA-256](recherche-OP-01/samsung-almu-20261113/manifest-sha256.json) | Reproductibilité et intégrité du nouveau dossier. |
 
 Outils : Python, libevtx/pyevtx, pyregf, libfsntfs/pyfsntfs, lecture binaire MFT, Poppler `pdfinfo`/`pdftotext`/`pdftoppm` et `dissect.eventlog` 3.11 pour la seconde lecture. Les quelques microsecondes d’écart de conversion entre lecteurs ne changent pas les conclusions à la seconde ; les représentations GUID du lecteur secondaire ne servent pas à l’identification des interfaces. Les pages de documentation Microsoft citées ont été consultées le 13 novembre 2026.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

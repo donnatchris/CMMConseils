@@ -1,6 +1,10 @@
 # SD-01 — Complément ciblé du 16 octobre 2026
 
-Rapport actualisé : [analyse-cartes_sd-SD-01.md](../../analyse-cartes_sd-SD-01.md), en particulier § 1–3 (contexte/périmètre), § 8.1 (février/1999), § 8.2 (15 octobre), § 13.1 (classification) et § 15 (conclusions).
+## Parcours limité aux dérivés
+
+Ce complément réexamine les sorties du 15 ; il ne relit ni l’image ni la carte. Prérequis : dérivés du 15 inchangés, FFprobe 8.0.1 et nouvelle destination dans une copie de travail. Les deux commandes en fin de notice s’exécutent dans l’ordre ; elles doivent retrouver neuf slots de dates 2000, 81 dossiers comparés, 45 médias ciblés et 37 clips du 15 cohérents dans les contrôles de tables. Les scans de récupération anciens ne sont pas répétés.
+
+Rapport actualisé : [analyse-cartes_sd-SD-01.md](../../analyse-cartes_sd-SD-01.md), en particulier §§ 1–3 (réponse, contexte et méthode), §§ 7–9 (anomalies, événements et recoupements), § 9 (limites et conclusion) et § 10 (pièces).
 
 **Contexte corrigé : les caméras n'étaient pas sous scellés.** L'objet porte exclusivement sur la récupération de vidéos effacées, les modifications anormales/malveillantes et les deux événements apparents de réinitialisation. L'origine précise de l'interrogation de la cliente est inconnue ; les métadonnées ne sont qu'une piste.
 
@@ -32,7 +36,7 @@ Les anciennes propriétés audio/vidéo et les anciens contrôles de corruption 
 | `journaux/` | Commandes, méthodes, stdout et éventuelles erreurs |
 | `rapport-sha256.txt`, `manifest-sha256.csv` | Empreinte du rapport actualisé et manifeste du complément |
 
-Le manifeste de 20261015 reste inchangé. Son ancienne empreinte de rapport concerne la version retirée à la demande de l'utilisateur ; sa copie archivée a été supprimée. Elle ne correspond pas au Markdown mis à jour. Le nouveau manifeste couvre le rapport courant, les nouveaux scripts et les fichiers de ce complément, hors le manifeste lui-même.
+Le manifeste de 20261015 reste inchangé. Son ancienne empreinte de rapport concerne la version retirée dans le cadre de la mission ; sa copie archivée a été supprimée. Elle ne correspond pas au Markdown mis à jour. Le nouveau manifeste couvre le rapport courant, les nouveaux scripts et les fichiers de ce complément, hors le manifeste lui-même.
 
 ## Reproduction ciblée
 
@@ -48,3 +52,9 @@ Ces commandes ne doivent pas être relancées sur les sorties livrées : elles r
 La recherche documentaire enregistrée est reproductible avec les arguments de `journaux/recherche-origine-evenements.json`. Elle porte sur les pièces textuelles nommées, pas sur un historique de compte caméra ou des captures non fournies. Le contexte corrigé provient de la conversation et reste explicitement distinct du mail.
 
 **Portée :** les dates aberrantes et la corruption ne démontrent pas une intention ; la conversion possible vers 1999 ne démontre pas son utilisation par le logiciel inconnu ; les métadonnées cohérentes du 15 ne prouvent pas l'absence de redémarrage entre clips. Aucun des deux événements n'est confirmé comme une réinitialisation effective et aucune nouvelle vidéo effacée n'est récupérée par ce complément.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

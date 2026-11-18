@@ -1,12 +1,19 @@
 # Recherche élargie des correspondances et contrôle documentaire
 
-**Mission SADEDINE-2026 — 9 novembre 2026. Campagne clôturée sur les résultats prioritaires à la demande du prestataire ; OCR non exhaustif.**
+**Mission SADEDINE-2026 — 9 novembre 2026. Recherche documentaire et OCR borné aux formats et paramètres décrits.**
+
+
+## Réponse en langage courant
+
+**J’ai élargi les recherches au-delà de la liste de noms, avec décodage natif et OCR borné ; les 87 contenus et 41 occurrences de messages ne sont pas autant de correspondances juridiquement protégées.** Les tableaux conservent les faux positifs et indiquent désormais le statut d’inventaire par contenu ou conteneur.
+
+Le contrôle du 16 novembre confirme le PST DMM et Takeout, tandis que le PST 93300 diverge. Le PDF Guillou/Bourarach concorde individuellement au CSV et se retrouve dans les deux Mini. La qualification juridique, la lecture par un agent et le contenu de l’archive finale restent distincts. Le [rapport actuel des correspondances](../../ordinateur/recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md) donne les 21 messages dans un conteneur concordant et les deux messages Khallouki du conteneur divergent. Les limites OCR propres à cette recherche restent détaillées ci-dessous.
 
 ## Objet et portée
 
 Cette campagne prolonge la lecture du PV et la comparaison des PDF Mini. Elle recherche des échanges et documents juridiques au-delà des noms de la liste manuscrite, puis les rapproche de leurs emplacements, doublons et traces de fichiers. Elle ne qualifie pas juridiquement les documents comme protégés ou irrégulièrement saisis.
 
-Le prestataire indique ne pas croire disposer de l’ordonnance ni d’une proposition de rectification. Aucun fichier de ce nom n’a été identifié dans les documents de cadrage locaux. Des pièces fiscales **antérieures** ont en revanche été retrouvées dans le corpus : elles sont distinguées de l’ordonnance de visite et d’une éventuelle rectification postérieure aux opérations d’octobre 2024. Le CD d’inventaire reste indisponible.
+Le prestataire indique ne pas croire disposer de l’ordonnance ni d’une proposition de rectification. Aucun fichier de ce nom n’a été identifié dans les documents de cadrage locaux. Des pièces fiscales **antérieures** ont en revanche été retrouvées dans le corpus : elles sont distinguées de l’ordonnance de visite et d’une éventuelle rectification postérieure aux opérations d’octobre 2024. Le support CD reste indisponible ; le CSV fourni a été contrôlé le 16 novembre.
 
 ## Méthode et préservation
 
@@ -93,6 +100,12 @@ La recherche automatique sur les extractions terminées produit **396 candidats 
 - `prive/extraction.jsonl`, `prive/restant-a-traiter.json`, `prive/recherche/` et `prive/extracted/` : 4 238 résultats, liste des 1 127 éléments restants, candidats automatiques et textes des 396 candidats documentaires. La passe native et les contrôles visuels sont conservés séparément.
 - `resultats/` : bilans chiffrés, contrôle de collecte, arrêt documenté et empreintes des transferts ; `journaux/` : montage et progression OCR ; `scripts/` : procédures utilisées.
 - Sur SIFT : `/home/sansforensics/analysis/elargi-20261109-v2` conserve les copies de travail et la passe initiale ; `/home/sansforensics/analysis/elargi-20261109-final` conserve la reprise arrêtée et les textes produits. Le nom « final » désigne ce dossier de travail, pas une extraction exhaustive.
-- `rapports-avant/` conserve le rapport principal antérieur à cette mise à jour ; `prive/tableaux-intermediaires/` conserve l’état intermédiaire des tableaux. Les images forensiques sources n’ont pas été modifiées par cette campagne.
+- Le rapport principal antérieur est récupérable dans Git par le registre de révision du 18 novembre ; `prive/tableaux-intermediaires/` conserve l’état intermédiaire des tableaux. Les images forensiques sources n’ont pas été modifiées par cette campagne.
 
 Contrôle final : les **403 fichiers de résultats transférés** ont les mêmes SHA-256 sur SIFT et dans le dossier local. Les décomptes, la partition terminé/restant et les liens locaux des rapports ont été contrôlés. Ce contrôle de transfert ne remplace pas l’authentification du jeu saisi par l’administration.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

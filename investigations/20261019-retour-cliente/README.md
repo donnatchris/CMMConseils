@@ -1,10 +1,14 @@
 # Complément du 19 octobre 2026
 
+## Lecture actuelle et reproduction
+
+Les demandes de la cliente et les contrôles des 19–20 octobre restent datés. Le PV et les sauvegardes analysées ultérieurement ne sont plus des blocages courants ; les résultats sont dans les rapports actuels. Les commandes ci-dessous se rejouent dans des destinations neuves, en conservant filtres, fuseau Europe/Paris et journaux. Les dix contenus de corbeille et les contrôles EVTX/MFT sont des résultats de cette campagne ; les manifestes historiques décrivent leurs versions datées. Les copies de rapports retirées se récupèrent par le registre Git de révision, sans réintroduire ces textes dans la livraison.
+
 Point d’entrée : [compte-rendu.md](compte-rendu.md). Neuf rapports courants ont été actualisés ; leurs états précédents figurent sous `rapports-avant/`, leurs empreintes avant/après dans `resultats/rapports-modifies.json`.
 
 ## Sources et périmètre
 
-- `docs/mail-2.txt`, mail initial et attestation. Le prestataire a confirmé dans la conversation que le **PV n’est pas disponible**. La date « le 15 / le 28 » du branchement reste non précisée.
+- `docs/mail-2.txt`, mail initial et attestation. Lors de la campagne d’octobre, le prestataire indiquait ne pas disposer du PV, depuis reçu et lu le 8 novembre. La date « le 15 / le 28 » du branchement reste non précisée.
 - OP-01 : image existante, montée en lecture seule dans SIFT, 359 EVTX, corbeille, MFT complète et fichiers Apple/Lockdown.
 - TP-02 : manifeste et contenus déjà déchiffrés, préférences Wi-Fi, profils/comptes, états LSC et chronologies antérieures. Aucune nouvelle acquisition ni extraction exhaustive de la sauvegarde.
 - SD : inventaires complets déjà produits ; nouvelle agrégation des bornes et unions d’intervalles nominaux. Une image SD-03 existante a été examinée ponctuellement. Pas de nouveau carving général ni de visionnage intégral.
@@ -47,3 +51,9 @@ python3 investigations/20261019-retour-cliente/scripts/local_checks.py --out /tm
 - `resultats/verification.json`, `SHA256SUMS.txt` et `resultats/rapports-modifies.json` documentent la livraison courante. Les anciens manifestes décrivent leurs versions historiques, pas les nouveaux rapports.
 
 Les fichiers de résultats sont privés au prestataire et à la cliente. Aucun mail envoyé, compte externe connecté, fichier publié, upload cloud ou copie sur disque client effectué par cette campagne. La conservation contractuelle et les lacunes de copie documentées le 17 restent distinctes.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

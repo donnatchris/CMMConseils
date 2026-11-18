@@ -6,6 +6,13 @@
 
 **Supports :** SD-01 — chambre ; SD-02 — terrasse ; SD-03 — salon
 
+
+## Réponse en langage courant
+
+**Les défauts communs étayent un mécanisme défectueux de production ou de reconstruction de fichiers ; ils ne prouvent ni incident simultané ni intervention intentionnelle.** J’ai retrouvé la même erreur de compteur audio dans onze clips de SD-01 et SD-03 dès novembre 2023. Ce caractère ancien et répété rend cette explication plus solide qu’une falsification déduite du seul clip du 15 octobre.
+
+La proximité des fins de certains clips de février rend un incident commun plausible, mais les horloges non étalonnées, les pertes d’images et les modes de calcul différents empêchent de le dater avec certitude. Le défaut récurrent n’explique pas toute la lacune du salon. Une expérience sur caméra témoin et les journaux historiques pourraient départager les mécanismes ; aucun résultat d’une telle expérience n’est anticipé ici.
+
 ## 1. Objet et périmètre
 
 Ce rapport compare les enregistrements, structures de fichiers et métadonnées des trois cartes afin de caractériser les défauts communs, les récupérations possibles et les événements signalés en **février 2024** et le **15 octobre 2024**. Il distingue un mécanisme commun de production de fichiers, un éventuel incident physique commun et une intervention humaine : ces propositions ne nécessitent pas les mêmes preuves.
@@ -48,41 +55,15 @@ La durée d’un conteneur, la fin d’une piste vidéo, la dernière image prod
 
 L’image de 2026 ne constitue pas un instantané de 2024. Une copie peut conserver dates et défauts ; des données écrasées ou non exposées par le contrôleur peuvent ne plus être récupérables. Les relations numériques sont contrôlables, mais ne datent pas automatiquement l’opération qui les a produites.
 
-## 4. Comparaison des supports et des résultats de récupération
+## 4. Ce que la comparaison ajoute aux rapports individuels
 
-### 4.1. Populations conservées
+J’ai comparé les trois populations conservées : 674 vidéos actives de la chambre, 3 300 finalisées et un temporaire de la terrasse, 2 431 du salon. Ces populations ont des couvertures différentes : leur taille n’est ni un taux d’activité ni une preuve d’effacement.
 
-| Population active | SD-01 — chambre | SD-02 — terrasse | SD-03 — salon |
-|---|---:|---:|---:|
-| MP4 actifs | **674** | **3 301**, dont un temporaire | **2 431** |
-| MP4 finalisés analysables | **674** | **3 300** | **2 431** |
-| MP4 aux dates FAT de 2000 | **2** | **0** | **9** |
-| MP4 avec anomalies de tables retenues | **7** | **0 parmi les finalisés** | **10** |
-| MP4 nommés du 15 octobre | **37** | **0 disponible** | **65** |
-| Couverture nominale principale | **02/12/2023–28/10/2024**, 81 jours représentés | **05–12/11/2024**, plus un clip au nom impossible daté du 21 octobre par ses images | **04/11/2023–31/10/2024**, 175 jours représentés |
+Les mêmes géométries FAT32, codecs H.264/AAC et modèles auxiliaires `.moov` soutiennent une famille de production commune. Le modèle `.moov` a le SHA-256 `731c49c0eb32815913b66158889c78a53f83fcea0e661589ac633b8fa5c26e15`. Ni cette identité ni les identifiants de volume ne démontrent un même appareil physique, un firmware précis ou un incident simultané.
 
-Les **6 405 MP4 finalisés** comprennent **onze cas couplant date FAT 2000 et compteur audio cumulatif erroné**, **six autres erreurs terminales avec dates ordinaires**, et **6 388 fichiers sans les anomalies de tables retenues**. Il s’agit d’une association dans ce corpus, sans calcul de probabilité de cause ou hypothèse d’indépendance statistique.
+Les entrées temporaires de SD-01 et SD-03 sont reliées à des finals présents. La terrasse montre au contraire de nombreuses réallocations et permet onze récupérations complètes et un fragment. Les détails propres à chaque carte sont conservés dans les rapports individuels (§§ 6 à 8 de SD-01 ; §§ 6 et 7 de SD-02 ; § 6 de SD-03). La comparaison utile porte sur les mécanismes : finalisation et nettoyage, réutilisation du stockage, défaut de compteur. Elle n’additionne pas les récupérations comme des incidents communs.
 
-Les dates disponibles ne couvrent pas continûment la période depuis mars 2023. SD-02 conserve en outre des vestiges nommés du 4 novembre, sans restitution de tous leurs contenus. Son cas `20242010` reste séparé du calendrier des noms valides.
-
-### 4.2. Système de production commun
-
-Les 37 copies comparées ont les mêmes descriptions `stsd` audio et vidéo. Les trois cartes partagent l’organisation de dossiers, le modèle auxiliaire **`.moov` de 1 006 octets** et les dates internes MP4 conventionnelles de **1970**, distinctes des dates FAT de 2000.
-
-La géométrie FAT32, les sauvegardes FSInfo anciennes et l’octet d’état du boot ne datent pas un incident. L’identifiant de volume est commun à SD-01/SD-02 et différent sur SD-03 ; ce n’est pas une série matérielle. **Les ressemblances étayent une famille de production et de stockage, sans démontrer un matériel, firmware ou événement physique unique.**
-
-Le temporaire non finalisé de SD-02 illustre un état de production inachevé, mais n’est pas un témoin de février ou du 15 octobre. L’absence de défaut de tables retenu parmi ses 3 300 finalisés montre que les onze anomalies couplées ne sont pas obligatoires pour chaque fichier de cette famille.
-
-### 4.3. Suppressions et récupérations : résultats distincts
-
-| Support | Résultat de récupération | Interprétation |
-|---|---|---|
-| **SD-01** | Trois temporaires reliés à une vidéo finale toujours présente ; aucune vidéo effacée distincte supplémentaire. | Nettoyage de finalisation fortement étayé, pas trois enregistrements perdus. |
-| **SD-02** | **Onze vidéos complètes**, soit **44 min 36,096 s**, et **126,464 s** de la fin d’une douzième, nominalement du **5 novembre**. | Contenus survivants validés avec hypothèses d’ordre de clusters documentées ; le fragment n’est pas le fichier original complet. |
-| **SD-02, temporaire actif** | **68,992 s** lisibles dans un conteneur dérivé limité aux données complètes de la taille logique. | Fichier non finalisé du 12 novembre, pas une vidéo supprimée ; le prolongement en erreur n’est pas validé. |
-| **SD-03** | Trois temporaires associés à un final présent ; **3,849 s** restaurées après la fin logique d’un fichier actif du 29 février. | Récupération partielle d’un actif endommagé, pas une vidéo supprimée distincte. |
-
-Les **quatre images non indexées** détaillées ci-dessous sont un autre résultat : sans temps de présentation reconstitués, elles ne sont ajoutées ni à une nouvelle durée de vidéo validée ni aux récupérations complètes. Une absence de récupération ne prouve pas l’absence historique d’effacement.
+Les populations et paramètres de comparaison sont vérifiables dans la [notice transversale](recherche-transversale/20261016/README.md) et les inventaires des trois rapports.
 
 ## 5. Signature arithmétique commune et défauts associés
 
@@ -353,3 +334,9 @@ Les pièces conservent valeurs brutes, offsets, localisateurs, paramètres et em
 ### 12.3. Références de formats
 
 Les interprétations de format s’appuient notamment sur [Apple — Sample-to-chunk atom](https://developer.apple.com/documentation/quicktime-file-format/sample-to-chunk_atom) et [Microsoft — File Times](https://learn.microsoft.com/en-us/windows/win32/sysinfo/file-times). Elles définissent la fonction des champs et leur précision, sans expliquer à elles seules la cause historique des défauts observés.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

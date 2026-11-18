@@ -6,6 +6,11 @@ Analyse du 14 octobre 2026, à la demande du prestataire.
 
 **Contrôle de datation :** la relecture des connexions WLAN, du registre réseau et des tables réseau SRUM ne fournit aucune connexion attribuable à ce nom ni aucune date de connexion. Voir [datation.md](datation.md).
 
+
+## Réponse en langage courant
+
+**J’ai retrouvé cinq occurrences exactes du nom ASUS_Z01RD dans le fichier d’échange Windows ; elles indiquent probablement un réseau visible, sans connexion datée établie.** Les fragments décompressés ressemblent à des listes de réseaux disponibles. Je privilégie ce scénario parce qu’aucun profil mémorisé ni événement d’association correspondant ne le complète. Le nom seul ne prouve ni le modèle exact du point d’accès, ni son propriétaire. Les [contrôles de datation](datation.md) et l’[interprétation de l’origine](origine/interpretation.md) donnent les commandes, offsets et limites.
+
 ## Constat
 
 **Oui : cinq occurrences exactes de `ASUS_Z01RD` ont été retrouvées dans `pagefile.sys`, le fichier d’échange Windows d’OP-01.** Elles établissent la présence du nom dans ce fichier. Aucun profil Wi-Fi mémorisé ni événement de connexion à ce réseau n’est identifié dans les artefacts examinés. Ces fragments ne permettent pas de démontrer une connexion, de la dater ou d’attribuer le point d’accès à une personne.
@@ -67,3 +72,9 @@ Les journaux WLAN conservés ne remontent pas à 2021/2022. Un profil supprimé,
 ## Reproduction
 
 Après le montage avec le script fourni, exécuter dans SIFT [collect.py](scripts/collect.py) avec Python 3 (`pyregf` et `pyevtx` déjà présents), puis [residual.py](scripts/residual.py) et [contexts.py](scripts/contexts.py) avec `sudo -n python3` pour les fichiers nécessitant les droits root. Les scripts écrivent dans `/home/sansforensics/analysis/OP-01/wifi-ASUS_Z01RD-20261014`. Pour une nouvelle campagne, changer ce répertoire afin de préserver les sorties. Le script de collecte référence `/dev/loop14` pour son contrôle final : adapter cette référence au loop effectivement obtenu lors du remontage.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

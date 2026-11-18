@@ -29,3 +29,9 @@ Le filtrage de la chronologie corrélée existante à ±60 secondes de chaque `d
 **Conclusion technique : trois SMS entrants comportent des horodatages `date_read` du 28 octobre ; ces valeurs ne permettent pas, à elles seules, d’établir une consultation locale sur TP-02 ni d’identifier l’appareil à l’origine du marquage comme lu.** **La cliente confirme avoir effectué elle-même la réinitialisation Microsoft et les validations Google pour se connecter pour l’administration. Ce point ne reste donc pas une démarche inexpliquée et, à sa demande, ne nécessite pas d’approfondissement.**
 
 Le 28 octobre correspond à la journée d’ouverture des scellés. Le rapport final distingue les heures du PV (ouverture des scellés téléphoniques à 11 h 30) des traces techniques ; ces SMS de midi ne doivent pas être décrits comme antérieurs à cette ouverture.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

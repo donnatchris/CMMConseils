@@ -1,6 +1,13 @@
 # Complément d’investigation et réponse aux demandes de la cliente
 
-**Mission SADEDINE-2026 — 17 octobre 2026.** Compte rendu technique de travail, à lire avec les rapports individuels. Périmètre : Freebox, OP-01, TP-02 et SD-01/02/03. TP-01 et TP-03 sont exclus de cette campagne à la demande de l’utilisateur, car indisponibles. Le PV et le journal d’acquisition de la sauvegarde Mac sont également déclarés indisponibles ; leurs contenus ne sont ni supposés ni reconstitués.
+**Mission SADEDINE-2026 — 17 octobre 2026.** Compte rendu technique de travail, à lire avec les rapports individuels. Périmètre : Freebox, OP-01, TP-02 et SD-01/02/03. TP-01 et TP-03 n’étaient pas disponibles pour cette campagne ; leurs analyses ultérieures sont référencées dans la réponse actuelle ci-dessous. Le PV a été reçu et lu le 8 novembre. Le journal d’acquisition Mac reste manquant.
+
+
+## Réponse en langage courant
+
+J’ai conservé les résultats propres aux recoupements du 17 octobre 2026 : comparaisons réseau, journaux Windows/NTFS et pistes intersupports. Ils ne démontrent pas une présence physique commune à partir du seul nom ASUS. Je retiens le rapprochement documentaire comme une piste, sans attribution d’auteur.
+
+Le PV a été lu le 8 novembre : arrivée le 28 à 10:22, ouverture PC à 10:41, téléphones à 11:30. TP-01 et TP-03 ont depuis été analysés ; les comparaisons d’inventaire du 16 novembre et la confirmation S3 du 17 sont exposées dans les rapports actuels. Les anciens empêchements de cette campagne ne sont plus des conclusions courantes. Les [rapports des téléphones](../../telephones/analyse-TP-03.md), la [lecture du PV](../20261108-analyse-pv/compte-rendu.md) et le [contrôle L16B](../../ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-L16B-inventaire.md) constituent ces références.
 
 ## 1. Réponse générale
 
@@ -89,7 +96,7 @@ Heures de Paris, avec changement UTC+2 vers UTC+1 le 27 octobre. Les dates appli
 | 15/10/2024 | OP-01 : Wi-Fi vers 10:43, mise en veille prolongée vers 10:53. Perte d’accès aux téléphones déclarée vers 13:30. SD-03 : vidéo nominale 13:28 présentant les défauts déjà étudiés. | Les traces concernent des systèmes et horloges différents. La vidéo ne date pas à elle seule une intervention ; 13:30 n’est pas l’heure établie du début de perquisition. |
 | 16/10 | Première activité du DESKTOP à 21:27:48 ; champ de réveil Windows auparavant étudié. | Le champ Windows est une échéance programmée, pas un réveil réel prouvé. Pas de lien positif entre le DESKTOP et OP-01. |
 | 17/10 | TP-02 : traitements internes vers 17:15–17:18 puis propriétés d’association `ASUS_Z01RD` vers 17:25. | Séquence informative, mais provenance physique et éventuelles restaurations restent à distinguer. Pas de session Windows contemporaine démontrée sur OP-01. |
-| 28/10 | Ouverture déclarée vers 10:22 ; reprise OP-01 vers 10:41 ; exports L16B ; références Kingston vers 17:26–17:27 ; cache de panneau LSC vers 17:39 ; restitution déclarée vers 19:20. | Plusieurs opérations sont documentées après l’ouverture déclarée. Le PV manque pour les confronter à des actes consignés et identifier leur cadre. |
+| 28/10 | Arrivée à 10:22 ; ouverture PC à 10:41 et téléphones à 11:30 (PV lu le 8 novembre) ; reprise OP-01 vers 10:41 ; exports L16B ; références Kingston vers 17:26–17:27 ; cache de panneau LSC vers 17:39 ; restitution déclarée vers 19:20. | Les opérations sont postérieures aux ouvertures consignées. La lecture du PV du 8 novembre fournit les pages et descriptions ; elle ne certifie pas chaque opération technique. |
 | 12/11 | Fichiers auxiliaires Windows sur les trois SD, vers 23:35–23:51 selon les métadonnées étudiées. | Traitement Windows compatible ; poste et auteur non établis. |
 
 Les 53 appels et les traitements Photos conservés dans TP-02 ne sont pas réattribués au téléphone physique par ces nouveaux recoupements. Les limites détaillées du [rapport TP-02](../../telephones/analyse-TP-02.md) demeurent.
@@ -123,10 +130,16 @@ Pour clôturer ce volet : terminer les copies manquantes en conservant les origi
 | Essai contrôlé sur matériel de référence | Tester le défaut commun FAT/MP4 et les dates par défaut | Protocole préparé dans le guide ; non exécuté. Ne jamais tester sur les cartes originales. |
 | Supports Kingston ou image de destination | Vérifier l’archive et relier numéro de volume à matériel | Supports de destination non disponibles ; les Jump Lists seules ne livrent pas leur contenu. |
 | Conservation sur deux supports | Satisfaire la demande de sécurité des données | Complétude cloud et copie sur disque à achever/attester. |
-| PV et journal Mac | Lever certaines limites documentaires et de provenance | Déclarés indisponibles ; pas de nouvelle demande dans cette campagne. |
+| PV et journal Mac | Lever certaines limites documentaires et de provenance | PV lu le 8 novembre ; journal Mac toujours manquant. |
 
 Cette campagne ne constitue pas un examen exhaustif de tout l’espace non alloué : aucun carving intégral supplémentaire, aucune restauration de cliché VSS illisible et aucun décodage du format APM propriétaire n’ont été menés à terme ici. Une recherche plus large reste techniquement envisageable, mais sans cible ni garantie de conservation d’artefacts de 2024 ; elle ne remplace pas les pièces externes manquantes.
 
 Les modalités 30 % / 70 % sont une demande du mail, pas une acceptation contractuelle démontrée. L’attestation prévoit une restitution au plus tard le 06/11/2026 ; elle ne prouve pas la remise du disque de conservation.
 
 **Bilan : les pistes exploitables avec les sources accessibles ont été approfondies et les conclusions mieux circonscrites. Les principales limites restantes portent sur des historiques externes, les appareils de référence, la provenance ancienne des données et la conservation complète.** Les résultats ne justifient pas une affirmation d’intrusion ou de manipulation volontaire.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

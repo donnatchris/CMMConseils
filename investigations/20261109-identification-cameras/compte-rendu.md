@@ -2,6 +2,11 @@
 
 **9 novembre 2026 — examen local de dérivés déjà extraits de TP-02.**
 
+
+## Réponse en langage courant
+
+**Je n’ai pas identifié le modèle exact ni le firmware des caméras dans les dérivés examinés.** Les caches `detailv1` et `list313` ne sont pas décodés ; ce résultat ne prouve pas qu’ils ne contiennent pas l’information. Une photographie d’étiquette, les références d’achat et une lecture autorisée des paramètres sur appareil permettraient de poursuivre. Les 104 fichiers contrôlés et leurs empreintes sont référencés ci-dessous ; aucun accès nouveau à un compte ou à une caméra n’est présenté comme réalisé.
+
 ## Résultat
 
 **Aucun modèle exact ni firmware des caméras associées à SD-01, SD-02 et SD-03 n'a pu être identifié par cette passe.** Les caches `Documents/home/detailv1` et `Documents/home/list313` restent non décodés. Ce résultat ne signifie pas que ces informations sont absentes de leur contenu.
@@ -62,3 +67,9 @@ python3 investigations/20261109-identification-cameras/scripts/probe_lsc.py --ou
 ```
 
 Les sorties doivent présenter les mêmes empreintes, compteurs et résultats. Le script refuse de remplacer une destination existante et arrête l'analyse en cas de désaccord avec une empreinte d'extraction.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

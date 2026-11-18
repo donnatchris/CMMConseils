@@ -6,13 +6,23 @@
 
 **Équipement :** iPhone 13 mini — série `F5466LV9V7`
 
-## 1. Objet et périmètre
+## 1. Que signifie la connexion Wi-Fi datée du 17 octobre pendant la conservation ?
 
-Ce rapport présente les indices de fonctionnement, de communications, de connexions et de traitements de données conservés dans la sauvegarde de TP-02 pour la période du **15 au 28 octobre 2024**. Il examine leur provenance, les opérations après ouverture et les rapprochements avec OP-01, les autres téléphones, la Freebox et les caméras.
+**La séquence conservée dans TP-02 privilégie une configuration suivie d’une connexion Wi-Fi locale le 17 octobre 2024 vers 17 h 25. Je retiens cette explication parce que la préparation d’une adresse Wi-Fi, l’ajout par les réglages et la première association se suivent en moins de cinq secondes ; une simple synchronisation de mot de passe explique moins bien cet ensemble.**
 
-La présence d’une trace datée, son attribution au téléphone physique à cette date, son déclenchement par une personne et l’identité de cette personne sont des propositions distinctes. Une synchronisation peut transporter des objets et leurs dates ; une restauration peut également conserver un historique interne. Les mécanismes ne sont pas interchangeables et aucun n’est présumé avoir produit une ligne particulière sans preuve.
+Ce classement porte sur l’historique observé. Une restauration ultérieure peut transporter cet historique avec ses dates. Aucune restauration postérieure au 17 expliquant positivement cette séquence n’a été identifiée ; l’absence de journal complet empêche de l’écarter. Les sept migrations Photos portant l’identifiant exact de TP-02 renforcent le rattachement à cet appareil, sans rendre les historiques impossibles à copier. Le détail contradictoire et les pièces sont au § 6.
 
-Les résultats portent sur une **sauvegarde logique chiffrée tardive**, pas sur une image physique de l’iPhone ou un historique exhaustif depuis 2021. Les [mails de mission](../docs/mail.txt) et [complémentaires](../docs/mail-2.txt), l’[attestation](../remise-documents/attestation-de-remise.md) et le PV définissent le contexte. L’analyse est une investigation privée, sans désignation comme expertise judiciaire.
+| Explication | Pourquoi elle est retenue ou reste possible | Contrôle qui ferait avancer |
+|---|---|---|
+| Configuration puis connexion locale le 17 — privilégiée | Ordre cohérent des propriétés Wi-Fi dans deux fichiers ; raison d’ajout par les réglages ; traitements d’autres services juste avant. | Sauvegarde contemporaine et journal du point d’accès avec identité radio historiquement rattachée à TP-02. |
+| Simple synchronisation du mot de passe — moins étayée pour l’ensemble | Possible pour les identifiants de réseau ; les trois profils explicitement synchronisés du corpus ne reproduisent pas la chaîne complète ASUS. | Reproduction de la chaîne entière sur témoins, avec versions et états de verrouillage comparables. Cet essai n’est pas présenté comme réalisé. |
+| Restauration ou transfert complet de l’historique — alternative crédible | Une copie peut conserver les dates et transactions ; la restauration iCloud documentée du 11 juin précède cependant les faits d’octobre. | Historique de migrations après le 17, sauvegarde source/destination et comparaison de leurs identifiants. |
+
+**Il manque une preuve indépendante du fonctionnement physique et du premier déverrouillage à cette date.** Les noms de champs ne constituent pas un film des gestes ni une signature de personne. Un téléphone peut se connecter automatiquement après une configuration ; la qualification de l’opération et l’identité d’un opérateur ne se déduisent pas du nom du réseau.
+
+J’examine séparément les 53 appels enregistrés (§ 7), la capture possible après ouverture (§ 8) et les traitements applicatifs. Les trois SMS du 28 sont expliqués par la cliente comme ses propres démarches Microsoft/Google : ils ne constituent plus une piste suspecte. Le PV fixe l’ouverture des téléphones le 28 à 11 h 30, distincte de l’arrivée de la cliente à 10 h 22 (§ 3).
+
+J’ai examiné la sauvegarde logique chiffrée tardive identifiée au § 3, les extractions vérifiées et leurs recoupements. Les [mails](../docs/mail.txt), leur [complément](../docs/mail-2.txt), l’[attestation](../remise-documents/attestation-de-remise.md) et les [PV](../docs/PV%20DE%20SAISIE.pdf) documentent le contexte. Les sources, scripts, filtres et limites figurent aux §§ 4, 6 et 13.
 
 ## 2. Synthèse des conclusions
 
@@ -26,7 +36,7 @@ Le complément du **13 novembre 2026**, développé en section 6, précise que l
 | **Appels** | **53 lignes**, dont **22 marquées sortantes sur huit jours et 19 à durée positive**. | L’origine matérielle n’est pas identifiée ; synchronisation ou restauration restent possibles. |
 | **27 octobre** | **3 123 dates de modification Photos** groupées vers 02:44–02:45, UTC+2. | Traitement groupé de bibliothèque possible ; pas 3 123 retouches ou consultations humaines. |
 | **28 octobre après 11:30** | Trois SMS de validation/réinitialisation avec dates de lecture, associations Wi-Fi, séquence compatible avec une capture d’écran et traitements Photos/LSC. | Après l’ouverture documentée ; ne prouve pas une manipulation sous scellé fermé. La cliente confirme avoir effectué elle-même la réinitialisation Microsoft et les validations Google ; ce point ne nécessite plus d’approfondissement à sa demande. |
-| **Provenance Photos** | Sept migrations et leur journal portent l’**UDID TP-02 exact**, avant et après octobre. | Renforce le rattachement historique de la lignée, sans rendre ses historiques intransportables. |
+| **Provenance Photos** | Sept migrations et leur journal portent l’**UDID TP-02 exact**, avant et après octobre. | Renforce le rattachement historique de l’historique conservé, sans rendre ses historiques intransportables. |
 | **WidgetKit** | Diagnostic portant un lancement le 17 et une capture le 28, avec compteurs temporels différents du calendrier. | Ne date ni un allumage ni un déverrouillage ; ne prouve ni erreur d’horloge ni sommeil prolongé. |
 | **Caméras et extraction** | Présence de ressources de panneau caméra et de configurations ; aucun flux consulté ou outil d’extraction d’octobre identifié. | Un cache ou une capacité du logiciel ne prouve pas l’utilisation de la fonction. |
 | **Autres supports** | Nom ASUS présent aussi dans le fichier d’échange d’OP-01 ; PDF Mini communs à TP-02 et TP-03. | Ni point d’accès commun daté, ni téléphone source exclusif, ni copie finale saisie certifiés. |
@@ -172,11 +182,11 @@ Une **restauration iCloud le 11 juin 2024 à 14:00:31 Paris** est conservée dan
 
 Les **sept migrations Photos** et les sept dictionnaires de leur journal PLJ portent l’**UDID TP-02 exact**, modèle `D16AP`, avec le même UUID de bibliothèque actuel. Elles vont du **11 juin 2024 au 25 mai 2025** ; celles du **3 septembre** et du **6 décembre 2024** encadrent octobre. Les représentations SQL et PLJ sont des miroirs d’un même historique, pas deux acquisitions indépendantes.
 
-Les changements de build sont compatibles avec des migrations de schéma : **ils ne prouvent pas sept restaurations iOS**. Aucun autre UDID n’est enregistré dans cette lignée. Cela défavorise une migration inter-appareils inscrite par cette bibliothèque, sans exclure copie ou restauration du même appareil.
+Les changements de build sont compatibles avec des migrations de schéma : **ils ne prouvent pas sept restaurations iOS**. Aucun autre UDID n’est enregistré dans cet historique. Cela défavorise une migration inter-appareils inscrite par cette bibliothèque, sans exclure copie ou restauration du même appareil.
 
 Un sous-état Setup Assistant garde `hardwareModel=D79AP`, différent du modèle courant, et une sortie au **6 décembre à 11:00:19**. Cet héritage est réel mais ne date pas son transport ; la sortie n’est pas une restauration démontrée. Les identifiants de sauvegarde, bibliothèque et Santé n’ont pas la même portée.
 
-**La continuité d’une lignée Photos historiquement liée à TP-02 est étayée ; celle de toute l’installation physique, ininterrompue depuis octobre, ne l’est pas.** Une copie logique de Photos vers une base en mémoire conserve les transactions du 17 sans réexécution. Ce contrôle valide leur transportabilité, pas une restauration iOS expérimentale ni une réplication systématique de tout l’historique par simple synchronisation d’objets.
+**La continuité d’un historique Photos historiquement liée à TP-02 est étayée ; celle de toute l’installation physique, ininterrompue depuis octobre, ne l’est pas.** Une copie logique de Photos vers une base en mémoire conserve les transactions du 17 sans réexécution. Ce contrôle valide leur transportabilité, pas une restauration iOS expérimentale ni une réplication systématique de tout l’historique par simple synchronisation d’objets.
 
 ## 6. Wi-Fi ASUS_Z01RD : chaîne conservée et limites d’attribution
 
@@ -411,7 +421,7 @@ a6da7e464e750a2961b3c315458f39be5abaf8966cb865ac014ea6b6f3a89ed0
 | `wasUnlockedSinceBoot` / `isLocked` | **1 / 1** |
 | Modèle / système | `iPhone14,4`, **17.6.1**, build `21G93` |
 
-Les indicateurs sont compatibles avec un appareil verrouillé à la capture et un déverrouillage antérieur dans la session, **sans horaire de déverrouillage**. Le diagnostic ne contient ni série ni UDID individuel. Sa clé appartient à un ensemble de diagnostics cohérent avec la restauration de juin, sans jointure formelle à la série ou à la lignée Photos.
+Les indicateurs sont compatibles avec un appareil verrouillé à la capture et un déverrouillage antérieur dans la session, **sans horaire de déverrouillage**. Le diagnostic ne contient ni série ni UDID individuel. Sa clé appartient à un ensemble de diagnostics cohérent avec la restauration de juin, sans jointure formelle à la série ou à l’historique Photos.
 
 L’écart des dates civiles est de **936 641,8884 s**, environ 10,84 jours. Sous un modèle de ticks proche de **24 MHz**, la différence des compteurs représente **1 760,410143 s de temps système éveillé**, pas du temps CPU propre à l’extension. Les **312 diagnostics** étudiés sont compatibles avec ce modèle et une présentation d’uptime tronquée ; la fraction matérielle exacte n’est pas disponible dans la preuve.
 
@@ -555,7 +565,7 @@ Les chronologies conservent valeurs brutes, UTC/Paris, localisateurs, fileID, em
 | Terme | Sens dans ce rapport |
 |---|---|
 | Sauvegarde logique / MBFile | Fichiers retenus par iOS / métadonnées de leurs objets dans le manifeste ; pas une image de tous les secteurs. |
-| UDID / UUID de bibliothèque | Identifiant déclaré de l’appareil / identifiant de lignée de données. Une copie peut conserver un historique sans le réexécuter. |
+| UDID / UUID de bibliothèque | Identifiant déclaré de l’appareil / identifiant de historique de données. Une copie peut conserver un historique sans le réexécuter. |
 | SSID / BSSID / MAC privée | Nom du réseau / adresse du point d’accès / adresse cliente utilisée par l’iPhone. Ils ne sont pas interchangeables ni des identités de personne. |
 | SQLite / WAL / `quick_check` | Base de données / journal de transactions / contrôle de cohérence. Un journal absent limite les états anciens récupérables. |
 | ATRANSACTION / Core Data / CPL | Historique applicatif de changements / mécanisme de persistance / services de photothèque cloud. Une transaction n’est pas un geste. |
@@ -566,3 +576,9 @@ Les chronologies conservent valeurs brutes, UTC/Paris, localisateurs, fileID, em
 ### 13.3. Références de formats
 
 Les références de formats et mécanismes utilisées dans les pièces techniques comprennent [l’époque Apple](https://developer.apple.com/documentation/foundation/date/timeintervalsincereferencedate-swift.property), [les transactions Core Data](https://developer.apple.com/documentation/coredata/nspersistenthistorytransaction), [le format des diagnostics Apple](https://developer.apple.com/documentation/xcode/interpreting-the-json-format-of-a-crash-report), [les compteurs Mach](https://developer.apple.com/documentation/driverkit/c-runtime-support), [les journaux SQLite](https://www.sqlite.org/wal.html) et [l’API de copie SQLite](https://www.sqlite.org/backup.html). Ces mécanismes généraux expliquent des possibilités ; ils ne sont pas des journaux d’opérations propres à TP-02.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

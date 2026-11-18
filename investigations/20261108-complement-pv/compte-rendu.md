@@ -1,8 +1,10 @@
-# Complément technique à la lecture du PV — 8 novembre 2026
+# Complément technique consolidé à la lecture du PV — contrôles des 8 et 9 novembre 2026
 
-**Dossier : SADEDINE-2026. État au 8 novembre : contrôles partiels. Mise à jour du 9 novembre : résultats SIFT récupérés et vérifiés ; voir la [reprise détaillée](reprise-20261109.md), qui actualise les passages ci-dessous relatifs à l’indisponibilité de SIFT. Mise à jour ultérieure : déchiffrement réussi au huitième essai, 46 PDF extraits et 27/27 PDF de L16B retrouvés identiques dans TP-02 ; voir la reprise détaillée.**
+**Question examinée :** les documents locaux et les PDF permettent-ils de préciser la copie décrite au PV et les suppressions du 28 octobre 2024 ?
 
-Ce complément exécute les vérifications proposées dans la [lecture du PV](../20261108-analyse-pv/compte-rendu.md). Il distingue les résultats acquis des sélections automatiques restant à examiner. Le CD d’inventaire est confirmé indisponible par le prestataire. Aucune équivalence entre le dossier informatif L16B et le jeu définitivement saisi n’est présumée.
+**J’ai retrouvé le texte des deux factures supprimées dans le PDF Sage, déchiffré les 46 PDF sélectionnés de TP-02 et retrouvé un équivalent binaire pour chacun des 27 PDF Mini de L16B.** Le déchiffrement réussi remplace les blocages des premiers essais. Leurs journaux sans secrets restent dans `resultats/` ; les sorties partielles ne sont pas les résultats définitifs.
+
+Les contrôles du 14 novembre ont ensuite retrouvé les mêmes vingt contenus dans TP-03 ; ceux du 16 novembre ont confirmé les 27 PDF au CSV. L’identité du contenu ne désigne donc pas un Mini exclusif. Les trois divergences de l’inventaire et les statuts de messageries sont exposés dans les rapports actuels [Q1](../../inventaire-DNEF/rapports/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.md) et [correspondances](../../ordinateur/recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md).
 
 ## 1. Préservation et méthode
 
@@ -10,39 +12,66 @@ OP-01 a été monté sur SIFT par EWF, boucle en lecture seule, Dislocker en lec
 
 Les versions antérieures du rapport final restent conservées dans l’historique Git, notamment au commit `8dd5a85`. Le dossier `rapports-avant/` a été retiré de l’arborescence de travail. Les conclusions historiques restent inchangées. Les sorties anciennes ou les tentatives échouées sont conservées et explicitement distinguées des résultats utilisables. La normalisation éditoriale des noms et chemins du 12 novembre 2026 est tracée dans `../../generer-pdf/correction-denomination-20261112.json`.
 
-## 2. Messageries et noms de l’annexe au PV
 
-La recherche sur SIFT s’est terminée sans erreur signalée dans stderr. Son résumé, reçu avant la perte de connexion, est conservé dans [sift-resume-provisoire.json](resultats/sift-resume-provisoire.json). Il annonce :
+## 2. Factures : contenu conservé après suppression
 
-- 6 206 messages parcourus, huit fichiers mbox, trente EML et un mbox Takeout ; trois textes WhatsApp ;
-- 6 419 pièces jointes, dont 3 971 avec texte décodé et 2 448 entrées de limitation/erreur à qualifier ;
-- dix-sept messages candidats à identifiants distincts, aucun résultat dans les trois textes WhatsApp ;
-- cinq occurrences pour Pascoet, six pour Meyer, une pour Dress, cinq pour Negrevergne et une pour Liwer. Un message peut correspondre à plusieurs motifs ; ces nombres ne s’additionnent donc pas en dix-sept messages distincts ;
-- vingt-sept PDF du dossier Mini traités ; empreintes avant/après annoncées identiques pour toutes les sources contrôlées.
+### Factures récupérées
 
-**Ces résultats sont des candidats lexicaux, pas des correspondances d’avocats confirmées.** Les motifs recherchent principalement des noms de famille, parfois ambigus ; la lecture manuscrite de certains noms doit également être vérifiée. Les pièces jointes non décodées et les documents image sans OCR empêchent toute conclusion d’exhaustivité. La recherche est bornée aux formats et limites du script `analyse_sift.py`.
+Les deux pages du document supprimé `test.pdf` correspondent respectivement aux pages **254 et 255** du texte extrait de `L16B/SAGE/sage.pdf` (458 pages textuelles non vides). Les factures portent les références **FA0338 et FA0339**.
 
-Les fichiers détaillés, contextes privés, empreintes individuelles et textes PDF sont restés dans `/home/sansforensics/analysis/complement-pv-20261108` sur SIFT. Lors de la reprise, la connexion `ssh -F /home/chris/.ssh/config sift` est refusée sur le port 2222. Leur examen est donc **en attente**, sans conclusion sur un manquement au filtrage annoncé dans le PV. Même une présence dans L16B ne démontrerait pas la présence dans le jeu définitivement saisi.
+La comparaison utilise `pdftotext -layout` et supprime seulement les caractères d’espacement avant comparaison, sans ignorer la casse ni la ponctuation. Les deux textes normalisés sont strictement identiques. Le [résultat reproductible](resultats/comparaison-factures.json) et le script `scripts/comparer_factures.py` sont conservés.
 
-## 3. Inventaire externe et documents comptables
+**Conséquence : le contenu textuel des deux factures subsiste dans le PDF Sage de L16B.** La mise à la corbeille de `test.pdf` reste un fait ; elle ne démontre pas la disparition de ces factures du corpus local conservé. Ce contrôle ne porte pas sur l’identité binaire des PDF ou le rendu graphique, et n’établit ni le motif de la suppression ni le contenu du support définitivement saisi.
 
-La recherche nominale sur les répertoires alloués visés par le script ne signale aucun fichier correspondant aux noms d’inventaire, de rejets, d’archive externe ou à LdSD recherchés. Ce résultat ne constitue pas une recherche exhaustive de l’espace supprimé ni une preuve d’absence historique. Les références Windows déjà documentées restent valides.
+SHA-256 de `test.pdf` récupéré : `f2cb8dbbbb28fe11eaddc59d31045152218516a1585109bd529a075e48dd8201`. SHA-256 de `sage.pdf` relevé sur SIFT le 8 novembre : `0718f1b0819210c2def92a8097bafb1a7c0586673cf37848afbbf55c943728a6`.
 
-Le CD étant indisponible, le contrôle de l’inventaire final et des empreintes de saisie reste impossible. Le texte de `sage.pdf` a été demandé sur SIFT ; la comparaison page par page avec les deux factures de `test.pdf` récupéré reste à réaliser après récupération des résultats. Aucun résultat de cette comparaison n’est annoncé ici.
 
-## 4. TP-02 : fenêtre de vérification Apple et PDF
+## 3. Qualification des candidats de la recherche initiale
 
-La fenêtre examinée est le **28 octobre 2024 de 11 h 30 à 12 h 15, heure de Paris**, par date de message ou date de lecture. Deux SMS reçus sont enregistrés à 12 h 03 min 14,750877 s et 12 h 10 min 04,455466 s ; les champs de lecture sont respectivement datés de 12 h 03 min 18,794336 s et 12 h 10 min 06,276799 s.
+### Correspondances : portée du contrôle
 
-**Précision de la cliente intégrée le 13 novembre 2026.** Mme Sadedine confirme avoir effectué elle-même la réinitialisation Microsoft et les validations Google du **28 octobre 2024, entre 12 h 03 et 12 h 46**, car elle n’arrivait pas à se connecter pour l’administration ([courriel, point 3](../../docs/mail-3.txt)). **Ce point est expliqué par sa déclaration et ne nécessite plus d’approfondissement à sa demande.** Les limites techniques décrites ci-dessous restent celles du contrôle réalisé ; elles ne remettent pas ce point parmi les démarches inexpliquées.
+Les dix-sept messages candidats ont des Message-ID distincts. Cela ne signifie pas dix-sept conversations distinctes ni dix-sept correspondances protégées. Les références privées (source, index, Message-ID, contexte) sont conservées dans `prive/sift-recupere/prive/lawyer-candidates.json`.
 
-**Correction méthodologique :** le champ `text` est NULL pour ces deux messages, tandis que `attributedBody` contient respectivement 991 et 1 004 octets. Le premier résumé automatisé avait marqué `apple_mentioned: false` sur la seule colonne `text`. Ce résultat n’est pas interprétable comme une absence de message Apple. Le [résumé corrigé](resultats/sms-fenetre-resume-corrige.json) remplace ce booléen par une valeur indéterminée. À la date de ce complément, le décodage du corps restait à effectuer. Le [contrôle ultérieur du 9 novembre](../20261109-sms-lecture/compte-rendu.md) extrait les chaînes des corps : le premier message mentionne un code de réinitialisation Microsoft et le second un code de validation Google ; un troisième SMS à 12 h 46, hors de cette fenêtre, mentionne aussi un code de validation Google. Les dates de lecture proviennent du champ `date_read` de `sms.db` ; les deux lignes portent aussi `is_read=1`. Il s’agit donc d’horodatages conservés, et pas seulement d’un état « lu » observé lors de l’analyse. Ils ne prouvent ni une lecture humaine locale sur TP-02 à ces instants ni l’identité d’un lecteur : un marquage, une synchronisation depuis un autre appareil ou une restauration restent possibles.
+Cinq messages du dossier **Éléments envoyés**, dans l’extraction du PST dmm, portent comme destinataire l’adresse du cabinet Negrevergne. Leurs en-têtes sont datés des **23 août, 6 septembre, 12 septembre, 3 octobre et 8 octobre 2024**. Ils constituent des occurrences directes dans les en-têtes, et non de simples coïncidences lexicales dans une pièce jointe. Le dossier et les en-têtes ne prouvent toutefois ni la remise effective au destinataire ni l’identité de la personne ayant envoyé le message.
 
-Le parcours de toutes les entrées de fichiers réguliers du Manifest déchiffré dénombre **2 189 PDF**. Une sélection par identité de taille OU de nom normalisé avec les vingt-sept PDF de `L16B/TELEPHONES/IPHONE13_MINI` produit **46 fichiers candidats, représentant 8 026 257 octets**. La sélection et ses critères sont conservés dans `prive/pdf-selection.csv` et `prive/pdf-selection-matches.json` ; script reproductible : `scripts/selection_pdf.py`.
+Quatre autres candidats sont des avis de non-remise des 4 et 5 septembre 2024, dont le contenu cite Christian Pascoet dans une copie de message. Un cinquième rapprochement avec ce nom figure dans une pièce jointe au message du 3 octobre déjà compté parmi les cinq destinés au cabinet Negrevergne. La notification AR24 du 24 janvier 2024 annonce un recommandé envoyé à la demande de Charlotte Liwer ; sa présence ne donne pas le contenu du recommandé.
 
-Le mot de passe proposé par le prestataire a été essayé une fois via saisie masquée. La bibliothèque retourne `IncorrectPassphraseError` lors de l’initialisation ; aucun des 46 PDF n’a été déchiffré par cette tentative. Le secret n’est pas enregistré dans les scripts ou rapports. Un mot de passe exact est nécessaire pour poursuivre.
+La contre-lecture des pièces jointes précise les autres candidats :
 
-Une correspondance de nom ou de taille ne constitue pas une identité de contenu. Aucune attribution du premier Mini du PV à TP-02 n’est tirée de cette sélection. Même une identité future de contenu devra être appréciée avec les possibilités de copie ou de synchronisation entre appareils.
+- une proposition de services du cabinet Aston nomme **Rachel Dress**, présentée comme avocate associée ; il s’agit d’un document professionnel pertinent pour le contrôle, et non d’une homonymie ;
+- cinq messages contiennent, sous forme PDF ou DOCX et avec répétitions de contenu, une demande de report d’audience citant **Georges Meyer comme représentant de la partie adverse**. Leur présence ne constitue pas une correspondance directe entre la cliente et cet avocat ;
+- un livre contient une occurrence de « Meyer » sans lien établi avec l’avocat de la liste : ce candidat est écarté de ce rapprochement ;
+- la pièce jointe du message du 3 octobre reproduit un échange où **Christian Pascoët** est explicitement identifié comme expéditeur. Ce constat est plus précis qu’une simple mention de son nom.
+
+Les seize candidats provenant des PST ont été relus directement dans les mbox et leurs Message-ID vérifiés. La notification Takeout a été examinée dans les en-têtes et contextes extraits le 8 novembre, sans réouverture de l’archive lors de cette reprise. Le [classement des dix-sept candidats](resultats/qualification-candidats.json) est conservé ; les contenus restent privés. Deux premières contre-lectures ont été interrompues pour éviter la réindexation répétée des mêmes archives ; la version achevée est `scripts/revoir_candidats_v3.py`, avec sortie dans `prive/verification-20261109-v3/review.json`.
+
+**Ces éléments justifient un examen ciblé du filtrage annoncé au PV, mais ne démontrent pas un manquement.** Le PV distingue le dossier L16B laissé à titre informatif et les fichiers finalement saisis après exclusion. Le contrôle du CSV fourni confirme désormais les conteneurs DMM et Takeout, tandis que 93300 diverge. Le contenu du support de destination et les exclusions restent à contrôler. Leur qualification juridique n’est pas tranchée par cette analyse technique.
+
+### Limites des pièces jointes
+
+Les 2 448 entrées anciennement regroupées sous « erreurs » comprennent **2 441 formats/extensions non pris en charge** et **7 échecs de lecture PDF**. Il ne s’agit donc pas de 2 448 fichiers démontrés corrompus. Les entrées correspondent à des occurrences de pièces jointes et ne sont pas dédupliquées. Les images n’ont pas été soumises à OCR ; les documents bureautiques anciens et archives imbriquées ne sont pas couverts par le décodage de ce script. Le détail est dans [limites-pieces-jointes.json](resultats/limites-pieces-jointes.json).
+
+
+## Déchiffrement réussi et comparaison des PDF
+
+Le huitième mot de passe communiqué a permis le déchiffrement. Les **46 PDF sélectionnés ont été extraits sans erreur**, dans un nouveau dossier de travail. Le secret n’est inscrit ni dans les scripts ni dans les rapports.
+
+Les **27 PDF de `L16B/TELEPHONES/IPHONE13_MINI` possèdent tous au moins un équivalent strictement identique par SHA-256 parmi ces fichiers de la sauvegarde TP-02**. La comparaison porte sur les octets déchiffrés, et non seulement les noms, tailles ou textes. Les correspondances détaillées restent dans `prive/comparaison-pdf-identites.json`. Le résultat public est dans [comparaison-pdf-tp02.json](resultats/comparaison-pdf-tp02.json) et la méthode reproductible dans `scripts/verifier_pdf_extraits.py`.
+
+Les empreintes des 46 fichiers chiffrés sources, recalculées après extraction, sont identiques à celles relevées avant leur déchiffrement. Les empreintes des sorties ont également été recalculées ; toutes correspondent au journal d’extraction et toutes les sorties portent une signature PDF. Aucun fichier source n’a été remplacé.
+
+**Portée :** ce résultat établit un contenu commun entre L16B et la sauvegarde identifiée comme TP-02. Il renforce le rapprochement du dossier Mini avec cet appareil, mais ne démontre pas que les fichiers proviennent exclusivement de ce téléphone, qu’ils étaient présents sur lui à la date de la saisie, ou qu’ils ont été copiés directement de ce téléphone vers OP-01. Des copies ou synchronisations restent possibles. Le PV ne fournissant pas les numéros de série des deux Mini, leur correspondance avec les scellés ne devient pas certaine par ce seul résultat.
+
+Le mot de passe n’est plus un blocage pour cette comparaison, désormais achevée. Le support d’origine du CSV et l’archive finale restent à examiner ; le CSV fourni a depuis été comparé intégralement aux contenus locaux le 16 novembre.
+
+## Lecture thématique des 27 PDF
+
+La lecture du texte extrait montre 27 fichiers, correspondant à **20 contenus binaires distincts** (déduplication SHA-256). Ils regroupent des factures commerciales, loyers, devis Apple, factures NordVPN et des courriels bancaires, comptables ou juridiques exportés en PDF.
+
+**Point complémentaire important :** `Rép  Dossier bourarach.pdf` reproduit des échanges de juillet-août 2017 avec **Me Isabelle Guillou**, concernant un recours au tribunal administratif de Montreuil, des justificatifs et des honoraires. Ce nom ne figurait pas dans les motifs de la recherche initiale fondée sur la liste manuscrite. L’absence de correspondance à ces motifs dans les 27 PDF ne signifie donc pas l’absence de documents contenant des échanges avec un avocat. Ce constat documentaire ne prouve toujours pas l’inclusion du PDF dans le jeu définitivement saisi.
+
+La facture Technocity `facture rct 0801.pdf` et ses deux doublons portent le libellé « CAMERA INSTALLATION », une date imprimée du 02/05/2023 et un total de 1 500 euros pour RCT. Elle constitue une piste documentaire relative à une installation de caméra, sans identifier les caméras de la mission ni démontrer leur date effective d’installation.
+
 
 ## 5. Dernier clip du salon
 
@@ -52,10 +81,17 @@ Les images montrent plusieurs personnes manipulant notamment des documents. Vers
 
 Une piste MP3 mono à 16 kHz a été dérivée pour une tentative de transcription locale. Le modèle Whisper small, langue française et détection vocale activée, a produit **zéro segment**. Le résultat et les paramètres sont dans [transcription-meta.json](resultats/transcription-meta.json). La première tentative a échoué sur une incompatibilité PyAV ; la seconde a utilisé un décodage PCM par ffmpeg. **Aucune écoute humaine validée n’a été réalisée et aucune absence de parole n’est déduite de cet échec de transcription.**
 
-Les conclusions techniques antérieures restent inchangées : dernière image décodée vers 13 h 32 min 26 s selon la caméra, piste sonore de 277,760 secondes, écart audio/vidéo de 11,589 secondes et défaut structurel récurrent sur d’autres clips. Ni coupure volontaire, ni allumage de téléphone, ni identité d’auteur ne sont démontrés.
+Les conclusions techniques antérieures restent inchangées : dernière image décodée vers 13 h 32 min 26 s selon la caméra, piste sonore de 277,760 secondes, écart audio/vidéo de 11,589 secondes et défaut structurel récurrent sur d’autres clips. Ces planches du clip commençant à 13:28 ne démontrent ni coupure volontaire ni identité d’auteur ; le démarrage antérieur des téléphones est traité séparément dans la note de constatation du 16 novembre.
 
-## 6. Conséquences pour la synthèse et suite précise
 
-Le rapport final est corrigé pour intégrer le PV désormais lu : arrivée à 10 h 22 distincte de l’ouverture du scellé du PC à 10 h 41, téléphones à 11 h 30, manipulation SIM à 11 h 45 et clôture à 19 h 20 distincte d’une heure individualisée de restitution. Il distingue la copie consignée par les agents de sa vérification technique incomplète.
+## 6. SMS expliqués et pièces encore utiles
 
-Il reste à récupérer les sorties SIFT, qualifier les dix-sept messages et les limitations d’extraction, comparer les factures et examiner les métadonnées des vingt-sept PDF. Le déchiffrement des 46 candidats nécessite le bon mot de passe. Le CD indisponible constitue une limite documentaire indépendante. Aucun de ces travaux en attente n’est présenté comme achevé ou comme preuve d’irrégularité.
+Les corps des trois SMS du 28 ont été contrôlés le 9 novembre. Mme Sadedine explique dans son [courriel du point 3](../../docs/mail-3.txt) les démarches de réinitialisation Microsoft et de validation Google qu’elle a effectuées. Le [contrôle SMS](../20261109-sms-lecture/compte-rendu.md) est une justification technique conservée ; ce point ne reste pas une piste suspecte.
+
+L’explication privilégiée des deux factures est leur conservation dans la sortie Sage malgré la suppression de `test.pdf`, sur la base de la comparaison textuelle normalisée. Elle ne prouve pas l’identité graphique ou binaire de ces deux PDF. Pour le parcours des PDF Mini et les exclusions annoncées, les journaux du logiciel de collecte, l’archive finale, les rejets et le support d’inventaire sont nécessaires. L’écoute humaine validée du clip salon n’est pas présentée comme réalisée ; zéro segment de transcription automatique ne signifie pas absence de parole.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

@@ -1,5 +1,11 @@
 # Outils TP-02
 
+## Parcours de la sauvegarde aux conclusions Wi-Fi
+
+Suivre inventaire et identification → sélection par domaine/chemin/fileID → déchiffrement dans une destination neuve → vérification des empreintes → cohérence SQLite/compagnons → ciblages temporels → contre-épreuves Wi-Fi. La fenêtre générale 15/10 13:30–28/10 19:20 Paris inclut l’après-ouverture ; le contrôle avant ouverture s’arrête au 28/10 11:30 exclu et commence au 15/10 14:19 inclus sans présumer l’heure individuelle de fermeture. Les conversions utilisent Europe/Paris avec le changement du 27 octobre.
+
+Le [rapport TP-02](../analyse-TP-02.md) utilise l’identification/intégrité au § 4, les créations et traitements au § 5, la comparaison des 36 configurations et des deux plist au § 6, les appels au § 7 et les transactions Photos au § 8. La [méthode Wi-Fi](../recherche-TP-02/investigation-wifi-17oct2024/methodes-et-reproduction.md) conserve les paramètres, filtres et contrôles source/copie. Les états répétés dans deux fichiers ne sont pas deux témoins indépendants. Les tests de transfert sur témoins restent proposés, sans résultat anticipé.
+
 Ces outils lisent la sauvegarde originale sans écriture. Les extractions utilisent `iphone_backup_decrypt` **0.11.2**, Python **3.14.4**, SQLite **3.46.1** dans `telephones/scripts/.venv-iphone`. Les outils d’inventaire et d’analyse utilisent la bibliothèque standard Python. Exécuter depuis la racine du projet.
 
 Les destinations doivent être **nouvelles** : les outils refusent de remplacer un répertoire de résultats existant. L’extraction recueille le mot de passe avec `getpass` dans un terminal interactif ; aucun argument ou fichier de mot de passe n’est prévu. Les pièces déchiffrées peuvent contenir des données confidentielles : leurs permissions sont restreintes et `telephones/recherche-TP-02/` est exclu de Git par son `.gitignore`.
@@ -90,3 +96,9 @@ La campagne complète du 14/10/2026 a déchiffré **3 890 fichiers**, dont Photo
 - `tp02_consistency.py --fresh-manifest ...` : redéchiffrement du manifeste depuis l’original, avec mot de passe interactif et suppression du fichier temporaire après comparaison SHA-256.
 
 La vérification initiale a porté sur 3 888 objets, puis le complément WhatsApp sur deux autres. Toutes les empreintes sources et extraites correspondent à celles consignées lors de l’extraction. Les 94 différences de taille MBFile/contenu restent documentées ; elles ne sont pas corrigées artificiellement. Les cinq APM LSC demeurent dans un format non décodé. Les trois tests synthétiques et les contrôles réels complètent la vérification, sans prétendre à une couverture physique exhaustive du téléphone.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

@@ -1,3 +1,5 @@
+> Correspondance antérieure aux contrôles finaux des 14–17 novembre 2026. Son contenu est conservé comme réponse datée ; il ne remplace pas les conclusions actuelles des rapports.
+
 
 Bonjour Madame Sadedine,
 

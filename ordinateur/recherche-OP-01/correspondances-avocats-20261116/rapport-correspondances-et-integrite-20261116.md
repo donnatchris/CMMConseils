@@ -4,6 +4,15 @@
 
 Le relevé est présenté dans deux tableaux : **d’abord les traces présentes dans les fichiers dont le SHA-512 correspond à l’inventaire**, puis **celles du fichier dont le SHA-512 diverge et dont la présence dans la version inventoriée ne peut donc pas être certifiée**. Seuls les dates, expéditeurs, destinataires, copies, objets et références sont reproduits ; aucun corps de message ni contenu de pièce jointe n’est reproduit.
 
+
+## Réponse en langage courant
+
+**J’ai retrouvé 21 messages identifiant un avocat ou son cabinet dans les en-têtes du PST DMM dont le contenu correspond à l’empreinte numérique de l’inventaire fourni.** Les neuf messages Fakiroff/Roosevelt, sept Wahrheit et cinq Negrevergne sont distincts des citations, avis de non-remise et notifications. Ces dernières ne deviennent pas des échanges directs par addition des lignes.
+
+Le PST DMM et Takeout concordent au CSV ; le PST 93300 diverge. Les deux messages Khallouki et trois transferts retrouvés dans ce dernier ne sont donc pas certifiés dans sa version inventoriée. La concordance d’un conteneur ne prouve ni lecture par un agent, ni utilisation fiscale, ni qualification juridique de chacun de ses éléments. Le PDF Guillou/Bourarach est contrôlé séparément dans le dossier Mini et concorde individuellement à l’inventaire.
+
+Je retiens la présence inventoriée comme résultat technique, sans assimiler le CSV à une acquisition de l’archive finale. Le contrôle de cette archive, des rejets et du support d’inventaire permettrait à l’avocate d’examiner le filtrage annoncé. Les catégories ci-dessous reprennent la règle de clarification : échanges directs, chaînes citées, transferts, notifications et simples mentions sont distingués ; aucune catégorie ne préjuge la protection juridique.
+
 ## 1. Correspondances et traces présentes dans des fichiers dont le SHA-512 correspond à l’inventaire
 
 **La présence de ces éléments dans les fichiers correspondant aux empreintes de l’inventaire est établie** : `dmmconseils@hotmail.com.pst` et `takeout-20241028T114105Z-001.zip` ont chacun le même SHA-512 que celui inscrit dans le CSV au même chemin.
@@ -180,3 +189,9 @@ Les empreintes des deux PST et du ZIP Takeout ont été recalculées localement 
 - [Relevé structuré des métadonnées](releve-metadonnees.json).
 
 Les deux comptes rendus initiaux et leurs pièces techniques sont conservés. Ce rapport les rassemble en explicitant la concordance ou la divergence de chaque conteneur à l’inventaire.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

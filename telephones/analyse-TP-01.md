@@ -6,11 +6,17 @@
 
 **Équipement :** iPhone 13 — série `Q13QT4F164`
 
-## 1. Objet et synthèse
+## 1. Les dates conservées prouvent-elles une utilisation locale de TP-01 ?
 
-Ce rapport présente les données de TP-01 relatives à la conservation des téléphones du **15 au 28 octobre 2024**, les indices d’activité, les communications, les métadonnées cloud et les limites de leur attribution au matériel. Il repose sur une sauvegarde logique tardive, sans image physique ni journal continu d’utilisation.
+**Non : j’ai retrouvé des données datées pendant la conservation du 15 au 28 octobre 2024, mais elles ne suffisent pas à établir une utilisation locale du téléphone avant son ouverture le 28 à 11 h 30. Elles ne certifient pas davantage qu’il est resté éteint.**
 
-**Des données portent des dates comprises dans la période de conservation, mais aucune interaction locale sur le téléphone physique TP-01 avant l’ouverture du 28 à 11:30 n’est établie. Son maintien à l’état éteint n’est pas davantage certifié.**
+L’exemple le plus lisible est WhatsApp : deux messages portent une date du 15 après la perte d’accès déclarée, tandis que quatorze messages de ce jour ont un autre horodatage regroupé le 28 vers 16 h 13. Je privilégie un traitement différé, parce que ce regroupement est commun à plusieurs messages anciens et intervient après l’ouverture. Une réception locale le 15 ou le transport ultérieur d’un historique restent possibles, sans preuve les départageant dans cette sauvegarde. Les identifiants de lignes et champs comparés figurent au § 4.2.
+
+Les dates de messagerie vocale ne sont ni des dates d’écoute ni des dates de suppression ; les dates cloud peuvent accompagner des données reçues plus tard. Les traitements du 28 et les deux lignes WhatsApp sortantes sont examinés séparément, car ils sont postérieurs à l’ouverture (§§ 4 à 6).
+
+**Identification à résoudre :** l’attestation et la sauvegarde portent la série `Q13QT4F164`, mais le téléphone décrit comme vert à la remise ne peut pas être rattaché avec certitude au scellé n° 2 décrit comme noir dans les PV. La photographie de face établit les identifiants lisibles, sans montrer clairement la couleur du dos. Une photo de saisie ou un relevé de série/IMEI permettrait d’avancer (§ 2.1 et [note d’identification](../NOTE-DE-CONSTATATION-TP-01.md)).
+
+J’ai examiné une sauvegarde logique non chiffrée dont les dates internes sont du 9 novembre 2026, soit deux ans après les faits. L’historique des sauvegardes/restaurations, une copie contemporaine de 2024 et les relevés opérateur seraient nécessaires pour attribuer les dates au téléphone physique. Les références de sauvegarde, empreintes, champs, résultats et scripts sont donnés aux §§ 3 et 9.
 
 | Domaine | Résultat | Conclusion permise |
 |---|---|---|
@@ -190,3 +196,9 @@ Les pièces conservent requêtes, valeurs brutes, localisateurs et empreintes. L
 | SQLite / WAL | Base de données / journal de transactions pouvant compléter son état. Une collecte doit tenir compte des compagnons disponibles. |
 | TipKit / TCC | Gestion de conseils applicatifs / autorisations d’accès. Une transaction n’est pas automatiquement une consultation ou un déverrouillage. |
 | Époque Apple | Origine temporelle au 1er janvier 2001 UTC, avec unités à vérifier selon le champ. Une conversion correcte ne garantit pas la justesse de l’horloge source. |
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

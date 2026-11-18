@@ -1,5 +1,13 @@
 # Reproduire l'investigation SD-02
 
+## Prérequis, ordre et résultats attendus
+
+Les acquisitions originales sont des sources, jamais des destinations. Disposer des quinze segments SD02, des versions d’outils et du montage de lecture indiqués ci-dessous. Choisir un identifiant de campagne neuf ; reprendre l’ordre identité/intégrité → FAT/TSK → médias et allocation → récupération → contre-vérifications → manifeste. Les paramètres par image et l’ordre précis des commandes sont conservés ci-après et dans `journaux/commandes.jsonl`.
+
+La référence finale comprend 3 300 vidéos finalisées et un temporaire, onze vidéos récupérées complètes, puis un fragment de 126,464 s ; les 108 entrées orphelines sont prises en compte et l’inventaire final n’a aucun écart de jointure. Une première sortie ou reconstruction non validée ne remplace pas ce résultat.
+
+**Génération du texte distincte de l’analyse :** les commandes de rapport sont des générateurs historiques. Elles peuvent écraser le Markdown révisé ; les exécuter seulement dans une copie de travail, vers une destination neuve. Pour produire les PDF actuels, utiliser le générateur documentaire et la sélection de livraison, sans relancer ces générateurs d’analyse.
+
 Référence de données : image décompressée SHA-256 `ba77335e75bdcb140922d3275fefea4441bbc4fdac3dea846a30bd37960d1f9d`. Les scripts, paramètres effectivement utilisés et leurs sorties sont conservés. Le rapport canonique est `cartes_sd/analyse-cartes_sd-SD-02.md`.
 
 ## Préservation et destinations
@@ -66,3 +74,9 @@ Les empreintes finales de segments ont été réalisées pendant la dernière pa
 ## Contenu du manifeste
 
 `manifest-sha256.txt` référence les fichiers de cette campagne, le rapport canonique, les scripts SD-02 et leurs dépendances explicitement identifiées, ainsi que les sources documentaires citées. Chemins relatifs à la racine du projet. Il exclut son propre fichier et son index récapitulatif pour éviter une référence circulaire. Vérification depuis la racine : `sha256sum -c cartes_sd/recherche-SD-02/20261016/manifest-sha256.txt`. L'index contient l'empreinte du manifeste et les totaux. Les médias/blocs privés restent dans le projet et exclus de Git ; un clone Git seul ne suffit donc pas à restituer tous les artefacts.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

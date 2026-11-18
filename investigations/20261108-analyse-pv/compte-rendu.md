@@ -2,6 +2,13 @@
 
 **8 novembre 2026 — mission SADEDINE-2026.** Relecture documentaire et proposition d'analyses complémentaires. Aucune nouvelle acquisition ni nouvelle investigation des supports n'est effectuée dans cette note. Les rapports historiques restent inchangés.
 
+
+## Réponse en langage courant
+
+**Cette lecture est la référence documentaire pour les horaires et descriptions des scellés.** J’ai distingué le texte du PV et ses pages, les annotations ou déclarations annexées et mon analyse. Le 28 octobre, 10:22 est l’arrivée de la cliente ; le PC est ouvert à 10:41 et les téléphones à 11:30. Le 15, la mise sous scellés est consignée après 14:19 sans heure individuelle de fermeture.
+
+La description d’un iPhone 13 noir et de deux Mini rouges ne permet pas une attribution certaine aux codes de mission. Une liste des séries/IMEI et les photographies de scellés restent nécessaires. Les références de pages ci-dessous permettent de revenir aux formulations originales ; les vérifications techniques accomplies les 8–9 novembre sont dans le [complément consolidé](../20261108-complement-pv/compte-rendu.md).
+
 ## Résultat
 
 **Oui, des compléments ciblés sont justifiés.** Les plus utiles concernent l'inventaire numérique de saisie, le filtrage des correspondances, l'examen audiovisuel des séquences du 15 octobre et la provenance des fichiers issus du premier iPhone Mini. Le PV permet surtout de préciser le contexte des constats existants ; il ne démontre pas une intrusion, une rupture clandestine des scellés ou une suppression malveillante.
@@ -90,3 +97,9 @@ Pour les caméras, la nouveauté utile est la confrontation du contenu audiovisu
 Préparer un addendum daté, puis une version révisée de la synthèse : remplacer l'indisponibilité du PV par les références présentes ; distinguer arrivée à 10 h 22, ouverture PC à 10 h 41, téléphones à 11 h 30 ; intégrer le scellement consigné après 14 h 19 le 15 ; distinguer clôture à 19 h 20 et restitution sans heure individuelle ; mentionner la copie USB consignée sans prétendre en avoir vérifié le contenu ; exposer le filtrage et les observations contradictoires sur les emballages.
 
 La présente note fournit ce rapprochement documentaire sans réécrire les rapports de leurs campagnes respectives. Elle ne réévalue pas la conservation cloud ou la copie de livraison de 2026, et n'atteste pas la résolution des lacunes précédemment signalées.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

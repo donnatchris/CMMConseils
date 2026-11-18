@@ -1,5 +1,11 @@
 # Reproduction de la campagne SD-03
 
+## Prérequis et portée
+
+Disposer des douze segments SD03, du montage EWF protégé et des versions de Sleuth Kit/FFmpeg décrites par les journaux. L’ordre détaillé ci-dessous sépare lecture de l’image, analyse des dérivés et reconstructions de médias. Les résultats attendus sont 2 431 vidéos actives dont 65 du 15 octobre ; aucun fichier supprimé distinct complet supplémentaire ; un fragment dérivé de 3,849 s après la fin logique du fichier du 29 février. Le scan final couvre 11 577 clusters libres non nuls, avec reprise des seuls manquants après interruption.
+
+Choisir un nouveau `SD03_RUN` et contrôler les destinations avant toute commande. `sd03_report.py` est un générateur historique de texte : l’exécuter dans une copie distincte pour ne pas remplacer le rapport révisé. Les PDF de livraison se régénèrent depuis les Markdown courants, séparément des scripts d’analyse.
+
 Exécuter depuis la racine du projet. Les scripts refusent normalement d’écraser leurs sorties : choisir une nouvelle campagne, par exemple `export SD03_RUN=20261016-controle`, et ne pas relancer la campagne archivée sur elle-même. La VM s’utilise via `ssh -F /home/chris/.ssh/config -o BatchMode=yes sift`. Adapter seulement le chemin de configuration SSH si nécessaire.
 
 Les scripts distants sont envoyés sur stdin, travaillent sur `/mnt/ewf-sd03/ewf1` ouvert en lecture seule et utilisent des fichiers anonymes en mémoire pour FFmpeg. Les archives tar sont reçues directement sous le projet. Aucun fichier de travail n’est créé sur FORENSIC. Vérifier au préalable le montage EWF et l’espace disponible. Tous les offsets TSK sont `-o 8192` ; les offsets binaires absolus sont calculés à partir du BPB.
@@ -17,3 +23,9 @@ Les commandes réellement exécutées, leur code de retour, le script transmis o
 7. `python3 cartes_sd/scripts/sd03_qa.py`, puis `sd03_manifest.py`, puis `sd03_verify_manifest.py` contrôlent les artefacts dérivés et le manifeste. Le manifeste couvre les fichiers privés conservés localement, même exclus de Git. Ne pas modifier les fichiers manifestés après clôture sans nouvelle campagne ou traçabilité explicite.
 
 Les journaux des neuf fichiers anormaux, les structures MP4 et les paramètres de reconstruction permettent de vérifier les conclusions sans refaire la lecture intégrale des 32 Go. Le fragment reconstruit est `prive/reconstructions/266342024-fragment-apres-EOF.mp4` : conteneur dérivé de 3,849 secondes, pas restauration complète d’un fichier supprimé. Ses échantillons et offsets sources sont énumérés dans `inventaires/recuperation-apres-eof.json`.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

@@ -1,5 +1,9 @@
 # Guide de la campagne du 17 octobre 2026
 
+## Lecture actuelle et reproduction
+
+Cette notice conserve les commandes et résultats propres à la campagne du 17 octobre. Les rapports actuels sont les références de conclusion ; les anciennes copies de rédaction sont récupérables via le registre Git de la révision du 18 novembre. Reproduire les scripts dans une destination neuve, avec les mêmes dérivés et versions indiquées ci-dessous ; une absence de source privée dans un clone Git ne constitue pas un résultat négatif. Les résultats attendus et limites sont ceux du compte rendu de cette campagne, complétés depuis par la lecture du PV, les analyses TP-01/TP-03 et le contrôle exhaustif du CSV.
+
 Lire d’abord le [compte rendu](compte-rendu.md). Les résultats bruts peuvent contenir des identifiants techniques et des noms de fichiers privés ; ce dossier n’est pas destiné à une publication publique.
 
 ## Méthode et traçabilité
@@ -48,7 +52,7 @@ Les scripts SIFT contiennent des destinations fixes volontairement protégées c
 
 Pour les comptes caméra/cloud : export natif des connexions, partage d’appareils, visionnages s’ils existent, changements de configuration et sécurité, avec fuseaux, période effectivement couverte et description des champs. Ne pas assimiler un journal de connexion au compte à une consultation vidéo. Conserver les exports originaux avec empreintes.
 
-Pour les Kingston : photographies/identifiants matériels, image du support et archive/inventaire/rejets correspondants, afin de vérifier les chemins référencés le 28 octobre. Pour la conservation : devis fixant la durée, inventaire complet des extractions, disque client identifié, contrôles d’empreintes et bordereau de remise. PV et journal Mac sont déjà déclarés indisponibles et ne conditionnent pas les travaux réalisables ici.
+Pour les Kingston : photographies/identifiants matériels, image du support et archive/inventaire/rejets correspondants, afin de vérifier les chemins référencés le 28 octobre. Pour la conservation : devis fixant la durée, inventaire complet des extractions, disque client identifié, contrôles d’empreintes et bordereau de remise. Le PV est désormais lu ; le journal Mac reste manquant. Les résultats techniques de cette campagne conservent leur date.
 
 ## Références techniques
 
@@ -57,3 +61,9 @@ Pour les Kingston : photographies/identifiants matériels, image du support et a
 - La documentation Tuya sur les journaux SDK Android ne constitue pas un décodeur des fichiers APM iOS observés. Aucun format de chiffrement précis n’est attribué à ces fichiers sur cette seule base.
 
 La reproduction locale des recoupements et catalogues caméra produit quatorze fichiers JSON identiques aux résultats retenus (`resultats/reproduction.json`). Le contrôle de livraison vérifie aussi les empreintes SIFT et NTFS, les liens, la syntaxe des scripts et l’absence de clé de récupération complète dans ce dossier. Les compteurs de `ntfs/metrics.json` proviennent des lignes `Log record, redo operation:`, `LSN:` et ` Timestamp:` du décodage complet.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

@@ -3,226 +3,70 @@
 **Référence :** SADEDINE-2026  
 **Prestataire :** Christophe Donnat — Donnat Dev  
 **Destinataire :** Me Delphine Ravon, avocate de Mme Malika Sadedine  
-**Date du rapport :** 19 octobre 2026 ; réorganisation rédactionnelle le 12 novembre 2026 ; précision de la cliente et compléments OP-01 Samsung / Sage / ALMU intégrés le 13 novembre 2026 ; inventaire DNEF, investigations TP-03, recherche de récupération, note de constatation vidéo et comparaison SHA-512 des correspondances et contrôle exhaustif des 1 555 fichiers inventoriés intégrés le 16 novembre 2026 ; conservation S3, rectification de la date de remise et réponse à Q3 sur iCloud et les doublons actualisées le 17 novembre 2026\
+**Rapport initial :** 19 octobre 2026<br>
+**Analyses prises en compte :** septembre–17 novembre 2026 ; dates propres à chaque contrôle dans les rapports de référence<br>
+**Révision documentaire :** 18 novembre 2026, sans nouvelle acquisition ni nouvelle expertise des supports<br>
 **Nature :** investigation informatique indépendante réalisée à la demande de la cliente, sans désignation comme expert judiciaire.
 
-## 1. Points suspects et questions prioritaires pour l’avocate
+## 1. Points utilisables pour préparer la contestation
 
-**Trois questions dominent : les téléphones ont-ils été utilisés pendant la fermeture des scellés ? Quelles données ont été effectivement emportées, notamment parmi les échanges avec des avocats ? Quel rôle les différents supports USB ont-ils joué ?** Les autres points ci-dessous concernent la conservation des appareils, les opérations après ouverture et une vidéo du jour de la perquisition. Le point **1.8** présente le Samsung et les sorties ALMU depuis Sage ; le point **1.9** résume les nouveaux constats sur TP-03, les PDF inventoriés et les pièces restant à obtenir.
+J’ai examiné les images, sauvegardes et résultats techniques disponibles, puis comparé les contenus à l’inventaire fourni. Les sept points suivants indiquent ce qui est établi, l’explication que je retiens, sa limite et la pièce utile pour avancer. L’appréciation du périmètre autorisé et des conséquences procédurales relève de l’avocate.
 
-L’appréciation juridique appartient à l’avocate et au juge. Les traitements automatiques sans signe distinctif de geste humain sont exposés plus loin et ne sont pas comptés ici comme des suspicions supplémentaires.
+### 1.1. Correspondances avec des avocats
 
-**Réserve concernant l’ordinateur OP-01.** Aucune trace d’extraction n’a été retrouvée sur l’ordinateur pour la période entre la saisie et l’ouverture des scellés. Cette absence ne permet pas de conclure définitivement à l’absence de copie des données. Une acquisition hors ligne, par exemple en reliant le support de stockage à un autre équipement au moyen d’un bloqueur en écriture, pourrait permettre d’en copier les données sans démarrer Windows ni modifier le support source, et donc sans y laisser les traces recherchées. Cette possibilité technique n’est ni démontrée ni exclue par les éléments disponibles.
+**Constat et intérêt.** J’ai retrouvé **21 messages** identifiant un avocat ou son cabinet dans les en-têtes du PST DMM : neuf Fakiroff/Roosevelt, sept Wahrheit, cinq Negrevergne. Le fichier qui les contient correspond à l’**empreinte numérique permettant de comparer les contenus** inscrite dans l’inventaire fourni. Le PDF Guillou/Bourarach y concorde aussi individuellement. Ce résultat permet de confronter des éléments précis au filtrage annoncé au PV.
 
-### 1.1. TP-02 : indices d’une connexion Wi-Fi volontaire pendant la conservation
+**Explication retenue et limite.** Je retiens leur présence dans les contenus décrits par cet inventaire. Les citations Pascoët/Rubio et les notifications Dress/Liwer restent distinctes des échanges directs. Les deux messages Khallouki et trois transferts du PST 93300 proviennent d’un fichier divergent : leur présence dans la version inventoriée n’est pas certifiée. Ni la lecture par les agents ni la qualification de chaque correspondance ne s’en déduisent.
 
-**Constat.** Les données de TP-02 conservent une séquence de configuration et d’association au réseau **ASUS_Z01RD le 17 octobre 2024 vers 17 h 25**, pendant la période de conservation sous scellés. Il ne s’agit pas seulement d’un nom de réseau mémorisé : plusieurs propriétés décrivent des étapes successives, en **environ 4,7 secondes**.
+**Pour avancer.** Obtenir l’archive finale, les rejets et le support d’inventaire. Le [rapport correspondances, tableaux 1 et 2](ordinateur/recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md) et la [fiche Bourarach](investigations/20261109-clarification-correspondances/fiche-bourarach.md) donnent les références individuelles.
 
-| Heure de Paris, le 17 octobre | Information conservée |
-|---|---|
-| **17 h 25 min 47 s** | Création d’une adresse Wi-Fi privée pour ce réseau. |
-| **17 h 25 min 48 s** | Enregistrement d’une connexion étiquetée comme provenant de l’utilisateur. |
-| **17 h 25 min 48 s** | Ajout du réseau avec la mention **« WiFi Settings »**, correspondant aux réglages Wi-Fi. |
-| **17 h 25 min 52 s** | Première association enregistrée avec la nouvelle adresse Wi-Fi privée. |
+### 1.2. Inventaire et intégrité des fichiers
 
-**Pourquoi l’hypothèse d’une connexion sur TP-02 est privilégiée.** L’ordre de ces étapes et leur cohérence correspondent à une configuration suivie d’une connexion, compatible avec une personne sélectionnant le réseau dans les réglages. Une connexion réellement effectuée suppose que le téléphone soit à portée du point d’accès. La mention des réglages Wi-Fi, associée à toute la séquence, est plus informative qu’une date utilisateur isolée ou que sa seule brièveté : certains traitements automatiques peuvent aussi produire des enchaînements rapides.
+**Constat et intérêt.** J’ai retrouvé les **1 555 chemins** attendus et calculé l’empreinte SHA-512 de chaque fichier : **1 552 contenus concordent, trois divergent**, sans erreur de lecture signalée. Les différences concernent le raccourci USB2, `FACT 2018 SUITE.pdf` et le PST 93300. Le contrôle distingue ainsi un nom présent d’un contenu identique.
 
-Il faut distinguer deux autres explications possibles :
+**Explication retenue et limite.** Les concordances établissent l’identité des octets comparés au CSV. Pour les écarts, version différente, modification entre deux contrôles ou erreur dans l’inventaire restent à départager : les données ne permettent pas de classer leurs causes. Le dossier local L16B ne devient pas une copie certifiée de l’archive finale.
 
-- **Une simple synchronisation iCloud du mot de passe.** Elle peut transmettre des informations de réseau entre appareils. La comparaison des 36 réseaux conservés sur TP-02 montre même qu’une ancienne date utilisateur peut être héritée. Cependant, aucun des trois profils marqués **« Cloud Sync »** ne comporte la chaîne complète de génération d’adresse privée et de première association observée pour ASUS. Cette explication rend donc moins bien compte de l’ensemble des propriétés.
-- **Une restauration d’un état complet.** Elle pourrait remettre sur TP-02 un historique de connexion produit auparavant, éventuellement sur un autre appareil. Mais **aucune restauration permettant d’expliquer cette séquence n’a été identifiée**. La restauration iCloud effectivement documentée date du **11 juin 2024** : elle ne peut pas, à elle seule, importer des événements d’octobre encore futurs. Il faudrait donc une restauration ultérieure au 17 octobre, dont la réalisation et le transport de cette chaîne précise restent à établir.
+**Pour avancer.** Comparer les trois versions inventoriées, le CSV sur son support d’origine et l’archive finale. La [synthèse, section 3](ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-L16B-inventaire.md#3-fichiers-inventoriés-présents-au-chemin-attendu-mais-de-contenu-divergent) et son annexe exhaustive conservent chemins, empreintes et résultats.
 
-**La connexion locale le 17 octobre est ainsi l’hypothèse actuellement la mieux étayée : elle repose sur une séquence positive de configuration et d’association, tandis que la restauration explicative reste une possibilité sans opération correspondante identifiée.** Cette appréciation repose sur les éléments retrouvés ; l’absence de trace de restauration ne suffit pas à prouver qu’il n’y en a pas eu.
+### 1.3. Documents ALMU et accès Sage
 
-**Rôle du premier déverrouillage.** Sur un iPhone protégé par un code, l’utilisation normale d’un nouveau mot de passe Wi-Fi synchronisé nécessite un premier déverrouillage après redémarrage. Le scénario d’un téléphone simplement rallumé le 15 octobre, jamais déverrouillé ensuite, puis connecté grâce à la seule synchronisation iCloud n’explique donc pas suffisamment la séquence. En revanche, après un premier déverrouillage, certains traitements peuvent continuer lorsque l’écran est de nouveau verrouillé. Cette contrainte ne permet ni de dater un déverrouillage le 17 ni d’écarter un import ultérieur de l’historique.
+**Constat et intérêt.** Après ouverture du PC le 28 octobre, les traces étayent un accès de Sage à ses services distants puis la génération d’un PDF de **458 pages, toutes émises par ALMU**. Les 85 dénominations destinataires et 86 codes clients ne sont pas autant de sociétés émettrices. Ces documents justifient d’examiner leur rapport au périmètre autorisé.
 
-L’historique contient également **53 appels du 15 au 26 octobre**, dont **22 marqués sortants sur huit jours et 19 de durée positive**. Ces appels sont transportables par synchronisation ou restauration et n’identifient pas l’appareil physique à leur origine. Ils constituent une question complémentaire, sans apporter la même précision que la chaîne Wi-Fi.
+**Explication retenue et limite.** Je retiens une sortie effective de factures ALMU, corroborée par le journal d’impression et le contenu. La réponse réussie du serveur ne prouve pas la frappe d’un mot de passe ; la génération PDF ne prouve pas une impression papier ou le transfert externe de ce fichier précis. L’appréciation du périmètre appartient à l’avocate.
 
-**Limites.** Les propriétés Wi-Fi proviennent d’une sauvegarde tardive : elles ne sont pas des observations radio indépendantes prises le 17. Une restauration après cette date, y compris après restitution, peut avoir laissé des traces absentes de la sauvegarde examinée. Aucun journal indépendant du point d’accès ni lien historique entre son adresse et le téléphone physique ne permet de trancher. Le même nom apparaît dans OP-01, mais aucune connexion ou détection du PC n’est datable et ne confirme celle du 17. **Une utilisation ou un déverrouillage de TP-02 sous scellé, une rupture matérielle du scellé et l’identité d’un auteur ne sont donc pas démontrés.**
+**Pour avancer.** Rapprocher ordonnance, archive finale et journaux de collecte. Les [compléments Sage](ordinateur/rapport-complementaire-OP-01-Sage50-reseaux-28oct2024.md), [Samsung/ALMU](ordinateur/rapport-complementaire-OP-01-Samsung-ALMU-28oct2024.md) et l’[inventaire des pages](inventaire-DNEF/rapports/rapport-repartition-sage-458-pages.md) documentent les contrôles.
 
-**Question prioritaire.** TP-02 a-t-il effectivement été configuré et connecté à ASUS_Z01RD le 17 octobre, avant l’ouverture de son scellé, ou cette séquence a-t-elle été importée ultérieurement ?
+### 1.4. TP-02 : séquence Wi-Fi pendant la conservation
 
-**À vérifier.** Journaux du point d’accès et adresse cliente historiquement rattachée à TP-02 ; anciennes sauvegardes et historique des restaurations ; conditions de rallumage et de déverrouillage ; relevés opérateur avec identifiants matériels pour les appels, s’ils existent. Voir la section 4, l’annexe B.2 et le [complément détaillé du rapport TP-02, section 6](telephones/analyse-TP-02.md#6-wi-fi-asus_z01rd--chaîne-conservée-et-limites-dattribution).
+**Constat et intérêt.** La sauvegarde de TP-02 conserve le 17 octobre, vers 17 h 25, une préparation de connexion, un ajout du réseau ASUS par les réglages, puis une association en moins de cinq secondes. C’est l’indice technique le plus discriminant d’une activité possible pendant la conservation.
 
-### 1.2. Téléphones rallumés avant leur mise sous scellés
+**Explication retenue et limite.** Je privilégie une configuration suivie d’une connexion locale : la chaîne est plus complète que les profils de simple synchronisation de mot de passe comparés. Un import ultérieur de l’historique reste possible ; aucune restauration postérieure au 17 expliquant cette chaîne n’a été identifiée. Il manque une preuve indépendante de l’activité physique et du premier déverrouillage. Aucun opérateur n’est identifié par le nom du réseau.
 
-La [note de constatation du 16 novembre 2026](NOTE-DE-CONSTATION-téléphones.md), rédigée par Christophe Donnat après examen des enregistrements du salon, consigne le **15 octobre 2024 à 13 h 25 min 19 s**, selon l’horodatage affiché, **l’intervention sur les trois téléphones d’une femme identifiée par Mme Sadedine comme étant Mme Adam, avec apparition des logos Apple sur leurs écrans**. Cette apparition est caractéristique d’une séquence de démarrage d’iPhone. La mise sous scellés est consignée après 14 h 19.
+**Pour avancer.** Rechercher sauvegarde contemporaine, historique de restauration et journal du point d’accès. Le [rapport TP-02, section 6](telephones/analyse-TP-02.md#6-wi-fi-asus_z01rd-chaîne-conservée-et-limites-dattribution) compare les scénarios et fournit les pièces.
 
-**Question.** Les téléphones ont-ils été placés sous scellés encore allumés, et dans quelles conditions de conservation ?
+### 1.5. Parcours des PDF associés à TP-03
 
-**Portée du constat.** La note établit les éléments visuels observés : l’apparition des logos Apple est compatible avec un démarrage, sans déterminer à elle seule l’état antérieur des appareils ni un déverrouillage ultérieur. Les identités et qualités des personnes sont celles communiquées par Mme Sadedine ; les heures sont celles affichées sur les enregistrements. Le diagnostic de TP-02 du 28 octobre ne prouve pas qu’il était éteint avant ouverture ; aucune continuité d’alimentation jusqu’au 28 n’est établie.
+**Constat et intérêt.** Les **27 fichiers PDF inventoriés représentent vingt contenus**, retrouvés dans les deux Mini. Pour dix-sept contenus, TP-03 conserve une date de dernière utilisation le 15 octobre entre 13 h 41 et 13 h 50, proche de celle du CSV ; seize ont aussi un changement de statut rapproché. L’arrivée des 27 fichiers au dossier final du PC est, elle, datée du 28 octobre.
 
-**À vérifier.** Extinction éventuelle avant fermeture, alimentation, isolement réseau et conditions de stockage. Un téléphone allumé peut travailler automatiquement ; cela ne suffit pas à prouver un geste humain sous scellé.
+**Explication retenue et limite.** Ces rapprochements répétés favorisent l’historique de données conservé dans TP-03. Un historique peut suivre une copie, une sauvegarde ou une restauration vers un autre appareil. Les attributs ne prouvent ni ouverture des documents, ni création ou extraction le 15, ni transfert direct depuis le téléphone physique.
 
-### 1.3. Différences d’emballage et de marquage
+**Pour avancer.** Obtenir les journaux et paramètres de collecte, une sauvegarde contemporaine et l’archive finale. [Q1](inventaire-DNEF/rapports/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.md) distingue les dates ; [B–E](inventaire-DNEF/rapports/Rapport_investigations_B_C_D_E_SADEDINE-2026.md) examine déverrouillage, arrivée des PDF et doublons.
 
-**Constat.** Le PV affirme l’intégrité des scellés à l’ouverture ; les observations annexées de la cliente décrivent des différences d’emballage et de marquage.
+### 1.6. Conservation et déroulement des opérations
 
-**Question.** La continuité des scellés entre le 15 et le 28 octobre peut-elle être documentée ?
+**Constat et intérêt.** La note de visionnage consigne l’apparition de logos Apple avant scellement. Les PV décrivent un iPhone noir, tandis que TP-01 est indiqué vert à la remise ; les deux Mini rouges ne sont pas départagés par leurs séries. Le 28 après ouverture, Windows conserve trois identifiants Kingston et dix mises à la corbeille.
 
-**Limite.** Cette divergence ne démontre pas une ouverture clandestine. Les deux iPhone Mini ne sont pas encore rattachés avec certitude aux scellés n° 3 et n° 4.
+**Explication retenue et limite.** Les logos sont caractéristiques d’un démarrage, sans démontrer une extinction ultérieure ni un maintien allumé pendant toute la conservation. Les conditions de garde et identités attribuées par la cliente restent des déclarations à confronter aux pièces. Trois identifiants USB ne prouvent pas trois copies ; les deux factures supprimées subsistent textuellement dans Sage. Je retiens des questions documentaires et des opérations à expliquer, sans irrégularité acquise.
 
-**À vérifier.** Photographies, emballages, numéros, bordereaux de prise en charge et interventions consignées.
+**Pour avancer.** Obtenir photographies et mouvements des scellés, séries/IMEI, état d’alimentation et isolement réseau, identification des supports et notes d’opérations. Les [notes de constatation](NOTE-DE-CONSTATION-téléphones.md), [TP-01](NOTE-DE-CONSTATATION-TP-01.md) et [OP-01, sections 7–8](ordinateur/analyse-ordinateur.md) donnent les éléments.
 
-### 1.4. Données emportées et correspondances avec des avocats
+### 1.7. Vidéo du salon
 
-**Constat.** L16B est le dossier de regroupement constitué sur OP-01 lors des opérations du 28 octobre 2024. Le PV décrit un filtrage puis une copie sur un support de l’administration ; le dossier laissé sur le PC est informatif et ne certifie pas, à lui seul, le jeu finalement emporté.
+**Constat et intérêt.** Le dernier clip du 15 octobre présente une erreur vidéo intermédiaire, une piste audio plus longue de **11,589 secondes** et des dates incohérentes. Aucun fichier n’est nommé du 16 au 28 ; le suivant est daté du 29 octobre. Il existe donc une anomalie réelle et une lacune à expliquer.
 
-**Éléments désormais prouvés par comparaison à l’inventaire fourni.** Les SHA-512 du PST `dmmconseils@hotmail.com.pst` et de l’archive `takeout-20241028T114105Z-001.zip` sont **identiques aux empreintes du CSV**, pour les mêmes chemins. **La présence de 21 messages dans un PST correspondant exactement à celui de l’inventaire est donc établie** : **9 avec Fakiroff / Roosevelt Avocats, 7 avec Wahrheit et 5 adressés au cabinet Negrevergne**. Le constat dépasse la seule présence locale dans L16B.
+**Explication retenue et limite.** Je privilégie un défaut de finalisation ou de reconstruction pour la signature de compteur : elle se répète dans onze clips sur deux cartes dès 2023. Une falsification n’est pas démontrée. Ce défaut n’explique pas toute la lacune ; arrêt, réglages, alimentation ou perte de fichiers ne sont pas départagés. La dernière image n’est pas une heure certaine d’arrêt de la caméra.
 
-Les fichiers concordants contiennent aussi des échanges **Pascoët et Rubio cités** dans un PDF joint ou un avis de non-remise, ainsi que des **notifications Liwer / AR24 et Dress / DocuSign**. Ces traces sont distinguées des 21 messages. Le PDF Bourarach reproduisant des échanges avec **Me Guillou** est, séparément, identifié dans le CSV par son chemin et son SHA-512 ; voir le point 1.9.
-
-**Éléments non certifiés dans la version inventoriée.** Le SHA-512 du PST `dmmconseils93300@hotmail.com.pst` est **divergent** de celui du CSV. Les **2 messages Khallouki et 3 transferts/reproductions** retrouvés dans ce fichier sont présents dans l’image analysée, mais leur présence et leur identité dans la version inventoriée ne peuvent pas être certifiées. La date et la cause de l’écart restent indéterminées.
-
-**Questions et limites.** Pour les conteneurs concordants et le PDF Guillou, l’identification dans l’inventaire fourni est établie ; la réserve ne porte plus sur leur seule présence dans L16B. L’authentification du support d’origine du CSV, l’archive finale, la lecture par les agents et l’utilisation fiscale restent à contrôler. La qualification avocat-client et le respect du filtrage doivent être examinés individuellement. Les contrôles SHA-256 antérieurs validaient la copie depuis l’image ; ils ne remplaçaient pas cette comparaison SHA-512 au CSV.
-
-**À vérifier.** Contrôler le jeu effectivement conservé, la liste des rejets, les critères de filtrage et les éventuels actes citant ces pièces ; rechercher une version du PST 93300 conforme à l’empreinte inventoriée pour expliquer l’écart.
-
-**Références :** [rapport détaillé, tableaux des fichiers concordants et du PST divergent](ordinateur/recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md), [comparaison SHA-512 et empreintes complètes](ordinateur/recherche-OP-01/extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.md), [inventaire CSV](inventaire-DNEF/documents-recus/Inventaire_saddedine.csv). Voir aussi la section 5 et l’annexe B.1.
-
-### 1.5. Une clé de destination décrite, trois périphériques Kingston relevés
-
-**Constat.** Le PV décrit une copie sur une clé USB vierge de l’administration, préalablement formatée. Les journaux de l’ordinateur enregistrent **trois identifiants distincts de périphériques Kingston DataTraveler le 28 octobre**, vers **16 h 27, 17 h 00 et 17 h 14**, après ouverture.
-
-**Question.** Quel était le rôle de chacun et sur quel support les fichiers saisis ont-ils été copiés ?
-
-**Limite.** Trois identifiants ne prouvent pas trois copies ou trois destinataires. Certains supports ont pu servir aux outils ou à des étapes intermédiaires. Le formatage seul n’explique pas trois identifiants matériels différents.
-
-**À vérifier.** Identification des supports, journaux des outils, archive finale, inventaire et rejets. Le rattachement physique de la clé décrite au PV reste à effectuer.
-
-### 1.6. Suppressions et opérations après ouverture
-
-**Constat.** Dix mises à la corbeille sont documentées sur l’ordinateur le 28 octobre, sans description individualisée retrouvée au PV. TP-02 conserve trois SMS de validation/réinitialisation marqués lus et une séquence compatible avec une capture d’écran ; TP-01 conserve deux lignes WhatsApp sortantes.
-
-**Précision de la cliente.** Mme Sadedine confirme avoir effectué elle-même la réinitialisation Microsoft et les validations Google du **28 octobre 2024, entre 12 h 03 et 12 h 46**, car elle n’arrivait pas à se connecter pour l’administration ([courriel, point 3](docs/mail-3.txt)). **Ce point est expliqué par sa déclaration et ne nécessite pas d’approfondissement à sa demande.**
-
-**Question.** Qui a effectué les autres opérations, dans quel but, et sur quelles données ou quels comptes ?
-
-**Limite.** Les fichiers supprimés ont été récupérés ; aucune destruction malveillante n’est démontrée. L’origine physique des autres opérations téléphoniques n’est pas établie. La confirmation relative aux codes SMS est une déclaration de la cliente, distincte des seuls constats techniques. Ces traces sont postérieures à l’ouverture.
-
-**À vérifier pour les autres opérations.** Notes des opérateurs, outils employés et distinction entre données sources et copies de travail. Les trois codes SMS ne sont plus retenus parmi les points à approfondir.
-
-### 1.7. Vidéo anormale du jour de la perquisition
-
-**Constat.** La dernière vidéo conservée du salon le **15 octobre**, commencée à **13 h 28**, présente une date informatique incohérente et un décalage de durée entre son et image. Les dernières images décodées se situent vers **13 h 32 min 26 s**, puis aucun fichier référencé n’est daté du 16 au 28.
-
-**Question.** Qu’est-ce qui explique cette anomalie et la lacune qui suit ?
-
-**Limite.** **Une manipulation volontaire ou une falsification n’est pas établie.** Le même défaut existe sur des vidéos antérieures, dès 2023, ce qui soutient un défaut récurrent de finalisation ou de récupération des fichiers. Son déclencheur reste inconnu : une interruption d’alimentation ou un redémarrage sont possibles, sans être démontrés. Une interruption pourrait elle-même être accidentelle ou résulter d’un geste humain. Le défaut du fichier n’explique pas à lui seul la lacune qui suit. Les caméras n’étaient pas sous scellés.
-
-**À vérifier.** Autres copies, journaux et conditions de fonctionnement de la caméra, s’ils sont disponibles. Voir la section 6 et l’annexe B.4.
-
-### 1.8. OP-01 : Samsung connecté en USB, accès à Sage et sortie de 458 pages ALMU
-
-**Constats du 28 octobre 2024, après ouverture du PC.**
-
-| Heure de Paris | Fait majeur |
-|---|---|
-| **11 h 18** | Un Samsung de série **`R58RB2ETQER`**, enregistré par Windows sous le nom **« XCover 5 de David »**, est reconnu en USB. Un pilote de partage réseau est configuré ; les connexions **« Réseau 2 » puis « Réseau 3 »** disposent d’Internet. Aucun usage antérieur de ce numéro exact n’a été retrouvé. |
-| **15 h 11** | Après son lancement vers **15 h 10**, Sage 50 effectue une requête d’authentification avec résultat **200**, puis accède au service de données hébergées avec un résultat 200. |
-| **15 h 28** | Un PDF de **458 pages portant le nom ALMU** est généré et retrouvé dans **`C:\L16B\SAGE\sage.pdf`**. Son contenu, ses métadonnées et le journal d’impression corroborent une sortie effective de documents. |
-| **17 h 14** | Le retrait du même Samsung précède d’environ **0,19 seconde** la déconnexion de « Réseau 3 », puis Windows signale la perte de sa capacité Internet. Le partage de connexion par ce téléphone est **fortement étayé**. |
-
-**Dossier société et contenu du PDF.** Seul **SAS ALMU — SIRET 81816735500010** est confirmé comme utilisé dans Sage le 28 octobre par les traces retrouvées. Les **458 pages du PDF portent ce même SIRET**, sans autre société émettrice identifiée. D’autres sociétés y apparaissent comme clientes des factures ALMU ; cela ne prouve pas l’ouverture de leurs propres dossiers Sage. Les cinq autres dossiers présents sur le disque — BANMAT, DMM CONSEILS, FINT, MY LITTLE MARKET et RCT — ne sont pas confirmés comme ouverts ce jour-là. Le modèle d’impression nommé DMM CONSEILS ne suffit pas à établir une telle ouverture.
-
-**Mode d’authentification indéterminé.** Le contrôle supplémentaire sur SIFT ne permet toujours pas de distinguer **saisie manuelle, identifiants mémorisés ou renouvellement automatique d’une autorisation par jeton**. Les bases de mots de passe du composant web de Sage sont vides, mais son historique de Gestion Commerciale ne conserve que des visites de **2026**. Ces états tardifs ne prouvent donc ni une saisie en 2024 ni l’absence passée d’un accès mémorisé. L’échange réussi de 15 h 11 ne démontre pas qu’une personne connaissait ou a saisi le mot de passe.
-
-**Périmètre rappelé au PV.** **ALMU ne figure pas parmi les quatre sociétés citées dans le rappel de l’ordonnance du 10 octobre 2024 : SASU DMM CONSEILS, SASU RCT, SASU MY LITTLE MARKET et SASU FORTY ONE** ([PV, page 5 du PDF](docs/PV%20DE%20SAISIE.pdf#page=5)). Cette absence ne suffit pas à établir une saisie irrégulière : des documents concernant une autre société peuvent se rapporter aux agissements visés. Le lien des 458 pages ALMU avec les faits recherchés doit être confronté au périmètre de l’ordonnance complète.
-
-**Questions.** À quel appareil physique correspond ce numéro de série, qui l’utilisait pendant la séance, les documents ALMU générés entraient-ils dans le périmètre autorisé et figurent-ils dans la copie définitivement emportée ?
-
-**Limites.** Le nom « XCover 5 de David » ne certifie pas son propriétaire. La première connexion absolue n’est pas établie, les historiques étant incomplets. L’échange Sage ne prouve ni une saisie manuelle de mot de passe ni l’identité de l’opérateur. Les sorties constatées sont des **PDF**, sans impression papier, copie intégrale de la base ou transfert de ce PDF précis sur USB démontrés. Ces faits sont postérieurs à l’ouverture ; ils ne prouvent pas une utilisation sous scellés.
-
-**À vérifier.** Rapprocher la série du Samsung avec l’appareil concerné et les notes d’opérations ; examiner l’ordonnance complète et le lien des documents ALMU avec les faits visés ; comparer le PDF ALMU avec l’inventaire final, ses empreintes et les fichiers saisis. Voir la section 5, l’annexe B.1, les [compléments OP-01](ordinateur/rapport-complementaire-OP-01-Samsung-ALMU-28oct2024.md) et le [contrôle des dossiers Sage et de l’authentification](ordinateur/recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/compte-rendu.md).
-
-### 1.9. Documents retrouvés sur les iPhone : des concordances de dates qui restent à expliquer
-
-**27 fichiers PDF figurant dans l’inventaire fourni de la DNEF ont été identifiés dans les sauvegardes des téléphones examinés.** Ils correspondent à **20 contenus distincts**, certains documents apparaissant plusieurs fois. Parmi eux figure `Rép Dossier bourarach.pdf`, contenant des échanges avec Me Isabelle Guillou. La présence de ce document dans l’inventaire ne démontre pas, à elle seule, sa lecture par une personne.
-
-**1. Des dates du 15 octobre, pendant une période où Mme Sadedine déclare ne plus avoir accès à ses téléphones**
-
-Dans l’inventaire de la DNEF, les 27 PDF portent des dates de création comprises entre **13 h 41 et 13 h 50 le 15 octobre 2024**. Ces dates correspondent aux dates de création enregistrées dans certaines métadonnées Windows de l’ordinateur OP-01. **Il ne s’agit pas des dates de création initiale des documents PDF.**
-
-Mme Sadedine déclare que ses téléphones étaient déjà pris en charge par les enquêteurs à ce moment-là. Cette déclaration doit être distinguée des heures constatées sur les vidéos et dans le procès-verbal.
-
-Dans la sauvegarde du téléphone **TP-03**, **17 des 20 contenus distincts** présentent une métadonnée appelée `com.apple.lastuseddate#PS` (« date de dernière utilisation ») dont la valeur est très proche de la date figurant dans l’inventaire DNEF : **moins de 11 secondes d’écart** pour chacun de ces 17 rapprochements. Pour 16 de ces 17 contenus, une autre métadonnée de changement d’état est également datée dans cette période.
-
-Par exemple, pour `Rép Dossier bourarach.pdf` :
-
-- **TP-03 :** métadonnée de dernière utilisation datée du **15 octobre à 13 h 42 min 55 s** (environ).
-- **Inventaire DNEF et métadonnée Windows correspondante :** date de création du **15 octobre à 13 h 42 min 57 s** (environ).
-
-L’écart est d’environ **1,94 seconde**. Cette proximité se répète sur 17 documents. Elle n’a pas été retrouvée de la même manière dans les objets correspondants de **TP-02**.
-
-**Ce que signifie cette concordance :** elle constitue un rapprochement technique précis et répété, qui mérite d’être expliqué. Mais la « date de dernière utilisation » est ici **une métadonnée retrouvée dans une sauvegarde réalisée après les faits, et non un journal d’activité enregistré en direct le 15 octobre 2024**. Les données disponibles ne permettent pas de déterminer si cette valeur a été produite localement à cette heure ou conservée lors d’une copie, d’une synchronisation ou d’une restauration. Elle **ne prouve donc pas** qu’un document a été ouvert par une personne, ni qu’une opération s’est matériellement produite sur TP-03 à l’heure affichée.
-
-**2. Pourquoi TP-03 attire davantage l’attention, sans être identifié comme source certaine**
-
-Les **20 contenus distincts** ont des exemplaires identiques dans les sauvegardes de **TP-02 et de TP-03**. Leur présence commune ne permet donc pas, à elle seule, de déterminer de quel téléphone proviennent les fichiers de l’inventaire. Certains de ces contenus existent aussi ailleurs sur OP-01.
-
-En revanche, **les 17 concordances temporelles sont propres aux objets examinés dans TP-03**. Elles renforcent l’intérêt de ce téléphone dans la reconstitution de la circulation des documents, **sans démontrer qu’il a été le téléphone utilisé pour une extraction, ni que l’opération a eu lieu le 15 octobre**.
-
-**3. Le téléphone a-t-il été utilisé ou déverrouillé le 15 octobre ?**
-
-Des données internes de **Mail** et de **Fichiers** portent des dates comprises entre **13 h 25 et 13 h 30**, avant la série de dates concernant les PDF. L’analyse a notamment relevé **33 transactions internes liées à Mail** et **cinq transactions liées à Fichiers**, ainsi que des entrées d’accès à un service cloud. Ces transactions concernent notamment **TipKit**, un mécanisme interne de conseils applicatifs : **elles ne correspondent pas à 33 courriels ni à cinq ouvertures de fichiers** et ne désignent aucun des PDF concernés.
-
-Certains fichiers examinés dans la sauvegarde sont soumis à une protection iOS qui, dans certaines conditions, nécessite un premier déverrouillage après redémarrage avant de permettre un accès local à leur contenu. Toutefois, les conditions exactes dans lesquelles les traces ont été produites ou conservées en 2024 ne sont pas établies.
-
-**Aucun événement explicite ne prouve un premier déverrouillage, une consultation humaine des PDF, une ouverture du menu de partage, une impression ou une extraction le 15 octobre.** Les heures des vidéos et celles des appareils n’ont pas été comparées à une référence commune permettant de certifier leur parfaite concordance. Voir les [contrôles détaillés de TP-03](telephones/analyse-TP-03.md#73-premier-déverrouillage-après-redémarrage--investigation-b).
-
-**Réponse à Q3 — iCloud et origine des doublons.** Dans l’état sauvegardé de TP-03, le contenu des PDF examinés est normalement inaccessible avant la première authentification après redémarrage. Une synchronisation iCloud ne suffit donc pas à expliquer, à elle seule, un nouvel accès local à ce contenu avant cette authentification. Toutefois, une date de métadonnée ne prouve ni cet accès ni une création de PDF, et l’état historique du téléphone n’est pas établi. Les noms suffixés « 2 », « 3 » ou « 4 » ne permettent pas non plus de distinguer des enregistrements répétés d’un mécanisme de conflit iCloud. Aucun élément retrouvé n’identifie un tel conflit à l’origine des doublons. **La question reçoit donc une réponse sous réserve : le premier déverrouillage n’est pas démontré, l’origine exacte des doublons reste indéterminée et une contribution d’iCloud n’est ni confirmée ni exclue.** Voir les [sections 7.3 et 7.6 du rapport TP-03](telephones/analyse-TP-03.md#73-premier-déverrouillage-après-redémarrage--investigation-b) et le [complément B–E](inventaire-DNEF/rapports/Rapport_investigations_B_C_D_E_SADEDINE-2026.md).
-
-**4. Le regroupement des PDF sur l’ordinateur est daté du 28 octobre**
-
-Sur **OP-01**, les métadonnées du système de fichiers montrent que les **27 PDF ont été regroupés dans leur dossier final le 28 octobre 2024 vers 17 h 13, en moins d’une seconde**, après l’ouverture des scellés.
-
-Ces mêmes fichiers conservent pourtant des dates de création Windows du **15 octobre**. Cette différence peut résulter d’une copie ou d’un traitement qui préserve ou réattribue des dates antérieures. **Le dépôt dans le dossier final le 28 octobre est étayé ; une extraction initiale depuis un téléphone le 15 octobre ne l’est pas.** Le logiciel utilisé, la provenance immédiate des fichiers et les éventuelles étapes intermédiaires restent inconnus.
-
-**5. Pièces manquantes et vérifications prioritaires**
-
-Des traces d’OP-01 mentionnent, sur un support externe, deux fichiers qui **ne sont pas disponibles dans les éléments examinés** :
-
-- `Archive_saddedine.zip` : archive d’environ **3,53 Go** selon les informations conservées.
-- `Rejets_saddedine.txt` : fichier dont la taille enregistrée était de **0 octet** ; cela ne permet pas de certifier son contenu final.
-
-Les recherches approfondies dans l’image de l’ordinateur n’ont pas permis de récupérer ces fichiers. **Le CSV d’inventaire fourni a été exploité, mais le support d’origine et l’archive finale n’ont pas été authentifiés dans le cadre de ces contrôles.**
-
-Pour avancer, il serait utile de solliciter, **par l’intermédiaire de l’avocate et selon les possibilités de la procédure**, en priorité :
-
-1. **L’archive originale `Archive_saddedine.zip`, le fichier `Rejets_saddedine.txt` et l’inventaire authentifié**, afin de vérifier ce qui a été effectivement conservé ou écarté.
-2. **Le nom, la version, les paramètres et les journaux du logiciel de collecte ou d’exportation**, pour comprendre les dates enregistrées et les éventuelles étapes de transfert.
-3. **L’identification des appareils sources, des supports de destination et les comptes rendus des opérations des 15 et 28 octobre**, pour reconstituer le parcours des fichiers.
-4. **La correspondance entre TP-02, TP-03 et les numéros de scellés**, qui demeure indéterminée.
-
-**Conclusion — ce qui est établi et ce qui reste inconnu**
-
-Les investigations révèlent **une concordance chronologique précise et répétée entre les métadonnées de 17 documents de TP-03 et les dates de l’inventaire DNEF**, au cours d’une période où Mme Sadedine déclare ne plus avoir eu la maîtrise de ses téléphones. Cette concordance concerne notamment un document contenant des échanges avec son avocate.
-
-**Elle ne démontre cependant ni une utilisation ou un déverrouillage de TP-03 par les enquêteurs, ni la consultation des documents, ni leur extraction le 15 octobre 2024.** Elle ne permet pas non plus d’identifier un opérateur.
-
-**En résumé :** il existe un rapprochement informatique qui appelle une explication, mais **la nature exacte des opérations, leur date effective, l’appareil utilisé et leur auteur restent à établir**. L’obtention des éléments originaux de collecte de la DNEF et, si possible, des essais techniques ciblés sur le comportement de la métadonnée `lastuseddate` permettraient de mieux départager les hypothèses.
-
-Voir le [rapport TP-03, sections 7 et 8](telephones/analyse-TP-03.md#7-rapprochements-avec-op-01-et-tp-02), la [réponse Q1](inventaire-DNEF/rapports/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.md), les [investigations B à E](inventaire-DNEF/rapports/Rapport_investigations_B_C_D_E_SADEDINE-2026.md) et le [bilan de récupération](inventaire-DNEF/rapports/Recherche_recuperation_Archive_Rejets_OP-01_20261116.md).
-
-### 1.10. Inventaire DNEF : 1 552 fichiers conformes et trois contenus divergents
-
-**Ce qui est comparé.** Le CSV d’inventaire fourni, daté du 28 octobre 2024, recense **1 555 fichiers** avec leur chemin Windows et une empreinte SHA-512. Le dossier `C:\L16B` est le regroupement laissé sur OP-01 pendant les opérations. Le contrôle porte sur les fichiers retrouvés dans **l’image acquise en 2026**, montée en lecture seule, et sur les traces Windows historiques ; le dossier contient actuellement 1 558 fichiers dans cette image.
-
-**Résultat exhaustif : les 1 555 chemins inventoriés sont présents, aucun ne manque. Sur les contenus, 1 552 SHA-512 sont identiques au CSV et 3 divergent**, sans erreur de lecture. Pour les 1 552 concordances, l’identité du contenu avec l’empreinte de l’inventaire fourni est établie ; le constat ne repose plus seulement sur le nom ou la présence dans L16B.
-
-| Fichier présent au chemin inventorié | Ligne du CSV | Résultat |
-|---|---:|---|
-| `C:\L16B\LOCAL\cle usb\USB2 (D) - Raccourci.lnk` | 426 | **SHA-512 divergent** |
-| `C:\L16B\LOCAL\FACT 2018 SUITE.pdf` | 481 | **SHA-512 divergent** |
-| `C:\L16B\MESSAGERIES\dmmconseils93300@hotmail.com.pst` | 1497 | **SHA-512 divergent** |
-
-**Présence du chemin et identité du fichier sont donc distinguées.** Les trois fichiers du tableau existent dans l’image, mais leur contenu actuel ne correspond pas à l’empreinte inventoriée. La date, la cause et l’auteur des écarts restent indéterminés. Les correspondances Khallouki du PST 93300 restent soumises à la réserve exposée au point 1.4 ; la concordance du PST DMM et de Takeout est confirmée par cette passe exhaustive.
-
-**Écarts de liste.** Trois fichiers actuels de L16B sont absents du CSV : `GDRIVE.zip`, `GDRIVE (2).zip` et `MESSAGERIES\misssmalika@hotmail.com\CADA.pdf.pdf`. Leurs créations FN datent de **2026**. Les traces du 28 octobre identifient aussi quatre anciens chemins absents du CSV : deux raccourcis supprimés, `test.pdf` et le chemin intermédiaire `Sage.pdf` à la racine. **Ces écarts ne constituent pas une liste prouvée de fichiers écartés par le filtrage.** Le fichier de rejets et l’archive finale n’ont pas été récupérés.
-
-**Portée.** Le contrôle établit les correspondances ou divergences par rapport au CSV fourni. L’authentification de son support d’origine, la composition et la conservation actuelle du jeu définitivement emporté, ainsi que l’éventuelle lecture ou utilisation des fichiers restent à contrôler.
-
-**Références :** [rapport Markdown complet des 1 555 comparaisons, avec les deux SHA-512 intégraux pour chaque fichier](ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-SHA512-exhaustive-1555-fichiers.md), [synthèse et écarts de chemins](ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-L16B-inventaire.md) et [résultats structurés du contrôle en lecture seule](ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/resultats-comparaison-L16B-inventaire.json).
+**Pour avancer.** Rechercher anciennes copies, réglages et journaux caméra, puis reproduire le défaut sur témoin si possible. Le [rapport SD-03, sections 7–9](cartes_sd/analyse-cartes_sd-SD-03.md) et l’[analyse transversale](cartes_sd/analyse-cartes_sd-transversale.md) distinguent les mesures, les scénarios et leurs limites.
 
 ## 2. Comprendre la mission et les appareils
 
@@ -247,27 +91,17 @@ Le rapport distingue **les constats techniques**, issus des données examinées,
 
 Une sauvegarde est une copie de données du téléphone, parfois réalisée longtemps après les faits. Elle peut contenir des informations venues d’un autre appareil ou d’un service en ligne. Une date présente dans cette copie ne prouve donc pas toujours une opération sur le téléphone physique à cet instant. De même, un nom de compte ou de réseau n’identifie pas une personne.
 
-Cette version présente l’état des investigations réalisées jusqu’au **16 novembre 2026**, dont les compléments OP-01 sur le Samsung, le réseau, Sage et les PDF ALMU, les travaux sur l’inventaire DNEF et TP-03, ainsi que la [note de constatation vidéo du 16 novembre](NOTE-DE-CONSTATION-téléphones.md). La réorganisation du 12 novembre était rédactionnelle ; les résultats techniques ajoutés le 13 proviennent de nouvelles lectures de l’image déjà acquise. Les précisions de méthode, les limites et les références sont réunies dans les annexes de la section 8.
+Les résultats techniques conservent leurs dates propres : acquisitions et sauvegardes entre 2025 et 2026 selon les supports, analyses jusqu’au 17 novembre 2026. La révision du 18 novembre organise leur présentation, sans nouvelle acquisition ni expérience sur les supports. Les annexes fournissent les localisateurs et les limites des contrôles.
 
 ## 3. Les dates essentielles
 
 Les heures informatiques sont présentées en heure de Paris. Les heures affichées par les caméras n’ont pas été comparées à une référence commune : leur rapprochement avec les autres horaires reste prudent.
 
-| Moment | Événement et provenance | Portée |
+| Phase | Repères de Paris et provenance | Sens |
 |---|---|---|
-| **15 octobre, vers 10 h 43–10 h 53** | Fonctionnement puis veille prolongée d’OP-01 — traces Windows. | Aucune activité Windows intermédiaire corroborée jusqu’au 28. |
-| **15 octobre, 13 h 25 min 19 s — horloge vidéo** | Intervention sur les trois téléphones et apparition des logos Apple — [constat de visionnage du prestataire](NOTE-DE-CONSTATION-téléphones.md). | Séquence de démarrage ; état lors de la fermeture non certifié. |
-| **15 octobre, vers 13 h 30** | Perte d’accès aux téléphones — déclaration de la cliente. | Ce n’est pas l’heure de scellement. |
-| **15 octobre, vers 13 h 32 min 26 s** | Dernières images conservées du salon — horloge caméra. | Ce n’est pas une heure certaine d’arrêt de la caméra. |
-| **15 octobre, après 14 h 19** | Mise sous scellés — PV. | Heure de fermeture individuelle inconnue. |
-| **15–26 octobre ; 17 octobre vers 17 h 25** | Historique d’appels et séquence Wi-Fi — données TP-02. | Origine physique à établir. |
-| **28 octobre, 10 h 22 puis 10 h 41** | Arrivée de la cliente, puis ouverture du PC — PV. | Windows reprend à 10 h 41 min 56 s. |
-| **28 octobre, 11 h 18–11 h 47** | Samsung **« XCover 5 de David »**, série **`R58RB2ETQER`**, reconnu par USB ; profils « Réseau 2 » puis « Réseau 3 » avec Internet — traces Windows. | Partage USB fortement étayé ; propriétaire et première connexion absolue indéterminés. |
-| **28 octobre, 11 h 30** | Ouverture des scellés des téléphones — PV. | Les opérations suivantes sont après ouverture. |
-| **28 octobre, 15 h 10–15 h 28** | Lancement et échange d’authentification Sage, puis générations PDF, dont **458 pages ALMU**. | Sorties locales effectives ; ni saisie manuelle d’identifiants ni transfert externe de ce PDF prouvés. |
-| **28 octobre, 17 h 14 puis 17 h 28** | Retrait du Samsung et perte immédiate de la connexion enregistrée ; échec de fin de session et défaillance Sage. | Concordance réseau/USB forte, sans attribution à une personne. |
-| **28 octobre, journée** | Regroupements, suppressions et périphériques USB — traces d’OP-01 ; copies décrites au PV. | Contenu final emporté non vérifié. |
-| **28 octobre, 19 h 20 ; 29 octobre, vers 17 h 59** | Clôture du PV et restitution déclarée ; reprise des fichiers du salon le lendemain. | Pas d’heure individuelle de remise ; heure caméra pour la reprise vidéo. |
+| **15 octobre 2024 — opérations et placement sous scellés** | OP-01 reprend vers 10:43 puis hiberne vers 10:53 (Windows). Logos Apple à 13:25:19 selon l’horloge vidéo ; perte d’accès aux téléphones vers 13:30 selon la cliente. Mise sous scellés après 14:19 (PV). | Les heures vidéo ne sont pas étalonnées ; aucune heure individuelle de fermeture n’est fournie. Les métadonnées PDF 13:41–13:50 ne prouvent pas une extraction. |
+| **Conservation avant ouverture** | OP-01 : aucune reprise Windows intermédiaire corroborée. TP-03 : traitements internes du 16 vers 05:31. TP-02 : traitements et Wi-Fi du 17 vers 17:15–17:25, plus historique d’appels du 15 au 26. | Distinguer fonctionnement local, traitement automatique et historique copié ; aucun auteur certain. |
+| **28 octobre 2024 — après ouverture** | Arrivée 10:22, ouverture PC 10:41 et téléphones 11:30 (PV). Samsung reconnu 11:18 ; Sage lancé 15:10, PDF ALMU 458 pages 15:28 ; PDF Mini regroupés 17:13 ; références Kingston 17:26–17:27. Clôture 19:20 ; récupération vers 19:20 déclarée. | Les opérations après ouverture ne prouvent pas une manipulation sous scellé fermé. Les références externes ne donnent pas le contenu de l’archive. |
 
 La chronologie complète, incluant les traitements système et les événements après restitution, figure en annexe A.
 
@@ -307,7 +141,7 @@ Le dossier **L16B** rassemble des documents locaux, des données Google Drive et
 
 Le PV décrit ensuite une sélection, l’exclusion de données personnelles et de correspondances d’avocats, puis une copie sur une clé de l’administration, une authentification des fichiers et deux CD d’inventaire. Il précise que L16B est laissé sur le PC à titre informatif. **Ce dossier de travail ne constitue donc pas une image certifiée de la copie emportée.**
 
-Le CD reste indisponible, mais un **CSV d’inventaire a été fourni et ses 1 555 lignes ont désormais toutes été contrôlées** contre L16B dans l’image. **Aucun chemin ne manque ; 1 552 SHA-512 concordent et 3 divergent** : le raccourci USB2, `FACT 2018 SUITE.pdf` et le PST 93300. Les 27 PDF Mini, le PST DMM et Takeout font partie des concordances. Le point 1.4 précise la portée pour les correspondances d’avocats ; le **point 1.10** décrit le contrôle complet et renvoie au [rapport Markdown des 1 555 comparaisons](ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-SHA512-exhaustive-1555-fichiers.md). L’authentification du support d’origine et le contrôle matériel de l’archive finale et de sa conservation restent distincts ; L16B ne devient pas pour autant une copie certifiée du jeu final.
+Le CD reste indisponible, mais un **CSV d’inventaire a été fourni et ses 1 555 lignes ont désormais toutes été contrôlées** contre L16B dans l’image. **Aucun chemin ne manque ; 1 552 SHA-512 concordent et 3 divergent** : le raccourci USB2, `FACT 2018 SUITE.pdf` et le PST 93300. Les 27 PDF Mini, le PST DMM et Takeout font partie des concordances. Le point 1.1 précise la portée pour les correspondances d’avocats ; le **point 1.2** décrit le contrôle complet et renvoie au [rapport Markdown des 1 555 comparaisons](ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-SHA512-exhaustive-1555-fichiers.md). L’authentification du support d’origine et le contrôle matériel de l’archive finale et de sa conservation restent distincts ; L16B ne devient pas pour autant une copie certifiée du jeu final.
 
 ### Le Samsung et l’accès Internet d’OP-01 le 28 octobre
 
@@ -337,7 +171,7 @@ Les échanges identifiés sont conservés dans des archives de messagerie et des
 
 Le PDF reproduisant des échanges avec Me Isabelle Guillou concerne un recours de 2017 relatif à un tiers. Ses dates soutiennent un regroupement local le 28 octobre. Les traces d’interaction du 29 sont postérieures à la restitution déclarée et ne prouvent pas une lecture par un agent pendant les opérations.
 
-Les 27 PDF du dossier Mini ont des contenus identiques retrouvés dans **les deux sauvegardes TP-02 et TP-03** et figurent désormais dans le **CSV d’inventaire fourni**, avec les mêmes SHA-512. Les 17 rapprochements temporels favorisent la lignée de TP-03, sans identifier un transfert direct ou un opérateur. **Le PDF Bourarach est donc identifié individuellement dans cet inventaire** ; l’archive finale et son utilisation restent à contrôler. Les courriers déjà adressés à l’administration, propositions de services ou mentions du conseil adverse doivent toujours être distingués d’un échange confidentiel avocat-client.
+Les 27 PDF du dossier Mini ont des contenus identiques retrouvés dans **les deux sauvegardes TP-02 et TP-03** et figurent désormais dans le **CSV d’inventaire fourni**, avec les mêmes SHA-512. Les 17 rapprochements temporels favorisent l’historique conservé dans TP-03, sans identifier un transfert direct ou un opérateur. **Le PDF Bourarach est donc identifié individuellement dans cet inventaire** ; l’archive finale et son utilisation restent à contrôler. Les courriers déjà adressés à l’administration, propositions de services ou mentions du conseil adverse doivent toujours être distingués d’un échange confidentiel avocat-client.
 
 Le contrôle doit porter sur les documents effectivement emportés, leur qualification et leur éventuelle utilisation fiscale. Le cadre juridique et les références déjà cités sont conservés en annexe B.1 ; le rapport technique ne conclut pas à la régularité ou à l’irrégularité globale de la saisie.
 
@@ -379,32 +213,25 @@ La Freebox confirme l’identité réseau d’OP-01, mais un autre ordinateur et
 
 Deux tentatives d’accès au partage de fichiers d’OP-01 en mars 2024 ont échoué. Les traces anciennes de téléassistance et de mise en quarantaine d’un document ne démontrent pas une prise en main non autorisée ou une compromission réussie. Les historiques restent incomplets : aucune absence générale d’accès depuis 2021/2022 ne peut être certifiée.
 
-## 7. Bilan et vérifications encore nécessaires
+## 7. Pièces complémentaires à demander
 
-**Les constats les plus utiles à l’examen du dossier sont les pistes TP-02, les opérations documentées du 28 octobre et la présence de correspondances d’avocats dans les données regroupées.** Les inconnues principales sont l’origine physique de certaines traces, le contenu définitivement emporté et le rôle des supports de destination.
+Les comparaisons au CSV sont accomplies ; les demandes ci-dessous visent à expliquer les écarts, contrôler le jeu final et rattacher les traces aux appareils. La priorité exprime leur pouvoir de clarification, sans présumer leur disponibilité ni leur détenteur exact.
 
-Le contrôle des messageries prouve aussi la présence de **21 messages dans le PST DMM correspondant à l’empreinte de l’inventaire** ; Takeout concorde également. Les traces Khallouki du PST 93300 divergent restent non certifiées dans la version inventoriée. Voir le point 1.4.
+| Pièce | Détenteur présumé | Question à résoudre | Priorité |
+|---|---|---|---|
+| `Archive_saddedine.zip` et `Rejets_saddedine.txt`, avec empreintes et conservation | Administration / support de destination décrit au PV | Quels contenus ont été retenus ou exclus ? Les correspondances inventoriées sont-elles dans l’archive ? | 1 |
+| Inventaire CSV sur son support d’origine et CD annoncés au PV | Administration ; copies éventuellement conservées par la cliente | Authentifier l’inventaire fourni, son algorithme et sa relation au jeu final. | 1 |
+| Versions inventoriées du PST 93300, du PDF FACT 2018 SUITE et du raccourci USB2 | Administration / archive finale | Expliquer les trois différences de contenu. | 1 |
+| Nom, version, paramètres et journaux du logiciel de collecte | Opérateurs des opérations techniques / administration | Expliquer les dates du 15, le regroupement du 28, les doublons et les étapes intermédiaires. | 1 |
+| Séries/IMEI des téléphones, photographies et correspondance avec les scellés ; identité matérielle des Kingston | Dossier de procédure / détenteurs des supports | Rattacher TP-01/02/03 et le volume de destination aux appareils matériels. | 1 |
+| Ordonnance complète, instructions applicables et actes utilisant les pièces | Dossier de procédure, via l’avocate | Examiner le périmètre ALMU, la qualification des correspondances et leurs conséquences juridiques. | 1 |
+| PV et photographies de garde, mouvements, état d’alimentation et isolement réseau | Administration / détenteurs des scellés | Distinguer opérations constatées, automatisme possible et conditions déclarées. | 2 |
+| Sauvegarde contemporaine TP-02/TP-03 et historique de migrations après le 17 octobre | Cliente, anciens ordinateurs ou sauvegardes conservées | Distinguer activité locale et historique transporté ultérieurement. | 2 |
+| Relevés opérateur avec identité du matériel et journaux du point d’accès ASUS | Opérateur / détenteur du point d’accès, si conservés | Attribuer les appels et l’association Wi-Fi à un appareil à horloge vérifiable. | 2 |
+| Identification Samsung série `R58RB2ETQER` et notes d’opérations Sage/suppressions | Opérateurs / détenteur du téléphone | Préciser le partage Internet, l’accès Sage et le motif des suppressions après ouverture. | 2 |
+| Copies vidéo antérieures, réglages et journaux caméra/compte/horloge | Cliente / fournisseur ou équipements, si conservés | Expliquer le défaut et la lacune du salon, puis envisager une expérience sur témoin. | 3 |
 
-Le complément DNEF apporte désormais un **contrôle positif des 27 PDF dans le CSV fourni**, dont Bourarach, et **17 rapprochements temporels spécifiques à des métadonnées de TP-03 datées du 15 octobre**. Il ne démontre ni création des PDF ce jour-là, ni consultation humaine, ni premier déverrouillage ou transfert direct. **Les mêmes 20 contenus distincts sont également présents dans TP-02 : c’est la concordance des dates, et non la seule présence des fichiers, qui distingue TP-03.** Le point 1.9 explique les limites de la métadonnée de dernière utilisation et les pièces manquantes.
-
-Pour OP-01, les compléments établissent une **première reconnaissance conservée du Samsung « XCover 5 de David » à 11 h 18**, un partage Internet fortement étayé, un **échange d’authentification Sage vers 15 h 11** et une **sortie PDF de 458 pages ALMU à 15 h 28**. Le retrait du Samsung à 17 h 14 renforce le rapprochement avec l’accès Internet. Ces résultats caractérisent les opérations après ouverture ; ils n’identifient ni propriétaire ou opérateur humain, ni contenu finalement emporté. Le rapprochement avec l’inventaire final reste nécessaire.
-
-Aucune rupture matérielle de scellé, intrusion non autorisée, falsification volontaire de vidéo ou suppression malveillante n’est établie. L’absence de preuve retrouvée ne garantit pas l’absence d’intervention. Les limites de conservation des historiques, des horloges et des sauvegardes expliquent cette prudence.
-
-| Pièces ou explications à obtenir | Ce qu’elles permettraient de vérifier |
-|---|---|
-| **Priorité :** authentification du CSV fourni, `Archive_saddedine.zip`, `Rejets_saddedine.txt`, support d’origine et PST 93300 conforme à l’empreinte inventoriée | Compléter les concordances déjà établies pour les 27 PDF, le PST DMM et Takeout ; contrôler l’archive finale, les exclusions et les fichiers conservés, puis expliquer la divergence du PST 93300. Le CSV est disponible ; les autres pièces et une version conforme du PST 93300 n’ont pas été obtenues. |
-| Ordonnance complète et éventuelles instructions du juge ; actes fiscaux utilisant les pièces | Périmètre autorisé et utilisation des documents litigieux, à examiner juridiquement. |
-| **Priorité :** nom, version, paramètres et journaux du logiciel de collecte ; identification des supports sources et de destination | Comprendre les dates attribuées aux fichiers, les étapes de copie et le rôle des trois Kingston, sans présumer de l’outil utilisé. |
-| **Priorité :** correspondance TP-02 / TP-03 avec les numéros de scellés et comptes rendus des opérations des 15 et 28 octobre | Rattacher les constatations techniques aux appareils effectivement manipulés et à la chronologie documentée. |
-| Appareil Samsung correspondant à la série `R58RB2ETQER` et notes d’opérations | Identité matérielle derrière le nom « XCover 5 de David », rôle du partage Internet et contexte de l’accès Sage ; le libellé seul n’identifie pas une personne. |
-| Photographies et documents de conservation des scellés | Continuité des emballages, mouvements et interventions éventuelles. |
-| Conditions d’extinction, d’alimentation et d’isolement réseau | Possibilité de fonctionnement automatique pendant la conservation. |
-| Relevés opérateur avec identifiants matériels, journaux ASUS, historique de restauration | Origine des appels et de la configuration Wi-Fi de TP-02. |
-| Notes d’opérations sur les fichiers, comptes et téléphones | Motif des suppressions et nature des opérations après ouverture. |
-| Autres copies vidéo et journaux de caméra, s’ils existent | Cause possible des anomalies et des périodes sans fichiers. |
-
-Ces documents ne sont pas présentés comme disponibles. La traçabilité de la mission et les copies de conservation de **2026** font l’objet d’une annexe distincte : leur achèvement n’est pas attesté par les pièces consultées. Cette question concerne la mission actuelle et ne constitue aucun indice d’une intervention en 2024.
+La confirmation de mise à disposition S3 de 2026 et les contrôles de téléchargement sont documentés séparément en annexe D ; ils ne constituent pas des indices sur les opérations de 2024.
 
 ## 8. Annexes et références
 
@@ -596,7 +423,7 @@ Le compte Windows observé est `fintm`. **Il n’identifie pas la personne ayant
 
 ##### Après la restitution, appairages et limites de datation
 
-Le [tableau détaillé](investigations/20261019-retour-cliente/compte-rendu.md#4-dix-mises-à-la-corbeille--contre-lecture-directe) donne chaque chemin d’origine et chaque heure.
+Le [tableau détaillé](investigations/20261019-retour-cliente/compte-rendu.md#4-dix-mises-à-la-corbeille-contre-lecture-directe) donne chaque chemin d’origine et chaque heure.
 
 La relecture de **359 journaux Windows, soit 275 577 enregistrements**, ne retrouve aucun événement après **19 h 20 le 28**, ni du 16 au 27. Les 285 rendus XML non valides ont été repris pour leurs dates. Le contrôle complet de la MFT retrouve toutefois **cinq fichiers iCloud avec des dates anciennes après 19 h 20**, mais une modification de leur entrée MFT en 2026 : **ces métadonnées ne prouvent pas une activité locale du PC le soir du 28**. Les interactions PST du 29 déjà décrites sont également postérieures à la restitution déclarée.
 
@@ -640,7 +467,7 @@ Deux BSSID ASUS_Z01RD sont conservés avec des associations du **28 octobre**, *
 
 Des dates existent **après 19 h 20 le 28** : appel à **19:39:46**, champ `LinkDownTimestamp` ASUS à **19:40:02**, caches LSC vers **22:35 et 23:26**. Elles sont postérieures à la restitution déclarée, sans auteur établi et sans preuve de visionnage des caméras. Le tri ciblé du manifeste et la relecture de 25 plist de gestion/comptes ne révèlent pas de session d’extraction d’octobre 2024 ni d’historique complet des appareils associés depuis 2021.
 
-Le démarrage constaté dans la vidéo le 15 à 13 h 25 min 19 s est exposé en section 1.2 et en annexe A, avec référence à la [note de constatation du 16 novembre](NOTE-DE-CONSTATION-téléphones.md). La date du branchement de l’appareil d’extraction demeure « le 15 / le 28 » et ne doit pas être confondue avec ce rallumage.
+Le démarrage constaté dans la vidéo le 15 à 13 h 25 min 19 s est exposé en section 1.6 et en annexe A, avec référence à la [note de constatation du 16 novembre](NOTE-DE-CONSTATION-téléphones.md). La date du branchement de l’appareil d’extraction demeure « le 15 / le 28 » et ne doit pas être confondue avec ce rallumage.
 
 ##### TP-01 — réception différée possible et métadonnées non localisantes
 
@@ -668,7 +495,7 @@ Le déchiffrement porte sur **4 632 objets généraux** et une sélection indép
 
 ##### Recoupements entre téléphones et ordinateur
 
-**Les 27 PDF Mini de L16B ont des équivalents binaires exacts dans TP-02 ET TP-03**, soit vingt contenus. Leurs chemins et SHA-512 figurent aussi dans le CSV désormais fourni. L’identité de contenu commune ne départage pas les appareils ; les **17 lastused TP-03 du 15 octobre**, dont 16 changements de statut concordants, favorisent en revanche sa lignée logique. Aucun `Birth` des 72 objets ne tombe dans cette séquence. Le regroupement des 27 fichiers sur OP-01 à **17:13:43 le 28**, en environ **658 ms**, est étayé ; l’origine des dates SI du 15 et le logiciel restent inconnus. La protection de classe C rendrait certaines nouvelles opérations locales incompatibles avec BFU après redémarrage, mais les conditions historiques nécessaires ne sont pas toutes établies. **Premier déverrouillage, transfert direct, auteur et scellé n° 3/n° 4 non démontrés.** Voir le [point 1.9](#19-documents-retrouvés-sur-les-iphone--des-traces-datées-du-15-octobre-2024-qui-restent-à-expliquer) et les sections 7.2 à 7.6 du [rapport TP-03](telephones/analyse-TP-03.md).
+**Les 27 PDF Mini de L16B ont des équivalents binaires exacts dans TP-02 ET TP-03**, soit vingt contenus. Leurs chemins et SHA-512 figurent aussi dans le CSV désormais fourni. L’identité de contenu commune ne départage pas les appareils ; les **17 lastused TP-03 du 15 octobre**, dont 16 changements de statut concordants, favorisent en revanche l’historique de données conservé dans TP-03. Aucun `Birth` des 72 objets ne tombe dans cette séquence. Le regroupement des 27 fichiers sur OP-01 à **17:13:43 le 28**, en environ **658 ms**, est étayé ; l’origine des dates SI du 15 et le logiciel restent inconnus. La protection de classe C rendrait certaines nouvelles opérations locales incompatibles avec BFU après redémarrage, mais les conditions historiques nécessaires ne sont pas toutes établies. **Premier déverrouillage, transfert direct, auteur et scellé n° 3/n° 4 non démontrés.** Voir le [point 1.5](#15-parcours-des-pdf-associés-à-tp-03) et les sections 7.2 à 7.6 du [rapport TP-03](telephones/analyse-TP-03.md).
 
 L’UDID TP-03 correspond exactement au nom du **fichier d’appairage Apple ancien d’OP-01** précédemment non attribué à un téléphone de mission. Cela relie cette relation de confiance conservée à TP-03, sans dater de connexion en octobre 2024. Les dates SI de juillet 2022 et FN/modification de décembre 2023 restent distinctes.
 
@@ -767,7 +594,7 @@ La terrasse est déclarée fonctionner **24 h/24**. Le nouveau calcul de l’uni
 - **Historiques incomplets :** les traces conservées ne recensent pas tous les accès distants ni toutes les opérations anciennes. Des enregistrements ont pu être remplacés, particulièrement sur la terrasse.
 - **Horloges non comparées à une référence commune :** une proximité entre heure caméra, heure informatique et heure déclarée ne prouve pas un événement simultané.
 - **Signalements de réinitialisation non authentifiés :** l’interface, le message et les fichiers à l’origine des deux observations de la cliente restent inconnus.
-- **Inventaire et pièces absentes :** le CD d’origine reste indisponible, mais les **1 555 lignes du CSV fourni ont été comparées à l’image : 1 552 SHA-512 identiques et 3 divergents, sans chemin absent** ; les 27 PDF Mini font partie des concordances. Voir le point 1.10. Le ZIP final, le fichier de rejets et le support de destination restent à obtenir ou authentifier ; le CSV seul ne certifie pas la conservation actuelle des fichiers. Le journal de sauvegarde Mac manque pour la provenance de TP-02 ; les rapports TP-01 et TP-03 exposent les limites propres à leurs sauvegardes, complétées pour TP-03 les 14 et 16 novembre.
+- **Inventaire et pièces absentes :** le CD d’origine reste indisponible, mais les **1 555 lignes du CSV fourni ont été comparées à l’image : 1 552 SHA-512 identiques et 3 divergents, sans chemin absent** ; les 27 PDF Mini font partie des concordances. Voir le point 1.2. Le ZIP final, le fichier de rejets et le support de destination restent à obtenir ou authentifier ; le CSV seul ne certifie pas la conservation actuelle des fichiers. Le journal de sauvegarde Mac manque pour la provenance de TP-02 ; les rapports TP-01 et TP-03 exposent les limites propres à leurs sauvegardes, complétées pour TP-03 les 14 et 16 novembre.
 
 Le rapport Freebox relève aussi une divergence non résolue pour une première activité du **4 mars 2024** entre une ancienne retranscription et les données exportées. Les heures corrigées à partir des données brutes ont été privilégiées ; cette entrée n’est pas utilisée dans la chronologie des faits du 15 au 28 octobre.
 
@@ -779,7 +606,7 @@ Le périmètre effectivement analysé comprend l’ordinateur **OP-01** (portabl
 
 **TP-01 a fait l’objet d’un complément le 10 novembre 2026**, à partir de sa sauvegarde du 9 novembre, identifiée par la série Q13QT4F164. Son indisponibilité lors des campagnes antérieures ne décrit plus le périmètre actuel. **TP-03 est également analysé le 10 novembre**, sur une sauvegarde chiffrée portant des dates de septembre 2025 et identifiée par la série Y4Q9KGHG26. Sa remise matérielle, postérieure à la remise initiale du 7 octobre 2026, rectifiée par le document du 17 novembre, est confirmée par le prestataire.
 
-Cette synthèse intègre les résultats antérieurs, le [complément du 19 octobre](investigations/20261019-retour-cliente/compte-rendu.md) et la [lecture du PV du 8 novembre](investigations/20261108-analyse-pv/compte-rendu.md). Le PV est désormais disponible et a été consulté ; ses énonciations sont distinguées des constats techniques et des observations de la cliente annexées. Le [complément technique du 8 novembre](investigations/20261108-complement-pv/compte-rendu.md) expose les nouveaux contrôles et les travaux encore suspendus ; la [reprise du 9 novembre](investigations/20261108-complement-pv/reprise-20261109.md) intègre les résultats SIFT récupérés. Le journal de création de la sauvegarde sur Mac demeure indisponible. La réorganisation du 12 novembre intégrait les investigations réalisées jusqu’au 10 novembre. **La mise à jour du 16 novembre intègre la [note de constatation vidéo de Christophe Donnat](NOTE-DE-CONSTATION-téléphones.md), qui documente le démarrage des trois téléphones à 13 h 25 min 19 s le 15 octobre (section 1.2).** **La mise à jour du 13 novembre intègre la confirmation de la cliente concernant la réinitialisation Microsoft et les validations Google du 28 octobre, ainsi que sa demande de ne pas approfondir ce point** ([courriel, point 3](docs/mail-3.txt)). Elle ajoute les lectures techniques complémentaires de l’image OP-01 concernant le Samsung `R58RB2ETQER`, les connexions Internet du 28, le journal natif Sage et les générations de PDF ALMU, présentées au **point 1.8**, en section 5 et en annexe B.1. Ces travaux ne constituent pas une nouvelle acquisition du disque ni un nouveau visionnage des vidéos. Les constats techniques, les énonciations du PV et les déclarations de la cliente sont distingués dans chaque conclusion.
+Les sources techniques gardent leurs dates et contrôles propres. La [lecture du PV](investigations/20261108-analyse-pv/compte-rendu.md) et le [complément consolidé des 8–9 novembre](investigations/20261108-complement-pv/compte-rendu.md) distinguent les mentions procédurales et les observations techniques. La note vidéo documente le constat de visionnage ; le courrier de la cliente explique les SMS. Le journal Mac manque encore pour la provenance de TP-02. Les contrôles de contenu du 16 novembre et la confirmation S3 du 17 sont distincts de la révision rédactionnelle du 18.
 
 <a id="annexe-d"></a>
 
@@ -789,7 +616,7 @@ Cette synthèse intègre les résultats antérieurs, le [complément du 19 octob
 
 L’ensemble des données extraites et du dossier de travail est conservé sur **OVHcloud S3**. **Le prestataire confirme le 17 novembre 2026 que le stockage S3 est complet.** Cette actualisation remplace l’état de conservation mentionné dans la version précédente du rapport.
 
-**Mme Sadedine dispose d’un accès lui permettant de télécharger les données depuis le stockage S3 au moyen d’une clé d’accès.** Les identifiants de connexion sont communiqués séparément du rapport et du bordereau. L’espace de destination est le bucket `sadedine-2026`, sous le préfixe `SADEDINE-2026/`. La [notice de téléchargement](note-s3.md) décrit les modalités d’accès et de récupération.
+**Mme Sadedine dispose d’un accès lui permettant de télécharger les données depuis le stockage S3 au moyen d’une clé d’accès.** Les identifiants de connexion sont communiqués séparément du rapport et du bordereau. L’espace de destination est le bucket `sadedine-2026`, sous le préfixe `SADEDINE-2026/`. La [notice de téléchargement](remise-documents/notice-telechargement-s3.md) décrit les modalités d’accès et de récupération.
 
 Le [bordereau de mise à disposition des données](remise-documents/bordereau-mise-a-disposition-donnees-20261117.md) décrit le contenu accessible et les empreintes de contrôle de référence. **Aucun disque dur n’a été remis à la cliente à la date de cette actualisation.** La copie et la remise sur un disque dur neuf fourni par elle feront l’objet d’un bordereau distinct lors de cette remise. La conservation sur S3 se poursuit selon la durée prévue au devis.
 
@@ -840,7 +667,7 @@ Les horaires notés pour l’acquisition d’OP-01 en 2026 ne sont pas entièrem
 #### Conservation, opérations et correspondances
 
 - [Compte rendu général et compléments du 17 octobre](investigations/20261017-recroisements/compte-rendu.md) et [retour de la cliente et contre-lectures du 19 octobre](investigations/20261019-retour-cliente/compte-rendu.md).
-- [Complément technique du 8 novembre](investigations/20261108-complement-pv/compte-rendu.md) et [reprise SIFT du 9 novembre](investigations/20261108-complement-pv/reprise-20261109.md).
+- [Complément technique du 8 novembre](investigations/20261108-complement-pv/compte-rendu.md) et [reprise SIFT du 9 novembre](investigations/20261108-complement-pv/compte-rendu.md).
 - [Contrôle de L16B et des catégories du PV](investigations/20261109-controle-l16b-photos/compte-rendu.md).
 - [Recherche élargie des correspondances](investigations/20261109-correspondances-elargies/compte-rendu.md), [messages sélectionnés](investigations/20261109-correspondances-elargies/tableau-messages.md), [documents](investigations/20261109-correspondances-elargies/tableau-documents.md) et [fiche du PDF Bourarach](investigations/20261109-clarification-correspondances/fiche-bourarach.md).
 
@@ -873,3 +700,9 @@ Cet inventaire reprend les équipements et identifiants de l’annexe 1 de l’[
 | **SD-03** — Carte SD | Marque transcrite : **ScanDisk** ; capacité : **32 Go** ; numéro de série non renseigné. | Inscrite à l’inventaire des matériels remis. |
 
 La Freebox et les caméras ne sont pas répertoriées comme matériels remis dans cette attestation ; aucun identifiant officiel de remise ne leur est donc attribué dans cet inventaire.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

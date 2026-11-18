@@ -1,5 +1,9 @@
 # Vérification et extraction des messageries d’OP-01 — 16 novembre 2026
 
+## Portée de la notice
+
+Les sources sont les trois conteneurs présents dans l’image OP-01 ; les destinations sont leurs copies sous `fichiers/`, distinctes de la source montée en lecture seule. Les empreintes avant/après et la relecture des copies contrôlent cette extraction, sans authentifier l’histoire antérieure de l’image. Refaire l’extraction dans un répertoire nouveau, puis recalculer les deux algorithmes sur chaque copie : SHA-256 pour les contrôles de travail, SHA-512 pour la comparaison au CSV. Résultat de référence : PST DMM et Takeout concordants, PST 93300 divergent. Aucun secret ni corps de message n’est publié dans cette notice.
+
 Les trois fichiers recherchés sont encore présents, non supprimés, dans le système de fichiers de l’image OP-01. Ils ont été ouverts et copiés depuis la VM SIFT, avec montage NTFS en lecture seule et loop EWF en lecture seule. Les copies sont conservées sous `fichiers/`, avec l’arborescence source.
 
 | Chemin dans Windows | Taille exacte | Copie |
@@ -35,3 +39,9 @@ Le choix explicite de la configuration SSH utilisateur évite une erreur de perm
 ## Portée
 
 La présence et la récupérabilité des trois fichiers dans l’image acquise sont confirmées. Une recherche de versions supprimées n’était pas nécessaire pour les retrouver et aucune recherche exhaustive de telles versions n’a été effectuée. Ce contrôle ne certifie pas la composition des fichiers définitivement emportés par l’administration en 2024, ni l’exhaustivité des boîtes de messagerie serveur.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

@@ -1,5 +1,11 @@
 # SD-01 — Campagne du 15 octobre 2026
 
+## Parcours de reproduction et résultats de référence
+
+Cette notice décrit la campagne du 15 octobre 2026 ; elle n’en ordonne pas la relance sur les sorties conservées. Prérequis : accès SIFT aux segments EWF SD-01, outils et versions indiqués ci-dessous, espace de destination suffisant et chemins de travail distincts. Contrôler d’abord l’identité des segments et les protections de lecture, puis suivre l’ordre collecte → inventaire FAT/TSK → médias → récupérations → validation et manifeste. Les commandes détaillées ci-dessous donnent les paramètres de chaque étape.
+
+Choisir une nouvelle destination pour chaque reproduction et conserver les journaux. Les références attendues sont 674 MP4 actifs, trois temporaires reliés à un final présent, aucun fichier effacé distinct supplémentaire récupéré, et les empreintes du flux/segments indiquées dans le rapport SD-01. Les erreurs ou formats non décodés restent journalisés ; un code de retour FFmpeg nul ne suffit pas à certifier l’absence d’avertissements. La génération d’un ancien rapport par script doit viser une copie de travail et ne doit pas remplacer le Markdown révisé.
+
 Rapport principal : [analyse-cartes_sd-SD-01.md](../../analyse-cartes_sd-SD-01.md).
 
 Les EWF maîtres sont lus dans SIFT, jamais écrits. Tous les résultats persistants sont dans le projet. Les scripts ouvrent la vue EWF en lecture seule et transmettent les données via stdout SSH. Les contrôles vidéo distants utilisent une copie anonyme en mémoire (`memfd`), sans fichier persistant sur la VM. Le montage EWF existant est `0444` ; aucune partition FAT n'est montée.
@@ -73,3 +79,9 @@ Les premières sorties sont conservées, mais les suivantes font foi pour les po
 | `verification-prioritaire.txt`, `verification-prioritaire-v2.txt` | `verification-prioritaire-v3.txt` et `inventaires/verification-prioritaire.json` | Deux erreurs de traitement dérivé corrigées ; planche originale et planche v3 conservées |
 
 Les analyses ne datent pas les suppressions, ne restaurent pas une vidéo supplémentaire et n'attribuent aucune action à une personne. Lire le rapport pour les distinctions entre observations, interprétations, hypothèses et limites.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

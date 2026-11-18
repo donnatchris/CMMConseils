@@ -2,7 +2,12 @@
 
 Intervention du 14 octobre 2026. Mission privée, contexte relu dans `docs/mail.txt` et l’attestation de remise. Ce complément distingue les constatations nouvelles des reprises des campagnes précédentes. Les heures du tableau sont en Europe/Paris (UTC+1 le 28 octobre 2024). Les CSV et JSON gardent les dates UTC.
 
-**Relecture documentaire du 12 novembre 2026 :** la campagne technique du 14 octobre n’est pas rejouée. Le PV est désormais consulté ; les repères de procédure et les suites documentaires ci-dessous sont harmonisés avec le [rapport final](../../../RAPPORT-FINAL-SADEDINE-2026.md). Le détail de la relecture et les empreintes actuelles figurent dans le [dossier de relecture](../../../investigations/20261112-coherence-rapports/compte-rendu.md).
+
+## Réponse en langage courant
+
+**Le 28 octobre, après ouverture du PC à 10 h 41, les traces décrivent des regroupements puis des références à trois fichiers sur un volume Kingston vers 17 h 26–17 h 27.** J’ai conservé ci-dessous la chronologie et ses justificatifs : archive ZIP, inventaire CSV et rejets TXT sont des cibles de raccourcis et de Jump Lists, pas leurs contenus.
+
+Le numéro de volume `140B8328` identifie un système de fichiers ; il ne remplace pas le numéro matériel USB et ne départage pas les trois Kingston. La [recherche du 16 novembre](../../../inventaire-DNEF/rapports/Recherche_recuperation_Archive_Rejets_OP-01_20261116.md) n’a récupéré ni archive finale ni rejets sur le disque interne. L’examen du support externe reste prioritaire. Le CSV reçu séparément permet désormais la comparaison des 1 555 fichiers, sans certifier le contenu de l’archive.
 
 ## Résultat principal
 
@@ -88,3 +93,9 @@ Le PV, non disponible lors de la campagne initiale du 14 octobre, a depuis été
 Rechercher dans les inventaires, journaux d’outils et documents complémentaires : identification physique des trois Kingston et de leurs volumes, branchements et éventuels changements de lettres ; création et contenu de `Archive_saddedine.zip`, `Inventaire_saddedine.csv`, `Rejets_saddedine.txt` ; provenance de L16B ; opérations sur les deux comptes PST, Google Takeout et les EML ; heures de fermeture des opérations et de restitution. Obtenir les supports ou images correspondantes pour comparer les empreintes et l’inventaire au contenu d’OP-01.
 
 Une mention au PV documenterait une opération consignée. Le caractère juridiquement autorisé et sa portée nécessitent l’examen des pièces de procédure ; les traces techniques seules ne permettent pas de le trancher.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

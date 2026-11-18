@@ -4,6 +4,11 @@ Complément du 14 octobre 2026.
 
 **L’explication la mieux étayée est un SSID de réseau Wi-Fi externe présent dans des listes de réseaux disponibles. Rien dans les éléments contrôlés n’établit qu’OP-01 émettait ce réseau. Un partage de connexion d’un téléphone ASUS ZenFone 5Z est une hypothèse plausible, mais le matériel émetteur n’est pas identifié.**
 
+
+## Réponse en langage courant
+
+**Le scénario le mieux étayé est celui d’un réseau externe aperçu par OP-01.** J’ai comparé les fragments décompressés à leurs contextes Wi-Fi et fait contrôler trois flux par un décodeur indépendant. Un nom compatible avec un ASUS ZenFone 5Z est une piste de modèle ; il n’identifie ni l’appareil émetteur réel ni son propriétaire. La comparaison avec un profil ou un journal de point d’accès contemporain serait nécessaire pour aller au-delà de cette interprétation.
+
 ## Ce que la reconstruction apporte
 
 Les cinq occurrences initiales étaient contenues dans des blocs compressés, et non dans cinq chaînes isolées en mémoire non compressée. Une recherche bornée de débuts de flux Plain XPRESS dans les contextes élargis permet de reconstruire cinq pages de 4 096 octets. Le script de décodage [carve_xpress.py](../scripts/carve_xpress.py) suit la variante Plain LZ77 décrite par [Microsoft MS-XCA](https://learn.microsoft.com/openspecs/windows_protocols/ms-xca).
@@ -52,3 +57,9 @@ Ces états acquis corroborent l’absence de preuve d’un réseau ASUS_Z01RD é
 - **Date, lieu, adresse MAC/BSSID et propriétaire :** non établis. Le fichier d’échange ne fournit pas l’horodatage de ces pages ni leur processus d’origine. Il n’est pas possible de rattacher ces fragments à la perquisition du 15/10/2024 ou à l’ouverture du 28/10/2024.
 
 Les contextes élargis bruts et leurs empreintes sont décrits dans [wide-contexts.json](wide-contexts.json). Ils correspondent à 69 632 octets autour de chacune des cinq occurrences, lus sur le montage protégé dans SIFT. Les pages décompressées et les fichiers bruts sont conservés dans ce même dossier. Aucune modification de l’acquisition ou de la configuration Windows n’a été effectuée.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

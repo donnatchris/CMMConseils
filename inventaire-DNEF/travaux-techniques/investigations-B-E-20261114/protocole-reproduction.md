@@ -1,5 +1,9 @@
 # Protocole de reproduction des doublons et des métadonnées
 
+## Statut : protocole non exécuté
+
+Les scénarios et observations attendues ci-dessous sont des critères d’expérience, pas des résultats de l’affaire. Utiliser des appareils témoins et des données de laboratoire, avec versions iOS et états de protection documentés. Comparer séparément synchronisation de mot de passe, transport complet d’historique et accès à un contenu de classe C avant/après première authentification. Une reproduction du seul nom ou d’une seule date ne valide pas la chaîne entière. Le résultat discriminant est la reproduction des mêmes champs, dates et transactions avec la destination éteinte au temps source, ou l’impossibilité bornée aux variantes effectivement testées. Aucune expérience sur les appareils de la cliente n’est déduite de cette notice.
+
 Ce protocole reste à exécuter sur des équipements de test. Aucun iPhone de test n’est disponible, selon l’utilisateur. Aucun Windows de test natif n’est connecté à l’environnement de travail. Wine présent sur SIFT n’est pas assimilé à Windows. Les appareils et images de la mission ne doivent pas servir à cette expérimentation.
 
 ## Préparer les contrôles
@@ -28,3 +32,9 @@ Un test instrumental BFU exige un moyen validé de déclencher et tracer l’op�
 ## Critère d’attribution
 
 Un mécanisme ne peut être retenu pour la mission sur le seul nom des doublons. Il faut rapprocher la convention de nommage, le profil SI/FN, les attributs iOS, les empreintes et une trace indépendante du logiciel réellement utilisé. Sans cette concordance, plusieurs mécanismes restent possibles.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

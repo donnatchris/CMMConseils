@@ -2,6 +2,13 @@
 
 **Mission SADEDINE-2026 — complément du 10 novembre 2026.** Réponse à la demande de rechercher au maximum les éléments permettant de valider ou d’invalider une intervention humaine à **05:31:33–05:31:39, heure de Paris**. Travail effectué sur SIFT, sur copies de la sauvegarde logique déjà déchiffrée, avec deux déchiffrements supplémentaires ciblés. Aucun accès au téléphone ou aux comptes en ligne.
 
+
+## Réponse en langage courant
+
+**Je privilégie des traitements internes pour expliquer la séquence du 16 octobre, parce que les huit transactions Messages portent sur des conseils/règles et que leur profil se retrouve dans 40 autres séquences.** L’événement CloudKit est un échec sans objet traité ; il ne démontre pas un transfert réussi. Les créations Santé peuvent être différées. Ces observations expliquent la nature des traitements, sans démontrer leur déclencheur automatique ni exclure une action humaine en amont.
+
+Les identifiants de transactions, champs modifiés, requêtes et résultats des contre-épreuves sont conservés ci-dessous. L’information manquante est un journal de démarrage, de déverrouillage ou d’activité au premier plan contemporain ; il permettrait de distinguer un traitement de fond d’une action locale ayant déclenché le même mécanisme.
+
 ## 1. Résultat de l’approfondissement
 
 **La séquence est confirmée dans les données, mais son examen détaillé ne permet pas de valider une intervention humaine. Il rapproche les transactions Messages d’un mécanisme récurrent de gestion des conseils, sans identifier son déclencheur.** L’hypothèse d’un fonctionnement automatique reste compatible avec les observations. Une manipulation humaine qui déclencherait les mêmes traitements n’est pas exclue.
@@ -188,3 +195,9 @@ Les captures de documentation Apple ont leurs URL et SHA-256 ; elles n’ont re�
 Les empreintes des résultats rapatriés et les contrôles finaux des sources sélectionnées sont consignés séparément dans `prive/verification-livraison.json` et `prive/verification-sources-finale.json`. L’empreinte de livraison des rapports/scripts est dans `SHA256SUMS-livraison.txt`. Ces contrôles établissent la cohérence des travaux et transferts, pas l’authenticité de l’horloge de 2024.
 
 **Vérification de livraison : 117 fichiers JSON rapatriés ont les mêmes SHA-256 que sur SIFT ; les onze sources chiffrées sélectionnées, dont le manifeste, sont inchangées.** Les liens locaux des cinq documents de livraison et la syntaxe des six nouveaux scripts sont contrôlés. Le manifeste de livraison du complément précédent reste un état historique ; les versions avant la présente mise à jour sont conservées dans `rapports-avant/`, et le nouveau manifeste couvre les versions courantes.
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev

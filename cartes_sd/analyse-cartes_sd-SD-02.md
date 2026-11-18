@@ -6,6 +6,15 @@
 
 **Support :** image de la carte SD-02, arborescence `CAMERA TERRASSE`
 
+
+## Réponse en langage courant
+
+**Le corpus conservé ne correspond pas à un enregistrement continu de la terrasse, déclaré par Mme Sadedine.** J’ai retrouvé 3 300 vidéos finalisées, un temporaire non finalisé, puis récupéré onze vidéos complètes et la fin d’une douzième. Les journées intérieures du 6 au 11 novembre ne couvrent nominalement que 48,892 à 64,937 % de 24 heures.
+
+La carte est occupée à environ 99,11 % et 315 premiers clusters d’entrées supprimées appartiennent désormais à des chaînes actives. Je privilégie une réutilisation circulaire du stockage pour expliquer ces réallocations ; elle ne suffit pas à expliquer chacune des lacunes. Arrêt, réglage de déclenchement, perte d’enregistrements et suppression restent possibles pour une absence particulière. Aucun journal conservé ne les classe de façon fiable ; les réglages historiques, journaux caméra et anciennes copies permettraient de les départager.
+
+Les onze récupérations représentent 44 min 36,096 s ; les 126,464 s supplémentaires sont un fragment, distinct d’un douzième fichier complet. Aucune vidéo du 15 octobre n’a été récupérée. Les identifiants, ordres de clusters, contrôles de décodage et limites figurent aux §§ 3 à 8 et dans les pièces du § 10.
+
 ## 1. Objet et périmètre
 
 Ce rapport présente les enregistrements conservés sur SD-02, les suppressions et récupérations possibles, les anomalies de fichiers et de dates, ainsi que les conclusions relatives aux événements signalés par la cliente. Il distingue les mesures sur l’image, les interprétations étayées et les causes non déterminées.
@@ -280,3 +289,9 @@ Les tailles, SHA-256 et cartes de clusters sont conservés dans les index. Les r
 | Conteneur dérivé | Nouveau fichier structurant des médias récupérés avec des tables adaptées. Il est distinct de l’original et ne remplace pas les octets manquants. |
 | PTS / DTS | Temps internes de présentation / décodage, distincts d’heures civiles certifiées. |
 | Slack / taille logique | Octets restant dans l’allocation après la fin déclarée du fichier / nombre d’octets appartenant au fichier selon son entrée. Leur lecture ne valide pas automatiquement une continuation. |
+
+---
+
+Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
+
+Christophe DOnnat — Donnat Dev
