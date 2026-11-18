@@ -12,7 +12,7 @@ Ce rapport présente les enregistrements conservés sur SD-03, les suppressions 
 
 Les [mails de mission](../docs/mail.txt) et [complémentaires](../docs/mail-2.txt) décrivent un affichage « 31/12/1999 », une réinitialisation rapportée de la **chambre en février 2024** et un autre événement le 15 octobre. Les anomalies du salon constituent des comparaisons techniques avec la chambre ; elles ne sont pas la provenance authentifiée du signalement de février. L’interface et le fichier à l’origine des observations restent inconnus.
 
-**Les caméras et cartes n’étaient pas sous scellés.** Leurs enregistrements postérieurs à la perquisition ne démontrent pas une violation de scellés. L’analyse distingue les mesures sur l’image, les interprétations, les observations de visionnage rapportées et les hypothèses ; elle constitue une investigation privée, sans désignation comme expertise judiciaire.
+**Les caméras et cartes n’étaient pas sous scellés.** Leurs enregistrements postérieurs à la perquisition ne démontrent pas une violation de scellés. L’analyse distingue les mesures sur l’image, les interprétations, les constats de visionnage du prestataire et les hypothèses ; elle constitue une investigation privée, sans désignation comme expertise judiciaire.
 
 ## 2. Synthèse des conclusions
 
@@ -239,13 +239,13 @@ Arrêt de production vidéo avant l’audio, pertes de données ou d’index, er
 
 La fin nominale du conteneur **13:32:37,760** ne doit donc pas être confondue avec la dernière image ou une heure certaine d’arrêt de la caméra.
 
-### 8.4. Lacune et observation rapportée sur les téléphones
+### 8.4. Lacune et constat de visionnage sur les téléphones
 
 Aucun fichier référencé ne porte de nom du **16 au 28 octobre**. Le nom suivant est le **29 octobre à 17:59:18**. Cette absence est établie dans le corpus, sans identifier sa cause : arrêt, alimentation, réglages, absence de déclenchement ou perte/suppression sans trace survivante restent possibles.
 
-**Observation de visionnage rapportée :** le prestataire indique que les vidéos du salon montrent, le **15 octobre vers 13:25**, une agente de l’administration fiscale rallumant les téléphones précédemment éteints. La cliente situait ce geste vers 13:30 ou un peu avant. Ce constat rapporté, repris dans le [rapport final](../RAPPORT-FINAL-SADEDINE-2026.md#12-téléphones-rallumés-avant-leur-mise-sous-scellés), est distinct des seuls aperçus contrôlés du clip commençant à 13:28. Il n’est pas présenté comme une nouvelle vérification indépendante de cette séquence.
+**Constat de visionnage :** la [note de constatation du 16 novembre 2026](../NOTE-DE-CONSTATION-téléphones.md) consigne, le **15 octobre 2024 à 13 h 25 min 19 s**, l’intervention sur les trois téléphones d’une femme identifiée par Mme Sadedine comme étant Mme Adam, avec apparition des logos Apple sur leurs écrans, caractéristique d’une séquence de démarrage d’iPhone. Ce constat figure également dans le [rapport final](../RAPPORT-FINAL-SADEDINE-2026.md#12-téléphones-rallumés-avant-leur-mise-sous-scellés).
 
-L’image à **13:30:21** montre plusieurs personnes et des objets sur une table ; **elle seule ne démontre ni allumage, ni branchement, ni identité ou fonction**. Ni le geste rapporté, ni sa proximité avec l’erreur vidéo intermédiaire ne démontre la cause de l’anomalie ou de la lacune suivante. L’extinction ultérieure des téléphones et leur état à la fermeture ne sont pas déterminés par les aperçus.
+L’image à **13:30:21** montre plusieurs personnes et des objets sur une table ; **elle seule ne démontre ni allumage, ni branchement, ni identité ou fonction**. Ni le geste constaté, ni sa proximité avec l’erreur vidéo intermédiaire ne démontrent la cause de l’anomalie ou de la lacune suivante. L’extinction ultérieure des téléphones et leur état à la fermeture ne sont pas déterminés par les aperçus.
 
 Le PV consulté situe la mise sous scellés des appareils concernés après **14:19 le 15** et distingue le 28 l’arrivée à **10:22**, l’ouverture du PC à **10:41** et celle des téléphones à **11:30**. Ces repères ne calibrent pas l’horloge caméra et ne décrivent pas un placement des caméras sous scellés.
 

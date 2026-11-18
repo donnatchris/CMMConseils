@@ -1,0 +1,136 @@
+{
+  "objet": "Intégration de la note de constatation du 16 novembre 2026 dans les cinq rapports courants",
+  "note_sha256": "af6f85db2bc7ce38f18680c6703a82c7793b46ebad0a4081aa94b9f157531107",
+  "rapports": [
+    {
+      "source": "RAPPORT-FINAL-SADEDINE-2026.md",
+      "sha256_avant": "926b68aaac5a99ffe94b5087707198dc345865ca92e64103bec0710fe8da4cd0",
+      "sha256_apres": "5f4cf87ec94a3943cb4dce95a40265d6a2f0e3e5249fe209eb35ea4756c7404f",
+      "pdf_avant_sha256": "7010fffd60fd1f2c375a9a8767c16bd848b53b0e77e993f80b80ec7c899cbd2e",
+      "conversion": {
+        "source": "RAPPORT-FINAL-SADEDINE-2026.md",
+        "pdf": "RAPPORT-FINAL-SADEDINE-2026.pdf",
+        "pages": 35,
+        "source_sha256": "5f4cf87ec94a3943cb4dce95a40265d6a2f0e3e5249fe209eb35ea4756c7404f",
+        "pdf_sha256": "e87fa80e61cf13794264f2f43a56c2b58ba44af8f5fdcaba61e71f1e6b9d2b83",
+        "bytes": 249587,
+        "layout_issues": [],
+        "images_in_source": 0
+      },
+      "controle_pdf": {
+        "pages_constat": [
+          3,
+          8,
+          15,
+          26,
+          32
+        ],
+        "liens_note_pdf": 8,
+        "reserves_ciblees_absentes": true,
+        "controle_visuel": "Pages contenant le constat rendues et inspectées : texte lisible, tableaux et marges sans débordement."
+      }
+    },
+    {
+      "source": "telephones/analyse-TP-01.md",
+      "sha256_avant": "985f28c93764ba1a1f59c9060564da6e18de8d319106da45f2baefbc958a9e3a",
+      "sha256_apres": "31ffc6489932b4b4925bab70c6e0531d8bd90769206faebd52bd8f776cb52c93",
+      "pdf_avant_sha256": "93a4c08dc70378237ebcadfcb1f8ea993436616cda853fbef130509ffa0a4c84",
+      "conversion": {
+        "source": "telephones/analyse-TP-01.md",
+        "pdf": "analyse-TP-01.pdf",
+        "pages": 7,
+        "source_sha256": "31ffc6489932b4b4925bab70c6e0531d8bd90769206faebd52bd8f776cb52c93",
+        "pdf_sha256": "d6ba559d1b0b6094350146e6aa38f327185972cc34f343589ed6d03d1bfc47f7",
+        "bytes": 68895,
+        "layout_issues": [],
+        "images_in_source": 0
+      },
+      "controle_pdf": {
+        "pages_constat": [
+          6
+        ],
+        "liens_note_pdf": 1,
+        "reserves_ciblees_absentes": true,
+        "controle_visuel": "Pages contenant le constat rendues et inspectées : texte lisible, tableaux et marges sans débordement."
+      }
+    },
+    {
+      "source": "telephones/analyse-TP-02.md",
+      "sha256_avant": "4981812deff0fba2653e60bd91715fa003a737462afa957bdcf5307d9b617037",
+      "sha256_apres": "d7631304e9238304885eca4ec3c4b96bed49b3aa8924b8c6ab96ff45ea2a589e",
+      "pdf_avant_sha256": "95ce72b992d47caad52f200f089f10e974ac11d30198df86d2fd794a25e875e3",
+      "conversion": {
+        "source": "telephones/analyse-TP-02.md",
+        "pdf": "analyse-TP-02.pdf",
+        "pages": 21,
+        "source_sha256": "d7631304e9238304885eca4ec3c4b96bed49b3aa8924b8c6ab96ff45ea2a589e",
+        "pdf_sha256": "bbc23022e37b6da462fd9fced09a7206460d62706c1f9f8d0fcaac716dca2a3b",
+        "bytes": 166456,
+        "layout_issues": [],
+        "images_in_source": 0
+      },
+      "controle_pdf": {
+        "pages_constat": [
+          18
+        ],
+        "liens_note_pdf": 1,
+        "reserves_ciblees_absentes": true,
+        "controle_visuel": "Pages contenant le constat rendues et inspectées : texte lisible, tableaux et marges sans débordement."
+      }
+    },
+    {
+      "source": "telephones/analyse-TP-03.md",
+      "sha256_avant": "66ef07a40bdeac29ecc9454d6e08f8be668249438f23075f5d59c228c852221e",
+      "sha256_apres": "550488c22bcd42654d4f6027bb177ea6504cac83372c19ec309a2d56c02f23bd",
+      "pdf_avant_sha256": "b3a7e90b34ea2fd7f4cc6b65b9aea05605f7e0f9f875fd3b7ec25c83b62321b5",
+      "conversion": {
+        "source": "telephones/analyse-TP-03.md",
+        "pdf": "analyse-TP-03.pdf",
+        "pages": 14,
+        "source_sha256": "550488c22bcd42654d4f6027bb177ea6504cac83372c19ec309a2d56c02f23bd",
+        "pdf_sha256": "085fafd32c6243ff7a9291fe4d9835bafb21dc8946fbb564a9149408ee07dc0b",
+        "bytes": 118118,
+        "layout_issues": [],
+        "images_in_source": 0
+      },
+      "controle_pdf": {
+        "pages_constat": [
+          13
+        ],
+        "liens_note_pdf": 1,
+        "reserves_ciblees_absentes": true,
+        "controle_visuel": "Pages contenant le constat rendues et inspectées : texte lisible, tableaux et marges sans débordement."
+      }
+    },
+    {
+      "source": "cartes_sd/analyse-cartes_sd-SD-03.md",
+      "sha256_avant": "e23bc6b9285341abba954e04ab7db93d716ac178903340af908dc3119610e68e",
+      "sha256_apres": "d52eb31209755ca1285a393e6d8cbb51234ef933e5b3602e9ec71dd6ae93f4de",
+      "pdf_avant_sha256": "3cd10528af3d1553694b0b536a14d20e3609fd57c1acae6e9041cf4e15a2b55c",
+      "conversion": {
+        "source": "cartes_sd/analyse-cartes_sd-SD-03.md",
+        "pdf": "analyse-cartes_sd-SD-03.pdf",
+        "pages": 11,
+        "source_sha256": "d52eb31209755ca1285a393e6d8cbb51234ef933e5b3602e9ec71dd6ae93f4de",
+        "pdf_sha256": "f1ad24e95a7eacbb68eee786427936481437f42503e07e711b6320958668cb27",
+        "bytes": 98778,
+        "layout_issues": [],
+        "images_in_source": 0
+      },
+      "controle_pdf": {
+        "pages_constat": [
+          8
+        ],
+        "liens_note_pdf": 1,
+        "reserves_ciblees_absentes": true,
+        "controle_visuel": "Pages contenant le constat rendues et inspectées : texte lisible, tableaux et marges sans débordement."
+      }
+    }
+  ],
+  "controles_sources": {
+    "note_inchangee": true,
+    "empreintes_techniques_citees_inchangees": true,
+    "blocs_code_inchanges": true,
+    "liens_note_valides": true
+  }
+}

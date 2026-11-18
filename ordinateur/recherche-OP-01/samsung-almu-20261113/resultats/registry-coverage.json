@@ -1,0 +1,50 @@
+[
+  {
+    "hive": "Windows/System32/config/SYSTEM",
+    "branch": "ControlSet001\\Enum\\USB",
+    "exists": true,
+    "selected_keys": 0
+  },
+  {
+    "hive": "Windows/System32/config/SYSTEM",
+    "branch": "ControlSet001\\Enum\\SWD",
+    "exists": true,
+    "selected_keys": 0
+  },
+  {
+    "hive": "Windows/System32/config/SYSTEM",
+    "branch": "ControlSet001\\Control\\DeviceContainers",
+    "exists": true,
+    "selected_keys": 0
+  },
+  {
+    "hive": "Windows/System32/config/SYSTEM",
+    "branch": "ControlSet001\\Control\\DeviceClasses",
+    "exists": true,
+    "selected_keys": 0
+  },
+  {
+    "hive": "Windows/System32/config/SYSTEM",
+    "branch": "ControlSet001\\Services\\DeviceAssociationService",
+    "exists": true,
+    "selected_keys": 0
+  },
+  {
+    "hive": "Windows/System32/config/SOFTWARE",
+    "branch": "Microsoft\\Windows Portable Devices",
+    "exists": true,
+    "selected_keys": 1
+  },
+  {
+    "hive": "Windows/System32/config/SOFTWARE",
+    "branch": "Microsoft\\Windows\\CurrentVersion\\Device Metadata",
+    "exists": true,
+    "selected_keys": 0
+  },
+  {
+    "hive": "Windows/System32/config/SOFTWARE",
+    "branch": "Microsoft\\Windows\\CurrentVersion\\WINEVT\\Publishers",
+    "exists": true,
+    "selected_keys": 0
+  }
+]

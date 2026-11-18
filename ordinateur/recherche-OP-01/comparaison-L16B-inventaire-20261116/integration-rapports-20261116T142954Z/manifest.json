@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-11-16T14:29:54.161897+00:00",
+  "purpose": "Ajout du contrôle exhaustif des SHA-512 et de ses références aux deux rapports",
+  "files": [
+    {
+      "file": "RAPPORT-FINAL-SADEDINE-2026.md",
+      "before_sha256": "7562e605a60ceebe2b5f4328bebc0e3b67bebaef0461cdf172da6118ce6325ba",
+      "after_sha256": "e3b06c0404656c1e7ed499ae88f9c0a4d29d438683b7e1d523c6b5c4f2e149e3",
+      "backup": "avant/RAPPORT-FINAL-SADEDINE-2026.md",
+      "diff": "RAPPORT-FINAL-SADEDINE-2026.diff"
+    },
+    {
+      "file": "ordinateur/analyse-ordinateur.md",
+      "before_sha256": "9f905fc6ee01d5d02bf92e30681ac40189faaf85e7c35ac9e4ea3b3fd9c0070c",
+      "after_sha256": "f40193c64b7ec9f59bfc1ef2b8494955e10493d9db45c89f0a55c1d11028aef1",
+      "backup": "avant/ordinateur/analyse-ordinateur.md",
+      "diff": "analyse-ordinateur.diff"
+    }
+  ],
+  "reference_report": "ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-SHA512-exhaustive-1555-fichiers.md",
+  "reference_report_sha256": "a46f0d791298578d8aa16a016810615a051d52f0422e4e913a734ab79bb1e702"
+}

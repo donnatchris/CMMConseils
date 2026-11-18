@@ -12,7 +12,7 @@
 
 Ce rapport présente les constats techniques et les conclusions relatifs au fonctionnement d’OP-01 pendant sa rétention du **15 au 28 octobre 2024**, aux opérations sur ses fichiers, aux copies de données et aux indices éventuels de compromission antérieurs à la perquisition. La recherche remonte à 2021/2022 lorsque des traces sont encore conservées.
 
-Il repose sur l’image du SSD, les artefacts Windows, les contenus présents ou récupérables et leur confrontation au procès-verbal de saisie. Les demandes de la cliente sont documentées dans les [mails de mission](../docs/mail.txt) et [complémentaires](../docs/mail-2.txt) ; l’identification du matériel figure dans l’[attestation de remise](../remise-documents/attestation-de-remise.md).
+Il repose sur l’image du SSD, les artefacts Windows, les contenus présents ou récupérables, leur confrontation au procès-verbal de saisie et, pour les contrôles du 16 novembre 2026, au CSV d’inventaire fourni. La comparaison SHA-512 des deux PST et de Takeout est détaillée en section 7.7. Les demandes de la cliente sont documentées dans les [mails de mission](../docs/mail.txt) et [complémentaires](../docs/mail-2.txt) ; l’identification du matériel figure dans l’[attestation de remise](../remise-documents/attestation-de-remise.md).
 
 Les résultats distinguent ce qu’un artefact enregistre, l’interprétation permise par les recoupements et les questions qui restent ouvertes. Une date de fichier ne démontre pas à elle seule un allumage ; une session Windows ne désigne pas une personne ; un export présent localement ne démontre pas son transfert vers un tiers.
 
@@ -27,10 +27,26 @@ Les résultats distinguent ce qu’un artefact enregistre, l’interprétation p
 | Le 16 octobre à 05:51 correspond-il à un réveil ? | Il s’agit d’une **échéance de réveil programmée**, inscrite dans un événement du 15. | Aucun réveil effectif à cette échéance n’est corroboré ; le demandeur et la date de programmation restent inconnus. |
 | Les journaux révèlent-ils une dissimulation ? | Aucun indice probant d’effacement ou de falsification volontaire n’est établi. Les CRC et les séquences conservées sont cohérents. | Des anomalies d’en-tête existent ; les journaux ne constituent pas une preuve inviolable de leur histoire. |
 | Des données ont-elles été regroupées et exportées ? | `L16B` contient **1 558 fichiers, soit 4,64 Go**, dont des messageries, documents locaux et exports cloud/bancaires. **1 555 créations FN** sont datées du 28 octobre. | Le PV décrit une copie par l’administration. Le dossier informatif laissé sur le PC ne certifie pas la composition du jeu définitivement saisi. |
+| L16B correspond-il à l’ensemble de l’inventaire fourni ? | **1 555 chemins retrouvés ; 1 552 SHA-512 identiques, 3 divergents, aucune erreur.** Les divergences concernent le raccourci USB2, `FACT 2018 SUITE.pdf` et le PST 93300. | Identité de contenu établie pour les concordances ; les trois fichiers divergents sont présents par leur chemin. L’archive finale et les motifs d’écarts ne sont pas établis par ce seul contrôle. Voir § 7.8. |
+| Des correspondances d’avocats sont-elles identifiées dans les fichiers inventoriés ? | **21 messages** du PST DMM : Fakiroff / Roosevelt Avocats (9), Wahrheit (7), Negrevergne (5). **SHA-512 identiques au CSV** pour ce PST et pour Takeout. | Présence établie dans les conteneurs correspondant aux empreintes de l’inventaire ; les **2 messages Khallouki et 3 transferts** du PST 93300 divergent restent non certifiés dans la version inventoriée. Lecture par les agents et utilisation fiscale non démontrées. |
+| Quel accès Internet est documenté le 28 ? | Un Samsung nommé **« XCover 5 de David »**, série **`R58RB2ETQER`**, apparaît à **11:18:34**. Les profils Ethernet **« Réseau 2 » puis « Réseau 3 »** disposent d’Internet ; le partage USB par ce téléphone est fortement étayé. | Aucun usage antérieur du numéro exact n’a été retrouvé. Le propriétaire, la première connexion absolue et le réseau amont ne sont pas établis. |
+| Sage 50 a-t-il été utilisé pour sortir des documents ALMU ? | Lancement à **15:10:12**, échange OAuth avec résultat **200 à 15:11:49**, puis générations PDF, dont **458 pages ALMU à 15:28:33**, retrouvées dans `C:\L16B\SAGE\sage.pdf`. | La saisie manuelle d’un mot de passe et l’identité de l’opérateur ne sont pas démontrées. Une impression papier, une copie intégrale de la base et le transfert de ce PDF précis sur USB ne sont pas établis. |
+| Quels dossiers société ont été utilisés dans Sage le 28 ? | Seul **SAS ALMU — SIRET 81816735500010** est confirmé par les traces retrouvées. Les **458 pages** du PDF portent ce même SIRET. | La présence des cinq autres dossiers sur le disque ne démontre pas leur ouverture ce jour-là. Les historiques et préférences ne permettent pas de certifier une liste exhaustive des ouvertures. |
 | Des fichiers ont-ils été supprimés ? | **Dix mises à la corbeille le 28 octobre**, après l’ouverture du PC, sont explicitement datées. Des contenus déterminants restent récupérables. | Une mise à la corbeille n’est pas un effacement sécurisé ; elle n’établit ni le motif ni l’auteur. |
 | Une compromission antérieure est-elle démontrée ? | Une détection de PDF de phishing et des indices de téléassistance sont présents. **Aucune compromission réussie ni exfiltration clandestine antérieure à la perquisition n’est établie.** | Les historiques sont incomplets et l’acquisition est postérieure de près de deux ans aux faits. |
 
 L’analyse ne détermine ni l’intégrité matérielle des scellés, ni le caractère juridiquement autorisé d’une intervention, ni l’identité physique de l’opérateur.
+
+### Les quatre faits majeurs du 28 octobre
+
+| Heure de Paris | Fait majeur | Portée |
+|---|---|---|
+| **11:18** | Un Samsung enregistré sous le nom **« XCover 5 de David »**, série **`R58RB2ETQER`**, est reconnu par USB et un pilote de partage Internet est configuré. | Première reconnaissance dans les traces conservées ; aucun usage antérieur retrouvé. Le partage USB est fortement étayé par les événements réseau concordants. |
+| **15:11** | Sage 50 effectue une requête d’authentification, reçoit le résultat **200**, puis accède au service de données hébergées avec un résultat 200. | Un échange de jeton abouti et un accès au service sont fortement étayés ; une saisie manuelle d’identifiants et l’opérateur restent indéterminés. |
+| **15:28** | **458 pages de documents ALMU** sont générées en PDF ; le fichier est retrouvé dans **`C:\L16B\SAGE\sage.pdf`**. | Sortie effective de documents, corroborée par leur contenu, leurs métadonnées et le journal d’impression. La copie finale sur un support externe reste à vérifier. |
+| **17:14** | Le retrait du même périphérique Samsung précède d’environ **0,19 seconde** la déconnexion de « Réseau 3 », suivie de la perte de capacité Internet signalée par Windows. | Cette concordance renforce fortement le rapprochement entre le téléphone et l’accès Internet du PC. |
+
+**Le scénario le mieux étayé** est celui d’un téléphone Samsung branché vers 11:18 pour fournir vraisemblablement Internet à OP-01, puis d’un lancement de Sage 50 vers 15:10 et d’un échange d’authentification vers 15:11. Des documents ALMU sont ensuite générés au format PDF, avec plusieurs sorties intermédiaires puis un document de 458 pages à 15:28, retrouvé dans L16B. Le retrait du Samsung à 17:14 coïncide presque immédiatement avec la perte de la connexion enregistrée. Ce scénario ne permet pas d’identifier la personne ayant effectué les opérations. La chronologie et les identifiants sont détaillés en section 4.4 ; les sorties Sage en section 7.3.
 
 ## 3. Support analysé, méthode et fiabilité des sources
 
@@ -80,6 +96,10 @@ Les logiciels issus de l’image, les liens de connexion et les actions de docum
 
 Les principaux outils sont libewf, libevtx/pyevtx, pyfsntfs, pyregf, pyscca, pylnk, SQLite, Sleuth Kit, JLECmd, readpst, dfir_ntfs, les outils Poppler et PDFiD. Leurs versions, scripts et sorties sont conservés dans les dossiers techniques référencés en section 12.
 
+Les compléments du **13 novembre 2026** ont rapproché les journaux réseau et USB, le registre, le journal natif Sage, PrintService et les PDF eux-mêmes. Les deux campagnes ont contrôlé respectivement **19 et 22 copies de pièces par SHA-256**, et **65 et 54 événements par un second décodeur EVTX**, sans additionner ces décomptes comme des pièces distinctes puisque les périmètres se recoupent. Les rapports complémentaires et les vérifications sont référencés en section 12 ; leur intégration ne repose pas sur les seules dates des fichiers de configuration.
+
+Un contrôle supplémentaire du même jour a examiné les préférences des sociétés et les métadonnées du composant web **EBWebView** de Sage, sur de nouvelles copies de travail dans SIFT après remontage de l’image en lecture seule. Les **39 vérifications d’empreintes** concordent avant et après lecture ; les **sept fichiers de résultats rapatriés** concordent par SHA-256 avec SIFT. Ces nombres décrivent des contrôles et ne sont pas additionnés aux campagnes précédentes comme autant de sources distinctes. Aucun logiciel issu de l’image n’a été exécuté et aucune valeur de mot de passe, cookie ou jeton n’a été exportée dans les résultats. Voir [la méthode](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/method.json), [les contrôles finaux](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/final-checks.json) et [la vérification du transfert](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/verification-transfert.json).
+
 ### 3.4. Couverture et limites de conservation
 
 | Source | Étendue utile | Limite principale |
@@ -113,7 +133,7 @@ Le [procès-verbal de saisie](../docs/PV%20DE%20SAISIE.pdf) fournit les repères
 
 La cliente déclare ne plus avoir eu accès au PC dès le début de la perquisition. L’heure approximative de 13:30 concerne sa perte d’accès aux téléphones ; elle n’est pas une borne de saisie de l’ordinateur.
 
-Les heures locales utilisent **Europe/Paris** : UTC+2 le 15 octobre et UTC+1 le 28, après le changement d’heure du 27. Les dates UTC originales sont conservées. L’horloge du PC n’a pas été calibrée contre une source externe.
+Les heures locales utilisent **Europe/Paris** : UTC+2 le 15 octobre et UTC+1 le 28, après le changement d’heure du 27. Les dates UTC originales sont conservées. L’horloge n’a pas fait l’objet d’une calibration indépendante par l’analyse ; les journaux rapportent toutefois une synchronisation avec `time.windows.com` le 28 à 11:19:30 et une correction d’environ **−9,238 secondes**. Les heures antérieures sont reproduites telles qu’enregistrées, sans correction silencieuse.
 
 Les décomptes de l’**intervalle technique central** portent exactement sur **`[2024-10-15T08:53:09Z ; 2024-10-28T09:22:00Z[`**, soit du 15 à 10:53:09 au 28 à 10:22 à Paris. Ce périmètre de calcul ne correspond pas exactement à la durée des scellés : son début suit l’hibernation et sa fin précède de dix-neuf minutes l’ouverture documentée. Les décomptes associés, notamment les 3 461 entrées MFT, ne sont pas étendus implicitement jusqu’à 10:41. La reprise conservée à 10:41:56 est examinée séparément.
 
@@ -157,6 +177,51 @@ Les alertes Outlook sont des indices forts d’interaction. Elles ne prouvent pa
 Le fournisseur nommé `TerminalServices` n’implique pas à lui seul un accès RDP. Les notifications Winlogon numériques 4/5 n’étant pas validées contre le schéma local, elles sont utilisées seulement comme recoupements. Security ne permet pas de confirmer un type d’authentification de 2024.
 
 Le 28 à 11:19:30, une correction d’environ **−9,238 secondes** est déduite des champs `OldTime/NewTime`. Le champ `TimeDeltaInMs` incohérent n’est pas utilisé. Aucun événement EVTX n’est retrouvé après 19:20 ce jour-là ; les dates de fichiers postérieures ne suffisent pas à démontrer une utilisation locale après la clôture.
+
+#### Chronologie du 28 octobre : connexion Internet et utilisation de Sage 50
+
+Les heures ci-dessous sont celles de Paris. Les horaires à la seconde explicitent les repères arrondis à la minute ; la correction d’horloge de 11:19:30 s’applique à leur interprétation.
+
+| Heure | Événement constaté |
+|---|---|
+| **10:41:56–10:41:59** | OP-01 reprend Windows après l’hibernation. Le profil Wi-Fi **`Freebox-537E9F`** est enregistré comme déconnecté ; cette trace ne prouve pas une nouvelle connexion à la Freebox ce matin-là. |
+| **11:18:34–11:18:54** | Le Samsung **`R58RB2ETQER`**, nommé **« XCover 5 de David »**, est reconnu par USB. Windows configure le pilote **« Remote NDIS based Internet Sharing Device »**, permettant un partage réseau par USB. |
+| **11:18:55–11:18:56** | Le profil **« Réseau 2 »** apparaît ; à **11:18:56.722328**, Windows signale une capacité Internet sur son interface Ethernet. |
+| **11:19:30** | Windows rapporte une synchronisation avec `time.windows.com` et corrige l’horloge d’environ −9,238 secondes. |
+| **11:35:44–11:35:46** | « Réseau 2 » se déconnecte. La mise à jour du pilote Samsung et la reconfiguration RNDIS s’accompagnent d’une brève connexion **« Connexion au réseau local 2 »**, sans accès Internet établi pour cet épisode. |
+| **11:47:31–11:47:32** | **« Réseau 3 »** apparaît et Windows signale Internet. Les événements USB et réseau suggèrent fortement un accès par le Samsung. |
+| **15:10:12–15:10:31** | Lancement de **`WGC.exe`**, le programme Sage 50. Premiers contacts avec les serveurs Sage à **15:10:19**, puis échange avec le service de souscription, résultat **200 à 15:10:31**. |
+| **15:11:48–15:11:51** | Requête **`POST id.sage.com/oauth/token`**, résultat **200 à 15:11:49**, puis requête au service de données hébergées CDM, résultat **200 à 15:11:51**. Cette séquence ne prouve pas la saisie manuelle d’un mot de passe. |
+| **15:16:31** | Premier travail PDF d’une page terminé vers le `test.pdf` du Bureau OneDrive. Son contenu initial n’a pas été retrouvé comme document distinct. |
+| **15:18:42** | Génération d’un PDF d’une page contenant la facture **ALMU FA0338**, au même chemin du Bureau OneDrive. Son contenu est conservé. |
+| **15:19:42** | Génération d’un PDF de deux pages contenant **ALMU FA0338 et FA0339**, dans **`C:\L16B\test.pdf`**. |
+| **15:23:32** | Travail d’impression PDF de **205 pages** terminé vers `C:\L16B\Sage.pdf`. Son contenu exact n’a pas été retrouvé séparément. |
+| **15:24:17** | Le PDF de deux pages **`C:\L16B\test.pdf`** est envoyé à la corbeille. Son chemin d’origine et son contenu restent récupérables. |
+| **15:28:33** | Génération d’un PDF de **458 pages contenant des documents ALMU**, retrouvé dans **`C:\L16B\SAGE\sage.pdf`**. Les pages, métadonnées et événements d’impression concordent. |
+| **16:27:50–16:27:53** | Brève interruption puis rétablissement de **« Réseau 3 »** et de sa capacité Internet. |
+| **17:04:49–17:04:50** | Sage communique encore avec ses serveurs pour lire un flux de contenu ; le journal rapporte un résultat **200**. |
+| **17:14:11** | Retrait du Samsung à **17:14:11.399631**, déconnexion de « Réseau 3 » à **17:14:11.588420**, puis perte de capacité Internet à **17:14:11.744032**. |
+| **17:28:56–17:29:00** | Sage tente de terminer sa session. La résolution du serveur échoue à **17:28:57** ; des événements Windows consignent ensuite une exception non gérée et la défaillance de `WGC.exe`. |
+
+Cette chronologie croise [les événements réseau](recherche-OP-01/sage-reseaux-20261113/resultats/chronologie-reseau-28oct.json), [le journal Sage](recherche-OP-01/sage-reseaux-20261113/resultats/sage-log-day.json), [les événements du Samsung](recherche-OP-01/samsung-almu-20261113/resultats/samsung-events.json) et [les travaux d’impression](recherche-OP-01/samsung-almu-20261113/resultats/print-events-day.json). Les premiers contacts Sage et l’échange d’authentification se situent pendant la connexion « Réseau 3 » ; ce rapprochement ne constitue pas une capture des paquets du processus WGC.
+
+#### Téléphone Samsung : identité technique, antériorité et rapprochement réseau
+
+| Élément | Identification ou constat |
+|---|---|
+| Nom enregistré par Windows | **`XCover 5 de David`**, valeur `FriendlyName` dans `Microsoft\Windows Portable Devices\Devices\USB#VID_04E8&PID_6860#R58RB2ETQER` de SOFTWARE. |
+| Numéro de série exact | **`R58RB2ETQER`**. |
+| Identifiants USB | **VID `04E8`** ; PID **`6860`**, puis **`6863`** en mode de partage RNDIS. Instances `USB\VID_04E8&PID_6860\R58RB2ETQER` et `USB\VID_04E8&PID_6863\R58RB2ETQER`. |
+| Pilote de partage | **`Remote NDIS based Internet Sharing Device`**, service **`usbrndis6`** ; pilote composite ultérieur **`SAMSUNG Mobile USB Composite Device Driver (DEVGURU Ver.)`**. |
+| Première reconnaissance conservée | **28/10/2024 à 11:18:34.352547 Paris**, Kernel-PnP/Configuration **430 / RecordID 893** ; section SetupAPI démarrant à **11:18:34.392**. |
+| Antériorité | **Aucun événement ni section SetupAPI antérieur portant le numéro exact** n’a été retrouvé. Les rotations examinées contiennent notamment des sections successives depuis septembre 2023. |
+| Retrait concordant | Kernel-PnP/Device Management **1010 / RecordID 1493** à **17:14:11.399631** ; NetworkProfile **10001 / RecordID 7045** et NCSI **4042 / RecordID 1766** enregistrent immédiatement après la perte du réseau et de sa capacité Internet. |
+
+Le nom **« XCover 5 de David »** est un libellé configurable : il ne certifie pas le propriétaire ni, à lui seul, le modèle commercial. La première reconnaissance documentée le 28 est compatible avec une première utilisation à cette date, mais **la première connexion absolue et l’absence de tout usage antérieur ne peuvent être certifiées**. Les anciennes instances ont été supprimées le **3 décembre 2024 vers 22:38**, dans des sections SetupAPI portant la commande `cleanmgr.exe /autocleanstoragesense /d C:`. Aucune propriété de première installation rattachable à cette série n’a été retrouvée dans le registre acquis ; ce nettoyage ne prouve pas une intention de dissimulation.
+
+Les profils **« Réseau 2 »** et **« Réseau 3 »** sont classés **Ethernet** par Windows. Cette catégorie inclut les interfaces de partage USB et ne prouve pas un câble RJ45 branché au réseau des locaux. La configuration RNDIS du Samsung, les changements d’interfaces contemporains et le retrait suivi presque immédiatement de la déconnexion constituent un **faisceau fort en faveur d’un partage de connexion par ce téléphone**. La correspondance persistante directe de chacun des GUID opérationnels avec la série USB n’est toutefois plus conservée ; l’opérateur mobile, le réseau amont et l’IP publique ne sont pas identifiés. Les deux noms de profil ne démontrent pas deux accès physiques distincts.
+
+Les identifiants complets, les GUID et les limites de correspondance figurent dans les compléments [Sage et réseaux](rapport-complementaire-OP-01-Sage50-reseaux-28oct2024.md) et [antériorité Samsung / sorties ALMU](rapport-complementaire-OP-01-Samsung-ALMU-28oct2024.md).
 
 ### 4.5. Échéance de réveil du 16 octobre
 
@@ -307,6 +372,8 @@ Les deux PST sont de véritables conteneurs de messagerie décodés avec `readps
 | `dmmconseils93300@hotmail.com.pst` | **1 156 260 864 octets** | **2 039** |
 | **Total** | | **5 875** |
 
+Les deux PST ont été retrouvés comme fichiers alloués dans l’image OP-01, extraits et redécodés le 16 novembre 2026. Les 5 875 en-têtes du nouveau décodage concordent avec ceux du corpus complet antérieur. **Le PST DMM correspond au SHA-512 de l’inventaire ; le PST 93300 diverge**, distinction détaillée en section 7.7.
+
 Le comptage concerne les messages reparsés, sans certifier tous les objets Outlook, les éléments supprimés ou l’exhaustivité des boîtes serveur. Les trente EML sont analysables comme messages : quatorze sous `fint.ms@hotmail.com` et seize sous `misssmalika@hotmail.com`. Les chemins et en-têtes ne certifient pas une extraction complète ou exclusive depuis ces comptes.
 
 Le PST `93300` contient un diagnostic Outlook dont l’en-tête est daté du 28 à **14:12:02 UTC**. Son corps décrit une synchronisation **15:04:42–15:12:02**, **937 éléments ajoutés**, puis l’erreur **8004010E**, « Ressources système insuffisantes ». Ces heures sont cohérentes avec Paris, mais le diagnostic ne localise pas sa machine d’origine et ne certifie pas une synchronisation complète. Les 937 éléments ne sont pas le nombre total de messages du PST.
@@ -318,6 +385,8 @@ Les Jump Lists référencent les PST avec des dernières interactions le **29 oc
 ### 7.3. Google Takeout, Drive, Sage et SHINE
 
 L’archive **`takeout-20241028T114105Z-001.zip`**, de **41 828 775 octets**, contient un **MBOX de 66 015 300 octets** et un manifeste HTML de 197 837 octets. Les deux membres se décompressent sans erreur. Le manifeste mentionne `rct93300@gmail.com` et affiche une date d’export correspondant au **28/10 à 12:42:33 Paris**. Le nom de l’archive correspond à **12:41:05 Paris** et sa création FN à **12:46:29**.
+
+Le MBOX a été reparsé le 16 novembre : **301 messages** sont parcourus et leurs en-têtes concordent avec le corpus antérieur. **Le SHA-512 du ZIP Takeout est identique à celui de l’inventaire fourni**, ligne 1529 ; voir la section 7.7.
 
 Ces repères corroborent un export le 28, sans authentifier cryptographiquement le producteur ni désigner la machine ou l’auteur de la demande. L’écart de 88 secondes entre nom et manifeste ne calibre pas l’horloge Windows. Les dates DOS minimales des membres ne datent pas l’export.
 
@@ -332,7 +401,45 @@ Les deux ZIP GDRIVE à création FN de 2026 mesurent chacun **61 847 396 octets*
 
 Les **89 fichiers lisibles dans les deux archives** ont des SHA-256 identiques. Leurs membres lisibles complémentaires couvrent les **93 contenus du dossier développé**, avec identité SHA-256. Les contenus sont donc disponibles dans le corpus malgré les défauts des conteneurs. La date, la cause et l’intention éventuelle de ces défauts ne sont pas établies ; ils ne démontrent pas une altération par les agents en 2024.
 
-Le PDF **`SAGE/sage.pdf`** contient des factures et conserve le texte des deux factures retrouvées dans le `test.pdf` supprimé, aux **pages 254 et 255**. Cette concordance textuelle ne valide pas l’ensemble du PDF contre la base Sage et ne constitue pas une identité binaire entre les deux PDF.
+**Sage 50 : accès au service et sorties ALMU du 28 octobre.** Le programme `C:\Program Files (x86)\Ciel\Gestion Commerciale\WGC.exe` est lancé à **15:10:12.609476 Paris**, d’après le champ de création du processus conservé dans Application/1000, RecordID **18857**. Le journal natif `Standard.SgLog` enregistre un échange avec `ControlSouscription` à **15:10:30–31**, puis **`POST id.sage.com/oauth/token` à 15:11:48**, résultat **200 à 15:11:49**, et une requête CDM de données hébergées avec résultat **200 à 15:11:51**. Cette séquence étaye fortement un échange de jeton abouti et un accès au service. Le corps des échanges n’est pas conservé : **ni la saisie manuelle d’un mot de passe, ni l’identité de l’utilisateur, ni une nouvelle activation de licence ne sont démontrées**. Un renouvellement de jeton reste possible.
+
+Les données locales ALMU sont identifiées dans **`C:\ProgramData\Ciel\Applications\Ciel Gestion Commerciale\ALMU\CDMDATA`**. Cinq autres stockages `CDMDATA` existent pour BANMAT, DMM CONSEILS, FINT, MY LITTLE MARKET et RCT. Les alias ALMU référencent aussi un dossier logique du service « Données Mobiles » ; le `S:` contenu dans ces alias n’est pas un volume local identifié d’OP-01. Ces fichiers locaux ne sont pas certifiés comme des sauvegardes autonomes complètes ; l’état actuel d’ALMU a été modifié en 2026.
+
+**Dossiers société utilisés le 28 : seul ALMU est confirmé.** Les alias, les fichiers d’impression et le contenu des PDF établissent une utilisation de **SAS ALMU — SIRET 81816735500010**. Les trois alias modifiés à **15:12:18, 16:00:22 et 16:02:48 Paris** pointent vers le même dossier ALMU : ils ne désignent ni trois sociétés différentes ni, à eux seuls, trois ouvertures distinctes.
+
+| Dossier présent dans l’environnement Sage | Ce qui est établi pour le 28 octobre 2024 |
+|---|---|
+| **ALMU — SIRET 81816735500010** | Utilisation confirmée ; références au dossier hébergé et sorties de documents concordantes. |
+| **BANMAT, DMM CONSEILS, FINT, MY LITTLE MARKET et RCT** | Stockages locaux présents, mais aucune ouverture de ces dossiers confirmée ce jour-là par les traces retrouvées. |
+
+Un modèle global nommé **`FORMAT A4 DMM CONSEILS CE [416611827712036]`**, dans `Compléments utilisateur\Etats`, est modifié à **15:12:28 Paris**. **Le nom d’un modèle d’impression ne prouve pas l’ouverture du dossier DMM CONSEILS.** De même, la présence de RCT ou d’ALMU dans les préférences globales, modifiées en 2026, ne date pas une ouverture au 28 octobre 2024. Les préférences sont principalement au format propriétaire `CamBFile` ; les recherches de marqueurs ne constituent pas un décodage complet de ce format. Une ouverture en lecture peut ne pas modifier durablement un fichier : **la liste des ouvertures ne peut pas être certifiée exhaustive**. Voir [les fichiers modifiés le 28](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/sage-files-modified-28oct.json) et [l’examen des préférences et du modèle](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/preferences-examination.json).
+
+**Authentification : mot de passe saisi, mémorisé ou autorisation réutilisée ?** Le contrôle supplémentaire du composant web intégré à Sage ne départage pas ces possibilités. Les bases de mots de passe ont été interrogées pour leurs métadonnées et le nombre d’entrées, sans déchiffrer ni exporter de secret.
+
+| Composant examiné | Historique conservé | Identifiants enregistrés et cookies Sage/Ciel |
+|---|---|---|
+| **Ciel Gestion Commerciale / EBWebView** | **27 visites**, du **27 juillet au 2 octobre 2026** ; aucune visite du 28 octobre 2024 conservée. | **Zéro entrée** dans chacune des bases `Login Data` et `Login Data For Account` ; les **11 métadonnées de cookies** retenues datent de 2026. |
+| **Ciel Paye / EBWebView** | **12 visites**, du **3 avril au 29 octobre 2024** ; aucune visite du 28 octobre conservée. | **Zéro entrée** dans `Login Data` ; huit métadonnées de cookies Sage/Ciel conservées. Il s’agit d’un autre logiciel, dont l’état ne prouve pas le mécanisme utilisé par Gestion Commerciale. |
+
+**Une base de mots de passe vide aujourd’hui ne prouve ni une saisie manuelle en 2024 ni l’absence passée d’un accès mémorisé ailleurs.** L’historique de Gestion Commerciale ne couvre pas la journée recherchée. Les préférences et les cookies de 2026 ne certifient pas leur état en 2024. Le journal natif date donc un échange d’authentification abouti à **15:11:48–49**, mais ne permet toujours pas de choisir entre saisie manuelle, identifiants mémorisés ou renouvellement automatique d’une autorisation par jeton. Il ne prouve ni la connaissance du mot de passe par une personne ni son identité. Les résultats et leurs limites sont conservés dans [les métadonnées EBWebView](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/webview-auth-metadata.json) et [le compte rendu complémentaire](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/compte-rendu.md).
+
+**Les sorties PDF sont établies par les fichiers eux-mêmes et par cinq événements PrintService/307 du 28**, dont les champs `UserData` indiquent tous **Microsoft Print to PDF**. Les états retrouvés et leurs horaires de fin sont les suivants :
+
+| Fin du travail, Paris | RecordID 307 | Sortie et contenu vérifiable |
+|---|---|---|
+| **15:16:31** | **2419** | Une page vers `C:\Users\fintm\OneDrive\Bureau\test.pdf` ; contenu de cet état initial non retrouvé séparément. |
+| **15:18:42** | **2424** | Une page au même chemin, **facture ALMU FA0338** ; PDF de **405 202 octets**, extrait directement de l’entrée MFT **181043**, titre et date interne concordants. |
+| **15:19:42** | **2429** | Deux pages vers **`C:\L16B\test.pdf`**, **FA0338 et FA0339** ; PDF de **499 320 octets**, retrouvé dans la corbeille et détaillé en section 8. |
+| **15:23:32** | **2445** | **205 pages** vers `C:\L16B\Sage.pdf` ; contenu exact non retrouvé comme PDF autonome. |
+| **15:28:33** | **2450** | **458 pages**, retrouvées dans **`C:\L16B\SAGE\sage.pdf`**, **42 818 862 octets** ; les 458 textes de page portent le nom ALMU. |
+
+Le PDF final a pour titre **`Facture - FA0543`**, pour producteur **`Microsoft: Print To PDF`** et pour création/modification internes le **28 à 15:28:33 Paris**. Sa modification NTFS à **15:28:33.485057** précède immédiatement l’événement de fin de travail à **15:28:33.649956**. Son SHA-256 est **`0718f1b0819210c2def92a8097bafb1a7c0586673cf37848afbbf55c943728a6`**. Le champ auteur PDF `malika sadedine` ne désigne pas nécessairement la personne ayant lancé l’impression.
+
+**Identification de la société émettrice, pages 1 à 458.** Les textes des **458 pages portent le même SIRET ALMU `81816735500010`**. Aucune autre société émettrice n’a été identifiée dans ce PDF. D’autres sociétés y figurent comme clientes des factures ALMU ; leur mention ne démontre pas l’ouverture de leurs propres dossiers Sage. La [copie récupérée de `sage.pdf`](recherche-OP-01/samsung-almu-20261113/preuves/L16B/SAGE/sage.pdf), **42 818 862 octets**, est disponible dans les pièces de cette recherche ; son empreinte a été revérifiée et concorde avec celle ci-dessus.
+
+Le texte de FA0338 dans le PDF du Bureau correspond à la **page 254** du PDF final ; les deux pages du `test.pdf` supprimé correspondent aux **pages 254 et 255**, après retrait des espaces et sauts de ligne. Cette concordance ne valide pas l’ensemble du PDF contre la base Sage et ne constitue pas une identité binaire entre les PDF. Une tentative intermédiaire **`Facture - FA0543`** se termine à **15:21:33** par l’événement **824 / RecordID 2435**, erreur **`0x80070057`** ; elle n’est pas comptée comme une impression réussie.
+
+**Il s’agit de sorties effectives de documents ALMU au format PDF.** Une impression papier, la copie de toutes les tables ou de toute la base Sage, ainsi que le transfert de ce PDF précis sur une clé restent non établis. Les travaux et les états de fichiers se recouvrent : **leurs nombres de pages ne doivent pas être additionnés comme autant de documents distincts**. Voir [les événements d’impression](recherche-OP-01/samsung-almu-20261113/resultats/print-events-day.json), [le contenu des PDF et leurs empreintes](recherche-OP-01/samsung-almu-20261113/resultats/pdf-content.json) et [la comparaison des pages](recherche-OP-01/samsung-almu-20261113/resultats/pdf-page-comparison.json).
 
 L’archive **`RCT_01-2023_15-10-2024_EXPORT.zip`** se décompresse sans erreur et comporte **30 membres : CSV, OFX, QIF et 27 justificatifs PDF**. Le CSV comprend **94 lignes** et l’OFX **94 transactions**, avec une période déclarée du **01/01/2023 au 15/10/2024**. La période comptable ne date pas l’export, dont les traces locales sont du 28. Le nom RCT et le titulaire doivent être rapprochés de pièces bancaires ; le PV ne les authentifie pas à lui seul.
 
@@ -364,7 +471,7 @@ Une clé PHILIPS porte par ailleurs des propriétés datées du **30 octobre à 
 
 **Le PV décrit une extraction, un filtrage, une copie sur une clé de l’administration et une authentification des fichiers, avec inventaires sur CD.** Les catégories de L16B, les deux PST, les trente EML, Takeout, Sage et SHINE concordent substantiellement avec les opérations annoncées. Les créations FN concentrées après 10:41 et les références à l’archive/inventaire/rejets corroborent matériellement ce récit.
 
-Le PV précise cependant que **L16B est laissé sur le PC à titre informatif et ne remplace pas les fichiers définitivement saisis**. Le CD d’inventaire, les empreintes finales et les contenus emportés ne sont pas disponibles pour comparaison. Il n’est donc pas possible de certifier que chaque fichier actuel de L16B a été saisi, que tous les fichiers saisis s’y trouvent ou qu’aucun contenu différent n’a été emporté.
+Le PV précise que **L16B est laissé sur le PC à titre informatif et ne remplace pas les fichiers définitivement saisis**. Un **CSV d’inventaire est désormais disponible** : la comparaison SHA-512 confirme l’identité du PST DMM et de Takeout avec les empreintes inscrites au même chemin, mais révèle une divergence pour le PST 93300. Les 27 PDF du Mini sont également identifiés dans ce CSV par les contrôles DNEF. Ces concordances constituent une preuve de présence dans des fichiers correspondant à l’inventaire fourni ; elles ne reposent plus sur le seul dossier L16B. Le contrôle a ensuite porté sur **tous les 1 555 fichiers du CSV : 1 552 SHA-512 concordants et 3 divergents, aucun chemin absent** ; voir la section 7.8. Le CD d’origine, l’archive finale et le support emporté restent à contrôler ; cette comparaison à l’image ne certifie pas la composition ou la conservation actuelle du support final. Voir aussi la section 7.7 et la [réponse Q1 sur les PDF Mini](../inventaire-DNEF/rapports/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.md).
 
 La présence de **trois identifiants Kingston**, face à la clé unique décrite, reste à expliquer par les pièces de procédure et les supports. Elle ne démontre ni trois copies ni trois destinataires. L’attribution des opérations décrites à l’administration repose sur le recoupement du PV et des artefacts ; elle ne constitue pas une identification technique individuelle de chaque opérateur.
 
@@ -376,7 +483,55 @@ Le fichier d’appairage Apple ancien présent sur OP-01 est rattaché à **TP-0
 
 Des **correspondances avec des avocats sont présentes dans L16B**, notamment Negrevergne, Pascoët, Khallouki, Fakiroff/Roosevelt Avocats, Wahrheit et Guillou. Les [messages](../investigations/20261109-correspondances-elargies/tableau-messages.md), [documents](../investigations/20261109-correspondances-elargies/tableau-documents.md) et la [fiche du PDF Bourarach](../investigations/20261109-clarification-correspondances/fiche-bourarach.md) individualisent les pièces.
 
-Leur **emport définitif, leur lecture par les agents et leur utilisation fiscale ne sont pas établis**. Leur qualification exige un examen individuel ; une mention d’avocat ne suffit pas. La recherche n’est pas exhaustive : l’OCR dispose de 4 238 résultats sur 5 365 contenus, avec 1 127 sans résultat terminé dans la passe considérée.
+**La présence des 21 messages du PST DMM dans un conteneur correspondant exactement à l’empreinte de l’inventaire est établie**, ainsi que les traces liées au ZIP Takeout concordant ; le PDF Bourarach / Guillou est individuellement identifié dans le CSV par son chemin et son SHA-512. Les correspondances Khallouki du PST 93300 divergent ne peuvent pas être certifiées dans la version inventoriée. **La lecture par les agents, l’utilisation fiscale et le contrôle matériel de l’archive finale restent distincts.** La qualification des échanges exige un examen individuel ; une mention d’avocat ne suffit pas. L’OCR documentaire historique reste partiel : 4 238 résultats sur 5 365 contenus, avec 1 127 sans résultat terminé ; la nouvelle recherche sur les deux PST et Takeout couvre leurs 6 176 messages décodés.
+
+### 7.7. Concordance des messageries à l’inventaire et correspondances établies
+
+**Sources et méthode du 16 novembre 2026.** Les deux PST et le ZIP Takeout sont présents, non supprimés, dans `C:\L16B\MESSAGERIES` sur l’image OP-01. Leurs copies ont été extraites depuis un montage en lecture seule ; les SHA-256 des sources, des copies et des contrôles antérieurs concordent. Ces contrôles d’extraction doivent être distingués de la comparaison à l’[inventaire CSV fourni](../inventaire-DNEF/documents-recus/Inventaire_saddedine.csv), qui utilise **SHA-512**. Les SHA-512 ont été recalculés par lecture intégrale des trois fichiers ; l’écart du PST 93300 est confirmé par un second calcul indépendant avec `sha512sum`.
+
+| Fichier extrait de l’image | Ligne du CSV | Concordance SHA-512 | Portée pour les correspondances |
+|---|---:|---|---|
+| `dmmconseils@hotmail.com.pst` | 1498 | **IDENTIQUE** | Présence de **21 messages avec un avocat dans les en-têtes** établie dans le conteneur correspondant à l’inventaire. |
+| `takeout-20241028T114105Z-001.zip` | 1529 | **IDENTIQUE** | Notification AR24 de Charlotte Liwer présente dans l’archive correspondant à l’inventaire. |
+| `dmmconseils93300@hotmail.com.pst` | 1497 | **DIVERGENT** | **2 messages Khallouki et 3 transferts/reproductions** présents dans l’image, sans certitude de leur présence et identité dans la version inventoriée. |
+
+**Correspondances dont le rattachement au fichier inventorié est prouvé.** Le PST DMM concordant contient **9 messages Fakiroff / Roosevelt Avocats** (8 février et 27 avril 2023), **7 messages Wahrheit** (15–16 novembre 2022 et 10 janvier 2023) et **5 messages adressés au cabinet Negrevergne** (23 août, 6 et 12 septembre, 3 et 8 octobre 2024). Le même conteneur contient deux échanges Pascoët / Rubio cités dans un avis de non-remise ou un PDF joint, quatre avis porteurs, une notification Dress / DocuSign et un message à l’adresse distincte `wahreit.ma.avocat@gmail.com`, dont l’attribution à Me Wahrheit reste à vérifier. La notification Liwer / AR24 du 24 janvier 2024 est dans Takeout concordant. Le [premier tableau du rapport détaillé](recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md) rassemble **30 lignes, dont les 21 messages**, en distinguant chaque nature de trace ; une citation et son message porteur ne sont pas des échanges distincts supplémentaires.
+
+**Correspondances provenant du fichier divergent.** Le PST 93300 contient les deux messages Khallouki **M00720 et M00721**, datés du 21 octobre 2020, et les trois transferts/reproductions **M00717, M01632 et M01633**, datés du 26 octobre 2020. Le [second tableau](recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md) les isole. **Leur présence et leur identité dans la version du PST dont l’empreinte figure dans l’inventaire ne peuvent pas être certifiées à partir du fichier actuel.** La divergence ne détermine ni les messages ou objets Outlook qui auraient changé, ni la date, le mécanisme ou l’auteur de l’écart.
+
+**Couverture et limites.** La recherche couvre **6 176 messages** : 3 836 du PST DMM, 2 039 du PST 93300 et 301 de Takeout ; les 30 EML indépendants sont exclus de ce périmètre. Les deux PST ont été redécodés avec `readpst -r -q -t e` ; tous les **5 875 en-têtes** concordent avec le corpus complet conservé, après normalisation des espaces et replis de lignes. Takeout a été relu et ses 301 en-têtes reparsés et comparés. La recherche des noms et adresses porte aussi sur les corps MIME déjà décodés, sans les reproduire ; aucun nouvel OCR exhaustif des pièces jointes n’est revendiqué. Aucun message Guillou n’a été identifié dans ces trois conteneurs ; le PDF du Mini est un constat séparé.
+
+**La preuve apportée concerne l’identité des conteneurs avec les empreintes du CSV fourni et la présence des traces en leur sein.** L’authentification du support d’origine de l’inventaire, la composition exhaustive de l’archive finale, la lecture par les agents et l’utilisation fiscale restent à contrôler. La qualification avocat-client ne découle pas du seul nom d’un avocat ou d’une notification de service.
+
+**Références :** [rapport et deux tableaux classés par concordance SHA-512](recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md), [empreintes complètes et comparaison](recherche-OP-01/extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.md), [calculs structurés](recherche-OP-01/extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.json), [validation des en-têtes](recherche-OP-01/correspondances-avocats-20261116/validation-nouveaux-decodages.json) et [contrôle de l’extraction](recherche-OP-01/extraction-messageries-20261116/verification-extraction.json).
+
+### 7.8. Comparaison exhaustive des 1 555 fichiers de l’inventaire avec L16B
+
+**Le contrôle a été étendu à l’ensemble du CSV fourni, au-delà des messageries et des PDF Mini.** Les **1 555 chemins inventoriés** sont tous retrouvés dans le dossier L16B de l’image OP-01. Leur lecture intégrale sur SIFT, avec montage NTFS et boucle EWF en lecture seule, porte sur **4 519 451 973 octets** et ne produit aucune erreur. Les fichiers et le CSV restent inchangés pendant les contrôles de lecture.
+
+| Contrôle | Résultat |
+|---|---:|
+| Fichiers du CSV / chemins retrouvés dans L16B | **1 555 / 1 555** |
+| Chemins inventoriés absents de L16B | **0** |
+| SHA-512 identiques à l’inventaire | **1 552** |
+| SHA-512 divergents | **3** |
+| Erreurs de lecture | **0** |
+
+**Les 1 552 concordances établissent l’identité des contenus retrouvés avec les empreintes de l’inventaire fourni.** Elles comprennent notamment les 27 PDF Mini, le PST DMM et Takeout ; les conclusions de la section 7.7 sur ces conteneurs concordants sont confirmées.
+
+| Chemin présent dans l’image mais de contenu divergent | Ligne du CSV | Taille actuelle (octets) |
+|---|---:|---:|
+| `C:\L16B\LOCAL\cle usb\USB2 (D) - Raccourci.lnk` | 426 | 940 |
+| `C:\L16B\LOCAL\FACT 2018 SUITE.pdf` | 481 | 924 117 |
+| `C:\L16B\MESSAGERIES\dmmconseils93300@hotmail.com.pst` | 1497 | 1 156 260 864 |
+
+Ces trois chemins existent, mais **les contenus actuels ne correspondent pas aux SHA-512 inscrits dans le CSV**. Les deux nouveaux écarts, le raccourci et le PDF, ont été confirmés indépendamment par `sha512sum` ; le PST 93300 avait déjà été confirmé et sa nouvelle empreinte reste identique à ce contrôle. La date, le mécanisme et l’auteur de l’écart ne sont pas déterminés. Les versions inventoriées ne sont pas retrouvées à l’identique dans les fichiers présents à ces trois chemins ; leur absence de toute l’image ou d’autres supports n’est pas établie.
+
+**Comparaison des listes dans les deux sens.** L16B contient **1 558 fichiers** dans l’image : les 1 555 chemins du CSV et trois fichiers supplémentaires, `GDRIVE.zip`, `GDRIVE (2).zip` et `MESSAGERIES\misssmalika@hotmail.com\CADA.pdf.pdf`, dont les créations FN datent de 2026. Les traces du 28/10/2024 fournissent quatre anciens chemins absents du CSV : les deux `Téléchargements - Raccourci (2)` supprimés, `test.pdf` et `Sage.pdf` à la racine. Ce dernier est distinct du chemin `SAGE\sage.pdf`, qui figure dans l’inventaire et dont le SHA-512 concorde. **Ces différences de liste ne prouvent pas une décision de rejet lors du filtrage.**
+
+Le contrôle porte sur l’image acquise en 2026 et l’inventaire fourni, pas sur une capture contemporaine du dossier ou une lecture du support final emporté. L’authentification du support d’origine du CSV, l’archive finale, les rejets, la lecture humaine et l’utilisation des documents restent à contrôler séparément.
+
+**Références :** [rapport Markdown exhaustif des 1 555 fichiers, avec SHA-512 attendu et calculé intégraux](recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-SHA512-exhaustive-1555-fichiers.md), [synthèse et écarts de chemins](recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-L16B-inventaire.md), [tableau CSV](recherche-OP-01/comparaison-L16B-inventaire-20261116/comparaison-SHA512-tous-les-fichiers.csv), [résultats structurés et contrôles du montage](recherche-OP-01/comparaison-L16B-inventaire-20261116/resultats-comparaison-L16B-inventaire.json) et [relevé des traces Windows de L16B](recherche-OP-01/inventaire-L16B-20241028-20261116/rapport-inventaire-L16B-20241028.md).
 
 ## 8. Suppressions et contenus récupérables
 
@@ -503,7 +658,9 @@ La table réseau SRUM ne conserve que des lignes de **septembre–octobre 2026**
 
 Le triage des caches cloud comprend neuf bases SQLite OneDrive et les compagnons disponibles. Il ne retrouve pas de ligne cible sur les noms L16B, archive/inventaire ou le volume Kingston. Les tentatives de lecture d’anciens ODL ne restituent pas de transferts de 2024. Ces résultats n’équivalent pas à un audit exhaustif de OneDrive, Dropbox ou de leurs usages web ; les historiques de sécurité des comptes et les journaux serveur ne sont pas disponibles.
 
-Le nom de réseau **`ASUS_Z01RD`** conservé dans TP-02 ne permet pas d’identifier OP-01 comme point d’accès. Aucun lien technique positif ne transforme les traces Wi-Fi des téléphones en preuve de fonctionnement d’OP-01 pendant l’intervalle de rétention.
+Les connexions Internet du **28 octobre** sont documentées par **« Réseau 2 » puis « Réseau 3 »**, fortement rapprochées du partage USB du Samsung **« XCover 5 de David »**, série **`R58RB2ETQER`** ; leur chronologie figure en section 4.4. Elles se situent après l’ouverture du PC et ne constituent pas une activité intermédiaire sous scellés. L’usage connecté de Sage et les générations PDF ALMU sont documentés en section 7.3 ; aucune capture réseau ne permet de chiffrer ou d’attribuer un transfert externe de ces documents.
+
+**Aucune connexion Wi-Fi à `ASUS_Z01RD` n’est établie sur OP-01 le 28** : le journal WLAN ne conserve ce jour-là que la déconnexion de `Freebox-537E9F` au réveil, et les 65 profils Wi-Fi XML examinés ne contiennent pas `ASUS_Z01RD`. Les fragments de ce nom retrouvés précédemment dans le fichier d’échange ne datent pas une connexion. La connexion Freebox suivante conservée est le **29 octobre à 00:02:25 Paris**, hors de la journée demandée. L’historique restant partiel, ces résultats ne permettent pas d’exclure toute connexion dont la trace aurait disparu. Le nom conservé dans TP-02 ne permet pas non plus d’identifier OP-01 comme point d’accès ni de prouver son fonctionnement pendant l’intervalle de rétention.
 
 **Aucune chaîne complète exposition à une menace → prise de contrôle → transfert de données n’est reconstruite. L’absence de preuve de compromission ne permet pas d’affirmer que le PC n’a jamais été compromis.**
 
@@ -529,8 +686,10 @@ Les notes de remise et d’acquisition comportent des divergences de dates ou de
 
 | Question | Éléments nécessaires |
 |---|---|
-| Quels fichiers ont été définitivement saisis ? | CD d’inventaire, liste et empreintes finales, archive/support emporté et liste des rejets, comparés à L16B et aux contenus récupérés. |
+| Quels fichiers ont été définitivement saisis ? | Authentifier le CSV déjà fourni et contrôler l’archive/support emporté et les rejets ; compléter les concordances SHA-512 établies pour le PST DMM, Takeout et les PDF Mini. L16B ne certifie pas à lui seul le jeu complet. |
+| Pourquoi trois fichiers divergent-ils de leur SHA-512 inventorié ? | Obtenir des versions conformes des fichiers USB2 (raccourci), FACT 2018 SUITE (PDF) et PST 93300, puis comparer leurs contenus et métadonnées. Pour le PST, les messages Khallouki restent non certifiés dans la version inventoriée. La divergence ne date ni n’attribue une modification. |
 | Quel support correspond à chaque opération ? | Identification physique ou images des trois Kingston, correspondance avec le volume `140B8328`, journaux d’outils et relevés de branchements disponibles. |
+| À qui appartenait le Samsung et quel réseau fournissait-il ? | Rapprochement du numéro **`R58RB2ETQER`** avec un appareil ou des pièces contemporaines ; journaux du téléphone et de son accès amont. Le seul nom « XCover 5 de David » ne certifie pas son propriétaire. |
 | Quelle est l’origine exacte des ensembles cloud et téléphones ? | Historiques de téléchargement/export et de sécurité des comptes, états historiques authentifiables, rapprochement des contenus avec les appareils et sauvegardes. |
 | Une téléassistance a-t-elle réellement eu lieu ? | Pièces d’assistance Sage/Rescue, traces de session ou journaux du prestataire ; message et PDF d’origine pour la piste phishing. |
 | Une intervention a-t-elle précédé l’ouverture des scellés ? | Heures individuelles de fermeture, documents de conservation, mouvements et interventions, éléments contemporains d’alimentation ou d’accès. |
@@ -542,6 +701,12 @@ Ces pièces ne sont pas présumées disponibles. Leur absence ne doit être remp
 **OP-01 a repris Windows le 15 octobre 2024 vers 10:43, puis est entré en hibernation vers 10:53. La reprise suivante conservée est celle du 28 à 10:41:56, cohérente avec l’ouverture du PC à 10:41 consignée au PV. Aucune activité Windows intermédiaire corroborée n’est établie.** Le réveil du 16 à 05:51 est seulement programmé ; les dates iCloud et les dates SI anciennes de certains fichiers ne démontrent pas un fonctionnement local pendant l’intervalle.
 
 Après l’ouverture du 28, les journaux, traces d’exécution, métadonnées, Jump Lists et contenus récupérés établissent des opérations sur les messageries et documents. Le regroupement L16B et les formats d’exports concordent substantiellement avec les opérations décrites par l’administration. Les trois identifiants Kingston et les références à l’archive, l’inventaire et les rejets fournissent des cibles précises de vérification, sans certifier le contenu définitivement emporté.
+
+**Le 28 à 11:18:34, un Samsung enregistré sous le nom « XCover 5 de David », série `R58RB2ETQER`, apparaît pour la première fois dans les traces conservées. Son partage Internet par USB est fortement étayé**, notamment par la configuration RNDIS, les profils « Réseau 2 »/« Réseau 3 » et son retrait à **17:14:11**, immédiatement suivi de la perte de la connexion enregistrée. Aucun usage antérieur n’a été retrouvé ; la première connexion absolue et le propriétaire restent indéterminés. Sage 50 est lancé vers **15:10**, effectue un échange d’authentification avec résultat **200 vers 15:11**, puis des documents ALMU sont générés en PDF, dont **458 pages à 15:28:33**, retrouvées dans `C:\L16B\SAGE\sage.pdf`. Ces sorties sont établies par leurs contenus et les événements d’impression ; ni l’identité de l’opérateur, ni une saisie manuelle d’identifiants, ni une impression papier ou le transfert de ce PDF précis sur USB ne sont démontrés.
+
+**Seul le dossier ALMU — SIRET 81816735500010 — est confirmé comme utilisé ce jour-là ; les 458 pages du PDF portent ce même SIRET.** Les cinq autres dossiers présents et le modèle nommé DMM CONSEILS ne prouvent pas leur ouverture. L’examen supplémentaire des préférences et du composant web ne permet pas de déterminer si l’authentification a reposé sur une saisie, des identifiants mémorisés ou un renouvellement automatique de jeton : les bases de mots de passe sont vides et l’historique web de Gestion Commerciale ne conserve que des visites de 2026.
+
+**La comparaison au CSV fourni établit aussi l’identité SHA-512 du PST DMM et de Takeout avec les empreintes de l’inventaire. Les 21 messages Fakiroff / Wahrheit / Negrevergne du PST DMM sont donc identifiés dans un conteneur inventorié concordant.** Les deux messages Khallouki et trois transferts du PST 93300 divergent restent non certifiés dans la version inventoriée. La présence de correspondances dans les fichiers concordants est prouvée ; leur lecture par les agents et leur utilisation fiscale ne le sont pas. Voir la section 7.7.
 
 Les dix mises à la corbeille du 28 sont établies. L’archive de 94 fichiers et le document de gestion de mots de passe restent récupérables ; les 93 autres contenus correspondent exactement au dossier GDRIVE. Le texte des deux factures du PDF supprimé subsiste dans le PDF Sage. **Ces constats ne démontrent ni effacement sécurisé, ni destruction malveillante, ni auteur identifié.**
 
@@ -564,10 +729,15 @@ Les pièces techniques restent conservées avec leurs scripts, sorties, erreurs 
 | Anciennes entrées EVTX | [Récupération](recherche-OP-01/integrite-evtx/ntfs/deleted-evtx-summary.json), [correspondances de blocs](recherche-OP-01/integrite-evtx/ntfs/deleted-chunk-correspondence.json) |
 | L16B, exports et supports | [Inventaire L16B](recherche-OP-01/extractions-acces/l16b-inventory.json), [MFT de L16B](recherche-OP-01/extractions-acces/l16b-mft.jsonl), [archives](recherche-OP-01/extractions-acces/archives.json), [sections SetupAPI](recherche-OP-01/extractions-acces/setupapi-usb-sections.json), [volumes et points de montage](recherche-OP-01/extractions-acces/usb-mounteddevices-crosscheck.json) |
 | PST et Jump Lists | [Compte rendu et contrôles détaillés](recherche-OP-01/operations-28oct/compte-rendu.md) |
+| Correspondances et inventaire — 16 novembre | [Rapport et tableaux selon la concordance SHA-512](recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md), [comparaison et empreintes complètes](recherche-OP-01/extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.md), [résultats structurés](recherche-OP-01/extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.json), [validation des 5 875 en-têtes](recherche-OP-01/correspondances-avocats-20261116/validation-nouveaux-decodages.json), [inventaire CSV](../inventaire-DNEF/documents-recus/Inventaire_saddedine.csv) |
 | Recoupements réseau, PST, ZIP et décodage `$LogFile` | [Compte rendu transversal](../investigations/20261017-recroisements/compte-rendu.md) |
+| Sage 50 et réseaux du 28 octobre | [Rapport complémentaire](rapport-complementaire-OP-01-Sage50-reseaux-28oct2024.md), [journal Sage du 28](recherche-OP-01/sage-reseaux-20261113/resultats/sage-log-day.json), [chronologie réseau](recherche-OP-01/sage-reseaux-20261113/resultats/chronologie-reseau-28oct.json), [vérification des pièces](recherche-OP-01/sage-reseaux-20261113/resultats/verification-transfert.json) |
+| Dossiers Sage, SIRET et mode d’authentification | [Contrôle complémentaire](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/compte-rendu.md), [préférences](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/preferences-examination.json), [métadonnées web](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/webview-auth-metadata.json), [méthode](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/method.json), [39 vérifications d’intégrité](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/final-checks.json), [sept fichiers rapatriés](recherche-OP-01/sage-dossiers-auth-20261113-swqgba2s/verification-transfert.json) |
+| Samsung et sorties ALMU | [Rapport complémentaire](rapport-complementaire-OP-01-Samsung-ALMU-28oct2024.md), [identification dans le registre](recherche-OP-01/samsung-almu-20261113/resultats/samsung-registry.json), [historique USB](recherche-OP-01/samsung-almu-20261113/resultats/setupapi-samsung.json), [événements d’impression](recherche-OP-01/samsung-almu-20261113/resultats/print-events-day.json), [PDF et empreintes](recherche-OP-01/samsung-almu-20261113/resultats/pdf-content.json), [lecture indépendante](recherche-OP-01/samsung-almu-20261113/resultats/verification-evenements-independante.json) |
 | Fichiers supprimés | [Synthèse](recherche-OP-01/fichiers-supprimes/summary.json), [sélection](recherche-OP-01/fichiers-supprimes/recovery-selection.jsonl), [récupérations](recherche-OP-01/fichiers-supprimes/recovery-results.jsonl), [paires de corbeille](recherche-OP-01/fichiers-supprimes/recycle-pairs.json), [comparaison Drive](recherche-OP-01/fichiers-supprimes/drive-content-comparison.json), [contre-lecture icat](recherche-OP-01/fichiers-supprimes/icat-crosscheck.txt) |
 | Menaces et traces d’accès | [Sources contrôlées](recherche-OP-01/extractions-acces/source-verification.json), [quarantaine](recherche-OP-01/extractions-acces/quarantine-inventory.json), [recherche ciblée dans le MBOX](recherche-OP-01/extractions-acces/mbox-pdf-name-search.json), [SRUM](recherche-OP-01/extractions-acces/additional/srum-schema.json) |
 | Procès-verbal et copie finale | [Lecture du PV](../investigations/20261108-analyse-pv/compte-rendu.md), [concordance technique de L16B](../investigations/20261109-controle-l16b-photos/compte-rendu.md) |
+| Inventaire complet et SHA-512 — 16 novembre | [Rapport Markdown des 1 555 fichiers et des deux SHA-512 intégraux](recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-SHA512-exhaustive-1555-fichiers.md), [synthèse et écarts de chemins](recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-L16B-inventaire.md), [CSV exhaustif](recherche-OP-01/comparaison-L16B-inventaire-20261116/comparaison-SHA512-tous-les-fichiers.csv), [résultats structurés](recherche-OP-01/comparaison-L16B-inventaire-20261116/resultats-comparaison-L16B-inventaire.json) |
 | Téléphones et intervention avant ouverture | [Rapprochements des téléphones](../investigations/20261110-telephones/compte-rendu.md), [comparaison des hypothèses](../investigations/20261110-revue-intervention-scelles/compte-rendu.md) |
 
 ### 12.2. Références de formats et d’interprétation
@@ -587,7 +757,7 @@ Ces références étayent les formats et principes utilisés ; les constats prop
 | Artefact | Trace conservée par un système ou une application : événement, clé de registre, raccourci, métadonnée ou contenu de fichier. Sa présence et sa portée doivent être interprétées selon son origine. |
 | EWF | Format de l’image d’acquisition. Les segments permettent de reconstituer le flux du disque analysé. |
 | EVTX / RecordID | Fichier de journal Windows / numéro d’enregistrement propre à ce journal. Un même numéro dans deux journaux ne désigne pas le même événement. |
-| CRC / SHA-256 | Contrôle de cohérence d’une structure / empreinte utilisée pour comparer des contenus. Un résultat valide ou identique ne désigne pas leur auteur et ne certifie pas leur provenance historique. |
+| CRC / SHA-256 / SHA-512 | Contrôle de cohérence d’une structure / empreinte utilisée pour comparer des contenus. Un résultat valide ou identique ne désigne pas leur auteur et ne certifie pas leur provenance historique. |
 | MFT / SI / FN | Table NTFS des fichiers / attributs STANDARD_INFORMATION et FILE_NAME. Leurs dates décrivent des métadonnées distinctes, sans constituer un journal complet des actions. |
 | Alloué / non alloué | Espace ou entrée actuellement utilisé / libéré dans le système de fichiers. Un ancien contenu non alloué peut être partiellement ou entièrement remplacé. |
 | Prefetch / UserAssist | Traces Windows utilisées pour rechercher des lancements de programmes. Leur conservation est limitée ; elles ne prouvent pas à elles seules un geste humain. |
@@ -597,4 +767,5 @@ Ces références étayent les formats et principes utilisés ; les constats prop
 | VSS | Mécanisme de clichés de volume pouvant conserver des états antérieurs. Aucun contenu de cliché n’est récupéré dans cette analyse. |
 | PST / EML / MBOX | Conteneur Outlook / fichier de message / conteneur de messages. Les dates des messages sont distinctes de celles d’export ou de copie de ces fichiers. |
 | SRUM | Base Windows de statistiques d’utilisation des ressources. Chaque table a sa propre couverture temporelle ; des données d’énergie anciennes n’impliquent pas des données réseau de la même période. |
+| RNDIS / partage USB | Pilote et mécanisme permettant à un périphérique USB de fournir une interface réseau. Windows peut la classer comme Ethernet, sans qu’un câble RJ45 soit utilisé. |
 | Exfiltration | Transfert de données vers un destinataire extérieur dans un contexte de compromission. Un regroupement local ou un export ne suffit pas à l’établir. |

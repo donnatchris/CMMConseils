@@ -1,0 +1,14 @@
+[
+  {
+    "case": "zip32",
+    "passed": true,
+    "bytes": 202,
+    "prefix_bytes": 4096
+  },
+  {
+    "case": "zip64",
+    "passed": true,
+    "bytes": 278,
+    "prefix_bytes": 4096
+  }
+]

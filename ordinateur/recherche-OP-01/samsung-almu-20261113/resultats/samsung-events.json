@@ -1,0 +1,922 @@
+[
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T13:04:40.304637+00:00",
+    "paris": "2024-10-28T14:04:40.304637+01:00",
+    "id": 112,
+    "record": 6886,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{1CA7345B-8094-54CF-9254-1FD5A1078FA8}",
+      "Prop_TaskCount": "1",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "31"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T13:04:40.304637200Z\"/>\n    <EventRecordID>6886</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"15564\" ThreadID=\"24480\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{1CA7345B-8094-54CF-9254-1FD5A1078FA8}</Data>\n    <Data Name=\"Prop_TaskCount\">1</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">31</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T13:04:41.727547+00:00",
+    "paris": "2024-10-28T14:04:41.727547+01:00",
+    "id": 131,
+    "record": 6901,
+    "data": {
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "HRESULT": "2147943568"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>131</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T13:04:41.727547700Z\"/>\n    <EventRecordID>6901</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"15564\" ThreadID=\"24480\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"HRESULT\">2147943568</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T13:04:42.476281+00:00",
+    "paris": "2024-10-28T14:04:42.476281+01:00",
+    "id": 131,
+    "record": 6909,
+    "data": {
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "HRESULT": "2147943568"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>131</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T13:04:42.476281300Z\"/>\n    <EventRecordID>6909</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"15564\" ThreadID=\"24480\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"HRESULT\">2147943568</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T13:04:42.478113+00:00",
+    "paris": "2024-10-28T14:04:42.478113+01:00",
+    "id": 112,
+    "record": 6910,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "5",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "1496"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T13:04:42.478113400Z\"/>\n    <EventRecordID>6910</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"15564\" ThreadID=\"24480\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">5</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">1496</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T14:22:01.090872+00:00",
+    "paris": "2024-10-28T15:22:01.090872+01:00",
+    "id": 131,
+    "record": 6948,
+    "data": {
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "HRESULT": "2147943568"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>131</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T14:22:01.090872500Z\"/>\n    <EventRecordID>6948</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"28720\" ThreadID=\"32568\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"HRESULT\">2147943568</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T14:22:01.092190+00:00",
+    "paris": "2024-10-28T15:22:01.092190+01:00",
+    "id": 112,
+    "record": 6949,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "0",
+      "Prop_WorkTime_MilliSeconds": "564"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T14:22:01.092190100Z\"/>\n    <EventRecordID>6949</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"28720\" ThreadID=\"32568\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">0</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">564</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T15:27:52.685858+00:00",
+    "paris": "2024-10-28T16:27:52.685858+01:00",
+    "id": 112,
+    "record": 7086,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "0",
+      "Prop_WorkTime_MilliSeconds": "7"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:52.685858300Z\"/>\n    <EventRecordID>7086</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"34768\" ThreadID=\"34120\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">0</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">7</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T15:27:59.495373+00:00",
+    "paris": "2024-10-28T16:27:59.495373+01:00",
+    "id": 131,
+    "record": 7116,
+    "data": {
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "HRESULT": "2147943568"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>131</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:59.495373500Z\"/>\n    <EventRecordID>7116</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"34768\" ThreadID=\"7792\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"HRESULT\">2147943568</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T15:27:59.496895+00:00",
+    "paris": "2024-10-28T16:27:59.496895+01:00",
+    "id": 112,
+    "record": 7117,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "1",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "664"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:59.496895100Z\"/>\n    <EventRecordID>7117</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"34768\" ThreadID=\"7792\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">1</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">664</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T16:00:06.844500+00:00",
+    "paris": "2024-10-28T17:00:06.844500+01:00",
+    "id": 131,
+    "record": 7160,
+    "data": {
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "HRESULT": "2147943568"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>131</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T16:00:06.844500800Z\"/>\n    <EventRecordID>7160</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"25480\" ThreadID=\"22868\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"HRESULT\">2147943568</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T16:00:06.845037+00:00",
+    "paris": "2024-10-28T17:00:06.845037+01:00",
+    "id": 112,
+    "record": 7161,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "0",
+      "Prop_WorkTime_MilliSeconds": "630"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T16:00:06.845037300Z\"/>\n    <EventRecordID>7161</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"25480\" ThreadID=\"22868\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">0</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">630</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T16:11:37.690570+00:00",
+    "paris": "2024-10-28T17:11:37.690570+01:00",
+    "id": 131,
+    "record": 7204,
+    "data": {
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "HRESULT": "2147943568"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>131</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T16:11:37.690570200Z\"/>\n    <EventRecordID>7204</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"20784\" ThreadID=\"32060\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"HRESULT\">2147943568</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T16:11:37.691571+00:00",
+    "paris": "2024-10-28T17:11:37.691571+01:00",
+    "id": 112,
+    "record": 7205,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "0",
+      "Prop_WorkTime_MilliSeconds": "575"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T16:11:37.691571300Z\"/>\n    <EventRecordID>7205</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"20784\" ThreadID=\"32060\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">0</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">575</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T16:13:25.013345+00:00",
+    "paris": "2024-10-28T17:13:25.013345+01:00",
+    "id": 131,
+    "record": 7246,
+    "data": {
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "HRESULT": "2147943568"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>131</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T16:13:25.013345300Z\"/>\n    <EventRecordID>7246</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"35684\" ThreadID=\"31328\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"HRESULT\">2147943568</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T16:13:25.015003+00:00",
+    "paris": "2024-10-28T17:13:25.015003+01:00",
+    "id": 112,
+    "record": 7247,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "0",
+      "Prop_WorkTime_MilliSeconds": "597"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T16:13:25.015003900Z\"/>\n    <EventRecordID>7247</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"35684\" ThreadID=\"31328\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">0</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">597</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:18:36.458316+00:00",
+    "paris": "2024-10-28T11:18:36.458316+01:00",
+    "id": 112,
+    "record": 6695,
+    "data": {
+      "Prop_DeviceName": "XCover 5 de David",
+      "Prop_ContainerId": "{1CA7345B-8094-54CF-9254-1FD5A1078FA8}",
+      "Prop_TaskCount": "6",
+      "Prop_PropertyCount": "42",
+      "Prop_WorkTime_MilliSeconds": "2091"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:36.458316900Z\"/>\n    <EventRecordID>6695</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"8456\" ThreadID=\"21540\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">XCover 5 de David</Data>\n    <Data Name=\"Prop_ContainerId\">{1CA7345B-8094-54CF-9254-1FD5A1078FA8}</Data>\n    <Data Name=\"Prop_TaskCount\">6</Data>\n    <Data Name=\"Prop_PropertyCount\">42</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">2091</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:18:41.274516+00:00",
+    "paris": "2024-10-28T11:18:41.274516+01:00",
+    "id": 112,
+    "record": 6701,
+    "data": {
+      "Prop_DeviceName": "XCover 5 de David",
+      "Prop_ContainerId": "{1CA7345B-8094-54CF-9254-1FD5A1078FA8}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "0",
+      "Prop_WorkTime_MilliSeconds": "0"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:41.274516400Z\"/>\n    <EventRecordID>6701</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"8456\" ThreadID=\"21596\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">XCover 5 de David</Data>\n    <Data Name=\"Prop_ContainerId\">{1CA7345B-8094-54CF-9254-1FD5A1078FA8}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">0</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">0</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:18:55.855902+00:00",
+    "paris": "2024-10-28T11:18:55.855902+01:00",
+    "id": 112,
+    "record": 6716,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "12",
+      "Prop_PropertyCount": "42",
+      "Prop_WorkTime_MilliSeconds": "2573"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:55.855902500Z\"/>\n    <EventRecordID>6716</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"8456\" ThreadID=\"21540\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">12</Data>\n    <Data Name=\"Prop_PropertyCount\">42</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">2573</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:23:56.046689+00:00",
+    "paris": "2024-10-28T11:23:56.046689+01:00",
+    "id": 131,
+    "record": 6740,
+    "data": {
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "HRESULT": "2147943568"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>131</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:23:56.046689400Z\"/>\n    <EventRecordID>6740</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"8456\" ThreadID=\"15732\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"HRESULT\">2147943568</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:23:56.048267+00:00",
+    "paris": "2024-10-28T11:23:56.048267+01:00",
+    "id": 112,
+    "record": 6741,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "1",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "293750"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:23:56.048267800Z\"/>\n    <EventRecordID>6741</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"8456\" ThreadID=\"15732\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">1</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">293750</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:23:57.812584+00:00",
+    "paris": "2024-10-28T11:23:57.812584+01:00",
+    "id": 112,
+    "record": 6749,
+    "data": {
+      "Prop_DeviceName": "XCover 5 de David",
+      "Prop_ContainerId": "{1CA7345B-8094-54CF-9254-1FD5A1078FA8}",
+      "Prop_TaskCount": "1",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "0"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:23:57.812584100Z\"/>\n    <EventRecordID>6749</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"8456\" ThreadID=\"21596\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">XCover 5 de David</Data>\n    <Data Name=\"Prop_ContainerId\">{1CA7345B-8094-54CF-9254-1FD5A1078FA8}</Data>\n    <Data Name=\"Prop_TaskCount\">1</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">0</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:35:38.902266+00:00",
+    "paris": "2024-10-28T11:35:38.902266+01:00",
+    "id": 131,
+    "record": 6784,
+    "data": {
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "HRESULT": "2147943568"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>131</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:38.902266600Z\"/>\n    <EventRecordID>6784</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"22980\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"HRESULT\">2147943568</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:35:38.903202+00:00",
+    "paris": "2024-10-28T11:35:38.903202+01:00",
+    "id": 112,
+    "record": 6785,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "0",
+      "Prop_WorkTime_MilliSeconds": "763"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:38.903202300Z\"/>\n    <EventRecordID>6785</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"22980\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">0</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">763</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:35:44.196750+00:00",
+    "paris": "2024-10-28T11:35:44.196750+01:00",
+    "id": 112,
+    "record": 6807,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "205"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:44.196750000Z\"/>\n    <EventRecordID>6807</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"3680\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">205</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:35:44.772089+00:00",
+    "paris": "2024-10-28T11:35:44.772089+01:00",
+    "id": 112,
+    "record": 6814,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "281"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:44.772089700Z\"/>\n    <EventRecordID>6814</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"3680\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">281</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:35:46.198194+00:00",
+    "paris": "2024-10-28T11:35:46.198194+01:00",
+    "id": 112,
+    "record": 6823,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "7",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "985"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:46.198194800Z\"/>\n    <EventRecordID>6823</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"3360\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">7</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">985</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:40:46.208294+00:00",
+    "paris": "2024-10-28T11:40:46.208294+01:00",
+    "id": 112,
+    "record": 6827,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "1",
+      "Prop_PropertyCount": "0",
+      "Prop_WorkTime_MilliSeconds": "0"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:40:46.208294200Z\"/>\n    <EventRecordID>6827</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"3680\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">1</Data>\n    <Data Name=\"Prop_PropertyCount\">0</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">0</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:47:30.840445+00:00",
+    "paris": "2024-10-28T11:47:30.840445+01:00",
+    "id": 112,
+    "record": 6833,
+    "data": {
+      "Prop_DeviceName": "XCover 5 de David",
+      "Prop_ContainerId": "{1CA7345B-8094-54CF-9254-1FD5A1078FA8}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "15"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:30.840445600Z\"/>\n    <EventRecordID>6833</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"3680\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">XCover 5 de David</Data>\n    <Data Name=\"Prop_ContainerId\">{1CA7345B-8094-54CF-9254-1FD5A1078FA8}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">15</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:47:30.888961+00:00",
+    "paris": "2024-10-28T11:47:30.888961+01:00",
+    "id": 112,
+    "record": 6839,
+    "data": {
+      "Prop_DeviceName": "XCover 5 de David",
+      "Prop_ContainerId": "{1CA7345B-8094-54CF-9254-1FD5A1078FA8}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "15"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:30.888961700Z\"/>\n    <EventRecordID>6839</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"3680\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">XCover 5 de David</Data>\n    <Data Name=\"Prop_ContainerId\">{1CA7345B-8094-54CF-9254-1FD5A1078FA8}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">15</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:47:31.050698+00:00",
+    "paris": "2024-10-28T11:47:31.050698+01:00",
+    "id": 112,
+    "record": 6845,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{1CA7345B-8094-54CF-9254-1FD5A1078FA8}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "17"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.050698500Z\"/>\n    <EventRecordID>6845</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"4528\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{1CA7345B-8094-54CF-9254-1FD5A1078FA8}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">17</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:47:31.152393+00:00",
+    "paris": "2024-10-28T11:47:31.152393+01:00",
+    "id": 112,
+    "record": 6851,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{1CA7345B-8094-54CF-9254-1FD5A1078FA8}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "27"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.152393000Z\"/>\n    <EventRecordID>6851</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"3680\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{1CA7345B-8094-54CF-9254-1FD5A1078FA8}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">27</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:47:31.222643+00:00",
+    "paris": "2024-10-28T11:47:31.222643+01:00",
+    "id": 112,
+    "record": 6856,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{1CA7345B-8094-54CF-9254-1FD5A1078FA8}",
+      "Prop_TaskCount": "7",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "59"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.222643500Z\"/>\n    <EventRecordID>6856</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"3680\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{1CA7345B-8094-54CF-9254-1FD5A1078FA8}</Data>\n    <Data Name=\"Prop_TaskCount\">7</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">59</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:47:31.567087+00:00",
+    "paris": "2024-10-28T11:47:31.567087+01:00",
+    "id": 112,
+    "record": 6862,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "35"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.567087600Z\"/>\n    <EventRecordID>6862</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"4528\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">35</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:47:31.735122+00:00",
+    "paris": "2024-10-28T11:47:31.735122+01:00",
+    "id": 112,
+    "record": 6868,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "4",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "120"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.735122700Z\"/>\n    <EventRecordID>6868</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"3680\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">120</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:47:35.718826+00:00",
+    "paris": "2024-10-28T11:47:35.718826+01:00",
+    "id": 131,
+    "record": 6869,
+    "data": {
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "HRESULT": "2147943568"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>131</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:35.718826400Z\"/>\n    <EventRecordID>6869</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"3680\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"HRESULT\">2147943568</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "utc": "2024-10-28T10:47:35.720024+00:00",
+    "paris": "2024-10-28T11:47:35.720024+01:00",
+    "id": 112,
+    "record": 6870,
+    "data": {
+      "Prop_DeviceName": "SAMSUNG_Android",
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}",
+      "Prop_TaskCount": "1",
+      "Prop_PropertyCount": "34",
+      "Prop_WorkTime_MilliSeconds": "183"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:35.720024700Z\"/>\n    <EventRecordID>6870</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"22920\" ThreadID=\"3680\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">SAMSUNG_Android</Data>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n    <Data Name=\"Prop_TaskCount\">1</Data>\n    <Data Name=\"Prop_PropertyCount\">34</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">183</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Operational.evtx",
+    "utc": "2024-10-28T10:18:34.361538+00:00",
+    "paris": "2024-10-28T11:18:34.361538+01:00",
+    "id": 300,
+    "record": 141,
+    "data": {
+      "Prop_ContainerId": "{1CA7345B-8094-54CF-9254-1FD5A1078FA8}"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>300</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>10</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:34.361538200Z\"/>\n    <EventRecordID>141</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"8456\" ThreadID=\"21540\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{1CA7345B-8094-54CF-9254-1FD5A1078FA8}</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Operational.evtx",
+    "utc": "2024-10-28T10:18:53.270495+00:00",
+    "paris": "2024-10-28T11:18:53.270495+01:00",
+    "id": 300,
+    "record": 142,
+    "data": {
+      "Prop_ContainerId": "{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"{FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2}\"/>\n    <EventID>300</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>10</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:53.270495000Z\"/>\n    <EventRecordID>142</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"8456\" ThreadID=\"21596\"/>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_ContainerId\">{351A21C4-96A2-5BB0-ACAE-B2A64FC0DF96}</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": false,
+    "alias_only": true
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "utc": "2024-10-28T10:18:34.352547+00:00",
+    "paris": "2024-10-28T11:18:34.352547+01:00",
+    "id": 430,
+    "record": 893,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6860\\R58RB2ETQER"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>430</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:34.352547200Z\"/>\n    <EventRecordID>893</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"11552\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "utc": "2024-10-28T10:18:53.259736+00:00",
+    "paris": "2024-10-28T11:18:53.259736+01:00",
+    "id": 400,
+    "record": 894,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6863\\R58RB2ETQER",
+      "DriverName": "usb.inf",
+      "ClassGuid": "{36FC9E60-C465-11CF-8056-444553540000}",
+      "DriverDate": "06/21/2006",
+      "DriverVersion": "10.0.22621.3672",
+      "DriverProvider": "Microsoft",
+      "DriverInbox": "true",
+      "DriverSection": "Composite.Dev.NT",
+      "DriverRank": "0x00ff2006",
+      "MatchingDeviceId": "USB\\COMPOSITE",
+      "OutrankedDrivers": null,
+      "DeviceUpdated": "false",
+      "Status": "0x00000000",
+      "ParentDeviceInstanceId": "USB\\VID_2109&PID_2815\\5&13260716&0&2"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>400</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:53.259736200Z\"/>\n    <EventRecordID>894</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"9008\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n    <Data Name=\"DriverName\">usb.inf</Data>\n    <Data Name=\"ClassGuid\">{36FC9E60-C465-11CF-8056-444553540000}</Data>\n    <Data Name=\"DriverDate\">06/21/2006</Data>\n    <Data Name=\"DriverVersion\">10.0.22621.3672</Data>\n    <Data Name=\"DriverProvider\">Microsoft</Data>\n    <Data Name=\"DriverInbox\">true</Data>\n    <Data Name=\"DriverSection\">Composite.Dev.NT</Data>\n    <Data Name=\"DriverRank\">0x00ff2006</Data>\n    <Data Name=\"MatchingDeviceId\">USB\\COMPOSITE</Data>\n    <Data Name=\"OutrankedDrivers\"/>\n    <Data Name=\"DeviceUpdated\">false</Data>\n    <Data Name=\"Status\">0x00000000</Data>\n    <Data Name=\"ParentDeviceInstanceId\">USB\\VID_2109&amp;PID_2815\\5&amp;13260716&amp;0&amp;2</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "utc": "2024-10-28T10:18:53.276755+00:00",
+    "paris": "2024-10-28T11:18:53.276755+01:00",
+    "id": 410,
+    "record": 895,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6863\\R58RB2ETQER",
+      "DriverName": "usb.inf",
+      "ClassGuid": "{36FC9E60-C465-11CF-8056-444553540000}",
+      "ServiceName": "usbccgp",
+      "LowerFilters": null,
+      "UpperFilters": null,
+      "Problem": "0x00000000",
+      "Status": "0x00000000"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>410</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:53.276755700Z\"/>\n    <EventRecordID>895</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"9008\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n    <Data Name=\"DriverName\">usb.inf</Data>\n    <Data Name=\"ClassGuid\">{36FC9E60-C465-11CF-8056-444553540000}</Data>\n    <Data Name=\"ServiceName\">usbccgp</Data>\n    <Data Name=\"LowerFilters\"/>\n    <Data Name=\"UpperFilters\"/>\n    <Data Name=\"Problem\">0x00000000</Data>\n    <Data Name=\"Status\">0x00000000</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "utc": "2024-10-28T10:18:53.428110+00:00",
+    "paris": "2024-10-28T11:18:53.428110+01:00",
+    "id": 400,
+    "record": 897,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6863&MI_00\\7&95c02d9&0&0000",
+      "DriverName": "wceisvista.inf",
+      "ClassGuid": "{4D36E972-E325-11CE-BFC1-08002BE10318}",
+      "DriverDate": "06/21/2006",
+      "DriverVersion": "10.0.22621.1",
+      "DriverProvider": "Microsoft",
+      "DriverInbox": "true",
+      "DriverSection": "RNDIS.NT.5.1",
+      "DriverRank": "0x00ff2003",
+      "MatchingDeviceId": "USB\\Class_e0&SubClass_01&Prot_03",
+      "OutrankedDrivers": null,
+      "DeviceUpdated": "false",
+      "Status": "0x00000000",
+      "ParentDeviceInstanceId": "USB\\VID_04E8&PID_6863\\R58RB2ETQER"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>400</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:53.428110400Z\"/>\n    <EventRecordID>897</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"9008\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863&amp;MI_00\\7&amp;95c02d9&amp;0&amp;0000</Data>\n    <Data Name=\"DriverName\">wceisvista.inf</Data>\n    <Data Name=\"ClassGuid\">{4D36E972-E325-11CE-BFC1-08002BE10318}</Data>\n    <Data Name=\"DriverDate\">06/21/2006</Data>\n    <Data Name=\"DriverVersion\">10.0.22621.1</Data>\n    <Data Name=\"DriverProvider\">Microsoft</Data>\n    <Data Name=\"DriverInbox\">true</Data>\n    <Data Name=\"DriverSection\">RNDIS.NT.5.1</Data>\n    <Data Name=\"DriverRank\">0x00ff2003</Data>\n    <Data Name=\"MatchingDeviceId\">USB\\Class_e0&amp;SubClass_01&amp;Prot_03</Data>\n    <Data Name=\"OutrankedDrivers\"/>\n    <Data Name=\"DeviceUpdated\">false</Data>\n    <Data Name=\"Status\">0x00000000</Data>\n    <Data Name=\"ParentDeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "utc": "2024-10-28T10:35:44.468378+00:00",
+    "paris": "2024-10-28T11:35:44.468378+01:00",
+    "id": 400,
+    "record": 901,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6863&RNdis\\7&95c02d9&0&0000",
+      "DriverName": "wceisvista.inf",
+      "ClassGuid": "{4D36E972-E325-11CE-BFC1-08002BE10318}",
+      "DriverDate": "06/21/2006",
+      "DriverVersion": "10.0.22621.1",
+      "DriverProvider": "Microsoft",
+      "DriverInbox": "true",
+      "DriverSection": "RNDIS.NT.5.1",
+      "DriverRank": "0x00ff2000",
+      "MatchingDeviceId": "USB\\Class_e0&SubClass_01&Prot_03",
+      "OutrankedDrivers": null,
+      "DeviceUpdated": "false",
+      "Status": "0x00000000",
+      "ParentDeviceInstanceId": "USB\\VID_04E8&PID_6863\\R58RB2ETQER"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>400</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:44.468378200Z\"/>\n    <EventRecordID>901</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"26416\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863&amp;RNdis\\7&amp;95c02d9&amp;0&amp;0000</Data>\n    <Data Name=\"DriverName\">wceisvista.inf</Data>\n    <Data Name=\"ClassGuid\">{4D36E972-E325-11CE-BFC1-08002BE10318}</Data>\n    <Data Name=\"DriverDate\">06/21/2006</Data>\n    <Data Name=\"DriverVersion\">10.0.22621.1</Data>\n    <Data Name=\"DriverProvider\">Microsoft</Data>\n    <Data Name=\"DriverInbox\">true</Data>\n    <Data Name=\"DriverSection\">RNDIS.NT.5.1</Data>\n    <Data Name=\"DriverRank\">0x00ff2000</Data>\n    <Data Name=\"MatchingDeviceId\">USB\\Class_e0&amp;SubClass_01&amp;Prot_03</Data>\n    <Data Name=\"OutrankedDrivers\"/>\n    <Data Name=\"DeviceUpdated\">false</Data>\n    <Data Name=\"Status\">0x00000000</Data>\n    <Data Name=\"ParentDeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "utc": "2024-10-28T10:47:30.816259+00:00",
+    "paris": "2024-10-28T11:47:30.816259+01:00",
+    "id": 430,
+    "record": 903,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6860\\R58RB2ETQER"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>430</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:30.816259100Z\"/>\n    <EventRecordID>903</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"10576\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "utc": "2024-12-03T21:38:36.038766+00:00",
+    "paris": "2024-12-03T22:38:36.038766+01:00",
+    "id": 420,
+    "record": 975,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6860\\R58RB2ETQER",
+      "ClassGuid": "{36FC9E60-C465-11CF-8056-444553540000}",
+      "Problem": "0x0000002d",
+      "Status": "0x00000000"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>420</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-12-03T21:38:36.038766900Z\"/>\n    <EventRecordID>975</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"21788\" ThreadID=\"8596\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-21-1394434332-468722268-2897565647-1001\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</Data>\n    <Data Name=\"ClassGuid\">{36FC9E60-C465-11CF-8056-444553540000}</Data>\n    <Data Name=\"Problem\">0x0000002d</Data>\n    <Data Name=\"Status\">0x00000000</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "utc": "2024-12-03T21:38:39.635256+00:00",
+    "paris": "2024-12-03T22:38:39.635256+01:00",
+    "id": 420,
+    "record": 991,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6863\\R58RB2ETQER",
+      "ClassGuid": "{36FC9E60-C465-11CF-8056-444553540000}",
+      "Problem": "0x0000002d",
+      "Status": "0x00000000"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>420</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-12-03T21:38:39.635256500Z\"/>\n    <EventRecordID>991</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"21788\" ThreadID=\"8596\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-21-1394434332-468722268-2897565647-1001\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n    <Data Name=\"ClassGuid\">{36FC9E60-C465-11CF-8056-444553540000}</Data>\n    <Data Name=\"Problem\">0x0000002d</Data>\n    <Data Name=\"Status\">0x00000000</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "utc": "2024-10-28T10:18:40.913986+00:00",
+    "paris": "2024-10-28T11:18:40.913986+01:00",
+    "id": 1010,
+    "record": 1463,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6860\\R58RB2ETQER",
+      "DeviceCount": "1"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:40.913986600Z\"/>\n    <EventRecordID>1463</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"8228\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</Data>\n    <Data Name=\"DeviceCount\">1</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "utc": "2024-10-28T10:18:52.905987+00:00",
+    "paris": "2024-10-28T11:18:52.905987+01:00",
+    "id": 1010,
+    "record": 1464,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6860\\R58RB2ETQER",
+      "DeviceCount": "1"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:52.905987300Z\"/>\n    <EventRecordID>1464</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"8228\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</Data>\n    <Data Name=\"DeviceCount\">1</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "utc": "2024-10-28T10:47:30.419118+00:00",
+    "paris": "2024-10-28T11:47:30.419118+01:00",
+    "id": 1010,
+    "record": 1470,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6863\\R58RB2ETQER",
+      "DeviceCount": "2"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:30.419118000Z\"/>\n    <EventRecordID>1470</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"14628\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n    <Data Name=\"DeviceCount\">2</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "utc": "2024-10-28T10:47:31.185233+00:00",
+    "paris": "2024-10-28T11:47:31.185233+01:00",
+    "id": 1010,
+    "record": 1471,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6860\\R58RB2ETQER",
+      "DeviceCount": "3"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.185233200Z\"/>\n    <EventRecordID>1471</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"10576\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</Data>\n    <Data Name=\"DeviceCount\">3</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "utc": "2024-10-28T16:14:11.399631+00:00",
+    "paris": "2024-10-28T17:14:11.399631+01:00",
+    "id": 1010,
+    "record": 1493,
+    "data": {
+      "DeviceInstanceId": "USB\\VID_04E8&PID_6863\\R58RB2ETQER",
+      "DeviceCount": "2"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T16:14:11.399631500Z\"/>\n    <EventRecordID>1493</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"27580\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n    <Data Name=\"DeviceCount\">2</Data>\n  </EventData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:18:34.688206+00:00",
+    "paris": "2024-10-28T11:18:34.688206+01:00",
+    "id": 10000,
+    "record": 37533,
+    "data": {
+      "DeviceId": "USB\\VID_04E8&PID_6860\\R58RB2ETQER",
+      "FrameworkVersion": "2.33.0"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DriverFrameworks-UserMode\" Guid=\"{2E35AAEB-857F-4BEB-A418-2E6C0E54D988}\"/>\n    <EventID>10000</EventID>\n    <Version>1</Version>\n    <Level>4</Level>\n    <Task>48</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x2000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:34.688206700Z\"/>\n    <EventRecordID>37533</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"312\" ThreadID=\"6056\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <UMDFDeviceInstallBegin xmlns=\"http://www.microsoft.com/DriverFrameworks/UserMode/Event\">\n      <DeviceId>USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</DeviceId>\n      <FrameworkVersion>2.33.0</FrameworkVersion>\n    </UMDFDeviceInstallBegin>\n  </UserData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:18:34.734520+00:00",
+    "paris": "2024-10-28T11:18:34.734520+01:00",
+    "id": 20003,
+    "record": 37536,
+    "data": {
+      "ServiceName": "WUDFWpdMtp",
+      "DriverFileName": "\\SystemRoot\\system32\\DRIVERS\\WUDFRd.sys",
+      "DeviceInstanceID": "USB\\VID_04E8&PID_6860\\R58RB2ETQER",
+      "PrimaryService": "true",
+      "UpdateService": "true",
+      "AddServiceStatus": "0"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-UserPnp\" Guid=\"{96F4A050-7E31-453C-88BE-9634F4E02139}\"/>\n    <EventID>20003</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>7005</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:34.734520900Z\"/>\n    <EventRecordID>37536</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"312\" ThreadID=\"6056\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <AddServiceID xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/userpnp\">\n      <ServiceName>WUDFWpdMtp</ServiceName>\n      <DriverFileName>\\SystemRoot\\system32\\DRIVERS\\WUDFRd.sys</DriverFileName>\n      <DeviceInstanceID>USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</DeviceInstanceID>\n      <PrimaryService>true</PrimaryService>\n      <UpdateService>true</UpdateService>\n      <AddServiceStatus>0</AddServiceStatus>\n    </AddServiceID>\n  </UserData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:18:34.739563+00:00",
+    "paris": "2024-10-28T11:18:34.739563+01:00",
+    "id": 20003,
+    "record": 37537,
+    "data": {
+      "ServiceName": "WinUsb",
+      "DriverFileName": "\\SystemRoot\\system32\\DRIVERS\\WinUsb.sys",
+      "DeviceInstanceID": "USB\\VID_04E8&PID_6860\\R58RB2ETQER",
+      "PrimaryService": "false",
+      "UpdateService": "true",
+      "AddServiceStatus": "0"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-UserPnp\" Guid=\"{96F4A050-7E31-453C-88BE-9634F4E02139}\"/>\n    <EventID>20003</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>7005</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:34.739563000Z\"/>\n    <EventRecordID>37537</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"312\" ThreadID=\"6056\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <AddServiceID xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/userpnp\">\n      <ServiceName>WinUsb</ServiceName>\n      <DriverFileName>\\SystemRoot\\system32\\DRIVERS\\WinUsb.sys</DriverFileName>\n      <DeviceInstanceID>USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</DeviceInstanceID>\n      <PrimaryService>false</PrimaryService>\n      <UpdateService>true</UpdateService>\n      <AddServiceStatus>0</AddServiceStatus>\n    </AddServiceID>\n  </UserData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:35:43.981068+00:00",
+    "paris": "2024-10-28T11:35:43.981068+01:00",
+    "id": 20003,
+    "record": 37650,
+    "data": {
+      "ServiceName": "dg_ssudbus",
+      "DriverFileName": "\\SystemRoot\\system32\\DRIVERS\\ssudbus2.sys",
+      "DeviceInstanceID": "USB\\VID_04E8&PID_6863\\R58RB2ETQER",
+      "PrimaryService": "true",
+      "UpdateService": "false",
+      "AddServiceStatus": "0"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-UserPnp\" Guid=\"{96F4A050-7E31-453C-88BE-9634F4E02139}\"/>\n    <EventID>20003</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>7005</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:43.981068600Z\"/>\n    <EventRecordID>37650</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"25368\" ThreadID=\"9496\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <AddServiceID xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/userpnp\">\n      <ServiceName>dg_ssudbus</ServiceName>\n      <DriverFileName>\\SystemRoot\\system32\\DRIVERS\\ssudbus2.sys</DriverFileName>\n      <DeviceInstanceID>USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</DeviceInstanceID>\n      <PrimaryService>true</PrimaryService>\n      <UpdateService>false</UpdateService>\n      <AddServiceStatus>0</AddServiceStatus>\n    </AddServiceID>\n  </UserData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:47:31.118737+00:00",
+    "paris": "2024-10-28T11:47:31.118737+01:00",
+    "id": 20003,
+    "record": 37669,
+    "data": {
+      "ServiceName": "dg_ssudbus",
+      "DriverFileName": "\\SystemRoot\\system32\\DRIVERS\\ssudbus2.sys",
+      "DeviceInstanceID": "USB\\VID_04E8&PID_6860\\R58RB2ETQER",
+      "PrimaryService": "true",
+      "UpdateService": "true",
+      "AddServiceStatus": "0"
+    },
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-UserPnp\" Guid=\"{96F4A050-7E31-453C-88BE-9634F4E02139}\"/>\n    <EventID>20003</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>7005</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.118737500Z\"/>\n    <EventRecordID>37669</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"27256\" ThreadID=\"16100\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <AddServiceID xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/userpnp\">\n      <ServiceName>dg_ssudbus</ServiceName>\n      <DriverFileName>\\SystemRoot\\system32\\DRIVERS\\ssudbus2.sys</DriverFileName>\n      <DeviceInstanceID>USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</DeviceInstanceID>\n      <PrimaryService>true</PrimaryService>\n      <UpdateService>true</UpdateService>\n      <AddServiceStatus>0</AddServiceStatus>\n    </AddServiceID>\n  </UserData>\n</Event>\n",
+    "serial_exact": true,
+    "alias_only": false
+  }
+]

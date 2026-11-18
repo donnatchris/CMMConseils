@@ -1,0 +1,212 @@
+# Rapport — Correspondances avec les avocats et concordance à l’inventaire DNEF
+
+**OP-01 — 16 novembre 2026.** Rapport consolidé de la recherche dans les deux PST et l’archive Takeout, et de leur comparaison à l’inventaire fourni.
+
+## Résultats principaux
+
+- **6 176 messages examinés** : 3 836 dans le PST DMM, 2 039 dans le PST 93300 et 301 dans Takeout.
+- **23 messages comportent un avocat ou son cabinet dans les en-têtes** : Fakiroff / Roosevelt Avocats (9), Wahrheit (7), Negrevergne (5), Khallouki (2). Les dates, expéditeurs, destinataires, copies et objets figurent intégralement dans le relevé ci-dessous.
+- Des traces distinctes concernent Pascoët et Rubio dans des échanges cités, Liwer et Dress dans des notifications, ainsi qu’une adresse « wahreit » non attribuée automatiquement à Me Wahrheit. Aucun message avec Guillou n’est identifié dans ces trois conteneurs ; le PDF Guillou déjà documenté est extérieur à ce périmètre.
+- **Concordance SHA-512 avec l’inventaire : PST DMM identique ; ZIP Takeout identique ; PST 93300 divergent.**
+
+Aucun corps de message ni contenu de pièce jointe n’est reproduit. Le relevé porte sur les métadonnées demandées et leurs références de preuve.
+
+## Comparaison aux empreintes de l’inventaire
+
+Source : [Inventaire_saddedine.csv](../../../inventaire-DNEF/documents-recus/Inventaire_saddedine.csv). Le fichier annonce **SHA-512** comme algorithme de hachage. Les précédents contrôles techniques étaient en **SHA-256** : ils vérifiaient l’identité entre les fichiers de l’image, leurs copies et les résultats antérieurs, sans vérifier les empreintes SHA-512 du CSV.
+
+Les SHA-512 ont donc été recalculés par lecture intégrale des trois fichiers extraits. Les SHA-256 ont également été recalculés : ils restent identiques aux contrôles d’extraction. L’écart du PST 93300 est confirmé indépendamment avec `sha512sum`.
+
+| Fichier | Ligne du CSV | Concordance SHA-512 | Messages avec avocat dans les en-têtes |
+|---|---:|---|---:|
+| `dmmconseils@hotmail.com.pst` | 1498 | **IDENTIQUE** | 21 |
+| `dmmconseils93300@hotmail.com.pst` | 1497 | **DIVERGENT** | 2 |
+| `takeout-20241028T114105Z-001.zip` | 1529 | **IDENTIQUE** | 0 |
+
+### Conséquences pour la liste des correspondances
+
+**PST DMM et ZIP Takeout.** Leurs empreintes SHA-512 concordent avec celles inscrites dans l’inventaire pour les mêmes chemins. Les **21 messages** du tableau principal issus du PST DMM sont donc relevés dans un conteneur dont l’empreinte correspond à celle de l’inventaire fourni. La notification AR24 de Charlotte Liwer provient du ZIP Takeout concordant.
+
+**PST 93300.** Son empreinte SHA-512 ne correspond pas à celle du CSV. Les **deux messages Khallouki**, références **M00720 et M00721**, ainsi que les **trois transferts/reproductions M00717, M01632 et M01633**, sont présents dans le PST extrait de l’image analysée. **Leur présence et leur identité dans la version du PST correspondant à l’empreinte de l’inventaire ne peuvent pas être certifiées à partir du fichier actuel.** La divergence du conteneur ne permet pas, à elle seule, de déterminer quels messages ou autres objets Outlook auraient changé.
+
+La date, le mécanisme et l’auteur de l’écart restent indéterminés. Les copies extraites concordent avec les contrôles SHA-256 effectués sur les fichiers de l’image ; l’écart au CSV ne résulte donc pas d’une différence entre ces copies et les fichiers contrôlés dans l’image. La comparaison à l’inventaire fourni porte sur ces trois fichiers et ne certifie pas l’exhaustivité du jeu définitivement emporté.
+
+### Empreintes SHA-512 complètes
+
+#### dmmconseils@hotmail.com.pst
+
+Empreinte inscrite dans l’inventaire :
+
+```text
+025226d8e15182ce26a93ea8d450244a65efd1ee164be955a641544e6f96aba2d06f499f12b98a6db690e417efb5e13af0f6b9394013b53e8fe9dffedf2ecffe
+```
+
+Empreinte calculée sur le fichier extrait :
+
+```text
+025226d8e15182ce26a93ea8d450244a65efd1ee164be955a641544e6f96aba2d06f499f12b98a6db690e417efb5e13af0f6b9394013b53e8fe9dffedf2ecffe
+```
+
+#### dmmconseils93300@hotmail.com.pst
+
+Empreinte inscrite dans l’inventaire :
+
+```text
+9a523a8a621bd4364caea02e0a7c0a8953a6e3ca57d1d31d85df03932ad9a9b9c70aec6516a97ad09ec4131a3cf7ee16bcbb0c6573a870d0522affc8b11cb62c
+```
+
+Empreinte calculée sur le fichier extrait :
+
+```text
+1949987f20fced4a2b0a3c6c4000e5afb8a54e5ec8b08c667ed5397feab60ad18b87fe0a78348ee4b992306cfd8773eb53a3560e6ba82bd6d86e79523ec03361
+```
+
+#### takeout-20241028T114105Z-001.zip
+
+Empreinte inscrite dans l’inventaire :
+
+```text
+e1026d76b643485b5c3da5686d10ac6d69225cca33c46e18038db93be2593a7f2baacc82d1661285fac9b791f49eaaef35b8c99ab8cd80878f0404b9c8a82265
+```
+
+Empreinte calculée sur le fichier extrait :
+
+```text
+e1026d76b643485b5c3da5686d10ac6d69225cca33c46e18038db93be2593a7f2baacc82d1661285fac9b791f49eaaef35b8c99ab8cd80878f0404b9c8a82265
+```
+
+## Relevé détaillé des correspondances
+
+Les sections suivantes donnent les résultats pour les quinze avocats recherchés et la liste de chaque message. **La distinction d’intégrité décrite ci-dessus s’applique à toutes les lignes : source `dmm` et Takeout concordantes, source `93300` divergente de l’inventaire.**
+
+
+Recherche du 16 novembre 2026 dans les deux PST et l’archive Takeout extraits d’OP-01. **Seuls les en-têtes et références sont reproduits : date, expéditeur, destinataires, copies et objet. Aucun corps de message ni contenu de pièce jointe n’est reproduit.**
+
+**Corpus parcouru : 3 836 messages du PST DMM, 2 039 du PST 93300 et 301 de Takeout, soit 6 176 messages.** Les 30 EML extérieurs à ces trois conteneurs ne sont pas inclus.
+
+**23 messages identifient un avocat ou son cabinet dans leurs en-têtes.** Les messages cités, transferts, notifications et l’adresse proche à vérifier sont détaillés séparément. Ce nombre ne mesure pas les conversations uniques ni les réceptions effectives.
+
+La liste recherchée reprend les onze noms manuscrits de la [page 17 du PV](../../../docs/PV%20DE%20SAISIE.pdf), complétés par KHALLOUKI, FAKIROFF, WAHRHEIT et GUILLOU ; PASCOËT figure déjà sur la liste. La lecture « DRIE » reste signalée comme transcription manuscrite.
+
+### Résultat par avocat
+
+| Avocat recherché | Messages avec interlocuteur en en-tête | Autres traces / résultat |
+|---|---:|---|
+| Yann SOYER | 0 | Aucun interlocuteur retrouvé ; occurrence documentaire non attribuée à cet avocat. |
+| Laurent DE LA ROCHÈRE | 0 | Aucun échange identifié. |
+| Jean-Charles NEGREVERGNE | 5 | PST DMM : cinq messages adressés au cabinet. |
+| Rachel DRESS | 0 | Une notification DocuSign liée à une proposition de services Aston ; voir annexe. |
+| Jonathan RUBIO | 0 | Un message cité dans un avis de non-remise le désigne comme destinataire ; voir annexe. |
+| Christian PASCOËT | 0 | Un message cité le désigne en copie ; une réponse du 03/09/2024 est citée dans un PDF joint. |
+| Jean-Claude DRIE (lecture manuscrite) | 0 | Aucun échange identifié ; résultats DRIEETS et Calendrier exclus comme faux positifs. |
+| Caroline BENVENISTE | 0 | Aucun échange identifié. |
+| Grégory LEPROUX | 0 | Aucun échange identifié. |
+| Charlotte LIWER | 0 | Une notification AR24 dans Takeout ; voir annexe. |
+| Georges MEYER | 0 | Mentions documentaires et homonymies non assimilées à un échange direct. |
+| Mustapha KHALLOUKI | 2 | PST 93300 : deux messages ; trois transferts/reproductions séparés en annexe. |
+| Nicolay FAKIROFF / Roosevelt Avocats | 9 | PST DMM ; Olivier Legrand figure dans plusieurs destinataires ou copies. |
+| Marc-Alexandre WAHRHEIT | 7 | PST DMM ; un message à l’adresse distincte « wahreit » est séparé en annexe. |
+| Isabelle GUILLOU | 0 | Aucun message identifié dans ces trois conteneurs ; le PDF déjà documenté dans TELEPHONES/IPHONE13_MINI est hors de ce périmètre. |
+
+### Messages avec interlocuteur avocat identifié dans les en-têtes
+
+| Réf. | Avocat / cabinet | Date et heure Paris* | Expéditeur | Destinataire(s) | Cc / Cci | Objet | Source |
+|---|---|---|---|---|---|---|---|
+| M04791 | FAKIROFF / Roosevelt Avocats | 2023-02-08T11:32:50+01:00 | dmmconseils@hotmail.com | Nicolay FAKIROFF &lt;fakiroff@roosevelt-avocats.fr&gt;, Olivier LEGRAND &lt;legrand@roosevelt-avocats.fr&gt; | — | ALMU Capture d’écran . 2023-02-08 à 11.31.05 | dmm |
+| M02592 | FAKIROFF / Roosevelt Avocats | 2023-02-08T13:40:23+01:00 | Nicolay FAKIROFF &lt;fakiroff@roosevelt-avocats.fr&gt; | malika sadedine &lt;dmmconseils@hotmail.com&gt;, Olivier LEGRAND &lt;legrand@roosevelt-avocats.fr&gt; | — | RE: ALMU Capture d’écran . 2023-02-08 à 11.31.05 | dmm |
+| M04790 | FAKIROFF / Roosevelt Avocats | 2023-02-08T18:50:05+01:00 | malika sadedine &lt;dmmconseils@hotmail.com&gt; | "Nicolay FAKIROFF" | — | Re: ALMU Capture d’écran . 2023-02-08 à 11.31.05 | dmm |
+| M02591 | FAKIROFF / Roosevelt Avocats | 2023-02-08T18:53:11+01:00 | Nicolay FAKIROFF &lt;fakiroff@roosevelt-avocats.fr&gt; | malika sadedine &lt;dmmconseils@hotmail.com&gt; | Olivier LEGRAND &lt;legrand@roosevelt-avocats.fr&gt; | RE: ALMU Capture d’écran . 2023-02-08 à 11.31.05 | dmm |
+| M04789 | FAKIROFF / Roosevelt Avocats | 2023-02-08T18:58:06+01:00 | malika sadedine &lt;dmmconseils@hotmail.com&gt; | "Nicolay FAKIROFF" | — | Re: ALMU Capture d’écran . 2023-02-08 à 11.31.05 | dmm |
+| M02590 | FAKIROFF / Roosevelt Avocats | 2023-02-08T18:59:31+01:00 | Nicolay FAKIROFF &lt;fakiroff@roosevelt-avocats.fr&gt; | malika sadedine &lt;dmmconseils@hotmail.com&gt; | Olivier LEGRAND &lt;legrand@roosevelt-avocats.fr&gt; | RE: ALMU Capture d’écran . 2023-02-08 à 11.31.05 | dmm |
+| M04788 | FAKIROFF / Roosevelt Avocats | 2023-02-08T19:00:44+01:00 | malika sadedine &lt;dmmconseils@hotmail.com&gt; | "Nicolay FAKIROFF" | — | Re: ALMU Capture d’écran . 2023-02-08 à 11.31.05 | dmm |
+| M02589 | FAKIROFF / Roosevelt Avocats | 2023-02-08T19:01:19+01:00 | Nicolay FAKIROFF &lt;fakiroff@roosevelt-avocats.fr&gt; | malika sadedine &lt;dmmconseils@hotmail.com&gt; | Olivier LEGRAND &lt;legrand@roosevelt-avocats.fr&gt; | RE: ALMU Capture d’écran . 2023-02-08 à 11.31.05 | dmm |
+| M02532 | FAKIROFF / Roosevelt Avocats | 2023-04-27T15:34:07+02:00 | Nicolay FAKIROFF &lt;fakiroff@roosevelt-avocats.fr&gt; | malika sadedine &lt;dmmconseils@hotmail.com&gt; | Olivier LEGRAND &lt;legrand@roosevelt-avocats.fr&gt; | RDV 15H CE JOUR ??? | dmm |
+| M00721 | KHALLOUKI | 2020-10-21T12:06:15+02:00 | Eric Soffeu &lt;eric.soffeu@gmail.com&gt; | Mustapha KHALLOUKI &lt;mk.avocatparis@gmail.com&gt;, dmmconseils93300@hotmail.com | — | Fwd: EXPERT2MOBILE | 93300 |
+| M00720 | KHALLOUKI | 2020-10-21T13:32:31+02:00 | CABINET D'AVOCAT KHALLOUKI Mustapha &lt;mk.avocatparis@gmail.com&gt; | dmmconseils93300@hotmail.com | — | Radiation EXPERT 2 MOBILE | 93300 |
+| M04478 | NEGREVERGNE | 2024-08-23T12:39:16+02:00 | dmmconseils@hotmail.com | Cabinet &lt;cabinet@avocat-negrevergne.com&gt; | — | 24.00343 - DMM CONSEILS (SAS) / BRED BANQUE POPULAIRE | dmm |
+| M04474 | NEGREVERGNE | 2024-09-06T18:15:34+02:00 | dmmconseils@hotmail.com | Cabinet &lt;cabinet@avocat-negrevergne.com&gt; | — | Dmm conseils/ Bred | dmm |
+| M04473 | NEGREVERGNE | 2024-09-12T13:46:05+02:00 | dmmconseils@hotmail.com | Cabinet &lt;cabinet@avocat-negrevergne.com&gt; | — | Audience du 12 septembre Dmm/bred | dmm |
+| M04468 | NEGREVERGNE | 2024-10-03T14:53:26+02:00 | dmmconseils@hotmail.com | Cabinet &lt;cabinet@avocat-negrevergne.com&gt; | — | Re: DMM CONSEILS : Audience TC Bobigny du 04 septembre 2024 à 9h15 | dmm |
+| M04466 | NEGREVERGNE | 2024-10-08T11:26:23+02:00 | dmmconseils@hotmail.com | Cabinet &lt;cabinet@avocat-negrevergne.com&gt; | — | Dmm conseils/ bred | dmm |
+| M04841 | WAHRHEIT | 2022-11-15T17:55:08+01:00 | dmmconseils@hotmail.com | Marc-Alexandre Wahrheit &lt;wahrheit.ma.avocat@gmail.com&gt; | — | Virement | dmm |
+| M02724 | WAHRHEIT | 2022-11-15T18:39:44+01:00 | Marc-Alexandre Wahrheit &lt;wahrheit.ma.avocat@gmail.com&gt; | malika sadedine &lt;dmmconseils@hotmail.com&gt; | — | Re: Virement | dmm |
+| M04840 | WAHRHEIT | 2022-11-15T18:53:42+01:00 | malika sadedine &lt;dmmconseils@hotmail.com&gt; | "Marc-Alexandre Wahrheit" | — | Re: Virement | dmm |
+| M02723 | WAHRHEIT | 2022-11-16T17:10:31+01:00 | Marc-Alexandre Wahrheit &lt;wahrheit.ma.avocat@gmail.com&gt; | malika sadedine &lt;dmmconseils@hotmail.com&gt; | — | Re: Virement | dmm |
+| M04839 | WAHRHEIT | 2022-11-16T17:24:26+01:00 | malika sadedine &lt;dmmconseils@hotmail.com&gt; | "Marc-Alexandre Wahrheit" | — | Re: Virement | dmm |
+| M04806 | WAHRHEIT | 2023-01-10T17:04:11+01:00 | dmmconseils@hotmail.com | Marc-Alexandre Wahrheit &lt;wahrheit.ma.avocat@gmail.com&gt; | — | Capture d’écran . 2023-01-10 à 17.03.36 | dmm |
+| M02611 | WAHRHEIT | 2023-01-10T18:28:14+01:00 | Marc-Alexandre Wahrheit &lt;wahrheit.ma.avocat@gmail.com&gt; | malika sadedine &lt;dmmconseils@hotmail.com&gt; | — | Re: Capture d’écran . 2023-01-10 à 17.03.36 | dmm |
+
+DMM = `dmmconseils@hotmail.com.pst` ; 93300 = `dmmconseils93300@hotmail.com.pst` ; Takeout = `takeout-20241028T114105Z-001.zip`, membre `Takeout/Mail/L16.mbox`.
+
+*Dates des en-têtes converties en Europe/Paris, avec décalage UTC conservé. Une date citée sans fuseau n’est pas convertie. Les champs contenant seulement un nom et les adresses atypiques sont conservés tels qu’enregistrés. Un tiret indique un champ vide.
+
+### Échanges cités dans un avis ou une pièce jointe
+
+Le message `CITE-M02079` est reproduit sous forme d’en-têtes RFC822 dans un avis de non-remise. Il comporte Jonathan Rubio parmi les destinataires et Christian Pascoët en copie. La date de l’en-tête reproduit est retenue ; une citation textuelle imbriquée indique 18:40:26, soit sept secondes de plus. Ces traces ne prouvent pas la réception par chacun des destinataires. La citation du PDF joint ne fournit ni destinataire ni objet propres au message de Me Pascoët.
+
+| Réf. | Avocat / cabinet | Date et heure Paris* | Expéditeur | Destinataire(s) | Cc / Cci | Objet | Source |
+|---|---|---|---|---|---|---|---|
+| CITE-PJ-M04468 | PASCOËT | 2024-09-03 17:36 (fuseau non indiqué dans la citation) | Christian Pascoët &lt;pascoet@enkadenn-avocat.com&gt; | Non indiqués dans l’en-tête cité | — | Non indiqué dans l’en-tête cité | dmm |
+| CITE-M02079 | RUBIO ; PASCOËT | 2024-09-04T18:40:19+02:00 | malika sadedine &lt;dmmconseils@hotmail.com&gt; | "phoffman@cabinet-hoffman.com" &lt;phoffman@cabinet-hoffman.com&gt;, "vbavocat@vanessabousardo.com" &lt;vbavocat@vanessabousardo.com&gt;, "mediateur-conso@mediateur-consommation-avocat.fr" &lt;mediateur-conso@mediateur-consommation-avocat.fr&gt;, "jrubio@shieldavocats.com" &lt;jrubio@shieldavocats.com&gt;, "21e-bver.dircofi-rif-est@dgfip.finances.gouv.fr" &lt;21e-bver.dircofi-rif-est@dgfip.finances.gouv.fr&gt;, "eric.ensenat" &lt;eric.ensenat@dgfip.finances.gouv.fr&gt;, "jerome.vignau-barranx@dgfip.finances.gouv.fr" &lt;jerome.vignau-barranx@dgfip.finances.gouv.fr&gt;, "hedi.belhadj-ammar@dgfip.finances.gouv.fr" &lt;hedi.belhadj-ammar@dgfip.finances.gouv.fr&gt;, "fabien.mussat@dgfip.finances.gouv.fr" &lt;fabien.mussat@dgfip.finances.gouv.fr&gt;, Beatrice NICOLETTO &lt;beatrice.nicoletto@dgfip.finances.gouv.fr&gt;, "claude.thomazeau" &lt;claude.thomazeau@dgfip.finances.gouv.fr&gt;, "olivier.stefanini" &lt;olivier.stefanini@dgfip.finances.gouv.fr&gt;, "francois.musy@dgfip.finances.gouv.fr" &lt;francois.musy@dgfip.finances.gouv.fr&gt;, cidtca93 &lt;cidtca93@dgfip.finances.gouv.fr&gt;, El-Hadji SECK &lt;el-hadji.seck@dgfip.finances.gouv.fr&gt;, "cyril.chauvey@juradm.fr" &lt;cyril.chauvey@juradm.fr&gt;, TA93 Chambre 9 &lt;Chambre9.ta-montreuil@juradm.fr&gt;, "greffe.ta-montreuil@juradm.fr" &lt;greffe.ta-montreuil@juradm.fr&gt;, "mame.nguer@juradm.fr" &lt;mame.nguer@juradm.fr&gt;, "ddfip93.recouvrementforce@dgfip.finances.gouv.fr" &lt;ddfip93.recouvrementforce@dgfip.finances.gouv.fr&gt;, "belkacem.djeriou@dgfip.finances.gouv.fr" &lt;belkacem.djeriou@dgfip.finances.gouv.fr&gt;, "bich-nha.trinh@dgfip.finances.gouv.fr" &lt;bich-nha.trinh@dgfip.finances.gouv.fr&gt;, "sie.pantin@dgfip.finances.gouv.fr" &lt;sie.pantin@dgfip.finances.gouv.fr&gt;, "emmanuel.cresson@dgfip.finances.gouv.fr" &lt;emmanuel.cresson@dgfip.finances.gouv.fr&gt;, "prs.seine-saint-denis@dgfip.finances.gouv.fr" &lt;prs.seine-saint-denis@dgfip.finances.gouv.fr&gt;, "olivier-andre.machu@dgfip.finances.gouv.fr" &lt;olivier-andre.machu@dgfip.finances.gouv.fr&gt;, "ddfip93@dgfip.finances.gouv.fr" &lt;ddfip93@dgfip.finances.gouv.fr&gt;, "marc.dora@dgfip.finances.gouv.fr" &lt;marc.dora@dgfip.finances.gouv.fr&gt; | Christian Pascoët &lt;pascoet@enkadenn-avocat.com&gt; | Audience du 4 septembre 2024 : assignation en LJ de la société DMM CONSEILS | dmm |
+
+### Messages porteurs des transferts et avis de non-remise
+
+Les dates et parties ci-dessous sont celles du message porteur, pas nécessairement celles de l’échange cité. Les transferts Khallouki reproduisent des échanges déjà recensés ci-dessus.
+
+| Réf. | Avocat / cabinet | Date et heure Paris* | Expéditeur | Destinataire(s) | Cc / Cci | Objet | Source |
+|---|---|---|---|---|---|---|---|
+| M01633 | KHALLOUKI | 2020-10-26T10:23:25+01:00 | Malika SADEDINE &lt;MAILER-DAEMON&gt; | "dhatta issimaila" | — | TR: EXPERT2MOBILE | 93300 |
+| M01632 | KHALLOUKI | 2020-10-26T10:23:32+01:00 | Malika SADEDINE &lt;MAILER-DAEMON&gt; | "dhatta issimaila" | — | TR: Radiation EXPERT 2 MOBILE | 93300 |
+| M00717 | KHALLOUKI | 2020-10-26T10:37:25+01:00 | malika sadedine &lt;dmmconseils@hotmail.com&gt; | Malika SADEDINE &lt;dmmconseils93300@hotmail.com&gt; | — | Re: Radiation EXPERT 2 MOBILE | 93300 |
+| M02079 | PASCOËT / RUBIO | 2024-09-04T18:41:16+02:00 | postmaster &lt;postmaster@dgfip.finances.gouv.fr&gt; | dmmconseils@hotmail.com | — | Returned mail: see transcript for details | dmm |
+| M02077 | PASCOËT / RUBIO | 2024-09-04T19:27:08+02:00 | postmaster &lt;postmaster@dgfip.finances.gouv.fr&gt; | dmmconseils@hotmail.com | — | Returned mail: see transcript for details | dmm |
+| M02075 | PASCOËT / RUBIO | 2024-09-05T15:14:11+02:00 | postmaster &lt;postmaster@dgfip.finances.gouv.fr&gt; | dmmconseils@hotmail.com | — | Returned mail: see transcript for details | dmm |
+| M02074 | PASCOËT / RUBIO | 2024-09-05T15:58:44+02:00 | postmaster &lt;postmaster@dgfip.finances.gouv.fr&gt; | dmmconseils@hotmail.com | — | Returned mail: see transcript for details | dmm |
+
+### Notifications de services
+
+| Réf. | Avocat / cabinet | Date et heure Paris* | Expéditeur | Destinataire(s) | Cc / Cci | Objet | Source |
+|---|---|---|---|---|---|---|---|
+| M03025 | DRESS / Aston | 2022-06-13T14:33:57+02:00 | DocuSign via DocuSign &lt;dse@eumail.docusign.net&gt; | Malika Sadedine &lt;dmmconseils@hotmail.com&gt; | — | Complétée : DMM Conseils_Proposition de services Aston_24052022.pdf | dmm |
+| M06167 | LIWER | 2024-01-24T11:46:54+01:00 | Charlotte LIWER via AR24 &lt;no-reply@notification-electronique.com&gt; | RCT RCT &lt;rct93300@gmail.com&gt; | — | Charlotte LIWER vous a envoyé un recommandé électronique | Takeout |
+
+AR24 annonce un recommandé demandé par Charlotte Liwer ; cette notification ne fournit pas le contenu du recommandé. DocuSign annonce la finalisation du document Aston associé à Rachel Dress ; cette notification n’est pas un courriel directement envoyé par Me Dress.
+
+### Adresse proche, attribution non confirmée
+
+| Réf. | Avocat / cabinet | Date et heure Paris* | Expéditeur | Destinataire(s) | Cc / Cci | Objet | Source |
+|---|---|---|---|---|---|---|---|
+| M04854 | WAHRHEIT — attribution non confirmée | 2022-10-13T11:08:17+02:00 | dmmconseils@hotmail.com | wahreit.ma.avocat@gmail.com | — | Inventaire almu | dmm |
+
+L’adresse `wahreit.ma.avocat@gmail.com` diffère de `wahrheit.ma.avocat@gmail.com`. Aucune correction ni attribution automatique à Me Wahrheit n’est effectuée.
+
+### Méthode et traçabilité
+
+Les 5 875 messages PST du corpus MIME complet conservé le 9 novembre ont été réexaminés intégralement pour les noms et adresses recherchés. Les deux PST ont aussi été redécodés sur SIFT avec `readpst -r -q -t e` (LibPST 0.6.76), dans un répertoire neuf ; tous les en-têtes du nouveau décodage ont été comparés au corpus conservé. Le ZIP Takeout a été relu directement et les en-têtes de ses 301 messages reparsés et comparés au corpus antérieur. La recherche textuelle utilise la normalisation de la casse et des accents, les variantes et adresses observées. Les candidats ont été qualifiés pour exclure les faux positifs lexicaux.
+
+Les empreintes des deux PST et du ZIP Takeout ont été recalculées localement et concordent avec les contrôles antérieurs. Les empreintes consignées lors du nouveau décodage SIFT concordent aussi. Le redémarrage de la VM a interrompu une première validation MIME ; après redémarrage, la comparaison complète des en-têtes a pu être effectuée. Les références Mxxxxx permettent le rapprochement avec le décodage du 9 novembre ; le relevé JSON conserve aussi le dossier, l’index du message, le Message-ID et les en-têtes de date d’origine.
+
+- [Métadonnées structurées, sans corps](releve-metadonnees.json).
+- [Candidats et sources du nouveau parcours, sans corps](candidats-metadonnees.json).
+- [Provenance du nouveau décodage PST](decodage-sift.json).
+- [Recherche locale sur le corpus complet](rechercher_local.py).
+- [Validation complète des nouveaux en-têtes PST](validation-nouveaux-decodages.json).
+- [Script de validation SIFT](valider_entetes_sift.py).
+- [Premier parcours SIFT interrompu, conservé pour traçabilité](rechercher_sift.py).
+- [Script de production du relevé](generer_releve.py).
+
+- Les en-têtes et corps MIME décodés ont été recherchés ; les corps ne sont pas reproduits dans les livrables.
+- Les pièces jointes non textuelles ne font pas l’objet d’un nouvel OCR exhaustif. La pièce jointe PDF de M04468 est relevée à partir de son extraction textuelle existante.
+- Un zéro signifie aucun échange identifié dans ce corpus et selon cette méthode, pas une absence historique de correspondance.
+- Les en-têtes des messages envoyés, notifications et avis de non-remise ne prouvent pas leur réception effective.
+- Les destinataires enregistrés sous un nom seul sont conservés tels quels ; aucune adresse n’est inventée.
+
+## Pièces de contrôle et clôture
+
+- [Comparaison SHA-512 détaillée](../extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.md).
+- [Calculs SHA-512 et SHA-256 structurés](../extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.json).
+- [Contrôle des copies extraites de l’image](../extraction-messageries-20261116/verification-extraction.json).
+- [Comparaison complète des 5 875 en-têtes des nouveaux décodages PST](validation-nouveaux-decodages.json) : aucune différence après normalisation des espaces et replis de lignes.
+- [Relevé structuré des métadonnées](releve-metadonnees.json).
+
+Les deux comptes rendus initiaux et leurs pièces techniques sont conservés. Ce rapport les rassemble en explicitant la concordance ou la divergence de chaque conteneur à l’inventaire.

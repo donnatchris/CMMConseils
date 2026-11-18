@@ -1,0 +1,117 @@
+--- RAPPORT-FINAL-SADEDINE-2026.md avant
++++ RAPPORT-FINAL-SADEDINE-2026.md après
+@@ -3,7 +3,7 @@
+ **Référence :** SADEDINE-2026  
+ **Prestataire :** Christophe Donnat — Donnat Dev  
+ **Destinataire :** Me Delphine Ravon, avocate de Mme Malika Sadedine  
+-**Date du rapport :** 19 octobre 2026 ; réorganisation rédactionnelle le 12 novembre 2026 ; précision de la cliente et compléments OP-01 Samsung / Sage / ALMU intégrés le 13 novembre 2026 ; inventaire DNEF, investigations TP-03, recherche de récupération et note de constatation vidéo intégrés le 16 novembre 2026\
++**Date du rapport :** 19 octobre 2026 ; réorganisation rédactionnelle le 12 novembre 2026 ; précision de la cliente et compléments OP-01 Samsung / Sage / ALMU intégrés le 13 novembre 2026 ; inventaire DNEF, investigations TP-03, recherche de récupération, note de constatation vidéo et comparaison SHA-512 des correspondances intégrés le 16 novembre 2026\
+ **Nature :** investigation informatique indépendante réalisée à la demande de la cliente, sans désignation comme expert judiciaire.
+ 
+ ## 1. Points suspects et questions prioritaires pour l’avocate
+@@ -66,17 +66,19 @@
+ 
+ ### 1.4. Données emportées et correspondances avec des avocats
+ 
+-**Constat.** L16B est le dossier de regroupement constitué par les agents de l’administration fiscale sur l’ordinateur de Mme Sadedine lors des opérations du 28 octobre 2024. Il rassemble des documents et données provenant notamment de l’ordinateur, de messageries, de services en ligne et de téléphones. Le PV décrit ensuite un filtrage et une copie finale sur un support de l’administration ; il précise que L16B est laissé sur l’ordinateur à titre informatif, avec l’accord de Mme Sadedine.
+-
+-Des échanges avec des avocats sont effectivement présents dans ce dossier : notamment Negrevergne, Pascoët, Khallouki, Fakiroff / Roosevelt Avocats, Wahrheit et Guillou.
+-
+-**Complément du 16 novembre :** le PDF Bourarach reproduisant des échanges avec Me Guillou figure aussi dans le CSV d’inventaire transmis, avec l’empreinte attendue. Pour ce document, le constat dépasse donc la seule présence dans L16B. Voir le point 1.9 ; la qualification de l’échange et le contrôle de l’archive finale restent distincts.
+-
+-**Question.** Ces échanges ont-ils été exclus lors du filtrage précédant la copie emportée par l’administration ? Les documents finalement retenus entraient-ils dans le périmètre autorisé ? Ont-ils été utilisés fiscalement ?
+-
+-**Limite.** Le dossier L16B laissé par les agents ne constitue pas une copie certifiée des fichiers finalement emportés. La présence de correspondances dans ce dossier ne prouve donc ni leur saisie définitive, ni leur lecture par les agents, ni leur utilisation fiscale. Le caractère protégé et le lien avocat-client doivent être examinés pour chaque échange.
+-
+-**À vérifier.** Comparer le contenu de L16B avec l’inventaire final et les fichiers effectivement saisis, à l’aide de leurs empreintes de contrôle. Examiner également la liste des rejets, les critères de filtrage, l’ordonnance et les éventuels actes fiscaux citant ces documents. Voir la section 5 et l’annexe B.1.
++**Constat.** L16B est le dossier de regroupement constitué sur OP-01 lors des opérations du 28 octobre 2024. Le PV décrit un filtrage puis une copie sur un support de l’administration ; le dossier laissé sur le PC est informatif et ne certifie pas, à lui seul, le jeu finalement emporté.
++
++**Éléments désormais prouvés par comparaison à l’inventaire fourni.** Les SHA-512 du PST `dmmconseils@hotmail.com.pst` et de l’archive `takeout-20241028T114105Z-001.zip` sont **identiques aux empreintes du CSV**, pour les mêmes chemins. **La présence de 21 messages dans un PST correspondant exactement à celui de l’inventaire est donc établie** : **9 avec Fakiroff / Roosevelt Avocats, 7 avec Wahrheit et 5 adressés au cabinet Negrevergne**. Le constat dépasse la seule présence locale dans L16B.
++
++Les fichiers concordants contiennent aussi des échanges **Pascoët et Rubio cités** dans un PDF joint ou un avis de non-remise, ainsi que des **notifications Liwer / AR24 et Dress / DocuSign**. Ces traces sont distinguées des 21 messages. Le PDF Bourarach reproduisant des échanges avec **Me Guillou** est, séparément, identifié dans le CSV par son chemin et son SHA-512 ; voir le point 1.9.
++
++**Éléments non certifiés dans la version inventoriée.** Le SHA-512 du PST `dmmconseils93300@hotmail.com.pst` est **divergent** de celui du CSV. Les **2 messages Khallouki et 3 transferts/reproductions** retrouvés dans ce fichier sont présents dans l’image analysée, mais leur présence et leur identité dans la version inventoriée ne peuvent pas être certifiées. La date et la cause de l’écart restent indéterminées.
++
++**Questions et limites.** Pour les conteneurs concordants et le PDF Guillou, l’identification dans l’inventaire fourni est établie ; la réserve ne porte plus sur leur seule présence dans L16B. L’authentification du support d’origine du CSV, l’archive finale, la lecture par les agents et l’utilisation fiscale restent à contrôler. La qualification avocat-client et le respect du filtrage doivent être examinés individuellement. Les contrôles SHA-256 antérieurs validaient la copie depuis l’image ; ils ne remplaçaient pas cette comparaison SHA-512 au CSV.
++
++**À vérifier.** Contrôler le jeu effectivement conservé, la liste des rejets, les critères de filtrage et les éventuels actes citant ces pièces ; rechercher une version du PST 93300 conforme à l’empreinte inventoriée pour expliquer l’écart.
++
++**Références :** [rapport détaillé, tableaux des fichiers concordants et du PST divergent](ordinateur/recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md), [comparaison SHA-512 et empreintes complètes](ordinateur/recherche-OP-01/extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.md), [inventaire CSV](inventaire-DNEF/documents-recus/Inventaire_saddedine.csv). Voir aussi la section 5 et l’annexe B.1.
+ 
+ ### 1.5. Une clé de destination décrite, trois périphériques Kingston relevés
+ 
+@@ -283,7 +285,7 @@
+ 
+ Le PV décrit ensuite une sélection, l’exclusion de données personnelles et de correspondances d’avocats, puis une copie sur une clé de l’administration, une authentification des fichiers et deux CD d’inventaire. Il précise que L16B est laissé sur le PC à titre informatif. **Ce dossier de travail ne constitue donc pas une image certifiée de la copie emportée.**
+ 
+-Le CD reste indisponible, mais un **CSV d’inventaire a désormais été fourni**. Le contrôle de ses 27 lignes PDF Mini confirme les chemins et les SHA-512 des vingt contenus identifiés. La réserve d’absence d’inventaire est levée pour ces entrées. L’authentification du support d’origine, la comparaison exhaustive avec les fichiers saisis et leur conservation actuelle restent à vérifier ; L16B ne devient pas pour autant une copie certifiée du jeu final.
++Le CD reste indisponible, mais un **CSV d’inventaire a désormais été fourni**. Le contrôle de ses 27 lignes PDF Mini confirme les chemins et les SHA-512 des vingt contenus identifiés. La réserve d’absence d’inventaire est levée pour ces entrées. Le contrôle des messageries établit aussi la concordance SHA-512 du PST DMM et de Takeout, mais révèle une divergence pour le PST 93300 ; le point 1.4 distingue les correspondances qui peuvent être rattachées aux fichiers inventoriés. L’authentification du support d’origine, la comparaison exhaustive avec les fichiers saisis et leur conservation actuelle restent à vérifier ; L16B ne devient pas pour autant une copie certifiée du jeu final.
+ 
+ ### Le Samsung et l’accès Internet d’OP-01 le 28 octobre
+ 
+@@ -307,6 +309,8 @@
+ 
+ ### Les correspondances avec des avocats
+ 
++**Le contrôle SHA-512 du 16 novembre établit la présence de 21 messages dans le PST DMM correspondant à l’empreinte de l’inventaire** : Fakiroff / Roosevelt Avocats (9), Wahrheit (7), Negrevergne (5). Les citations Pascoët / Rubio et les notifications Dress / Liwer proviennent également de conteneurs concordants. Les 2 messages Khallouki et 3 transferts proviennent du PST 93300 divergent et ne sont pas certifiés dans la version inventoriée. Le [rapport détaillé](ordinateur/recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md) donne les deux tableaux et les empreintes.
++
+ Les échanges identifiés sont conservés dans des archives de messagerie et des PDF. Il ne s’agit pas seulement de noms repérés : certains documents reproduisent effectivement des correspondances. Ils concernent plusieurs dossiers et parties ; tous ne sont pas nécessairement des consultations confidentielles de Mme Sadedine.
+ 
+ Le PDF reproduisant des échanges avec Me Isabelle Guillou concerne un recours de 2017 relatif à un tiers. Ses dates soutiennent un regroupement local le 28 octobre. Les traces d’interaction du 29 sont postérieures à la restitution déclarée et ne prouvent pas une lecture par un agent pendant les opérations.
+@@ -356,6 +360,8 @@
+ ## 7. Bilan et vérifications encore nécessaires
+ 
+ **Les constats les plus utiles à l’examen du dossier sont les pistes TP-02, les opérations documentées du 28 octobre et la présence de correspondances d’avocats dans les données regroupées.** Les inconnues principales sont l’origine physique de certaines traces, le contenu définitivement emporté et le rôle des supports de destination.
++
++Le contrôle des messageries prouve aussi la présence de **21 messages dans le PST DMM correspondant à l’empreinte de l’inventaire** ; Takeout concorde également. Les traces Khallouki du PST 93300 divergent restent non certifiées dans la version inventoriée. Voir le point 1.4.
+ 
+ Le complément DNEF apporte désormais un **contrôle positif des 27 PDF dans le CSV fourni**, dont Bourarach, et **17 rapprochements temporels spécifiques à des métadonnées de TP-03 datées du 15 octobre**. Il ne démontre ni création des PDF ce jour-là, ni consultation humaine, ni premier déverrouillage ou transfert direct. **Les mêmes 20 contenus distincts sont également présents dans TP-02 : c’est la concordance des dates, et non la seule présence des fichiers, qui distingue TP-03.** Le point 1.9 explique les limites de la métadonnée de dernière utilisation et les pièces manquantes.
+ 
+@@ -365,7 +371,7 @@
+ 
+ | Pièces ou explications à obtenir | Ce qu’elles permettraient de vérifier |
+ |---|---|
+-| **Priorité :** CSV authentifié, `Archive_saddedine.zip`, `Rejets_saddedine.txt` et support d’origine | Vérifier les 27 PDF, la composition effective de l’archive, les éventuelles exclusions et les fichiers effectivement conservés. Ces pièces ne sont pas disponibles dans le corpus examiné. |
++| **Priorité :** authentification du CSV fourni, `Archive_saddedine.zip`, `Rejets_saddedine.txt`, support d’origine et PST 93300 conforme à l’empreinte inventoriée | Compléter les concordances déjà établies pour les 27 PDF, le PST DMM et Takeout ; contrôler l’archive finale, les exclusions et les fichiers conservés, puis expliquer la divergence du PST 93300. Le CSV est disponible ; les autres pièces et une version conforme du PST 93300 n’ont pas été obtenues. |
+ | Ordonnance complète et éventuelles instructions du juge ; actes fiscaux utilisant les pièces | Périmètre autorisé et utilisation des documents litigieux, à examiner juridiquement. |
+ | **Priorité :** nom, version, paramètres et journaux du logiciel de collecte ; identification des supports sources et de destination | Comprendre les dates attribuées aux fichiers, les étapes de copie et le rôle des trois Kingston, sans présumer de l’outil utilisé. |
+ | **Priorité :** correspondance TP-02 / TP-03 avec les numéros de scellés et comptes rendus des opérations des 15 et 28 octobre | Rattacher les constatations techniques aux appareils effectivement manipulés et à la chronologie documentée. |
+@@ -515,20 +521,20 @@
+ 
+ ##### Correspondances avec des avocats : présence locale et saisie définitive
+ 
+-**La présence de correspondances dans L16B est un constat de contenu, pas une simple possibilité. En revanche, leur copie sur le support emporté par l’administration n’est pas établie.** Le regroupement de L16B pendant les opérations du 28 octobre est fortement corroboré par le PV et la chronologie des fichiers. Il ne prouve pas que chacun des documents qui s’y trouvent a été retenu après le filtrage annoncé.
+-
+-| Pièces effectivement retrouvées dans L16B | Nature du constat | Limite propre à ces pièces |
+-| --- | --- | --- |
+-| Cinq messages des 23 août, 6 et 12 septembre, 3 et 8 octobre 2024, dans les Éléments envoyés du PST `dmmconseils@hotmail.com` | En-têtes adressés au cabinet Negrevergne, au sujet du dossier DMM/BRED. | Les en-têtes ne prouvent pas la remise effective des messages au destinataire ni leur inclusion dans la copie finale. |
+-| `Re DMM CONSEILS Audience TC Bobigny du 04 septembre 2024 à 9h15.pdf`, pièce jointe au message du 3 octobre | PDF reproduisant un échange avec Christian Pascoët concernant l’audience et le dossier DMM/BRED. | La présence de la pièce dans le PST ne démontre pas sa lecture individuelle ou sa conservation après filtrage. |
+-| Messages des PST concernant Mustapha Khallouki, Nicolay Fakiroff / Roosevelt Avocats et Marc-Alexandre Wahrheit | Échanges, transferts ou chaînes de correspondance identifiés par leurs en-têtes, corps et signatures, concernant EXPERT 2 MOBILE ou ALMU. | Les rôles des parties, la nature juridique et le contexte de chaque échange doivent être examinés ; tous ne concernent pas nécessairement Mme Sadedine à titre personnel. |
+-| `L16B/TELEPHONES/IPHONE13_MINI/Rép  Dossier bourarach.pdf` | PDF reproduisant des échanges de juillet-août 2017 avec Me Isabelle Guillou sur un recours administratif concernant un tiers ; contenu identique dans TP-02 et TP-03 et SHA-512 concordant dans le CSV fourni. | Présence dans L16B et dans l’inventaire transmis établie. Qualification avocat-client, contenu de l’archive finale et éventuelle utilisation à vérifier ; aucune lecture par un agent démontrée. |
++**La présence de correspondances dans L16B est un constat de contenu. La comparaison SHA-512 établit désormais que le PST DMM et Takeout correspondent exactement aux empreintes de l’inventaire fourni ; le PDF Bourarach est également identifié individuellement dans ce CSV. Le PST 93300 diverge.** Le contrôle matériel de l’archive et du support emportés reste distinct de cette identification dans l’inventaire. Le regroupement de L16B pendant les opérations du 28 octobre est fortement corroboré par le PV et la chronologie des fichiers. Il ne prouve pas que chacun des documents qui s’y trouvent a été retenu après le filtrage annoncé.
++
++| Pièces effectivement retrouvées | Concordance à l’inventaire fourni | Portée et limite |
++|---|---|---|
++| **21 messages du PST DMM** : Fakiroff / Roosevelt Avocats (9), Wahrheit (7), Negrevergne (5) | **SHA-512 du PST identique au CSV**, ligne 1498. | Présence établie dans le conteneur correspondant à l’inventaire ; lecture par les agents et utilisation fiscale non démontrées. |
++| Échanges Pascoët / Rubio cités, notifications Dress / DocuSign et Liwer / AR24 | PST DMM ou ZIP Takeout **concordants** avec le CSV, lignes 1498 et 1529. | Distinguer citations et notifications des messages directs ; un avis de non-remise ne prouve pas la réception. |
++| **2 messages Khallouki et 3 transferts/reproductions du PST 93300** | **SHA-512 divergent** de celui du CSV, ligne 1497. | Présents dans l’image, mais présence et identité non certifiées dans la version inventoriée. |
++| `L16B/TELEPHONES/IPHONE13_MINI/Rép  Dossier bourarach.pdf` | Chemin et **SHA-512 concordants** dans le CSV ; contenu identique dans TP-02 et TP-03. | Présence dans l’inventaire établie ; qualification avocat-client, archive finale et utilisation à examiner. |
+ 
+ Les détails et références sont conservés dans le [tableau des messages](investigations/20261109-correspondances-elargies/tableau-messages.md), le [tableau des documents](investigations/20261109-correspondances-elargies/tableau-documents.md) et leurs annexes techniques. Une proposition de services d’avocats, une notification de recommandé, une mention du conseil de la partie adverse ou un courrier d’avocat déjà adressé à l’administration ne sont pas assimilés automatiquement à une consultation confidentielle entre la cliente et son avocat.
+ 
+ **Indices individualisés pour `Rép  Dossier bourarach.pdf`.** L’entrée MFT **381463, séquence 41**, porte une création FN au **28/10/2024 à 17:13:43,799497, heure de Paris**, dans `L16B/TELEPHONES/IPHONE13_MINI`. Son contenu, SHA-256 `2e82aa66ecbc307a98ce2a170799bed53af49c0de9dd9c0c2da00c87c530df3c`, est strictement identique à deux copies TP-02 et à une copie TP-03. Cette dernière conserve `lastused=15/10/2024 13:42:55,987134933`, suivi d’un changement de statut à 13:42:56 ; la création CSV est à **13:42:57,930**. Le chemin et le SHA-512 du PDF figurent dans l’inventaire transmis. Les références Jump Lists du **29 vers 01:45:21 Paris** restent postérieures et ne prouvent pas une lecture par les agents. La [fiche historique](investigations/20261109-clarification-correspondances/fiche-bourarach.md) est complétée par la [réponse Q1](inventaire-DNEF/rapports/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.md). **L’ancienne réserve d’absence de toute trace individuelle d’inventaire est levée pour ce PDF ; le contenu de l’archive finale reste à contrôler.**
+ 
+-**Réponse à la question « l’administration a-t-elle pris des échanges avec un avocat ? » :** des échanges sont présents dans les données regroupées et **le PDF Bourarach est désormais identifié dans l’inventaire fourni, par chemin et empreinte**. C’est un élément documentaire positif pour ce PDF, à confronter au support authentifié et à l’archive finale. Les autres correspondances, notamment celles des PST, ne sont pas réputées inventoriées par ce seul contrôle des 27 PDF. Ni lecture par les agents, ni utilisation fiscale, ni échec du filtrage annoncé ne sont démontrés. La qualification et la portée juridique relèvent de l’avocate. Un PST entier retrouvé à l’identique dans le jeu final établirait l’emport de ses messages, sans prouver leur lecture ou leur utilisation.
++**Réponse à la question « l’administration a-t-elle pris des échanges avec un avocat ? » : la présence de correspondances dans des fichiers correspondant aux empreintes de l’inventaire fourni est établie.** Le PST DMM concordant contient les 21 messages précités et les traces Pascoët / Rubio / Dress ; Takeout concordant contient la notification Liwer. Le PDF Bourarach / Guillou est identifié individuellement dans le CSV. Cette preuve documentaire ne repose plus seulement sur L16B. **Les correspondances Khallouki du PST 93300 divergent ne peuvent pas être certifiées dans la version inventoriée.** Le contrôle du support authentifié et de l’archive finale, la lecture par les agents, l’utilisation fiscale et la qualification du filtrage restent distincts ; la portée juridique relève de l’avocate. Les [deux tableaux classés selon la concordance SHA-512](ordinateur/recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md) individualisent toutes les traces.
+ 
+ ##### Correspondances : couverture de la recherche élargie et limites
+ 
+@@ -816,6 +822,8 @@
+ - [Contrôle de L16B et des catégories du PV](investigations/20261109-controle-l16b-photos/compte-rendu.md).
+ - [Recherche élargie des correspondances](investigations/20261109-correspondances-elargies/compte-rendu.md), [messages sélectionnés](investigations/20261109-correspondances-elargies/tableau-messages.md), [documents](investigations/20261109-correspondances-elargies/tableau-documents.md) et [fiche du PDF Bourarach](investigations/20261109-clarification-correspondances/fiche-bourarach.md).
+ 
++- [Rapport du 16 novembre : correspondances classées selon la concordance SHA-512](ordinateur/recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md), [comparaison aux SHA-512 du CSV et empreintes complètes](ordinateur/recherche-OP-01/extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.md), [résultats structurés](ordinateur/recherche-OP-01/extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.json) et [validation des 5 875 en-têtes PST](ordinateur/recherche-OP-01/correspondances-avocats-20261116/validation-nouveaux-decodages.json). Les fichiers concordants et le PST 93300 divergent y sont séparés.
++
+ #### Téléphones, hypothèses concurrentes et horloges
+ 
+ - [Relecture transversale du 10 novembre](investigations/20261110-telephones/compte-rendu.md), [approfondissement TP-03](investigations/20261110-tp03-intervention-humaine/compte-rendu.md) et [revue contradictoire des interventions avant ouverture](investigations/20261110-revue-intervention-scelles/compte-rendu.md).

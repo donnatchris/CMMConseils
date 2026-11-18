@@ -1,0 +1,71 @@
+--- ordinateur/analyse-ordinateur.md avant
++++ ordinateur/analyse-ordinateur.md après
+@@ -27,6 +27,7 @@
+ | Le 16 octobre à 05:51 correspond-il à un réveil ? | Il s’agit d’une **échéance de réveil programmée**, inscrite dans un événement du 15. | Aucun réveil effectif à cette échéance n’est corroboré ; le demandeur et la date de programmation restent inconnus. |
+ | Les journaux révèlent-ils une dissimulation ? | Aucun indice probant d’effacement ou de falsification volontaire n’est établi. Les CRC et les séquences conservées sont cohérents. | Des anomalies d’en-tête existent ; les journaux ne constituent pas une preuve inviolable de leur histoire. |
+ | Des données ont-elles été regroupées et exportées ? | `L16B` contient **1 558 fichiers, soit 4,64 Go**, dont des messageries, documents locaux et exports cloud/bancaires. **1 555 créations FN** sont datées du 28 octobre. | Le PV décrit une copie par l’administration. Le dossier informatif laissé sur le PC ne certifie pas la composition du jeu définitivement saisi. |
++| L16B correspond-il à l’ensemble de l’inventaire fourni ? | **1 555 chemins retrouvés ; 1 552 SHA-512 identiques, 3 divergents, aucune erreur.** Les divergences concernent le raccourci USB2, `FACT 2018 SUITE.pdf` et le PST 93300. | Identité de contenu établie pour les concordances ; les trois fichiers divergents sont présents par leur chemin. L’archive finale et les motifs d’écarts ne sont pas établis par ce seul contrôle. Voir § 7.8. |
+ | Des correspondances d’avocats sont-elles identifiées dans les fichiers inventoriés ? | **21 messages** du PST DMM : Fakiroff / Roosevelt Avocats (9), Wahrheit (7), Negrevergne (5). **SHA-512 identiques au CSV** pour ce PST et pour Takeout. | Présence établie dans les conteneurs correspondant aux empreintes de l’inventaire ; les **2 messages Khallouki et 3 transferts** du PST 93300 divergent restent non certifiés dans la version inventoriée. Lecture par les agents et utilisation fiscale non démontrées. |
+ | Quel accès Internet est documenté le 28 ? | Un Samsung nommé **« XCover 5 de David »**, série **`R58RB2ETQER`**, apparaît à **11:18:34**. Les profils Ethernet **« Réseau 2 » puis « Réseau 3 »** disposent d’Internet ; le partage USB par ce téléphone est fortement étayé. | Aucun usage antérieur du numéro exact n’a été retrouvé. Le propriétaire, la première connexion absolue et le réseau amont ne sont pas établis. |
+ | Sage 50 a-t-il été utilisé pour sortir des documents ALMU ? | Lancement à **15:10:12**, échange OAuth avec résultat **200 à 15:11:49**, puis générations PDF, dont **458 pages ALMU à 15:28:33**, retrouvées dans `C:\L16B\SAGE\sage.pdf`. | La saisie manuelle d’un mot de passe et l’identité de l’opérateur ne sont pas démontrées. Une impression papier, une copie intégrale de la base et le transfert de ce PDF précis sur USB ne sont pas établis. |
+@@ -470,7 +471,7 @@
+ 
+ **Le PV décrit une extraction, un filtrage, une copie sur une clé de l’administration et une authentification des fichiers, avec inventaires sur CD.** Les catégories de L16B, les deux PST, les trente EML, Takeout, Sage et SHINE concordent substantiellement avec les opérations annoncées. Les créations FN concentrées après 10:41 et les références à l’archive/inventaire/rejets corroborent matériellement ce récit.
+ 
+-Le PV précise que **L16B est laissé sur le PC à titre informatif et ne remplace pas les fichiers définitivement saisis**. Un **CSV d’inventaire est désormais disponible** : la comparaison SHA-512 confirme l’identité du PST DMM et de Takeout avec les empreintes inscrites au même chemin, mais révèle une divergence pour le PST 93300. Les 27 PDF du Mini sont également identifiés dans ce CSV par les contrôles DNEF. Ces concordances constituent une preuve de présence dans des fichiers correspondant à l’inventaire fourni ; elles ne reposent plus sur le seul dossier L16B. Le CD d’origine, l’archive finale et le support emporté restent à contrôler, et la comparaison ne certifie pas l’ensemble du jeu saisi. Voir la section 7.7 et la [réponse Q1 sur les PDF Mini](../inventaire-DNEF/rapports/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.md).
++Le PV précise que **L16B est laissé sur le PC à titre informatif et ne remplace pas les fichiers définitivement saisis**. Un **CSV d’inventaire est désormais disponible** : la comparaison SHA-512 confirme l’identité du PST DMM et de Takeout avec les empreintes inscrites au même chemin, mais révèle une divergence pour le PST 93300. Les 27 PDF du Mini sont également identifiés dans ce CSV par les contrôles DNEF. Ces concordances constituent une preuve de présence dans des fichiers correspondant à l’inventaire fourni ; elles ne reposent plus sur le seul dossier L16B. Le contrôle a ensuite porté sur **tous les 1 555 fichiers du CSV : 1 552 SHA-512 concordants et 3 divergents, aucun chemin absent** ; voir la section 7.8. Le CD d’origine, l’archive finale et le support emporté restent à contrôler ; cette comparaison à l’image ne certifie pas la composition ou la conservation actuelle du support final. Voir aussi la section 7.7 et la [réponse Q1 sur les PDF Mini](../inventaire-DNEF/rapports/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.md).
+ 
+ La présence de **trois identifiants Kingston**, face à la clé unique décrite, reste à expliquer par les pièces de procédure et les supports. Elle ne démontre ni trois copies ni trois destinataires. L’attribution des opérations décrites à l’administration repose sur le recoupement du PV et des artefacts ; elle ne constitue pas une identification technique individuelle de chaque opérateur.
+ 
+@@ -503,6 +504,34 @@
+ **La preuve apportée concerne l’identité des conteneurs avec les empreintes du CSV fourni et la présence des traces en leur sein.** L’authentification du support d’origine de l’inventaire, la composition exhaustive de l’archive finale, la lecture par les agents et l’utilisation fiscale restent à contrôler. La qualification avocat-client ne découle pas du seul nom d’un avocat ou d’une notification de service.
+ 
+ **Références :** [rapport et deux tableaux classés par concordance SHA-512](recherche-OP-01/correspondances-avocats-20261116/rapport-correspondances-et-integrite-20261116.md), [empreintes complètes et comparaison](recherche-OP-01/extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.md), [calculs structurés](recherche-OP-01/extraction-messageries-20261116/comparaison-inventaire-SHA512-20261116.json), [validation des en-têtes](recherche-OP-01/correspondances-avocats-20261116/validation-nouveaux-decodages.json) et [contrôle de l’extraction](recherche-OP-01/extraction-messageries-20261116/verification-extraction.json).
++
++### 7.8. Comparaison exhaustive des 1 555 fichiers de l’inventaire avec L16B
++
++**Le contrôle a été étendu à l’ensemble du CSV fourni, au-delà des messageries et des PDF Mini.** Les **1 555 chemins inventoriés** sont tous retrouvés dans le dossier L16B de l’image OP-01. Leur lecture intégrale sur SIFT, avec montage NTFS et boucle EWF en lecture seule, porte sur **4 519 451 973 octets** et ne produit aucune erreur. Les fichiers et le CSV restent inchangés pendant les contrôles de lecture.
++
++| Contrôle | Résultat |
++|---|---:|
++| Fichiers du CSV / chemins retrouvés dans L16B | **1 555 / 1 555** |
++| Chemins inventoriés absents de L16B | **0** |
++| SHA-512 identiques à l’inventaire | **1 552** |
++| SHA-512 divergents | **3** |
++| Erreurs de lecture | **0** |
++
++**Les 1 552 concordances établissent l’identité des contenus retrouvés avec les empreintes de l’inventaire fourni.** Elles comprennent notamment les 27 PDF Mini, le PST DMM et Takeout ; les conclusions de la section 7.7 sur ces conteneurs concordants sont confirmées.
++
++| Chemin présent dans l’image mais de contenu divergent | Ligne du CSV | Taille actuelle (octets) |
++|---|---:|---:|
++| `C:\L16B\LOCAL\cle usb\USB2 (D) - Raccourci.lnk` | 426 | 940 |
++| `C:\L16B\LOCAL\FACT 2018 SUITE.pdf` | 481 | 924 117 |
++| `C:\L16B\MESSAGERIES\dmmconseils93300@hotmail.com.pst` | 1497 | 1 156 260 864 |
++
++Ces trois chemins existent, mais **les contenus actuels ne correspondent pas aux SHA-512 inscrits dans le CSV**. Les deux nouveaux écarts, le raccourci et le PDF, ont été confirmés indépendamment par `sha512sum` ; le PST 93300 avait déjà été confirmé et sa nouvelle empreinte reste identique à ce contrôle. La date, le mécanisme et l’auteur de l’écart ne sont pas déterminés. Les versions inventoriées ne sont pas retrouvées à l’identique dans les fichiers présents à ces trois chemins ; leur absence de toute l’image ou d’autres supports n’est pas établie.
++
++**Comparaison des listes dans les deux sens.** L16B contient **1 558 fichiers** dans l’image : les 1 555 chemins du CSV et trois fichiers supplémentaires, `GDRIVE.zip`, `GDRIVE (2).zip` et `MESSAGERIES\misssmalika@hotmail.com\CADA.pdf.pdf`, dont les créations FN datent de 2026. Les traces du 28/10/2024 fournissent quatre anciens chemins absents du CSV : les deux `Téléchargements - Raccourci (2)` supprimés, `test.pdf` et `Sage.pdf` à la racine. Ce dernier est distinct du chemin `SAGE\sage.pdf`, qui figure dans l’inventaire et dont le SHA-512 concorde. **Ces différences de liste ne prouvent pas une décision de rejet lors du filtrage.**
++
++Le contrôle porte sur l’image acquise en 2026 et l’inventaire fourni, pas sur une capture contemporaine du dossier ou une lecture du support final emporté. L’authentification du support d’origine du CSV, l’archive finale, les rejets, la lecture humaine et l’utilisation des documents restent à contrôler séparément.
++
++**Références :** [rapport Markdown exhaustif des 1 555 fichiers, avec SHA-512 attendu et calculé intégraux](recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-SHA512-exhaustive-1555-fichiers.md), [synthèse et écarts de chemins](recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-L16B-inventaire.md), [tableau CSV](recherche-OP-01/comparaison-L16B-inventaire-20261116/comparaison-SHA512-tous-les-fichiers.csv), [résultats structurés et contrôles du montage](recherche-OP-01/comparaison-L16B-inventaire-20261116/resultats-comparaison-L16B-inventaire.json) et [relevé des traces Windows de L16B](recherche-OP-01/inventaire-L16B-20241028-20261116/rapport-inventaire-L16B-20241028.md).
+ 
+ ## 8. Suppressions et contenus récupérables
+ 
+@@ -658,7 +687,7 @@
+ | Question | Éléments nécessaires |
+ |---|---|
+ | Quels fichiers ont été définitivement saisis ? | Authentifier le CSV déjà fourni et contrôler l’archive/support emporté et les rejets ; compléter les concordances SHA-512 établies pour le PST DMM, Takeout et les PDF Mini. L16B ne certifie pas à lui seul le jeu complet. |
+-| Pourquoi le SHA-512 du PST 93300 diverge-t-il ? | Obtenir une version conforme à l’empreinte inventoriée et comparer les objets et métadonnées Outlook au fichier actuel ; les messages Khallouki ne sont pas certifiés dans la version inventoriée. |
++| Pourquoi trois fichiers divergent-ils de leur SHA-512 inventorié ? | Obtenir des versions conformes des fichiers USB2 (raccourci), FACT 2018 SUITE (PDF) et PST 93300, puis comparer leurs contenus et métadonnées. Pour le PST, les messages Khallouki restent non certifiés dans la version inventoriée. La divergence ne date ni n’attribue une modification. |
+ | Quel support correspond à chaque opération ? | Identification physique ou images des trois Kingston, correspondance avec le volume `140B8328`, journaux d’outils et relevés de branchements disponibles. |
+ | À qui appartenait le Samsung et quel réseau fournissait-il ? | Rapprochement du numéro **`R58RB2ETQER`** avec un appareil ou des pièces contemporaines ; journaux du téléphone et de son accès amont. Le seul nom « XCover 5 de David » ne certifie pas son propriétaire. |
+ | Quelle est l’origine exacte des ensembles cloud et téléphones ? | Historiques de téléchargement/export et de sécurité des comptes, états historiques authentifiables, rapprochement des contenus avec les appareils et sauvegardes. |
+@@ -708,6 +737,7 @@
+ | Fichiers supprimés | [Synthèse](recherche-OP-01/fichiers-supprimes/summary.json), [sélection](recherche-OP-01/fichiers-supprimes/recovery-selection.jsonl), [récupérations](recherche-OP-01/fichiers-supprimes/recovery-results.jsonl), [paires de corbeille](recherche-OP-01/fichiers-supprimes/recycle-pairs.json), [comparaison Drive](recherche-OP-01/fichiers-supprimes/drive-content-comparison.json), [contre-lecture icat](recherche-OP-01/fichiers-supprimes/icat-crosscheck.txt) |
+ | Menaces et traces d’accès | [Sources contrôlées](recherche-OP-01/extractions-acces/source-verification.json), [quarantaine](recherche-OP-01/extractions-acces/quarantine-inventory.json), [recherche ciblée dans le MBOX](recherche-OP-01/extractions-acces/mbox-pdf-name-search.json), [SRUM](recherche-OP-01/extractions-acces/additional/srum-schema.json) |
+ | Procès-verbal et copie finale | [Lecture du PV](../investigations/20261108-analyse-pv/compte-rendu.md), [concordance technique de L16B](../investigations/20261109-controle-l16b-photos/compte-rendu.md) |
++| Inventaire complet et SHA-512 — 16 novembre | [Rapport Markdown des 1 555 fichiers et des deux SHA-512 intégraux](recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-SHA512-exhaustive-1555-fichiers.md), [synthèse et écarts de chemins](recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-L16B-inventaire.md), [CSV exhaustif](recherche-OP-01/comparaison-L16B-inventaire-20261116/comparaison-SHA512-tous-les-fichiers.csv), [résultats structurés](recherche-OP-01/comparaison-L16B-inventaire-20261116/resultats-comparaison-L16B-inventaire.json) |
+ | Téléphones et intervention avant ouverture | [Rapprochements des téléphones](../investigations/20261110-telephones/compte-rendu.md), [comparaison des hypothèses](../investigations/20261110-revue-intervention-scelles/compte-rendu.md) |
+ 
+ ### 12.2. Références de formats et d’interprétation

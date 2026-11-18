@@ -1,0 +1,53 @@
+--- inventaire-DNEF/rapports/Rapport_investigations_B_C_D_E_SADEDINE-2026.md
++++ inventaire-DNEF/rapports/Rapport_investigations_B_C_D_E_SADEDINE-2026.md
+@@ -1,6 +1,8 @@
+ # Investigations complémentaires sur TP 03 et le transfert des PDF vers OP 01
+ 
+ **Mission SADEDINE-2026 — 14 novembre 2026 — complément à la réponse Q1.**
++
++**Complément du 17 novembre 2026 :** réponse à la question Q3 de la note cliente.
+ 
+ ## Conclusions
+ 
+@@ -11,7 +13,7 @@
+ | B — Déverrouillage | Les 26 exemplaires PDF TP-03 contrôlés sont de classe C dans le manifeste. La base TipKit de Mail et la base du modèle clavier sont aussi de classe C. | Une lecture réelle de ces contenus dans cette classe supposerait un premier déverrouillage. Les traces conservées ne certifient ni un redémarrage à 13 h 25, ni le lieu et l’instant matériel d’une écriture ou lecture. |
+ | C — Transfert | Le dossier Mini est créé le 28 octobre à 17:12:06. Les 27 PDF portent des créations FN entre 17:13:43,2355080 et 17:13:43,8934745, soit **0,6579665 seconde**. Les 27 dates de création du CSV correspondent exactement aux créations SI du PC. | Ce regroupement très bref étaye une arrivée groupée au dossier final. Il n’identifie ni la source intermédiaire, ni un transfert USB direct, ni le logiciel. |
+ | D — Traces indépendantes | TP-03 conserve des entrées TCC pour Mail à 13:25:26 et Fichiers à 13:29:50, puis 33 transactions TipKit de Mail entre 13:25:30 et 13:29:09. | Aucun identifiant de PDF ni événement de premier plan n’y rattache les 17 documents. PeopleSuggester ne contient ici qu’une date d’identifiant, pas une ouverture de partage. |
+-| E — Doublons et horloges | Les 72 objets ont été comparés, avec 63 paires entre téléphones. Les doublons identiques forment quatre groupes. Les conversions UTC/Paris sont cohérentes. | Aucun décalage d’horloge unique n’est démontré. Le nommage ne désigne pas une application. La reproduction iOS/Windows sur appareils de test reste non réalisée. |
++| E — Doublons et horloges | Les 72 objets ont été comparés, avec 63 paires entre téléphones. Les doublons identiques forment quatre groupes. Les conversions UTC/Paris sont cohérentes. | Aucun décalage d’horloge unique n’est démontré. Le nommage ne désigne ni une application ni un conflit iCloud ; l’origine des doublons reste indéterminée. |
+ 
+ **La formulation technique retenue est conditionnelle :** si des lectures ou écritures nouvelles des contenus de classe C ont réellement eu lieu sur l’installation de TP-03 après le redémarrage rapporté, avec cette protection déjà applicable, un état BFU strict serait incompatible avec ces opérations ordinaires. Les conditions nécessaires à cette démonstration ne sont pas toutes établies par la sauvegarde tardive. Il n’est donc pas possible d’annoncer une contradiction technique démontrée avec le récit de la cliente, ni d’identifier une personne ayant déverrouillé le téléphone.
+ 
+@@ -43,7 +45,7 @@
+ 
+ La correspondance numérique des classes est documentée dans la [référence APFS Apple, rubrique Protection Classes, pages imprimées 142–143](https://developer.apple.com/support/downloads/Apple-File-System-Reference.pdf#page=142). Apple précise qu’un fichier protégé jusqu’à la première authentification devient accessible après ce premier déverrouillage et peut le rester après un verrouillage ultérieur. **AFU ne signifie donc pas écran actuellement déverrouillé.** [Documentation Apple Foundation](https://developer.apple.com/documentation/foundation/fileprotectiontype/completeuntilfirstuserauthentication).
+ 
+-Cette propriété concerne l’accès au contenu protégé. Elle ne permet pas d’assimiler automatiquement une date `lastused`, une date de changement de statut ou un nom de fichier à une lecture du contenu. Apple distingue le chiffrement des métadonnées du système de fichiers et les clés de classe des contenus ; cela ne valide pas pour autant un scénario précis de réécriture BFU des attributs observés. **Ce scénario n’a pas été reproduit.** [Apple Platform Security, Data Protection in Apple devices](https://support.apple.com/en-mide/guide/security/sece8608431d/web).
++Cette propriété concerne l’accès au contenu protégé. Elle ne permet pas d’assimiler automatiquement une date `lastused`, une date de changement de statut ou un nom de fichier à une lecture du contenu. Apple distingue le chiffrement des métadonnées du système de fichiers et les clés de classe des contenus ; cela ne valide pas pour autant un scénario précis de réécriture BFU des attributs observés. **Les données disponibles ne permettent pas d’établir que ce scénario a produit les attributs observés.** [Apple Platform Security, Data Protection in Apple devices](https://support.apple.com/en-mide/guide/security/sece8608431d/web).
+ 
+ Les classes sont celles de l’état sauvegardé. Leur maintien inchangé depuis octobre 2024 n’est pas certifié. Le chiffrement de la sauvegarde et le déverrouillage historique du téléphone sont deux questions distinctes : pouvoir déchiffrer aujourd’hui la sauvegarde ne date pas un déverrouillage ancien.
+ 
+@@ -68,6 +70,8 @@
+ 
+ Mais il manque un événement de démarrage et de premier déverrouillage daté, ainsi qu’une garantie que ces historiques n’ont pas été transportés ou restaurés. Il manque aussi une preuve que le changement des attributs des 17 PDF exigeait, lui-même, la lecture de leur contenu. **Le premier déverrouillage après le redémarrage allégué reste donc non démontré ; son absence reste également non démontrée.**
+ 
++**Réponse à Q3 — accès aux PDF avant le premier déverrouillage.** Dans l’état sauvegardé de TP-03, les PDF examinés relèvent de la classe C : leur contenu est normalement inaccessible avant la première authentification après redémarrage. Une synchronisation iCloud ne suffit donc pas, à elle seule, à expliquer un nouvel accès local à ce contenu dans un état strictement antérieur au premier déverrouillage. En revanche, une date de métadonnée ne démontre ni un tel accès ni une création de PDF. La sauvegarde tardive ne permet pas d’établir l’état de protection et le lieu de production des traces aux heures litigieuses. Elle ne permet donc pas de déterminer si TP-03 a effectivement été déverrouillé ou a produit localement les fichiers à ces heures. La question du nommage des doublons est examinée ci-dessous, dans la partie E.
++
+ ## C — Comment les PDF sont ils arrivés dans OP 01
+ 
+ ### Apparition du dossier et arrivée groupée
+@@ -167,7 +171,7 @@
+ 
+ La documentation Apple indique que `FileManager.copyItem` échoue lorsque la destination existe ; le choix d’un suffixe peut donc relever de la couche applicative au-dessus de cette API. Windows propose aussi une option de renommage en cas de collision. **La forme « espace 2/3/4 » n’est pas, à elle seule, une signature suffisante d’iOS ou de Fichiers.** [Apple, copyItem](https://developer.apple.com/documentation/foundation/filemanager/copyitem(at:to:)), [Microsoft, FOF_RENAMEONCOLLISION](https://learn.microsoft.com/en-us/windows/win32/api/shellapi/ns-shellapi-shfileopstructa).
+ 
+-Aucune reproduction native iOS ou Windows n’a été réalisée. L’absence d’iPhone de test a été confirmée par l’utilisateur ; aucun Windows de test natif n’est disponible dans l’environnement. Un [protocole reproductible](../travaux-techniques/investigations-B-E-20261114/protocole-reproduction.md) prépare ces essais sans utiliser les preuves comme matériel de test. Cette partie demeure une limite explicite de l’investigation E.
++**Réponse à Q3 — origine des doublons.** Les suffixes « 2 », « 3 » et « 4 » sont compatibles avec plusieurs mécanismes de copie ou de gestion de noms identiques. Ils ne permettent pas de distinguer des enregistrements répétés d’un mécanisme de conflit iCloud. Aucun élément retrouvé n’identifie ici un conflit iCloud comme origine des exemplaires de contenu identique, ni les conditions de sa survenue. La présence des contenus dans le stockage local Fichiers des deux Mini ne reconstitue pas leur circulation antérieure. **L’origine exacte des doublons reste indéterminée ; les éléments disponibles ne permettent ni de confirmer ni d’exclure une contribution d’iCloud.**
+ 
+ ### Horloges
+ 
+@@ -197,4 +201,4 @@
+ - [Comparaison des 72 objets](../travaux-techniques/investigations-B-E-20261114/prive/attributs/objets.json), [63 comparaisons entre téléphones](../travaux-techniques/investigations-B-E-20261114/prive/attributs/comparaisons.json), [calculs d’horloge](../travaux-techniques/investigations-B-E-20261114/prive/attributs/horloges.json), [classes des artefacts natifs](../travaux-techniques/investigations-B-E-20261114/prive/attributs/protection-artefacts.json).
+ - [Scripts de reproduction de l’analyse](../travaux-techniques/investigations-B-E-20261114/scripts), [contrôle final d’intégrité](../travaux-techniques/investigations-B-E-20261114/verification-finale.json) et [empreintes des nouveaux résultats](../travaux-techniques/investigations-B-E-20261114/manifest-sha256.txt).
+ 
+-Pour lever les incertitudes restantes, les pièces les plus discriminantes sont les journaux et la version de l’outil de transfert, le contenu de l’archive finale et des supports intermédiaires, ainsi que des traces contemporaines du démarrage et de l’authentification de TP-03. Une reproduction sur matériel de test préciserait le comportement des métadonnées, mais ne remplacerait pas ces pièces historiques. Aucune identité d’opérateur ni qualification juridique n’est déduite des seuls rapprochements techniques.
++Pour lever les incertitudes restantes, les pièces les plus discriminantes sont les journaux et la version de l’outil de transfert, le contenu de l’archive finale et des supports intermédiaires, ainsi que des traces contemporaines du démarrage et de l’authentification de TP-03. Aucune identité d’opérateur ni qualification juridique n’est déduite des seuls rapprochements techniques.

@@ -1,0 +1,11 @@
+--- inventaire-DNEF/rapports/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.md
++++ inventaire-DNEF/rapports/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.md
+@@ -112,7 +112,7 @@
+ 
+ ## Rapprochement temporel nouveau avec TP-03
+ 
+-Les attributs `com.apple.lastuseddate#PS` sont présents sous forme de 16 octets. Leur décodage retenu est celui de deux entiers signés de 64 bits en ordre little endian : secondes Unix et nanosecondes. Les valeurs obtenues ont des nanosecondes valides et des dates cohérentes avec les autres métadonnées. Cette lecture est une interprétation technique des octets conservés, pas un journal de gestes validé par une reproduction sur iPhone. Les octets bruts restent disponibles pour contre-vérification.
++Les attributs `com.apple.lastuseddate#PS` sont présents sous forme de 16 octets. Leur décodage retenu est celui de deux entiers signés de 64 bits en ordre little endian : secondes Unix et nanosecondes. Les valeurs obtenues ont des nanosecondes valides et des dates cohérentes avec les autres métadonnées. Cette lecture est une interprétation technique des octets conservés, pas un journal certifié de gestes effectués sur le téléphone. Les octets bruts restent disponibles pour contre-vérification.
+ 
+ Dans TP-03, **17 objets représentant 17 contenus** portent cet attribut dans la fenêtre du 15 octobre. Le tableau compare sa valeur à la **première** date de création DNEF du même contenu. L’écart est « date DNEF moins attribut TP-03 ». Les doublons ultérieurs du CSV ne sont donc pas utilisés pour choisir artificiellement un meilleur écart.
+ 

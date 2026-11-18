@@ -79,7 +79,7 @@ Si vous effectuez cette demande, vous pourrez me transmettre les archives obtenu
 
 **3. Codes SMS du 28 octobre (12 h 03 à 12 h 46)**
 
-Merci pour cette confirmation. Je préciserai dans les rapports que vous indiquez être à l'origine de ces opérations et qu'aucune investigation complémentaire n'est demandée sur ce point.
+Merci pour cette confirmation. Les rapports précisent désormais que vous confirmez avoir effectué vous-même la réinitialisation Microsoft et les validations Google du 28 octobre, entre 12 h 03 et 12 h 46, car vous n'arriviez pas à vous connecter pour l'administration. Ce point ne nécessite plus d'approfondissement à votre demande.
 
 **4. Sage 50**
 

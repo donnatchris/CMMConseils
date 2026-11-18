@@ -1,0 +1,31 @@
+--- telephones/analyse-TP-03.md
++++ telephones/analyse-TP-03.md
+@@ -5,6 +5,8 @@
+ **Prestataire :** Christophe Donnat — Donnat Dev
+ 
+ **Équipement :** iPhone 13 mini — série `Y4Q9KGHG26`
++
++**Mise à jour :** 17 novembre 2026 — réponse à Q3 sur le premier déverrouillage, iCloud et les doublons.
+ 
+ ## 1. Objet et synthèse
+ 
+@@ -279,6 +281,8 @@
+ 
+ Les recherches dans les deux manifestes ne fournissent pas de journal exploitable de démarrage/keybag, de `knowledgeC.db`, de Powerlog, de traces unifiées ou de Biome sous les motifs contrôlés. Les 92 diagnostics IPS, SpringBoard/backboardd et FrontBoard ne datent pas le redémarrage ou l’authentification litigieux. Les deux `.FirstUnlock` déchiffrés sont des marqueurs applicatifs Raccourcis datés des **24 mai 2024** et **17 septembre 2025**, pas des événements du 15 octobre. Les préférences Fichiers et Quick Look ne datent aucun accès aux PDF. Les sources Apple et la portée exacte des classes sont citées dans le [complément B](../inventaire-DNEF/rapports/Rapport_investigations_B_C_D_E_SADEDINE-2026.md#b--le-téléphone-était-il-déverrouillé).
+ 
++**Réponse à Q3 — premier déverrouillage et iCloud.** Dans l’état sauvegardé, le contenu des PDF de classe C est normalement inaccessible avant la première authentification après redémarrage. Une synchronisation iCloud ne suffit pas, à elle seule, à expliquer un nouvel accès local à ce contenu dans un état strictement antérieur au premier déverrouillage. Mais les dates de métadonnées ne démontrent ni un accès au contenu ni une création de PDF. L’état historique de protection, le lieu de production des traces et leur éventuel transport ne sont pas établis. **Les données ne permettent donc pas de déterminer si TP-03 a été déverrouillé ou a produit localement les fichiers aux heures litigieuses.** L’origine des noms suffixés est examinée en section 7.6.
++
+ ### 7.4. Mail, Fichiers et traces indépendantes : investigation D
+ 
+ Toutes les heures ci-dessous concernent le **15 octobre 2024, heure de Paris**.
+@@ -332,7 +336,9 @@
+ | Avis ECH 0423 SAS RCT | 4 | **8,39 s ; 8,20 s ; 8,06 s** |
+ | KEDY FACTURE 202210 | 2 | **49,33 s** |
+ 
+-**`INV-184645.pdf` et `INV-184645 2.pdf` ont des contenus différents.** Les suffixes « 2/3/4 » ne caractérisent donc pas à eux seuls un doublon binaire, une application ou une opération iOS. Tous les noms suffixés ne sont pas retrouvés dans les sauvegardes tardives. Aucune reproduction native iOS/Windows n’a été réalisée : **aucun iPhone de test n’est disponible**, ni environnement Windows natif de test. Le [protocole préparé](../inventaire-DNEF/travaux-techniques/investigations-B-E-20261114/protocole-reproduction.md) ne vaut pas résultat expérimental.
++**`INV-184645.pdf` et `INV-184645 2.pdf` ont des contenus différents.** Les suffixes « 2/3/4 » ne caractérisent donc pas à eux seuls un doublon binaire, une application ou une opération iOS. Tous les noms suffixés ne sont pas retrouvés dans les sauvegardes tardives.
++
++**Réponse à Q3 — doublons et conflits iCloud.** Les suffixes « 2 », « 3 » et « 4 » sont compatibles avec plusieurs mécanismes de copie ou de gestion de noms identiques. Ils ne départagent pas des enregistrements répétés d’un mécanisme de conflit iCloud. Aucun élément retrouvé n’identifie ici un conflit iCloud comme origine des exemplaires identiques, ni les conditions de sa survenue. La présence des contenus dans le stockage local Fichiers des deux Mini ne reconstitue pas leur circulation antérieure. **L’origine exacte des doublons reste indéterminée ; une contribution d’iCloud n’est ni confirmée ni exclue par les données disponibles.**
+ 
+ Les conversions `Europe/Paris` sont cohérentes : **UTC+2 le 15**, **UTC+1 le 28**. Les 17 écarts « première création CSV moins lastused TP-03 » vont de **−8,969649 à +10,51809805 secondes**, médiane **+2,14324401 secondes**. Leur dispersion ne prouve pas un décalage constant d’horloge. La correction Windows d’environ **−9,238 secondes le 28 à 11:19:30** ne calibre pas TP-03 le 15. Ni les centièmes du CSV ni les FILETIME à 100 ns ne certifient une exactitude physique équivalente.
+ 

@@ -1,0 +1,29 @@
+--- RAPPORT-FINAL-SADEDINE-2026.md
++++ RAPPORT-FINAL-SADEDINE-2026.md
+@@ -3,7 +3,7 @@
+ **Référence :** SADEDINE-2026  
+ **Prestataire :** Christophe Donnat — Donnat Dev  
+ **Destinataire :** Me Delphine Ravon, avocate de Mme Malika Sadedine  
+-**Date du rapport :** 19 octobre 2026 ; réorganisation rédactionnelle le 12 novembre 2026 ; précision de la cliente et compléments OP-01 Samsung / Sage / ALMU intégrés le 13 novembre 2026 ; inventaire DNEF, investigations TP-03, recherche de récupération, note de constatation vidéo et comparaison SHA-512 des correspondances et contrôle exhaustif des 1 555 fichiers inventoriés intégrés le 16 novembre 2026 ; conservation S3 et rectification de la date de remise actualisées le 17 novembre 2026\
++**Date du rapport :** 19 octobre 2026 ; réorganisation rédactionnelle le 12 novembre 2026 ; précision de la cliente et compléments OP-01 Samsung / Sage / ALMU intégrés le 13 novembre 2026 ; inventaire DNEF, investigations TP-03, recherche de récupération, note de constatation vidéo et comparaison SHA-512 des correspondances et contrôle exhaustif des 1 555 fichiers inventoriés intégrés le 16 novembre 2026 ; conservation S3, rectification de la date de remise et réponse à Q3 sur iCloud et les doublons actualisées le 17 novembre 2026\
+ **Nature :** investigation informatique indépendante réalisée à la demande de la cliente, sans désignation comme expert judiciaire.
+ 
+ ## 1. Points suspects et questions prioritaires pour l’avocate
+@@ -154,7 +154,7 @@
+ 
+ L’écart est d’environ **1,94 seconde**. Cette proximité se répète sur 17 documents. Elle n’a pas été retrouvée de la même manière dans les objets correspondants de **TP-02**.
+ 
+-**Ce que signifie cette concordance :** elle constitue un rapprochement technique précis et répété, qui mérite d’être expliqué. Mais la « date de dernière utilisation » est ici **une métadonnée retrouvée dans une sauvegarde réalisée après les faits, et non un journal d’activité enregistré en direct le 15 octobre 2024**. Sa signification exacte et sa possible conservation lors de copies, synchronisations ou restaurations n’ont pas été validées expérimentalement. Elle **ne prouve donc pas** qu’un document a été ouvert par une personne, ni qu’une opération s’est matériellement produite sur TP-03 à l’heure affichée.
++**Ce que signifie cette concordance :** elle constitue un rapprochement technique précis et répété, qui mérite d’être expliqué. Mais la « date de dernière utilisation » est ici **une métadonnée retrouvée dans une sauvegarde réalisée après les faits, et non un journal d’activité enregistré en direct le 15 octobre 2024**. Les données disponibles ne permettent pas de déterminer si cette valeur a été produite localement à cette heure ou conservée lors d’une copie, d’une synchronisation ou d’une restauration. Elle **ne prouve donc pas** qu’un document a été ouvert par une personne, ni qu’une opération s’est matériellement produite sur TP-03 à l’heure affichée.
+ 
+ **2. Pourquoi TP-03 attire davantage l’attention, sans être identifié comme source certaine**
+ 
+@@ -169,6 +169,8 @@
+ Certains fichiers examinés dans la sauvegarde sont soumis à une protection iOS qui, dans certaines conditions, nécessite un premier déverrouillage après redémarrage avant de permettre un accès local à leur contenu. Toutefois, les conditions exactes dans lesquelles les traces ont été produites ou conservées en 2024 ne sont pas établies.
+ 
+ **Aucun événement explicite ne prouve un premier déverrouillage, une consultation humaine des PDF, une ouverture du menu de partage, une impression ou une extraction le 15 octobre.** Les heures des vidéos et celles des appareils n’ont pas été comparées à une référence commune permettant de certifier leur parfaite concordance. Voir les [contrôles détaillés de TP-03](telephones/analyse-TP-03.md#73-premier-déverrouillage-après-redémarrage--investigation-b).
++
++**Réponse à Q3 — iCloud et origine des doublons.** Dans l’état sauvegardé de TP-03, le contenu des PDF examinés est normalement inaccessible avant la première authentification après redémarrage. Une synchronisation iCloud ne suffit donc pas à expliquer, à elle seule, un nouvel accès local à ce contenu avant cette authentification. Toutefois, une date de métadonnée ne prouve ni cet accès ni une création de PDF, et l’état historique du téléphone n’est pas établi. Les noms suffixés « 2 », « 3 » ou « 4 » ne permettent pas non plus de distinguer des enregistrements répétés d’un mécanisme de conflit iCloud. Aucun élément retrouvé n’identifie un tel conflit à l’origine des doublons. **La question reçoit donc une réponse sous réserve : le premier déverrouillage n’est pas démontré, l’origine exacte des doublons reste indéterminée et une contribution d’iCloud n’est ni confirmée ni exclue.** Voir les [sections 7.3 et 7.6 du rapport TP-03](telephones/analyse-TP-03.md#73-premier-déverrouillage-après-redémarrage--investigation-b) et le [complément B–E](inventaire-DNEF/rapports/Rapport_investigations_B_C_D_E_SADEDINE-2026.md).
+ 
+ **4. Le regroupement des PDF sur l’ordinateur est daté du 28 octobre**
+ 

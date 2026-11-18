@@ -1,5 +1,7 @@
 # Analyse des cartes SD
 
+**Actualisation documentaire du 17 novembre 2026.** Rectification de la date de remise au 7 octobre 2026 par document séparé ; les dates et résultats d’acquisition sont conservés.
+
 **Relecture de cohérence : 12 novembre 2026.** Harmonisation avec le [rapport final réorganisé](../RAPPORT-FINAL-SADEDINE-2026.md), sans nouvelle acquisition ni nouvelle analyse des supports. Les campagnes et décomptes techniques conservent leurs dates et leurs périmètres. Le détail de cette révision et les empreintes actuelles figurent dans le [dossier de relecture](../investigations/20261112-coherence-rapports/compte-rendu.md).
 
 ## Actualisation du 10 novembre 2026 — lecture courante
@@ -47,7 +49,7 @@ La marque est transcrite **« ScanDisk » dans l’attestation**, **« SanDisk �
 
 ### État antérieur
 
-Les notes indiquent une remise le **07/10/2026 à 16h15**, avec adaptateur USB ; l’[attestation](../remise-documents/attestation-de-remise.md) est datée du **06/10/2026**. Cette divergence documentaire reste non résolue.
+La remise effective est retenue au **07/10/2026 à 16 h 15**, avec adaptateur USB, conformément aux notes d’intervention. La date du **06/10/2026** portée sur l’[attestation d’origine](../remise-documents/attestation-de-remise.md) est rectifiée par le [rectificatif du 17 novembre 2026](../remise-documents/rectificatif-attestation-remise-20261117.md), à conserver avec cette attestation.
 
 Le prestataire a inscrit les numéros 1, 2 et 3 dessus, correspondant aux identifiants attribués lors de la remise du matériel:
 

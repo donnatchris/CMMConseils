@@ -1,0 +1,457 @@
+[
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "record": 893,
+    "id": 430,
+    "utc": "2024-10-28 10:18:34.352547",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>430</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:34.352547200Z\"/>\n    <EventRecordID>893</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"11552\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "record": 894,
+    "id": 400,
+    "utc": "2024-10-28 10:18:53.259736",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>400</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:53.259736200Z\"/>\n    <EventRecordID>894</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"9008\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n    <Data Name=\"DriverName\">usb.inf</Data>\n    <Data Name=\"ClassGuid\">{36FC9E60-C465-11CF-8056-444553540000}</Data>\n    <Data Name=\"DriverDate\">06/21/2006</Data>\n    <Data Name=\"DriverVersion\">10.0.22621.3672</Data>\n    <Data Name=\"DriverProvider\">Microsoft</Data>\n    <Data Name=\"DriverInbox\">true</Data>\n    <Data Name=\"DriverSection\">Composite.Dev.NT</Data>\n    <Data Name=\"DriverRank\">0x00ff2006</Data>\n    <Data Name=\"MatchingDeviceId\">USB\\COMPOSITE</Data>\n    <Data Name=\"OutrankedDrivers\"/>\n    <Data Name=\"DeviceUpdated\">false</Data>\n    <Data Name=\"Status\">0x00000000</Data>\n    <Data Name=\"ParentDeviceInstanceId\">USB\\VID_2109&amp;PID_2815\\5&amp;13260716&amp;0&amp;2</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "record": 895,
+    "id": 410,
+    "utc": "2024-10-28 10:18:53.276755",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>410</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:53.276755700Z\"/>\n    <EventRecordID>895</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"9008\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n    <Data Name=\"DriverName\">usb.inf</Data>\n    <Data Name=\"ClassGuid\">{36FC9E60-C465-11CF-8056-444553540000}</Data>\n    <Data Name=\"ServiceName\">usbccgp</Data>\n    <Data Name=\"LowerFilters\"/>\n    <Data Name=\"UpperFilters\"/>\n    <Data Name=\"Problem\">0x00000000</Data>\n    <Data Name=\"Status\">0x00000000</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "record": 897,
+    "id": 400,
+    "utc": "2024-10-28 10:18:53.428110",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>400</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:53.428110400Z\"/>\n    <EventRecordID>897</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"9008\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863&amp;MI_00\\7&amp;95c02d9&amp;0&amp;0000</Data>\n    <Data Name=\"DriverName\">wceisvista.inf</Data>\n    <Data Name=\"ClassGuid\">{4D36E972-E325-11CE-BFC1-08002BE10318}</Data>\n    <Data Name=\"DriverDate\">06/21/2006</Data>\n    <Data Name=\"DriverVersion\">10.0.22621.1</Data>\n    <Data Name=\"DriverProvider\">Microsoft</Data>\n    <Data Name=\"DriverInbox\">true</Data>\n    <Data Name=\"DriverSection\">RNDIS.NT.5.1</Data>\n    <Data Name=\"DriverRank\">0x00ff2003</Data>\n    <Data Name=\"MatchingDeviceId\">USB\\Class_e0&amp;SubClass_01&amp;Prot_03</Data>\n    <Data Name=\"OutrankedDrivers\"/>\n    <Data Name=\"DeviceUpdated\">false</Data>\n    <Data Name=\"Status\">0x00000000</Data>\n    <Data Name=\"ParentDeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "record": 898,
+    "id": 411,
+    "utc": "2024-10-28 10:18:53.467254",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>411</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:53.467254900Z\"/>\n    <EventRecordID>898</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"9008\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863&amp;MI_00\\7&amp;95c02d9&amp;0&amp;0000</Data>\n    <Data Name=\"DriverName\">wceisvista.inf</Data>\n    <Data Name=\"ClassGuid\">{4D36E972-E325-11CE-BFC1-08002BE10318}</Data>\n    <Data Name=\"ServiceName\">usbrndis6</Data>\n    <Data Name=\"LowerFilters\"/>\n    <Data Name=\"UpperFilters\"/>\n    <Data Name=\"Problem\">0x00000000</Data>\n    <Data Name=\"Status\">0xc00000e5</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "record": 901,
+    "id": 400,
+    "utc": "2024-10-28 10:35:44.468378",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>400</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:44.468378200Z\"/>\n    <EventRecordID>901</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"26416\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863&amp;RNdis\\7&amp;95c02d9&amp;0&amp;0000</Data>\n    <Data Name=\"DriverName\">wceisvista.inf</Data>\n    <Data Name=\"ClassGuid\">{4D36E972-E325-11CE-BFC1-08002BE10318}</Data>\n    <Data Name=\"DriverDate\">06/21/2006</Data>\n    <Data Name=\"DriverVersion\">10.0.22621.1</Data>\n    <Data Name=\"DriverProvider\">Microsoft</Data>\n    <Data Name=\"DriverInbox\">true</Data>\n    <Data Name=\"DriverSection\">RNDIS.NT.5.1</Data>\n    <Data Name=\"DriverRank\">0x00ff2000</Data>\n    <Data Name=\"MatchingDeviceId\">USB\\Class_e0&amp;SubClass_01&amp;Prot_03</Data>\n    <Data Name=\"OutrankedDrivers\"/>\n    <Data Name=\"DeviceUpdated\">false</Data>\n    <Data Name=\"Status\">0x00000000</Data>\n    <Data Name=\"ParentDeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "record": 902,
+    "id": 411,
+    "utc": "2024-10-28 10:35:44.470507",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>411</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:44.470507800Z\"/>\n    <EventRecordID>902</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"26416\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863&amp;RNdis\\7&amp;95c02d9&amp;0&amp;0000</Data>\n    <Data Name=\"DriverName\">wceisvista.inf</Data>\n    <Data Name=\"ClassGuid\">{4D36E972-E325-11CE-BFC1-08002BE10318}</Data>\n    <Data Name=\"ServiceName\">usbrndis6</Data>\n    <Data Name=\"LowerFilters\"/>\n    <Data Name=\"UpperFilters\"/>\n    <Data Name=\"Problem\">0x00000000</Data>\n    <Data Name=\"Status\">0xc00000e5</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "record": 903,
+    "id": 430,
+    "utc": "2024-10-28 10:47:30.816259",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>430</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:30.816259100Z\"/>\n    <EventRecordID>903</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"10576\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Configuration</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "record": 1463,
+    "id": 1010,
+    "utc": "2024-10-28 10:18:40.913986",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:40.913986600Z\"/>\n    <EventRecordID>1463</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"8228\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</Data>\n    <Data Name=\"DeviceCount\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "record": 1464,
+    "id": 1010,
+    "utc": "2024-10-28 10:18:52.905987",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:52.905987300Z\"/>\n    <EventRecordID>1464</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"8228\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</Data>\n    <Data Name=\"DeviceCount\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "record": 1469,
+    "id": 1000,
+    "utc": "2024-10-28 10:35:46.705873",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>1000</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:46.705873300Z\"/>\n    <EventRecordID>1469</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"26416\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863&amp;RNdis\\7&amp;95c02d9&amp;0&amp;0000</Data>\n    <Data Name=\"VetoType\">6</Data>\n    <Data Name=\"VetoName\">USB\\VID_04E8&amp;PID_6863&amp;RNdis\\7&amp;95c02d9&amp;0&amp;0000\\Driver\\usbrndis6</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "record": 1470,
+    "id": 1010,
+    "utc": "2024-10-28 10:47:30.419118",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:30.419118000Z\"/>\n    <EventRecordID>1470</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"14628\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n    <Data Name=\"DeviceCount\">2</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "record": 1471,
+    "id": 1010,
+    "utc": "2024-10-28 10:47:31.185233",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.185233200Z\"/>\n    <EventRecordID>1471</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"10576\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</Data>\n    <Data Name=\"DeviceCount\">3</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "record": 1493,
+    "id": 1010,
+    "utc": "2024-10-28 16:14:11.399631",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"{9C205A39-1250-487D-ABD7-E831C6290539}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T16:14:11.399631500Z\"/>\n    <EventRecordID>1493</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"27580\"/>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</Data>\n    <Data Name=\"DeviceCount\">2</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "record": 1760,
+    "id": 4042,
+    "utc": "2024-10-28 10:18:56.326888",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NCSI\" Guid=\"{314DE49F-CE63-4779-BA2B-D616F6963A88}\"/>\n    <EventID>4042</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:56.326888100Z\"/>\n    <EventRecordID>1760</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"8388\"/>\n    <Channel>Microsoft-Windows-NCSI/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{01D72DD1-9584-43CE-B52E-BC555D29936A}</Data>\n    <Data Name=\"IfLuid\">1689399716741120</Data>\n    <Data Name=\"Family\">0</Data>\n    <Data Name=\"Capability\">1</Data>\n    <Data Name=\"CapabilityChangeReason\">4</Data>\n    <Data Name=\"PreviousCapability\">0</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "record": 1761,
+    "id": 4042,
+    "utc": "2024-10-28 10:18:56.722328",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NCSI\" Guid=\"{314DE49F-CE63-4779-BA2B-D616F6963A88}\"/>\n    <EventID>4042</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:56.722328300Z\"/>\n    <EventRecordID>1761</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"15848\"/>\n    <Channel>Microsoft-Windows-NCSI/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{01D72DD1-9584-43CE-B52E-BC555D29936A}</Data>\n    <Data Name=\"IfLuid\">1689399716741120</Data>\n    <Data Name=\"Family\">0</Data>\n    <Data Name=\"Capability\">2</Data>\n    <Data Name=\"CapabilityChangeReason\">4</Data>\n    <Data Name=\"PreviousCapability\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "record": 1762,
+    "id": 4042,
+    "utc": "2024-10-28 10:35:44.416386",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NCSI\" Guid=\"{314DE49F-CE63-4779-BA2B-D616F6963A88}\"/>\n    <EventID>4042</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:44.416386100Z\"/>\n    <EventRecordID>1762</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"23488\"/>\n    <Channel>Microsoft-Windows-NCSI/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{01D72DD1-9584-43CE-B52E-BC555D29936A}</Data>\n    <Data Name=\"IfLuid\">1689399716741120</Data>\n    <Data Name=\"Family\">0</Data>\n    <Data Name=\"Capability\">0</Data>\n    <Data Name=\"CapabilityChangeReason\">14</Data>\n    <Data Name=\"PreviousCapability\">2</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "record": 1763,
+    "id": 4042,
+    "utc": "2024-10-28 10:47:32.497755",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NCSI\" Guid=\"{314DE49F-CE63-4779-BA2B-D616F6963A88}\"/>\n    <EventID>4042</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:32.497755300Z\"/>\n    <EventRecordID>1763</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"8460\"/>\n    <Channel>Microsoft-Windows-NCSI/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n    <Data Name=\"IfLuid\">1689399733518336</Data>\n    <Data Name=\"Family\">0</Data>\n    <Data Name=\"Capability\">2</Data>\n    <Data Name=\"CapabilityChangeReason\">4</Data>\n    <Data Name=\"PreviousCapability\">0</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "record": 1764,
+    "id": 4042,
+    "utc": "2024-10-28 15:27:50.346719",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NCSI\" Guid=\"{314DE49F-CE63-4779-BA2B-D616F6963A88}\"/>\n    <EventID>4042</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:50.346719400Z\"/>\n    <EventRecordID>1764</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"34200\"/>\n    <Channel>Microsoft-Windows-NCSI/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n    <Data Name=\"IfLuid\">1689399733518336</Data>\n    <Data Name=\"Family\">0</Data>\n    <Data Name=\"Capability\">0</Data>\n    <Data Name=\"CapabilityChangeReason\">14</Data>\n    <Data Name=\"PreviousCapability\">2</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "record": 1765,
+    "id": 4042,
+    "utc": "2024-10-28 15:27:53.817775",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NCSI\" Guid=\"{314DE49F-CE63-4779-BA2B-D616F6963A88}\"/>\n    <EventID>4042</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:53.817775500Z\"/>\n    <EventRecordID>1765</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"16424\"/>\n    <Channel>Microsoft-Windows-NCSI/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n    <Data Name=\"IfLuid\">1689399733518336</Data>\n    <Data Name=\"Family\">0</Data>\n    <Data Name=\"Capability\">2</Data>\n    <Data Name=\"CapabilityChangeReason\">4</Data>\n    <Data Name=\"PreviousCapability\">0</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "record": 1766,
+    "id": 4042,
+    "utc": "2024-10-28 16:14:11.744032",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NCSI\" Guid=\"{314DE49F-CE63-4779-BA2B-D616F6963A88}\"/>\n    <EventID>4042</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T16:14:11.744032600Z\"/>\n    <EventRecordID>1766</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"32200\"/>\n    <Channel>Microsoft-Windows-NCSI/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n    <Data Name=\"IfLuid\">1689399733518336</Data>\n    <Data Name=\"Family\">0</Data>\n    <Data Name=\"Capability\">0</Data>\n    <Data Name=\"CapabilityChangeReason\">14</Data>\n    <Data Name=\"PreviousCapability\">2</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7013,
+    "id": 4001,
+    "utc": "2024-10-28 10:18:54.195684",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>4001</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x4000200000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:54.195684800Z\"/>\n    <EventRecordID>7013</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"21544\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}</Data>\n    <Data Name=\"CurrentOrNextState\">0</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7015,
+    "id": 20002,
+    "utc": "2024-10-28 10:18:54.245367",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>20002</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:54.245367600Z\"/>\n    <EventRecordID>7015</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2064\" ThreadID=\"14444\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ProfileGuid\">{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}</Data>\n    <Data Name=\"InterfaceGuid\">{054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}</Data>\n    <Data Name=\"Category\">0</Data>\n    <Data Name=\"ErrorCodev4\">0</Data>\n    <Data Name=\"ErrorCodev6\">0</Data>\n    <Data Name=\"Context\">3178</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7017,
+    "id": 4001,
+    "utc": "2024-10-28 10:18:55.490336",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>4001</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x4000200000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:55.490336700Z\"/>\n    <EventRecordID>7017</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"21544\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{01D72DD1-9584-43CE-B52E-BC555D29936A}</Data>\n    <Data Name=\"CurrentOrNextState\">0</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7019,
+    "id": 20002,
+    "utc": "2024-10-28 10:18:55.498476",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>20002</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:55.498476500Z\"/>\n    <EventRecordID>7019</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2064\" ThreadID=\"14444\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ProfileGuid\">{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}</Data>\n    <Data Name=\"InterfaceGuid\">{01D72DD1-9584-43CE-B52E-BC555D29936A}</Data>\n    <Data Name=\"Category\">0</Data>\n    <Data Name=\"ErrorCodev4\">0</Data>\n    <Data Name=\"ErrorCodev6\">0</Data>\n    <Data Name=\"Context\">3178</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7020,
+    "id": 4002,
+    "utc": "2024-10-28 10:18:55.968446",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>4002</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>2</Opcode>\n    <Keywords>0x4001200000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:55.968446700Z\"/>\n    <EventRecordID>7020</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"21544\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{01D72DD1-9584-43CE-B52E-BC555D29936A}</Data>\n    <Data Name=\"CurrentOrNextState\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7024,
+    "id": 4001,
+    "utc": "2024-10-28 10:35:45.587904",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>4001</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x4000200000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:45.587904200Z\"/>\n    <EventRecordID>7024</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"7628\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{3FE87BE0-2003-4582-91EC-342B21078FBB}</Data>\n    <Data Name=\"CurrentOrNextState\">0</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7026,
+    "id": 20002,
+    "utc": "2024-10-28 10:35:45.600661",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>20002</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:45.600661600Z\"/>\n    <EventRecordID>7026</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2064\" ThreadID=\"27172\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ProfileGuid\">{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}</Data>\n    <Data Name=\"InterfaceGuid\">{3FE87BE0-2003-4582-91EC-342B21078FBB}</Data>\n    <Data Name=\"Category\">0</Data>\n    <Data Name=\"ErrorCodev4\">0</Data>\n    <Data Name=\"ErrorCodev6\">0</Data>\n    <Data Name=\"Context\">3178</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7027,
+    "id": 4002,
+    "utc": "2024-10-28 10:35:45.734917",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>4002</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>2</Opcode>\n    <Keywords>0x4001200000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:45.734917500Z\"/>\n    <EventRecordID>7027</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"7628\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{3FE87BE0-2003-4582-91EC-342B21078FBB}</Data>\n    <Data Name=\"CurrentOrNextState\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7031,
+    "id": 4001,
+    "utc": "2024-10-28 10:47:31.692898",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>4001</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x4000200000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.692898000Z\"/>\n    <EventRecordID>7031</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"14276\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n    <Data Name=\"CurrentOrNextState\">0</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7033,
+    "id": 20002,
+    "utc": "2024-10-28 10:47:31.702112",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>20002</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.702112000Z\"/>\n    <EventRecordID>7033</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2064\" ThreadID=\"25592\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ProfileGuid\">{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}</Data>\n    <Data Name=\"InterfaceGuid\">{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n    <Data Name=\"Category\">0</Data>\n    <Data Name=\"ErrorCodev4\">0</Data>\n    <Data Name=\"ErrorCodev6\">0</Data>\n    <Data Name=\"Context\">3178</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7034,
+    "id": 4002,
+    "utc": "2024-10-28 10:47:31.919272",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>4002</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>2</Opcode>\n    <Keywords>0x4001200000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.919272200Z\"/>\n    <EventRecordID>7034</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"14276\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n    <Data Name=\"CurrentOrNextState\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7039,
+    "id": 4001,
+    "utc": "2024-10-28 15:27:53.168336",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>4001</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x4000200000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:53.168336900Z\"/>\n    <EventRecordID>7039</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"27064\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n    <Data Name=\"CurrentOrNextState\">0</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7041,
+    "id": 20002,
+    "utc": "2024-10-28 15:27:53.179045",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>20002</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:53.179045300Z\"/>\n    <EventRecordID>7041</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2064\" ThreadID=\"11416\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ProfileGuid\">{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}</Data>\n    <Data Name=\"InterfaceGuid\">{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n    <Data Name=\"Category\">0</Data>\n    <Data Name=\"ErrorCodev4\">0</Data>\n    <Data Name=\"ErrorCodev6\">0</Data>\n    <Data Name=\"Context\">3178</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "record": 7042,
+    "id": 4002,
+    "utc": "2024-10-28 15:27:53.307685",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}\"/>\n    <EventID>4002</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>2</Opcode>\n    <Keywords>0x4001200000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:53.307685100Z\"/>\n    <EventRecordID>7042</EventRecordID>\n    <Correlation ActivityID=\"{B33B6C45-1B51-0002-E96C-3BB3511BDB01}\"/>\n    <Execution ProcessID=\"2064\" ThreadID=\"27064\"/>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-20\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n    <Data Name=\"CurrentOrNextState\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Operational.evtx",
+    "record": 17915,
+    "id": 1010,
+    "utc": "2024-10-28 10:18:58.833746",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBServer\" Guid=\"{D48CE617-33A2-4BC3-A5C7-11AA4F29619E}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1010</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000008</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:58.833746400Z\"/>\n    <EventRecordID>17915</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"1088\"/>\n    <Channel>Microsoft-Windows-SMBServer/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <EventData xmlns=\"Smb2Namespace\">\n      <NameLength>16</NameLength>\n      <Name>LAPTOP-RMCOB2VU </Name>\n      <DomainNameLength>9</DomainNameLength>\n      <DomainName>WORKGROUP</DomainName>\n      <TransportNameLength>58</TransportNameLength>\n      <TransportName>\\Device\\NetBT_Tcpip_{01D72DD1-9584-43CE-B52E-BC555D29936A}</TransportName>\n      <TransportFlags>0x00000001</TransportFlags>\n    </EventData>\n  </UserData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Operational.evtx",
+    "record": 17919,
+    "id": 1011,
+    "utc": "2024-10-28 10:35:44.043033",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBServer\" Guid=\"{D48CE617-33A2-4BC3-A5C7-11AA4F29619E}\"/>\n    <EventID>1011</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1011</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000008</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:44.043033600Z\"/>\n    <EventRecordID>17919</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"17508\"/>\n    <Channel>Microsoft-Windows-SMBServer/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <EventData xmlns=\"Smb2Namespace\">\n      <NameLength>0</NameLength>\n      <Name/>\n      <DomainNameLength>0</DomainNameLength>\n      <DomainName/>\n      <TransportNameLength>58</TransportNameLength>\n      <TransportName>\\Device\\NetBT_Tcpip_{01D72DD1-9584-43CE-B52E-BC555D29936A}</TransportName>\n    </EventData>\n  </UserData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Operational.evtx",
+    "record": 17932,
+    "id": 1010,
+    "utc": "2024-10-28 10:47:34.910319",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBServer\" Guid=\"{D48CE617-33A2-4BC3-A5C7-11AA4F29619E}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1010</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000008</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:34.910319800Z\"/>\n    <EventRecordID>17932</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"22604\"/>\n    <Channel>Microsoft-Windows-SMBServer/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <EventData xmlns=\"Smb2Namespace\">\n      <NameLength>16</NameLength>\n      <Name>LAPTOP-RMCOB2VU </Name>\n      <DomainNameLength>9</DomainNameLength>\n      <DomainName>WORKGROUP</DomainName>\n      <TransportNameLength>58</TransportNameLength>\n      <TransportName>\\Device\\NetBT_Tcpip_{479CF457-AF75-4CDC-8C88-124C0693B5F6}</TransportName>\n      <TransportFlags>0x00000001</TransportFlags>\n    </EventData>\n  </UserData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Operational.evtx",
+    "record": 17940,
+    "id": 1011,
+    "utc": "2024-10-28 15:27:50.056239",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBServer\" Guid=\"{D48CE617-33A2-4BC3-A5C7-11AA4F29619E}\"/>\n    <EventID>1011</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1011</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000008</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:50.056239600Z\"/>\n    <EventRecordID>17940</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"2480\"/>\n    <Channel>Microsoft-Windows-SMBServer/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <EventData xmlns=\"Smb2Namespace\">\n      <NameLength>0</NameLength>\n      <Name/>\n      <DomainNameLength>0</DomainNameLength>\n      <DomainName/>\n      <TransportNameLength>58</TransportNameLength>\n      <TransportName>\\Device\\NetBT_Tcpip_{479CF457-AF75-4CDC-8C88-124C0693B5F6}</TransportName>\n    </EventData>\n  </UserData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Operational.evtx",
+    "record": 17945,
+    "id": 1010,
+    "utc": "2024-10-28 15:27:56.186686",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBServer\" Guid=\"{D48CE617-33A2-4BC3-A5C7-11AA4F29619E}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1010</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000008</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:56.186686600Z\"/>\n    <EventRecordID>17945</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"18724\"/>\n    <Channel>Microsoft-Windows-SMBServer/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <EventData xmlns=\"Smb2Namespace\">\n      <NameLength>16</NameLength>\n      <Name>LAPTOP-RMCOB2VU </Name>\n      <DomainNameLength>9</DomainNameLength>\n      <DomainName>WORKGROUP</DomainName>\n      <TransportNameLength>58</TransportNameLength>\n      <TransportName>\\Device\\NetBT_Tcpip_{479CF457-AF75-4CDC-8C88-124C0693B5F6}</TransportName>\n      <TransportFlags>0x00000001</TransportFlags>\n    </EventData>\n  </UserData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Operational.evtx",
+    "record": 17952,
+    "id": 1011,
+    "utc": "2024-10-28 16:14:11.453361",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBServer\" Guid=\"{D48CE617-33A2-4BC3-A5C7-11AA4F29619E}\"/>\n    <EventID>1011</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1011</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000008</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T16:14:11.453361800Z\"/>\n    <EventRecordID>17952</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"4492\"/>\n    <Channel>Microsoft-Windows-SMBServer/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <EventData xmlns=\"Smb2Namespace\">\n      <NameLength>0</NameLength>\n      <Name/>\n      <DomainNameLength>0</DomainNameLength>\n      <DomainName/>\n      <TransportNameLength>58</TransportNameLength>\n      <TransportName>\\Device\\NetBT_Tcpip_{479CF457-AF75-4CDC-8C88-124C0693B5F6}</TransportName>\n    </EventData>\n  </UserData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "record": 7887,
+    "id": 30812,
+    "utc": "2024-10-28 10:18:55.791189",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBClient\" Guid=\"{988C59C5-0A1C-45B6-A555-0C62276E327D}\"/>\n    <EventID>30812</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0400000000000040</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:55.791189800Z\"/>\n    <EventRecordID>7887</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"14628\"/>\n    <Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ServerNameLength\">58</Data>\n    <Data Name=\"ServerName\">\\Device\\NetBT_Tcpip_{01D72DD1-9584-43CE-B52E-BC555D29936A}</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "record": 7889,
+    "id": 30813,
+    "utc": "2024-10-28 10:35:44.028639",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBClient\" Guid=\"{988C59C5-0A1C-45B6-A555-0C62276E327D}\"/>\n    <EventID>30813</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0400000000000040</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:44.028639700Z\"/>\n    <EventRecordID>7889</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"4372\"/>\n    <Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ServerNameLength\">58</Data>\n    <Data Name=\"ServerName\">\\Device\\NetBT_Tcpip_{01D72DD1-9584-43CE-B52E-BC555D29936A}</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "record": 7896,
+    "id": 30812,
+    "utc": "2024-10-28 10:47:31.859031",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBClient\" Guid=\"{988C59C5-0A1C-45B6-A555-0C62276E327D}\"/>\n    <EventID>30812</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0400000000000040</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.859031800Z\"/>\n    <EventRecordID>7896</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"26420\"/>\n    <Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ServerNameLength\">58</Data>\n    <Data Name=\"ServerName\">\\Device\\NetBT_Tcpip_{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "record": 7900,
+    "id": 30813,
+    "utc": "2024-10-28 15:27:50.043479",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBClient\" Guid=\"{988C59C5-0A1C-45B6-A555-0C62276E327D}\"/>\n    <EventID>30813</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0400000000000040</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:50.043479400Z\"/>\n    <EventRecordID>7900</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"15820\"/>\n    <Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ServerNameLength\">58</Data>\n    <Data Name=\"ServerName\">\\Device\\NetBT_Tcpip_{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "record": 7903,
+    "id": 30812,
+    "utc": "2024-10-28 15:27:53.148974",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBClient\" Guid=\"{988C59C5-0A1C-45B6-A555-0C62276E327D}\"/>\n    <EventID>30812</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0400000000000040</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T15:27:53.148974500Z\"/>\n    <EventRecordID>7903</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"30428\"/>\n    <Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ServerNameLength\">58</Data>\n    <Data Name=\"ServerName\">\\Device\\NetBT_Tcpip_{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "record": 7906,
+    "id": 30813,
+    "utc": "2024-10-28 16:14:11.418519",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBClient\" Guid=\"{988C59C5-0A1C-45B6-A555-0C62276E327D}\"/>\n    <EventID>30813</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x0400000000000040</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T16:14:11.418519400Z\"/>\n    <EventRecordID>7906</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"4\" ThreadID=\"5584\"/>\n    <Channel>Microsoft-Windows-SmbClient/Connectivity</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ServerNameLength\">58</Data>\n    <Data Name=\"ServerName\">\\Device\\NetBT_Tcpip_{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "record": 5486,
+    "id": 1009,
+    "utc": "2024-10-28 10:18:53.813548",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Wcmsvc\" Guid=\"{67D07935-283A-4791-8F8D-FA9117F3E6F2}\"/>\n    <EventID>1009</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:53.813548100Z\"/>\n    <EventRecordID>5486</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2056\" ThreadID=\"16424\"/>\n    <Channel>Microsoft-Windows-Wcmsvc/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-19\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}</Data>\n    <Data Name=\"MediaType\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "record": 5487,
+    "id": 1020,
+    "utc": "2024-10-28 10:18:53.835581",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Wcmsvc\" Guid=\"{67D07935-283A-4791-8F8D-FA9117F3E6F2}\"/>\n    <EventID>1020</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:53.835581000Z\"/>\n    <EventRecordID>5487</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2056\" ThreadID=\"16424\"/>\n    <Channel>Microsoft-Windows-Wcmsvc/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-19\"/>\n  </System>\n  <EventData>\n    <Data Name=\"WCM Preferred Order List\">0: {054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}, Ethernet, 1\n1: {C38C6FCC-BC87-4A59-AF25-14E1B6BB89A5}, Ethernet, 1\n2: {1A69A477-9ABB-44EA-AE41-A04DCADCBFDB}, Ethernet, 1\n3: {5665DF60-23A6-4890-B13E-7C6FD488505C}, WcmWlanCspProfile, 2\n</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "record": 5489,
+    "id": 1010,
+    "utc": "2024-10-28 10:18:55.488710",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Wcmsvc\" Guid=\"{67D07935-283A-4791-8F8D-FA9117F3E6F2}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:55.488710000Z\"/>\n    <EventRecordID>5489</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2056\" ThreadID=\"16424\"/>\n    <Channel>Microsoft-Windows-Wcmsvc/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-19\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}</Data>\n    <Data Name=\"MediaType\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "record": 5490,
+    "id": 1009,
+    "utc": "2024-10-28 10:18:55.497821",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Wcmsvc\" Guid=\"{67D07935-283A-4791-8F8D-FA9117F3E6F2}\"/>\n    <EventID>1009</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:55.497821200Z\"/>\n    <EventRecordID>5490</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2056\" ThreadID=\"16424\"/>\n    <Channel>Microsoft-Windows-Wcmsvc/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-19\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{01D72DD1-9584-43CE-B52E-BC555D29936A}</Data>\n    <Data Name=\"MediaType\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "record": 5491,
+    "id": 1020,
+    "utc": "2024-10-28 10:18:55.593438",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Wcmsvc\" Guid=\"{67D07935-283A-4791-8F8D-FA9117F3E6F2}\"/>\n    <EventID>1020</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:55.593438000Z\"/>\n    <EventRecordID>5491</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2056\" ThreadID=\"16424\"/>\n    <Channel>Microsoft-Windows-Wcmsvc/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-19\"/>\n  </System>\n  <EventData>\n    <Data Name=\"WCM Preferred Order List\">0: {01D72DD1-9584-43CE-B52E-BC555D29936A}, Ethernet, 1\n1: {054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}, Ethernet, 1\n2: {C38C6FCC-BC87-4A59-AF25-14E1B6BB89A5}, Ethernet, 1\n3: {1A69A477-9ABB-44EA-AE41-A04DCADCBFDB}, Ethernet, 1\n4: {5665DF60-23A6-4890-B13E-7C6FD488505C}, WcmWlanCspProfile, 2\n</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "record": 5495,
+    "id": 1009,
+    "utc": "2024-10-28 10:35:45.329523",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Wcmsvc\" Guid=\"{67D07935-283A-4791-8F8D-FA9117F3E6F2}\"/>\n    <EventID>1009</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:45.329523800Z\"/>\n    <EventRecordID>5495</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2056\" ThreadID=\"14092\"/>\n    <Channel>Microsoft-Windows-Wcmsvc/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-19\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{3FE87BE0-2003-4582-91EC-342B21078FBB}</Data>\n    <Data Name=\"MediaType\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "record": 5496,
+    "id": 1020,
+    "utc": "2024-10-28 10:35:45.667351",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Wcmsvc\" Guid=\"{67D07935-283A-4791-8F8D-FA9117F3E6F2}\"/>\n    <EventID>1020</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:45.667351600Z\"/>\n    <EventRecordID>5496</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2056\" ThreadID=\"14092\"/>\n    <Channel>Microsoft-Windows-Wcmsvc/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-19\"/>\n  </System>\n  <EventData>\n    <Data Name=\"WCM Preferred Order List\">0: {3FE87BE0-2003-4582-91EC-342B21078FBB}, Ethernet, 1\n1: {01D72DD1-9584-43CE-B52E-BC555D29936A}, Ethernet, 1\n2: {054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}, Ethernet, 1\n3: {C38C6FCC-BC87-4A59-AF25-14E1B6BB89A5}, Ethernet, 1\n4: {1A69A477-9ABB-44EA-AE41-A04DCADCBFDB}, Ethernet, 1\n5: {5665DF60-23A6-4890-B13E-7C6FD488505C}, WcmWlanCspProfile, 2\n</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "record": 5498,
+    "id": 1010,
+    "utc": "2024-10-28 10:47:30.492729",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Wcmsvc\" Guid=\"{67D07935-283A-4791-8F8D-FA9117F3E6F2}\"/>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:30.492729200Z\"/>\n    <EventRecordID>5498</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2056\" ThreadID=\"17484\"/>\n    <Channel>Microsoft-Windows-Wcmsvc/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-19\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{3FE87BE0-2003-4582-91EC-342B21078FBB}</Data>\n    <Data Name=\"MediaType\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "record": 5499,
+    "id": 1009,
+    "utc": "2024-10-28 10:47:31.603496",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Wcmsvc\" Guid=\"{67D07935-283A-4791-8F8D-FA9117F3E6F2}\"/>\n    <EventID>1009</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.603496100Z\"/>\n    <EventRecordID>5499</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2056\" ThreadID=\"17484\"/>\n    <Channel>Microsoft-Windows-Wcmsvc/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-19\"/>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">{479CF457-AF75-4CDC-8C88-124C0693B5F6}</Data>\n    <Data Name=\"MediaType\">1</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "record": 5500,
+    "id": 1020,
+    "utc": "2024-10-28 10:47:31.621370",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Wcmsvc\" Guid=\"{67D07935-283A-4791-8F8D-FA9117F3E6F2}\"/>\n    <EventID>1020</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.621370900Z\"/>\n    <EventRecordID>5500</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"2056\" ThreadID=\"17484\"/>\n    <Channel>Microsoft-Windows-Wcmsvc/Operational</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-19\"/>\n  </System>\n  <EventData>\n    <Data Name=\"WCM Preferred Order List\">0: {479CF457-AF75-4CDC-8C88-124C0693B5F6}, Ethernet, 1\n1: {3FE87BE0-2003-4582-91EC-342B21078FBB}, Ethernet, 1\n2: {01D72DD1-9584-43CE-B52E-BC555D29936A}, Ethernet, 1\n3: {054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}, Ethernet, 1\n4: {C38C6FCC-BC87-4A59-AF25-14E1B6BB89A5}, Ethernet, 1\n5: {1A69A477-9ABB-44EA-AE41-A04DCADCBFDB}, Ethernet, 1\n6: {5665DF60-23A6-4890-B13E-7C6FD488505C}, WcmWlanCspProfile, 2\n</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "System.evtx",
+    "record": 37533,
+    "id": 10000,
+    "utc": "2024-10-28 10:18:34.688206",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DriverFrameworks-UserMode\" Guid=\"{2E35AAEB-857F-4BEB-A418-2E6C0E54D988}\"/>\n    <EventID>10000</EventID>\n    <Version>1</Version>\n    <Level>4</Level>\n    <Task>48</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x2000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:34.688206700Z\"/>\n    <EventRecordID>37533</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"312\" ThreadID=\"6056\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <UMDFDeviceInstallBegin xmlns=\"http://www.microsoft.com/DriverFrameworks/UserMode/Event\">\n      <DeviceId>USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</DeviceId>\n      <FrameworkVersion>2.33.0</FrameworkVersion>\n    </UMDFDeviceInstallBegin>\n  </UserData>\n</Event>\n"
+  },
+  {
+    "source": "System.evtx",
+    "record": 37536,
+    "id": 20003,
+    "utc": "2024-10-28 10:18:34.734520",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-UserPnp\" Guid=\"{96F4A050-7E31-453C-88BE-9634F4E02139}\"/>\n    <EventID>20003</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>7005</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:34.734520900Z\"/>\n    <EventRecordID>37536</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"312\" ThreadID=\"6056\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <AddServiceID xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/userpnp\">\n      <ServiceName>WUDFWpdMtp</ServiceName>\n      <DriverFileName>\\SystemRoot\\system32\\DRIVERS\\WUDFRd.sys</DriverFileName>\n      <DeviceInstanceID>USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</DeviceInstanceID>\n      <PrimaryService>true</PrimaryService>\n      <UpdateService>true</UpdateService>\n      <AddServiceStatus>0</AddServiceStatus>\n    </AddServiceID>\n  </UserData>\n</Event>\n"
+  },
+  {
+    "source": "System.evtx",
+    "record": 37537,
+    "id": 20003,
+    "utc": "2024-10-28 10:18:34.739563",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-UserPnp\" Guid=\"{96F4A050-7E31-453C-88BE-9634F4E02139}\"/>\n    <EventID>20003</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>7005</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:34.739563000Z\"/>\n    <EventRecordID>37537</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"312\" ThreadID=\"6056\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <AddServiceID xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/userpnp\">\n      <ServiceName>WinUsb</ServiceName>\n      <DriverFileName>\\SystemRoot\\system32\\DRIVERS\\WinUsb.sys</DriverFileName>\n      <DeviceInstanceID>USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</DeviceInstanceID>\n      <PrimaryService>false</PrimaryService>\n      <UpdateService>true</UpdateService>\n      <AddServiceStatus>0</AddServiceStatus>\n    </AddServiceID>\n  </UserData>\n</Event>\n"
+  },
+  {
+    "source": "System.evtx",
+    "record": 37541,
+    "id": 7045,
+    "utc": "2024-10-28 10:18:53.383523",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Service Control Manager\" Guid=\"{555908d1-a6d7-4695-8e1e-26931d2012f4}\" EventSourceName=\"Service Control Manager\"/>\n    <EventID Qualifiers=\"16384\">7045</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8080000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:53.383523900Z\"/>\n    <EventRecordID>37541</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"1072\" ThreadID=\"2968\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"ServiceName\">USB RNDIS6 Adapter</Data>\n    <Data Name=\"ImagePath\">\\SystemRoot\\System32\\drivers\\usb80236.sys</Data>\n    <Data Name=\"ServiceType\">pilote en mode noyau</Data>\n    <Data Name=\"StartType\">Démarrage à la demande</Data>\n    <Data Name=\"AccountName\"/>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "System.evtx",
+    "record": 37542,
+    "id": 10317,
+    "utc": "2024-10-28 10:18:55.211463",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NDIS\" Guid=\"{CDEAD503-17F5-4A3E-B7AE-DF8CC2902EB9}\"/>\n    <EventID>10317</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>2</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000004016</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:18:55.211463400Z\"/>\n    <EventRecordID>37542</EventRecordID>\n    <Correlation ActivityID=\"{054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}\"/>\n    <Execution ProcessID=\"19964\" ThreadID=\"11372\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"IfGuid\">{054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}</Data>\n    <Data Name=\"IfIndex\">48</Data>\n    <Data Name=\"IfLuid\">282024732524544</Data>\n    <Data Name=\"AdapterName\">Remote NDIS based Internet Sharing Device</Data>\n    <Data Name=\"MiniportEventEnum\">76</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "System.evtx",
+    "record": 37650,
+    "id": 20003,
+    "utc": "2024-10-28 10:35:43.981068",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-UserPnp\" Guid=\"{96F4A050-7E31-453C-88BE-9634F4E02139}\"/>\n    <EventID>20003</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>7005</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:43.981068600Z\"/>\n    <EventRecordID>37650</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"25368\" ThreadID=\"9496\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <AddServiceID xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/userpnp\">\n      <ServiceName>dg_ssudbus</ServiceName>\n      <DriverFileName>\\SystemRoot\\system32\\DRIVERS\\ssudbus2.sys</DriverFileName>\n      <DeviceInstanceID>USB\\VID_04E8&amp;PID_6863\\R58RB2ETQER</DeviceInstanceID>\n      <PrimaryService>true</PrimaryService>\n      <UpdateService>false</UpdateService>\n      <AddServiceStatus>0</AddServiceStatus>\n    </AddServiceID>\n  </UserData>\n</Event>\n"
+  },
+  {
+    "source": "System.evtx",
+    "record": 37651,
+    "id": 10317,
+    "utc": "2024-10-28 10:35:46.621967",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NDIS\" Guid=\"{CDEAD503-17F5-4A3E-B7AE-DF8CC2902EB9}\"/>\n    <EventID>10317</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>2</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000004016</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:35:46.621967700Z\"/>\n    <EventRecordID>37651</EventRecordID>\n    <Correlation ActivityID=\"{3FE87BE0-2003-4582-91EC-342B21078FBB}\"/>\n    <Execution ProcessID=\"24444\" ThreadID=\"24760\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <EventData>\n    <Data Name=\"IfGuid\">{3FE87BE0-2003-4582-91EC-342B21078FBB}</Data>\n    <Data Name=\"IfIndex\">48</Data>\n    <Data Name=\"IfLuid\">282024732524544</Data>\n    <Data Name=\"AdapterName\">Remote NDIS based Internet Sharing Device #2</Data>\n    <Data Name=\"MiniportEventEnum\">76</Data>\n  </EventData>\n</Event>\n"
+  },
+  {
+    "source": "System.evtx",
+    "record": 37669,
+    "id": 20003,
+    "utc": "2024-10-28 10:47:31.118737",
+    "xml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-UserPnp\" Guid=\"{96F4A050-7E31-453C-88BE-9634F4E02139}\"/>\n    <EventID>20003</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>7005</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-10-28T10:47:31.118737500Z\"/>\n    <EventRecordID>37669</EventRecordID>\n    <Correlation/>\n    <Execution ProcessID=\"27256\" ThreadID=\"16100\"/>\n    <Channel>System</Channel>\n    <Computer>LAPTOP-RMCOB2VU</Computer>\n    <Security UserID=\"S-1-5-18\"/>\n  </System>\n  <UserData>\n    <AddServiceID xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/userpnp\">\n      <ServiceName>dg_ssudbus</ServiceName>\n      <DriverFileName>\\SystemRoot\\system32\\DRIVERS\\ssudbus2.sys</DriverFileName>\n      <DeviceInstanceID>USB\\VID_04E8&amp;PID_6860\\R58RB2ETQER</DeviceInstanceID>\n      <PrimaryService>true</PrimaryService>\n      <UpdateService>true</UpdateService>\n      <AddServiceStatus>0</AddServiceStatus>\n    </AddServiceID>\n  </UserData>\n</Event>\n"
+  }
+]

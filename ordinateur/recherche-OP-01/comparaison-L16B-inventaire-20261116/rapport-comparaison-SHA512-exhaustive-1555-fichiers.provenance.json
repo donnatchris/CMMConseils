@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-11-16T14:22:11.344555+00:00",
+  "report": "rapport-comparaison-SHA512-exhaustive-1555-fichiers.md",
+  "report_sha256": "a46f0d791298578d8aa16a016810615a051d52f0422e4e913a734ab79bb1e702",
+  "comparison_count": 1555,
+  "results": {
+    "IDENTIQUE": 1552,
+    "DIVERGENT": 3
+  },
+  "sources": [
+    {
+      "path": "/mnt/data/codeProjects/DMMConseils/inventaire-DNEF/documents-recus/Inventaire_saddedine.csv",
+      "sha256": "f2a4e9d05cca5c7b8082da42df76fca45e870f3e3acbbdf6ff03c07e68293c40"
+    },
+    {
+      "path": "/mnt/data/codeProjects/DMMConseils/ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/comparaison-SHA512-tous-les-fichiers.csv",
+      "sha256": "2695e8a45ed116480d6c3c192b5b11c25f14cc8869084df1d7cb18d8464e91e0"
+    },
+    {
+      "path": "/mnt/data/codeProjects/DMMConseils/ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/resultats-comparaison-L16B-inventaire.json",
+      "sha256": "3ef6deb41e592d8f0320fbdf9bf6c488306b5d337cf5f9a88db08147d5665ad5"
+    }
+  ],
+  "builder_sha256": "7c53e496f6efccf71049e1afaf19b1335fbeeed47e9065faaf18d3363fc7a13c"
+}

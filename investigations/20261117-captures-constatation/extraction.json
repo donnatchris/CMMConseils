@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-17",
+  "source_video": "cartes_sd/recherche-SD-03/20261016/prive/extraits/714049792_20241015_132449_10_0102.mp4",
+  "source_sha256_before": "d107cd71085fd582a6401538a73b17de440d221f3372eef2fb93bc39ad964be9",
+  "source_sha256_after": "d107cd71085fd582a6401538a73b17de440d221f3372eef2fb93bc39ad964be9",
+  "method": "Première image dont le PTS est supérieur ou égal au temps demandé ; décodage FFmpeg, PNG sans perte, bandeau ajouté hors du cadre original.",
+  "ffmpeg_command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-i",
+    "/mnt/data/codeProjects/DMMConseils/cartes_sd/recherche-SD-03/20261016/prive/extraits/714049792_20241015_132449_10_0102.mp4",
+    "-vf",
+    "select=eq(n\\,0)+eq(n\\,286)+eq(n\\,429)+eq(n\\,558)+eq(n\\,629)+eq(n\\,1143)",
+    "-fps_mode",
+    "vfr",
+    "/tmp/sadedine-captures-20261117/audit/images-sans-legende/image-%02d.png"
+  ],
+  "ffprobe_command": [
+    "ffprobe",
+    "-v",
+    "error",
+    "-select_streams",
+    "v:0",
+    "-show_frames",
+    "-show_entries",
+    "frame=best_effort_timestamp_time",
+    "-of",
+    "json",
+    "/mnt/data/codeProjects/DMMConseils/cartes_sd/recherche-SD-03/20261016/prive/extraits/714049792_20241015_132449_10_0102.mp4"
+  ],
+  "captures": [
+    {
+      "capture": "photos-de-constatation/constatation-01-00-00-00.png",
+      "requested_timecode": "00:00:00",
+      "requested_seconds": 0,
+      "frame_index_zero_based": 0,
+      "actual_pts_seconds": 0.0,
+      "label": "les téléphones sont en possession des agents",
+      "raw_sha256": "61d66daa8bd379e86ef996f4253defc4ed190334ec64e0af0d45febc63f8b8ed",
+      "annotated_sha256": "33384d258878a4f002bb4646c260f20fb96ba802dd973d0f7dd34425770663a4",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "output_dimensions": [
+        1920,
+        1280
+      ]
+    },
+    {
+      "capture": "photos-de-constatation/constatation-02-00-00-20.png",
+      "requested_timecode": "00:00:20",
+      "requested_seconds": 20,
+      "frame_index_zero_based": 286,
+      "actual_pts_seconds": 20.019,
+      "label": "Mme Sadedine quitte le salon",
+      "raw_sha256": "6a75601e84578fabbbed65553e9fd2786f422006a575274b9392450e412edb4e",
+      "annotated_sha256": "62f85f61099b02e5a2c33e2fe5db7b7dceb40f57d5bf995a34bad6b1ba495b72",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "output_dimensions": [
+        1920,
+        1280
+      ]
+    },
+    {
+      "capture": "photos-de-constatation/constatation-03-00-00-30.png",
+      "requested_timecode": "00:00:30",
+      "requested_seconds": 30,
+      "frame_index_zero_based": 429,
+      "actual_pts_seconds": 30.034,
+      "label": "Manipulation des téléphones",
+      "raw_sha256": "cb9b0a2503a78b9b864caefee8a2de31da1be54ae3dbb18aa2e91c0b60823ef2",
+      "annotated_sha256": "11f50993e81533415676ff2f1f59e021826152be22a1584ef8c48131238a3de2",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "output_dimensions": [
+        1920,
+        1280
+      ]
+    },
+    {
+      "capture": "photos-de-constatation/constatation-04-00-00-39.png",
+      "requested_timecode": "00:00:39",
+      "requested_seconds": 39,
+      "frame_index_zero_based": 558,
+      "actual_pts_seconds": 39.062,
+      "label": "Intervention de l’agent de PJ",
+      "raw_sha256": "eb1b56705ec409ce85eb47189d2885f9a04412fd25746edbdcb2525c5d9447ae",
+      "annotated_sha256": "07e5fe73d73659d60fc6197817c8a08ca35ca3623ecf408a6c9258991e0aaa1c",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "output_dimensions": [
+        1920,
+        1280
+      ]
+    },
+    {
+      "capture": "photos-de-constatation/constatation-05-00-00-44.png",
+      "requested_timecode": "00:00:44",
+      "requested_seconds": 44,
+      "frame_index_zero_based": 629,
+      "actual_pts_seconds": 44.032,
+      "label": "Apparition du logo Apple sur les téléphones",
+      "raw_sha256": "adbb3c1a503a463dcf516edc9c3d457e8c7bd8d55e7bcdbd85ea14a87e5b712a",
+      "annotated_sha256": "9125f9ccf163575553bef5c4ab6265238ec7eba7e7eb22c412c4f5e917aaafd5",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "output_dimensions": [
+        1920,
+        1280
+      ]
+    },
+    {
+      "capture": "photos-de-constatation/constatation-06-00-01-20.png",
+      "requested_timecode": "00:01:20",
+      "requested_seconds": 80,
+      "frame_index_zero_based": 1143,
+      "actual_pts_seconds": 80.018,
+      "label": "Retour de Mme Sadedine dans le salon",
+      "raw_sha256": "e24f75883039f295c4438a2f9652d2bed3b4db445faba7713198e66a9f293ced",
+      "annotated_sha256": "a300b711554439dbb300a4764413b9a3134c70ccad6682abb2b775934f2f63fe",
+      "source_dimensions": [
+        1920,
+        1080
+      ],
+      "output_dimensions": [
+        1920,
+        1280
+      ]
+    }
+  ],
+  "previous_documents": {
+    "NOTE-DE-CONSTATION.md": "c464d644b6305ceb8b00a375055b5404f5cddb693c73c169be3de9505fe6337a",
+    "pdfs/NOTE-DE-CONSTATION.pdf": "5226330e0d0e268dc593fbe039675938ae1b3260727cb2f1f9870a12e63ac94c"
+  }
+}

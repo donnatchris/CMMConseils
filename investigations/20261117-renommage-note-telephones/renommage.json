@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-17",
+  "rename": {
+    "from": "NOTE-DE-CONSTATION.md",
+    "to": "NOTE-DE-CONSTATION-téléphones.md",
+    "sha256": "bc4e901b5c3639685f0a72a98f3a21f81f0439cd8e80433ce49742eb85965b99"
+  },
+  "text_updates": [
+    {
+      "file": "RAPPORT-FINAL-SADEDINE-2026.md",
+      "replacements": 6
+    },
+    {
+      "file": "telephones/analyse-TP-01.md",
+      "replacements": 1
+    },
+    {
+      "file": "telephones/analyse-TP-02.md",
+      "replacements": 1
+    },
+    {
+      "file": "telephones/analyse-TP-03.md",
+      "replacements": 1
+    },
+    {
+      "file": "cartes_sd/analyse-cartes_sd-SD-03.md",
+      "replacements": 1
+    },
+    {
+      "file": "inventaire-DNEF/documents-recus/verification-20241015-1325-1351/Note_reponse_TP02_TP03_15oct2024.md",
+      "replacements": 1
+    }
+  ],
+  "pdf_updates": [
+    {
+      "file": "pdfs/RAPPORT-FINAL-SADEDINE-2026.pdf",
+      "links_updated": 8,
+      "pages": [
+        3,
+        10,
+        17,
+        28,
+        33
+      ],
+      "page_content_unchanged": true
+    }
+  ],
+  "checksum_updates": [
+    "RAPPORT-FINAL-SADEDINE-2026.md",
+    "pdfs/RAPPORT-FINAL-SADEDINE-2026.pdf"
+  ],
+  "before": {
+    "NOTE-DE-CONSTATION.md": "bc4e901b5c3639685f0a72a98f3a21f81f0439cd8e80433ce49742eb85965b99",
+    "RAPPORT-FINAL-SADEDINE-2026.md": "3a68e2b20009bbe34b7bae28162c44233102a88d3550c2afb2f2ab56d5371a35",
+    "telephones/analyse-TP-01.md": "31ffc6489932b4b4925bab70c6e0531d8bd90769206faebd52bd8f776cb52c93",
+    "telephones/analyse-TP-02.md": "d7631304e9238304885eca4ec3c4b96bed49b3aa8924b8c6ab96ff45ea2a589e",
+    "telephones/analyse-TP-03.md": "6d8151ff335ca08eca9a0e8f19dd00452f954a543dca4901c96b3168ff06a126",
+    "cartes_sd/analyse-cartes_sd-SD-03.md": "d52eb31209755ca1285a393e6d8cbb51234ef933e5b3602e9ec71dd6ae93f4de",
+    "inventaire-DNEF/documents-recus/verification-20241015-1325-1351/Note_reponse_TP02_TP03_15oct2024.md": "faf203e513898b19be65144a1f1c6a9c6b1cd789052404fd14d28c1d1fb1f36b",
+    "pdfs/RAPPORT-FINAL-SADEDINE-2026.pdf": "3f38fe1e332da0121b6bc46c4ad72ecdb8a43219752b39b31fa778682491924a",
+    "remise-documents/empreintes-controle-remise-20261117.sha256": "213e04ad400bb9c6f6ef67800690bc8d906324cd70786149fd131c11f11d6673"
+  },
+  "after": {
+    "NOTE-DE-CONSTATION-téléphones.md": "bc4e901b5c3639685f0a72a98f3a21f81f0439cd8e80433ce49742eb85965b99",
+    "RAPPORT-FINAL-SADEDINE-2026.md": "b51e4f2c27d48839207ee9a2027eb2c76e3e53832bdc3164f20a5200e82a8370",
+    "telephones/analyse-TP-01.md": "93ba4cd85c45aa508159b77a9d42742b0c3d892efdfaa91ed86c7b3d4935ff33",
+    "telephones/analyse-TP-02.md": "74a22fb88e8c241488ea1668ef850197dfc334db21f020d6576434c54ba2c0bb",
+    "telephones/analyse-TP-03.md": "b1581bfec0f3dfaf75badea37bdc935587af8ef4b72f6c991efda968c49e6657",
+    "cartes_sd/analyse-cartes_sd-SD-03.md": "35440baf94686b2caaeab73dc4d374676db723f6cd2398c9f6cf2712bc9bdee4",
+    "inventaire-DNEF/documents-recus/verification-20241015-1325-1351/Note_reponse_TP02_TP03_15oct2024.md": "adb0c9d551b0bb4616ac4b4c121e938abd3fcf6a61e6cb05a9c20e40ec3a78e6",
+    "pdfs/RAPPORT-FINAL-SADEDINE-2026.pdf": "b2e78266259d3430ec0a26d638b88661d2ad01be29967134b2359823b04f5b09",
+    "remise-documents/empreintes-controle-remise-20261117.sha256": "d876174b24ad9476b35eab82bd8c360bc0fd2edae2d1d87072fb7ef6ee07db1c"
+  }
+}

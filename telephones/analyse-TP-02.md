@@ -18,12 +18,14 @@ Les résultats portent sur une **sauvegarde logique chiffrée tardive**, pas sur
 
 **TP-02 conserve un faisceau d’indices datés avant l’ouverture des téléphones : traitements de services le 17 octobre vers 17:15–17:18, puis configuration et association Wi-Fi à `ASUS_Z01RD` vers 17:25, ainsi que 53 appels du 15 au 26. Cette chaîne Wi-Fi est la piste la plus informative d’une intervention possible, mais son attribution matérielle à TP-02 et son déclenchement humain restent non établis.**
 
+Le complément du **13 novembre 2026**, développé en section 6, précise que la séquence ASUS correspond davantage à une configuration suivie d’une connexion qu’à une simple arrivée de mot de passe par iCloud. Une nouvelle connexion reposant sur ce mot de passe suppose normalement un premier déverrouillage après redémarrage. Aucune restauration expliquant cette séquence n’a été identifiée, sans pouvoir être exclue. Sur OP-01, aucune connexion à ce réseau ni date de première détection n’est établie.
+
 | Domaine | Résultat technique | Portée et limite |
 |---|---|---|
 | **17 octobre** | Santé, Contacts, Messages, Téléphone et Photos enregistrent des traitements ; les propriétés Wi-Fi décrivent ensuite une chaîne de **4,672320 s**. | Soutient une activité de plusieurs services sur l’installation source ; ni démarrage ni déverrouillage démontré. |
 | **Appels** | **53 lignes**, dont **22 marquées sortantes sur huit jours et 19 à durée positive**. | L’origine matérielle n’est pas identifiée ; synchronisation ou restauration restent possibles. |
 | **27 octobre** | **3 123 dates de modification Photos** groupées vers 02:44–02:45, UTC+2. | Traitement groupé de bibliothèque possible ; pas 3 123 retouches ou consultations humaines. |
-| **28 octobre après 11:30** | Trois SMS de validation/réinitialisation avec dates de lecture, associations Wi-Fi, séquence compatible avec une capture d’écran et traitements Photos/LSC. | Après l’ouverture documentée ; ne prouve pas une manipulation sous scellé fermé. |
+| **28 octobre après 11:30** | Trois SMS de validation/réinitialisation avec dates de lecture, associations Wi-Fi, séquence compatible avec une capture d’écran et traitements Photos/LSC. | Après l’ouverture documentée ; ne prouve pas une manipulation sous scellé fermé. La cliente confirme avoir effectué elle-même la réinitialisation Microsoft et les validations Google ; ce point ne nécessite plus d’approfondissement à sa demande. |
 | **Provenance Photos** | Sept migrations et leur journal portent l’**UDID TP-02 exact**, avant et après octobre. | Renforce le rattachement historique de la lignée, sans rendre ses historiques intransportables. |
 | **WidgetKit** | Diagnostic portant un lancement le 17 et une capture le 28, avec compteurs temporels différents du calendrier. | Ne date ni un allumage ni un déverrouillage ; ne prouve ni erreur d’horloge ni sommeil prolongé. |
 | **Caméras et extraction** | Présence de ressources de panneau caméra et de configurations ; aucun flux consulté ou outil d’extraction d’octobre identifié. | Un cache ou une capacité du logiciel ne prouve pas l’utilisation de la fonction. |
@@ -178,6 +180,8 @@ Un sous-état Setup Assistant garde `hardwareModel=D79AP`, différent du modèle
 
 ## 6. Wi-Fi ASUS_Z01RD : chaîne conservée et limites d’attribution
 
+**Les traces datées du 17 octobre 2024 vers 17 h 25, pendant la période de conservation sous scellés, correspondent davantage à une configuration et à une connexion Wi-Fi qu’à une simple synchronisation de mot de passe depuis iCloud. Elles ne prouvent cependant pas avec certitude que le téléphone physique TP-02 a effectué cette connexion ce jour-là.** Les précisions ci-dessous intègrent le complément du 13 novembre 2026 ; les heures sont celles de Paris.
+
 ### 6.1. Propriétés et chronologie des deux fichiers
 
 Deux préférences déchiffrées contiennent les propriétés correspondantes :
@@ -208,7 +212,13 @@ Les doubles temporels natifs et leurs octets sont contrôlés : **une confusion 
 
 ### 6.2. Action locale, synchronisation et état restauré
 
+Pour se connecter réellement en Wi-Fi, un téléphone doit être à portée du point d’accès et pouvoir communiquer avec lui. Mais retrouver aujourd’hui une trace datée dans une sauvegarde ne suffit pas à certifier que le téléphone examiné a effectué l’opération à cette date : des informations anciennes peuvent avoir été importées ultérieurement.
+
+Les propriétés du 17 décrivent successivement la création d’une adresse Wi-Fi privée, une connexion étiquetée utilisateur, l’ajout du réseau depuis les paramètres Wi-Fi, puis une première association. **Cette séquence est compatible avec une personne sélectionnant le réseau dans les réglages du téléphone, puis s’y connectant.** Il s’agit de propriétés conservées dans deux fichiers, et non de quatre observations radio indépendantes prises sur le moment.
+
 La génération de MAC et le premier rattachement sont séparés de **4,672320 s**. La raison WiFi Settings, l’ordre des propriétés et l’ajout identique dans les deux structures appuient une configuration puis association sur l’installation source. Ces propriétés liées ne sont toutefois pas autant de témoins indépendants.
+
+Apple documente la synchronisation des mots de passe Wi-Fi entre appareils autorisés du même compte. Cette possibilité ne démontre pas que toutes les propriétés de connexion ci-dessus sont transportées de la même manière ([synchronisation sécurisée du trousseau](https://support.apple.com/en-ph/guide/security/sec0a319b35f/web)).
 
 La comparaison des **36 réseaux** fournit des contre-épreuves :
 
@@ -245,6 +255,46 @@ Le `LinkDownTimestamp` est le **28 à 19:40:02**, après la clôture/récupérat
 
 Aucune troisième source d’association indépendante n’est retrouvée : DataUsage n’a pas de couverture d’octobre et la copie Wi-Fi historique de 69 réseaux conserve des dates de 2017–2020, sans ASUS. Le SSID reste modifiable et copiable : **il ne désigne ni un propriétaire, ni un lieu, ni OP-01**.
 
+### 6.4. Téléphone rallumé : pourquoi le premier déverrouillage compte
+
+**Un téléphone simplement rallumé et un téléphone déjà déverrouillé une fois depuis son redémarrage ne sont pas dans le même état.** Sur un iPhone protégé par un code, Apple indique que les mots de passe Wi-Fi et le jeton d’accès iCloud deviennent accessibles après le premier déverrouillage. Cette disponibilité peut ensuite persister lorsque l’écran est de nouveau verrouillé, jusqu’au prochain redémarrage ([protection du trousseau](https://support.apple.com/en-ca/guide/security/secb0694df1a/web), [conditions d’accès aux éléments du trousseau](https://developer.apple.com/documentation/security/restricting-keychain-item-accessibility)).
+
+| État du téléphone | Conséquence pour le scénario étudié |
+|---|---|
+| **Rallumé, mais jamais déverrouillé depuis** | Il ne peut normalement pas utiliser un nouveau mot de passe Wi-Fi issu du trousseau iCloud pour établir la connexion. |
+| **Déverrouillé au moins une fois, puis écran reverrouillé** | Certaines synchronisations et opérations en arrière-plan peuvent continuer automatiquement. |
+
+La réception éventuelle de données chiffrées ne signifie pas qu’elles ont été déchiffrées et utilisées. Ces règles concernent l’utilisation des secrets nécessaires au scénario étudié ; elles ne signifient pas qu’aucun service ne puisse fonctionner avant le premier déverrouillage.
+
+**Si TP-02 a été rallumé le 15 octobre et n’a jamais été déverrouillé ensuite, une nouvelle connexion à ASUS_Z01RD grâce à la seule synchronisation d’un mot de passe iCloud ne constitue donc pas une explication suffisante.** Cette condition reste à vérifier : les traces disponibles ne datent pas un déverrouillage le 17 et ne certifient pas l’état du téléphone depuis le démarrage constaté dans la vidéo.
+
+### 6.5. Une restauration pourrait-elle expliquer les traces du 17 ?
+
+Une restauration peut remettre sur un téléphone des informations provenant d’une sauvegarde antérieure ou d’un autre appareil. Elle laisse généralement des traces de récupération ou de configuration, parfois accompagnées de migrations de bases et de changements groupés de fichiers. Leur conservation dans une sauvegarde réalisée longtemps après n’est toutefois pas garantie. Une migration de base ne prouve pas, à elle seule, une restauration complète.
+
+Dans TP-02, **une restauration iCloud du 11 juin 2024 à 14 h 00 min 31 s est documentée**, avec `WasCloudRestore=true` et une progression terminée. Elle ne peut pas expliquer à elle seule l’importation d’événements d’octobre, encore futurs au moment de cette restauration. **Aucune restauration ultérieure expliquant la séquence du 17 octobre n’a été identifiée** ; les éléments de continuité et leurs limites sont détaillés en section 5.3.
+
+Une restauration après le 17 octobre, y compris après la restitution du téléphone et avant la sauvegarde analysée, reste possible. Mais ni sa réalisation ni le transport exact de toute la chaîne Wi-Fi ASUS n’ont été démontrés. **La restauration est donc une explication possible non confirmée, et non un fait établi permettant d’écarter une connexion locale.**
+
+### 6.6. OP-01 : aucune première connexion à ASUS_Z01RD datable
+
+**Aucune connexion de l’ordinateur OP-01 à ASUS_Z01RD n’est démontrée.** Le contrôle complémentaire du 13 novembre 2026, réalisé sur SIFT dans l’image montée en lecture seule, confirme les résultats antérieurs :
+
+- **1 325 événements WLAN**, dont **57 connexions réussies**, sans occurrence d’ASUS_Z01RD ou des variantes recherchées ;
+- aucune occurrence dans les journaux NetworkProfile et NCSI contrôlés ;
+- aucune correspondance dans les **375 clés de registre réseau** parcourues ;
+- aucun profil correspondant parmi les **36 profils Wi-Fi XML** présents.
+
+Le nom apparaît dans le fichier d’échange Windows `pagefile.sys`. Les fragments reconstruits correspondent très probablement à des listes de réseaux Wi-Fi disponibles, avec des informations de signal. **Détecter un réseau à proximité ne signifie pas s’y connecter.** Ces fragments ne comportent pas d’horodatage exploitable permettant de dater leur présence.
+
+Il n’est donc possible de déterminer ni la première connexion d’OP-01 à ce réseau, ni la première détection conservée, ni la date de création ou d’activation du point d’accès. **Rien ne permet de situer son apparition au 28 octobre 2024.** Même une première connexion retrouvée ce jour-là ne daterait que le premier usage conservé sur cet ordinateur, pas la création du réseau. Les historiques disponibles ne sont pas exhaustifs ([recherche de datation](../ordinateur/recherche-OP-01/wifi-ASUS_Z01RD/datation.md), [nature des fragments mémoire](../ordinateur/recherche-OP-01/wifi-ASUS_Z01RD/origine/interpretation.md)).
+
+### 6.7. Portée du complément
+
+**L’hypothèse d’une configuration suivie d’une connexion locale le 17 octobre est mieux étayée que celle d’une simple arrivée de mot de passe par iCloud.** Aucun état restauré expliquant cette séquence n’a été identifié, mais cette possibilité ne peut pas être totalement écartée. Les contraintes du premier déverrouillage rendent insuffisant le scénario d’un téléphone seulement rallumé puis connecté grâce à un nouveau mot de passe synchronisé ; elles ne prouvent pas un déverrouillage à une date précise.
+
+**Ces éléments ne permettent pas d’affirmer avec certitude que l’iPhone physique TP-02 a été utilisé ou déverrouillé sous scellé le 17 octobre.** La présence du même nom de réseau dans OP-01 ne fournit pas de rapprochement daté indépendant permettant de trancher.
+
 ## 7. Communications
 
 ### 7.1. Historique d’appels
@@ -280,13 +330,15 @@ Les historiques Téléphone/FaceTime peuvent être synchronisés ou restaurés. 
 | **74689** | **12:10:04.455465** | **12:10:06.276798** | Code de validation Google |
 | **74690** | **12:46:03.902439** | **12:46:06.075801** | Code de validation Google |
 
-Les corps `attributedBody` sont contrôlés sans reproduire les codes. Les marques sont celles du texte, sans authentification de l’émetteur. **Ni demandeur, ni utilisation des codes, ni réussite d’une connexion ou réinitialisation ne sont établis.** Aucun de ces trois corps n’est un code Apple.
+**Précision de la cliente intégrée le 13 novembre 2026.** Dans son [courriel, point 3](../docs/mail-3.txt), Mme Sadedine confirme avoir effectué elle-même la réinitialisation Microsoft et les validations Google du **28 octobre 2024, entre 12 h 03 et 12 h 46**, car elle n’arrivait pas à se connecter pour l’administration. **Ces démarches sont expliquées par sa déclaration ; à sa demande, ce point ne nécessite pas d’approfondissement.**
+
+Les corps `attributedBody` sont contrôlés sans reproduire les codes. Les marques sont celles du texte, sans authentification de l’émetteur. **Les seules données techniques ne démontrent ni l’utilisation des codes ni la réussite d’une connexion ou réinitialisation ; l’attribution de ces démarches à la cliente repose sur sa confirmation.** Aucun de ces trois corps n’est un code Apple.
 
 Les dates de lecture sont distinctes et suivent la réception d’environ **4,043 s, 1,821 s et 2,173 s**. Les lignes portent `is_read=1`, `is_finished=1`, `is_delivered=1`, `date_delivered=0` et `ck_sync_state=1`. Le dernier champ ne date pas une synchronisation. Les dates `date_read` sont différentes du seul état actuel `is_read` ; pour ces SMS entrants, elles ne sont pas des accusés de lecture SMS adressés au correspondant.
 
 Une préférence clavier à **12:03:18.492020**, environ 302 ms avant le premier `date_read`, ne contient pas le texte saisi. Les essais de liaison n’établissent pas sa relation avec les messages. Aucun mécanisme validé ne montre ici qu’une simple notification remplit automatiquement `date_read`, ni que l’absence de notification dans un champ actuel exclut une notification historique.
 
-**Les dates de lecture sont vérifiées ; trois lectures humaines locales sur TP-02 ne le sont pas.** Marquage dans une application, autre appareil et état synchronisé/restauré restent à départager ; aucune session de transport explicative n’est positivement identifiée. Tous les horaires sont après l’ouverture à 11:30. Le contrôle avant ouverture ne sélectionne aucun SMS natif par date de message, lecture ou livraison.
+**Les dates de lecture sont vérifiées ; elles ne suffisent pas à démontrer trois lectures humaines locales sur TP-02.** La confirmation de la cliente explique les démarches Microsoft et Google ; les limites d’attribution technique du marquage comme lu ne justifient plus une investigation complémentaire sur ces trois SMS. Tous les horaires sont après l’ouverture à 11:30. Le contrôle avant ouverture ne sélectionne aucun SMS natif par date de message, lecture ou livraison.
 
 ### 7.3. WhatsApp
 
@@ -424,7 +476,7 @@ Le fichier d’échange Windows d’OP-01 contient **cinq occurrences ASCII exac
 
 **Le même nom existe dans les deux acquisitions**, mais aucun fragment du PC n’est daté. Les événements/profils WLAN contrôlés ne démontrent ni connexion d’OP-01 à ASUS, ni émission du réseau par ce PC, ni présence commune avec TP-02 le 17.
 
-Les recherches négatives dans les exports et les **1 325 enveloppes d’événements WLAN validées** du fichier actif portent sur des sources différentes du fichier d’échange. Elles ne fournissent pas une couverture continue de tous les usages. Le contrôle binaire n’est pas un décodage sémantique exhaustif de BinXML.
+Le contrôle complémentaire du **13 novembre 2026**, détaillé en section 6.6, confirme l’absence de correspondance dans les journaux réseau, le registre et les profils XML examinés. **Aucune première connexion ou première détection d’ASUS_Z01RD n’est datable, et le 28 octobre ne peut pas être retenu comme date d’apparition de ce réseau.** Les recherches dans ces sources sont distinctes de la reconstruction du fichier d’échange ; elles ne fournissent pas une couverture continue de tous les usages.
 
 Le SSID ne désigne donc ni un point d’accès unique, ni un propriétaire ou opérateur. La correspondance nominale est une piste de rapprochement, pas une attribution physique.
 
@@ -448,11 +500,11 @@ Les dates partagent potentiellement la même horloge source. WidgetKit ne la cal
 
 Les recherches restent sélectives : **3 945 fichiers déchiffrés sur 137 844 ordinaires** ; BLOB, formats propriétaires, tables nécessitant des extensions et candidats résiduels ne sont pas tous interprétés. Aucun carving physique ou récupération générale des secteurs supprimés n’est réalisé. La recherche interne SQLite est ciblée et ne récupère pas l’image de la possible capture.
 
-### 12.2. État d’alimentation et observation rapportée
+### 12.2. État d’alimentation et constat de visionnage
 
-Le prestataire rapporte que les vidéos du salon montrent une agente rallumant les téléphones le **15 octobre vers 13:25**, avant scellement ; la cliente situait ce geste vers 13:30 ou un peu avant. Le [rapport final](../RAPPORT-FINAL-SADEDINE-2026.md#12-téléphones-rallumés-avant-leur-mise-sous-scellés) distingue ce récit des seuls aperçus d’un clip commençant à 13:28. Aucun nouveau visionnage indépendant n’est revendiqué dans ce rapport.
+**Constat de visionnage :** la [note de constatation du 16 novembre 2026](../NOTE-DE-CONSTATION-téléphones.md) consigne, le **15 octobre 2024 à 13 h 25 min 19 s**, l’intervention sur les trois téléphones d’une femme identifiée par Mme Sadedine comme étant Mme Adam, avec apparition des logos Apple sur leurs écrans, caractéristique d’une séquence de démarrage d’iPhone. L’état à la fermeture des scellés et la continuité d’alimentation jusqu’au 28 octobre ne sont pas établis.
 
-Le récit rend compatible un fonctionnement automatique ultérieur, sans prouver l’état à la fermeture ou une continuité d’alimentation jusqu’au 28. Si une extinction à la fermeture était établie, une production locale ultérieure supposerait une reprise à expliquer ou une autre origine des traces. Ni le diagnostic WidgetKit ni le PV de déverrouillage ne prouvent un démarrage au moment de l’ouverture.
+Ce constat est compatible avec un fonctionnement automatique ultérieur, sans prouver l’état à la fermeture ou une continuité d’alimentation jusqu’au 28. Si une extinction à la fermeture était établie, une production locale ultérieure supposerait une reprise à expliquer ou une autre origine des traces. Ni le diagnostic WidgetKit ni le PV de déverrouillage ne prouvent un démarrage au moment de l’ouverture.
 
 ### 12.3. Éléments discriminants encore nécessaires
 
@@ -462,7 +514,7 @@ Le récit rend compatible un fonctionnement automatique ultérieur, sans prouver
 | Quel appareil s’est associé au réseau ASUS ? | Journal indépendant du point d’accès, BSSID et MAC cliente historiquement rattachée à TP-02 ; identité du point d’accès indépendante du SSID. |
 | Les historiques ont-ils été restaurés ? | Journal Mac, historique de migrations/restaurations et documents de conservation/alimentation. |
 | Quelle est l’origine physique des appels ? | Relevés opérateur avec IMEI/IMSI si disponibles, identifiants d’appels comparés entre acquisitions et traces radio contemporaines. |
-| Que signifient exactement les champs privés Wi-Fi et les dates de lecture ? | Expériences distinctes sur témoins de version pertinente : connexion manuelle, synchronisation, partage, migration et restauration ; aucune expérimentation sur les pièces. |
+| Que signifient exactement les champs privés Wi-Fi ? | Expériences distinctes sur témoins de version pertinente : connexion manuelle, synchronisation, partage, migration et restauration ; aucune expérimentation sur les pièces. Les trois SMS du 28 sont expliqués par la cliente et ne nécessitent plus d’approfondissement à sa demande. |
 | Les horloges étaient-elles exactes ? | Historique de correction ou observation contemporaine des compteurs et du calendrier, liée au matériel et à une référence indépendante. |
 
 La disponibilité de ces éléments n’est pas présumée. Les historiques de comptes et caméras doivent provenir de sources autorisées et réellement conservées ; les états locaux ne les remplacent pas.
@@ -471,7 +523,9 @@ La disponibilité de ces éléments n’est pas présumée. Les historiques de c
 
 **Les traces du 17 soutiennent des traitements de plusieurs services puis une configuration/association Wi-Fi sur l’installation source. Le faisceau Wi-Fi est plus précis qu’un simple nom de réseau ou une date utilisateur isolée. Il justifie de vérifier une intervention possible avant ouverture, sans certifier son origine physique sur TP-02 ni un geste humain.** Les 53 appels renforcent la question de l’origine des communications, sans l’établir.
 
-Après ouverture le 28, les SMS avec dates de lecture, la séquence compatible avec une capture d’écran, les associations Wi-Fi et les travaux Photos/LSC sont établis dans les données. **La possible capture n’est pas récupérée ; les codes SMS ne sont pas démontrés utilisés et aucune consultation de caméra n’est attestée.** Les marqueurs de retrait interne ne prouvent pas un effacement volontaire de preuves.
+Le complément sur ASUS précise qu’une simple arrivée de mot de passe iCloud n’explique pas suffisamment la séquence. L’utilisation normale d’un nouveau mot de passe synchronisé suppose un premier déverrouillage après redémarrage ; aucun déverrouillage daté du 17 ni restauration expliquant la séquence n’est cependant démontré. Sur OP-01, le même nom n’est pas rattaché à une connexion ou une détection datée.
+
+Après ouverture le 28, les SMS avec dates de lecture, la séquence compatible avec une capture d’écran, les associations Wi-Fi et les travaux Photos/LSC sont établis dans les données. **Mme Sadedine confirme avoir effectué elle-même la réinitialisation Microsoft et les validations Google pour se connecter pour l’administration ; à sa demande, ces trois SMS ne sont plus un point à approfondir** ([courriel, point 3](../docs/mail-3.txt)). **La possible capture n’est pas récupérée et aucune consultation de caméra n’est attestée.** Les marqueurs de retrait interne ne prouvent pas un effacement volontaire de preuves.
 
 Aucun auteur, déverrouillage daté sous scellé, extraction d’octobre ou rupture matérielle de scellé n’est identifié. Les pistes de transport d’historique, de fonctionnement automatique et d’horloge restent ouvertes, sans en choisir une comme fait certain. La sauvegarde ne permet ni d’affirmer une utilisation humaine sous scellé ni de certifier une inactivité complète.
 

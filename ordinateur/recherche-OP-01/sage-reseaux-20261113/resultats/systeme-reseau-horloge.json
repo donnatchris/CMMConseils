@@ -1,0 +1,176 @@
+[
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T09:41:56.500545900Z",
+    "paris": "2024-10-28T10:41:56.500545+01:00",
+    "provider": "Microsoft-Windows-Kernel-General",
+    "id": "1",
+    "record": "37448",
+    "version": "4",
+    "data": {
+      "NewTime": "2024-10-28T09:41:56.500000000Z",
+      "OldTime": "2024-10-15T08:53:08.371274500Z",
+      "TimeDeltaInMs": "1126128128",
+      "Reason": "2",
+      "ProcessName": null,
+      "ProcessID": "4",
+      "CmosTime": "2024-10-28T11:41:56.500000000Z",
+      "TimeZoneBias": "-2147483528",
+      "RealTimeIsUniversal": "false",
+      "SystemInCmosMode": "false"
+    }
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T09:41:56.643046300Z",
+    "paris": "2024-10-28T10:41:56.643046+01:00",
+    "provider": "Microsoft-Windows-Kernel-General",
+    "id": "1",
+    "record": "37451",
+    "version": "4",
+    "data": {
+      "NewTime": "2024-10-28T09:41:56.641729500Z",
+      "OldTime": "2024-10-28T09:41:56.641729500Z",
+      "TimeDeltaInMs": "0",
+      "Reason": "3",
+      "ProcessName": null,
+      "ProcessID": "4",
+      "CmosTime": "2024-10-28T10:41:56.641729500Z",
+      "TimeZoneBias": "-2147483588",
+      "RealTimeIsUniversal": "false",
+      "SystemInCmosMode": "false"
+    }
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:18:53.383523900Z",
+    "paris": "2024-10-28T11:18:53.383523+01:00",
+    "provider": "Service Control Manager",
+    "id": "7045",
+    "record": "37541",
+    "version": "0",
+    "data": {
+      "ServiceName": "USB RNDIS6 Adapter",
+      "ImagePath": "\\SystemRoot\\System32\\drivers\\usb80236.sys",
+      "ServiceType": "pilote en mode noyau",
+      "StartType": "Démarrage à la demande",
+      "AccountName": null
+    }
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:18:55.211463400Z",
+    "paris": "2024-10-28T11:18:55.211463+01:00",
+    "provider": "Microsoft-Windows-NDIS",
+    "id": "10317",
+    "record": "37542",
+    "version": "0",
+    "data": {
+      "IfGuid": "{054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}",
+      "IfIndex": "48",
+      "IfLuid": "282024732524544",
+      "AdapterName": "Remote NDIS based Internet Sharing Device",
+      "MiniportEventEnum": "76"
+    }
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:19:39.426893100Z",
+    "paris": "2024-10-28T11:19:39.426893+01:00",
+    "provider": "Microsoft-Windows-Time-Service",
+    "id": "37",
+    "record": "37547",
+    "version": "0",
+    "data": {
+      "TimeSource": "time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->51.145.123.29:123)"
+    }
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:19:30.191780900Z",
+    "paris": "2024-10-28T11:19:30.191780+01:00",
+    "provider": "Microsoft-Windows-Kernel-General",
+    "id": "1",
+    "record": "37549",
+    "version": "4",
+    "data": {
+      "NewTime": "2024-10-28T10:19:30.189093200Z",
+      "OldTime": "2024-10-28T10:19:39.427481600Z",
+      "TimeDeltaInMs": "-9223372036854766570",
+      "Reason": "1",
+      "ProcessName": "\\Device\\HarddiskVolume3\\Windows\\System32\\svchost.exe",
+      "ProcessID": "4844",
+      "CmosTime": "2024-10-28T11:19:30.189093200Z",
+      "TimeZoneBias": "-2147483588",
+      "RealTimeIsUniversal": "false",
+      "SystemInCmosMode": "false"
+    }
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:19:30.192844900Z",
+    "paris": "2024-10-28T11:19:30.192844+01:00",
+    "provider": "Microsoft-Windows-Time-Service",
+    "id": "35",
+    "record": "37550",
+    "version": "0",
+    "data": {
+      "TimeSource": "time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->51.145.123.29:123)",
+      "TimeSourceRefId": "494637363",
+      "CurrentStratumNumber": "4"
+    }
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:19:30.195592800Z",
+    "paris": "2024-10-28T11:19:30.195592+01:00",
+    "provider": "Microsoft-Windows-Kernel-General",
+    "id": "1",
+    "record": "37552",
+    "version": "4",
+    "data": {
+      "NewTime": "2024-10-28T10:19:30.192898600Z",
+      "OldTime": "2024-10-28T10:19:30.189093200Z",
+      "TimeDeltaInMs": "3",
+      "Reason": "1",
+      "ProcessName": "\\Device\\HarddiskVolume3\\Windows\\System32\\svchost.exe",
+      "ProcessID": "4844",
+      "CmosTime": "2024-10-28T11:19:30.192898600Z",
+      "TimeZoneBias": "-2147483588",
+      "RealTimeIsUniversal": "false",
+      "SystemInCmosMode": "false"
+    }
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:35:43.972378500Z",
+    "paris": "2024-10-28T11:35:43.972378+01:00",
+    "provider": "Service Control Manager",
+    "id": "7045",
+    "record": "37649",
+    "version": "0",
+    "data": {
+      "ServiceName": "SAMSUNG Mobile USB Composite Device Driver (DEVGURU Ver.)",
+      "ImagePath": "\\SystemRoot\\system32\\DRIVERS\\ssudbus2.sys",
+      "ServiceType": "pilote en mode noyau",
+      "StartType": "Démarrage à la demande",
+      "AccountName": null
+    }
+  },
+  {
+    "source": "System.evtx",
+    "utc": "2024-10-28T10:35:46.621967700Z",
+    "paris": "2024-10-28T11:35:46.621967+01:00",
+    "provider": "Microsoft-Windows-NDIS",
+    "id": "10317",
+    "record": "37651",
+    "version": "0",
+    "data": {
+      "IfGuid": "{3FE87BE0-2003-4582-91EC-342B21078FBB}",
+      "IfIndex": "48",
+      "IfLuid": "282024732524544",
+      "AdapterName": "Remote NDIS based Internet Sharing Device #2",
+      "MiniportEventEnum": "76"
+    }
+  }
+]

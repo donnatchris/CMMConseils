@@ -1,0 +1,38 @@
+{
+  "source": "/mnt/data/codeProjects/DMMConseils/ordinateur/recherche-OP-01/samsung-almu-20261113/preuves/L16B/SAGE/sage.pdf",
+  "sha256_before": "0718f1b0819210c2def92a8097bafb1a7c0586673cf37848afbbf55c943728a6",
+  "sha256_after": "0718f1b0819210c2def92a8097bafb1a7c0586673cf37848afbbf55c943728a6",
+  "source_bytes": 42818862,
+  "analysed_at_utc": "2026-11-17T07:43:30.104006+00:00",
+  "pages": 458,
+  "distinct_invoices": 455,
+  "distinct_names": 85,
+  "distinct_client_codes": 86,
+  "distinct_nonempty_client_values": 26,
+  "pages_by_client_value_length": {
+    "0": 277,
+    "9": 172,
+    "14": 9
+  },
+  "provisional_pages": 198,
+  "layout_raw_bbox_crosscheck_pages": 458,
+  "source_unchanged": true,
+  "visual_sample_pages": [
+    1,
+    2,
+    8,
+    21,
+    195,
+    207,
+    232,
+    298,
+    363,
+    375,
+    376,
+    377,
+    378,
+    458
+  ],
+  "visual_sample_note": "Rendus et relecture manuelle dans la session initiale, hors script.",
+  "pdftotext_version": "pdftotext version 26.01.0\nCopyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC"
+}

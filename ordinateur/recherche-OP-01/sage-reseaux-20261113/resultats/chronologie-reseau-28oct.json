@@ -1,0 +1,464 @@
+[
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T09:41:56.688752+00:00",
+    "paris": "2024-10-28T10:41:56.688752+01:00",
+    "id": 10001,
+    "record": 7007,
+    "data": {
+      "Name": "Freebox-537E9F",
+      "Description": "Freebox-537E9F",
+      "Guid": "{21CB8B97-B5DC-4DE3-A3B4-510BD8A2AA07}",
+      "Type": "0",
+      "State": "2",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "utc": "2024-10-28T09:41:57.115830+00:00",
+    "paris": "2024-10-28T10:41:57.115830+01:00",
+    "id": 4042,
+    "record": 1758,
+    "data": {
+      "InterfaceGuid": "{5665DF60-23A6-4890-B13E-7C6FD488505C}",
+      "IfLuid": "19985273102270464",
+      "Family": "0",
+      "Capability": "0",
+      "CapabilityChangeReason": "14",
+      "PreviousCapability": "2"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "utc": "2024-10-28T09:41:57.115945+00:00",
+    "paris": "2024-10-28T10:41:57.115945+01:00",
+    "id": 4042,
+    "record": 1759,
+    "data": {
+      "InterfaceGuid": "{5665DF60-23A6-4890-B13E-7C6FD488505C}",
+      "IfLuid": "19985273102270464",
+      "Family": "1",
+      "Capability": "0",
+      "CapabilityChangeReason": "14",
+      "PreviousCapability": "2"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx",
+    "utc": "2024-10-28T09:41:59.966805+00:00",
+    "paris": "2024-10-28T10:41:59.966805+01:00",
+    "id": 8003,
+    "record": 2116,
+    "data": {
+      "InterfaceGuid": "{5665DF60-23A6-4890-B13E-7C6FD488505C}",
+      "InterfaceDescription": "Intel(R) Wireless-AC 9560 160MHz",
+      "ConnectionMode": "Connexion manuelle avec profil",
+      "ProfileName": "Freebox-537E9F",
+      "SSID": "Freebox-537E9F",
+      "BSSType": "Infrastructure",
+      "Reason": "Le réseau est déconnecté par le pilote.",
+      "ConnectionId": "0x0000000000000001",
+      "ReasonCode": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:18:54.195684+00:00",
+    "paris": "2024-10-28T11:18:54.195684+01:00",
+    "id": 4001,
+    "record": 7013,
+    "data": {
+      "InterfaceGuid": "{054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}",
+      "CurrentOrNextState": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:18:54.204898+00:00",
+    "paris": "2024-10-28T11:18:54.204898+01:00",
+    "id": 10000,
+    "record": 7014,
+    "data": {
+      "Name": "Identification...",
+      "Description": "Identification...",
+      "Guid": "{6A8EF744-1A6E-4535-8633-63781B2AE4C0}",
+      "Type": "0",
+      "State": "1",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:18:55.490336+00:00",
+    "paris": "2024-10-28T11:18:55.490336+01:00",
+    "id": 4001,
+    "record": 7017,
+    "data": {
+      "InterfaceGuid": "{01D72DD1-9584-43CE-B52E-BC555D29936A}",
+      "CurrentOrNextState": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:18:55.491195+00:00",
+    "paris": "2024-10-28T11:18:55.491195+01:00",
+    "id": 10000,
+    "record": 7018,
+    "data": {
+      "Name": "Identification...",
+      "Description": "Identification...",
+      "Guid": "{6A8EF744-1A6E-4535-8633-63781B2AE4C0}",
+      "Type": "0",
+      "State": "1",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:18:55.968446+00:00",
+    "paris": "2024-10-28T11:18:55.968446+01:00",
+    "id": 4002,
+    "record": 7020,
+    "data": {
+      "InterfaceGuid": "{01D72DD1-9584-43CE-B52E-BC555D29936A}",
+      "CurrentOrNextState": "1"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:18:56.023577+00:00",
+    "paris": "2024-10-28T11:18:56.023577+01:00",
+    "id": 10000,
+    "record": 7021,
+    "data": {
+      "Name": "Réseau 2",
+      "Description": "Réseau",
+      "Guid": "{098BDBEB-1D58-4B9D-AAAD-C6C8BAAE44D1}",
+      "Type": "0",
+      "State": "1",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "utc": "2024-10-28T10:18:56.326888+00:00",
+    "paris": "2024-10-28T11:18:56.326888+01:00",
+    "id": 4042,
+    "record": 1760,
+    "data": {
+      "InterfaceGuid": "{01D72DD1-9584-43CE-B52E-BC555D29936A}",
+      "IfLuid": "1689399716741120",
+      "Family": "0",
+      "Capability": "1",
+      "CapabilityChangeReason": "4",
+      "PreviousCapability": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "utc": "2024-10-28T10:18:56.722328+00:00",
+    "paris": "2024-10-28T11:18:56.722328+01:00",
+    "id": 4042,
+    "record": 1761,
+    "data": {
+      "InterfaceGuid": "{01D72DD1-9584-43CE-B52E-BC555D29936A}",
+      "IfLuid": "1689399716741120",
+      "Family": "0",
+      "Capability": "2",
+      "CapabilityChangeReason": "4",
+      "PreviousCapability": "1"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:35:44.135332+00:00",
+    "paris": "2024-10-28T11:35:44.135332+01:00",
+    "id": 10001,
+    "record": 7023,
+    "data": {
+      "Name": "Réseau 2",
+      "Description": "Réseau",
+      "Guid": "{098BDBEB-1D58-4B9D-AAAD-C6C8BAAE44D1}",
+      "Type": "0",
+      "State": "2",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "utc": "2024-10-28T10:35:44.416386+00:00",
+    "paris": "2024-10-28T11:35:44.416386+01:00",
+    "id": 4042,
+    "record": 1762,
+    "data": {
+      "InterfaceGuid": "{01D72DD1-9584-43CE-B52E-BC555D29936A}",
+      "IfLuid": "1689399716741120",
+      "Family": "0",
+      "Capability": "0",
+      "CapabilityChangeReason": "14",
+      "PreviousCapability": "2"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:35:45.587904+00:00",
+    "paris": "2024-10-28T11:35:45.587904+01:00",
+    "id": 4001,
+    "record": 7024,
+    "data": {
+      "InterfaceGuid": "{3FE87BE0-2003-4582-91EC-342B21078FBB}",
+      "CurrentOrNextState": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:35:45.588314+00:00",
+    "paris": "2024-10-28T11:35:45.588314+01:00",
+    "id": 10000,
+    "record": 7025,
+    "data": {
+      "Name": "Identification...",
+      "Description": "Identification...",
+      "Guid": "{6A8EF744-1A6E-4535-8633-63781B2AE4C0}",
+      "Type": "0",
+      "State": "1",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:35:45.734917+00:00",
+    "paris": "2024-10-28T11:35:45.734917+01:00",
+    "id": 4002,
+    "record": 7027,
+    "data": {
+      "InterfaceGuid": "{3FE87BE0-2003-4582-91EC-342B21078FBB}",
+      "CurrentOrNextState": "1"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:35:45.747373+00:00",
+    "paris": "2024-10-28T11:35:45.747373+01:00",
+    "id": 10000,
+    "record": 7028,
+    "data": {
+      "Name": "Connexion au réseau local 2",
+      "Description": "Connexion au réseau local",
+      "Guid": "{E4DF815A-9C12-4849-BAB4-6B0764EB456F}",
+      "Type": "0",
+      "State": "1",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:35:46.611457+00:00",
+    "paris": "2024-10-28T11:35:46.611457+01:00",
+    "id": 10001,
+    "record": 7029,
+    "data": {
+      "Name": "Connexion au réseau local 2",
+      "Description": "Connexion au réseau local",
+      "Guid": "{E4DF815A-9C12-4849-BAB4-6B0764EB456F}",
+      "Type": "0",
+      "State": "2",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:47:31.692898+00:00",
+    "paris": "2024-10-28T11:47:31.692898+01:00",
+    "id": 4001,
+    "record": 7031,
+    "data": {
+      "InterfaceGuid": "{479CF457-AF75-4CDC-8C88-124C0693B5F6}",
+      "CurrentOrNextState": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:47:31.694282+00:00",
+    "paris": "2024-10-28T11:47:31.694282+01:00",
+    "id": 10000,
+    "record": 7032,
+    "data": {
+      "Name": "Identification...",
+      "Description": "Identification...",
+      "Guid": "{6A8EF744-1A6E-4535-8633-63781B2AE4C0}",
+      "Type": "0",
+      "State": "1",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:47:31.919272+00:00",
+    "paris": "2024-10-28T11:47:31.919272+01:00",
+    "id": 4002,
+    "record": 7034,
+    "data": {
+      "InterfaceGuid": "{479CF457-AF75-4CDC-8C88-124C0693B5F6}",
+      "CurrentOrNextState": "1"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T10:47:31.927924+00:00",
+    "paris": "2024-10-28T11:47:31.927924+01:00",
+    "id": 10000,
+    "record": 7035,
+    "data": {
+      "Name": "Réseau 3",
+      "Description": "Réseau",
+      "Guid": "{605408D1-5CB7-4501-A4BB-168FAAF94C58}",
+      "Type": "0",
+      "State": "1",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "utc": "2024-10-28T10:47:32.497755+00:00",
+    "paris": "2024-10-28T11:47:32.497755+01:00",
+    "id": 4042,
+    "record": 1763,
+    "data": {
+      "InterfaceGuid": "{479CF457-AF75-4CDC-8C88-124C0693B5F6}",
+      "IfLuid": "1689399733518336",
+      "Family": "0",
+      "Capability": "2",
+      "CapabilityChangeReason": "4",
+      "PreviousCapability": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T15:27:50.271451+00:00",
+    "paris": "2024-10-28T16:27:50.271451+01:00",
+    "id": 10001,
+    "record": 7037,
+    "data": {
+      "Name": "Réseau 3",
+      "Description": "Réseau",
+      "Guid": "{605408D1-5CB7-4501-A4BB-168FAAF94C58}",
+      "Type": "0",
+      "State": "2",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "utc": "2024-10-28T15:27:50.346719+00:00",
+    "paris": "2024-10-28T16:27:50.346719+01:00",
+    "id": 4042,
+    "record": 1764,
+    "data": {
+      "InterfaceGuid": "{479CF457-AF75-4CDC-8C88-124C0693B5F6}",
+      "IfLuid": "1689399733518336",
+      "Family": "0",
+      "Capability": "0",
+      "CapabilityChangeReason": "14",
+      "PreviousCapability": "2"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T15:27:53.168336+00:00",
+    "paris": "2024-10-28T16:27:53.168336+01:00",
+    "id": 4001,
+    "record": 7039,
+    "data": {
+      "InterfaceGuid": "{479CF457-AF75-4CDC-8C88-124C0693B5F6}",
+      "CurrentOrNextState": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T15:27:53.168521+00:00",
+    "paris": "2024-10-28T16:27:53.168521+01:00",
+    "id": 10000,
+    "record": 7040,
+    "data": {
+      "Name": "Identification...",
+      "Description": "Identification...",
+      "Guid": "{6A8EF744-1A6E-4535-8633-63781B2AE4C0}",
+      "Type": "0",
+      "State": "1",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T15:27:53.307685+00:00",
+    "paris": "2024-10-28T16:27:53.307685+01:00",
+    "id": 4002,
+    "record": 7042,
+    "data": {
+      "InterfaceGuid": "{479CF457-AF75-4CDC-8C88-124C0693B5F6}",
+      "CurrentOrNextState": "1"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T15:27:53.311694+00:00",
+    "paris": "2024-10-28T16:27:53.311694+01:00",
+    "id": 10000,
+    "record": 7043,
+    "data": {
+      "Name": "Réseau 3",
+      "Description": "Réseau",
+      "Guid": "{605408D1-5CB7-4501-A4BB-168FAAF94C58}",
+      "Type": "0",
+      "State": "1",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "utc": "2024-10-28T15:27:53.817775+00:00",
+    "paris": "2024-10-28T16:27:53.817775+01:00",
+    "id": 4042,
+    "record": 1765,
+    "data": {
+      "InterfaceGuid": "{479CF457-AF75-4CDC-8C88-124C0693B5F6}",
+      "IfLuid": "1689399733518336",
+      "Family": "0",
+      "Capability": "2",
+      "CapabilityChangeReason": "4",
+      "PreviousCapability": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "utc": "2024-10-28T16:14:11.588420+00:00",
+    "paris": "2024-10-28T17:14:11.588420+01:00",
+    "id": 10001,
+    "record": 7045,
+    "data": {
+      "Name": "Réseau 3",
+      "Description": "Réseau",
+      "Guid": "{605408D1-5CB7-4501-A4BB-168FAAF94C58}",
+      "Type": "0",
+      "State": "2",
+      "Category": "0"
+    }
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "utc": "2024-10-28T16:14:11.744032+00:00",
+    "paris": "2024-10-28T17:14:11.744032+01:00",
+    "id": 4042,
+    "record": 1766,
+    "data": {
+      "InterfaceGuid": "{479CF457-AF75-4CDC-8C88-124C0693B5F6}",
+      "IfLuid": "1689399733518336",
+      "Family": "0",
+      "Capability": "0",
+      "CapabilityChangeReason": "14",
+      "PreviousCapability": "2"
+    }
+  }
+]
