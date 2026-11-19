@@ -1,0 +1,103 @@
+{
+  "created_utc": "2026-11-16T13:49:35.542598+00:00",
+  "sources": [
+    {
+      "path": "ordinateur/recherche-OP-01/extractions-acces/l16b-inventory.json",
+      "size": 266314,
+      "sha256": "3612ac6bd30f6da9f221b2f16fdc3d3b9f6dbf147234054ce72a524a39baa010"
+    },
+    {
+      "path": "ordinateur/recherche-OP-01/extractions-acces/l16b-mft.jsonl",
+      "size": 4616310,
+      "sha256": "3226c780c635815ed1bec9fd4b3a35b957e1bf8786b6d00da7338784dccd385d"
+    },
+    {
+      "path": "ordinateur/recherche-OP-01/fichiers-supprimes/mft-deleted-records.jsonl",
+      "size": 457364992,
+      "sha256": "916e306ea7e041646b50712a27edb9cf5aa97bf97716fa579651d34f7e184b95"
+    },
+    {
+      "path": "ordinateur/recherche-OP-01/fichiers-supprimes/mft-summary.json",
+      "size": 379,
+      "sha256": "ea5920513408a1ff119e79a9634a05924d51ebf1b4718ff7d68c0a9f46b815d8"
+    },
+    {
+      "path": "ordinateur/recherche-OP-01/fichiers-supprimes/recovery-selection.jsonl",
+      "size": 6439391,
+      "sha256": "1c9c9c6e7fcd8b14264aacfb8ebca3d92072256c4d47ba1aca49ef42ce5b1108"
+    },
+    {
+      "path": "ordinateur/recherche-OP-01/fichiers-supprimes/recovery-results.jsonl",
+      "size": 4419788,
+      "sha256": "c18d894fc6e3485c21a6031615b04869bcb9f33e5fd09828286138b5627327f0"
+    },
+    {
+      "path": "ordinateur/recherche-OP-01/fichiers-supprimes/recycle-pairs.json",
+      "size": 72135,
+      "sha256": "e12f504a21bd84c39384bdabd139987059e2325203c474e5ef02e5e10cce0801"
+    },
+    {
+      "path": "ordinateur/recherche-OP-01/operations-28oct/interactions-28oct.csv",
+      "size": 27558,
+      "sha256": "01b2acbc817e20b3f438a488129a5c82ae47dd5d12f8c0a80582a221d31a1ef4"
+    },
+    {
+      "path": "ordinateur/recherche-OP-01/integrite-evtx/independent/results.jsonl",
+      "size": 1383529,
+      "sha256": "2426aedd052659fff9e58225aaf9826069aa696c18b0320b7bf9363bfde8f3ed"
+    },
+    {
+      "path": "ordinateur/recherche-OP-01/samsung-almu-20261113/resultats/print-events-day.json",
+      "size": 50048,
+      "sha256": "134f66933ec7f0f74c16d37101a861e69759ed8eb87ffe2c88d73ee478647655"
+    },
+    {
+      "path": "investigations/20261019-retour-cliente/resultats/sift/events-16-29oct.json",
+      "size": 12335641,
+      "sha256": "4b87c29d2e1de788668f1b821ebdea4aee110180c2d0b27f3927a45069323c83"
+    },
+    {
+      "path": "ordinateur/recherche-OP-01/integrite-evtx/independent/raw/lnk/Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/Nouveau dossier (2).lnk",
+      "size": 632,
+      "sha256": "1eca8c2e93a8f4d8d3b0b6861bae641cd9e4a18af3ddf4bbe85c65facf4fcd15"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "fichiers-rattaches-au-28oct2024.csv",
+      "size": 570712,
+      "sha256": "77ba348004c40eeec824dcedd362f1f0484c68c184a745b10c1fd38ba2a4618b"
+    },
+    {
+      "file": "generer_inventaire.py",
+      "size": 24479,
+      "sha256": "806bbe7da0c53032bf4cfc0fae5f6e37989ebb13232a42b136050d00de53ba11"
+    },
+    {
+      "file": "inventaire-detaille.json",
+      "size": 3823806,
+      "sha256": "1e1637aeafd0b38102226c038d9f908c80359f4d63925f214f536edfb7e89de1"
+    },
+    {
+      "file": "liste-chemins-28oct2024.txt",
+      "size": 91436,
+      "sha256": "2b580298cf68c379b910607f6b326edb6ce0288e75149493d35c5ffa4f77a241"
+    },
+    {
+      "file": "liste-complete-fichiers-28oct2024.md",
+      "size": 192768,
+      "sha256": "0f584c6b7f46f4a67b6b2595684097c7af52ed2a26e06f2d99dce8237fa65120"
+    },
+    {
+      "file": "rapport-inventaire-L16B-20241028.md",
+      "size": 10171,
+      "sha256": "adeb744539b5c999bc02ccb6e9616c2c852eeb10b447253798d1ff78381c38a2"
+    },
+    {
+      "file": "traces-posterieures-ou-incertaines.csv",
+      "size": 3998,
+      "sha256": "1602cf780a39426d95966a732f43ed9aba9fc6ae50ea69be4bbca2f0580a85f9"
+    }
+  ],
+  "presentation_verified_utc": "2026-11-16T13:51:24.889955+00:00"
+}

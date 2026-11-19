@@ -1,0 +1,3233 @@
+[
+  {
+    "source": "Application.evtx",
+    "recovered_ok": 8,
+    "recovered_failed": 76,
+    "allocated_failed": 0,
+    "allocated_examined": 21577,
+    "alerts": 0,
+    "recovered_reported": 84
+  },
+  {
+    "source": "HardwareEvents.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "IntelAudioServiceLog.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Internet Explorer.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Key Management Service.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Client-Licensing-Platform%4Admin.evtx",
+    "recovered_ok": 38,
+    "recovered_failed": 48,
+    "allocated_failed": 0,
+    "allocated_examined": 1770,
+    "alerts": 0,
+    "recovered_reported": 86
+  },
+  {
+    "source": "Microsoft-System-Diagnostics-DiagnosticInvoker%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AAD%4Operational.evtx",
+    "recovered_ok": 29,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 151,
+    "alerts": 0,
+    "recovered_reported": 29
+  },
+  {
+    "source": "Microsoft-Windows-All-User-Install-Agent%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AllJoyn%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppHost%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppID%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4EXE and DLL.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4MSI and Script.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4Packaged app-Deployment.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4Packaged app-Execution.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppModel-Runtime%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 1647,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppReadiness%4Admin.evtx",
+    "recovered_ok": 89,
+    "recovered_failed": 102,
+    "allocated_failed": 0,
+    "allocated_examined": 6129,
+    "alerts": 0,
+    "recovered_reported": 191
+  },
+  {
+    "source": "Microsoft-Windows-AppReadiness%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 1906,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeployment%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 2,
+    "allocated_failed": 0,
+    "allocated_examined": 1438,
+    "alerts": 0,
+    "recovered_reported": 2
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeployment-Server%4Operational.evtx",
+    "recovered_ok": 1,
+    "recovered_failed": 2,
+    "allocated_failed": 0,
+    "allocated_examined": 285,
+    "alerts": 0,
+    "recovered_reported": 3
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeploymentServer%4Operational.evtx",
+    "recovered_ok": 53,
+    "recovered_failed": 213,
+    "allocated_failed": 0,
+    "allocated_examined": 4883,
+    "alerts": 0,
+    "recovered_reported": 266
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeploymentServer%4Restricted.evtx",
+    "recovered_ok": 13,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 247,
+    "alerts": 0,
+    "recovered_reported": 13
+  },
+  {
+    "source": "Microsoft-Windows-ApplicabilityEngine%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Application Server-Applications%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Application Server-Applications%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Compatibility-Assistant.evtx",
+    "recovered_ok": 59,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 129,
+    "alerts": 0,
+    "recovered_reported": 59
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Compatibility-Troubleshooter.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Inventory.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Telemetry.evtx",
+    "recovered_ok": 16,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 1398,
+    "alerts": 0,
+    "recovered_reported": 16
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Steps-Recorder.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppxPackaging%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 15,
+    "allocated_failed": 0,
+    "allocated_examined": 1957,
+    "alerts": 0,
+    "recovered_reported": 15
+  },
+  {
+    "source": "Microsoft-Windows-Audio%4CaptureMonitor.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Audio%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 124,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Audio%4PlaybackManager.evtx",
+    "recovered_ok": 152,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 362,
+    "alerts": 0,
+    "recovered_reported": 152
+  },
+  {
+    "source": "Microsoft-Windows-Authentication User Interface%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 9,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-BackgroundTaskInfrastructure%4Operational.evtx",
+    "recovered_ok": 18,
+    "recovered_failed": 52,
+    "allocated_failed": 0,
+    "allocated_examined": 425,
+    "alerts": 0,
+    "recovered_reported": 70
+  },
+  {
+    "source": "Microsoft-Windows-Backup.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Biometrics%4Operational.evtx",
+    "recovered_ok": 12,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 1268,
+    "alerts": 0,
+    "recovered_reported": 12
+  },
+  {
+    "source": "Microsoft-Windows-BitLocker%4BitLocker Management.evtx",
+    "recovered_ok": 4,
+    "recovered_failed": 9,
+    "allocated_failed": 0,
+    "allocated_examined": 91,
+    "alerts": 0,
+    "recovered_reported": 13
+  },
+  {
+    "source": "Microsoft-Windows-Bits-Client%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 26,
+    "allocated_failed": 0,
+    "allocated_examined": 1144,
+    "alerts": 0,
+    "recovered_reported": 26
+  },
+  {
+    "source": "Microsoft-Windows-Bluetooth-BthLEPrepairing%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Bluetooth-MTPEnum%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-CertificateServicesClient-Lifecycle-System%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-CertificateServicesClient-Lifecycle-User%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 5,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Cleanmgr%4Diagnostic.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-CloudRestoreLauncher%4Operational.evtx",
+    "recovered_ok": 25,
+    "recovered_failed": 24,
+    "allocated_failed": 0,
+    "allocated_examined": 762,
+    "alerts": 0,
+    "recovered_reported": 49
+  },
+  {
+    "source": "Microsoft-Windows-CloudStore%4Initialization.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 119,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-CloudStore%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 63,
+    "allocated_failed": 0,
+    "allocated_examined": 1962,
+    "alerts": 0,
+    "recovered_reported": 63
+  },
+  {
+    "source": "Microsoft-Windows-CodeIntegrity%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 83,
+    "allocated_failed": 0,
+    "allocated_examined": 1341,
+    "alerts": 0,
+    "recovered_reported": 83
+  },
+  {
+    "source": "Microsoft-Windows-Compat-Appraiser%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Containers-BindFlt%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 32,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Containers-Wcifs%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 32,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Containers-Wcnfs%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-CoreApplication%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-CoreSystem-SmsRouter-Events%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-CorruptedFileRecovery-Client%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-CorruptedFileRecovery-Server%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Crashdump%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-DPAPI%4BackUpKeySvc.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-DPAPI%4Operational.evtx",
+    "recovered_ok": 29,
+    "recovered_failed": 32,
+    "allocated_failed": 0,
+    "allocated_examined": 2358,
+    "alerts": 0,
+    "recovered_reported": 61
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-NCrypt%4CertInUse.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-NCrypt%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 1335,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DAL-Provider%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DSC%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DSC%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DataIntegrityScan%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DataIntegrityScan%4CrashRecovery.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DateTimeControlPanel%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DeviceGuard%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Admin.evtx",
+    "recovered_ok": 24,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 501,
+    "alerts": 0,
+    "recovered_reported": 24
+  },
+  {
+    "source": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Autopilot.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 37,
+    "allocated_failed": 0,
+    "allocated_examined": 341,
+    "alerts": 0,
+    "recovered_reported": 37
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "recovered_ok": 66,
+    "recovered_failed": 5,
+    "allocated_failed": 0,
+    "allocated_examined": 2252,
+    "alerts": 0,
+    "recovered_reported": 71
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Operational.evtx",
+    "recovered_ok": 103,
+    "recovered_failed": 2,
+    "allocated_failed": 0,
+    "allocated_examined": 159,
+    "alerts": 0,
+    "recovered_reported": 105
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSync%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DeviceUpdateAgent%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Devices-Background%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Dhcp-Client%4Admin.evtx",
+    "recovered_ok": 63,
+    "recovered_failed": 3,
+    "allocated_failed": 0,
+    "allocated_examined": 1042,
+    "alerts": 0,
+    "recovered_reported": 66
+  },
+  {
+    "source": "Microsoft-Windows-Dhcpv6-Client%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 49,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-DPS%4Operational.evtx",
+    "recovered_ok": 75,
+    "recovered_failed": 11,
+    "allocated_failed": 0,
+    "allocated_examined": 1359,
+    "alerts": 0,
+    "recovered_reported": 86
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-PCW%4Operational.evtx",
+    "recovered_ok": 12,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 2288,
+    "alerts": 0,
+    "recovered_reported": 12
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-PLA%4Operational.evtx",
+    "recovered_ok": 107,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 165,
+    "alerts": 0,
+    "recovered_reported": 107
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-Scheduled%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 95,
+    "allocated_failed": 0,
+    "allocated_examined": 186,
+    "alerts": 0,
+    "recovered_reported": 95
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-Scripted%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 27,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-Scripted%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 114,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Diagnostics-Networking%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Diagnostics-Performance%4Operational.evtx",
+    "recovered_ok": 1,
+    "recovered_failed": 6,
+    "allocated_failed": 0,
+    "allocated_examined": 130,
+    "alerts": 0,
+    "recovered_reported": 7
+  },
+  {
+    "source": "Microsoft-Windows-DiskDiagnostic%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DiskDiagnosticDataCollector%4Operational.evtx",
+    "recovered_ok": 50,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 50
+  },
+  {
+    "source": "Microsoft-Windows-DiskDiagnosticResolver%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DxgKrnl-Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-DxgKrnl-Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-EDP-Application-Learning%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-EDP-Audit-Regular%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-EDP-Audit-TCB%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-EFS%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-EapHost%4Operational.evtx",
+    "recovered_ok": 33,
+    "recovered_failed": 47,
+    "allocated_failed": 0,
+    "allocated_examined": 6,
+    "alerts": 0,
+    "recovered_reported": 80
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-RasChap%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-RasTls%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-Sim%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-Ttls%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-EnhancedStorage-EhStorClass%4Operational.evtx",
+    "recovered_ok": 67,
+    "recovered_failed": 5,
+    "allocated_failed": 0,
+    "allocated_examined": 602,
+    "alerts": 0,
+    "recovered_reported": 72
+  },
+  {
+    "source": "Microsoft-Windows-EventCollector%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-FMS%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Fault-Tolerant-Heap%4Operational.evtx",
+    "recovered_ok": 25,
+    "recovered_failed": 22,
+    "allocated_failed": 0,
+    "allocated_examined": 14,
+    "alerts": 0,
+    "recovered_reported": 47
+  },
+  {
+    "source": "Microsoft-Windows-FeatureConfiguration%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-FileHistory-Core%4WHC.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-FileHistory-Engine%4BackupLog.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Folder Redirection%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Forwarding%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-GenericRoaming%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-GroupPolicy%4Operational.evtx",
+    "recovered_ok": 9,
+    "recovered_failed": 111,
+    "allocated_failed": 0,
+    "allocated_examined": 9737,
+    "alerts": 0,
+    "recovered_reported": 120
+  },
+  {
+    "source": "Microsoft-Windows-HelloForBusiness%4Operational.evtx",
+    "recovered_ok": 15,
+    "recovered_failed": 121,
+    "allocated_failed": 0,
+    "allocated_examined": 898,
+    "alerts": 0,
+    "recovered_reported": 136
+  },
+  {
+    "source": "Microsoft-Windows-Help%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-HomeGroup Control Panel%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-HomeGroup Listener Service%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-HomeGroup Provider Service%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-HotspotAuth%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-Guest-Drivers%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-Hypervisor-Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-Hypervisor-Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-VID-Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-IKE%4Operational.evtx",
+    "recovered_ok": 4,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 4
+  },
+  {
+    "source": "Microsoft-Windows-IPxlatCfg%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-IdCtrls%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-International%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-International-RegionalOptionsControlPanel%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Iphlpsvc%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-KdsSvc%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-ApphelpCache%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Boot%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 2,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-CPU-Starvation%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Cache%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 5,
+    "allocated_failed": 0,
+    "allocated_examined": 820,
+    "alerts": 0,
+    "recovered_reported": 5
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Dump%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 34,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-EventTracing%4Admin.evtx",
+    "recovered_ok": 42,
+    "recovered_failed": 46,
+    "allocated_failed": 0,
+    "allocated_examined": 620,
+    "alerts": 0,
+    "recovered_reported": 88
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-IO%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-LiveDump%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 93,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PRM%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "recovered_ok": 51,
+    "recovered_failed": 9,
+    "allocated_failed": 0,
+    "allocated_examined": 1052,
+    "alerts": 0,
+    "recovered_reported": 60
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "recovered_ok": 1,
+    "recovered_failed": 78,
+    "allocated_failed": 0,
+    "allocated_examined": 1631,
+    "alerts": 0,
+    "recovered_reported": 79
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Driver Watchdog.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 4,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Power%4Thermal-Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-ShimEngine%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 309,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-StoreMgr%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-WDI%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-WHEA%4Errors.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-WHEA%4Operational.evtx",
+    "recovered_ok": 26,
+    "recovered_failed": 1,
+    "allocated_failed": 0,
+    "allocated_examined": 299,
+    "alerts": 0,
+    "recovered_reported": 27
+  },
+  {
+    "source": "Microsoft-Windows-Known Folders API Service.evtx",
+    "recovered_ok": 98,
+    "recovered_failed": 1,
+    "allocated_failed": 0,
+    "allocated_examined": 1895,
+    "alerts": 0,
+    "recovered_reported": 99
+  },
+  {
+    "source": "Microsoft-Windows-LAPS%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-LanguagePackSetup%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 66,
+    "allocated_failed": 0,
+    "allocated_examined": 58,
+    "alerts": 0,
+    "recovered_reported": 66
+  },
+  {
+    "source": "Microsoft-Windows-LiveId%4Operational.evtx",
+    "recovered_ok": 1,
+    "recovered_failed": 30,
+    "allocated_failed": 0,
+    "allocated_examined": 568,
+    "alerts": 0,
+    "recovered_reported": 31
+  },
+  {
+    "source": "Microsoft-Windows-MUI%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-MUI%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 39,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-MemoryDiagnostics-Results%4Debug.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Admin.evtx",
+    "recovered_ok": 2,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 2
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Autopilot.evtx",
+    "recovered_ok": 16,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 16
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Diagnostics.evtx",
+    "recovered_ok": 6,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 6
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4ManagementService.evtx",
+    "recovered_ok": 59,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 1653,
+    "alerts": 0,
+    "recovered_reported": 59
+  },
+  {
+    "source": "Microsoft-Windows-Mprddm%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "recovered_ok": 17,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 1880,
+    "alerts": 0,
+    "recovered_reported": 17
+  },
+  {
+    "source": "Microsoft-Windows-NTLM%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-NcdAutoSetup%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 23,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-NdisImPlatform%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-NetworkLocationWizard%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "recovered_ok": 9,
+    "recovered_failed": 7,
+    "allocated_failed": 0,
+    "allocated_examined": 2216,
+    "alerts": 0,
+    "recovered_reported": 16
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProvider%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProvisioning%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-NlaSvc%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 160,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Ntfs%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 2,
+    "allocated_failed": 0,
+    "allocated_examined": 3883,
+    "alerts": 0,
+    "recovered_reported": 2
+  },
+  {
+    "source": "Microsoft-Windows-Ntfs%4WHC.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 32,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-OOBE-Machine-DUI%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-OneBackup%4Debug.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-PackageStateRoaming%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-ParentalControls%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Partition%4Diagnostic.evtx",
+    "recovered_ok": 10,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 103,
+    "alerts": 0,
+    "recovered_reported": 10
+  },
+  {
+    "source": "Microsoft-Windows-PerceptionRuntime%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-PerceptionSensorDataService%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Perflib%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 32,
+    "allocated_failed": 0,
+    "allocated_examined": 800,
+    "alerts": 0,
+    "recovered_reported": 32
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-Nvdimm%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-PmemDisk%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-ScmBus%4Certification.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-ScmBus%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Policy%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-PowerShell%4Admin.evtx",
+    "recovered_ok": 5,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 5
+  },
+  {
+    "source": "Microsoft-Windows-PowerShell%4Operational.evtx",
+    "recovered_ok": 25,
+    "recovered_failed": 357,
+    "allocated_failed": 0,
+    "allocated_examined": 619,
+    "alerts": 0,
+    "recovered_reported": 382
+  },
+  {
+    "source": "Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-PrintService%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 32,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-PrintService%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 59,
+    "allocated_failed": 0,
+    "allocated_examined": 1848,
+    "alerts": 0,
+    "recovered_reported": 59
+  },
+  {
+    "source": "Microsoft-Windows-Privacy-Auditing%4Operational.evtx",
+    "recovered_ok": 58,
+    "recovered_failed": 5,
+    "allocated_failed": 0,
+    "allocated_examined": 223,
+    "alerts": 0,
+    "recovered_reported": 63
+  },
+  {
+    "source": "Microsoft-Windows-Program-Compatibility-Assistant%4CompatAfterUpgrade.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Provisioning-Diagnostics-Provider%4Admin.evtx",
+    "recovered_ok": 71,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 734,
+    "alerts": 0,
+    "recovered_reported": 71
+  },
+  {
+    "source": "Microsoft-Windows-Provisioning-Diagnostics-Provider%4AutoPilot.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Provisioning-Diagnostics-Provider%4ManagementService.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-PushNotification-Platform%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-PushNotification-Platform%4Operational.evtx",
+    "recovered_ok": 1,
+    "recovered_failed": 84,
+    "allocated_failed": 0,
+    "allocated_examined": 1695,
+    "alerts": 0,
+    "recovered_reported": 85
+  },
+  {
+    "source": "Microsoft-Windows-ReFS%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-ReadyBoost%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 107,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-ReadyBoostDriver%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Regsvr32%4Operational.evtx",
+    "recovered_ok": 42,
+    "recovered_failed": 33,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 75
+  },
+  {
+    "source": "Microsoft-Windows-RemoteApp and Desktop Connections%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteApp and Desktop Connections%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteAssistance%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteAssistance%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-RemoteFX-Synth3dvsc%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-SessionServices%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Resource-Exhaustion-Detector%4Operational.evtx",
+    "recovered_ok": 98,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 196,
+    "alerts": 0,
+    "recovered_reported": 98
+  },
+  {
+    "source": "Microsoft-Windows-Resource-Exhaustion-Resolver%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 70,
+    "allocated_failed": 0,
+    "allocated_examined": 330,
+    "alerts": 0,
+    "recovered_reported": 70
+  },
+  {
+    "source": "Microsoft-Windows-RestartManager%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-RetailDemo%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-RetailDemo%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SMBClient%4Operational.evtx",
+    "recovered_ok": 81,
+    "recovered_failed": 4,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 85
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Audit.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Connectivity.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 37,
+    "allocated_failed": 0,
+    "allocated_examined": 19279,
+    "alerts": 0,
+    "recovered_reported": 37
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Security.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 2,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SMBWitnessClient%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SMBWitnessClient%4Informational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SearchUI%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-Adminless%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-Isolation-BrokeringFileSystem%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx",
+    "recovered_ok": 54,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 714,
+    "alerts": 0,
+    "recovered_reported": 54
+  },
+  {
+    "source": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+    "recovered_ok": 11,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 753,
+    "alerts": 0,
+    "recovered_reported": 11
+  },
+  {
+    "source": "Microsoft-Windows-Security-Mitigations%4UserMode.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-Netlogon%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 2,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync%4Debug.evtx",
+    "recovered_ok": 33,
+    "recovered_failed": 56,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 89
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync%4Operational.evtx",
+    "recovered_ok": 51,
+    "recovered_failed": 15,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 66
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-Azure%4Debug.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-Azure%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-OneDrive%4Debug.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-OneDrive%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Shell-ConnectedAccountState%4ActionCenter.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4ActionCenter.evtx",
+    "recovered_ok": 8,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 8
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4AppDefaults.evtx",
+    "recovered_ok": 63,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 993,
+    "alerts": 0,
+    "recovered_reported": 63
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4LogonTasksChannel.evtx",
+    "recovered_ok": 63,
+    "recovered_failed": 20,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 83
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 24,
+    "allocated_failed": 0,
+    "allocated_examined": 2244,
+    "alerts": 0,
+    "recovered_reported": 24
+  },
+  {
+    "source": "Microsoft-Windows-ShellCommon-StartLayoutPopulation%4Operational.evtx",
+    "recovered_ok": 57,
+    "recovered_failed": 6,
+    "allocated_failed": 0,
+    "allocated_examined": 1010,
+    "alerts": 0,
+    "recovered_reported": 63
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-Audit%4Authentication.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-DeviceEnum%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-TPM-VCard-Module%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-TPM-VCard-Module%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Audit.evtx",
+    "recovered_ok": 4,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 4
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "recovered_ok": 105,
+    "recovered_failed": 141,
+    "allocated_failed": 0,
+    "allocated_examined": 8536,
+    "alerts": 0,
+    "recovered_reported": 246
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Security.evtx",
+    "recovered_ok": 47,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 265,
+    "alerts": 0,
+    "recovered_reported": 47
+  },
+  {
+    "source": "Microsoft-Windows-StateRepository%4Operational.evtx",
+    "recovered_ok": 38,
+    "recovered_failed": 64,
+    "allocated_failed": 0,
+    "allocated_examined": 10708,
+    "alerts": 0,
+    "recovered_reported": 102
+  },
+  {
+    "source": "Microsoft-Windows-StateRepository%4Restricted.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Storage-ClassPnP%4Operational.evtx",
+    "recovered_ok": 89,
+    "recovered_failed": 11,
+    "allocated_failed": 0,
+    "allocated_examined": 512,
+    "alerts": 0,
+    "recovered_reported": 100
+  },
+  {
+    "source": "Microsoft-Windows-Storage-NvmeDisk%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Storage-Storport%4Health.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 21,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Storage-Storport%4Operational.evtx",
+    "recovered_ok": 13,
+    "recovered_failed": 114,
+    "allocated_failed": 0,
+    "allocated_examined": 3278,
+    "alerts": 0,
+    "recovered_reported": 127
+  },
+  {
+    "source": "Microsoft-Windows-Storage-Tiering%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageManagement%4Operational.evtx",
+    "recovered_ok": 28,
+    "recovered_failed": 80,
+    "allocated_failed": 0,
+    "allocated_examined": 757,
+    "alerts": 0,
+    "recovered_reported": 108
+  },
+  {
+    "source": "Microsoft-Windows-StorageManagement-PartUtil%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSettings%4Diagnostic.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Api%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Driver%4Diagnostic.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Driver%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 66,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-ManagementAgent%4WHC.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Parser%4Diagnostic.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Parser%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-SpaceManager%4Diagnostic.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-SpaceManager%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Store%4Operational.evtx",
+    "recovered_ok": 3,
+    "recovered_failed": 4,
+    "allocated_failed": 0,
+    "allocated_examined": 24897,
+    "alerts": 0,
+    "recovered_reported": 7
+  },
+  {
+    "source": "Microsoft-Windows-Storsvc%4Diagnostic.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 57,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-SystemSettingsThreshold%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TWinUI%4Operational.evtx",
+    "recovered_ok": 72,
+    "recovered_failed": 22,
+    "allocated_failed": 0,
+    "allocated_examined": 769,
+    "alerts": 0,
+    "recovered_reported": 94
+  },
+  {
+    "source": "Microsoft-Windows-TZSync%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 48,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TZUtil%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TaskScheduler%4Maintenance.evtx",
+    "recovered_ok": 65,
+    "recovered_failed": 6,
+    "allocated_failed": 0,
+    "allocated_examined": 805,
+    "alerts": 0,
+    "recovered_reported": 71
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-ClientUSBDevices%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-ClientUSBDevices%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-LocalSessionManager%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx",
+    "recovered_ok": 79,
+    "recovered_failed": 90,
+    "allocated_failed": 0,
+    "allocated_examined": 1748,
+    "alerts": 0,
+    "recovered_reported": 169
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-PnPDevices%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-PnPDevices%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-Printers%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-Printers%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-RDPClient%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Time-Service%4Operational.evtx",
+    "recovered_ok": 10,
+    "recovered_failed": 54,
+    "allocated_failed": 0,
+    "allocated_examined": 1177,
+    "alerts": 0,
+    "recovered_reported": 64
+  },
+  {
+    "source": "Microsoft-Windows-Time-Service-PTP-Provider%4PTP-Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Troubleshooting-Recommended%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Troubleshooting-Recommended%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-UAC%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-UAC-FileVirtualization%4Operational.evtx",
+    "recovered_ok": 65,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 90,
+    "alerts": 0,
+    "recovered_reported": 65
+  },
+  {
+    "source": "Microsoft-Windows-UniversalTelemetryClient%4Operational.evtx",
+    "recovered_ok": 113,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 1768,
+    "alerts": 0,
+    "recovered_reported": 113
+  },
+  {
+    "source": "Microsoft-Windows-User Control Panel%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-User Device Registration%4Admin.evtx",
+    "recovered_ok": 20,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 220,
+    "alerts": 0,
+    "recovered_reported": 20
+  },
+  {
+    "source": "Microsoft-Windows-User Profile Service%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 17,
+    "allocated_failed": 0,
+    "allocated_examined": 965,
+    "alerts": 0,
+    "recovered_reported": 17
+  },
+  {
+    "source": "Microsoft-Windows-User-Loader%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-UserPnp%4ActionCenter.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-UserPnp%4DeviceInstall.evtx",
+    "recovered_ok": 155,
+    "recovered_failed": 2,
+    "allocated_failed": 0,
+    "allocated_examined": 201,
+    "alerts": 0,
+    "recovered_reported": 157
+  },
+  {
+    "source": "Microsoft-Windows-UserSettingsBackup-BackupUnitProcessor%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-UserSettingsBackup-EarlyDownloader%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-UserSettingsBackup-Orchestrator%4Operational.evtx",
+    "recovered_ok": 33,
+    "recovered_failed": 2,
+    "allocated_failed": 0,
+    "allocated_examined": 277,
+    "alerts": 0,
+    "recovered_reported": 35
+  },
+  {
+    "source": "Microsoft-Windows-VDRVROOT%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-VHDMP-Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-VPN%4Operational.evtx",
+    "recovered_ok": 15,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 15
+  },
+  {
+    "source": "Microsoft-Windows-VPN-Client%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-VerifyHardwareSecurity%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Volume%4Diagnostic.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-VolumeSnapshot-Driver%4Operational.evtx",
+    "recovered_ok": 6,
+    "recovered_failed": 26,
+    "allocated_failed": 0,
+    "allocated_examined": 626,
+    "alerts": 0,
+    "recovered_reported": 32
+  },
+  {
+    "source": "Microsoft-Windows-WER-Diag%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 25,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WER-PayloadHealth%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 42,
+    "allocated_failed": 0,
+    "allocated_examined": 302,
+    "alerts": 0,
+    "recovered_reported": 42
+  },
+  {
+    "source": "Microsoft-Windows-WFP%4Operational.evtx",
+    "recovered_ok": 79,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 2385,
+    "alerts": 0,
+    "recovered_reported": 79
+  },
+  {
+    "source": "Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx",
+    "recovered_ok": 53,
+    "recovered_failed": 79,
+    "allocated_failed": 0,
+    "allocated_examined": 1325,
+    "alerts": 0,
+    "recovered_reported": 132
+  },
+  {
+    "source": "Microsoft-Windows-WMI-Activity%4Operational.evtx",
+    "recovered_ok": 43,
+    "recovered_failed": 30,
+    "allocated_failed": 0,
+    "allocated_examined": 1226,
+    "alerts": 0,
+    "recovered_reported": 73
+  },
+  {
+    "source": "Microsoft-Windows-WMPNSS-Service%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WPD-ClassInstaller%4Operational.evtx",
+    "recovered_ok": 145,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 145
+  },
+  {
+    "source": "Microsoft-Windows-WPD-CompositeClassDriver%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WPD-MTPClassDriver%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 18,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WWAN-SVC-Events%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "recovered_ok": 71,
+    "recovered_failed": 41,
+    "allocated_failed": 0,
+    "allocated_examined": 2784,
+    "alerts": 0,
+    "recovered_reported": 112
+  },
+  {
+    "source": "Microsoft-Windows-WebAuthN%4Operational.evtx",
+    "recovered_ok": 69,
+    "recovered_failed": 1,
+    "allocated_failed": 0,
+    "allocated_examined": 1987,
+    "alerts": 0,
+    "recovered_reported": 70
+  },
+  {
+    "source": "Microsoft-Windows-WebIO%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WerKernel%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 38,
+    "allocated_failed": 0,
+    "allocated_examined": 7,
+    "alerts": 0,
+    "recovered_reported": 38
+  },
+  {
+    "source": "Microsoft-Windows-Win32k%4Operational.evtx",
+    "recovered_ok": 23,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 181,
+    "alerts": 0,
+    "recovered_reported": 23
+  },
+  {
+    "source": "Microsoft-Windows-WinHttp%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WinINet%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WinINet-Config%4ProxyConfigChanged.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 2,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WinRM%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 75,
+    "allocated_failed": 0,
+    "allocated_examined": 1511,
+    "alerts": 0,
+    "recovered_reported": 75
+  },
+  {
+    "source": "Microsoft-Windows-Windows Defender%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 6,
+    "allocated_failed": 0,
+    "allocated_examined": 2146,
+    "alerts": 0,
+    "recovered_reported": 6
+  },
+  {
+    "source": "Microsoft-Windows-Windows Defender%4WHC.evtx",
+    "recovered_ok": 63,
+    "recovered_failed": 20,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 83
+  },
+  {
+    "source": "Microsoft-Windows-Windows Firewall With Advanced Security%4ConnectionSecurity.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+    "recovered_ok": 10,
+    "recovered_failed": 13,
+    "allocated_failed": 0,
+    "allocated_examined": 1044,
+    "alerts": 0,
+    "recovered_reported": 23
+  },
+  {
+    "source": "Microsoft-Windows-Windows Firewall With Advanced Security%4FirewallDiagnostics.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 30,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WindowsBackup%4ActionCenter.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WindowsSystemAssessmentTool%4Operational.evtx",
+    "recovered_ok": 44,
+    "recovered_failed": 63,
+    "allocated_failed": 0,
+    "allocated_examined": 437,
+    "alerts": 0,
+    "recovered_reported": 107
+  },
+  {
+    "source": "Microsoft-Windows-WindowsUpdateClient%4Operational.evtx",
+    "recovered_ok": 72,
+    "recovered_failed": 4,
+    "allocated_failed": 0,
+    "allocated_examined": 1999,
+    "alerts": 0,
+    "recovered_reported": 76
+  },
+  {
+    "source": "Microsoft-Windows-Winlogon%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 83,
+    "allocated_failed": 0,
+    "allocated_examined": 2506,
+    "alerts": 0,
+    "recovered_reported": 83
+  },
+  {
+    "source": "Microsoft-Windows-Winsock-WS2HELP%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Wired-AutoConfig%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WorkFolders%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-WorkFolders%4WHC.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-Workplace Join%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-Windows-hidcfu%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Microsoft-WindowsPhone-Connectivity-WiFiConnSvc-Channel.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "NordUpdate.evtx",
+    "recovered_ok": 48,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 1503,
+    "alerts": 0,
+    "recovered_reported": 48
+  },
+  {
+    "source": "OAlerts.evtx",
+    "recovered_ok": 65,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 332,
+    "alerts": 0,
+    "recovered_reported": 65
+  },
+  {
+    "source": "OneApp_IGCC.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 96,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "OpenSSH%4Admin.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "OpenSSH%4Operational.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "SMSApi.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Security.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 34472,
+    "alerts": 5,
+    "recovered_reported": 0
+  },
+  {
+    "source": "Setup.evtx",
+    "recovered_ok": 85,
+    "recovered_failed": 41,
+    "allocated_failed": 0,
+    "allocated_examined": 188,
+    "alerts": 0,
+    "recovered_reported": 126
+  },
+  {
+    "source": "System.evtx",
+    "recovered_ok": 11,
+    "recovered_failed": 39,
+    "allocated_failed": 0,
+    "allocated_examined": 36445,
+    "alerts": 0,
+    "recovered_reported": 50
+  },
+  {
+    "source": "Windows PowerShell.evtx",
+    "recovered_ok": 20,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 1124,
+    "alerts": 0,
+    "recovered_reported": 20
+  },
+  {
+    "source": "iolo Applications.evtx",
+    "recovered_ok": 0,
+    "recovered_failed": 0,
+    "allocated_failed": 0,
+    "allocated_examined": 0,
+    "alerts": 0,
+    "recovered_reported": 0
+  }
+]

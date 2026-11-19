@@ -1,0 +1,133 @@
+{
+  "python": "3.14.4",
+  "verified_utc": "2026-10-14T10:56:26.610414+00:00",
+  "script_sha256": "0ba67b836794304770bca4434a3fc674be0c1a63d8880f65528a433e455adc1f",
+  "reproduction_directory": "/tmp/tp02-wifi17-reproduction-20261014",
+  "reproduced_data": {
+    "activite-17octobre.csv": true,
+    "addressbook-sequence-events.json": true,
+    "clock-snapshot.json": true,
+    "commcenter-label-remap.json": true,
+    "comparaison-reseaux.csv": true,
+    "cross-artifact-identifier-matches.json": true,
+    "crosscheck-operations.json": true,
+    "health-continuity-details.json": true,
+    "identifier-comparisons.json": true,
+    "installation-restoration-details.json": true,
+    "keychain-format-limit.json": true,
+    "network-comparison-summary.json": true,
+    "network-field-history-controls.json": true,
+    "op01-raw-wlan-controls.json": true,
+    "operations.json": true,
+    "photos-continuity-and-journal.json": true,
+    "previous-sqlite-candidates-17.json": true,
+    "source-verification.json": true,
+    "structured-date-scan-coverage.json": true,
+    "targeted-manifest-coverage.json": true,
+    "tipkit-process-events.json": true,
+    "wifi-binary-date-validation.json": true
+  },
+  "comparison_rule": "JSON objects equal, except execution UTC in operations; CSV byte-identical",
+  "local_links_checked": 31,
+  "all_links_exist": true,
+  "day_properties": 98,
+  "focus_properties": 64,
+  "networks": 36,
+  "UTC_Paris_agreement": true,
+  "no_literal_MAC_in_MD_CSV": true,
+  "profile_literal_search": [
+    {
+      "fileID": "5fe47b24af1681316db428b3b4e8108211665830",
+      "relativePath": "Library/ConfigurationProfiles/AppAccessibilityParameters.plist",
+      "sha256": "9261ecceda608ef174256e5fdc774c1e6e3dcf533409c1bc393d490d01c713f1",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "550a09c4f8c4d89df203ab615ffc979d3c56f613",
+      "relativePath": "Library/ConfigurationProfiles/ClientTruth.plist",
+      "sha256": "6981c90479cb4c7f9029f5208542707dcb8235cf7d5ba976f1ca570264dba19d",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "1e6c0783f9b33d00b152067a0661c8fc8841073f",
+      "relativePath": "Library/ConfigurationProfiles/CloudConfigurationDetails.plist",
+      "sha256": "d5bb98d8cc9fb42105efb5463c685ffa97eca2c76bd4cd0d72e0d5c74208bf88",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "aeb25de285ea542f7ac7c2070cddd1961e369df1",
+      "relativePath": "Library/ConfigurationProfiles/MCProfileEvents.plist",
+      "sha256": "a1cca50d8f0a649ecea8410b79bd1317e8a149720334033d65f0516c998e7cf1",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "9c46fd950cb447d02fb55f6bfe00251032bda8b4",
+      "relativePath": "Library/ConfigurationProfiles/MCSettingsEvents.plist",
+      "sha256": "e335e46a592810fdaf56fea1869f3b51e21b5a84c103fed92741915f96ba243b",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "aac78adb09e91faadaa36de329f2d226d274c407",
+      "relativePath": "Library/ConfigurationProfiles/MCSettingsEvents.plist.sb-88c62b0d-BqZVF7/MCSettingsEvents.plist",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "4d607fcf6b9a281ae940ac7572e9494f4dfa2042",
+      "relativePath": "Library/ConfigurationProfiles/PayloadDependency.plist",
+      "sha256": "9261ecceda608ef174256e5fdc774c1e6e3dcf533409c1bc393d490d01c713f1",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "8e7f26685d92296da2100cfaf98173f45da1ce88",
+      "relativePath": "Library/ConfigurationProfiles/PayloadManifest.plist",
+      "sha256": "9bd636a1e22f9f9bbee5c73bb8d3ba33d7ecb6b1e2022c613b39986eba98c932",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "b2998988ede72dc5ec6d24d258f060d2b2e961b1",
+      "relativePath": "Library/ConfigurationProfiles/ProfileTruth.plist",
+      "sha256": "9261ecceda608ef174256e5fdc774c1e6e3dcf533409c1bc393d490d01c713f1",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "77e6b5a266733afee2b161f9ec40f2164639ab21",
+      "relativePath": "Library/ConfigurationProfiles/PublicInfo/MCMeta.plist",
+      "sha256": "809d3d7d9be864c7bd3e38a713fe24d8843376464f68bc0c43541bcd756b1c9e",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "4bf2c57686ace66ebb9a7edafc27a5f59631b5f4",
+      "relativePath": "Library/ConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist",
+      "sha256": "9261ecceda608ef174256e5fdc774c1e6e3dcf533409c1bc393d490d01c713f1",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "c857040ce4ce8654af495a2f04da92a0a5111fac",
+      "relativePath": "Library/ConfigurationProfiles/UserSettings.plist",
+      "sha256": "22db5595e9e2b8c8f3f61af7623fad8c5964d9d9ee3081f822c6fe3033dec9a7",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    },
+    {
+      "fileID": "85cbb36a0a73dabd9e37d3d443bd186fa467e90f",
+      "relativePath": "Library/ConfigurationProfiles/LockdownParameters.plist",
+      "sha256": "97704a8960b4facceef54397a08fb5d0a456247c3627359215aa2a27df22656c",
+      "matches_extraction": true,
+      "literal_ASUS_SSID_hits": 0
+    }
+  ],
+  "profile_search_limit": "SSID literal search in extracted profile files; no history of deleted or unbacked profiles; no claim to parse all payload formats",
+  "decrypted_manifest_sha256_now": "cd34919ad3a2cb958e130b6ea7453e71f30fb02336d61f2e1dca0f2fb2b46eeb"
+}

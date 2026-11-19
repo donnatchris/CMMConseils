@@ -1,0 +1,14 @@
+LIVRAISON DOCUMENTAIRE SADEDINE-2026
+
+Ouvrir ../index.html pour les 16 rapports principaux, notes et courriers.
+Ouvrir index.html dans ce sous-dossier pour les 20 autres PDF et les pièces.
+La livraison compte 36 documents PDF, soit 831 pages, et leurs justificatifs.
+Les photos et pièces sont dans pieces/. Conserver toute l’arborescence.
+Les liens internet nécessitent une connexion.
+
+Les liens locaux des PDF sont adaptés à cette arborescence.
+La note principale porte sa date de version ; sa lettre d’accompagnement doit être signée par le prestataire.
+Le PDF original de la note du 18 novembre est préservé à l’identique dans pieces/originaux/.
+Les acquisitions complètes restent distinctes de la livraison des rapports et pièces citées.
+
+Contrôle depuis la racine rendu/ : sha256sum -c rapports-subsidiaires/SHA256SUMS.txt

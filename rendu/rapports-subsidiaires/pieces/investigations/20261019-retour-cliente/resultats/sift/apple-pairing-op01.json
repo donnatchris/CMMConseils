@@ -1,0 +1,35 @@
+[
+  {
+    "source": "/mnt/windows/ProgramData/Apple/Lockdown/00008110-001249321444801E.plist",
+    "size": 9498,
+    "mtime_utc": "2023-12-14T15:43:30.457909+00:00",
+    "sha256": "a6eb37fd5aac553440132a381550e4ee9fe960b7b6820fe37576eb32d1bfa930",
+    "keys": [
+      "DeviceCertificate",
+      "EscrowBag",
+      "HostCertificate",
+      "HostID",
+      "HostPrivateKey",
+      "RootCertificate",
+      "RootPrivateKey",
+      "SystemBUID",
+      "WiFiMACAddress"
+    ],
+    "identifier_fields": {
+      "HostID": "3107600412337229732731422256",
+      "SystemBUID": "30969751-11161336152747013136"
+    }
+  },
+  {
+    "source": "/mnt/windows/ProgramData/Apple/Lockdown/SystemConfiguration.plist",
+    "size": 259,
+    "mtime_utc": "2022-07-04T11:18:08.910696+00:00",
+    "sha256": "d1b69e49dea4c2b36f3d398900b0db844c5e952584f117b767dc0658c5a8aeff",
+    "keys": [
+      "SystemBUID"
+    ],
+    "identifier_fields": {
+      "SystemBUID": "30969751-11161336152747013136"
+    }
+  }
+]

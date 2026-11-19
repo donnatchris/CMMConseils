@@ -1,0 +1,28 @@
+{
+  "scope": "OP-01, Sage 50, dossiers et authentification du 28 octobre 2024",
+  "image_mount": "/mnt/windows /mnt/dislocker/dislocker-file ro,relatime,user_id=0,group_id=0,allow_other",
+  "source_rule": "Sources Windows ouvertes en lecture seule ; SQLite examiné sur de nouvelles copies de travail, sans exécution de Sage.",
+  "day_paris": "2024-10-28, UTC+1",
+  "history_query": "select u.url,u.title,v.visit_time,v.transition from urls u join visits v on v.url=u.id order by v.visit_time",
+  "chromium_time": "1601-01-01 UTC + microsecondes ; conversion Europe/Paris",
+  "login_columns": [
+    "origin_url",
+    "action_url",
+    "signon_realm",
+    "date_created",
+    "date_last_used",
+    "date_password_modified",
+    "times_used",
+    "blacklisted_by_user",
+    "length(password_value)"
+  ],
+  "login_secret_handling": "Aucune valeur de mot de passe, nom utilisateur, cookie ou jeton exportée dans les résultats. Métadonnées uniquement.",
+  "cookies_filter": "host_key like '%sage%' or host_key like '%ciel%'",
+  "preferences_method": "Empreintes, dates, en-tête et recherche de marqueurs ASCII/Windows-1252/UTF-16LE ; pas de décodage métier du format CamBFile.",
+  "limitations": [
+    "Les préférences de 2026 ne certifient pas leur état en 2024.",
+    "Une ouverture en lecture ne provoque pas nécessairement une modification persistante.",
+    "Une base Login Data vide ne prouve pas une saisie manuelle ni l’absence passée d’identifiants mémorisés ailleurs.",
+    "Les alias ALMU ne constituent pas trois sociétés différentes."
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "tipkit_schema": [
+    {
+      "name": "ZCOREDONATIONRECORD",
+      "sql": "CREATE TABLE ZCOREDONATIONRECORD ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZEVENT INTEGER, ZDATE TIMESTAMP, ZDONATIONINFO BLOB )"
+    },
+    {
+      "name": "ZCOREEVENTRECORD",
+      "sql": "CREATE TABLE ZCOREEVENTRECORD ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZTIP INTEGER, ZID VARCHAR, ZEVENTINFO BLOB )"
+    },
+    {
+      "name": "ZCOREPARAMETERRECORD",
+      "sql": "CREATE TABLE ZCOREPARAMETERRECORD ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZID VARCHAR, ZVALUETYPE VARCHAR, ZVALUEDATA BLOB )"
+    },
+    {
+      "name": "ZCORERULERECORD",
+      "sql": "CREATE TABLE ZCORERULERECORD ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZCATEGORYVALUE INTEGER, ZSTATUSVALUE INTEGER, ZEVENT INTEGER, ZPARAMETER INTEGER, ZPARENT INTEGER, ZTIP INTEGER, ZLASTEVALUATED TIMESTAMP, ZID VARCHAR, ZPREDICATE BLOB, ZRULEINFO BLOB )"
+    },
+    {
+      "name": "ZCORETIPRECORD",
+      "sql": "CREATE TABLE ZCORETIPRECORD ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZINVALIDATIONREASONVALUE INTEGER, ZSTATUSVALUE INTEGER, ZLASTDISPLAYED TIMESTAMP, ZID VARCHAR, ZCONTENT BLOB, ZTIPINFO BLOB )"
+    },
+    {
+      "name": "ATRANSACTION",
+      "sql": "CREATE TABLE ATRANSACTION ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZAUTHORTS INTEGER, ZBUNDLEIDTS INTEGER, ZCONTEXTNAMETS INTEGER, ZPROCESSIDTS INTEGER, ZTIMESTAMP FLOAT, ZAUTHOR VARCHAR, ZBUNDLEID VARCHAR, ZCONTEXTNAME VARCHAR, ZPROCESSID VARCHAR, ZQUERYGEN BLOB )"
+    },
+    {
+      "name": "ATRANSACTIONSTRING",
+      "sql": "CREATE TABLE ATRANSACTIONSTRING ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZNAME VARCHAR )"
+    }
+  ],
+  "tipkit": [
+    {
+      "Z_PK": 1217,
+      "ZTIMESTAMP": 750742299.19628,
+      "author": "com.apple.MobileSMS_com.apple.tipsnext.shared",
+      "bundle": "com.apple.MobileSMS",
+      "context": null,
+      "process": "MobileSMS"
+    },
+    {
+      "Z_PK": 1218,
+      "ZTIMESTAMP": 750742299.232491,
+      "author": "com.apple.MobileSMS_com.apple.tipsnext.shared",
+      "bundle": "com.apple.MobileSMS",
+      "context": null,
+      "process": "MobileSMS"
+    },
+    {
+      "Z_PK": 1219,
+      "ZTIMESTAMP": 750742299.244476,
+      "author": "com.apple.MobileSMS_com.apple.tipsnext.shared",
+      "bundle": "com.apple.MobileSMS",
+      "context": null,
+      "process": "MobileSMS"
+    },
+    {
+      "Z_PK": 1220,
+      "ZTIMESTAMP": 750742299.246224,
+      "author": "com.apple.MobileSMS_com.apple.tipsnext.shared",
+      "bundle": "com.apple.MobileSMS",
+      "context": null,
+      "process": "MobileSMS"
+    },
+    {
+      "Z_PK": 1221,
+      "ZTIMESTAMP": 750742299.248897,
+      "author": "com.apple.MobileSMS_com.apple.tipsnext.shared",
+      "bundle": "com.apple.MobileSMS",
+      "context": null,
+      "process": "MobileSMS"
+    },
+    {
+      "Z_PK": 1222,
+      "ZTIMESTAMP": 750742299.249801,
+      "author": "com.apple.MobileSMS_com.apple.tipsnext.shared",
+      "bundle": "com.apple.MobileSMS",
+      "context": null,
+      "process": "MobileSMS"
+    },
+    {
+      "Z_PK": 1223,
+      "ZTIMESTAMP": 750742299.251339,
+      "author": "com.apple.MobileSMS_com.apple.tipsnext.shared",
+      "bundle": "com.apple.MobileSMS",
+      "context": null,
+      "process": "MobileSMS"
+    },
+    {
+      "Z_PK": 1224,
+      "ZTIMESTAMP": 750742299.25217,
+      "author": "com.apple.MobileSMS_com.apple.tipsnext.shared",
+      "bundle": "com.apple.MobileSMS",
+      "context": null,
+      "process": "MobileSMS"
+    }
+  ],
+  "tipkit_rules": [
+    {
+      "Z_PK": 132,
+      "ZLASTEVALUATED": 750742299.230807
+    },
+    {
+      "Z_PK": 133,
+      "ZLASTEVALUATED": 750742299.249315
+    },
+    {
+      "Z_PK": 134,
+      "ZLASTEVALUATED": 750742299.251682
+    }
+  ],
+  "personalaudio": [
+    {
+      "Z_PK": 31013,
+      "ZSTARTEDAT": 750742295.372222,
+      "ZENDEDAT": 750742295.420874
+    }
+  ],
+  "warehouse_schema": [
+    {
+      "sql": "CREATE TABLE spotlight_sfm (\n    rowid INTEGER PRIMARY KEY AUTOINCREMENT,\n    timestamp INTEGER NOT NULL,\n    context_id INTEGER NOT NULL,\n    payload BLOB NOT NULL,\n    FOREIGN KEY (context_id)\n    REFERENCES sfm_context(rowid)\n    ON DELETE RESTRICT\n) STRICT"
+    }
+  ],
+  "warehouse": [
+    {
+      "rowid": 332,
+      "timestamp": 1729036800
+    },
+    {
+      "rowid": 333,
+      "timestamp": 1729123200
+    },
+    {
+      "rowid": 334,
+      "timestamp": 1729209600
+    },
+    {
+      "rowid": 335,
+      "timestamp": 1729296000
+    },
+    {
+      "rowid": 336,
+      "timestamp": 1729382400
+    },
+    {
+      "rowid": 337,
+      "timestamp": 1729468800
+    },
+    {
+      "rowid": 338,
+      "timestamp": 1729555200
+    },
+    {
+      "rowid": 339,
+      "timestamp": 1729641600
+    },
+    {
+      "rowid": 340,
+      "timestamp": 1729728000
+    },
+    {
+      "rowid": 341,
+      "timestamp": 1729814400
+    },
+    {
+      "rowid": 342,
+      "timestamp": 1729900800
+    },
+    {
+      "rowid": 343,
+      "timestamp": 1729987200
+    },
+    {
+      "rowid": 344,
+      "timestamp": 1730073600
+    }
+  ],
+  "facebook_schema": [
+    {
+      "sql": "CREATE TABLE ohai_gateway_key_configs( key_id INTEGER NOT NULL PRIMARY KEY, public_key TEXT NOT NULL, kem_id INTEGER NOT NULL, kdf_id INTEGER NOT NULL, aead_id INTEGER NOT NULL, expiration_date LONG_INT NOT NULL, last_updated_time LONG_INT NOT NULL )"
+    }
+  ],
+  "facebook_dates": [
+    {
+      "key_id": 67,
+      "last_updated_time": 1729281614
+    },
+    {
+      "key_id": 68,
+      "last_updated_time": 1729972814
+    }
+  ],
+  "tcc": [
+    {
+      "service": "kTCCServiceUbiquity",
+      "client": "com.apple.Music",
+      "auth_value": 2,
+      "auth_reason": 4,
+      "last_modified": 1728992452
+    }
+  ],
+  "keyboard_schema": [
+    {
+      "sql": "CREATE TABLE usermodeldurablerecords (    ROWID INTEGER PRIMARY KEY AUTOINCREMENT,   key    TEXT  NOT NULL,   value           INTEGER DEFAULT 0,   creation_date       REAL DEFAULT 0,   last_update_date       REAL DEFAULT 0,   journaled)"
+    }
+  ],
+  "health_identity": {
+    "preference_sha256": "f93ac29ba40586d5f855686cc1fee00da470e270e40b141d2fc9f4f263a6b124",
+    "hardware_identifier_sha256": "15e6d7404c7f7d3fb8e832a7ebcd27580179cc58bc82e12ee9da60c172640c96",
+    "matching_rows": [
+      2
+    ]
+  }
+}

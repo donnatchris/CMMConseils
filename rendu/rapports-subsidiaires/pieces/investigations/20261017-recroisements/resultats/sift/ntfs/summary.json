@@ -1,0 +1,38 @@
+{
+  "returncode": 0,
+  "parser": "dfir_ntfs 1.1.20",
+  "bytes": 341997834,
+  "blocks": 388808,
+  "usn_count": 31063,
+  "usn_dates": {
+    "2026-10-08": 16840,
+    "2026-10-12": 14223
+  },
+  "embedded_timestamp_years": {
+    "2026": 618770,
+    "2023": 24919,
+    "2022": 49865,
+    "2024": 44796,
+    "2021": 3780,
+    "2020": 8704,
+    "2019": 6442,
+    "2018": 103,
+    "2000": 6,
+    "2025": 138,
+    "2001": 12,
+    "2013": 4,
+    "2016": 90,
+    "2012": 2,
+    "2015": 40
+  },
+  "targets": {
+    "L16B": 1,
+    "GDRIVE": 3,
+    "Archive_saddedine": 1,
+    "Inventaire_saddedine": 1,
+    "Rejets_saddedine": 1,
+    "logmeinrescue": 0,
+    "appleid-977451tlu5i": 0
+  },
+  "decoded_sha256": "a05f83ace66635f1d75dbcd5ad0289a1011968d8149c90b3cfc9c04a56c8deb9"
+}

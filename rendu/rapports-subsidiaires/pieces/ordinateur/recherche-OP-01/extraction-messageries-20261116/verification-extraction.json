@@ -1,0 +1,86 @@
+{
+  "started_utc": "2026-11-16T12:40:12.758976+00:00",
+  "image": "/media/shared/forensic/SADEDINE-2026/OP-01/OP01.E01 (ensemble segmenté E01–E74)",
+  "mount": {
+    "source": "/mnt/dislocker/dislocker-file",
+    "target": "/mnt/windows",
+    "fstype": "fuse",
+    "options": "ro,relatime,user_id=0,group_id=0,allow_other"
+  },
+  "loop": {
+    "name": "/dev/loop16",
+    "sizelimit": 0,
+    "offset": 0,
+    "autoclear": false,
+    "ro": true,
+    "back-file": "/mnt/ewf/ewf1",
+    "dio": false,
+    "log-sec": 512
+  },
+  "method": "Lecture des fichiers alloués ; copie sans écrasement, SHA-256 du flux source et relecture SHA-256 de chaque copie ; comparaison aux empreintes antérieures.",
+  "files": [
+    {
+      "source": "/mnt/windows/L16B/MESSAGERIES/dmmconseils@hotmail.com.pst",
+      "relative_path": "L16B/MESSAGERIES/dmmconseils@hotmail.com.pst",
+      "destination_relative": "fichiers/L16B/MESSAGERIES/dmmconseils@hotmail.com.pst",
+      "exists": true,
+      "expected_sha256": "cbc13b5a409585309db8edd7f9532fd69c58c1a48cf66355124a78f11950e8f9",
+      "size": 2143626240,
+      "inode": 98840,
+      "source_mtime_ns": 1730124173476389700,
+      "source_sha256": "cbc13b5a409585309db8edd7f9532fd69c58c1a48cf66355124a78f11950e8f9",
+      "exported_sha256": "cbc13b5a409585309db8edd7f9532fd69c58c1a48cf66355124a78f11950e8f9",
+      "source_stat_unchanged": true,
+      "hashes_match": true,
+      "header_hex": "2142444e"
+    },
+    {
+      "source": "/mnt/windows/L16B/MESSAGERIES/dmmconseils93300@hotmail.com.pst",
+      "relative_path": "L16B/MESSAGERIES/dmmconseils93300@hotmail.com.pst",
+      "destination_relative": "fichiers/L16B/MESSAGERIES/dmmconseils93300@hotmail.com.pst",
+      "exists": true,
+      "expected_sha256": "06a98a15fe1c9b77a3c1eee0709fd1f5f9bd3f983d7342169e527e61a688d18a",
+      "size": 1156260864,
+      "inode": 31663,
+      "source_mtime_ns": 1730132931352512400,
+      "source_sha256": "06a98a15fe1c9b77a3c1eee0709fd1f5f9bd3f983d7342169e527e61a688d18a",
+      "exported_sha256": "06a98a15fe1c9b77a3c1eee0709fd1f5f9bd3f983d7342169e527e61a688d18a",
+      "source_stat_unchanged": true,
+      "hashes_match": true,
+      "header_hex": "2142444e"
+    },
+    {
+      "source": "/mnt/windows/L16B/MESSAGERIES/rct93300@gmail.com/takeout-20241028T114105Z-001.zip",
+      "relative_path": "L16B/MESSAGERIES/rct93300@gmail.com/takeout-20241028T114105Z-001.zip",
+      "destination_relative": "fichiers/L16B/MESSAGERIES/rct93300@gmail.com/takeout-20241028T114105Z-001.zip",
+      "exists": true,
+      "expected_sha256": "bf97c84b9263faf1bff5f6b23af6e8b1facb125ecce764a5e95105fc885ea66c",
+      "size": 41828775,
+      "inode": 145645,
+      "source_mtime_ns": 1730116019495785400,
+      "source_sha256": "bf97c84b9263faf1bff5f6b23af6e8b1facb125ecce764a5e95105fc885ea66c",
+      "exported_sha256": "bf97c84b9263faf1bff5f6b23af6e8b1facb125ecce764a5e95105fc885ea66c",
+      "source_stat_unchanged": true,
+      "hashes_match": true,
+      "members": [
+        {
+          "name": "Takeout/Mail/L16.mbox",
+          "size": 66015300,
+          "crc32": "5199879c",
+          "sha256": "41cf8b7688150909f195164d0f9ffc01570cb54dd7c2d17d34f3998ff3b0f3ef",
+          "decompression_crc_ok": true
+        },
+        {
+          "name": "Takeout/archive_browser.html",
+          "size": 197837,
+          "crc32": "862181da",
+          "sha256": "a81d350c7c347e78a18756ed5bda77faee3d2b1eb278c40050408a096cda4f83",
+          "decompression_crc_ok": true
+        }
+      ]
+    }
+  ],
+  "finished_utc": "2026-11-16T12:43:27.984461+00:00",
+  "status": "Trois fichiers présents, alloués et extraits ; toutes les empreintes concordent.",
+  "deleted_file_search": "Non nécessaire pour récupérer ces trois fichiers : tous sont présents dans le système de fichiers monté. Aucune recherche exhaustive des versions supprimées effectuée."
+}

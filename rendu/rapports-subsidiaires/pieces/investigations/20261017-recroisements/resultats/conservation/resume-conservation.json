@@ -1,0 +1,50 @@
+{
+  "groups": [
+    {
+      "group": "OP-01",
+      "local_files": 75,
+      "local_bytes": 158442349478,
+      "missing_files": 21,
+      "missing_bytes": 45074723943,
+      "same_size_files": 54
+    },
+    {
+      "group": "SD-01",
+      "local_files": 3,
+      "local_bytes": 2459091182,
+      "missing_files": 0,
+      "missing_bytes": 0,
+      "same_size_files": 3
+    },
+    {
+      "group": "SD-02",
+      "local_files": 16,
+      "local_bytes": 31817472818,
+      "missing_files": 0,
+      "missing_bytes": 0,
+      "same_size_files": 16
+    },
+    {
+      "group": "SD-03",
+      "local_files": 13,
+      "local_bytes": 23764120249,
+      "missing_files": 10,
+      "missing_bytes": 17324869116,
+      "same_size_files": 3
+    },
+    {
+      "group": "TP-02",
+      "local_files": 137848,
+      "local_bytes": 102822949109,
+      "missing_files": 137848,
+      "missing_bytes": 102822949109,
+      "same_size_files": 0
+    }
+  ],
+  "mismatches": [],
+  "remote_objects": 76,
+  "local_inventory_only": true,
+  "TP01_TP03_excluded": true,
+  "ANALYSES_not_covered_by_original_image_inventory": true,
+  "disk_copy_not_identified": true
+}

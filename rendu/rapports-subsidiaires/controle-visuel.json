@@ -1,0 +1,672 @@
+{
+  "date": "2026-11-19",
+  "documents_inspectes": 36,
+  "pages_finales_inspectees": 119,
+  "passed": true,
+  "defauts_visuels_restants": [],
+  "verifications": [
+    "Première et dernière pages de chaque document ; pages intermédiaires des documents longs ; pages comportant des images ; trois pages de synthèse du rapport final.",
+    "Contrôle des tableaux, des images, des marges, des pieds de page et de la pagination.",
+    "Rectificatif rendu à nouveau et inspecté après regroupement sur une page."
+  ],
+  "documents": [
+    {
+      "pdf": "NOTE-DE-CONSTATATION-TP-01.pdf",
+      "sha256": "f3b96b386bbc2732db4423aff840b50d941db9f5c49cad69d31670c7ece21fc7",
+      "pages_inspectees": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "pdf": "NOTE-DE-CONSTATION-téléphones.pdf",
+      "sha256": "453187d04b0b7e9449a4b4c0cbcafdadb57a2879e2d43cb3e5a019d51821b5b6",
+      "pages_inspectees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "pdf": "RAPPORT-FINAL-SADEDINE-2026.pdf",
+      "sha256": "bdbc3852f0e9681728a85ecab57d78931dc82d45bca3e5a17e38a8abcde4c3b3",
+      "pages_inspectees": [
+        1,
+        2,
+        3,
+        4,
+        15,
+        31
+      ]
+    },
+    {
+      "pdf": "analyse-cartes_sd-SD-01.pdf",
+      "sha256": "4ef80881ebc34c49081be2bc6cc865f6706626fd3ba1c24959a050a337831b47",
+      "pages_inspectees": [
+        1,
+        5,
+        11
+      ]
+    },
+    {
+      "pdf": "analyse-cartes_sd-SD-02.pdf",
+      "sha256": "24e4b901c1f8dcdc85cd5ab998855d06f68d49eccf7a49798a1730e06cf6ae20",
+      "pages_inspectees": [
+        1,
+        5,
+        10
+      ]
+    },
+    {
+      "pdf": "analyse-cartes_sd-SD-03.pdf",
+      "sha256": "2fbf5c3551997ad0c3fbf4a66d60cb2c6627319d7d8ab010407ce4a518c9e6c1",
+      "pages_inspectees": [
+        1,
+        5,
+        11
+      ]
+    },
+    {
+      "pdf": "analyse-cartes_sd-transversale.pdf",
+      "sha256": "1225b1b8bc40349f822b493616be28d4d06222b1eb56b8ea68bc0a34dd8d4c50",
+      "pages_inspectees": [
+        1,
+        6,
+        12
+      ]
+    },
+    {
+      "pdf": "analyse-cartes_sd.pdf",
+      "sha256": "0927fb70c42e8ec77c0a5f2dec275882aac0bee3ad5b111c1919f12a96347eba",
+      "pages_inspectees": [
+        1,
+        5,
+        11
+      ]
+    },
+    {
+      "pdf": "analyse-freebox.pdf",
+      "sha256": "7cc9dd4d1051c6859ec662f57cc8998a310b87555c90a33e7a778bc97875a9ac",
+      "pages_inspectees": [
+        1,
+        8,
+        17
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/Rapport_investigations_B_C_D_E_SADEDINE-2026.pdf",
+      "sha256": "6be5f0cf302c4e0f6cdc8ab8df9a6522742d58267774268daaace9ba8fb5ddf2",
+      "pages_inspectees": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/Recherche_recuperation_Archive_Rejets_OP-01_20261116.pdf",
+      "sha256": "357ae0dacc9a99081a0324d2f4156e5012484e2d9397e49d862283fadb77f802",
+      "pages_inspectees": [
+        1,
+        5
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.pdf",
+      "sha256": "024274008a86a97563ea0411e5516703a092ddc07900b84d5f5641aa11b1b4eb",
+      "pages_inspectees": [
+        1,
+        8
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/rapport-repartition-sage-458-pages.pdf",
+      "sha256": "2ce38859d83ddc12e088307b21dfcf4fcb9207ee72609807bab97275a3c2ed6a",
+      "pages_inspectees": [
+        1,
+        17,
+        34
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/20261108-analyse-pv--compte-rendu.pdf",
+      "sha256": "88b247ec27eb714d9edb21e2d0e81e00fc2a422ebf529450b52f02c5c402c0b3",
+      "pages_inspectees": [
+        1,
+        6
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/20261109-controle-l16b-photos--compte-rendu.pdf",
+      "sha256": "a52227bd20f0951df14e95395e9ab4cf7cc42d6bef1b7d1e0ead29618535c259",
+      "pages_inspectees": [
+        1,
+        5
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/tableau-documents.pdf",
+      "sha256": "ceca56350dbb0cefd26c3ceac87a10ee645bccb3085c41b127938e2081475f44",
+      "pages_inspectees": [
+        1,
+        5,
+        11
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/tableau-messages.pdf",
+      "sha256": "cc5148ddfed22616ef970abbf19cbadebb90be4b98fde8224c9457fa7f33646c",
+      "pages_inspectees": [
+        1,
+        7
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/20261110-tp03-intervention-humaine--compte-rendu.pdf",
+      "sha256": "2a8f301f6de417d0ab455ffc5814299b8aff77815f06e45070b4982028088125",
+      "pages_inspectees": [
+        1,
+        8
+      ]
+    },
+    {
+      "pdf": "analyse-ordinateur.pdf",
+      "sha256": "950a60766be69ef433d3ff87b2eec1948ceb17eadc0729e9c7d3d199796af620",
+      "pages_inspectees": [
+        1,
+        17,
+        35
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/rapport-complementaire-OP-01-Sage50-reseaux-28oct2024.pdf",
+      "sha256": "cd1b0cb573a8f15397812b4902755fec592ae5c3eef8aa8c28bf5fc505461221",
+      "pages_inspectees": [
+        1,
+        5,
+        11
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/rapport-complementaire-OP-01-Samsung-ALMU-28oct2024.pdf",
+      "sha256": "8d2cbbf7c20089e5ce3b91e87291fc1c8d366dca0f7a2ef610a116a91a11de1e",
+      "pages_inspectees": [
+        1,
+        7
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/rapport-comparaison-L16B-inventaire.pdf",
+      "sha256": "db44aed7ac301c8c132374481f2f1a0de2ec57170d547a0414c3ec2fa03d6b6b",
+      "pages_inspectees": [
+        1,
+        6
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/rapport-comparaison-SHA512-exhaustive-1555-fichiers.pdf",
+      "sha256": "22dcc776b6698403b9a216e9db159ad6dbd9b6e5c750a98718f887f9cbb0062c",
+      "pages_inspectees": [
+        1,
+        95,
+        190,
+        285,
+        381
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/rapport-correspondances-et-integrite-20261116.pdf",
+      "sha256": "8c20cd5467e9c386d3dbc8aa5b81b921d9c2f37e0eef7eab171b6758dd3de04b",
+      "pages_inspectees": [
+        1,
+        5,
+        10
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/releve-messages.pdf",
+      "sha256": "5a31ac689471770206228854e2b96a8fbc0d55de48b1936a538241166cc8889f",
+      "pages_inspectees": [
+        1,
+        4,
+        9
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/liste-complete-fichiers-28oct2024.pdf",
+      "sha256": "3ef46102cc3eab82cb2208a52118467a316b4c98e17fc64ff782e9a8ffe65b0a",
+      "pages_inspectees": [
+        1,
+        21,
+        42,
+        63,
+        85
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/attestation-de-remise-original.pdf",
+      "sha256": "5a2d09358aef0de530de4daa9bb7769f73ae389f5ee52a04563d8aa953cae7c1",
+      "pages_inspectees": [
+        1,
+        5
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/bordereau-mise-a-disposition-donnees-20261117.pdf",
+      "sha256": "1d598b5a2f930c89f0d658ef7c742b06bd87a0433470c48be78e762826d3ce33",
+      "pages_inspectees": [
+        1,
+        3
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/rectificatif-attestation-remise-20261117.pdf",
+      "sha256": "317f2c8abb7fea004c4a460d854ce2bfa169b86e7fa488951c2f91834b10f86c",
+      "pages_inspectees": [
+        1
+      ]
+    },
+    {
+      "pdf": "analyse-TP-01.pdf",
+      "sha256": "c3a0d97c441b4b25abded8da4f51a3ce0b6d1e4d54bcc3707a90bc04d81aa260",
+      "pages_inspectees": [
+        1,
+        8
+      ]
+    },
+    {
+      "pdf": "analyse-TP-02.pdf",
+      "sha256": "e48c37aaeb001090db5022e126505bf122f6c9524314918e1ec5e951348fa6fe",
+      "pages_inspectees": [
+        1,
+        10,
+        21
+      ]
+    },
+    {
+      "pdf": "analyse-TP-03.pdf",
+      "sha256": "9cbf0fab6341f7b24a1d81c9bcca65c34ab7b82846a0b53c58b2275588a39f53",
+      "pages_inspectees": [
+        1,
+        8,
+        16
+      ]
+    },
+    {
+      "pdf": "Note_reponse_TP02_TP03_15oct2024.pdf",
+      "sha256": "8b46037f98d97427d22d12ce69b713fb2738e2acddbbb5dc206bc55df25d723a",
+      "pages_inspectees": [
+        1,
+        4
+      ]
+    },
+    {
+      "pdf": "rapports-subsidiaires/notice-telechargement-s3.pdf",
+      "sha256": "61d34384d22490c91bedc73a232b296fc8aa4e5f731722fd5fac3f45ec6d0112",
+      "pages_inspectees": [
+        1
+      ]
+    },
+    {
+      "pdf": "note-de-constat-technique.pdf",
+      "sha256": "9db387a14002c8c22dbd593cb94c0513cbc461dd65787a6906984e315b89a286",
+      "pages_inspectees": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "pdf": "lettre-d-accompagnement-du-constat-technique.pdf",
+      "sha256": "f71da2d838d1ebc92c42e7a19b2ffd4acf987370a17b38733606456c89853c49",
+      "pages_inspectees": [
+        1
+      ]
+    }
+  ],
+  "ancres_pdf": {
+    "checked": 30,
+    "errors": []
+  },
+  "reorganisation_sans_modification_visuelle": "Contrôle historique ; les deux documents complétés sont contrôlés séparément.",
+  "mise_a_jour_constats_20261119": {
+    "date": "2026-11-19",
+    "passed": true,
+    "pages_note_inspectees": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "pages_lettre_inspectees": [
+      1
+    ],
+    "presentation_page_1": true,
+    "tableau_recapitulatif_page_2": true,
+    "tableau_17_objets_page_18": true,
+    "mise_en_page_sans_debordement": true,
+    "signature_manuscrite_a_apposer": true,
+    "controle_physique_cd_non_realise_dans_cette_version": true,
+    "controles_factuels": {
+      "passed": true,
+      "constats": 15,
+      "objets": 17,
+      "page_tableau_objets": 18,
+      "dates_fichiers": 6,
+      "sources_non_concernees_preservees": true
+    },
+    "pdf_sha256": {
+      "note-de-constat-technique.pdf": "11cc601ffd9d423ebf3b1e03e3bfdf015f5c1e903b07dacff8fc364943e1b31a",
+      "lettre-d-accompagnement-du-constat-technique.pdf": "f71da2d838d1ebc92c42e7a19b2ffd4acf987370a17b38733606456c89853c49"
+    }
+  },
+  "controle_historique_note_20261118": {
+    "sources_70_documents_inchangees": true,
+    "images_note_original_identiques": true,
+    "images_verifiees": 32,
+    "volume_total_octets": 6267759550
+  },
+  "allegement_remise": {
+    "pdf_internes_retires": 18,
+    "pdf_liens_adaptes": 11,
+    "liens_adaptes": 14,
+    "flux_dessin_images_et_texte_identiques": true
+  },
+  "correction_signature": {
+    "passed": true,
+    "signature": "Christophe Donnat — Donnat Dev",
+    "pdf_sha256": {
+      "NOTE-DE-CONSTATATION-TP-01.pdf": "f3b96b386bbc2732db4423aff840b50d941db9f5c49cad69d31670c7ece21fc7",
+      "NOTE-DE-CONSTATION-téléphones.pdf": "453187d04b0b7e9449a4b4c0cbcafdadb57a2879e2d43cb3e5a019d51821b5b6",
+      "RAPPORT-FINAL-SADEDINE-2026.pdf": "1974af44f1e37c7965095b2d26064d6d227a1192a58264d3c5653edcdea7c885",
+      "analyse-cartes_sd-SD-01.pdf": "ef522ce0e701e6c9664f903fe15a495623601c8f4ee8dbd1f2adaf259ce5d931",
+      "analyse-cartes_sd-SD-02.pdf": "66b65e23d09dcc2dc78874b4b89827a5bf263d61117ce4edfc3bb21d86ff2949",
+      "analyse-cartes_sd-SD-03.pdf": "eec18f1540cdfa627b6c9fbd6b2ab3f479d401cc1989569383da682dfd1b3a9f",
+      "analyse-cartes_sd-transversale.pdf": "4d2002caca8b94878f960ab53febd227ba7f011e7c065f8084d4a3c0eacb0202",
+      "analyse-cartes_sd.pdf": "0927fb70c42e8ec77c0a5f2dec275882aac0bee3ad5b111c1919f12a96347eba",
+      "analyse-freebox.pdf": "d312c8a2a7baee461951a4e1bcda5a2ca6a4b5353a8585ff6c2e38bfb7d65aae",
+      "rapports-subsidiaires/Rapport_investigations_B_C_D_E_SADEDINE-2026.pdf": "6be5f0cf302c4e0f6cdc8ab8df9a6522742d58267774268daaace9ba8fb5ddf2",
+      "rapports-subsidiaires/Recherche_recuperation_Archive_Rejets_OP-01_20261116.pdf": "357ae0dacc9a99081a0324d2f4156e5012484e2d9397e49d862283fadb77f802",
+      "rapports-subsidiaires/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.pdf": "7cb5c0a7ee0d058e621fea0d2c2cedda5098bb2d1e9f899341406587da8dc355",
+      "rapports-subsidiaires/rapport-repartition-sage-458-pages.pdf": "2ce38859d83ddc12e088307b21dfcf4fcb9207ee72609807bab97275a3c2ed6a",
+      "rapports-subsidiaires/20261108-analyse-pv--compte-rendu.pdf": "a3aa5f46a951a7d7d3ff3d4c63d90d1bce25bc5002eb309db64e3ab6fc6c04b0",
+      "rapports-subsidiaires/20261109-controle-l16b-photos--compte-rendu.pdf": "2cfb3063175f3157010073e813417c594578d32f28a81a229e463a1b1de77019",
+      "rapports-subsidiaires/tableau-documents.pdf": "ceca56350dbb0cefd26c3ceac87a10ee645bccb3085c41b127938e2081475f44",
+      "rapports-subsidiaires/tableau-messages.pdf": "cc5148ddfed22616ef970abbf19cbadebb90be4b98fde8224c9457fa7f33646c",
+      "rapports-subsidiaires/20261110-tp03-intervention-humaine--compte-rendu.pdf": "6dae397f5f1d8a977e78781579ac76507b2aa69baa314b514ed05a99267be9a0",
+      "analyse-ordinateur.pdf": "70911870eb020b42dff3adf3f406ed517517c1f9fe133076a3a8c29e1dbd10f3",
+      "rapports-subsidiaires/rapport-complementaire-OP-01-Sage50-reseaux-28oct2024.pdf": "c480f1f71feffde48a57240972428d5d0b71c505317bc89e27f9198ad119074e",
+      "rapports-subsidiaires/rapport-complementaire-OP-01-Samsung-ALMU-28oct2024.pdf": "95dfbad2db30cc46c8e19887fea3bc24422a39883316581f85ef498199c55895",
+      "rapports-subsidiaires/rapport-comparaison-L16B-inventaire.pdf": "fdd897cb9bf8b5be5fd4e232ae64f8f1fe904adc2c3348da364dbb981e9be556",
+      "rapports-subsidiaires/rapport-comparaison-SHA512-exhaustive-1555-fichiers.pdf": "22dcc776b6698403b9a216e9db159ad6dbd9b6e5c750a98718f887f9cbb0062c",
+      "rapports-subsidiaires/rapport-correspondances-et-integrite-20261116.pdf": "a9760db63302f15980ac203a8942cf4e538318250a9b1856314713e99eec5c36",
+      "rapports-subsidiaires/releve-messages.pdf": "5a31ac689471770206228854e2b96a8fbc0d55de48b1936a538241166cc8889f",
+      "rapports-subsidiaires/liste-complete-fichiers-28oct2024.pdf": "22f3a75662b7cf252561d43341c48089daa9407d925faf80b524dcd8518904e8",
+      "rapports-subsidiaires/bordereau-mise-a-disposition-donnees-20261117.pdf": "1d598b5a2f930c89f0d658ef7c742b06bd87a0433470c48be78e762826d3ce33",
+      "rapports-subsidiaires/rectificatif-attestation-remise-20261117.pdf": "317f2c8abb7fea004c4a460d854ce2bfa169b86e7fa488951c2f91834b10f86c",
+      "analyse-TP-01.pdf": "13074f378870bb4318735958a18cb5454be2753f4832c66820a75843cbc80040",
+      "analyse-TP-02.pdf": "c2ae3add320d55f33be69d26586fd85645c277a4e971687ad8da7e2489899559",
+      "analyse-TP-03.pdf": "60fd99410b873d62cff207fae4b733195995f5025c36dea2235bb08db9faac29",
+      "Note_reponse_TP02_TP03_15oct2024.pdf": "8b46037f98d97427d22d12ce69b713fb2738e2acddbbb5dc206bc55df25d723a",
+      "rapports-subsidiaires/notice-telechargement-s3.pdf": "61d34384d22490c91bedc73a232b296fc8aa4e5f731722fd5fac3f45ec6d0112"
+    },
+    "pages_inspectees": {
+      "NOTE-DE-CONSTATATION-TP-01.pdf": [
+        3
+      ],
+      "NOTE-DE-CONSTATION-téléphones.pdf": [
+        6
+      ],
+      "RAPPORT-FINAL-SADEDINE-2026.pdf": [
+        31
+      ],
+      "analyse-cartes_sd-SD-01.pdf": [
+        11
+      ],
+      "analyse-cartes_sd-SD-02.pdf": [
+        10
+      ],
+      "analyse-cartes_sd-SD-03.pdf": [
+        11
+      ],
+      "analyse-cartes_sd-transversale.pdf": [
+        12
+      ],
+      "analyse-cartes_sd.pdf": [
+        11
+      ],
+      "analyse-freebox.pdf": [
+        17
+      ],
+      "rapports-subsidiaires/Rapport_investigations_B_C_D_E_SADEDINE-2026.pdf": [
+        9
+      ],
+      "rapports-subsidiaires/Recherche_recuperation_Archive_Rejets_OP-01_20261116.pdf": [
+        5
+      ],
+      "rapports-subsidiaires/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.pdf": [
+        8
+      ],
+      "rapports-subsidiaires/rapport-repartition-sage-458-pages.pdf": [
+        34
+      ],
+      "rapports-subsidiaires/20261108-analyse-pv--compte-rendu.pdf": [
+        6
+      ],
+      "rapports-subsidiaires/20261109-controle-l16b-photos--compte-rendu.pdf": [
+        5
+      ],
+      "rapports-subsidiaires/tableau-documents.pdf": [
+        11
+      ],
+      "rapports-subsidiaires/tableau-messages.pdf": [
+        7
+      ],
+      "rapports-subsidiaires/20261110-tp03-intervention-humaine--compte-rendu.pdf": [
+        8
+      ],
+      "analyse-ordinateur.pdf": [
+        35
+      ],
+      "rapports-subsidiaires/rapport-complementaire-OP-01-Sage50-reseaux-28oct2024.pdf": [
+        11
+      ],
+      "rapports-subsidiaires/rapport-complementaire-OP-01-Samsung-ALMU-28oct2024.pdf": [
+        7
+      ],
+      "rapports-subsidiaires/rapport-comparaison-L16B-inventaire.pdf": [
+        6
+      ],
+      "rapports-subsidiaires/rapport-comparaison-SHA512-exhaustive-1555-fichiers.pdf": [
+        381
+      ],
+      "rapports-subsidiaires/rapport-correspondances-et-integrite-20261116.pdf": [
+        10
+      ],
+      "rapports-subsidiaires/releve-messages.pdf": [
+        9
+      ],
+      "rapports-subsidiaires/liste-complete-fichiers-28oct2024.pdf": [
+        85
+      ],
+      "rapports-subsidiaires/bordereau-mise-a-disposition-donnees-20261117.pdf": [
+        3
+      ],
+      "rapports-subsidiaires/rectificatif-attestation-remise-20261117.pdf": [
+        1
+      ],
+      "analyse-TP-01.pdf": [
+        8
+      ],
+      "analyse-TP-02.pdf": [
+        21
+      ],
+      "analyse-TP-03.pdf": [
+        16
+      ],
+      "Note_reponse_TP02_TP03_15oct2024.pdf": [
+        4
+      ],
+      "rapports-subsidiaires/notice-telechargement-s3.pdf": [
+        1
+      ]
+    },
+    "pages_corrigees_controlees": 50,
+    "pagination_et_texte_hors_signature_identiques": true,
+    "controle": "Inspection des 50 dernières pages rendues et des 50 zones de signature ; aucun chevauchement ni texte tronqué."
+  },
+  "retrait_comptes_rendus_intermediaires": {
+    "pdf_retires": 17,
+    "pages_retires": 65,
+    "pdf_liens_adaptes": 20,
+    "liens_adaptes": 115,
+    "sources_et_pieces_conservees": true,
+    "flux_dessin_images_et_texte_identiques": true,
+    "controle_visuel": {
+      "passed": true,
+      "pages": [
+        {
+          "pdf": "RAPPORT-FINAL-SADEDINE-2026.pdf",
+          "page": 1,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "analyse-TP-01.pdf",
+          "page": 7,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "analyse-TP-02.pdf",
+          "page": 11,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "analyse-TP-03.pdf",
+          "page": 16,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "analyse-cartes_sd-SD-01.pdf",
+          "page": 10,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "analyse-cartes_sd-SD-02.pdf",
+          "page": 9,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "analyse-cartes_sd-SD-03.pdf",
+          "page": 11,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "analyse-cartes_sd-transversale.pdf",
+          "page": 12,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "analyse-freebox.pdf",
+          "page": 13,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "analyse-ordinateur.pdf",
+          "page": 15,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "note-de-constat-technique.pdf",
+          "page": 9,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "rapports-subsidiaires/20261108-analyse-pv--compte-rendu.pdf",
+          "page": 1,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "rapports-subsidiaires/20261109-controle-l16b-photos--compte-rendu.pdf",
+          "page": 5,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "rapports-subsidiaires/20261110-tp03-intervention-humaine--compte-rendu.pdf",
+          "page": 2,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "rapports-subsidiaires/Reponse_Q1_inventaire_DNEF_SADEDINE-2026.pdf",
+          "page": 2,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "rapports-subsidiaires/liste-complete-fichiers-28oct2024.pdf",
+          "page": 1,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "rapports-subsidiaires/rapport-comparaison-L16B-inventaire.pdf",
+          "page": 6,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "rapports-subsidiaires/rapport-complementaire-OP-01-Sage50-reseaux-28oct2024.pdf",
+          "page": 1,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "rapports-subsidiaires/rapport-complementaire-OP-01-Samsung-ALMU-28oct2024.pdf",
+          "page": 1,
+          "pixels_identiques": true
+        },
+        {
+          "pdf": "rapports-subsidiaires/rapport-correspondances-et-integrite-20261116.pdf",
+          "page": 9,
+          "pixels_identiques": true
+        }
+      ],
+      "inspection_visuelle": "20 pages présentant des liens corrigés inspectées ; présentation identique, aucune anomalie."
+    }
+  }
+}

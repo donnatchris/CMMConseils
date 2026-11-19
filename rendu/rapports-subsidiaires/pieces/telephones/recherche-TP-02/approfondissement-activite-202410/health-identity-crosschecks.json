@@ -1,0 +1,48 @@
+{
+  "healthd_binding": {
+    "path": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/Preferences/com.apple.healthd.plist",
+    "sha256": "6d1a0ea881562f94262c033110fa75f8536142c208f752caee310546abae19be",
+    "key": "SyncIdentityHardwareIdentifier",
+    "matches_sync_identity_rows": [
+      2
+    ]
+  },
+  "checked_plists": 2790,
+  "hits": [
+    {
+      "file": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/Preferences/com.apple.healthd.plist",
+      "sha256": "6d1a0ea881562f94262c033110fa75f8536142c208f752caee310546abae19be"
+    }
+  ],
+  "migration_matches": [
+    {
+      "Z_PK": 1,
+      "matches": []
+    },
+    {
+      "Z_PK": 2,
+      "matches": []
+    },
+    {
+      "Z_PK": 3,
+      "matches": []
+    },
+    {
+      "Z_PK": 4,
+      "matches": []
+    },
+    {
+      "Z_PK": 8,
+      "matches": []
+    },
+    {
+      "Z_PK": 10,
+      "matches": []
+    },
+    {
+      "Z_PK": 11,
+      "matches": []
+    }
+  ],
+  "limit": "literal representations only; absence does not exclude hashed, encoded or unextracted linkage"
+}

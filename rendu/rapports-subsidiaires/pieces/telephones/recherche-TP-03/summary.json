@@ -1,0 +1,44 @@
+{
+  "source": "/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E",
+  "headers": {
+    "Info.plist": {
+      "missing": true
+    },
+    "Manifest.plist": {
+      "before": "3fc28b347479d135d3073a6342b81509289cbbfd20150ac861dc18e2a4863c6c",
+      "copy": "3fc28b347479d135d3073a6342b81509289cbbfd20150ac861dc18e2a4863c6c",
+      "after": "3fc28b347479d135d3073a6342b81509289cbbfd20150ac861dc18e2a4863c6c"
+    },
+    "Status.plist": {
+      "before": "531bffce5287e2c3df2e2f8361d92c4febac7fe1005ecdf96adafe2a0d5878d5",
+      "copy": "531bffce5287e2c3df2e2f8361d92c4febac7fe1005ecdf96adafe2a0d5878d5",
+      "after": "531bffce5287e2c3df2e2f8361d92c4febac7fe1005ecdf96adafe2a0d5878d5"
+    },
+    "Manifest.db": {
+      "before": "e99a859fe1ed8dcd682eb15b10ec9ab61ac0cbc9d36bd26e734f751ca194c768",
+      "copy": "e99a859fe1ed8dcd682eb15b10ec9ab61ac0cbc9d36bd26e734f751ca194c768",
+      "after": "e99a859fe1ed8dcd682eb15b10ec9ab61ac0cbc9d36bd26e734f751ca194c768"
+    }
+  },
+  "manifest_plain_sha256": "334123a803c20b59c9610b459b8769a07d24cab7ea805e35c6f64caec65f365c",
+  "quick_check": [
+    [
+      "ok"
+    ]
+  ],
+  "flags": {
+    "2": 59470,
+    "1": 117865,
+    "4": 360
+  },
+  "regular_bytes_manifest": 106595164370,
+  "missing": [],
+  "selected": 4632,
+  "copied": 4632,
+  "errors": 0,
+  "plaintext_bytes": 1820972351,
+  "size_warnings": 525,
+  "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "sqlite": "3.45.1",
+  "time_utc": "2026-11-10T10:52:12.068823+00:00"
+}

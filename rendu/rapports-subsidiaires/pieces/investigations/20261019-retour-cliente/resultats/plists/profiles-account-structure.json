@@ -1,0 +1,246 @@
+[
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/Preferences/com.apple.icloud.findmydeviced.FMIPAccounts.plist",
+    "type": "dict",
+    "top_entries": 6,
+    "top_keys": [
+      "addTime",
+      "osVersion",
+      "versionHistory",
+      "lowBatteryLocate",
+      "dsid",
+      "enableContext"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/Preferences/com.apple.managedconfiguration.profiled.plist",
+    "type": "dict",
+    "top_entries": 1,
+    "top_keys": [
+      "MCFeatureHealthDataSubmissionAllowedVersion"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/UserConfigurationProfiles/ClientTruth.plist",
+    "type": "dict",
+    "top_entries": 0,
+    "top_keys": [],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/UserConfigurationProfiles/EffectiveUserSettings.plist",
+    "type": "dict",
+    "top_entries": 4,
+    "top_keys": [
+      "intersection",
+      "restrictedBool",
+      "restrictedValue",
+      "union"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/UserConfigurationProfiles/PayloadDependency.plist",
+    "type": "dict",
+    "top_entries": 0,
+    "top_keys": [],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/UserConfigurationProfiles/PayloadManifest.plist",
+    "type": "dict",
+    "top_entries": 2,
+    "top_keys": [
+      "OrderedProfiles",
+      "HiddenProfiles"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/UserConfigurationProfiles/ProfileTruth.plist",
+    "type": "dict",
+    "top_entries": 0,
+    "top_keys": [],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/UserConfigurationProfiles/PublicInfo/MCMeta.plist",
+    "type": "dict",
+    "top_entries": 1,
+    "top_keys": [
+      "LastMigratedBuild"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/UserConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist",
+    "type": "dict",
+    "top_entries": 0,
+    "top_keys": [],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/UserConfigurationProfiles/PublicInfo/PublicEffectiveUserSettings.plist",
+    "type": "dict",
+    "top_entries": 4,
+    "top_keys": [
+      "intersection",
+      "restrictedBool",
+      "restrictedValue",
+      "union"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/UserConfigurationProfiles/PublicInfo/Truth.plist",
+    "type": "dict",
+    "top_entries": 5,
+    "top_keys": [
+      "union",
+      "assignedObject",
+      "restrictedBool",
+      "restrictedValue",
+      "intersection"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/HomeDomain/Library/UserConfigurationProfiles/UserSettings.plist",
+    "type": "dict",
+    "top_entries": 0,
+    "top_keys": [],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/AppAccessibilityParameters.plist",
+    "type": "dict",
+    "top_entries": 0,
+    "top_keys": [],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/ClientTruth.plist",
+    "type": "dict",
+    "top_entries": 3,
+    "top_keys": [
+      "com.apple.profiled.appenforced.com.apple.news",
+      "com.apple.WatchListKit.isTVAllowed",
+      "com.apple.lsd.appremoval"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/CloudConfigurationDetails.plist",
+    "type": "dict",
+    "top_entries": 6,
+    "top_keys": [
+      "PostSetupProfileWasInstalled",
+      "IsSupervised",
+      "CloudConfigurationUIComplete",
+      "ConfigurationSource",
+      "AllowPairing",
+      "ConfigurationWasApplied"
+    ],
+    "management_fields": [
+      {
+        "path": "/IsSupervised",
+        "value": false
+      }
+    ]
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/MCProfileEvents.plist",
+    "type": "dict",
+    "top_entries": 1,
+    "top_keys": [
+      "ProfileEvents"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/MCSettingsEvents.plist",
+    "type": "dict",
+    "top_entries": 5,
+    "top_keys": [
+      "SystemProfileRestrictions",
+      "SystemSettings",
+      "SystemClientRestrictions",
+      "Restrictions",
+      "EffectiveSettings"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/MCSettingsEvents.plist.sb-88c62b0d-BqZVF7/MCSettingsEvents.plist",
+    "error": "Invalid file"
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/PayloadDependency.plist",
+    "type": "dict",
+    "top_entries": 0,
+    "top_keys": [],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/PayloadManifest.plist",
+    "type": "dict",
+    "top_entries": 2,
+    "top_keys": [
+      "OrderedProfiles",
+      "HiddenProfiles"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/ProfileTruth.plist",
+    "type": "dict",
+    "top_entries": 0,
+    "top_keys": [],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/PublicInfo/MCMeta.plist",
+    "type": "dict",
+    "top_entries": 3,
+    "top_keys": [
+      "StopFilteringGrandfatheredRestrictions",
+      "LastMDMMigratedBuild",
+      "LastMigratedBuild"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist",
+    "type": "dict",
+    "top_entries": 0,
+    "top_keys": [],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/UserSettings.plist",
+    "type": "dict",
+    "top_entries": 5,
+    "top_keys": [
+      "union",
+      "assignedObject",
+      "restrictedBool",
+      "restrictedValue",
+      "intersection"
+    ],
+    "management_fields": []
+  },
+  {
+    "source": "telephones/recherche-TP-02/extraction-complements-20261014/files/SysSharedContainerDomain-systemgroup.com.apple.icloud.findmydevice.managed/Library/Preferences/com.apple.icloud.findmydeviced.FMIPAccounts.plist",
+    "type": "dict",
+    "top_entries": 4,
+    "top_keys": [
+      "$version",
+      "$archiver",
+      "$top",
+      "$objects"
+    ],
+    "management_fields": []
+  }
+]

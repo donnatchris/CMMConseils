@@ -11,6 +11,7 @@ import markdown
 from markdown.extensions.toc import slugify_unicode
 
 ROOT = Path(__file__).resolve().parents[1]
+CONTROLS = ROOT / 'generer-pdf/controles-documentaires'
 
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -37,8 +38,7 @@ def rendered(path):
 def check(skip_pdf=False):
     selection = json.loads((ROOT / 'generer-pdf/livraison-20261118.json').read_text())
     sources = [ROOT / x['source'] for x in selection['documents']]
-    scope = sources + [ROOT / 'revision-documentaire-20261118/README.md',
-                       ROOT / 'revision-documentaire-20261118/controles-historiques.md']
+    scope = sources
     errors, counts, parsed = [], {}, {}
     for p in scope:
         parsed[p.resolve()] = rendered(p)
@@ -70,7 +70,7 @@ def check(skip_pdf=False):
                 errors.append({'source': str(p.relative_to(ROOT)), 'table_line': number})
     counts['local_links'] = link_count
     # Proof rows must remain byte-for-byte identical to the committed pre-revision source.
-    initial = json.loads((ROOT / 'revision-documentaire-20261118/etat-initial.json').read_text())
+    initial = json.loads((CONTROLS / 'etat-initial.json').read_text())
     head = initial['commit_recuperation']
     proof_paths = [
         'ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/rapport-comparaison-SHA512-exhaustive-1555-fichiers.md',
@@ -93,7 +93,7 @@ def check(skip_pdf=False):
                 errors.append({'changed_individual_comparisons': name})
             counts[name]['individual_comparisons_preserved'] = old_records == new_records
             counts[name]['individual_files'] = sum(l.startswith('#### F') for l in new_records)
-    deletions = json.loads((ROOT / 'revision-documentaire-20261118/suppressions-et-deplacements.json').read_text())
+    deletions = json.loads((CONTROLS / 'suppressions-et-deplacements.json').read_text())
     for item in deletions:
         ref = f"{item['commit']}:{item['chemin_supprime']}"
         actual = subprocess.check_output(['git', 'rev-parse', ref], cwd=ROOT).decode().strip()
@@ -101,7 +101,7 @@ def check(skip_pdf=False):
             errors.append({'deletion_record': item['chemin_supprime']})
     counts['historical_copies_removed'] = sum(x['nature'] == 'copie historique' for x in deletions)
     counts['other_merges_or_moves'] = sum(x['nature'] != 'copie historique' for x in deletions)
-    preservation = json.loads((ROOT / 'revision-documentaire-20261118/preservation-hors-corpus.json').read_text())
+    preservation = json.loads((CONTROLS / 'preservation-hors-corpus.json').read_text())
     for item in preservation['restored']:
         if digest(ROOT / item['path']) != item['sha256_restored']:
             errors.append({'outside_scope_changed': item['path']})
@@ -157,7 +157,7 @@ def check(skip_pdf=False):
         counts['pages'] = sum(x['pages'] for x in manifest['rapports'])
     result = {'revision': '2026-11-18', 'scope': 'Sélection documentaire explicite, sources techniques hors corpus vérifiées sans réécriture',
               'counts': counts, 'errors': errors, 'passed': not errors}
-    (ROOT / 'revision-documentaire-20261118/validation-documentaire.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
+    (CONTROLS / 'validation-documentaire.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return not errors
 

@@ -35,4 +35,4 @@ Signature :
 Mme Malika Sadedine, pour DMM Conseils  
 Date et signature :
 
-*Révision documentaire du 18 novembre 2026 par Christophe DOnnat — Donnat Dev. Les dates et emplacements de signature des parties restent ceux du document établi le 17 novembre ; aucune signature des parties n’est ajoutée.*
+*Révision documentaire du 18 novembre 2026 par Christophe Donnat — Donnat Dev. Les dates et emplacements de signature des parties restent ceux du document établi le 17 novembre ; aucune signature des parties n’est ajoutée.*

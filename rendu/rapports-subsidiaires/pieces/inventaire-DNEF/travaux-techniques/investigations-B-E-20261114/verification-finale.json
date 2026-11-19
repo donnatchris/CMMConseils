@@ -1,0 +1,1517 @@
+{
+  "source_checks": [
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/Manifest.db",
+      "expected": "334123a803c20b59c9610b459b8769a07d24cab7ea805e35c6f64caec65f365c",
+      "actual": "334123a803c20b59c9610b459b8769a07d24cab7ea805e35c6f64caec65f365c",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/Manifest.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/TCC/TCC.db",
+      "expected": "e234b692cc13a73c38c4a8d1b0b6c8c109c59f6f5fa82e4cddbc44ca5b56c1f1",
+      "actual": "e234b692cc13a73c38c4a8d1b0b6c8c109c59f6f5fa82e4cddbc44ca5b56c1f1",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/TCC/TCC.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/828CEA0E-40AC-4D48-B07B-2555C8292499-CarDisplayIconState.plist",
+      "expected": "a10660a5a4ba8c8025c2de3f0d4a3a9a6fe580e770461d5169b6fe9c5c6dde26",
+      "actual": "a10660a5a4ba8c8025c2de3f0d4a3a9a6fe580e770461d5169b6fe9c5c6dde26",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/777A5F36-8133-4B70-AA6A-4238BE6E5E69-CarDisplayIconState.plist",
+      "expected": "b7da156c743c0e3e5c476a79d31b626126711fc5d98b963d16f5f5d1cce890ec",
+      "actual": "b7da156c743c0e3e5c476a79d31b626126711fc5d98b963d16f5f5d1cce890ec",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/AD3F41FB-589E-42C1-83A4-F152A90EED1D-CarDisplayDesiredIconState.plist",
+      "expected": "38a64d091f89538c3e88e822609689c601a580853a7534c23c76d5052cc465ee",
+      "actual": "38a64d091f89538c3e88e822609689c601a580853a7534c23c76d5052cc465ee",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/IconState.plist",
+      "expected": "6a9ad9f24dd721449d849e70a7e75365e1101545311b00c14c370cf52f637748",
+      "actual": "6a9ad9f24dd721449d849e70a7e75365e1101545311b00c14c370cf52f637748",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/4B99F74E-7A1C-4517-B20F-1B8E813E3894-CarDisplayIconState.plist",
+      "expected": "0f8ad04cee5358ecb4ec5313dde8a7b759d042c22f6627bfa7c7117bced140ed",
+      "actual": "0f8ad04cee5358ecb4ec5313dde8a7b759d042c22f6627bfa7c7117bced140ed",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/E47E64B0-304A-4BF1-9B2A-9F3709853FDF-CarDisplayIconState.plist",
+      "expected": "c5eee732c32bf03de33b3371da26c333f7a86ff99a9a0b91348652ea4f2f0af3",
+      "actual": "c5eee732c32bf03de33b3371da26c333f7a86ff99a9a0b91348652ea4f2f0af3",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/0143924E-2197-43C5-9C25-EC9321325486-CarDisplayIconState.plist",
+      "expected": "d58b7dcdf718f4a218de7a6b343e77cb370dfd0dada52115f0ac8d929bd5b206",
+      "actual": "d58b7dcdf718f4a218de7a6b343e77cb370dfd0dada52115f0ac8d929bd5b206",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/AD3F41FB-589E-42C1-83A4-F152A90EED1D-CarDisplayIconState.plist",
+      "expected": "05e09ee88ff518e38599f0936309e5b816ef9e136b1ffc296545cc9aac290c2f",
+      "actual": "05e09ee88ff518e38599f0936309e5b816ef9e136b1ffc296545cc9aac290c2f",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/4E38A208-2752-4A6F-8C85-B9A8ECBD53C0-CarDisplayIconState.plist",
+      "expected": "8c71fe2695da48fb0ecee872460da14eb73ae9c865c5be60399d1fde56181002",
+      "actual": "8c71fe2695da48fb0ecee872460da14eb73ae9c865c5be60399d1fde56181002",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/6DBFAA30-9B13-415E-875D-D989BACF225A-CarDisplayIconState.plist",
+      "expected": "d2784c660b8fde43aa24baa17e264794af6cdc71fdc638b0dd8b10094d42a1db",
+      "actual": "d2784c660b8fde43aa24baa17e264794af6cdc71fdc638b0dd8b10094d42a1db",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/1298AE0E-39A5-4097-9C3E-52E0AACF8926-CarDisplayDesiredIconState.plist",
+      "expected": "38a64d091f89538c3e88e822609689c601a580853a7534c23c76d5052cc465ee",
+      "actual": "38a64d091f89538c3e88e822609689c601a580853a7534c23c76d5052cc465ee",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/1472703C-5C63-40FC-85FE-C2C9875B9F79-CarDisplayDesiredIconState.plist",
+      "expected": "38a64d091f89538c3e88e822609689c601a580853a7534c23c76d5052cc465ee",
+      "actual": "38a64d091f89538c3e88e822609689c601a580853a7534c23c76d5052cc465ee",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/F5C529F2-D5D8-48BF-A767-D4B44A5DBBD9-CarDisplayIconState.plist",
+      "expected": "6420122dc45c8741c5845cc4a6ffe5e1af8d743a461f2e3c9553b1a14cf9fe4c",
+      "actual": "6420122dc45c8741c5845cc4a6ffe5e1af8d743a461f2e3c9553b1a14cf9fe4c",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/F7961DFE-9DC9-47FD-A44A-5F023D0966BC-CarDisplayDesiredIconState.plist",
+      "expected": "38a64d091f89538c3e88e822609689c601a580853a7534c23c76d5052cc465ee",
+      "actual": "38a64d091f89538c3e88e822609689c601a580853a7534c23c76d5052cc465ee",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/1298AE0E-39A5-4097-9C3E-52E0AACF8926-CarDisplayIconState.plist",
+      "expected": "b297683c33b1dfc154c1ef41170e6c09676b9fdbe61b1d5710bdc6fa7a0e9e56",
+      "actual": "b297683c33b1dfc154c1ef41170e6c09676b9fdbe61b1d5710bdc6fa7a0e9e56",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/(null)-CarDisplayIconState.plist",
+      "expected": "866f0764f690386c60d0d6ac2f9126246a7fb2b198696f31cfca28fcd70e8bcb",
+      "actual": "866f0764f690386c60d0d6ac2f9126246a7fb2b198696f31cfca28fcd70e8bcb",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/A99436FF-1703-4FBB-83B0-C9CEF6407073-CarDisplayIconState.plist",
+      "expected": "a930d7722ac9ad85272c56be4e82406b9f402184058ad4e556901384e9fe2ec3",
+      "actual": "a930d7722ac9ad85272c56be4e82406b9f402184058ad4e556901384e9fe2ec3",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/F7961DFE-9DC9-47FD-A44A-5F023D0966BC-CarDisplayIconState.plist",
+      "expected": "4207e19adaddea381427cefd062c6ded71185e113f951f52b2e713ea3ae1854f",
+      "actual": "4207e19adaddea381427cefd062c6ded71185e113f951f52b2e713ea3ae1854f",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/4F064B3E-5767-4CB8-9F8E-56C478C864F7-CarDisplayIconState.plist",
+      "expected": "dd28524e7161fd33ed0e20f2b8a02053ba08d695b6d7ef335d55872d72c4c2b7",
+      "actual": "dd28524e7161fd33ed0e20f2b8a02053ba08d695b6d7ef335d55872d72c4c2b7",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/1472703C-5C63-40FC-85FE-C2C9875B9F79-CarDisplayIconState.plist",
+      "expected": "32990ba678298c680f8f07f90e5392f826023634af4bcdf391436cf14742af3b",
+      "actual": "32990ba678298c680f8f07f90e5392f826023634af4bcdf391436cf14742af3b",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/C384F4D0-B205-4F50-A4D0-23E4C4D99AD4-CarDisplayIconState.plist",
+      "expected": "7c5f89b4ee2409b63065caebffa83797c2bb46adbc6826cdf89fa9a91b7ac867",
+      "actual": "7c5f89b4ee2409b63065caebffa83797c2bb46adbc6826cdf89fa9a91b7ac867",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/27E31461-7B2B-488A-A15E-B85225213F37-CarDisplayIconState.plist",
+      "expected": "17175f007d3485587c8c7ff9bec7c4454e72fc6f7ba9fbbdef29c8a3b158f3a4",
+      "actual": "17175f007d3485587c8c7ff9bec7c4454e72fc6f7ba9fbbdef29c8a3b158f3a4",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/TodayViewArchive.plist",
+      "expected": "2d0dd78b9de6dc3439e8e5217458790eb43db50e1f8e19ba62290977e73e67f3",
+      "actual": "2d0dd78b9de6dc3439e8e5217458790eb43db50e1f8e19ba62290977e73e67f3",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/SpringBoard/828CEA0E-40AC-4D48-B07B-2555C8292499-CarDisplayDesiredIconState.plist",
+      "expected": "38a64d091f89538c3e88e822609689c601a580853a7534c23c76d5052cc465ee",
+      "actual": "38a64d091f89538c3e88e822609689c601a580853a7534c23c76d5052cc465ee",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.springboard.usage.plist",
+      "expected": "9261ecceda608ef174256e5fdc774c1e6e3dcf533409c1bc393d490d01c713f1",
+      "actual": "9261ecceda608ef174256e5fdc774c1e6e3dcf533409c1bc393d490d01c713f1",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.MobileInternetSharing.plist",
+      "expected": "fbf8d4433b7e985f6d851f4b2d49456125ccd8d9376697d71b8dcd2a8c4bf34d",
+      "actual": "fbf8d4433b7e985f6d851f4b2d49456125ccd8d9376697d71b8dcd2a8c4bf34d",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.mlruntimed.plist",
+      "expected": "c36a2b7cb9f8c304d49bf126d3b358473c04965fddd0a79e7c1d19106bc38338",
+      "actual": "c36a2b7cb9f8c304d49bf126d3b358473c04965fddd0a79e7c1d19106bc38338",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.biometrickitd.plist",
+      "expected": "02d90c3f308fc77539233385ba5e0c008716765886fdad67b1a03f9b14b914bf",
+      "actual": "02d90c3f308fc77539233385ba5e0c008716765886fdad67b1a03f9b14b914bf",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.homesharing.plist",
+      "expected": "d4cae0377446d5cff2eb62b941fc3c5d7a8bc74fb0cd6f7d508d38cb85014933",
+      "actual": "d4cae0377446d5cff2eb62b941fc3c5d7a8bc74fb0cd6f7d508d38cb85014933",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.SpringBoard.plist",
+      "expected": "9261ecceda608ef174256e5fdc774c1e6e3dcf533409c1bc393d490d01c713f1",
+      "actual": "9261ecceda608ef174256e5fdc774c1e6e3dcf533409c1bc393d490d01c713f1",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.PeopleSuggester.SeedSuggestions.plist",
+      "expected": "e732023865e869e7250b5161d2094c39018cfd2c31f5377a39f72b3825d7da53",
+      "actual": "e732023865e869e7250b5161d2094c39018cfd2c31f5377a39f72b3825d7da53",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.springboard.SensitiveUIModule.plist",
+      "expected": "df09b286347bc3a11c458aeab30200e4b98ad1fbc0d824c8c271e1240cb157bf",
+      "actual": "df09b286347bc3a11c458aeab30200e4b98ad1fbc0d824c8c271e1240cb157bf",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.Sharing.plist",
+      "expected": "49c47fdda2dfc2bafd68d79ca73944ebd87273e6929bc3b2099db68ecf5759e6",
+      "actual": "49c47fdda2dfc2bafd68d79ca73944ebd87273e6929bc3b2099db68ecf5759e6",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.timed.plist",
+      "expected": "1723c685d36047cf85d3d058340187ddf1177bc6cae33faddbd0521d1ed27b37",
+      "actual": "1723c685d36047cf85d3d058340187ddf1177bc6cae33faddbd0521d1ed27b37",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.backboardd.plist",
+      "expected": "d94cc9df253b868c461eb176811baa50955d47490c863cc315d4f546bf861d1a",
+      "actual": "d94cc9df253b868c461eb176811baa50955d47490c863cc315d4f546bf861d1a",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.springboard.datamigrator.plist",
+      "expected": "693cda83a872863f514c78ef48bdbee0554cb805fef74dbc48f1cedff6be5099",
+      "actual": "693cda83a872863f514c78ef48bdbee0554cb805fef74dbc48f1cedff6be5099",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.quicklook.ThumbnailsAgent.plist",
+      "expected": "2df830f5ad6287da66c5fe434f16a57d46f4f77e6a0aaead9895b93572ae2003",
+      "actual": "2df830f5ad6287da66c5fe434f16a57d46f4f77e6a0aaead9895b93572ae2003",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.fileproviderd.plist",
+      "expected": "6785e7b9b28db40a20ce665319cd07e70255135c437c5fb397d572d95064a1e2",
+      "actual": "6785e7b9b28db40a20ce665319cd07e70255135c437c5fb397d572d95064a1e2",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.coreduetd.plist",
+      "expected": "b46002a430632a88dd86a8e57543e288a9163881eeabc9f86de7df12a583ae3c",
+      "actual": "b46002a430632a88dd86a8e57543e288a9163881eeabc9f86de7df12a583ae3c",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.ActivitySharing.plist",
+      "expected": "9f66e672feaf597060ef1fda3249af6fb3a169a8f1ac65bc90b7fd6a29acaf84",
+      "actual": "9f66e672feaf597060ef1fda3249af6fb3a169a8f1ac65bc90b7fd6a29acaf84",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.activitysharingd.plist",
+      "expected": "399975151b4909dd7c0ed0e000b83db824f6446f7b830203c69bf4b43577949a",
+      "actual": "399975151b4909dd7c0ed0e000b83db824f6446f7b830203c69bf4b43577949a",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.sharingd.plist",
+      "expected": "6b9964d8882e0a48bce9123403555bd651e7782d3fdb9be131051b078839fa54",
+      "actual": "6b9964d8882e0a48bce9123403555bd651e7782d3fdb9be131051b078839fa54",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Preferences/com.apple.springboard.plist",
+      "expected": "72f801e56acaf5b10c5f86347518ce8b0c79d49019ef9c4fa3be5439d439b124",
+      "actual": "72f801e56acaf5b10c5f86347518ce8b0c79d49019ef9c4fa3be5439d439b124",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/FrontBoard/applicationState.db",
+      "expected": "1433d6de0e089d3bfd71e02fad512e3f150663e036a6a518564025988ec9fce1",
+      "actual": "1433d6de0e089d3bfd71e02fad512e3f150663e036a6a518564025988ec9fce1",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/FrontBoard/applicationState.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/CoreDuet/People/interactionC.db",
+      "expected": "c861ca6169576320491d96abf00b20d22fc82d96648b568b520d58d9f2a51ce4",
+      "actual": "c861ca6169576320491d96abf00b20d22fc82d96648b568b520d58d9f2a51ce4",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/CoreDuet/People/interactionC.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Application Support/FileProvider/AccessControl.db",
+      "expected": "f2ce867e9482bd51073ac64d77ac654e2560006834ea1b629a6a711a5e3e874d",
+      "actual": "f2ce867e9482bd51073ac64d77ac654e2560006834ea1b629a6a711a5e3e874d",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Application Support/FileProvider/com.apple.SMBClientProvider.FileProvider/Domains.plist",
+      "expected": "763a0fdebbfd6c08ddd44db23b59e2e78b7b3bc3554b282d045bd6ed36656d10",
+      "actual": "763a0fdebbfd6c08ddd44db23b59e2e78b7b3bc3554b282d045bd6ed36656d10",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Application Support/FileProvider/com.apple.filesystems.UserFS.FileProvider/Domains.plist",
+      "expected": "763a0fdebbfd6c08ddd44db23b59e2e78b7b3bc3554b282d045bd6ed36656d10",
+      "actual": "763a0fdebbfd6c08ddd44db23b59e2e78b7b3bc3554b282d045bd6ed36656d10",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Application Support/FileProvider/com.apple.mobileslideshow.PhotosFileProvider/Domains.plist",
+      "expected": "8a4504a48960d743cf6fdccc002416d8e872051a2d8ef929bbae345d2b0695b2",
+      "actual": "8a4504a48960d743cf6fdccc002416d8e872051a2d8ef929bbae345d2b0695b2",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Application Support/FileProvider/com.apple.CloudDocs.iCloudDriveFileProvider/Domains.plist",
+      "expected": "763a0fdebbfd6c08ddd44db23b59e2e78b7b3bc3554b282d045bd6ed36656d10",
+      "actual": "763a0fdebbfd6c08ddd44db23b59e2e78b7b3bc3554b282d045bd6ed36656d10",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Application Support/FileProvider/com.apple.FileProvider.LocalStorage/Domains.plist",
+      "expected": "763a0fdebbfd6c08ddd44db23b59e2e78b7b3bc3554b282d045bd6ed36656d10",
+      "actual": "763a0fdebbfd6c08ddd44db23b59e2e78b7b3bc3554b282d045bd6ed36656d10",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Application Support/FileProvider/com.adobe.Adobe-Reader.fileprovider/Domains.plist",
+      "expected": "086b255da9acebf0ffb3d5317bf17316124bcf07d494b2d1c53ba3c9153d6709",
+      "actual": "086b255da9acebf0ffb3d5317bf17316124bcf07d494b2d1c53ba3c9153d6709",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Application Support/FileProvider/com.getdropbox.Dropbox.FileProvider/Domains.plist",
+      "expected": "086b255da9acebf0ffb3d5317bf17316124bcf07d494b2d1c53ba3c9153d6709",
+      "actual": "086b255da9acebf0ffb3d5317bf17316124bcf07d494b2d1c53ba3c9153d6709",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Application Support/FileProvider/backup/backup_manifest.db",
+      "expected": "cca5266a793a405dce50031c69f315e3ff892a399dfc7412cc5be3dfb1a42c2d",
+      "actual": "cca5266a793a405dce50031c69f315e3ff892a399dfc7412cc5be3dfb1a42c2d",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/HomeDomain/Library/Application Support/FileProvider/backup/backup_manifest.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomain-com.apple.mobilemail/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db",
+      "expected": "59a99642bb1b55829c702b650ae778526d5c1c882d7b47a9553affb5ddc52bcb",
+      "actual": "59a99642bb1b55829c702b650ae778526d5c1c882d7b47a9553affb5ddc52bcb",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomain-com.apple.mobilemail/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomain-com.apple.mobilemail/Library/WebKit/WebsiteData/ResourceLoadStatistics/pcm.db",
+      "expected": "46022b590bdaddf5832bc070734370fdf12c60ef5795e57edeb32c4020f88bcd",
+      "actual": "46022b590bdaddf5832bc070734370fdf12c60ef5795e57edeb32c4020f88bcd",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomain-com.apple.mobilemail/Library/WebKit/WebsiteData/ResourceLoadStatistics/pcm.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/KeyboardDomain/Library/Keyboard/user_model_database.sqlite",
+      "expected": "8e82ed90a37617d75d7ba3b700a26a57ae983b10469f490b66c17c071257041e",
+      "actual": "8e82ed90a37617d75d7ba3b700a26a57ae983b10469f490b66c17c071257041e",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/KeyboardDomain/Library/Keyboard/user_model_database.sqlite-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomainGroup-group.com.apple.tipsnext/com.apple.mobilemail/.tipkit/tips-store.db",
+      "expected": "faefd8e21c57719f17224d79d2e05118375d99c3bafbba7e495d36c80f044ed9",
+      "actual": "faefd8e21c57719f17224d79d2e05118375d99c3bafbba7e495d36c80f044ed9",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomainGroup-group.com.apple.tipsnext/com.apple.mobilemail/.tipkit/tips-store.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomainPlugin-com.apple.quicklook.extension.previewUI/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db",
+      "expected": "934c7922c620ecba33d22671e3bfe9fd00dc1d62254d9053b46209faa779793e",
+      "actual": "934c7922c620ecba33d22671e3bfe9fd00dc1d62254d9053b46209faa779793e",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomainPlugin-com.apple.quicklook.extension.previewUI/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomainPlugin-com.apple.quicklook.extension.previewUI/Library/WebKit/WebsiteData/ResourceLoadStatistics/pcm.db",
+      "expected": "46022b590bdaddf5832bc070734370fdf12c60ef5795e57edeb32c4020f88bcd",
+      "actual": "46022b590bdaddf5832bc070734370fdf12c60ef5795e57edeb32c4020f88bcd",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomainPlugin-com.apple.quicklook.extension.previewUI/Library/WebKit/WebsiteData/ResourceLoadStatistics/pcm.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/TCC/TCC.db",
+      "expected": "e234b692cc13a73c38c4a8d1b0b6c8c109c59f6f5fa82e4cddbc44ca5b56c1f1",
+      "actual": "e234b692cc13a73c38c4a8d1b0b6c8c109c59f6f5fa82e4cddbc44ca5b56c1f1",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/TCC/TCC.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/AppDomainGroup-group.com.apple.tipsnext/com.apple.mobilemail/.tipkit/tips-store.db",
+      "expected": "faefd8e21c57719f17224d79d2e05118375d99c3bafbba7e495d36c80f044ed9",
+      "actual": "faefd8e21c57719f17224d79d2e05118375d99c3bafbba7e495d36c80f044ed9",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/AppDomainGroup-group.com.apple.tipsnext/com.apple.mobilemail/.tipkit/tips-store.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomainGroup-group.com.apple.tipsnext/com.apple.DocumentsApp/.tipkit/tips-store.db",
+      "expected": "9105a67615374b33268d093fd977101ede842614d1aa744f881cc480b528add3",
+      "actual": "9105a67615374b33268d093fd977101ede842614d1aa744f881cc480b528add3",
+      "ok": true
+    },
+    {
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomainGroup-group.com.apple.tipsnext/com.apple.DocumentsApp/.tipkit/tips-store.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/FrontBoard/applicationState.db",
+      "expected": "1433d6de0e089d3bfd71e02fad512e3f150663e036a6a518564025988ec9fce1",
+      "actual": "1433d6de0e089d3bfd71e02fad512e3f150663e036a6a518564025988ec9fce1",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/FrontBoard/applicationState.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/CoreDuet/People/interactionC.db",
+      "expected": "c861ca6169576320491d96abf00b20d22fc82d96648b568b520d58d9f2a51ce4",
+      "actual": "c861ca6169576320491d96abf00b20d22fc82d96648b568b520d58d9f2a51ce4",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/CoreDuet/People/interactionC.db-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/KeyboardDomain/Library/Keyboard/user_model_database.sqlite",
+      "expected": "8e82ed90a37617d75d7ba3b700a26a57ae983b10469f490b66c17c071257041e",
+      "actual": "8e82ed90a37617d75d7ba3b700a26a57ae983b10469f490b66c17c071257041e",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/KeyboardDomain/Library/Keyboard/user_model_database.sqlite-wal",
+      "expected": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/Preferences/com.apple.PeopleSuggester.SeedSuggestions.plist",
+      "expected": "e732023865e869e7250b5161d2094c39018cfd2c31f5377a39f72b3825d7da53",
+      "actual": "e732023865e869e7250b5161d2094c39018cfd2c31f5377a39f72b3825d7da53",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/Preferences/com.apple.coreduetd.plist",
+      "expected": "b46002a430632a88dd86a8e57543e288a9163881eeabc9f86de7df12a583ae3c",
+      "actual": "b46002a430632a88dd86a8e57543e288a9163881eeabc9f86de7df12a583ae3c",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/Preferences/com.apple.timed.plist",
+      "expected": "1723c685d36047cf85d3d058340187ddf1177bc6cae33faddbd0521d1ed27b37",
+      "actual": "1723c685d36047cf85d3d058340187ddf1177bc6cae33faddbd0521d1ed27b37",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/Preferences/com.apple.backboardd.plist",
+      "expected": "d94cc9df253b868c461eb176811baa50955d47490c863cc315d4f546bf861d1a",
+      "actual": "d94cc9df253b868c461eb176811baa50955d47490c863cc315d4f546bf861d1a",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/Preferences/com.apple.springboard.plist",
+      "expected": "72f801e56acaf5b10c5f86347518ce8b0c79d49019ef9c4fa3be5439d439b124",
+      "actual": "72f801e56acaf5b10c5f86347518ce8b0c79d49019ef9c4fa3be5439d439b124",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/telephones-passe1/copies/TP-03/HomeDomain/Library/Preferences/com.apple.biometrickitd.plist",
+      "expected": "02d90c3f308fc77539233385ba5e0c008716765886fdad67b1a03f9b14b914bf",
+      "actual": "02d90c3f308fc77539233385ba5e0c008716765886fdad67b1a03f9b14b914bf",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/TCC/TCC.db",
+      "expected": "fff7e333efe8e4698a11aa85dc7dab1cc51ba6ce5b975b188d7c7b79242631ba",
+      "actual": "fff7e333efe8e4698a11aa85dc7dab1cc51ba6ce5b975b188d7c7b79242631ba",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomainGroup-group.com.apple.tipsnext/com.apple.mobilemail/.tipkit/tips-store.db",
+      "expected": "b8c42e0838aa4d56cef7f898f4797206c7694dd94bd40fbaf4bf97a0369b97d0",
+      "actual": "b8c42e0838aa4d56cef7f898f4797206c7694dd94bd40fbaf4bf97a0369b97d0",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomainGroup-group.com.apple.tipsnext/com.apple.DocumentsApp/.tipkit/tips-store.db",
+      "expected": "f41cbf9bc1b836e950693fea883b2e59d5c173400bc6c3591bb754f79031a683",
+      "actual": "f41cbf9bc1b836e950693fea883b2e59d5c173400bc6c3591bb754f79031a683",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/FrontBoard/applicationState.db",
+      "expected": "3c9d77d5956998ad9b953bc2fd74426d7f3017e821e1b38c60fc2bd772443e76",
+      "actual": "3c9d77d5956998ad9b953bc2fd74426d7f3017e821e1b38c60fc2bd772443e76",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/CoreDuet/People/interactionC.db",
+      "expected": "76672cbd7299360158819981ec4d25456b8138cb6666418108c45c43aec6b63b",
+      "actual": "76672cbd7299360158819981ec4d25456b8138cb6666418108c45c43aec6b63b",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/KeyboardDomain/Library/Keyboard/user_model_database.sqlite",
+      "expected": "2fa1625f92415ac59f892dbc98902a5064166657ea8dcc3a5d3d1a1b2af8727e",
+      "actual": "2fa1625f92415ac59f892dbc98902a5064166657ea8dcc3a5d3d1a1b2af8727e",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/Preferences/com.apple.springboard.plist",
+      "expected": "77dd5a6c4e6f622652fa6dd7f6cf002fc8213742654d62281878295a2e30f80d",
+      "actual": "77dd5a6c4e6f622652fa6dd7f6cf002fc8213742654d62281878295a2e30f80d",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/ACROBAT.EXE-9DC1B3C5.pf",
+      "expected": "d44f27f2e4daa85876031a1d5d76954a732df23f6cef631eeaea3e0222e52b92",
+      "actual": "d44f27f2e4daa85876031a1d5d76954a732df23f6cef631eeaea3e0222e52b92",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/ADOBEGCCLIENT.EXE-1B3F3169.pf",
+      "expected": "c5c3ec8b8372524787d0ed8cee80da269a11735dc7e3a5bc6529be856685c289",
+      "actual": "c5c3ec8b8372524787d0ed8cee80da269a11735dc7e3a5bc6529be856685c289",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/APPLEMOBILEDEVICEPROCESS.EXE-32E11D1C.pf",
+      "expected": "35ec82232052814ea0a1e15c0dcc3c8bef3d234462a1061c884dfe0bfa526562",
+      "actual": "35ec82232052814ea0a1e15c0dcc3c8bef3d234462a1061c884dfe0bfa526562",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/CREDENTIALUIBROKER.EXE-8CEDA3EB.pf",
+      "expected": "95241396f1a95288214715ec14a98090065c233a3944741483076d60870aac01",
+      "actual": "95241396f1a95288214715ec14a98090065c233a3944741483076d60870aac01",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/DLLHOST.EXE-3BC47FAE.pf",
+      "expected": "919bd99e11ad40464154d2a982a4c0c23887f742fbc110192caddc2cfaf75409",
+      "actual": "919bd99e11ad40464154d2a982a4c0c23887f742fbc110192caddc2cfaf75409",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/DLLHOST.EXE-83509FFA.pf",
+      "expected": "609e67a9dd5649854f7fd319e91b65c703f943f95ab7901b0193e93250335c9e",
+      "actual": "609e67a9dd5649854f7fd319e91b65c703f943f95ab7901b0193e93250335c9e",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/DLLHOST.EXE-B2516EDA.pf",
+      "expected": "1ab293ac2d9f02ec8f7ebbacde45d5d6daedede51f670d1fc825143345517a74",
+      "actual": "1ab293ac2d9f02ec8f7ebbacde45d5d6daedede51f670d1fc825143345517a74",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/DLLHOST.EXE-F9DD8F26.pf",
+      "expected": "0dc4e8449c53f5037afd98b9516c3e2cf3836363c80bdf9e4096a4adef51ec05",
+      "actual": "0dc4e8449c53f5037afd98b9516c3e2cf3836363c80bdf9e4096a4adef51ec05",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/EXCEL.EXE-FE860005.pf",
+      "expected": "eac4446a3b03cfe35bbd0fcb4fc35339231ab772cba6f147b56f5860ec74f324",
+      "actual": "eac4446a3b03cfe35bbd0fcb4fc35339231ab772cba6f147b56f5860ec74f324",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/ICLOUDCKKS.EXE-8F35BB84.pf",
+      "expected": "e2953cca14202d784c996caa5792ffa15b06cf72c290cc2e7dcc0235f0bdd523",
+      "actual": "e2953cca14202d784c996caa5792ffa15b06cf72c290cc2e7dcc0235f0bdd523",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/ICLOUDCKKS.EXE-BEB04EBC.pf",
+      "expected": "6a55cb355c85f5395d52b8427cac378b593f6799d00f50361ff06d724803f6cb",
+      "actual": "6a55cb355c85f5395d52b8427cac378b593f6799d00f50361ff06d724803f6cb",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/ICLOUDDRIVE.EXE-3FC2AE80.pf",
+      "expected": "4f7d7cbe246df194e1c43abba2d7a0370f26b5bcc8ac926fc4863ce5f3444f1c",
+      "actual": "4f7d7cbe246df194e1c43abba2d7a0370f26b5bcc8ac926fc4863ce5f3444f1c",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/ICLOUDDRIVE.EXE-D5FA3088.pf",
+      "expected": "b4ca97b7181c4d72082f40f86e6b5a4cfd56e76a228588ec00c47f3aad6b7eea",
+      "actual": "b4ca97b7181c4d72082f40f86e6b5a4cfd56e76a228588ec00c47f3aad6b7eea",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/ICLOUDHOME.EXE-27AE3F5B.pf",
+      "expected": "2dcf8d653118e2950420296be05935e6872a948651d7d7dc54e15f1546075694",
+      "actual": "2dcf8d653118e2950420296be05935e6872a948651d7d7dc54e15f1546075694",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/ICLOUDHOME.EXE-9C60AC01.pf",
+      "expected": "602ca88156645caeb827cb545af12a5488f6ba49668775d753fccadc1837eaa4",
+      "actual": "602ca88156645caeb827cb545af12a5488f6ba49668775d753fccadc1837eaa4",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/ICLOUDHOME.EXE-CBDB3F39.pf",
+      "expected": "d934f3f1148e60001b46811293bd88c98f7d4bb9af6210371877f82cfb1896ec",
+      "actual": "d934f3f1148e60001b46811293bd88c98f7d4bb9af6210371877f82cfb1896ec",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/ICLOUDPREFS.EXE-22B7DF6A.pf",
+      "expected": "538fe0d27970bf2fb5f298baa675e051f8d9900855e3de9e458660148f702dad",
+      "actual": "538fe0d27970bf2fb5f298baa675e051f8d9900855e3de9e458660148f702dad",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/ITUNESMOBILEDEVICELAUNCHER.EX-5A8487F2.pf",
+      "expected": "7dabb94c1fd6e4c8b8888491df6bed5078c524eed18451a520a26a6a25000581",
+      "actual": "7dabb94c1fd6e4c8b8888491df6bed5078c524eed18451a520a26a6a25000581",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MS-TEAMS.EXE-D68873B9.pf",
+      "expected": "b1764d6d3f9e57a243b4df35aa238724ed0ca05e3dceda0cc40b6cc721e7823d",
+      "actual": "b1764d6d3f9e57a243b4df35aa238724ed0ca05e3dceda0cc40b6cc721e7823d",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-1E8C5B66.pf",
+      "expected": "2616b520c1d4ba825b1744653ff8061869d5600b91921d735cf572e13d78351c",
+      "actual": "2616b520c1d4ba825b1744653ff8061869d5600b91921d735cf572e13d78351c",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-1E8C5B67.pf",
+      "expected": "7e1757bc83cb526c97c63f758e8a7f7325efb5de502c21e209b4911d67d1b19c",
+      "actual": "7e1757bc83cb526c97c63f758e8a7f7325efb5de502c21e209b4911d67d1b19c",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-1E8C5B6F.pf",
+      "expected": "3735f7af67a836fd8ee1dc400602d73672e55c77f95ee14c670f9d5cc7f625e4",
+      "actual": "3735f7af67a836fd8ee1dc400602d73672e55c77f95ee14c670f9d5cc7f625e4",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-1E8C5B71.pf",
+      "expected": "4927e1fcf866167fe73122de2d82956e0738db3c38768c7de09ffd657071c746",
+      "actual": "4927e1fcf866167fe73122de2d82956e0738db3c38768c7de09ffd657071c746",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-1E8C5B74.pf",
+      "expected": "ddbd3af36340338b79d0a237f1d2d0f788bcb73476097fe99d66f285ba185f2c",
+      "actual": "ddbd3af36340338b79d0a237f1d2d0f788bcb73476097fe99d66f285ba185f2c",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-4C89F7EF.pf",
+      "expected": "69ef24c8f151cf642a0fa4b6339e31c285444871ef7f1daf8b79b91b5d10ea98",
+      "actual": "69ef24c8f151cf642a0fa4b6339e31c285444871ef7f1daf8b79b91b5d10ea98",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-4E6163C5.pf",
+      "expected": "ffb6e0382f42a444e5db49d17014104a62b00c166bf0b0c359583f846f477d6b",
+      "actual": "ffb6e0382f42a444e5db49d17014104a62b00c166bf0b0c359583f846f477d6b",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-7519D9F4.pf",
+      "expected": "8f5b341637153d9e0617dcd2ebb71586672d2afad4a4f228c644e3a8fe5ef45e",
+      "actual": "8f5b341637153d9e0617dcd2ebb71586672d2afad4a4f228c644e3a8fe5ef45e",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-7519D9F5.pf",
+      "expected": "c8b96617250ab915b0e33ad7921b7ff25b72d7d35d7db64d5c380f30a8d7144b",
+      "actual": "c8b96617250ab915b0e33ad7921b7ff25b72d7d35d7db64d5c380f30a8d7144b",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-7519D9FF.pf",
+      "expected": "7a02c1193ad701ea9b7a5be86b49a5e4498d54be656cc838aef8a1976c53d84d",
+      "actual": "7a02c1193ad701ea9b7a5be86b49a5e4498d54be656cc838aef8a1976c53d84d",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-7519DA04.pf",
+      "expected": "12a116416d772e40bbacc41f0c5a189993545b9063da715d40883f51e905c5b3",
+      "actual": "12a116416d772e40bbacc41f0c5a189993545b9063da715d40883f51e905c5b3",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-FB9B9948.pf",
+      "expected": "b08a6d06bca951ef4903c8b793f787a7c7b544f346ff37f26eb25b1476d98f11",
+      "actual": "b08a6d06bca951ef4903c8b793f787a7c7b544f346ff37f26eb25b1476d98f11",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/MSEDGEWEBVIEW2.EXE-FB9B9949.pf",
+      "expected": "b0ee1a6271e50c6849b12f31586117eb112a4df78bb5cf1c9a987034a713779b",
+      "actual": "b0ee1a6271e50c6849b12f31586117eb112a4df78bb5cf1c9a987034a713779b",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/NORTONSECURITY.EXE-3D6C3782.pf",
+      "expected": "2289b41df15bca64b6f009a1013d6865f7095d32e9f56389b6b01bf6dd41587e",
+      "actual": "2289b41df15bca64b6f009a1013d6865f7095d32e9f56389b6b01bf6dd41587e",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/NOTEPAD.EXE-8CCC4629.pf",
+      "expected": "5ea6c1dc2564c28275d0738135e4c2834bae13f295b75e6fc0a05abf349ff666",
+      "actual": "5ea6c1dc2564c28275d0738135e4c2834bae13f295b75e6fc0a05abf349ff666",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/OLK.EXE-708FCF47.pf",
+      "expected": "1064fbfbbd847f22afb3fe6a55df623ab9db8b79f5c7a59c409e9208c5229b00",
+      "actual": "1064fbfbbd847f22afb3fe6a55df623ab9db8b79f5c7a59c409e9208c5229b00",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/OUTLOOK.EXE-FA973E49.pf",
+      "expected": "190a572a70a0f4fc5f0e99696187b50b1ab249f464c3dbb4e8491c5e00fdea81",
+      "actual": "190a572a70a0f4fc5f0e99696187b50b1ab249f464c3dbb4e8491c5e00fdea81",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/SHELLEXPERIENCEHOST.EXE-6EC78D4F.pf",
+      "expected": "7906e50a5cc066039c649b0311d0ffc63375852d7a9fcedfeda7f7f62bafa4dc",
+      "actual": "7906e50a5cc066039c649b0311d0ffc63375852d7a9fcedfeda7f7f62bafa4dc",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/SPLWOW64.EXE-57576C25.pf",
+      "expected": "0f48ac950016411aa9b690381d28979601e8ed8ba221bbdabd49fa48f3e639c9",
+      "actual": "0f48ac950016411aa9b690381d28979601e8ed8ba221bbdabd49fa48f3e639c9",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/TASKMGR.EXE-4C8500BA.pf",
+      "expected": "7997994d0b65e8cb13034db7202704645ec9f647f8f17237d15b7db4658b7dae",
+      "actual": "7997994d0b65e8cb13034db7202704645ec9f647f8f17237d15b7db4658b7dae",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/WERFAULT.EXE-661188F3.pf",
+      "expected": "e29f2473e0ac90b0fa28e14e52ec807cce2741aadb992aadcde9d14f25bd2284",
+      "actual": "e29f2473e0ac90b0fa28e14e52ec807cce2741aadb992aadcde9d14f25bd2284",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/Prefetch/WINWORD.EXE-AB6EC2FA.pf",
+      "expected": "2b3f878af26f2bc4917d55c16aa41ebcc7a5ce6673fb32943090f91c6c04f06b",
+      "actual": "2b3f878af26f2bc4917d55c16aa41ebcc7a5ce6673fb32943090f91c6c04f06b",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Users/fintm/NTUSER.DAT",
+      "expected": "2464f47ebeb1f28c346b47afb462c2f05e0b9d143fe9181685a406ea2d2ce36a",
+      "actual": "2464f47ebeb1f28c346b47afb462c2f05e0b9d143fe9181685a406ea2d2ce36a",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Users/INVITES/NTUSER.DAT",
+      "expected": "e7b4f14753ee511877c47285649e77df4bdeaf982a5faec00b5af5da8b345cb3",
+      "actual": "e7b4f14753ee511877c47285649e77df4bdeaf982a5faec00b5af5da8b345cb3",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/ProgramData/Apple/Lockdown/00008110-001249321444801E.plist",
+      "expected": "a6eb37fd5aac553440132a381550e4ee9fe960b7b6820fe37576eb32d1bfa930",
+      "actual": "a6eb37fd5aac553440132a381550e4ee9fe960b7b6820fe37576eb32d1bfa930",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/ProgramData/Apple/Lockdown/SystemConfiguration.plist",
+      "expected": "d1b69e49dea4c2b36f3d398900b0db844c5e952584f117b767dc0658c5a8aeff",
+      "actual": "d1b69e49dea4c2b36f3d398900b0db844c5e952584f117b767dc0658c5a8aeff",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/INF/setupapi.dev.20240130_130906.log",
+      "expected": "c7469d4102d6bcb33018ba6f3a4d16010e961332f5784d3b9a121a8b92de36d1",
+      "actual": "c7469d4102d6bcb33018ba6f3a4d16010e961332f5784d3b9a121a8b92de36d1",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/INF/setupapi.dev.20240319_220333.log",
+      "expected": "852f6b523eacabe8fa700f40dbb207f2f196e7d806165c35e16d58519742a17a",
+      "actual": "852f6b523eacabe8fa700f40dbb207f2f196e7d806165c35e16d58519742a17a",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/INF/setupapi.dev.20240614_021232.log",
+      "expected": "414ff4792df82ab0c9a865d00ea697e95dfb37937fdc0e0aa32da73c0af822c1",
+      "actual": "414ff4792df82ab0c9a865d00ea697e95dfb37937fdc0e0aa32da73c0af822c1",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/INF/setupapi.dev.20241203_223829.log",
+      "expected": "a429e5e9eccbf30a2e560ddf0be4b3cbf810cc0ac53ca3918aea66ca41570f77",
+      "actual": "a429e5e9eccbf30a2e560ddf0be4b3cbf810cc0ac53ca3918aea66ca41570f77",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/INF/setupapi.dev.log",
+      "expected": "01ac3e6a11badeaa6b936b563e901599460c9fa5e16326722a3c665356ef97a2",
+      "actual": "01ac3e6a11badeaa6b936b563e901599460c9fa5e16326722a3c665356ef97a2",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/INF/setupapi.offline.20220507_052432.log",
+      "expected": "81dd27d366e7481f025150a4c46faae9c95414df388caaa20a9055496599ecf6",
+      "actual": "81dd27d366e7481f025150a4c46faae9c95414df388caaa20a9055496599ecf6",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/INF/setupapi.offline.20230928_185527.log",
+      "expected": "09de0f44fc601973a2443fbfa30b9b196b5ddc4ec44e87a063b0fcaac3b61fa1",
+      "actual": "09de0f44fc601973a2443fbfa30b9b196b5ddc4ec44e87a063b0fcaac3b61fa1",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/INF/setupapi.offline.log",
+      "expected": "3c547c0b8945ea48fab9fedee1f2447127413ae7fc15ab56a632f25dfd2ae402",
+      "actual": "3c547c0b8945ea48fab9fedee1f2447127413ae7fc15ab56a632f25dfd2ae402",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/INF/setupapi.setup.log",
+      "expected": "1df1cac22fe438dfdd35b143027580b50780c4065d2d9f92dfef52da5b59b3d6",
+      "actual": "1df1cac22fe438dfdd35b143027580b50780c4065d2d9f92dfef52da5b59b3d6",
+      "ok": true
+    },
+    {
+      "source": "/mnt/windows/Windows/INF/setupapi.upgrade.log",
+      "expected": "7edaa6f79148d821cdb9faacd477ea74669396d5f9863157e59aea2b161c208f",
+      "actual": "7edaa6f79148d821cdb9faacd477ea74669396d5f9863157e59aea2b161c208f",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/ordinateur/recherche-OP-01/extractions-acces/additional/amcache.json",
+      "expected": "3bf3d253782fb7cf4e570f0a33de2bfd80da63470a5266a6a1103f68b0931322",
+      "actual": "3bf3d253782fb7cf4e570f0a33de2bfd80da63470a5266a6a1103f68b0931322",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/ordinateur/recherche-OP-01/extractions-acces/registry.json",
+      "expected": "0fda6848976fe9c3780bd45d1d3d42721455a44ed2efa319b6a8419eb63cce8f",
+      "actual": "0fda6848976fe9c3780bd45d1d3d42721455a44ed2efa319b6a8419eb63cce8f",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/ordinateur/recherche-OP-01/extractions-acces/mft-targets/mft-target-records.jsonl",
+      "expected": "56ff8e055e375ca100cb728739688cce54eb8682f9b715ed5f117b9b8c125112",
+      "actual": "56ff8e055e375ca100cb728739688cce54eb8682f9b715ed5f117b9b8c125112",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/ordinateur/recherche-OP-01/extractions-acces/usb-property-dates.json",
+      "expected": "3b329c55f03f884d1fec769a5863a1146c1b931eea15ba89b2b493e2239fb2f9",
+      "actual": "3b329c55f03f884d1fec769a5863a1146c1b931eea15ba89b2b493e2239fb2f9",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/ordinateur/recherche-OP-01/extractions-acces/usb-mounteddevices-crosscheck.json",
+      "expected": "4a800e517ad3dde5b80f3f97b69a00cde54f736c678c07ee9abdd30d5c207dff",
+      "actual": "4a800e517ad3dde5b80f3f97b69a00cde54f736c678c07ee9abdd30d5c207dff",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/ordinateur/recherche-OP-01/integrite-evtx/ntfs/usn-logfiles.jsonl",
+      "expected": "4562c46a861a6fd12c0deb6d2e2674698a293eb04fb514a4e0cd1b305da1e458",
+      "actual": "4562c46a861a6fd12c0deb6d2e2674698a293eb04fb514a4e0cd1b305da1e458",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/ordinateur/recherche-OP-01/chronologie.csv",
+      "expected": "b1d6bdfb54baa1ec54c1e9fe8d45899d4f438eac2117165b0a0e67d09e1c5316",
+      "actual": "b1d6bdfb54baa1ec54c1e9fe8d45899d4f438eac2117165b0a0e67d09e1c5316",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/ordinateur/recherche-OP-01/operations-28oct/resultats-sift/jumplists-standard/20261014063026_AutomaticDestinations.csv",
+      "expected": "ee636abd5bef4c2d5f09e02476865118b6fc70242ab42e1b198393821b286f41",
+      "actual": "ee636abd5bef4c2d5f09e02476865118b6fc70242ab42e1b198393821b286f41",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/05013f85b321cef8310a18ea967bdb560698e695.plist",
+      "expected": "5565a74574f074caf69cd687be9222140e13c21cb74c3473bdbf4d4dcee2c091",
+      "actual": "5565a74574f074caf69cd687be9222140e13c21cb74c3473bdbf4d4dcee2c091",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/0537e9cc0b8c91f33c97de217cfb972f38b1a72c.plist",
+      "expected": "03bbc6a3e0d9d663f8b88e8e7db6f9b4de9d792d0067e35a355939c3873ef845",
+      "actual": "03bbc6a3e0d9d663f8b88e8e7db6f9b4de9d792d0067e35a355939c3873ef845",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/06ecfa55b7c5e870124f3457db21ad4a41dcfff9.plist",
+      "expected": "56046cdbd58a1ba84e298db262fb31fab8fcbe88cffc39cf9fe66286ae0c49ca",
+      "actual": "56046cdbd58a1ba84e298db262fb31fab8fcbe88cffc39cf9fe66286ae0c49ca",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/0a87f935ba61001b836a1b741a3ab3003f33df8f.plist",
+      "expected": "11a0e574bfd03f782f8509cefaac7a209501a12c6b2e606b4d67a92c7e1db448",
+      "actual": "11a0e574bfd03f782f8509cefaac7a209501a12c6b2e606b4d67a92c7e1db448",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/17180c5f2d9b6f31994e83831d1287695375f306.plist",
+      "expected": "3110946ce4c63e9059579b016653b55b22b66557f8d00496c6d72a9098e3b020",
+      "actual": "3110946ce4c63e9059579b016653b55b22b66557f8d00496c6d72a9098e3b020",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/17c08e8559670202648e3b1e6af8c7b106b744b5.plist",
+      "expected": "c3b60b3fe7b7400c59bd801479aef86bba061094375c8e558e8841513b70d1e0",
+      "actual": "c3b60b3fe7b7400c59bd801479aef86bba061094375c8e558e8841513b70d1e0",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/1d1fbde38db7fd64cfed0e6b7a941b3c79afa167.plist",
+      "expected": "96c4899cf51b60ae5fc3aceaca57ef12d07f16c798746181c5e81e2ffe49a358",
+      "actual": "96c4899cf51b60ae5fc3aceaca57ef12d07f16c798746181c5e81e2ffe49a358",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/1e18563b48a12aae75ad88828de1560c55eae503.plist",
+      "expected": "8f10aa09aa69c73eb64efbe8b56886448d51f34284cec58a731e121a62b59fb8",
+      "actual": "8f10aa09aa69c73eb64efbe8b56886448d51f34284cec58a731e121a62b59fb8",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/22c2effa028f7fd8d60334109bb709b75fe8f1fb.plist",
+      "expected": "455b26af09b3c4cd07e68ff375e27e31d0dc439bc8bc9b09e0780029ac0476b0",
+      "actual": "455b26af09b3c4cd07e68ff375e27e31d0dc439bc8bc9b09e0780029ac0476b0",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/24ead056805b2cb3659023cef40d2cef6a7643d3.plist",
+      "expected": "54ba7e66c21330eeee828366cac83e207e0eb28217e18d27e17cf95f596d5f32",
+      "actual": "54ba7e66c21330eeee828366cac83e207e0eb28217e18d27e17cf95f596d5f32",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/25c2e5acdb0b79f05fe93dff4ad7f13939e722ec.plist",
+      "expected": "8f7738f968043b91f96760b075c2daba5df078308afbf55ac702f499a65e4e9f",
+      "actual": "8f7738f968043b91f96760b075c2daba5df078308afbf55ac702f499a65e4e9f",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/27f0f32b1c099af2ad74557ce6e2a92ef4135b1c.plist",
+      "expected": "0c87ecd1fe294010c7e7d0170c0767fc28d6228bc111dac6776dede884102f38",
+      "actual": "0c87ecd1fe294010c7e7d0170c0767fc28d6228bc111dac6776dede884102f38",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/47dbabb610e402d825bf576400550a0bea1e07e0.plist",
+      "expected": "d55cc5b5ceb151fae8da251ab577793618bc80c89d735402e545bfe15006d234",
+      "actual": "d55cc5b5ceb151fae8da251ab577793618bc80c89d735402e545bfe15006d234",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/4819b0420457b0ea52104732499297533326e379.plist",
+      "expected": "6d5287a28b679fc35d3e3e9f844450a621c5527dc9ca196cddbcbee029551021",
+      "actual": "6d5287a28b679fc35d3e3e9f844450a621c5527dc9ca196cddbcbee029551021",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/4bf83e9a11a89ec28fde028f19f00bf9c9d5fcf7.plist",
+      "expected": "ba1f61cda152da0ad3d77fe6b8f01fb979443a07ba8e26d2e4f7e502004581f4",
+      "actual": "ba1f61cda152da0ad3d77fe6b8f01fb979443a07ba8e26d2e4f7e502004581f4",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/4cb07779470f399572ad984d69b4ed95c4515f79.plist",
+      "expected": "7c883580af52fc6ea39daea377897a2c1353244538e4cd3c74bff674ee4ef646",
+      "actual": "7c883580af52fc6ea39daea377897a2c1353244538e4cd3c74bff674ee4ef646",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/538e7b47e19041574d71eb73057ebb09b6951d26.plist",
+      "expected": "e86fe4e618dc98283041d0dd0ab82ef64695110b41075bf7d093f315c7f6808c",
+      "actual": "e86fe4e618dc98283041d0dd0ab82ef64695110b41075bf7d093f315c7f6808c",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/56a90f25ab6060487a8a4889c3bb891ad2234868.plist",
+      "expected": "e03ef250d1ec150f128c3642f3631c3427d083c7663d24a3032d5b688b08e6bd",
+      "actual": "e03ef250d1ec150f128c3642f3631c3427d083c7663d24a3032d5b688b08e6bd",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/5787f8ae280ee3d0733460cf889b7de433287b6d.plist",
+      "expected": "1b773a4e44b6f305e428ac851bc461a1efb773eee4304790edee75a8a9b13d27",
+      "actual": "1b773a4e44b6f305e428ac851bc461a1efb773eee4304790edee75a8a9b13d27",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/5ced5d8b60d58585119d1bd4aeefe0853a05a6dd.plist",
+      "expected": "b209b0fdbbc2419ec63666d0ee65e4587efcc7aa6d04c14de627972da8ce81fa",
+      "actual": "b209b0fdbbc2419ec63666d0ee65e4587efcc7aa6d04c14de627972da8ce81fa",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/61b2e3c8d25fad213bb8ceaf12c2226ab46b977b.plist",
+      "expected": "e2aa57eb023de041cb202dbd346931b559fd57679543ff786734e7024ed71e0f",
+      "actual": "e2aa57eb023de041cb202dbd346931b559fd57679543ff786734e7024ed71e0f",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/64b8d6fa1f2113442c4ddc647bdabd955d9725e5.plist",
+      "expected": "d3b9184038227f16a2a003109db1e38b1edc69b8fe80122469bb285ce36c7c16",
+      "actual": "d3b9184038227f16a2a003109db1e38b1edc69b8fe80122469bb285ce36c7c16",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/6d01b84d62e1cf40e231e0b33bcd044e8615cda5.plist",
+      "expected": "ceefca2ab5db2015cf3c3730283a1523c7d4f5e90e972f1e62143481d55280d4",
+      "actual": "ceefca2ab5db2015cf3c3730283a1523c7d4f5e90e972f1e62143481d55280d4",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/6f8c0fcfc8449331f07b1ae545babfb1245f1624.plist",
+      "expected": "451a779cfc2cf3944a4d65c0db5c27b99badebd7e9e73455bd38d87655c6275c",
+      "actual": "451a779cfc2cf3944a4d65c0db5c27b99badebd7e9e73455bd38d87655c6275c",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/76715a9a5f9376a0059617a6d5e64c974da95677.plist",
+      "expected": "582a5d7c46c97a3381296891c62c0d253127121e388d81750f8cd8b195f82bce",
+      "actual": "582a5d7c46c97a3381296891c62c0d253127121e388d81750f8cd8b195f82bce",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/7f3185f2c734ba9c44a8be93c639986c9a3144f2.plist",
+      "expected": "660f5ee04e7c2bdd7a75fea6c1a6851b9ccf505d776108a123c8cb13f0635129",
+      "actual": "660f5ee04e7c2bdd7a75fea6c1a6851b9ccf505d776108a123c8cb13f0635129",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/8b47102fbd2e34a9723bba486cf11853d253a38e.plist",
+      "expected": "a469a130ad36492a601c7c38d93316909258add5b4d47d2f0e5db854629e61cf",
+      "actual": "a469a130ad36492a601c7c38d93316909258add5b4d47d2f0e5db854629e61cf",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/95801132e6cd6fbe2fdc968641120cb60867786e.plist",
+      "expected": "83f038e04b6363f79c371cc9b814e0467d8bb2178b75474f32e1e302003b2c3f",
+      "actual": "83f038e04b6363f79c371cc9b814e0467d8bb2178b75474f32e1e302003b2c3f",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/95a231c9d5915c3d5aee16f63c5c08eea8d5e089.plist",
+      "expected": "34ff3939754c32f8d962ce4618cf2b62cf9f588eda3fe2726e247980396cda48",
+      "actual": "34ff3939754c32f8d962ce4618cf2b62cf9f588eda3fe2726e247980396cda48",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/981f1644fa02602b289573b1bf0fe9e3392e56b5.plist",
+      "expected": "b2558df1d2084adca7e3e9504444d4ab10fa24a39bb9a19b72c1c196dcd4b917",
+      "actual": "b2558df1d2084adca7e3e9504444d4ab10fa24a39bb9a19b72c1c196dcd4b917",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/98678f6d2143d2d02c5a65709c1b927249d4ee84.plist",
+      "expected": "bd9dca3a3d9441db2362c7b77a880c72cbcabc1e04f112106012b7d9c0d5f75c",
+      "actual": "bd9dca3a3d9441db2362c7b77a880c72cbcabc1e04f112106012b7d9c0d5f75c",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/9de918eff202275ea6e507bd11e23b9fca2b4a98.plist",
+      "expected": "a31e0bf4aa7ceff7ea2a808328bd0754846615ed8322d93813dd229170f0704a",
+      "actual": "a31e0bf4aa7ceff7ea2a808328bd0754846615ed8322d93813dd229170f0704a",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/a5648749c65fb3578fabc3d2852b1b47ec753f7b.plist",
+      "expected": "e2977607dedd6d6582f825d671611fd65be79042aa4fa6f4428af3ec5636b766",
+      "actual": "e2977607dedd6d6582f825d671611fd65be79042aa4fa6f4428af3ec5636b766",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/a71a0324cc8e442b0f0b28b807e38245e4e0a692.plist",
+      "expected": "701ae467ed6003fda12220cfeff9c4efe5cfab2cfe9aebbb9def4ed4bbd00900",
+      "actual": "701ae467ed6003fda12220cfeff9c4efe5cfab2cfe9aebbb9def4ed4bbd00900",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/c056f582f3c29d6e168c3b0b529949562bbf45c4.plist",
+      "expected": "6d12448b379fcba4b22632180e5c5b64076f0aceef03453dd5a19d13047a8e54",
+      "actual": "6d12448b379fcba4b22632180e5c5b64076f0aceef03453dd5a19d13047a8e54",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/c1d775fbce2ad7663f9ffe4050a565cb1dc8c91d.plist",
+      "expected": "1a23a5f96b88c0ae78ba6aa9452c55224c2fefbe17ea0ae9fb2f9c434932b68b",
+      "actual": "1a23a5f96b88c0ae78ba6aa9452c55224c2fefbe17ea0ae9fb2f9c434932b68b",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/c310f3a6e6324a2957fd6036e4187a8c2c4da96c.plist",
+      "expected": "d533efbbc11a3f8242df2ab8102cdb07f99a160903a3424de99bd6987b0b1f37",
+      "actual": "d533efbbc11a3f8242df2ab8102cdb07f99a160903a3424de99bd6987b0b1f37",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/c3812dc18f1194152efd667dfc698868a6c74052.plist",
+      "expected": "98622c9f31fd6d366628f5e3f232a3ee73f392fb0320ded13a830c9b6657d5b2",
+      "actual": "98622c9f31fd6d366628f5e3f232a3ee73f392fb0320ded13a830c9b6657d5b2",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/c559366f1c125fc409530813dd06e8f1a61c1060.plist",
+      "expected": "795b134fe32c04aa4541c1c1e2b10bed94fe2a27b8619733c19fe2ce1ee5f014",
+      "actual": "795b134fe32c04aa4541c1c1e2b10bed94fe2a27b8619733c19fe2ce1ee5f014",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/cb7ee8ca7b9c5f6ceb7f3f0dd1f3f955666f0729.plist",
+      "expected": "0769f200cf63e684f9389637a732f60404668ce4c1be331778982dea6cf84ce3",
+      "actual": "0769f200cf63e684f9389637a732f60404668ce4c1be331778982dea6cf84ce3",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/eb414885f312da864fcac3633c457fb23c95372d.plist",
+      "expected": "4f05026d38df1e234344a88625e7d4488f727239c4244d56a50883df22c20c52",
+      "actual": "4f05026d38df1e234344a88625e7d4488f727239c4244d56a50883df22c20c52",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/f138e0cc50e9ad62b4ccc8c2edc97ee2572b7801.plist",
+      "expected": "96748011f7edfab5c8a1cc87b3cbaecf8f73fe02415ff83e3fc35bb1920639df",
+      "actual": "96748011f7edfab5c8a1cc87b3cbaecf8f73fe02415ff83e3fc35bb1920639df",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/f4a168b4c00fde4836b1338b38f3a55dff900527.plist",
+      "expected": "a5475a5e720c23a9119ceb647f93d6be37fc7c1e8aa0b969e06f1c81791f2780",
+      "actual": "a5475a5e720c23a9119ceb647f93d6be37fc7c1e8aa0b969e06f1c81791f2780",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/f90a9ec26a33ba0083c7e0413d4072cfa240ea28.plist",
+      "expected": "a5a897b948ce62659e177af3f17fec8e8de2c614763f38570f09647c27d074e1",
+      "actual": "a5a897b948ce62659e177af3f17fec8e8de2c614763f38570f09647c27d074e1",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/fe17084aef7a56eaada83d0575f225bf1b776dc8.plist",
+      "expected": "d5054877fb92a3376af993b46a3dfdae47805ca4b97a18a2af75b2b0eaec3f57",
+      "actual": "d5054877fb92a3376af993b46a3dfdae47805ca4b97a18a2af75b2b0eaec3f57",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-02/ffd3bde44505500b8b3131c6a8be0a63689e00ca.plist",
+      "expected": "8393dcbfc42fdd6ca3a1b01102de0f97f9e7a88eac4486abb8b44ea148dced8e",
+      "actual": "8393dcbfc42fdd6ca3a1b01102de0f97f9e7a88eac4486abb8b44ea148dced8e",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/0938248d8d49c29789980ffa7c2886f1964c9f18.plist",
+      "expected": "5c8c51e167468fa05181ba585f7ba9f88f72ddd1dd80d02b167658091517621b",
+      "actual": "5c8c51e167468fa05181ba585f7ba9f88f72ddd1dd80d02b167658091517621b",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/0b6a45fb475a09bece428d0c76dfccaf917fe627.plist",
+      "expected": "47a57d396eaac832bee182288c426bd350a72f5dc2bb885cc270d4073912a426",
+      "actual": "47a57d396eaac832bee182288c426bd350a72f5dc2bb885cc270d4073912a426",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/1d1fbde38db7fd64cfed0e6b7a941b3c79afa167.plist",
+      "expected": "80cf0f60a1bccf20cba407ce61ea0976d9d7649ab6ce2a05af82e9887fa40e81",
+      "actual": "80cf0f60a1bccf20cba407ce61ea0976d9d7649ab6ce2a05af82e9887fa40e81",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/239b7dfe8016ebfdedc5d108dbd1861ea4ad5071.plist",
+      "expected": "02cdcd08407c67278cd8828debc56aedf4f01f67bf7effa3a2f20dc625e212e8",
+      "actual": "02cdcd08407c67278cd8828debc56aedf4f01f67bf7effa3a2f20dc625e212e8",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/25c2e5acdb0b79f05fe93dff4ad7f13939e722ec.plist",
+      "expected": "c5a26f93a52faf18926ad18b7139fab3a8b2e0c131c61c8f62ee7c58487fc310",
+      "actual": "c5a26f93a52faf18926ad18b7139fab3a8b2e0c131c61c8f62ee7c58487fc310",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/358971b68daf4625ebd5009517006952efbdafd4.plist",
+      "expected": "a65807a9fa9ffea6b571ca132fbbf0d9411cc450d5aaed75f13cb4705fca90a1",
+      "actual": "a65807a9fa9ffea6b571ca132fbbf0d9411cc450d5aaed75f13cb4705fca90a1",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/36a33d5692a7d156680a81ddf539b246ed26ffb3.plist",
+      "expected": "603f2e3a170cbb8df0ba269cdc4accb5388798de3a58de4c4efc6023cc1a8854",
+      "actual": "603f2e3a170cbb8df0ba269cdc4accb5388798de3a58de4c4efc6023cc1a8854",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/4cb07779470f399572ad984d69b4ed95c4515f79.plist",
+      "expected": "3c34207181f4b8e829966a6e21d4a512d9aa17ad25db9a0bb21875f977d99e1d",
+      "actual": "3c34207181f4b8e829966a6e21d4a512d9aa17ad25db9a0bb21875f977d99e1d",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/56a90f25ab6060487a8a4889c3bb891ad2234868.plist",
+      "expected": "879cbaaaa0e3013eab4b86e093a9af2e689d44b870576e61772c338a14a2f47c",
+      "actual": "879cbaaaa0e3013eab4b86e093a9af2e689d44b870576e61772c338a14a2f47c",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/5705da5e1b9731cacbf01524c8b0546f4467cc1c.plist",
+      "expected": "6e99cda3c121d425f3ea48157e40943220b67d3e77be245620e09105e79b0a48",
+      "actual": "6e99cda3c121d425f3ea48157e40943220b67d3e77be245620e09105e79b0a48",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/66c8ec30db1c512f4fc4059c3d2229a33d7f5281.plist",
+      "expected": "8253480d9c1e59a6a9a5661f61277be40eccdee6bbae4d7ddc1364fb42ab4f87",
+      "actual": "8253480d9c1e59a6a9a5661f61277be40eccdee6bbae4d7ddc1364fb42ab4f87",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/780c4fd84e4c8466a0531982cd6d459c90e326e3.plist",
+      "expected": "8de2d909fbbafb8e0703ba1d8cc1c2521eb05ca1abc9a179811d4d779941c43c",
+      "actual": "8de2d909fbbafb8e0703ba1d8cc1c2521eb05ca1abc9a179811d4d779941c43c",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/884095f4a80da4ec9a28b175adbb334af7cced9f.plist",
+      "expected": "9884b93091744a0ce04fbc2c866e3aed8403315049299ae4d397d91e242e57bb",
+      "actual": "9884b93091744a0ce04fbc2c866e3aed8403315049299ae4d397d91e242e57bb",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/8fedd4622a66cd75c822353a01575bcd0c1b9d85.plist",
+      "expected": "47b63dc106ee446a128389bce4c7a45d4e794b9d0dcf09f0cdf45244305f616e",
+      "actual": "47b63dc106ee446a128389bce4c7a45d4e794b9d0dcf09f0cdf45244305f616e",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/981f1644fa02602b289573b1bf0fe9e3392e56b5.plist",
+      "expected": "57d5e1a03214c5699022ae5f8fe673c301c0002fd620dd182d0fa7dfb65e4f93",
+      "actual": "57d5e1a03214c5699022ae5f8fe673c301c0002fd620dd182d0fa7dfb65e4f93",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/a71a0324cc8e442b0f0b28b807e38245e4e0a692.plist",
+      "expected": "9b654670c1cfcefc2e72d4f2ada7c4d2f49b66e8a23783c1bc1ee29d9427b6d8",
+      "actual": "9b654670c1cfcefc2e72d4f2ada7c4d2f49b66e8a23783c1bc1ee29d9427b6d8",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/ad11e86aef37651125c459f5f3886245319286c2.plist",
+      "expected": "489a9d3db42a131b372ac95a37ecfc48e685d7d153ffdcae86ef987b482479cb",
+      "actual": "489a9d3db42a131b372ac95a37ecfc48e685d7d153ffdcae86ef987b482479cb",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/b21a5b0c1df4acb9e49f8f3b908a012bb426e2c9.plist",
+      "expected": "7a023013b81080220382c226b9afc8c2a48594a0faead22d563a28329a34d0e3",
+      "actual": "7a023013b81080220382c226b9afc8c2a48594a0faead22d563a28329a34d0e3",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/c1d775fbce2ad7663f9ffe4050a565cb1dc8c91d.plist",
+      "expected": "e3db81392cdec1195e1adde1439f980edc83810a90857895a0c233c276d32f17",
+      "actual": "e3db81392cdec1195e1adde1439f980edc83810a90857895a0c233c276d32f17",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/c80676e6f70814c1a6e4ce3812084b64938e35b9.plist",
+      "expected": "012d4d660a277467b9e0bc68ee09dfa69ec0743284c61bd7268e55c027880d11",
+      "actual": "012d4d660a277467b9e0bc68ee09dfa69ec0743284c61bd7268e55c027880d11",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/c8450017d88bfa5c70dc5ae8a7ac9df65add4e04.plist",
+      "expected": "85ec07d2eeb5f8da739583885c6a230772c87df275f15fb58ea455bcccb40cba",
+      "actual": "85ec07d2eeb5f8da739583885c6a230772c87df275f15fb58ea455bcccb40cba",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/ca9a9286d6ee50031b24dcf619f5b104884b7831.plist",
+      "expected": "b2060b879a93d58d5de2c708b08c0aa738243c3c7fce01bcec5d505bc3eb322a",
+      "actual": "b2060b879a93d58d5de2c708b08c0aa738243c3c7fce01bcec5d505bc3eb322a",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/ce18dd385f3d502f43f9f9ec1c29e1a7a69ddec5.plist",
+      "expected": "9ac05d51b5d91e73e15df390499d6c64e392056dbaf22b39fac094d779faa6b9",
+      "actual": "9ac05d51b5d91e73e15df390499d6c64e392056dbaf22b39fac094d779faa6b9",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/ceaf191b550666b920126efcfb84b0c2f42696f3.plist",
+      "expected": "28c5cb3304883af8bfd29fd79e788ade31085d63964cca62c08ac8d39352e866",
+      "actual": "28c5cb3304883af8bfd29fd79e788ade31085d63964cca62c08ac8d39352e866",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/d2cd86f784bae16feb64811feff9beb2bd5c0ab8.plist",
+      "expected": "f5ba411b358bbb85d8b3254c1c5817faedeeda8592cdf9694c9e1b5ed4f7feb5",
+      "actual": "f5ba411b358bbb85d8b3254c1c5817faedeeda8592cdf9694c9e1b5ed4f7feb5",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/recherche-Q1-20261114/prive/TP-03/f58ad2c7ab665d10d2589cba445772d111606bcc.plist",
+      "expected": "b4e25712257df5d619169966bca58ff791bd2803a3d3fb04ff690e06b419b1ca",
+      "actual": "b4e25712257df5d619169966bca58ff791bd2803a3d3fb04ff690e06b419b1ca",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E/50/50b0bd964ccad1c40e81db89b58cf73a2c23960c",
+      "expected": "f417b4dcbb691121eb277e552f9294ce224233e3dc57c9cd4c797f9d554a68f1",
+      "actual": "f417b4dcbb691121eb277e552f9294ce224233e3dc57c9cd4c797f9d554a68f1",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/complement-natif-v2/files/AppDomain-com.apple.DocumentsApp/Library/Preferences/com.apple.DocumentsApp.plist",
+      "expected": "f86501167ceeec2f3659337e78b31fe917aa9d2b336fa080f6d3fbec93de732e",
+      "actual": "f86501167ceeec2f3659337e78b31fe917aa9d2b336fa080f6d3fbec93de732e",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E/d8/d8b6340a4f32351852c2be5150a1eedfe97d2cf6",
+      "expected": "9b021bae561189dc80e953102819aa9e0fed347bb61e37425d40d41bc748f263",
+      "actual": "9b021bae561189dc80e953102819aa9e0fed347bb61e37425d40d41bc748f263",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/complement-natif-v2/files/AppDomain-com.apple.mobilemail/Library/Preferences/com.apple.MailAccount-ExtProperties.plist",
+      "expected": "f44d4307fc7403df7e6eade3b7811db90c633a3228dd7756f4cb3308a714a8d4",
+      "actual": "f44d4307fc7403df7e6eade3b7811db90c633a3228dd7756f4cb3308a714a8d4",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E/9e/9eb7b4253842066654de59cb6bf2ce9968675111",
+      "expected": "e6109df40b8e1ba253d72d5f5bd26b83945e068d1d1c8c9bfae7aaa9bf13ffff",
+      "actual": "e6109df40b8e1ba253d72d5f5bd26b83945e068d1d1c8c9bfae7aaa9bf13ffff",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/complement-natif-v2/files/AppDomain-com.apple.mobilemail/Library/Preferences/com.apple.calculateframework.plist",
+      "expected": "e0b61245926a32a706fc85824f2340d0fd7cf8bff68298f2c9b7e00fa20b64a8",
+      "actual": "e0b61245926a32a706fc85824f2340d0fd7cf8bff68298f2c9b7e00fa20b64a8",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E/f3/f3da25bbe6ece72e0690c53db6f836e1ed267c69",
+      "expected": "92990dd0f99f37a08072d0bc8060101804661c789af7e77c968fecba4afa8fda",
+      "actual": "92990dd0f99f37a08072d0bc8060101804661c789af7e77c968fecba4afa8fda",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/complement-natif-v2/files/AppDomain-com.apple.mobilemail/Library/Preferences/com.apple.EmojiCache.plist",
+      "expected": "6578852698045adc778ef2997c61e45bf869ff414d343b157b91ed577598c805",
+      "actual": "6578852698045adc778ef2997c61e45bf869ff414d343b157b91ed577598c805",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E/48/4800b8726fbd1a324c181bd735d6457f3eced7cc",
+      "expected": "e7a0dc03cecf3e7925c3158396601f3bc020d64c2cf49b8def7c52f33a5e4876",
+      "actual": "e7a0dc03cecf3e7925c3158396601f3bc020d64c2cf49b8def7c52f33a5e4876",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/complement-natif-v2/files/AppDomain-com.apple.mobilemail/Library/Preferences/com.apple.mobilemail.plist",
+      "expected": "1eab3af617d5720d7daf73eb12a7bfcf9e9b7bca551d55f3e2ba3e4cf0c29b52",
+      "actual": "1eab3af617d5720d7daf73eb12a7bfcf9e9b7bca551d55f3e2ba3e4cf0c29b52",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E/a5/a594d4a749f2705d90aab2815c67d9b2dc25c955",
+      "expected": "bdef913314033aa519822c5440c24cac8be3736e4089b6c5573058305710f759",
+      "actual": "bdef913314033aa519822c5440c24cac8be3736e4089b6c5573058305710f759",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/complement-natif-v2/files/AppDomain-com.apple.mobilemail/Library/Preferences/com.apple.MobileSMS.plist",
+      "expected": "b742346935fdaab78d03620671dac79dab171186f6d5479798f2103bfdeb6e83",
+      "actual": "b742346935fdaab78d03620671dac79dab171186f6d5479798f2103bfdeb6e83",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E/4c/4ca78a18bba7e216036c85c0d7e57d87acbc34d6",
+      "expected": "8082799545528eaec7c4d60ae2a7e10774ffeba0539aede05d2689de4ea41150",
+      "actual": "8082799545528eaec7c4d60ae2a7e10774ffeba0539aede05d2689de4ea41150",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/complement-natif-v2/files/AppDomainGroup-group.com.apple.shortcuts/.FirstUnlock",
+      "expected": "288dcbcd476a0d9ff816d53a15f063921fe09654f222beafd2e19b72d9616d19",
+      "actual": "288dcbcd476a0d9ff816d53a15f063921fe09654f222beafd2e19b72d9616d19",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E/b4/b457ec3f75ad352104f02b18bd3368868d70cd5a",
+      "expected": "10bb314ddc5abba2cd5255821fcd5155e8ccd0b1932d6edc8fc625822ffbbba4",
+      "actual": "10bb314ddc5abba2cd5255821fcd5155e8ccd0b1932d6edc8fc625822ffbbba4",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/complement-natif-v2/files/AppDomainGroup-group.is.workflow.my.app/.FirstUnlock",
+      "expected": "1f48c55bcd2009fea658cb050b106ec13207927c85d487dde085f504b5ce5d72",
+      "actual": "1f48c55bcd2009fea658cb050b106ec13207927c85d487dde085f504b5ce5d72",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/forensic/SADEDINE-2026/TP-03/00008110-001249321444801E/38/38741383c870a89699537840174c615287a9170f",
+      "expected": "d245d9170a76032f00f16196449cf32fbf983884337de97611ecf226789c5557",
+      "actual": "d245d9170a76032f00f16196449cf32fbf983884337de97611ecf226789c5557",
+      "ok": true
+    },
+    {
+      "source": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/investigations-B-E-20261114/prive/complement-natif-v2/files/AppDomainPlugin-com.apple.quicklook.extension.previewUI/Library/Preferences/com.apple.quicklook.extension.previewUI.plist",
+      "expected": "5e524aa6db12ee6dc5dc7345d6123d7df3d784895beee6faad2b7932d2f68487",
+      "actual": "5e524aa6db12ee6dc5dc7345d6123d7df3d784895beee6faad2b7932d2f68487",
+      "ok": true
+    }
+  ],
+  "checked_count": 251,
+  "all_source_hashes_ok": true,
+  "q1_previous_files_unchanged": true,
+  "tp03_ips_inventory_count": 92,
+  "ips_entries_mentioning_2024_10_15": [],
+  "report_local_links_checked": 20,
+  "mount": "/mnt/dislocker/dislocker-file ro,relatime,user_id=0,group_id=0,allow_other"
+}

@@ -1,0 +1,44 @@
+{
+  "source": "/media/shared/forensic/SADEDINE-2026/TP-01/00008110-000A70993407801E",
+  "destination": "/home/sansforensics/analysis/tp01-20261110",
+  "headers": {
+    "Info.plist": {
+      "before": "69a740a68c35aa8d0c98f35d34c73c06a3a26593c246b931a5f17535940a3e0e",
+      "copy": "69a740a68c35aa8d0c98f35d34c73c06a3a26593c246b931a5f17535940a3e0e",
+      "after": "69a740a68c35aa8d0c98f35d34c73c06a3a26593c246b931a5f17535940a3e0e"
+    },
+    "Manifest.plist": {
+      "before": "e7d68ee9c9ebac275213db255937f0147fb02cc07a79df843b5e378f66e16a87",
+      "copy": "e7d68ee9c9ebac275213db255937f0147fb02cc07a79df843b5e378f66e16a87",
+      "after": "e7d68ee9c9ebac275213db255937f0147fb02cc07a79df843b5e378f66e16a87"
+    },
+    "Status.plist": {
+      "before": "08e8ff520a52e09ee8a00389bd0b5b3fe8d8a57b1ebd25b6643b7fbfdef6533f",
+      "copy": "08e8ff520a52e09ee8a00389bd0b5b3fe8d8a57b1ebd25b6643b7fbfdef6533f",
+      "after": "08e8ff520a52e09ee8a00389bd0b5b3fe8d8a57b1ebd25b6643b7fbfdef6533f"
+    },
+    "Manifest.db": {
+      "before": "ab12f937dc0a6d1c1ca15312a8c3a9faf1322e8d44fa5e68b4dd18e8676ca0a8",
+      "copy": "ab12f937dc0a6d1c1ca15312a8c3a9faf1322e8d44fa5e68b4dd18e8676ca0a8",
+      "after": "ab12f937dc0a6d1c1ca15312a8c3a9faf1322e8d44fa5e68b4dd18e8676ca0a8"
+    }
+  },
+  "quick_check": [
+    [
+      "ok"
+    ]
+  ],
+  "flags": {
+    "2": 29487,
+    "1": 48895,
+    "4": 75
+  },
+  "regular_bytes_manifest": 12648356415,
+  "missing": [],
+  "selected": 2420,
+  "copied_bytes": 620310196,
+  "metadata_candidates": 1387,
+  "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "sqlite": "3.45.1",
+  "time_utc": "2026-11-10T10:25:25.442231+00:00"
+}

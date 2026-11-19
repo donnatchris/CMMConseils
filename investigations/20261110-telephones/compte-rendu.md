@@ -111,4 +111,4 @@ Les erreurs de déchiffrement, parseur et limites de schéma sont conservées. L
 
 Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
 
-Christophe DOnnat — Donnat Dev
+Christophe Donnat — Donnat Dev

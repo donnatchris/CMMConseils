@@ -1,0 +1,42 @@
+{
+  "verified_utc": "2026-11-16T13:05:24.938195+00:00",
+  "inventory": "/mnt/data/codeProjects/DMMConseils/inventaire-DNEF/documents-recus/Inventaire_saddedine.csv",
+  "inventory_sha256": "f2a4e9d05cca5c7b8082da42df76fca45e870f3e3acbbdf6ff03c07e68293c40",
+  "inventory_hash_algorithm": "SHA-512",
+  "entries": [
+    {
+      "csv_line": 1497,
+      "csv_path": "C:\\L16B\\MESSAGERIES\\dmmconseils93300@hotmail.com.pst",
+      "file": "/mnt/data/codeProjects/DMMConseils/ordinateur/recherche-OP-01/extraction-messageries-20261116/fichiers/L16B/MESSAGERIES/dmmconseils93300@hotmail.com.pst",
+      "size": 1156260864,
+      "sha512_inventory": "9a523a8a621bd4364caea02e0a7c0a8953a6e3ca57d1d31d85df03932ad9a9b9c70aec6516a97ad09ec4131a3cf7ee16bcbb0c6573a870d0522affc8b11cb62c",
+      "sha512_computed": "1949987f20fced4a2b0a3c6c4000e5afb8a54e5ec8b08c667ed5397feab60ad18b87fe0a78348ee4b992306cfd8773eb53a3560e6ba82bd6d86e79523ec03361",
+      "matches_inventory": false,
+      "sha256_computed": "06a98a15fe1c9b77a3c1eee0709fd1f5f9bd3f983d7342169e527e61a688d18a",
+      "source_stat_unchanged": true,
+      "independent_sha512sum": "1949987f20fced4a2b0a3c6c4000e5afb8a54e5ec8b08c667ed5397feab60ad18b87fe0a78348ee4b992306cfd8773eb53a3560e6ba82bd6d86e79523ec03361"
+    },
+    {
+      "csv_line": 1498,
+      "csv_path": "C:\\L16B\\MESSAGERIES\\dmmconseils@hotmail.com.pst",
+      "file": "/mnt/data/codeProjects/DMMConseils/ordinateur/recherche-OP-01/extraction-messageries-20261116/fichiers/L16B/MESSAGERIES/dmmconseils@hotmail.com.pst",
+      "size": 2143626240,
+      "sha512_inventory": "025226d8e15182ce26a93ea8d450244a65efd1ee164be955a641544e6f96aba2d06f499f12b98a6db690e417efb5e13af0f6b9394013b53e8fe9dffedf2ecffe",
+      "sha512_computed": "025226d8e15182ce26a93ea8d450244a65efd1ee164be955a641544e6f96aba2d06f499f12b98a6db690e417efb5e13af0f6b9394013b53e8fe9dffedf2ecffe",
+      "matches_inventory": true,
+      "sha256_computed": "cbc13b5a409585309db8edd7f9532fd69c58c1a48cf66355124a78f11950e8f9",
+      "source_stat_unchanged": true
+    },
+    {
+      "csv_line": 1529,
+      "csv_path": "C:\\L16B\\MESSAGERIES\\rct93300@gmail.com\\takeout-20241028T114105Z-001.zip",
+      "file": "/mnt/data/codeProjects/DMMConseils/ordinateur/recherche-OP-01/extraction-messageries-20261116/fichiers/L16B/MESSAGERIES/rct93300@gmail.com/takeout-20241028T114105Z-001.zip",
+      "size": 41828775,
+      "sha512_inventory": "e1026d76b643485b5c3da5686d10ac6d69225cca33c46e18038db93be2593a7f2baacc82d1661285fac9b791f49eaaef35b8c99ab8cd80878f0404b9c8a82265",
+      "sha512_computed": "e1026d76b643485b5c3da5686d10ac6d69225cca33c46e18038db93be2593a7f2baacc82d1661285fac9b791f49eaaef35b8c99ab8cd80878f0404b9c8a82265",
+      "matches_inventory": true,
+      "sha256_computed": "bf97c84b9263faf1bff5f6b23af6e8b1facb125ecce764a5e95105fc885ea66c",
+      "source_stat_unchanged": true
+    }
+  ]
+}

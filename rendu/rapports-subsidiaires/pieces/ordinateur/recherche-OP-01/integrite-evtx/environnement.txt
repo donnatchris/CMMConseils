@@ -1,0 +1,11 @@
+Tue Oct 13 13:19:20 UTC 2026
+TARGET       SOURCE                        FSTYPE OPTIONS
+/mnt/windows /mnt/dislocker/dislocker-file fuse   ro,relatime,user_id=0,group_id=0,allow_other
+evtxinfo 20251118
+
+Copyright (C) 2011-2025, Joachim Metz.
+This is free software; see the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Report bugs to <joachim.metz@gmail.com>.
+{'pyevtx': '20251118', 'pyfsntfs': '20251028', 'pyregf': '20240421', 'pyscca': '20250915', 'pylnk': '20240423'}
+sqlite 3.45.1

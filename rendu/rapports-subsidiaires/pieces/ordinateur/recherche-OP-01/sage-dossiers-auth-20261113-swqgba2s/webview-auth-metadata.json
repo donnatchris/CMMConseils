@@ -1,0 +1,222 @@
+{
+  "Ciel Gestion Commerciale": {
+    "history": {
+      "visit_count": 27,
+      "first": "2026-07-27T18:55:47.799037+02:00",
+      "last": "2026-10-02T18:27:17.874571+02:00",
+      "host_counts": {
+        "None": 9,
+        "votreapplicationsage.ciel.com": 6,
+        "id.sage.com": 8,
+        "webserver.cdm.sage.fr": 4
+      },
+      "oct28": []
+    },
+    "saved_logins": [
+      {
+        "file": "Login Data",
+        "count": 0,
+        "entries": []
+      },
+      {
+        "file": "Login Data For Account",
+        "count": 0,
+        "entries": []
+      }
+    ],
+    "sage_cookies_metadata": [
+      {
+        "host_key": "votreapplicationsage.ciel.com",
+        "name": "__cflb",
+        "creation_utc": "2026-10-02T17:56:31.160430+02:00",
+        "last_access_utc": "2026-10-02T18:22:37.696783+02:00",
+        "last_update_utc": "2026-10-02T17:56:31.160441+02:00",
+        "expires_utc": "2026-10-03T16:56:31.160430+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": ".sso.sage.com",
+        "name": "__cf_bm",
+        "creation_utc": "2026-10-02T18:15:55.869035+02:00",
+        "last_access_utc": "2026-10-02T18:22:39.626504+02:00",
+        "last_update_utc": "2026-10-02T18:15:55.869063+02:00",
+        "expires_utc": "2026-10-02T18:45:55.869035+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": ".webserver.cdm.sage.fr",
+        "name": "__cf_bm",
+        "creation_utc": "2026-10-02T18:16:39.655432+02:00",
+        "last_access_utc": "2026-10-02T18:22:49.772794+02:00",
+        "last_update_utc": "2026-10-02T18:16:39.655451+02:00",
+        "expires_utc": "2026-10-02T18:46:39.655432+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": "id.sage.com",
+        "name": ".sageidpstate",
+        "creation_utc": "2026-10-02T18:22:39.321815+02:00",
+        "last_access_utc": "2026-10-02T18:22:39.321815+02:00",
+        "last_update_utc": "2026-10-02T18:22:39.321831+02:00",
+        "expires_utc": "2026-10-02T19:22:39.321815+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": ".id.sage.com",
+        "name": "__cf_bm",
+        "creation_utc": "2026-10-02T18:22:39.321969+02:00",
+        "last_access_utc": "2026-10-02T18:22:39.321969+02:00",
+        "last_update_utc": "2026-10-02T18:22:39.321979+02:00",
+        "expires_utc": "2026-10-02T18:52:39.321969+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": "id.sage.com",
+        "name": "auth0-mf",
+        "creation_utc": "2026-10-02T18:22:45.846251+02:00",
+        "last_access_utc": "2026-10-02T18:22:45.846251+02:00",
+        "last_update_utc": "2026-10-02T18:22:45.846272+02:00",
+        "expires_utc": "2026-10-09T18:22:45.846251+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": "id.sage.com",
+        "name": "auth0-mf_compat",
+        "creation_utc": "2026-10-02T18:22:45.846827+02:00",
+        "last_access_utc": "2026-10-02T18:22:45.846827+02:00",
+        "last_update_utc": "2026-10-02T18:22:45.846841+02:00",
+        "expires_utc": "2026-10-09T18:22:45.846827+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": "id.sage.com",
+        "name": "did",
+        "creation_utc": "2026-10-02T18:22:45.564262+02:00",
+        "last_access_utc": "2026-10-02T18:22:45.564262+02:00",
+        "last_update_utc": "2026-10-02T18:22:45.564289+02:00",
+        "expires_utc": "2027-10-03T00:22:45.564262+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": "id.sage.com",
+        "name": "did_compat",
+        "creation_utc": "2026-10-02T18:22:45.564764+02:00",
+        "last_access_utc": "2026-10-02T18:22:45.564764+02:00",
+        "last_update_utc": "2026-10-02T18:22:45.564772+02:00",
+        "expires_utc": "2027-10-03T00:22:45.564764+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": ".ciel.com",
+        "name": "__cf_bm",
+        "creation_utc": "2026-10-02T18:22:48.450946+02:00",
+        "last_access_utc": "2026-10-02T18:22:48.450946+02:00",
+        "last_update_utc": "2026-10-02T18:22:48.450980+02:00",
+        "expires_utc": "2026-10-02T18:52:48.450946+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": ".cdm.sage.fr",
+        "name": "__cf_bm",
+        "creation_utc": "2026-10-02T18:22:49.892094+02:00",
+        "last_access_utc": "2026-10-02T18:22:49.892094+02:00",
+        "last_update_utc": "2026-10-02T18:22:49.892153+02:00",
+        "expires_utc": "2026-10-02T18:52:49.892094+02:00",
+        "is_persistent": 1
+      }
+    ]
+  },
+  "Ciel Paye": {
+    "history": {
+      "visit_count": 12,
+      "first": "2024-04-03T17:02:10.362963+02:00",
+      "last": "2024-10-29T18:39:02.231081+01:00",
+      "host_counts": {
+        "votreapplicationsage.ciel.com": 5,
+        "id.sage.com": 7
+      },
+      "oct28": []
+    },
+    "saved_logins": [
+      {
+        "file": "Login Data",
+        "count": 0,
+        "entries": []
+      }
+    ],
+    "sage_cookies_metadata": [
+      {
+        "host_key": "id.sage.com",
+        "name": "did",
+        "creation_utc": "2024-04-03T17:02:11.199257+02:00",
+        "last_access_utc": "2024-10-29T18:39:01.269822+01:00",
+        "last_update_utc": "2024-04-03T17:02:11.199284+02:00",
+        "expires_utc": "2025-04-03T23:02:11.199257+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": "id.sage.com",
+        "name": "did_compat",
+        "creation_utc": "2024-04-03T17:02:11.199634+02:00",
+        "last_access_utc": "2024-10-29T18:39:01.269822+01:00",
+        "last_update_utc": "2024-04-03T17:02:11.199645+02:00",
+        "expires_utc": "2025-04-03T23:02:11.199634+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": ".ciel.com",
+        "name": "_ga",
+        "creation_utc": "2024-04-03T17:03:47.016089+02:00",
+        "last_access_utc": "2024-10-29T18:39:00.550026+01:00",
+        "last_update_utc": "2024-04-03T17:03:47.016089+02:00",
+        "expires_utc": "2025-05-08T17:03:47.015805+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": ".ciel.com",
+        "name": "ELOQUA",
+        "creation_utc": "2024-04-03T17:03:47.217240+02:00",
+        "last_access_utc": "2024-10-29T18:39:00.550026+01:00",
+        "last_update_utc": "2024-04-03T17:03:47.217292+02:00",
+        "expires_utc": "2025-05-03T17:03:48.217240+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": ".ciel.com",
+        "name": "_ga_MGV91ERSS8",
+        "creation_utc": "2024-04-03T17:03:47.252322+02:00",
+        "last_access_utc": "2024-10-29T18:39:00.550026+01:00",
+        "last_update_utc": "2024-04-03T17:03:47.252322+02:00",
+        "expires_utc": "2025-05-08T17:03:47.252255+02:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": "id.sage.com",
+        "name": ".sageidpstate",
+        "creation_utc": "2024-10-29T18:39:02.089474+01:00",
+        "last_access_utc": "2024-10-29T18:39:02.089474+01:00",
+        "last_update_utc": "2024-10-29T18:39:02.089748+01:00",
+        "expires_utc": "2024-10-29T19:39:02.089474+01:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": ".id.sage.com",
+        "name": "__cf_bm",
+        "creation_utc": "2024-10-29T18:39:02.090125+01:00",
+        "last_access_utc": "2024-10-29T18:39:02.090125+01:00",
+        "last_update_utc": "2024-10-29T18:39:02.090181+01:00",
+        "expires_utc": "2024-10-29T19:09:02.090125+01:00",
+        "is_persistent": 1
+      },
+      {
+        "host_key": ".sso.sage.com",
+        "name": "__cf_bm",
+        "creation_utc": "2024-10-29T18:39:02.857204+01:00",
+        "last_access_utc": "2024-10-29T18:39:02.857204+01:00",
+        "last_update_utc": "2024-10-29T18:39:02.857256+01:00",
+        "expires_utc": "2024-10-29T19:09:02.857204+01:00",
+        "is_persistent": 1
+      }
+    ]
+  }
+}

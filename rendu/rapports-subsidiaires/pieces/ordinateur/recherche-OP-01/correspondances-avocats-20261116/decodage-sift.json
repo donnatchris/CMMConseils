@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-16T12:52:46.965997+00:00",
+  "command": "readpst -r -q -t e -o DIR PST",
+  "sources": [
+    {
+      "label": "dmm",
+      "pst": "/media/shared/codeProjects/DMMConseils/ordinateur/recherche-OP-01/extraction-messageries-20261116/fichiers/L16B/MESSAGERIES/dmmconseils@hotmail.com.pst",
+      "sha256": "cbc13b5a409585309db8edd7f9532fd69c58c1a48cf66355124a78f11950e8f9",
+      "returncode": 0
+    },
+    {
+      "label": "93300",
+      "pst": "/media/shared/codeProjects/DMMConseils/ordinateur/recherche-OP-01/extraction-messageries-20261116/fichiers/L16B/MESSAGERIES/dmmconseils93300@hotmail.com.pst",
+      "sha256": "06a98a15fe1c9b77a3c1eee0709fd1f5f9bd3f983d7342169e527e61a688d18a",
+      "returncode": 0
+    }
+  ]
+}

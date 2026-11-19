@@ -1,0 +1,500 @@
+{
+  "date_relecture": "2026-11-19",
+  "script": {
+    "path": "generer-pdf/calculer-complements-note.py",
+    "sha256": "fed4bccaf610761146f9939427b026d56738e9adf330662fd770dd704bc54c41"
+  },
+  "methode": "Relecture de résultats existants ; conversions de champs datés et soustractions. Aucune nouvelle acquisition.",
+  "sources": {
+    "comparaison": {
+      "path": "ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/resultats-comparaison-L16B-inventaire.json",
+      "sha256": "3ef6deb41e592d8f0320fbdf9bf6c488306b5d337cf5f9a88db08147d5665ad5"
+    },
+    "mft": {
+      "path": "ordinateur/recherche-OP-01/extractions-acces/l16b-mft.jsonl",
+      "sha256": "3226c780c635815ed1bec9fd4b3a35b957e1bf8786b6d00da7338784dccd385d"
+    },
+    "objets": {
+      "path": "inventaire-DNEF/travaux-techniques/recherche-Q1-20261114/prive/attributs-et-chronologie.json",
+      "sha256": "e42118935c6687008dd41dac52ed21bad8293f308266f3d29b9d661958f28d10"
+    },
+    "verification": {
+      "path": "inventaire-DNEF/documents-recus/verification-20241015-1325-1351/resultats-sift-v2.json",
+      "sha256": "d19fd3ffa19ee6be4eb9cceb72e7e1c525e5480743ca5d30016f60377276ecc8"
+    },
+    "fichiers": {
+      "path": "inventaire-DNEF/documents-recus/verification-20241015-1325-1351/complement-fichiers-sift.json",
+      "sha256": "d724ee3acbe40d5384c58330807accc2ed41fc0b7b302709155e99c8573616c1"
+    },
+    "preferences": {
+      "path": "inventaire-DNEF/travaux-techniques/investigations-B-E-20261114/prive/telephones-passe2/resultats.json",
+      "sha256": "24b074c8cb2df8009bd8e0b8ac3ea5edc2ddbbb2a0c420e68579c6e8a51eeda3"
+    },
+    "reseau": {
+      "path": "ordinateur/recherche-OP-01/sage-reseaux-20261113/resultats/chronologie-reseau-28oct.json",
+      "sha256": "0335b56f780cd013369c0105264db1643eb21d29e617d07abd70a8302ed4c969"
+    },
+    "samsung": {
+      "path": "ordinateur/recherche-OP-01/samsung-almu-20261113/resultats/samsung-events.json",
+      "sha256": "6ae009a6e1595ba5accd0a74d8363796d25bee9c159a8ec55deab8e21c20fcf2"
+    },
+    "csv": {
+      "path": "inventaire-DNEF/documents-recus/Inventaire_saddedine.csv",
+      "sha256": "f2a4e9d05cca5c7b8082da42df76fca45e870f3e3acbbdf6ff03c07e68293c40"
+    }
+  },
+  "csv_sha256": "f2a4e9d05cca5c7b8082da42df76fca45e870f3e3acbbdf6ff03c07e68293c40",
+  "fichiers_constat1": [
+    {
+      "path": "C:\\L16B\\GDRIVE (2).zip",
+      "mft_index": 58676,
+      "statut": "absent du CSV",
+      "modification_si_paris": "2026-07-27T19:07:01.8229987+02:00",
+      "modification_csv": null,
+      "ligne_csv": null
+    },
+    {
+      "path": "C:\\L16B\\GDRIVE.zip",
+      "mft_index": 209557,
+      "statut": "absent du CSV",
+      "modification_si_paris": "2026-07-27T19:01:35.2722600+02:00",
+      "modification_csv": null,
+      "ligne_csv": null
+    },
+    {
+      "path": "C:\\L16B\\LOCAL\\FACT 2018 SUITE.pdf",
+      "mft_index": 164555,
+      "statut": "empreinte divergente",
+      "modification_si_paris": "2022-12-13T12:47:33.8203647+01:00",
+      "modification_csv": "2022-12-13T12:47:33.8203647+01:00[Europe/Paris]",
+      "ligne_csv": 481
+    },
+    {
+      "path": "C:\\L16B\\LOCAL\\cle usb\\USB2 (D) - Raccourci.lnk",
+      "mft_index": 152379,
+      "statut": "empreinte divergente",
+      "modification_si_paris": "2024-12-03T16:13:31.9951345+01:00",
+      "modification_csv": "2021-10-29T10:58:36+02:00[Europe/Paris]",
+      "ligne_csv": 426
+    },
+    {
+      "path": "C:\\L16B\\MESSAGERIES\\dmmconseils93300@hotmail.com.pst",
+      "mft_index": 31663,
+      "statut": "empreinte divergente",
+      "modification_si_paris": "2024-10-28T17:28:51.3525124+01:00",
+      "modification_csv": "2024-10-28T17:09:17.7828811+01:00[Europe/Paris]",
+      "ligne_csv": 1497
+    },
+    {
+      "path": "C:\\L16B\\MESSAGERIES\\misssmalika@hotmail.com\\CADA.pdf.pdf",
+      "mft_index": 230387,
+      "statut": "absent du CSV",
+      "modification_si_paris": "2026-10-02T19:23:39.0127003+02:00",
+      "modification_csv": null,
+      "ligne_csv": null
+    }
+  ],
+  "intervalles_constat6": [
+    {
+      "objet": "configuration_RNDIS_vers_etat_connecte",
+      "debut": "2024-10-28T11:18:53.428110+01:00",
+      "fin": "2024-10-28T11:18:55.968446+01:00",
+      "record_debut": 897,
+      "record_fin": 7020,
+      "ecart_secondes": "2.540336"
+    },
+    {
+      "objet": "retrait_Samsung_vers_deconnexion_Reseau3",
+      "debut": "2024-10-28T17:14:11.399631+01:00",
+      "fin": "2024-10-28T17:14:11.588420+01:00",
+      "record_debut": 1493,
+      "record_fin": 7045,
+      "ecart_secondes": "0.188789"
+    }
+  ],
+  "objets_constat10": [
+    {
+      "content_id": "C01",
+      "fileID": "0b6a45fb475a09bece428d0c76dfccaf917fe627",
+      "relativePath": "File Provider Storage/Télécharge­ments/TR Déposez votre capital social sur Qonto 📥.pdf",
+      "sha512": "0b1ca783ac852e0bc4e85fbfb25f47f1673876b900fc4855b3484aa82f13ada8cbe8fe5393b9ee23295e6c158a84c12febbef2b5df897018fe350a28e682de8d",
+      "lastused_paris": "2024-10-15T13:41:24.049649000+02:00",
+      "LastStatusChange": 1728992484,
+      "LastStatusChange_paris": "2024-10-15T13:41:24+02:00",
+      "inventaire": [
+        {
+          "ligne": 1559,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\TR Déposez votre capital social sur Qonto 📥 2.pdf",
+          "creation": "2024-10-15T13:41:46.86+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "22.810351"
+        },
+        {
+          "ligne": 1560,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\TR Déposez votre capital social sur Qonto 📥.pdf",
+          "creation": "2024-10-15T13:41:15.08+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "-8.969649"
+        }
+      ]
+    },
+    {
+      "content_id": "C02",
+      "fileID": "f58ad2c7ab665d10d2589cba445772d111606bcc",
+      "relativePath": "File Provider Storage/Télécharge­ments/TR  Urgent.pdf",
+      "sha512": "25ac1859299057ab04f3aeece8c4c7f531c4a26de51393ed1ef40ac71f790464663e863e9507ab21e58a63fc5b67bbd631ffda2adc33baafe891b2be5b324e37",
+      "lastused_paris": "2024-10-15T13:41:56.911901950+02:00",
+      "LastStatusChange": 1733762485,
+      "LastStatusChange_paris": "2024-12-09T17:41:25+01:00",
+      "inventaire": [
+        {
+          "ligne": 1561,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\TR  Urgent.pdf",
+          "creation": "2024-10-15T13:42:07.43+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "10.51809805"
+        }
+      ]
+    },
+    {
+      "content_id": "C03",
+      "fileID": "780c4fd84e4c8466a0531982cd6d459c90e326e3",
+      "relativePath": "File Provider Storage/Télécharge­ments/DEVIS DMM CONSEILS.pdf",
+      "sha512": "c039336349b373354d9ce299076c3b146b5bacec377007cb840338a4e2a6679695778e5772e53a646f5bcc96d6390c26c23575d69c17fb7af96a0b7009e3ea4b",
+      "lastused_paris": "2024-10-15T13:42:15.709447860+02:00",
+      "LastStatusChange": 1728992535,
+      "LastStatusChange_paris": "2024-10-15T13:42:15+02:00",
+      "inventaire": [
+        {
+          "ligne": 1540,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\DEVIS DMM CONSEILS.pdf",
+          "creation": "2024-10-15T13:42:17.78+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "2.07055214"
+        }
+      ]
+    },
+    {
+      "content_id": "C04",
+      "fileID": "0938248d8d49c29789980ffa7c2886f1964c9f18",
+      "relativePath": "File Provider Storage/Télécharge­ments/FW  SOLDE CONTRAT.pdf",
+      "sha512": "67153038c8f50da75b1782b85c80aef32b89ae31e401eb13fd7a5e1c92af82afa789a9139ed9147bbf52afd32f6dacfcccb2908d19e15ed061b78aafc076d65d",
+      "lastused_paris": "2024-10-15T13:42:36.864924907+02:00",
+      "LastStatusChange": 1728992556,
+      "LastStatusChange_paris": "2024-10-15T13:42:36+02:00",
+      "inventaire": [
+        {
+          "ligne": 1550,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\FW  SOLDE CONTRAT.pdf",
+          "creation": "2024-10-15T13:42:42.91+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "6.045075093"
+        }
+      ]
+    },
+    {
+      "content_id": "C05",
+      "fileID": "884095f4a80da4ec9a28b175adbb334af7cced9f",
+      "relativePath": "File Provider Storage/Télécharge­ments/Rép  Dossier bourarach.pdf",
+      "sha512": "a63f086c5d10a3999311b79a78996242e7668d7237f49c1aaa6cb566089477bcf9d9ee7dc93e50be9979ad278c3fd8dc95f0c0e94f9409f7f4157e6f006dd326",
+      "lastused_paris": "2024-10-15T13:42:55.987134933+02:00",
+      "LastStatusChange": 1728992576,
+      "LastStatusChange_paris": "2024-10-15T13:42:56+02:00",
+      "inventaire": [
+        {
+          "ligne": 1558,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Rép  Dossier bourarach.pdf",
+          "creation": "2024-10-15T13:42:57.93+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "1.942865067"
+        }
+      ]
+    },
+    {
+      "content_id": "C06",
+      "fileID": "36a33d5692a7d156680a81ddf539b246ed26ffb3",
+      "relativePath": "File Provider Storage/Télécharge­ments/RE  FINT.pdf",
+      "sha512": "f9310ada462de9a0d085426464ea0009693980ff8bc9bb918c1e0106fa37c33ff5c57f24c377ee2712cadd2bfad123d0377122acfc4c9e2010b04b00a0592473",
+      "lastused_paris": "2024-10-15T13:43:10.405284881+02:00",
+      "LastStatusChange": 1728992590,
+      "LastStatusChange_paris": "2024-10-15T13:43:10+02:00",
+      "inventaire": [
+        {
+          "ligne": 1555,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\RE  FINT.pdf",
+          "creation": "2024-10-15T13:43:14.37+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "3.964715119"
+        }
+      ]
+    },
+    {
+      "content_id": "C07",
+      "fileID": "ce18dd385f3d502f43f9f9ec1c29e1a7a69ddec5",
+      "relativePath": "File Provider Storage/Télécharge­ments/Facture - FA0334.pdf",
+      "sha512": "4fafdb81122883262f578e980c666e368e884e5132c099fe56c1c4a7843e0b004cc4fa8875447d97315a206805458e9e93edacd0bd651035336cbe765fb93402",
+      "lastused_paris": "2024-10-15T13:43:46.159396171+02:00",
+      "LastStatusChange": 1728992626,
+      "LastStatusChange_paris": "2024-10-15T13:43:46+02:00",
+      "inventaire": [
+        {
+          "ligne": 1543,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Facture - FA0334.pdf",
+          "creation": "2024-10-15T13:43:49.39+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "3.230603829"
+        }
+      ]
+    },
+    {
+      "content_id": "C09",
+      "fileID": "c80676e6f70814c1a6e4ce3812084b64938e35b9",
+      "relativePath": "File Provider Storage/Télécharge­ments/RE liste des factures.pdf",
+      "sha512": "2394a348539a6da801ffe1d92d1b5cc4bcbfd50e766c923f6feba2bace52db02f2d4a2aba2a0550d8a5185d41ae13ea74e8abe1b7a61a91d32a78ac6a6a4552e",
+      "lastused_paris": "2024-10-15T13:44:26.779971122+02:00",
+      "LastStatusChange": 1728992666,
+      "LastStatusChange_paris": "2024-10-15T13:44:26+02:00",
+      "inventaire": [
+        {
+          "ligne": 1557,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\RE liste des factures.pdf",
+          "creation": "2024-10-15T13:44:27.28+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "0.500028878"
+        }
+      ]
+    },
+    {
+      "content_id": "C10",
+      "fileID": "239b7dfe8016ebfdedc5d108dbd1861ea4ad5071",
+      "relativePath": "File Provider Storage/Télécharge­ments/INV-184645.pdf",
+      "sha512": "5ca78e4668a1134aaf63b683874338bf30685e4739cffb593ff09b4eb91f0269c53905379b7e9875aad0579822f4aaef0d661d1e572727999fdf9d407d802ba1",
+      "lastused_paris": "2024-10-15T13:44:35.959236145+02:00",
+      "LastStatusChange": 1728992675,
+      "LastStatusChange_paris": "2024-10-15T13:44:35+02:00",
+      "inventaire": [
+        {
+          "ligne": 1552,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\INV-184645.pdf",
+          "creation": "2024-10-15T13:44:42.58+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "6.620763855"
+        }
+      ]
+    },
+    {
+      "content_id": "C13",
+      "fileID": "66c8ec30db1c512f4fc4059c3d2229a33d7f5281",
+      "relativePath": "File Provider Storage/Télécharge­ments/Avis ECH 0423 SAS RCT.pdf",
+      "sha512": "4a47f38ae29c02820e886f2263f9848710996dee1ae1a70df961cdd52a8db899618842b50ad12f4868be83880f495b5e6b51fa2735e274a36539f9b8f54e1498",
+      "lastused_paris": "2024-10-15T13:47:07.667662143+02:00",
+      "LastStatusChange": 1728992827,
+      "LastStatusChange_paris": "2024-10-15T13:47:07+02:00",
+      "inventaire": [
+        {
+          "ligne": 1536,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Avis ECH 0423 SAS RCT 2.pdf",
+          "creation": "2024-10-15T13:47:17.66+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "9.992337857"
+        },
+        {
+          "ligne": 1537,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Avis ECH 0423 SAS RCT 3.pdf",
+          "creation": "2024-10-15T13:47:25.86+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "18.192337857"
+        },
+        {
+          "ligne": 1538,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Avis ECH 0423 SAS RCT 4.pdf",
+          "creation": "2024-10-15T13:47:33.92+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "26.252337857"
+        },
+        {
+          "ligne": 1539,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Avis ECH 0423 SAS RCT.pdf",
+          "creation": "2024-10-15T13:47:09.27+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "1.602337857"
+        }
+      ]
+    },
+    {
+      "content_id": "C14",
+      "fileID": "358971b68daf4625ebd5009517006952efbdafd4",
+      "relativePath": "File Provider Storage/Télécharge­ments/Facture - FA0037.pdf",
+      "sha512": "291b3b7806620f0850947c95499155841e10eeaffed34539ea05b5cf622f3b21fc35b8931d3c579e923a75520ef45e53b4854a76313fca5ee9a195964ebaad01",
+      "lastused_paris": "2024-10-15T13:47:58.336755990+02:00",
+      "LastStatusChange": 1728992878,
+      "LastStatusChange_paris": "2024-10-15T13:47:58+02:00",
+      "inventaire": [
+        {
+          "ligne": 1541,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Facture - FA0037.pdf",
+          "creation": "2024-10-15T13:48:00.48+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "2.14324401"
+        }
+      ]
+    },
+    {
+      "content_id": "C15",
+      "fileID": "ceaf191b550666b920126efcfb84b0c2f42696f3",
+      "relativePath": "File Provider Storage/Télécharge­ments/FACTURE RCT OCTOBRE.pdf",
+      "sha512": "978ce5c24fb222c9921e9851def30484d4603e868e0a58f63af90db3fae02b4c909aecf59e21365384f8dba6e1f4fefa6d8811e9bd4ede8c8d818525987e243a",
+      "lastused_paris": "2024-10-15T13:48:17.026661872+02:00",
+      "LastStatusChange": 1728992897,
+      "LastStatusChange_paris": "2024-10-15T13:48:17+02:00",
+      "inventaire": [
+        {
+          "ligne": 1548,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\FACTURE RCT OCTOBRE.pdf",
+          "creation": "2024-10-15T13:48:21.63+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "4.603338128"
+        }
+      ]
+    },
+    {
+      "content_id": "C16",
+      "fileID": "56a90f25ab6060487a8a4889c3bb891ad2234868",
+      "relativePath": "File Provider Storage/FACTURE RCT NOVEMBRE.pdf",
+      "sha512": "4a607d5bd29f39da03628b56e60d84875bc3c4749852397cc00f428e232ae078f585415464e6272ff968f2a28f0cf984bcb9925eb5d3eacaa1b8a0feae7dc619",
+      "lastused_paris": "2024-10-15T13:48:32.444542884+02:00",
+      "LastStatusChange": 1728992912,
+      "LastStatusChange_paris": "2024-10-15T13:48:32+02:00",
+      "inventaire": [
+        {
+          "ligne": 1547,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\FACTURE RCT NOVEMBRE.pdf",
+          "creation": "2024-10-15T13:48:33.54+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "1.095457116"
+        }
+      ]
+    },
+    {
+      "content_id": "C17",
+      "fileID": "ad11e86aef37651125c459f5f3886245319286c2",
+      "relativePath": "File Provider Storage/Télécharge­ments/KEDY FACTURE 202210.pdf",
+      "sha512": "716944c0e14ff836de8a0922056fe827059f55e9d3530788d3f26177cf0ea618cb0407c8c5325b15a2dc0b9d2d5b97c2670ca2e7ddf079e40ec0fabe5af9bba0",
+      "lastused_paris": "2024-10-15T13:48:56.503203868+02:00",
+      "LastStatusChange": 1728992936,
+      "LastStatusChange_paris": "2024-10-15T13:48:56+02:00",
+      "inventaire": [
+        {
+          "ligne": 1553,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\KEDY FACTURE 202210 2.pdf",
+          "creation": "2024-10-15T13:49:47.93+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "51.426796132"
+        },
+        {
+          "ligne": 1554,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\KEDY FACTURE 202210.pdf",
+          "creation": "2024-10-15T13:48:58.6+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "2.096796132"
+        }
+      ]
+    },
+    {
+      "content_id": "C18",
+      "fileID": "ca9a9286d6ee50031b24dcf619f5b104884b7831",
+      "relativePath": "File Provider Storage/Télécharge­ments/Fattura-37_2022-SAS-RCT.pdf",
+      "sha512": "c55226d294cb177a3f3cffc966464d66367a3ab7147303d44a5a37222458e9515c8095687c4b6d94246311066bcbbb686f5740e919c3cd31ec9b489895d7fb13",
+      "lastused_paris": "2024-10-15T13:49:59.141520023+02:00",
+      "LastStatusChange": 1728992999,
+      "LastStatusChange_paris": "2024-10-15T13:49:59+02:00",
+      "inventaire": [
+        {
+          "ligne": 1549,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Fattura-37_2022-SAS-RCT.pdf",
+          "creation": "2024-10-15T13:49:59.36+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "0.218479977"
+        }
+      ]
+    },
+    {
+      "content_id": "C19",
+      "fileID": "c8450017d88bfa5c70dc5ae8a7ac9df65add4e04",
+      "relativePath": "File Provider Storage/Télécharge­ments/London/Qonto/2022100-rct-14-07-2022.pdf",
+      "sha512": "b9dfef479b90f0007b2344fc30aae9248f636014dcd961ca94aae42cfb40b788d4947a70035f7624b8254b72460bdd7d1773d772850d222b468313bb1775aa32",
+      "lastused_paris": "2024-10-15T13:50:11.148422956+02:00",
+      "LastStatusChange": 1728993011,
+      "LastStatusChange_paris": "2024-10-15T13:50:11+02:00",
+      "inventaire": [
+        {
+          "ligne": 1535,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\2022100-rct-14-07-2022.pdf",
+          "creation": "2024-10-15T13:50:13.57+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "2.421577044"
+        }
+      ]
+    },
+    {
+      "content_id": "C20",
+      "fileID": "d2cd86f784bae16feb64811feff9beb2bd5c0ab8",
+      "relativePath": "File Provider Storage/Télécharge­ments/Facture - FA0046.pdf",
+      "sha512": "bb309954ed17a02c2bc64568e347b321a9144e559f889d1eb19a031bdc2ce3a2410895e6e11721787490b946da39d76d1145d516e370834b9dd790f45b46986c",
+      "lastused_paris": "2024-10-15T13:50:23.397071838+02:00",
+      "LastStatusChange": 1728993023,
+      "LastStatusChange_paris": "2024-10-15T13:50:23+02:00",
+      "inventaire": [
+        {
+          "ligne": 1542,
+          "path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Facture - FA0046.pdf",
+          "creation": "2024-10-15T13:50:25.86+02:00[Europe/Paris]",
+          "ecart_creation_moins_derniere_utilisation_secondes": "2.462928162"
+        }
+      ]
+    }
+  ],
+  "evenements_tcc_constat15": [
+    {
+      "rowid": 39529,
+      "service": "kTCCServiceUbiquity",
+      "client": "com.apple.mobilemail",
+      "auth_value": 2,
+      "auth_reason": 4,
+      "last_modified": 1728991526,
+      "boot_uuid": "UNUSED",
+      "paris": "2024-10-15T13:25:26+02:00"
+    },
+    {
+      "rowid": 39531,
+      "service": "kTCCServiceUbiquity",
+      "client": "com.apple.mobilephone",
+      "auth_value": 2,
+      "auth_reason": 4,
+      "last_modified": 1728991679,
+      "boot_uuid": "UNUSED",
+      "paris": "2024-10-15T13:27:59+02:00"
+    },
+    {
+      "rowid": 39532,
+      "service": "kTCCServiceUbiquity",
+      "client": "com.apple.DocumentsApp",
+      "auth_value": 2,
+      "auth_reason": 4,
+      "last_modified": 1728991790,
+      "boot_uuid": "UNUSED",
+      "paris": "2024-10-15T13:29:50+02:00"
+    },
+    {
+      "rowid": 39533,
+      "service": "kTCCServiceUbiquity",
+      "client": "com.apple.Music",
+      "auth_value": 2,
+      "auth_reason": 4,
+      "last_modified": 1728992452,
+      "boot_uuid": "UNUSED",
+      "paris": "2024-10-15T13:40:52+02:00"
+    }
+  ],
+  "preferences_constat15": [
+    {
+      "fichier": "com.apple.PeopleSuggester.SeedSuggestions.plist",
+      "champ": "DeviceIdDate",
+      "date_paris": "2024-10-15T13:41:02.145052+02:00"
+    },
+    {
+      "fichier": "com.apple.coreduetd.plist",
+      "champ": "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidTombstoneEventsNotification:/app/intentsActivityDate",
+      "date_paris": "2024-10-15T13:25:02.400952+02:00"
+    },
+    {
+      "fichier": "com.apple.coreduetd.plist",
+      "champ": "_DKThrottledActivityLast_DKTombstoneEligibleForPredictionIdentifierActivityDate",
+      "date_paris": "2024-10-15T13:50:40.668150+02:00"
+    },
+    {
+      "fichier": "com.apple.coreduetd.plist",
+      "champ": "_DKThrottledActivityLast_DKKnowledgeStorageLogging_DKKnowledgeStorageDidTombstoneEventsNotification:/app/activityActivityDate",
+      "date_paris": "2024-10-15T13:50:40.668330+02:00"
+    }
+  ]
+}

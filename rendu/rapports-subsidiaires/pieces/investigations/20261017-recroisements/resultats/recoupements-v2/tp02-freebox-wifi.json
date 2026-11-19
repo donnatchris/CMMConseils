@@ -1,0 +1,780 @@
+{
+  "private_entries": 36,
+  "known_entries": 36,
+  "matches": [
+    {
+      "private_index": 4,
+      "mac": "0E:41:84:EF:66:27",
+      "ssid_sha256": "16bd502a6c97b52cc692abf4f1551c174f282477129370244dbcb0c6fb6d3daa",
+      "private_dates": {
+        "MacGenerationTimeStamp": {
+          "utc": "2024-06-11T12:25:59.957328+00:00",
+          "paris": "2024-06-11T14:25:59.957328+02:00"
+        },
+        "lastJoined": {
+          "utc": "2026-09-07T19:21:28.220278+00:00",
+          "paris": "2026-09-07T21:21:28.220278+02:00"
+        },
+        "FirstJoinWithNewMacTimestamp": {
+          "utc": "2024-06-11T12:27:46.543959+00:00",
+          "paris": "2024-06-11T14:27:46.543959+02:00"
+        },
+        "lastUpdated": {
+          "utc": "2026-09-07T19:21:28.220313+00:00",
+          "paris": "2026-09-07T21:21:28.220313+02:00"
+        },
+        "addedAt": {
+          "utc": "2024-06-11T12:27:28.692332+00:00",
+          "paris": "2024-06-11T14:27:28.692332+02:00"
+        }
+      },
+      "freebox": {
+        "mac": "0E:41:84:EF:66:27",
+        "name": "iPhone",
+        "names": [
+          {
+            "name": "ab529665-dcec-4e30-945a-440b4cd5c367",
+            "source": "mdns"
+          },
+          {
+            "name": "iPhone",
+            "source": "dhcp"
+          }
+        ],
+        "first_activity": {
+          "utc": "2024-06-11T12:27:30+00:00",
+          "paris": "2024-06-11T14:27:30+02:00"
+        },
+        "last_activity": {
+          "utc": "2026-09-07T19:23:50+00:00",
+          "paris": "2026-09-07T21:23:50+02:00"
+        },
+        "connectivities": [
+          {
+            "addr": "192.168.1.106",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1788809030,
+            "af": "ipv4",
+            "last_time_reachable": 1788809030,
+            "times": {
+              "last_activity": {
+                "utc": "2026-09-07T19:23:50+00:00",
+                "paris": "2026-09-07T21:23:50+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2026-09-07T19:23:50+00:00",
+                "paris": "2026-09-07T21:23:50+02:00"
+              }
+            }
+          },
+          {
+            "addr": "fe80::34:b3d2:e0e1:931a",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1755075379,
+            "af": "ipv6",
+            "last_time_reachable": 1755075374,
+            "times": {
+              "last_activity": {
+                "utc": "2025-08-13T08:56:19+00:00",
+                "paris": "2025-08-13T10:56:19+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2025-08-13T08:56:14+00:00",
+                "paris": "2025-08-13T10:56:14+02:00"
+              }
+            }
+          },
+          {
+            "addr": "fe80::43c:2784:7236:8e3",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1755075600,
+            "af": "ipv6",
+            "last_time_reachable": 1755075596,
+            "times": {
+              "last_activity": {
+                "utc": "2025-08-13T09:00:00+00:00",
+                "paris": "2025-08-13T11:00:00+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2025-08-13T08:59:56+00:00",
+                "paris": "2025-08-13T10:59:56+02:00"
+              }
+            }
+          },
+          {
+            "addr": "fe80::1040:e211:125b:8f89",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1785190448,
+            "af": "ipv6",
+            "last_time_reachable": 1785190448,
+            "times": {
+              "last_activity": {
+                "utc": "2026-07-27T22:14:08+00:00",
+                "paris": "2026-07-28T00:14:08+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2026-07-27T22:14:08+00:00",
+                "paris": "2026-07-28T00:14:08+02:00"
+              }
+            }
+          },
+          {
+            "addr": "fe80::c8b:40d:5489:18d",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1788809021,
+            "af": "ipv6",
+            "last_time_reachable": 1788809016,
+            "times": {
+              "last_activity": {
+                "utc": "2026-09-07T19:23:41+00:00",
+                "paris": "2026-09-07T21:23:41+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2026-09-07T19:23:36+00:00",
+                "paris": "2026-09-07T21:23:36+02:00"
+              }
+            }
+          },
+          {
+            "addr": "2a01:e0a:c88:900:e503:eaa5:60da:2d69",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1755116046,
+            "af": "ipv6",
+            "last_time_reachable": 1755116046,
+            "times": {
+              "last_activity": {
+                "utc": "2025-08-13T20:14:06+00:00",
+                "paris": "2025-08-13T22:14:06+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2025-08-13T20:14:06+00:00",
+                "paris": "2025-08-13T22:14:06+02:00"
+              }
+            }
+          },
+          {
+            "addr": "2a01:e0a:c88:900:d51b:b17b:6d40:d6f",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1785190450,
+            "af": "ipv6",
+            "last_time_reachable": 1785190450,
+            "times": {
+              "last_activity": {
+                "utc": "2026-07-27T22:14:10+00:00",
+                "paris": "2026-07-28T00:14:10+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2026-07-27T22:14:10+00:00",
+                "paris": "2026-07-28T00:14:10+02:00"
+              }
+            }
+          },
+          {
+            "addr": "2a01:e0a:c88:900:cd06:186f:a61c:f12b",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1788808821,
+            "af": "ipv6",
+            "last_time_reachable": 1788808821,
+            "times": {
+              "last_activity": {
+                "utc": "2026-09-07T19:20:21+00:00",
+                "paris": "2026-09-07T21:20:21+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2026-09-07T19:20:21+00:00",
+                "paris": "2026-09-07T21:20:21+02:00"
+              }
+            }
+          },
+          {
+            "addr": "2a01:e0a:c88:900:28ba:cff8:dbb6:7ded",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1788809024,
+            "af": "ipv6",
+            "last_time_reachable": 1788809024,
+            "times": {
+              "last_activity": {
+                "utc": "2026-09-07T19:23:44+00:00",
+                "paris": "2026-09-07T21:23:44+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2026-09-07T19:23:44+00:00",
+                "paris": "2026-09-07T21:23:44+02:00"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "private_index": 28,
+      "mac": "08:87:C7:76:C4:10",
+      "ssid_sha256": "208967d94e1bbe7111ae4cb06d8cf3d4d3bcabb4183d79013682b32c011e7870",
+      "private_dates": {
+        "LinkDownTimestamp": {
+          "utc": "2025-06-03T22:26:12.499165+00:00",
+          "paris": "2025-06-04T00:26:12.499165+02:00"
+        },
+        "lastUpdated": {
+          "utc": "2025-07-11T19:36:41.157075+00:00",
+          "paris": "2025-07-11T21:36:41.157075+02:00"
+        },
+        "addedAt": {
+          "utc": "2025-04-22T13:07:55.843622+00:00",
+          "paris": "2025-04-22T15:07:55.843622+02:00"
+        },
+        "MacGenerationTimeStamp": {
+          "utc": "2025-04-22T13:07:55.395389+00:00",
+          "paris": "2025-04-22T15:07:55.395389+02:00"
+        }
+      },
+      "freebox": {
+        "mac": "08:87:C7:76:C4:10",
+        "name": "iPhone",
+        "names": [
+          {
+            "name": "iPhone",
+            "source": "dhcp"
+          }
+        ],
+        "first_activity": {
+          "utc": "2024-06-11T11:12:32+00:00",
+          "paris": "2024-06-11T13:12:32+02:00"
+        },
+        "last_activity": {
+          "utc": "2024-06-11T12:00:33+00:00",
+          "paris": "2024-06-11T14:00:33+02:00"
+        },
+        "connectivities": [
+          {
+            "addr": "192.168.1.94",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1718107221,
+            "af": "ipv4",
+            "last_time_reachable": 1718107221,
+            "times": {
+              "last_activity": {
+                "utc": "2024-06-11T12:00:21+00:00",
+                "paris": "2024-06-11T14:00:21+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2024-06-11T12:00:21+00:00",
+                "paris": "2024-06-11T14:00:21+02:00"
+              }
+            }
+          },
+          {
+            "addr": "fe80::1854:e8b0:aee1:9917",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1718105309,
+            "af": "ipv6",
+            "last_time_reachable": 1718105268,
+            "times": {
+              "last_activity": {
+                "utc": "2024-06-11T11:28:29+00:00",
+                "paris": "2024-06-11T13:28:29+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2024-06-11T11:27:48+00:00",
+                "paris": "2024-06-11T13:27:48+02:00"
+              }
+            }
+          },
+          {
+            "addr": "fe80::1068:f1fe:b30c:15df",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1718107233,
+            "af": "ipv6",
+            "last_time_reachable": 1718107208,
+            "times": {
+              "last_activity": {
+                "utc": "2024-06-11T12:00:33+00:00",
+                "paris": "2024-06-11T14:00:33+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2024-06-11T12:00:08+00:00",
+                "paris": "2024-06-11T14:00:08+02:00"
+              }
+            }
+          },
+          {
+            "addr": "2a01:e0a:c88:900:e81c:eb8e:dec6:29b",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1718105313,
+            "af": "ipv6",
+            "last_time_reachable": 1718105313,
+            "times": {
+              "last_activity": {
+                "utc": "2024-06-11T11:28:33+00:00",
+                "paris": "2024-06-11T13:28:33+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2024-06-11T11:28:33+00:00",
+                "paris": "2024-06-11T13:28:33+02:00"
+              }
+            }
+          },
+          {
+            "addr": "2a01:e0a:c88:900:7cba:a23:aee8:c83",
+            "active": false,
+            "reachable": false,
+            "last_activity": 1718107224,
+            "af": "ipv6",
+            "last_time_reachable": 1718107224,
+            "times": {
+              "last_activity": {
+                "utc": "2024-06-11T12:00:24+00:00",
+                "paris": "2024-06-11T14:00:24+02:00"
+              },
+              "last_time_reachable": {
+                "utc": "2024-06-11T12:00:24+00:00",
+                "paris": "2024-06-11T14:00:24+02:00"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "night_matches": {
+    "EA:21:6C:F7:47:E7": false,
+    "9C:64:8B:0A:BD:0C": false,
+    "FE:AA:76:95:AC:29": false
+  },
+  "night_freebox": [
+    {
+      "mac": "EA:21:6C:F7:47:E7",
+      "name": "iPhone",
+      "names": [
+        {
+          "name": "iPhone",
+          "source": "mdns"
+        }
+      ],
+      "first_activity": {
+        "utc": "2024-10-15T22:20:00+00:00",
+        "paris": "2024-10-16T00:20:00+02:00"
+      },
+      "last_activity": {
+        "utc": "2024-10-16T22:57:02+00:00",
+        "paris": "2024-10-17T00:57:02+02:00"
+      },
+      "connectivities": [
+        {
+          "addr": "192.168.1.3",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729119422,
+          "af": "ipv4",
+          "last_time_reachable": 1729119422,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-16T22:57:02+00:00",
+              "paris": "2024-10-17T00:57:02+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-16T22:57:02+00:00",
+              "paris": "2024-10-17T00:57:02+02:00"
+            }
+          }
+        },
+        {
+          "addr": "fe80::148c:88c1:d7b0:813f",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729119412,
+          "af": "ipv6",
+          "last_time_reachable": 1729119368,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-16T22:56:52+00:00",
+              "paris": "2024-10-17T00:56:52+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-16T22:56:08+00:00",
+              "paris": "2024-10-17T00:56:08+02:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:3418:48de:498c:b171",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729060910,
+          "af": "ipv6",
+          "last_time_reachable": 1729060910,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-16T06:41:50+00:00",
+              "paris": "2024-10-16T08:41:50+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-16T06:41:50+00:00",
+              "paris": "2024-10-16T08:41:50+02:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:7012:a4a3:b125:b728",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729062205,
+          "af": "ipv6",
+          "last_time_reachable": 1729062205,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-16T07:03:25+00:00",
+              "paris": "2024-10-16T09:03:25+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-16T07:03:25+00:00",
+              "paris": "2024-10-16T09:03:25+02:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:b4f0:3f94:410f:281d",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729074489,
+          "af": "ipv6",
+          "last_time_reachable": 1729074489,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-16T10:28:09+00:00",
+              "paris": "2024-10-16T12:28:09+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-16T10:28:09+00:00",
+              "paris": "2024-10-16T12:28:09+02:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:516c:8b9a:9ed9:edca",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729119400,
+          "af": "ipv6",
+          "last_time_reachable": 1729119400,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-16T22:56:40+00:00",
+              "paris": "2024-10-17T00:56:40+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-16T22:56:40+00:00",
+              "paris": "2024-10-17T00:56:40+02:00"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "mac": "9C:64:8B:0A:BD:0C",
+      "name": "iPhone",
+      "names": [
+        {
+          "name": "iPhone",
+          "source": "dhcp"
+        }
+      ],
+      "first_activity": {
+        "utc": "2024-10-16T23:00:57+00:00",
+        "paris": "2024-10-17T01:00:57+02:00"
+      },
+      "last_activity": {
+        "utc": "2024-10-17T01:43:56+00:00",
+        "paris": "2024-10-17T03:43:56+02:00"
+      },
+      "connectivities": [
+        {
+          "addr": "192.168.1.55",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729129436,
+          "af": "ipv4",
+          "last_time_reachable": 1729129436,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-17T01:43:56+00:00",
+              "paris": "2024-10-17T03:43:56+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-17T01:43:56+00:00",
+              "paris": "2024-10-17T03:43:56+02:00"
+            }
+          }
+        },
+        {
+          "addr": "fe80::c6a:7472:79d7:dc29",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729120824,
+          "af": "ipv6",
+          "last_time_reachable": 1729120824,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-16T23:20:24+00:00",
+              "paris": "2024-10-17T01:20:24+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-16T23:20:24+00:00",
+              "paris": "2024-10-17T01:20:24+02:00"
+            }
+          }
+        },
+        {
+          "addr": "fe80::77:15df:1125:3bda",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729129425,
+          "af": "ipv6",
+          "last_time_reachable": 1729129397,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-17T01:43:45+00:00",
+              "paris": "2024-10-17T03:43:45+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-17T01:43:17+00:00",
+              "paris": "2024-10-17T03:43:17+02:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:e919:e4b8:e29c:faad",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729120820,
+          "af": "ipv6",
+          "last_time_reachable": 1729120820,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-16T23:20:20+00:00",
+              "paris": "2024-10-17T01:20:20+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-16T23:20:20+00:00",
+              "paris": "2024-10-17T01:20:20+02:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:4190:f93f:3d07:cfb9",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729121880,
+          "af": "ipv6",
+          "last_time_reachable": 1729121880,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-16T23:38:00+00:00",
+              "paris": "2024-10-17T01:38:00+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-16T23:38:00+00:00",
+              "paris": "2024-10-17T01:38:00+02:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:6d5d:aba8:a199:2466",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1729129408,
+          "af": "ipv6",
+          "last_time_reachable": 1729129408,
+          "times": {
+            "last_activity": {
+              "utc": "2024-10-17T01:43:28+00:00",
+              "paris": "2024-10-17T03:43:28+02:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-10-17T01:43:28+00:00",
+              "paris": "2024-10-17T03:43:28+02:00"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "mac": "FE:AA:76:95:AC:29",
+      "name": "iPhone",
+      "names": [
+        {
+          "name": "iPhone",
+          "source": "mdns"
+        }
+      ],
+      "first_activity": {
+        "utc": "2024-10-17T01:45:44+00:00",
+        "paris": "2024-10-17T03:45:44+02:00"
+      },
+      "last_activity": {
+        "utc": "2024-12-03T23:19:26+00:00",
+        "paris": "2024-12-04T00:19:26+01:00"
+      },
+      "connectivities": [
+        {
+          "addr": "fe80::8ea:e2e4:2d4b:1a2e",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1731426499,
+          "af": "ipv6",
+          "last_time_reachable": 1731426499,
+          "times": {
+            "last_activity": {
+              "utc": "2024-11-12T15:48:19+00:00",
+              "paris": "2024-11-12T16:48:19+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-11-12T15:48:19+00:00",
+              "paris": "2024-11-12T16:48:19+01:00"
+            }
+          }
+        },
+        {
+          "addr": "fe80::cb4:558a:ca1d:935f",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1731492806,
+          "af": "ipv6",
+          "last_time_reachable": 1731492806,
+          "times": {
+            "last_activity": {
+              "utc": "2024-11-13T10:13:26+00:00",
+              "paris": "2024-11-13T11:13:26+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-11-13T10:13:26+00:00",
+              "paris": "2024-11-13T11:13:26+01:00"
+            }
+          }
+        },
+        {
+          "addr": "fe80::1846:ebda:d06:5e41",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1733241166,
+          "af": "ipv6",
+          "last_time_reachable": 1733241166,
+          "times": {
+            "last_activity": {
+              "utc": "2024-12-03T15:52:46+00:00",
+              "paris": "2024-12-03T16:52:46+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-12-03T15:52:46+00:00",
+              "paris": "2024-12-03T16:52:46+01:00"
+            }
+          }
+        },
+        {
+          "addr": "fe80::69:6a98:1935:eb13",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1733267966,
+          "af": "ipv6",
+          "last_time_reachable": 1733267966,
+          "times": {
+            "last_activity": {
+              "utc": "2024-12-03T23:19:26+00:00",
+              "paris": "2024-12-04T00:19:26+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-12-03T23:19:26+00:00",
+              "paris": "2024-12-04T00:19:26+01:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:41cf:dcbe:e43b:6d98",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1731521034,
+          "af": "ipv6",
+          "last_time_reachable": 1731521034,
+          "times": {
+            "last_activity": {
+              "utc": "2024-11-13T18:03:54+00:00",
+              "paris": "2024-11-13T19:03:54+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-11-13T18:03:54+00:00",
+              "paris": "2024-11-13T19:03:54+01:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:c523:bf2:9c51:99af",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1731572150,
+          "af": "ipv6",
+          "last_time_reachable": 1731572150,
+          "times": {
+            "last_activity": {
+              "utc": "2024-11-14T08:15:50+00:00",
+              "paris": "2024-11-14T09:15:50+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-11-14T08:15:50+00:00",
+              "paris": "2024-11-14T09:15:50+01:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:e051:3e1b:fb9f:77a6",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1733241155,
+          "af": "ipv6",
+          "last_time_reachable": 1733241155,
+          "times": {
+            "last_activity": {
+              "utc": "2024-12-03T15:52:35+00:00",
+              "paris": "2024-12-03T16:52:35+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-12-03T15:52:35+00:00",
+              "paris": "2024-12-03T16:52:35+01:00"
+            }
+          }
+        },
+        {
+          "addr": "2a01:e0a:c88:900:1571:fb65:2349:7e8a",
+          "active": false,
+          "reachable": false,
+          "last_activity": 1733267961,
+          "af": "ipv6",
+          "last_time_reachable": 1733267961,
+          "times": {
+            "last_activity": {
+              "utc": "2024-12-03T23:19:21+00:00",
+              "paris": "2024-12-04T00:19:21+01:00"
+            },
+            "last_time_reachable": {
+              "utc": "2024-12-03T23:19:21+00:00",
+              "paris": "2024-12-04T00:19:21+01:00"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "limit": "Instantanés sauvegardés ; une MAC peut avoir tourné, les préférences peuvent être restaurées. Non-correspondance ne permet pas exclusion historique."
+}

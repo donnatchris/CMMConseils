@@ -15,4 +15,4 @@ La recherche négative concerne les données encore présentes dans l’image, p
 
 Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
 
-Christophe DOnnat — Donnat Dev
+Christophe Donnat — Donnat Dev

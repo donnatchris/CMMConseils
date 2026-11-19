@@ -26,4 +26,4 @@ Le balayage final a lu 357 162 754 048 octets libres et 15 187 726 336 octets de
 
 Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
 
-Christophe DOnnat — Donnat Dev
+Christophe Donnat — Donnat Dev

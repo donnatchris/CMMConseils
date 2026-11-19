@@ -1,0 +1,3261 @@
+[
+  {
+    "sha256": "1e00d0612c048b584b9f24c5f9688a2108fa224f2987aef4ab5129267e26df7d",
+    "names": [
+      "221115  fac.doc"
+    ],
+    "category": "État de frais et honoraires d’avocat",
+    "description": "Marc-Alexandre Wahrheit, ALMU, étude de dossier et rédaction de contrat, 15/11/2022",
+    "question": "Qualifier le document et vérifier sa présence dans le jeu final.",
+    "priority": 1,
+    "origins": [
+      {
+        "sha256": "1e00d0612c048b584b9f24c5f9688a2108fa224f2987aef4ab5129267e26df7d",
+        "name": "221115  fac.doc",
+        "message": "M02611",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 572
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "2df0ac642950387aa4e9508c0e45a772fa2d9b553d11ace3f180d73749b8ba00",
+    "names": [
+      "Re DMM CONSEILS  Audience TC Bobigny du 04 septembre 2024 à 9h15.pdf"
+    ],
+    "category": "PDF reproduisant une correspondance",
+    "description": "Échange avec Christian Pascoët concernant une audience et le dossier DMM/BRED",
+    "question": "Contrôler le filtrage du contenu incorporé dans le PDF.",
+    "priority": 1,
+    "origins": [
+      {
+        "sha256": "2df0ac642950387aa4e9508c0e45a772fa2d9b553d11ace3f180d73749b8ba00",
+        "name": "Re DMM CONSEILS  Audience TC Bobigny du 04 septembre 2024 à 9h15.pdf",
+        "message": "M04468",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 8
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "2e82aa66ecbc307a98ce2a170799bed53af49c0de9dd9c0c2da00c87c530df3c",
+    "names": [
+      "Rép  Dossier bourarach.pdf"
+    ],
+    "category": "PDF reproduisant une correspondance",
+    "description": "Échanges avec Isabelle Guillou, recours administratif concernant un tiers, juillet-août 2017",
+    "question": "Qualifier la correspondance et son lien au périmètre ; contrôler la copie finale.",
+    "priority": 1,
+    "origins": [
+      {
+        "sha256": "2e82aa66ecbc307a98ce2a170799bed53af49c0de9dd9c0c2da00c87c530df3c",
+        "name": "Rép  Dossier bourarach.pdf",
+        "source": "/mnt/windows/L16B/TELEPHONES/IPHONE13_MINI/Rép  Dossier bourarach.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/TELEPHONES/IPHONE13_MINI/Rép  Dossier bourarach.pdf",
+        "mft": {
+          "path": "L16B/TELEPHONES/IPHONE13_MINI/Rép  Dossier bourarach.pdf",
+          "mft_index": 381463,
+          "sequence": 41,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "RPDOSS~1.PDF",
+              "namespace": 2,
+              "parent_reference": 48695170970956017,
+              "times": {
+                "creation": "2024-10-28T16:13:43.799497+00:00",
+                "modification": "2024-10-28T16:13:43.799497+00:00",
+                "mft_change": "2024-10-28T16:13:43.799497+00:00",
+                "access": "2024-10-28T16:13:43.799497+00:00"
+              }
+            },
+            {
+              "name": "Rép  Dossier bourarach.pdf",
+              "namespace": 1,
+              "parent_reference": 48695170970956017,
+              "times": {
+                "creation": "2024-10-28T16:13:43.799497+00:00",
+                "modification": "2024-10-28T16:13:43.799497+00:00",
+                "mft_change": "2024-10-28T16:13:43.799497+00:00",
+                "access": "2024-10-28T16:13:43.799497+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-15T11:42:57.930000+00:00",
+            "modification": "2019-12-17T18:20:21+00:00",
+            "mft_change": "2024-10-29T00:45:21.319295+00:00",
+            "access": "2026-10-02T17:01:40.395925+00:00"
+          }
+        },
+        "jumplists": [
+          {
+            "SourceFile": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/raw/Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/588cea7e4abed698.automaticDestinations-ms",
+            "AppIdDescription": "",
+            "LocalPath": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Rép  Dossier bourarach.pdf",
+            "Path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Rép  Dossier bourarach.pdf",
+            "LastModified": "2024-10-29 00:45:21.4984924",
+            "TargetCreated": "2024-10-15 11:42:57.9300000",
+            "TargetModified": "2019-12-17 18:20:21.0000000",
+            "TargetAccessed": "2024-10-29 00:45:21.1351924",
+            "TrackerCreatedOn": "2024-10-28 14:19:48.6879217"
+          },
+          {
+            "SourceFile": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/raw/Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/5f7b5f1e01b83767.automaticDestinations-ms",
+            "AppIdDescription": "Quick Access",
+            "LocalPath": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Rép  Dossier bourarach.pdf",
+            "Path": "C:\\L16B\\TELEPHONES\\IPHONE13_MINI\\Rép  Dossier bourarach.pdf",
+            "LastModified": "2024-10-29 00:45:21.5887220",
+            "TargetCreated": "2024-10-15 11:42:57.9300000",
+            "TargetModified": "2019-12-17 18:20:21.0000000",
+            "TargetAccessed": "2024-10-29 00:45:21.1351924",
+            "TrackerCreatedOn": "2024-10-28 14:19:48.6879217"
+          }
+        ]
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "4993136469b47100576a863768a0ee7c0c564f150b950216f48138f562f050d3",
+    "names": [
+      "DMM Conseils_Proposition de services Aston_24052022.pdf"
+    ],
+    "category": "Proposition de services d’avocats",
+    "description": "Aston : Rachel Dress / Amélie Elmaleh, mission fiscale du 24/05/2022",
+    "question": "Qualifier le document et vérifier sa présence ou son exclusion du jeu final.",
+    "priority": 1,
+    "origins": [
+      {
+        "sha256": "4993136469b47100576a863768a0ee7c0c564f150b950216f48138f562f050d3",
+        "name": "DMM Conseils_Proposition de services Aston_24052022.pdf",
+        "message": "M03025",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 986
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "16c3c51983e35365f89bfa13c426c4b4100f525c22c8e7f2abf98d239195535f",
+    "names": [
+      "241025 Plainte c.Ensenat.docx"
+    ],
+    "category": "Projet ou texte de plainte",
+    "description": "Document Word intitulé plainte contre Ensenat, récit de la procédure de 2022",
+    "question": "Distinguer les déclarations de leur preuve ; le fichier seul ne prouve pas le dépôt de la plainte.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "16c3c51983e35365f89bfa13c426c4b4100f525c22c8e7f2abf98d239195535f",
+        "name": "241025 Plainte c.Ensenat.docx",
+        "message": "M04464",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 4
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "1871987744242e24406dcc336483886e3a3cf2beb127770c3afb2f7e36e2c979",
+    "names": [
+      "20231129 DMM Conseils à Audire Conseil.pdf"
+    ],
+    "category": "Courrier à des experts-comptables, copies à l’administration",
+    "description": "DMM/Audire Conseil, novembre 2023",
+    "question": "Vérifier destinataires et contexte ; pas une correspondance avocat-client démontrée.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "1871987744242e24406dcc336483886e3a3cf2beb127770c3afb2f7e36e2c979",
+        "name": "20231129 DMM Conseils à Audire Conseil.pdf",
+        "message": "M02342",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 303
+      },
+      {
+        "sha256": "1871987744242e24406dcc336483886e3a3cf2beb127770c3afb2f7e36e2c979",
+        "name": "20231129 DMM Conseils à Audire Conseil.pdf",
+        "message": "M04601",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 141
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "1b6b6de044205f20b34cdf16361af838085fcd7f6db820a5011ba0f774bf4b25",
+    "names": [
+      "Courrier Désignation BE- 12.09.2022[50639].pdf"
+    ],
+    "category": "Courrier d’avocat adressé à l’administration",
+    "description": "Jonathan Rubio : désignation de bénéficiaires ou prorogation de délai, septembre 2022",
+    "question": "Distinguer d’un échange confidentiel avocat-client ; vérifier contexte et jeu final.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "1b6b6de044205f20b34cdf16361af838085fcd7f6db820a5011ba0f774bf4b25",
+        "name": "Courrier Désignation BE- 12.09.2022[50639].pdf",
+        "source": "/mnt/windows/L16B/LOCAL/DMM/Courrier Désignation BE- 12.09.2022[50639].pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/DMM/Courrier Désignation BE- 12.09.2022[50639].pdf",
+        "mft": {
+          "path": "L16B/LOCAL/DMM/Courrier Désignation BE- 12.09.2022[50639].pdf",
+          "mft_index": 117081,
+          "sequence": 36,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "COURRI~1.PDF",
+              "namespace": 2,
+              "parent_reference": 19421773393114959,
+              "times": {
+                "creation": "2024-10-28T09:47:55.495492+00:00",
+                "modification": "2024-10-28T09:47:55.495492+00:00",
+                "mft_change": "2024-10-28T09:47:55.495492+00:00",
+                "access": "2024-10-28T09:47:55.495492+00:00"
+              }
+            },
+            {
+              "name": "Courrier Désignation BE- 12.09.2022[50639].pdf",
+              "namespace": 1,
+              "parent_reference": 19421773393114959,
+              "times": {
+                "creation": "2024-10-28T09:47:55.495492+00:00",
+                "modification": "2024-10-28T09:47:55.495492+00:00",
+                "mft_change": "2024-10-28T09:47:55.495492+00:00",
+                "access": "2024-10-28T09:47:55.495492+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T09:47:55.495492+00:00",
+            "modification": "2023-06-06T16:49:06.341805+00:00",
+            "mft_change": "2024-10-10T18:15:26.801646+00:00",
+            "access": "2026-10-02T17:01:15.943152+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "1c633481f1333b0e379638fc92657752ec2bf6e59e0e1f78e41f89d9761b0cfc",
+    "names": [
+      "1139095217_Requete.pdf"
+    ],
+    "category": "Requête juridictionnelle",
+    "description": "Requête DMM au TA de Montreuil, reçue le 16/06/2024",
+    "question": "Comparer au périmètre autorisé ; ne remplace pas l’ordonnance de visite.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "1c633481f1333b0e379638fc92657752ec2bf6e59e0e1f78e41f89d9761b0cfc",
+        "name": "1139095217_Requete.pdf",
+        "message": "M02106",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 67
+      },
+      {
+        "sha256": "1c633481f1333b0e379638fc92657752ec2bf6e59e0e1f78e41f89d9761b0cfc",
+        "name": "1139095217_Requete.pdf",
+        "message": "M04480",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 20
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "1c7d199cf22490bef344645d05216ce51c4cdfc8ed40ac1653282f6bcc4755c8",
+    "names": [
+      "2024-6668-sadedine-malika_signe.pdf"
+    ],
+    "category": "Pièce de procédure de plainte",
+    "description": "Procès-verbaux de plainte de 2024 ; déclarations de la plaignante",
+    "question": "Les déclarations contenues ne deviennent pas des faits techniques établis ; examiner lien au périmètre.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "1c7d199cf22490bef344645d05216ce51c4cdfc8ed40ac1653282f6bcc4755c8",
+        "name": "2024-6668-sadedine-malika_signe.pdf",
+        "message": "M02176",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 137
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "241cd28999618460c14973b0e3133ce9719c11915b14ad446fca1f67ecf622f6",
+    "names": [
+      "Relevé n°16 daté du 15 juillet 2022.pdf"
+    ],
+    "category": "Relevé bancaire mentionnant un cabinet",
+    "description": "Mentions de paiements Aston ou Roosevelt Avocats",
+    "question": "Un libellé de paiement ne constitue pas un échange avocat-client.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "241cd28999618460c14973b0e3133ce9719c11915b14ad446fca1f67ecf622f6",
+        "name": "Relevé n°16 daté du 15 juillet 2022.pdf",
+        "message": "M04893",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 433
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "2db4bfb25592757cfc6c9c06e7a411790d9d123096e269ad74cb40482bb5bb56",
+    "names": [
+      "0923.pdf"
+    ],
+    "category": "Correspondance de gestion locative",
+    "description": "Mention d’un recours possible à l’avocat du propriétaire",
+    "question": "Simple mention ; pas d’échange direct avec un avocat démontré.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "2db4bfb25592757cfc6c9c06e7a411790d9d123096e269ad74cb40482bb5bb56",
+        "name": "0923.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/0923.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/0923.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/0923.pdf",
+          "mft_index": 158374,
+          "sequence": 40,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "0923.pdf",
+              "namespace": 3,
+              "parent_reference": 12666373952056193,
+              "times": {
+                "creation": "2024-10-28T09:58:18.720935+00:00",
+                "modification": "2024-10-28T09:58:18.720935+00:00",
+                "mft_change": "2024-10-28T09:58:18.720935+00:00",
+                "access": "2024-10-28T09:58:18.720935+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T09:58:18.720935+00:00",
+            "modification": "2024-05-07T09:10:35.439831+00:00",
+            "mft_change": "2024-10-28T09:53:57.588728+00:00",
+            "access": "2026-10-02T17:01:10.464016+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "32286b8f786a085ea3f5fea66d9312e9739333f6999927821811ee033764a733",
+    "names": [
+      "image001.jpg",
+      "Capture d’écran . 2023-02-08 à 11.31.05.png"
+    ],
+    "category": "Justificatif de virement",
+    "description": "Capture de virement à Roosevelt Avocats, février 2023",
+    "question": "Rapprocher du message parent ; ne pas assimiler à une consultation juridique.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "32286b8f786a085ea3f5fea66d9312e9739333f6999927821811ee033764a733",
+        "name": "image001.jpg",
+        "message": "M02592",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 553
+      },
+      {
+        "sha256": "32286b8f786a085ea3f5fea66d9312e9739333f6999927821811ee033764a733",
+        "name": "image001.jpg",
+        "message": "M04790",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 330
+      },
+      {
+        "sha256": "32286b8f786a085ea3f5fea66d9312e9739333f6999927821811ee033764a733",
+        "name": "Capture d’écran . 2023-02-08 à 11.31.05.png",
+        "message": "M04791",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 331
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "340dab34c44b18d2cfb41167eecd2dea23e3dc43a4b365729f206d8e203edda4",
+    "names": [
+      "ALMU - COMPTE D_ATTENTE 2022.xlsx"
+    ],
+    "category": "Tableau comptable",
+    "description": "Compte d’attente ALMU : mention de Me Wahreit et d’une cession de matériel",
+    "question": "Rapprocher des pièces d’honoraires et du message parent ; une écriture comptable ne vaut pas consultation juridique.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "340dab34c44b18d2cfb41167eecd2dea23e3dc43a4b365729f206d8e203edda4",
+        "name": "ALMU - COMPTE D_ATTENTE 2022.xlsx",
+        "source": "/mnt/windows/L16B/GDRIVE/ALMU - COMPTE D_ATTENTE 2022.xlsx",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/GDRIVE/ALMU - COMPTE D_ATTENTE 2022.xlsx",
+        "mft": {
+          "path": "L16B/GDRIVE/ALMU - COMPTE D_ATTENTE 2022.xlsx",
+          "mft_index": 78746,
+          "sequence": 27,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "ALMU-C~2.XLS",
+              "namespace": 2,
+              "parent_reference": 7881299347976231,
+              "times": {
+                "creation": "2024-10-28T13:50:41.458675+00:00",
+                "modification": "2024-10-28T13:50:41.458675+00:00",
+                "mft_change": "2024-10-28T13:50:41.458675+00:00",
+                "access": "2024-10-28T13:50:41.458675+00:00"
+              }
+            },
+            {
+              "name": "ALMU - COMPTE D_ATTENTE 2022.xlsx",
+              "namespace": 1,
+              "parent_reference": 7881299347976231,
+              "times": {
+                "creation": "2024-10-28T13:50:41.458675+00:00",
+                "modification": "2024-10-28T13:50:41.458675+00:00",
+                "mft_change": "2024-10-28T13:50:41.458675+00:00",
+                "access": "2024-10-28T13:50:41.458675+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "1979-12-31T23:00:00+00:00",
+            "modification": "2024-10-28T13:50:41.489920+00:00",
+            "mft_change": "2024-10-29T00:56:52.997236+00:00",
+            "access": "2026-10-02T17:01:07.866472+00:00"
+          }
+        },
+        "jumplists": [
+          {
+            "SourceFile": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/raw/Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/CustomDestinations/b8ab77100df80ab2.customDestinations-ms",
+            "AppIdDescription": "Microsoft Office Excel x64",
+            "LocalPath": "C:\\L16B\\GDRIVE\\ALMU - COMPTE D_ATTENTE 2022.xlsx",
+            "TargetCreated": "1979-12-31 23:00:00.0000000",
+            "TargetModified": "2024-10-28 13:50:41.4899201",
+            "TargetAccessed": "2024-10-29 17:42:37.7645893",
+            "TrackerCreatedOn": "2024-10-28 14:19:48.6880704"
+          },
+          {
+            "SourceFile": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/raw/Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/5f7b5f1e01b83767.automaticDestinations-ms",
+            "AppIdDescription": "Quick Access",
+            "LocalPath": "C:\\L16B\\GDRIVE\\ALMU - COMPTE D_ATTENTE 2022.xlsx",
+            "Path": "C:\\L16B\\GDRIVE\\ALMU - COMPTE D_ATTENTE 2022.xlsx",
+            "LastModified": "2024-10-29 00:56:53.1156877",
+            "TargetCreated": "1979-12-31 23:00:00.0000000",
+            "TargetModified": "2024-10-28 13:50:41.4899201",
+            "TargetAccessed": "2024-10-29 00:56:52.9519077",
+            "TrackerCreatedOn": "2024-10-28 14:19:48.6880704"
+          },
+          {
+            "SourceFile": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/raw/Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/b8ab77100df80ab2.automaticDestinations-ms",
+            "AppIdDescription": "Microsoft Office Excel x64",
+            "LocalPath": "C:\\L16B\\GDRIVE\\ALMU - COMPTE D_ATTENTE 2022.xlsx",
+            "Path": "C:\\L16B\\GDRIVE\\ALMU - COMPTE D_ATTENTE 2022.xlsx",
+            "LastModified": "2024-10-29 00:56:53.0686020",
+            "TargetCreated": "1979-12-31 23:00:00.0000000",
+            "TargetModified": "2024-10-28 13:50:41.4899201",
+            "TargetAccessed": "2024-10-29 00:56:52.9519077",
+            "TrackerCreatedOn": "2024-10-28 14:19:48.6880704"
+          }
+        ]
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "3468845746fee83eac9b8802228ccbaab1b69fe6f4c0453a8f561abfe7ebf382",
+    "names": [
+      "COURRIER DMM CONSEILS DU 16 AVRIL 2024.pdf"
+    ],
+    "category": "Pièce fiscale antérieure scannée",
+    "description": "Recouvrement, réponse contentieuse ou commission, avant octobre 2024",
+    "question": "Documenter le contexte antérieur ; ne prouve pas un usage de fichiers saisis en octobre 2024.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "3468845746fee83eac9b8802228ccbaab1b69fe6f4c0453a8f561abfe7ebf382",
+        "name": "COURRIER DMM CONSEILS DU 16 AVRIL 2024.pdf",
+        "message": "M02183",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 144
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "37509c78b43479c2a09f2951dd3a706c59b293c4cbf34e9d6f1ccafd48492895",
+    "names": [
+      "Courrier du 26-02-2024 - DMM CONSEILS 1.pdf"
+    ],
+    "category": "Pièce fiscale antérieure scannée",
+    "description": "Recouvrement, réponse contentieuse ou commission, avant octobre 2024",
+    "question": "Documenter le contexte antérieur ; ne prouve pas un usage de fichiers saisis en octobre 2024.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "37509c78b43479c2a09f2951dd3a706c59b293c4cbf34e9d6f1ccafd48492895",
+        "name": "Courrier du 26-02-2024 - DMM CONSEILS 1.pdf",
+        "message": "M02230",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 191
+      },
+      {
+        "sha256": "37509c78b43479c2a09f2951dd3a706c59b293c4cbf34e9d6f1ccafd48492895",
+        "name": "Courrier du 26-02-2024 - DMM CONSEILS 1.pdf",
+        "message": "M02235",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 196
+      },
+      {
+        "sha256": "37509c78b43479c2a09f2951dd3a706c59b293c4cbf34e9d6f1ccafd48492895",
+        "name": "Courrier du 26-02-2024 - DMM CONSEILS 1.pdf",
+        "message": "M04544",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 84
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "3ba567b9175ab30da9c2251f967763a9f52537e17dfd903cf8af5c243ab25524",
+    "names": [
+      "COURRIER DMM CONSEILS DU 28 JUIN 2024.pdf"
+    ],
+    "category": "Pièce fiscale antérieure scannée",
+    "description": "Recouvrement, réponse contentieuse ou commission, avant octobre 2024",
+    "question": "Documenter le contexte antérieur ; ne prouve pas un usage de fichiers saisis en octobre 2024.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "3ba567b9175ab30da9c2251f967763a9f52537e17dfd903cf8af5c243ab25524",
+        "name": "COURRIER DMM CONSEILS DU 28 JUIN 2024.pdf",
+        "message": "M02115",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 76
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "4e34b48ebcece737b8bd6733a57a0d532df4bc782aab0855aca5d726dceaf20e",
+    "names": [
+      "20231130 DMM Conseils à Audire Conseil.docx"
+    ],
+    "category": "Courrier à des experts-comptables, copies à l’administration",
+    "description": "Versions DOCX du courrier DMM/Audire Conseil de novembre 2023",
+    "question": "Distinguer variantes de documents et correspondances avocat-client.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "4e34b48ebcece737b8bd6733a57a0d532df4bc782aab0855aca5d726dceaf20e",
+        "name": "20231130 DMM Conseils à Audire Conseil.docx",
+        "message": "M02322",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 283
+      },
+      {
+        "sha256": "4e34b48ebcece737b8bd6733a57a0d532df4bc782aab0855aca5d726dceaf20e",
+        "name": "20231130 DMM Conseils à Audire Conseil.docx",
+        "message": "M04588",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 128
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "54b52c22805acbaf49d0cb42b4d670fbe68a5c6ea1b49ae20c05b39925d10622",
+    "names": [
+      "20231129 DMM Conseils à Audire Conseil.docx"
+    ],
+    "category": "Courrier à des experts-comptables, copies à l’administration",
+    "description": "Versions DOCX du courrier DMM/Audire Conseil de novembre 2023",
+    "question": "Distinguer variantes de documents et correspondances avocat-client.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "54b52c22805acbaf49d0cb42b4d670fbe68a5c6ea1b49ae20c05b39925d10622",
+        "name": "20231129 DMM Conseils à Audire Conseil.docx",
+        "message": "M02343",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 304
+      },
+      {
+        "sha256": "54b52c22805acbaf49d0cb42b4d670fbe68a5c6ea1b49ae20c05b39925d10622",
+        "name": "20231129 DMM Conseils à Audire Conseil.docx",
+        "message": "M04602",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 142
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "5713ecbec222827714867e67b12b8e8e95b59e79c73a29024bf76247bc9178ce",
+    "names": [
+      "IMG_0185.PNG"
+    ],
+    "category": "Capture de correspondance bancaire",
+    "description": "Message relatif à l’encaissement d’un chèque destiné à un avocat",
+    "question": "Échange avec la banque ; ne constitue pas à lui seul une consultation juridique.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "5713ecbec222827714867e67b12b8e8e95b59e79c73a29024bf76247bc9178ce",
+        "name": "IMG_0185.PNG",
+        "message": "M04509",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 49
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "725bad368324337099382ab0d565bdf2035ef8f89332c7ca3dde360bd30ba261",
+    "names": [
+      "DMM CONSEILS- Dde prorogation de délai-06.09.2022.pdf"
+    ],
+    "category": "Courrier d’avocat adressé à l’administration",
+    "description": "Jonathan Rubio : désignation de bénéficiaires ou prorogation de délai, septembre 2022",
+    "question": "Distinguer d’un échange confidentiel avocat-client ; vérifier contexte et jeu final.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "725bad368324337099382ab0d565bdf2035ef8f89332c7ca3dde360bd30ba261",
+        "name": "DMM CONSEILS- Dde prorogation de délai-06.09.2022.pdf",
+        "message": "M05878",
+        "source": "/mnt/windows/L16B/MESSAGERIES/fint.ms@hotmail.com/File2.eml",
+        "index": 1
+      },
+      {
+        "sha256": "725bad368324337099382ab0d565bdf2035ef8f89332c7ca3dde360bd30ba261",
+        "name": "DMM CONSEILS- Dde prorogation de délai-06.09.2022.pdf",
+        "message": "M05879",
+        "source": "/mnt/windows/L16B/MESSAGERIES/fint.ms@hotmail.com/File3.eml",
+        "index": 1
+      },
+      {
+        "sha256": "725bad368324337099382ab0d565bdf2035ef8f89332c7ca3dde360bd30ba261",
+        "name": "DMM CONSEILS- Dde prorogation de délai-06.09.2022.pdf",
+        "message": "M05880",
+        "source": "/mnt/windows/L16B/MESSAGERIES/fint.ms@hotmail.com/File4.eml",
+        "index": 1
+      },
+      {
+        "sha256": "725bad368324337099382ab0d565bdf2035ef8f89332c7ca3dde360bd30ba261",
+        "name": "DMM CONSEILS- Dde prorogation de délai-06.09.2022.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/DMM CONSEILS- Dde prorogation de délai-06.09.2022.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/DMM CONSEILS- Dde prorogation de délai-06.09.2022.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/DMM CONSEILS- Dde prorogation de délai-06.09.2022.pdf",
+          "mft_index": 176757,
+          "sequence": 46,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "DMMCON~2.PDF",
+              "namespace": 2,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:03.740646+00:00",
+                "modification": "2024-10-28T10:05:03.740646+00:00",
+                "mft_change": "2024-10-28T10:05:03.740646+00:00",
+                "access": "2024-10-28T10:05:03.740646+00:00"
+              }
+            },
+            {
+              "name": "DMM CONSEILS- Dde prorogation de délai-06.09.2022.pdf",
+              "namespace": 1,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:03.740646+00:00",
+                "modification": "2024-10-28T10:05:03.740646+00:00",
+                "mft_change": "2024-10-28T10:05:03.740646+00:00",
+                "access": "2024-10-28T10:05:03.740646+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:05:03.740646+00:00",
+            "modification": "2023-04-16T14:47:37.190765+00:00",
+            "mft_change": "2023-04-16T14:47:37.190765+00:00",
+            "access": "2026-10-02T17:01:30.697962+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "72928b0e88229032e3ab40e09a3cea4c0ad9f86562b3ef6b50ba89ea6a9b49ee",
+    "names": [
+      "pvd-site---160507.pdf"
+    ],
+    "category": "Procès-verbal descriptif immobilier",
+    "description": "Description de biens à saisir en 2019 ; avocats cités",
+    "question": "Ne pas confondre avec l’ordonnance ou le PV fiscal de 2024 ; lien au périmètre à examiner.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "72928b0e88229032e3ab40e09a3cea4c0ad9f86562b3ef6b50ba89ea6a9b49ee",
+        "name": "pvd-site---160507.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/pvd-site---160507.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/pvd-site---160507.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/pvd-site---160507.pdf",
+          "mft_index": 174916,
+          "sequence": 28,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "PVD-SI~1.PDF",
+              "namespace": 2,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:01.088918+00:00",
+                "modification": "2024-10-28T10:05:01.088918+00:00",
+                "mft_change": "2024-10-28T10:05:01.088918+00:00",
+                "access": "2024-10-28T10:05:01.088918+00:00"
+              }
+            },
+            {
+              "name": "pvd-site---160507.pdf",
+              "namespace": 1,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:01.088918+00:00",
+                "modification": "2024-10-28T10:05:01.088918+00:00",
+                "mft_change": "2024-10-28T10:05:01.088918+00:00",
+                "access": "2024-10-28T10:05:01.088918+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:05:01.088918+00:00",
+            "modification": "2019-11-27T21:59:24.816216+00:00",
+            "mft_change": "2026-07-27T17:09:18.944149+00:00",
+            "access": "2026-10-02T17:01:37.444172+00:00"
+          }
+        },
+        "jumplists": [
+          {
+            "SourceFile": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/raw/Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/ccba5a5986c77e43.automaticDestinations-ms",
+            "AppIdDescription": "Microsoft Edge (Chromium)",
+            "LocalPath": "C:\\L16B\\LOCAL\\Téléchargement\\pvd-site---160507.pdf",
+            "Path": "C:\\L16B\\LOCAL\\Téléchargement\\pvd-site---160507.pdf",
+            "LastModified": "2026-07-27 17:09:18.9993043",
+            "TargetCreated": "2024-10-28 10:05:01.0889187",
+            "TargetModified": "2019-11-27 21:59:24.8162161",
+            "TargetAccessed": "2026-07-27 17:09:18.9988101",
+            "TrackerCreatedOn": "2024-12-04 13:44:26.8463434"
+          },
+          {
+            "SourceFile": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/raw/Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/5f7b5f1e01b83767.automaticDestinations-ms",
+            "AppIdDescription": "Quick Access",
+            "LocalPath": "C:\\L16B\\LOCAL\\Téléchargement\\pvd-site---160507.pdf",
+            "Path": "C:\\L16B\\LOCAL\\Téléchargement\\pvd-site---160507.pdf",
+            "LastModified": "2026-07-27 17:09:19.1855488",
+            "TargetCreated": "2024-10-28 10:05:01.0889187",
+            "TargetModified": "2019-11-27 21:59:24.8162161",
+            "TargetAccessed": "2026-07-27 17:09:18.9988101",
+            "TrackerCreatedOn": "2024-12-04 13:44:26.8463434"
+          }
+        ]
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "735e02c505d553047367d828b6b0ca18d395f69b00eb209c4adfe6c4db1dec10",
+    "names": [
+      "ASSIGNATION AUBERVILLIERS.pdf"
+    ],
+    "category": "Pièce de procédure civile scannée",
+    "description": "Ensemble intitulé assignation ; première page : avis de renvoi d’audience",
+    "question": "Examiner le lien au périmètre ; ne pas assimiler les mentions générales d’avocat à un échange confidentiel.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "735e02c505d553047367d828b6b0ca18d395f69b00eb209c4adfe6c4db1dec10",
+        "name": "ASSIGNATION AUBERVILLIERS.pdf",
+        "message": "M02175",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 136
+      },
+      {
+        "sha256": "735e02c505d553047367d828b6b0ca18d395f69b00eb209c4adfe6c4db1dec10",
+        "name": "ASSIGNATION AUBERVILLIERS.pdf",
+        "message": "M04507",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 47
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "8d251c5a545b14989970509ee7f353adb3c5a795d0426373d581d69e429adaef",
+    "names": [
+      "décembre"
+    ],
+    "category": "Relevé bancaire mentionnant un cabinet",
+    "description": "Mentions de paiements Aston ou Roosevelt Avocats",
+    "question": "Un libellé de paiement ne constitue pas un échange avocat-client.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "8d251c5a545b14989970509ee7f353adb3c5a795d0426373d581d69e429adaef",
+        "name": "décembre",
+        "message": "M04803",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 343
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "9f13b7bddb3455c5e82ca2ea2eeaa3b63c2a5af4eb347ac2c5c5a3ace69507a2",
+    "names": [
+      "pvd-site---120579.pdf"
+    ],
+    "category": "Procès-verbal descriptif immobilier",
+    "description": "Description de biens à saisir en 2019 ; avocats cités",
+    "question": "Ne pas confondre avec l’ordonnance ou le PV fiscal de 2024 ; lien au périmètre à examiner.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "9f13b7bddb3455c5e82ca2ea2eeaa3b63c2a5af4eb347ac2c5c5a3ace69507a2",
+        "name": "pvd-site---120579.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/pvd-site---120579.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/pvd-site---120579.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/pvd-site---120579.pdf",
+          "mft_index": 197061,
+          "sequence": 64,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "PVD-SI~2.PDF",
+              "namespace": 2,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:11.662128+00:00",
+                "modification": "2024-10-28T10:05:11.662128+00:00",
+                "mft_change": "2024-10-28T10:05:11.662128+00:00",
+                "access": "2024-10-28T10:05:11.662128+00:00"
+              }
+            },
+            {
+              "name": "pvd-site---120579.pdf",
+              "namespace": 1,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:11.662128+00:00",
+                "modification": "2024-10-28T10:05:11.662128+00:00",
+                "mft_change": "2024-10-28T10:05:11.662128+00:00",
+                "access": "2024-10-28T10:05:11.662128+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:05:11.662128+00:00",
+            "modification": "2019-11-27T22:00:08.145582+00:00",
+            "mft_change": "2021-07-12T09:24:35.700566+00:00",
+            "access": "2026-10-02T17:01:37.397307+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "ac91d79de0d4cf2559ee2f83631c936a6980a59f3ee4d84d770e6fa725a2b1c6",
+    "names": [
+      "20221011 Observations DMM Conseils (1)[50625].pdf"
+    ],
+    "category": "Observations du contribuable",
+    "description": "Réponse DMM à la proposition de rectification de juillet 2022",
+    "question": "Pièce fiscale antérieure à la saisie ; ne prouve pas un usage de données saisies en octobre 2024.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "ac91d79de0d4cf2559ee2f83631c936a6980a59f3ee4d84d770e6fa725a2b1c6",
+        "name": "20221011 Observations DMM Conseils (1)[50625].pdf",
+        "source": "/mnt/windows/L16B/LOCAL/DMM/20221011 Observations DMM Conseils (1)[50625].pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/DMM/20221011 Observations DMM Conseils (1)[50625].pdf",
+        "mft": {
+          "path": "L16B/LOCAL/DMM/20221011 Observations DMM Conseils (1)[50625].pdf",
+          "mft_index": 114494,
+          "sequence": 117,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "202210~2.PDF",
+              "namespace": 2,
+              "parent_reference": 19421773393114959,
+              "times": {
+                "creation": "2024-10-28T09:47:55.448624+00:00",
+                "modification": "2024-10-28T09:47:55.448624+00:00",
+                "mft_change": "2024-10-28T09:47:55.448624+00:00",
+                "access": "2024-10-28T09:47:55.448624+00:00"
+              }
+            },
+            {
+              "name": "20221011 Observations DMM Conseils (1)[50625].pdf",
+              "namespace": 1,
+              "parent_reference": 19421773393114959,
+              "times": {
+                "creation": "2024-10-28T09:47:55.448624+00:00",
+                "modification": "2024-10-28T09:47:55.448624+00:00",
+                "mft_change": "2024-10-28T09:47:55.448624+00:00",
+                "access": "2024-10-28T09:47:55.448624+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T09:47:55.448624+00:00",
+            "modification": "2023-06-06T16:45:54.532887+00:00",
+            "mft_change": "2024-10-10T18:15:26.597601+00:00",
+            "access": "2026-10-02T17:01:15.801879+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "acc7f970525d7ed14fdfb4c9de6925876e34cc36a2315c24b47cda1c64e45b35",
+    "names": [
+      "20221011 Observations DMM Conseils (1).pdf"
+    ],
+    "category": "Observations du contribuable",
+    "description": "Réponse DMM à la proposition de rectification de juillet 2022",
+    "question": "Pièce fiscale antérieure à la saisie ; ne prouve pas un usage de données saisies en octobre 2024.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "acc7f970525d7ed14fdfb4c9de6925876e34cc36a2315c24b47cda1c64e45b35",
+        "name": "20221011 Observations DMM Conseils (1).pdf",
+        "source": "/mnt/windows/L16B/LOCAL/DMM/20221011 Observations DMM Conseils (1).pdf",
+        "standalone": true
+      },
+      {
+        "sha256": "acc7f970525d7ed14fdfb4c9de6925876e34cc36a2315c24b47cda1c64e45b35",
+        "name": "20221011 Observations DMM Conseils (1).pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/CONTROLE/20221011 Observations DMM Conseils (1).pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/DMM/20221011 Observations DMM Conseils (1).pdf",
+        "mft": {
+          "path": "L16B/LOCAL/DMM/20221011 Observations DMM Conseils (1).pdf",
+          "mft_index": 112439,
+          "sequence": 107,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "202210~1.PDF",
+              "namespace": 2,
+              "parent_reference": 19421773393114959,
+              "times": {
+                "creation": "2024-10-28T09:47:55.437140+00:00",
+                "modification": "2024-10-28T09:47:55.437140+00:00",
+                "mft_change": "2024-10-28T09:47:55.437140+00:00",
+                "access": "2024-10-28T09:47:55.437140+00:00"
+              }
+            },
+            {
+              "name": "20221011 Observations DMM Conseils (1).pdf",
+              "namespace": 1,
+              "parent_reference": 19421773393114959,
+              "times": {
+                "creation": "2024-10-28T09:47:55.437140+00:00",
+                "modification": "2024-10-28T09:47:55.437140+00:00",
+                "mft_change": "2024-10-28T09:47:55.437140+00:00",
+                "access": "2024-10-28T09:47:55.437140+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T09:47:55.437140+00:00",
+            "modification": "2022-10-11T22:39:31.700368+00:00",
+            "mft_change": "2024-10-10T18:15:26.597601+00:00",
+            "access": "2026-10-02T17:01:15.708053+00:00"
+          }
+        },
+        "jumplists": []
+      },
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/CONTROLE/20221011 Observations DMM Conseils (1).pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/CONTROLE/20221011 Observations DMM Conseils (1).pdf",
+          "mft_index": 198312,
+          "sequence": 47,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "202210~1.PDF",
+              "namespace": 2,
+              "parent_reference": 20266198323365223,
+              "times": {
+                "creation": "2024-10-28T10:09:19.246930+00:00",
+                "modification": "2024-10-28T10:09:19.246930+00:00",
+                "mft_change": "2024-10-28T10:09:19.246930+00:00",
+                "access": "2024-10-28T10:09:19.246930+00:00"
+              }
+            },
+            {
+              "name": "20221011 Observations DMM Conseils (1).pdf",
+              "namespace": 1,
+              "parent_reference": 20266198323365223,
+              "times": {
+                "creation": "2024-10-28T10:09:19.246930+00:00",
+                "modification": "2024-10-28T10:09:19.246930+00:00",
+                "mft_change": "2024-10-28T10:09:19.246930+00:00",
+                "access": "2024-10-28T10:09:19.246930+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:09:19.246930+00:00",
+            "modification": "2022-10-11T22:28:33.400942+00:00",
+            "mft_change": "2022-10-11T22:28:55.274231+00:00",
+            "access": "2026-10-02T17:01:29.941842+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "b6a5822e9b10966d1784a565e7c1cdc40cbac3815ad357bf9466fe06fa97e14b",
+    "names": [
+      "SELARL Véronique MONNET.pdf"
+    ],
+    "category": "Acte de procédure civile",
+    "description": "Avis mentionnant une ordonnance de saisie-appréhension de mai 2023",
+    "question": "Ne pas confondre avec l’ordonnance de visite fiscale de 2024 ; vérifier le rattachement au périmètre.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "b6a5822e9b10966d1784a565e7c1cdc40cbac3815ad357bf9466fe06fa97e14b",
+        "name": "SELARL Véronique MONNET.pdf",
+        "message": "M02396",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 357
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "d0795792876aa40e8bb6a693a1fce047821ff940a37736c32d109088fc23812f",
+    "names": [
+      "DMM CONSEILS- Dde prorogation de délai-06.09.2022[50640].pdf"
+    ],
+    "category": "Courrier d’avocat adressé à l’administration",
+    "description": "Jonathan Rubio : désignation de bénéficiaires ou prorogation de délai, septembre 2022",
+    "question": "Distinguer d’un échange confidentiel avocat-client ; vérifier contexte et jeu final.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "d0795792876aa40e8bb6a693a1fce047821ff940a37736c32d109088fc23812f",
+        "name": "DMM CONSEILS- Dde prorogation de délai-06.09.2022[50640].pdf",
+        "source": "/mnt/windows/L16B/LOCAL/DMM/DMM CONSEILS- Dde prorogation de délai-06.09.2022[50640].pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/DMM/DMM CONSEILS- Dde prorogation de délai-06.09.2022[50640].pdf",
+        "mft": {
+          "path": "L16B/LOCAL/DMM/DMM CONSEILS- Dde prorogation de délai-06.09.2022[50640].pdf",
+          "mft_index": 117403,
+          "sequence": 35,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "DMMCON~1.PDF",
+              "namespace": 2,
+              "parent_reference": 19421773393114959,
+              "times": {
+                "creation": "2024-10-28T09:47:55.511113+00:00",
+                "modification": "2024-10-28T09:47:55.511113+00:00",
+                "mft_change": "2024-10-28T09:47:55.511113+00:00",
+                "access": "2024-10-28T09:47:55.511113+00:00"
+              }
+            },
+            {
+              "name": "DMM CONSEILS- Dde prorogation de délai-06.09.2022[50640].pdf",
+              "namespace": 1,
+              "parent_reference": 19421773393114959,
+              "times": {
+                "creation": "2024-10-28T09:47:55.511113+00:00",
+                "modification": "2024-10-28T09:47:55.511113+00:00",
+                "mft_change": "2024-10-28T09:47:55.511113+00:00",
+                "access": "2024-10-28T09:47:55.511113+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T09:47:55.511113+00:00",
+            "modification": "2023-06-06T16:48:42.535803+00:00",
+            "mft_change": "2024-10-10T18:15:26.833333+00:00",
+            "access": "2026-10-02T17:01:15.974591+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "d21efadbbb8ea19278cd3af97945cac1c2d4471b43484ab43393d752362590c3",
+    "names": [
+      "20231129 DMM Conseils à Audire Conseil",
+      "20231129 DMM Conseils à Audire Conseil[65245].pdf"
+    ],
+    "category": "Courrier à des experts-comptables, copies à l’administration",
+    "description": "DMM/Audire Conseil, novembre 2023",
+    "question": "Vérifier destinataires et contexte ; pas une correspondance avocat-client démontrée.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "d21efadbbb8ea19278cd3af97945cac1c2d4471b43484ab43393d752362590c3",
+        "name": "20231129 DMM Conseils à Audire Conseil",
+        "message": "M02341",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 302
+      },
+      {
+        "sha256": "d21efadbbb8ea19278cd3af97945cac1c2d4471b43484ab43393d752362590c3",
+        "name": "20231129 DMM Conseils à Audire Conseil",
+        "message": "M04600",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 140
+      },
+      {
+        "sha256": "d21efadbbb8ea19278cd3af97945cac1c2d4471b43484ab43393d752362590c3",
+        "name": "20231129 DMM Conseils à Audire Conseil[65245].pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/20231129 DMM Conseils à Audire Conseil[65245].pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/20231129 DMM Conseils à Audire Conseil[65245].pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/20231129 DMM Conseils à Audire Conseil[65245].pdf",
+          "mft_index": 175203,
+          "sequence": 29,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "202311~1.PDF",
+              "namespace": 2,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:01.297435+00:00",
+                "modification": "2024-10-28T10:05:01.297435+00:00",
+                "mft_change": "2024-10-28T10:05:01.297435+00:00",
+                "access": "2024-10-28T10:05:01.297435+00:00"
+              }
+            },
+            {
+              "name": "20231129 DMM Conseils à Audire Conseil[65245].pdf",
+              "namespace": 1,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:01.297435+00:00",
+                "modification": "2024-10-28T10:05:01.297435+00:00",
+                "mft_change": "2024-10-28T10:05:01.297435+00:00",
+                "access": "2024-10-28T10:05:01.297435+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:05:01.297435+00:00",
+            "modification": "2023-11-30T17:44:45.272167+00:00",
+            "mft_change": "2023-11-30T17:46:27.286628+00:00",
+            "access": "2026-10-02T17:01:23.987553+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "d9d6ce8f885f4c75ccedbed14f9ec91e413c4f577412a9bbb95835b81b10b109",
+    "names": [
+      "COMMISSION DEPARTEMENTALE.pdf"
+    ],
+    "category": "Pièce fiscale antérieure scannée",
+    "description": "Recouvrement, réponse contentieuse ou commission, avant octobre 2024",
+    "question": "Documenter le contexte antérieur ; ne prouve pas un usage de fichiers saisis en octobre 2024.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "d9d6ce8f885f4c75ccedbed14f9ec91e413c4f577412a9bbb95835b81b10b109",
+        "name": "COMMISSION DEPARTEMENTALE.pdf",
+        "message": "M02323",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 284
+      },
+      {
+        "sha256": "d9d6ce8f885f4c75ccedbed14f9ec91e413c4f577412a9bbb95835b81b10b109",
+        "name": "COMMISSION DEPARTEMENTALE.pdf",
+        "message": "M02324",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 285
+      },
+      {
+        "sha256": "d9d6ce8f885f4c75ccedbed14f9ec91e413c4f577412a9bbb95835b81b10b109",
+        "name": "COMMISSION DEPARTEMENTALE.pdf",
+        "message": "M02325",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 286
+      },
+      {
+        "sha256": "d9d6ce8f885f4c75ccedbed14f9ec91e413c4f577412a9bbb95835b81b10b109",
+        "name": "COMMISSION DEPARTEMENTALE.pdf",
+        "message": "M04589",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 129
+      },
+      {
+        "sha256": "d9d6ce8f885f4c75ccedbed14f9ec91e413c4f577412a9bbb95835b81b10b109",
+        "name": "COMMISSION DEPARTEMENTALE.pdf",
+        "message": "M04592",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 132
+      },
+      {
+        "sha256": "d9d6ce8f885f4c75ccedbed14f9ec91e413c4f577412a9bbb95835b81b10b109",
+        "name": "COMMISSION DEPARTEMENTALE.pdf",
+        "message": "M04593",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 133
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "daac26f49b5cd8c8a0b7ae52b9b11b19634774091a66f6b0ca4ce5b9aeaafbb0",
+    "names": [
+      "Courrier Désignation BE- 12.09.2022.pdf"
+    ],
+    "category": "Courrier d’avocat adressé à l’administration",
+    "description": "Jonathan Rubio : désignation de bénéficiaires ou prorogation de délai, septembre 2022",
+    "question": "Distinguer d’un échange confidentiel avocat-client ; vérifier contexte et jeu final.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "daac26f49b5cd8c8a0b7ae52b9b11b19634774091a66f6b0ca4ce5b9aeaafbb0",
+        "name": "Courrier Désignation BE- 12.09.2022.pdf",
+        "message": "M05878",
+        "source": "/mnt/windows/L16B/MESSAGERIES/fint.ms@hotmail.com/File2.eml",
+        "index": 1
+      },
+      {
+        "sha256": "daac26f49b5cd8c8a0b7ae52b9b11b19634774091a66f6b0ca4ce5b9aeaafbb0",
+        "name": "Courrier Désignation BE- 12.09.2022.pdf",
+        "message": "M05879",
+        "source": "/mnt/windows/L16B/MESSAGERIES/fint.ms@hotmail.com/File3.eml",
+        "index": 1
+      },
+      {
+        "sha256": "daac26f49b5cd8c8a0b7ae52b9b11b19634774091a66f6b0ca4ce5b9aeaafbb0",
+        "name": "Courrier Désignation BE- 12.09.2022.pdf",
+        "message": "M05880",
+        "source": "/mnt/windows/L16B/MESSAGERIES/fint.ms@hotmail.com/File4.eml",
+        "index": 1
+      },
+      {
+        "sha256": "daac26f49b5cd8c8a0b7ae52b9b11b19634774091a66f6b0ca4ce5b9aeaafbb0",
+        "name": "Courrier Désignation BE- 12.09.2022.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/Courrier Désignation BE- 12.09.2022.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/Courrier Désignation BE- 12.09.2022.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/Courrier Désignation BE- 12.09.2022.pdf",
+          "mft_index": 176657,
+          "sequence": 39,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "COURRI~2.PDF",
+              "namespace": 2,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:03.709402+00:00",
+                "modification": "2024-10-28T10:05:03.709402+00:00",
+                "mft_change": "2024-10-28T10:05:03.709402+00:00",
+                "access": "2024-10-28T10:05:03.709402+00:00"
+              }
+            },
+            {
+              "name": "Courrier Désignation BE- 12.09.2022.pdf",
+              "namespace": 1,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:03.709402+00:00",
+                "modification": "2024-10-28T10:05:03.709402+00:00",
+                "mft_change": "2024-10-28T10:05:03.709402+00:00",
+                "access": "2024-10-28T10:05:03.709402+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:05:03.709402+00:00",
+            "modification": "2023-04-16T14:48:40.659741+00:00",
+            "mft_change": "2023-04-16T14:48:40.659741+00:00",
+            "access": "2026-10-02T17:01:30.389410+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "df165f7996f1f8cbd637d30692a034f04e676884fa74dbc429e26b91e69c143d",
+    "names": [
+      "RECTIFICATION JUILLET 2022.pdf"
+    ],
+    "category": "Proposition de rectification antérieure",
+    "description": "DMM, 29/07/2022, vérification de 2019–2020, scan de 56 pages",
+    "question": "Éclairer le contexte antérieur ; ne remplace pas l’ordonnance de 2024 et ne prouve pas l’usage de données saisies ensuite.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "df165f7996f1f8cbd637d30692a034f04e676884fa74dbc429e26b91e69c143d",
+        "name": "RECTIFICATION JUILLET 2022.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/DMM/RECTIFICATION JUILLET 2022.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/DMM/RECTIFICATION JUILLET 2022.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/DMM/RECTIFICATION JUILLET 2022.pdf",
+          "mft_index": 117560,
+          "sequence": 39,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "RECTIF~1.PDF",
+              "namespace": 2,
+              "parent_reference": 19421773393114959,
+              "times": {
+                "creation": "2024-10-28T09:47:55.511113+00:00",
+                "modification": "2024-10-28T09:47:55.511113+00:00",
+                "mft_change": "2024-10-28T09:47:55.511113+00:00",
+                "access": "2024-10-28T09:47:55.511113+00:00"
+              }
+            },
+            {
+              "name": "RECTIFICATION JUILLET 2022.pdf",
+              "namespace": 1,
+              "parent_reference": 19421773393114959,
+              "times": {
+                "creation": "2024-10-28T09:47:55.511113+00:00",
+                "modification": "2024-10-28T09:47:55.511113+00:00",
+                "mft_change": "2024-10-28T09:47:55.511113+00:00",
+                "access": "2024-10-28T09:47:55.511113+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T09:47:55.511113+00:00",
+            "modification": "2023-06-06T16:48:12.784483+00:00",
+            "mft_change": "2024-10-10T18:15:26.833333+00:00",
+            "access": "2026-10-02T17:01:16.021602+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "e320373b3d92b0f051ac4c7f54b26af3c4bd7748e692d65e405483e3ac9976f1",
+    "names": [
+      "2024-6661-dmm-conseils-sadedine-malika_signe.pdf"
+    ],
+    "category": "Pièce de procédure de plainte",
+    "description": "Procès-verbaux de plainte de 2024 ; déclarations de la plaignante",
+    "question": "Les déclarations contenues ne deviennent pas des faits techniques établis ; examiner lien au périmètre.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "e320373b3d92b0f051ac4c7f54b26af3c4bd7748e692d65e405483e3ac9976f1",
+        "name": "2024-6661-dmm-conseils-sadedine-malika_signe.pdf",
+        "message": "M02177",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 138
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "eae492001795007646c5072976efa2a35b730686da3d0c7d9fa0cc382008b867",
+    "names": [
+      "20231128 Réclamation AMR TVA"
+    ],
+    "category": "Réclamation fiscale",
+    "description": "AMR TVA : réclamation DMM du 28/11/2023",
+    "question": "Pièce antérieure ; ne démontre pas l’utilisation ultérieure des fichiers saisis.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "eae492001795007646c5072976efa2a35b730686da3d0c7d9fa0cc382008b867",
+        "name": "20231128 Réclamation AMR TVA",
+        "message": "M02349",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 310
+      },
+      {
+        "sha256": "eae492001795007646c5072976efa2a35b730686da3d0c7d9fa0cc382008b867",
+        "name": "20231128 Réclamation AMR TVA",
+        "message": "M04605",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 145
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "f32a7f19946cf5e997f6bfcdcb41a02384b88be9fa2865722fe6f28a3d09a406",
+    "names": [
+      "20231128 Réclamation AMR TVA",
+      "20231128 Réclamation AMR TVA (DMM Conseils)[65089].pdf"
+    ],
+    "category": "Réclamation fiscale",
+    "description": "AMR TVA : réclamation DMM du 28/11/2023",
+    "question": "Pièce antérieure ; ne démontre pas l’utilisation ultérieure des fichiers saisis.",
+    "priority": 2,
+    "origins": [
+      {
+        "sha256": "f32a7f19946cf5e997f6bfcdcb41a02384b88be9fa2865722fe6f28a3d09a406",
+        "name": "20231128 Réclamation AMR TVA",
+        "message": "M02348",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 309
+      },
+      {
+        "sha256": "f32a7f19946cf5e997f6bfcdcb41a02384b88be9fa2865722fe6f28a3d09a406",
+        "name": "20231128 Réclamation AMR TVA",
+        "message": "M04604",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 144
+      },
+      {
+        "sha256": "f32a7f19946cf5e997f6bfcdcb41a02384b88be9fa2865722fe6f28a3d09a406",
+        "name": "20231128 Réclamation AMR TVA (DMM Conseils)[65089].pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/20231128 Réclamation AMR TVA (DMM Conseils)[65089].pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/20231128 Réclamation AMR TVA (DMM Conseils)[65089].pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/20231128 Réclamation AMR TVA (DMM Conseils)[65089].pdf",
+          "mft_index": 175214,
+          "sequence": 38,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "202311~2.PDF",
+              "namespace": 2,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:01.388608+00:00",
+                "modification": "2024-10-28T10:05:01.388608+00:00",
+                "mft_change": "2024-10-28T10:05:01.388608+00:00",
+                "access": "2024-10-28T10:05:01.388608+00:00"
+              }
+            },
+            {
+              "name": "20231128 Réclamation AMR TVA (DMM Conseils)[65089].pdf",
+              "namespace": 1,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:01.388608+00:00",
+                "modification": "2024-10-28T10:05:01.388608+00:00",
+                "mft_change": "2024-10-28T10:05:01.388608+00:00",
+                "access": "2024-10-28T10:05:01.388608+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:05:01.388608+00:00",
+            "modification": "2023-11-29T08:54:05.088810+00:00",
+            "mft_change": "2023-11-29T08:55:50.811483+00:00",
+            "access": "2026-10-02T17:01:23.971932+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "00e7a749b2dc4776160c6467c134e211e43d52fba0c522fc5dce2fe82034a402",
+    "names": [
+      "contrat.pdf"
+    ],
+    "category": "Clause contractuelle générale",
+    "description": "Mentions de frais de recouvrement, d’honoraires ou de professions réglementées",
+    "question": "Pas une correspondance avocat-client démontrée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "00e7a749b2dc4776160c6467c134e211e43d52fba0c522fc5dce2fe82034a402",
+        "name": "contrat.pdf",
+        "message": "M05213",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 753
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "012a4fedf91c3105cdadc017c4041c931bbe19cee3aca55573fed9f73b00302c",
+    "names": [
+      "previsionnel_r_stm_consulting - Copie.pdf"
+    ],
+    "category": "Prévisionnel",
+    "description": "Ligne de frais de comptable, avocat ou notaire",
+    "question": "Pas un échange avocat-client démontré.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "012a4fedf91c3105cdadc017c4041c931bbe19cee3aca55573fed9f73b00302c",
+        "name": "previsionnel_r_stm_consulting - Copie.pdf",
+        "message": "M01169",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 20
+      },
+      {
+        "sha256": "012a4fedf91c3105cdadc017c4041c931bbe19cee3aca55573fed9f73b00302c",
+        "name": "previsionnel_r_stm_consulting - Copie.pdf",
+        "message": "M01171",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 22
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "1617c8b7fd1aa768431008094f1aef695d9eec41435d529e3f32e634f9388c10",
+    "names": [
+      "PROJET DE CONTRAT DE  Bail commercial ALMU.pdf"
+    ],
+    "category": "Clause ou information générale",
+    "description": "Contrat, assurance ou conditions générales mentionnant des avocats",
+    "question": "Écarté des correspondances ; le mot seul ne suffit pas.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "1617c8b7fd1aa768431008094f1aef695d9eec41435d529e3f32e634f9388c10",
+        "name": "PROJET DE CONTRAT DE  Bail commercial ALMU.pdf",
+        "message": "M05819",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments supprimés/mbox",
+        "index": 7
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "167d42e3a939f54779a919b1f897da9df4cbff272e4fceb2cf4a7022eb95e925",
+    "names": [
+      "2020.pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "167d42e3a939f54779a919b1f897da9df4cbff272e4fceb2cf4a7022eb95e925",
+        "name": "2020.pdf",
+        "message": "M02566",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 527
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "18743d6ffbdbac76b5ddae55c153bf1565e43405aa20620a6fc225b8465d4ed4",
+    "names": [
+      "Catalgue-MAD-PDF-Portable-2020.pdf"
+    ],
+    "category": "Homonymie lexicale",
+    "description": "Mention du fruit « avocat » dans un catalogue ou un guide économique",
+    "question": "Écarté du groupe des correspondances d’avocats.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "18743d6ffbdbac76b5ddae55c153bf1565e43405aa20620a6fc225b8465d4ed4",
+        "name": "Catalgue-MAD-PDF-Portable-2020.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/Catalgue-MAD-PDF-Portable-2020.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/Catalgue-MAD-PDF-Portable-2020.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/Catalgue-MAD-PDF-Portable-2020.pdf",
+          "mft_index": 196162,
+          "sequence": 30,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "CATALG~1.PDF",
+              "namespace": 2,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:10.955762+00:00",
+                "modification": "2024-10-28T10:05:10.955762+00:00",
+                "mft_change": "2024-10-28T10:05:10.955762+00:00",
+                "access": "2024-10-28T10:05:10.955762+00:00"
+              }
+            },
+            {
+              "name": "Catalgue-MAD-PDF-Portable-2020.pdf",
+              "namespace": 1,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:10.955762+00:00",
+                "modification": "2024-10-28T10:05:10.955762+00:00",
+                "mft_change": "2024-10-28T10:05:10.955762+00:00",
+                "access": "2024-10-28T10:05:10.955762+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:05:10.955762+00:00",
+            "modification": "2020-04-09T12:36:29.366567+00:00",
+            "mft_change": "2021-07-12T09:24:35.553354+00:00",
+            "access": "2026-10-02T17:01:29.346785+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "2826c465832f35df737d133e194765eb88fbfdbc77f6cbc9bfc1276496a400b6",
+    "names": [
+      "IR_DARAME_2020_SUR_2019.pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "2826c465832f35df737d133e194765eb88fbfdbc77f6cbc9bfc1276496a400b6",
+        "name": "IR_DARAME_2020_SUR_2019.pdf",
+        "message": "M01876",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 727
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "31212512fba10a8f6f906277c2952e6cef1787e21392e1a5e5de08928dead297",
+    "names": [
+      "ConditionsGenerales.pdf"
+    ],
+    "category": "Clause ou information générale",
+    "description": "Contrat, assurance ou conditions générales mentionnant des avocats",
+    "question": "Écarté des correspondances ; le mot seul ne suffit pas.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "31212512fba10a8f6f906277c2952e6cef1787e21392e1a5e5de08928dead297",
+        "name": "ConditionsGenerales.pdf",
+        "message": "M02524",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 485
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "3287881f58cfc2bd36a85ea644e461282754ad9ca664d3a98a3dfe78d91a2ca3",
+    "names": [
+      "Avis_d_impot_2019_sur_les_revenus_2018",
+      "Avis_d_impot_2019_sur_les_revenus_2018(1)[2570].pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "3287881f58cfc2bd36a85ea644e461282754ad9ca664d3a98a3dfe78d91a2ca3",
+        "name": "Avis_d_impot_2019_sur_les_revenus_2018",
+        "message": "M05516",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1056
+      },
+      {
+        "sha256": "3287881f58cfc2bd36a85ea644e461282754ad9ca664d3a98a3dfe78d91a2ca3",
+        "name": "Avis_d_impot_2019_sur_les_revenus_2018(1)[2570].pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Avis_d_impot_2019_sur_les_revenus_2018(1)[2570].pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Avis_d_impot_2019_sur_les_revenus_2018(1)[2570].pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Avis_d_impot_2019_sur_les_revenus_2018(1)[2570].pdf",
+          "mft_index": 170029,
+          "sequence": 42,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "AVIS_D~1.PDF",
+              "namespace": 2,
+              "parent_reference": 12666373952056193,
+              "times": {
+                "creation": "2024-10-28T09:58:22.169729+00:00",
+                "modification": "2024-10-28T09:58:22.169729+00:00",
+                "mft_change": "2024-10-28T09:58:22.169729+00:00",
+                "access": "2024-10-28T09:58:22.169729+00:00"
+              }
+            },
+            {
+              "name": "Avis_d_impot_2019_sur_les_revenus_2018(1)[2570].pdf",
+              "namespace": 1,
+              "parent_reference": 12666373952056193,
+              "times": {
+                "creation": "2024-10-28T09:58:22.169729+00:00",
+                "modification": "2024-10-28T09:58:22.169729+00:00",
+                "mft_change": "2024-10-28T09:58:22.169729+00:00",
+                "access": "2024-10-28T09:58:22.169729+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T09:58:22.169729+00:00",
+            "modification": "2020-06-21T10:19:34.686240+00:00",
+            "mft_change": "2024-10-28T09:53:57.980862+00:00",
+            "access": "2026-10-02T17:01:11.139110+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "377553dd46f9f8cf80ff2182b4bcd70198fc216ad76c94ff2739e51db8ec4b76",
+    "names": [
+      "Avis_d_impot_2019_sur_les_revenus_2018"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "377553dd46f9f8cf80ff2182b4bcd70198fc216ad76c94ff2739e51db8ec4b76",
+        "name": "Avis_d_impot_2019_sur_les_revenus_2018",
+        "message": "M05758",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1298
+      },
+      {
+        "sha256": "377553dd46f9f8cf80ff2182b4bcd70198fc216ad76c94ff2739e51db8ec4b76",
+        "name": "Avis_d_impot_2019_sur_les_revenus_2018",
+        "message": "M05761",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1301
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "3ad59506b2e17c743469ebed53d79ee7b125d4ff3838c0bb3be03c164fea5ee3",
+    "names": [
+      "PREVISIONNEL HDN SARL U.pdf"
+    ],
+    "category": "Prévisionnel",
+    "description": "Ligne de frais de comptable, avocat ou notaire",
+    "question": "Pas un échange avocat-client démontré.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "3ad59506b2e17c743469ebed53d79ee7b125d4ff3838c0bb3be03c164fea5ee3",
+        "name": "PREVISIONNEL HDN SARL U.pdf",
+        "message": "M00580",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Boîte de réception/mbox",
+        "index": 580
+      },
+      {
+        "sha256": "3ad59506b2e17c743469ebed53d79ee7b125d4ff3838c0bb3be03c164fea5ee3",
+        "name": "PREVISIONNEL HDN SARL U.pdf",
+        "message": "M01531",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 382
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "3d05ef02e9c18f2529ea3e780c7e6627ebec34904bd155debd0919f8196a51e3",
+    "names": [
+      "Avis_d_impot_2019_sur_les_revenus_2018"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "3d05ef02e9c18f2529ea3e780c7e6627ebec34904bd155debd0919f8196a51e3",
+        "name": "Avis_d_impot_2019_sur_les_revenus_2018",
+        "message": "M05537",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1077
+      },
+      {
+        "sha256": "3d05ef02e9c18f2529ea3e780c7e6627ebec34904bd155debd0919f8196a51e3",
+        "name": "Avis_d_impot_2019_sur_les_revenus_2018",
+        "message": "M05552",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1092
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "3da1a46e9ebb9f1344f5c56e99b15f0a0a8bd3899d9aa57a118f721607862790",
+    "names": [
+      "DMM CONSEILS CONTRAT APPORTEUR D"
+    ],
+    "category": "Clause ou information générale",
+    "description": "Contrat, assurance ou conditions générales mentionnant des avocats",
+    "question": "Écarté des correspondances ; le mot seul ne suffit pas.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "3da1a46e9ebb9f1344f5c56e99b15f0a0a8bd3899d9aa57a118f721607862790",
+        "name": "DMM CONSEILS CONTRAT APPORTEUR D",
+        "message": "M05231",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 771
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "3f013b478f6ffdbd1bdcb50b6556b102e74aca3d36e4a89ad2569e256db440eb",
+    "names": [
+      "bail almu sci etan.pdf"
+    ],
+    "category": "Clause contractuelle générale",
+    "description": "Mentions de frais de recouvrement, d’honoraires ou de professions réglementées",
+    "question": "Pas une correspondance avocat-client démontrée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "3f013b478f6ffdbd1bdcb50b6556b102e74aca3d36e4a89ad2569e256db440eb",
+        "name": "bail almu sci etan.pdf",
+        "message": "M05235",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 775
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "4737b27145f4f2dc4f8b0f74f2530ed28f2d2fd10835de709d0085bc20a73163",
+    "names": [
+      "Num_20200415_094141.pdf"
+    ],
+    "category": "Clause contractuelle générale",
+    "description": "Mentions de frais de recouvrement, d’honoraires ou de professions réglementées",
+    "question": "Pas une correspondance avocat-client démontrée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "4737b27145f4f2dc4f8b0f74f2530ed28f2d2fd10835de709d0085bc20a73163",
+        "name": "Num_20200415_094141.pdf",
+        "message": "M05621",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1161
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "4d9d01fe677a7c8a17143b048e3151431a492c3953d47b0cc6548cd6aecd28ad",
+    "names": [
+      "JUSB1134112C Circulaire 13.12.2011 gestion des scellés.pdf"
+    ],
+    "category": "Documentation générale",
+    "description": "Circulaires relatives à la gestion des scellés",
+    "question": "Ne documentent pas à elles seules les scellés de cette affaire.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "4d9d01fe677a7c8a17143b048e3151431a492c3953d47b0cc6548cd6aecd28ad",
+        "name": "JUSB1134112C Circulaire 13.12.2011 gestion des scellés.pdf",
+        "message": "M04462",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 2
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "5dd70197d708de39d805fa8161b4fab9272f01eba5b6c5fb4508a38340691829",
+    "names": [
+      "Avis_de_situation_declarative_a_l_impot_2021_sur_les_revenus_2020_le_28_04.pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "5dd70197d708de39d805fa8161b4fab9272f01eba5b6c5fb4508a38340691829",
+        "name": "Avis_de_situation_declarative_a_l_impot_2021_sur_les_revenus_2020_le_28_04.pdf",
+        "message": "M05239",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 779
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "62014fbe2364d983075b693ffa4b36759b83dd3322373db7b80c129606335268",
+    "names": [
+      "WORD.docx"
+    ],
+    "category": "Présentation commerciale",
+    "description": "Offre de services mentionnant des avocats partenaires",
+    "question": "Pas une correspondance avocat-client démontrée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "62014fbe2364d983075b693ffa4b36759b83dd3322373db7b80c129606335268",
+        "name": "WORD.docx",
+        "message": "M05425",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 965
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "6548790d074abf96aae851aa789e2fe4b7a71abcf263abeac440ac72d94af79f",
+    "names": [
+      "Politique_de_confidentialite_des_donnees (1).pdf"
+    ],
+    "category": "Clause ou information générale",
+    "description": "Contrat, assurance ou conditions générales mentionnant des avocats",
+    "question": "Écarté des correspondances ; le mot seul ne suffit pas.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "6548790d074abf96aae851aa789e2fe4b7a71abcf263abeac440ac72d94af79f",
+        "name": "Politique_de_confidentialite_des_donnees (1).pdf",
+        "message": "M05996",
+        "source": "/mnt/windows/L16B/MESSAGERIES/rct93300@gmail.com/takeout-20241028T114105Z-001.zip::Takeout/Mail/L16.mbox",
+        "index": 91
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "656995011f2cf41b824dcc16fa99eac2291cc9e2ec1384a6c5578a20769b5470",
+    "names": [
+      "avis_d"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "656995011f2cf41b824dcc16fa99eac2291cc9e2ec1384a6c5578a20769b5470",
+        "name": "avis_d",
+        "message": "M01367",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 218
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "65dc78356e487ee1aacf0a218f08467789662df00dbf86558ab75bddb9e42c68",
+    "names": [
+      "Please_DocuSign_BDC_Location_XFS_Indirect_av.pdf"
+    ],
+    "category": "Clause contractuelle générale",
+    "description": "Mentions de frais de recouvrement, d’honoraires ou de professions réglementées",
+    "question": "Pas une correspondance avocat-client démontrée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "65dc78356e487ee1aacf0a218f08467789662df00dbf86558ab75bddb9e42c68",
+        "name": "Please_DocuSign_BDC_Location_XFS_Indirect_av.pdf",
+        "message": "M04911",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 451
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "6afe8dda9654f22ff43a30515d900af6ac3495b6a659d3a23e661a6f52f50eef",
+    "names": [
+      "contrat apporteur d"
+    ],
+    "category": "Clause contractuelle générale scannée",
+    "description": "Contrat d’apporteur : clause de prise en charge des frais",
+    "question": "Pas une correspondance avocat-client démontrée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "6afe8dda9654f22ff43a30515d900af6ac3495b6a659d3a23e661a6f52f50eef",
+        "name": "contrat apporteur d",
+        "message": "M03562",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 1523
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "78df87776d5fc567266cd5a0fa5400c5be173ac1e364d7f3ca3bcee8237cde3a",
+    "names": [
+      "avis_d"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "78df87776d5fc567266cd5a0fa5400c5be173ac1e364d7f3ca3bcee8237cde3a",
+        "name": "avis_d",
+        "message": "M01367",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 218
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "8098bc861d6a991608f213dda1ff34169ea799e0c6d2676acad7c9bc0562c8d0",
+    "names": [
+      "IMPOT.PDF"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "8098bc861d6a991608f213dda1ff34169ea799e0c6d2676acad7c9bc0562c8d0",
+        "name": "IMPOT.PDF",
+        "message": "M05757",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1297
+      },
+      {
+        "sha256": "8098bc861d6a991608f213dda1ff34169ea799e0c6d2676acad7c9bc0562c8d0",
+        "name": "IMPOT.PDF",
+        "message": "M05760",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1300
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "82f47ac459b593053e0e3ef99d06d54ebc473e109c05fdfd37dc12cd235c47f3",
+    "names": [
+      "ALMU-BDCE58650 X 2-DEC2019.pdf"
+    ],
+    "category": "Clause contractuelle générale",
+    "description": "Mentions de frais de recouvrement, d’honoraires ou de professions réglementées",
+    "question": "Pas une correspondance avocat-client démontrée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "82f47ac459b593053e0e3ef99d06d54ebc473e109c05fdfd37dc12cd235c47f3",
+        "name": "ALMU-BDCE58650 X 2-DEC2019.pdf",
+        "message": "M04928",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 468
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "87282ce9787d7015f0cfb84a7c72119a8a3e1a2783b538cd3a54d54d2d950e0e",
+    "names": [
+      "2018-04-19-circulaire-scelles_maj-2018_0.pdf"
+    ],
+    "category": "Documentation générale",
+    "description": "Circulaires relatives à la gestion des scellés",
+    "question": "Ne documentent pas à elles seules les scellés de cette affaire.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "87282ce9787d7015f0cfb84a7c72119a8a3e1a2783b538cd3a54d54d2d950e0e",
+        "name": "2018-04-19-circulaire-scelles_maj-2018_0.pdf",
+        "message": "M04461",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "8988a8b8ef04e7df5e55c47673a9cffeff74c03a9efc7910d272c00db671a77c",
+    "names": [
+      "DMM CONSEILS CONTRAT APPORTEUR D_AFFAIRES.docx"
+    ],
+    "category": "Clause contractuelle générale",
+    "description": "Contrat DOCX : clause de frais, droits et honoraires",
+    "question": "Pas une correspondance avocat-client démontrée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "8988a8b8ef04e7df5e55c47673a9cffeff74c03a9efc7910d272c00db671a77c",
+        "name": "DMM CONSEILS CONTRAT APPORTEUR D_AFFAIRES.docx",
+        "source": "/mnt/windows/L16B/GDRIVE/DMM CONSEILS CONTRAT APPORTEUR D_AFFAIRES.docx",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/GDRIVE/DMM CONSEILS CONTRAT APPORTEUR D_AFFAIRES.docx",
+        "mft": {
+          "path": "L16B/GDRIVE/DMM CONSEILS CONTRAT APPORTEUR D_AFFAIRES.docx",
+          "mft_index": 78247,
+          "sequence": 64,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "DMMCON~1.DOC",
+              "namespace": 2,
+              "parent_reference": 7881299347976231,
+              "times": {
+                "creation": "2024-10-28T13:50:40.863468+00:00",
+                "modification": "2024-10-28T13:50:40.863468+00:00",
+                "mft_change": "2024-10-28T13:50:40.863468+00:00",
+                "access": "2024-10-28T13:50:40.863468+00:00"
+              }
+            },
+            {
+              "name": "DMM CONSEILS CONTRAT APPORTEUR D_AFFAIRES.docx",
+              "namespace": 1,
+              "parent_reference": 7881299347976231,
+              "times": {
+                "creation": "2024-10-28T13:50:40.863468+00:00",
+                "modification": "2024-10-28T13:50:40.863468+00:00",
+                "mft_change": "2024-10-28T13:50:40.863468+00:00",
+                "access": "2024-10-28T13:50:40.863468+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "1979-12-31T23:00:00+00:00",
+            "modification": "2024-10-28T13:50:40.910316+00:00",
+            "mft_change": "2024-10-28T13:51:33.883222+00:00",
+            "access": "2026-10-02T17:01:08.121375+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "8d9ea6c7ea3865592052f7bc004da35e9b536d89fa943260ffefeaea9b1f2cac",
+    "names": [
+      "CSB_PRO_329525109.pdf"
+    ],
+    "category": "Clause ou information générale",
+    "description": "Contrat, assurance ou conditions générales mentionnant des avocats",
+    "question": "Écarté des correspondances ; le mot seul ne suffit pas.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "8d9ea6c7ea3865592052f7bc004da35e9b536d89fa943260ffefeaea9b1f2cac",
+        "name": "CSB_PRO_329525109.pdf",
+        "message": "M04324",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 2285
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "94106f297e1d2745e89b84ad3c75440b43a88b13b341aef25f7fc25950145c6e",
+    "names": [
+      "Leocare convention assistance A 50km.pdf"
+    ],
+    "category": "Clause ou information générale",
+    "description": "Contrat, assurance ou conditions générales mentionnant des avocats",
+    "question": "Écarté des correspondances ; le mot seul ne suffit pas.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "94106f297e1d2745e89b84ad3c75440b43a88b13b341aef25f7fc25950145c6e",
+        "name": "Leocare convention assistance A 50km.pdf",
+        "message": "M02510",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 471
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "9448b2c2987f1158373d8b0b3a180833896db213b847f35840890b345cc13bc5",
+    "names": [
+      "ACFrOgAmdhuZMJNV4-Ovt5S35RWtGcR5dTuMEjUBHOXD3Py-E4d4Y-bDH4IWPf3014AmRPkx1WfW_PpWuDxUdE5tU7rf6tODGl5kSgwXw69fK7Wj4_dpnR2qwaYDMvw"
+    ],
+    "category": "Faux positif pour les correspondances",
+    "description": "CV mentionnant un stage dans un cabinet",
+    "question": "Écarté du groupe des correspondances d’avocats.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "9448b2c2987f1158373d8b0b3a180833896db213b847f35840890b345cc13bc5",
+        "name": "ACFrOgAmdhuZMJNV4-Ovt5S35RWtGcR5dTuMEjUBHOXD3Py-E4d4Y-bDH4IWPf3014AmRPkx1WfW_PpWuDxUdE5tU7rf6tODGl5kSgwXw69fK7Wj4_dpnR2qwaYDMvw",
+        "message": "M00172",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Boîte de réception/mbox",
+        "index": 172
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "99aea7acb4dd7fb8d4a2fc40cac46ec767156e72670771888d21671367e5d5a2",
+    "names": [
+      "Avis_d_impot_2018_sur_les_revenus_2017.pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "99aea7acb4dd7fb8d4a2fc40cac46ec767156e72670771888d21671367e5d5a2",
+        "name": "Avis_d_impot_2018_sur_les_revenus_2017.pdf",
+        "message": "M05552",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1092
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "9a335f4cbc1b2f3d6ef82da9f08556389798fafcb391f9aec05e600d3427f221",
+    "names": [
+      "impot 2019",
+      "impot 2019[2305843009214801224].pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "9a335f4cbc1b2f3d6ef82da9f08556389798fafcb391f9aec05e600d3427f221",
+        "name": "impot 2019",
+        "message": "M05517",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1057
+      },
+      {
+        "sha256": "9a335f4cbc1b2f3d6ef82da9f08556389798fafcb391f9aec05e600d3427f221",
+        "name": "impot 2019",
+        "message": "M05524",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1064
+      },
+      {
+        "sha256": "9a335f4cbc1b2f3d6ef82da9f08556389798fafcb391f9aec05e600d3427f221",
+        "name": "impot 2019[2305843009214801224].pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/impot 2019[2305843009214801224].pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/impot 2019[2305843009214801224].pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/impot 2019[2305843009214801224].pdf",
+          "mft_index": 193891,
+          "sequence": 39,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "IMPOT2~1.PDF",
+              "namespace": 2,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:10.134574+00:00",
+                "modification": "2024-10-28T10:05:10.134574+00:00",
+                "mft_change": "2024-10-28T10:05:10.134574+00:00",
+                "access": "2024-10-28T10:05:10.134574+00:00"
+              }
+            },
+            {
+              "name": "impot 2019[2305843009214801224].pdf",
+              "namespace": 1,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:10.134574+00:00",
+                "modification": "2024-10-28T10:05:10.134574+00:00",
+                "mft_change": "2024-10-28T10:05:10.134574+00:00",
+                "access": "2024-10-28T10:05:10.134574+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:05:10.134574+00:00",
+            "modification": "2020-06-18T08:59:16.296986+00:00",
+            "mft_change": "2021-07-12T09:24:35.570363+00:00",
+            "access": "2026-10-02T17:01:35.309577+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "a06a22c70017a55d2758010d096253a5d98eb5f444959364fb0172e58682a66d",
+    "names": [
+      "pwc_ubifrance_investiretreussir_mexique.pdf"
+    ],
+    "category": "Homonymie lexicale",
+    "description": "Mention du fruit « avocat » dans un catalogue ou un guide économique",
+    "question": "Écarté du groupe des correspondances d’avocats.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "a06a22c70017a55d2758010d096253a5d98eb5f444959364fb0172e58682a66d",
+        "name": "pwc_ubifrance_investiretreussir_mexique.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/pwc_ubifrance_investiretreussir_mexique.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/pwc_ubifrance_investiretreussir_mexique.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/pwc_ubifrance_investiretreussir_mexique.pdf",
+          "mft_index": 192839,
+          "sequence": 20,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "PWC_UB~1.PDF",
+              "namespace": 2,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:09.681577+00:00",
+                "modification": "2024-10-28T10:05:09.681577+00:00",
+                "mft_change": "2024-10-28T10:05:09.681577+00:00",
+                "access": "2024-10-28T10:05:09.681577+00:00"
+              }
+            },
+            {
+              "name": "pwc_ubifrance_investiretreussir_mexique.pdf",
+              "namespace": 1,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:09.681577+00:00",
+                "modification": "2024-10-28T10:05:09.681577+00:00",
+                "mft_change": "2024-10-28T10:05:09.681577+00:00",
+                "access": "2024-10-28T10:05:09.681577+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:05:09.681577+00:00",
+            "modification": "2021-01-10T03:26:47.989348+00:00",
+            "mft_change": "2021-07-12T09:24:35.700942+00:00",
+            "access": "2026-10-02T17:01:37.679829+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "a4c78ced8d2ec544e97ecb0154470a7d591135e4f0ba8b64007c4ef8f21c3adb",
+    "names": [
+      "015272021-02-2602.pdf"
+    ],
+    "category": "Clause ou information générale",
+    "description": "Contrat, assurance ou conditions générales mentionnant des avocats",
+    "question": "Écarté des correspondances ; le mot seul ne suffit pas.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "a4c78ced8d2ec544e97ecb0154470a7d591135e4f0ba8b64007c4ef8f21c3adb",
+        "name": "015272021-02-2602.pdf",
+        "message": "M03706",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 1667
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "b34d3311834475035a9e3a7709c9f03d11a97d2986afffe4e156be7798730209",
+    "names": [
+      "previsionnel_r_stm_final.pdf"
+    ],
+    "category": "Prévisionnel",
+    "description": "Ligne de frais de comptable, avocat ou notaire",
+    "question": "Pas un échange avocat-client démontré.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "b34d3311834475035a9e3a7709c9f03d11a97d2986afffe4e156be7798730209",
+        "name": "previsionnel_r_stm_final.pdf",
+        "message": "M01159",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 10
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "b3c350873cb8d686c1b6dc9c3fa8ed594831ea297746f8a569d8f88a64d32a0f",
+    "names": [
+      "AA.pdf"
+    ],
+    "category": "Document notarial étranger",
+    "description": "Mention de professionnels du droit dans un document mexicain",
+    "question": "Aucune correspondance avec un avocat de la cliente établie.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "b3c350873cb8d686c1b6dc9c3fa8ed594831ea297746f8a569d8f88a64d32a0f",
+        "name": "AA.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/AA.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/AA.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/AA.pdf",
+          "mft_index": 169791,
+          "sequence": 27,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "AA.pdf",
+              "namespace": 3,
+              "parent_reference": 12666373952056193,
+              "times": {
+                "creation": "2024-10-28T09:58:22.071952+00:00",
+                "modification": "2024-10-28T09:58:22.071952+00:00",
+                "mft_change": "2024-10-28T09:58:22.071952+00:00",
+                "access": "2024-10-28T09:58:22.071952+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T09:58:22.071952+00:00",
+            "modification": "2021-01-19T01:52:51.391571+00:00",
+            "mft_change": "2024-10-28T09:53:57.666128+00:00",
+            "access": "2026-10-02T17:01:10.683511+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "b4863d6f1f62f82eeb543c5dfcaac71c70decf81f7f9dd146cef6d4bc3b8ff38",
+    "names": [
+      "Avis_d_impot_2019_sur_les_revenus_2018.pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "b4863d6f1f62f82eeb543c5dfcaac71c70decf81f7f9dd146cef6d4bc3b8ff38",
+        "name": "Avis_d_impot_2019_sur_les_revenus_2018.pdf",
+        "message": "M01761",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 612
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "b75f365644f7311a6149c0409be38c389efe2db24bb98ce50bed7f79036a6cb1",
+    "names": [
+      "CCMX Winner_2018.Txt"
+    ],
+    "category": "Écritures comptables",
+    "description": "Libellé de paiement comportant le mot avocat",
+    "question": "Un libellé ne constitue pas une correspondance.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "b75f365644f7311a6149c0409be38c389efe2db24bb98ce50bed7f79036a6cb1",
+        "name": "CCMX Winner_2018.Txt",
+        "message": "M02037",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 888
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "b8b7d505012a21c32bc75d4481d3706162d0038c656c20df3738e793f7ae8227",
+    "names": [
+      "2020.pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "b8b7d505012a21c32bc75d4481d3706162d0038c656c20df3738e793f7ae8227",
+        "name": "2020.pdf",
+        "message": "M05272",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 812
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "c0fc61fee00433d841e27ea6d9698cfb96da2891448bbe9186936cc5f253e35d",
+    "names": [
+      "EQ8137M _DG CRISTAL CONFORT.pdf"
+    ],
+    "category": "Clause ou information générale",
+    "description": "Contrat, assurance ou conditions générales mentionnant des avocats",
+    "question": "Écarté des correspondances ; le mot seul ne suffit pas.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "c0fc61fee00433d841e27ea6d9698cfb96da2891448bbe9186936cc5f253e35d",
+        "name": "EQ8137M _DG CRISTAL CONFORT.pdf",
+        "message": "M02211",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 172
+      },
+      {
+        "sha256": "c0fc61fee00433d841e27ea6d9698cfb96da2891448bbe9186936cc5f253e35d",
+        "name": "EQ8137M _DG CRISTAL CONFORT.pdf",
+        "message": "M02215",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 176
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "cadbebfd2f2646bcab98da7a1b774a352c98dc5209dd758be64bef1f9ba7afde",
+    "names": [
+      "220301 ALMU HONORAIRES.pdf"
+    ],
+    "category": "Honoraires de commissaires-priseurs judiciaires",
+    "description": "Kapandji Morhange, ALMU, note du 27/01/2023",
+    "question": "Ne pas classer comme honoraires d’avocat sur le seul titre.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "cadbebfd2f2646bcab98da7a1b774a352c98dc5209dd758be64bef1f9ba7afde",
+        "name": "220301 ALMU HONORAIRES.pdf",
+        "source": "/mnt/windows/L16B/iCloud Drive/220301 ALMU HONORAIRES.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/iCloud Drive/220301 ALMU HONORAIRES.pdf",
+        "mft": {
+          "path": "L16B/iCloud Drive/220301 ALMU HONORAIRES.pdf",
+          "mft_index": 68882,
+          "sequence": 57,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "220301~1.PDF",
+              "namespace": 2,
+              "parent_reference": 15481123719154490,
+              "times": {
+                "creation": "2024-10-28T13:30:23.758886+00:00",
+                "modification": "2024-10-28T13:30:23.758886+00:00",
+                "mft_change": "2024-10-28T13:30:23.758886+00:00",
+                "access": "2024-10-28T13:30:23.758886+00:00"
+              }
+            },
+            {
+              "name": "220301 ALMU HONORAIRES.pdf",
+              "namespace": 1,
+              "parent_reference": 15481123719154490,
+              "times": {
+                "creation": "2024-10-28T13:30:23.758886+00:00",
+                "modification": "2024-10-28T13:30:23.758886+00:00",
+                "mft_change": "2024-10-28T13:30:23.758886+00:00",
+                "access": "2024-10-28T13:30:23.758886+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T13:30:23.758886+00:00",
+            "modification": "2023-03-02T17:11:37+00:00",
+            "mft_change": "2024-10-29T01:01:36.143953+00:00",
+            "access": "2026-10-02T17:01:10.119101+00:00"
+          }
+        },
+        "jumplists": [
+          {
+            "SourceFile": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/raw/Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/588cea7e4abed698.automaticDestinations-ms",
+            "AppIdDescription": "",
+            "LocalPath": "C:\\L16B\\iCloud Drive\\220301 ALMU HONORAIRES.pdf",
+            "Path": "C:\\L16B\\iCloud Drive\\220301 ALMU HONORAIRES.pdf",
+            "LastModified": "2024-10-29 17:45:04.5667923",
+            "TargetCreated": "2024-10-28 13:30:23.7588869",
+            "TargetModified": "2023-03-02 17:11:37.0000000",
+            "TargetAccessed": "2024-10-29 01:01:36.0636096",
+            "TrackerCreatedOn": "2024-10-28 14:19:48.6880886"
+          },
+          {
+            "SourceFile": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/raw/Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/AutomaticDestinations/5f7b5f1e01b83767.automaticDestinations-ms",
+            "AppIdDescription": "Quick Access",
+            "LocalPath": "C:\\L16B\\iCloud Drive\\220301 ALMU HONORAIRES.pdf",
+            "Path": "C:\\L16B\\iCloud Drive\\220301 ALMU HONORAIRES.pdf",
+            "LastModified": "2024-10-29 17:45:04.6414372",
+            "TargetCreated": "2024-10-28 13:30:23.7588869",
+            "TargetModified": "2023-03-02 17:11:37.0000000",
+            "TargetAccessed": "2024-10-29 17:45:04.5149633",
+            "TrackerCreatedOn": "2024-10-28 14:19:48.6880886"
+          }
+        ]
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "d0b2ba98e99f0ae04fb0194a09f9a207d5754bd723b79e66b7ae75ab96d9aaa0",
+    "names": [
+      "impot 2019.pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "d0b2ba98e99f0ae04fb0194a09f9a207d5754bd723b79e66b7ae75ab96d9aaa0",
+        "name": "impot 2019.pdf",
+        "message": "M05521",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1061
+      },
+      {
+        "sha256": "d0b2ba98e99f0ae04fb0194a09f9a207d5754bd723b79e66b7ae75ab96d9aaa0",
+        "name": "impot 2019.pdf",
+        "message": "M05529",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 1069
+      },
+      {
+        "sha256": "d0b2ba98e99f0ae04fb0194a09f9a207d5754bd723b79e66b7ae75ab96d9aaa0",
+        "name": "impot 2019.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/BRED/Saved Pictures/impot 2019.pdf",
+        "standalone": true
+      },
+      {
+        "sha256": "d0b2ba98e99f0ae04fb0194a09f9a207d5754bd723b79e66b7ae75ab96d9aaa0",
+        "name": "impot 2019.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/impot 2019.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/BRED/Saved Pictures/impot 2019.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/BRED/Saved Pictures/impot 2019.pdf",
+          "mft_index": 139804,
+          "sequence": 62,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "IMPOT2~1.PDF",
+              "namespace": 2,
+              "parent_reference": 10696049115137299,
+              "times": {
+                "creation": "2024-10-28T09:50:21.169233+00:00",
+                "modification": "2024-10-28T09:50:21.169233+00:00",
+                "mft_change": "2024-10-28T09:50:21.169233+00:00",
+                "access": "2024-10-28T09:50:21.169233+00:00"
+              }
+            },
+            {
+              "name": "impot 2019.pdf",
+              "namespace": 1,
+              "parent_reference": 10696049115137299,
+              "times": {
+                "creation": "2024-10-28T09:50:21.169233+00:00",
+                "modification": "2024-10-28T09:50:21.169233+00:00",
+                "mft_change": "2024-10-28T09:50:21.169233+00:00",
+                "access": "2024-10-28T09:50:21.169233+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T09:50:21.169233+00:00",
+            "modification": "2020-06-11T19:47:33.319061+00:00",
+            "mft_change": "2024-10-10T18:15:24.759352+00:00",
+            "access": "2026-10-02T17:01:12.567686+00:00"
+          }
+        },
+        "jumplists": []
+      },
+      {
+        "path": "/mnt/windows/L16B/LOCAL/impot 2019.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/impot 2019.pdf",
+          "mft_index": 170245,
+          "sequence": 67,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "IMPOT2~1.PDF",
+              "namespace": 2,
+              "parent_reference": 12666373952056193,
+              "times": {
+                "creation": "2024-10-28T09:58:22.227555+00:00",
+                "modification": "2024-10-28T09:58:22.227555+00:00",
+                "mft_change": "2024-10-28T09:58:22.227555+00:00",
+                "access": "2024-10-28T09:58:22.227555+00:00"
+              }
+            },
+            {
+              "name": "impot 2019.pdf",
+              "namespace": 1,
+              "parent_reference": 12666373952056193,
+              "times": {
+                "creation": "2024-10-28T09:58:22.227555+00:00",
+                "modification": "2024-10-28T09:58:22.227555+00:00",
+                "mft_change": "2024-10-28T09:58:22.227555+00:00",
+                "access": "2024-10-28T09:58:22.227555+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T09:58:22.227555+00:00",
+            "modification": "2020-06-11T19:48:52.861815+00:00",
+            "mft_change": "2024-10-28T09:54:02.524915+00:00",
+            "access": "2026-10-02T17:01:21.901284+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "d4c204634f4159886415a09fa0d7a47f0e8794a61ba63c4cf996f011d3e3f9e4",
+    "names": [
+      "Dispositions générales EQ3800M.pdf"
+    ],
+    "category": "Clause ou information générale",
+    "description": "Contrat, assurance ou conditions générales mentionnant des avocats",
+    "question": "Écarté des correspondances ; le mot seul ne suffit pas.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "d4c204634f4159886415a09fa0d7a47f0e8794a61ba63c4cf996f011d3e3f9e4",
+        "name": "Dispositions générales EQ3800M.pdf",
+        "message": "M02510",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 471
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "d7b500b07cc15668b000213e37d1ee1ecdcdf71ad030adc96142468f2e09dd23",
+    "names": [
+      "impot 2019",
+      "impot 2019[2305843009214801224][2305843009214881491].pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "d7b500b07cc15668b000213e37d1ee1ecdcdf71ad030adc96142468f2e09dd23",
+        "name": "impot 2019",
+        "message": "M05374",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 914
+      },
+      {
+        "sha256": "d7b500b07cc15668b000213e37d1ee1ecdcdf71ad030adc96142468f2e09dd23",
+        "name": "impot 2019",
+        "message": "M05375",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 915
+      },
+      {
+        "sha256": "d7b500b07cc15668b000213e37d1ee1ecdcdf71ad030adc96142468f2e09dd23",
+        "name": "impot 2019[2305843009214801224][2305843009214881491].pdf",
+        "source": "/mnt/windows/L16B/LOCAL/BRED/impot 2019[2305843009214801224][2305843009214881491].pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/BRED/impot 2019[2305843009214801224][2305843009214881491].pdf",
+        "mft": {
+          "path": "L16B/LOCAL/BRED/impot 2019[2305843009214801224][2305843009214881491].pdf",
+          "mft_index": 128331,
+          "sequence": 56,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "IMPOT2~1.PDF",
+              "namespace": 2,
+              "parent_reference": 7036874417783280,
+              "times": {
+                "creation": "2024-10-28T09:50:20.997174+00:00",
+                "modification": "2024-10-28T09:50:20.997174+00:00",
+                "mft_change": "2024-10-28T09:50:20.997174+00:00",
+                "access": "2024-10-28T09:50:20.997174+00:00"
+              }
+            },
+            {
+              "name": "impot 2019[2305843009214801224][2305843009214881491].pdf",
+              "namespace": 1,
+              "parent_reference": 7036874417783280,
+              "times": {
+                "creation": "2024-10-28T09:50:20.997174+00:00",
+                "modification": "2024-10-28T09:50:20.997174+00:00",
+                "mft_change": "2024-10-28T09:50:20.997174+00:00",
+                "access": "2024-10-28T09:50:20.997174+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T09:50:20.997174+00:00",
+            "modification": "2021-01-26T08:50:52.757123+00:00",
+            "mft_change": "2024-10-10T18:15:24.728741+00:00",
+            "access": "2026-10-02T17:01:12.505230+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "d8c2efeabcb0c4f0671af7251104f5ccc06bca05fd682a3a49328785b14dc4d2",
+    "names": [
+      "previsionnel_business_plan_r_stm_consulting.pdf"
+    ],
+    "category": "Prévisionnel",
+    "description": "Ligne de frais de comptable, avocat ou notaire",
+    "question": "Pas un échange avocat-client démontré.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "d8c2efeabcb0c4f0671af7251104f5ccc06bca05fd682a3a49328785b14dc4d2",
+        "name": "previsionnel_business_plan_r_stm_consulting.pdf",
+        "message": "M01157",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 8
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "e00e2a431e8ef936f932c3dd7f7f2807732e404fc1c4a86889d84aef62857f57",
+    "names": [
+      "IR_MEMOUNA_TOURE_2020_SUR_2019.pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "e00e2a431e8ef936f932c3dd7f7f2807732e404fc1c4a86889d84aef62857f57",
+        "name": "IR_MEMOUNA_TOURE_2020_SUR_2019.pdf",
+        "message": "M01877",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 728
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "e1fdcb9552d61cae4db77c6fcb5045470528d31f4413b6db90175d9bf14b73f8",
+    "names": [
+      "Le_Reikibunseki_de_Christian_Mortier.pdf"
+    ],
+    "category": "Mention dans une publication générale",
+    "description": "Présentation d’une personne exerçant la profession d’avocat",
+    "question": "Écarté du groupe des correspondances d’avocats.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "e1fdcb9552d61cae4db77c6fcb5045470528d31f4413b6db90175d9bf14b73f8",
+        "name": "Le_Reikibunseki_de_Christian_Mortier.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/Le_Reikibunseki_de_Christian_Mortier.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/Le_Reikibunseki_de_Christian_Mortier.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/Le_Reikibunseki_de_Christian_Mortier.pdf",
+          "mft_index": 191864,
+          "sequence": 68,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "LE_REI~1.PDF",
+              "namespace": 2,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:08.864104+00:00",
+                "modification": "2024-10-28T10:05:08.864104+00:00",
+                "mft_change": "2024-10-28T10:05:08.864104+00:00",
+                "access": "2024-10-28T10:05:08.864104+00:00"
+              }
+            },
+            {
+              "name": "Le_Reikibunseki_de_Christian_Mortier.pdf",
+              "namespace": 1,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:08.864104+00:00",
+                "modification": "2024-10-28T10:05:08.864104+00:00",
+                "mft_change": "2024-10-28T10:05:08.864104+00:00",
+                "access": "2024-10-28T10:05:08.864104+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:05:08.864104+00:00",
+            "modification": "2021-08-09T12:15:28.645328+00:00",
+            "mft_change": "2021-08-09T12:15:28.683603+00:00",
+            "access": "2026-10-02T17:01:35.629744+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "e8d5e9bb274c23200fc251edb351c3c8c2fa514d49d49420fe1eb1802dce7dce",
+    "names": [
+      "avis_d"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "e8d5e9bb274c23200fc251edb351c3c8c2fa514d49d49420fe1eb1802dce7dce",
+        "name": "avis_d",
+        "message": "M01367",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 218
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "eff441e95889bd458937eb9559a8b16630ddd9f196541a2ee2f98c8d855ed76b",
+    "names": [
+      "IMPOT.pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "eff441e95889bd458937eb9559a8b16630ddd9f196541a2ee2f98c8d855ed76b",
+        "name": "IMPOT.pdf",
+        "source": "/mnt/windows/L16B/LOCAL/Téléchargement/IMPOT.pdf",
+        "standalone": true
+      }
+    ],
+    "standalone_traces": [
+      {
+        "path": "/mnt/windows/L16B/LOCAL/Téléchargement/IMPOT.pdf",
+        "mft": {
+          "path": "L16B/LOCAL/Téléchargement/IMPOT.pdf",
+          "mft_index": 176202,
+          "sequence": 26,
+          "allocated": true,
+          "FN": [
+            {
+              "name": "IMPOT.pdf",
+              "namespace": 3,
+              "parent_reference": 11258999068550391,
+              "times": {
+                "creation": "2024-10-28T10:05:03.318871+00:00",
+                "modification": "2024-10-28T10:05:03.318871+00:00",
+                "mft_change": "2024-10-28T10:05:03.318871+00:00",
+                "access": "2024-10-28T10:05:03.318871+00:00"
+              }
+            }
+          ],
+          "SI": {
+            "creation": "2024-10-28T10:05:03.318871+00:00",
+            "modification": "2023-06-05T12:26:10.591339+00:00",
+            "mft_change": "2023-06-05T12:26:26.690045+00:00",
+            "access": "2026-10-02T17:01:35.343767+00:00"
+          }
+        },
+        "jumplists": []
+      }
+    ],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "effb9a3506854d918fe7a1a97ed08452c67add9a3b0a7e42ef93abd91401d367",
+    "names": [
+      "scan_hilma_2020-12-04-12-00-06.pdf"
+    ],
+    "category": "Prévisionnel scanné",
+    "description": "Lignes de frais de notaire ou avocat dans un prévisionnel",
+    "question": "Pas de correspondance avocat-client démontrée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "effb9a3506854d918fe7a1a97ed08452c67add9a3b0a7e42ef93abd91401d367",
+        "name": "scan_hilma_2020-12-04-12-00-06.pdf",
+        "message": "M01583",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 434
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "f764e6ac7aaa0f6a37225b432ada7f9f00c78f463693d37ce801539f2f574e23",
+    "names": [
+      "PREVISIONNEL_SASU_R_STM.pdf"
+    ],
+    "category": "Prévisionnel",
+    "description": "Ligne de frais de comptable, avocat ou notaire",
+    "question": "Pas un échange avocat-client démontré.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "f764e6ac7aaa0f6a37225b432ada7f9f00c78f463693d37ce801539f2f574e23",
+        "name": "PREVISIONNEL_SASU_R_STM.pdf",
+        "message": "M01167",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-93300/L16 - dmmconseils93300/Éléments envoyés/mbox",
+        "index": 18
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "f96c95125178604edeb81fe73d4a244ba9a3e57a8d46d613cedca0ac26e251f4",
+    "names": [
+      "015272021-02-2602.pdf"
+    ],
+    "category": "Clause contractuelle générale",
+    "description": "Mentions de frais de recouvrement, d’honoraires ou de professions réglementées",
+    "question": "Pas une correspondance avocat-client démontrée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "f96c95125178604edeb81fe73d4a244ba9a3e57a8d46d613cedca0ac26e251f4",
+        "name": "015272021-02-2602.pdf",
+        "message": "M05315",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Éléments envoyés/mbox",
+        "index": 855
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  },
+  {
+    "sha256": "fe9cbd20dfdd08df03694969f52af47f2340eab823ab0416c3d8b0c59ea69f96",
+    "names": [
+      "2021.pdf"
+    ],
+    "category": "Avis fiscal / formule générale",
+    "description": "Mention standard de la proposition de rectification",
+    "question": "Ne constitue pas la proposition de rectification recherchée.",
+    "priority": 3,
+    "origins": [
+      {
+        "sha256": "fe9cbd20dfdd08df03694969f52af47f2340eab823ab0416c3d8b0c59ea69f96",
+        "name": "2021.pdf",
+        "message": "M02566",
+        "source": "/home/sansforensics/analysis/OP-01/operations-28oct-20261014/pst-dmm/L16_dmmconseils/Boîte de réception/mbox",
+        "index": 527
+      }
+    ],
+    "standalone_traces": [],
+    "recycle_matches": []
+  }
+]

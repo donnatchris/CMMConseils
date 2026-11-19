@@ -84,4 +84,4 @@ Les analyses ne datent pas les suppressions, ne restaurent pas une vidéo suppl�
 
 Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
 
-Christophe DOnnat — Donnat Dev
+Christophe Donnat — Donnat Dev

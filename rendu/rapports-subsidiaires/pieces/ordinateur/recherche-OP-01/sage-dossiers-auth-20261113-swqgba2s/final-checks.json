@@ -1,0 +1,202 @@
+{
+  "checked_sources": 39,
+  "all_sources_unchanged": true,
+  "mount": "/mnt/windows /mnt/dislocker/dislocker-file ro,relatime,user_id=0,group_id=0,allow_other",
+  "checks": [
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/ALMU.1296571903/DataSources/Wgc_Dsm_Pic",
+      "sha256": "06cd3ad520e3899319f715c3a162e21d523f7e420ee5008a43945432cb728c9f",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/ALMU.1296571903/DataSources/Wgc_Dsm_PicDev",
+      "sha256": "42b59da3dcdc7feab37df98dea04402db36351916139c03626f5ce38e0deb314",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/ALMU.1296571903/DataSources/Wgc_Dsm_Pif",
+      "sha256": "165353212459f8675887a7f1cfd21ca8ab34cc676a19bd94432add1a3455a760",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/ALMU.1296571903/DataSources/Wgc_Dsm_TopCliEvolCA",
+      "sha256": "8d91cdb33097ed58403ec223bb19a983fdf7360c34f60ca080574561eb1eb04e",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/ALMU.1296571903/DataSources/_DsmState_",
+      "sha256": "454f1efbff3b5294617be6e341b30e8d9099fd1ce88d6e29b516803e9043a800",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/ALMU.1296571903/Dernières impressions/Confirmation de commande (1).sgdoc",
+      "sha256": "a785d0ab8532834905eb1011cec6aab608a49fbaafcc8b8733331eacdae21c7f",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/ALMU.1296571903/Dernières impressions/Facture - FA0338.sgdoc",
+      "sha256": "48e691ea9ed06394d63dc691fbeea00cbeb40b0359c43ef2eb0b97b8188cc51f",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/ALMU.1296571903/Dernières impressions/_sans nom_ (1).sgdoc",
+      "sha256": "f6c12988630e2beaf1d398474d6133a23df056161ff4dae5364880122126f2de",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/ALMU.1296571903/Dernières impressions/_sans nom_ (2).sgdoc",
+      "sha256": "c8f92991cf959ca6e2fe0c0e00ec64f130ee6ba77c2142ebbca14e547205ef01",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/ALMU.1296571903/Dernières impressions/_sans nom_ (3).sgdoc",
+      "sha256": "66db30841fec19302f730c2474535627e4cf62b9af2867957d59e0411c9f6062",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/ALMU.1296571903/Dernières impressions/_sans nom_.sgdoc",
+      "sha256": "5ba13b178312f1d99c0b646d01548b7802292f46a9bc95c7fdfb98850c041129",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Alias/cdm0003ZH - ALMU.SgWgcAlias",
+      "sha256": "e508025a397821c2f2c6b9d5f374ce1bab9f1d196cba5da152640fbaea96294b",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Alias/cdm0003ZS - ALMU.SgWgcAlias",
+      "sha256": "e508025a397821c2f2c6b9d5f374ce1bab9f1d196cba5da152640fbaea96294b",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Alias/cdm00040E - ALMU.SgWgcAlias",
+      "sha256": "e508025a397821c2f2c6b9d5f374ce1bab9f1d196cba5da152640fbaea96294b",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Etats/FORMAT A4 DMM CONSEILS CE [416611827712036]",
+      "sha256": "5d9ccdd1a0714e4ca2ac3c812d7458cdb5d6d5d3ba6a688a8fc467be4fe0d807",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/EBWebView/Default/History",
+      "sha256": "a38cdd15ffafe2675795a95d9391f9f73f3fb66ddf52d96f53f943a616173638",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/EBWebView/Default/History-journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/EBWebView/Default/Login Data",
+      "sha256": "8fd8b440bd953029b728ce909e85846316d36aaac54182d342f1c91a0031bccd",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/EBWebView/Default/Login Data-journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/EBWebView/Default/Login Data For Account",
+      "sha256": "8cc791561cb03ab43e11efdb930e3e74f22ecf51b8ad9782f13785334515822b",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/EBWebView/Default/Login Data For Account-journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/EBWebView/Default/Network/Cookies",
+      "sha256": "6207b402f0af2210d4388552dcfa79f4c7aed4d8fa3672f7a1d8cfb7265e5bdd",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/EBWebView/Default/Network/Cookies-journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Paye/EBWebView/Default/History",
+      "sha256": "54ab9212d94ddf62a16d2e94cfd0873369e12588697f30ab52163cb63db146ec",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Paye/EBWebView/Default/History-journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Paye/EBWebView/Default/Login Data",
+      "sha256": "0c1c2e0223f73fea44686ae44f4e78411de421f7aef7d89617be3837d3fdbc11",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Paye/EBWebView/Default/Login Data-journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Paye/EBWebView/Default/Network/Cookies",
+      "sha256": "45c0153b4da298b8ec52744bdb5b76180bc734719569ee86cc5e0d5ff19f809a",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Paye/EBWebView/Default/Network/Cookies-journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Préférences/ALMU.1296571903",
+      "sha256": "b98dd3e21aed0cd03a836a2638cb8001e3098dc20e0c11fa471d1604510d7674",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Préférences/BANMAT.328719268",
+      "sha256": "f752bcc86aaf4950155fe9db1d7fc5ad7c30f344af69c36bccdbe702578c8d27",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Préférences/DMM CONSEILS.1755199772",
+      "sha256": "c0fee905db101f145c5945d0681ea4629e7156c652d8831f4c7769c19300c51a",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Préférences/FINT.704008959",
+      "sha256": "849e221ac91cc89dd09e09d5f933673813c79bf517601666ff0106d1ead61f29",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Préférences/Globales",
+      "sha256": "3dee582a16240899ebd8b46bafe21d8be95f55dcbb78bf00590210c5bf6f1af4",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Préférences/MY LITTLE MARKET.661058341",
+      "sha256": "9faec5566927c4501833216d184316428e6bc3a0fbfdc667340694024cbdd8ce",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Préférences/RCT.1954445173",
+      "sha256": "5b3e20c74c66e2ab7ee73bd8fbba976fd690f5a2591499d68b84568b447bfed3",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Données Communes/Config.ini",
+      "sha256": "e6201d430eee2e9097b4dcff969e16a974dc328902764b76b7d7679f15f69ec4",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Divers/Config.ini",
+      "sha256": "5a47c942fbbeda88df9a600052b3734ddedb5a494002375ac8272df7d6e1086a",
+      "matches_initial": true
+    },
+    {
+      "path": "ProgramData/Ciel/Applications/Ciel Gestion Commerciale/Compléments utilisateur/Etats/FORMAT A4 DMM CONSEILS CE [416611827712036]",
+      "sha256": "5d9ccdd1a0714e4ca2ac3c812d7458cdb5d6d5d3ba6a688a8fc467be4fe0d807",
+      "matches_initial": true
+    }
+  ]
+}

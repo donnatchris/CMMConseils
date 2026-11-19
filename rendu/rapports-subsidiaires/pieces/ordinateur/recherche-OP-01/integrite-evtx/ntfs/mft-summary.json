@@ -1,0 +1,15 @@
+{
+  "source": "/mnt/windows/$MFT",
+  "source_size": 1071120384,
+  "sha256": "4b56e70ac59c0b8cdbf25a429e633991960862f4fa827368d83ef824c18f673b",
+  "counts": {
+    "slots": 1046016,
+    "FILE_signatures": 1045790,
+    "allocated": 665406,
+    "unallocated": 380384
+  },
+  "gap_records": 3461,
+  "gap_allocated": 3461,
+  "evtx_named_records": 472,
+  "evtx_unallocated": 103
+}

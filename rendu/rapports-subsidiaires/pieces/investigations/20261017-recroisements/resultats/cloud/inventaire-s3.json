@@ -1,0 +1,707 @@
+{
+  "utc": "2026-10-17T09:12:28.791887+00:00",
+  "endpoint": "https://s3.sbg.io.cloud.ovh.net",
+  "profile": "ovh-forensic",
+  "buckets": [
+    {
+      "name": "sadedine-2026",
+      "objects": [
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E01",
+          "Size": 2146421957,
+          "ETag": "\"154ac6041e3da3ce1b3dff475a395dcc-256\"",
+          "LastModified": "2026-10-12 14:45:08+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E03",
+          "Size": 2146417526,
+          "ETag": "\"59a50a14bf0e822e0cd96b66393e3ee6-256\"",
+          "LastModified": "2026-10-12 15:04:31+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E04",
+          "Size": 2146418142,
+          "ETag": "\"85730ef8bbe903e75d4a64e94ae690e6-256\"",
+          "LastModified": "2026-10-12 14:57:21+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E06",
+          "Size": 2146406376,
+          "ETag": "\"dbc307ba8f2482b391201fcb8f2f56ad-256\"",
+          "LastModified": "2026-10-12 15:07:48+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E15",
+          "Size": 2146408495,
+          "ETag": "\"b8c86cfd662f40ed04fb86c9dbbcb073-256\"",
+          "LastModified": "2026-10-12 16:35:03+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E26",
+          "Size": 2146425434,
+          "ETag": "\"a22acd0c63516419f9b87b8a5c620af8-256\"",
+          "LastModified": "2026-10-12 17:06:38+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E28",
+          "Size": 2146422190,
+          "ETag": "\"09414375725c69353d1c97adf3b762e9-256\"",
+          "LastModified": "2026-10-12 19:02:23+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E29",
+          "Size": 2146415786,
+          "ETag": "\"96b6dd6af15a0e72c42364c7e8dcf447-256\"",
+          "LastModified": "2026-10-12 18:33:39+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E30",
+          "Size": 2146432126,
+          "ETag": "\"4bdc1cf0960cf932336e411112b4e75c-256\"",
+          "LastModified": "2026-10-12 18:19:27+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E31",
+          "Size": 2146412124,
+          "ETag": "\"3a7822691553bcf0c8b29c42d11c8a8f-256\"",
+          "LastModified": "2026-10-12 19:28:03+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E32",
+          "Size": 2146433214,
+          "ETag": "\"625405ddb3d3ac518902ccf13c70527c-256\"",
+          "LastModified": "2026-10-12 19:50:53+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E33",
+          "Size": 2146427600,
+          "ETag": "\"4cf50e26fcaa7b82ea169802159f5931-256\"",
+          "LastModified": "2026-10-12 20:17:46+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E34",
+          "Size": 2146428531,
+          "ETag": "\"acfc419e62b7925c2652d243627bd225-256\"",
+          "LastModified": "2026-10-12 20:17:58+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E35",
+          "Size": 2146428768,
+          "ETag": "\"046e271c1962fe580be9b6b8c2972981-256\"",
+          "LastModified": "2026-10-12 20:39:14+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E36",
+          "Size": 2146407111,
+          "ETag": "\"c84f5d41961414fbd8d9e07780c2b873-256\"",
+          "LastModified": "2026-10-12 20:43:32+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E37",
+          "Size": 2146422945,
+          "ETag": "\"24c9af0100f64da6784b265ded495977-256\"",
+          "LastModified": "2026-10-12 20:57:28+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E38",
+          "Size": 2146422706,
+          "ETag": "\"abda64afea58d370d3e8f66660a225a8-256\"",
+          "LastModified": "2026-10-12 21:22:59+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E39",
+          "Size": 2146400757,
+          "ETag": "\"f3bd4ae06a4521c1c128973e11c427bb-256\"",
+          "LastModified": "2026-10-12 21:23:14+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E40",
+          "Size": 2146411565,
+          "ETag": "\"9cc68cab908528bd37f97ecc18c0d68f-256\"",
+          "LastModified": "2026-10-12 21:49:43+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E41",
+          "Size": 2146404195,
+          "ETag": "\"a360e1e5fdac9f56f6625884d7ef22a2-256\"",
+          "LastModified": "2026-10-12 21:52:28+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E42",
+          "Size": 2146410931,
+          "ETag": "\"0ee9f49da437b26e9e2cf78153646530-256\"",
+          "LastModified": "2026-10-12 22:05:46+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E43",
+          "Size": 2146405107,
+          "ETag": "\"c51b02ff2dec4aa9fa1fc9e5a0423fd5-256\"",
+          "LastModified": "2026-10-12 22:29:18+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E44",
+          "Size": 2146414932,
+          "ETag": "\"4145dfd35881f71a3de8d1195599ff3a-256\"",
+          "LastModified": "2026-10-12 22:29:26+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E45",
+          "Size": 2146405630,
+          "ETag": "\"c9b2946eedcd0dcd0742fe07770ee0b7-256\"",
+          "LastModified": "2026-10-12 22:49:24+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E46",
+          "Size": 2146430168,
+          "ETag": "\"399546a054c2daef18e596ecc3310509-256\"",
+          "LastModified": "2026-10-12 22:53:12+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E47",
+          "Size": 2146402182,
+          "ETag": "\"548b14fdbd07e240593cfff9605d91cd-256\"",
+          "LastModified": "2026-10-12 23:04:19+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E48",
+          "Size": 2146401979,
+          "ETag": "\"15558a1761acdd1118aee812803f2af7-256\"",
+          "LastModified": "2026-10-12 23:28:18+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E49",
+          "Size": 2146413657,
+          "ETag": "\"5caead2f2750cb0b3e9670eeff40fd40-256\"",
+          "LastModified": "2026-10-12 23:28:22+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E50",
+          "Size": 2146415168,
+          "ETag": "\"958a5416a5855bd294a84095f0731017-256\"",
+          "LastModified": "2026-10-12 23:47:03+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E51",
+          "Size": 2146430101,
+          "ETag": "\"7652f0c15f3a8e80cf45d243c55a53c3-256\"",
+          "LastModified": "2026-10-12 23:51:36+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E52",
+          "Size": 2146406453,
+          "ETag": "\"6979a1b5bd38eb30856dc6211cc75ebe-256\"",
+          "LastModified": "2026-10-13 00:02:57+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E53",
+          "Size": 2146412183,
+          "ETag": "\"fe491cd02b12b2a4a916c0f8b65d0b34-256\"",
+          "LastModified": "2026-10-13 00:27:04+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E54",
+          "Size": 2146403030,
+          "ETag": "\"e15a2b89f60e2604670f23dc2cf0a160-256\"",
+          "LastModified": "2026-10-13 00:27:09+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E55",
+          "Size": 2146422461,
+          "ETag": "\"a49ce45b779a999882a2e63f6110a043-256\"",
+          "LastModified": "2026-10-13 00:46:54+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E56",
+          "Size": 2146427365,
+          "ETag": "\"b7cd399f6cd6c745eced7a65620e9cd1-256\"",
+          "LastModified": "2026-10-13 00:50:21+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E57",
+          "Size": 2146423248,
+          "ETag": "\"9d5d011396ee98086fad2fba4ec532d7-256\"",
+          "LastModified": "2026-10-13 01:01:21+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E58",
+          "Size": 2146420590,
+          "ETag": "\"bade64d50a1fcc67cfa707f7aa921ace-256\"",
+          "LastModified": "2026-10-13 01:24:50+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E59",
+          "Size": 2146400737,
+          "ETag": "\"0c34bf5bd2bbad58b2589a572b8139d4-256\"",
+          "LastModified": "2026-10-13 01:24:51+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E60",
+          "Size": 2146432731,
+          "ETag": "\"09144a2e5bf17472ab8c9d7df08ae8d2-256\"",
+          "LastModified": "2026-10-13 01:42:37+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E61",
+          "Size": 2146426168,
+          "ETag": "\"d2041be272ee16fe634720297555c269-256\"",
+          "LastModified": "2026-10-13 01:46:22+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E62",
+          "Size": 2146405392,
+          "ETag": "\"dbcf0b6346a62f5997fc0646fbfed6e3-256\"",
+          "LastModified": "2026-10-13 01:56:30+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E63",
+          "Size": 2146410901,
+          "ETag": "\"73dbccb09f8ae87ffb01c3b92e189200-256\"",
+          "LastModified": "2026-10-13 02:17:49+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E64",
+          "Size": 2146426269,
+          "ETag": "\"8d758a92ce69d401cbb4a7c0a8dacbd3-256\"",
+          "LastModified": "2026-10-13 02:17:53+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E65",
+          "Size": 2146405148,
+          "ETag": "\"5536c0bcf43c79367333cb1b28bb6795-256\"",
+          "LastModified": "2026-10-13 02:37:25+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E66",
+          "Size": 2146428307,
+          "ETag": "\"80be036bd2d2552b4a2306d6064e3e56-256\"",
+          "LastModified": "2026-10-13 02:39:51+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E67",
+          "Size": 2146424326,
+          "ETag": "\"712562e4cab2a1dc8d4e81be627fd4ce-256\"",
+          "LastModified": "2026-10-13 02:50:16+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E68",
+          "Size": 2146423099,
+          "ETag": "\"1d6ffff14b1d25007642ff4c42be72a0-256\"",
+          "LastModified": "2026-10-13 03:12:53+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E69",
+          "Size": 2146413727,
+          "ETag": "\"3a0ee8f3ea42e57572e1ebc36c0dc136-256\"",
+          "LastModified": "2026-10-13 03:13:01+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E70",
+          "Size": 2146419185,
+          "ETag": "\"ae7df069707a18f3d9e55b837852dcbe-256\"",
+          "LastModified": "2026-10-13 03:31:16+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E71",
+          "Size": 2146410715,
+          "ETag": "\"8ccd27a9bc641c637c85f3fe6a1e0ce3-256\"",
+          "LastModified": "2026-10-13 03:34:03+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E72",
+          "Size": 2146422159,
+          "ETag": "\"cd330eeccb38b4775606f21df4eb383e-256\"",
+          "LastModified": "2026-10-13 03:45:03+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E73",
+          "Size": 2146416026,
+          "ETag": "\"7e810a1add55f7a223539eeb715f585b-256\"",
+          "LastModified": "2026-10-13 04:07:55+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.E74",
+          "Size": 1753936338,
+          "ETag": "\"ed6c9362a4c0c06e5f798b087c7a4688-210\"",
+          "LastModified": "2026-10-13 03:58:46+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/OP-01/OP01.info",
+          "Size": 11574,
+          "ETag": "\"ac8f737b97178c64509c8c5fb65a41f6\"",
+          "LastModified": "2026-10-13 03:31:16+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-01/SD01.E01",
+          "Size": 2146400796,
+          "ETag": "\"ad38b2ccc076076515045ec13a257674-256\"",
+          "LastModified": "2026-10-13 04:27:08+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-01/SD01.E02",
+          "Size": 312683347,
+          "ETag": "\"8c2e20b46ad4b83adb5c68172f8dd3c1-38\"",
+          "LastModified": "2026-10-13 03:43:06+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-01/SD01.info",
+          "Size": 7039,
+          "ETag": "\"fbb4e00ed79908d41abd757006d0287b\"",
+          "LastModified": "2026-10-13 03:43:10+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E01",
+          "Size": 2146403041,
+          "ETag": "\"c5d4036db30d3974d0b3439bff1f1f31-256\"",
+          "LastModified": "2026-10-13 04:39:30+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E02",
+          "Size": 2146413622,
+          "ETag": "\"fb46ad55f7b81defbbbe63f605e6ac0a-256\"",
+          "LastModified": "2026-10-13 04:41:22+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E03",
+          "Size": 2146403265,
+          "ETag": "\"5be671bdfb08d7f286dca6f78fe761e7-256\"",
+          "LastModified": "2026-10-13 04:55:26+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E04",
+          "Size": 2146424942,
+          "ETag": "\"b8c89188175c56532e8132807ba6118b-256\"",
+          "LastModified": "2026-10-13 05:04:48+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E05",
+          "Size": 2146426713,
+          "ETag": "\"9e7ad46ef88b5512d8797cb454a85f00-256\"",
+          "LastModified": "2026-10-13 05:30:19+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E06",
+          "Size": 2146420545,
+          "ETag": "\"8d87b41e48d62c199cb4c1a009a43816-256\"",
+          "LastModified": "2026-10-13 05:43:21+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E07",
+          "Size": 2146420955,
+          "ETag": "\"cd7625b58b2389271131c9db3969632d-256\"",
+          "LastModified": "2026-10-13 05:46:20+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E08",
+          "Size": 2146427347,
+          "ETag": "\"092f9905f83f4157a466ced415e1cd72-256\"",
+          "LastModified": "2026-10-13 05:59:50+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E09",
+          "Size": 2146423317,
+          "ETag": "\"fe04db239efee3a17a4b08c263a4c808-256\"",
+          "LastModified": "2026-10-13 06:09:45+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E10",
+          "Size": 2146425496,
+          "ETag": "\"9b020c8004ddb4ce54b15a110fe8eb56-256\"",
+          "LastModified": "2026-10-13 06:28:14+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E11",
+          "Size": 2146432957,
+          "ETag": "\"fbef7857983e121123ee2c9a27d70493-256\"",
+          "LastModified": "2026-10-13 06:39:16+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E12",
+          "Size": 2146405720,
+          "ETag": "\"d375c5d954aeaeac7deb9843aaf1e660-256\"",
+          "LastModified": "2026-10-13 06:42:29+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E13",
+          "Size": 2146411341,
+          "ETag": "\"0d1d8c934ae2f195b5822ee1f43a63b9-256\"",
+          "LastModified": "2026-10-13 06:53:47+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E14",
+          "Size": 2146416221,
+          "ETag": "\"1fe0da300b890429edd3aac99242258c-256\"",
+          "LastModified": "2026-10-13 07:05:32+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.E15",
+          "Size": 1767608888,
+          "ETag": "\"5b4fb9d2f32136ba3922382de5a21dc2-211\"",
+          "LastModified": "2026-10-13 07:15:08+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-02/SD02.info",
+          "Size": 8448,
+          "ETag": "\"c1a491c099a927d5674a24583b439c6a\"",
+          "LastModified": "2026-10-13 06:39:20+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-03/SD03.E01",
+          "Size": 2146422898,
+          "ETag": "\"5ebfaceffaeb4b50ae68fc1622e1fb8a-256\"",
+          "LastModified": "2026-10-13 07:38:54+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-03/SD03.E02",
+          "Size": 2146426063,
+          "ETag": "\"50db3e4dd93b5887577fdd8b6e955f02-256\"",
+          "LastModified": "2026-10-13 07:42:09+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        },
+        {
+          "Key": "SADEDINE-2026/SD-03/SD03.E03",
+          "Size": 2146402172,
+          "ETag": "\"76b27c97642ad642132c77f7157eb3cd-256\"",
+          "LastModified": "2026-10-13 07:54:32+00:00",
+          "ChecksumAlgorithm": [
+            "CRC64NVME"
+          ]
+        }
+      ],
+      "object_count": 76,
+      "bytes": 154083440668,
+      "get_bucket_versioning": {
+        "Status": "Enabled"
+      },
+      "get_bucket_lifecycle_configuration": {
+        "error": "ClientError",
+        "code": "NoSuchLifecycleConfiguration"
+      }
+    }
+  ],
+  "errors": [],
+  "read_only": true
+}

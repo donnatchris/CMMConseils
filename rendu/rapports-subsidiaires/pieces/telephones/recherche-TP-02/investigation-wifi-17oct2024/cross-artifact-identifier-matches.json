@@ -1,0 +1,147 @@
+{
+  "identifiers": [
+    {
+      "name": "TP02_UDID",
+      "sha256": "f10a800d625b9a3dce067ccfa5149582ad8d9eb3fce99e636465602044b20c72",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "name": "Photos_current_store_UUID",
+      "sha256": "30e8faaca463b2cfb945d58bdce37825c2f621a1ae04c7814000eb2b3bc644e4",
+      "type": "str",
+      "length": 36
+    },
+    {
+      "name": "Health_hardware_ID_2",
+      "sha256": "8f0c6ae6a2af7f46763fd7836076a315ff824af4fc988c1295c541a84348072a",
+      "type": "bytes",
+      "length": 16
+    },
+    {
+      "name": "Health_database_ID_2",
+      "sha256": "7b26334bfc705c040ac71169f0a664b95521e50d99159bca50d93b2573341655",
+      "type": "bytes",
+      "length": 16
+    },
+    {
+      "name": "Health_source_UUID_1",
+      "sha256": "f204a804525302a7e788c4ab1a4f440dd0ebe1e651bea45c0494431e135a8276",
+      "type": "bytes",
+      "length": 16
+    },
+    {
+      "name": "Backup_Info_GUID",
+      "sha256": "c61d20968da9def0aaaff9cb184bfab7d9b23f514d324236b587bbd5b25800cf",
+      "type": "str",
+      "length": 32
+    },
+    {
+      "name": "Backup_Status_UUID",
+      "sha256": "9e23ddabecd9335524b873ae4e957bcea401c1a199294e09f0e41b3c10f8d8d9",
+      "type": "str",
+      "length": 36
+    },
+    {
+      "name": "Keychain_keybag_UUID",
+      "sha256": "fa837b914425b18b2a07afcdec4e0a92cec3218a25c167b57effab3721f59f38",
+      "type": "str",
+      "length": 36
+    }
+  ],
+  "checked_files": 3886,
+  "matches": [
+    {
+      "identifier": "TP02_UDID",
+      "domain": "AppDomain-com.apple.mobilesafari",
+      "relativePath": "Library/Preferences/com.apple.mobilesafari.plist",
+      "fileID": "ee77759a5f936cb2e4b030694ee739f111552b46",
+      "sha256": "e937373a275fff4ce422d555316b26479cf65d263301e0285f140d8b766d6400"
+    },
+    {
+      "identifier": "Photos_current_store_UUID",
+      "domain": "CameraRollDomain",
+      "relativePath": "Media/PhotoData/CPL/mobileCPL.plist",
+      "fileID": "38af409c0de9cb69e534e860d7f0cab6ef98c9aa",
+      "sha256": "3c4ab77353c17100e4dd0e7a971706e923ffa0766433be4fa445dacb8275a1ae"
+    },
+    {
+      "identifier": "TP02_UDID",
+      "domain": "HealthDomain",
+      "relativePath": "locationd/user.plist",
+      "fileID": "a28a06c0cc64c4b8e9d50b7a1832eac8b1b4a7d2",
+      "sha256": "f0f3520ae6a09fd9715ce55507cf5db6f532a3d5e00ffdbf8352e58eb15155b8"
+    },
+    {
+      "identifier": "TP02_UDID",
+      "domain": "HomeDomain",
+      "relativePath": "Library/Preferences/com.apple.appstored.plist",
+      "fileID": "17e2176738ede95d1f5051c25b5de49b6fb70ac8",
+      "sha256": "0cdcdbef0abf935019de706cfc7a1da9aa4b5e78f9905c65843ee044e44c6165"
+    },
+    {
+      "identifier": "Health_hardware_ID_2",
+      "domain": "HomeDomain",
+      "relativePath": "Library/Preferences/com.apple.healthd.plist",
+      "fileID": "576f5e32a01b05bf1a0c00633109453086b28fae",
+      "sha256": "6d1a0ea881562f94262c033110fa75f8536142c208f752caee310546abae19be"
+    },
+    {
+      "identifier": "TP02_UDID",
+      "domain": "HomeDomain",
+      "relativePath": "Library/Preferences/com.apple.itunescloud.plist",
+      "fileID": "cc18107ddf81c4832cd3cf4194818869b06cbc80",
+      "sha256": "be72d4ad87c9cdb04f1db3ed195dde227fd8b7dfa56b0ad5235e21d2c72132f8"
+    },
+    {
+      "identifier": "TP02_UDID",
+      "domain": "CameraRollDomain",
+      "relativePath": "Media/PhotoData/Journals/MigrationHistory-change.plj",
+      "fileID": "e3f8a26449a3b2e3356f42998493a49ed5a71303",
+      "sha256": "647eb6bbe11d8a080a6059578272892281675a43fa374c0576641037f96ac8ea"
+    },
+    {
+      "identifier": "Photos_current_store_UUID",
+      "domain": "CameraRollDomain",
+      "relativePath": "Media/PhotoData/Journals/MigrationHistory-change.plj",
+      "fileID": "e3f8a26449a3b2e3356f42998493a49ed5a71303",
+      "sha256": "647eb6bbe11d8a080a6059578272892281675a43fa374c0576641037f96ac8ea"
+    },
+    {
+      "identifier": "Health_hardware_ID_2",
+      "domain": "HealthDomain",
+      "relativePath": "Health/healthdb.sqlite",
+      "fileID": "fa2e5ac3b7a62c8b7cb21e440c79eedd218550ea",
+      "sha256": "57a1a03eceae0b80c85f0a2694eb5922c71b7b2f36922c779df66018a1c74122"
+    },
+    {
+      "identifier": "Health_database_ID_2",
+      "domain": "HealthDomain",
+      "relativePath": "Health/healthdb.sqlite",
+      "fileID": "fa2e5ac3b7a62c8b7cb21e440c79eedd218550ea",
+      "sha256": "57a1a03eceae0b80c85f0a2694eb5922c71b7b2f36922c779df66018a1c74122"
+    },
+    {
+      "identifier": "Health_source_UUID_1",
+      "domain": "HealthDomain",
+      "relativePath": "Health/healthdb.sqlite",
+      "fileID": "fa2e5ac3b7a62c8b7cb21e440c79eedd218550ea",
+      "sha256": "57a1a03eceae0b80c85f0a2694eb5922c71b7b2f36922c779df66018a1c74122"
+    },
+    {
+      "identifier": "TP02_UDID",
+      "domain": "HomeDomain",
+      "relativePath": "Library/Accounts/Accounts3.sqlite",
+      "fileID": "943624fd13e27b800cc6d9ce1100c22356ee365c",
+      "sha256": "b71a6bdbfd1ab49baf3e8a134a2eb7f4b4a09d9ad32c61e543242d99fd2257c9"
+    },
+    {
+      "identifier": "TP02_UDID",
+      "domain": "HomeDomain",
+      "relativePath": "Library/Accounts/VerifiedBackup/Accounts3.sqlite",
+      "fileID": "5852108669e3d13ab0f42ccbea424b6a55aee97b",
+      "sha256": "f8cf7e28b2a450989460ac8a8da7eab96536bd458fd95d3c968df2dd93977d52"
+    }
+  ],
+  "limit": "literal encoded-value comparison; no hardware binding inferred solely from UUID match; large Photos DB examined separately via SQL"
+}

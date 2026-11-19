@@ -1,0 +1,220 @@
+LSN: 96709655416
+Transaction ID: 224
+Log record, redo operation: UpdateResidentValue, undo operation: UpdateResidentValue
+Target (file number): 41940
+Target path (from $MFT, likely wrong if the file was deleted later): /Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/L16B (2).lnk
+Offset in target: 104
+LCN(s): 796917
+Redo data:
+00000000  F3 5D 58 E5 10 57 DD 01-20 00 00 00 00 00 00 00  .]X..W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-58 9F 07 9C 05 00 00 00  ........X.......
+
+Undo data:
+00000000  B1 6F 32 E5 10 57 DD 01-20 00 00 00 00 00 00 00  .o2..W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-58 9F 07 9C 05 00 00 00  ........X.......
+
+Possible update to $STANDARD_INFORMATION (redo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:36.984984
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+Possible update to $STANDARD_INFORMATION (undo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:36.736402
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+
+---
+
+LSN: 96709655484
+Transaction ID: 224
+Log record, redo operation: UpdateResidentValue, undo operation: UpdateResidentValue
+Target (file number): 48968
+Target path (from $MFT, likely wrong if the file was deleted later): /Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/Inventaire_saddedine.lnk
+Offset in target: 104
+LCN(s): 798674
+Redo data:
+00000000  67 6D 5D E5 10 57 DD 01-20 00 00 00 00 00 00 00  gm]..W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-48 DB 0A 91 05 00 00 00  ........H.......
+
+Undo data:
+00000000  43 B9 30 E5 10 57 DD 01-20 00 00 00 00 00 00 00  C.0..W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-48 DB 0A 91 05 00 00 00  ........H.......
+
+Possible update to $STANDARD_INFORMATION (redo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:37.018148
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+Possible update to $STANDARD_INFORMATION (undo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:36.725178
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+
+---
+
+LSN: 96711079762
+Transaction ID: 384
+Log record, redo operation: UpdateResidentValue, undo operation: UpdateResidentValue
+Target (file number): 60323
+Target path (from $MFT, likely wrong if the file was deleted later): /Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/GDRIVE (3).lnk
+Offset in target: 104
+LCN(s): 801512
+Redo data:
+00000000  E7 A1 6F E5 10 57 DD 01-20 00 00 00 00 00 00 00  ..o..W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-E8 B7 B5 99 05 00 00 00  ................
+
+Undo data:
+00000000  A8 D1 2E E5 10 57 DD 01-20 00 00 00 00 00 00 00  .....W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-E8 B7 B5 99 05 00 00 00  ................
+
+Possible update to $STANDARD_INFORMATION (redo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:37.137456
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+Possible update to $STANDARD_INFORMATION (undo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:36.712696
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+
+---
+
+LSN: 96711080671
+Transaction ID: 384
+Log record, redo operation: UpdateResidentValue, undo operation: UpdateResidentValue
+Target (file number): 30261
+Target path (from $MFT, likely wrong if the file was deleted later): /Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/Rejets_saddedine.lnk
+Offset in target: 104
+LCN(s): 793997
+Redo data:
+00000000  22 9C 69 E5 10 57 DD 01-20 00 00 00 00 00 00 00  ".i..W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-D8 8E 0A 91 05 00 00 00  ................
+
+Undo data:
+00000000  AB C3 38 E5 10 57 DD 01-20 00 00 00 00 00 00 00  ..8..W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-D8 8E 0A 91 05 00 00 00  ................
+
+Possible update to $STANDARD_INFORMATION (redo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:37.097988
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+Possible update to $STANDARD_INFORMATION (undo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:36.777874
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+
+---
+
+LSN: 96711080773
+Transaction ID: 384
+Log record, redo operation: UpdateResidentValue, undo operation: UpdateResidentValue
+Target (file number): 209924
+Target path (from $MFT, likely wrong if the file was deleted later): /Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/Archive_saddedine.lnk
+Offset in target: 104
+LCN(s): 7805900
+Redo data:
+00000000  1A 08 6E E5 10 57 DD 01-20 00 00 00 00 00 00 00  ..n..W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-60 6A 0B 91 05 00 00 00  ........`j......
+
+Undo data:
+00000000  A7 D8 23 E5 10 57 DD 01-20 00 00 00 00 00 00 00  ..#..W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-60 6A 0B 91 05 00 00 00  ........`j......
+
+Possible update to $STANDARD_INFORMATION (redo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:37.126966
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+Possible update to $STANDARD_INFORMATION (undo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:36.640784
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+
+---
+
+LSN: 96711080841
+Transaction ID: 384
+Log record, redo operation: UpdateResidentValue, undo operation: UpdateResidentValue
+Target (file number): 209576
+Target path (from $MFT, likely wrong if the file was deleted later): /Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/GDRIVE (2).lnk
+Offset in target: 104
+LCN(s): 7805813
+Redo data:
+00000000  EC 7A 6F E5 10 57 DD 01-20 00 00 00 00 00 00 00  .zo..W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-40 77 42 99 05 00 00 00  ........@wB.....
+
+Undo data:
+00000000  66 AA 2E E5 10 57 DD 01-20 00 00 00 00 00 00 00  f....W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-40 77 42 99 05 00 00 00  ........@wB.....
+
+Possible update to $STANDARD_INFORMATION (redo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:37.136458
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+Possible update to $STANDARD_INFORMATION (undo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:36.711690
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+
+---
+
+LSN: 96711080875
+Transaction ID: 384
+Log record, redo operation: UpdateResidentValue, undo operation: UpdateResidentValue
+Target (file number): 22560
+Target path (from $MFT, likely wrong if the file was deleted later): /Users/fintm/AppData/Roaming/Microsoft/Windows/Recent/GDRIVE.lnk
+Offset in target: 104
+LCN(s): 792072
+Redo data:
+00000000  D9 C8 6F E5 10 57 DD 01-20 00 00 00 00 00 00 00  ..o..W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-30 72 01 93 05 00 00 00  ........0r......
+
+Undo data:
+00000000  97 F8 2E E5 10 57 DD 01-20 00 00 00 00 00 00 00  .....W.. .......
+00000010  00 00 00 00 00 00 00 00-00 00 00 00 29 0A 00 00  ............)...
+00000020  00 00 00 00 00 00 00 00-30 72 01 93 05 00 00 00  ........0r......
+
+Possible update to $STANDARD_INFORMATION (redo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:37.138454
+ * C timestamp: N/A
+ * E timestamp: N/A
+
+Possible update to $STANDARD_INFORMATION (undo data):
+ * M timestamp: N/A
+ * A timestamp: 2026-10-08 10:36:36.713692
+ * C timestamp: N/A
+ * E timestamp: N/A

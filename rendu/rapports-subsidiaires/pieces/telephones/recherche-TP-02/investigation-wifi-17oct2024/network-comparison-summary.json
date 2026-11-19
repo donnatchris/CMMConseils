@@ -1,0 +1,47 @@
+{
+  "3rd Party App": {
+    "networks": 1,
+    "private_entries": 1,
+    "generation_dates": 1,
+    "firstjoin_dates": 1,
+    "both_dates": 1,
+    "user_join_precedes_added": 0,
+    "identical_addedAt": 1
+  },
+  "Cloud Sync": {
+    "networks": 3,
+    "private_entries": 3,
+    "generation_dates": 0,
+    "firstjoin_dates": 0,
+    "both_dates": 0,
+    "user_join_precedes_added": 1,
+    "identical_addedAt": 3
+  },
+  "System App": {
+    "networks": 4,
+    "private_entries": 4,
+    "generation_dates": 4,
+    "firstjoin_dates": 4,
+    "both_dates": 4,
+    "user_join_precedes_added": 0,
+    "identical_addedAt": 4
+  },
+  "WiFi Password Sharing": {
+    "networks": 3,
+    "private_entries": 3,
+    "generation_dates": 3,
+    "firstjoin_dates": 3,
+    "both_dates": 3,
+    "user_join_precedes_added": 1,
+    "identical_addedAt": 3
+  },
+  "WiFi Settings": {
+    "networks": 25,
+    "private_entries": 25,
+    "generation_dates": 25,
+    "firstjoin_dates": 24,
+    "both_dates": 24,
+    "user_join_precedes_added": 17,
+    "identical_addedAt": 25
+  }
+}

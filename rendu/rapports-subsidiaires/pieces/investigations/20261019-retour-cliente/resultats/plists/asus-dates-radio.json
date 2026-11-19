@@ -1,0 +1,63 @@
+{
+  "known_network": {
+    "AddReason": "WiFi Settings",
+    "AddedAt": {
+      "utc": "2024-10-17T15:25:48.153697+00:00",
+      "paris": "2024-10-17T17:25:48.153697+02:00"
+    },
+    "JoinedByUserAt": {
+      "utc": "2024-10-17T15:25:48.147446+00:00",
+      "paris": "2024-10-17T17:25:48.147446+02:00"
+    },
+    "JoinedBySystemAt": {
+      "utc": "2024-10-28T13:32:37.808282+00:00",
+      "paris": "2024-10-28T14:32:37.808282+01:00"
+    },
+    "LastDiscoveredAt": {
+      "utc": "2024-10-28T11:01:49.687669+00:00",
+      "paris": "2024-10-28T12:01:49.687669+01:00"
+    },
+    "BSSList": [
+      {
+        "BSSID": "32:0d:ca:fd:68:8c",
+        "LastAssociatedAt": {
+          "utc": "2024-10-28T13:32:37.808218+00:00",
+          "paris": "2024-10-28T14:32:37.808218+01:00"
+        },
+        "Channel": 6
+      },
+      {
+        "BSSID": "22:b0:a5:94:1f:af",
+        "LastAssociatedAt": {
+          "utc": "2024-10-28T11:31:21.663303+00:00",
+          "paris": "2024-10-28T12:31:21.663303+01:00"
+        },
+        "Channel": 36
+      }
+    ]
+  },
+  "private_network": {
+    "BSSID": "32:d:ca:fd:68:8c",
+    "MacGenerationTimeStamp": {
+      "utc": "2024-10-17T15:25:47.630860+00:00",
+      "paris": "2024-10-17T17:25:47.630860+02:00"
+    },
+    "FirstJoinWithNewMacTimestamp": {
+      "utc": "2024-10-17T15:25:52.303180+00:00",
+      "paris": "2024-10-17T17:25:52.303180+02:00"
+    },
+    "addedAt": {
+      "utc": "2024-10-17T15:25:48.153697+00:00",
+      "paris": "2024-10-17T17:25:48.153697+02:00"
+    },
+    "lastJoined": {
+      "utc": "2024-10-28T13:32:38.847545+00:00",
+      "paris": "2024-10-28T14:32:38.847545+01:00"
+    },
+    "LinkDownTimestamp": {
+      "utc": "2024-10-28T18:40:02.126558+00:00",
+      "paris": "2024-10-28T19:40:02.126558+01:00"
+    }
+  },
+  "limit": "BSSID conserv\u00e9s dans un \u00e9tat tardif; les dates LastAssociatedAt sont du 28, aucun BSSID historiquement certifi\u00e9 au 17."
+}

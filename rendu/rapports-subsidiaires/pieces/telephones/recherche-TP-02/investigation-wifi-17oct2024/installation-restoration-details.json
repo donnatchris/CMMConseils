@@ -1,0 +1,213 @@
+{
+  "RestoreInfo": {
+    "BackupBuildVersion": "21F90",
+    "DeviceBuildVersion": "21F90",
+    "RestoreDate": {
+      "raw_value": "2024-06-11 12:00:31",
+      "format": "plist_date",
+      "utc": "2024-06-11T12:00:31+00:00",
+      "paris": "2024-06-11T14:00:31+02:00"
+    },
+    "WasCloudRestore": true
+  },
+  "RestoreStateInfo": {
+    "estimatedTimeRemaining": 0,
+    "progress": 1.0,
+    "date": {
+      "raw_value": "2024-06-11 12:00:50.334277",
+      "format": "plist_date",
+      "utc": "2024-06-11T12:00:50.334277+00:00",
+      "paris": "2024-06-11T14:00:50.334277+02:00"
+    },
+    "restoredSnapshotBackupPolicy": 0,
+    "isCloud": true,
+    "isBackground": true,
+    "state": 4,
+    "backupAttemptCount": 0
+  },
+  "DeviceTransferInfo_present": false,
+  "DeviceTrransferInfo_present": false,
+  "AirTrafficFinishedRestoring": true,
+  "cloud_snapshot_id_sha256": "95fc017e9bea435e0f66d8741674cb458db6c4ef9ded63fcb98a7e90c01cdb4f",
+  "other_dates": {
+    "MegaBackupFlowStartDate": {
+      "raw_value": "2023-12-14 15:07:04",
+      "format": "plist_date",
+      "utc": "2023-12-14T15:07:04+00:00",
+      "paris": "2023-12-14T16:07:04+01:00"
+    },
+    "AccountEnabledDate": {
+      "raw_value": "2024-06-11 14:18:46.325234",
+      "format": "plist_date",
+      "utc": "2024-06-11T14:18:46.325234+00:00",
+      "paris": "2024-06-11T16:18:46.325234+02:00"
+    }
+  },
+  "FSEvent_UUID_values": [
+    {
+      "volume_uuid_sha256": "6b1c8e6f49224d7e5704aacdb5c164cf84131f395d747ce2338c5418ac5bd1cb",
+      "event_database_uuid_sha256": "86f666ef79967f6227d7574256f6c977a19c6e446bd9d005b2dbc725bf971368"
+    },
+    {
+      "volume_uuid_sha256": "09805102dd30e32daaf2872858f0bee84da01d56fa66a9522b102ed28bf89fed",
+      "event_database_uuid_sha256": "7d82ba28022673eb474f9418a1dcd784908cad8dcb3467555dd7b9c07acf3030"
+    }
+  ],
+  "purplebuddy": {
+    "SetupDone": true,
+    "SetupFinishedAllSteps": true,
+    "SetupState": "SetupUsingAssistant",
+    "RestoreChoice": true,
+    "SetupVersion": 11,
+    "setupMigratorVersion": 13,
+    "WiFiPresented": false,
+    "SSDeviceType": {
+      "deviceType": "225",
+      "buildVersion": "17F80",
+      "hardwareModel": "D79AP"
+    },
+    "chronicle": {
+      "features": [
+        {
+          "type": 1,
+          "data": {
+            "productVersion": "17.4.1"
+          }
+        },
+        {
+          "type": 2,
+          "data": {
+            "productVersion": "18.1.1"
+          }
+        }
+      ]
+    },
+    "SetupLastExit": {
+      "raw_value": "2024-12-06 10:00:19.000489",
+      "format": "plist_date",
+      "utc": "2024-12-06T10:00:19.000489+00:00",
+      "paris": "2024-12-06T11:00:19.000489+01:00"
+    },
+    "lastPrepareLaunchSentinel_dates": [
+      {
+        "raw_value": "2026-09-18 14:30:29.724817",
+        "format": "plist_date",
+        "utc": "2026-09-18T14:30:29.724817+00:00",
+        "paris": "2026-09-18T16:30:29.724817+02:00"
+      }
+    ]
+  },
+  "SetupAssistant": {
+    "CKPerBootTasks": [
+      "CKAccountInfoCacheReset"
+    ],
+    "CKStartupTime": {
+      "raw_value": "1754918306",
+      "format": "unix",
+      "utc": "2025-08-11T13:18:26+00:00",
+      "paris": "2025-08-11T15:18:26+02:00"
+    }
+  },
+  "configuration_profiles": [
+    {
+      "relativePath": "Library/ConfigurationProfiles/AppAccessibilityParameters.plist",
+      "fileID": "5fe47b24af1681316db428b3b4e8108211665830",
+      "keys": []
+    },
+    {
+      "relativePath": "Library/ConfigurationProfiles/ClientTruth.plist",
+      "fileID": "550a09c4f8c4d89df203ab615ffc979d3c56f613",
+      "keys": [
+        "com.apple.profiled.appenforced.com.apple.news",
+        "com.apple.WatchListKit.isTVAllowed",
+        "com.apple.lsd.appremoval"
+      ]
+    },
+    {
+      "relativePath": "Library/ConfigurationProfiles/CloudConfigurationDetails.plist",
+      "fileID": "1e6c0783f9b33d00b152067a0661c8fc8841073f",
+      "keys": [
+        "PostSetupProfileWasInstalled",
+        "IsSupervised",
+        "CloudConfigurationUIComplete",
+        "ConfigurationSource",
+        "AllowPairing",
+        "ConfigurationWasApplied"
+      ],
+      "configuration": {
+        "PostSetupProfileWasInstalled": true,
+        "IsSupervised": false,
+        "CloudConfigurationUIComplete": true,
+        "ConfigurationSource": 0,
+        "AllowPairing": true,
+        "ConfigurationWasApplied": true
+      }
+    },
+    {
+      "relativePath": "Library/ConfigurationProfiles/MCProfileEvents.plist",
+      "fileID": "aeb25de285ea542f7ac7c2070cddd1961e369df1",
+      "keys": [
+        "ProfileEvents"
+      ]
+    },
+    {
+      "relativePath": "Library/ConfigurationProfiles/MCSettingsEvents.plist",
+      "fileID": "9c46fd950cb447d02fb55f6bfe00251032bda8b4",
+      "keys": [
+        "SystemProfileRestrictions",
+        "SystemSettings",
+        "SystemClientRestrictions",
+        "Restrictions",
+        "EffectiveSettings"
+      ]
+    },
+    {
+      "relativePath": "Library/ConfigurationProfiles/PayloadDependency.plist",
+      "fileID": "4d607fcf6b9a281ae940ac7572e9494f4dfa2042",
+      "keys": []
+    },
+    {
+      "relativePath": "Library/ConfigurationProfiles/PayloadManifest.plist",
+      "fileID": "8e7f26685d92296da2100cfaf98173f45da1ce88",
+      "keys": [
+        "OrderedProfiles",
+        "HiddenProfiles"
+      ]
+    },
+    {
+      "relativePath": "Library/ConfigurationProfiles/ProfileTruth.plist",
+      "fileID": "b2998988ede72dc5ec6d24d258f060d2b2e961b1",
+      "keys": []
+    },
+    {
+      "relativePath": "Library/ConfigurationProfiles/PublicInfo/MCMeta.plist",
+      "fileID": "77e6b5a266733afee2b161f9ec40f2164639ab21",
+      "keys": [
+        "StopFilteringGrandfatheredRestrictions",
+        "LastMDMMigratedBuild",
+        "LastMigratedBuild"
+      ]
+    },
+    {
+      "relativePath": "Library/ConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist",
+      "fileID": "4bf2c57686ace66ebb9a7edafc27a5f59631b5f4",
+      "keys": []
+    },
+    {
+      "relativePath": "Library/ConfigurationProfiles/UserSettings.plist",
+      "fileID": "c857040ce4ce8654af495a2f04da92a0a5111fac",
+      "keys": [
+        "union",
+        "assignedObject",
+        "restrictedBool",
+        "restrictedValue",
+        "intersection"
+      ]
+    },
+    {
+      "relativePath": "Library/ConfigurationProfiles/LockdownParameters.plist",
+      "fileID": "85cbb36a0a73dabd9e37d3d443bd186fa467e90f",
+      "keys": []
+    }
+  ]
+}

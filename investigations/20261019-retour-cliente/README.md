@@ -56,4 +56,4 @@ Les fichiers de résultats sont privés au prestataire et à la cliente. Aucun m
 
 Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
 
-Christophe DOnnat — Donnat Dev
+Christophe Donnat — Donnat Dev

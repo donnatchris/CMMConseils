@@ -1,0 +1,156 @@
+{
+  "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomainGroup-group.com.apple.tipsnext/com.apple.DocumentsApp/.tipkit/tips-store.db",
+  "sha256_before": "9105a67615374b33268d093fd977101ede842614d1aa744f881cc480b528add3",
+  "sha256_after": "9105a67615374b33268d093fd977101ede842614d1aa744f881cc480b528add3",
+  "manifest_sha256_before": "334123a803c20b59c9610b459b8769a07d24cab7ea805e35c6f64caec65f365c",
+  "manifest_sha256_after": "334123a803c20b59c9610b459b8769a07d24cab7ea805e35c6f64caec65f365c",
+  "manifest_entry": [
+    {
+      "fileID": "25ae67dc0dc65b4f9f39e073cc360c1ff36357e2",
+      "domain": "AppDomainGroup-group.com.apple.tipsnext",
+      "relativePath": "com.apple.DocumentsApp/.tipkit/tips-store.db",
+      "ProtectionClass": 3,
+      "Birth": 1714187418,
+      "LastModified": 1758113429,
+      "LastStatusChange": 1733728027,
+      "Size": 188416
+    }
+  ],
+  "sql": "select c.*,p.Z_NAME entity_name from ACHANGE c\n left join Z_PRIMARYKEY p on c.ZENTITY=p.Z_ENT\n where c.ZTRANSACTIONID between 254 and 258 order by c.Z_PK",
+  "changes": [
+    {
+      "Z_PK": 403,
+      "Z_ENT": 16001,
+      "Z_OPT": null,
+      "ZCHANGETYPE": 1,
+      "ZENTITY": 4,
+      "ZENTITYPK": 2,
+      "ZTRANSACTIONID": 254,
+      "ZCOLUMNS": {
+        "hex": "0100"
+      },
+      "entity_name": "CoreRuleRecord"
+    },
+    {
+      "Z_PK": 404,
+      "Z_ENT": 16001,
+      "Z_OPT": null,
+      "ZCHANGETYPE": 1,
+      "ZENTITY": 4,
+      "ZENTITYPK": 3,
+      "ZTRANSACTIONID": 255,
+      "ZCOLUMNS": {
+        "hex": "0100"
+      },
+      "entity_name": "CoreRuleRecord"
+    },
+    {
+      "Z_PK": 405,
+      "Z_ENT": 16001,
+      "Z_OPT": null,
+      "ZCHANGETYPE": 1,
+      "ZENTITY": 4,
+      "ZENTITYPK": 4,
+      "ZTRANSACTIONID": 256,
+      "ZCOLUMNS": {
+        "hex": "0100"
+      },
+      "entity_name": "CoreRuleRecord"
+    },
+    {
+      "Z_PK": 406,
+      "Z_ENT": 16001,
+      "Z_OPT": null,
+      "ZCHANGETYPE": 1,
+      "ZENTITY": 4,
+      "ZENTITYPK": 3,
+      "ZTRANSACTIONID": 257,
+      "ZCOLUMNS": {
+        "hex": "0200"
+      },
+      "entity_name": "CoreRuleRecord"
+    },
+    {
+      "Z_PK": 407,
+      "Z_ENT": 16001,
+      "Z_OPT": null,
+      "ZCHANGETYPE": 1,
+      "ZENTITY": 4,
+      "ZENTITYPK": 2,
+      "ZTRANSACTIONID": 257,
+      "ZCOLUMNS": {
+        "hex": "0200"
+      },
+      "entity_name": "CoreRuleRecord"
+    },
+    {
+      "Z_PK": 408,
+      "Z_ENT": 16001,
+      "Z_OPT": null,
+      "ZCHANGETYPE": 1,
+      "ZENTITY": 4,
+      "ZENTITYPK": 4,
+      "ZTRANSACTIONID": 257,
+      "ZCOLUMNS": {
+        "hex": "0200"
+      },
+      "entity_name": "CoreRuleRecord"
+    },
+    {
+      "Z_PK": 409,
+      "Z_ENT": 16001,
+      "Z_OPT": null,
+      "ZCHANGETYPE": 1,
+      "ZENTITY": 4,
+      "ZENTITYPK": 2,
+      "ZTRANSACTIONID": 258,
+      "ZCOLUMNS": {
+        "hex": "0200"
+      },
+      "entity_name": "CoreRuleRecord"
+    }
+  ],
+  "current_records": {
+    "ZCOREDONATIONRECORD": [],
+    "ZCOREEVENTRECORD": [],
+    "ZCORETIPRECORD": [
+      {
+        "Z_PK": 1,
+        "Z_ENT": 5,
+        "Z_OPT": 259,
+        "ZINVALIDATIONREASONVALUE": 1,
+        "ZSTATUSVALUE": 0,
+        "ZLASTDISPLAYED": null,
+        "ZID": "CID-familyfiles-mini-tip-family-folder",
+        "ZCONTENT": {
+          "hex": "62706c6973743030d4010203040506070a582476657273696f6e592461726368697665725424746f7058246f626a6563747312000186a05f100f4e534b657965644172636869766572d1080954726f6f748001ae0b0c1718191d252627282e31353d55246e756c6cd30d0e0f101316574e532e6b6579735a4e532e6f626a656374735624636c617373a2111280028003a214158004800b8009576d657373616765557469746c65d20e0f1a1ca11b8005800ad30d0e0f1e2116a21f2080068007a22023800780088009547479706554746578746f104d0049006e0076006900740065007a00200064006500730020006d0065006d006200720065007300200064006500200076006f007400720065002000660061006d0069006c006c0065002000e000200070006100720074006100670065007200200064006500730020006600690063006800690065007200730020006100750020006d00ea006d006500200065006e00640072006f00690074002ed2292a2b2c5a24636c6173736e616d655824636c61737365735c4e5344696374696f6e617279a22b2d584e534f626a656374d2292a2f30574e534172726179a22f2dd20e0f321ca133800c800ad30d0e0f363916a21f2080068007a2203b8007800d80095f1034506172746167657220646573206669636869657273206176656320646573206d656d62726573206465206c612066616d696c6c6500080011001a00240029003200370049004c0051005300620068006f007700820089008c008e0090009300950097009900a100a700ac00ae00b000b200b900bc00be00c000c300c500c700c900ce00d301700175018001890196019901a201a701af01b201b701b901bb01bd01c401c701c901cb01ce01d001d201d40000000000000201000000000000003e0000000000000000000000000000020b"
+        },
+        "ZTIPINFO": {
+          "hex": "62706c6973743030d4010203040506070a582476657273696f6e592461726368697665725424746f7058246f626a6563747312000186a05f100f4e534b657965644172636869766572d1080954726f6f748001ae0b0c2122232425262728292a2b2c55246e756c6cd30d0e0f101820574e532e6b6579735a4e532e6f626a656374735624636c617373a7111213141516178002800380048005800680078008a7191a191c1d191a8009800a8009800b800c8009800a800d5f101175736573436f7265416e616c79746963735a697341726368697665645f101175736573436f6e7374656c6c6174696f6e5862756e646c6549445f100f6d6178446973706c6179436f756e745f1010636c6f756453796e63456e61626c65645f101769676e6f726573446973706c61794672657175656e637909085f1016636f6d2e6170706c652e446f63756d656e74734170701003d22d2e2f305a24636c6173736e616d655824636c61737365735c4e5344696374696f6e617279a22f31584e534f626a65637400080011001a00240029003200370049004c0051005300620068006f00770082008900910093009500970099009b009d009f00a700a900ab00ad00af00b100b300b500b700cb00d600ea00f301050118013201330134014d014f0154015f0168017501780000000000000201000000000000003200000000000000000000000000000181"
+        }
+      }
+    ]
+  },
+  "firstunlock_in_extracted_sets": [
+    {
+      "phone": "TP-03",
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomainGroup-group.com.apple.shortcuts/.FirstUnlock",
+      "present_in_extracted_set": false
+    },
+    {
+      "phone": "TP-03",
+      "source": "/home/sansforensics/analysis/tp03-20261110/files/AppDomainGroup-group.is.workflow.my.app/.FirstUnlock",
+      "present_in_extracted_set": false
+    },
+    {
+      "phone": "TP-02",
+      "source": "/media/shared/codeProjects/DMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomainGroup-group.com.apple.shortcuts/.FirstUnlock",
+      "present_in_extracted_set": false
+    },
+    {
+      "phone": "TP-02",
+      "source": "/media/shared/codeProjects/DMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomainGroup-group.is.workflow.my.app/.FirstUnlock",
+      "present_in_extracted_set": false
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "file": "apple-crash-format.json",
+    "url": "https://developer.apple.com/tutorials/data/documentation/xcode/interpreting-the-json-format-of-a-crash-report.json",
+    "sha256": "e3c3bc95ec637a691a4911d5c15bc2f09e56113434e90c6655c07f7e87ec131b",
+    "bytes": 63447,
+    "retrieved_utc": "2026-10-14T13:52:32.547907+00:00"
+  },
+  {
+    "file": "bsd_kern_kern_fork.c",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/bsd/kern/kern_fork.c",
+    "sha256": "1b44046c20179328800ba8e9296a0de6b71b70e430ac3e180946d5b9233962bb",
+    "bytes": 47584,
+    "retrieved_utc": "2026-10-14T13:52:32.847600+00:00"
+  },
+  {
+    "file": "bsd_kern_kern_exit.c",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/bsd/kern/kern_exit.c",
+    "sha256": "637b66ba2592ead59ee43cb74de584a76f043c0a1c93d961a00e4ef04b15b543",
+    "bytes": 115609,
+    "retrieved_utc": "2026-10-14T13:52:33.145802+00:00"
+  },
+  {
+    "file": "bsd_kern_kern_resource.c",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/bsd/kern/kern_resource.c",
+    "sha256": "e25a9315ee489d199ba62cac6777b50a9cf040853d4358c7a94830054562677f",
+    "bytes": 74080,
+    "retrieved_utc": "2026-10-14T13:52:33.445071+00:00"
+  },
+  {
+    "file": "bsd_sys_resource.h",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/bsd/sys/resource.h",
+    "sha256": "2086028b0a49884ae04e02429d12a9b1c8d32b27593ae04f3677180e902c6a2c",
+    "bytes": 24207,
+    "retrieved_utc": "2026-10-14T13:52:33.783963+00:00"
+  },
+  {
+    "file": "osfmk_kern_clock.c",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/osfmk/kern/clock.c",
+    "sha256": "001630fcf2089f7f8df7c39ee79f8ba9279b84aa06ec5d8883b016eb15fdc5b1",
+    "bytes": 54005,
+    "retrieved_utc": "2026-10-14T13:52:34.293150+00:00"
+  },
+  {
+    "file": "osfmk_mach_mach_time.h",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/osfmk/mach/mach_time.h",
+    "sha256": "2d67a10454e4531fd3b4b9e8d32f2d25402a609581df6fd2e98ff0851cd3f614",
+    "bytes": 2610,
+    "retrieved_utc": "2026-10-14T13:52:34.594780+00:00"
+  },
+  {
+    "file": "osfmk_arm_rtclock.c",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/osfmk/arm/rtclock.c",
+    "sha256": "fe73cdccc1b4e5b952ff28bbe6eb107811f33983a41f0e6528bcde927003154b",
+    "bytes": 13616,
+    "retrieved_utc": "2026-10-14T13:52:34.883048+00:00"
+  },
+  {
+    "file": "osfmk_arm64_rtclock.c",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/osfmk/arm64/rtclock.c",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "bsd_kern_kern_time.c",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/bsd/kern/kern_time.c",
+    "sha256": "dc667a7d202397f6510c46450ce19394b80e4f9aa8261336ba5f0cc937c95005",
+    "bytes": 23772,
+    "retrieved_utc": "2026-10-14T13:52:35.399865+00:00"
+  },
+  {
+    "file": "libsyscall_wrappers_clock_gettime.c",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/libsyscall/wrappers/clock_gettime.c",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "libc_clock_gettime.c",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/Libc/Libc-1534.100.14/gen/clock_gettime.c",
+    "sha256": "cebee1b8d792edb9a429e65243691233f09cb775527f164ac383b49b3edbfe22",
+    "bytes": 6280,
+    "retrieved_utc": "2026-10-14T13:58:06.327473+00:00"
+  },
+  {
+    "file": "apple-mach.json",
+    "url": "https://developer.apple.com/tutorials/data/documentation/kernel/mach.json",
+    "sha256": "f447b760247b0a377a2f76704ae2d0d261f367f4258178cc8d031cbf8c070043",
+    "bytes": 275897,
+    "retrieved_utc": "2026-10-14T13:58:07.100187+00:00"
+  },
+  {
+    "file": "apple-widget-lifecycle.json",
+    "url": "https://developer.apple.com/tutorials/data/documentation/widgetkit/keeping-a-widget-up-to-date.json",
+    "sha256": "893b735557f543b51bd07fa60a6a5247bc10beffdf7c9001b38f27e3d79fef31",
+    "bytes": 47187,
+    "retrieved_utc": "2026-10-14T13:58:07.482292+00:00"
+  },
+  {
+    "file": "apple-widget-network.json",
+    "url": "https://developer.apple.com/tutorials/data/documentation/widgetkit/making-network-requests-in-a-widget-extension.json",
+    "sha256": "5d8c66849c2bd1330876c1b1a30b433ddc4c32b8fcfc9dff6f5ebbe1ad8cf2e0",
+    "bytes": 22079,
+    "retrieved_utc": "2026-10-14T13:58:08.090200+00:00"
+  },
+  {
+    "file": "bsd_sys_timex.h",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/bsd/sys/timex.h",
+    "sha256": "2d39fba224be2daf2b945953fb3340554ac3b8fe869d5e3ddb868a97c2eab8e2",
+    "bytes": 9602,
+    "retrieved_utc": "2026-10-14T14:05:46.160343+00:00"
+  },
+  {
+    "file": "bsd_kern_kern_ntptime.c",
+    "url": "https://raw.githubusercontent.com/apple-oss-distributions/xnu/xnu-10063.121.3/bsd/kern/kern_ntptime.c",
+    "sha256": "3eccfd99d9dd5209bc8d26032a8dd2fa5f347bce4d8a230de65fbe772365993c",
+    "bytes": 24345,
+    "retrieved_utc": "2026-10-14T14:05:46.425859+00:00"
+  }
+]

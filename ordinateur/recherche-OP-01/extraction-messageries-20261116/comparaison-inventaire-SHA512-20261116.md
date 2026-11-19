@@ -68,4 +68,4 @@ e1026d76b643485b5c3da5686d10ac6d69225cca33c46e18038db93be2593a7f2baacc82d1661285
 
 Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
 
-Christophe DOnnat — Donnat Dev
+Christophe Donnat — Donnat Dev

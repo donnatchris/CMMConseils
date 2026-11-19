@@ -1,5 +1,104 @@
 # Générer la livraison documentaire du 18 novembre 2026
 
+Les sources complémentaires de génération sont rangées dans `generer-pdf/annexes/`.
+Les références Git, empreintes de référence et résultats de validation nécessaires aux
+vérifications sont dans `generer-pdf/controles-documentaires/`. Le générateur et les
+vérificateurs utilisent ces emplacements.
+
+## Dossier de remise autonome `rendu/` — 19 novembre 2026
+
+### Note de constats techniques et lettre d’accompagnement
+
+Les textes courants sont `note-de-constat-technique.md` et
+`lettre-d-accompagnement-du-constat-technique.md`. La commande suivante relit les
+résultats existants, calcule les écarts sans écriture dans les preuves, puis prépare
+les deux PDF dans `/tmp/dmm-documents-constat/` :
+
+```bash
+PYTHONPATH=/tmp/dmm-rapport-pdf-deps python3 generer-pdf/calculer-complements-note.py
+PYTHONPATH=/tmp/dmm-rapport-pdf-deps python3 generer-pdf/generer-documents-constat.py
+```
+
+Le nombre de pages est synchronisé dans les deux Markdown. La page de présentation
+et le tableau récapitulatif occupent chacun une page. Après rendu et contrôle visuel
+de toutes les pages, enregistrer les SHA-256 des deux PDF dans
+`/tmp/dmm-documents-constat/controle-visuel.json` sous `pdf_sha256`, puis publier :
+
+```bash
+PYTHONPATH=/tmp/dmm-rapport-pdf-deps python3 generer-pdf/generer-documents-constat.py --publish
+```
+
+La publication remplace la note, ajoute la lettre à la racine de `rendu/`, copie les
+sources et les calculs utiles, et met à jour l’index, le manifeste et les empreintes.
+La signature manuscrite de la lettre est laissée au prestataire. Le PDF de la note
+du 18 novembre reste préservé dans les originaux. Pour un nouvel assemblage complet,
+fournir son chemin à `generer-rendu.py --note-original CHEMIN` si son ancien
+emplacement dans `pdfs/` n’existe plus.
+
+### Ensemble des rapports
+
+La sélection destinée à la cliente exclut les PDF listés dans
+`generer-pdf/documents-internes.json` : journaux d’incidents, notices de reproduction,
+guides de scripts et annexe de commandes. Les exemplaires retirés sont conservés
+dans `pdfs/documents-internes/`, hors de `rendu/`. Les pièces Markdown référencées
+restent disponibles pour la vérification des rapports ; les liens des PDF retenus
+les visent directement. `generer-rendu.py` applique cette sélection dès la génération.
+
+La sélection exclut également les 17 comptes rendus intermédiaires approuvés le
+19 novembre, identifiés par leurs sources dans
+`generer-pdf/documents-intermediaires-exclus.json`. Leurs Markdown et justificatifs
+restent conservés ; les liens vers les anciennes éditions PDF visent ces sources.
+La remise courante contient 36 documents PDF : 16 principaux et 20 subsidiaires.
+Le script `retirer-rapports-intermediaires.py` prépare les corrections hors de la
+remise ; son option `--publish DOSSIER` les applique après contrôle visuel.
+
+Pour appliquer cette sélection à une livraison déjà assemblée :
+
+```bash
+PYTHONPATH=/tmp/dmm-rapport-pdf-deps python3 generer-pdf/alleger-rendu.py
+```
+
+La commande suivante sélectionne les documents de remise parmi le corpus de 69
+sources, puis ajoute la note de constats techniques courante et sa lettre dans
+`rendu/`, avec les sources, photographies et justificatifs
+référencés dans `rendu/pieces/` :
+
+```bash
+PYTHONPATH=/tmp/dmm-rapport-pdf-deps python3 generer-pdf/generer-rendu.py --audit-only
+PYTHONPATH=/tmp/dmm-rapport-pdf-deps python3 generer-pdf/generer-rendu.py
+PYTHONPATH=/tmp/dmm-rapport-pdf-deps python3 generer-pdf/reorganiser-rendu.py
+```
+
+Utiliser un environnement disposant de Markdown 3.11.3, WeasyPrint 70.0 et pypdf 7.1.0 ;
+le `PYTHONPATH` ci-dessus correspond aux dépendances déjà installées dans cette session.
+L'assemblage refuse de remplacer un dossier `rendu/` existant. Il conserve à l'identique
+les pièces copiées et le PDF original de la note dans `pieces/originaux/`, et adapte
+uniquement les liens de sa version principale. L'ancien emplacement de la note est
+supprimé seulement après validation de l'ensemble. Les dossiers de versions antérieures,
+mémos internes et codes d'accès sont exclus.
+
+La réorganisation conserve les rapports principaux, synthèses, notes et courriers
+à la racine. Les autres PDF, les pièces et les fichiers de
+contrôle sont regroupés dans `rendu/rapports-subsidiaires/`. Les liens PDF sont adaptés
+sans régénérer les pages ; les dessins, les images et les textes sont comparés à la
+version précédente. La commande refuse de réorganiser deux fois un même dossier.
+
+L'index principal est `rendu/index.html`, et l'index complémentaire est
+`rendu/rapports-subsidiaires/index.html`. Le manifeste distingue les documents et les
+pièces sources avec leurs empreintes. Pour vérifier la livraison ou préparer les
+planches de contrôle visuel (Poppler et Pillow requis) :
+
+```bash
+PYTHONPATH=/tmp/dmm-rapport-pdf-deps python3 generer-pdf/generer-rendu.py --verify
+PYTHONPATH=/tmp/dmm-rapport-pdf-deps python3 generer-pdf/controler-rendu.py
+```
+
+Les planches et pages de contrôle sont écrites dans `/tmp/dmm-rendu-visuel/`, hors du
+dossier destiné à la cliente. Le relevé d'empreintes permet aussi de contrôler la
+livraison avec `sha256sum -c rapports-subsidiaires/SHA256SUMS.txt` depuis `rendu/`.
+
+## Livraison datée historique
+
 La sélection explicite de [livraison-20261118.json](livraison-20261118.json) contient 69 documents : 68 rendus des textes courants et le PDF d’origine de l’attestation, copié sans régénération. Les rapports par appareil, compléments, annexes exhaustives et notices sont inclus. Les cours, mémos, codes d’accès, correspondance ancienne et versions supprimées sont exclus.
 
 ## Préparer puis générer
@@ -39,4 +138,4 @@ Les photographies d’origine de l’attestation sont préservées. Pour un nouv
 magick SOURCE.HEIC /CHEMIN/NOUVEAU-DERIVE.jpg
 ```
 
-Christophe DOnnat — Donnat Dev
+Christophe Donnat — Donnat Dev

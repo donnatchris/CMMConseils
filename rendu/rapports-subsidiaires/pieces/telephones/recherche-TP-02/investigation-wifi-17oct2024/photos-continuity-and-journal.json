@@ -1,0 +1,555 @@
+{
+  "migration_rows": [
+    {
+      "Z_PK": 1,
+      "ZMIGRATIONDATE": 739800055.27036,
+      "ZHARDWAREMODEL": "D16AP",
+      "ZOSVERSION": "21F90",
+      "ZMIGRATIONTYPE": 3,
+      "ZORIGIN": 2,
+      "ZCPLENABLED": 1,
+      "ZFORCEREBUILDREASON": null,
+      "ZMODELVERSION": 17500,
+      "ZSOURCEMODELVERSION": null,
+      "ZINITIALSYNCDATE": null,
+      "device_id_matches_backup_UDID": true,
+      "device_id_sha256": "f10a800d625b9a3dce067ccfa5149582ad8d9eb3fce99e636465602044b20c72",
+      "store_uuid_matches_current": true,
+      "store_uuid_sha256": "30e8faaca463b2cfb945d58bdce37825c2f621a1ae04c7814000eb2b3bc644e4",
+      "framework_uuid_sha256": "b4d3b18a515e3e01a43823ae8a0d5c0f08dfa95e90eac0f4a9de57d6cb8747f6",
+      "date": {
+        "raw_value": "739800055.27036",
+        "format": "cocoa",
+        "utc": "2024-06-11T12:00:55.270360+00:00",
+        "paris": "2024-06-11T14:00:55.270360+02:00"
+      }
+    },
+    {
+      "Z_PK": 2,
+      "ZMIGRATIONDATE": 747031929.191969,
+      "ZHARDWAREMODEL": "D16AP",
+      "ZOSVERSION": "21G93",
+      "ZMIGRATIONTYPE": 2,
+      "ZORIGIN": 8,
+      "ZCPLENABLED": 1,
+      "ZFORCEREBUILDREASON": null,
+      "ZMODELVERSION": 17600,
+      "ZSOURCEMODELVERSION": 17500,
+      "ZINITIALSYNCDATE": 739801576,
+      "device_id_matches_backup_UDID": true,
+      "device_id_sha256": "f10a800d625b9a3dce067ccfa5149582ad8d9eb3fce99e636465602044b20c72",
+      "store_uuid_matches_current": true,
+      "store_uuid_sha256": "30e8faaca463b2cfb945d58bdce37825c2f621a1ae04c7814000eb2b3bc644e4",
+      "framework_uuid_sha256": "c1f73b10c0c1bffc2bf9182bddb9c4dc5c0c027137c0f2dbaf14fd1842b88fd8",
+      "date": {
+        "raw_value": "747031929.191969",
+        "format": "cocoa",
+        "utc": "2024-09-03T04:52:09.191969+00:00",
+        "paris": "2024-09-03T06:52:09.191969+02:00"
+      }
+    },
+    {
+      "Z_PK": 3,
+      "ZMIGRATIONDATE": 755168909.192623,
+      "ZHARDWAREMODEL": "D16AP",
+      "ZOSVERSION": "22B91",
+      "ZMIGRATIONTYPE": 2,
+      "ZORIGIN": 8,
+      "ZCPLENABLED": 1,
+      "ZFORCEREBUILDREASON": null,
+      "ZMODELVERSION": 18310,
+      "ZSOURCEMODELVERSION": 17600,
+      "ZINITIALSYNCDATE": 739801576,
+      "device_id_matches_backup_UDID": true,
+      "device_id_sha256": "f10a800d625b9a3dce067ccfa5149582ad8d9eb3fce99e636465602044b20c72",
+      "store_uuid_matches_current": true,
+      "store_uuid_sha256": "30e8faaca463b2cfb945d58bdce37825c2f621a1ae04c7814000eb2b3bc644e4",
+      "framework_uuid_sha256": "05394648f08c80f6593cc0502de3ad706058decadf856495a3c47589bf2ee99b",
+      "date": {
+        "raw_value": "755168909.192623",
+        "format": "cocoa",
+        "utc": "2024-12-06T09:08:29.192623+00:00",
+        "paris": "2024-12-06T10:08:29.192623+01:00"
+      }
+    },
+    {
+      "Z_PK": 4,
+      "ZMIGRATIONDATE": 761803533.938345,
+      "ZHARDWAREMODEL": "D16AP",
+      "ZOSVERSION": "22D72",
+      "ZMIGRATIONTYPE": 2,
+      "ZORIGIN": 8,
+      "ZCPLENABLED": 1,
+      "ZFORCEREBUILDREASON": null,
+      "ZMODELVERSION": 18402,
+      "ZSOURCEMODELVERSION": 18310,
+      "ZINITIALSYNCDATE": 739801576,
+      "device_id_matches_backup_UDID": true,
+      "device_id_sha256": "f10a800d625b9a3dce067ccfa5149582ad8d9eb3fce99e636465602044b20c72",
+      "store_uuid_matches_current": true,
+      "store_uuid_sha256": "30e8faaca463b2cfb945d58bdce37825c2f621a1ae04c7814000eb2b3bc644e4",
+      "framework_uuid_sha256": "499fac30cd2632dea2f8b7c0c03c3e4b6592c21d05b65d3f3304b5aa6509927f",
+      "date": {
+        "raw_value": "761803533.938345",
+        "format": "cocoa",
+        "utc": "2025-02-21T04:05:33.938345+00:00",
+        "paris": "2025-02-21T05:05:33.938345+01:00"
+      }
+    },
+    {
+      "Z_PK": 8,
+      "ZMIGRATIONDATE": 763784287.318947,
+      "ZHARDWAREMODEL": "D16AP",
+      "ZOSVERSION": "22D82",
+      "ZMIGRATIONTYPE": 0,
+      "ZORIGIN": 8,
+      "ZCPLENABLED": 1,
+      "ZFORCEREBUILDREASON": null,
+      "ZMODELVERSION": 18402,
+      "ZSOURCEMODELVERSION": null,
+      "ZINITIALSYNCDATE": 739801576,
+      "device_id_matches_backup_UDID": true,
+      "device_id_sha256": "f10a800d625b9a3dce067ccfa5149582ad8d9eb3fce99e636465602044b20c72",
+      "store_uuid_matches_current": true,
+      "store_uuid_sha256": "30e8faaca463b2cfb945d58bdce37825c2f621a1ae04c7814000eb2b3bc644e4",
+      "framework_uuid_sha256": "499fac30cd2632dea2f8b7c0c03c3e4b6592c21d05b65d3f3304b5aa6509927f",
+      "date": {
+        "raw_value": "763784287.318947",
+        "format": "cocoa",
+        "utc": "2025-03-16T02:18:07.318947+00:00",
+        "paris": "2025-03-16T03:18:07.318947+01:00"
+      }
+    },
+    {
+      "Z_PK": 10,
+      "ZMIGRATIONDATE": 767501363.309826,
+      "ZHARDWAREMODEL": "D16AP",
+      "ZOSVERSION": "22E252",
+      "ZMIGRATIONTYPE": 2,
+      "ZORIGIN": 8,
+      "ZCPLENABLED": 1,
+      "ZFORCEREBUILDREASON": null,
+      "ZMODELVERSION": 18508,
+      "ZSOURCEMODELVERSION": 18402,
+      "ZINITIALSYNCDATE": 739801576,
+      "device_id_matches_backup_UDID": true,
+      "device_id_sha256": "f10a800d625b9a3dce067ccfa5149582ad8d9eb3fce99e636465602044b20c72",
+      "store_uuid_matches_current": true,
+      "store_uuid_sha256": "30e8faaca463b2cfb945d58bdce37825c2f621a1ae04c7814000eb2b3bc644e4",
+      "framework_uuid_sha256": "47f79fecb6be6d164865894a80b1839b63417e2983ef3b5917d3c6272395fafa",
+      "date": {
+        "raw_value": "767501363.309826",
+        "format": "cocoa",
+        "utc": "2025-04-28T02:49:23.309826+00:00",
+        "paris": "2025-04-28T04:49:23.309826+02:00"
+      }
+    },
+    {
+      "Z_PK": 11,
+      "ZMIGRATIONDATE": 769841961.614924,
+      "ZHARDWAREMODEL": "D16AP",
+      "ZOSVERSION": "22F76",
+      "ZMIGRATIONTYPE": 2,
+      "ZORIGIN": 8,
+      "ZCPLENABLED": 1,
+      "ZFORCEREBUILDREASON": null,
+      "ZMODELVERSION": 18600,
+      "ZSOURCEMODELVERSION": 18508,
+      "ZINITIALSYNCDATE": 739801576,
+      "device_id_matches_backup_UDID": true,
+      "device_id_sha256": "f10a800d625b9a3dce067ccfa5149582ad8d9eb3fce99e636465602044b20c72",
+      "store_uuid_matches_current": true,
+      "store_uuid_sha256": "30e8faaca463b2cfb945d58bdce37825c2f621a1ae04c7814000eb2b3bc644e4",
+      "framework_uuid_sha256": "05f1a48a7c7648657a2e26cf1708176b975cc934f5c1a4fb6b9366ce045e968b",
+      "date": {
+        "raw_value": "769841961.614924",
+        "format": "cocoa",
+        "utc": "2025-05-25T04:59:21.614924+00:00",
+        "paris": "2025-05-25T06:59:21.614924+02:00"
+      }
+    }
+  ],
+  "current_store_uuid_sha256": "30e8faaca463b2cfb945d58bdce37825c2f621a1ae04c7814000eb2b3bc644e4",
+  "journal_records": [
+    {
+      "start_offset": 21,
+      "end_offset_exclusive": 382,
+      "embedded_sha256": "e3507888d02d28f07ffa96977e8fb14085dc63ec77235a18668d7e8bafb454ee",
+      "device_matches_UDID": true,
+      "store_matches_current": true,
+      "date": {
+        "raw_value": "2024-06-11 12:00:55.270360",
+        "format": "plist_date",
+        "utc": "2024-06-11T12:00:55.270360+00:00",
+        "paris": "2024-06-11T14:00:55.270360+02:00"
+      },
+      "hardware": "D16AP",
+      "os_build": "21F90",
+      "migrationType": 3,
+      "origin": 2,
+      "modelVersion": 17500,
+      "sqlite_matching_pks": [
+        1
+      ]
+    },
+    {
+      "start_offset": 403,
+      "end_offset_exclusive": 1543,
+      "embedded_sha256": "c5ecafac535810d97960b33fb66d10f1324bdd232319e2fa03907fe75dec130c",
+      "device_matches_UDID": true,
+      "store_matches_current": true,
+      "date": {
+        "raw_value": "2024-09-03 04:52:09.191969",
+        "format": "plist_date",
+        "utc": "2024-09-03T04:52:09.191969+00:00",
+        "paris": "2024-09-03T06:52:09.191969+02:00"
+      },
+      "hardware": "D16AP",
+      "os_build": "21G93",
+      "migrationType": 2,
+      "origin": 8,
+      "modelVersion": 17600,
+      "sqlite_matching_pks": [
+        2
+      ]
+    },
+    {
+      "start_offset": 1564,
+      "end_offset_exclusive": 3271,
+      "embedded_sha256": "a3deba3604fd46e612da162aeb3974278f56e12e6e46ae0881e5d6e2ab76bcbd",
+      "device_matches_UDID": true,
+      "store_matches_current": true,
+      "date": {
+        "raw_value": "2024-12-06 09:08:29.192623",
+        "format": "plist_date",
+        "utc": "2024-12-06T09:08:29.192623+00:00",
+        "paris": "2024-12-06T10:08:29.192623+01:00"
+      },
+      "hardware": "D16AP",
+      "os_build": "22B91",
+      "migrationType": 2,
+      "origin": 8,
+      "modelVersion": 18310,
+      "sqlite_matching_pks": [
+        3
+      ]
+    },
+    {
+      "start_offset": 3292,
+      "end_offset_exclusive": 6199,
+      "embedded_sha256": "7eda53bdabd764fe553e358f8e7aa36d7790a0f1d0ee030aec869dcc9a5366d9",
+      "device_matches_UDID": true,
+      "store_matches_current": true,
+      "date": {
+        "raw_value": "2025-02-21 04:05:33.938345",
+        "format": "plist_date",
+        "utc": "2025-02-21T04:05:33.938345+00:00",
+        "paris": "2025-02-21T05:05:33.938345+01:00"
+      },
+      "hardware": "D16AP",
+      "os_build": "22D72",
+      "migrationType": 2,
+      "origin": 8,
+      "modelVersion": 18402,
+      "sqlite_matching_pks": [
+        4
+      ]
+    },
+    {
+      "start_offset": 6220,
+      "end_offset_exclusive": 9097,
+      "embedded_sha256": "705ffb94c89e772e200b9d7dabcab6b4ef9ebceeec58df9a8028b6199477b257",
+      "device_matches_UDID": true,
+      "store_matches_current": true,
+      "date": {
+        "raw_value": "2025-03-16 02:18:07.318947",
+        "format": "plist_date",
+        "utc": "2025-03-16T02:18:07.318947+00:00",
+        "paris": "2025-03-16T03:18:07.318947+01:00"
+      },
+      "hardware": "D16AP",
+      "os_build": "22D82",
+      "migrationType": 0,
+      "origin": 8,
+      "modelVersion": 18402,
+      "sqlite_matching_pks": [
+        8
+      ]
+    },
+    {
+      "start_offset": 9118,
+      "end_offset_exclusive": 11966,
+      "embedded_sha256": "48cc4b1fa12830830bfea22389a58962ccf23847131f2831253d909c94bf6915",
+      "device_matches_UDID": true,
+      "store_matches_current": true,
+      "date": {
+        "raw_value": "2025-04-28 02:49:23.309826",
+        "format": "plist_date",
+        "utc": "2025-04-28T02:49:23.309826+00:00",
+        "paris": "2025-04-28T04:49:23.309826+02:00"
+      },
+      "hardware": "D16AP",
+      "os_build": "22E252",
+      "migrationType": 2,
+      "origin": 8,
+      "modelVersion": 18508,
+      "sqlite_matching_pks": [
+        10
+      ]
+    },
+    {
+      "start_offset": 11987,
+      "end_offset_exclusive": 14894,
+      "embedded_sha256": "a646e3a3420346310748097e2c4ff3b94814f111a0ff23809084bd4e981aac80",
+      "device_matches_UDID": true,
+      "store_matches_current": true,
+      "date": {
+        "raw_value": "2025-05-25 04:59:21.614924",
+        "format": "plist_date",
+        "utc": "2025-05-25T04:59:21.614924+00:00",
+        "paris": "2025-05-25T06:59:21.614924+02:00"
+      },
+      "hardware": "D16AP",
+      "os_build": "22F76",
+      "migrationType": 2,
+      "origin": 8,
+      "modelVersion": 18600,
+      "sqlite_matching_pks": [
+        11
+      ]
+    }
+  ],
+  "embedded_archives_skipped": 6,
+  "journal_format_limit": "Only independently validated embedded bplists decoded; outer journal framing not interpreted",
+  "global_dates": [
+    {
+      "Z_PK": 3,
+      "ZKEY": "RebuildCompleteDate",
+      "ZDATEVALUE": 739800055.756208,
+      "date": {
+        "raw_value": "739800055.756208",
+        "format": "cocoa",
+        "utc": "2024-06-11T12:00:55.756208+00:00",
+        "paris": "2024-06-11T14:00:55.756208+02:00"
+      }
+    },
+    {
+      "Z_PK": 8,
+      "ZKEY": "LastDeleteSyndicationSyncDateKey",
+      "ZDATEVALUE": 811445087.159583,
+      "date": {
+        "raw_value": "811445087.159583",
+        "format": "cocoa",
+        "utc": "2026-09-18T17:24:47.159583+00:00",
+        "paris": "2026-09-18T19:24:47.159583+02:00"
+      }
+    },
+    {
+      "Z_PK": 13,
+      "ZKEY": "LargestWidgetSizeDate",
+      "ZDATEVALUE": 755017207.751341,
+      "date": {
+        "raw_value": "755017207.751341",
+        "format": "cocoa",
+        "utc": "2024-12-04T15:00:07.751341+00:00",
+        "paris": "2024-12-04T16:00:07.751341+01:00"
+      }
+    },
+    {
+      "Z_PK": 14,
+      "ZKEY": "LastWidgetUpdateDate",
+      "ZDATEVALUE": 755017207.751341,
+      "date": {
+        "raw_value": "755017207.751341",
+        "format": "cocoa",
+        "utc": "2024-12-04T15:00:07.751341+00:00",
+        "paris": "2024-12-04T16:00:07.751341+01:00"
+      }
+    },
+    {
+      "Z_PK": 20,
+      "ZKEY": "LastCompletePrefetchDate",
+      "ZDATEVALUE": 811441464.186263,
+      "date": {
+        "raw_value": "811441464.186263",
+        "format": "cocoa",
+        "utc": "2026-09-18T16:24:24.186263+00:00",
+        "paris": "2026-09-18T18:24:24.186263+02:00"
+      }
+    },
+    {
+      "Z_PK": 23,
+      "ZKEY": "MediaAnalysisEmbeddingVersionBumpDate",
+      "ZDATEVALUE": 761803533.994825,
+      "date": {
+        "raw_value": "761803533.994825",
+        "format": "cocoa",
+        "utc": "2025-02-21T04:05:33.994825+00:00",
+        "paris": "2025-02-21T05:05:33.994825+01:00"
+      }
+    },
+    {
+      "Z_PK": 25,
+      "ZKEY": "CloudInitialUploadDate",
+      "ZDATEVALUE": 755168979.006537,
+      "date": {
+        "raw_value": "755168979.006537",
+        "format": "cocoa",
+        "utc": "2024-12-06T09:09:39.006537+00:00",
+        "paris": "2024-12-06T10:09:39.006537+01:00"
+      }
+    },
+    {
+      "Z_PK": 33,
+      "ZKEY": "SearchIndexRebuildStartDate",
+      "ZDATEVALUE": 767503584.353439,
+      "date": {
+        "raw_value": "767503584.353439",
+        "format": "cocoa",
+        "utc": "2025-04-28T03:26:24.353439+00:00",
+        "paris": "2025-04-28T05:26:24.353439+02:00"
+      }
+    },
+    {
+      "Z_PK": 41,
+      "ZKEY": "SearchIndexRebuildEndDate",
+      "ZDATEVALUE": 767585328.463129,
+      "date": {
+        "raw_value": "767585328.463129",
+        "format": "cocoa",
+        "utc": "2025-04-29T02:08:48.463129+00:00",
+        "paris": "2025-04-29T04:08:48.463129+02:00"
+      }
+    },
+    {
+      "Z_PK": 42,
+      "ZKEY": "LocationOfInterestUpdateDate",
+      "ZDATEVALUE": 811435938.803459,
+      "date": {
+        "raw_value": "811435938.803459",
+        "format": "cocoa",
+        "utc": "2026-09-18T14:52:18.803459+00:00",
+        "paris": "2026-09-18T16:52:18.803459+02:00"
+      }
+    },
+    {
+      "Z_PK": 44,
+      "ZKEY": "TimeOfLastFeatureAvailabilityJob",
+      "ZDATEVALUE": 811439158.119901,
+      "date": {
+        "raw_value": "811439158.119901",
+        "format": "cocoa",
+        "utc": "2026-09-18T15:45:58.119901+00:00",
+        "paris": "2026-09-18T17:45:58.119901+02:00"
+      }
+    },
+    {
+      "Z_PK": 45,
+      "ZKEY": "DateOfLastExternalAvailabilitySignal",
+      "ZDATEVALUE": 811439155.397946,
+      "date": {
+        "raw_value": "811439155.397946",
+        "format": "cocoa",
+        "utc": "2026-09-18T15:45:55.397946+00:00",
+        "paris": "2026-09-18T17:45:55.397946+02:00"
+      }
+    },
+    {
+      "Z_PK": 48,
+      "ZKEY": "LibraryReadyForAnalysisDate",
+      "ZDATEVALUE": 757711788.413738,
+      "date": {
+        "raw_value": "757711788.413738",
+        "format": "cocoa",
+        "utc": "2025-01-04T19:29:48.413738+00:00",
+        "paris": "2025-01-04T20:29:48.413738+01:00"
+      }
+    },
+    {
+      "Z_PK": 64,
+      "ZKEY": "ImportedFileSystemAssetsDate",
+      "ZDATEVALUE": 767501458.349464,
+      "date": {
+        "raw_value": "767501458.349464",
+        "format": "cocoa",
+        "utc": "2025-04-28T02:50:58.349464+00:00",
+        "paris": "2025-04-28T04:50:58.349464+02:00"
+      }
+    },
+    {
+      "Z_PK": 77,
+      "ZKEY": "SearchFeatureReadyDate",
+      "ZDATEVALUE": 772686677.02687,
+      "date": {
+        "raw_value": "772686677.02687",
+        "format": "cocoa",
+        "utc": "2025-06-27T03:11:17.026870+00:00",
+        "paris": "2025-06-27T05:11:17.026870+02:00"
+      }
+    }
+  ],
+  "transactions_17": [
+    {
+      "Z_PK": 117245,
+      "ZTIMESTAMP": 750870987.56877,
+      "author": "[1,0,0]",
+      "bundle": "com.apple.assetsd",
+      "context": "CPL library: _processNextTransaction.FetchNewEventsFromChangeHub (fs=16777221/file=33)",
+      "process": "assetsd"
+    },
+    {
+      "Z_PK": 117246,
+      "ZTIMESTAMP": 750870988.548546,
+      "author": "[1,0,0]",
+      "bundle": "com.apple.assetsd",
+      "context": "CPL library: _processNextTransaction.UploadingBatch (fs=16777221/file=33)",
+      "process": "assetsd"
+    }
+  ],
+  "transaction_neighbors": [
+    {
+      "Z_PK": 117243,
+      "ZTIMESTAMP": 750675493.26487
+    },
+    {
+      "Z_PK": 117244,
+      "ZTIMESTAMP": 750675493.96194
+    },
+    {
+      "Z_PK": 117245,
+      "ZTIMESTAMP": 750870987.56877
+    },
+    {
+      "Z_PK": 117246,
+      "ZTIMESTAMP": 750870988.548546
+    },
+    {
+      "Z_PK": 117247,
+      "ZTIMESTAMP": 751807575.677714
+    },
+    {
+      "Z_PK": 117248,
+      "ZTIMESTAMP": 751807582.01844
+    },
+    {
+      "Z_PK": 117249,
+      "ZTIMESTAMP": 751807637.011466
+    }
+  ],
+  "time_regressions_2024_2025": [],
+  "logical_copy_control": {
+    "method": "sqlite3.Connection.backup to :memory: only",
+    "preserved_transaction_rows": [
+      [
+        117245,
+        750870987.56877
+      ],
+      [
+        117246,
+        750870988.548546
+      ]
+    ],
+    "identical": true,
+    "limit": "demonstrates logical history preservation by copy, not restore behavior of iOS 17/18"
+  }
+}

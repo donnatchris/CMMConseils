@@ -1,0 +1,1384 @@
+[
+  {
+    "path": "AppDomain-com.burbn.instagram/Documents/time_in_app_34670080363.db",
+    "table": "intervals",
+    "column": "start_walltime",
+    "format_hypothesis": "unix_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T16:38:49+01:00",
+    "last": "2024-11-08T12:28:47+01:00",
+    "days": {
+      "2024-10-29": 1,
+      "2024-11-08": 1
+    }
+  },
+  {
+    "path": "AppDomain-com.burbn.instagram/Documents/time_in_app_34670080363.db",
+    "table": "intervals",
+    "column": "end_walltime",
+    "format_hypothesis": "unix_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T16:39:40+01:00",
+    "last": "2024-11-08T12:28:51+01:00",
+    "days": {
+      "2024-10-29": 1,
+      "2024-11-08": 1
+    }
+  },
+  {
+    "path": "AppDomain-com.carrefour.fid-iphone/Library/com.urbanairship.no-backup/In-app-automation-bl5YK2UPQE2TsHvXV8suqw.sqlite",
+    "table": "ZUASCHEDULEDATA",
+    "column": "ZEND",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-07T10:00:10+02:00",
+    "last": "2024-11-07T10:00:26+01:00",
+    "days": {
+      "2024-11-07": 1,
+      "2024-10-07": 1
+    }
+  },
+  {
+    "path": "AppDomain-com.carrefour.fid-iphone/Library/com.urbanairship.no-backup/In-app-automation-bl5YK2UPQE2TsHvXV8suqw.sqlite",
+    "table": "ZUASCHEDULEDATA",
+    "column": "ZSTART",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-02T10:00:52+02:00",
+    "last": "2024-11-02T10:00:10+01:00",
+    "days": {
+      "2024-11-02": 1,
+      "2024-10-02": 1
+    }
+  },
+  {
+    "path": "AppDomain-com.carrefour.fid-iphone/Library/com.urbanairship.no-backup/In-app-automation-bl5YK2UPQE2TsHvXV8suqw.sqlite",
+    "table": "ZUASCHEDULETRIGGERDATA",
+    "column": "ZSTART",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-02T10:00:52+02:00",
+    "last": "2024-11-02T10:00:10+01:00",
+    "days": {
+      "2024-11-02": 1,
+      "2024-10-02": 1
+    }
+  },
+  {
+    "path": "AppDomain-com.enchantedcloud.photovault/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db",
+    "table": "ObservedDomains",
+    "column": "lastSeen",
+    "format_hypothesis": "unix_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T16:38:20+01:00",
+    "last": "2024-10-29T16:38:20+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "AppDomain-com.enchantedcloud.photovault/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db",
+    "table": "SubresourceUnderTopFrameDomains",
+    "column": "lastUpdated",
+    "format_hypothesis": "unix_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T16:38:26.579989+01:00",
+    "last": "2024-10-29T16:38:26.579989+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.PegasusConfiguration/AlpsWarehouse/data_warehouse.db",
+    "table": "spotlight_sfm",
+    "column": "timestamp",
+    "format_hypothesis": "unix_s",
+    "count_extended": 49,
+    "count_central": 13,
+    "count_before_open": 13,
+    "first": "2024-10-01T02:00:00+02:00",
+    "last": "2024-11-15T01:00:00+01:00",
+    "days": {
+      "2024-10-01": 1,
+      "2024-10-02": 1,
+      "2024-10-03": 1,
+      "2024-10-04": 1,
+      "2024-10-05": 1,
+      "2024-10-06": 1,
+      "2024-10-07": 1,
+      "2024-10-08": 1,
+      "2024-10-09": 1,
+      "2024-10-10": 1,
+      "2024-10-11": 1,
+      "2024-10-12": 1,
+      "2024-10-13": 1,
+      "2024-10-14": 1,
+      "2024-10-15": 4,
+      "2024-10-16": 1,
+      "2024-10-17": 1,
+      "2024-10-18": 1,
+      "2024-10-19": 1,
+      "2024-10-20": 1,
+      "2024-10-21": 1,
+      "2024-10-22": 1,
+      "2024-10-23": 1,
+      "2024-10-24": 1,
+      "2024-10-25": 1,
+      "2024-10-26": 1,
+      "2024-10-27": 1,
+      "2024-10-28": 1,
+      "2024-10-29": 1,
+      "2024-10-30": 1,
+      "2024-10-31": 1,
+      "2024-11-01": 1,
+      "2024-11-02": 1,
+      "2024-11-03": 1,
+      "2024-11-04": 1,
+      "2024-11-05": 1,
+      "2024-11-06": 1,
+      "2024-11-07": 1,
+      "2024-11-08": 1,
+      "2024-11-09": 1,
+      "2024-11-10": 1,
+      "2024-11-11": 1,
+      "2024-11-12": 1,
+      "2024-11-13": 1,
+      "2024-11-14": 1,
+      "2024-11-15": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.notes/NoteStore.sqlite",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:16:17.429577+02:00",
+    "last": "2024-10-15T13:16:17.429577+02:00",
+    "days": {
+      "2024-10-15": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.DocumentsApp/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 7,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:29:50.324222+02:00",
+    "last": "2024-10-29T09:52:00.523242+01:00",
+    "days": {
+      "2024-10-15": 5,
+      "2024-10-29": 2
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.FamilyCircleUI/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:52:00.708837+01:00",
+    "last": "2024-10-29T09:52:00.708837+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.Home/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 3,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:52:00.122509+01:00",
+    "last": "2024-10-29T09:52:00.147438+01:00",
+    "days": {
+      "2024-10-29": 3
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.InCallService/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:51:59.908138+01:00",
+    "last": "2024-10-29T09:51:59.913761+01:00",
+    "days": {
+      "2024-10-29": 2
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.MobileSMS/.tipkit/tips-store.db",
+    "table": "ZCORERULERECORD",
+    "column": "ZLASTEVALUATED",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 15,
+    "count_central": 3,
+    "count_before_open": 3,
+    "first": "2024-10-15T13:13:13.850534+02:00",
+    "last": "2024-11-04T23:40:45.979933+01:00",
+    "days": {
+      "2024-10-15": 9,
+      "2024-10-16": 3,
+      "2024-11-04": 3
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.MobileSMS/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 50,
+    "count_central": 8,
+    "count_before_open": 8,
+    "first": "2024-10-15T13:13:13.825606+02:00",
+    "last": "2024-11-04T23:40:45.980424+01:00",
+    "days": {
+      "2024-10-15": 24,
+      "2024-10-16": 8,
+      "2024-10-29": 10,
+      "2024-11-04": 8
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.PhotosUIPrivate.PhotosPosterProvider/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:51:59.145260+01:00",
+    "last": "2024-10-29T09:51:59.145260+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.Preferences/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 5,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:52:00.344030+01:00",
+    "last": "2024-10-29T09:52:00.448551+01:00",
+    "days": {
+      "2024-10-29": 5
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.TVRemoteUIService/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:51:59.883054+01:00",
+    "last": "2024-10-29T09:51:59.888897+01:00",
+    "days": {
+      "2024-10-29": 2
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.Translate/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:52:00.475498+01:00",
+    "last": "2024-10-29T09:52:00.493986+01:00",
+    "days": {
+      "2024-10-29": 2
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.facetime/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:52:00.803901+01:00",
+    "last": "2024-10-29T09:52:00.803901+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.mobilecal/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 11,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:13:38.721884+02:00",
+    "last": "2024-11-13T14:37:44.426592+01:00",
+    "days": {
+      "2024-10-15": 3,
+      "2024-10-29": 2,
+      "2024-11-04": 2,
+      "2024-11-07": 2,
+      "2024-11-13": 2
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.mobilemail/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 110,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:25:30.661993+02:00",
+    "last": "2024-11-08T12:28:01.776867+01:00",
+    "days": {
+      "2024-10-15": 33,
+      "2024-10-29": 8,
+      "2024-11-04": 41,
+      "2024-11-08": 28
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.mobilenotes/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 11,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:51:59.183193+01:00",
+    "last": "2024-10-29T09:51:59.372903+01:00",
+    "days": {
+      "2024-10-29": 11
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.mobilephone/.tipkit/tips-store.db",
+    "table": "ZCORERULERECORD",
+    "column": "ZLASTEVALUATED",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 6,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:27:59.149082+02:00",
+    "last": "2024-10-15T13:27:59.162881+02:00",
+    "days": {
+      "2024-10-15": 6
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.mobilephone/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 24,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:27:59.131927+02:00",
+    "last": "2024-10-29T09:51:59.103216+01:00",
+    "days": {
+      "2024-10-15": 14,
+      "2024-10-29": 10
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.mobilesafari/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:52:00.559710+01:00",
+    "last": "2024-10-29T09:52:00.664856+01:00",
+    "days": {
+      "2024-10-29": 2
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.mobileslideshow/.tipkit/tips-store.db",
+    "table": "ZCOREDONATIONRECORD",
+    "column": "ZDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 26,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T15:27:40.867876+01:00",
+    "last": "2024-10-31T12:22:29.328363+01:00",
+    "days": {
+      "2024-10-29": 17,
+      "2024-10-31": 9
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.mobileslideshow/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 205,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:52:00.021798+01:00",
+    "last": "2024-10-31T12:22:29.332465+01:00",
+    "days": {
+      "2024-10-29": 164,
+      "2024-10-31": 41
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.mobiletimer/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 3,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:51:59.838800+01:00",
+    "last": "2024-10-29T09:51:59.852935+01:00",
+    "days": {
+      "2024-10-29": 3
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.reminders/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 11,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:52:00.166542+01:00",
+    "last": "2024-10-29T09:52:00.313680+01:00",
+    "days": {
+      "2024-10-29": 11
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.apple.tipsnext/com.apple.shortcuts/.tipkit/tips-store.db",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 3,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:52:00.767159+01:00",
+    "last": "2024-10-29T09:52:00.776766+01:00",
+    "days": {
+      "2024-10-29": 3
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "threads",
+    "column": "thread_picture_url_expiration_timestamp_ms",
+    "format_hypothesis": "unix_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-11-03T03:34:15+01:00",
+    "last": "2024-11-03T03:34:15+01:00",
+    "days": {
+      "2024-11-03": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "threads",
+    "column": "last_activity_timestamp_ms",
+    "format_hypothesis": "unix_ms",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-30T21:15:59.424000+01:00",
+    "last": "2024-10-30T21:15:59.424000+01:00",
+    "days": {
+      "2024-10-30": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "sync_groups",
+    "column": "last_sync_completed_timestamp_ms",
+    "format_hypothesis": "unix_ms",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-31T12:19:57.507000+01:00",
+    "last": "2024-10-31T12:19:57.507000+01:00",
+    "days": {
+      "2024-10-31": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "community_folders",
+    "column": "picture_url_expiration_timestamp_ms",
+    "format_hypothesis": "unix_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-11-03T03:34:15+01:00",
+    "last": "2024-11-03T03:34:15+01:00",
+    "days": {
+      "2024-11-03": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "community_folders",
+    "column": "disable_timestamp",
+    "format_hypothesis": "unix_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-11-01T16:33:01+01:00",
+    "last": "2024-11-01T16:33:01+01:00",
+    "days": {
+      "2024-11-01": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "community_folders",
+    "column": "read_timestamp_ms",
+    "format_hypothesis": "unix_ms",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T16:33:02.779000+01:00",
+    "last": "2024-10-29T16:33:02.779000+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "messenger_encrypted_messaging_periodic_tasks",
+    "column": "start_time",
+    "format_hypothesis": "unix_s",
+    "count_extended": 9,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T16:32:57+01:00",
+    "last": "2024-10-31T12:20:54+01:00",
+    "days": {
+      "2024-10-29": 6,
+      "2024-10-31": 3
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "messenger_encrypted_messaging_periodic_tasks",
+    "column": "execute_time",
+    "format_hypothesis": "unix_s",
+    "count_extended": 9,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-30T04:32:57+01:00",
+    "last": "2024-10-31T12:49:54+01:00",
+    "days": {
+      "2024-10-30": 6,
+      "2024-10-31": 3
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "cm_community_list",
+    "column": "synced_timestamp_ms",
+    "format_hypothesis": "unix_ms",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T16:33:04.744000+01:00",
+    "last": "2024-10-29T16:33:04.744000+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "cm_channel_list",
+    "column": "synced_timestamp_ms",
+    "format_hypothesis": "unix_ms",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-31T12:19:58.592000+01:00",
+    "last": "2024-10-31T12:19:58.592000+01:00",
+    "days": {
+      "2024-10-31": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "ohai_gateway_key_configs",
+    "column": "expiration_date",
+    "format_hypothesis": "unix_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-11-01T21:00:14+01:00",
+    "last": "2024-11-09T21:00:14+01:00",
+    "days": {
+      "2024-11-01": 1,
+      "2024-11-09": 1
+    }
+  },
+  {
+    "path": "AppDomainGroup-group.com.facebook.Facebook/cask/+100012597133385/FBMessagingMailboxCaskStore/2/fb-msys-100012597133385.db",
+    "table": "ohai_gateway_key_configs",
+    "column": "last_updated_time",
+    "format_hypothesis": "unix_s",
+    "count_extended": 2,
+    "count_central": 2,
+    "count_before_open": 2,
+    "first": "2024-10-18T22:00:14+02:00",
+    "last": "2024-10-26T22:00:14+02:00",
+    "days": {
+      "2024-10-18": 1,
+      "2024-10-26": 1
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ATRANSACTION",
+    "column": "ZTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 680,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:16:31.570724+02:00",
+    "last": "2024-11-13T15:45:14.744340+01:00",
+    "days": {
+      "2024-10-15": 25,
+      "2024-10-29": 645,
+      "2024-10-31": 8,
+      "2024-11-13": 2
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZSUGGESTION",
+    "column": "ZACTIVATIONDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T16:40:05.373716+01:00",
+    "last": "2024-10-29T16:40:05.373716+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZSUGGESTION",
+    "column": "ZCREATIONDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T10:38:20.915339+01:00",
+    "last": "2024-10-29T10:44:07.665647+01:00",
+    "days": {
+      "2024-10-29": 2
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZEXTENDEDATTRIBUTES",
+    "column": "ZDATECREATED",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T18:59:40.776000+01:00",
+    "last": "2024-11-13T15:45:13+01:00",
+    "days": {
+      "2024-10-29": 1,
+      "2024-11-13": 1
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZGLOBALKEYVALUE",
+    "column": "ZDATEVALUE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T10:47:51.232089+01:00",
+    "last": "2024-10-29T10:47:51.232089+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZMOMENT",
+    "column": "ZENDDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T18:59:40.776000+01:00",
+    "last": "2024-11-13T15:45:13+01:00",
+    "days": {
+      "2024-10-29": 1,
+      "2024-11-13": 1
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZMOMENT",
+    "column": "ZMODIFICATIONDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 95,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:25:06.699715+02:00",
+    "last": "2024-11-13T15:45:14.725579+01:00",
+    "days": {
+      "2024-10-15": 73,
+      "2024-10-29": 21,
+      "2024-11-13": 1
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZMOMENT",
+    "column": "ZREPRESENTATIVEDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T18:59:40.776000+01:00",
+    "last": "2024-11-13T15:45:13+01:00",
+    "days": {
+      "2024-10-29": 1,
+      "2024-11-13": 1
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZMOMENT",
+    "column": "ZSTARTDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T18:59:40.776000+01:00",
+    "last": "2024-11-13T15:45:13+01:00",
+    "days": {
+      "2024-10-29": 1,
+      "2024-11-13": 1
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZMEMORY",
+    "column": "ZCREATIONDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 6,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T02:00:00+01:00",
+    "last": "2024-10-29T02:00:05+01:00",
+    "days": {
+      "2024-10-29": 6
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZMEMORY",
+    "column": "ZLASTENRICHMENTDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 91,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T10:39:39.484466+01:00",
+    "last": "2024-10-29T10:41:33.516417+01:00",
+    "days": {
+      "2024-10-29": 91
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZPHOTOSHIGHLIGHT",
+    "column": "ZENDDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 4,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T18:59:40.776000+01:00",
+    "last": "2024-11-13T15:45:13+01:00",
+    "days": {
+      "2024-10-29": 2,
+      "2024-11-13": 2
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZPHOTOSHIGHLIGHT",
+    "column": "ZSTARTDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 4,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T18:59:40.776000+01:00",
+    "last": "2024-11-13T15:45:13+01:00",
+    "days": {
+      "2024-10-29": 2,
+      "2024-11-13": 2
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZPHOTOSHIGHLIGHT",
+    "column": "ZLASTENRICHMENTDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 673,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T10:35:20.312102+01:00",
+    "last": "2024-10-29T10:43:06.768402+01:00",
+    "days": {
+      "2024-10-29": 673
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZASSET",
+    "column": "ZADDEDDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T18:59:41.494120+01:00",
+    "last": "2024-11-13T15:45:14.189636+01:00",
+    "days": {
+      "2024-10-29": 1,
+      "2024-11-13": 1
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZASSET",
+    "column": "ZANALYSISSTATEMODIFICATIONDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 21706,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T10:44:44.195812+01:00",
+    "last": "2024-10-29T19:31:51.777395+01:00",
+    "days": {
+      "2024-10-29": 21706
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZASSET",
+    "column": "ZDATECREATED",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T18:59:40.776000+01:00",
+    "last": "2024-11-13T15:45:13+01:00",
+    "days": {
+      "2024-10-29": 1,
+      "2024-11-13": 1
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZASSET",
+    "column": "ZMODIFICATIONDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 30,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T10:22:09.593674+01:00",
+    "last": "2024-11-13T15:45:14.163647+01:00",
+    "days": {
+      "2024-10-29": 29,
+      "2024-11-13": 1
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZADDITIONALASSETATTRIBUTES",
+    "column": "ZLASTVIEWEDDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 18,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T15:27:49.122585+01:00",
+    "last": "2024-10-31T12:22:30.900522+01:00",
+    "days": {
+      "2024-10-29": 13,
+      "2024-10-31": 5
+    }
+  },
+  {
+    "path": "CameraRollDomain/Media/PhotoData/Photos.sqlite",
+    "table": "ZADDITIONALASSETATTRIBUTES",
+    "column": "ZSCENEANALYSISTIMESTAMP",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T18:59:40.776000+01:00",
+    "last": "2024-10-29T18:59:40.776000+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "HealthDomain/Health/Client/HealthApp.sqlite",
+    "table": "ZFEEDITEM",
+    "column": "ZDATESUBMITTED",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 3,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T08:58:05.273803+01:00",
+    "last": "2024-10-29T08:58:05.405302+01:00",
+    "days": {
+      "2024-10-29": 3
+    }
+  },
+  {
+    "path": "HealthDomain/Health/Client/HealthApp.sqlite",
+    "table": "ZFEEDITEM",
+    "column": "ZRELEVANTSTARTDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 1,
+    "count_before_open": 1,
+    "first": "2024-10-24T00:00:00+02:00",
+    "last": "2024-10-24T00:00:00+02:00",
+    "days": {
+      "2024-10-24": 1
+    }
+  },
+  {
+    "path": "HealthDomain/Health/healthdb.sqlite",
+    "table": "key_value",
+    "column": "mod_date",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T20:22:23.862356+01:00",
+    "last": "2024-10-29T20:22:23.862356+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "HealthDomain/Health/healthdb_secure.sqlite",
+    "table": "objects",
+    "column": "creation_date",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 140,
+    "count_central": 4,
+    "count_before_open": 4,
+    "first": "2024-10-15T13:13:09.265915+02:00",
+    "last": "2024-11-13T15:16:31.018626+01:00",
+    "days": {
+      "2024-10-15": 52,
+      "2024-10-16": 2,
+      "2024-10-29": 7,
+      "2024-10-30": 12,
+      "2024-10-31": 6,
+      "2024-11-04": 2,
+      "2024-11-05": 8,
+      "2024-11-08": 24,
+      "2024-11-13": 27
+    }
+  },
+  {
+    "path": "HealthDomain/Health/healthdb_secure.sqlite",
+    "table": "samples",
+    "column": "start_date",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 114,
+    "count_central": 6,
+    "count_before_open": 2,
+    "first": "2024-10-14T13:14:11.742681+02:00",
+    "last": "2024-11-13T14:36:48.832030+01:00",
+    "days": {
+      "2024-10-14": 11,
+      "2024-10-15": 17,
+      "2024-10-28": 8,
+      "2024-10-29": 12,
+      "2024-10-30": 5,
+      "2024-11-03": 3,
+      "2024-11-04": 7,
+      "2024-11-07": 12,
+      "2024-11-08": 14,
+      "2024-11-12": 10,
+      "2024-11-13": 15
+    }
+  },
+  {
+    "path": "HealthDomain/Health/healthdb_secure.sqlite",
+    "table": "samples",
+    "column": "end_date",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 114,
+    "count_central": 5,
+    "count_before_open": 1,
+    "first": "2024-10-14T14:14:11.742681+02:00",
+    "last": "2024-11-13T14:37:00.647020+01:00",
+    "days": {
+      "2024-10-15": 18,
+      "2024-11-08": 15,
+      "2024-10-14": 10,
+      "2024-10-28": 7,
+      "2024-10-29": 12,
+      "2024-10-30": 6,
+      "2024-11-03": 2,
+      "2024-11-04": 8,
+      "2024-11-07": 11,
+      "2024-11-12": 9,
+      "2024-11-13": 16
+    }
+  },
+  {
+    "path": "HomeDomain/Library/Accessibility/com.apple.RTTTranscripts.sqlite",
+    "table": "ANSCKEVENT",
+    "column": "ZENDEDAT",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-11-04T18:16:09.326809+01:00",
+    "last": "2024-11-04T18:16:09.345970+01:00",
+    "days": {
+      "2024-11-04": 2
+    }
+  },
+  {
+    "path": "HomeDomain/Library/Accessibility/com.apple.RTTTranscripts.sqlite",
+    "table": "ANSCKEVENT",
+    "column": "ZSTARTEDAT",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-11-04T18:16:09.314919+01:00",
+    "last": "2024-11-04T18:16:09.344931+01:00",
+    "days": {
+      "2024-11-04": 2
+    }
+  },
+  {
+    "path": "HomeDomain/Library/Accessibility/com.apple.personalaudio.sqlite",
+    "table": "ANSCKEVENT",
+    "column": "ZENDEDAT",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 14,
+    "count_central": 1,
+    "count_before_open": 1,
+    "first": "2024-10-15T13:13:09.332789+02:00",
+    "last": "2024-11-13T14:37:16.000477+01:00",
+    "days": {
+      "2024-10-15": 10,
+      "2024-10-16": 1,
+      "2024-11-04": 1,
+      "2024-11-07": 1,
+      "2024-11-13": 1
+    }
+  },
+  {
+    "path": "HomeDomain/Library/Accessibility/com.apple.personalaudio.sqlite",
+    "table": "ANSCKEVENT",
+    "column": "ZSTARTEDAT",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 13,
+    "count_central": 1,
+    "count_before_open": 1,
+    "first": "2024-10-15T13:13:20.987614+02:00",
+    "last": "2024-11-13T14:37:15.963102+01:00",
+    "days": {
+      "2024-10-15": 9,
+      "2024-10-16": 1,
+      "2024-11-04": 1,
+      "2024-11-07": 1,
+      "2024-11-13": 1
+    }
+  },
+  {
+    "path": "HomeDomain/Library/AddressBook/AddressBook.sqlitedb",
+    "table": "ClientCursor",
+    "column": "latest_consumed_timestamp",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:16:29.130492+02:00",
+    "last": "2024-10-29T10:15:01.520705+01:00",
+    "days": {
+      "2024-10-15": 1,
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "HomeDomain/Library/AddressBook/AddressBook.sqlitedb",
+    "table": "ClientSequence",
+    "column": "save_timestamp",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 52,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:13:30.130208+02:00",
+    "last": "2024-11-13T14:38:49.908859+01:00",
+    "days": {
+      "2024-10-15": 21,
+      "2024-10-29": 10,
+      "2024-10-31": 5,
+      "2024-11-04": 8,
+      "2024-11-07": 1,
+      "2024-11-13": 7
+    }
+  },
+  {
+    "path": "HomeDomain/Library/AddressBook/AddressBook.sqlitedb",
+    "table": "ABPerson",
+    "column": "CreationDate",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 10,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:14:31+02:00",
+    "last": "2024-10-15T13:14:32+02:00",
+    "days": {
+      "2024-10-15": 10
+    }
+  },
+  {
+    "path": "HomeDomain/Library/AddressBook/AddressBook.sqlitedb",
+    "table": "ABPerson",
+    "column": "ModificationDate",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 43,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:14:32+02:00",
+    "last": "2024-10-15T13:16:20+02:00",
+    "days": {
+      "2024-10-15": 43
+    }
+  },
+  {
+    "path": "HomeDomain/Library/Avatar/CoreDataBackend/avatars.db",
+    "table": "ANSCKEVENT",
+    "column": "ZENDEDAT",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T08:52:50.169572+01:00",
+    "last": "2024-10-29T08:52:50.676955+01:00",
+    "days": {
+      "2024-10-29": 2
+    }
+  },
+  {
+    "path": "HomeDomain/Library/Avatar/CoreDataBackend/avatars.db",
+    "table": "ANSCKEVENT",
+    "column": "ZSTARTEDAT",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 2,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T08:52:50.141695+01:00",
+    "last": "2024-10-29T08:52:50.541400+01:00",
+    "days": {
+      "2024-10-29": 2
+    }
+  },
+  {
+    "path": "HomeDomain/Library/Calendar/Calendar.sqlitedb",
+    "table": "OccurrenceCache",
+    "column": "occurrence_date",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 8,
+    "count_central": 2,
+    "count_before_open": 2,
+    "first": "2024-10-27T00:00:00+02:00",
+    "last": "2024-11-11T00:00:00+01:00",
+    "days": {
+      "2024-10-27": 2,
+      "2024-11-01": 3,
+      "2024-11-11": 3
+    }
+  },
+  {
+    "path": "HomeDomain/Library/Calendar/Calendar.sqlitedb",
+    "table": "OccurrenceCache",
+    "column": "occurrence_end_date",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 8,
+    "count_central": 2,
+    "count_before_open": 2,
+    "first": "2024-10-27T23:59:59+01:00",
+    "last": "2024-11-11T23:59:59+01:00",
+    "days": {
+      "2024-11-01": 3,
+      "2024-11-11": 3,
+      "2024-10-27": 2
+    }
+  },
+  {
+    "path": "HomeDomain/Library/Calendar/Calendar.sqlitedb",
+    "table": "CalendarItem",
+    "column": "start_date",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 3,
+    "count_central": 1,
+    "count_before_open": 1,
+    "first": "2024-10-27T02:00:00+02:00",
+    "last": "2024-11-11T01:00:00+01:00",
+    "days": {
+      "2024-10-27": 1,
+      "2024-11-01": 1,
+      "2024-11-11": 1
+    }
+  },
+  {
+    "path": "HomeDomain/Library/Calendar/Calendar.sqlitedb",
+    "table": "CalendarItem",
+    "column": "end_date",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 3,
+    "count_central": 1,
+    "count_before_open": 1,
+    "first": "2024-10-28T00:59:59+01:00",
+    "last": "2024-11-12T00:59:59+01:00",
+    "days": {
+      "2024-10-28": 1,
+      "2024-11-02": 1,
+      "2024-11-12": 1
+    }
+  },
+  {
+    "path": "HomeDomain/Library/Calendar/Calendar.sqlitedb",
+    "table": "CalendarItem",
+    "column": "creation_date",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-15T13:16:21.203215+02:00",
+    "last": "2024-10-15T13:16:21.203215+02:00",
+    "days": {
+      "2024-10-15": 1
+    }
+  },
+  {
+    "path": "HomeDomain/Library/TCC/TCC.db",
+    "table": "access",
+    "column": "last_modified",
+    "format_hypothesis": "unix_s",
+    "count_extended": 19,
+    "count_central": 1,
+    "count_before_open": 1,
+    "first": "2024-10-15T13:16:20+02:00",
+    "last": "2024-10-29T16:39:44+01:00",
+    "days": {
+      "2024-10-15": 12,
+      "2024-10-29": 7
+    }
+  },
+  {
+    "path": "HomeDomain/Library/TCC/TCC.db",
+    "table": "access",
+    "column": "last_reminded",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T16:38:52+01:00",
+    "last": "2024-10-29T16:38:52+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "HomeDomain/Library/com.apple.itunesstored/itunesstored2.sqlitedb",
+    "table": "ZINAPPREVIEWREQUEST",
+    "column": "ZDATE",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T16:31:43.876845+01:00",
+    "last": "2024-10-29T16:31:43.876845+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  },
+  {
+    "path": "KeyboardDomain/Library/Keyboard/user_model_database.sqlite",
+    "table": "usermodeldurablerecords",
+    "column": "last_update_date",
+    "format_hypothesis": "unix_s",
+    "count_extended": 1,
+    "count_central": 1,
+    "count_before_open": 1,
+    "first": "2024-10-15T13:35:42.098506+02:00",
+    "last": "2024-10-15T13:35:42.098506+02:00",
+    "days": {
+      "2024-10-15": 1
+    }
+  },
+  {
+    "path": "RootDomain/Library/Caches/locationd/consolidated.db",
+    "table": "GeoFence",
+    "column": "Timestamp",
+    "format_hypothesis": "cocoa_s",
+    "count_extended": 1,
+    "count_central": 0,
+    "count_before_open": 0,
+    "first": "2024-10-29T09:09:05.394891+01:00",
+    "last": "2024-10-29T09:09:05.394891+01:00",
+    "days": {
+      "2024-10-29": 1
+    }
+  }
+]

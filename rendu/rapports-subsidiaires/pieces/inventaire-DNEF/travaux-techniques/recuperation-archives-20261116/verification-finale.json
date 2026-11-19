@@ -1,0 +1,29 @@
+{
+  "completed_scan": true,
+  "bytes_accounting_ok": true,
+  "mft_sha256_matches_previous": true,
+  "reference_copy_checks": [
+    {
+      "file": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/travaux-techniques/recuperation-archives-20261116/prive/references/Archive_saddedine.lnk",
+      "sha256": "a967bdcddfe44f9ac0cd534b1ab7653e4686201151ea7c95db96ecb91018d2ee",
+      "ok": true
+    },
+    {
+      "file": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/travaux-techniques/recuperation-archives-20261116/prive/references/Rejets_saddedine.lnk",
+      "sha256": "54d5d9057b82cf9b6420f75422037261f6fe4510df295bc0cbbae0d33d36d0fd",
+      "ok": true
+    },
+    {
+      "file": "/media/shared/codeProjects/DMMConseils/inventaire-DNEF/travaux-techniques/recuperation-archives-20261116/prive/references/Inventaire_saddedine.lnk",
+      "sha256": "f0b753b121b8d402956949c2750c696163f8769fae454c2641b2f4f8e5e045ca",
+      "ok": true
+    }
+  ],
+  "raw_zip_candidates_review_required": false,
+  "archives_saved": [],
+  "read_errors": [],
+  "elapsed_hours": 0.9485555729441667,
+  "vss_derived_first_store_only": true,
+  "vss_target_name_hits_are_lnk": true,
+  "shell_items_are_metadata_not_content": true
+}

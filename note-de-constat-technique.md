@@ -1,8 +1,74 @@
-# Note de constats techniques
+<div class="page-presentation" markdown="1">
 
-**Dossier :** SADEDINE-2026 — Mme Malika Sadedine, DMM Conseils  
-**Auteur :** Christophe Donnat — Donnat Dev  
-**Date :** 18 novembre 2026
+<div class="coordonnees">
+<div class="prestataire">
+<strong>Christophe Donnat — Donnat Dev</strong><br>
+Entrepreneur individuel (micro-entreprise)<br>
+40 rue Albert Janicot<br>
+66000 Perpignan<br>
+SIRET : 109 057 588 00013<br>
+Téléphone : 06 75 40 18 47<br>
+Courriel : christophe@donnat.dev
+</div>
+<div class="cliente">
+<strong>Madame Malika SADEDINE</strong><br>
+Présidente de la SASU DMM CONSEILS<br>
+SIRET : 823 492 483 00016<br>
+111 avenue Victor Hugo<br>
+93300 Aubervilliers<br>
+Téléphone : 07 82 86 55 92<br>
+Courriel : dmmconseils@hotmail.com
+</div>
+</div>
+
+# Note de constats techniques — Dossier SADEDINE-2026
+
+<div class="date-presentation" markdown="1">
+
+**Date :** 19 novembre 2026  
+**Version initiale :** 18 novembre 2026  
+**Nombre de pages :** 22, présentation et tableau récapitulatif compris.
+
+</div>
+
+## Éléments examinés
+
+- **OP-01** : image du volume Windows de l’ordinateur ASUS.
+- **TP-01** : sauvegarde de l’iPhone 13 et photographie d’identification.
+- **TP-02** : sauvegarde de l’iPhone 13 mini.
+- **TP-03** : sauvegarde de l’iPhone 13 mini.
+- **SD-03** : image de la carte mémoire et dérivés vidéo référencés.
+- **Inventaire DNEF** : fichier transmis `Inventaire_saddedine.csv` ; provenance du CD fourni par la DNEF précisée par la cliente, sans examen matériel du disque dans les travaux présentés.
+
+**Destination indiquée par la cliente :** production devant le Premier président de la cour d’appel de Paris, **RG 24/18210 et RG 24/20390**, et communication à l’administration fiscale.
+
+</div>
+
+<div class="page-recapitulative" markdown="1">
+
+## Tableau récapitulatif des constats
+
+| N° | Objet | Fait principal |
+| --- | --- | --- |
+| 1 | Inventaire et L16B | 1 552 SHA-512 concordants, 3 divergents ; 3 fichiers supplémentaires. |
+| 2 | Correspondances avec avocats | 21 messages avec avocats et 2 extraits d’en-têtes cités. |
+| 3 | PDF Bourarach | PDF présent ; SHA-512 concordant avec l’inventaire. |
+| 4 | PDF Sage | 458 pages ALMU ; 85 dénominations destinataires. |
+| 5 | Échanges et données Sage | Échanges HTTP 200 avec Sage et sorties PDF le 28/10/2024. |
+| 6 | Samsung USB et réseaux | RNDIS puis réseau ; retrait puis déconnexion à 0,188789 s. |
+| 7 | Kingston et chemins USB | 3 identifiants Kingston ; chemins E:\saddedine consignés. |
+| 8 | Corbeille Windows | 10 entrées de corbeille datées du 28/10/2024. |
+| 9 | Identification TP-01 | Photo : modèle MNGK3ZD/A et série Q13QT4F164. |
+| 10 | PDF des deux iPhone mini | 27 PDF, 20 contenus ; 17 dernières utilisations TP-03 le 15/10. |
+| 11 | Wi-Fi TP-02 | Champs Wi-Fi ASUS_Z01RD datés du 17/10/2024. |
+| 12 | Captures du salon | 6 captures, du timecode 00:00:00 à 00:01:20. |
+| 13 | Dernier clip SD-03 | Dernier clip du 15/10 ; aucun nom de clip du 16 au 28/10. |
+| 14 | Provenance de l’inventaire | CSV reçu : 1 555 chemins ; provenance CD DNEF déclarée. |
+| 15 | TP-03 le 15 octobre | Traces TCC, Mail, Fichiers, clavier et autres champs datés. |
+
+Chaque ligne renvoie au constat de même numéro. Les sources, références et limites figurent dans le développement ; ce tableau ne les remplace pas.
+
+</div>
 
 Cette note reprend les observations consignées dans les rapports et les relevés techniques référencés ci-dessous. Elle est distincte de ces rapports. Elle présente les faits observés, leurs sources et leurs références, avec une ligne de limite technique par constat. Les heures sont celles enregistrées dans les artefacts, exprimées en heure de Paris lorsque leur conversion est documentée : UTC+2 les 15 et 17 octobre 2024, UTC+1 le 28 octobre 2024. Les timecodes vidéo indiquent un temps écoulé ; les heures incrustées sont reproduites séparément.
 
@@ -17,7 +83,7 @@ Les codes **OP-01**, **TP-01**, **TP-02**, **TP-03** et **SD-03** sont les réf�
 | **TP-02** | Téléphone **Apple iPhone 13 mini** | Série **F5466LV9V7**, modèle **MLK83KH/A** ; sauvegarde identifiée par `Info.plist`. |
 | **TP-03** | Téléphone **Apple iPhone 13 mini** | Série **Y4Q9KGHG26**, modèle **MLK83F/A** ; sauvegarde identifiée par les champs `Lockdown` de `Manifest.plist`. |
 | **SD-03** | Carte mémoire **32 Go**, associée aux vidéos du **salon** | Marque transcrite « ScanDisk » dans l’attestation, sans série individuelle confirmée ; image acquise sous les noms `SD03.E01` à `SD03.E12`. |
-| **CD « DMM »** | Désignation du support d’origine indiquée par la cliente | Disque non remis au prestataire ; seul le fichier transmis **`Inventaire_saddedine.csv`** a été examiné. |
+| **Inventaire DNEF** | Fichier transmis `Inventaire_saddedine.csv` | Provenance du CD fourni par l’administration (DNEF) précisée par la cliente ; seul le fichier transmis a été examiné dans les travaux présentés. |
 
 **Sources d’identification :** [attestation de remise, annexe 1](remise-documents/attestation-de-remise.md) ; rapports [OP-01, § 3.1](ordinateur/analyse-ordinateur.md), [TP-01, § 2.1](telephones/analyse-TP-01.md), [TP-02, § 3.1](telephones/analyse-TP-02.md), [TP-03, § 2.1](telephones/analyse-TP-03.md) et [SD-03, § 3.1](cartes_sd/analyse-cartes_sd-SD-03.md). Le rattachement des deux iPhone mini aux numéros de scellés 3 et 4 n’est pas établi dans ces pièces.
 
@@ -47,6 +113,27 @@ Ces repères sont également repris dans les rapports [OP-01, § 4.1](ordinateur
 
 
 Les trois fichiers présents en plus des chemins du CSV sont `C:\L16B\GDRIVE.zip`, `C:\L16B\GDRIVE (2).zip` et `C:\L16B\MESSAGERIES\misssmalika@hotmail.com\CADA.pdf.pdf` ; leurs dates de création NTFS `$FILE_NAME` sont en 2026.
+
+<div class="table-modifications" markdown="1">
+
+### Dates de dernière modification des six fichiers
+
+Les dates ci-dessous sont celles du champ NTFS **`$STANDARD_INFORMATION` / modification** dans l’image examinée et, lorsqu’il existe, du champ « modification » du CSV reçu. Elles sont converties en **heure de Paris**, avec UTC+1 en décembre 2022, octobre et décembre 2024, et UTC+2 en juillet et octobre 2026. Les fractions sont reproduites à la précision des champs ; elles ne constituent pas une mesure de l’exactitude des horloges.
+
+| Fichier dans OP-01 | Dernière modification dans l’image (Paris) | Modification inscrite dans le CSV (Paris) |
+| --- | --- | --- |
+| `C:\L16B\LOCAL\cle usb\USB2 (D) - Raccourci.lnk` | 03/12/2024 16:13:31,9951345 | 29/10/2021 10:58:36 |
+| `C:\L16B\LOCAL\FACT 2018 SUITE.pdf` | 13/12/2022 12:47:33,8203647 | 13/12/2022 12:47:33,8203647 |
+| `C:\L16B\MESSAGERIES\dmmconseils93300@hotmail.com.pst` | 28/10/2024 17:28:51,3525124 | 28/10/2024 17:09:17,7828811 |
+| `C:\L16B\GDRIVE (2).zip` | 27/07/2026 19:07:01,8229987 | Absent du CSV |
+| `C:\L16B\GDRIVE.zip` | 27/07/2026 19:01:35,2722600 | Absent du CSV |
+| `C:\L16B\MESSAGERIES\misssmalika@hotmail.com\CADA.pdf.pdf` | 02/10/2026 19:23:39,0127003 | Absent du CSV |
+
+Les trois premiers fichiers sont les contenus divergents des lignes 426, 481 et 1497 ; les trois autres sont absents du CSV. Une date de dernière modification est un champ de métadonnées : elle ne date pas, à elle seule, la cause d’une différence d’empreinte. Le fichier `FACT 2018 SUITE.pdf` conserve ici la même date de modification dans les deux séries, malgré des empreintes différentes.
+
+**Source complémentaire :** [relevés MFT de L16B](ordinateur/recherche-OP-01/extractions-acces/l16b-mft.jsonl), enregistrements 152379, 164555, 31663, 209557, 58676 et 230387 ; [données et calculs de la présente relecture](inventaire-DNEF/travaux-techniques/complements-note-20261119/complements.json).
+
+</div>
 
 **Source :** OP-01, image du volume Windows, dossier `C:\L16B` ; [inventaire DNEF `Inventaire_saddedine.csv`](inventaire-DNEF/documents-recus/Inventaire_saddedine.csv) ; [résultats détaillés de la comparaison SHA-512](ordinateur/recherche-OP-01/comparaison-L16B-inventaire-20261116/resultats-comparaison-L16B-inventaire.json).
 
@@ -224,6 +311,13 @@ Ces heures du 28 octobre sont postérieures à l’ouverture du scellé de l’o
 | **17:14:11.588420** | Déconnexion « Réseau 3 », NetworkProfile **7045** |
 | **17:14:11.744032** | NCSI **1766**, capacité IPv4 de 2 à 0 |
 
+### Écarts entre les horaires enregistrés
+
+- À la précision des secondes citées dans la demande (**11:18:53 → 11:18:55**), l’écart est de **2 secondes**. Dans les relevés, la configuration RNDIS, Kernel-PnP/Configuration **400**, RecordID **897**, porte **11:18:53,428110**, et la transition vers l’état connecté, NetworkProfile **4002**, RecordID **7020**, porte **11:18:55,968446** : différence **2,540336 secondes** aux six décimales des relevés. Le profil est nommé « Réseau 2 » dans l’événement NetworkProfile **10000**, RecordID **7021**, à **11:18:56,023577**.
+- Entre le retrait du Samsung à **17:14:11,399631** et la déconnexion « Réseau 3 » à **17:14:11,588420**, l’écart est de **0,188789 seconde**, soit **0,189 seconde** arrondie au millième. La soustraction des seuls horaires abrégés **17:14:11,399 → 17:14:11,588** donne également **0,189 seconde**.
+
+Ces soustractions décrivent la proximité temporelle des entrées ; elles n’établissent pas le rattachement direct des profils réseau au Samsung. Les deux premières entrées précèdent la correction d’horloge mentionnée ci-dessous.
+
 Le journal System, Kernel-General/1, RecordID **37549**, enregistre à **11:19:30** une correction d’horloge de `10:19:39.4274816Z` à `10:19:30.1890932Z`.
 
 Ces entrées du 28 octobre sont postérieures à l’ouverture du scellé de l’ordinateur à **10 h 41**. Les six feuillets du PV d’ouverture et de saisie de cette journée, pages PDF **5, 7, 9, 11, 13 et 15**, ne mentionnent ni le nom **« XCover 5 de David »**, ni la série **R58RB2ETQER**, ni une connexion Internet par partage USB Samsung.
@@ -288,6 +382,8 @@ Les dix heures de mise à la corbeille sont postérieures à l’ouverture du sc
 
 **Limite :** Le motif et l’auteur des mises à la corbeille ne sont pas établis ; les contenus des dix fichiers ont été retrouvés.
 
+<div class="constat-9" markdown="1">
+
 ## Constat n° 9 — Modèle et numéro de série de TP-01 sur la photographie disponible
 
 **Fait observé :** La photographie de l’écran « Informations » de **TP-01** affiche **iPhone 13**, la référence **MNGK3ZD/A** et le numéro de série **Q13QT4F164**. Le fichier `Info.plist` de la sauvegarde associée porte ce même numéro de série et le type produit `iPhone14,5`.
@@ -300,6 +396,10 @@ Les dix heures de mise à la corbeille sont postérieures à l’ouverture du sc
 
 **Limite :** La photographie disponible montre la face avant et ne permet pas de constater la couleur du dos de TP-01, mais le prestataire confirme avoir reçu un téléphone au dos vert.
 
+</div>
+
+<div class="identification-mini" markdown="1">
+
 ## Constat n° 10 — Deux iPhone 13 mini et vingt-sept PDF inventoriés
 
 **Fait observé :** Les identifiants relevés sont les suivants :
@@ -308,6 +408,8 @@ Les dix heures de mise à la corbeille sont postérieures à l’ouverture du sc
 | --- | --- | --- | --- |
 | **TP-02** | iPhone 13 mini, `MLK83KH/A` | **F5466LV9V7** | `Info.plist`, sauvegarde `00008110-001C69A002BA801E` |
 | **TP-03** | iPhone 13 mini, `MLK83F/A` | **Y4Q9KGHG26** | `Manifest.plist/Lockdown`, sauvegarde `00008110-001249321444801E` |
+
+</div>
 
 **Correspondance documentaire des références commerciales :** Les fiches commerciales retrouvées lors de la vérification du **18 novembre 2026** répertorient **`MLK83KH/A`** et **`MLK83F/A`** comme des **iPhone 13 mini 256 Go (PRODUCT)RED, de couleur rouge** : fiche SSG.COM pour la première référence, fiche LDLC pour la seconde. Il s’agit d’une correspondance de catalogue.
 
@@ -347,6 +449,38 @@ Le dossier `C:\L16B\TELEPHONES\IPHONE13_MINI` contient les **27 PDF** ci-dessous
 Ces 27 fichiers représentent **20 contenus distincts** par empreinte. Chacun des vingt contenus a été retrouvé dans chacune des deux sauvegardes : **46 exemplaires correspondants sur TP-02**, **26 sur TP-03**, soit **72 objets**. Pour chaque contenu, une copie se trouve dans le domaine `AppDomainGroup-group.com.apple.FileProvider.LocalStorage`, sous `File Provider Storage/`. Aucun champ de création `Birth` des 72 objets contrôlés n’est daté du 15 octobre 2024 entre 13 h 41 et 13 h 50.
 
 Dans **TP-03**, **17 objets représentant 17 contenus** portent un attribut `com.apple.lastuseddate#PS`, intitulé dernière utilisation, daté du **15 octobre 2024 entre 13 h 41 et 13 h 50** ; pour **16** de ces objets, le champ `LastStatusChange`, date de changement de statut, se situe aussi dans cette fenêtre. Aucun attribut de dernière utilisation des exemplaires **TP-02** contrôlés ne se situe dans ce créneau. Pour la copie de **`Rép  Dossier bourarach.pdf`** dans TP-03, l’attribut de dernière utilisation porte **15/10/2024 13:42:55.987134933** ; le CSV donne **13:42:57.93** dans son champ création.
+
+### Tableau des 17 objets de TP-03
+
+Les dates de « dernière utilisation » et les dates de création du CSV du tableau sont toutes du **15 octobre 2024, heure de Paris (UTC+2)**. Le champ **`LastStatusChange`** est daté intégralement : celui de **C02** est du **9 décembre 2024 (UTC+1)**, les seize autres du 15 octobre 2024. La référence C… et l’identifiant complet `fileID` désignent chaque objet dans les relevés Q1.
+
+**Calcul de l’écart :** date de création inscrite dans le CSV **moins** date de dernière utilisation de TP-03, en secondes. Le signe est conservé ; un écart négatif indique que le champ de création du CSV est antérieur au champ de dernière utilisation. Lorsqu’un même contenu correspond à plusieurs lignes de l’inventaire, **toutes ces lignes, dates et différences sont affichées dans le même ordre**, sans sélection d’un seul rapprochement. Les fractions de `lastused` sont celles décodées de l’attribut ; `LastStatusChange` est enregistré à la seconde.
+
+<div class="table-objets" markdown="1">
+
+| Objet TP-03 : référence, nom et fileID | Dernière utilisation | LastStatusChange (Paris) | Ligne CSV | Création DNEF, 15/10/2024 | Écart en secondes |
+| --- | --- | --- | --- | --- | --- |
+| **C01** — `TR Déposez votre capital social sur Qonto 📥.pdf`<br>`0b6a45fb475a09bece428d0c76dfccaf917fe627` | 13:41:24,049649000 | 15/10/2024 13:41:24 | 1559<br>1560 | 13:41:46,86<br>13:41:15,08 | +22,810351000<br>-8,969649000 |
+| **C02** — `TR  Urgent.pdf`<br>`f58ad2c7ab665d10d2589cba445772d111606bcc` | 13:41:56,911901950 | 09/12/2024 17:41:25 | 1561 | 13:42:07,43 | +10,518098050 |
+| **C03** — `DEVIS DMM CONSEILS.pdf`<br>`780c4fd84e4c8466a0531982cd6d459c90e326e3` | 13:42:15,709447860 | 15/10/2024 13:42:15 | 1540 | 13:42:17,78 | +2,070552140 |
+| **C04** — `FW  SOLDE CONTRAT.pdf`<br>`0938248d8d49c29789980ffa7c2886f1964c9f18` | 13:42:36,864924907 | 15/10/2024 13:42:36 | 1550 | 13:42:42,91 | +6,045075093 |
+| **C05** — `Rép  Dossier bourarach.pdf`<br>`884095f4a80da4ec9a28b175adbb334af7cced9f` | 13:42:55,987134933 | 15/10/2024 13:42:56 | 1558 | 13:42:57,93 | +1,942865067 |
+| **C06** — `RE  FINT.pdf`<br>`36a33d5692a7d156680a81ddf539b246ed26ffb3` | 13:43:10,405284881 | 15/10/2024 13:43:10 | 1555 | 13:43:14,37 | +3,964715119 |
+| **C07** — `Facture - FA0334.pdf`<br>`ce18dd385f3d502f43f9f9ec1c29e1a7a69ddec5` | 13:43:46,159396171 | 15/10/2024 13:43:46 | 1543 | 13:43:49,39 | +3,230603829 |
+| **C09** — `RE liste des factures.pdf`<br>`c80676e6f70814c1a6e4ce3812084b64938e35b9` | 13:44:26,779971122 | 15/10/2024 13:44:26 | 1557 | 13:44:27,28 | +0,500028878 |
+| **C10** — `INV-184645.pdf`<br>`239b7dfe8016ebfdedc5d108dbd1861ea4ad5071` | 13:44:35,959236145 | 15/10/2024 13:44:35 | 1552 | 13:44:42,58 | +6,620763855 |
+| **C13** — `Avis ECH 0423 SAS RCT.pdf`<br>`66c8ec30db1c512f4fc4059c3d2229a33d7f5281` | 13:47:07,667662143 | 15/10/2024 13:47:07 | 1536<br>1537<br>1538<br>1539 | 13:47:17,66<br>13:47:25,86<br>13:47:33,92<br>13:47:09,27 | +9,992337857<br>+18,192337857<br>+26,252337857<br>+1,602337857 |
+| **C14** — `Facture - FA0037.pdf`<br>`358971b68daf4625ebd5009517006952efbdafd4` | 13:47:58,336755990 | 15/10/2024 13:47:58 | 1541 | 13:48:00,48 | +2,143244010 |
+| **C15** — `FACTURE RCT OCTOBRE.pdf`<br>`ceaf191b550666b920126efcfb84b0c2f42696f3` | 13:48:17,026661872 | 15/10/2024 13:48:17 | 1548 | 13:48:21,63 | +4,603338128 |
+| **C16** — `FACTURE RCT NOVEMBRE.pdf`<br>`56a90f25ab6060487a8a4889c3bb891ad2234868` | 13:48:32,444542884 | 15/10/2024 13:48:32 | 1547 | 13:48:33,54 | +1,095457116 |
+| **C17** — `KEDY FACTURE 202210.pdf`<br>`ad11e86aef37651125c459f5f3886245319286c2` | 13:48:56,503203868 | 15/10/2024 13:48:56 | 1553<br>1554 | 13:49:47,93<br>13:48:58,6 | +51,426796132<br>+2,096796132 |
+| **C18** — `Fattura-37_2022-SAS-RCT.pdf`<br>`ca9a9286d6ee50031b24dcf619f5b104884b7831` | 13:49:59,141520023 | 15/10/2024 13:49:59 | 1549 | 13:49:59,36 | +0,218479977 |
+| **C19** — `2022100-rct-14-07-2022.pdf`<br>`c8450017d88bfa5c70dc5ae8a7ac9df65add4e04` | 13:50:11,148422956 | 15/10/2024 13:50:11 | 1535 | 13:50:13,57 | +2,421577044 |
+| **C20** — `Facture - FA0046.pdf`<br>`d2cd86f784bae16feb64811feff9beb2bd5c0ab8` | 13:50:23,397071838 | 15/10/2024 13:50:23 | 1542 | 13:50:25,86 | +2,462928162 |
+
+</div>
+
+**Sources du tableau :** [attributs et chronologie Q1](inventaire-DNEF/travaux-techniques/recherche-Q1-20261114/prive/attributs-et-chronologie.json), relus dans [la vérification directe des manifestes](inventaire-DNEF/documents-recus/verification-20241015-1325-1351/resultats-sift-v2.json) ; [relevé des objets et calculs en décimal](inventaire-DNEF/travaux-techniques/complements-note-20261119/complements.json). La proximité de ces champs n’établit ni un geste de consultation ni un transfert sur OP-01 à ces horaires.
 
 Sur **OP-01**, les 27 dates de création du CSV sont égales aux valeurs du champ NTFS `$STANDARD_INFORMATION`. Les champs de création `$FILE_NAME` des 27 PDF dans le dossier final `IPHONE13_MINI` portent, eux, le **28 octobre 2024, de 17:13:43.2355080 à 17:13:43.8934745**. Le PV du 28 octobre, **feuillet 4/6**, page PDF **11**, décrit une copie de fichiers depuis un **« 1er iPhone 13 Mini (ROUGE) »** vers ce dossier, puis indique qu’aucune édition ni copie de fichiers n’a été réalisée depuis le second Mini. Ce passage ne donne pas les numéros de série permettant de désigner TP-02 ou TP-03.
 
@@ -415,20 +549,57 @@ Les heures incrustées sur ces captures, de **13:24:49 à 13:26:09**, sont anté
 
 **Limite :** Le corpus n’établit ni la cause de l’absence de fichiers ni la continuité d’enregistrement de la caméra ; le dernier clip comporte une erreur vidéo intermédiaire.
 
-## Constat n° 14 — Fichier d’inventaire transmis comme provenant du CD « DMM »
+## Constat n° 14 — Fichier d’inventaire transmis comme provenant du CD fourni par la DNEF
 
-**Fait observé :** Le fichier transmis par la cliente est **`Inventaire_saddedine.csv`**. Il comporte **1 555 chemins de fichiers** et leurs empreintes SHA-512. Son empreinte SHA-256 est `f2a4e9d05cca5c7b8082da42df76fca45e870f3e3acbbdf6ff03c07e68293c40`. La provenance du CD **« DMM »** est indiquée par la cliente. Le support physique n’a pas été remis au prestataire ; l’examen porte sur le fichier transmis.
+**Fait observé :** Le fichier transmis par la cliente est **`Inventaire_saddedine.csv`**. Il comporte **1 555 chemins de fichiers** et leurs empreintes SHA-512. Son empreinte SHA-256, recalculée sur le fichier reçu pour la présente relecture, est **`f2a4e9d05cca5c7b8082da42df76fca45e870f3e3acbbdf6ff03c07e68293c40`**, identique à celle indiquée par la cliente.
+
+**Provenance précisée par la cliente :** ce CSV provient du **CD fourni par l’administration fiscale (DNEF)**, et non d’un « CD DMM ». Cette provenance est une indication communiquée par la cliente. Elle annonce la remise du CD pour permettre le contrôle du contenu, des sessions, des inscriptions et du numéro gravé, ainsi que la comparaison du fichier présent sur ce support avec le CSV analysé.
 
 Le PV du 28 octobre, **feuillet 4/6**, page PDF **11**, mentionne une authentification numérique des fichiers et la gravure des inventaires sur **deux CD non réinscriptibles et finalisés**, dont un destiné à Mme Sadedine.
 
-**Source :** [Fichier reçu `inventaire-DNEF/documents-recus/Inventaire_saddedine.csv`](inventaire-DNEF/documents-recus/Inventaire_saddedine.csv) ; indication de provenance communiquée par la cliente ; [PV du 28 octobre, page PDF 11](docs/PV%20DE%20SAISIE.pdf#page=11).
+**Source :** [fichier reçu `Inventaire_saddedine.csv`](inventaire-DNEF/documents-recus/Inventaire_saddedine.csv) ; précision de provenance et annonce de remise du support dans la demande de complément de la cliente ; [PV du 28 octobre, page PDF 11](docs/PV%20DE%20SAISIE.pdf#page=11) ; [recalcul SHA-256 et sources de la relecture](inventaire-DNEF/travaux-techniques/complements-note-20261119/complements.json).
 
-**Référence :** [Rapport OP-01](ordinateur/analyse-ordinateur.md), § 7.8, pour la comparaison du fichier CSV reçu avec L16B ; aucun examen du support CD n’est rapporté.
+**Référence :** [rapport OP-01](ordinateur/analyse-ordinateur.md), § 7.8, pour la comparaison du fichier CSV reçu avec L16B. La désignation « CD DMM » de la version initiale de cette note est remplacée par la précision de provenance ci-dessus.
 
-**Limite :** Sans examen du CD, ni l’identité du CSV avec l’inventaire gravé le 28 octobre 2024 ni le contenu complet, les sessions, les inscriptions et le numéro gravé du disque ne sont vérifiés.
+**Limite :** Aucun examen matériel du CD n’est documenté dans les travaux utilisés pour la présente version. L’identité du fichier gravé avec le CSV reçu, le contenu complet, les sessions, les inscriptions et le numéro gravé du disque restent à vérifier sur le support. Le recalcul de l’empreinte du seul fichier reçu ne constitue pas cette vérification du CD.
+
+<div class="constat-15" markdown="1">
+
+## Constat n° 15 — Traces datées de TP-03 le 15 octobre 2024 entre 13 h 25 et 13 h 51
+
+**Fait observé :** Les dérivés de la sauvegarde **TP-03** conservent les entrées ci-dessous dans cette fenêtre. Les heures sont celles des champs enregistrés, converties en **heure de Paris, UTC+2**. Les transactions logicielles et les dates de propriétés sont désignées séparément.
+
+| Heure enregistrée le 15/10/2024 (Paris) | Source / entrée | Valeur ou fait enregistré |
+| --- | --- | --- |
+| 13:25:02,400952 | Préférences `coreduetd`, flux `/app/intents` | Date de la propriété de notification de tombstonage de ce flux. |
+| 13:25:26 | TCC, ligne 39529, Mail | `kTCCServiceUbiquity` ; `auth_value=2`, `auth_reason=4`. |
+| 13:25:30,661993 à 13:29:09,106157 | TipKit de Mail, transactions 8164 à 8196 | **33 transactions** attribuées à `MobileMail` ; 35 changements de règles et 13 de paramètres. |
+| 13:27:59 | TCC, ligne 39531, Téléphone | Client `com.apple.mobilephone` ; même service et valeurs d’autorisation. |
+| 13:29:50 | TCC, ligne 39532, Fichiers | Client `com.apple.DocumentsApp` ; même service et valeurs d’autorisation. |
+| 13:29:50,324222 à 13:29:50,341425 | TipKit de Fichiers, transactions 254 à 258 | **5 transactions** attribuées à `Files` ; 7 changements de règles `CoreRuleRecord`. |
+| 13:35:42,098506 | Modèle clavier, ligne 1 | Mise à jour du compteur cumulé `tium.totalWordsTypedInSecondaryLanguage`, valeur **302128**. |
+| 13:40:52 | TCC, ligne 39533, Musique | Client `com.apple.Music` ; même service et valeurs d’autorisation. |
+| 13:41:02,145052 | `PeopleSuggester.SeedSuggestions`, champ `DeviceIdDate` | Date associée à l’identifiant `DeviceId` ; les deux clés sont conservées dans le fichier. |
+| 13:41:24,049649000 à 13:50:23,397071838 | Attributs `com.apple.lastuseddate#PS` des PDF | **17 objets / 17 contenus** datés dans la fenêtre ; détail au constat 10. |
+| 13:50:40,668150 | Préférences `coreduetd` | Date de `_DKTombstoneEligibleForPredictionIdentifierActivityDate`. |
+| 13:50:40,668330 | Préférences `coreduetd`, flux `/app/activity` | Date de la propriété de notification de tombstonage de ce flux. |
+
+Les lignes TCC portent `boot_uuid=UNUSED`. Les deux conseils TipKit de Mail et le conseil TipKit de Fichiers ont `ZLASTDISPLAYED=NULL` dans l’état sauvegardé. Les tables actuelles de donations et d’événements contrôlées pour Fichiers sont vides.
+
+**Source :** [vérification directe TCC, Mail, clavier, PeopleSuggester et PDF](inventaire-DNEF/documents-recus/verification-20241015-1325-1351/resultats-sift-v2.json) ; [complément TipKit Fichiers](inventaire-DNEF/documents-recus/verification-20241015-1325-1351/complement-fichiers-sift.json) ; [relevé des préférences TP-03](inventaire-DNEF/travaux-techniques/investigations-B-E-20261114/prive/telephones-passe2/resultats.json).
+
+**Référence :** [rapport TP-03](telephones/analyse-TP-03.md), §§ 5.2 et 7.4 ; [note de vérification de la fenêtre 13:25–13:51](inventaire-DNEF/rapports/Note_reponse_TP02_TP03_15oct2024.md).
+
+**Limite :** Ces entrées ne constituent pas un journal exhaustif des gestes sur le téléphone. Les valeurs TCC ne démontrent pas un clic d’autorisation ; PeopleSuggester ne démontre pas l’ouverture du menu de partage ; le compteur du clavier ne fournit ni texte saisi ni saisie de code ; les propriétés coreduetd ne démontrent pas une suppression humaine de documents. Aucun événement explicite de premier déverrouillage, de déverrouillage d’écran, de consultation humaine, de partage ou d’impression de PDF n’est établi par ces seuls relevés. Les horloges de la vidéo et des téléphones n’ont pas été étalonnées indépendamment.
+
+</div>
+
+<div class="signature-finale" markdown="1">
 
 ---
 
-Établie le **18 novembre 2026**.
+Version initiale établie le **18 novembre 2026** ; présente version complétée le **19 novembre 2026**, sur la base des relevés existants et des précisions de la cliente.
 
 **Christophe Donnat — Donnat Dev**  
+
+</div>

@@ -1,0 +1,42 @@
+MFT Entry Header Values:
+Entry: 113002        Sequence: 28
+$LogFile Sequence Number: 96707891044
+Allocated File
+Links: 2
+
+$STANDARD_INFORMATION Attribute Values:
+Flags: Archive, Not Content Indexed
+Owner ID: 0
+Security ID: 3955  (S-1-5-21-1394434332-468722268-2897565647-1001)
+Last User Journal Update Sequence Number: 20720509320
+Created:	2022-07-04 11:19:51.009276400 (UTC)
+File Modified:	2023-12-14 15:43:30.457909400 (UTC)
+MFT Modified:	2023-12-14 15:43:30.459904100 (UTC)
+Accessed:	2026-10-08 10:37:50.198945100 (UTC)
+
+$FILE_NAME Attribute Values:
+Flags: Archive, Not Content Indexed
+Name: 000081~1.PLI
+Parent MFT Entry: 139406 	Sequence: 9
+Allocated Size: 12288   	Actual Size: 9498
+Created:	2023-12-14 15:43:30.456912300 (UTC)
+File Modified:	2023-12-14 15:43:30.457909400 (UTC)
+MFT Modified:	2023-12-14 15:43:30.457909400 (UTC)
+Accessed:	2023-12-14 15:43:30.457909400 (UTC)
+
+$FILE_NAME Attribute Values:
+Flags: Archive, Not Content Indexed
+Name: 00008110-001249321444801E.plist
+Parent MFT Entry: 139406 	Sequence: 9
+Allocated Size: 12288   	Actual Size: 9498
+Created:	2023-12-14 15:43:30.456912300 (UTC)
+File Modified:	2023-12-14 15:43:30.457909400 (UTC)
+MFT Modified:	2023-12-14 15:43:30.457909400 (UTC)
+Accessed:	2023-12-14 15:43:30.457909400 (UTC)
+
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 72
+Type: $FILE_NAME (48-6)   Name: N/A   Resident   size: 90
+Type: $FILE_NAME (48-5)   Name: N/A   Resident   size: 128
+Type: $DATA (128-4)   Name: N/A   Non-Resident   size: 9498  init_size: 9498
+1822856 1822857 1822858 

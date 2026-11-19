@@ -98,4 +98,4 @@ Une mention au PV documenterait une opération consignée. Le caractère juridiq
 
 Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
 
-Christophe DOnnat — Donnat Dev
+Christophe Donnat — Donnat Dev

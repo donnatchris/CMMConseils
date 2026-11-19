@@ -1,0 +1,878 @@
+[
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 88,
+    "utc": "2024-12-04T13:44:25.478455+00:00",
+    "provider_guid": "818a7ac6-cfbb-30a5-d59e-4b1c5051a8ad",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "c67a8a81bbcfa530d59e4b1c5051a8ad2e44e2a15246db015c4e0000d00d0000d12dd7018495ce43b52ebc555d29936a",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": []
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 144,
+    "utc": "2024-12-04T13:44:25.478455+00:00",
+    "provider_guid": "818a7ac6-cfbb-30a5-d59e-4b1c5051a8ad",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "c67a8a81bbcfa530d59e4b1c5051a8ad3544e2a15246db015c4e0000d00d000057f49c4775afdc4c8c88124c0693b5f6",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": []
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 200,
+    "utc": "2024-12-04T13:44:26.441395+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707f83275a25246db015c4e0000d00d00006d0073005f006e006400690073006300610070000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndiscap"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 280,
+    "utc": "2024-12-04T13:44:26.446444+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db70745f875a25246db015c4e0000d00d00006d0073005f006e006400690073006300610070000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndiscap"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 360,
+    "utc": "2024-12-04T13:44:26.448467+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7073d4776a25246db015c4e0000d00d00006d0073005f006e006400690073006300610070000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndiscap"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 440,
+    "utc": "2024-12-04T13:44:26.450344+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7079b9076a25246db015c4e0000d00d00006d0073005f006e006400690073006300610070000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndiscap"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 520,
+    "utc": "2024-12-04T13:44:26.455578+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7070d5d77a25246db015c4e0000d00d00006d0073005f006e0065007400620074000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_netbt"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 600,
+    "utc": "2024-12-04T13:44:26.472328+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db70766eb79a25246db015c4e0000d00d00006d0073005f006e0065007400620074000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_netbt"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 680,
+    "utc": "2024-12-04T13:44:26.501358+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db70752597ea25246db015c4e0000d00d00006d0073005f00700061006300650072000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_pacer"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 760,
+    "utc": "2024-12-04T13:44:26.504253+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db70769ca7ea25246db015c4e0000d00d00006d0073005f007700660070006c00770066005f00750070007000650072000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_wfplwf_upper"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 856,
+    "utc": "2024-12-04T13:44:26.518988+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707060a81a25246db015c4e0000d00d00004e006f00720064004c00770066000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "NordLwf"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 936,
+    "utc": "2024-12-04T13:44:26.538063+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7071ff383a25246db015c4e0000d00d00006d0073005f007700660070006c00770066005f006c006f007700650072000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_wfplwf_lower"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1032,
+    "utc": "2024-12-04T13:44:26.539396+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707332784a25246db015c4e0000d00d00006d0073005f007400630070006900700036000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_tcpip6"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1112,
+    "utc": "2024-12-04T13:44:26.540701+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707315a84a25246db015c4e0000d00d00006d0073005f007200730070006e00640072000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_rspndr"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1192,
+    "utc": "2024-12-04T13:44:26.715927+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707f2169fa25246db015c4e0000d00d00006d0073005f006e00640069007300750069006f000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndisuio"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1272,
+    "utc": "2024-12-04T13:44:26.717058+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db70724439fa25246db015c4e0000d00d00006d0073005f006c006c00640070000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_lldp"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1352,
+    "utc": "2024-12-04T13:44:26.718584+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707c77e9fa25246db015c4e0000d00d00006d0073005f007000700070006f0065000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_pppoe"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1432,
+    "utc": "2024-12-04T13:44:26.719812+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707abae9fa25246db015c4e0000d00d00006d0073005f00720064006d0061005f006e0064006b000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_rdma_ndk"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1520,
+    "utc": "2024-12-04T13:44:26.720959+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7076adb9fa25246db015c4e0000d00d00006d0073005f006e006400690073006300610070000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndiscap"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1600,
+    "utc": "2024-12-04T13:44:26.722105+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7074308a0a25246db015c4e0000d00d00006d0073005f006c006c007400640069006f000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_lltdio"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1680,
+    "utc": "2024-12-04T13:44:26.723160+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7076b31a0a25246db015c4e0000d00d00006d0073005f00740063007000690070000000d12dd7018495ce43b52ebc555d29936a00",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_tcpip"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1760,
+    "utc": "2024-12-04T13:44:27.137541+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707296cdfa25246db015c4e0000d00d00006d0073005f006e00640069007300630061007000000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndiscap"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1840,
+    "utc": "2024-12-04T13:44:27.141785+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707fe11e0a25246db015c4e0000d00d00006d0073005f006e00640069007300630061007000000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndiscap"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 1920,
+    "utc": "2024-12-04T13:44:27.142775+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707b638e0a25246db015c4e0000d00d00006d0073005f006e00640069007300630061007000000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndiscap"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2000,
+    "utc": "2024-12-04T13:44:27.144146+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707416ee0a25246db015c4e0000d00d00006d0073005f006e00640069007300630061007000000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndiscap"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2080,
+    "utc": "2024-12-04T13:44:27.146343+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db70714c4e0a25246db015c4e0000d00d00006d0073005f006e006500740062007400000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_netbt"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2160,
+    "utc": "2024-12-04T13:44:27.147459+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7079befe0a25246db015c4e0000d00d00006d0073005f006e006500740062007400000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_netbt"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2240,
+    "utc": "2024-12-04T13:44:27.148647+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7070e1ee1a25246db015c4e0000d00d00006d0073005f007700660070006c00770066005f0075007000700065007200000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_wfplwf_upper"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2336,
+    "utc": "2024-12-04T13:44:27.149870+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707ce4de1a25246db015c4e0000d00d00006d0073005f00740063007000690070003600000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_tcpip6"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2416,
+    "utc": "2024-12-04T13:44:27.150928+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7072a77e1a25246db015c4e0000d00d00006d0073005f007200730070006e0064007200000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_rspndr"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2496,
+    "utc": "2024-12-04T13:44:27.152109+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db70746a5e1a25246db015c4e0000d00d00006d0073005f007000700070006f006500000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_pppoe"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2576,
+    "utc": "2024-12-04T13:44:27.153969+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707f2ede1a25246db015c4e0000d00d00006d0073005f0070006100630065007200000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_pacer"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2656,
+    "utc": "2024-12-04T13:44:27.155031+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7077717e2a25246db015c4e0000d00d00006d0073005f006c006c007400640069006f00000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_lltdio"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2736,
+    "utc": "2024-12-04T13:44:27.157452+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7070276e2a25246db015c4e0000d00d00006d0073005f007700660070006c00770066005f006c006f00770065007200000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_wfplwf_lower"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2832,
+    "utc": "2024-12-04T13:44:27.159901+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707a3d5e2a25246db015c4e0000d00d00006d0073005f006e00640069007300630061007000000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndiscap"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2912,
+    "utc": "2024-12-04T13:44:27.160940+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db70739fee2a25246db015c4e0000d00d00006d0073005f0074006300700069007000000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_tcpip"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 2992,
+    "utc": "2024-12-04T13:44:27.162201+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7077f2fe3a25246db015c4e0000d00d00004e006f00720064004c0077006600000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "NordLwf"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 3072,
+    "utc": "2024-12-04T13:44:27.163048+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7078d50e3a25246db015c4e0000d00d00006d0073005f00720064006d0061005f006e0064006b00000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_rdma_ndk"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 3160,
+    "utc": "2024-12-04T13:44:27.168940+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db707b836e4a25246db015c4e0000d00d00006d0073005f006e00640069007300750069006f00000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_ndisuio"
+    ]
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "buffer_index": 40,
+    "buffer_offset": 2621440,
+    "record_offset_within_buffer_data": 3240,
+    "utc": "2024-12-04T13:44:27.170153+00:00",
+    "provider_guid": "4904b9ab-9e4f-3728-0974-c82ea78db707",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "abb904494f9e28370974c82ea78db7071b66e4a25246db015c4e0000d00d00006d0073005f006c006c0064007000000057f49c4775afdc4c8c88124c0693b5f600",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "ms_lldp"
+    ]
+  },
+  {
+    "source": "Windows/System32/LogFiles/WMI/NetCore.etl",
+    "buffer_index": 4,
+    "buffer_offset": 524288,
+    "record_offset_within_buffer_data": 48744,
+    "utc": "2026-10-12T06:49:34.417509+00:00",
+    "provider_guid": "55c73011-ca5b-3da2-a4a6-d381c2d907b7",
+    "descriptor": "None",
+    "matched_guids": [
+      "479cf457-af75-4cdc-8c88-124c0693b5f6"
+    ],
+    "payload_hex": "1130c7555bcaa23da4a6d381c2d907b708e6af09000000005c0d0000f807000030003a0020007b00340037003900430046003400350037002d0041004600370035002d0034004300440043002d0038004300380038002d003100320034004300300036003900330042003500460036007d002c002000450074006800650072006e00650074002c00200031000a000000",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "0: {479CF457-AF75-4CDC-8C88-124C0693B5F6}, Ethernet, 1"
+    ]
+  },
+  {
+    "source": "Windows/System32/LogFiles/WMI/NetCore.etl",
+    "buffer_index": 4,
+    "buffer_offset": 524288,
+    "record_offset_within_buffer_data": 48896,
+    "utc": "2026-10-12T06:49:34.417513+00:00",
+    "provider_guid": "55c73011-ca5b-3da2-a4a6-d381c2d907b7",
+    "descriptor": "None",
+    "matched_guids": [
+      "3fe87be0-2003-4582-91ec-342b21078fbb"
+    ],
+    "payload_hex": "1130c7555bcaa23da4a6d381c2d907b720e6af09000000005c0d0000f807000031003a0020007b00330046004500380037004200450030002d0032003000300033002d0034003500380032002d0039003100450043002d003300340032004200320031003000370038004600420042007d002c002000450074006800650072006e00650074002c00200031000a000000",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "1: {3FE87BE0-2003-4582-91EC-342B21078FBB}, Ethernet, 1"
+    ]
+  },
+  {
+    "source": "Windows/System32/LogFiles/WMI/NetCore.etl",
+    "buffer_index": 4,
+    "buffer_offset": 524288,
+    "record_offset_within_buffer_data": 49048,
+    "utc": "2026-10-12T06:49:34.417515+00:00",
+    "provider_guid": "55c73011-ca5b-3da2-a4a6-d381c2d907b7",
+    "descriptor": "None",
+    "matched_guids": [
+      "01d72dd1-9584-43ce-b52e-bc555d29936a"
+    ],
+    "payload_hex": "1130c7555bcaa23da4a6d381c2d907b73ae6af09000000005c0d0000f807000032003a0020007b00300031004400370032004400440031002d0039003500380034002d0034003300430045002d0042003500320045002d004200430035003500350044003200390039003300360041007d002c002000450074006800650072006e00650074002c00200031000a000000",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "2: {01D72DD1-9584-43CE-B52E-BC555D29936A}, Ethernet, 1"
+    ]
+  },
+  {
+    "source": "Windows/System32/LogFiles/WMI/NetCore.etl",
+    "buffer_index": 4,
+    "buffer_offset": 524288,
+    "record_offset_within_buffer_data": 49200,
+    "utc": "2026-10-12T06:49:34.417519+00:00",
+    "provider_guid": "55c73011-ca5b-3da2-a4a6-d381c2d907b7",
+    "descriptor": "None",
+    "matched_guids": [
+      "054b7ef2-df55-45f0-8cb6-19e42a42eeb3"
+    ],
+    "payload_hex": "1130c7555bcaa23da4a6d381c2d907b752e6af09000000005c0d0000f807000033003a0020007b00300035003400420037004500460032002d0044004600350035002d0034003500460030002d0038004300420036002d003100390045003400320041003400320045004500420033007d002c002000450074006800650072006e00650074002c00200031000a000000",
+    "provider_name": null,
+    "symbol": null,
+    "struct": "None",
+    "fields": {},
+    "utf16_strings": [
+      "3: {054B7EF2-DF55-45F0-8CB6-19E42A42EEB3}, Ethernet, 1"
+    ]
+  }
+]

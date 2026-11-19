@@ -1,0 +1,137 @@
+{
+  "fileID": "daf74a189f4b8e8e71c8e3a2feb211d940ca875c",
+  "header_temporal": [
+    {
+      "locator": "metadata/timestamp",
+      "raw": "2024-10-28 12:26:29.00 +0100",
+      "json_type": "str"
+    }
+  ],
+  "body_temporal": [
+    {
+      "locator": "crash/uptime",
+      "raw": 2500,
+      "json_type": "int"
+    },
+    {
+      "locator": "crash/captureTime",
+      "raw": "2024-10-28 12:26:28.7192 +0100",
+      "json_type": "str"
+    },
+    {
+      "locator": "crash/procLaunch",
+      "raw": "2024-10-17 17:15:46.8308 +0200",
+      "json_type": "str"
+    },
+    {
+      "locator": "crash/procStartAbsTime",
+      "raw": 18054155057,
+      "json_type": "int"
+    },
+    {
+      "locator": "crash/procExitAbsTime",
+      "raw": 60303998486,
+      "json_type": "int"
+    },
+    {
+      "locator": "crash/wasUnlockedSinceBoot",
+      "raw": 1,
+      "json_type": "int"
+    },
+    {
+      "locator": "crash/throttleTimeout",
+      "raw": 10,
+      "json_type": "int"
+    }
+  ],
+  "technical_context": {
+    "procName": "WidgetKitExtension",
+    "cpuType": "ARM-64",
+    "procRole": "Unspecified",
+    "modelCode": "iPhone14,4",
+    "osVersion": {
+      "isEmbedded": true,
+      "train": "iPhone OS 17.6.1",
+      "releaseType": "User",
+      "build": "21G93"
+    },
+    "parentProc": "launchd",
+    "parentPid": 1,
+    "wasUnlockedSinceBoot": 1,
+    "isLocked": 1,
+    "version": 2,
+    "exception": {
+      "codes": "0x0000000000000001, 0x0000000000000010",
+      "rawCodes": [
+        1,
+        16
+      ],
+      "type": "EXC_BAD_ACCESS",
+      "signal": "SIGSEGV",
+      "subtype": "KERN_INVALID_ADDRESS at 0x0000000000000010"
+    },
+    "termination": {
+      "flags": 0,
+      "code": 11,
+      "namespace": "SIGNAL",
+      "indicator": "Segmentation fault: 11",
+      "byProc": "exc handler",
+      "byPid": 345
+    }
+  },
+  "body_keys": [
+    "basebandVersion",
+    "bug_type",
+    "bundleInfo",
+    "captureTime",
+    "coalitionID",
+    "coalitionName",
+    "codeSigningFlags",
+    "codeSigningID",
+    "codeSigningMonitor",
+    "codeSigningTeamID",
+    "codeSigningTrustLevel",
+    "codeSigningValidationCategory",
+    "cpuType",
+    "crashReporterKey",
+    "deployVersion",
+    "exception",
+    "faultingThread",
+    "incident",
+    "instructionByteStream",
+    "isLocked",
+    "legacyInfo",
+    "logWritingSignature",
+    "modelCode",
+    "osVersion",
+    "parentPid",
+    "parentProc",
+    "pid",
+    "procExitAbsTime",
+    "procLaunch",
+    "procName",
+    "procPath",
+    "procRole",
+    "procStartAbsTime",
+    "roots_installed",
+    "sharedCache",
+    "storeInfo",
+    "termination",
+    "threads",
+    "throttleTimeout",
+    "trialInfo",
+    "uptime",
+    "usedImages",
+    "userID",
+    "version",
+    "vmRegionInfo",
+    "vmSummary",
+    "vmregioninfo",
+    "wasUnlockedSinceBoot"
+  ],
+  "incident_matches": true,
+  "bundle_matches": true,
+  "capture_utc": "2024-10-28T11:26:28.719200+00:00",
+  "launch_utc": "2024-10-17T15:15:46.830800+00:00",
+  "metadata_delay_seconds": "0.2808"
+}

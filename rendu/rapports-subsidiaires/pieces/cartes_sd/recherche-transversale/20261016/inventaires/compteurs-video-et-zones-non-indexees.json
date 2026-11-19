@@ -1,0 +1,80 @@
+{
+  "excess_video": [
+    {
+      "card": "SD-01",
+      "inode": "20903944",
+      "last": 35,
+      "expected": 9,
+      "excess": 26,
+      "multiple13": true
+    },
+    {
+      "card": "SD-01",
+      "inode": "22835208",
+      "last": 17,
+      "expected": 4,
+      "excess": 13,
+      "multiple13": true
+    },
+    {
+      "card": "SD-03",
+      "inode": "261989436",
+      "last": 22,
+      "expected": 9,
+      "excess": 13,
+      "multiple13": true
+    },
+    {
+      "card": "SD-03",
+      "inode": "261989444",
+      "last": 15,
+      "expected": 2,
+      "excess": 13,
+      "multiple13": true
+    },
+    {
+      "card": "SD-03",
+      "inode": "266341920",
+      "last": 33,
+      "expected": 7,
+      "excess": 26,
+      "multiple13": true
+    },
+    {
+      "card": "SD-03",
+      "inode": "266341968",
+      "last": 24,
+      "expected": 11,
+      "excess": 13,
+      "multiple13": true
+    },
+    {
+      "card": "SD-03",
+      "inode": "266342024",
+      "last": 38,
+      "expected": 12,
+      "excess": 26,
+      "multiple13": true
+    }
+  ],
+  "mdat_ranges": [
+    {
+      "card": "SD-01",
+      "inode": "20903944",
+      "offset": 12281990,
+      "bytes": 903034,
+      "nonzero": 377957,
+      "sha256": "1cfcb4123898392d653d91539f0fd22784d83603e1ed2f91d4a4e063ac480d85",
+      "first32": "0000133c21f40a09adff096cf12c476b54ab0b2ae9ab9eeb3a635fea1d453a97"
+    },
+    {
+      "card": "SD-03",
+      "inode": "266341920",
+      "offset": 5308698,
+      "bytes": 15489,
+      "nonzero": 15425,
+      "sha256": "46cd946a5ec4427e847182f733c6b53ff2abe0ddc34849984435b6a855ebeb14",
+      "first32": "00003c7d21fa0d0842df8e0827c17a963a2f0fb003b3f3d5db2bd0b32447b7ef"
+    }
+  ]
+}

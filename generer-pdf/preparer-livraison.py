@@ -27,7 +27,8 @@ def main():
     out = ROOT / cfg['output_directory']
     manifest_path = out / 'manifest-20261118.json'
     manifest = json.loads(manifest_path.read_text())
-    validation_path = ROOT / 'revision-documentaire-20261118/validation-documentaire.json'
+    controls = ROOT / 'generer-pdf/controles-documentaires'
+    validation_path = controls / 'validation-documentaire.json'
     validation = json.loads(validation_path.read_text())
     if not validation['passed']:
         raise RuntimeError('La validation documentaire doit réussir avant assemblage.')
@@ -58,7 +59,7 @@ Cette livraison contient 69 PDF : rapports actuels, compléments, annexes techni
 
 Les textes Markdown et leurs illustrations sont joints dans leur arborescence. Les liens entre rapports PDF sont adaptés à cette livraison. Les références aux acquisitions, extractions, résultats bruts et pièces privées nécessitent le dossier technique conservé séparément ; celui-ci n’est pas incorporé à cette archive documentaire. Les codes d’accès, secrets, cours, mémos et correspondance ancienne sont exclus.
 
-Les manifestes historiques restent attachés à leurs versions datées. `manifest-20261118.json` donne les empreintes des sources et PDF actuels ; `manifest-livraison-20261118.sha256` contrôle les fichiers de cet ensemble depuis la racine de l’archive. Le registre de révision donne un statut pour les 123 Markdown initiaux et les références Git de récupération des suppressions. Le PDF original de l’attestation est copié sans régénération ; ses dates et signatures ne sont pas réécrites.
+Les manifestes historiques restent attachés à leurs versions datées. `manifest-20261118.json` donne les empreintes des sources et PDF actuels ; `manifest-livraison-20261118.sha256` contrôle les fichiers de cet ensemble depuis la racine de l’archive. Les références et empreintes nécessaires aux contrôles sont conservées dans `generer-pdf/controles-documentaires/`. Le PDF original de l’attestation est copié sans régénération ; ses dates et signatures ne sont pas réécrites.
 
 | Document | Pages |
 |---|---:|
@@ -67,9 +68,8 @@ Les manifestes historiques restent attachés à leurs versions datées. `manifes
     index_path = out / 'INDEX.md'
     index_path.write_text(index)
     included.update([index_path, manifest_path, validation_path])
-    for p in (ROOT / 'revision-documentaire-20261118').rglob('*'):
-        if p.is_file():
-            included.add(p)
+    for name in ['etat-initial.json', 'suppressions-et-deplacements.json', 'preservation-hors-corpus.json']:
+        included.add(controls / name)
     for name in ['generer-rapports.py', 'verifier-livraison.py', 'preparer-livraison.py',
                  'livraison-20261118.json', 'commande.md']:
         included.add(ROOT / 'generer-pdf' / name)

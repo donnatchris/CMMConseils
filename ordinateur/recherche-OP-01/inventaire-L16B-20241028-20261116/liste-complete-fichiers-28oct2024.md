@@ -1573,4 +1573,4 @@ Liste de **1 559 chemins** identifiés ou référencés par les traces Windows c
 
 Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
 
-Christophe DOnnat — Donnat Dev
+Christophe Donnat — Donnat Dev

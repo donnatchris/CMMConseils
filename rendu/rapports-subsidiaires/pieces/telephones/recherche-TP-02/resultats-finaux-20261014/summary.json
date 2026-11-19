@@ -1,0 +1,173 @@
+{
+  "sqlite_signatures": 254,
+  "catalogued_schemas": 254,
+  "quick_check_ok": 232,
+  "errors": [
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/2ppVeqzK45bxFrR6h093l7_0kGvGyXLLfu3U4YCbq-c/2ppVeqzK45bxFrR6h093l7_0kGvGyXLLfu3U4YCbq-c/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/2xC4Bk0m8o6eoKbT5Ky_yaKnwIcycuGI2GCVRET3RmM/2xC4Bk0m8o6eoKbT5Ky_yaKnwIcycuGI2GCVRET3RmM/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/9V0cFBHhQCq6uZSgseNTYGcZnH-wBMn9rQB6aKc8u7Q/9V0cFBHhQCq6uZSgseNTYGcZnH-wBMn9rQB6aKc8u7Q/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/AfgQo4piSaVom73QrCOHBRNOLKcvpbWsXoOkAKO2YQ0/AfgQo4piSaVom73QrCOHBRNOLKcvpbWsXoOkAKO2YQ0/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/Bdn10-8qCxKS5EfRGty50mulnhDQO5t7nGT6cWYk1V0/Bdn10-8qCxKS5EfRGty50mulnhDQO5t7nGT6cWYk1V0/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/NU6F23I15_FaWLUomDMDxXTAftgToeSi7Hj7pmqGt1I/IndexedDB/51DB253425817ABFF5F9D6CB749A42D8CBB7CD4DC95128EFB59D788FCC570593/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/OiEMlUSM_lxebczNjRE9NlmKLKPFsFY-NAGwv1xkE-o/OiEMlUSM_lxebczNjRE9NlmKLKPFsFY-NAGwv1xkE-o/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/S_BtfyS-yqqmeF6fnhuOOcg1cKSGMOI2IBnf8qRMGPc/S_BtfyS-yqqmeF6fnhuOOcg1cKSGMOI2IBnf8qRMGPc/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/THYEditqQo1gLFmb1duqhZxWMhjwfYqabiVqk2v1YhE/THYEditqQo1gLFmb1duqhZxWMhjwfYqabiVqk2v1YhE/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/Vtss94nWiRGo45RXglMNcp8STTAEnY0wi0hRn1siR4k/Vtss94nWiRGo45RXglMNcp8STTAEnY0wi0hRn1siR4k/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/WeI2204uplSBaNPmsDqJ216pYqxU1InsIY5A2MpgSPE/WeI2204uplSBaNPmsDqJ216pYqxU1InsIY5A2MpgSPE/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/X-KT_ALi5EXQlENWqRkBMPuBlUACB1Aytgai-yO8KVE/X-KT_ALi5EXQlENWqRkBMPuBlUACB1Aytgai-yO8KVE/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/YASK67XwCOXGNfWmPrNa_JbY-wd8NE8fr_qKSQf4DX4/YASK67XwCOXGNfWmPrNa_JbY-wd8NE8fr_qKSQf4DX4/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/ZG6BLQbnlfs8ThIugBkOm8sCv0oti4a2aGrgPmzMz8k/ZG6BLQbnlfs8ThIugBkOm8sCv0oti4a2aGrgPmzMz8k/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/ZIb_wh7KVVkspsRZOf-sGUTKQdikrUU8ZRNP4DlLiJE/ZIb_wh7KVVkspsRZOf-sGUTKQdikrUU8ZRNP4DlLiJE/IndexedDB/4C62CA6F6332A33647E84F44562DE8819147B92EEA08E563EE588A31692D2859/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/ZIb_wh7KVVkspsRZOf-sGUTKQdikrUU8ZRNP4DlLiJE/ZIb_wh7KVVkspsRZOf-sGUTKQdikrUU8ZRNP4DlLiJE/IndexedDB/52F6D578CE4865B8B9FD3E423104B424704CDD274EAD6EF5B6F8117C4B51207C/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/_LiwcUS585x0SaEojL5MOiXZUXwQGKjV-rFuDbTxjG4/_LiwcUS585x0SaEojL5MOiXZUXwQGKjV-rFuDbTxjG4/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/bcUBzf6oBFbmGgDlSWCfJUzzWw2-Sz2hR2GzKv4uqcI/bcUBzf6oBFbmGgDlSWCfJUzzWw2-Sz2hR2GzKv4uqcI/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/di6gejqdKacGEPfZa1NQcSfQoopnn-U524l5UXTcJzA/di6gejqdKacGEPfZa1NQcSfQoopnn-U524l5UXTcJzA/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/tusN3XxqVhwhieMguv9B24pIiM_Gb-QivFlpxxF23cE/tusN3XxqVhwhieMguv9B24pIiM_Gb-QivFlpxxF23cE/IndexedDB/06DB4AE193D8903FB916A79AFFCE0080C994AB80782FC21CA15B253B397DC7F2/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/AppDomain-com.apple.mobilesafari/Library/WebKit/WebsiteData/Default/yqmFAxMR7nskJ3xmZvRsr4xfaRvCzrqpYTzu0dt3UP8/yqmFAxMR7nskJ3xmZvRsr4xfaRvCzrqpYTzu0dt3UP8/IndexedDB/6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B/IndexedDB.sqlite3",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/AddressBook/AddressBook.sqlitedb",
+      "stage": "quick_check",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/AddressBook/AddressBook.sqlitedb",
+      "table": "ABPersonFullTextSearch",
+      "stage": "columns",
+      "error_class": "OperationalError"
+    },
+    {
+      "file": "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/AddressBook/AddressBook.sqlitedb",
+      "table": "ABPersonSmartDialerFullTextSearch",
+      "stage": "columns",
+      "error_class": "OperationalError"
+    }
+  ],
+  "files_extracted": 3890,
+  "plaintext_bytes": 1355892355,
+  "manifest_regular_files": 137844,
+  "missing_source_objects": 0,
+  "source_ciphertext_bytes": 102552017488,
+  "source_and_plaintext_hash_rechecks": 3890,
+  "coherence": {
+    "files": 3888,
+    "size_mismatches": 92,
+    "invalid_cbc_length_relations": 0,
+    "digest_present": 1307,
+    "digest_matches_ciphertext": 1307,
+    "digest_matches_plaintext": 0,
+    "digest_matches_neither": 0,
+    "sqlite_header_size_mismatches": 0
+  },
+  "coherence_whatsapp": {
+    "files": 2,
+    "size_mismatches": 2,
+    "invalid_cbc_length_relations": 0,
+    "digest_present": 0,
+    "digest_matches_ciphertext": 0,
+    "digest_matches_plaintext": 0,
+    "digest_matches_neither": 0,
+    "sqlite_header_size_mismatches": 0
+  },
+  "total_size_mismatches": 94,
+  "whatsapp": {
+    "total_messages": 97442,
+    "central_messages": 0,
+    "before": {
+      "Z_PK": 105949,
+      "ZMESSAGEDATE_raw": 750683815.3081721,
+      "ZISFROMME_raw": 1,
+      "paris": "2024-10-15T13:16:55.308172+02:00"
+    },
+    "after": {
+      "Z_PK": 105950,
+      "ZMESSAGEDATE_raw": 751852601,
+      "ZISFROMME_raw": 0,
+      "paris": "2024-10-29T00:56:41+01:00"
+    },
+    "limits": "observed retained messages only; no proof of absence of app use, deleted messages, linked-device activity or another restored instance"
+  }
+}

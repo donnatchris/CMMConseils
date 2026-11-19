@@ -1,0 +1,27 @@
+[
+  {
+    "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/System32/winevt/Logs/System.evtx",
+    "physical_chunks": 320,
+    "records": 36445,
+    "selected": [],
+    "chunk_errors": [],
+    "declared_chunks": 320
+  },
+  {
+    "source": "ordinateur/recherche-OP-01/wifi-ASUS_Z01RD/raw/Windows/System32/winevt/Logs/Microsoft-Windows-Dhcp-Client%4Admin.evtx",
+    "physical_chunks": 16,
+    "records": 1042,
+    "selected": [
+      {
+        "record": 985,
+        "utc": "2024-10-15T08:43:01.845734+00:00"
+      },
+      {
+        "record": 986,
+        "utc": "2024-10-15T08:43:01.845737+00:00"
+      }
+    ],
+    "chunk_errors": [],
+    "declared_chunks": 8
+  }
+]

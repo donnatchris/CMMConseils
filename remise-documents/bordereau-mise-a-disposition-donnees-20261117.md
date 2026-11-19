@@ -100,4 +100,4 @@ Les listes détaillées d’empreintes des segments, extractions et résultats r
 
 **Pièces associées :** notice de téléchargement ; rectificatif de la date de remise du 17 novembre 2026 ; fichier d’empreintes de contrôle.
 
-*Révision documentaire du 18 novembre 2026 par Christophe DOnnat — Donnat Dev. Les dates et emplacements de signature des parties restent ceux du document établi le 17 novembre ; aucune signature des parties n’est ajoutée.*
+*Révision documentaire du 18 novembre 2026 par Christophe Donnat — Donnat Dev. Les dates et emplacements de signature des parties restent ceux du document établi le 17 novembre ; aucune signature des parties n’est ajoutée.*

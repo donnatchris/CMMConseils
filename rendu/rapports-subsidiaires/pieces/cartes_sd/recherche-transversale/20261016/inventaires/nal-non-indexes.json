@@ -1,0 +1,154 @@
+[
+  {
+    "card": "SD-01",
+    "inode": "20903944",
+    "source_sha256": "9e4d51f725b53292b2f82bc696597c69625f543371302808f4d48ebcab9521cb",
+    "extra_NALs": [
+      {
+        "offset": 12281990,
+        "length": 4924,
+        "type": 1
+      },
+      {
+        "offset": 12286918,
+        "length": 4685,
+        "type": 1
+      },
+      {
+        "offset": 12291607,
+        "length": 4727,
+        "type": 1
+      }
+    ],
+    "unindexed_bytes_tested": 14348,
+    "remaining_unindexed_bytes": 888686,
+    "tests": [
+      {
+        "label": "indexed",
+        "argv": [
+          "ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "1",
+          "-f",
+          "h264",
+          "-show_frames",
+          "-show_entries",
+          "frame=pict_type",
+          "-of",
+          "json",
+          "pipe:0"
+        ],
+        "returncode": 0,
+        "elementary_stream_sha256": "22aadae5eeb3453b8c3b00a364caf1ddc18c6b2174dff4aa6a38a6acfdd1e19b",
+        "frames": 2170,
+        "stderr": "",
+        "types": {
+          "I": 73,
+          "P": 2097,
+          "B": 0
+        }
+      },
+      {
+        "label": "plus_unindexed_prefix",
+        "argv": [
+          "ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "1",
+          "-f",
+          "h264",
+          "-show_frames",
+          "-show_entries",
+          "frame=pict_type",
+          "-of",
+          "json",
+          "pipe:0"
+        ],
+        "returncode": 0,
+        "elementary_stream_sha256": "a7f6f417e4b2030aeae3fbfce868c00e89c9ec16b6a440c916fc9bb8c79de103",
+        "frames": 2173,
+        "stderr": "",
+        "types": {
+          "I": 73,
+          "P": 2100,
+          "B": 0
+        }
+      }
+    ],
+    "limit": "Aucun temps original supplémentaire disponible ; test de décodage, sans vidéo réparée ni datation des images supplémentaires."
+  },
+  {
+    "card": "SD-03",
+    "inode": "266341920",
+    "source_sha256": "fc3b5231f2694ae4eaa4480beed6785ec5aab46dd9fe5662adc1cb6894f32adf",
+    "extra_NALs": [
+      {
+        "offset": 5308698,
+        "length": 15485,
+        "type": 1
+      }
+    ],
+    "unindexed_bytes_tested": 15489,
+    "remaining_unindexed_bytes": 0,
+    "tests": [
+      {
+        "label": "indexed",
+        "argv": [
+          "ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "1",
+          "-f",
+          "h264",
+          "-show_frames",
+          "-show_entries",
+          "frame=pict_type",
+          "-of",
+          "json",
+          "pipe:0"
+        ],
+        "returncode": 0,
+        "elementary_stream_sha256": "6a3c147f26f5972cc5de3359dbd42dd47a7215f2ef1259335f923dddbe22893e",
+        "frames": 673,
+        "stderr": "",
+        "types": {
+          "I": 23,
+          "P": 650,
+          "B": 0
+        }
+      },
+      {
+        "label": "plus_unindexed_prefix",
+        "argv": [
+          "ffprobe",
+          "-v",
+          "error",
+          "-threads",
+          "1",
+          "-f",
+          "h264",
+          "-show_frames",
+          "-show_entries",
+          "frame=pict_type",
+          "-of",
+          "json",
+          "pipe:0"
+        ],
+        "returncode": 0,
+        "elementary_stream_sha256": "bbfa2ebc5478461559bce2034a15e65e4a66e1fc37bd55286b21095a1e39a538",
+        "frames": 674,
+        "stderr": "",
+        "types": {
+          "I": 23,
+          "P": 651,
+          "B": 0
+        }
+      }
+    ],
+    "limit": "Aucun temps original supplémentaire disponible ; test de décodage, sans vidéo réparée ni datation des images supplémentaires."
+  }
+]

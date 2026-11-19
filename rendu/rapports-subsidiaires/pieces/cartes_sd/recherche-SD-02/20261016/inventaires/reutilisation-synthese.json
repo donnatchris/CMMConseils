@@ -1,0 +1,33 @@
+{
+  "deleted_file_count": 326,
+  "first_cluster_currently_owned": 315,
+  "first_cluster_now_inside_other_file": 315,
+  "first_cluster_free": 11,
+  "first_cluster_allocated_without_owner": 0,
+  "focus_directories": [
+    {
+      "path": "CAMERA TERRASSE/record/σ0241013",
+      "created": "2000-01-01 00:00:27",
+      "written": "2024-10-27 22:46:28",
+      "start_cluster": 1296303,
+      "current_owner": "CAMERA TERRASSE/record/20241110/20241110_072906_10_0079.mp4",
+      "current_owner_cluster_index": 74
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241014",
+      "created": "2024-10-15 00:00:00",
+      "written": "2024-10-27 22:49:00",
+      "start_cluster": 1327842,
+      "current_owner": "CAMERA TERRASSE/record/20241105/20241105_223443_10_0300.mp4",
+      "current_owner_cluster_index": 1261
+    },
+    {
+      "path": "CAMERA TERRASSE/record/σ0241015",
+      "created": "2024-10-15 23:57:59",
+      "written": "2024-10-28 00:28:18",
+      "start_cluster": 1328191,
+      "current_owner": "CAMERA TERRASSE/record/20241110/20241110_073415_10_0055.mp4",
+      "current_owner_cluster_index": 52
+    }
+  ]
+}

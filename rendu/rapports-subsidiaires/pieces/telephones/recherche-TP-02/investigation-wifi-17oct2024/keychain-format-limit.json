@@ -1,0 +1,29 @@
+{
+  "fileID": "51a4616e576dd33cd2abadfea874eb8ff246bf0e",
+  "categories": {
+    "genp": 6248,
+    "inet": 288,
+    "cert": 13,
+    "keys": 309
+  },
+  "item_key_sets": {
+    "genp": [
+      "v_Data",
+      "v_PersistentRef"
+    ],
+    "inet": [
+      "v_Data",
+      "v_PersistentRef"
+    ],
+    "cert": [
+      "v_Data",
+      "v_PersistentRef"
+    ],
+    "keys": [
+      "v_Data",
+      "v_PersistentRef"
+    ]
+  },
+  "keybag_uuid_sha256": "fa837b914425b18b2a07afcdec4e0a92cec3218a25c167b57effab3721f59f38",
+  "limit": "Only encrypted v_Data and v_PersistentRef wrappers; no readable Wi-Fi dates/sync attributes validated; no inner decryption performed"
+}

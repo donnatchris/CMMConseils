@@ -1,0 +1,3159 @@
+[
+  {
+    "source": "Application.evtx",
+    "records": 21577,
+    "first_utc": "2023-09-28T17:00:39.041850+00:00",
+    "last_utc": "2026-10-12T06:50:07.147288+00:00",
+    "days_paris": {
+      "2024-10-15": 13,
+      "2024-10-28": 425,
+      "2024-10-29": 391
+    },
+    "selected": 816
+  },
+  {
+    "source": "HardwareEvents.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "IntelAudioServiceLog.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Internet Explorer.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Key Management Service.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Client-Licensing-Platform%4Admin.evtx",
+    "records": 1770,
+    "first_utc": "2024-09-03T16:19:51.172311+00:00",
+    "last_utc": "2026-10-12T06:49:58.850497+00:00",
+    "days_paris": {
+      "2024-10-15": 5,
+      "2024-10-28": 145,
+      "2024-10-29": 160
+    },
+    "selected": 305
+  },
+  {
+    "source": "Microsoft-System-Diagnostics-DiagnosticInvoker%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AAD%4Operational.evtx",
+    "records": 151,
+    "first_utc": "2023-11-03T08:32:18.396210+00:00",
+    "last_utc": "2024-10-10T18:33:06.746559+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-All-User-Install-Agent%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AllJoyn%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppHost%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppID%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4EXE and DLL.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4MSI and Script.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4Packaged app-Deployment.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppLocker%4Packaged app-Execution.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppModel-Runtime%4Admin.evtx",
+    "records": 1647,
+    "first_utc": "2026-09-03T12:25:46.946218+00:00",
+    "last_utc": "2026-10-12T06:50:43.954377+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppReadiness%4Admin.evtx",
+    "records": 6129,
+    "first_utc": "2023-09-28T17:17:12.540472+00:00",
+    "last_utc": "2026-10-02T19:24:46.925938+00:00",
+    "days_paris": {
+      "2024-10-15": 18,
+      "2024-10-28": 36,
+      "2024-10-29": 86
+    },
+    "selected": 122
+  },
+  {
+    "source": "Microsoft-Windows-AppReadiness%4Operational.evtx",
+    "records": 1906,
+    "first_utc": "2023-09-28T17:17:12.564198+00:00",
+    "last_utc": "2026-10-02T19:24:46.925941+00:00",
+    "days_paris": {
+      "2024-10-15": 5,
+      "2024-10-28": 10,
+      "2024-10-29": 23
+    },
+    "selected": 33
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeployment%4Operational.evtx",
+    "records": 1438,
+    "first_utc": "2023-09-28T17:17:12.577582+00:00",
+    "last_utc": "2026-10-12T06:49:39.151913+00:00",
+    "days_paris": {
+      "2024-10-15": 4,
+      "2024-10-28": 8,
+      "2024-10-29": 26
+    },
+    "selected": 34
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeployment-Server%4Operational.evtx",
+    "records": 285,
+    "first_utc": "2023-11-03T09:34:45.122838+00:00",
+    "last_utc": "2026-10-02T18:25:41.494792+00:00",
+    "days_paris": {
+      "2024-10-28": 14
+    },
+    "selected": 14
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeploymentServer%4Operational.evtx",
+    "records": 4883,
+    "first_utc": "2026-09-03T12:43:58.807420+00:00",
+    "last_utc": "2026-10-12T06:49:46.462396+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppXDeploymentServer%4Restricted.evtx",
+    "records": 247,
+    "first_utc": "2023-10-02T18:33:07.227025+00:00",
+    "last_utc": "2026-10-02T18:21:35.504720+00:00",
+    "days_paris": {
+      "2024-10-28": 9
+    },
+    "selected": 9
+  },
+  {
+    "source": "Microsoft-Windows-ApplicabilityEngine%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Application Server-Applications%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Application Server-Applications%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Compatibility-Assistant.evtx",
+    "records": 129,
+    "first_utc": "2023-09-29T08:37:06.864910+00:00",
+    "last_utc": "2026-10-02T19:53:01.658943+00:00",
+    "days_paris": {
+      "2024-10-28": 4,
+      "2024-10-29": 1
+    },
+    "selected": 5
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Compatibility-Troubleshooter.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Inventory.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Program-Telemetry.evtx",
+    "records": 1398,
+    "first_utc": "2026-07-27T16:52:58.710745+00:00",
+    "last_utc": "2026-10-12T06:50:27.713744+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Application-Experience%4Steps-Recorder.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-AppxPackaging%4Operational.evtx",
+    "records": 1957,
+    "first_utc": "2024-10-28T13:58:35.466756+00:00",
+    "last_utc": "2026-10-12T06:48:52.717262+00:00",
+    "days_paris": {
+      "2024-10-28": 156,
+      "2024-10-29": 45
+    },
+    "selected": 201
+  },
+  {
+    "source": "Microsoft-Windows-Audio%4CaptureMonitor.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Audio%4Operational.evtx",
+    "records": 124,
+    "first_utc": "2023-09-28T17:01:34.058610+00:00",
+    "last_utc": "2024-06-14T00:19:33.590675+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Audio%4PlaybackManager.evtx",
+    "records": 362,
+    "first_utc": "2023-10-02T17:08:07.247267+00:00",
+    "last_utc": "2026-10-02T17:01:11.539301+00:00",
+    "days_paris": {
+      "2024-10-29": 47
+    },
+    "selected": 47
+  },
+  {
+    "source": "Microsoft-Windows-Authentication User Interface%4Operational.evtx",
+    "records": 9,
+    "first_utc": "2023-11-03T07:40:11.093225+00:00",
+    "last_utc": "2024-10-10T20:19:35.212577+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-BackgroundTaskInfrastructure%4Operational.evtx",
+    "records": 425,
+    "first_utc": "2023-09-29T08:43:18.292049+00:00",
+    "last_utc": "2026-10-12T06:48:53.986494+00:00",
+    "days_paris": {
+      "2024-10-28": 8
+    },
+    "selected": 8
+  },
+  {
+    "source": "Microsoft-Windows-Backup.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Biometrics%4Operational.evtx",
+    "records": 1268,
+    "first_utc": "2024-03-26T14:10:06.438476+00:00",
+    "last_utc": "2026-10-12T06:49:34.868313+00:00",
+    "days_paris": {
+      "2024-10-28": 48,
+      "2024-10-29": 28
+    },
+    "selected": 76
+  },
+  {
+    "source": "Microsoft-Windows-BitLocker%4BitLocker Management.evtx",
+    "records": 91,
+    "first_utc": "2024-04-29T11:14:29.836031+00:00",
+    "last_utc": "2026-10-08T10:41:20.831922+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Bits-Client%4Operational.evtx",
+    "records": 1144,
+    "first_utc": "2024-12-03T15:12:26.843383+00:00",
+    "last_utc": "2026-10-12T06:48:32.825752+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Bluetooth-BthLEPrepairing%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Bluetooth-MTPEnum%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-CertificateServicesClient-Lifecycle-System%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-CertificateServicesClient-Lifecycle-User%4Operational.evtx",
+    "records": 5,
+    "first_utc": "2026-07-27T16:30:23.538426+00:00",
+    "last_utc": "2026-07-27T16:30:23.545688+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Cleanmgr%4Diagnostic.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-CloudRestoreLauncher%4Operational.evtx",
+    "records": 762,
+    "first_utc": "2023-10-06T09:59:44.799694+00:00",
+    "last_utc": "2024-05-04T11:37:52.710848+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-CloudStore%4Initialization.evtx",
+    "records": 119,
+    "first_utc": "2023-11-03T09:45:10.758278+00:00",
+    "last_utc": "2026-10-02T15:21:16.559314+00:00",
+    "days_paris": {
+      "2024-10-28": 3,
+      "2024-10-29": 1
+    },
+    "selected": 4
+  },
+  {
+    "source": "Microsoft-Windows-CloudStore%4Operational.evtx",
+    "records": 1962,
+    "first_utc": "2026-10-02T15:21:16.818977+00:00",
+    "last_utc": "2026-10-12T06:48:48.902520+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-CodeIntegrity%4Operational.evtx",
+    "records": 1341,
+    "first_utc": "2026-10-02T15:22:51.734943+00:00",
+    "last_utc": "2026-10-12T06:49:21.132676+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Compat-Appraiser%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Containers-BindFlt%4Operational.evtx",
+    "records": 32,
+    "first_utc": "2023-09-28T17:01:06.305753+00:00",
+    "last_utc": "2026-10-12T06:49:32.475588+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Containers-Wcifs%4Operational.evtx",
+    "records": 32,
+    "first_utc": "2023-09-28T17:01:06.268282+00:00",
+    "last_utc": "2026-10-12T06:49:32.091766+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Containers-Wcnfs%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-CoreApplication%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-CoreSystem-SmsRouter-Events%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-CorruptedFileRecovery-Client%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-CorruptedFileRecovery-Server%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Crashdump%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-DPAPI%4BackUpKeySvc.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-DPAPI%4Operational.evtx",
+    "records": 2358,
+    "first_utc": "2024-06-06T19:44:00.260931+00:00",
+    "last_utc": "2026-10-12T06:50:23.594396+00:00",
+    "days_paris": {
+      "2024-10-15": 15,
+      "2024-10-28": 42,
+      "2024-10-29": 84
+    },
+    "selected": 126
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-NCrypt%4CertInUse.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Crypto-NCrypt%4Operational.evtx",
+    "records": 1335,
+    "first_utc": "2026-07-27T16:46:54.829065+00:00",
+    "last_utc": "2026-10-12T06:50:30.452737+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DAL-Provider%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DSC%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DSC%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DataIntegrityScan%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DataIntegrityScan%4CrashRecovery.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DateTimeControlPanel%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DeviceGuard%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Admin.evtx",
+    "records": 501,
+    "first_utc": "2023-09-28T17:09:43.995653+00:00",
+    "last_utc": "2026-10-12T06:49:47.029310+00:00",
+    "days_paris": {
+      "2024-10-15": 2,
+      "2024-10-28": 51,
+      "2024-10-29": 6
+    },
+    "selected": 57
+  },
+  {
+    "source": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Autopilot.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Operational.evtx",
+    "records": 341,
+    "first_utc": "2023-09-28T17:09:42.850728+00:00",
+    "last_utc": "2026-10-02T19:47:13.807973+00:00",
+    "days_paris": {
+      "2024-10-28": 66
+    },
+    "selected": 66
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+    "records": 2252,
+    "first_utc": "2024-08-27T10:27:59.771427+00:00",
+    "last_utc": "2026-10-12T06:50:05.810875+00:00",
+    "days_paris": {
+      "2024-10-28": 1091,
+      "2024-10-29": 76
+    },
+    "selected": 1167
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSetupManager%4Operational.evtx",
+    "records": 159,
+    "first_utc": "2023-09-28T17:17:28.996798+00:00",
+    "last_utc": "2026-10-12T06:48:23.385776+00:00",
+    "days_paris": {
+      "2024-10-28": 10,
+      "2024-10-29": 1
+    },
+    "selected": 11
+  },
+  {
+    "source": "Microsoft-Windows-DeviceSync%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DeviceUpdateAgent%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Devices-Background%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Dhcp-Client%4Admin.evtx",
+    "records": 1042,
+    "first_utc": "2023-09-28T17:05:42.136361+00:00",
+    "last_utc": "2026-10-02T19:22:08.528769+00:00",
+    "days_paris": {
+      "2024-10-15": 2,
+      "2024-10-29": 17
+    },
+    "selected": 17
+  },
+  {
+    "source": "Microsoft-Windows-Dhcpv6-Client%4Admin.evtx",
+    "records": 49,
+    "first_utc": "2023-09-28T17:05:42.386853+00:00",
+    "last_utc": "2026-07-27T16:55:14.125243+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-DPS%4Operational.evtx",
+    "records": 1359,
+    "first_utc": "2023-09-28T17:04:10.338325+00:00",
+    "last_utc": "2026-10-12T06:49:37.101695+00:00",
+    "days_paris": {
+      "2024-10-15": 2,
+      "2024-10-28": 49,
+      "2024-10-29": 34
+    },
+    "selected": 83
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-PCW%4Operational.evtx",
+    "records": 2288,
+    "first_utc": "2023-10-05T07:55:22.424415+00:00",
+    "last_utc": "2026-10-02T15:34:39.038510+00:00",
+    "days_paris": {
+      "2024-10-28": 3,
+      "2024-10-29": 1
+    },
+    "selected": 4
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-PLA%4Operational.evtx",
+    "records": 165,
+    "first_utc": "2023-09-29T08:32:16.056445+00:00",
+    "last_utc": "2026-10-08T10:37:00.378080+00:00",
+    "days_paris": {
+      "2024-10-15": 1,
+      "2024-10-28": 1,
+      "2024-10-29": 1
+    },
+    "selected": 2
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-Scheduled%4Operational.evtx",
+    "records": 186,
+    "first_utc": "2023-10-06T09:59:44.362401+00:00",
+    "last_utc": "2024-12-03T21:38:14.712398+00:00",
+    "days_paris": {
+      "2024-10-28": 7
+    },
+    "selected": 7
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-Scripted%4Admin.evtx",
+    "records": 27,
+    "first_utc": "2023-09-28T17:30:25.732800+00:00",
+    "last_utc": "2024-12-03T21:37:42.954251+00:00",
+    "days_paris": {
+      "2024-10-28": 1
+    },
+    "selected": 1
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-Scripted%4Operational.evtx",
+    "records": 114,
+    "first_utc": "2023-09-28T17:30:24.018170+00:00",
+    "last_utc": "2024-12-03T21:38:14.672174+00:00",
+    "days_paris": {
+      "2024-10-28": 4
+    },
+    "selected": 4
+  },
+  {
+    "source": "Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Diagnostics-Networking%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Diagnostics-Performance%4Operational.evtx",
+    "records": 130,
+    "first_utc": "2023-11-03T07:44:18.401187+00:00",
+    "last_utc": "2026-10-02T16:21:23.517803+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DiskDiagnostic%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DiskDiagnosticDataCollector%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DiskDiagnosticResolver%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DxgKrnl-Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-DxgKrnl-Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-EDP-Application-Learning%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-EDP-Audit-Regular%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-EDP-Audit-TCB%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-EFS%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-EapHost%4Operational.evtx",
+    "records": 6,
+    "first_utc": "2024-10-10T18:20:57.495171+00:00",
+    "last_utc": "2024-10-10T18:22:14.085909+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-RasChap%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-RasTls%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-Sim%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-EapMethods-Ttls%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-EnhancedStorage-EhStorClass%4Operational.evtx",
+    "records": 602,
+    "first_utc": "2023-09-28T17:00:24.161441+00:00",
+    "last_utc": "2026-10-12T06:49:20.094000+00:00",
+    "days_paris": {
+      "2024-10-15": 2,
+      "2024-10-28": 2,
+      "2024-10-29": 5
+    },
+    "selected": 7
+  },
+  {
+    "source": "Microsoft-Windows-EventCollector%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-FMS%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Fault-Tolerant-Heap%4Operational.evtx",
+    "records": 14,
+    "first_utc": "2023-10-05T10:38:59.769984+00:00",
+    "last_utc": "2024-12-02T13:59:07.818232+00:00",
+    "days_paris": {
+      "2024-10-28": 1
+    },
+    "selected": 1
+  },
+  {
+    "source": "Microsoft-Windows-FeatureConfiguration%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-FileHistory-Core%4WHC.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-FileHistory-Engine%4BackupLog.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Folder Redirection%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Forwarding%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-GenericRoaming%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-GroupPolicy%4Operational.evtx",
+    "records": 9737,
+    "first_utc": "2024-03-23T03:22:46.770851+00:00",
+    "last_utc": "2026-10-12T06:49:39.430469+00:00",
+    "days_paris": {
+      "2024-10-15": 18,
+      "2024-10-28": 298,
+      "2024-10-29": 170
+    },
+    "selected": 468
+  },
+  {
+    "source": "Microsoft-Windows-HelloForBusiness%4Operational.evtx",
+    "records": 898,
+    "first_utc": "2023-09-28T17:04:36.954472+00:00",
+    "last_utc": "2026-10-12T06:49:42.928613+00:00",
+    "days_paris": {
+      "2024-10-15": 2,
+      "2024-10-28": 5,
+      "2024-10-29": 12
+    },
+    "selected": 17
+  },
+  {
+    "source": "Microsoft-Windows-Help%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-HomeGroup Control Panel%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-HomeGroup Listener Service%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-HomeGroup Provider Service%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-HotspotAuth%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-Guest-Drivers%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-Hypervisor-Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-Hypervisor-Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Hyper-V-VID-Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-IKE%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-IPxlatCfg%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-IdCtrls%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-International%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-International-RegionalOptionsControlPanel%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Iphlpsvc%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-KdsSvc%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-ApphelpCache%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Boot%4Operational.evtx",
+    "records": 2,
+    "first_utc": "2024-09-05T14:25:11.423202+00:00",
+    "last_utc": "2024-09-05T16:24:08.138759+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-CPU-Starvation%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Cache%4Operational.evtx",
+    "records": 820,
+    "first_utc": "2024-09-04T13:48:37.115906+00:00",
+    "last_utc": "2026-10-12T06:49:26.251275+00:00",
+    "days_paris": {
+      "2024-10-15": 19,
+      "2024-10-28": 74,
+      "2024-10-29": 47
+    },
+    "selected": 121
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Dump%4Operational.evtx",
+    "records": 34,
+    "first_utc": "2023-09-28T17:00:26.676448+00:00",
+    "last_utc": "2026-10-12T06:49:29.474829+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-EventTracing%4Admin.evtx",
+    "records": 620,
+    "first_utc": "2023-09-28T17:03:36.579196+00:00",
+    "last_utc": "2026-10-12T06:50:02.684766+00:00",
+    "days_paris": {
+      "2024-10-15": 1,
+      "2024-10-28": 3,
+      "2024-10-29": 10
+    },
+    "selected": 13
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-IO%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-LiveDump%4Operational.evtx",
+    "records": 93,
+    "first_utc": "2024-03-16T02:53:22.498239+00:00",
+    "last_utc": "2024-10-03T18:52:38.722348+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PRM%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "records": 1052,
+    "first_utc": "2023-09-28T17:00:23.092557+00:00",
+    "last_utc": "2026-10-12T06:48:23.128527+00:00",
+    "days_paris": {
+      "2024-10-28": 77,
+      "2024-10-29": 7
+    },
+    "selected": 84
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "records": 1631,
+    "first_utc": "2023-09-28T17:00:46.900555+00:00",
+    "last_utc": "2026-10-12T06:50:17.549076+00:00",
+    "days_paris": {
+      "2024-10-15": 1,
+      "2024-10-28": 39,
+      "2024-10-29": 12
+    },
+    "selected": 51
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Driver Watchdog.evtx",
+    "records": 4,
+    "first_utc": "2024-06-14T00:18:57.930310+00:00",
+    "last_utc": "2024-06-14T00:22:18.518674+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-Power%4Thermal-Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-ShimEngine%4Operational.evtx",
+    "records": 309,
+    "first_utc": "2023-09-28T17:00:23.872135+00:00",
+    "last_utc": "2026-10-12T06:49:25.761441+00:00",
+    "days_paris": {
+      "2024-10-28": 16
+    },
+    "selected": 16
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-StoreMgr%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-WDI%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-WHEA%4Errors.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-WHEA%4Operational.evtx",
+    "records": 299,
+    "first_utc": "2023-09-28T17:00:23.263960+00:00",
+    "last_utc": "2026-10-12T06:49:21.344605+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Known Folders API Service.evtx",
+    "records": 1895,
+    "first_utc": "2024-09-05T16:24:30.590924+00:00",
+    "last_utc": "2026-10-12T06:50:40.089330+00:00",
+    "days_paris": {
+      "2024-10-28": 163,
+      "2024-10-29": 235,
+      "2024-10-15": 19
+    },
+    "selected": 398
+  },
+  {
+    "source": "Microsoft-Windows-LAPS%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-LanguagePackSetup%4Operational.evtx",
+    "records": 58,
+    "first_utc": "2023-10-06T10:05:05.372127+00:00",
+    "last_utc": "2024-12-03T21:38:24.897417+00:00",
+    "days_paris": {
+      "2024-10-28": 3
+    },
+    "selected": 3
+  },
+  {
+    "source": "Microsoft-Windows-LiveId%4Operational.evtx",
+    "records": 568,
+    "first_utc": "2026-10-08T10:48:05.333203+00:00",
+    "last_utc": "2026-10-12T06:50:30.911937+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-MUI%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-MUI%4Operational.evtx",
+    "records": 39,
+    "first_utc": "2023-09-28T17:09:41.521971+00:00",
+    "last_utc": "2024-12-03T21:38:40.109359+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-MemoryDiagnostics-Results%4Debug.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Autopilot.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Diagnostics.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4ManagementService.evtx",
+    "records": 1653,
+    "first_utc": "2023-10-06T09:22:17.398114+00:00",
+    "last_utc": "2023-11-03T08:31:51.932064+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Mprddm%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-NCSI%4Operational.evtx",
+    "records": 1880,
+    "first_utc": "2023-09-28T17:05:42.929682+00:00",
+    "last_utc": "2026-10-08T10:36:32.043405+00:00",
+    "days_paris": {
+      "2024-10-15": 4,
+      "2024-10-28": 9,
+      "2024-10-29": 41
+    },
+    "selected": 50
+  },
+  {
+    "source": "Microsoft-Windows-NTLM%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-NcdAutoSetup%4Operational.evtx",
+    "records": 23,
+    "first_utc": "2023-12-14T03:13:52.457892+00:00",
+    "last_utc": "2026-10-02T15:28:55.263954+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-NdisImPlatform%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-NetworkLocationWizard%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProfile%4Operational.evtx",
+    "records": 2216,
+    "first_utc": "2024-06-27T15:58:15.222047+00:00",
+    "last_utc": "2026-10-12T06:49:51.812060+00:00",
+    "days_paris": {
+      "2024-10-15": 18,
+      "2024-10-28": 41,
+      "2024-10-29": 126
+    },
+    "selected": 167
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProvider%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-NetworkProvisioning%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-NlaSvc%4Operational.evtx",
+    "records": 160,
+    "first_utc": "2023-11-04T00:30:42.922709+00:00",
+    "last_utc": "2024-12-02T13:54:47.739765+00:00",
+    "days_paris": {
+      "2024-10-29": 14
+    },
+    "selected": 14
+  },
+  {
+    "source": "Microsoft-Windows-Ntfs%4Operational.evtx",
+    "records": 3883,
+    "first_utc": "2023-09-28T17:00:24.599885+00:00",
+    "last_utc": "2026-10-12T06:49:44.619147+00:00",
+    "days_paris": {
+      "2024-10-15": 2,
+      "2024-10-28": 52,
+      "2024-10-29": 13
+    },
+    "selected": 44
+  },
+  {
+    "source": "Microsoft-Windows-Ntfs%4WHC.evtx",
+    "records": 32,
+    "first_utc": "2023-09-28T17:00:23.955531+00:00",
+    "last_utc": "2026-10-12T06:49:20.071743+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-OOBE-Machine-DUI%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-OneBackup%4Debug.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PackageStateRoaming%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-ParentalControls%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Partition%4Diagnostic.evtx",
+    "records": 103,
+    "first_utc": "2023-09-28T17:00:24.449599+00:00",
+    "last_utc": "2026-10-12T06:49:23.801884+00:00",
+    "days_paris": {
+      "2024-10-28": 18,
+      "2024-10-29": 4
+    },
+    "selected": 9
+  },
+  {
+    "source": "Microsoft-Windows-PerceptionRuntime%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PerceptionSensorDataService%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Perflib%4Operational.evtx",
+    "records": 800,
+    "first_utc": "2023-09-28T17:09:17.074603+00:00",
+    "last_utc": "2026-10-02T16:28:03.060066+00:00",
+    "days_paris": {
+      "2024-10-28": 32
+    },
+    "selected": 32
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-Nvdimm%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-PmemDisk%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-ScmBus%4Certification.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PersistentMemory-ScmBus%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Policy%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PowerShell%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PowerShell%4Operational.evtx",
+    "records": 619,
+    "first_utc": "2023-09-28T17:30:35.751111+00:00",
+    "last_utc": "2026-10-12T06:49:54.210031+00:00",
+    "days_paris": {
+      "2024-10-28": 17
+    },
+    "selected": 17
+  },
+  {
+    "source": "Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PrintService%4Admin.evtx",
+    "records": 32,
+    "first_utc": "2023-09-28T17:01:28.475733+00:00",
+    "last_utc": "2024-08-13T11:08:22.077746+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PrintService%4Operational.evtx",
+    "records": 1848,
+    "first_utc": "2024-03-14T11:36:41.238188+00:00",
+    "last_utc": "2026-10-02T16:47:25.193275+00:00",
+    "days_paris": {
+      "2024-10-28": 36
+    },
+    "selected": 36
+  },
+  {
+    "source": "Microsoft-Windows-Privacy-Auditing%4Operational.evtx",
+    "records": 223,
+    "first_utc": "2023-09-28T17:01:07.572846+00:00",
+    "last_utc": "2026-10-02T18:58:22.495227+00:00",
+    "days_paris": {
+      "2024-10-28": 4,
+      "2024-10-29": 3
+    },
+    "selected": 7
+  },
+  {
+    "source": "Microsoft-Windows-Program-Compatibility-Assistant%4CompatAfterUpgrade.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Provisioning-Diagnostics-Provider%4Admin.evtx",
+    "records": 734,
+    "first_utc": "2023-09-28T17:09:43.436202+00:00",
+    "last_utc": "2026-10-08T11:03:05.791482+00:00",
+    "days_paris": {
+      "2024-10-28": 41,
+      "2024-10-29": 2
+    },
+    "selected": 43
+  },
+  {
+    "source": "Microsoft-Windows-Provisioning-Diagnostics-Provider%4AutoPilot.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Provisioning-Diagnostics-Provider%4ManagementService.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PushNotification-Platform%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-PushNotification-Platform%4Operational.evtx",
+    "records": 1695,
+    "first_utc": "2026-09-03T13:48:23.474151+00:00",
+    "last_utc": "2026-10-12T06:50:06.131601+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-ReFS%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-ReadyBoost%4Operational.evtx",
+    "records": 107,
+    "first_utc": "2023-09-28T17:01:46.511886+00:00",
+    "last_utc": "2026-10-02T19:08:46.926730+00:00",
+    "days_paris": {
+      "2024-10-28": 1
+    },
+    "selected": 1
+  },
+  {
+    "source": "Microsoft-Windows-ReadyBoostDriver%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Regsvr32%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteApp and Desktop Connections%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteApp and Desktop Connections%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteAssistance%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteAssistance%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-RemoteFX-Synth3dvsc%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-RemoteDesktopServices-SessionServices%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Resource-Exhaustion-Detector%4Operational.evtx",
+    "records": 196,
+    "first_utc": "2023-09-28T17:14:11.184064+00:00",
+    "last_utc": "2026-10-12T06:49:37.098442+00:00",
+    "days_paris": {
+      "2024-10-28": 9,
+      "2024-10-29": 2
+    },
+    "selected": 11
+  },
+  {
+    "source": "Microsoft-Windows-Resource-Exhaustion-Resolver%4Operational.evtx",
+    "records": 330,
+    "first_utc": "2023-09-29T09:12:37.102145+00:00",
+    "last_utc": "2026-10-02T20:05:30.751768+00:00",
+    "days_paris": {
+      "2024-10-28": 12,
+      "2024-10-29": 8
+    },
+    "selected": 20
+  },
+  {
+    "source": "Microsoft-Windows-RestartManager%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-RetailDemo%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-RetailDemo%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SMBClient%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Audit.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Connectivity.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Operational.evtx",
+    "records": 19279,
+    "first_utc": "2023-09-29T08:32:51.177557+00:00",
+    "last_utc": "2026-10-12T06:49:50.727869+00:00",
+    "days_paris": {
+      "2024-10-15": 53,
+      "2024-10-28": 105,
+      "2024-10-29": 211
+    },
+    "selected": 316
+  },
+  {
+    "source": "Microsoft-Windows-SMBServer%4Security.evtx",
+    "records": 2,
+    "first_utc": "2024-03-26T14:20:36.449835+00:00",
+    "last_utc": "2024-03-26T14:21:12.489741+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SMBWitnessClient%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SMBWitnessClient%4Informational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SearchUI%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-Adminless%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-Isolation-BrokeringFileSystem%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx",
+    "records": 714,
+    "first_utc": "2024-02-09T13:09:55.631939+00:00",
+    "last_utc": "2024-10-03T11:43:10.898295+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+    "records": 753,
+    "first_utc": "2024-10-29T17:54:17.447731+00:00",
+    "last_utc": "2026-10-12T06:50:25.349659+00:00",
+    "days_paris": {
+      "2024-10-29": 43
+    },
+    "selected": 43
+  },
+  {
+    "source": "Microsoft-Windows-Security-Mitigations%4UserMode.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-Netlogon%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+    "records": 2,
+    "first_utc": "2023-09-28T17:20:02.818215+00:00",
+    "last_utc": "2026-07-27T16:31:03.149405+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync%4Debug.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-Azure%4Debug.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-Azure%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-OneDrive%4Debug.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SettingSync-OneDrive%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Shell-ConnectedAccountState%4ActionCenter.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4ActionCenter.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4AppDefaults.evtx",
+    "records": 993,
+    "first_utc": "2023-09-28T17:17:49.408495+00:00",
+    "last_utc": "2026-10-12T06:49:41.226169+00:00",
+    "days_paris": {
+      "2024-10-15": 2,
+      "2024-10-28": 9,
+      "2024-10-29": 11
+    },
+    "selected": 20
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4LogonTasksChannel.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Shell-Core%4Operational.evtx",
+    "records": 2244,
+    "first_utc": "2026-09-03T13:36:09.920720+00:00",
+    "last_utc": "2026-10-12T06:50:46.435386+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-ShellCommon-StartLayoutPopulation%4Operational.evtx",
+    "records": 1010,
+    "first_utc": "2023-09-28T17:19:56.200011+00:00",
+    "last_utc": "2026-10-08T10:44:27.683327+00:00",
+    "days_paris": {
+      "2024-10-15": 2,
+      "2024-10-28": 19,
+      "2024-10-29": 8
+    },
+    "selected": 27
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-Audit%4Authentication.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-DeviceEnum%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-TPM-VCard-Module%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SmartCard-TPM-VCard-Module%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Audit.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Connectivity.evtx",
+    "records": 8536,
+    "first_utc": "2023-09-28T17:17:07.665301+00:00",
+    "last_utc": "2026-10-12T06:49:50.727765+00:00",
+    "days_paris": {
+      "2024-10-15": 24,
+      "2024-10-28": 47,
+      "2024-10-29": 104
+    },
+    "selected": 151
+  },
+  {
+    "source": "Microsoft-Windows-SmbClient%4Security.evtx",
+    "records": 265,
+    "first_utc": "2023-09-28T17:17:07.618337+00:00",
+    "last_utc": "2026-10-12T06:49:34.597464+00:00",
+    "days_paris": {
+      "2024-10-15": 1,
+      "2024-10-28": 2,
+      "2024-10-29": 2
+    },
+    "selected": 4
+  },
+  {
+    "source": "Microsoft-Windows-StateRepository%4Operational.evtx",
+    "records": 10708,
+    "first_utc": "2024-08-01T21:40:18.551355+00:00",
+    "last_utc": "2026-10-12T06:49:36.288652+00:00",
+    "days_paris": {
+      "2024-10-15": 10,
+      "2024-10-28": 1047,
+      "2024-10-29": 107
+    },
+    "selected": 1115
+  },
+  {
+    "source": "Microsoft-Windows-StateRepository%4Restricted.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Storage-ClassPnP%4Operational.evtx",
+    "records": 512,
+    "first_utc": "2023-10-06T12:54:20.818608+00:00",
+    "last_utc": "2026-09-07T19:57:19.214099+00:00",
+    "days_paris": {
+      "2024-10-28": 146,
+      "2024-10-29": 170
+    },
+    "selected": 114
+  },
+  {
+    "source": "Microsoft-Windows-Storage-NvmeDisk%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Storage-Storport%4Health.evtx",
+    "records": 21,
+    "first_utc": "2023-09-28T17:14:53.278117+00:00",
+    "last_utc": "2026-10-02T16:30:22.364487+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Storage-Storport%4Operational.evtx",
+    "records": 3278,
+    "first_utc": "2023-09-28T17:00:23.874479+00:00",
+    "last_utc": "2026-10-12T06:49:23.365071+00:00",
+    "days_paris": {
+      "2024-10-15": 6,
+      "2024-10-28": 29,
+      "2024-10-29": 26
+    },
+    "selected": 55
+  },
+  {
+    "source": "Microsoft-Windows-Storage-Tiering%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageManagement%4Operational.evtx",
+    "records": 757,
+    "first_utc": "2023-10-05T07:57:48.215385+00:00",
+    "last_utc": "2026-10-08T10:58:29.825950+00:00",
+    "days_paris": {
+      "2024-10-28": 16
+    },
+    "selected": 16
+  },
+  {
+    "source": "Microsoft-Windows-StorageManagement-PartUtil%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSettings%4Diagnostic.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Api%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Driver%4Diagnostic.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Driver%4Operational.evtx",
+    "records": 66,
+    "first_utc": "2023-09-28T17:00:24.449256+00:00",
+    "last_utc": "2026-10-12T06:49:23.800728+00:00",
+    "days_paris": {
+      "2024-10-28": 9,
+      "2024-10-29": 2
+    },
+    "selected": 7
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-ManagementAgent%4WHC.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Parser%4Diagnostic.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-Parser%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-SpaceManager%4Diagnostic.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-StorageSpaces-SpaceManager%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Store%4Operational.evtx",
+    "records": 24897,
+    "first_utc": "2026-09-03T12:39:56.949192+00:00",
+    "last_utc": "2026-10-12T06:50:42.483169+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Storsvc%4Diagnostic.evtx",
+    "records": 57,
+    "first_utc": "2023-09-28T18:13:11.823995+00:00",
+    "last_utc": "2026-10-12T06:48:23.002582+00:00",
+    "days_paris": {
+      "2024-10-15": 1,
+      "2024-10-28": 8,
+      "2024-10-29": 2
+    },
+    "selected": 4
+  },
+  {
+    "source": "Microsoft-Windows-SystemSettingsThreshold%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-TWinUI%4Operational.evtx",
+    "records": 769,
+    "first_utc": "2023-09-28T17:22:37.218069+00:00",
+    "last_utc": "2026-10-08T11:03:04.680378+00:00",
+    "days_paris": {
+      "2024-10-28": 10,
+      "2024-10-29": 8
+    },
+    "selected": 18
+  },
+  {
+    "source": "Microsoft-Windows-TZSync%4Operational.evtx",
+    "records": 48,
+    "first_utc": "2023-10-06T09:59:48.182236+00:00",
+    "last_utc": "2024-12-03T21:38:01.881781+00:00",
+    "days_paris": {
+      "2024-10-28": 2
+    },
+    "selected": 2
+  },
+  {
+    "source": "Microsoft-Windows-TZUtil%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-TaskScheduler%4Maintenance.evtx",
+    "records": 805,
+    "first_utc": "2023-09-28T17:04:34.507144+00:00",
+    "last_utc": "2026-10-02T19:08:47.750377+00:00",
+    "days_paris": {
+      "2024-10-28": 41,
+      "2024-10-29": 2
+    },
+    "selected": 43
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-ClientUSBDevices%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-ClientUSBDevices%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-LocalSessionManager%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx",
+    "records": 1748,
+    "first_utc": "2023-11-20T10:45:52.843630+00:00",
+    "last_utc": "2026-10-12T06:49:40.613110+00:00",
+    "days_paris": {
+      "2024-10-15": 5,
+      "2024-10-28": 5,
+      "2024-10-29": 25
+    },
+    "selected": 30
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-PnPDevices%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-PnPDevices%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-Printers%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-Printers%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-RDPClient%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Time-Service%4Operational.evtx",
+    "records": 1177,
+    "first_utc": "2024-05-12T21:07:29.711591+00:00",
+    "last_utc": "2026-10-12T06:48:29.470119+00:00",
+    "days_paris": {
+      "2024-10-15": 8,
+      "2024-10-28": 21,
+      "2024-10-29": 28
+    },
+    "selected": 49
+  },
+  {
+    "source": "Microsoft-Windows-Time-Service-PTP-Provider%4PTP-Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Troubleshooting-Recommended%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Troubleshooting-Recommended%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-UAC%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-UAC-FileVirtualization%4Operational.evtx",
+    "records": 90,
+    "first_utc": "2023-09-28T17:01:53.233299+00:00",
+    "last_utc": "2024-01-18T13:20:48.913472+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-UniversalTelemetryClient%4Operational.evtx",
+    "records": 1768,
+    "first_utc": "2024-08-29T14:27:53.151245+00:00",
+    "last_utc": "2026-10-12T06:49:51.816710+00:00",
+    "days_paris": {
+      "2024-10-15": 17,
+      "2024-10-28": 88,
+      "2024-10-29": 144
+    },
+    "selected": 232
+  },
+  {
+    "source": "Microsoft-Windows-User Control Panel%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-User Device Registration%4Admin.evtx",
+    "records": 220,
+    "first_utc": "2023-09-28T17:18:28.508747+00:00",
+    "last_utc": "2026-10-12T06:49:43.566454+00:00",
+    "days_paris": {
+      "2024-10-15": 1,
+      "2024-10-29": 4
+    },
+    "selected": 4
+  },
+  {
+    "source": "Microsoft-Windows-User Profile Service%4Operational.evtx",
+    "records": 965,
+    "first_utc": "2023-09-28T17:01:44.722623+00:00",
+    "last_utc": "2026-10-12T06:49:33.448408+00:00",
+    "days_paris": {
+      "2024-10-15": 5,
+      "2024-10-28": 2,
+      "2024-10-29": 10
+    },
+    "selected": 12
+  },
+  {
+    "source": "Microsoft-Windows-User-Loader%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-UserPnp%4ActionCenter.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-UserPnp%4DeviceInstall.evtx",
+    "records": 201,
+    "first_utc": "2023-09-28T17:00:27.942474+00:00",
+    "last_utc": "2026-10-12T06:48:59.553762+00:00",
+    "days_paris": {
+      "2024-10-28": 32,
+      "2024-10-29": 4
+    },
+    "selected": 36
+  },
+  {
+    "source": "Microsoft-Windows-UserSettingsBackup-BackupUnitProcessor%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-UserSettingsBackup-EarlyDownloader%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-UserSettingsBackup-Orchestrator%4Operational.evtx",
+    "records": 277,
+    "first_utc": "2023-10-06T10:00:08.695451+00:00",
+    "last_utc": "2024-05-04T11:37:46.276381+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-VDRVROOT%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-VHDMP-Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-VPN%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-VPN-Client%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-VerifyHardwareSecurity%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Volume%4Diagnostic.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-VolumeSnapshot-Driver%4Operational.evtx",
+    "records": 626,
+    "first_utc": "2023-09-28T17:00:24.460697+00:00",
+    "last_utc": "2026-10-12T06:49:25.410617+00:00",
+    "days_paris": {
+      "2024-10-28": 8
+    },
+    "selected": 8
+  },
+  {
+    "source": "Microsoft-Windows-WER-Diag%4Operational.evtx",
+    "records": 25,
+    "first_utc": "2023-09-28T17:01:31.415890+00:00",
+    "last_utc": "2024-10-28T16:28:57.635637+00:00",
+    "days_paris": {
+      "2024-10-28": 1
+    },
+    "selected": 1
+  },
+  {
+    "source": "Microsoft-Windows-WER-PayloadHealth%4Operational.evtx",
+    "records": 302,
+    "first_utc": "2023-09-28T17:17:32.324173+00:00",
+    "last_utc": "2026-10-02T19:29:10.482421+00:00",
+    "days_paris": {
+      "2024-10-28": 10,
+      "2024-10-29": 5
+    },
+    "selected": 15
+  },
+  {
+    "source": "Microsoft-Windows-WFP%4Operational.evtx",
+    "records": 2385,
+    "first_utc": "2023-09-28T17:27:11.845954+00:00",
+    "last_utc": "2026-10-12T06:49:55.596073+00:00",
+    "days_paris": {
+      "2024-10-28": 4,
+      "2024-10-29": 3
+    },
+    "selected": 7
+  },
+  {
+    "source": "Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx",
+    "records": 1325,
+    "first_utc": "2024-03-28T06:02:41.926886+00:00",
+    "last_utc": "2026-10-08T10:36:32.160319+00:00",
+    "days_paris": {
+      "2024-10-15": 3,
+      "2024-10-28": 1,
+      "2024-10-29": 29
+    },
+    "selected": 30
+  },
+  {
+    "source": "Microsoft-Windows-WMI-Activity%4Operational.evtx",
+    "records": 1226,
+    "first_utc": "2024-10-28T10:02:58.440402+00:00",
+    "last_utc": "2026-10-12T06:49:59.925344+00:00",
+    "days_paris": {
+      "2024-10-28": 207,
+      "2024-10-29": 179
+    },
+    "selected": 386
+  },
+  {
+    "source": "Microsoft-Windows-WMPNSS-Service%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-WPD-ClassInstaller%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-WPD-CompositeClassDriver%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-WPD-MTPClassDriver%4Operational.evtx",
+    "records": 18,
+    "first_utc": "2023-12-14T15:42:04.743457+00:00",
+    "last_utc": "2024-10-28T10:18:52.906783+00:00",
+    "days_paris": {
+      "2024-10-28": 8
+    },
+    "selected": 8
+  },
+  {
+    "source": "Microsoft-Windows-WWAN-SVC-Events%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Wcmsvc%4Operational.evtx",
+    "records": 2784,
+    "first_utc": "2024-05-04T13:08:58.474743+00:00",
+    "last_utc": "2026-10-12T06:49:39.665448+00:00",
+    "days_paris": {
+      "2024-10-15": 10,
+      "2024-10-28": 31,
+      "2024-10-29": 54
+    },
+    "selected": 85
+  },
+  {
+    "source": "Microsoft-Windows-WebAuthN%4Operational.evtx",
+    "records": 1987,
+    "first_utc": "2023-09-28T17:01:07.238623+00:00",
+    "last_utc": "2026-10-12T06:49:33.671377+00:00",
+    "days_paris": {
+      "2024-10-28": 20,
+      "2024-10-29": 3
+    },
+    "selected": 23
+  },
+  {
+    "source": "Microsoft-Windows-WebIO%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-WerKernel%4Operational.evtx",
+    "records": 7,
+    "first_utc": "2024-03-16T02:53:22.495784+00:00",
+    "last_utc": "2024-10-03T18:52:35.063139+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Win32k%4Operational.evtx",
+    "records": 181,
+    "first_utc": "2024-05-02T11:37:23.685191+00:00",
+    "last_utc": "2026-10-02T18:27:11.071652+00:00",
+    "days_paris": {
+      "2024-10-28": 36,
+      "2024-10-29": 4
+    },
+    "selected": 40
+  },
+  {
+    "source": "Microsoft-Windows-WinHttp%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-WinINet%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-WinINet-Config%4ProxyConfigChanged.evtx",
+    "records": 2,
+    "first_utc": "2023-09-28T17:04:10.995263+00:00",
+    "last_utc": "2023-11-14T00:53:17.662954+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-WinRM%4Operational.evtx",
+    "records": 1511,
+    "first_utc": "2023-12-04T17:02:57.016248+00:00",
+    "last_utc": "2026-10-12T06:48:32.598260+00:00",
+    "days_paris": {
+      "2024-10-15": 8,
+      "2024-10-28": 44,
+      "2024-10-29": 28
+    },
+    "selected": 72
+  },
+  {
+    "source": "Microsoft-Windows-Windows Defender%4Operational.evtx",
+    "records": 2146,
+    "first_utc": "2023-09-28T17:17:07.395879+00:00",
+    "last_utc": "2026-07-27T16:31:01.000259+00:00",
+    "days_paris": {
+      "2024-10-28": 64,
+      "2024-10-29": 12
+    },
+    "selected": 76
+  },
+  {
+    "source": "Microsoft-Windows-Windows Defender%4WHC.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Windows Firewall With Advanced Security%4ConnectionSecurity.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+    "records": 1044,
+    "first_utc": "2026-09-03T12:42:10.340622+00:00",
+    "last_utc": "2026-10-12T06:49:54.297589+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Windows Firewall With Advanced Security%4FirewallDiagnostics.evtx",
+    "records": 30,
+    "first_utc": "2023-09-29T08:31:46.840960+00:00",
+    "last_utc": "2026-10-02T19:22:16.469744+00:00",
+    "days_paris": {
+      "2024-10-29": 1
+    },
+    "selected": 1
+  },
+  {
+    "source": "Microsoft-Windows-WindowsBackup%4ActionCenter.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-WindowsSystemAssessmentTool%4Operational.evtx",
+    "records": 437,
+    "first_utc": "2023-11-03T12:08:13.181283+00:00",
+    "last_utc": "2024-12-03T22:37:05.084127+00:00",
+    "days_paris": {
+      "2024-10-28": 38
+    },
+    "selected": 38
+  },
+  {
+    "source": "Microsoft-Windows-WindowsUpdateClient%4Operational.evtx",
+    "records": 1999,
+    "first_utc": "2024-01-11T17:39:47.235018+00:00",
+    "last_utc": "2026-10-02T19:24:53.986028+00:00",
+    "days_paris": {
+      "2024-10-28": 78,
+      "2024-10-29": 12
+    },
+    "selected": 90
+  },
+  {
+    "source": "Microsoft-Windows-Winlogon%4Operational.evtx",
+    "records": 2506,
+    "first_utc": "2024-08-06T17:46:51.283124+00:00",
+    "last_utc": "2026-10-12T06:49:40.613132+00:00",
+    "days_paris": {
+      "2024-10-15": 20,
+      "2024-10-28": 34,
+      "2024-10-29": 126
+    },
+    "selected": 160
+  },
+  {
+    "source": "Microsoft-Windows-Winsock-WS2HELP%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Wired-AutoConfig%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-WorkFolders%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-WorkFolders%4WHC.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-Workplace Join%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-Windows-hidcfu%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Microsoft-WindowsPhone-Connectivity-WiFiConnSvc-Channel.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "NordUpdate.evtx",
+    "records": 1503,
+    "first_utc": "2023-09-28T17:04:17.503108+00:00",
+    "last_utc": "2026-10-12T06:49:46.167603+00:00",
+    "days_paris": {
+      "2024-10-15": 3,
+      "2024-10-28": 19,
+      "2024-10-29": 17
+    },
+    "selected": 36
+  },
+  {
+    "source": "OAlerts.evtx",
+    "records": 332,
+    "first_utc": "2023-09-29T08:37:05.797812+00:00",
+    "last_utc": "2026-10-02T19:27:29.008005+00:00",
+    "days_paris": {
+      "2024-10-28": 39,
+      "2024-10-29": 29
+    },
+    "selected": 68
+  },
+  {
+    "source": "OneApp_IGCC.evtx",
+    "records": 96,
+    "first_utc": "2023-09-28T17:01:31.802000+00:00",
+    "last_utc": "2026-10-12T06:49:47.411419+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "OpenSSH%4Admin.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "OpenSSH%4Operational.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "SMSApi.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Security.evtx",
+    "records": 34472,
+    "first_utc": "2026-09-07T19:33:43.236504+00:00",
+    "last_utc": "2026-10-12T06:50:38.628213+00:00",
+    "days_paris": {},
+    "selected": 0
+  },
+  {
+    "source": "Setup.evtx",
+    "records": 188,
+    "first_utc": "2023-10-17T09:07:09.393929+00:00",
+    "last_utc": "2026-10-02T15:59:35.063697+00:00",
+    "days_paris": {
+      "2024-10-28": 6,
+      "2024-10-29": 2
+    },
+    "selected": 8
+  },
+  {
+    "source": "System.evtx",
+    "records": 36445,
+    "first_utc": "2023-11-29T15:06:59.840439+00:00",
+    "last_utc": "2026-10-12T06:50:46.084950+00:00",
+    "days_paris": {
+      "2024-10-15": 80,
+      "2024-10-28": 602,
+      "2024-10-29": 440
+    },
+    "selected": 1042
+  },
+  {
+    "source": "Windows PowerShell.evtx",
+    "records": 1124,
+    "first_utc": "2023-10-05T13:33:41.866471+00:00",
+    "last_utc": "2026-10-12T06:49:55.414649+00:00",
+    "days_paris": {
+      "2024-10-28": 40
+    },
+    "selected": 40
+  },
+  {
+    "source": "iolo Applications.evtx",
+    "records": 0,
+    "first_utc": null,
+    "last_utc": null,
+    "days_paris": {},
+    "selected": 0
+  }
+]

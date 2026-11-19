@@ -1,0 +1,35 @@
+[
+  {
+    "source": "Windows/Logs/NetSetup/service.0.etl",
+    "etl_start": "2026-07-27 17:01:50.564587+00:00",
+    "etl_end": "2026-10-12 06:49:42.740149+00:00",
+    "physical_buffer_scan": false,
+    "records": 97,
+    "first_event_utc": "2026-07-27T17:01:50.564587+00:00",
+    "last_event_utc": "2026-10-12T06:49:34.390009+00:00",
+    "day28_paris_records": 0,
+    "target_records": 0
+  },
+  {
+    "source": "Windows/Logs/NetSetup/service.1.etl",
+    "etl_start": "2024-10-28 12:08:48.599020+00:00",
+    "etl_end": "2026-07-27 16:58:41.684261+00:00",
+    "physical_buffer_scan": false,
+    "records": 144,
+    "first_event_utc": "2024-10-28T12:08:48.599020+00:00",
+    "last_event_utc": "2026-07-27T16:58:06.754372+00:00",
+    "day28_paris_records": 25,
+    "target_records": 40
+  },
+  {
+    "source": "Windows/System32/LogFiles/WMI/NetCore.etl",
+    "etl_start": "2026-10-12 06:49:19.370552+00:00",
+    "etl_end": "1601-01-01 00:00:00+00:00",
+    "physical_buffer_scan": true,
+    "records": 13959,
+    "first_event_utc": "2026-10-12T06:49:19.370552+00:00",
+    "last_event_utc": "2026-10-12T06:50:39.042593+00:00",
+    "day28_paris_records": 0,
+    "target_records": 4
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "hive": "Windows/System32/config/SOFTWARE",
+    "key": "Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Profiles\\{098BDBEB-1D58-4B9D-AAAD-C6C8BAAE44D1}",
+    "lastwrite_utc": "2024-10-28 10:18:56.009300",
+    "values": {
+      "ProfileName": "Réseau 2",
+      "Description": "Réseau",
+      "Managed": 0,
+      "Category": 0,
+      "DateCreated": {
+        "hex": "e8070a0001001c000b0012003700c203"
+      },
+      "NameType": 6,
+      "DateLastConnected": {
+        "hex": "e8070a0001001c000b00120038000900"
+      }
+    },
+    "decoded_dates": {
+      "DateCreated": "2024-10-28 11:18:55.962 (heure murale sans fuseau dans SYSTEMTIME)",
+      "DateLastConnected": "2024-10-28 11:18:56.009 (heure murale sans fuseau dans SYSTEMTIME)"
+    }
+  },
+  {
+    "hive": "Windows/System32/config/SOFTWARE",
+    "key": "Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Profiles\\{605408D1-5CB7-4501-A4BB-168FAAF94C58}",
+    "lastwrite_utc": "2024-10-28 15:27:53.305702",
+    "values": {
+      "ProfileName": "Réseau 3",
+      "Description": "Réseau",
+      "Managed": 0,
+      "Category": 0,
+      "DateCreated": {
+        "hex": "e8070a0001001c000b002f001f009903"
+      },
+      "NameType": 6,
+      "DateLastConnected": {
+        "hex": "e8070a0001001c0010001b0035003101"
+      }
+    },
+    "decoded_dates": {
+      "DateCreated": "2024-10-28 11:47:31.921 (heure murale sans fuseau dans SYSTEMTIME)",
+      "DateLastConnected": "2024-10-28 16:27:53.305 (heure murale sans fuseau dans SYSTEMTIME)"
+    }
+  },
+  {
+    "hive": "Windows/System32/config/SOFTWARE",
+    "key": "Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Profiles\\{E4DF815A-9C12-4849-BAB4-6B0764EB456F}",
+    "lastwrite_utc": "2024-10-28 10:35:45.737743",
+    "values": {
+      "ProfileName": "Connexion au réseau local 2",
+      "Description": "Connexion au réseau local",
+      "Managed": 0,
+      "Category": 0,
+      "DateCreated": {
+        "hex": "e8070a0001001c000b0023002d00e102"
+      },
+      "NameType": 1,
+      "DateLastConnected": {
+        "hex": "e8070a0001001c000b0023002d00e102"
+      }
+    },
+    "decoded_dates": {
+      "DateCreated": "2024-10-28 11:35:45.737 (heure murale sans fuseau dans SYSTEMTIME)",
+      "DateLastConnected": "2024-10-28 11:35:45.737 (heure murale sans fuseau dans SYSTEMTIME)"
+    }
+  },
+  {
+    "hive": "Windows/System32/config/SOFTWARE",
+    "key": "Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Signatures\\Unmanaged\\010103000F0000F0000200000F0000F0957D59E44101E80C434BB61E3CD6CB0A9E0AB40219E146B7A1EF0C44EFED687F",
+    "lastwrite_utc": "2024-10-28 10:35:45.737743",
+    "values": {
+      "ProfileGuid": "{E4DF815A-9C12-4849-BAB4-6B0764EB456F}",
+      "Description": "Connexion au réseau local 2",
+      "Source": 512,
+      "DnsSuffix": "<aucun>",
+      "FirstNetwork": "Connexion au réseau local 2",
+      "DefaultGatewayMac": {
+        "hex": ""
+      }
+    },
+    "decoded_dates": {}
+  },
+  {
+    "hive": "Windows/System32/config/SOFTWARE",
+    "key": "Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Signatures\\Unmanaged\\010103000F0000F0080000000F0000F0D69D70AFDA0F7985000258D2E6D8922CA8835C6D33AD1B429C60FA64F628520D",
+    "lastwrite_utc": "2024-10-28 10:18:55.962435",
+    "values": {
+      "ProfileGuid": "{098BDBEB-1D58-4B9D-AAAD-C6C8BAAE44D1}",
+      "Description": "Réseau 2",
+      "Source": 8,
+      "DnsSuffix": "<aucun>",
+      "FirstNetwork": "Réseau 2",
+      "DefaultGatewayMac": {
+        "hex": "4a8d172ef2aa"
+      }
+    },
+    "decoded_dates": {}
+  },
+  {
+    "hive": "Windows/System32/config/SOFTWARE",
+    "key": "Microsoft\\Windows NT\\CurrentVersion\\NetworkList\\Signatures\\Unmanaged\\010103000F0000F0080000000F0000F0F85E39284C610BA96D258A1A93BDE151A0DFD5F4716B300F8B0CD77562588B03",
+    "lastwrite_utc": "2024-10-28 10:47:31.921831",
+    "values": {
+      "ProfileGuid": "{605408D1-5CB7-4501-A4BB-168FAAF94C58}",
+      "Description": "Réseau 3",
+      "Source": 8,
+      "DnsSuffix": "<aucun>",
+      "FirstNetwork": "Réseau 3",
+      "DefaultGatewayMac": {
+        "hex": "72addb12186d"
+      }
+    },
+    "decoded_dates": {}
+  }
+]

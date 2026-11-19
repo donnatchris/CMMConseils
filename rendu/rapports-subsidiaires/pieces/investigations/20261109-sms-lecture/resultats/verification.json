@@ -1,0 +1,127 @@
+{
+  "messages": [
+    {
+      "rowid": 74688,
+      "date": 751806194750877056,
+      "date_read": 751806198794336128,
+      "date_paris": "2024-10-28T12:03:14.750877+01:00",
+      "date_read_paris": "2024-10-28T12:03:18.794336+01:00",
+      "delay_ns": 4043459072,
+      "is_read": 1,
+      "ck_sync_state": 1,
+      "nature": "Code de réinitialisation de mot de passe Microsoft",
+      "body_sha256": "777c46547b5fe1334915cdbe7e4ba78d448260e3427585b92595b51a46eda6e1",
+      "utf8_offset": 122,
+      "utf8_length": 73,
+      "sender_handle_present": true,
+      "sender_identity_verified": false
+    },
+    {
+      "rowid": 74689,
+      "date": 751806604455465984,
+      "date_read": 751806606276798976,
+      "date_paris": "2024-10-28T12:10:04.455465+01:00",
+      "date_read_paris": "2024-10-28T12:10:06.276798+01:00",
+      "delay_ns": 1821332992,
+      "is_read": 1,
+      "ck_sync_state": 1,
+      "nature": "Code de validation Google",
+      "body_sha256": "71a40a0eef2221be041fe02bdf70280b8975c5ca8c1e8d656cf3e37751264f84",
+      "utf8_offset": 122,
+      "utf8_length": 75,
+      "sender_handle_present": true,
+      "sender_identity_verified": false
+    },
+    {
+      "rowid": 74690,
+      "date": 751808763902439936,
+      "date_read": 751808766075801088,
+      "date_paris": "2024-10-28T12:46:03.902439+01:00",
+      "date_read_paris": "2024-10-28T12:46:06.075801+01:00",
+      "delay_ns": 2173361152,
+      "is_read": 1,
+      "ck_sync_state": 1,
+      "nature": "Code de validation Google",
+      "body_sha256": "ec233d70e16f2654283d44b369acb52a451343d43e14d1a2175b5711ada5eb4d",
+      "utf8_offset": 122,
+      "utf8_length": 75,
+      "sender_handle_present": true,
+      "sender_identity_verified": false
+    }
+  ],
+  "source_hashes_before": {
+    "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/SMS/sms.db": "013bd7ec5e87c1e7daf1e69097e6d3d8e797791574aefaca7e2ecd2a7c0cd171",
+    "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/SMS/sms.db-wal": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/SMS/sms.db-shm": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+  },
+  "source_hashes_after": {
+    "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/SMS/sms.db": "013bd7ec5e87c1e7daf1e69097e6d3d8e797791574aefaca7e2ecd2a7c0cd171",
+    "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/SMS/sms.db-wal": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/SMS/sms.db-shm": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+  },
+  "timeline_sha256": "53cf894da7dcba5c4ef46894fcd75d84d650032124cc62a37ade4f5da56427dd",
+  "nearby_events_within_60_seconds": [
+    {
+      "paris": "2024-10-28T12:03:14.750877+01:00",
+      "relativePath": "Library/SMS/sms.db",
+      "locator": "message.ROWID=74688.date",
+      "observation": "SMS date",
+      "interpretation": "état du message; consultation locale non établie"
+    },
+    {
+      "paris": "2024-10-28T12:03:18.492020+01:00",
+      "relativePath": "Library/Preferences/UITextInputContextIdentifiers.plist",
+      "locator": "ID_CK_22855b35cec236c76d0d2911c2b4437e1171dff_SETTIME",
+      "observation": "date SETTIME du contexte de clavier",
+      "interpretation": "préférence de langue; texte saisi non démontré"
+    },
+    {
+      "paris": "2024-10-28T12:03:18.794336+01:00",
+      "relativePath": "Library/SMS/sms.db",
+      "locator": "message.ROWID=74688.date_read",
+      "observation": "SMS date_read",
+      "interpretation": "état du message; consultation locale non établie"
+    },
+    {
+      "paris": "2024-10-28T12:03:27.445469+01:00",
+      "relativePath": "com.apple.wifi.known-networks.plist",
+      "locator": "wifi.network.ssid.ASUS_Z01RD/BSSList/1/Location/LocationTimestamp",
+      "observation": "état Wi-Fi daté",
+      "interpretation": "instantané; historique de provenance non fourni"
+    },
+    {
+      "paris": "2024-10-28T12:10:04.455465+01:00",
+      "relativePath": "Library/SMS/sms.db",
+      "locator": "message.ROWID=74689.date",
+      "observation": "SMS date",
+      "interpretation": "état du message; consultation locale non établie"
+    },
+    {
+      "paris": "2024-10-28T12:10:06.276798+01:00",
+      "relativePath": "Library/SMS/sms.db",
+      "locator": "message.ROWID=74689.date_read",
+      "observation": "SMS date_read",
+      "interpretation": "état du message; consultation locale non établie"
+    },
+    {
+      "paris": "2024-10-28T12:46:03.902439+01:00",
+      "relativePath": "Library/SMS/sms.db",
+      "locator": "message.ROWID=74690.date",
+      "observation": "SMS date",
+      "interpretation": "état du message; consultation locale non établie"
+    },
+    {
+      "paris": "2024-10-28T12:46:06.075801+01:00",
+      "relativePath": "Library/SMS/sms.db",
+      "locator": "message.ROWID=74690.date_read",
+      "observation": "SMS date_read",
+      "interpretation": "état du message; consultation locale non établie"
+    }
+  ],
+  "limits": [
+    "Extraction ciblée des chaînes ; pas de décodage général des archives.",
+    "Marques Microsoft/Google issues du corps, expéditeur non authentifié.",
+    "ck_sync_state brut ne date pas une synchronisation et ne désigne pas un appareil.",
+    "Corrélation limitée à la chronologie existante ; aucune nouvelle recherche exhaustive des journaux."
+  ]
+}

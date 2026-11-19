@@ -1,0 +1,18 @@
+{
+  "attempt": 8,
+  "password_recorded": false,
+  "extraction_statuses": {
+    "ok": 46
+  },
+  "l16b_files": 27,
+  "identical_l16b_files": 27,
+  "all_ciphertext_unchanged": true,
+  "all_plaintext_hashes_verified": true,
+  "all_pdf_signatures": true,
+  "matching_domains": {
+    "AppDomainGroup-group.com.apple.FileProvider.LocalStorage": 58,
+    "AppDomainGroup-group.net.whatsapp.WhatsApp.shared": 6,
+    "AppDomain-com.tencent.xin": 1
+  },
+  "interpretation": "SHA256 identity establishes common content, not transfer direction/date or exclusive physical origin"
+}

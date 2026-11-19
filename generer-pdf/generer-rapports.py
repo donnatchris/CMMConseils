@@ -21,6 +21,7 @@ from pypdf.generic import TextStringObject, NameObject
 from markdown.extensions.toc import slugify_unicode
 
 ROOT = Path(__file__).resolve().parents[1]
+AUTHOR = 'Christophe Donnat — Donnat Dev'
 SELECTION = json.loads((ROOT / 'generer-pdf/livraison-20261118.json').read_text())
 OUT = ROOT / SELECTION['output_directory']
 TMP = Path(tempfile.mkdtemp(prefix='dmm-pdf-qa-'))
@@ -183,10 +184,13 @@ def generate(rel):
     short_title = source.stem.replace('analyse-', '').replace('RAPPORT-FINAL-', 'Rapport final - ')
     document = '<!doctype html><html lang="fr"><head><meta charset="utf-8">'
     document += '<title>' + html.escape(title) + '</title>'
-    document += '<meta name="author" content="Christophe DOnnat — Donnat Dev"></head><body>'
+    document += '<meta name="author" content="' + html.escape(AUTHOR, quote=True) + '"></head><body>'
     document += '<div class="short-title">' + html.escape(short_title) + '</div>' + body + '</body></html>'
     (TMP / (destination.stem + '.html')).write_text(document)
     css = CSS_TEXT
+    if source.name == 'rectificatif-attestation-remise-20261117.md':
+        # Keep the revision note on the same page as the two signature areas.
+        css += '\nhtml { font-size: 9pt; } body { line-height: 1.42; } h1 { font-size: 20pt; } h2 { margin-top: 5mm; }'
     if source.name == 'liste-complete-fichiers-28oct2024.md':
         css += '\nth, td { box-sizing: border-box; }'
         for column, width in enumerate([9, 35, 8, 10, 20, 18], 1):
@@ -218,7 +222,7 @@ def generate(rel):
             target = Path(unquote(parsed.path)).resolve()
             if target in DESTINATIONS:
                 target = DESTINATIONS[target]
-            relative = os.path.relpath(target, OUT)
+            relative = os.path.relpath(target, destination.parent)
             if parsed.fragment:
                 relative += '#' + parsed.fragment
             action[NameObject('/URI')] = TextStringObject(relative)

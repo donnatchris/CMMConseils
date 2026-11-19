@@ -1,0 +1,30 @@
+[
+  {
+    "source": "Microsoft-Windows-PrintService%4Operational.evtx",
+    "expected": 36,
+    "found": 36,
+    "all_found": true,
+    "errors": []
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Configuration.evtx",
+    "expected": 8,
+    "found": 8,
+    "all_found": true,
+    "errors": []
+  },
+  {
+    "source": "Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+    "expected": 5,
+    "found": 5,
+    "all_found": true,
+    "errors": []
+  },
+  {
+    "source": "System.evtx",
+    "expected": 5,
+    "found": 5,
+    "all_found": true,
+    "errors": []
+  }
+]

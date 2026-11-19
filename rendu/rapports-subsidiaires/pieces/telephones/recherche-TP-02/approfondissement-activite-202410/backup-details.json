@@ -1,0 +1,399 @@
+{
+  "target_files": [
+    {
+      "source": {
+        "domain": "SystemPreferencesDomain",
+        "relativePath": "com.apple.wifi.known-networks.plist",
+        "fileID": "0fa75546343ba224c9fe55adc73e8fdedc1029c3",
+        "sha256": "d32e9c13df0276375a6301cbae85b6e452c6e67081f78e39b23db37015318f82",
+        "ciphertext_sha256": "1b8e1960ae5c630978e763929b885f746f0e3282dc3e9c62cb6b8c9b85122c57",
+        "path": "/home/chris/codeProjects/CMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/SystemPreferencesDomain/com.apple.wifi.known-networks.plist",
+        "sha256_now": "d32e9c13df0276375a6301cbae85b6e452c6e67081f78e39b23db37015318f82",
+        "plaintext_matches": true,
+        "bytes": 56739,
+        "ciphertext_sha256_now": "1b8e1960ae5c630978e763929b885f746f0e3282dc3e9c62cb6b8c9b85122c57",
+        "ciphertext_bytes": 56752,
+        "ciphertext_matches": true
+      },
+      "prior_consistency": {
+        "fileID": "0fa75546343ba224c9fe55adc73e8fdedc1029c3",
+        "domain": "SystemPreferencesDomain",
+        "relativePath": "com.apple.wifi.known-networks.plist",
+        "manifest_size": 56739,
+        "plaintext_size": 56739,
+        "ciphertext_size": 56752,
+        "padding_length": 13,
+        "cbc_size_relation_valid": true,
+        "manifest_digest_sha1": "ea8009e6dd0c004d07b4b8605d1eaf7a4901551f",
+        "plaintext_sha1": "9294e66834ea09bcea4f81ed3cc7138d86e9f4f8",
+        "ciphertext_sha1": "ea8009e6dd0c004d07b4b8605d1eaf7a4901551f",
+        "digest_matches_plaintext": false,
+        "digest_matches_ciphertext": true
+      },
+      "MBFile": {
+        "Size": 56739,
+        "Birth": 1788808894,
+        "LastModified": 1788808894,
+        "LastStatusChange": 1788808894
+      },
+      "manifest_companions": []
+    },
+    {
+      "source": {
+        "domain": "SystemPreferencesDomain",
+        "relativePath": "SystemConfiguration/com.apple.wifi-private-mac-networks.plist",
+        "fileID": "e36b35ae4cc6038f9ce83b5e097f216144278b17",
+        "sha256": "3d066811eea6285c3a70002743082d3b07d228df1b3d685588749b7db9c36454",
+        "ciphertext_sha256": "5a80fb0cfe7088b63608ad0d40217dcd9e830001404f526bc98feadf273fa6c1",
+        "path": "/home/chris/codeProjects/CMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/SystemPreferencesDomain/SystemConfiguration/com.apple.wifi-private-mac-networks.plist",
+        "sha256_now": "3d066811eea6285c3a70002743082d3b07d228df1b3d685588749b7db9c36454",
+        "plaintext_matches": true,
+        "bytes": 19652,
+        "ciphertext_sha256_now": "5a80fb0cfe7088b63608ad0d40217dcd9e830001404f526bc98feadf273fa6c1",
+        "ciphertext_bytes": 19664,
+        "ciphertext_matches": true
+      },
+      "prior_consistency": {
+        "fileID": "e36b35ae4cc6038f9ce83b5e097f216144278b17",
+        "domain": "SystemPreferencesDomain",
+        "relativePath": "SystemConfiguration/com.apple.wifi-private-mac-networks.plist",
+        "manifest_size": 19652,
+        "plaintext_size": 19652,
+        "ciphertext_size": 19664,
+        "padding_length": 12,
+        "cbc_size_relation_valid": true,
+        "manifest_digest_sha1": "919795231ead4620b6418faf3b99226938686188",
+        "plaintext_sha1": "0c7c60d9c5ef1aea6f62800a3c46f4992a392697",
+        "ciphertext_sha1": "919795231ead4620b6418faf3b99226938686188",
+        "digest_matches_plaintext": false,
+        "digest_matches_ciphertext": true
+      },
+      "MBFile": {
+        "Size": 19652,
+        "Birth": 1789754103,
+        "LastModified": 1789754103,
+        "LastStatusChange": 1789754103
+      },
+      "manifest_companions": []
+    },
+    {
+      "source": {
+        "domain": "HealthDomain",
+        "relativePath": "Health/healthdb.sqlite",
+        "fileID": "fa2e5ac3b7a62c8b7cb21e440c79eedd218550ea",
+        "sha256": "57a1a03eceae0b80c85f0a2694eb5922c71b7b2f36922c779df66018a1c74122",
+        "ciphertext_sha256": "606898f9aed8b8901723aaafe9f4b59b147d923fa4654d6c4d79aa9be6387357",
+        "path": "/home/chris/codeProjects/CMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/HealthDomain/Health/healthdb.sqlite",
+        "sha256_now": "57a1a03eceae0b80c85f0a2694eb5922c71b7b2f36922c779df66018a1c74122",
+        "plaintext_matches": true,
+        "bytes": 421888,
+        "ciphertext_sha256_now": "606898f9aed8b8901723aaafe9f4b59b147d923fa4654d6c4d79aa9be6387357",
+        "ciphertext_bytes": 421904,
+        "ciphertext_matches": true
+      },
+      "prior_consistency": {
+        "fileID": "fa2e5ac3b7a62c8b7cb21e440c79eedd218550ea",
+        "domain": "HealthDomain",
+        "relativePath": "Health/healthdb.sqlite",
+        "manifest_size": 483328,
+        "plaintext_size": 421888,
+        "ciphertext_size": 421904,
+        "padding_length": 16,
+        "cbc_size_relation_valid": true,
+        "manifest_digest_sha1": "99e2e5f61df4cd2eadfc7d0afc898ab9586a6445",
+        "plaintext_sha1": "ff52ca4736ac76569f5a09695956e80bb650bd18",
+        "ciphertext_sha1": "99e2e5f61df4cd2eadfc7d0afc898ab9586a6445",
+        "digest_matches_plaintext": false,
+        "digest_matches_ciphertext": true,
+        "sqlite_page_size": 4096,
+        "sqlite_header_pages": 103,
+        "sqlite_header_bytes": 421888,
+        "sqlite_header_size_match": true
+      },
+      "MBFile": {
+        "Size": 483328,
+        "Birth": 1718107258,
+        "LastModified": 1789754246,
+        "LastStatusChange": 1789742116
+      },
+      "manifest_companions": [],
+      "sqlite_header": {
+        "page_size": 4096,
+        "write_version": 2,
+        "read_version": 2,
+        "change_counter": 2,
+        "database_pages": 103,
+        "freelist_pages": 0,
+        "version_valid_for": 2,
+        "sqlite_version": 3043002
+      },
+      "MBFile_minus_plaintext": 61440,
+      "delta_pages": 15.0
+    },
+    {
+      "source": {
+        "domain": "HealthDomain",
+        "relativePath": "Health/healthdb_secure.sqlite",
+        "fileID": "516d7e19a4a0c9475c0015fae195626377b1b810",
+        "sha256": "2ed6603174fec740fcd3acd2ee9bad9eadcb4c27cfc355fe7a82f192f9d7630f",
+        "ciphertext_sha256": "28ad0c37a55f50ae8995a3721472e689ea6775d9c530597e0b50a49050d0c2b2",
+        "path": "/home/chris/codeProjects/CMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/HealthDomain/Health/healthdb_secure.sqlite",
+        "sha256_now": "2ed6603174fec740fcd3acd2ee9bad9eadcb4c27cfc355fe7a82f192f9d7630f",
+        "plaintext_matches": true,
+        "bytes": 13504512,
+        "ciphertext_sha256_now": "28ad0c37a55f50ae8995a3721472e689ea6775d9c530597e0b50a49050d0c2b2",
+        "ciphertext_bytes": 13504528,
+        "ciphertext_matches": true
+      },
+      "prior_consistency": {
+        "fileID": "516d7e19a4a0c9475c0015fae195626377b1b810",
+        "domain": "HealthDomain",
+        "relativePath": "Health/healthdb_secure.sqlite",
+        "manifest_size": 14749696,
+        "plaintext_size": 13504512,
+        "ciphertext_size": 13504528,
+        "padding_length": 16,
+        "cbc_size_relation_valid": true,
+        "manifest_digest_sha1": "0ce0ebd66f4e857ceb2673fc071b3d3713d3eff7",
+        "plaintext_sha1": "1ee19b3008e8aea889629f7f2cdff667a8a2d4e9",
+        "ciphertext_sha1": "0ce0ebd66f4e857ceb2673fc071b3d3713d3eff7",
+        "digest_matches_plaintext": false,
+        "digest_matches_ciphertext": true,
+        "sqlite_page_size": 4096,
+        "sqlite_header_pages": 3297,
+        "sqlite_header_bytes": 13504512,
+        "sqlite_header_size_match": true
+      },
+      "MBFile": {
+        "Size": 14749696,
+        "Birth": 1718107258,
+        "LastModified": 1789753959,
+        "LastStatusChange": 1789753958
+      },
+      "manifest_companions": [],
+      "sqlite_header": {
+        "page_size": 4096,
+        "write_version": 2,
+        "read_version": 2,
+        "change_counter": 2,
+        "database_pages": 3297,
+        "freelist_pages": 0,
+        "version_valid_for": 2,
+        "sqlite_version": 3043002
+      },
+      "MBFile_minus_plaintext": 1245184,
+      "delta_pages": 304.0
+    },
+    {
+      "source": {
+        "domain": "HomeDomain",
+        "relativePath": "Library/SMS/sms.db",
+        "fileID": "3d0d7e5fb2ce288813306e4d4636395e047a3d28",
+        "sha256": "013bd7ec5e87c1e7daf1e69097e6d3d8e797791574aefaca7e2ecd2a7c0cd171",
+        "ciphertext_sha256": "0f0fcca319f280edccd6e659ced88e60e54a741fb1c8997a242966bd354b61a7",
+        "path": "/home/chris/codeProjects/CMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/SMS/sms.db",
+        "sha256_now": "013bd7ec5e87c1e7daf1e69097e6d3d8e797791574aefaca7e2ecd2a7c0cd171",
+        "plaintext_matches": true,
+        "bytes": 99676160,
+        "ciphertext_sha256_now": "0f0fcca319f280edccd6e659ced88e60e54a741fb1c8997a242966bd354b61a7",
+        "ciphertext_bytes": 99676176,
+        "ciphertext_matches": true
+      },
+      "prior_consistency": {
+        "fileID": "3d0d7e5fb2ce288813306e4d4636395e047a3d28",
+        "domain": "HomeDomain",
+        "relativePath": "Library/SMS/sms.db",
+        "manifest_size": 100200448,
+        "plaintext_size": 99676160,
+        "ciphertext_size": 99676176,
+        "padding_length": 16,
+        "cbc_size_relation_valid": true,
+        "manifest_digest_sha1": "ec982b8a2fffbffe6822f3cac0402ac2b7ce7ab7",
+        "plaintext_sha1": "116d4a7b1070c8f408c47276f66b3a781768136b",
+        "ciphertext_sha1": "ec982b8a2fffbffe6822f3cac0402ac2b7ce7ab7",
+        "digest_matches_plaintext": false,
+        "digest_matches_ciphertext": true,
+        "sqlite_page_size": 4096,
+        "sqlite_header_pages": 24335,
+        "sqlite_header_bytes": 99676160,
+        "sqlite_header_size_match": true
+      },
+      "MBFile": {
+        "Size": 100200448,
+        "Birth": 1718107248,
+        "LastModified": 1755131459,
+        "LastStatusChange": 1789742117
+      },
+      "manifest_companions": [],
+      "sqlite_header": {
+        "page_size": 4096,
+        "write_version": 2,
+        "read_version": 2,
+        "change_counter": 2,
+        "database_pages": 24335,
+        "freelist_pages": 0,
+        "version_valid_for": 2,
+        "sqlite_version": 3043002
+      },
+      "MBFile_minus_plaintext": 524288,
+      "delta_pages": 128.0
+    },
+    {
+      "source": {
+        "domain": "HomeDomain",
+        "relativePath": "Library/CallHistoryDB/CallHistory.storedata",
+        "fileID": "5a4935c78a5255723f707230a451d79c540d2741",
+        "sha256": "d9f9b69b847164cc03081b275d6b2189a1eda2148695bddcfe178e4985079b0c",
+        "ciphertext_sha256": "80d240272c37341ac55ea339b59e5f60686c62f4648dc835d8a2760e4e98b962",
+        "path": "/home/chris/codeProjects/CMMConseils/telephones/recherche-TP-02/extraction-systeme-20261014/files/HomeDomain/Library/CallHistoryDB/CallHistory.storedata",
+        "sha256_now": "d9f9b69b847164cc03081b275d6b2189a1eda2148695bddcfe178e4985079b0c",
+        "plaintext_matches": true,
+        "bytes": 1036288,
+        "ciphertext_sha256_now": "80d240272c37341ac55ea339b59e5f60686c62f4648dc835d8a2760e4e98b962",
+        "ciphertext_bytes": 1036304,
+        "ciphertext_matches": true
+      },
+      "prior_consistency": {
+        "fileID": "5a4935c78a5255723f707230a451d79c540d2741",
+        "domain": "HomeDomain",
+        "relativePath": "Library/CallHistoryDB/CallHistory.storedata",
+        "manifest_size": 1196032,
+        "plaintext_size": 1036288,
+        "ciphertext_size": 1036304,
+        "padding_length": 16,
+        "cbc_size_relation_valid": true,
+        "manifest_digest_sha1": "15dc28b95d22129ef78a81e00361ecceaaa95683",
+        "plaintext_sha1": "2027db943004c14edca465674840b088196900e1",
+        "ciphertext_sha1": "15dc28b95d22129ef78a81e00361ecceaaa95683",
+        "digest_matches_plaintext": false,
+        "digest_matches_ciphertext": true,
+        "sqlite_page_size": 4096,
+        "sqlite_header_pages": 253,
+        "sqlite_header_bytes": 1036288,
+        "sqlite_header_size_match": true
+      },
+      "MBFile": {
+        "Size": 1196032,
+        "Birth": 1718107254,
+        "LastModified": 1755029177,
+        "LastStatusChange": 1754497514
+      },
+      "manifest_companions": [],
+      "sqlite_header": {
+        "page_size": 4096,
+        "write_version": 2,
+        "read_version": 2,
+        "change_counter": 2,
+        "database_pages": 253,
+        "freelist_pages": 0,
+        "version_valid_for": 2,
+        "sqlite_version": 3043002
+      },
+      "MBFile_minus_plaintext": 159744,
+      "delta_pages": 39.0
+    },
+    {
+      "source": {
+        "domain": "CameraRollDomain",
+        "relativePath": "Media/PhotoData/Photos.sqlite",
+        "fileID": "12b144c0bd44f2b3dffd9186d3f9c05b917cee25",
+        "sha256": "a2102dc95e855b57c77232a7bcfc6490025dab4633672d115563b0923e29e4b0",
+        "ciphertext_sha256": "7f752886875023c8a77e4e8c6abe5fc397a572eac4df917fee9f03f248bfaebf",
+        "path": "/home/chris/codeProjects/CMMConseils/telephones/recherche-TP-02/extraction-complements-20261014/files/CameraRollDomain/Media/PhotoData/Photos.sqlite",
+        "sha256_now": "a2102dc95e855b57c77232a7bcfc6490025dab4633672d115563b0923e29e4b0",
+        "plaintext_matches": true,
+        "bytes": 770113536,
+        "ciphertext_sha256_now": "7f752886875023c8a77e4e8c6abe5fc397a572eac4df917fee9f03f248bfaebf",
+        "ciphertext_bytes": 770113552,
+        "ciphertext_matches": true
+      },
+      "prior_consistency": {
+        "fileID": "12b144c0bd44f2b3dffd9186d3f9c05b917cee25",
+        "domain": "CameraRollDomain",
+        "relativePath": "Media/PhotoData/Photos.sqlite",
+        "manifest_size": 835297280,
+        "plaintext_size": 770113536,
+        "ciphertext_size": 770113552,
+        "padding_length": 16,
+        "cbc_size_relation_valid": true,
+        "sqlite_page_size": 4096,
+        "sqlite_header_pages": 188016,
+        "sqlite_header_bytes": 770113536,
+        "sqlite_header_size_match": true
+      },
+      "MBFile": {
+        "Size": 835297280,
+        "Birth": 1718107255,
+        "LastModified": 1789752287,
+        "LastStatusChange": 1789746768
+      },
+      "manifest_companions": [],
+      "sqlite_header": {
+        "page_size": 4096,
+        "write_version": 2,
+        "read_version": 2,
+        "change_counter": 2,
+        "database_pages": 188016,
+        "freelist_pages": 0,
+        "version_valid_for": 2,
+        "sqlite_version": 3043002
+      },
+      "MBFile_minus_plaintext": 65183744,
+      "delta_pages": 15914.0
+    },
+    {
+      "source": {
+        "domain": "AppDomain-com.lscsmartconnection.smart",
+        "relativePath": "Documents/panel/0000000432_2.51.0/main.jsbundle",
+        "fileID": "595f6eabf456229dc1b58ee6f5df7874d1748387",
+        "sha256": "b61b37bc4af051bafc316d4e6fdf5dca3524f0075e05ffd21898dad92169c181",
+        "ciphertext_sha256": "2a3308fc91fc604953fb9494f1075108375724572f3feb09bf8ba9f8cc401d49",
+        "path": "/home/chris/codeProjects/CMMConseils/telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.lscsmartconnection.smart/Documents/panel/0000000432_2.51.0/main.jsbundle",
+        "sha256_now": "b61b37bc4af051bafc316d4e6fdf5dca3524f0075e05ffd21898dad92169c181",
+        "plaintext_matches": true,
+        "bytes": 5083096,
+        "ciphertext_sha256_now": "2a3308fc91fc604953fb9494f1075108375724572f3feb09bf8ba9f8cc401d49",
+        "ciphertext_bytes": 5083104,
+        "ciphertext_matches": true
+      },
+      "prior_consistency": {
+        "fileID": "595f6eabf456229dc1b58ee6f5df7874d1748387",
+        "domain": "AppDomain-com.lscsmartconnection.smart",
+        "relativePath": "Documents/panel/0000000432_2.51.0/main.jsbundle",
+        "manifest_size": 5083096,
+        "plaintext_size": 5083096,
+        "ciphertext_size": 5083104,
+        "padding_length": 8,
+        "cbc_size_relation_valid": true
+      },
+      "MBFile": {
+        "Size": 5083096,
+        "Birth": 1730133557,
+        "LastModified": 1730133557,
+        "LastStatusChange": 1730133557
+      },
+      "manifest_companions": []
+    }
+  ],
+  "mismatch_extensions": {
+    ".db": 45,
+    ".sqlite": 37,
+    ".sqlite3": 5,
+    ".sqlitedb": 4,
+    ".storedata": 1
+  },
+  "mismatch_signs": {
+    "MBFile_larger": 73,
+    "MBFile_smaller": 19
+  },
+  "library_files": [
+    {
+      "path": "telephones/scripts/.venv-iphone/lib/python3.14/site-packages/iphone_backup_decrypt/utils.py",
+      "sha256": "5c9f18c821f19dee6ec699a774ec0edae6eb5291828335bddeb5c7b4e706e0c2"
+    },
+    {
+      "path": "telephones/scripts/.venv-iphone/lib/python3.14/site-packages/iphone_backup_decrypt/iphone_backup.py",
+      "sha256": "b46cc5249b1d31b3577b1ecdae49a37087e701c58be186887dde5828f5e14e7e"
+    }
+  ]
+}

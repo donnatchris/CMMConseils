@@ -1,0 +1,166 @@
+{
+  "samples": [
+    {
+      "data_id": 348329,
+      "data_type": 9,
+      "start_date": 750683672.1111703,
+      "end_date": 750684253.4545598,
+      "creation_date": 750684632.274027,
+      "provenance": 166,
+      "start_date_paris": "2024-10-15T13:14:32.111170+02:00",
+      "end_date_paris": "2024-10-15T13:24:13.454560+02:00",
+      "creation_date_paris": "2024-10-15T13:30:32.274027+02:00"
+    },
+    {
+      "data_id": 348330,
+      "data_type": 10,
+      "start_date": 750684243.282102,
+      "end_date": 750684253.4545598,
+      "creation_date": 750684853.464717,
+      "provenance": 166,
+      "start_date_paris": "2024-10-15T13:24:03.282102+02:00",
+      "end_date_paris": "2024-10-15T13:24:13.454560+02:00",
+      "creation_date_paris": "2024-10-15T13:34:13.464717+02:00"
+    },
+    {
+      "data_id": 348331,
+      "data_type": 8,
+      "start_date": 750683656.8348417,
+      "end_date": 750683689.9336104,
+      "creation_date": 750742293.935058,
+      "provenance": 166,
+      "start_date_paris": "2024-10-15T13:14:16.834842+02:00",
+      "end_date_paris": "2024-10-15T13:14:49.933610+02:00",
+      "creation_date_paris": "2024-10-16T05:31:33.935058+02:00"
+    },
+    {
+      "data_id": 348332,
+      "data_type": 7,
+      "start_date": 750683656.8348417,
+      "end_date": 750683689.9336104,
+      "creation_date": 750742293.945574,
+      "provenance": 166,
+      "start_date_paris": "2024-10-15T13:14:16.834842+02:00",
+      "end_date_paris": "2024-10-15T13:14:49.933610+02:00",
+      "creation_date_paris": "2024-10-16T05:31:33.945574+02:00"
+    },
+    {
+      "data_id": 348333,
+      "data_type": 9,
+      "start_date": 751795751.398908,
+      "end_date": 751799423.595445,
+      "creation_date": 751885823.776158,
+      "provenance": 166,
+      "start_date_paris": "2024-10-28T09:09:11.398908+01:00",
+      "end_date_paris": "2024-10-28T10:10:23.595445+01:00",
+      "creation_date_paris": "2024-10-29T10:10:23.776158+01:00"
+    },
+    {
+      "data_id": 348334,
+      "data_type": 9,
+      "start_date": 751799423.595445,
+      "end_date": 751805542.499095,
+      "creation_date": 751891942.819021,
+      "provenance": 166,
+      "start_date_paris": "2024-10-28T10:10:23.595445+01:00",
+      "end_date_paris": "2024-10-28T11:52:22.499095+01:00",
+      "creation_date_paris": "2024-10-29T11:52:22.819021+01:00"
+    },
+    {
+      "data_id": 348335,
+      "data_type": 9,
+      "start_date": 751805542.499095,
+      "end_date": 751812764.164034,
+      "creation_date": 751899164.376894,
+      "provenance": 166,
+      "start_date_paris": "2024-10-28T11:52:22.499095+01:00",
+      "end_date_paris": "2024-10-28T13:52:44.164034+01:00",
+      "creation_date_paris": "2024-10-29T13:52:44.376894+01:00"
+    },
+    {
+      "data_id": 348336,
+      "data_type": 9,
+      "start_date": 751812764.164034,
+      "end_date": 751820229.309264,
+      "creation_date": 751906629.590599,
+      "provenance": 166,
+      "start_date_paris": "2024-10-28T13:52:44.164034+01:00",
+      "end_date_paris": "2024-10-28T15:57:09.309264+01:00",
+      "creation_date_paris": "2024-10-29T15:57:09.590599+01:00"
+    },
+    {
+      "data_id": 348337,
+      "data_type": 9,
+      "start_date": 751820229.309264,
+      "end_date": 751829054.97838,
+      "creation_date": 751915455.231284,
+      "provenance": 166,
+      "start_date_paris": "2024-10-28T15:57:09.309264+01:00",
+      "end_date_paris": "2024-10-28T18:24:14.978380+01:00",
+      "creation_date_paris": "2024-10-29T18:24:15.231284+01:00"
+    },
+    {
+      "data_id": 348338,
+      "data_type": 9,
+      "start_date": 751829054.97838,
+      "end_date": 751835933.806412,
+      "creation_date": 751922334.077304,
+      "provenance": 166,
+      "start_date_paris": "2024-10-28T18:24:14.978380+01:00",
+      "end_date_paris": "2024-10-28T20:18:53.806412+01:00",
+      "creation_date_paris": "2024-10-29T20:18:54.077304+01:00"
+    }
+  ],
+  "provenances": [
+    {
+      "ROWID": 166,
+      "sync_provenance": 0,
+      "origin_product_type": "iPhone14,4",
+      "origin_build": "21F90",
+      "local_product_type": "iPhone14,4",
+      "local_build": "21F90",
+      "source_id": 1,
+      "device_id": 49,
+      "contributor_id": 1,
+      "source_version": "17.5.1",
+      "tz_name": "Europe/Paris",
+      "origin_major_version": 17,
+      "origin_minor_version": 5,
+      "origin_patch_version": 1,
+      "sync_identity": 2,
+      "derived_flags": 0
+    }
+  ],
+  "sources": [
+    {
+      "ROWID": 1,
+      "local_device": 1,
+      "product_type": "iPhone9,3",
+      "sync_identity": 1,
+      "deleted": 0
+    }
+  ],
+  "devices": [
+    {
+      "ROWID": 49,
+      "hardware": "iPhone14,4",
+      "software": "17.5.1",
+      "creation_date": 739103061.795034,
+      "sync_provenance": 0,
+      "sync_identity": 2,
+      "identifier_length": 0
+    }
+  ],
+  "identities": [
+    {
+      "ROWID": 1,
+      "hardware_hex": "00000000000000000000000000000000",
+      "database_hex": "00000000000000000000000000000000"
+    },
+    {
+      "ROWID": 2,
+      "hardware_hex": "9772E74419EE4299AC3D186D2BE5F2B0",
+      "database_hex": "B23F55ED338340289A30F1C95D6F2325"
+    }
+  ]
+}

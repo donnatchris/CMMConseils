@@ -1,0 +1,119 @@
+{
+  "bundle": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.lscsmartconnection.smart/Documents/panel/0000000432_2.51.0/main.jsbundle",
+  "metadata": "telephones/recherche-TP-02/extraction-cameras-20261014/files/AppDomain-com.lscsmartconnection.smart/Documents/panel/0000000432_2.51.0/main.jsbundle.meta",
+  "meta_bytes": 21,
+  "meta_parsed": false,
+  "code_contexts": [
+    {
+      "term": "ipcLocalViewTime",
+      "count": 20,
+      "contexts": [
+        {
+          "character_offset": 1738455,
+          "text": "mera,!1,e.devInfo.devId)),r((0,u.getCommonDevIdAsyncStorageByCode)(m.asyncStorageCodeLabs.ipcLocalViewTime,'600',e.devInfo.devId))}catch(e){}var o=e.devInfo,d=o.dps,i=o.schema;try{var l=(0,y.getDpIdFromDpCode)('ipc_player_flip"
+        },
+        {
+          "character_offset": 2002639,
+          "text": "otAuthorizationCard:!1,trafficInfoLoadEnd:!1,isUseBirdTabType:0,hasGeneralBirdIdentify:!1,ipcLocalViewTimeCache:'600',isLowDeviceOnline:!0});n.reducers={ipcCommonState:kr}},928);\n__d(function(t,e,r,n){function o(t){for(var e=a"
+        },
+        {
+          "character_offset": 2037914,
+          "text": "tState(),t=e.ipcCommonState,r=t.hasClickContinue,n=t.panelConfigFun,a=t.showVideoLoad,o=t.ipcLocalViewTimeCache,u=t.hasIccId,l=t.trafficCameraCache,s=e.dpState.ipc_4g_viewtime,c=n.videoClose,f=n.hidePreviewTime;if(a)return cle"
+        }
+      ]
+    },
+    {
+      "term": "ui_source:'0000000432'",
+      "count": 1,
+      "contexts": [
+        {
+          "character_offset": 3026422,
+          "text": "ner_type:'rn',container_version:'rn_5.8.0',utm_source:'rn',utm_medium:'direct',utm_rtid:a,ui_source:'0000000432'},t))},o.resetNormalAnimationAndMenu=function(){l.store.dispatch((0,S.hideNormalMenu)({hideNormalMenu:!1})),l.store.disp"
+        }
+      ]
+    },
+    {
+      "term": "p2pIsConnected",
+      "count": 40,
+      "contexts": [
+        {
+          "character_offset": 1957949,
+          "text": ".showMic=n.isMobileNetType=n.videoLoadText=n.reGetStream=n.showTryAgain=n.showVideoLoad=n.p2pIsConnected=n.isAndriodFullScreenNavMode=n.showLoadingToast=n.hasClickContinue=n.showLongTimePreviewDialog=void 0;var a,o=this,i=t("
+        },
+        {
+          "character_offset": 1958865,
+          "text": "ast'),N=n.isAndriodFullScreenNavMode=(0,i.createAction)('isAndriodFullScreenNavMode'),R=n.p2pIsConnected=(0,i.createAction)('p2pIsConnected'),M=n.showVideoLoad=(0,i.createAction)('SHOW_VIDEO_LOAD'),k=n.showTryAgain=(0,i.crea"
+        },
+        {
+          "character_offset": 1958900,
+          "text": "e=(0,i.createAction)('isAndriodFullScreenNavMode'),R=n.p2pIsConnected=(0,i.createAction)('p2pIsConnected'),M=n.showVideoLoad=(0,i.createAction)('SHOW_VIDEO_LOAD'),k=n.showTryAgain=(0,i.createAction)('SHOW_TRY_AGAIN'),F=n.reG"
+        }
+      ]
+    },
+    {
+      "term": "showVideoLoad",
+      "count": 131,
+      "contexts": [
+        {
+          "character_offset": 1957933,
+          "text": "=n.isRecording=n.showMic=n.isMobileNetType=n.videoLoadText=n.reGetStream=n.showTryAgain=n.showVideoLoad=n.p2pIsConnected=n.isAndriodFullScreenNavMode=n.showLoadingToast=n.hasClickContinue=n.showLongTimePreviewDialog=void 0;"
+        },
+        {
+          "character_offset": 1958921,
+          "text": "'isAndriodFullScreenNavMode'),R=n.p2pIsConnected=(0,i.createAction)('p2pIsConnected'),M=n.showVideoLoad=(0,i.createAction)('SHOW_VIDEO_LOAD'),k=n.showTryAgain=(0,i.createAction)('SHOW_TRY_AGAIN'),F=n.reGetStream=(0,i.create"
+        },
+        {
+          "character_offset": 1999045,
+          "text": "k:!1,showLockModal:!1,showLoadingToast:!1,isAndriodFullScreenNavMode:!0,p2pIsConnected:!1,showVideoLoad:!0,showTryAgain:!1,reGetStream:!1,videoLoadText:_.default.getLang('bridgeConnect'),isMobileNetType:!1,isRecording:!1,is"
+        }
+      ]
+    },
+    {
+      "term": "reGetStream",
+      "count": 34,
+      "contexts": [
+        {
+          "character_offset": 1957904,
+          "text": "Pending=n.isRecordingDisabled=n.isRecording=n.showMic=n.isMobileNetType=n.videoLoadText=n.reGetStream=n.showTryAgain=n.showVideoLoad=n.p2pIsConnected=n.isAndriodFullScreenNavMode=n.showLoadingToast=n.hasClickContinue=n.sh"
+        },
+        {
+          "character_offset": 1959031,
+          "text": "reateAction)('SHOW_VIDEO_LOAD'),k=n.showTryAgain=(0,i.createAction)('SHOW_TRY_AGAIN'),F=n.reGetStream=(0,i.createAction)('RE_GET_STREAM'),U=n.videoLoadText=(0,i.createAction)('VIDEO_LOAD_TEXT'),B=n.isMobileNetType=(0,i.cr"
+        },
+        {
+          "character_offset": 1999078,
+          "text": "Toast:!1,isAndriodFullScreenNavMode:!0,p2pIsConnected:!1,showVideoLoad:!0,showTryAgain:!1,reGetStream:!1,videoLoadText:_.default.getLang('bridgeConnect'),isMobileNetType:!1,isRecording:!1,isRecordingDisabled:!1,isTalkPend"
+        }
+      ]
+    },
+    {
+      "term": "ipcCommonState",
+      "count": 196,
+      "contexts": [
+        {
+          "character_offset": 499020,
+          "text": "value:function(e){var a=!0;['addAndEditSmart'].includes(e.id)&&(a=!1);var t=he.getState().ipcCommonState,l=t.isFullScreen,r=t.showMic,s=t.isRecording;return babelHelpers.extends({},e,{hideTopbar:!0},{enablePopGesture:!l&&!r&"
+        },
+        {
+          "character_offset": 2002702,
+          "text": ",hasGeneralBirdIdentify:!1,ipcLocalViewTimeCache:'600',isLowDeviceOnline:!0});n.reducers={ipcCommonState:kr}},928);\n__d(function(t,e,r,n){function o(t){for(var e=arguments.length,r=Array(e>1?e-1:0),n=1;n<e;n++)r[n-1]=argumen"
+        },
+        {
+          "character_offset": 2025202,
+          "text": "evId,bizType:0,code:e},'2.1')},i.TYNative.getBizCode=function(){return s.store.getState().ipcCommonState.isApp515?I('m.ipc.audio.code.by.device.get',{devId:i.TYNative.devInfo.devId},'1.0'):I('tuya.m.audio.bizcode.by.pid.get'"
+        }
+      ]
+    },
+    {
+      "term": "uiPhase:'preview'",
+      "count": 1,
+      "contexts": [
+        {
+          "character_offset": 830153,
+          "text": "ui.panel.config.get',postData:{gwId:v.default.devInfo.devId,devId:v.default.devInfo.devId,uiPhase:'preview'},v:'1.0'},function(t){var a=y.default.parseJSON(t);a&&a.layout?e(a.layout):e(null)},function(e){t(e)})})},v.default.get"
+        }
+      ]
+    }
+  ],
+  "meta_format": "opaque; non reconnu JSON/plist"
+}

@@ -1,0 +1,339 @@
+{
+  ".obliterated": [],
+  "data_ark": [],
+  "CloudConfiguration": [
+    {
+      "fileID": "1e6c0783f9b33d00b152067a0661c8fc8841073f",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/CloudConfigurationDetails.plist",
+      "flags": 1
+    }
+  ],
+  "CurrentPowerLog": [],
+  "netusage": [],
+  "ADDataStore": [
+    {
+      "fileID": "3c8610c6fbadec8f31b29f06a4e965f2b528d1f4",
+      "domain": "AppDomainGroup-group.com.netflix.Netflix",
+      "relativePath": "ntl.SQLPayloadDataStore.sqlite",
+      "flags": 1
+    }
+  ],
+  "knowledgeC": [
+    {
+      "fileID": "b10da0e84c6d534e90d11060946dc08ba23121b8",
+      "domain": "CameraRollDomain",
+      "relativePath": "Media/PhotoData/private/com.apple.intelligenceplatform.knowledgeconstructiond",
+      "flags": 2
+    },
+    {
+      "fileID": "1c410d5fd84435cfe79a9de1fc643c989765c7a9",
+      "domain": "CameraRollDomain",
+      "relativePath": "Media/PhotoData/private/com.apple.knowledgeconstructiond",
+      "flags": 2
+    },
+    {
+      "fileID": "a5479baac654b47f641dc18b53a71750c6411dff",
+      "domain": "CameraRollDomain",
+      "relativePath": "Media/PhotoData/external/com.apple.intelligenceplatform.knowledgeconstructiond",
+      "flags": 2
+    },
+    {
+      "fileID": "dfcb6635de6bf5e8ee76a380faef5602a412583e",
+      "domain": "CameraRollDomain",
+      "relativePath": "Media/PhotoData/external/com.apple.knowledgeconstructiond",
+      "flags": 2
+    },
+    {
+      "fileID": "65a10f5b860d584f7878f8da320c6df46f0ab9fa",
+      "domain": "AppDomainGroup-group.com.facebook.Facebook",
+      "relativePath": "TamMessageAcknowledgeClampWatermarkToActivity",
+      "flags": 1
+    }
+  ],
+  "shutdown": [
+    {
+      "fileID": "b2635959da99a44bf7301421ceb945dfa7d6b7f1",
+      "domain": "AppDomainGroup-group.com.facebook.Facebook",
+      "relativePath": "enable_mbi_execution_shutdown",
+      "flags": 1
+    }
+  ],
+  "configurationprofiles": [
+    {
+      "fileID": "d07301223f7c5050c8a12d770697f94614aa280a",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles",
+      "flags": 2
+    },
+    {
+      "fileID": "b2b33ffff1e35e0dcc5c886b9a964ba3a2e90a7d",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/MCSettingsEvents.plist.sb-88c62b0d-BqZVF7",
+      "flags": 2
+    },
+    {
+      "fileID": "17838d721beac0ee6e6a7dc1541b9429e5e13061",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/Features",
+      "flags": 2
+    },
+    {
+      "fileID": "b01df872c599c27fa003b26c621b2dba1e991377",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/Features/DEPPush",
+      "flags": 2
+    },
+    {
+      "fileID": "75a5229d56b88ec432c9a2b6a77a23ee7b694ef3",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/phone",
+      "flags": 2
+    },
+    {
+      "fileID": "0570415eb508276a4626d1952c7da108b691b692",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/PublicInfo",
+      "flags": 2
+    },
+    {
+      "fileID": "2779eb4953c1f319268908386d8fb583fe54dd98",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles",
+      "flags": 2
+    },
+    {
+      "fileID": "b57898c333d0770eccf899109724cb64d4d74315",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/PublicInfo",
+      "flags": 2
+    },
+    {
+      "fileID": "4bf2c57686ace66ebb9a7edafc27a5f59631b5f4",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "77e6b5a266733afee2b161f9ec40f2164639ab21",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/PublicInfo/MCMeta.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "4d607fcf6b9a281ae940ac7572e9494f4dfa2042",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/PayloadDependency.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "85cbb36a0a73dabd9e37d3d443bd186fa467e90f",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/LockdownParameters.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "b2998988ede72dc5ec6d24d258f060d2b2e961b1",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/ProfileTruth.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "5fe47b24af1681316db428b3b4e8108211665830",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/AppAccessibilityParameters.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "550a09c4f8c4d89df203ab615ffc979d3c56f613",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/ClientTruth.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "8e7f26685d92296da2100cfaf98173f45da1ce88",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/PayloadManifest.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "9c46fd950cb447d02fb55f6bfe00251032bda8b4",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/MCSettingsEvents.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "aac78adb09e91faadaa36de329f2d226d274c407",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/MCSettingsEvents.plist.sb-88c62b0d-BqZVF7/MCSettingsEvents.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "aeb25de285ea542f7ac7c2070cddd1961e369df1",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/MCProfileEvents.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "c857040ce4ce8654af495a2f04da92a0a5111fac",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/UserSettings.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "1e6c0783f9b33d00b152067a0661c8fc8841073f",
+      "domain": "SysSharedContainerDomain-systemgroup.com.apple.configurationprofiles",
+      "relativePath": "Library/ConfigurationProfiles/CloudConfigurationDetails.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "d79ef1238ebf1ba85c980522b41290af21cc8727",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/PublicInfo/MCMeta.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "6b3158f78f7ce11560be55e312146c3567e595e8",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/PayloadDependency.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "3c3b08edb593b2b4ec66ae993792462cc1d7ba92",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/PublicInfo/NamespacedUserSettings.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "8d2d037f3c9b3b3c01e552ee37344e8c995355a4",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/MCOutstandingNagComputation",
+      "flags": 1
+    },
+    {
+      "fileID": "3aef6f188cf22d663030b159b271f1f2591cf56a",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/PublicInfo/PublicEffectiveUserSettings.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "37f5f2cb0563afa31011b7da26a041a246ab44ad",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/ClientTruth.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "aa4bcc99697f859cbd3d9d35d46db9bbe00114de",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/ProfileTruth.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "01a14737bf725839e60201704f5e0447e23800a6",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/PublicInfo/Truth.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "7e9faeaa271021ac54a4f90cbaf047601854a20c",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/UserSettings.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "ecb5489ac8284e6a5fd307eaff829497eeaf500b",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/PayloadManifest.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "6241b2b9da35bc7ac51266cce64774fc975ccf00",
+      "domain": "HomeDomain",
+      "relativePath": "Library/UserConfigurationProfiles/EffectiveUserSettings.plist",
+      "flags": 1
+    }
+  ],
+  "CrashReporter": [
+    {
+      "fileID": "c5a1c2389ca26913277f8cf510ad3e6b1222c7e5",
+      "domain": "AppDomainGroup-group.com.xiaomi.mihome",
+      "relativePath": ".CrashReporterLite",
+      "flags": 2
+    },
+    {
+      "fileID": "5c5d55b29327a8b1bbcf63bf99c6a9faeca7448d",
+      "domain": "RootDomain",
+      "relativePath": "Library/Preferences/com.apple.CrashReporter.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "17b5f2d3e0cc89e2cbf1cf4de3cbb7407a549497",
+      "domain": "HomeDomain",
+      "relativePath": "Library/Preferences/com.apple.MultitouchSupport.crashReporter.plist",
+      "flags": 1
+    }
+  ],
+  "MobileBackup": [
+    {
+      "fileID": "00b0ac6c22b99900bb49047e2a24bfa35b2fa69c",
+      "domain": "HomeDomain",
+      "relativePath": "Library/Preferences/com.apple.MobileBackup.DemotedApps.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "2f0b2af6ff2371fcfaf405572b94d0e8551c5659",
+      "domain": "HomeDomain",
+      "relativePath": "Library/Preferences/com.apple.MobileBackup.plist",
+      "flags": 1
+    }
+  ],
+  "backupd": [
+    {
+      "fileID": "24637c5efff0a3e8d54cd0f56698d15b664f204e",
+      "domain": "AppDomainGroup-group.com.facebook.Facebook",
+      "relativePath": "EnableBackupDirectiveEphemeralMessageDuration",
+      "flags": 1
+    },
+    {
+      "fileID": "a8323a1323d9cad416d8b44d87c8049de1adff25",
+      "domain": "RootDomain",
+      "relativePath": "Library/Preferences/com.apple.backupd.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "47fc2666c2f803f1fd3185e6b569d32060fa7451",
+      "domain": "HomeDomain",
+      "relativePath": "Library/DuetExpertCenter/D2DBackups/ATXBackupData",
+      "flags": 1
+    }
+  ],
+  "timed": [
+    {
+      "fileID": "4d08310ddc9e2e131edbeed3e952ab8c1fb04c69",
+      "domain": "AppDomainGroup-group.com.daimler.mm",
+      "relativePath": "ADBMobileTimedEventsCache.sqlite",
+      "flags": 1
+    },
+    {
+      "fileID": "76a64e98bb8c9fd129738b1af6a3cf0b1fe3be3d",
+      "domain": "AppDomain-com.booking.BookingApp",
+      "relativePath": "Library/Application Support/BKHBookingHomeStorageArrivalTimeDomain",
+      "flags": 1
+    },
+    {
+      "fileID": "8908ce6368177c2b50dea21b2f780cf6f3978345",
+      "domain": "HomeDomain",
+      "relativePath": "Library/Preferences/com.apple.timed.plist",
+      "flags": 1
+    },
+    {
+      "fileID": "98272019655a106d3d5cfafcaabf09d1804b806a",
+      "domain": "HomeDomain",
+      "relativePath": "Library/Preferences/com.apple.mlruntimed.plist",
+      "flags": 1
+    }
+  ],
+  "mobileactivation": [],
+  "NetworkInterfaces": [],
+  "ICLOUD.apple.wifid": []
+}

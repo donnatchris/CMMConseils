@@ -40,4 +40,4 @@ Le diagnostic ne permet donc pas d’affirmer que TP-02 a été allumé lors de 
 
 Révision documentaire : 18 novembre 2026. Les dates des faits et des analyses restent celles indiquées dans le texte.
 
-Christophe DOnnat — Donnat Dev
+Christophe Donnat — Donnat Dev

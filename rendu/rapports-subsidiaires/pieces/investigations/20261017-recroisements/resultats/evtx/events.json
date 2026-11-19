@@ -1,0 +1,124 @@
+[
+  {
+    "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/System32/winevt/Logs/Microsoft-Windows-SMBServer%4Security.evtx",
+    "record": 1,
+    "utc": "2024-03-26T14:20:36.449835+00:00",
+    "paris": "2024-03-26T15:20:36.449835+01:00",
+    "provider": "Microsoft-Windows-SMBServer",
+    "id": "551",
+    "computer": "LAPTOP-RMCOB2VU",
+    "reasons": [
+      "smb-ip-139"
+    ],
+    "data": {
+      "SessionGUID": "{fc58f83d-7a40-0004-4ac5-c6fc407ada01}",
+      "ConnectionGUID": "{fc58f83d-7a40-0000-58db-a8fc407ada01}",
+      "Status": "0xc000006d",
+      "TranslatedStatus": "0xc000006d",
+      "ClientAddressLength": "16",
+      "ClientAddress": "AgDj/sCoAYsAAAAAAAAAAA==",
+      "SessionId": "0x00003c000000004d",
+      "UserNameLength": "0",
+      "ClientNameLength": "15",
+      "ClientName": "\\\\192.168.1.139",
+      "SPN": "session setup failed before the SPN could be queried",
+      "SPNValidationPolicy": "0",
+      "ReasonCode": "3"
+    }
+  },
+  {
+    "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/System32/winevt/Logs/Microsoft-Windows-SMBServer%4Security.evtx",
+    "record": 2,
+    "utc": "2024-03-26T14:21:12.489740+00:00",
+    "paris": "2024-03-26T15:21:12.489740+01:00",
+    "provider": "Microsoft-Windows-SMBServer",
+    "id": "551",
+    "computer": "LAPTOP-RMCOB2VU",
+    "reasons": [
+      "smb-ip-139"
+    ],
+    "data": {
+      "SessionGUID": "{fc58f83d-7a40-0006-431e-b1fc407ada01}",
+      "ConnectionGUID": "{fc58f83d-7a40-0006-421e-b1fc407ada01}",
+      "Status": "0xc000006d",
+      "TranslatedStatus": "0xc000006d",
+      "ClientAddressLength": "16",
+      "ClientAddress": "AgDldsCoAYsAAAAAAAAAAA==",
+      "SessionId": "0x00003c0000000051",
+      "UserNameLength": "0",
+      "ClientNameLength": "15",
+      "ClientName": "\\\\192.168.1.139",
+      "SPN": "session setup failed before the SPN could be queried",
+      "SPNValidationPolicy": "0",
+      "ReasonCode": "3"
+    }
+  },
+  {
+    "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/System32/winevt/Logs/Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx",
+    "record": 2113,
+    "utc": "2024-10-15T08:43:01.829475+00:00",
+    "paris": "2024-10-15T10:43:01.829475+02:00",
+    "provider": "Microsoft-Windows-WLAN-AutoConfig",
+    "id": "11010",
+    "computer": "LAPTOP-RMCOB2VU",
+    "reasons": [
+      "identite-op01-15oct"
+    ],
+    "data": {
+      "Adapter": "Intel(R) Wireless-AC 9560 160MHz",
+      "DeviceGuid": "{5665df60-23a6-4890-b13e-7c6fd488505c}",
+      "LocalMac": "50:E0:85:63:41:5B",
+      "SSID": "Freebox-537E9F",
+      "BSSType": "Infrastructure",
+      "Auth": "WPA2-Personal",
+      "AuthVal": "7",
+      "Cipher": "AES-CCMP",
+      "CipherVal": "4",
+      "FIPSMode": "0",
+      "OnexEnabled": "0",
+      "ConnectionId": "0x0000000000000001"
+    }
+  },
+  {
+    "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/System32/winevt/Logs/Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx",
+    "record": 2114,
+    "utc": "2024-10-15T08:43:01.846447+00:00",
+    "paris": "2024-10-15T10:43:01.846447+02:00",
+    "provider": "Microsoft-Windows-WLAN-AutoConfig",
+    "id": "11005",
+    "computer": "LAPTOP-RMCOB2VU",
+    "reasons": [
+      "identite-op01-15oct"
+    ],
+    "data": {
+      "Adapter": "Intel(R) Wireless-AC 9560 160MHz",
+      "DeviceGuid": "{5665df60-23a6-4890-b13e-7c6fd488505c}",
+      "LocalMac": "50:E0:85:63:41:5B",
+      "SSID": "Freebox-537E9F",
+      "BSSType": "Infrastructure",
+      "ConnectionId": "0x0000000000000001"
+    }
+  },
+  {
+    "source": "ordinateur/recherche-OP-01/extractions-acces/raw/Windows/System32/winevt/Logs/Microsoft-Windows-WLAN-AutoConfig%4Operational.evtx",
+    "record": 2115,
+    "utc": "2024-10-15T08:53:07.721527+00:00",
+    "paris": "2024-10-15T10:53:07.721527+02:00",
+    "provider": "Microsoft-Windows-WLAN-AutoConfig",
+    "id": "11004",
+    "computer": "LAPTOP-RMCOB2VU",
+    "reasons": [
+      "identite-op01-15oct"
+    ],
+    "data": {
+      "Adapter": "Intel(R) Wireless-AC 9560 160MHz",
+      "DeviceGuid": "{5665df60-23a6-4890-b13e-7c6fd488505c}",
+      "LocalMac": "50:E0:85:63:41:5B",
+      "SSID": "Freebox-537E9F",
+      "BSSType": "Infrastructure",
+      "SecurityHint": "L’opération a réussi.",
+      "SecurityHintCode": "0",
+      "ConnectionId": "0x0000000000000001"
+    }
+  }
+]
