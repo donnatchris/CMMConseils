@@ -298,7 +298,7 @@ Les dix heures de mise à la corbeille sont postérieures à l’ouverture du sc
 
 **Référence :** [Rapport TP-01](telephones/analyse-TP-01.md), § 2.1 ; [note TP-01](NOTE-DE-CONSTATATION-TP-01.md), paragraphes « Constat sur la couleur de l’appareil » et « Identifiants du téléphone ».
 
-**Limite :** La photographie disponible montre la face avant et ne permet pas de constater la couleur du dos de TP-01.
+**Limite :** La photographie disponible montre la face avant et ne permet pas de constater la couleur du dos de TP-01, mais le prestataire confirme avoir reçu un téléphone au dos vert.
 
 ## Constat n° 10 — Deux iPhone 13 mini et vingt-sept PDF inventoriés
 
@@ -386,12 +386,12 @@ Ces cinq dates du **17 octobre** se situent entre la mise sous scellés consign�
 
 | Capture | Timecode demandé | Heure incrustée le 15/10/2024 | Éléments visibles |
 | --- | --- | --- | --- |
-| [1 — constatation-01-00-00-00.png](photos-de-constatation/constatation-01-00-00-00.png) | **00:00:00** | **13:24:49** | Plusieurs personnes se tiennent dans le salon. Une personne est assise devant des dossiers ; trois objets rectangulaires sont posés sur la table basse. |
-| [2 — constatation-02-00-00-20.png](photos-de-constatation/constatation-02-00-00-20.png) | **00:00:20** | **13:25:09** | À droite, une personne auparavant assise est debout près du passage vers le couloir. Une personne reste assise devant les dossiers. |
-| [3 — constatation-03-00-00-30.png](photos-de-constatation/constatation-03-00-00-30.png) | **00:00:30** | **13:25:19** | La personne assise se penche sur la table basse et place une main au niveau des téléphones. Deux personnes sont debout à proximité. |
-| [4 — constatation-04-00-00-39.png](photos-de-constatation/constatation-04-00-00-39.png) | **00:00:39** | **13:25:28** | La personne assise garde une main près des téléphones. Une personne portant une veste verte se tient debout près de la table ; une autre personne en haut clair est à côté. |
-| [5 — constatation-05-00-00-44.png](photos-de-constatation/constatation-05-00-00-44.png) | **00:00:44** | **13:25:33** | Le cadrage comprend le couloir, où une personne est visible de dos. Les téléphones sont visibles sur la table, dont un écran sombre portant un motif blanc ; la main de la personne assise se trouve à leur niveau. |
-| [6 — constatation-06-00-01-20.png](photos-de-constatation/constatation-06-00-01-20.png) | **00:01:20** | **13:26:09** | Une personne est visible de face dans le passage entre le couloir et le salon ; une autre se tient derrière elle. Les dossiers et téléphones restent visibles sur la table. |
+| [1 — constatation-01-00-00-00.png](photos-de-constatation/constatation-01-00-00-00.png) | **00:00:00** | **13:24:49** | Plusieurs personnes se tiennent dans le salon. Mme Sadedine est assise sur le canapé. Une personne est assise devant des dossiers ; trois téléphones rectangulaires sont posés sur la table basse. |
+| [2 — constatation-02-00-00-20.png](photos-de-constatation/constatation-02-00-00-20.png) | **00:00:20** | **13:25:09** | Mme Sadedine quitte le salon. Une personne reste assise devant les dossiers. |
+| [3 — constatation-03-00-00-30.png](photos-de-constatation/constatation-03-00-00-30.png) | **00:00:30** | **13:25:19** | La personne assise se penche sur la table basse et manipule les téléphones. Deux personnes sont debout à proximité. |
+| [4 — constatation-04-00-00-39.png](photos-de-constatation/constatation-04-00-00-39.png) | **00:00:39** | **13:25:28** | La personne assise garde une main près des téléphones. Une personne semble faire une remarque à la personne assise en train de manipuler les téléphones. |
+| [5 — constatation-05-00-00-44.png](photos-de-constatation/constatation-05-00-00-44.png) | **00:00:44** | **13:25:33** | Les téléphones sont visibles sur la table; le logo Apple apparaît sur chacun. |
+| [6 — constatation-06-00-01-20.png](photos-de-constatation/constatation-06-00-01-20.png) | **00:01:20** | **13:26:09** | Mme Sadedine revient dans le salon. |
 
 Les temps de présentation des images effectivement extraites sont respectivement **0.000 s, 20.019 s, 30.034 s, 39.062 s, 44.032 s et 80.018 s**. Le SHA-256 de la vidéo source est `d107cd71085fd582a6401538a73b17de440d221f3372eef2fb93bc39ad964be9`.
 
